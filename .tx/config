@@ -1,0 +1,2913 @@
+[main]
+host = https://www.transifex.com
+
+[python-newest.glossary_]
+file_filter = translations/python-newest.glossary_/<lang>.po
+source_lang = en
+trans.id = glossary.po
+type = PO
+
+[python-newest.license]
+file_filter = translations/python-newest.license/<lang>.po
+source_lang = en
+trans.id = license.po
+type = PO
+
+[python-newest.sphinx]
+file_filter = translations/python-newest.sphinx/<lang>.po
+source_lang = en
+trans.id = sphinx.po
+type = PO
+
+[python-newest.about]
+file_filter = translations/python-newest.about/<lang>.po
+source_lang = en
+trans.id = about.po
+type = PO
+
+[python-newest.bugs]
+file_filter = translations/python-newest.bugs/<lang>.po
+source_lang = en
+trans.id = bugs.po
+type = PO
+
+[python-newest.copyright]
+file_filter = translations/python-newest.copyright/<lang>.po
+source_lang = en
+trans.id = copyright.po
+type = PO
+
+[python-newest.contents]
+file_filter = translations/python-newest.contents/<lang>.po
+source_lang = en
+trans.id = contents.po
+type = PO
+
+[python-newest.library--re]
+file_filter = translations/python-newest.library--re/<lang>.po
+source_lang = en
+trans.id = library/re.po
+type = PO
+
+[python-newest.library--sysconfig]
+file_filter = translations/python-newest.library--sysconfig/<lang>.po
+source_lang = en
+trans.id = library/sysconfig.po
+type = PO
+
+[python-newest.library--getpass]
+file_filter = translations/python-newest.library--getpass/<lang>.po
+source_lang = en
+trans.id = library/getpass.po
+type = PO
+
+[python-newest.library--imghdr]
+file_filter = translations/python-newest.library--imghdr/<lang>.po
+source_lang = en
+trans.id = library/imghdr.po
+type = PO
+
+[python-newest.library--zipapp]
+file_filter = translations/python-newest.library--zipapp/<lang>.po
+source_lang = en
+trans.id = library/zipapp.po
+type = PO
+
+[python-newest.library--urllib_error]
+file_filter = translations/python-newest.library--urllib_error/<lang>.po
+source_lang = en
+trans.id = library/urllib.error.po
+type = PO
+
+[python-newest.library--urllib_parse]
+file_filter = translations/python-newest.library--urllib_parse/<lang>.po
+source_lang = en
+trans.id = library/urllib.parse.po
+type = PO
+
+[python-newest.library--xml_sax_utils]
+file_filter = translations/python-newest.library--xml_sax_utils/<lang>.po
+source_lang = en
+trans.id = library/xml.sax.utils.po
+type = PO
+
+[python-newest.library--mmap]
+file_filter = translations/python-newest.library--mmap/<lang>.po
+source_lang = en
+trans.id = library/mmap.po
+type = PO
+
+[python-newest.library--difflib]
+file_filter = translations/python-newest.library--difflib/<lang>.po
+source_lang = en
+trans.id = library/difflib.po
+type = PO
+
+[python-newest.library--tkinter_scrolledtext]
+file_filter = translations/python-newest.library--tkinter_scrolledtext/<lang>.po
+source_lang = en
+trans.id = library/tkinter.scrolledtext.po
+type = PO
+
+[python-newest.library--parser]
+file_filter = translations/python-newest.library--parser/<lang>.po
+source_lang = en
+trans.id = library/parser.po
+type = PO
+
+[python-newest.library--pyexpat]
+file_filter = translations/python-newest.library--pyexpat/<lang>.po
+source_lang = en
+trans.id = library/pyexpat.po
+type = PO
+
+[python-newest.library--curses_panel]
+file_filter = translations/python-newest.library--curses_panel/<lang>.po
+source_lang = en
+trans.id = library/curses.panel.po
+type = PO
+
+[python-newest.library--fractions]
+file_filter = translations/python-newest.library--fractions/<lang>.po
+source_lang = en
+trans.id = library/fractions.po
+type = PO
+
+[python-newest.library--asyncio-subprocess]
+file_filter = translations/python-newest.library--asyncio-subprocess/<lang>.po
+source_lang = en
+trans.id = library/asyncio-subprocess.po
+type = PO
+
+[python-newest.library--compileall]
+file_filter = translations/python-newest.library--compileall/<lang>.po
+source_lang = en
+trans.id = library/compileall.po
+type = PO
+
+[python-newest.library--optparse]
+file_filter = translations/python-newest.library--optparse/<lang>.po
+source_lang = en
+trans.id = library/optparse.po
+type = PO
+
+[python-newest.library--imp]
+file_filter = translations/python-newest.library--imp/<lang>.po
+source_lang = en
+trans.id = library/imp.po
+type = PO
+
+[python-newest.library--locale]
+file_filter = translations/python-newest.library--locale/<lang>.po
+source_lang = en
+trans.id = library/locale.po
+type = PO
+
+[python-newest.library--ctypes]
+file_filter = translations/python-newest.library--ctypes/<lang>.po
+source_lang = en
+trans.id = library/ctypes.po
+type = PO
+
+[python-newest.library--doctest]
+file_filter = translations/python-newest.library--doctest/<lang>.po
+source_lang = en
+trans.id = library/doctest.po
+type = PO
+
+[python-newest.library--distribution]
+file_filter = translations/python-newest.library--distribution/<lang>.po
+source_lang = en
+trans.id = library/distribution.po
+type = PO
+
+[python-newest.library--ipc]
+file_filter = translations/python-newest.library--ipc/<lang>.po
+source_lang = en
+trans.id = library/ipc.po
+type = PO
+
+[python-newest.library--numeric]
+file_filter = translations/python-newest.library--numeric/<lang>.po
+source_lang = en
+trans.id = library/numeric.po
+type = PO
+
+[python-newest.library--email_headerregistry]
+file_filter = translations/python-newest.library--email_headerregistry/<lang>.po
+source_lang = en
+trans.id = library/email.headerregistry.po
+type = PO
+
+[python-newest.library--wave]
+file_filter = translations/python-newest.library--wave/<lang>.po
+source_lang = en
+trans.id = library/wave.po
+type = PO
+
+[python-newest.library--email_errors]
+file_filter = translations/python-newest.library--email_errors/<lang>.po
+source_lang = en
+trans.id = library/email.errors.po
+type = PO
+
+[python-newest.library--sunau]
+file_filter = translations/python-newest.library--sunau/<lang>.po
+source_lang = en
+trans.id = library/sunau.po
+type = PO
+
+[python-newest.library--datetime]
+file_filter = translations/python-newest.library--datetime/<lang>.po
+source_lang = en
+trans.id = library/datetime.po
+type = PO
+
+[python-newest.library--macpath]
+file_filter = translations/python-newest.library--macpath/<lang>.po
+source_lang = en
+trans.id = library/macpath.po
+type = PO
+
+[python-newest.library--unix]
+file_filter = translations/python-newest.library--unix/<lang>.po
+source_lang = en
+trans.id = library/unix.po
+type = PO
+
+[python-newest.library--array]
+file_filter = translations/python-newest.library--array/<lang>.po
+source_lang = en
+trans.id = library/array.po
+type = PO
+
+[python-newest.library--email_policy]
+file_filter = translations/python-newest.library--email_policy/<lang>.po
+source_lang = en
+trans.id = library/email.policy.po
+type = PO
+
+[python-newest.library--sched]
+file_filter = translations/python-newest.library--sched/<lang>.po
+source_lang = en
+trans.id = library/sched.po
+type = PO
+
+[python-newest.library--http_cookies]
+file_filter = translations/python-newest.library--http_cookies/<lang>.po
+source_lang = en
+trans.id = library/http.cookies.po
+type = PO
+
+[python-newest.library--shutil]
+file_filter = translations/python-newest.library--shutil/<lang>.po
+source_lang = en
+trans.id = library/shutil.po
+type = PO
+
+[python-newest.library--symbol]
+file_filter = translations/python-newest.library--symbol/<lang>.po
+source_lang = en
+trans.id = library/symbol.po
+type = PO
+
+[python-newest.library--xml_dom_minidom]
+file_filter = translations/python-newest.library--xml_dom_minidom/<lang>.po
+source_lang = en
+trans.id = library/xml.dom.minidom.po
+type = PO
+
+[python-newest.library--modules]
+file_filter = translations/python-newest.library--modules/<lang>.po
+source_lang = en
+trans.id = library/modules.po
+type = PO
+
+[python-newest.library--unicodedata]
+file_filter = translations/python-newest.library--unicodedata/<lang>.po
+source_lang = en
+trans.id = library/unicodedata.po
+type = PO
+
+[python-newest.library--tkinter_ttk]
+file_filter = translations/python-newest.library--tkinter_ttk/<lang>.po
+source_lang = en
+trans.id = library/tkinter.ttk.po
+type = PO
+
+[python-newest.library--binascii]
+file_filter = translations/python-newest.library--binascii/<lang>.po
+source_lang = en
+trans.id = library/binascii.po
+type = PO
+
+[python-newest.library--linecache]
+file_filter = translations/python-newest.library--linecache/<lang>.po
+source_lang = en
+trans.id = library/linecache.po
+type = PO
+
+[python-newest.library--functools]
+file_filter = translations/python-newest.library--functools/<lang>.po
+source_lang = en
+trans.id = library/functools.po
+type = PO
+
+[python-newest.library--xml_sax_reader]
+file_filter = translations/python-newest.library--xml_sax_reader/<lang>.po
+source_lang = en
+trans.id = library/xml.sax.reader.po
+type = PO
+
+[python-newest.library--pydoc]
+file_filter = translations/python-newest.library--pydoc/<lang>.po
+source_lang = en
+trans.id = library/pydoc.po
+type = PO
+
+[python-newest.library--pwd]
+file_filter = translations/python-newest.library--pwd/<lang>.po
+source_lang = en
+trans.id = library/pwd.po
+type = PO
+
+[python-newest.library--selectors]
+file_filter = translations/python-newest.library--selectors/<lang>.po
+source_lang = en
+trans.id = library/selectors.po
+type = PO
+
+[python-newest.library--os_path]
+file_filter = translations/python-newest.library--os_path/<lang>.po
+source_lang = en
+trans.id = library/os.path.po
+type = PO
+
+[python-newest.library--asyncio-sync]
+file_filter = translations/python-newest.library--asyncio-sync/<lang>.po
+source_lang = en
+trans.id = library/asyncio-sync.po
+type = PO
+
+[python-newest.library--_dummy_thread]
+file_filter = translations/python-newest.library--_dummy_thread/<lang>.po
+source_lang = en
+trans.id = library/_dummy_thread.po
+type = PO
+
+[python-newest.library--fcntl]
+file_filter = translations/python-newest.library--fcntl/<lang>.po
+source_lang = en
+trans.id = library/fcntl.po
+type = PO
+
+[python-newest.library--constants]
+file_filter = translations/python-newest.library--constants/<lang>.po
+source_lang = en
+trans.id = library/constants.po
+type = PO
+
+[python-newest.library--statistics]
+file_filter = translations/python-newest.library--statistics/<lang>.po
+source_lang = en
+trans.id = library/statistics.po
+type = PO
+
+[python-newest.library--pty]
+file_filter = translations/python-newest.library--pty/<lang>.po
+source_lang = en
+trans.id = library/pty.po
+type = PO
+
+[python-newest.library--crypto]
+file_filter = translations/python-newest.library--crypto/<lang>.po
+source_lang = en
+trans.id = library/crypto.po
+type = PO
+
+[python-newest.library--xml]
+file_filter = translations/python-newest.library--xml/<lang>.po
+source_lang = en
+trans.id = library/xml.po
+type = PO
+
+[python-newest.library--imaplib]
+file_filter = translations/python-newest.library--imaplib/<lang>.po
+source_lang = en
+trans.id = library/imaplib.po
+type = PO
+
+[python-newest.library--text]
+file_filter = translations/python-newest.library--text/<lang>.po
+source_lang = en
+trans.id = library/text.po
+type = PO
+
+[python-newest.library--mm]
+file_filter = translations/python-newest.library--mm/<lang>.po
+source_lang = en
+trans.id = library/mm.po
+type = PO
+
+[python-newest.library--tempfile]
+file_filter = translations/python-newest.library--tempfile/<lang>.po
+source_lang = en
+trans.id = library/tempfile.po
+type = PO
+
+[python-newest.library--traceback]
+file_filter = translations/python-newest.library--traceback/<lang>.po
+source_lang = en
+trans.id = library/traceback.po
+type = PO
+
+[python-newest.library--itertools]
+file_filter = translations/python-newest.library--itertools/<lang>.po
+source_lang = en
+trans.id = library/itertools.po
+type = PO
+
+[python-newest.library--__future__]
+file_filter = translations/python-newest.library--__future__/<lang>.po
+source_lang = en
+trans.id = library/__future__.po
+type = PO
+
+[python-newest.library--csv]
+file_filter = translations/python-newest.library--csv/<lang>.po
+source_lang = en
+trans.id = library/csv.po
+type = PO
+
+[python-newest.library--stringprep]
+file_filter = translations/python-newest.library--stringprep/<lang>.po
+source_lang = en
+trans.id = library/stringprep.po
+type = PO
+
+[python-newest.library--development]
+file_filter = translations/python-newest.library--development/<lang>.po
+source_lang = en
+trans.id = library/development.po
+type = PO
+
+[python-newest.library--platform]
+file_filter = translations/python-newest.library--platform/<lang>.po
+source_lang = en
+trans.id = library/platform.po
+type = PO
+
+[python-newest.library--time]
+file_filter = translations/python-newest.library--time/<lang>.po
+source_lang = en
+trans.id = library/time.po
+type = PO
+
+[python-newest.library--pyclbr]
+file_filter = translations/python-newest.library--pyclbr/<lang>.po
+source_lang = en
+trans.id = library/pyclbr.po
+type = PO
+
+[python-newest.library--crypt]
+file_filter = translations/python-newest.library--crypt/<lang>.po
+source_lang = en
+trans.id = library/crypt.po
+type = PO
+
+[python-newest.library--token]
+file_filter = translations/python-newest.library--token/<lang>.po
+source_lang = en
+trans.id = library/token.po
+type = PO
+
+[python-newest.library--spwd]
+file_filter = translations/python-newest.library--spwd/<lang>.po
+source_lang = en
+trans.id = library/spwd.po
+type = PO
+
+[python-newest.library--modulefinder]
+file_filter = translations/python-newest.library--modulefinder/<lang>.po
+source_lang = en
+trans.id = library/modulefinder.po
+type = PO
+
+[python-newest.library--argparse]
+file_filter = translations/python-newest.library--argparse/<lang>.po
+source_lang = en
+trans.id = library/argparse.po
+type = PO
+
+[python-newest.library--collections]
+file_filter = translations/python-newest.library--collections/<lang>.po
+source_lang = en
+trans.id = library/collections.po
+type = PO
+
+[python-newest.library--http]
+file_filter = translations/python-newest.library--http/<lang>.po
+source_lang = en
+trans.id = library/http.po
+type = PO
+
+[python-newest.library--email]
+file_filter = translations/python-newest.library--email/<lang>.po
+source_lang = en
+trans.id = library/email.po
+type = PO
+
+[python-newest.library--http_cookiejar]
+file_filter = translations/python-newest.library--http_cookiejar/<lang>.po
+source_lang = en
+trans.id = library/http.cookiejar.po
+type = PO
+
+[python-newest.library--cmd]
+file_filter = translations/python-newest.library--cmd/<lang>.po
+source_lang = en
+trans.id = library/cmd.po
+type = PO
+
+[python-newest.library--xml_dom_pulldom]
+file_filter = translations/python-newest.library--xml_dom_pulldom/<lang>.po
+source_lang = en
+trans.id = library/xml.dom.pulldom.po
+type = PO
+
+[python-newest.library--glob]
+file_filter = translations/python-newest.library--glob/<lang>.po
+source_lang = en
+trans.id = library/glob.po
+type = PO
+
+[python-newest.library--keyword]
+file_filter = translations/python-newest.library--keyword/<lang>.po
+source_lang = en
+trans.id = library/keyword.po
+type = PO
+
+[python-newest.library--concurrency]
+file_filter = translations/python-newest.library--concurrency/<lang>.po
+source_lang = en
+trans.id = library/concurrency.po
+type = PO
+
+[python-newest.library--atexit]
+file_filter = translations/python-newest.library--atexit/<lang>.po
+source_lang = en
+trans.id = library/atexit.po
+type = PO
+
+[python-newest.library--py_compile]
+file_filter = translations/python-newest.library--py_compile/<lang>.po
+source_lang = en
+trans.id = library/py_compile.po
+type = PO
+
+[python-newest.library--email_encoders]
+file_filter = translations/python-newest.library--email_encoders/<lang>.po
+source_lang = en
+trans.id = library/email.encoders.po
+type = PO
+
+[python-newest.library--inspect]
+file_filter = translations/python-newest.library--inspect/<lang>.po
+source_lang = en
+trans.id = library/inspect.po
+type = PO
+
+[python-newest.library--unittest_mock]
+file_filter = translations/python-newest.library--unittest_mock/<lang>.po
+source_lang = en
+trans.id = library/unittest.mock.po
+type = PO
+
+[python-newest.library--asyncio-eventloops]
+file_filter = translations/python-newest.library--asyncio-eventloops/<lang>.po
+source_lang = en
+trans.id = library/asyncio-eventloops.po
+type = PO
+
+[python-newest.library--allos]
+file_filter = translations/python-newest.library--allos/<lang>.po
+source_lang = en
+trans.id = library/allos.po
+type = PO
+
+[python-newest.library--stat]
+file_filter = translations/python-newest.library--stat/<lang>.po
+source_lang = en
+trans.id = library/stat.po
+type = PO
+
+[python-newest.library--curses]
+file_filter = translations/python-newest.library--curses/<lang>.po
+source_lang = en
+trans.id = library/curses.po
+type = PO
+
+[python-newest.library--persistence]
+file_filter = translations/python-newest.library--persistence/<lang>.po
+source_lang = en
+trans.id = library/persistence.po
+type = PO
+
+[python-newest.library--trace]
+file_filter = translations/python-newest.library--trace/<lang>.po
+source_lang = en
+trans.id = library/trace.po
+type = PO
+
+[python-newest.library--zipfile]
+file_filter = translations/python-newest.library--zipfile/<lang>.po
+source_lang = en
+trans.id = library/zipfile.po
+type = PO
+
+[python-newest.library--mimetypes]
+file_filter = translations/python-newest.library--mimetypes/<lang>.po
+source_lang = en
+trans.id = library/mimetypes.po
+type = PO
+
+[python-newest.library--superseded]
+file_filter = translations/python-newest.library--superseded/<lang>.po
+source_lang = en
+trans.id = library/superseded.po
+type = PO
+
+[python-newest.library--internet]
+file_filter = translations/python-newest.library--internet/<lang>.po
+source_lang = en
+trans.id = library/internet.po
+type = PO
+
+[python-newest.library--poplib]
+file_filter = translations/python-newest.library--poplib/<lang>.po
+source_lang = en
+trans.id = library/poplib.po
+type = PO
+
+[python-newest.library--language]
+file_filter = translations/python-newest.library--language/<lang>.po
+source_lang = en
+trans.id = library/language.po
+type = PO
+
+[python-newest.library--string]
+file_filter = translations/python-newest.library--string/<lang>.po
+source_lang = en
+trans.id = library/string.po
+type = PO
+
+[python-newest.library--mailcap]
+file_filter = translations/python-newest.library--mailcap/<lang>.po
+source_lang = en
+trans.id = library/mailcap.po
+type = PO
+
+[python-newest.library--email_parser]
+file_filter = translations/python-newest.library--email_parser/<lang>.po
+source_lang = en
+trans.id = library/email.parser.po
+type = PO
+
+[python-newest.library--bz2]
+file_filter = translations/python-newest.library--bz2/<lang>.po
+source_lang = en
+trans.id = library/bz2.po
+type = PO
+
+[python-newest.library--builtins]
+file_filter = translations/python-newest.library--builtins/<lang>.po
+source_lang = en
+trans.id = library/builtins.po
+type = PO
+
+[python-newest.library--logging_config]
+file_filter = translations/python-newest.library--logging_config/<lang>.po
+source_lang = en
+trans.id = library/logging.config.po
+type = PO
+
+[python-newest.library--xml_sax_handler]
+file_filter = translations/python-newest.library--xml_sax_handler/<lang>.po
+source_lang = en
+trans.id = library/xml.sax.handler.po
+type = PO
+
+[python-newest.library--intro]
+file_filter = translations/python-newest.library--intro/<lang>.po
+source_lang = en
+trans.id = library/intro.po
+type = PO
+
+[python-newest.library--python]
+file_filter = translations/python-newest.library--python/<lang>.po
+source_lang = en
+trans.id = library/python.po
+type = PO
+
+[python-newest.library--tarfile]
+file_filter = translations/python-newest.library--tarfile/<lang>.po
+source_lang = en
+trans.id = library/tarfile.po
+type = PO
+
+[python-newest.library--fnmatch]
+file_filter = translations/python-newest.library--fnmatch/<lang>.po
+source_lang = en
+trans.id = library/fnmatch.po
+type = PO
+
+[python-newest.library--tty]
+file_filter = translations/python-newest.library--tty/<lang>.po
+source_lang = en
+trans.id = library/tty.po
+type = PO
+
+[python-newest.library--signal]
+file_filter = translations/python-newest.library--signal/<lang>.po
+source_lang = en
+trans.id = library/signal.po
+type = PO
+
+[python-newest.library--contextlib]
+file_filter = translations/python-newest.library--contextlib/<lang>.po
+source_lang = en
+trans.id = library/contextlib.po
+type = PO
+
+[python-newest.library--pkgutil]
+file_filter = translations/python-newest.library--pkgutil/<lang>.po
+source_lang = en
+trans.id = library/pkgutil.po
+type = PO
+
+[python-newest.library--codeop]
+file_filter = translations/python-newest.library--codeop/<lang>.po
+source_lang = en
+trans.id = library/codeop.po
+type = PO
+
+[python-newest.library--gettext]
+file_filter = translations/python-newest.library--gettext/<lang>.po
+source_lang = en
+trans.id = library/gettext.po
+type = PO
+
+[python-newest.library--enum]
+file_filter = translations/python-newest.library--enum/<lang>.po
+source_lang = en
+trans.id = library/enum.po
+type = PO
+
+[python-newest.library--decimal]
+file_filter = translations/python-newest.library--decimal/<lang>.po
+source_lang = en
+trans.id = library/decimal.po
+type = PO
+
+[python-newest.library--asyncio]
+file_filter = translations/python-newest.library--asyncio/<lang>.po
+source_lang = en
+trans.id = library/asyncio.po
+type = PO
+
+[python-newest.library--windows]
+file_filter = translations/python-newest.library--windows/<lang>.po
+source_lang = en
+trans.id = library/windows.po
+type = PO
+
+[python-newest.library--urllib_request]
+file_filter = translations/python-newest.library--urllib_request/<lang>.po
+source_lang = en
+trans.id = library/urllib.request.po
+type = PO
+
+[python-newest.library--socket]
+file_filter = translations/python-newest.library--socket/<lang>.po
+source_lang = en
+trans.id = library/socket.po
+type = PO
+
+[python-newest.library--mailbox]
+file_filter = translations/python-newest.library--mailbox/<lang>.po
+source_lang = en
+trans.id = library/mailbox.po
+type = PO
+
+[python-newest.library--rlcompleter]
+file_filter = translations/python-newest.library--rlcompleter/<lang>.po
+source_lang = en
+trans.id = library/rlcompleter.po
+type = PO
+
+[python-newest.library--gzip]
+file_filter = translations/python-newest.library--gzip/<lang>.po
+source_lang = en
+trans.id = library/gzip.po
+type = PO
+
+[python-newest.library--http_client]
+file_filter = translations/python-newest.library--http_client/<lang>.po
+source_lang = en
+trans.id = library/http.client.po
+type = PO
+
+[python-newest.library--pickle]
+file_filter = translations/python-newest.library--pickle/<lang>.po
+source_lang = en
+trans.id = library/pickle.po
+type = PO
+
+[python-newest.library--concurrent]
+file_filter = translations/python-newest.library--concurrent/<lang>.po
+source_lang = en
+trans.id = library/concurrent.po
+type = PO
+
+[python-newest.library--timeit]
+file_filter = translations/python-newest.library--timeit/<lang>.po
+source_lang = en
+trans.id = library/timeit.po
+type = PO
+
+[python-newest.library--tkinter_tix]
+file_filter = translations/python-newest.library--tkinter_tix/<lang>.po
+source_lang = en
+trans.id = library/tkinter.tix.po
+type = PO
+
+[python-newest.library--readline]
+file_filter = translations/python-newest.library--readline/<lang>.po
+source_lang = en
+trans.id = library/readline.po
+type = PO
+
+[python-newest.library--netrc]
+file_filter = translations/python-newest.library--netrc/<lang>.po
+source_lang = en
+trans.id = library/netrc.po
+type = PO
+
+[python-newest.library--asyncio-dev]
+file_filter = translations/python-newest.library--asyncio-dev/<lang>.po
+source_lang = en
+trans.id = library/asyncio-dev.po
+type = PO
+
+[python-newest.library--email_charset]
+file_filter = translations/python-newest.library--email_charset/<lang>.po
+source_lang = en
+trans.id = library/email.charset.po
+type = PO
+
+[python-newest.library--venv]
+file_filter = translations/python-newest.library--venv/<lang>.po
+source_lang = en
+trans.id = library/venv.po
+type = PO
+
+[python-newest.library--struct]
+file_filter = translations/python-newest.library--struct/<lang>.po
+source_lang = en
+trans.id = library/struct.po
+type = PO
+
+[python-newest.library--dbm]
+file_filter = translations/python-newest.library--dbm/<lang>.po
+source_lang = en
+trans.id = library/dbm.po
+type = PO
+
+[python-newest.library--xdrlib]
+file_filter = translations/python-newest.library--xdrlib/<lang>.po
+source_lang = en
+trans.id = library/xdrlib.po
+type = PO
+
+[python-newest.library--markup]
+file_filter = translations/python-newest.library--markup/<lang>.po
+source_lang = en
+trans.id = library/markup.po
+type = PO
+
+[python-newest.library--dummy_threading]
+file_filter = translations/python-newest.library--dummy_threading/<lang>.po
+source_lang = en
+trans.id = library/dummy_threading.po
+type = PO
+
+[python-newest.library--xml_dom]
+file_filter = translations/python-newest.library--xml_dom/<lang>.po
+source_lang = en
+trans.id = library/xml.dom.po
+type = PO
+
+[python-newest.library--smtpd]
+file_filter = translations/python-newest.library--smtpd/<lang>.po
+source_lang = en
+trans.id = library/smtpd.po
+type = PO
+
+[python-newest.library--idle]
+file_filter = translations/python-newest.library--idle/<lang>.po
+source_lang = en
+trans.id = library/idle.po
+type = PO
+
+[python-newest.library--pipes]
+file_filter = translations/python-newest.library--pipes/<lang>.po
+source_lang = en
+trans.id = library/pipes.po
+type = PO
+
+[python-newest.library--chunk]
+file_filter = translations/python-newest.library--chunk/<lang>.po
+source_lang = en
+trans.id = library/chunk.po
+type = PO
+
+[python-newest.library--telnetlib]
+file_filter = translations/python-newest.library--telnetlib/<lang>.po
+source_lang = en
+trans.id = library/telnetlib.po
+type = PO
+
+[python-newest.library--filesys]
+file_filter = translations/python-newest.library--filesys/<lang>.po
+source_lang = en
+trans.id = library/filesys.po
+type = PO
+
+[python-newest.library--asynchat]
+file_filter = translations/python-newest.library--asynchat/<lang>.po
+source_lang = en
+trans.id = library/asynchat.po
+type = PO
+
+[python-newest.library--numbers]
+file_filter = translations/python-newest.library--numbers/<lang>.po
+source_lang = en
+trans.id = library/numbers.po
+type = PO
+
+[python-newest.library--xmlrpc_server]
+file_filter = translations/python-newest.library--xmlrpc_server/<lang>.po
+source_lang = en
+trans.id = library/xmlrpc.server.po
+type = PO
+
+[python-newest.library--plistlib]
+file_filter = translations/python-newest.library--plistlib/<lang>.po
+source_lang = en
+trans.id = library/plistlib.po
+type = PO
+
+[python-newest.library--secrets]
+file_filter = translations/python-newest.library--secrets/<lang>.po
+source_lang = en
+trans.id = library/secrets.po
+type = PO
+
+[python-newest.library--marshal]
+file_filter = translations/python-newest.library--marshal/<lang>.po
+source_lang = en
+trans.id = library/marshal.po
+type = PO
+
+[python-newest.library--html_parser]
+file_filter = translations/python-newest.library--html_parser/<lang>.po
+source_lang = en
+trans.id = library/html.parser.po
+type = PO
+
+[python-newest.library--netdata]
+file_filter = translations/python-newest.library--netdata/<lang>.po
+source_lang = en
+trans.id = library/netdata.po
+type = PO
+
+[python-newest.library--gc]
+file_filter = translations/python-newest.library--gc/<lang>.po
+source_lang = en
+trans.id = library/gc.po
+type = PO
+
+[python-newest.library--fileformats]
+file_filter = translations/python-newest.library--fileformats/<lang>.po
+source_lang = en
+trans.id = library/fileformats.po
+type = PO
+
+[python-newest.library--bisect]
+file_filter = translations/python-newest.library--bisect/<lang>.po
+source_lang = en
+trans.id = library/bisect.po
+type = PO
+
+[python-newest.library--symtable]
+file_filter = translations/python-newest.library--symtable/<lang>.po
+source_lang = en
+trans.id = library/symtable.po
+type = PO
+
+[python-newest.library--nis]
+file_filter = translations/python-newest.library--nis/<lang>.po
+source_lang = en
+trans.id = library/nis.po
+type = PO
+
+[python-newest.library--html]
+file_filter = translations/python-newest.library--html/<lang>.po
+source_lang = en
+trans.id = library/html.po
+type = PO
+
+[python-newest.library--typing]
+file_filter = translations/python-newest.library--typing/<lang>.po
+source_lang = en
+trans.id = library/typing.po
+type = PO
+
+[python-newest.library--weakref]
+file_filter = translations/python-newest.library--weakref/<lang>.po
+source_lang = en
+trans.id = library/weakref.po
+type = PO
+
+[python-newest.library--shlex]
+file_filter = translations/python-newest.library--shlex/<lang>.po
+source_lang = en
+trans.id = library/shlex.po
+type = PO
+
+[python-newest.library--binary]
+file_filter = translations/python-newest.library--binary/<lang>.po
+source_lang = en
+trans.id = library/binary.po
+type = PO
+
+[python-newest.library--distutils]
+file_filter = translations/python-newest.library--distutils/<lang>.po
+source_lang = en
+trans.id = library/distutils.po
+type = PO
+
+[python-newest.library--email_generator]
+file_filter = translations/python-newest.library--email_generator/<lang>.po
+source_lang = en
+trans.id = library/email.generator.po
+type = PO
+
+[python-newest.library--ensurepip]
+file_filter = translations/python-newest.library--ensurepip/<lang>.po
+source_lang = en
+trans.id = library/ensurepip.po
+type = PO
+
+[python-newest.library--importlib]
+file_filter = translations/python-newest.library--importlib/<lang>.po
+source_lang = en
+trans.id = library/importlib.po
+type = PO
+
+[python-newest.library--warnings]
+file_filter = translations/python-newest.library--warnings/<lang>.po
+source_lang = en
+trans.id = library/warnings.po
+type = PO
+
+[python-newest.library--tabnanny]
+file_filter = translations/python-newest.library--tabnanny/<lang>.po
+source_lang = en
+trans.id = library/tabnanny.po
+type = PO
+
+[python-newest.library--json]
+file_filter = translations/python-newest.library--json/<lang>.po
+source_lang = en
+trans.id = library/json.po
+type = PO
+
+[python-newest.library--reprlib]
+file_filter = translations/python-newest.library--reprlib/<lang>.po
+source_lang = en
+trans.id = library/reprlib.po
+type = PO
+
+[python-newest.library--concurrent_futures]
+file_filter = translations/python-newest.library--concurrent_futures/<lang>.po
+source_lang = en
+trans.id = library/concurrent.futures.po
+type = PO
+
+[python-newest.library--tk]
+file_filter = translations/python-newest.library--tk/<lang>.po
+source_lang = en
+trans.id = library/tk.po
+type = PO
+
+[python-newest.library--abc]
+file_filter = translations/python-newest.library--abc/<lang>.po
+source_lang = en
+trans.id = library/abc.po
+type = PO
+
+[python-newest.library--filecmp]
+file_filter = translations/python-newest.library--filecmp/<lang>.po
+source_lang = en
+trans.id = library/filecmp.po
+type = PO
+
+[python-newest.library--undoc]
+file_filter = translations/python-newest.library--undoc/<lang>.po
+source_lang = en
+trans.id = library/undoc.po
+type = PO
+
+[python-newest.library--functions]
+file_filter = translations/python-newest.library--functions/<lang>.po
+source_lang = en
+trans.id = library/functions.po
+type = PO
+
+[python-newest.library--unittest_mock-examples]
+file_filter = translations/python-newest.library--unittest_mock-examples/<lang>.po
+source_lang = en
+trans.id = library/unittest.mock-examples.po
+type = PO
+
+[python-newest.library--heapq]
+file_filter = translations/python-newest.library--heapq/<lang>.po
+source_lang = en
+trans.id = library/heapq.po
+type = PO
+
+[python-newest.library--termios]
+file_filter = translations/python-newest.library--termios/<lang>.po
+source_lang = en
+trans.id = library/termios.po
+type = PO
+
+[python-newest.library--errno]
+file_filter = translations/python-newest.library--errno/<lang>.po
+source_lang = en
+trans.id = library/errno.po
+type = PO
+
+[python-newest.library--calendar]
+file_filter = translations/python-newest.library--calendar/<lang>.po
+source_lang = en
+trans.id = library/calendar.po
+type = PO
+
+[python-newest.library--configparser]
+file_filter = translations/python-newest.library--configparser/<lang>.po
+source_lang = en
+trans.id = library/configparser.po
+type = PO
+
+[python-newest.library--unittest]
+file_filter = translations/python-newest.library--unittest/<lang>.po
+source_lang = en
+trans.id = library/unittest.po
+type = PO
+
+[python-newest.library--socketserver]
+file_filter = translations/python-newest.library--socketserver/<lang>.po
+source_lang = en
+trans.id = library/socketserver.po
+type = PO
+
+[python-newest.library--tokenize]
+file_filter = translations/python-newest.library--tokenize/<lang>.po
+source_lang = en
+trans.id = library/tokenize.po
+type = PO
+
+[python-newest.library--random]
+file_filter = translations/python-newest.library--random/<lang>.po
+source_lang = en
+trans.id = library/random.po
+type = PO
+
+[python-newest.library--code]
+file_filter = translations/python-newest.library--code/<lang>.po
+source_lang = en
+trans.id = library/code.po
+type = PO
+
+[python-newest.library--sqlite3]
+file_filter = translations/python-newest.library--sqlite3/<lang>.po
+source_lang = en
+trans.id = library/sqlite3.po
+type = PO
+
+[python-newest.library--colorsys]
+file_filter = translations/python-newest.library--colorsys/<lang>.po
+source_lang = en
+trans.id = library/colorsys.po
+type = PO
+
+[python-newest.library--quopri]
+file_filter = translations/python-newest.library--quopri/<lang>.po
+source_lang = en
+trans.id = library/quopri.po
+type = PO
+
+[python-newest.library--dis]
+file_filter = translations/python-newest.library--dis/<lang>.po
+source_lang = en
+trans.id = library/dis.po
+type = PO
+
+[python-newest.library--stdtypes]
+file_filter = translations/python-newest.library--stdtypes/<lang>.po
+source_lang = en
+trans.id = library/stdtypes.po
+type = PO
+
+[python-newest.library--tracemalloc]
+file_filter = translations/python-newest.library--tracemalloc/<lang>.po
+source_lang = en
+trans.id = library/tracemalloc.po
+type = PO
+
+[python-newest.library--queue]
+file_filter = translations/python-newest.library--queue/<lang>.po
+source_lang = en
+trans.id = library/queue.po
+type = PO
+
+[python-newest.library--posix]
+file_filter = translations/python-newest.library--posix/<lang>.po
+source_lang = en
+trans.id = library/posix.po
+type = PO
+
+[python-newest.library--turtle]
+file_filter = translations/python-newest.library--turtle/<lang>.po
+source_lang = en
+trans.id = library/turtle.po
+type = PO
+
+[python-newest.library--faulthandler]
+file_filter = translations/python-newest.library--faulthandler/<lang>.po
+source_lang = en
+trans.id = library/faulthandler.po
+type = PO
+
+[python-newest.library--email_examples]
+file_filter = translations/python-newest.library--email_examples/<lang>.po
+source_lang = en
+trans.id = library/email.examples.po
+type = PO
+
+[python-newest.library--base64]
+file_filter = translations/python-newest.library--base64/<lang>.po
+source_lang = en
+trans.id = library/base64.po
+type = PO
+
+[python-newest.library--index]
+file_filter = translations/python-newest.library--index/<lang>.po
+source_lang = en
+trans.id = library/index.po
+type = PO
+
+[python-newest.library--email_message]
+file_filter = translations/python-newest.library--email_message/<lang>.po
+source_lang = en
+trans.id = library/email.message.po
+type = PO
+
+[python-newest.library--xml_etree_elementtree]
+file_filter = translations/python-newest.library--xml_etree_elementtree/<lang>.po
+source_lang = en
+trans.id = library/xml.etree.elementtree.po
+type = PO
+
+[python-newest.library--asyncio-task]
+file_filter = translations/python-newest.library--asyncio-task/<lang>.po
+source_lang = en
+trans.id = library/asyncio-task.po
+type = PO
+
+[python-newest.library--asyncore]
+file_filter = translations/python-newest.library--asyncore/<lang>.po
+source_lang = en
+trans.id = library/asyncore.po
+type = PO
+
+[python-newest.library--uu]
+file_filter = translations/python-newest.library--uu/<lang>.po
+source_lang = en
+trans.id = library/uu.po
+type = PO
+
+[python-newest.library--urllib_robotparser]
+file_filter = translations/python-newest.library--urllib_robotparser/<lang>.po
+source_lang = en
+trans.id = library/urllib.robotparser.po
+type = PO
+
+[python-newest.library--cgitb]
+file_filter = translations/python-newest.library--cgitb/<lang>.po
+source_lang = en
+trans.id = library/cgitb.po
+type = PO
+
+[python-newest.library--pathlib]
+file_filter = translations/python-newest.library--pathlib/<lang>.po
+source_lang = en
+trans.id = library/pathlib.po
+type = PO
+
+[python-newest.library--misc]
+file_filter = translations/python-newest.library--misc/<lang>.po
+source_lang = en
+trans.id = library/misc.po
+type = PO
+
+[python-newest.library--_thread]
+file_filter = translations/python-newest.library--_thread/<lang>.po
+source_lang = en
+trans.id = library/_thread.po
+type = PO
+
+[python-newest.library--email_header]
+file_filter = translations/python-newest.library--email_header/<lang>.po
+source_lang = en
+trans.id = library/email.header.po
+type = PO
+
+[python-newest.library--runpy]
+file_filter = translations/python-newest.library--runpy/<lang>.po
+source_lang = en
+trans.id = library/runpy.po
+type = PO
+
+[python-newest.library--asyncio-eventloop]
+file_filter = translations/python-newest.library--asyncio-eventloop/<lang>.po
+source_lang = en
+trans.id = library/asyncio-eventloop.po
+type = PO
+
+[python-newest.library--textwrap]
+file_filter = translations/python-newest.library--textwrap/<lang>.po
+source_lang = en
+trans.id = library/textwrap.po
+type = PO
+
+[python-newest.library--msilib]
+file_filter = translations/python-newest.library--msilib/<lang>.po
+source_lang = en
+trans.id = library/msilib.po
+type = PO
+
+[python-newest.library--debug]
+file_filter = translations/python-newest.library--debug/<lang>.po
+source_lang = en
+trans.id = library/debug.po
+type = PO
+
+[python-newest.library--nntplib]
+file_filter = translations/python-newest.library--nntplib/<lang>.po
+source_lang = en
+trans.id = library/nntplib.po
+type = PO
+
+[python-newest.library--ast]
+file_filter = translations/python-newest.library--ast/<lang>.po
+source_lang = en
+trans.id = library/ast.po
+type = PO
+
+[python-newest.library--site]
+file_filter = translations/python-newest.library--site/<lang>.po
+source_lang = en
+trans.id = library/site.po
+type = PO
+
+[python-newest.library--uuid]
+file_filter = translations/python-newest.library--uuid/<lang>.po
+source_lang = en
+trans.id = library/uuid.po
+type = PO
+
+[python-newest.library--email_iterators]
+file_filter = translations/python-newest.library--email_iterators/<lang>.po
+source_lang = en
+trans.id = library/email.iterators.po
+type = PO
+
+[python-newest.library--threading]
+file_filter = translations/python-newest.library--threading/<lang>.po
+source_lang = en
+trans.id = library/threading.po
+type = PO
+
+[python-newest.library--email_mime]
+file_filter = translations/python-newest.library--email_mime/<lang>.po
+source_lang = en
+trans.id = library/email.mime.po
+type = PO
+
+[python-newest.library--shelve]
+file_filter = translations/python-newest.library--shelve/<lang>.po
+source_lang = en
+trans.id = library/shelve.po
+type = PO
+
+[python-newest.library--profile]
+file_filter = translations/python-newest.library--profile/<lang>.po
+source_lang = en
+trans.id = library/profile.po
+type = PO
+
+[python-newest.library--math]
+file_filter = translations/python-newest.library--math/<lang>.po
+source_lang = en
+trans.id = library/math.po
+type = PO
+
+[python-newest.library--fileinput]
+file_filter = translations/python-newest.library--fileinput/<lang>.po
+source_lang = en
+trans.id = library/fileinput.po
+type = PO
+
+[python-newest.library--select]
+file_filter = translations/python-newest.library--select/<lang>.po
+source_lang = en
+trans.id = library/select.po
+type = PO
+
+[python-newest.library--pprint]
+file_filter = translations/python-newest.library--pprint/<lang>.po
+source_lang = en
+trans.id = library/pprint.po
+type = PO
+
+[python-newest.library--datatypes]
+file_filter = translations/python-newest.library--datatypes/<lang>.po
+source_lang = en
+trans.id = library/datatypes.po
+type = PO
+
+[python-newest.library--ssl]
+file_filter = translations/python-newest.library--ssl/<lang>.po
+source_lang = en
+trans.id = library/ssl.po
+type = PO
+
+[python-newest.library--asyncio-queue]
+file_filter = translations/python-newest.library--asyncio-queue/<lang>.po
+source_lang = en
+trans.id = library/asyncio-queue.po
+type = PO
+
+[python-newest.library--binhex]
+file_filter = translations/python-newest.library--binhex/<lang>.po
+source_lang = en
+trans.id = library/binhex.po
+type = PO
+
+[python-newest.library--io]
+file_filter = translations/python-newest.library--io/<lang>.po
+source_lang = en
+trans.id = library/io.po
+type = PO
+
+[python-newest.library--asyncio-protocol]
+file_filter = translations/python-newest.library--asyncio-protocol/<lang>.po
+source_lang = en
+trans.id = library/asyncio-protocol.po
+type = PO
+
+[python-newest.library--othergui]
+file_filter = translations/python-newest.library--othergui/<lang>.po
+source_lang = en
+trans.id = library/othergui.po
+type = PO
+
+[python-newest.library--webbrowser]
+file_filter = translations/python-newest.library--webbrowser/<lang>.po
+source_lang = en
+trans.id = library/webbrowser.po
+type = PO
+
+[python-newest.library--hmac]
+file_filter = translations/python-newest.library--hmac/<lang>.po
+source_lang = en
+trans.id = library/hmac.po
+type = PO
+
+[python-newest.library--collections_abc]
+file_filter = translations/python-newest.library--collections_abc/<lang>.po
+source_lang = en
+trans.id = library/collections.abc.po
+type = PO
+
+[python-newest.library--ftplib]
+file_filter = translations/python-newest.library--ftplib/<lang>.po
+source_lang = en
+trans.id = library/ftplib.po
+type = PO
+
+[python-newest.library--multiprocessing]
+file_filter = translations/python-newest.library--multiprocessing/<lang>.po
+source_lang = en
+trans.id = library/multiprocessing.po
+type = PO
+
+[python-newest.library--types]
+file_filter = translations/python-newest.library--types/<lang>.po
+source_lang = en
+trans.id = library/types.po
+type = PO
+
+[python-newest.library--ipaddress]
+file_filter = translations/python-newest.library--ipaddress/<lang>.po
+source_lang = en
+trans.id = library/ipaddress.po
+type = PO
+
+[python-newest.library--fpectl]
+file_filter = translations/python-newest.library--fpectl/<lang>.po
+source_lang = en
+trans.id = library/fpectl.po
+type = PO
+
+[python-newest.library--exceptions]
+file_filter = translations/python-newest.library--exceptions/<lang>.po
+source_lang = en
+trans.id = library/exceptions.po
+type = PO
+
+[python-newest.library--asyncio-stream]
+file_filter = translations/python-newest.library--asyncio-stream/<lang>.po
+source_lang = en
+trans.id = library/asyncio-stream.po
+type = PO
+
+[python-newest.library--custominterp]
+file_filter = translations/python-newest.library--custominterp/<lang>.po
+source_lang = en
+trans.id = library/custominterp.po
+type = PO
+
+[python-newest.library--codecs]
+file_filter = translations/python-newest.library--codecs/<lang>.po
+source_lang = en
+trans.id = library/codecs.po
+type = PO
+
+[python-newest.library--bdb]
+file_filter = translations/python-newest.library--bdb/<lang>.po
+source_lang = en
+trans.id = library/bdb.po
+type = PO
+
+[python-newest.library--archiving]
+file_filter = translations/python-newest.library--archiving/<lang>.po
+source_lang = en
+trans.id = library/archiving.po
+type = PO
+
+[python-newest.library--hashlib]
+file_filter = translations/python-newest.library--hashlib/<lang>.po
+source_lang = en
+trans.id = library/hashlib.po
+type = PO
+
+[python-newest.library--tkinter]
+file_filter = translations/python-newest.library--tkinter/<lang>.po
+source_lang = en
+trans.id = library/tkinter.po
+type = PO
+
+[python-newest.library--sys]
+file_filter = translations/python-newest.library--sys/<lang>.po
+source_lang = en
+trans.id = library/sys.po
+type = PO
+
+[python-newest.library--cmath]
+file_filter = translations/python-newest.library--cmath/<lang>.po
+source_lang = en
+trans.id = library/cmath.po
+type = PO
+
+[python-newest.library--functional]
+file_filter = translations/python-newest.library--functional/<lang>.po
+source_lang = en
+trans.id = library/functional.po
+type = PO
+
+[python-newest.library--html_entities]
+file_filter = translations/python-newest.library--html_entities/<lang>.po
+source_lang = en
+trans.id = library/html.entities.po
+type = PO
+
+[python-newest.library--resource]
+file_filter = translations/python-newest.library--resource/<lang>.po
+source_lang = en
+trans.id = library/resource.po
+type = PO
+
+[python-newest.library--pickletools]
+file_filter = translations/python-newest.library--pickletools/<lang>.po
+source_lang = en
+trans.id = library/pickletools.po
+type = PO
+
+[python-newest.library--email_util]
+file_filter = translations/python-newest.library--email_util/<lang>.po
+source_lang = en
+trans.id = library/email.util.po
+type = PO
+
+[python-newest.library--xmlrpc]
+file_filter = translations/python-newest.library--xmlrpc/<lang>.po
+source_lang = en
+trans.id = library/xmlrpc.po
+type = PO
+
+[python-newest.library--lzma]
+file_filter = translations/python-newest.library--lzma/<lang>.po
+source_lang = en
+trans.id = library/lzma.po
+type = PO
+
+[python-newest.library--syslog]
+file_filter = translations/python-newest.library--syslog/<lang>.po
+source_lang = en
+trans.id = library/syslog.po
+type = PO
+
+[python-newest.library--subprocess]
+file_filter = translations/python-newest.library--subprocess/<lang>.po
+source_lang = en
+trans.id = library/subprocess.po
+type = PO
+
+[python-newest.library--pdb]
+file_filter = translations/python-newest.library--pdb/<lang>.po
+source_lang = en
+trans.id = library/pdb.po
+type = PO
+
+[python-newest.library--wsgiref]
+file_filter = translations/python-newest.library--wsgiref/<lang>.po
+source_lang = en
+trans.id = library/wsgiref.po
+type = PO
+
+[python-newest.library--formatter]
+file_filter = translations/python-newest.library--formatter/<lang>.po
+source_lang = en
+trans.id = library/formatter.po
+type = PO
+
+[python-newest.library--getopt]
+file_filter = translations/python-newest.library--getopt/<lang>.po
+source_lang = en
+trans.id = library/getopt.po
+type = PO
+
+[python-newest.library--cgi]
+file_filter = translations/python-newest.library--cgi/<lang>.po
+source_lang = en
+trans.id = library/cgi.po
+type = PO
+
+[python-newest.library--winsound]
+file_filter = translations/python-newest.library--winsound/<lang>.po
+source_lang = en
+trans.id = library/winsound.po
+type = PO
+
+[python-newest.library--audioop]
+file_filter = translations/python-newest.library--audioop/<lang>.po
+source_lang = en
+trans.id = library/audioop.po
+type = PO
+
+[python-newest.library--__main__]
+file_filter = translations/python-newest.library--__main__/<lang>.po
+source_lang = en
+trans.id = library/__main__.po
+type = PO
+
+[python-newest.library--sndhdr]
+file_filter = translations/python-newest.library--sndhdr/<lang>.po
+source_lang = en
+trans.id = library/sndhdr.po
+type = PO
+
+[python-newest.library--copy]
+file_filter = translations/python-newest.library--copy/<lang>.po
+source_lang = en
+trans.id = library/copy.po
+type = PO
+
+[python-newest.library--email_contentmanager]
+file_filter = translations/python-newest.library--email_contentmanager/<lang>.po
+source_lang = en
+trans.id = library/email.contentmanager.po
+type = PO
+
+[python-newest.library--aifc]
+file_filter = translations/python-newest.library--aifc/<lang>.po
+source_lang = en
+trans.id = library/aifc.po
+type = PO
+
+[python-newest.library--msvcrt]
+file_filter = translations/python-newest.library--msvcrt/<lang>.po
+source_lang = en
+trans.id = library/msvcrt.po
+type = PO
+
+[python-newest.library--xmlrpc_client]
+file_filter = translations/python-newest.library--xmlrpc_client/<lang>.po
+source_lang = en
+trans.id = library/xmlrpc.client.po
+type = PO
+
+[python-newest.library--logging_handlers]
+file_filter = translations/python-newest.library--logging_handlers/<lang>.po
+source_lang = en
+trans.id = library/logging.handlers.po
+type = PO
+
+[python-newest.library--grp]
+file_filter = translations/python-newest.library--grp/<lang>.po
+source_lang = en
+trans.id = library/grp.po
+type = PO
+
+[python-newest.library--logging]
+file_filter = translations/python-newest.library--logging/<lang>.po
+source_lang = en
+trans.id = library/logging.po
+type = PO
+
+[python-newest.library--i18n]
+file_filter = translations/python-newest.library--i18n/<lang>.po
+source_lang = en
+trans.id = library/i18n.po
+type = PO
+
+[python-newest.library--zipimport]
+file_filter = translations/python-newest.library--zipimport/<lang>.po
+source_lang = en
+trans.id = library/zipimport.po
+type = PO
+
+[python-newest.library--curses_ascii]
+file_filter = translations/python-newest.library--curses_ascii/<lang>.po
+source_lang = en
+trans.id = library/curses.ascii.po
+type = PO
+
+[python-newest.library--operator]
+file_filter = translations/python-newest.library--operator/<lang>.po
+source_lang = en
+trans.id = library/operator.po
+type = PO
+
+[python-newest.library--winreg]
+file_filter = translations/python-newest.library--winreg/<lang>.po
+source_lang = en
+trans.id = library/winreg.po
+type = PO
+
+[python-newest.library--frameworks]
+file_filter = translations/python-newest.library--frameworks/<lang>.po
+source_lang = en
+trans.id = library/frameworks.po
+type = PO
+
+[python-newest.library--ossaudiodev]
+file_filter = translations/python-newest.library--ossaudiodev/<lang>.po
+source_lang = en
+trans.id = library/ossaudiodev.po
+type = PO
+
+[python-newest.library--urllib]
+file_filter = translations/python-newest.library--urllib/<lang>.po
+source_lang = en
+trans.id = library/urllib.po
+type = PO
+
+[python-newest.library--os]
+file_filter = translations/python-newest.library--os/<lang>.po
+source_lang = en
+trans.id = library/os.po
+type = PO
+
+[python-newest.library--smtplib]
+file_filter = translations/python-newest.library--smtplib/<lang>.po
+source_lang = en
+trans.id = library/smtplib.po
+type = PO
+
+[python-newest.library--copyreg]
+file_filter = translations/python-newest.library--copyreg/<lang>.po
+source_lang = en
+trans.id = library/copyreg.po
+type = PO
+
+[python-newest.library--test]
+file_filter = translations/python-newest.library--test/<lang>.po
+source_lang = en
+trans.id = library/test.po
+type = PO
+
+[python-newest.library--xml_sax]
+file_filter = translations/python-newest.library--xml_sax/<lang>.po
+source_lang = en
+trans.id = library/xml.sax.po
+type = PO
+
+[python-newest.library--2to3]
+file_filter = translations/python-newest.library--2to3/<lang>.po
+source_lang = en
+trans.id = library/2to3.po
+type = PO
+
+[python-newest.library--http_server]
+file_filter = translations/python-newest.library--http_server/<lang>.po
+source_lang = en
+trans.id = library/http.server.po
+type = PO
+
+[python-newest.library--email_compat32-message]
+file_filter = translations/python-newest.library--email_compat32-message/<lang>.po
+source_lang = en
+trans.id = library/email.compat32-message.po
+type = PO
+
+[python-newest.library--zlib]
+file_filter = translations/python-newest.library--zlib/<lang>.po
+source_lang = en
+trans.id = library/zlib.po
+type = PO
+
+[python-newest.distutils--configfile]
+file_filter = translations/python-newest.distutils--configfile/<lang>.po
+source_lang = en
+trans.id = distutils/configfile.po
+type = PO
+
+[python-newest.distutils--sourcedist]
+file_filter = translations/python-newest.distutils--sourcedist/<lang>.po
+source_lang = en
+trans.id = distutils/sourcedist.po
+type = PO
+
+[python-newest.distutils--extending]
+file_filter = translations/python-newest.distutils--extending/<lang>.po
+source_lang = en
+trans.id = distutils/extending.po
+type = PO
+
+[python-newest.distutils--setupscript]
+file_filter = translations/python-newest.distutils--setupscript/<lang>.po
+source_lang = en
+trans.id = distutils/setupscript.po
+type = PO
+
+[python-newest.distutils--commandref]
+file_filter = translations/python-newest.distutils--commandref/<lang>.po
+source_lang = en
+trans.id = distutils/commandref.po
+type = PO
+
+[python-newest.distutils--builtdist]
+file_filter = translations/python-newest.distutils--builtdist/<lang>.po
+source_lang = en
+trans.id = distutils/builtdist.po
+type = PO
+
+[python-newest.distutils--introduction]
+file_filter = translations/python-newest.distutils--introduction/<lang>.po
+source_lang = en
+trans.id = distutils/introduction.po
+type = PO
+
+[python-newest.distutils--index]
+file_filter = translations/python-newest.distutils--index/<lang>.po
+source_lang = en
+trans.id = distutils/index.po
+type = PO
+
+[python-newest.distutils--packageindex]
+file_filter = translations/python-newest.distutils--packageindex/<lang>.po
+source_lang = en
+trans.id = distutils/packageindex.po
+type = PO
+
+[python-newest.distutils--examples]
+file_filter = translations/python-newest.distutils--examples/<lang>.po
+source_lang = en
+trans.id = distutils/examples.po
+type = PO
+
+[python-newest.distutils--uploading]
+file_filter = translations/python-newest.distutils--uploading/<lang>.po
+source_lang = en
+trans.id = distutils/uploading.po
+type = PO
+
+[python-newest.distutils--apiref]
+file_filter = translations/python-newest.distutils--apiref/<lang>.po
+source_lang = en
+trans.id = distutils/apiref.po
+type = PO
+
+[python-newest.distributing--index]
+file_filter = translations/python-newest.distributing--index/<lang>.po
+source_lang = en
+trans.id = distributing/index.po
+type = PO
+
+[python-newest.faq--extending]
+file_filter = translations/python-newest.faq--extending/<lang>.po
+source_lang = en
+trans.id = faq/extending.po
+type = PO
+
+[python-newest.faq--windows]
+file_filter = translations/python-newest.faq--windows/<lang>.po
+source_lang = en
+trans.id = faq/windows.po
+type = PO
+
+[python-newest.faq--general]
+file_filter = translations/python-newest.faq--general/<lang>.po
+source_lang = en
+trans.id = faq/general.po
+type = PO
+
+[python-newest.faq--library]
+file_filter = translations/python-newest.faq--library/<lang>.po
+source_lang = en
+trans.id = faq/library.po
+type = PO
+
+[python-newest.faq--gui]
+file_filter = translations/python-newest.faq--gui/<lang>.po
+source_lang = en
+trans.id = faq/gui.po
+type = PO
+
+[python-newest.faq--installed]
+file_filter = translations/python-newest.faq--installed/<lang>.po
+source_lang = en
+trans.id = faq/installed.po
+type = PO
+
+[python-newest.faq--index]
+file_filter = translations/python-newest.faq--index/<lang>.po
+source_lang = en
+trans.id = faq/index.po
+type = PO
+
+[python-newest.faq--design]
+file_filter = translations/python-newest.faq--design/<lang>.po
+source_lang = en
+trans.id = faq/design.po
+type = PO
+
+[python-newest.faq--programming]
+file_filter = translations/python-newest.faq--programming/<lang>.po
+source_lang = en
+trans.id = faq/programming.po
+type = PO
+
+[python-newest.using--unix]
+file_filter = translations/python-newest.using--unix/<lang>.po
+source_lang = en
+trans.id = using/unix.po
+type = PO
+
+[python-newest.using--mac]
+file_filter = translations/python-newest.using--mac/<lang>.po
+source_lang = en
+trans.id = using/mac.po
+type = PO
+
+[python-newest.using--cmdline]
+file_filter = translations/python-newest.using--cmdline/<lang>.po
+source_lang = en
+trans.id = using/cmdline.po
+type = PO
+
+[python-newest.using--windows]
+file_filter = translations/python-newest.using--windows/<lang>.po
+source_lang = en
+trans.id = using/windows.po
+type = PO
+
+[python-newest.using--index]
+file_filter = translations/python-newest.using--index/<lang>.po
+source_lang = en
+trans.id = using/index.po
+type = PO
+
+[python-newest.howto--clinic]
+file_filter = translations/python-newest.howto--clinic/<lang>.po
+source_lang = en
+trans.id = howto/clinic.po
+type = PO
+
+[python-newest.howto--urllib2]
+file_filter = translations/python-newest.howto--urllib2/<lang>.po
+source_lang = en
+trans.id = howto/urllib2.po
+type = PO
+
+[python-newest.howto--argparse]
+file_filter = translations/python-newest.howto--argparse/<lang>.po
+source_lang = en
+trans.id = howto/argparse.po
+type = PO
+
+[python-newest.howto--curses]
+file_filter = translations/python-newest.howto--curses/<lang>.po
+source_lang = en
+trans.id = howto/curses.po
+type = PO
+
+[python-newest.howto--logging-cookbook]
+file_filter = translations/python-newest.howto--logging-cookbook/<lang>.po
+source_lang = en
+trans.id = howto/logging-cookbook.po
+type = PO
+
+[python-newest.howto--sockets]
+file_filter = translations/python-newest.howto--sockets/<lang>.po
+source_lang = en
+trans.id = howto/sockets.po
+type = PO
+
+[python-newest.howto--pyporting]
+file_filter = translations/python-newest.howto--pyporting/<lang>.po
+source_lang = en
+trans.id = howto/pyporting.po
+type = PO
+
+[python-newest.howto--index]
+file_filter = translations/python-newest.howto--index/<lang>.po
+source_lang = en
+trans.id = howto/index.po
+type = PO
+
+[python-newest.howto--unicode]
+file_filter = translations/python-newest.howto--unicode/<lang>.po
+source_lang = en
+trans.id = howto/unicode.po
+type = PO
+
+[python-newest.howto--instrumentation]
+file_filter = translations/python-newest.howto--instrumentation/<lang>.po
+source_lang = en
+trans.id = howto/instrumentation.po
+type = PO
+
+[python-newest.howto--cporting]
+file_filter = translations/python-newest.howto--cporting/<lang>.po
+source_lang = en
+trans.id = howto/cporting.po
+type = PO
+
+[python-newest.howto--ipaddress]
+file_filter = translations/python-newest.howto--ipaddress/<lang>.po
+source_lang = en
+trans.id = howto/ipaddress.po
+type = PO
+
+[python-newest.howto--sorting]
+file_filter = translations/python-newest.howto--sorting/<lang>.po
+source_lang = en
+trans.id = howto/sorting.po
+type = PO
+
+[python-newest.howto--functional]
+file_filter = translations/python-newest.howto--functional/<lang>.po
+source_lang = en
+trans.id = howto/functional.po
+type = PO
+
+[python-newest.howto--logging]
+file_filter = translations/python-newest.howto--logging/<lang>.po
+source_lang = en
+trans.id = howto/logging.po
+type = PO
+
+[python-newest.howto--regex]
+file_filter = translations/python-newest.howto--regex/<lang>.po
+source_lang = en
+trans.id = howto/regex.po
+type = PO
+
+[python-newest.howto--descriptor]
+file_filter = translations/python-newest.howto--descriptor/<lang>.po
+source_lang = en
+trans.id = howto/descriptor.po
+type = PO
+
+[python-newest.install--index]
+file_filter = translations/python-newest.install--index/<lang>.po
+source_lang = en
+trans.id = install/index.po
+type = PO
+
+[python-newest.reference--simple_stmts]
+file_filter = translations/python-newest.reference--simple_stmts/<lang>.po
+source_lang = en
+trans.id = reference/simple_stmts.po
+type = PO
+
+[python-newest.reference--expressions]
+file_filter = translations/python-newest.reference--expressions/<lang>.po
+source_lang = en
+trans.id = reference/expressions.po
+type = PO
+
+[python-newest.reference--compound_stmts]
+file_filter = translations/python-newest.reference--compound_stmts/<lang>.po
+source_lang = en
+trans.id = reference/compound_stmts.po
+type = PO
+
+[python-newest.reference--introduction]
+file_filter = translations/python-newest.reference--introduction/<lang>.po
+source_lang = en
+trans.id = reference/introduction.po
+type = PO
+
+[python-newest.reference--import]
+file_filter = translations/python-newest.reference--import/<lang>.po
+source_lang = en
+trans.id = reference/import.po
+type = PO
+
+[python-newest.reference--grammar]
+file_filter = translations/python-newest.reference--grammar/<lang>.po
+source_lang = en
+trans.id = reference/grammar.po
+type = PO
+
+[python-newest.reference--datamodel]
+file_filter = translations/python-newest.reference--datamodel/<lang>.po
+source_lang = en
+trans.id = reference/datamodel.po
+type = PO
+
+[python-newest.reference--index]
+file_filter = translations/python-newest.reference--index/<lang>.po
+source_lang = en
+trans.id = reference/index.po
+type = PO
+
+[python-newest.reference--toplevel_components]
+file_filter = translations/python-newest.reference--toplevel_components/<lang>.po
+source_lang = en
+trans.id = reference/toplevel_components.po
+type = PO
+
+[python-newest.reference--lexical_analysis]
+file_filter = translations/python-newest.reference--lexical_analysis/<lang>.po
+source_lang = en
+trans.id = reference/lexical_analysis.po
+type = PO
+
+[python-newest.reference--executionmodel]
+file_filter = translations/python-newest.reference--executionmodel/<lang>.po
+source_lang = en
+trans.id = reference/executionmodel.po
+type = PO
+
+[python-newest.whatsnew--2_6]
+file_filter = translations/python-newest.whatsnew--2_6/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.6.po
+type = PO
+
+[python-newest.whatsnew--2_3]
+file_filter = translations/python-newest.whatsnew--2_3/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.3.po
+type = PO
+
+[python-newest.whatsnew--changelog]
+file_filter = translations/python-newest.whatsnew--changelog/<lang>.po
+source_lang = en
+trans.id = whatsnew/changelog.po
+type = PO
+
+[python-newest.whatsnew--2_2]
+file_filter = translations/python-newest.whatsnew--2_2/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.2.po
+type = PO
+
+[python-newest.whatsnew--3_3]
+file_filter = translations/python-newest.whatsnew--3_3/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.3.po
+type = PO
+
+[python-newest.whatsnew--3_4]
+file_filter = translations/python-newest.whatsnew--3_4/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.4.po
+type = PO
+
+[python-newest.whatsnew--3_2]
+file_filter = translations/python-newest.whatsnew--3_2/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.2.po
+type = PO
+
+[python-newest.whatsnew--2_7]
+file_filter = translations/python-newest.whatsnew--2_7/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.7.po
+type = PO
+
+[python-newest.whatsnew--3_1]
+file_filter = translations/python-newest.whatsnew--3_1/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.1.po
+type = PO
+
+[python-newest.whatsnew--3_0]
+file_filter = translations/python-newest.whatsnew--3_0/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.0.po
+type = PO
+
+[python-newest.whatsnew--index]
+file_filter = translations/python-newest.whatsnew--index/<lang>.po
+source_lang = en
+trans.id = whatsnew/index.po
+type = PO
+
+[python-newest.whatsnew--2_0]
+file_filter = translations/python-newest.whatsnew--2_0/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.0.po
+type = PO
+
+[python-newest.whatsnew--2_4]
+file_filter = translations/python-newest.whatsnew--2_4/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.4.po
+type = PO
+
+[python-newest.whatsnew--3_5]
+file_filter = translations/python-newest.whatsnew--3_5/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.5.po
+type = PO
+
+[python-newest.whatsnew--2_5]
+file_filter = translations/python-newest.whatsnew--2_5/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.5.po
+type = PO
+
+[python-newest.whatsnew--2_1]
+file_filter = translations/python-newest.whatsnew--2_1/<lang>.po
+source_lang = en
+trans.id = whatsnew/2.1.po
+type = PO
+
+[python-newest.whatsnew--3_6]
+file_filter = translations/python-newest.whatsnew--3_6/<lang>.po
+source_lang = en
+trans.id = whatsnew/3.6.po
+type = PO
+
+[python-newest.tutorial--modules]
+file_filter = translations/python-newest.tutorial--modules/<lang>.po
+source_lang = en
+trans.id = tutorial/modules.po
+type = PO
+
+[python-newest.tutorial--stdlib2]
+file_filter = translations/python-newest.tutorial--stdlib2/<lang>.po
+source_lang = en
+trans.id = tutorial/stdlib2.po
+type = PO
+
+[python-newest.tutorial--whatnow]
+file_filter = translations/python-newest.tutorial--whatnow/<lang>.po
+source_lang = en
+trans.id = tutorial/whatnow.po
+type = PO
+
+[python-newest.tutorial--floatingpoint]
+file_filter = translations/python-newest.tutorial--floatingpoint/<lang>.po
+source_lang = en
+trans.id = tutorial/floatingpoint.po
+type = PO
+
+[python-newest.tutorial--inputoutput]
+file_filter = translations/python-newest.tutorial--inputoutput/<lang>.po
+source_lang = en
+trans.id = tutorial/inputoutput.po
+type = PO
+
+[python-newest.tutorial--classes]
+file_filter = translations/python-newest.tutorial--classes/<lang>.po
+source_lang = en
+trans.id = tutorial/classes.po
+type = PO
+
+[python-newest.tutorial--appendix]
+file_filter = translations/python-newest.tutorial--appendix/<lang>.po
+source_lang = en
+trans.id = tutorial/appendix.po
+type = PO
+
+[python-newest.tutorial--interactive]
+file_filter = translations/python-newest.tutorial--interactive/<lang>.po
+source_lang = en
+trans.id = tutorial/interactive.po
+type = PO
+
+[python-newest.tutorial--venv]
+file_filter = translations/python-newest.tutorial--venv/<lang>.po
+source_lang = en
+trans.id = tutorial/venv.po
+type = PO
+
+[python-newest.tutorial--introduction]
+file_filter = translations/python-newest.tutorial--introduction/<lang>.po
+source_lang = en
+trans.id = tutorial/introduction.po
+type = PO
+
+[python-newest.tutorial--index]
+file_filter = translations/python-newest.tutorial--index/<lang>.po
+source_lang = en
+trans.id = tutorial/index.po
+type = PO
+
+[python-newest.tutorial--controlflow]
+file_filter = translations/python-newest.tutorial--controlflow/<lang>.po
+source_lang = en
+trans.id = tutorial/controlflow.po
+type = PO
+
+[python-newest.tutorial--appetite]
+file_filter = translations/python-newest.tutorial--appetite/<lang>.po
+source_lang = en
+trans.id = tutorial/appetite.po
+type = PO
+
+[python-newest.tutorial--errors]
+file_filter = translations/python-newest.tutorial--errors/<lang>.po
+source_lang = en
+trans.id = tutorial/errors.po
+type = PO
+
+[python-newest.tutorial--interpreter]
+file_filter = translations/python-newest.tutorial--interpreter/<lang>.po
+source_lang = en
+trans.id = tutorial/interpreter.po
+type = PO
+
+[python-newest.tutorial--datastructures]
+file_filter = translations/python-newest.tutorial--datastructures/<lang>.po
+source_lang = en
+trans.id = tutorial/datastructures.po
+type = PO
+
+[python-newest.tutorial--stdlib]
+file_filter = translations/python-newest.tutorial--stdlib/<lang>.po
+source_lang = en
+trans.id = tutorial/stdlib.po
+type = PO
+
+[python-newest.extending--building]
+file_filter = translations/python-newest.extending--building/<lang>.po
+source_lang = en
+trans.id = extending/building.po
+type = PO
+
+[python-newest.extending--extending]
+file_filter = translations/python-newest.extending--extending/<lang>.po
+source_lang = en
+trans.id = extending/extending.po
+type = PO
+
+[python-newest.extending--windows]
+file_filter = translations/python-newest.extending--windows/<lang>.po
+source_lang = en
+trans.id = extending/windows.po
+type = PO
+
+[python-newest.extending--index]
+file_filter = translations/python-newest.extending--index/<lang>.po
+source_lang = en
+trans.id = extending/index.po
+type = PO
+
+[python-newest.extending--embedding]
+file_filter = translations/python-newest.extending--embedding/<lang>.po
+source_lang = en
+trans.id = extending/embedding.po
+type = PO
+
+[python-newest.extending--newtypes]
+file_filter = translations/python-newest.extending--newtypes/<lang>.po
+source_lang = en
+trans.id = extending/newtypes.po
+type = PO
+
+[python-newest.installing--index]
+file_filter = translations/python-newest.installing--index/<lang>.po
+source_lang = en
+trans.id = installing/index.po
+type = PO
+
+[python-newest.c-api--conversion]
+file_filter = translations/python-newest.c-api--conversion/<lang>.po
+source_lang = en
+trans.id = c-api/conversion.po
+type = PO
+
+[python-newest.c-api--datetime]
+file_filter = translations/python-newest.c-api--datetime/<lang>.po
+source_lang = en
+trans.id = c-api/datetime.po
+type = PO
+
+[python-newest.c-api--memory]
+file_filter = translations/python-newest.c-api--memory/<lang>.po
+source_lang = en
+trans.id = c-api/memory.po
+type = PO
+
+[python-newest.c-api--coro]
+file_filter = translations/python-newest.c-api--coro/<lang>.po
+source_lang = en
+trans.id = c-api/coro.po
+type = PO
+
+[python-newest.c-api--file]
+file_filter = translations/python-newest.c-api--file/<lang>.po
+source_lang = en
+trans.id = c-api/file.po
+type = PO
+
+[python-newest.c-api--object]
+file_filter = translations/python-newest.c-api--object/<lang>.po
+source_lang = en
+trans.id = c-api/object.po
+type = PO
+
+[python-newest.c-api--capsule]
+file_filter = translations/python-newest.c-api--capsule/<lang>.po
+source_lang = en
+trans.id = c-api/capsule.po
+type = PO
+
+[python-newest.c-api--function]
+file_filter = translations/python-newest.c-api--function/<lang>.po
+source_lang = en
+trans.id = c-api/function.po
+type = PO
+
+[python-newest.c-api--refcounting]
+file_filter = translations/python-newest.c-api--refcounting/<lang>.po
+source_lang = en
+trans.id = c-api/refcounting.po
+type = PO
+
+[python-newest.c-api--cell]
+file_filter = translations/python-newest.c-api--cell/<lang>.po
+source_lang = en
+trans.id = c-api/cell.po
+type = PO
+
+[python-newest.c-api--none]
+file_filter = translations/python-newest.c-api--none/<lang>.po
+source_lang = en
+trans.id = c-api/none.po
+type = PO
+
+[python-newest.c-api--allocation]
+file_filter = translations/python-newest.c-api--allocation/<lang>.po
+source_lang = en
+trans.id = c-api/allocation.po
+type = PO
+
+[python-newest.c-api--intro]
+file_filter = translations/python-newest.c-api--intro/<lang>.po
+source_lang = en
+trans.id = c-api/intro.po
+type = PO
+
+[python-newest.c-api--number]
+file_filter = translations/python-newest.c-api--number/<lang>.po
+source_lang = en
+trans.id = c-api/number.po
+type = PO
+
+[python-newest.c-api--float]
+file_filter = translations/python-newest.c-api--float/<lang>.po
+source_lang = en
+trans.id = c-api/float.po
+type = PO
+
+[python-newest.c-api--list]
+file_filter = translations/python-newest.c-api--list/<lang>.po
+source_lang = en
+trans.id = c-api/list.po
+type = PO
+
+[python-newest.c-api--memoryview]
+file_filter = translations/python-newest.c-api--memoryview/<lang>.po
+source_lang = en
+trans.id = c-api/memoryview.po
+type = PO
+
+[python-newest.c-api--structures]
+file_filter = translations/python-newest.c-api--structures/<lang>.po
+source_lang = en
+trans.id = c-api/structures.po
+type = PO
+
+[python-newest.c-api--mapping]
+file_filter = translations/python-newest.c-api--mapping/<lang>.po
+source_lang = en
+trans.id = c-api/mapping.po
+type = PO
+
+[python-newest.c-api--iterator]
+file_filter = translations/python-newest.c-api--iterator/<lang>.po
+source_lang = en
+trans.id = c-api/iterator.po
+type = PO
+
+[python-newest.c-api--abstract]
+file_filter = translations/python-newest.c-api--abstract/<lang>.po
+source_lang = en
+trans.id = c-api/abstract.po
+type = PO
+
+[python-newest.c-api--gen]
+file_filter = translations/python-newest.c-api--gen/<lang>.po
+source_lang = en
+trans.id = c-api/gen.po
+type = PO
+
+[python-newest.c-api--arg]
+file_filter = translations/python-newest.c-api--arg/<lang>.po
+source_lang = en
+trans.id = c-api/arg.po
+type = PO
+
+[python-newest.c-api--method]
+file_filter = translations/python-newest.c-api--method/<lang>.po
+source_lang = en
+trans.id = c-api/method.po
+type = PO
+
+[python-newest.c-api--sequence]
+file_filter = translations/python-newest.c-api--sequence/<lang>.po
+source_lang = en
+trans.id = c-api/sequence.po
+type = PO
+
+[python-newest.c-api--marshal]
+file_filter = translations/python-newest.c-api--marshal/<lang>.po
+source_lang = en
+trans.id = c-api/marshal.po
+type = PO
+
+[python-newest.c-api--import]
+file_filter = translations/python-newest.c-api--import/<lang>.po
+source_lang = en
+trans.id = c-api/import.po
+type = PO
+
+[python-newest.c-api--weakref]
+file_filter = translations/python-newest.c-api--weakref/<lang>.po
+source_lang = en
+trans.id = c-api/weakref.po
+type = PO
+
+[python-newest.c-api--dict]
+file_filter = translations/python-newest.c-api--dict/<lang>.po
+source_lang = en
+trans.id = c-api/dict.po
+type = PO
+
+[python-newest.c-api--buffer]
+file_filter = translations/python-newest.c-api--buffer/<lang>.po
+source_lang = en
+trans.id = c-api/buffer.po
+type = PO
+
+[python-newest.c-api--code]
+file_filter = translations/python-newest.c-api--code/<lang>.po
+source_lang = en
+trans.id = c-api/code.po
+type = PO
+
+[python-newest.c-api--index]
+file_filter = translations/python-newest.c-api--index/<lang>.po
+source_lang = en
+trans.id = c-api/index.po
+type = PO
+
+[python-newest.c-api--concrete]
+file_filter = translations/python-newest.c-api--concrete/<lang>.po
+source_lang = en
+trans.id = c-api/concrete.po
+type = PO
+
+[python-newest.c-api--unicode]
+file_filter = translations/python-newest.c-api--unicode/<lang>.po
+source_lang = en
+trans.id = c-api/unicode.po
+type = PO
+
+[python-newest.c-api--bytes]
+file_filter = translations/python-newest.c-api--bytes/<lang>.po
+source_lang = en
+trans.id = c-api/bytes.po
+type = PO
+
+[python-newest.c-api--init]
+file_filter = translations/python-newest.c-api--init/<lang>.po
+source_lang = en
+trans.id = c-api/init.po
+type = PO
+
+[python-newest.c-api--bool]
+file_filter = translations/python-newest.c-api--bool/<lang>.po
+source_lang = en
+trans.id = c-api/bool.po
+type = PO
+
+[python-newest.c-api--reflection]
+file_filter = translations/python-newest.c-api--reflection/<lang>.po
+source_lang = en
+trans.id = c-api/reflection.po
+type = PO
+
+[python-newest.c-api--gcsupport]
+file_filter = translations/python-newest.c-api--gcsupport/<lang>.po
+source_lang = en
+trans.id = c-api/gcsupport.po
+type = PO
+
+[python-newest.c-api--module]
+file_filter = translations/python-newest.c-api--module/<lang>.po
+source_lang = en
+trans.id = c-api/module.po
+type = PO
+
+[python-newest.c-api--veryhigh]
+file_filter = translations/python-newest.c-api--veryhigh/<lang>.po
+source_lang = en
+trans.id = c-api/veryhigh.po
+type = PO
+
+[python-newest.c-api--exceptions]
+file_filter = translations/python-newest.c-api--exceptions/<lang>.po
+source_lang = en
+trans.id = c-api/exceptions.po
+type = PO
+
+[python-newest.c-api--objimpl]
+file_filter = translations/python-newest.c-api--objimpl/<lang>.po
+source_lang = en
+trans.id = c-api/objimpl.po
+type = PO
+
+[python-newest.c-api--type]
+file_filter = translations/python-newest.c-api--type/<lang>.po
+source_lang = en
+trans.id = c-api/type.po
+type = PO
+
+[python-newest.c-api--set]
+file_filter = translations/python-newest.c-api--set/<lang>.po
+source_lang = en
+trans.id = c-api/set.po
+type = PO
+
+[python-newest.c-api--codec]
+file_filter = translations/python-newest.c-api--codec/<lang>.po
+source_lang = en
+trans.id = c-api/codec.po
+type = PO
+
+[python-newest.c-api--typeobj]
+file_filter = translations/python-newest.c-api--typeobj/<lang>.po
+source_lang = en
+trans.id = c-api/typeobj.po
+type = PO
+
+[python-newest.c-api--sys]
+file_filter = translations/python-newest.c-api--sys/<lang>.po
+source_lang = en
+trans.id = c-api/sys.po
+type = PO
+
+[python-newest.c-api--bytearray]
+file_filter = translations/python-newest.c-api--bytearray/<lang>.po
+source_lang = en
+trans.id = c-api/bytearray.po
+type = PO
+
+[python-newest.c-api--tuple]
+file_filter = translations/python-newest.c-api--tuple/<lang>.po
+source_lang = en
+trans.id = c-api/tuple.po
+type = PO
+
+[python-newest.c-api--apiabiversion]
+file_filter = translations/python-newest.c-api--apiabiversion/<lang>.po
+source_lang = en
+trans.id = c-api/apiabiversion.po
+type = PO
+
+[python-newest.c-api--stable]
+file_filter = translations/python-newest.c-api--stable/<lang>.po
+source_lang = en
+trans.id = c-api/stable.po
+type = PO
+
+[python-newest.c-api--objbuffer]
+file_filter = translations/python-newest.c-api--objbuffer/<lang>.po
+source_lang = en
+trans.id = c-api/objbuffer.po
+type = PO
+
+[python-newest.c-api--slice]
+file_filter = translations/python-newest.c-api--slice/<lang>.po
+source_lang = en
+trans.id = c-api/slice.po
+type = PO
+
+[python-newest.c-api--long]
+file_filter = translations/python-newest.c-api--long/<lang>.po
+source_lang = en
+trans.id = c-api/long.po
+type = PO
+
+[python-newest.c-api--iter]
+file_filter = translations/python-newest.c-api--iter/<lang>.po
+source_lang = en
+trans.id = c-api/iter.po
+type = PO
+
+[python-newest.c-api--utilities]
+file_filter = translations/python-newest.c-api--utilities/<lang>.po
+source_lang = en
+trans.id = c-api/utilities.po
+type = PO
+
+[python-newest.c-api--complex]
+file_filter = translations/python-newest.c-api--complex/<lang>.po
+source_lang = en
+trans.id = c-api/complex.po
+type = PO
+
+[python-newest.c-api--descriptor]
+file_filter = translations/python-newest.c-api--descriptor/<lang>.po
+source_lang = en
+trans.id = c-api/descriptor.po
+type = PO
+
+[python-newest.c-api--contextvars]
+file_filter = translations/python-newest.c-api--contextvars/<lang>.po
+source_lang = en
+trans.id = c-api/contextvars.po
+type = PO
+
+[python-newest.c-api--init_config]
+file_filter = translations/python-newest.c-api--init_config/<lang>.po
+source_lang = en
+trans.id = c-api/init_config.po
+type = PO
+
+[python-newest.distutils--_setuptools_disclaimer]
+file_filter = translations/python-newest.distutils--_setuptools_disclaimer/<lang>.po
+source_lang = en
+trans.id = distutils/_setuptools_disclaimer.po
+type = PO
+
+[python-newest.extending--newtypes_tutorial]
+file_filter = translations/python-newest.extending--newtypes_tutorial/<lang>.po
+source_lang = en
+trans.id = extending/newtypes_tutorial.po
+type = PO
+
+[python-newest.library--asyncio-api-index]
+file_filter = translations/python-newest.library--asyncio-api-index/<lang>.po
+source_lang = en
+trans.id = library/asyncio-api-index.po
+type = PO
+
+[python-newest.library--asyncio-exceptions]
+file_filter = translations/python-newest.library--asyncio-exceptions/<lang>.po
+source_lang = en
+trans.id = library/asyncio-exceptions.po
+type = PO
+
+[python-newest.library--asyncio-future]
+file_filter = translations/python-newest.library--asyncio-future/<lang>.po
+source_lang = en
+trans.id = library/asyncio-future.po
+type = PO
+
+[python-newest.library--asyncio-llapi-index]
+file_filter = translations/python-newest.library--asyncio-llapi-index/<lang>.po
+source_lang = en
+trans.id = library/asyncio-llapi-index.po
+type = PO
+
+[python-newest.library--asyncio-platforms]
+file_filter = translations/python-newest.library--asyncio-platforms/<lang>.po
+source_lang = en
+trans.id = library/asyncio-platforms.po
+type = PO
+
+[python-newest.library--asyncio-policy]
+file_filter = translations/python-newest.library--asyncio-policy/<lang>.po
+source_lang = en
+trans.id = library/asyncio-policy.po
+type = PO
+
+[python-newest.library--audit_events]
+file_filter = translations/python-newest.library--audit_events/<lang>.po
+source_lang = en
+trans.id = library/audit_events.po
+type = PO
+
+[python-newest.library--contextvars]
+file_filter = translations/python-newest.library--contextvars/<lang>.po
+source_lang = en
+trans.id = library/contextvars.po
+type = PO
+
+[python-newest.library--dataclasses]
+file_filter = translations/python-newest.library--dataclasses/<lang>.po
+source_lang = en
+trans.id = library/dataclasses.po
+type = PO
+
+[python-newest.library--email_utils]
+file_filter = translations/python-newest.library--email_utils/<lang>.po
+source_lang = en
+trans.id = library/email_utils.po
+type = PO
+
+[python-newest.library--importlib_metadata]
+file_filter = translations/python-newest.library--importlib_metadata/<lang>.po
+source_lang = en
+trans.id = library/importlib_metadata.po
+type = PO
+
+[python-newest.library--multiprocessing_shared_memory]
+file_filter = translations/python-newest.library--multiprocessing_shared_memory/<lang>.po
+source_lang = en
+trans.id = library/multiprocessing_shared_memory.po
+type = PO
+
+[python-newest.using--editors]
+file_filter = translations/python-newest.using--editors/<lang>.po
+source_lang = en
+trans.id = using/editors.po
+type = PO
+
+[python-newest.whatsnew--3_7]
+file_filter = translations/python-newest.whatsnew--3_7/<lang>.po
+source_lang = en
+trans.id = whatsnew/3_7.po
+type = PO
+
+[python-newest.whatsnew--3_8]
+file_filter = translations/python-newest.whatsnew--3_8/<lang>.po
+source_lang = en
+trans.id = whatsnew/3_8.po
+type = PO
+

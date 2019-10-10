@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:43+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../faq/installed.rst:3
+msgid "\"Why is Python Installed on my Computer?\" FAQ"
+msgstr "\"Kenapa Python Terpasang di Komputer saya?\" FAQ"
+
+#: ../../faq/installed.rst:6
+msgid "What is Python?"
+msgstr "Apa itu Python?"
+
+#: ../../faq/installed.rst:8
+msgid ""
+"Python is a programming language.  It's used for many different "
+"applications. It's used in some high schools and colleges as an introductory"
+" programming language because Python is easy to learn, but it's also used by"
+" professional software developers at places such as Google, NASA, and "
+"Lucasfilm Ltd."
+msgstr ""
+"Python adalah bahasa pemrograman. Digunakan untuk berbagai aplikasi. "
+"Digunakan di sejumlah sekolah menengah dan perguruan tinggi sebagai "
+"pengenalan bahasa pemrograman karena Python mudah dipelajari, namun juga "
+"digunakan oleh pengembang perangkat lunak profesional di berbagai tempat "
+"misalnya Google, NASA, dan Lucasfilm Ltd."
+
+#: ../../faq/installed.rst:13
+msgid ""
+"If you wish to learn more about Python, start with the `Beginner's Guide to "
+"Python <https://wiki.python.org/moin/BeginnersGuide>`_."
+msgstr ""
+"Jika anda ingin pelajari Python lebih lanjut, mulai dengan `Panduan Pemula "
+"untuk Python <https://wiki.python.org/moin/BeginnersGuide>`_."
+
+#: ../../faq/installed.rst:18
+msgid "Why is Python installed on my machine?"
+msgstr "Kenapa Python Terpasang di Komputer saya?"
+
+#: ../../faq/installed.rst:20
+msgid ""
+"If you find Python installed on your system but don't remember installing "
+"it, there are several possible ways it could have gotten there."
+msgstr ""
+"Jika Anda menemukan Python terpasang pada sistem Anda tetapi tidak ingat "
+"pemasangannya, ada beberapa kemungkinan penyebab bisa ada di situ."
+
+#: ../../faq/installed.rst:23
+msgid ""
+"Perhaps another user on the computer wanted to learn programming and "
+"installed it; you'll have to figure out who's been using the machine and "
+"might have installed it."
+msgstr ""
+"Mungkin pengguna komputer lain ingin belajar pemrograman dan memasangnya; "
+"Anda harus mencari tahu siapa yang menggunakan mesin dan mungkin "
+"memasangnya."
+
+#: ../../faq/installed.rst:26
+msgid ""
+"A third-party application installed on the machine might have been written "
+"in Python and included a Python installation.  There are many such "
+"applications, from GUI programs to network servers and administrative "
+"scripts."
+msgstr ""
+"Aplikasi pihak ketiga yang terpasang di mesin mungkin ditulis dengan Python "
+"dan menyertakan instalasi Python.  Ada banyak aplikasi, dari program GUI "
+"hingga skrip jaringan server dan administrasi."
+
+#: ../../faq/installed.rst:29
+msgid ""
+"Some Windows machines also have Python installed.  At this writing we're "
+"aware of computers from Hewlett-Packard and Compaq that include Python.  "
+"Apparently some of HP/Compaq's administrative tools are written in Python."
+msgstr ""
+"Beberapa mesin Windows telah terpasang Python. Pada saat penulisan ini sudah"
+" diketahui komputer-komputer dari Hewlett-Packard dan Compaq menyertakan "
+"Python. Rupanya beberapa alat administrasi HP/Compaq ditulis dengan Python."
+
+#: ../../faq/installed.rst:32
+msgid ""
+"Many Unix-compatible operating systems, such as Mac OS X and some Linux "
+"distributions, have Python installed by default; it's included in the base "
+"installation."
+msgstr ""
+"Banyak sistem operasi yang kompatibel Unix, misalnya Mac OS X dan sejumlah "
+"distribusi Linux, terpasang Python secara bawaan; disertakan di basis "
+"instalasi."
+
+#: ../../faq/installed.rst:38
+msgid "Can I delete Python?"
+msgstr "Dapatkah Saya hapus Python?"
+
+#: ../../faq/installed.rst:40
+msgid "That depends on where Python came from."
+msgstr "Hal itu tergantung dari mana Python berasal."
+
+#: ../../faq/installed.rst:42
+msgid ""
+"If someone installed it deliberately, you can remove it without hurting "
+"anything.  On Windows, use the Add/Remove Programs icon in the Control "
+"Panel."
+msgstr ""
+"Jika seseorang memasangnya dengan sengaja, Anda dapat menghapusnya tanpa "
+"merusak apapun. Di Windows, gunakan ikon Add/Remove Programs di Control "
+"Panel."
+
+#: ../../faq/installed.rst:45
+msgid ""
+"If Python was installed by a third-party application, you can also remove "
+"it, but that application will no longer work.  You should use that "
+"application's uninstaller rather than removing Python directly."
+msgstr ""
+"Jika Python dipasang oleh aplikasi pihak ketiga, Anda juga dapat "
+"menghapusnya, tetapi aplikasi tersebut tidak akan berfungsi lagi.  Anda "
+"perlu menggunakan penghapus pemasangan aplikasi dibanding menghapus Python "
+"secara langsung."
+
+#: ../../faq/installed.rst:49
+msgid ""
+"If Python came with your operating system, removing it is not recommended.  "
+"If you remove it, whatever tools were written in Python will no longer run, "
+"and some of them might be important to you.  Reinstalling the whole system "
+"would then be required to fix things again."
+msgstr ""
+"Jika Python terpasang dari sistem operasi Anda, tidak direkomendasikan untuk"
+" menghapusnya. Jika Anda menghapusnya, alat apapun yang ditulis dengan "
+"Python akan tidak berfungsi lagi, dan sejumlah diantaranya mungkin penting "
+"untuk Anda. Memasang ulang keseluruhan sistem akan dibutuhkan untuk "
+"memperbaikinya lagi."

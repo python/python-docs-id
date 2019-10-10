@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:37+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../c-api/none.rst:6
+msgid "The ``None`` Object"
+msgstr "Objek ``None``"
+
+#: ../../c-api/none.rst:10
+msgid ""
+"Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in"
+" the Python/C API.  Since ``None`` is a singleton, testing for object "
+"identity (using ``==`` in C) is sufficient. There is no "
+":c:func:`PyNone_Check` function for the same reason."
+msgstr ""
+"Perhatikan bahwa :c:type:`PyTypeObject` untuk ``None`` tidak secara langsung"
+" diekspos di Python/C API. Karena ``None`` adalah singleton, pengujian untuk"
+" identitas objek (menggunakan ``==`` dalam C) sudah cukup. Tidak ada fungsi "
+":c:func:`PyNone_Check` untuk alasan yang sama."
+
+#: ../../c-api/none.rst:18
+msgid ""
+"The Python ``None`` object, denoting lack of value.  This object has no "
+"methods. It needs to be treated just like any other object with respect to "
+"reference counts."
+msgstr ""
+"Objek Python ``None``, menunjukkan kurangnya nilai. Objek ini tidak memiliki"
+" metode. Ini perlu diperlakukan sama seperti objek lain sehubungan dengan "
+"jumlah referensi."
+
+#: ../../c-api/none.rst:25
+msgid ""
+"Properly handle returning :c:data:`Py_None` from within a C function (that "
+"is, increment the reference count of ``None`` and return it.)"
+msgstr ""
+"Menangani pengembalian dengan benar :c:data:`Py_None` dari dalam fungsi C "
+"(yaitu, menambah jumlah referensi ``None`` dan mengembalikannya.)"

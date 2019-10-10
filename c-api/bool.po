@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:33+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../c-api/bool.rst:6
+msgid "Boolean Objects"
+msgstr "Objek Boolean"
+
+#: ../../c-api/bool.rst:8
+msgid ""
+"Booleans in Python are implemented as a subclass of integers.  There are "
+"only two booleans, :const:`Py_False` and :const:`Py_True`.  As such, the "
+"normal creation and deletion functions don't apply to booleans.  The "
+"following macros are available, however."
+msgstr ""
+"Boolean dalam Python diimplementasikan sebagai subkelas integer. Hanya ada "
+"dua boolean, :const:`Py_False` dan :const:`Py_True`. Dengan demikian, fungsi"
+" pembuatan dan penghapusan normal tidak berlaku untuk boolean. Namun, makro "
+"berikut tersedia."
+
+#: ../../c-api/bool.rst:16
+msgid "Return true if *o* is of type :c:data:`PyBool_Type`."
+msgstr "Mengembalikan nilai true jika *o* bertipe :c:data:`PyBool_Type`."
+
+#: ../../c-api/bool.rst:21
+msgid ""
+"The Python ``False`` object.  This object has no methods.  It needs to be "
+"treated just like any other object with respect to reference counts."
+msgstr ""
+"Objek Python ``False``. Objek ini tidak memiliki metode. Ini perlu "
+"diperlakukan sama seperti objek lain sehubungan dengan jumlah referensi."
+
+#: ../../c-api/bool.rst:27
+msgid ""
+"The Python ``True`` object.  This object has no methods.  It needs to be "
+"treated just like any other object with respect to reference counts."
+msgstr ""
+"Objek Python ``True``. Objek ini tidak memiliki metode. Ini perlu "
+"diperlakukan sama seperti objek lain sehubungan dengan jumlah referensi."
+
+#: ../../c-api/bool.rst:33
+msgid ""
+"Return :const:`Py_False` from a function, properly incrementing its "
+"reference count."
+msgstr ""
+"Mengembalikan :const:`Py_False` dari suatu fungsi, dengan benar menambah "
+"jumlah referensi."
+
+#: ../../c-api/bool.rst:39
+msgid ""
+"Return :const:`Py_True` from a function, properly incrementing its reference"
+" count."
+msgstr ""
+"Mengembalikan :const:`Py_True` dari suatu fungsi, dengan benar menambah "
+"jumlah referensi."
+
+#: ../../c-api/bool.rst:45
+msgid ""
+"Return a new reference to :const:`Py_True` or :const:`Py_False` depending on"
+" the truth value of *v*."
+msgstr ""
+"Mengembalikan referensi baru ke :const:`Py_True` atau :const:` Py_False` "
+"tergantung pada nilai kebenaran *v*."

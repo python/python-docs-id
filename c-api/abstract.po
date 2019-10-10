@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:32+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../c-api/abstract.rst:7
+msgid "Abstract Objects Layer"
+msgstr "Lapisan Abstrak Objek"
+
+#: ../../c-api/abstract.rst:9
+msgid ""
+"The functions in this chapter interact with Python objects regardless of "
+"their type, or with wide classes of object types (e.g. all numerical types, "
+"or all sequence types).  When used on object types for which they do not "
+"apply, they will raise a Python exception."
+msgstr ""
+"Fungsi-fungsi dalam bab ini berinteraksi dengan objek-objek Python terlepas "
+"dari tipenya, atau dengan kelas-kelas jenis objek yang luas (misalnya semua "
+"tipe numerik, atau semua tipe urutan). Ketika digunakan pada jenis objek "
+"yang tidak mereka terapkan, mereka akan menghasilkan pengecualian Python."
+
+#: ../../c-api/abstract.rst:14
+msgid ""
+"It is not possible to use these functions on objects that are not properly "
+"initialized, such as a list object that has been created by "
+":c:func:`PyList_New`, but whose items have not been set to some non-\\ "
+"``NULL`` value yet."
+msgstr ""
+"Tidak mungkin untuk menggunakan fungsi-fungsi ini pada objek yang tidak "
+"diinisialisasi dengan benar, seperti objek daftar yang telah dibuat oleh :c:"
+" func:`PyList_New`, tetapi item-itemnya belum disetel ke beberapa nilai "
+"non-\\``NULL`` sebelumnya."

@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:35+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../c-api/index.rst:5
+msgid "Python/C API Reference Manual"
+msgstr "Panduan Referensi Python/API C"
+
+#: ../../c-api/index.rst:7
+msgid ""
+"This manual documents the API used by C and C++ programmers who want to "
+"write extension modules or embed Python.  It is a companion to :ref"
+":`extending-index`, which describes the general principles of extension "
+"writing but does not document the API functions in detail."
+msgstr ""
+"Manual ini mendokumentasikan API yang digunakan oleh programmer C dan C++ "
+"yang ingin menulis modul ekstensi atau menanamkan Python. Ini adalah "
+"pendamping untuk :ref:`extending-index`, yang menggambarkan prinsip-prinsip "
+"umum penulisan ekstensi tetapi tidak mendokumentasikan fungsi-fungsi API "
+"secara rinci."

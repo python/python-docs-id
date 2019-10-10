@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:31+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../about.rst:3
+msgid "About these documents"
+msgstr "Tentang dokumen-dokumen ini"
+
+#: ../../about.rst:6
+msgid ""
+"These documents are generated from `reStructuredText`_ sources by `Sphinx`_,"
+" a document processor specifically written for the Python documentation."
+msgstr ""
+"Dokumen-dokumen ini dihasilkan dari `reStructuredText`_ dengan `Sphinx`_, "
+"sebuah pemroses dokumen yang khusus ditulis untuk dokumentasi Python."
+
+#: ../../about.rst:15
+msgid ""
+"Development of the documentation and its toolchain is an entirely volunteer "
+"effort, just like Python itself.  If you want to contribute, please take a "
+"look at the :ref:`reporting-bugs` page for information on how to do so.  New"
+" volunteers are always welcome!"
+msgstr ""
+"Pengembangan dokumentasi dan perangkat pengembangannya sepenuhnya upaya "
+"sukarela, seperti halnya Python.  Jika anda ingin berkontribusi, silakan "
+"lihat halaman :ref:`reporting-bugs` untuk informasi cara melakukannya.  "
+"Relawan baru selalu diterima!"
+
+#: ../../about.rst:20
+msgid "Many thanks go to:"
+msgstr "Terima kasih banyak untuk:"
+
+#: ../../about.rst:22
+msgid ""
+"Fred L. Drake, Jr., the creator of the original Python documentation toolset"
+" and writer of much of the content;"
+msgstr ""
+"Fred L. Drake, Jr., pembuat awal kumpulan alat dokumentasi Python dan "
+"penulis banyak konten;"
+
+#: ../../about.rst:24
+msgid ""
+"the `Docutils <http://docutils.sourceforge.net/>`_ project for creating "
+"reStructuredText and the Docutils suite;"
+msgstr ""
+"`Docutils <http://docutils.sourceforge.net/>`_ proyek untuk membuat  "
+"reStructuredText dan Docutils suite;"
+
+#: ../../about.rst:26
+msgid ""
+"Fredrik Lundh for his `Alternative Python Reference "
+"<http://effbot.org/zone/pyref.htm>`_ project from which Sphinx got many good"
+" ideas."
+msgstr ""
+"Fredrik Lundh untuk `Alternative Python Reference "
+"<http://effbot.org/zone/pyref.htm>`_ proyek dimana Sphinx mendapatkan banyak"
+" ide bagus."
+
+#: ../../about.rst:32
+msgid "Contributors to the Python Documentation"
+msgstr "Kontributor untuk dokumentasi Python"
+
+#: ../../about.rst:34
+msgid ""
+"Many people have contributed to the Python language, the Python standard "
+"library, and the Python documentation.  See :source:`Misc/ACKS` in the "
+"Python source distribution for a partial list of contributors."
+msgstr ""
+"Banyak orang telah berkontribusi ke bahasa Python, pustaka standar Python, "
+"dan dokumentasi Python. Lihat :source:`Misc/ACKS` di distribusi kode sumber "
+"Python untuk sebagian daftar kontributor-kontributor."
+
+#: ../../about.rst:38
+msgid ""
+"It is only with the input and contributions of the Python community that "
+"Python has such wonderful documentation -- Thank You!"
+msgstr ""
+"Hanya dengan masukan dan kontribusi dari komunitas Python sehingga Python "
+"memiliki dokumentasi yang sangat baik. Terima kasih!"

@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:45+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../whatsnew/index.rst:5
+msgid "What's New in Python"
+msgstr "Apa yang Baru di Python"
+
+#: ../../whatsnew/index.rst:7
+msgid ""
+"The \"What's New in Python\" series of essays takes tours through the most "
+"important changes between major Python versions.  They are a \"must read\" "
+"for anyone wishing to stay up-to-date after a new release."
+msgstr ""
+"Serial esai \"Apa yang Baru di Python\" membawa tur melalui perubahan yang "
+"paling penting antara versi utama Python. Serial tersebut adalah \"wajib "
+"dibaca\" untuk siapa saja yang ingin tetap up-to-date setelah ada rilis "
+"baru."
+
+#: ../../whatsnew/index.rst:32
+msgid ""
+"The \"Changelog\" is an HTML version of the `file built "
+"<https://pypi.org/project/blurb>`_ from the contents of the "
+":source:`Misc/NEWS.d` directory tree, which contains *all* nontrivial "
+"changes to Python for the current version."
+msgstr ""
+"\"Changelog\" adalah versi HTML dari `file built "
+"<https://pypi.org/project/blurb>`_ dari sumber pohon direktori "
+":source:`Misc/NEWS.d`, dimana berisi *semua* perubahan penting pada Python "
+"untuk versi saat ini."
