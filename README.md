@@ -33,6 +33,15 @@ Anda bisa berkontribusi dengan:
 * Membuat _pull requests_ di Github ini
 * Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/language/id/)
 
+### Target (Fokus) Utama Penerjemahan
+---
+Sesuai informasi di PEP 545, bahwa terjemahan dokumentasi akan dimunculkan di pilihan bahasa (_Languange Switcher_),
+setelah mencapai target berikut:
+
+* 100% dari **bugs.html** dengan referensi yang memadai ke pelacak isu penyimpanan bahasa terjemahan
+* 100% dari **tutorial**
+* 100% dari **library/functions** (builtins).
+
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ### Daftar Istilah
@@ -46,7 +55,9 @@ Istilah | Terjemahan
 --- | ---
 *bug* | bug
 *download* | unduh
+*file* | berkas
 *interpreter* | interpreter
+*keyword* | kata kunci
 *upload* | unggah
 
 ### Keterangan Tambahan

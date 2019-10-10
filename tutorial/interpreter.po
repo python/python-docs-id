@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../tutorial/interpreter.rst:89
 msgid "Interactive Mode"
-msgstr ""
+msgstr "Mode Interaktif"
 
 #: ../../tutorial/interpreter.rst:91
 msgid ""

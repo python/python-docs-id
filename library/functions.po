@@ -23,289 +23,291 @@ msgstr ""
 
 #: ../../library/functions.rst:5 ../../library/functions.rst:11
 msgid "Built-in Functions"
-msgstr ""
+msgstr "Fungsi Bawaan"
 
 #: ../../library/functions.rst:7
 msgid ""
 "The Python interpreter has a number of functions and types built into it "
 "that are always available.  They are listed here in alphabetical order."
 msgstr ""
+"Interpreter Python memiliki sejumlah fungsi dan tipe bawaan di dalamnya yang"
+" selalu tersedia. Mereka terdaftar di sini dalam urutan abjad."
 
 #: ../../library/functions.rst:13
 msgid ":func:`abs`"
-msgstr ""
+msgstr ":func:`abs`"
 
 #: ../../library/functions.rst:13
 msgid ":func:`delattr`"
-msgstr ""
+msgstr ":func:`delattr`"
 
 #: ../../library/functions.rst:13
 msgid ":func:`hash`"
-msgstr ""
+msgstr ":func:`hash`"
 
 #: ../../library/functions.rst:13
 msgid "|func-memoryview|_"
-msgstr ""
+msgstr "|func-memoryview|_"
 
 #: ../../library/functions.rst:13
 msgid "|func-set|_"
-msgstr ""
+msgstr "|func-set|_"
 
 #: ../../library/functions.rst:14
 msgid ":func:`all`"
-msgstr ""
+msgstr ":func:`all`"
 
 #: ../../library/functions.rst:14
 msgid "|func-dict|_"
-msgstr ""
+msgstr "|func-dict|_"
 
 #: ../../library/functions.rst:14
 msgid ":func:`help`"
-msgstr ""
+msgstr ":func:`help`"
 
 #: ../../library/functions.rst:14
 msgid ":func:`min`"
-msgstr ""
+msgstr ":func:`min`"
 
 #: ../../library/functions.rst:14
 msgid ":func:`setattr`"
-msgstr ""
+msgstr ":func:`setattr`"
 
 #: ../../library/functions.rst:15
 msgid ":func:`any`"
-msgstr ""
+msgstr ":func:`any`"
 
 #: ../../library/functions.rst:15
 msgid ":func:`dir`"
-msgstr ""
+msgstr ":func:`dir`"
 
 #: ../../library/functions.rst:15
 msgid ":func:`hex`"
-msgstr ""
+msgstr ":func:`hex`"
 
 #: ../../library/functions.rst:15
 msgid ":func:`next`"
-msgstr ""
+msgstr ":func:`next`"
 
 #: ../../library/functions.rst:15
 msgid ":func:`slice`"
-msgstr ""
+msgstr ":func:`slice`"
 
 #: ../../library/functions.rst:16
 msgid ":func:`ascii`"
-msgstr ""
+msgstr ":func:`ascii`"
 
 #: ../../library/functions.rst:16
 msgid ":func:`divmod`"
-msgstr ""
+msgstr ":func:`divmod`"
 
 #: ../../library/functions.rst:16
 msgid ":func:`id`"
-msgstr ""
+msgstr ":func:`id`"
 
 #: ../../library/functions.rst:16
 msgid ":func:`object`"
-msgstr ""
+msgstr ":func:`object`"
 
 #: ../../library/functions.rst:16
 msgid ":func:`sorted`"
-msgstr ""
+msgstr ":func:`sorted`"
 
 #: ../../library/functions.rst:17
 msgid ":func:`bin`"
-msgstr ""
+msgstr ":func:`bin`"
 
 #: ../../library/functions.rst:17
 msgid ":func:`enumerate`"
-msgstr ""
+msgstr ":func:`enumerate`"
 
 #: ../../library/functions.rst:17
 msgid ":func:`input`"
-msgstr ""
+msgstr ":func:`input`"
 
 #: ../../library/functions.rst:17
 msgid ":func:`oct`"
-msgstr ""
+msgstr ":func:`oct`"
 
 #: ../../library/functions.rst:17
 msgid ":func:`staticmethod`"
-msgstr ""
+msgstr ":func:`staticmethod`"
 
 #: ../../library/functions.rst:18
 msgid ":func:`bool`"
-msgstr ""
+msgstr ":func:`bool`"
 
 #: ../../library/functions.rst:18
 msgid ":func:`eval`"
-msgstr ""
+msgstr ":func:`eval`"
 
 #: ../../library/functions.rst:18
 msgid ":func:`int`"
-msgstr ""
+msgstr ":func:`int`"
 
 #: ../../library/functions.rst:18
 msgid ":func:`open`"
-msgstr ""
+msgstr ":func:`open`"
 
 #: ../../library/functions.rst:18
 msgid "|func-str|_"
-msgstr ""
+msgstr "|func-str|_"
 
 #: ../../library/functions.rst:19
 msgid ":func:`breakpoint`"
-msgstr ""
+msgstr ":func:`breakpoint`"
 
 #: ../../library/functions.rst:19
 msgid ":func:`exec`"
-msgstr ""
+msgstr ":func:`exec`"
 
 #: ../../library/functions.rst:19
 msgid ":func:`isinstance`"
-msgstr ""
+msgstr ":func:`isinstance`"
 
 #: ../../library/functions.rst:19
 msgid ":func:`ord`"
-msgstr ""
+msgstr ":func:`ord`"
 
 #: ../../library/functions.rst:19
 msgid ":func:`sum`"
-msgstr ""
+msgstr ":func:`sum`"
 
 #: ../../library/functions.rst:20
 msgid "|func-bytearray|_"
-msgstr ""
+msgstr "|func-bytearray|_"
 
 #: ../../library/functions.rst:20
 msgid ":func:`filter`"
-msgstr ""
+msgstr ":func:`filter`"
 
 #: ../../library/functions.rst:20
 msgid ":func:`issubclass`"
-msgstr ""
+msgstr ":func:`issubclass`"
 
 #: ../../library/functions.rst:20
 msgid ":func:`pow`"
-msgstr ""
+msgstr ":func:`pow`"
 
 #: ../../library/functions.rst:20
 msgid ":func:`super`"
-msgstr ""
+msgstr ":func:`super`"
 
 #: ../../library/functions.rst:21
 msgid "|func-bytes|_"
-msgstr ""
+msgstr "|func-bytes|_"
 
 #: ../../library/functions.rst:21
 msgid ":func:`float`"
-msgstr ""
+msgstr ":func:`float`"
 
 #: ../../library/functions.rst:21
 msgid ":func:`iter`"
-msgstr ""
+msgstr ":func:`iter`"
 
 #: ../../library/functions.rst:21
 msgid ":func:`print`"
-msgstr ""
+msgstr ":func:`print`"
 
 #: ../../library/functions.rst:21
 msgid "|func-tuple|_"
-msgstr ""
+msgstr "|func-tuple|_"
 
 #: ../../library/functions.rst:22
 msgid ":func:`callable`"
-msgstr ""
+msgstr ":func:`callable`"
 
 #: ../../library/functions.rst:22
 msgid ":func:`format`"
-msgstr ""
+msgstr ":func:`format`"
 
 #: ../../library/functions.rst:22
 msgid ":func:`len`"
-msgstr ""
+msgstr ":func:`len`"
 
 #: ../../library/functions.rst:22
 msgid ":func:`property`"
-msgstr ""
+msgstr ":func:`property`"
 
 #: ../../library/functions.rst:22
 msgid ":func:`type`"
-msgstr ""
+msgstr ":func:`type`"
 
 #: ../../library/functions.rst:23
 msgid ":func:`chr`"
-msgstr ""
+msgstr ":func:`chr`"
 
 #: ../../library/functions.rst:23
 msgid "|func-frozenset|_"
-msgstr ""
+msgstr "|func-frozenset|_"
 
 #: ../../library/functions.rst:23
 msgid "|func-list|_"
-msgstr ""
+msgstr "|func-list|_"
 
 #: ../../library/functions.rst:23
 msgid "|func-range|_"
-msgstr ""
+msgstr "|func-range|_"
 
 #: ../../library/functions.rst:23
 msgid ":func:`vars`"
-msgstr ""
+msgstr ":func:`vars`"
 
 #: ../../library/functions.rst:24
 msgid ":func:`classmethod`"
-msgstr ""
+msgstr ":func:`classmethod`"
 
 #: ../../library/functions.rst:24
 msgid ":func:`getattr`"
-msgstr ""
+msgstr ":func:`getattr`"
 
 #: ../../library/functions.rst:24
 msgid ":func:`locals`"
-msgstr ""
+msgstr ":func:`locals`"
 
 #: ../../library/functions.rst:24
 msgid ":func:`repr`"
-msgstr ""
+msgstr ":func:`repr`"
 
 #: ../../library/functions.rst:24
 msgid ":func:`zip`"
-msgstr ""
+msgstr ":func:`zip`"
 
 #: ../../library/functions.rst:25
 msgid ":func:`compile`"
-msgstr ""
+msgstr ":func:`compile`"
 
 #: ../../library/functions.rst:25
 msgid ":func:`globals`"
-msgstr ""
+msgstr ":func:`globals`"
 
 #: ../../library/functions.rst:25
 msgid ":func:`map`"
-msgstr ""
+msgstr ":func:`map`"
 
 #: ../../library/functions.rst:25
 msgid ":func:`reversed`"
-msgstr ""
+msgstr ":func:`reversed`"
 
 #: ../../library/functions.rst:25
 msgid ":func:`__import__`"
-msgstr ""
+msgstr ":func:`__import__`"
 
 #: ../../library/functions.rst:26
 msgid ":func:`complex`"
-msgstr ""
+msgstr ":func:`complex`"
 
 #: ../../library/functions.rst:26
 msgid ":func:`hasattr`"
-msgstr ""
+msgstr ":func:`hasattr`"
 
 #: ../../library/functions.rst:26
 msgid ":func:`max`"
-msgstr ""
+msgstr ":func:`max`"
 
 #: ../../library/functions.rst:26
 msgid ":func:`round`"
-msgstr ""
+msgstr ":func:`round`"
 
 #: ../../library/functions.rst:45
 msgid ""
@@ -352,7 +354,7 @@ msgstr ""
 #: ../../library/functions.rst:102 ../../library/functions.rst:750
 #: ../../library/functions.rst:1030
 msgid "See also :func:`format` for more information."
-msgstr ""
+msgstr "Lihat juga :func:`format` untuk informasi lebih lanjut."
 
 #: ../../library/functions.rst:107
 msgid ""
@@ -367,7 +369,7 @@ msgstr ""
 #: ../../library/functions.rst:116 ../../library/functions.rst:625
 #: ../../library/functions.rst:832
 msgid "*x* is now a positional-only parameter."
-msgstr ""
+msgstr "*x* sekarang menjadi parameter sesuai-posisi."
 
 #: ../../library/functions.rst:121
 msgid ""
@@ -400,6 +402,8 @@ msgid ""
 "The optional *source* parameter can be used to initialize the array in a few"
 " different ways:"
 msgstr ""
+"Parameter opsional *source* dapat digunakan untuk menginisialisasi array "
+"dengan beberapa cara berbeda:"
 
 #: ../../library/functions.rst:147
 msgid ""
@@ -432,7 +436,7 @@ msgstr ""
 
 #: ../../library/functions.rst:162
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr ""
+msgstr "Lihat juga: ref:`binaryseq` dan :ref:` typebytearray`."
 
 #: ../../library/functions.rst:169
 msgid ""
@@ -446,14 +450,16 @@ msgstr ""
 msgid ""
 "Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
 msgstr ""
+"Dengan demikian, argumen konstruktor ditafsirkan untuk :func:`bytearray`."
 
 #: ../../library/functions.rst:176
 msgid "Bytes objects can also be created with literals, see :ref:`strings`."
-msgstr ""
+msgstr "Objek byte juga dapat dibuat dengan literal, lihat :ref:`strings`."
 
 #: ../../library/functions.rst:178
 msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
 msgstr ""
+"Lihat juga :ref:`binaryseq`, :ref:`typebytes`, dan :ref:`bytes-methods`."
 
 #: ../../library/functions.rst:183
 msgid ""
@@ -469,6 +475,8 @@ msgid ""
 "This function was first removed in Python 3.0 and then brought back in "
 "Python 3.2."
 msgstr ""
+"Fungsi ini pertama kali dihapus di Python 3.0 dan kemudian dibawa kembali di"
+" Python 3.2."
 
 #: ../../library/functions.rst:196
 msgid ""
@@ -486,7 +494,7 @@ msgstr ""
 
 #: ../../library/functions.rst:206
 msgid "Transform a method into a class method."
-msgstr ""
+msgstr "Ubah metode menjadi metode kelas."
 
 #: ../../library/functions.rst:208
 msgid ""
@@ -518,6 +526,7 @@ msgstr ""
 #: ../../library/functions.rst:227
 msgid "For more information on class methods, see :ref:`types`."
 msgstr ""
+"Untuk informasi lebih lanjut tentang metode kelas, lihat :ref:`types`."
 
 #: ../../library/functions.rst:232
 msgid ""
@@ -594,6 +603,8 @@ msgid ""
 "If you want to parse Python code into its AST representation, see "
 ":func:`ast.parse`."
 msgstr ""
+"Jika Anda ingin mengurai kode Python ke dalam representasi AST-nya, lihat "
+":func:`ast.parse`."
 
 #: ../../library/functions.rstNone
 msgid ""
@@ -670,12 +681,14 @@ msgstr ""
 
 #: ../../library/functions.rst:335
 msgid "The complex type is described in :ref:`typesnumeric`."
-msgstr ""
+msgstr "Tipe kompleks dijelaskan dalam :ref:`typesnumeric`."
 
 #: ../../library/functions.rst:337 ../../library/functions.rst:622
 #: ../../library/functions.rst:829
 msgid "Grouping digits with underscores as in code literals is allowed."
 msgstr ""
+"Pengelompokan angka dengan garis bawah seperti dalam literal kode "
+"diperbolehkan."
 
 #: ../../library/functions.rst:340
 msgid ""
@@ -756,7 +769,7 @@ msgstr ""
 
 #: ../../library/functions.rst:395
 msgid "The resulting list is sorted alphabetically.  For example:"
-msgstr ""
+msgstr "Daftar yang dihasilkan diurutkan berdasarkan abjad.  Sebagai contoh:"
 
 #: ../../library/functions.rst:414
 msgid ""
@@ -790,7 +803,7 @@ msgstr ""
 
 #: ../../library/functions.rst:448
 msgid "Equivalent to::"
-msgstr ""
+msgstr "Setara dengan::"
 
 #: ../../library/functions.rst:459
 msgid ""
@@ -971,15 +984,15 @@ msgstr ""
 
 #: ../../library/functions.rst:605
 msgid "If no argument is given, ``0.0`` is returned."
-msgstr ""
+msgstr "Jika tidak ada argumen yang diberikan, dikembalikan sebagai ``0.0``."
 
 #: ../../library/functions.rst:607
 msgid "Examples::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/functions.rst:620
 msgid "The float type is described in :ref:`typesnumeric`."
-msgstr ""
+msgstr "Tipe float dijelaskan dalam :ref:`typesnumeric`."
 
 #: ../../library/functions.rst:628
 msgid "Falls back to :meth:`__index__` if :meth:`__float__` is not defined."
@@ -1251,7 +1264,7 @@ msgstr ""
 
 #: ../../library/functions.rst:875
 msgid "See also :ref:`typeiter`."
-msgstr ""
+msgstr "Lihat juga :ref:`typeiter`."
 
 #: ../../library/functions.rst:877
 msgid ""
@@ -1302,6 +1315,8 @@ msgid ""
 "Return the largest item in an iterable or the largest of two or more "
 "arguments."
 msgstr ""
+"Kembalikan item terbesar dalam iterable atau yang terbesar dari dua atau "
+"lebih argumen."
 
 #: ../../library/functions.rst:929
 msgid ""
@@ -1329,11 +1344,11 @@ msgstr ""
 
 #: ../../library/functions.rst:945 ../../library/functions.rst:982
 msgid "The *default* keyword-only argument."
-msgstr ""
+msgstr "Argument *bawaan* seluruhnya-kata kunci."
 
 #: ../../library/functions.rst:948 ../../library/functions.rst:985
 msgid "The *key* can be ``None``."
-msgstr ""
+msgstr "*Kunci* dapat ``None``."
 
 #: ../../library/functions.rst:956
 msgid ""
@@ -1436,7 +1451,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1065
 msgid "``'r'``"
-msgstr ""
+msgstr "``'r'``"
 
 #: ../../library/functions.rst:1065
 msgid "open for reading (default)"
@@ -1444,7 +1459,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1066
 msgid "``'w'``"
-msgstr ""
+msgstr "``'w'``"
 
 #: ../../library/functions.rst:1066
 msgid "open for writing, truncating the file first"
@@ -1452,7 +1467,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1067
 msgid "``'x'``"
-msgstr ""
+msgstr "``'x'``"
 
 #: ../../library/functions.rst:1067
 msgid "open for exclusive creation, failing if the file already exists"
@@ -1460,7 +1475,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1068
 msgid "``'a'``"
-msgstr ""
+msgstr "``'a'``"
 
 #: ../../library/functions.rst:1068
 msgid "open for writing, appending to the end of the file if it exists"
@@ -1468,23 +1483,23 @@ msgstr ""
 
 #: ../../library/functions.rst:1069
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 #: ../../library/functions.rst:1069
 msgid "binary mode"
-msgstr ""
+msgstr "mode biner"
 
 #: ../../library/functions.rst:1070
 msgid "``'t'``"
-msgstr ""
+msgstr "``'t'``"
 
 #: ../../library/functions.rst:1070
 msgid "text mode (default)"
-msgstr ""
+msgstr "mode teks (bawaan)"
 
 #: ../../library/functions.rst:1071
 msgid "``'+'``"
-msgstr ""
+msgstr "``'+'``"
 
 #: ../../library/functions.rst:1071
 msgid "open for updating (reading and writing)"
@@ -1721,11 +1736,11 @@ msgstr ""
 
 #: ../../library/functions.rst:1246
 msgid "The file is now non-inheritable."
-msgstr ""
+msgstr "Berkas sekarang tidak dapat diwariskan."
 
 #: ../../library/functions.rst:1250
 msgid "The ``'U'`` mode."
-msgstr ""
+msgstr "Mode ``'U'``."
 
 #: ../../library/functions.rst:1255
 msgid ""
@@ -1736,11 +1751,13 @@ msgstr ""
 
 #: ../../library/functions.rst:1258
 msgid "The ``'namereplace'`` error handler was added."
-msgstr ""
+msgstr "Penangan kesalahan ``'namereplace'`` telah ditambahkan."
 
 #: ../../library/functions.rst:1263
 msgid "Support added to accept objects implementing :class:`os.PathLike`."
 msgstr ""
+"Dukungan ditambahkan untuk menerima objek yang mengimplementasikan "
+":class:`os.PathLike`."
 
 #: ../../library/functions.rst:1264
 msgid ""
@@ -1786,6 +1803,7 @@ msgstr ""
 #: ../../library/functions.rst:1295
 msgid "Here's an example of computing an inverse for ``38`` modulo ``97``::"
 msgstr ""
+"Berikut adalah contoh penghitungan kebalikan untuk ``38`` modulo ``97``::"
 
 #: ../../library/functions.rst:1302
 msgid ""
@@ -1831,11 +1849,11 @@ msgstr ""
 
 #: ../../library/functions.rst:1332
 msgid "Added the *flush* keyword argument."
-msgstr ""
+msgstr "Menambahkan argumen kata kunci *flush*."
 
 #: ../../library/functions.rst:1338
 msgid "Return a property attribute."
-msgstr ""
+msgstr "Kembalikan atribut properti."
 
 #: ../../library/functions.rst:1340
 msgid ""
@@ -1846,7 +1864,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1344
 msgid "A typical use is to define a managed attribute ``x``::"
-msgstr ""
+msgstr "Penggunaan khasnya untuk mendefinisikan atribut yang dikelola ``x``::"
 
 #: ../../library/functions.rst:1361
 msgid ""
@@ -1892,7 +1910,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1410
 msgid "The docstrings of property objects are now writeable."
-msgstr ""
+msgstr "docstrings dari properti objek-objek sekarang dapat ditulisi."
 
 #: ../../library/functions.rst:1419
 msgid ""
@@ -1942,6 +1960,8 @@ msgid ""
 "For a general Python object ``number``, ``round`` delegates to "
 "``number.__round__``."
 msgstr ""
+"Untuk sebuah objek Python ``number`` secara umum, ``round`` mendelegasikan "
+"ke ``number.__ round__``."
 
 #: ../../library/functions.rst:1462
 msgid ""
@@ -2030,10 +2050,12 @@ msgstr ""
 msgid ""
 "For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
 msgstr ""
+"Untuk contoh pengurutan dan tutorial singkat pengurutan, lihat :ref: "
+"`sortinghowto`."
 
 #: ../../library/functions.rst:1532
 msgid "Transform a method into a static method."
-msgstr ""
+msgstr "Ubah sebuah metode menjadi sebuah metode statis."
 
 #: ../../library/functions.rst:1534
 msgid ""
@@ -2072,11 +2094,14 @@ msgstr ""
 #: ../../library/functions.rst:1560
 msgid "For more information on static methods, see :ref:`types`."
 msgstr ""
+"Untuk informasi lebih lanjut tentang metode statis, lihat :ref:`types`."
 
 #: ../../library/functions.rst:1571
 msgid ""
 "Return a :class:`str` version of *object*.  See :func:`str` for details."
 msgstr ""
+"Kembalikan sebuah versi :class:`str` dari *objek*.  Lihat :func:`str` untuk "
+"detailnya."
 
 #: ../../library/functions.rst:1573
 msgid ""
@@ -2102,7 +2127,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1589
 msgid "The *start* parameter can be specified as a keyword argument."
-msgstr ""
+msgstr "Parameter *mulai* dapat ditentukan sebagai argumen kata kunci."
 
 #: ../../library/functions.rst:1594
 msgid ""
@@ -2232,7 +2257,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1696
 msgid "See also :ref:`bltin-type-objects`."
-msgstr ""
+msgstr "Lihat juga :ref:`bltin-type-objects`."
 
 #: ../../library/functions.rst:1698
 msgid ""
@@ -2350,7 +2375,7 @@ msgstr ""
 
 #: ../../library/functions.rst:1806
 msgid "The statement ``import spam.ham`` results in this call::"
-msgstr ""
+msgstr "Pernyataan ``import spam.ham`` menghasilkan panggilan ini::"
 
 #: ../../library/functions.rst:1810
 msgid ""

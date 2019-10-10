@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:291
 msgid ":func:`abs`"
-msgstr ""
+msgstr ":func:`abs`"
 
 #: ../../library/stdtypes.rst:294
 msgid "``int(x)``"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:294
 msgid ":func:`int`"
-msgstr ""
+msgstr ":func:`int`"
 
 #: ../../library/stdtypes.rst:296
 msgid "``float(x)``"
@@ -481,7 +481,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:296
 msgid ":func:`float`"
-msgstr ""
+msgstr ":func:`float`"
 
 #: ../../library/stdtypes.rst:298
 msgid "``complex(re, im)``"
@@ -500,7 +500,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:298
 msgid ":func:`complex`"
-msgstr ""
+msgstr ":func:`complex`"
 
 #: ../../library/stdtypes.rst:302
 msgid "``c.conjugate()``"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:305
 msgid ":func:`divmod`"
-msgstr ""
+msgstr ":func:`divmod`"
 
 #: ../../library/stdtypes.rst:307
 msgid "``pow(x, y)``"
@@ -540,7 +540,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:307
 msgid ":func:`pow`"
-msgstr ""
+msgstr ":func:`pow`"
 
 #: ../../library/stdtypes.rst:309
 msgid "``x ** y``"
@@ -777,7 +777,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:472
 msgid "Equivalent to::"
-msgstr ""
+msgstr "Setara dengan::"
 
 #: ../../library/stdtypes.rst:483
 msgid "Return an array of bytes representing an integer."
@@ -1661,6 +1661,8 @@ msgstr ""
 msgid ""
 "For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
 msgstr ""
+"Untuk contoh pengurutan dan tutorial singkat pengurutan, lihat :ref: "
+"`sortinghowto`."
 
 #: ../../library/stdtypes.rst:1213
 msgid ""
@@ -2789,7 +2791,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2216 ../../library/stdtypes.rst:3366
 msgid "``'+'``"
-msgstr ""
+msgstr "``'+'``"
 
 #: ../../library/stdtypes.rst:2216 ../../library/stdtypes.rst:3366
 msgid ""
@@ -2842,7 +2844,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2236 ../../library/stdtypes.rst:3386
 msgid "``'x'``"
-msgstr ""
+msgstr "``'x'``"
 
 #: ../../library/stdtypes.rst:2236 ../../library/stdtypes.rst:3386
 msgid "Signed hexadecimal (lowercase)."
@@ -2915,7 +2917,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2259 ../../library/stdtypes.rst:3419
 msgid "``'r'``"
-msgstr ""
+msgstr "``'r'``"
 
 #: ../../library/stdtypes.rst:2259
 msgid "String (converts any Python object using :func:`repr`)."
@@ -2931,7 +2933,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2265 ../../library/stdtypes.rst:3416
 msgid "``'a'``"
-msgstr ""
+msgstr "``'a'``"
 
 #: ../../library/stdtypes.rst:2265
 msgid "String (converts any Python object using :func:`ascii`)."
@@ -3817,7 +3819,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:3409
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 #: ../../library/stdtypes.rst:3409
 msgid ""

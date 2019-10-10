@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:11
 msgid "Interactive Mode"
-msgstr ""
+msgstr "Mode Interaktif"
 
 #: ../../tutorial/appendix.rst:16
 msgid "Error Handling"
-msgstr ""
+msgstr "Penanganan Kesalahan"
 
 #: ../../tutorial/appendix.rst:18
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:38
 msgid "Executable Python Scripts"
-msgstr ""
+msgstr "Skrip Python Yang Dapat Dieksekusi"
 
 #: ../../tutorial/appendix.rst:40
 msgid ""

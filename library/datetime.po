@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:846
 msgid "Equivalent to::"
-msgstr ""
+msgstr "Setara dengan::"
 
 #: ../../library/datetime.rst:850
 msgid "See also :meth:`now`, :meth:`fromtimestamp`."
@@ -1278,7 +1278,7 @@ msgstr ""
 #: ../../library/datetime.rst:1003 ../../library/datetime.rst:1420
 #: ../../library/datetime.rst:1767
 msgid "Examples::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/datetime.rst:1022
 msgid ""

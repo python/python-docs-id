@@ -898,7 +898,7 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:901
 msgid "Examples::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../tutorial/classes.rst:922
 msgid "Footnotes"
