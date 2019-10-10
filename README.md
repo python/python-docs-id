@@ -46,6 +46,7 @@ Istilah | Terjemahan
 --- | ---
 *bug* | bug
 *download* | unduh
+*interpreter* | interpreter
 *upload* | unggah
 
 ### Keterangan Tambahan
@@ -53,6 +54,23 @@ Istilah | Terjemahan
 Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk 
 menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan 
 yang fungsinya sangat spesifik, seperti halnya Transifex.
+
+### Perintah Transifex
+---
+Untuk mengambil data sumber dan terjemahan yang lebih baru (dibatasi hanya Bahasa Indonesia `id`) dari Transifex:
+```
+tx pull -l id
+```
+
+Untuk mengirim pembaruan ke Transifex:
+```
+tx push -t
+```
+
+Untuk mengirim pembaruan spesifik "resource" (misalnya python-newest.tutorial--interactive):
+```
+tx push -t -r python-newest.tutorial--interactive
+```
 
 ### Referensi
 ---
