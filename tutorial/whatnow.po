@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../tutorial/whatnow.rst:5
 msgid "What Now?"
-msgstr ""
+msgstr "Lalu apa sekarang?"
 
 #: ../../tutorial/whatnow.rst:7
 msgid ""
@@ -31,16 +31,22 @@ msgid ""
 "--- you should be eager to apply Python to solving your real-world problems."
 " Where should you go to learn more?"
 msgstr ""
+"Membaca tutorial ini mungkin telah menambah minat Anda dalam menggunakan "
+"Python --- Anda harus bersemangat untuk menerapkan Python untuk "
+"menyelesaikan masalah dunia nyata Anda. Ke mana Anda harus pergi untuk "
+"belajar lebih banyak?"
 
 #: ../../tutorial/whatnow.rst:11
 msgid ""
 "This tutorial is part of Python's documentation set.   Some other documents "
 "in the set are:"
 msgstr ""
+"Tutorial ini adalah bagian dari kumpulan dokumentasi Python. Beberapa "
+"dokumen lain di dalam kumpulan adalah:"
 
 #: ../../tutorial/whatnow.rst:14
 msgid ":ref:`library-index`:"
-msgstr ""
+msgstr ":ref:`library-index`:"
 
 #: ../../tutorial/whatnow.rst:16
 msgid ""
@@ -52,12 +58,21 @@ msgid ""
 "compress data, and many other tasks. Skimming through the Library Reference "
 "will give you an idea of what's available."
 msgstr ""
+"Anda harus menelusuri manual ini, yang memberikan bahan referensi lengkap "
+"(meskipun singkat) tentang tipe, fungsi, dan modul di pustaka standar. "
+"Distribusi Python standar termasuk *banyak* kode tambahan. Ada modul untuk "
+"membaca kotak surat Unix, mengambil dokumen melalui HTTP, menghasilkan angka"
+" acak, mengurai opsi baris perintah, menulis program CGI, mengompres data, "
+"dan banyak tugas lainnya. Membaca sekilas Referensi Pustaka akan memberi "
+"Anda gagasan tentang apa yang tersedia."
 
 #: ../../tutorial/whatnow.rst:24
 msgid ""
 ":ref:`installing-index` explains how to install additional modules written "
 "by other Python users."
 msgstr ""
+":ref:`install-index` menjelaskan cara memasang modul tambahan yang ditulis "
+"oleh pengguna Python lainnya."
 
 #: ../../tutorial/whatnow.rst:27
 msgid ""
@@ -65,10 +80,13 @@ msgid ""
 "semantics.  It's heavy reading, but is useful as a complete guide to the "
 "language itself."
 msgstr ""
+":ref:`reference-index`: Penjelasan terperinci tentang sintaksis dan semantik"
+" Python. Ini bacaan yang berat, tetapi berguna sebagai panduan lengkap untuk"
+" bahasa itu sendiri."
 
 #: ../../tutorial/whatnow.rst:31
 msgid "More Python resources:"
-msgstr ""
+msgstr "Lebih banyak sumber tentang Python:"
 
 #: ../../tutorial/whatnow.rst:33
 msgid ""
@@ -78,10 +96,15 @@ msgid ""
 "Japan, and Australia; a mirror may be faster than the main site, depending "
 "on your geographical location."
 msgstr ""
+"https://www.python.org: Situs web Python utama. Ini berisi kode, "
+"dokumentasi, dan petunjuk ke halaman terkait Python di seluruh Web. Situs "
+"web ini diduplikasi di berbagai tempat di seluruh dunia, seperti Eropa, "
+"Jepang, dan Australia; situs duplikat mungkin lebih cepat dari situs utama, "
+"tergantung pada lokasi geografis Anda."
 
 #: ../../tutorial/whatnow.rst:39
 msgid "https://docs.python.org:  Fast access to Python's  documentation."
-msgstr ""
+msgstr "https://docs.python.org: Akses cepat ke dokumentasi Python."
 
 #: ../../tutorial/whatnow.rst:41
 msgid ""
@@ -90,6 +113,10 @@ msgid ""
 "available for download.  Once you begin releasing code, you can register it "
 "here so that others can find it."
 msgstr ""
+"https://pypi.org: Indeks Paket Python, sebelumnya juga dijuluki Toko Keju "
+"[#]_, adalah indeks modul Python yang dibuat pengguna yang tersedia untuk "
+"diunduh. Setelah Anda mulai menghasilkan kode, Anda dapat mendaftarkannya di"
+" sini sehingga orang lain dapat menemukannya."
 
 #: ../../tutorial/whatnow.rst:46
 msgid ""
@@ -98,12 +125,19 @@ msgid ""
 "Particularly notable contributions are collected in a book also titled "
 "Python Cookbook (O'Reilly & Associates, ISBN 0-596-00797-3.)"
 msgstr ""
+"https://code.activestate.com/recipes/langs/python/: Python Cookbook adalah "
+"kumpulan contoh kode yang cukup besar, modul yang lebih besar, dan skrip "
+"yang bermanfaat. Kontribusi yang sangat penting dikumpulkan dalam sebuah "
+"buku yang juga berjudul Python Cookbook (O'Reilly & Associates, ISBN "
+"0-596-00797-3.)"
 
 #: ../../tutorial/whatnow.rst:51
 msgid ""
 "http://www.pyvideo.org collects links to Python-related videos from "
 "conferences and user-group meetings."
 msgstr ""
+"http://www.pyvideo.org mengumpulkan tautan ke video terkait Python dari "
+"konferensi dan pertemuan kelompok pengguna."
 
 #: ../../tutorial/whatnow.rst:54
 msgid ""
@@ -112,6 +146,10 @@ msgid ""
 " as linear algebra, Fourier transforms, non-linear solvers, random number "
 "distributions, statistical analysis and the like."
 msgstr ""
+"https://scipy.org: Proyek Scientific Python mencakup modul untuk perhitungan"
+" dan manipulasi array cepat ditambah sejumlah paket untuk hal-hal seperti "
+"aljabar linier, transformasi Fourier, pemecah non-linear, distribusi angka "
+"acak, distribusi angka acak, analisis statistik, dan sejenisnya."
 
 #: ../../tutorial/whatnow.rst:59
 msgid ""
@@ -123,6 +161,13 @@ msgid ""
 " new features, and announcing new modules. Mailing list archives are "
 "available at https://mail.python.org/pipermail/."
 msgstr ""
+"Untuk pertanyaan terkait Python dan laporan masalah, Anda dapat memposting "
+"ke newsgroup :newsgroup:`comp.lang.python`, atau mengirimnya ke milis di "
+"python-list@python.org. Newsgroup dan mailing list adalah gerbang, sehingga "
+"pesan yang diposting ke salah satu secara otomatis akan diteruskan ke yang "
+"lain. Ada ratusan posting sehari, menanyakan (dan menjawab) pertanyaan, "
+"menyarankan fitur baru, dan mengumumkan modul baru. Arsip milis tersedia di "
+"https://mail.python.org/pipermail/."
 
 #: ../../tutorial/whatnow.rst:67
 msgid ""
@@ -131,6 +176,10 @@ msgid ""
 "questions that come up again and again, and may already contain the solution"
 " for your problem."
 msgstr ""
+"Sebelum memposting, pastikan untuk memeriksa daftar :ref:`Pertanyaan yang "
+"Sering Diajukan <faq-index>`(juga disebut FAQ). FAQ menjawab banyak "
+"pertanyaan yang muncul berulang-ulang, dan mungkin sudah mengandung solusi "
+"untuk masalah Anda."
 
 #: ../../tutorial/whatnow.rst:73
 msgid "Footnotes"
@@ -141,3 +190,6 @@ msgid ""
 "\"Cheese Shop\" is a Monty Python's sketch: a customer enters a cheese shop,"
 " but whatever cheese he asks for, the clerk says it's missing."
 msgstr ""
+"\"Cheese Shop\" atau Toko Keju adalah sketsa Monty Python: seorang pelanggan"
+" memasuki sebuah toko keju, tetapi keju apa pun yang dia minta, petugas toko"
+" mengatakan itu hilang."

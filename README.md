@@ -58,6 +58,7 @@ Istilah | Terjemahan
 *file* | berkas
 *interpreter* | interpreter
 *keyword* | kata kunci
+*run* | operasikan
 *upload* | unggah
 
 ### Keterangan Tambahan
