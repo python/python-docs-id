@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:305
 msgid "Strings"
-msgstr ""
+msgstr "String"
 
 #: ../../reference/datamodel.rst:295
 msgid ""
@@ -405,7 +405,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:348
 msgid "Lists"
-msgstr ""
+msgstr "List"
 
 #: ../../reference/datamodel.rst:346
 msgid ""

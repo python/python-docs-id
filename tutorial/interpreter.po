@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../tutorial/interpreter.rst:5
 msgid "Using the Python Interpreter"
-msgstr ""
+msgstr "Menggunakan Interpreter Python"
 
 #: ../../tutorial/interpreter.rst:11
 msgid "Invoking the Interpreter"
-msgstr ""
+msgstr "Memanggil Interpreter"
 
 #: ../../tutorial/interpreter.rst:13
 msgid ""
@@ -36,6 +36,10 @@ msgid ""
 "putting :file:`/usr/local/bin` in your Unix shell's search path makes it "
 "possible to start it by typing the command:"
 msgstr ""
+"Interpreter Python biasanya diinstal sebagai "
+":file:`/usr/local/bin/python3.8` pada mesin-mesin di mana hal tersebut "
+"tersedia; menempatkan :file:`/usr/local/bin` di jalur pencarian Unix shell "
+"Anda memungkinkan untuk memulainya dengan mengetikkan perintah:"
 
 #: ../../tutorial/interpreter.rst:21
 msgid ""
@@ -44,6 +48,10 @@ msgid ""
 "local Python guru or system administrator.  (E.g., :file:`/usr/local/python`"
 " is a popular alternative location.)"
 msgstr ""
+"ke shell. [#]_ Karena pilihan direktori tempat interpreter berada adalah "
+"opsi instalasi, bisa jadi di tempat lain; tanyakan kepada guru Python Anda "
+"di sekitar atau administrator sistem. (Mis., :file:`/usr/local/python` "
+"adalah lokasi alternatif yang populer.)"
 
 #: ../../tutorial/interpreter.rst:26
 msgid ""
@@ -53,6 +61,11 @@ msgid ""
 ":file:`py` command. See :ref:`setting-envvars` for other ways to launch "
 "Python."
 msgstr ""
+"Pada mesin Windows di mana Anda telah menginstal dari :ref:`Microsoft Store "
+"<windows-store>`, perintah :file:`python3.8` akan tersedia. Jika Anda telah "
+"menginstal :ref:`py.exe launcher <launcher>`, Anda dapat menggunakan "
+"perintah :file:`py`. Lihat :ref:`setting-envvars` untuk cara-cara lain untuk"
+" meluncurkan Python."
 
 #: ../../tutorial/interpreter.rst:31
 msgid ""
@@ -61,6 +74,10 @@ msgid ""
 " exit status.  If that doesn't work, you can exit the interpreter by typing "
 "the following command: ``quit()``."
 msgstr ""
+"Mengetik karakter akhir file (:kbd:`Control-D` pada Unix, :kbd:` Control-Z` "
+"pada Windows) pada prompt utama menyebabkan interpreter keluar dengan status"
+" keluar nol. Jika itu tidak berhasil, Anda dapat keluar dari interpreter "
+"dengan mengetikkan perintah berikut: ``quit()``."
 
 #: ../../tutorial/interpreter.rst:36
 msgid ""
@@ -74,6 +91,16 @@ msgid ""
 "echoed, command line editing isn't available; you'll only be able to use "
 "backspace to remove characters from the current line."
 msgstr ""
+"Fitur pengeditan garis interpreter termasuk pengeditan interaktif, "
+"penggantian riwayat dan penyelesaian kode pada sistem yang mendukung pustaka"
+" `GNU Readline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_. "
+"Mungkin pemeriksaan tercepat untuk melihat apakah pengeditan baris perintah "
+"didukung dengan mengetik :kbd:`Control-P` ke prompt Python pertama yang Anda"
+" dapatkan. Jika berbunyi bip, Anda memiliki pengeditan baris perintah; lihat"
+" Lampiran :ref:`tut-interacting` untuk pengantar tombol. Jika tampaknya "
+"tidak ada yang terjadi, atau jika muncul ``^P``, pengeditan baris perintah "
+"tidak tersedia; Anda hanya akan dapat menggunakan backspace untuk menghapus "
+"karakter dari baris saat ini."
 
 #: ../../tutorial/interpreter.rst:46
 msgid ""
@@ -82,6 +109,11 @@ msgid ""
 "interactively; when called with a file name argument or with a file as "
 "standard input, it reads and executes a *script* from that file."
 msgstr ""
+"Interpreter beroperasi mirip seperti shell Unix: ketika dipanggil dengan "
+"masukan bawaan yang terhubung ke perangkat tty, ia membaca dan mengeksekusi "
+"perintah secara interaktif; ketika dipanggil dengan argumen nama berkas atau"
+" dengan berkas sebagai masukan bawaan, ia membaca dan mengeksekusi *script* "
+"dari berkas itu."
 
 #: ../../tutorial/interpreter.rst:51
 msgid ""
@@ -91,6 +123,11 @@ msgid ""
 "characters that are special to the shell, it is usually advised to quote "
 "*command* in its entirety with single quotes."
 msgstr ""
+"Cara kedua untuk memulai interpreter adalah ``python -c command [arg] ...``,"
+" yang mengeksekusi pernyataan(-pernyataan) dalam *command*, dianalogikan "
+"dengan opsi shell :option:`-c`. Karena pernyataan Python sering mengandung "
+"spasi atau karakter lain yang khusus untuk shell, biasanya disarankan untuk "
+"mengutip *command* secara keseluruhan dengan tanda kutip tunggal."
 
 #: ../../tutorial/interpreter.rst:57
 msgid ""
@@ -98,6 +135,10 @@ msgid ""
 "``python -m module [arg] ...``, which executes the source file for *module* "
 "as if you had spelled out its full name on the command line."
 msgstr ""
+"Beberapa modul Python juga berguna sebagai skrip. Ini dapat dipanggil "
+"menggunakan ``python -m module [arg] ...``, yang mengeksekusi berkas sumber "
+"untuk *module* seolah-olah Anda telah menuliskan nama lengkapnya pada baris "
+"perintah."
 
 #: ../../tutorial/interpreter.rst:61
 msgid ""
@@ -105,14 +146,17 @@ msgid ""
 "script and enter interactive mode afterwards.  This can be done by passing "
 ":option:`-i` before the script."
 msgstr ""
+"Ketika berkas skrip digunakan, terkadang berguna untuk dapat menjalankan "
+"skrip dan masuk ke mode interaktif sesudahnya. Ini dapat dilakukan dengan "
+"menuliskan :option:`-i` sebelum skrip."
 
 #: ../../tutorial/interpreter.rst:65
 msgid "All command line options are described in :ref:`using-on-general`."
-msgstr ""
+msgstr "Semua opsi baris perintah dijelaskan dalam :ref:`using-on-general`."
 
 #: ../../tutorial/interpreter.rst:71
 msgid "Argument Passing"
-msgstr ""
+msgstr "Melewatkan Argumen"
 
 #: ../../tutorial/interpreter.rst:73
 msgid ""
@@ -129,6 +173,18 @@ msgid ""
 "interpreter's option processing but left in ``sys.argv`` for  the command or"
 " module to handle."
 msgstr ""
+"Ketika diketahui oleh interpreter, nama skrip dan argumen tambahan "
+"sesudahnya diubah menjadi daftar string dan diberikan nilai ke variabel "
+"``argv`` dalam modul ``sys``. Anda dapat mengakses daftar ini dengan "
+"menjalankan ``import sys``. Panjang daftar setidaknya satu; ketika tidak ada"
+" skrip dan tidak ada argumen yang diberikan, ``sys.argv[0]`` adalah string "
+"kosong. Ketika nama skrip diberikan sebagai ``'-'`` (artinya standar "
+"masukan), ``sys.argv[0]`` diatur ke ``'-'``. Ketika *command* :option:`-c` "
+"digunakan, ``sys.argv[0]`` diatur ke``'-c'``. Ketika *module* :option:`-m` "
+"digunakan, ``sys.argv[0]`` diatur ke nama lengkap modul yang digunakan. Opsi"
+" ditemukan setelah *command* :option:`-c` atau *module* :option:`-m` tidak "
+"dikonsumsi oleh pemrosesan opsi interpreter Python tetapi ditinggalkan di "
+"``sys.argv`` untuk perintah atau modul yang akan ditangani ."
 
 #: ../../tutorial/interpreter.rst:89
 msgid "Interactive Mode"
@@ -143,24 +199,33 @@ msgid ""
 "dots (``...``). The interpreter prints a welcome message stating its version"
 " number and a copyright notice before printing the first prompt:"
 msgstr ""
+"Ketika perintah dibaca dari tty, interpreter dikatakan dalam *interactive "
+"mode*. Dalam mode ini interpreter meminta perintah berikutnya dengan "
+"*primary prompt*, biasanya tiga tanda lebih besar dari (``>>>``); untuk "
+"garis lanjutan, interpreter meminta dengan *secondary prompt*, secara bawaan"
+" tiga titik (``...``). Interpreter mencetak pesan selamat datang yang "
+"menyatakan nomor versinya dan pemberitahuan hak cipta sebelum mencetak "
+"prompt pertama:"
 
 #: ../../tutorial/interpreter.rst:108
 msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
 "example, take a look at this :keyword:`if` statement::"
 msgstr ""
+"Garis lanjutan diperlukan ketika memasuki konstruksi multi-garis. Sebagai "
+"contoh, lihat ini pernyataan :keyword:`if`::"
 
 #: ../../tutorial/interpreter.rst:118
 msgid "For more on interactive mode, see :ref:`tut-interac`."
-msgstr ""
+msgstr "Untuk lebih lanjut tentang mode interaktif, lihat :ref:`tut-interac`."
 
 #: ../../tutorial/interpreter.rst:124
 msgid "The Interpreter and Its Environment"
-msgstr ""
+msgstr "Interpreter dan Lingkungannya"
 
 #: ../../tutorial/interpreter.rst:130
 msgid "Source Code Encoding"
-msgstr ""
+msgstr "*Encoding* Penulisan Kode Sumber"
 
 #: ../../tutorial/interpreter.rst:132
 msgid ""
@@ -172,23 +237,38 @@ msgid ""
 "properly, your editor must recognize that the file is UTF-8, and it must use"
 " a font that supports all the characters in the file."
 msgstr ""
+"Secara bawaan, berkas sumber Python diperlakukan sebagai tulisan *encoded* "
+"dalam UTF-8. Dalam pengkodean itu, sebagian besar karakter bahasa di dunia "
+"dapat digunakan secara bersamaan dalam string literal, pengidentifikasi dan "
+"komentar --- meskipun pustaka standar hanya menggunakan karakter ASCII untuk"
+" pengidentifikasi, sebuah konvensi yang harus diikuti oleh setiap kode "
+"portabel. Untuk menampilkan semua karakter ini dengan benar, editor Anda "
+"harus mengenali bahwa berkas tersebut adalah UTF-8, dan itu harus "
+"menggunakan font yang mendukung semua karakter dalam berkas."
 
 #: ../../tutorial/interpreter.rst:140
 msgid ""
 "To declare an encoding other than the default one, a special comment line "
 "should be added as the *first* line of the file.  The syntax is as follows::"
 msgstr ""
+"Untuk mendeklarasikan penyandian *encoding* selain yang bawaan, baris "
+"komentar khusus harus ditambahkan sebagai baris *first* pada berkas. "
+"Sintaksnya adalah sebagai berikut ::"
 
 #: ../../tutorial/interpreter.rst:145
 msgid ""
 "where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
+"di mana *encoding* adalah salah satu yang valid :mod:`codec` yang didukung "
+"oleh Python."
 
 #: ../../tutorial/interpreter.rst:147
 msgid ""
 "For example, to declare that Windows-1252 encoding is to be used, the first "
 "line of your source code file should be::"
 msgstr ""
+"Misalnya, untuk menyatakan bahwa pengkodean *encoding* Windows-1252 harus "
+"digunakan, baris pertama file kode sumber Anda harus::"
 
 #: ../../tutorial/interpreter.rst:152
 msgid ""
@@ -196,6 +276,10 @@ msgid ""
 " :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
 "declaration should be added as the second line of the file.  For example::"
 msgstr ""
+"Satu pengecualian untuk aturan *baris pertama* adalah ketika kode sumber "
+"dimulai dengan :ref:`UNIX \"shebang\" line <tut-scripts>`. Dalam hal ini, "
+"deklarasi penyandian *encoding* harus ditambahkan sebagai baris kedua pada "
+"berkas. Sebagai contoh::"
 
 #: ../../tutorial/interpreter.rst:160
 msgid "Footnotes"
@@ -207,3 +291,6 @@ msgid ""
 "executable named ``python``, so that it does not conflict with a "
 "simultaneously installed Python 2.x executable."
 msgstr ""
+"Pada Unix, interpreter Python 3.x secara default tidak diinstal sebagai "
+"aplikasi yang dapat dieksekusi dengan nama ``python``, sehingga tidak "
+"bertentangan dengan aplikasi Python 2.x yang diinstal secara bersamaan."

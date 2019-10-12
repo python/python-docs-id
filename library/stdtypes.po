@@ -1552,7 +1552,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:1143
 msgid "Lists"
-msgstr ""
+msgstr "List"
 
 #: ../../library/stdtypes.rst:1147
 msgid ""

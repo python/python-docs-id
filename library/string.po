@@ -31,11 +31,11 @@ msgstr ""
 
 #: ../../library/string.rst:13
 msgid ":ref:`textseq`"
-msgstr ""
+msgstr ":ref:`textseq`"
 
 #: ../../library/string.rst:15
 msgid ":ref:`string-methods`"
-msgstr ""
+msgstr ":ref:`string-methods`"
 
 #: ../../library/string.rst:18
 msgid "String constants"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: ../../library/string.rst:266
 msgid "Some examples::"
-msgstr ""
+msgstr "Beberapa contoh::"
 
 #: ../../library/string.rst:272
 msgid ""

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -258,13 +258,15 @@ msgstr ""
 
 #: ../../distributing/index.rst:123
 msgid "Reading the Python Packaging User Guide"
-msgstr ""
+msgstr "Membaca Panduan Pengguna Pengemasan Python"
 
 #: ../../distributing/index.rst:125
 msgid ""
 "The Python Packaging User Guide covers the various key steps and elements "
 "involved in creating and publishing a project:"
 msgstr ""
+"Panduan Pengguna Pengemasan Python mencakup berbagai langkah kunci dan "
+"elemen yang terlibat dalam membuat dan menerbitkan sebuah proyek:"
 
 #: ../../distributing/index.rst:128
 msgid "`Project structure`_"

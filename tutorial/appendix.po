@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:5
 msgid "Appendix"
-msgstr ""
+msgstr "Lampiran"
 
 #: ../../tutorial/appendix.rst:11
 msgid "Interactive Mode"
@@ -45,6 +45,16 @@ msgid ""
 "error messages are written to the standard error stream; normal output from "
 "executed commands is written to standard output."
 msgstr ""
+"Ketika terjadi kesalahan, interpreter mencetak pesan kesalahan dan tumpukan "
+"jejak. Dalam mode interaktif, kemudian kembali ke prompt utama; ketika "
+"masukan datang dari berkas, akan keluar dengan status keluar yang tidak nol "
+"setelah mencetak tumpukan jejak. (Pengecualian yang ditangani oleh klausa "
+":keyword:`exception` dalam pernyataan :keyword:` try` bukan kesalahan dalam "
+"konteks ini.) Beberapa kesalahan berakibat fatal dan menyebabkan keluar "
+"dengan kode keluar selain-nol; ini berlaku untuk inkonsistensi internal dan "
+"beberapa kasus kehabisan memori. Semua pesan kesalahan ditulis ke aliran "
+"standar kesalahan; keluaran normal dari perintah yang dieksekusi ditulis ke "
+"standar keluaran."
 
 #: ../../tutorial/appendix.rst:28
 msgid ""
@@ -54,6 +64,11 @@ msgid ""
 " the :exc:`KeyboardInterrupt` exception, which may be handled by a "
 ":keyword:`try` statement."
 msgstr ""
+"Mengetik karakter interupsi (biasanya :kbd:`Control-C` atau :kbd:`Delete`) "
+"ke prompt utama atau sekunder membatalkan masukan dan kembali ke prompt "
+"utama. [#]_ Mengetik interupsi saat sebuah perintah dieksekusi memunculkan "
+"pengecualian :exc:`KeyboardInterrupt`, yang dapat ditangani oleh pernyataan "
+":keyword:` try`."
 
 #: ../../tutorial/appendix.rst:38
 msgid "Executable Python Scripts"
@@ -64,6 +79,8 @@ msgid ""
 "On BSD'ish Unix systems, Python scripts can be made directly executable, "
 "like shell scripts, by putting the line ::"
 msgstr ""
+"Pada sistem Unix BSD'ish, skrip Python dapat dibuat langsung dapat "
+"dieksekusi, seperti skrip shell, dengan meletakkan baris ::"
 
 #: ../../tutorial/appendix.rst:45
 msgid ""
@@ -74,12 +91,20 @@ msgid ""
 "(``'\\r\\n'``) line ending.  Note that the hash, or pound, character, "
 "``'#'``, is used to start a comment in Python."
 msgstr ""
+"(dengan asumsi bahwa interpreter ada di :envvar:`PATH` pengguna) di awal "
+"skrip dan memberikan mode pada berkas untuk dapat dieksekusi. ``#!`` Harus "
+"merupakan dua karakter pertama dari file tersebut. Pada beberapa platform, "
+"baris pertama ini harus diakhiri dengan akhiran bergaya Unix (``'\\n'``), "
+"bukan akhiran Windows (``'\\r\\n'``). Perhatikan bahwa hash, atau pon, "
+"karakter, ``'#'``, digunakan untuk memulai komentar dengan Python."
 
 #: ../../tutorial/appendix.rst:52
 msgid ""
 "The script can be given an executable mode, or permission, using the "
 ":program:`chmod` command."
 msgstr ""
+"Skrip bisa diberikan mode yang dapat dieksekusi, atau izin, menggunakan "
+"perintah :program:`chmod`."
 
 #: ../../tutorial/appendix.rst:59
 msgid ""
@@ -89,10 +114,15 @@ msgid ""
 "extension can also be ``.pyw``, in that case, the console window that "
 "normally appears is suppressed."
 msgstr ""
+"Pada sistem Windows, tidak ada gagasan tentang \"mode yang dapat "
+"dieksekusi\". Pemasang Python secara otomatis mengaitkan file ``.py`` dengan"
+" ``python.exe`` sehingga klik dua kali pada file Python akan menjalankannya "
+"sebagai skrip. Ekstensi juga bisa ``.pyw``, dalam hal ini, jendela konsol "
+"yang biasanya muncul dihilangkan."
 
 #: ../../tutorial/appendix.rst:69
 msgid "The Interactive Startup File"
-msgstr ""
+msgstr "Berkas Permulaan Interaktif"
 
 #: ../../tutorial/appendix.rst:71
 msgid ""
@@ -102,6 +132,11 @@ msgid ""
 "the name of a file containing your start-up commands.  This is similar to "
 "the :file:`.profile` feature of the Unix shells."
 msgstr ""
+"Ketika Anda menggunakan Python secara interaktif, seringkali berguna untuk "
+"menjalankan beberapa perintah standar setiap kali interpreter dimulai. Anda "
+"dapat melakukan ini dengan mengatur variabel lingkungan bernama "
+":envvar:`PYTHONSTARTUP` ke nama berkas yang berisi perintah permulaan Anda. "
+"Ini mirip dengan fitur :file:`.profile` dari shell Unix."
 
 #: ../../tutorial/appendix.rst:77
 msgid ""
@@ -113,6 +148,13 @@ msgid ""
 " qualification in the interactive session. You can also change the prompts "
 "``sys.ps1`` and ``sys.ps2`` in this file."
 msgstr ""
+"File ini hanya dibaca dalam sesi interaktif, bukan ketika Python membaca "
+"perintah dari skrip, dan bukan ketika :file:`/dev/tty` diberikan sebagai "
+"sumber perintah eksplisit (yang jika tidak berperilaku seperti sesi "
+"interaktif). Itu dieksekusi di namespace yang sama di mana perintah "
+"interaktif dieksekusi, sehingga objek yang didefinisikan atau impor dapat "
+"digunakan tanpa kualifikasi dalam sesi interaktif. Anda juga dapat mengubah "
+"prompt ``sys.ps1`` dan ``sys.ps2`` dalam file ini."
 
 #: ../../tutorial/appendix.rst:85
 msgid ""
@@ -122,10 +164,16 @@ msgid ""
 "want to use the startup file in a script, you must do this explicitly in the"
 " script::"
 msgstr ""
+"Jika Anda ingin membaca berkas permulaan tambahan dari direktori saat ini, "
+"Anda dapat memrogram ini dalam berkas permulaan global menggunakan kode "
+"seperti ``if os.path.isfile('.pythonrc.py'): "
+"exec(open('.pythonrc.py').read())``. Jika Anda ingin menggunakan berkas "
+"permulaan dalam skrip, Anda harus melakukan ini secara eksplisit dalam "
+"skrip::"
 
 #: ../../tutorial/appendix.rst:102
 msgid "The Customization Modules"
-msgstr ""
+msgstr "Modul Penyesuaian"
 
 #: ../../tutorial/appendix.rst:104
 msgid ""
@@ -134,6 +182,10 @@ msgid ""
 "location of your user site-packages directory.  Start Python and run this "
 "code::"
 msgstr ""
+"Python menyediakan dua kait untuk memungkinkan Anda menyesuaikannya: "
+":mod:`sitecustomize` dan :mod:`usercustomize`. Untuk melihat cara kerjanya, "
+"Anda harus terlebih dahulu menemukan lokasi direktori site-packages pengguna"
+" Anda. Mulai Python dan operasikan kode ini::"
 
 #: ../../tutorial/appendix.rst:112
 msgid ""
@@ -142,6 +194,10 @@ msgid ""
 " unless it is started with the :option:`-s` option to disable the automatic "
 "import."
 msgstr ""
+"Sekarang Anda dapat membuat file bernama :file:`usercustomize.py` di "
+"direktori itu dan memasukkan apa pun yang Anda inginkan di dalamnya. Ini "
+"akan memengaruhi setiap seruan dari Python, kecuali dimulai dengan opsi "
+":option:`-s` untuk menonaktifkan impor otomatis."
 
 #: ../../tutorial/appendix.rst:116
 msgid ""
@@ -150,6 +206,10 @@ msgid ""
 "imported before :mod:`usercustomize`.  See the documentation of the "
 ":mod:`site` module for more details."
 msgstr ""
+":mod:`sitecustomize` bekerja dengan cara yang sama, tetapi biasanya dibuat "
+"oleh administrator komputer di direktori site-packages global, dan diimpor "
+"sebelum :mod:`usercustomize`. Lihat dokumentasi modul :mod:`site` untuk "
+"lebih jelasnya."
 
 #: ../../tutorial/appendix.rst:123
 msgid "Footnotes"
@@ -157,4 +217,4 @@ msgstr "Catatan kaki"
 
 #: ../../tutorial/appendix.rst:124
 msgid "A problem with the GNU Readline package may prevent this."
-msgstr ""
+msgstr "Masalah dengan paket GNU Readline dapat mencegah hal ini."

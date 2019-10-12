@@ -38,11 +38,45 @@ Anda bisa berkontribusi dengan:
 Sesuai informasi di PEP 545, bahwa terjemahan dokumentasi akan dimunculkan di pilihan bahasa (_Languange Switcher_),
 setelah mencapai target berikut:
 
-* 100% dari **bugs.html** dengan referensi yang memadai ke pelacak isu penyimpanan bahasa terjemahan
+* 100% dari **bugs.po** dengan referensi yang memadai ke pelacak isu penyimpanan bahasa terjemahan :heavy_check_mark:
 * 100% dari **tutorial**
-* 100% dari **library/functions** (builtins).
+* 100% dari **library/functions** (builtins)
 
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
+
+##### Progres
+* **tutorial/{appendix, index, interactive, interpreter, introduction, venv, whatnow}** sudah diterjemahkan 100%
+* **tutorial/{appetite, classes, controlflow, datastructure, errors, floatingpoint, inputoutput, modules, stdlib, strlib2}** belum diterjemahkan
+* **library/functions** sudah diterjemahkan 32%
+
+### Panduan Singkat Penerjemahan
+---
+Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, termasuk juga kata yang diapit dua *backtick* (`) setelahnya, dan pastikan tidak ada spasi setelah titik dua yang kedua dengan *backtick* yang pertama. Berikut beberapa contohnya (kata yang ada dalam *backtick* dapat bervariasi).
+```
+:class:`~decimal.Decimal`
+:exc:`KeyboardInterrupt`
+:envvar:`PATH`
+:file:`.profile`
+:func:`print`
+:keyword:`try`
+:kbd:`Delete`
+:meth:`~list.append`
+:mod:`sitecustomize`
+:option:`-s`
+:program:`chmod`
+:term:`>>>`
+```
+
+Semua kata yang diapit dua tanda backtick berganda (``), atau di Transifex disebut sebagai "Custom Variable",  **tidak perlu diterjemahkan**. Berikut beberapa contohnya.
+```
+``#!``
+``'\n'``
+``'\r\n'``
+``'#'``
+``.py``
+``python.exe``
+``.pyw``
+```
 
 ### Daftar Istilah
 ---
@@ -53,12 +87,27 @@ Jangan ragu untuk memberi masukan.
 
 Istilah | Terjemahan
 --- | ---
-*bug* | bug
+*bug* | *bug*
+*built-in* | bawaan
+*concatenation. concatenated* | perangkaian, penggabungan. digabungkan.
+*default* | bawaan
 *download* | unduh
+*e.g.* | mis.
+*exception* | pengecualian
 *file* | berkas
-*interpreter* | interpreter
+*interpreter* | *interpreter*
+*invocation* | seruan, pemanggilan
 *keyword* | kata kunci
+*library* | pustaka
+*loop* | perulangan, pengulangan
+*namespace* | *namespace*
+*parse. parser. parsing* | urai. pengurai. mengurai.
+*path* | jalur
+*prompt* | *prompt*
 *run* | operasikan
+*site-packages* | *site-packages*
+*slice* | iris, irisan
+*startup* | permulaan
 *upload* | unggah
 
 ### Keterangan Tambahan

@@ -108,4 +108,4 @@ msgstr ""
 
 #: ../../tutorial/index.rst:40
 msgid "The :ref:`glossary` is also worth going through."
-msgstr "The :ref:`glosarium` juga layak untuk dilihat."
+msgstr ":ref:`glosarium` juga layak untuk dilihat."
