@@ -551,7 +551,7 @@ msgstr ""
 #: ../../library/ssl.rst:489 ../../library/ssl.rst:1574
 #: ../../library/ssl.rst:1889
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/ssl.rst:496 ../../library/ssl.rst:511
 msgid ":ref:`Availability <availability>`: Windows."

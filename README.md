@@ -40,34 +40,37 @@ setelah mencapai target berikut:
 
 * 100% dari **bugs.po** dengan referensi yang memadai ke pelacak isu penyimpanan bahasa terjemahan :heavy_check_mark:
 * 100% dari **tutorial**
-* 100% dari **library/functions** (builtins)
+* 100% dari **library/functions** (builtins) :heavy_check_mark:
 
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ##### Progres
 * **tutorial/{appendix, index, interactive, interpreter, introduction, venv, whatnow}** sudah diterjemahkan 100%
 * **tutorial/{appetite, classes, controlflow, datastructure, errors, floatingpoint, inputoutput, modules, stdlib, strlib2}** belum diterjemahkan
-* **library/functions** sudah diterjemahkan 32%
 
 ### Panduan Singkat Penerjemahan
 ---
 Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, termasuk juga kata yang diapit dua *backtick* (`) setelahnya, dan pastikan tidak ada spasi setelah titik dua yang kedua dengan *backtick* yang pertama. Berikut beberapa contohnya (kata yang ada dalam *backtick* dapat bervariasi).
 ```
 :class:`~decimal.Decimal`
+:const:`True`
+:data:`sys.stdout`
 :exc:`KeyboardInterrupt`
 :envvar:`PATH`
 :file:`.profile`
 :func:`print`
+:issue:`36817`
 :keyword:`try`
 :kbd:`Delete`
 :meth:`~list.append`
 :mod:`sitecustomize`
 :option:`-s`
+:pep:`475`
 :program:`chmod`
 :term:`>>>`
 ```
 
-Semua kata yang diapit dua tanda backtick berganda (``), atau di Transifex disebut sebagai "Custom Variable",  **tidak perlu diterjemahkan**. Berikut beberapa contohnya.
+Semua kata yang diapit dua tanda *backtick* berganda (``), atau di Transifex disebut sebagai "Custom Variable",  **tidak perlu diterjemahkan**. Berikut beberapa contohnya.
 ```
 ``#!``
 ``'\n'``
@@ -87,27 +90,54 @@ Jangan ragu untuk memberi masukan.
 
 Istilah | Terjemahan
 --- | ---
+*assigned. assignment* | diisi. mengisi, memberikan tugas, memberikan nilai 
+*boolean* | *boolean*
+*buffer* | penyangga
 *bug* | *bug*
 *built-in* | bawaan
-*concatenation. concatenated* | perangkaian, penggabungan. digabungkan.
+*changelog* | catatan perubahan
+*compiler* | *compiler*
+*concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
+*custom* | ubahsuai, ubahsuaian
+*decoding* | penerjemahan, *decoding*
 *default* | bawaan
+*deprecated* | usang
+*dictionary* | *dictionary*
+*docstring* | *docstring*
 *download* | unduh
 *e.g.* | mis.
+*encoding* | penyandian, *encoding*
+*escape* | memisahkan
+*etc.* | dll.
 *exception* | pengecualian
+*fall back* | beralih
 *file* | berkas
+*form* | bentuk, formulir
+*framework* | kerangka, kerangka kerja
+*handling. handler.* | penanganan. penangan.
 *interpreter* | *interpreter*
 *invocation* | seruan, pemanggilan
+*iterator* | *iterator*
+*iterables* | *iterables*
 *keyword* | kata kunci
 *library* | pustaka
 *loop* | perulangan, pengulangan
 *namespace* | *namespace*
+*null* | *null*
+*override* | menimpa
 *parse. parser. parsing* | urai. pengurai. mengurai.
+*pass. passing.* | langkah. melewatkan.
 *path* | jalur
 *prompt* | *prompt*
+*raise* | menimbulkan, memunculkan
+*range* | kisaran, rentang
 *run* | operasikan
+*runtime* | *runtime*
 *site-packages* | *site-packages*
 *slice* | iris, irisan
 *startup* | permulaan
+*stream* | aliran, *stream*
+*tuple* | *tuple*
 *upload* | unggah
 
 ### Keterangan Tambahan

@@ -217,7 +217,7 @@ msgstr ""
 #: ../../library/stdtypes.rst:2226 ../../library/stdtypes.rst:3353
 #: ../../library/stdtypes.rst:3376
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/stdtypes.rst:145
 msgid "``<``"
@@ -1640,6 +1640,8 @@ msgid ""
 "*reverse* is a boolean value.  If set to ``True``, then the list elements "
 "are sorted as if each comparison were reversed."
 msgstr ""
+"*reverse* adalah nilai *boolean*. Jika diatur ke ``True``, maka elemen list "
+"atau daftar diurutkan seolah-olah setiap perbandingan dibalik."
 
 #: ../../library/stdtypes.rst:1199
 msgid ""

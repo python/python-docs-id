@@ -32,6 +32,9 @@ msgid ""
 " independently covers all of the relevant information currently included "
 "here."
 msgstr ""
+"Dokumen ini dipertahankan hanya sampai dokumentasi ``setuptools`` di "
+"https://setuptools.readthedocs.io/en/latest/setuptools.html secara mandiri "
+"mencakup semua informasi relevan yang saat ini termasuk di sini."
 
 #: ../../distutils/configfile.rst:9
 msgid ""

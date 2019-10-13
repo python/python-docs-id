@@ -140,6 +140,8 @@ msgstr ""
 msgid ""
 "Has two optional arguments which must be specified as keyword arguments."
 msgstr ""
+"Memiliki dua argumen opsional yang harus ditentukan sebagai argumen kata "
+"kunci."
 
 #: ../../library/heapq.rst:98
 msgid ""

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Helen Febriani <helenfy.72@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:15+0000\n"
-"Last-Translator: Helen Febriani <helenfy.72@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +28,7 @@ msgstr "Pengenalan"
 
 #: ../../library/intro.rst:7
 msgid "The \"Python library\" contains several different kinds of components."
-msgstr ""
+msgstr "\"Pustaka Python\" berisi beberapa jenis komponen."
 
 #: ../../library/intro.rst:9
 msgid ""
@@ -38,6 +39,12 @@ msgid ""
 "(On the other hand, the language core does define syntactic properties like "
 "the spelling and priorities of operators.)"
 msgstr ""
+"Ini berisi tipe data yang biasanya dianggap bagian \"inti\" dari bahasa, "
+"seperti angka dan daftar *list*. Untuk tipe ini, inti bahasa Python "
+"mendefinisikan bentuk literal dan menempatkan beberapa batasan pada "
+"semantiknya, tetapi tidak sepenuhnya mendefinisikan semantik. (Di sisi lain,"
+" inti bahasa mendefinisikan properti sintaksis seperti ejaan dan prioritas "
+"operator.)"
 
 #: ../../library/intro.rst:15
 msgid ""
@@ -69,6 +76,9 @@ msgid ""
 "built-in functions, data types and exceptions, and finally the modules, "
 "grouped in chapters of related modules."
 msgstr ""
+"Manual ini disusun \"dari dalam ke luar:\" pertama-tama menggambarkan fungsi"
+" bawaan, tipe data dan pengecualian, dan akhirnya modul, dikelompokkan dalam"
+" bab-bab modul terkait."
 
 #: ../../library/intro.rst:36
 msgid ""
@@ -87,11 +97,11 @@ msgstr ""
 
 #: ../../library/intro.rst:48
 msgid "Let the show begin!"
-msgstr ""
+msgstr "Biarkan pertunjukan dimulai!"
 
 #: ../../library/intro.rst:54
 msgid "Notes on availability"
-msgstr ""
+msgstr "Catatan tentang ketersediaan"
 
 #: ../../library/intro.rst:56
 msgid ""
@@ -99,9 +109,15 @@ msgid ""
 " Unix systems.  It does not make any claims about its existence on a "
 "specific operating system."
 msgstr ""
+"Catatan \"Ketersediaan: Unix\" berarti bahwa fungsi ini biasanya ditemukan "
+"pada sistem Unix. Itu tidak membuat klaim tentang keberadaannya pada sistem "
+"operasi tertentu."
 
 #: ../../library/intro.rst:60
 msgid ""
 "If not separately noted, all functions that claim \"Availability: Unix\" are"
 " supported on Mac OS X, which builds on a Unix core."
 msgstr ""
+"Jika tidak dicatat secara terpisah, semua fungsi yang mengklaim "
+"\"Ketersediaan: Unix\" didukung pada Mac OS X, yang dibangun di atas inti "
+"Unix."

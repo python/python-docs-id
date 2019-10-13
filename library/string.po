@@ -406,7 +406,7 @@ msgstr ""
 #: ../../library/string.rst:438 ../../library/string.rst:449
 #: ../../library/string.rst:481
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/string.rst:341
 msgid "``'<'``"

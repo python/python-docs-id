@@ -628,7 +628,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:533
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/sqlite3.rst:547
 msgid ""

@@ -52,6 +52,9 @@ msgid ""
 " independently covers all of the relevant information currently included "
 "here."
 msgstr ""
+"Dokumen ini dipertahankan hanya sampai dokumentasi ``setuptools`` di "
+"https://setuptools.readthedocs.io/en/latest/setuptools.html secara mandiri "
+"mencakup semua informasi relevan yang saat ini termasuk di sini."
 
 #: ../../install/index.rst:23
 msgid ""
@@ -62,6 +65,12 @@ msgid ""
 "recommendations/>`__ in the Python Packaging User Guide for more "
 "information."
 msgstr ""
+"Panduan ini hanya mencakup alat dasar untuk membangun dan mendistribusikan "
+"ekstensi yang disediakan sebagai bagian dari versi Python ini. Alat pihak "
+"ketiga menawarkan alternatif yang lebih mudah digunakan dan lebih aman. "
+"Lihat bagian `rekomendasi cepat <https://packaging.python.org/guides/tool-"
+"recommendations/>`__ dalam Panduan Pengguna Pengemasan Python untuk "
+"informasi lebih lanjut."
 
 #: ../../install/index.rst:34
 msgid "Introduction"
@@ -315,7 +324,7 @@ msgstr ""
 
 #: ../../install/index.rst:215
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../install/index.rst:215 ../../install/index.rst:476
 msgid ":file:`{prefix}\\\\Lib\\\\site-packages`"

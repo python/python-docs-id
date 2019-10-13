@@ -567,7 +567,7 @@ msgstr ""
 #: ../../reference/lexical_analysis.rst:517
 #: ../../reference/lexical_analysis.rst:550
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../reference/lexical_analysis.rst:517
 #: ../../reference/lexical_analysis.rst:550

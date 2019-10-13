@@ -885,7 +885,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:628 ../../library/datetime.rst:1823
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/datetime.rst:638 ../../library/datetime.rst:1305
 msgid ""
@@ -2494,7 +2494,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Example"

@@ -842,6 +842,7 @@ msgstr ""
 #: ../../library/io.rst:591
 msgid "The newly created file is :ref:`non-inheritable <fd_inheritance>`."
 msgstr ""
+"Berkas yang baru dibuat adalah :ref:`non-inheritable <fd_inheritance>`."
 
 #: ../../library/io.rst:593
 msgid ""
@@ -1241,6 +1242,12 @@ msgid ""
 "takes place.  If *newline* is any of the other legal values, any ``'\\n'`` "
 "characters written are translated to the given string."
 msgstr ""
+"Saat menulis keluaran ke aliran *stream*, jika *newline* adalah ``None``, "
+"setiap karakter ``'\\n'`` yang ditulis diterjemahkan ke pemisah garis bawaan"
+" sistem, :data:`os.linesep`. Jika *newline* adalah ``''`` atau ``'\\n'``, "
+"tidak ada terjemahan yang terjadi. Jika *newline* adalah salah satu dari "
+"nilai legal lainnya, setiap karakter ``'\\n'`` yang ditulis diterjemahkan ke"
+" string yang diberikan."
 
 #: ../../library/io.rst:911
 msgid ""

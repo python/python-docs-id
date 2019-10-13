@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
 # Dionesius Agung <dionesiusap@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 11:37+0000\n"
 "PO-Revision-Date: 2018-06-29 21:15+0000\n"
-"Last-Translator: Dionesius Agung <dionesiusap@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,7 +121,7 @@ msgid ""
 "objects `has been declared`_ to be an official part of the Python language "
 "spec."
 msgstr ""
-"pemeliharaan sifat penyisipan-order dari obyek :ref:`kamus <typesmapping>` "
+"pemeliharaan sifat penyisipan-order dari obyek :ref:`dict <typesmapping>` "
 "`telah dideklarasikan`_ menjadi bagian resmi dari spesifikasi bahasa Python."
 
 #: ../../whatsnew/3.7.rst:90
@@ -555,27 +555,27 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:346 ../../whatsnew/3.7.rst:1441
 msgid ":func:`time.clock_gettime_ns`"
-msgstr ""
+msgstr ":func:`time.clock_gettime_ns`"
 
 #: ../../whatsnew/3.7.rst:347 ../../whatsnew/3.7.rst:1442
 msgid ":func:`time.clock_settime_ns`"
-msgstr ""
+msgstr ":func:`time.clock_settime_ns`"
 
 #: ../../whatsnew/3.7.rst:348 ../../whatsnew/3.7.rst:1443
 msgid ":func:`time.monotonic_ns`"
-msgstr ""
+msgstr ":func:`time.monotonic_ns`"
 
 #: ../../whatsnew/3.7.rst:349 ../../whatsnew/3.7.rst:1444
 msgid ":func:`time.perf_counter_ns`"
-msgstr ""
+msgstr ":func:`time.perf_counter_ns`"
 
 #: ../../whatsnew/3.7.rst:350 ../../whatsnew/3.7.rst:1445
 msgid ":func:`time.process_time_ns`"
-msgstr ""
+msgstr ":func:`time.process_time_ns`"
 
 #: ../../whatsnew/3.7.rst:351 ../../whatsnew/3.7.rst:1446
 msgid ":func:`time.time_ns`"
-msgstr ""
+msgstr ":func:`time.time_ns`"
 
 #: ../../whatsnew/3.7.rst:353
 msgid ""
@@ -738,25 +738,27 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:469
 msgid "Japanese: https://docs.python.org/ja/"
-msgstr ""
+msgstr "Bahasa Jepang: https://docs.python.org/ja/"
 
 #: ../../whatsnew/3.7.rst:470
 msgid "French: https://docs.python.org/fr/"
-msgstr ""
+msgstr "Bahasa Perancis: https://docs.python.org/fr/"
 
 #: ../../whatsnew/3.7.rst:471
 msgid "Korean: https://docs.python.org/ko/"
-msgstr ""
+msgstr "Bahasa Korea: https://docs.python.org/ko/"
 
 #: ../../whatsnew/3.7.rst:476
 msgid ":pep:`545` -- Python Documentation Translations"
-msgstr ""
+msgstr ":pep:`545` -- Penerjemahan Dokumentasi Python"
 
 #: ../../whatsnew/3.7.rst:476
 msgid ""
 "PEP written and implemented by Julien Palard, Inada Naoki, and Victor "
 "Stinner."
 msgstr ""
+"PEP ditulis dan diimplementasi oleh Julien Palard, Inada Naoki, and Victor "
+"Stinner."
 
 #: ../../whatsnew/3.7.rst:483
 msgid "Development Runtime Mode: -X dev"
@@ -774,7 +776,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:494
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.7.rst:496
 msgid ""
@@ -843,11 +845,11 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:539
 msgid "New Modules"
-msgstr ""
+msgstr "Modul-Modul Baru"
 
 #: ../../whatsnew/3.7.rst:544
 msgid "contextvars"
-msgstr ""
+msgstr "contextvars"
 
 #: ../../whatsnew/3.7.rst:546
 msgid ""
@@ -875,7 +877,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:566
 msgid "dataclasses"
-msgstr ""
+msgstr "dataclasses"
 
 #: ../../whatsnew/3.7.rst:568
 msgid ""
@@ -888,7 +890,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:574
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../whatsnew/3.7.rst:587
 msgid ":pep:`557` -- Data Classes"
@@ -900,7 +902,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:594
 msgid "importlib.resources"
-msgstr ""
+msgstr "importlib.resources"
 
 #: ../../whatsnew/3.7.rst:596
 msgid ""
@@ -926,11 +928,11 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:613
 msgid "Improved Modules"
-msgstr ""
+msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.7.rst:617
 msgid "argparse"
-msgstr ""
+msgstr "argparse"
 
 #: ../../whatsnew/3.7.rst:619
 msgid ""
@@ -942,7 +944,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:628 ../../whatsnew/3.7.rst:1945
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 #: ../../whatsnew/3.7.rst:630
 msgid ""
@@ -1062,7 +1064,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:717
 msgid "(Contributed by Yury Selivanov in :issue:`32662`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Yury Selivanov di :issue: `32662`.)"
 
 #: ../../whatsnew/3.7.rst:719
 msgid ""
@@ -1150,7 +1152,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:774
 msgid "binascii"
-msgstr ""
+msgstr "binascii"
 
 #: ../../whatsnew/3.7.rst:776
 msgid ""
@@ -1161,7 +1163,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:782
 msgid "calendar"
-msgstr ""
+msgstr "calendar"
 
 #: ../../whatsnew/3.7.rst:784
 msgid ""
@@ -1172,7 +1174,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:790 ../../whatsnew/3.7.rst:1959
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../../whatsnew/3.7.rst:792
 msgid ""
@@ -1182,7 +1184,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:797
 msgid "compileall"
-msgstr ""
+msgstr "compileall"
 
 #: ../../whatsnew/3.7.rst:799
 msgid ""
@@ -1195,7 +1197,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:808
 msgid "concurrent.futures"
-msgstr ""
+msgstr "concurrent.futures"
 
 #: ../../whatsnew/3.7.rst:810
 msgid ""
@@ -1214,7 +1216,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:821
 msgid "contextlib"
-msgstr ""
+msgstr "contextlib"
 
 #: ../../whatsnew/3.7.rst:823
 msgid ""
@@ -1235,7 +1237,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:836
 msgid "cProfile"
-msgstr ""
+msgstr "cProfile"
 
 #: ../../whatsnew/3.7.rst:838
 msgid ""
@@ -1246,7 +1248,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:843
 msgid "crypt"
-msgstr ""
+msgstr "crypt"
 
 #: ../../whatsnew/3.7.rst:845
 msgid ""
@@ -1262,7 +1264,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:853
 msgid "datetime"
-msgstr ""
+msgstr "datetime"
 
 #: ../../whatsnew/3.7.rst:855
 msgid ""
@@ -1281,7 +1283,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:866 ../../whatsnew/3.7.rst:1969
 msgid "dbm"
-msgstr ""
+msgstr "dbm"
 
 #: ../../whatsnew/3.7.rst:868
 msgid ""
@@ -1291,7 +1293,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:873
 msgid "decimal"
-msgstr ""
+msgstr "decimal"
 
 #: ../../whatsnew/3.7.rst:875
 msgid ""
@@ -1302,7 +1304,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:881
 msgid "dis"
-msgstr ""
+msgstr "dis"
 
 #: ../../whatsnew/3.7.rst:883
 msgid ""
@@ -1315,7 +1317,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:892
 msgid "distutils"
-msgstr ""
+msgstr "distutils"
 
 #: ../../whatsnew/3.7.rst:894
 msgid ""
@@ -1326,7 +1328,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:900 ../../whatsnew/3.7.rst:1979
 msgid "enum"
-msgstr ""
+msgstr "enum"
 
 #: ../../whatsnew/3.7.rst:902
 msgid ""
@@ -1347,7 +1349,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:916
 msgid "functools"
-msgstr ""
+msgstr "functools"
 
 #: ../../whatsnew/3.7.rst:918
 msgid ""
@@ -1357,7 +1359,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:924
 msgid "gc"
-msgstr ""
+msgstr "gc"
 
 #: ../../whatsnew/3.7.rst:926
 msgid ""
@@ -1372,7 +1374,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:936
 msgid "hmac"
-msgstr ""
+msgstr "hmac"
 
 #: ../../whatsnew/3.7.rst:938
 msgid ""
@@ -1383,7 +1385,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:944
 msgid "http.client"
-msgstr ""
+msgstr "http.client"
 
 #: ../../whatsnew/3.7.rst:946
 msgid ""
@@ -1395,7 +1397,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:952
 msgid "http.server"
-msgstr ""
+msgstr "http.server"
 
 #: ../../whatsnew/3.7.rst:954
 msgid ""
@@ -1424,7 +1426,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:972
 msgid "idlelib and IDLE"
-msgstr ""
+msgstr "idlelib and IDLE"
 
 #: ../../whatsnew/3.7.rst:974
 msgid ""
@@ -1483,7 +1485,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1009
 msgid "New in 3.7.1:"
-msgstr ""
+msgstr "Yang Baru di 3.7.1:"
 
 #: ../../whatsnew/3.7.rst:1011
 msgid ""
@@ -1501,7 +1503,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1020
 msgid "NEW in 3.7.4:"
-msgstr ""
+msgstr "BARU di 3.7.4:"
 
 #: ../../whatsnew/3.7.rst:1022
 msgid ""
@@ -1514,7 +1516,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1028
 msgid "New in 3.7.5:"
-msgstr ""
+msgstr "Baru di 3.7.5:"
 
 #: ../../whatsnew/3.7.rst:1030
 msgid ""
@@ -1527,7 +1529,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1038 ../../whatsnew/3.7.rst:1998
 msgid "importlib"
-msgstr ""
+msgstr "importlib"
 
 #: ../../whatsnew/3.7.rst:1040
 msgid ""
@@ -1560,7 +1562,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1060
 msgid "io"
-msgstr ""
+msgstr "io"
 
 #: ../../whatsnew/3.7.rst:1062
 msgid ""
@@ -1572,7 +1574,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1069
 msgid "ipaddress"
-msgstr ""
+msgstr "ipaddress"
 
 #: ../../whatsnew/3.7.rst:1071
 msgid ""
@@ -1584,7 +1586,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1078
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 #: ../../whatsnew/3.7.rst:1080
 msgid ""
@@ -1595,7 +1597,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1087 ../../whatsnew/3.7.rst:2016
 msgid "locale"
-msgstr ""
+msgstr "locale"
 
 #: ../../whatsnew/3.7.rst:1089
 msgid ""
@@ -1613,7 +1615,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1098
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: ../../whatsnew/3.7.rst:1100
 msgid ""
@@ -1637,7 +1639,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1113
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../whatsnew/3.7.rst:1115
 msgid ""
@@ -1647,7 +1649,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1120
 msgid "mimetypes"
-msgstr ""
+msgstr "mimetypes"
 
 #: ../../whatsnew/3.7.rst:1122
 msgid ""
@@ -1657,7 +1659,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1128
 msgid "msilib"
-msgstr ""
+msgstr "msilib"
 
 #: ../../whatsnew/3.7.rst:1130
 msgid ""
@@ -1668,7 +1670,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1136
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 #: ../../whatsnew/3.7.rst:1138
 msgid ""
@@ -1693,7 +1695,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1154
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../../whatsnew/3.7.rst:1156
 msgid ""
@@ -1744,7 +1746,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1185
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 #: ../../whatsnew/3.7.rst:1187
 msgid ""
@@ -1755,7 +1757,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1193
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 #: ../../whatsnew/3.7.rst:1195
 msgid ""
@@ -1772,7 +1774,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1204
 msgid "py_compile"
-msgstr ""
+msgstr "py_compile"
 
 #: ../../whatsnew/3.7.rst:1206
 msgid ""
@@ -1786,7 +1788,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1216
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../whatsnew/3.7.rst:1218
 msgid ""
@@ -1797,7 +1799,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1224
 msgid "queue"
-msgstr ""
+msgstr "queue"
 
 #: ../../whatsnew/3.7.rst:1226
 msgid ""
@@ -1807,7 +1809,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1231
 msgid "re"
-msgstr ""
+msgstr "re"
 
 #: ../../whatsnew/3.7.rst:1233
 msgid ""
@@ -1848,7 +1850,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1257
 msgid "signal"
-msgstr ""
+msgstr "signal"
 
 #: ../../whatsnew/3.7.rst:1259
 msgid ""
@@ -1860,7 +1862,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1266 ../../whatsnew/3.7.rst:2039
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../../whatsnew/3.7.rst:1268
 msgid ""
@@ -1900,7 +1902,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1293
 msgid "socketserver"
-msgstr ""
+msgstr "socketserver"
 
 #: ../../whatsnew/3.7.rst:1295
 msgid ""
@@ -1919,7 +1921,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1305
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 #: ../../whatsnew/3.7.rst:1307
 msgid ""
@@ -1938,7 +1940,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1317 ../../whatsnew/3.7.rst:2048
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../../whatsnew/3.7.rst:1319
 msgid ""
@@ -2026,7 +2028,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1379
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #: ../../whatsnew/3.7.rst:1381
 msgid ""
@@ -2037,7 +2039,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1387
 msgid "subprocess"
-msgstr ""
+msgstr "subprocess"
 
 #: ../../whatsnew/3.7.rst:1389
 msgid ""
@@ -2076,7 +2078,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1417 ../../whatsnew/3.7.rst:2064
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 #: ../../whatsnew/3.7.rst:1419
 msgid ""
@@ -2102,7 +2104,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1436
 msgid "time"
-msgstr ""
+msgstr "time"
 
 #: ../../whatsnew/3.7.rst:1438
 msgid ""
@@ -2149,7 +2151,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1468
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 #: ../../whatsnew/3.7.rst:1470
 msgid ""
@@ -2159,7 +2161,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1475
 msgid "tracemalloc"
-msgstr ""
+msgstr "tracemalloc"
 
 #: ../../whatsnew/3.7.rst:1477
 msgid ""
@@ -2173,7 +2175,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1487
 msgid "types"
-msgstr ""
+msgstr "types"
 
 #: ../../whatsnew/3.7.rst:1489
 msgid ""
@@ -2193,7 +2195,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1501
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 #: ../../whatsnew/3.7.rst:1503
 msgid ""
@@ -2204,7 +2206,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1509
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 #: ../../whatsnew/3.7.rst:1511
 msgid ""
@@ -2218,7 +2220,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1520
 msgid "unittest.mock"
-msgstr ""
+msgstr "unittest.mock"
 
 #: ../../whatsnew/3.7.rst:1522
 msgid ""
@@ -2237,7 +2239,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1534
 msgid "urllib.parse"
-msgstr ""
+msgstr "urllib.parse"
 
 #: ../../whatsnew/3.7.rst:1536
 msgid ""
@@ -2248,7 +2250,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1542
 msgid "uu"
-msgstr ""
+msgstr "uu"
 
 #: ../../whatsnew/3.7.rst:1544
 msgid ""
@@ -2259,7 +2261,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1550
 msgid "uuid"
-msgstr ""
+msgstr "uuid"
 
 #: ../../whatsnew/3.7.rst:1552
 msgid ""
@@ -2280,7 +2282,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1566
 msgid "warnings"
-msgstr ""
+msgstr "warnings"
 
 #: ../../whatsnew/3.7.rst:1568
 msgid ""
@@ -2344,7 +2346,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1597
 msgid "xml.etree"
-msgstr ""
+msgstr "xml.etree"
 
 #: ../../whatsnew/3.7.rst:1599
 msgid ""
@@ -2356,7 +2358,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1606
 msgid "xmlrpc.server"
-msgstr ""
+msgstr "xmlrpc.server"
 
 #: ../../whatsnew/3.7.rst:1608
 msgid ""
@@ -2367,7 +2369,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1614
 msgid "zipapp"
-msgstr ""
+msgstr "zipapp"
 
 #: ../../whatsnew/3.7.rst:1616
 msgid ""
@@ -2386,7 +2388,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1627
 msgid "zipfile"
-msgstr ""
+msgstr "zipfile"
 
 #: ../../whatsnew/3.7.rst:1629
 msgid ""
@@ -2824,7 +2826,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1910
 msgid "Deprecated Python Behavior"
-msgstr ""
+msgstr "Perilaku Python yang Usang"
 
 #: ../../whatsnew/3.7.rst:1912
 msgid ""
@@ -2855,7 +2857,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1935
 msgid "aifc"
-msgstr ""
+msgstr "aifc"
 
 #: ../../whatsnew/3.7.rst:1937
 msgid ""
@@ -2909,7 +2911,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1990
 msgid "gettext"
-msgstr ""
+msgstr "gettext"
 
 #: ../../whatsnew/3.7.rst:1992
 msgid ""
@@ -2945,7 +2947,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2023
 msgid "macpath"
-msgstr ""
+msgstr "macpath"
 
 #: ../../whatsnew/3.7.rst:2025
 msgid ""
@@ -2955,7 +2957,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2030
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 #: ../../whatsnew/3.7.rst:2032
 msgid ""
@@ -2981,7 +2983,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2056
 msgid "sunau"
-msgstr ""
+msgstr "sunau"
 
 #: ../../whatsnew/3.7.rst:2058
 msgid ""
@@ -3005,7 +3007,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2075
 msgid "wave"
-msgstr ""
+msgstr "wave"
 
 #: ../../whatsnew/3.7.rst:2077
 msgid ""
@@ -3174,7 +3176,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2182
 msgid "Module Removals"
-msgstr ""
+msgstr "Penghapusan Modul"
 
 #: ../../whatsnew/3.7.rst:2184
 msgid ""
@@ -3186,7 +3188,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2191 ../../whatsnew/3.7.rst:2467
 msgid "Windows-only Changes"
-msgstr ""
+msgstr "Perubahan di Windows-saja"
 
 #: ../../whatsnew/3.7.rst:2193
 msgid ""
@@ -3219,7 +3221,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2217
 msgid "Changes in Python Behavior"
-msgstr ""
+msgstr "Perubahan di Perilaku Python"
 
 #: ../../whatsnew/3.7.rst:2219
 msgid ""
@@ -3271,7 +3273,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2256
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Perubahan pada API Python"
 
 #: ../../whatsnew/3.7.rst:2258
 msgid ""
@@ -3548,7 +3550,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2444
 msgid "Changes in the C API"
-msgstr ""
+msgstr "Perubahan dalam API C"
 
 #: ../../whatsnew/3.7.rst:2446
 msgid ""
@@ -3564,7 +3566,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2457
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "Perubahan bytecode CPython"
 
 #: ../../whatsnew/3.7.rst:2459
 msgid ""
@@ -3646,7 +3648,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2517
 msgid "Notable changes in Python 3.7.1"
-msgstr ""
+msgstr "Perubahan penting di Python 3.7.1"
 
 #: ../../whatsnew/3.7.rst:2519
 msgid ""
@@ -3676,7 +3678,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2536
 msgid "Notable changes in Python 3.7.2"
-msgstr ""
+msgstr "Perubahan penting di Python 3.7.2"
 
 #: ../../whatsnew/3.7.rst:2538
 msgid ""

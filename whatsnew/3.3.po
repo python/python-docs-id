@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-12 11:28+0000\n"
 "PO-Revision-Date: 2017-02-16 23:44+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:55
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Singkatan -- Sorotan Rilis"
 
 #: ../../whatsnew/3.3.rst:60
 msgid "New syntax features:"
@@ -993,7 +993,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:776
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.3.rst:778
 msgid "Some smaller changes made to the core Python language are:"
@@ -1142,7 +1142,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:861
 msgid "New Modules"
-msgstr ""
+msgstr "Modul-Modul Baru"
 
 #: ../../whatsnew/3.3.rst:864
 msgid "faulthandler"
@@ -1165,7 +1165,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:890
 msgid "ipaddress"
-msgstr ""
+msgstr "ipaddress"
 
 #: ../../whatsnew/3.3.rst:892
 msgid ""
@@ -1195,7 +1195,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:909
 msgid "Improved Modules"
-msgstr ""
+msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.3.rst:912
 msgid "abc"
@@ -1265,7 +1265,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:950
 msgid "binascii"
-msgstr ""
+msgstr "binascii"
 
 #: ../../whatsnew/3.3.rst:952
 msgid ""
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1018
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../../whatsnew/3.3.rst:1020
 msgid ""
@@ -1398,7 +1398,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1037
 msgid "contextlib"
-msgstr ""
+msgstr "contextlib"
 
 #: ../../whatsnew/3.3.rst:1039
 msgid ""
@@ -1418,7 +1418,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1052
 msgid "crypt"
-msgstr ""
+msgstr "crypt"
 
 #: ../../whatsnew/3.3.rst:1054
 msgid ""
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1076
 msgid "datetime"
-msgstr ""
+msgstr "datetime"
 
 #: ../../whatsnew/3.3.rst:1078
 msgid ""
@@ -1499,7 +1499,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1093
 msgid "decimal"
-msgstr ""
+msgstr "decimal"
 
 #: ../../whatsnew/3.3.rst:1096
 msgid ":issue:`7652` - integrate fast native decimal arithmetic."
@@ -1952,7 +1952,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1388
 msgid "functools"
-msgstr ""
+msgstr "functools"
 
 #: ../../whatsnew/3.3.rst:1390
 msgid ""
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1397
 msgid "gc"
-msgstr ""
+msgstr "gc"
 
 #: ../../whatsnew/3.3.rst:1399
 msgid ""
@@ -1974,7 +1974,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1404
 msgid "hmac"
-msgstr ""
+msgstr "hmac"
 
 #: ../../whatsnew/3.3.rst:1406
 msgid ""
@@ -2053,7 +2053,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1459
 msgid "inspect"
-msgstr ""
+msgstr "inspect"
 
 #: ../../whatsnew/3.3.rst:1461
 msgid ""
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1476
 msgid "io"
-msgstr ""
+msgstr "io"
 
 #: ../../whatsnew/3.3.rst:1478
 msgid ""
@@ -2105,7 +2105,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1492
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 #: ../../whatsnew/3.3.rst:1494
 msgid ""
@@ -2115,7 +2115,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1499
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: ../../whatsnew/3.3.rst:1501
 msgid ""
@@ -2135,7 +2135,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1512
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../whatsnew/3.3.rst:1514
 msgid ""
@@ -2149,7 +2149,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1521
 msgid "mmap"
-msgstr ""
+msgstr "mmap"
 
 #: ../../whatsnew/3.3.rst:1523
 msgid ""
@@ -2161,7 +2161,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1530
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 #: ../../whatsnew/3.3.rst:1532
 msgid ""
@@ -2219,7 +2219,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1575
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../../whatsnew/3.3.rst:1577
 msgid ""
@@ -2451,7 +2451,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1706
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 #: ../../whatsnew/3.3.rst:1708
 msgid ""
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1716
 msgid "pickle"
-msgstr ""
+msgstr "pickle"
 
 #: ../../whatsnew/3.3.rst:1718
 msgid ""
@@ -2481,7 +2481,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1726
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../whatsnew/3.3.rst:1728
 msgid ""
@@ -2492,7 +2492,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1734
 msgid "re"
-msgstr ""
+msgstr "re"
 
 #: ../../whatsnew/3.3.rst:1736
 msgid ":class:`str` regular expressions now support ``\\u`` and ``\\U`` escapes."
@@ -2557,7 +2557,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1777
 msgid "shlex"
-msgstr ""
+msgstr "shlex"
 
 #: ../../whatsnew/3.3.rst:1779
 msgid ""
@@ -2569,11 +2569,11 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1786
 msgid "shutil"
-msgstr ""
+msgstr "shutil"
 
 #: ../../whatsnew/3.3.rst:1788
 msgid "New functions:"
-msgstr ""
+msgstr "Fungsi baru:"
 
 #: ../../whatsnew/3.3.rst:1790
 msgid ""
@@ -2630,7 +2630,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1822
 msgid "signal"
-msgstr ""
+msgstr "signal"
 
 #: ../../whatsnew/3.3.rst:1824
 msgid "The :mod:`signal` module has new functions:"
@@ -2728,7 +2728,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1875
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../../whatsnew/3.3.rst:1877
 msgid ""
@@ -2789,7 +2789,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1906
 msgid "socketserver"
-msgstr ""
+msgstr "socketserver"
 
 #: ../../whatsnew/3.3.rst:1908
 msgid ""
@@ -2802,7 +2802,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1916
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 #: ../../whatsnew/3.3.rst:1918
 msgid ""
@@ -2814,7 +2814,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1925
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../../whatsnew/3.3.rst:1927
 msgid "The :mod:`ssl` module has two new random generation functions:"
@@ -2926,7 +2926,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1992
 msgid "subprocess"
-msgstr ""
+msgstr "subprocess"
 
 #: ../../whatsnew/3.3.rst:1994
 msgid ""
@@ -2943,7 +2943,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2003
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 #: ../../whatsnew/3.3.rst:2005
 msgid ""
@@ -2953,7 +2953,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2011
 msgid "tarfile"
-msgstr ""
+msgstr "tarfile"
 
 #: ../../whatsnew/3.3.rst:2013
 msgid ""
@@ -2985,7 +2985,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2034
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 #: ../../whatsnew/3.3.rst:2036
 msgid ""
@@ -3014,7 +3014,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2054
 msgid "time"
-msgstr ""
+msgstr "time"
 
 #: ../../whatsnew/3.3.rst:2056
 msgid "The :pep:`418` added new functions to the :mod:`time` module:"
@@ -3062,7 +3062,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2078
 msgid "types"
-msgstr ""
+msgstr "types"
 
 #: ../../whatsnew/3.3.rst:2080
 msgid ""
@@ -3079,7 +3079,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2089
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 #: ../../whatsnew/3.3.rst:2091
 msgid ""
@@ -3307,7 +3307,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2209
 msgid "Deprecated"
-msgstr ""
+msgstr "Usang"
 
 #: ../../whatsnew/3.3.rst:2212
 msgid "Unsupported Operating Systems"

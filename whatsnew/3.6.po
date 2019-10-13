@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:45+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:58
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Singkatan -- Sorotan Rilis"
 
 #: ../../whatsnew/3.6.rst:60
 msgid "New syntax features:"
@@ -853,7 +853,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:738
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.6.rst:740
 msgid "Some smaller changes made to the core Python language are:"
@@ -899,7 +899,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:768
 msgid "New Modules"
-msgstr ""
+msgstr "Modul-Modul Baru"
 
 #: ../../whatsnew/3.6.rst:773
 msgid "secrets"
@@ -930,7 +930,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:792
 msgid "Improved Modules"
-msgstr ""
+msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.6.rst:795
 msgid "array"
@@ -949,7 +949,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:804
 msgid "ast"
-msgstr ""
+msgstr "ast"
 
 #: ../../whatsnew/3.6.rst:806
 msgid ""
@@ -963,7 +963,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:813
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 #: ../../whatsnew/3.6.rst:815
 msgid ""
@@ -1094,7 +1094,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:900
 msgid "binascii"
-msgstr ""
+msgstr "binascii"
 
 #: ../../whatsnew/3.6.rst:902
 msgid ""
@@ -1123,7 +1123,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:921
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../../whatsnew/3.6.rst:923
 msgid ""
@@ -1168,7 +1168,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:949
 msgid "concurrent.futures"
-msgstr ""
+msgstr "concurrent.futures"
 
 #: ../../whatsnew/3.6.rst:951
 msgid ""
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:959
 msgid "contextlib"
-msgstr ""
+msgstr "contextlib"
 
 #: ../../whatsnew/3.6.rst:961
 msgid ""
@@ -1194,7 +1194,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:971
 msgid "datetime"
-msgstr ""
+msgstr "datetime"
 
 #: ../../whatsnew/3.6.rst:973
 msgid ""
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:997
 msgid "decimal"
-msgstr ""
+msgstr "decimal"
 
 #: ../../whatsnew/3.6.rst:999
 msgid ""
@@ -1247,7 +1247,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1012 ../../whatsnew/3.6.rst:1986
 msgid "distutils"
-msgstr ""
+msgstr "distutils"
 
 #: ../../whatsnew/3.6.rst:1014
 msgid ""
@@ -1307,7 +1307,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1052
 msgid "enum"
-msgstr ""
+msgstr "enum"
 
 #: ../../whatsnew/3.6.rst:1054
 msgid ""
@@ -1389,7 +1389,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1114
 msgid "http.client"
-msgstr ""
+msgstr "http.client"
 
 #: ../../whatsnew/3.6.rst:1116
 msgid ""
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1123
 msgid "idlelib and IDLE"
-msgstr ""
+msgstr "idlelib and IDLE"
 
 #: ../../whatsnew/3.6.rst:1125
 msgid ""
@@ -1519,7 +1519,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1199 ../../whatsnew/3.6.rst:2003
 msgid "importlib"
-msgstr ""
+msgstr "importlib"
 
 #: ../../whatsnew/3.6.rst:1201
 msgid ""
@@ -1548,7 +1548,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1219
 msgid "inspect"
-msgstr ""
+msgstr "inspect"
 
 #: ../../whatsnew/3.6.rst:1221
 msgid ""
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1243
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: ../../whatsnew/3.6.rst:1245
 msgid ""
@@ -1593,7 +1593,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1252
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../whatsnew/3.6.rst:1254
 msgid ""
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1260
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 #: ../../whatsnew/3.6.rst:1262
 msgid ""
@@ -1615,7 +1615,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1268 ../../whatsnew/3.6.rst:2017
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../../whatsnew/3.6.rst:1270
 msgid ""
@@ -1647,7 +1647,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1292
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 #: ../../whatsnew/3.6.rst:1294
 msgid ""
@@ -1661,7 +1661,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1301
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 #: ../../whatsnew/3.6.rst:1303
 msgid ""
@@ -1671,7 +1671,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1308
 msgid "pickle"
-msgstr ""
+msgstr "pickle"
 
 #: ../../whatsnew/3.6.rst:1310
 msgid ""
@@ -1693,7 +1693,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1325
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../whatsnew/3.6.rst:1327
 msgid ""
@@ -1721,7 +1721,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1345 ../../whatsnew/3.6.rst:2025
 msgid "re"
-msgstr ""
+msgstr "re"
 
 #: ../../whatsnew/3.6.rst:1347
 msgid ""
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1379
 msgid "shlex"
-msgstr ""
+msgstr "shlex"
 
 #: ../../whatsnew/3.6.rst:1381
 msgid ""
@@ -1793,7 +1793,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1397
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 #: ../../whatsnew/3.6.rst:1399
 msgid ""
@@ -1803,7 +1803,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1404
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../../whatsnew/3.6.rst:1406
 msgid ""
@@ -1842,7 +1842,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1429
 msgid "socketserver"
-msgstr ""
+msgstr "socketserver"
 
 #: ../../whatsnew/3.6.rst:1431
 msgid ""
@@ -1863,7 +1863,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1445 ../../whatsnew/3.6.rst:2033
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../../whatsnew/3.6.rst:1447
 msgid ""
@@ -1913,7 +1913,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1477
 msgid "statistics"
-msgstr ""
+msgstr "statistics"
 
 #: ../../whatsnew/3.6.rst:1479
 msgid ""
@@ -1934,7 +1934,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1492
 msgid "subprocess"
-msgstr ""
+msgstr "subprocess"
 
 #: ../../whatsnew/3.6.rst:1494
 msgid ""
@@ -1955,7 +1955,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1507
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 #: ../../whatsnew/3.6.rst:1509
 msgid ""
@@ -1985,7 +1985,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1528
 msgid "time"
-msgstr ""
+msgstr "time"
 
 #: ../../whatsnew/3.6.rst:1530
 msgid ""
@@ -2013,7 +2013,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1548 ../../whatsnew/3.6.rst:2050
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 #: ../../whatsnew/3.6.rst:1550
 msgid ""
@@ -2044,7 +2044,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1584
 msgid "tracemalloc"
-msgstr ""
+msgstr "tracemalloc"
 
 #: ../../whatsnew/3.6.rst:1586
 msgid ""
@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1598
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 #: ../../whatsnew/3.6.rst:1600
 msgid ""
@@ -2127,7 +2127,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1644
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 #: ../../whatsnew/3.6.rst:1646
 msgid ""
@@ -2138,7 +2138,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1652
 msgid "unittest.mock"
-msgstr ""
+msgstr "unittest.mock"
 
 #: ../../whatsnew/3.6.rst:1654
 msgid "The :class:`~unittest.mock.Mock` class has the following improvements:"
@@ -2185,7 +2185,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1687 ../../whatsnew/3.6.rst:2056
 msgid "venv"
-msgstr ""
+msgstr "venv"
 
 #: ../../whatsnew/3.6.rst:1689
 msgid ""
@@ -2196,7 +2196,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1695
 msgid "warnings"
-msgstr ""
+msgstr "warnings"
 
 #: ../../whatsnew/3.6.rst:1697
 msgid ""
@@ -2263,7 +2263,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1756
 msgid "zipfile"
-msgstr ""
+msgstr "zipfile"
 
 #: ../../whatsnew/3.6.rst:1758
 msgid ""
@@ -2524,7 +2524,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1923
 msgid "Deprecated"
-msgstr ""
+msgstr "Usang"
 
 #: ../../whatsnew/3.6.rst:1926
 msgid "New Keywords"
@@ -2600,7 +2600,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1976
 msgid "dbm"
-msgstr ""
+msgstr "dbm"
 
 #: ../../whatsnew/3.6.rst:1978
 msgid ""
@@ -2810,7 +2810,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:2142
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Perubahan pada API Python"
 
 #: ../../whatsnew/3.6.rst:2144
 msgid ""
@@ -2952,6 +2952,9 @@ msgid ""
 "Subclasses of :class:`type` which don't override ``type.__new__`` may no "
 "longer use the one-argument form to get the type of an object."
 msgstr ""
+"Subkelas dari :class:`type` yang tidak menimpa ``type.__ new__`` mungkin "
+"tidak lagi menggunakan bentuk satu argumen untuk mendapatkan tipe dari suatu"
+" objek."
 
 #: ../../whatsnew/3.6.rst:2236
 msgid ""
@@ -3077,7 +3080,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:2331
 msgid "Changes in the C API"
-msgstr ""
+msgstr "Perubahan dalam API C"
 
 #: ../../whatsnew/3.6.rst:2333
 msgid ""
@@ -3096,7 +3099,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:2344
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "Perubahan bytecode CPython"
 
 #: ../../whatsnew/3.6.rst:2346
 msgid ""

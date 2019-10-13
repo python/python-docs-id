@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-12 11:39+0000\n"
+"POT-Creation-Date: 2019-10-13 11:40+0000\n"
 "PO-Revision-Date: 2019-09-01 14:44+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:3
 msgid "What's New In Python 3.8"
-msgstr ""
+msgstr "Apa yang Baru di Python 3.8"
 
 #: ../../whatsnew/3.8.rst:0
 msgid "Editor"
@@ -31,7 +31,7 @@ msgstr "Editor"
 
 #: ../../whatsnew/3.8.rst:45
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 #: ../../whatsnew/3.8.rst:47
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:68
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Ringkasan -- Sorotan Rilis"
 
 #: ../../whatsnew/3.8.rst:79
 msgid "New Features"
@@ -110,15 +110,15 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:121
 msgid "See :pep:`572` for a full description."
-msgstr ""
+msgstr "Lihat: pep:`572` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:123
 msgid "(Contributed by Emily Morehouse in :issue:`35224`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Emily Morehouse di :issue:`35224`.)"
 
 #: ../../whatsnew/3.8.rst:127
 msgid "Positional-only parameters"
-msgstr ""
+msgstr "Parameter hanya posisi"
 
 #: ../../whatsnew/3.8.rst:129
 msgid ""
@@ -138,11 +138,11 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:142
 msgid "The following is a valid call::"
-msgstr ""
+msgstr "Berikut ini adalah pemanggilan yang valid::"
 
 #: ../../whatsnew/3.8.rst:146
 msgid "However, these are invalid calls::"
-msgstr ""
+msgstr "Namun, ini adalah pemanggilan tidak valid::"
 
 #: ../../whatsnew/3.8.rst:151
 msgid ""
@@ -182,11 +182,11 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:193
 msgid "See :pep:`570` for a full description."
-msgstr ""
+msgstr "Lihat: pep:`570` untuk keterangan lengkap."
 
 #: ../../whatsnew/3.8.rst:195
 msgid "(Contributed by Pablo Galindo in :issue:`36540`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Pablo Galindo di :issue:`36540`.)"
 
 #: ../../whatsnew/3.8.rst:201
 msgid "Parallel filesystem cache for compiled bytecode files"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:213
 msgid "(Contributed by Carl Meyer in :issue:`33499`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Carl Meyer di :issue:`33499`.)"
 
 #: ../../whatsnew/3.8.rst:216
 msgid "Debug build uses the same ABI as release build"
@@ -302,10 +302,11 @@ msgstr ""
 #: ../../whatsnew/3.8.rst:286
 msgid "(Contributed by Eric V. Smith and Larry Hastings in :issue:`36817`.)"
 msgstr ""
+"(Dikontribusikan oleh Eric V. Smith dan Larry Hastings di :issue:`36817`.)"
 
 #: ../../whatsnew/3.8.rst:289
 msgid "PEP 587: Python Initialization Configuration"
-msgstr ""
+msgstr "PEP 587: Konfigurasi Inisialisasi Python"
 
 #: ../../whatsnew/3.8.rst:291
 msgid ""
@@ -316,131 +317,131 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:294
 msgid "New structures:"
-msgstr ""
+msgstr "Struktur baru:"
 
 #: ../../whatsnew/3.8.rst:296
 msgid ":c:type:`PyConfig`"
-msgstr ""
+msgstr ":c:type:`PyConfig`"
 
 #: ../../whatsnew/3.8.rst:297
 msgid ":c:type:`PyPreConfig`"
-msgstr ""
+msgstr ":c:type:`PyPreConfig`"
 
 #: ../../whatsnew/3.8.rst:298
 msgid ":c:type:`PyStatus`"
-msgstr ""
+msgstr ":c:type:`PyStatus`"
 
 #: ../../whatsnew/3.8.rst:299
 msgid ":c:type:`PyWideStringList`"
-msgstr ""
+msgstr ":c:type:`PyWideStringList`"
 
 #: ../../whatsnew/3.8.rst:301
 msgid "New functions:"
-msgstr ""
+msgstr "Fungsi baru:"
 
 #: ../../whatsnew/3.8.rst:303
 msgid ":c:func:`PyConfig_Clear`"
-msgstr ""
+msgstr ":c:func:`PyConfig_Clear`"
 
 #: ../../whatsnew/3.8.rst:304
 msgid ":c:func:`PyConfig_InitIsolatedConfig`"
-msgstr ""
+msgstr ":c:func:`PyConfig_InitIsolatedConfig`"
 
 #: ../../whatsnew/3.8.rst:305
 msgid ":c:func:`PyConfig_InitPythonConfig`"
-msgstr ""
+msgstr ":c:func:`PyConfig_InitPythonConfig`"
 
 #: ../../whatsnew/3.8.rst:306
 msgid ":c:func:`PyConfig_Read`"
-msgstr ""
+msgstr ":c:func:`PyConfig_Read`"
 
 #: ../../whatsnew/3.8.rst:307
 msgid ":c:func:`PyConfig_SetArgv`"
-msgstr ""
+msgstr ":c:func:`PyConfig_SetArgv`"
 
 #: ../../whatsnew/3.8.rst:308
 msgid ":c:func:`PyConfig_SetBytesArgv`"
-msgstr ""
+msgstr ":c:func:`PyConfig_SetBytesArgv`"
 
 #: ../../whatsnew/3.8.rst:309
 msgid ":c:func:`PyConfig_SetBytesString`"
-msgstr ""
+msgstr ":c:func:`PyConfig_SetBytesString`"
 
 #: ../../whatsnew/3.8.rst:310
 msgid ":c:func:`PyConfig_SetString`"
-msgstr ""
+msgstr ":c:func:`PyConfig_SetString`"
 
 #: ../../whatsnew/3.8.rst:311
 msgid ":c:func:`PyPreConfig_InitIsolatedConfig`"
-msgstr ""
+msgstr ":c:func:`PyPreConfig_InitIsolatedConfig`"
 
 #: ../../whatsnew/3.8.rst:312
 msgid ":c:func:`PyPreConfig_InitPythonConfig`"
-msgstr ""
+msgstr ":c:func:`PyPreConfig_InitPythonConfig`"
 
 #: ../../whatsnew/3.8.rst:313
 msgid ":c:func:`PyStatus_Error`"
-msgstr ""
+msgstr ":c:func:`PyStatus_Error`"
 
 #: ../../whatsnew/3.8.rst:314
 msgid ":c:func:`PyStatus_Exception`"
-msgstr ""
+msgstr ":c:func:`PyStatus_Exception`"
 
 #: ../../whatsnew/3.8.rst:315
 msgid ":c:func:`PyStatus_Exit`"
-msgstr ""
+msgstr ":c:func:`PyStatus_Exit`"
 
 #: ../../whatsnew/3.8.rst:316
 msgid ":c:func:`PyStatus_IsError`"
-msgstr ""
+msgstr ":c:func:`PyStatus_IsError`"
 
 #: ../../whatsnew/3.8.rst:317
 msgid ":c:func:`PyStatus_IsExit`"
-msgstr ""
+msgstr ":c:func:`PyStatus_IsExit`"
 
 #: ../../whatsnew/3.8.rst:318
 msgid ":c:func:`PyStatus_NoMemory`"
-msgstr ""
+msgstr ":c:func:`PyStatus_NoMemory`"
 
 #: ../../whatsnew/3.8.rst:319
 msgid ":c:func:`PyStatus_Ok`"
-msgstr ""
+msgstr ":c:func:`PyStatus_Ok`"
 
 #: ../../whatsnew/3.8.rst:320
 msgid ":c:func:`PyWideStringList_Append`"
-msgstr ""
+msgstr ":c:func:`PyWideStringList_Append`"
 
 #: ../../whatsnew/3.8.rst:321
 msgid ":c:func:`PyWideStringList_Insert`"
-msgstr ""
+msgstr ":c:func:`PyWideStringList_Insert`"
 
 #: ../../whatsnew/3.8.rst:322
 msgid ":c:func:`Py_BytesMain`"
-msgstr ""
+msgstr ":c:func:`Py_BytesMain`"
 
 #: ../../whatsnew/3.8.rst:323
 msgid ":c:func:`Py_ExitStatusException`"
-msgstr ""
+msgstr ":c:func:`Py_ExitStatusException`"
 
 #: ../../whatsnew/3.8.rst:324
 msgid ":c:func:`Py_InitializeFromConfig`"
-msgstr ""
+msgstr ":c:func:`Py_InitializeFromConfig`"
 
 #: ../../whatsnew/3.8.rst:325
 msgid ":c:func:`Py_PreInitialize`"
-msgstr ""
+msgstr ":c:func:`Py_PreInitialize`"
 
 #: ../../whatsnew/3.8.rst:326
 msgid ":c:func:`Py_PreInitializeFromArgs`"
-msgstr ""
+msgstr ":c:func:`Py_PreInitializeFromArgs`"
 
 #: ../../whatsnew/3.8.rst:327
 msgid ":c:func:`Py_PreInitializeFromBytesArgs`"
-msgstr ""
+msgstr ":c:func:`Py_PreInitializeFromBytesArgs`"
 
 #: ../../whatsnew/3.8.rst:328
 msgid ":c:func:`Py_RunMain`"
-msgstr ""
+msgstr ":c:func:`Py_RunMain`"
 
 #: ../../whatsnew/3.8.rst:330
 msgid ""
@@ -459,11 +460,11 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:339
 msgid "See :pep:`587` for a full description."
-msgstr ""
+msgstr "Lihat: pep:`587` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:341
 msgid "(Contributed by Victor Stinner in :issue:`36763`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`36763`.)"
 
 #: ../../whatsnew/3.8.rst:345
 msgid "Vectorcall: a fast calling protocol for CPython"
@@ -484,11 +485,12 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:355
 msgid "See :pep:`590` for a full description."
-msgstr ""
+msgstr "Lihat: pep:`590` untuk keterangan lengkap."
 
 #: ../../whatsnew/3.8.rst:357
 msgid "(Contributed by Jeroen Demeyer and Mark Shannon in :issue:`36974`.)"
 msgstr ""
+"(Dikontribusikan oleh Jeroen Demeyer dan Mark Shannon di :issue:`36974`.)"
 
 #: ../../whatsnew/3.8.rst:361
 msgid "Pickle protocol 5 with out-of-band data buffers"
@@ -511,15 +513,15 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:372
 msgid "See :pep:`574` for a full description."
-msgstr ""
+msgstr "Lihat: pep:`574` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:374
 msgid "(Contributed by Antoine Pitrou in :issue:`36785`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`36785`.)"
 
 #: ../../whatsnew/3.8.rst:378
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.8.rst:380
 msgid ""
@@ -556,6 +558,8 @@ msgstr ""
 msgid ""
 "(Contributed by Jonathan Eunice and Serhiy Storchaka in :issue:`30688`.)"
 msgstr ""
+"(Dikontribusikan oleh Jonathan Eunice dan Serhiy Storchaka di "
+":issue:`30688`.)"
 
 #: ../../whatsnew/3.8.rst:408
 msgid ""
@@ -581,6 +585,7 @@ msgstr ""
 #: ../../whatsnew/3.8.rst:429
 msgid "(Contributed by David Cuthbert and Jordan Chapman in :issue:`32117`.)"
 msgstr ""
+"(Dikontribusikan oleh David Cuthbert dan Jordan Chapman di :issue:`32117`.)"
 
 #: ../../whatsnew/3.8.rst:431
 msgid ""
@@ -629,7 +634,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:471
 msgid "(Contributed by Victor Stinner in :issue:`37032`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`37032`.)"
 
 #: ../../whatsnew/3.8.rst:473
 msgid ""
@@ -652,7 +657,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:497
 msgid "(Contributed by Mark Dickinson in :issue:`36027`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Mark Dickinson di :issue:`36027`.)"
 
 #: ../../whatsnew/3.8.rst:499
 msgid ""
@@ -669,7 +674,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:526
 msgid "New Modules"
-msgstr ""
+msgstr "Modul-Modul Baru"
 
 #: ../../whatsnew/3.8.rst:528
 msgid ""
@@ -681,14 +686,15 @@ msgstr ""
 #: ../../whatsnew/3.8.rst:547
 msgid "(Contributed in :issue:`34632` by Barry Warsaw and Jason R. Coombs.)"
 msgstr ""
+"(Berkontribusi di :issue:`34632` oleh Barry Warsaw dan Jason R. Coombs.)"
 
 #: ../../whatsnew/3.8.rst:551
 msgid "Improved Modules"
-msgstr ""
+msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.8.rst:555
 msgid "ast"
-msgstr ""
+msgstr "ast"
 
 #: ../../whatsnew/3.8.rst:557
 msgid ""
@@ -728,7 +734,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:578
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 #: ../../whatsnew/3.8.rst:580
 msgid ""
@@ -752,7 +758,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:592
 msgid "builtins"
-msgstr ""
+msgstr "builtins"
 
 #: ../../whatsnew/3.8.rst:594
 msgid ""
@@ -765,11 +771,11 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:600
 msgid "(Contributed by Matthias Bussonnier in :issue:`34616`)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Matthias Bussonnier di :issue:`34616`)"
 
 #: ../../whatsnew/3.8.rst:603
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../../whatsnew/3.8.rst:605
 msgid ""
@@ -784,7 +790,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:614
 msgid "ctypes"
-msgstr ""
+msgstr "ctypes"
 
 #: ../../whatsnew/3.8.rst:616
 msgid ""
@@ -798,7 +804,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:624
 msgid "functools"
-msgstr ""
+msgstr "functools"
 
 #: ../../whatsnew/3.8.rst:626
 msgid ""
@@ -809,11 +815,11 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:637
 msgid "(Contributed by Raymond Hettinger in :issue:`36772`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Raymond Hettinger di :issue:`36772`.)"
 
 #: ../../whatsnew/3.8.rst:641
 msgid "datetime"
-msgstr ""
+msgstr "datetime"
 
 #: ../../whatsnew/3.8.rst:643
 msgid ""
@@ -826,7 +832,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:651
 msgid "gettext"
-msgstr ""
+msgstr "gettext"
 
 #: ../../whatsnew/3.8.rst:653
 msgid ""
@@ -836,7 +842,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:658 ../../whatsnew/3.8.rst:728
 msgid "idlelib and IDLE"
-msgstr ""
+msgstr "idlelib and IDLE"
 
 #: ../../whatsnew/3.8.rst:660 ../../whatsnew/3.8.rst:735
 msgid ""
@@ -872,7 +878,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:683
 msgid "inspect"
-msgstr ""
+msgstr "inspect"
 
 #: ../../whatsnew/3.8.rst:685
 msgid ""
@@ -884,7 +890,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:699
 msgid "io"
-msgstr ""
+msgstr "io"
 
 #: ../../whatsnew/3.8.rst:701
 msgid ""
@@ -896,7 +902,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:708
 msgid "gc"
-msgstr ""
+msgstr "gc"
 
 #: ../../whatsnew/3.8.rst:710
 msgid ""
@@ -907,7 +913,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:716
 msgid "gzip"
-msgstr ""
+msgstr "gzip"
 
 #: ../../whatsnew/3.8.rst:718
 msgid ""
@@ -931,7 +937,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:746
 msgid "json.tool"
-msgstr ""
+msgstr "json.tool"
 
 #: ../../whatsnew/3.8.rst:748
 msgid ""
@@ -941,7 +947,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:753
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../whatsnew/3.8.rst:755
 msgid ""
@@ -965,7 +971,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:771
 msgid "(Contributed by Pablo Galindo in :issue:`35606`)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Pablo Galindo di :issue:`35606`)"
 
 #: ../../whatsnew/3.8.rst:773
 msgid ""
@@ -981,7 +987,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:781
 msgid "mmap"
-msgstr ""
+msgstr "mmap"
 
 #: ../../whatsnew/3.8.rst:783
 msgid ""
@@ -992,7 +998,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:789
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 #: ../../whatsnew/3.8.rst:791
 msgid ""
@@ -1008,7 +1014,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:799
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../../whatsnew/3.8.rst:801
 msgid ""
@@ -1048,7 +1054,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:826
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 #: ../../whatsnew/3.8.rst:828
 msgid ""
@@ -1083,7 +1089,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:848
 msgid "ncurses"
-msgstr ""
+msgstr "ncurses"
 
 #: ../../whatsnew/3.8.rst:850
 msgid ""
@@ -1094,7 +1100,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:856
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 #: ../../whatsnew/3.8.rst:858
 msgid ""
@@ -1117,7 +1123,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:874
 msgid "pickle"
-msgstr ""
+msgstr "pickle"
 
 #: ../../whatsnew/3.8.rst:876
 msgid ""
@@ -1137,7 +1143,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:888
 msgid "plistlib"
-msgstr ""
+msgstr "plistlib"
 
 #: ../../whatsnew/3.8.rst:890
 msgid ""
@@ -1148,7 +1154,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:896
 msgid "py_compile"
-msgstr ""
+msgstr "py_compile"
 
 #: ../../whatsnew/3.8.rst:898
 msgid ""
@@ -1158,7 +1164,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:903
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../../whatsnew/3.8.rst:905
 msgid ""
@@ -1178,7 +1184,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:915
 msgid "shlex"
-msgstr ""
+msgstr "shlex"
 
 #: ../../whatsnew/3.8.rst:917
 msgid ""
@@ -1188,7 +1194,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:921
 msgid "shutil"
-msgstr ""
+msgstr "shutil"
 
 #: ../../whatsnew/3.8.rst:923
 msgid ""
@@ -1212,7 +1218,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:936
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../../whatsnew/3.8.rst:938
 msgid ""
@@ -1224,7 +1230,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:945
 msgid "statistics"
-msgstr ""
+msgstr "statistics"
 
 #: ../../whatsnew/3.8.rst:947
 msgid ""
@@ -1261,7 +1267,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:991
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 #: ../../whatsnew/3.8.rst:993
 msgid ""
@@ -1274,7 +1280,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1002
 msgid "tarfile"
-msgstr ""
+msgstr "tarfile"
 
 #: ../../whatsnew/3.8.rst:1004
 msgid ""
@@ -1287,7 +1293,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1012
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 #: ../../whatsnew/3.8.rst:1014
 msgid ""
@@ -1309,7 +1315,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1029
 msgid "tokenize"
-msgstr ""
+msgstr "tokenize"
 
 #: ../../whatsnew/3.8.rst:1031
 msgid ""
@@ -1321,7 +1327,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1037
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 #: ../../whatsnew/3.8.rst:1039
 msgid ""
@@ -1348,7 +1354,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1056
 msgid "time"
-msgstr ""
+msgstr "time"
 
 #: ../../whatsnew/3.8.rst:1058
 msgid ""
@@ -1358,7 +1364,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1063
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 #: ../../whatsnew/3.8.rst:1065
 msgid "The :mod:`typing` module incorporates several new features:"
@@ -1397,7 +1403,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1085
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 #: ../../whatsnew/3.8.rst:1087
 msgid ""
@@ -1415,7 +1421,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1097
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 #: ../../whatsnew/3.8.rst:1099
 msgid ""
@@ -1446,14 +1452,14 @@ msgid ""
 " Svetlov in :issue:`32972`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1116 ../../whatsnew/3.8.rst:1742
-#: ../../whatsnew/3.8.rst:1759 ../../whatsnew/3.8.rst:1776
+#: ../../whatsnew/3.8.rst:1116 ../../whatsnew/3.8.rst:1746
+#: ../../whatsnew/3.8.rst:1763 ../../whatsnew/3.8.rst:1780
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../whatsnew/3.8.rst:1139
 msgid "venv"
-msgstr ""
+msgstr "venv"
 
 #: ../../whatsnew/3.8.rst:1141
 msgid ""
@@ -1464,7 +1470,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1146
 msgid "weakref"
-msgstr ""
+msgstr "weakref"
 
 #: ../../whatsnew/3.8.rst:1148
 msgid ""
@@ -1475,7 +1481,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1153
 msgid "xml"
-msgstr ""
+msgstr "xml"
 
 #: ../../whatsnew/3.8.rst:1155
 msgid ""
@@ -1523,7 +1529,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1184
 msgid "*close_fds* is false;"
-msgstr ""
+msgstr "*close_fds* adalah salah;"
 
 #: ../../whatsnew/3.8.rst:1185
 msgid ""
@@ -1539,6 +1545,8 @@ msgstr ""
 msgid ""
 "(Contributed by Joannah Nanjekye and Victor Stinner in :issue:`35537`.)"
 msgstr ""
+"(Dikontribusikan oleh Joannah Nanjekye dan Victor Stinner di "
+":issue:`35537`.)"
 
 #: ../../whatsnew/3.8.rst:1191
 msgid ""
@@ -1647,7 +1655,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1262
 msgid "Example of changes:"
-msgstr ""
+msgstr "Contoh perubahan:"
 
 #: ../../whatsnew/3.8.rst:1264
 msgid ""
@@ -1699,6 +1707,8 @@ msgid ""
 "(Contributed by Victor Stinner in :issue:`35134` and :issue:`35081`, work "
 "initiated by Eric Snow in Python 3.7)"
 msgstr ""
+"(Dikontribusikan oleh Victor Stinner di :issue:`35134` dan :issue:`35081`, "
+"karya yang diprakarsai oleh Eric Snow di Python 3.7)"
 
 #: ../../whatsnew/3.8.rst:1289
 msgid ""
@@ -1709,25 +1719,27 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1293
 msgid ":c:func:`Py_INCREF`, :c:func:`Py_DECREF`"
-msgstr ""
+msgstr ":c:func:`Py_INCREF`, :c:func:`Py_DECREF`"
 
 #: ../../whatsnew/3.8.rst:1294
 msgid ":c:func:`Py_XINCREF`, :c:func:`Py_XDECREF`"
-msgstr ""
+msgstr ":c:func:`Py_XINCREF`, :c:func:`Py_XDECREF`"
 
 #: ../../whatsnew/3.8.rst:1295
 msgid ":c:func:`PyObject_INIT`, :c:func:`PyObject_INIT_VAR`"
-msgstr ""
+msgstr ":c:func:`PyObject_INIT`, :c:func:`PyObject_INIT_VAR`"
 
 #: ../../whatsnew/3.8.rst:1296
 msgid ""
 "Private functions: :c:func:`_PyObject_GC_TRACK`, "
 ":c:func:`_PyObject_GC_UNTRACK`, :c:func:`_Py_Dealloc`"
 msgstr ""
+"Fungsi-fungsi privat: :c:func:`_PyObject_GC_TRACK`, "
+":c:func:`_PyObject_GC_UNTRACK`, :c:func:`_Py_Dealloc`"
 
 #: ../../whatsnew/3.8.rst:1299
 msgid "(Contributed by Victor Stinner in :issue:`35059`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`35059`.)"
 
 #: ../../whatsnew/3.8.rst:1301
 msgid ""
@@ -1765,7 +1777,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1323
 msgid "(Contributed by Antoine Pitrou in :issue:`32430`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`32430`.)"
 
 #: ../../whatsnew/3.8.rst:1325
 msgid ""
@@ -1810,7 +1822,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1357
 msgid "Deprecated"
-msgstr ""
+msgstr "Usang"
 
 #: ../../whatsnew/3.8.rst:1359
 msgid ""
@@ -1851,7 +1863,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1382
 msgid "(Contributed by Berker Peksag in :issue:`9372`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Berker Peksag di :issue:`9372`.)"
 
 #: ../../whatsnew/3.8.rst:1384
 msgid ""
@@ -1900,7 +1912,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1415
 msgid "(Contributed by Serhiy Storchaka in :issue:`33710`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Serhiy Storchaka di :issue:`33710`.)"
 
 #: ../../whatsnew/3.8.rst:1417
 msgid ""
@@ -2068,7 +2080,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1511
 msgid "Changes in Python behavior"
-msgstr ""
+msgstr "Perubahan perilaku Python"
 
 #: ../../whatsnew/3.8.rst:1513
 msgid ""
@@ -2127,7 +2139,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1551
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Perubahan pada API Python"
 
 #: ../../whatsnew/3.8.rst:1553
 msgid ""
@@ -2285,7 +2297,14 @@ msgid ""
 "instead of :exc:`KeyError`. (Contributed by Xiang Zhang in :issue:`33106`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1664
+#: ../../whatsnew/3.8.rst:1662
+msgid ""
+"The Exception :class:`asyncio.CancelledError` now inherits from "
+":class:`BaseException` rather than a :class:`Exception`. (Contributed by "
+"Yury Selivanov in :issue:`13528`.)"
+msgstr ""
+
+#: ../../whatsnew/3.8.rst:1668
 msgid ""
 "DLL dependencies for extension modules and DLLs loaded with :mod:`ctypes` on"
 " Windows are now resolved more securely. Only the system paths, the "
@@ -2300,14 +2319,14 @@ msgid ""
 "also verified by the installer). (See :issue:`36085`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1677
+#: ../../whatsnew/3.8.rst:1681
 msgid ""
 "The header files and functions related to pgen have been removed after its "
 "replacement by a pure Python implementation. (Contributed by Pablo Galindo "
 "in :issue:`36623`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1681
+#: ../../whatsnew/3.8.rst:1685
 msgid ""
 ":class:`types.CodeType` has a new parameter in the second position of the "
 "constructor (*posonlyargcount*) to support positional-only arguments defined"
@@ -2317,11 +2336,11 @@ msgid ""
 " future-proof."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1690
+#: ../../whatsnew/3.8.rst:1694
 msgid "Changes in the C API"
-msgstr ""
+msgstr "Perubahan dalam API C"
 
-#: ../../whatsnew/3.8.rst:1692
+#: ../../whatsnew/3.8.rst:1696
 msgid ""
 "The :c:type:`PyCompilerFlags` structure gets a new *cf_feature_version* "
 "field. It should be initialized to ``PY_MINOR_VERSION``. The field is "
@@ -2329,14 +2348,14 @@ msgid ""
 "in *cf_flags*."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1697
+#: ../../whatsnew/3.8.rst:1701
 msgid ""
 "The :c:func:`PyEval_ReInitThreads` function has been removed from the C API."
 " It should not be called explicitly: use :c:func:`PyOS_AfterFork_Child` "
 "instead. (Contributed by Victor Stinner in :issue:`36728`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1702
+#: ../../whatsnew/3.8.rst:1706
 msgid ""
 "On Unix, C extensions are no longer linked to libpython except on Android "
 "and Cygwin. When Python is embedded, ``libpython`` must not be loaded with "
@@ -2347,7 +2366,7 @@ msgid ""
 "Stinner in :issue:`21536`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1710
+#: ../../whatsnew/3.8.rst:1714
 msgid ""
 "Use of ``#`` variants of formats in parsing or building value (e.g. "
 ":c:func:`PyArg_ParseTuple`, :c:func:`Py_BuildValue`, "
@@ -2357,7 +2376,7 @@ msgid ""
 ":issue:`36381`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1716
+#: ../../whatsnew/3.8.rst:1720
 msgid ""
 "Instances of heap-allocated types (such as those created with "
 ":c:func:`PyType_FromSpec`) hold a reference to their type object. Increasing"
@@ -2368,11 +2387,11 @@ msgid ""
 "managed code."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1724
+#: ../../whatsnew/3.8.rst:1728
 msgid "Statically allocated types are not affected."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1726
+#: ../../whatsnew/3.8.rst:1730
 msgid ""
 "For the vast majority of cases, there should be no side effect. However, "
 "types that manually increase the reference count after allocating an "
@@ -2381,12 +2400,12 @@ msgid ""
 "instance deallocation."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1732
+#: ../../whatsnew/3.8.rst:1736
 msgid ""
 "To correctly port these types into 3.8, please apply the following changes:"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1735
+#: ../../whatsnew/3.8.rst:1739
 msgid ""
 "Remove :c:macro:`Py_INCREF` on the type object after allocating an instance "
 "- if any. This may happen after calling :c:func:`PyObject_New`, "
@@ -2395,27 +2414,27 @@ msgid ""
 ":c:func:`PyObject_Init` or :c:func:`PyObject_INIT`."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1756
+#: ../../whatsnew/3.8.rst:1760
 msgid ""
 "Ensure that all custom ``tp_dealloc`` functions of heap-allocated types "
 "decrease the type's reference count."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1771
+#: ../../whatsnew/3.8.rst:1775
 msgid "(Contributed by Eddie Elizondo in :issue:`35810`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Eddie Elizondo di :issue:`35810`.)"
 
-#: ../../whatsnew/3.8.rst:1773
+#: ../../whatsnew/3.8.rst:1777
 msgid ""
 "The :c:macro:`Py_DEPRECATED()` macro has been implemented for MSVC. The "
 "macro now must be placed before the symbol name."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1780
+#: ../../whatsnew/3.8.rst:1784
 msgid "(Contributed by Zackery Spytz in :issue:`33407`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Zackery Spytz di :issue:`33407`.)"
 
-#: ../../whatsnew/3.8.rst:1782
+#: ../../whatsnew/3.8.rst:1786
 msgid ""
 "The interpreter does not pretend to support binary compatibility of "
 "extension types across feature releases, anymore.  A :c:type:`PyTypeObject` "
@@ -2425,24 +2444,24 @@ msgid ""
 "not checked anymore before reading :c:member:`~PyTypeObject.tp_finalize`)."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1789
+#: ../../whatsnew/3.8.rst:1793
 msgid "(Contributed by Antoine Pitrou in :issue:`32388`.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`32388`.)"
 
-#: ../../whatsnew/3.8.rst:1791
+#: ../../whatsnew/3.8.rst:1795
 msgid ""
 "The :c:func:`PyCode_New` has a new parameter in the second position "
 "(*posonlyargcount*) to support :pep:`570`, indicating the number of "
 "positional-only arguments."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1794
+#: ../../whatsnew/3.8.rst:1798
 msgid ""
 "The functions :c:func:`PyNode_AddChild` and :c:func:`PyParser_AddToken` now "
 "accept two additional ``int`` arguments *end_lineno* and *end_col_offset*."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1799
+#: ../../whatsnew/3.8.rst:1803
 msgid ""
 "The :file:`libpython38.a` file to allow MinGW tools to link directly against"
 " :file:`python38.dll` is no longer included in the regular Windows "
@@ -2451,7 +2470,7 @@ msgid ""
 "package::"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1807
+#: ../../whatsnew/3.8.rst:1811
 msgid ""
 "The location of an installed :file:`pythonXY.dll` will depend on the "
 "installation options and the version and language of Windows. See :ref"
@@ -2460,11 +2479,11 @@ msgid ""
 " :file:`libs` directory under your Python installation."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1817
+#: ../../whatsnew/3.8.rst:1821
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "Perubahan bytecode CPython"
 
-#: ../../whatsnew/3.8.rst:1819
+#: ../../whatsnew/3.8.rst:1823
 msgid ""
 "The interpreter loop  has been simplified by moving the logic of unrolling "
 "the stack of blocks into the compiler.  The compiler emits now explicit "
@@ -2472,7 +2491,7 @@ msgid ""
 "code for :keyword:`break`, :keyword:`continue` and :keyword:`return`."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1825
+#: ../../whatsnew/3.8.rst:1829
 msgid ""
 "Removed opcodes :opcode:`BREAK_LOOP`, :opcode:`CONTINUE_LOOP`, "
 ":opcode:`SETUP_LOOP` and :opcode:`SETUP_EXCEPT`.  Added new opcodes "
@@ -2481,20 +2500,22 @@ msgid ""
 ":opcode:`WITH_CLEANUP_START`."
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1831
+#: ../../whatsnew/3.8.rst:1835
 msgid ""
 "(Contributed by Mark Shannon, Antoine Pitrou and Serhiy Storchaka in "
 ":issue:`17611`.)"
 msgstr ""
+"(Dikontribusikan oleh Mark Shannon, Antoine Pitrou dan Serhiy Storchaka di "
+":issue:`17611`.)"
 
-#: ../../whatsnew/3.8.rst:1834
+#: ../../whatsnew/3.8.rst:1838
 msgid ""
 "Added new opcode :opcode:`END_ASYNC_FOR` for handling exceptions raised when"
 " awaiting a next item in an :keyword:`async for` loop. (Contributed by "
 "Serhiy Storchaka in :issue:`33041`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1838
+#: ../../whatsnew/3.8.rst:1842
 msgid ""
 "The :opcode:`MAP_ADD` now expects the value as the first element in the "
 "stack and the key as the second element. This change was made so the key is "
@@ -2502,13 +2523,16 @@ msgid ""
 "by :pep:`572`. (Contributed by Jörn Heissler in :issue:`35224`.)"
 msgstr ""
 
-#: ../../whatsnew/3.8.rst:1845
+#: ../../whatsnew/3.8.rst:1849
 msgid "Demos and Tools"
-msgstr ""
+msgstr "Demo dan Alat"
 
-#: ../../whatsnew/3.8.rst:1847
+#: ../../whatsnew/3.8.rst:1851
 msgid ""
 "Added a benchmark script for timing various ways to access variables: "
 "``Tools/scripts/var_access_benchmark.py``. (Contributed by Raymond Hettinger"
 " in :issue:`35884`.)"
 msgstr ""
+"Menambahkan skrip patokan atau *benchmark* untuk menentukan waktu berbagai "
+"cara untuk mengakses variabel: ``Tools/scripts/var_access_benchmark.py``. "
+"(Dikontribusikan oleh Raymond Hettinger di :issue:`35884`.)"

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
 # Iwan Setiawan <stwn@duniasemu.org>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:44+0000\n"
-"Last-Translator: Iwan Setiawan <stwn@duniasemu.org>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/3.1.rst:5
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 #: ../../whatsnew/3.1.rst:49
 msgid "This article explains the new features in Python 3.1, compared to 3.0."
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:116
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.1.rst:118
 msgid "Some smaller changes made to the core Python language are:"

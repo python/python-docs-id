@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
 # Iwan Setiawan <stwn@duniasemu.org>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:44+0000\n"
-"Last-Translator: Iwan Setiawan <stwn@duniasemu.org>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/3.2.rst:5
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 #: ../../whatsnew/3.2.rst:51
 msgid ""
@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:435
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/3.2.rst:437
 msgid "Some smaller changes made to the core Python language are:"
@@ -848,7 +848,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:752
 msgid "functools"
-msgstr ""
+msgstr "functools"
 
 #: ../../whatsnew/3.2.rst:754
 msgid ""
@@ -947,7 +947,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:837
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 #: ../../whatsnew/3.2.rst:839
 msgid ""
@@ -969,7 +969,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:857
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../../whatsnew/3.2.rst:859
 msgid ""
@@ -1011,7 +1011,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:916
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 #: ../../whatsnew/3.2.rst:918
 msgid ""
@@ -1144,7 +1144,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1042
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../../whatsnew/3.2.rst:1044
 msgid ""
@@ -1209,7 +1209,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1113
 msgid "io"
-msgstr ""
+msgstr "io"
 
 #: ../../whatsnew/3.2.rst:1115
 msgid ""
@@ -1249,7 +1249,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1170
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: ../../whatsnew/3.2.rst:1172
 msgid ""
@@ -1327,7 +1327,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1232
 msgid "contextlib"
-msgstr ""
+msgstr "contextlib"
 
 #: ../../whatsnew/3.2.rst:1234
 msgid ""
@@ -1564,7 +1564,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1435
 msgid "tarfile"
-msgstr ""
+msgstr "tarfile"
 
 #: ../../whatsnew/3.2.rst:1437
 msgid ""
@@ -1606,7 +1606,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1489
 msgid "ast"
-msgstr ""
+msgstr "ast"
 
 #: ../../whatsnew/3.2.rst:1491
 msgid ""
@@ -1624,7 +1624,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1515
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../../whatsnew/3.2.rst:1517
 msgid ""
@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1538
 msgid "shutil"
-msgstr ""
+msgstr "shutil"
 
 #: ../../whatsnew/3.2.rst:1540
 msgid "The :func:`shutil.copytree` function has two new options:"
@@ -1697,7 +1697,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1590
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 #: ../../whatsnew/3.2.rst:1592
 msgid ""
@@ -1736,7 +1736,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1616
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../../whatsnew/3.2.rst:1618
 msgid "The :mod:`socket` module has two new improvements."
@@ -1760,7 +1760,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1631
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../../whatsnew/3.2.rst:1633
 msgid ""
@@ -1888,7 +1888,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1705
 msgid "http.client"
-msgstr ""
+msgstr "http.client"
 
 #: ../../whatsnew/3.2.rst:1707
 msgid ""
@@ -1939,7 +1939,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1736
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 #: ../../whatsnew/3.2.rst:1738
 msgid ""
@@ -2166,7 +2166,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1879
 msgid "inspect"
-msgstr ""
+msgstr "inspect"
 
 #: ../../whatsnew/3.2.rst:1881
 msgid ""
@@ -2189,7 +2189,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1922
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../whatsnew/3.2.rst:1924
 msgid ""
@@ -2204,7 +2204,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1935
 msgid "dis"
-msgstr ""
+msgstr "dis"
 
 #: ../../whatsnew/3.2.rst:1937
 msgid ""
@@ -2235,7 +2235,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1993
 msgid "dbm"
-msgstr ""
+msgstr "dbm"
 
 #: ../../whatsnew/3.2.rst:1995
 msgid ""
@@ -2249,7 +2249,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2000
 msgid "ctypes"
-msgstr ""
+msgstr "ctypes"
 
 #: ../../whatsnew/3.2.rst:2002
 msgid ""
@@ -2352,7 +2352,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2108
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 #: ../../whatsnew/3.2.rst:2110
 msgid ""
@@ -2452,7 +2452,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2214
 msgid "urllib.parse"
-msgstr ""
+msgstr "urllib.parse"
 
 #: ../../whatsnew/3.2.rst:2216
 msgid ""

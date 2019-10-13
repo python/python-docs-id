@@ -322,7 +322,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:414
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/xml.etree.elementtree.rst:416
 msgid "``tag``"

@@ -792,7 +792,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:789
 msgid "Character"
-msgstr ""
+msgstr "Karakter"
 
 #: ../../whatsnew/2.6.rst:789
 msgid "Effect"
@@ -1623,7 +1623,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1485
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Perubahan Bahasa Lainnya"
 
 #: ../../whatsnew/2.6.rst:1487
 msgid "Some smaller changes made to the core Python language are:"

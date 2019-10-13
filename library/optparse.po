@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:20+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1340,7 +1340,7 @@ msgstr ""
 #: ../../library/optparse.rst:1145 ../../library/optparse.rst:1163
 #: ../../library/optparse.rst:1202 ../../library/optparse.rst:1240
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/optparse.rst:1108
 msgid "As it parses the command line ::"

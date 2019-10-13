@@ -86,7 +86,7 @@ msgstr ""
 #: ../../library/dbm.rst:183 ../../library/dbm.rst:279
 #: ../../library/dbm.rst:349
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/dbm.rst:50 ../../library/dbm.rst:166
 #: ../../library/dbm.rst:281 ../../library/dbm.rst:351

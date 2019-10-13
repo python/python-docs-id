@@ -453,7 +453,7 @@ msgstr ""
 
 #: ../../library/time.rst:369
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../library/time.rst:369
 msgid "Notes"

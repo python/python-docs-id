@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:473
 msgid "Meaning"
-msgstr ""
+msgstr "Artinya"
 
 #: ../../reference/datamodel.rst:475
 msgid ":attr:`__doc__`"

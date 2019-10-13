@@ -53,7 +53,7 @@ msgstr ""
 #: ../../library/functools.rst:30 ../../library/functools.rst:70
 #: ../../library/functools.rst:276
 msgid "Example::"
-msgstr ""
+msgstr "Contoh::"
 
 #: ../../library/functools.rst:48
 msgid ""

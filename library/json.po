@@ -363,7 +363,7 @@ msgstr "daftar"
 
 #: ../../library/json.rst:318 ../../library/json.rst:407
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #: ../../library/json.rst:318 ../../library/json.rst:407
 msgid "str"

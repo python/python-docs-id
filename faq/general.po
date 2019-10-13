@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,6 +80,11 @@ msgid ""
 "programming language and to publicize the use of Python.  The PSF's home "
 "page is at https://www.python.org/psf/."
 msgstr ""
+"The Python Software Foundation adalah organisasi nirlaba independen yang "
+"memegang hak cipta pada Python versi 2.1 dan yang lebih baru. Misi PSF "
+"adalah untuk memajukan teknologi *open source* yang terkait dengan bahasa "
+"pemrograman Python dan untuk mempublikasikan penggunaan Python. Halaman "
+"utama PSF ada di https://www.python.org/psf/."
 
 #: ../../faq/general.rst:41
 msgid ""
@@ -87,6 +92,9 @@ msgid ""
 "it helpful, please contribute via `the PSF donation page "
 "<https://www.python.org/psf/donations/>`_."
 msgstr ""
+"Sumbangan untuk PSF bebas pajak di AS. Jika Anda menggunakan Python dan "
+"merasa terbantu, silakan berkontribusi melalui `halaman donasi PSF "
+"<https://www.python.org/psf/donations/>`_."
 
 #: ../../faq/general.rst:47
 msgid "Are there copyright restrictions on the use of Python?"
@@ -102,6 +110,14 @@ msgid ""
 "some form.  We would still like to know about all commercial use of Python, "
 "of course."
 msgstr ""
+"Anda dapat melakukan apa pun yang Anda inginkan dengan sumbernya, selama "
+"Anda meninggalkan hak cipta dan menampilkan hak cipta itu dalam dokumentasi "
+"apa pun tentang Python yang Anda hasilkan. Jika Anda menghormati aturan hak "
+"cipta, boleh saja menggunakan Python untuk penggunaan komersial, menjual "
+"salinan Python dalam bentuk sumber atau biner (dimodifikasi atau tidak "
+"dimodifikasi), atau untuk menjual produk yang memasukkan Python dalam "
+"beberapa bentuk. Kami masih ingin tahu tentang semua penggunaan komersial "
+"Python, tentu saja."
 
 #: ../../faq/general.rst:56
 msgid ""
@@ -190,7 +206,7 @@ msgstr ""
 
 #: ../../faq/general.rst:108
 msgid "What is Python good for?"
-msgstr ""
+msgstr "Apa gunanya Python?"
 
 #: ../../faq/general.rst:110
 msgid ""
@@ -225,6 +241,11 @@ msgid ""
 "the micro-level -- it is incremented for each bugfix release.  See :pep:`6` "
 "for more information about bugfix releases."
 msgstr ""
+"Versi python diberi nomor A.B.C atau A.B. A adalah nomor versi utama -- "
+"hanya bertambah untuk perubahan besar dalam bahasa. B adalah nomor versi "
+"minor, ditambahkan untuk mengurangi perubahan yang menggoncang dunia. C "
+"adalah level mikro -- ia bertambah untuk setiap rilis bugfix. Lihat :pep:`6`"
+" untuk informasi lebih lanjut tentang rilis perbaikan bug."
 
 #: ../../faq/general.rst:133
 msgid ""
@@ -246,6 +267,12 @@ msgid ""
 "words, all versions labeled 2.0aN precede the versions labeled 2.0bN, which "
 "precede versions labeled 2.0cN, and *those* precede 2.0."
 msgstr ""
+"Versi kandidat alfa, beta, dan rilis memiliki akhiran tambahan. Akhiran "
+"untuk versi alfa adalah \"aN\" untuk sejumlah N kecil, akhiran untuk versi "
+"beta adalah \"bN\" untuk sejumlah kecil N, dan akhiran untuk versi kandidat "
+"rilis adalah \"cN\" untuk sejumlah kecil N. Dengan kata lain, semua versi "
+"berlabel 2.0aN mendahului versi berlabel 2.0bN, yang mendahului versi "
+"berlabel 2.0cN, dan yang mendahului *those* 2.0."
 
 #: ../../faq/general.rst:148
 msgid ""
@@ -255,6 +282,11 @@ msgid ""
 "is incremented to the next minor version, which becomes the \"a0\" version, "
 "e.g. \"2.4a0\"."
 msgstr ""
+"Anda juga dapat menemukan nomor versi dengan akhiran \"+\", mis. \"2.2+\". "
+"Ini adalah versi yang belum dirilis, dibangun langsung dari repositori "
+"pengembangan CPython. Dalam praktiknya, setelah rilis minor final dibuat, "
+"versi tersebut bertambah menjadi versi minor berikutnya, yang menjadi versi "
+"\"a0\", mis. \"2.4a0\"."
 
 #: ../../faq/general.rst:153
 msgid ""
@@ -285,6 +317,11 @@ msgid ""
 "programs, and several useful pieces of freely distributable software.  The "
 "source will compile and run out of the box on most UNIX platforms."
 msgstr ""
+"Distribusi sumber adalah file tar gzip yang berisi sumber C lengkap, "
+"dokumentasi berformat Sphinx, modul pustaka Python, program contoh, dan "
+"beberapa perangkat lunak berguna yang dapat didistribusikan secara bebas. "
+"Sumber akan mengkompilasi dan langsung dapat digunakan pada sebagian besar "
+"platform UNIX."
 
 #: ../../faq/general.rst:169
 msgid ""
@@ -487,6 +524,8 @@ msgid ""
 "managed by the Python Infrastructure Team. Details `here "
 "<http://infra.psf.io>`__."
 msgstr ""
+"Infrastruktur proyek Python terletak di seluruh dunia dan dikelola oleh Tim "
+"Infrastruktur Python. Detail `di sini <http://infra.psf.io>`__."
 
 #: ../../faq/general.rst:276
 msgid "Why is it called Python?"
@@ -500,6 +539,12 @@ msgid ""
 "the 1970s.  Van Rossum thought he needed a name that was short, unique, and "
 "slightly mysterious, so he decided to call the language Python."
 msgstr ""
+"Ketika mulai mengimplementasikan Python, Guido van Rossum juga membaca skrip"
+" yang diterbitkan dari `\"Sirkus Terbang Monty Python "
+"\"<https://en.wikipedia.org/wiki/Monty_Python>`__, sebuah serial komedi BBC "
+"dari tahun 1970-an. Van Rossum berpikir dia membutuhkan nama yang pendek, "
+"unik, dan sedikit misterius, jadi dia memutuskan untuk memanggil bahasa "
+"Python."
 
 #: ../../faq/general.rst:286
 msgid "Do I have to like \"Monty Python's Flying Circus\"?"
@@ -536,6 +581,12 @@ msgid ""
 "and it's guaranteed that interfaces will remain the same throughout a series"
 " of bugfix releases."
 msgstr ""
+"Pengembang mengeluarkan rilis \"bugfix\" dari versi yang lebih lama, "
+"sehingga stabilitas rilis yang ada secara bertahap membaik. Rilis perbaikan "
+"bug, ditunjukkan oleh komponen ketiga dari nomor versi (mis. 3.5.3, 3.6.2), "
+"dikelola untuk stabilitas; hanya perbaikan untuk masalah yang diketahui yang"
+" termasuk dalam rilis perbaikan bug, dan dijamin antarmuka akan tetap sama "
+"di sepanjang serangkaian rilis perbaikan bug."
 
 #: ../../faq/general.rst:308
 msgid ""
@@ -546,6 +597,12 @@ msgid ""
 " `it will not be maintained after January 1, 2020 "
 "<https://www.python.org/dev/peps/pep-0373/>`_."
 msgstr ""
+"Rilis stabil terbaru selalu dapat ditemukan di `halaman pengunduhan Python "
+"<https://www.python.org/downloads/>`_. Ada dua versi Python yang siap-"
+"produksi: 2.x dan 3.x. Versi yang direkomendasikan adalah 3.x, yang didukung"
+" oleh pustaka yang paling banyak digunakan. Meskipun 2.x masih banyak "
+"digunakan, `itu tidak akan dipertahankan setelah 1 Januari 2020 "
+"<https://www.python.org/dev/peps/pep-0373/>`_."
 
 #: ../../faq/general.rst:315
 msgid "How many people are using Python?"
@@ -565,6 +622,10 @@ msgid ""
 "it's available from many different sites and packaged with many Linux "
 "distributions, so download statistics don't tell the whole story either."
 msgstr ""
+"Python tersedia untuk diunduh gratis, jadi tidak ada angka penjualan, dan "
+"itu tersedia dari banyak situs yang berbeda dan dikemas dengan banyak "
+"distribusi Linux, jadi statistik unduhan juga tidak menceritakan keseluruhan"
+" cerita."
 
 #: ../../faq/general.rst:324
 msgid ""
@@ -585,6 +646,10 @@ msgid ""
 "<https://www.python.org/community/workshops/>`_ will reveal contributions "
 "from many different companies and organizations."
 msgstr ""
+"Lihat https://www.python.org/about/success untuk daftar proyek yang "
+"menggunakan Python. Konsultasi proses untuk `konferensi Python masa lalu "
+"<https://www.python.org/community/workshops/>`_ akan mengungkapkan "
+"kontribusi dari banyak perusahaan dan organisasi yang berbeda."
 
 #: ../../faq/general.rst:336
 msgid ""
@@ -595,6 +660,12 @@ msgid ""
 " system administration software in Python.  Companies that use Python "
 "internally include Google, Yahoo, and Lucasfilm Ltd."
 msgstr ""
+"Profil terkenal proyek Python termasuk `manajer milis Mailman "
+"<http://www.list.org>`_ dan `server aplikasi Zope <http://www.zope.org>`_. "
+"Beberapa distribusi Linux, terutama `Red Hat <https://www.redhat.com>`_, "
+"telah menulis sebagian atau semua installer dan perangkat lunak sistem "
+"administrasi mereka dengan Python. Perusahaan yang menggunakan Python secara"
+" internal termasuk Google, Yahoo, dan Lucasfilm Ltd."
 
 #: ../../faq/general.rst:345
 msgid "What new developments are expected for Python in the future?"
@@ -608,6 +679,11 @@ msgid ""
 "for a PEP titled \"Python X.Y Release Schedule\", where X.Y is a version "
 "that hasn't been publicly released yet."
 msgstr ""
+"Lihat https://www.python.org/dev/peps/ untuk Python Enchancement Proposal "
+"(PEPs). PEP adalah dokumen desain yang menggambarkan fitur baru yang "
+"disarankan untuk Python, memberikan spesifikasi teknis yang ringkas dan "
+"alasannya. Cari PEP berjudul \"Jadwal Rilis Python X.Y\", di mana X.Y adalah"
+" versi yang belum dirilis secara publik."
 
 #: ../../faq/general.rst:353
 msgid ""
@@ -639,6 +715,9 @@ msgid ""
 "changed. :pep:`5` describes the procedure followed for introducing backward-"
 "incompatible changes while minimizing disruption for users."
 msgstr ""
+"Diperlukan jalur peningkatan bertahap jika fitur harus diubah. :pep:`5` "
+"menjelaskan prosedur yang diikuti untuk memperkenalkan perubahan yang tidak "
+"kompatibel ke belakang sambil meminimalkan gangguan bagi pengguna."
 
 #: ../../faq/general.rst:373
 msgid "Is Python a good language for beginning programmers?"
@@ -713,6 +792,14 @@ msgid ""
 "<https://wiki.python.org/moin/PythonEditors>`_ for a full list of Python "
 "editing environments."
 msgstr ""
+"Ada juga IDE yang bagus untuk Python. IDLE adalah IDE lintas-platform untuk "
+"Python yang ditulis dalam Python menggunakan Tkinter. PythonWin adalah IDE "
+"khusus Windows. Pengguna Emacs akan senang mengetahui bahwa ada mode Python "
+"yang sangat bagus untuk Emacs. Semua lingkungan pemrograman ini menyediakan "
+"penyorotan sintaksis, indentasi otomatis, dan akses ke interpreter "
+"interaktif saat pengkodean. Konsultasikan `wiki Python "
+"<https://wiki.python.org/moin/PythonEditors>`_ untuk daftar lengkap "
+"lingkungan penyuntingan Python."
 
 #: ../../faq/general.rst:444
 msgid ""
