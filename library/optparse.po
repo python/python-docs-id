@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:246
 msgid "Tutorial"
-msgstr ""
+msgstr "Tutorial"
 
 #: ../../library/optparse.rst:248
 msgid ""
@@ -431,7 +431,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:330
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/optparse.rst:335
 msgid ""

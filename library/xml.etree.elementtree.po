@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:28
 msgid "Tutorial"
-msgstr ""
+msgstr "Tutorial"
 
 #: ../../library/xml.etree.elementtree.rst:30
 msgid ""
@@ -1415,7 +1415,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:1454
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/xml.etree.elementtree.rst:1458
 msgid ""

@@ -560,7 +560,7 @@ msgstr ""
 
 #: ../../library/json.rst:516
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/json.rst:520
 msgid ""

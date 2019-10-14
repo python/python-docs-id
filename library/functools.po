@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../library/functools.rst:191
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/functools.rst:211
 msgid ""

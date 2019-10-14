@@ -1070,7 +1070,7 @@ msgstr ""
 
 #: ../../library/configparser.rst:1249
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/configparser.rst:1253
 msgid "Base class for all other :mod:`configparser` exceptions."

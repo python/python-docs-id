@@ -3018,7 +3018,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:2173
 msgid "API and Feature Removals"
-msgstr ""
+msgstr "API dan Penghapusan Fitur"
 
 #: ../../whatsnew/3.4.rst:2175
 msgid ""

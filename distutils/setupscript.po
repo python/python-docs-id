@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:293
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../distutils/setupscript.rst:300
 msgid "is the equivalent of having this at the top of every C source file::"

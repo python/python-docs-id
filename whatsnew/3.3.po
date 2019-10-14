@@ -3160,7 +3160,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2149
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/3.3.rst:2151
 msgid "Major performance enhancements have been added:"

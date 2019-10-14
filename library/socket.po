@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../../library/socket.rst:227
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/socket.rst:231
 msgid "A deprecated alias of :exc:`OSError`."

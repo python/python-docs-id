@@ -965,7 +965,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:928
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/2.7.rst:930
 msgid "Several performance enhancements have been added:"

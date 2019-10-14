@@ -785,7 +785,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:618
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/subprocess.rst:620
 msgid ""

@@ -2294,7 +2294,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1779
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/3.6.rst:1781
 msgid ""
@@ -2729,7 +2729,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:2087
 msgid "API and Feature Removals"
-msgstr ""
+msgstr "API dan Penghapusan Fitur"
 
 #: ../../whatsnew/3.6.rst:2089
 msgid ""

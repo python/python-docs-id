@@ -45,8 +45,8 @@ setelah mencapai target berikut:
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ##### Progres
-* **tutorial/{appendix, index, interactive, interpreter, introduction, venv, whatnow}** sudah diterjemahkan 100%
-* **tutorial/{appetite, classes, controlflow, datastructure, errors, floatingpoint, inputoutput, modules, stdlib, strlib2}** belum diterjemahkan
+* **tutorial/{appendix, errors, index, interactive, interpreter, introduction, stdlib, venv, whatnow}** sudah diterjemahkan 100%
+* **tutorial/{appetite, classes, controlflow, datastructure, floatingpoint, inputoutput, modules, strlib2}** belum diterjemahkan
 
 ### Panduan Singkat Penerjemahan
 ---
@@ -99,6 +99,7 @@ Istilah | Terjemahan
 *compiler* | *compiler*
 *concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
 *custom* | ubahsuai, ubahsuaian
+*debug* | *debug*
 *decoding* | penerjemahan, *decoding*
 *default* | bawaan
 *deprecated* | usang
@@ -106,6 +107,7 @@ Istilah | Terjemahan
 *docstring* | *docstring*
 *download* | unduh
 *e.g.* | mis.
+*emitting* | mengirimkan
 *encoding* | penyandian, *encoding*
 *escape* | memisahkan
 *etc.* | dll.

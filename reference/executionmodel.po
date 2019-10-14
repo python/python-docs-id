@@ -236,7 +236,7 @@ msgstr ""
 
 #: ../../reference/executionmodel.rst:210
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../reference/executionmodel.rst:221
 msgid ""

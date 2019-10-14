@@ -609,7 +609,7 @@ msgstr ""
 
 #: ../../library/difflib.rst:510
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/difflib.rst:527
 msgid "Return a :term:`generator` of groups with up to *n* lines of context."

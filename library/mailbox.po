@@ -1739,7 +1739,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1492
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/mailbox.rst:1494
 msgid ""

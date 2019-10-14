@@ -2621,7 +2621,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2345
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/3.2.rst:2347
 msgid "A number of small performance enhancements have been added:"

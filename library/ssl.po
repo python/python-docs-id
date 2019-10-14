@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../library/ssl.rst:185
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/ssl.rst:189
 msgid ""

@@ -1840,7 +1840,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1693
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/2.6.rst:1695
 msgid ""

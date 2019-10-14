@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:41+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,17 +23,19 @@ msgstr ""
 
 #: ../../tutorial/stdlib.rst:5
 msgid "Brief Tour of the Standard Library"
-msgstr ""
+msgstr "Tur Singkat Pustaka Standar"
 
 #: ../../tutorial/stdlib.rst:11
 msgid "Operating System Interface"
-msgstr ""
+msgstr "Antarmuka Sistem Operasi"
 
 #: ../../tutorial/stdlib.rst:13
 msgid ""
 "The :mod:`os` module provides dozens of functions for interacting with the "
 "operating system::"
 msgstr ""
+"Modul :mod:`os` menyediakan puluhan fungsi untuk berinteraksi dengan sistem "
+"operasi::"
 
 #: ../../tutorial/stdlib.rst:23
 msgid ""
@@ -37,32 +43,41 @@ msgid ""
 "This will keep :func:`os.open` from shadowing the built-in :func:`open` "
 "function which operates much differently."
 msgstr ""
+"Pastikan untuk menggunakan gaya ``import os`` alih-alih ``from os import "
+"*``. Ini akan menjaga :func:`os.open` dari membayangi *shadowing* fungsi "
+"bawaan :func:`open` yang beroperasi jauh berbeda."
 
 #: ../../tutorial/stdlib.rst:29
 msgid ""
 "The built-in :func:`dir` and :func:`help` functions are useful as "
 "interactive aids for working with large modules like :mod:`os`::"
 msgstr ""
+"Fungsi bawaan :func:`dir` dan :func:`help` berguna sebagai alat bantu "
+"interaktif untuk bekerja dengan modul besar seperti :mod:`os`::"
 
 #: ../../tutorial/stdlib.rst:38
 msgid ""
 "For daily file and directory management tasks, the :mod:`shutil` module "
 "provides a higher level interface that is easier to use::"
 msgstr ""
+"Untuk tugas manajemen berkas dan direktori sehari-hari, modul :mod:`shutil` "
+"menyediakan antarmuka level yang lebih tinggi yang lebih mudah digunakan::"
 
 #: ../../tutorial/stdlib.rst:51
 msgid "File Wildcards"
-msgstr ""
+msgstr "Berkas *Wildcard*"
 
 #: ../../tutorial/stdlib.rst:53
 msgid ""
 "The :mod:`glob` module provides a function for making file lists from "
 "directory wildcard searches::"
 msgstr ""
+"Modul :mod:`glob` menyediakan fungsi untuk membuat daftar berkas dari "
+"pencarian *wildcard* di direktori::"
 
 #: ../../tutorial/stdlib.rst:64
 msgid "Command Line Arguments"
-msgstr ""
+msgstr "Baris Perintah Berargumen"
 
 #: ../../tutorial/stdlib.rst:66
 msgid ""
@@ -71,6 +86,10 @@ msgid ""
 "  For instance the following output results from running ``python demo.py "
 "one two three`` at the command line::"
 msgstr ""
+"Skrip utilitas umum seringkali perlu memproses argumen baris perintah. "
+"Argumen-argumen ini disimpan dalam atribut *argv* dari modul :mod:`sys` "
+"sebagai daftar. Sebagai contoh, hasil keluaran berikut dari menjalankan "
+"``python demo.py one two three`` di baris perintah ::"
 
 #: ../../tutorial/stdlib.rst:75
 msgid ""
@@ -78,14 +97,17 @@ msgid ""
 "arguments. It should always be preferred over directly processing "
 "``sys.argv`` manually."
 msgstr ""
+"Modul :mod:`argparse` menyediakan mekanisme untuk memproses argumen baris "
+"perintah. Itu harus selalu lebih disukai daripada langsung memproses "
+"``sys.argv`` secara manual."
 
 #: ../../tutorial/stdlib.rst:78
 msgid "Take, for example, the below snippet of code::"
-msgstr ""
+msgstr "Ambil contoh, misalnya, potongan kode di bawah ini ::"
 
 #: ../../tutorial/stdlib.rst:94
 msgid "Error Output Redirection and Program Termination"
-msgstr ""
+msgstr "Pengalihan Output Kesalahan dan Pengakhiran Program"
 
 #: ../../tutorial/stdlib.rst:96
 msgid ""
@@ -93,14 +115,19 @@ msgid ""
 "*stderr*. The latter is useful for emitting warnings and error messages to "
 "make them visible even when *stdout* has been redirected::"
 msgstr ""
+"Modul :mod:`sys` juga memiliki atribut untuk *stdin*, *stdout*, dan "
+"*stderr*. Yang terakhir berguna untuk mengirimkan peringatan dan pesan "
+"kesalahan untuk membuatnya terlihat bahkan ketika *stdout* telah dialihkan::"
 
 #: ../../tutorial/stdlib.rst:103
 msgid "The most direct way to terminate a script is to use ``sys.exit()``."
 msgstr ""
+"Cara paling langsung untuk mengakhiri skrip adalah dengan menggunakan "
+"``sys.exit()``."
 
 #: ../../tutorial/stdlib.rst:109
 msgid "String Pattern Matching"
-msgstr ""
+msgstr "Pencocokan Pola String"
 
 #: ../../tutorial/stdlib.rst:111
 msgid ""
@@ -108,42 +135,53 @@ msgid ""
 "processing. For complex matching and manipulation, regular expressions offer"
 " succinct, optimized solutions::"
 msgstr ""
+"Modul :mod:`re` menyediakan alat ekspresi reguler untuk pemrosesan string "
+"lanjutan. Untuk pencocokan dan manipulasi yang kompleks, ekspresi reguler "
+"menawarkan solusi yang ringkas dan dioptimalkan::"
 
 #: ../../tutorial/stdlib.rst:121
 msgid ""
 "When only simple capabilities are needed, string methods are preferred "
 "because they are easier to read and debug::"
 msgstr ""
+"Ketika hanya kemampuan sederhana yang diperlukan, metode string lebih "
+"disukai karena lebih mudah dibaca dan dilakukan *debug*::"
 
 #: ../../tutorial/stdlib.rst:131
 msgid "Mathematics"
-msgstr ""
+msgstr "Matematika"
 
 #: ../../tutorial/stdlib.rst:133
 msgid ""
 "The :mod:`math` module gives access to the underlying C library functions "
 "for floating point math::"
 msgstr ""
+"Modul :mod:`math` memberikan akses ke fungsi-fungsi pustaka C yang mendasari"
+" untuk matematika angka pecahan *floating point*::"
 
 #: ../../tutorial/stdlib.rst:142
 msgid "The :mod:`random` module provides tools for making random selections::"
-msgstr ""
+msgstr "Modul :mod:`random` menyediakan alat untuk membuat pilihan acak::"
 
 #: ../../tutorial/stdlib.rst:154
 msgid ""
 "The :mod:`statistics` module calculates basic statistical properties (the "
 "mean, median, variance, etc.) of numeric data::"
 msgstr ""
+"Modul :mod:`statistics` menghitung sifat statistik dasar (rata-rata, median,"
+" varian, dll.) dari data numerik::"
 
 #: ../../tutorial/stdlib.rst:166
 msgid ""
 "The SciPy project <https://scipy.org> has many other modules for numerical "
 "computations."
 msgstr ""
+"Proyek SciPy <https://scipy.org> memiliki banyak modul lain untuk "
+"perhitungan numerik."
 
 #: ../../tutorial/stdlib.rst:172
 msgid "Internet Access"
-msgstr ""
+msgstr "Akses internet"
 
 #: ../../tutorial/stdlib.rst:174
 msgid ""
@@ -151,15 +189,20 @@ msgid ""
 "internet protocols. Two of the simplest are :mod:`urllib.request` for "
 "retrieving data from URLs and :mod:`smtplib` for sending mail::"
 msgstr ""
+"Ada sejumlah modul untuk mengakses internet dan memproses protokol internet."
+" Dua yang paling sederhana adalah :mod:`urllib.request` untuk mengambil data"
+" dari URL dan :mod:`smtplib` untuk mengirim email::"
 
 #: ../../tutorial/stdlib.rst:197
 msgid ""
 "(Note that the second example needs a mailserver running on localhost.)"
 msgstr ""
+"(Perhatikan bahwa contoh kedua membutuhkan server mail yang beroperasi di "
+"localhost.)"
 
 #: ../../tutorial/stdlib.rst:203
 msgid "Dates and Times"
-msgstr ""
+msgstr "Tanggal dan Waktu"
 
 #: ../../tutorial/stdlib.rst:205
 msgid ""
@@ -169,10 +212,15 @@ msgid ""
 " for output formatting and manipulation.  The module also supports objects "
 "that are timezone aware. ::"
 msgstr ""
+"Modul :mod:`datetime` menyediakan kelas untuk memanipulasi tanggal dan waktu"
+" dengan cara yang sederhana dan kompleks. Sementara aritmatika tanggal dan "
+"waktu didukung, fokus implementasi adalah pada ekstraksi anggota yang "
+"efisien untuk pemformatan dan manipulasi keluaran. Modul ini juga mendukung "
+"objek yang sadar zona waktu. ::"
 
 #: ../../tutorial/stdlib.rst:229
 msgid "Data Compression"
-msgstr ""
+msgstr "Kompresi Data"
 
 #: ../../tutorial/stdlib.rst:231
 msgid ""
@@ -180,10 +228,13 @@ msgid ""
 "modules including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, "
 ":mod:`zipfile` and :mod:`tarfile`. ::"
 msgstr ""
+"Format pengarsipan dan kompresi data umum didukung langsung oleh modul-modul"
+" yang ada antara lain: :mod: `zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, "
+":mod:`zipfile` dan :mod:`tarfile`. ::"
 
 #: ../../tutorial/stdlib.rst:251
 msgid "Performance Measurement"
-msgstr ""
+msgstr "Pengukuran Kinerja"
 
 #: ../../tutorial/stdlib.rst:253
 msgid ""
@@ -191,6 +242,9 @@ msgid ""
 "performance of different approaches to the same problem. Python provides a "
 "measurement tool that answers those questions immediately."
 msgstr ""
+"Beberapa pengguna Python mengembangkan minat yang mendalam untuk mengetahui "
+"kinerja relatif dari berbagai pendekatan untuk masalah yang sama. Python "
+"menyediakan alat pengukuran yang segera menjawab pertanyaan-pertanyaan itu."
 
 #: ../../tutorial/stdlib.rst:257
 msgid ""
@@ -198,6 +252,10 @@ msgid ""
 "feature instead of the traditional approach to swapping arguments. The "
 ":mod:`timeit` module quickly demonstrates a modest performance advantage::"
 msgstr ""
+"Misalnya, mungkin tergoda untuk menggunakan fitur *tuple* *packing* dan "
+"*unpacking* daripada pendekatan tradisional untuk bertukar argumen. Modul "
+":mod: `timeit` dengan cepat menunjukkan keunggulan kinerja secara "
+"sederhana::"
 
 #: ../../tutorial/stdlib.rst:267
 msgid ""
@@ -205,10 +263,13 @@ msgid ""
 " and :mod:`pstats` modules provide tools for identifying time critical "
 "sections in larger blocks of code."
 msgstr ""
+"Berbeda dengan granularity tingkat halus :mod:`timeit`, modul :mod:`profile`"
+" dan :mod:`pstats` menyediakan alat untuk mengidentifikasi bagian kritis "
+"waktu dalam blok kode yang lebih besar."
 
 #: ../../tutorial/stdlib.rst:275
 msgid "Quality Control"
-msgstr ""
+msgstr "Kontrol kualitas"
 
 #: ../../tutorial/stdlib.rst:277
 msgid ""
@@ -216,6 +277,9 @@ msgid ""
 " function as it is developed and to run those tests frequently during the "
 "development process."
 msgstr ""
+"Salah satu pendekatan untuk mengembangkan perangkat lunak berkualitas tinggi"
+" adalah dengan menulis tes untuk setiap fungsi yang dikembangkan dan untuk "
+"sering menjalankan tes tersebut selama proses pengembangan."
 
 #: ../../tutorial/stdlib.rst:281
 msgid ""
@@ -226,6 +290,12 @@ msgid ""
 " example and it allows the doctest module to make sure the code remains true"
 " to the documentation::"
 msgstr ""
+"Modul: mod:`doctest` menyediakan alat untuk memindai modul dan memvalidasi "
+"tes yang tertanam dalam dokumen program. Konstruksi pengujian sesederhana "
+"memotong dan menempel panggilan khas beserta hasilnya ke dalam docstring. "
+"Ini meningkatkan dokumentasi dengan memberikan contoh kepada pengguna dan "
+"memungkinkan modul *doctest* untuk memastikan kode tetap benar untuk "
+"dokumentasi::"
 
 #: ../../tutorial/stdlib.rst:299
 msgid ""
@@ -233,10 +303,13 @@ msgid ""
 "module, but it allows a more comprehensive set of tests to be maintained in "
 "a separate file::"
 msgstr ""
+"Modul :mod:`unittest` tidak semudah modul :mod:`doctest`, tetapi "
+"memungkinkan serangkaian tes yang lebih komprehensif untuk dipertahankan "
+"dalam file terpisah::"
 
 #: ../../tutorial/stdlib.rst:321
 msgid "Batteries Included"
-msgstr ""
+msgstr "Dilengkapi Baterai"
 
 #: ../../tutorial/stdlib.rst:323
 msgid ""
@@ -244,6 +317,9 @@ msgid ""
 "the sophisticated and robust capabilities of its larger packages. For "
 "example:"
 msgstr ""
+"Python memiliki filosofi \"dilengkapi baterai\". Ini paling baik dilihat "
+"melalui kemampuan yang canggih dan kuat *robust* dengan dukungan paket-paket"
+" yang lebih besar. Sebagai contoh:"
 
 #: ../../tutorial/stdlib.rst:326
 msgid ""
@@ -251,6 +327,10 @@ msgid ""
 "remote procedure calls into an almost trivial task.  Despite the modules "
 "names, no direct knowledge or handling of XML is needed."
 msgstr ""
+"Modul :mod:`xmlrpc.client` dan :mod:`xmlrpc.server` membuat penerapan "
+"panggilan prosedur jarak jauh menjadi tugas yang hampir sepele. Terlepas "
+"dari nama-nama modul, tidak diperlukan pengetahuan atau penanganan XML "
+"secara langsung."
 
 #: ../../tutorial/stdlib.rst:330
 msgid ""
@@ -261,6 +341,12 @@ msgid ""
 "structures (including attachments) and for implementing internet encoding "
 "and header protocols."
 msgstr ""
+"Paket :mod:`email` adalah pustaka untuk mengelola pesan email, termasuk MIME"
+" dan lainnya :rfc:`2822` dokumen pesan berbasis. Tidak seperti "
+":mod:`smtplib` dan :mod:`poplib` yang benar-benar mengirim dan menerima "
+"pesan, paket email memiliki toolset lengkap untuk membangun atau "
+"mendekodekan struktur pesan kompleks (termasuk lampiran) dan untuk "
+"mengimplementasikan pengkodean internet dan protokol header."
 
 #: ../../tutorial/stdlib.rst:337
 msgid ""
@@ -272,6 +358,13 @@ msgid ""
 "Together, these modules and packages greatly simplify data interchange "
 "between Python applications and other tools."
 msgstr ""
+"Paket :mod:`json` menyediakan dukungan kuat untuk mengurai format pertukaran"
+" data populer ini. Modul :mod:`csv` mendukung pembacaan dan penulisan berkas"
+" secara langsung dalam format Nilai Terpisah-Koma atau CSV, umumnya didukung"
+" oleh database dan spreadsheet. Pemrosesan XML didukung oleh paket "
+":mod:`xml.etree.ElementTree`, :mod:`xml.dom` dan :mod:`xml.sax`. Bersama-"
+"sama, modul dan paket ini sangat menyederhanakan pertukaran data antara "
+"aplikasi Python dan alat lainnya."
 
 #: ../../tutorial/stdlib.rst:346
 msgid ""
@@ -279,9 +372,14 @@ msgid ""
 "providing a persistent database that can be updated and accessed using "
 "slightly nonstandard SQL syntax."
 msgstr ""
+"Modul :mod:`sqlite3` adalah pembungkus untuk pustaka basis data SQLite, "
+"menyediakan basis data persisten yang dapat diperbarui dan diakses "
+"menggunakan sintaks SQL yang sedikit tidak standar."
 
 #: ../../tutorial/stdlib.rst:350
 msgid ""
 "Internationalization is supported by a number of modules including "
 ":mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."
 msgstr ""
+"Internasionalisasi didukung oleh sejumlah modul termasuk paket "
+":mod:`gettext`, :mod:`locale`, dan :mod:`codecs`."

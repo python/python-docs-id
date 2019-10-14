@@ -2599,7 +2599,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:1765
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/3.7.rst:1767
 msgid ""
@@ -3086,7 +3086,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2125
 msgid "API and Feature Removals"
-msgstr ""
+msgstr "API dan Penghapusan Fitur"
 
 #: ../../whatsnew/3.7.rst:2127
 msgid "The following features and APIs have been removed from Python 3.7:"

@@ -1254,7 +1254,7 @@ msgstr ""
 
 #: ../../whatsnew/2.3.rst:1189
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/2.3.rst:1191
 msgid ""

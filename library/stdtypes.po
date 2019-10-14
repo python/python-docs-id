@@ -2419,7 +2419,7 @@ msgstr ""
 #: ../../library/stdtypes.rst:3187 ../../library/stdtypes.rst:3229
 #: ../../library/stdtypes.rst:3253
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/stdtypes.rst:1919
 msgid ""

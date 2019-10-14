@@ -475,7 +475,7 @@ msgstr ""
 #: ../../library/tkinter.rst:281 ../../library/tkinter.rst:543
 #: ../../library/tkinter.rst:717
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/tkinter.rst:289
 msgid ""

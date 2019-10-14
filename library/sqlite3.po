@@ -894,7 +894,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:814
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../library/sqlite3.rst:818
 msgid "A subclass of :exc:`Exception`."

@@ -499,7 +499,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:416
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/3.1.rst:418
 msgid "Major performance enhancements have been added:"

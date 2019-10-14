@@ -367,7 +367,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:382
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/multiprocessing.rst:426
 msgid ""

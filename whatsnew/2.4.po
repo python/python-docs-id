@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: ../../whatsnew/2.4.rst:933
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimalisasi"
 
 #: ../../whatsnew/2.4.rst:935
 msgid ""

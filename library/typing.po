@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 11:39+0000\n"
+"POT-Creation-Date: 2019-10-14 11:41+0000\n"
 "PO-Revision-Date: 2017-02-16 23:32+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,7 +168,7 @@ msgstr ""
 
 #: ../../library/typing.rst:157
 msgid "For example::"
-msgstr ""
+msgstr "Sebagai contoh::"
 
 #: ../../library/typing.rst:168
 msgid ""
@@ -207,8 +211,8 @@ msgstr ""
 
 #: ../../library/typing.rst:234
 msgid ""
-"The :class:`Generic` base class uses a metaclass that defines "
-":meth:`__getitem__` so that ``LoggedVar[t]`` is valid as a type::"
+"The :class:`Generic` base class defines :meth:`__class_getitem__` so that "
+"``LoggedVar[t]`` is valid as a type::"
 msgstr ""
 
 #: ../../library/typing.rst:243

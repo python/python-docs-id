@@ -460,7 +460,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:463
 msgid "Exceptions"
-msgstr ""
+msgstr "Pengecualian"
 
 #: ../../c-api/intro.rst:465
 msgid ""
