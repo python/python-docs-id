@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../library/winreg.rst:26
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/winreg.rst:28
 msgid "This module offers the following functions:"

@@ -111,7 +111,7 @@ msgstr ""
 #: ../../library/dbm.rst:56 ../../library/dbm.rst:172
 #: ../../library/dbm.rst:287 ../../library/dbm.rst:357
 msgid "``'c'``"
-msgstr ""
+msgstr "``'c'``"
 
 #: ../../library/dbm.rst:56 ../../library/dbm.rst:172
 #: ../../library/dbm.rst:287 ../../library/dbm.rst:357
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../library/dbm.rst:185
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: ../../library/dbm.rst:185
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../library/dbm.rst:188
 msgid "``'s'``"
-msgstr ""
+msgstr "``'s'``"
 
 #: ../../library/dbm.rst:188
 msgid ""
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../library/dbm.rst:192
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 #: ../../library/dbm.rst:192
 msgid "Do not lock database."

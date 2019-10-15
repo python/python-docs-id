@@ -182,7 +182,7 @@ msgstr ""
 
 #: ../../library/time.rst:124
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/time.rst:128
 msgid ""
@@ -457,7 +457,7 @@ msgstr "Artinya"
 
 #: ../../library/time.rst:369
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/time.rst:371
 msgid "``%a``"
@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../library/time.rst:402
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/time.rst:405
 msgid "``%S``"
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../library/time.rst:405
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../library/time.rst:408
 msgid "``%U``"
@@ -584,7 +584,7 @@ msgstr ""
 
 #: ../../library/time.rst:408 ../../library/time.rst:419
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../library/time.rst:416
 msgid "``%w``"
@@ -666,7 +666,7 @@ msgstr ""
 
 #: ../../library/time.rst:451
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/time.rst:454
 msgid ""

@@ -2127,11 +2127,11 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1808
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 #: ../../whatsnew/2.5.rst:1808
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
 #: ../../whatsnew/2.5.rst:1810
 msgid "``elem[n]``"

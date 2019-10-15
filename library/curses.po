@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../library/curses.rst:66
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/curses.rst:68
 msgid "The module :mod:`curses` defines the following exception:"

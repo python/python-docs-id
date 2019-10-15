@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../library/array.rst:19
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/array.rst:21
 msgid "``'b'``"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../library/array.rst:25
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 #: ../../library/array.rst:25
 msgid "Py_UNICODE"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../library/array.rst:25
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/array.rst:27
 msgid "``'h'``"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../library/array.rst:31
 msgid "``'i'``"
-msgstr ""
+msgstr "``'i'``"
 
 #: ../../library/array.rst:31
 msgid "signed int"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../library/array.rst:43
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: ../../library/array.rst:43 ../../library/array.rst:43
 #: ../../library/array.rst:45
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../library/array.rst:45
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 #: ../../library/array.rst:45
 msgid "double"
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../library/array.rst:48
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/array.rst:51
 msgid ""

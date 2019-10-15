@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../library/numeric.rst:6
 msgid "Numeric and Mathematical Modules"
-msgstr ""
+msgstr "Modul Numerik dan Matematika"
 
 #: ../../library/numeric.rst:8
 msgid ""
@@ -34,6 +34,13 @@ msgid ""
 ":mod:`decimal` module supports exact representations of decimal numbers, "
 "using arbitrary precision arithmetic."
 msgstr ""
+"Modul-modul yang diuraikan dalam bab ini menyediakan fungsi-fungsi dan tipe "
+"data yang berkaitan dengan angka dan matematika. Modul :mod:`numbers` "
+"mendefinisikan hirarki abstrak tipe numerik. Modul :mod:`math` dan "
+":mod:`cmath` berisi berbagai fungsi matematika untuk angka-angka pecahan "
+"*floating-point* dan kompleks. Modul :mod:`decimal` mendukung representasi "
+"tepat angka desimal, menggunakan presisi aritmatika yang berubah-ubah "
+"*arbitrary*."
 
 #: ../../library/numeric.rst:15
 msgid "The following modules are documented in this chapter:"

@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../../library/operator.rst:370
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 #: ../../library/operator.rst:370
 msgid "Syntax"

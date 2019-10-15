@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../library/webbrowser.rst:110
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/webbrowser.rst:112
 msgid "``'mozilla'``"
@@ -223,7 +223,7 @@ msgstr ""
 #: ../../library/webbrowser.rst:124 ../../library/webbrowser.rst:126
 #: ../../library/webbrowser.rst:128
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/webbrowser.rst:126
 msgid "``'konqueror'``"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../../library/webbrowser.rst:144
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../library/webbrowser.rst:146
 msgid "``'macosx'``"
@@ -311,7 +311,7 @@ msgstr ""
 
 #: ../../library/webbrowser.rst:146 ../../library/webbrowser.rst:148
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../library/webbrowser.rst:148
 msgid "``'safari'``"
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../../library/webbrowser.rst:159
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/webbrowser.rst:162
 msgid ""

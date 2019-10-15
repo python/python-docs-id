@@ -139,7 +139,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:75
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../distutils/builtdist.rst:77
 msgid "``gztar``"
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:77
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../distutils/builtdist.rst:80
 msgid "``bztar``"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:86
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../distutils/builtdist.rst:89
 msgid "``tar``"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:93
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../distutils/builtdist.rst:95
 msgid "``pkgtool``"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:99
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../distutils/builtdist.rst:102
 msgid "``msi``"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:109
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../distutils/builtdist.rst:112
 msgid "default on Unix"

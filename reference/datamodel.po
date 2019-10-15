@@ -363,7 +363,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:318
 msgid "Tuples"
-msgstr ""
+msgstr "*Tuples*"
 
 #: ../../reference/datamodel.rst:313
 msgid ""
@@ -888,7 +888,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:740
 msgid "Modules"
-msgstr ""
+msgstr "Modul-Modul"
 
 #: ../../reference/datamodel.rst:697
 msgid ""

@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../reference/import.rst:62
 msgid "Packages"
-msgstr ""
+msgstr "Paket"
 
 #: ../../reference/import.rst:67
 msgid ""

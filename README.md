@@ -30,7 +30,7 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 ---
 Anda bisa berkontribusi dengan:
 
-* Membuat _pull requests_ di Github ini
+* Membuat _pull requests_ di [repositori Github ini](https://github.com/python/python-docs-id/)
 * Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/language/id/)
 
 ### Target (Fokus) Utama Penerjemahan
@@ -45,8 +45,8 @@ setelah mencapai target berikut:
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ##### Progres
-* **tutorial/{appendix, errors, index, interactive, interpreter, introduction, stdlib, venv, whatnow}** sudah diterjemahkan 100%
-* **tutorial/{appetite, classes, controlflow, datastructure, floatingpoint, inputoutput, modules, strlib2}** belum diterjemahkan
+* **tutorial/{appendix, errors, index, interactive, interpreter, introduction, modules, stdlib, venv, whatnow}** sudah diterjemahkan 100%
+* **tutorial/{appetite, classes, controlflow, datastructure, floatingpoint, inputoutput, strlib2}** belum diterjemahkan
 
 ### Panduan Singkat Penerjemahan
 ---
@@ -95,6 +95,7 @@ Istilah | Terjemahan
 *buffer* | penyangga
 *bug* | *bug*
 *built-in* | bawaan
+*cache* | *cache*
 *changelog* | catatan perubahan
 *compiler* | *compiler*
 *concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
@@ -113,10 +114,12 @@ Istilah | Terjemahan
 *etc.* | dll.
 *exception* | pengecualian
 *fall back* | beralih
+*familiar* | terbiasa
 *file* | berkas
 *form* | bentuk, formulir
 *framework* | kerangka, kerangka kerja
 *handling. handler.* | penanganan. penangan.
+*hierarchy* | hierarki
 *interpreter* | *interpreter*
 *invocation* | seruan, pemanggilan
 *iterator* | *iterator*
@@ -137,6 +140,7 @@ Istilah | Terjemahan
 *runtime* | *runtime*
 *site-packages* | *site-packages*
 *slice* | iris, irisan
+*stack trace* | tumpukan jejak
 *startup* | permulaan
 *stream* | aliran, *stream*
 *tuple* | *tuple*
@@ -147,6 +151,10 @@ Istilah | Terjemahan
 Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk 
 menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan 
 yang fungsinya sangat spesifik, seperti halnya Transifex.
+
+Per tanggal **2019-10-15** repositori `python-docs-id` tersedia di bawah repositori Github organisasi Python.
+
+https://github.com/python/python-docs-id/
 
 ### Perintah Transifex
 ---

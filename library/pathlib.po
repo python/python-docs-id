@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../../library/pathlib.rst:637
 msgid "Methods"
-msgstr ""
+msgstr "Metode-Metode"
 
 #: ../../library/pathlib.rst:639
 msgid ""

@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:27
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../distutils/sourcedist.rst:29
 msgid "``zip``"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:31
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../distutils/sourcedist.rst:34
 msgid "``bztar``"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:40
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../distutils/sourcedist.rst:43
 msgid "``tar``"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:49
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../distutils/sourcedist.rst:52
 msgid "default on Windows"

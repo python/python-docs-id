@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:700
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../howto/clinic.rst:702
 msgid ""
@@ -1006,7 +1006,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:827
 msgid "``'c'``"
-msgstr ""
+msgstr "``'c'``"
 
 #: ../../howto/clinic.rst:827
 msgid "``char``"
@@ -1022,7 +1022,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:829
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 #: ../../howto/clinic.rst:829
 msgid "``double``"
@@ -1072,7 +1072,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:835
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: ../../howto/clinic.rst:835
 msgid "``float``"
@@ -1096,7 +1096,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:838
 msgid "``'i'``"
-msgstr ""
+msgstr "``'i'``"
 
 #: ../../howto/clinic.rst:838
 msgid "``int``"
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:850
 msgid "``'s'``"
-msgstr ""
+msgstr "``'s'``"
 
 #: ../../howto/clinic.rst:850
 msgid "``str``"
@@ -1224,7 +1224,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:854
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 #: ../../howto/clinic.rst:854
 msgid "``Py_UNICODE``"

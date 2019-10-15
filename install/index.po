@@ -295,7 +295,7 @@ msgstr ""
 #: ../../install/index.rst:209 ../../install/index.rst:735
 #: ../../install/index.rst:747
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../install/index.rst:211
 msgid "Unix (pure)"
@@ -312,7 +312,7 @@ msgstr ""
 #: ../../install/index.rst:211 ../../install/index.rst:213
 #: ../../install/index.rst:737
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../install/index.rst:213
 msgid "Unix (non-pure)"
@@ -336,11 +336,11 @@ msgstr ""
 
 #: ../../install/index.rst:215 ../../install/index.rst:739
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../install/index.rst:218 ../../install/index.rst:759
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../install/index.rst:221
 msgid ""
@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: ../../install/index.rst:741 ../../install/index.rst:753
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../install/index.rst:744
 msgid "And on Windows, the configuration files are:"
@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: ../../install/index.rst:749
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../install/index.rst:751
 msgid ":file:`%HOME%\\\\pydistutils.cfg`"
@@ -1068,7 +1068,7 @@ msgstr ""
 
 #: ../../install/index.rst:751
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../install/index.rst:756
 msgid ""

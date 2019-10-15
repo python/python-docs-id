@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../library/tracemalloc.rst:259
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/tracemalloc.rst:263
 msgid "Clear traces of memory blocks allocated by Python."

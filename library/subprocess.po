@@ -1425,7 +1425,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:1225
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/subprocess.rst:1227
 msgid "Calling the program through the shell is usually not required."
@@ -1558,7 +1558,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:1410
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/subprocess.rst:1415
 msgid "Converting an argument sequence to a string on Windows"

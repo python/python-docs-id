@@ -619,7 +619,7 @@ msgstr ""
 
 #: ../../library/socket.rst:502
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/socket.rst:505
 msgid "Creating sockets"

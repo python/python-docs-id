@@ -572,7 +572,7 @@ msgstr "Artinya"
 #: ../../reference/lexical_analysis.rst:517
 #: ../../reference/lexical_analysis.rst:550
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../reference/lexical_analysis.rst:519
 msgid "``\\newline``"
@@ -632,7 +632,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:533
 msgid "``\\n``"
-msgstr ""
+msgstr "``\\n``"
 
 #: ../../reference/lexical_analysis.rst:533
 msgid "ASCII Linefeed (LF)"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:535
 msgid "``\\r``"
-msgstr ""
+msgstr "``\\r``"
 
 #: ../../reference/lexical_analysis.rst:535
 msgid "ASCII Carriage Return (CR)"
@@ -700,7 +700,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:552
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../reference/lexical_analysis.rst:555
 msgid "``\\uxxxx``"
@@ -712,7 +712,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:555
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../reference/lexical_analysis.rst:558
 msgid "``\\Uxxxxxxxx``"
@@ -724,11 +724,11 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:558
 msgid "\\(6)"
-msgstr ""
+msgstr "\\(6)"
 
 #: ../../reference/lexical_analysis.rst:562
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../reference/lexical_analysis.rst:565
 msgid "As in Standard C, up to three octal digits are accepted."

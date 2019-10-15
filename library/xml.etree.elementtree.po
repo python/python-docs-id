@@ -457,7 +457,7 @@ msgstr ""
 #: ../../library/xml.etree.elementtree.rst:479
 #: ../../library/xml.etree.elementtree.rst:795
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/xml.etree.elementtree.rst:483
 msgid ""

@@ -725,6 +725,8 @@ msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following "
 ":keyword:`!as` is bound directly to the imported module."
 msgstr ""
+"Jika nama modul diikuti oleh :keyword:`!as`, maka nama setelah "
+":keyword:`!as` terikat langsung ke modul yang diimpor."
 
 #: ../../reference/simple_stmts.rst:765
 msgid ""

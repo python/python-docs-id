@@ -473,7 +473,7 @@ msgstr ""
 
 #: ../../library/string.rst:375
 msgid "``'-'``"
-msgstr ""
+msgstr "``'-'``"
 
 #: ../../library/string.rst:375
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../library/string.rst:440
 msgid "``'s'``"
-msgstr ""
+msgstr "``'s'``"
 
 #: ../../library/string.rst:440
 msgid ""
@@ -599,7 +599,7 @@ msgstr ""
 
 #: ../../library/string.rst:453
 msgid "``'c'``"
-msgstr ""
+msgstr "``'c'``"
 
 #: ../../library/string.rst:453
 msgid ""
@@ -609,7 +609,7 @@ msgstr ""
 
 #: ../../library/string.rst:456
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 #: ../../library/string.rst:456
 msgid "Decimal Integer. Outputs the number in base 10."
@@ -617,7 +617,7 @@ msgstr ""
 
 #: ../../library/string.rst:458
 msgid "``'o'``"
-msgstr ""
+msgstr "``'o'``"
 
 #: ../../library/string.rst:458
 msgid "Octal format. Outputs the number in base 8."
@@ -635,7 +635,7 @@ msgstr ""
 
 #: ../../library/string.rst:463
 msgid "``'X'``"
-msgstr ""
+msgstr "``'X'``"
 
 #: ../../library/string.rst:463
 msgid ""
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../library/string.rst:483
 msgid "``'e'``"
-msgstr ""
+msgstr "``'e'``"
 
 #: ../../library/string.rst:483
 msgid ""
@@ -682,7 +682,7 @@ msgstr ""
 
 #: ../../library/string.rst:487
 msgid "``'E'``"
-msgstr ""
+msgstr "``'E'``"
 
 #: ../../library/string.rst:487
 msgid ""
@@ -692,7 +692,7 @@ msgstr ""
 
 #: ../../library/string.rst:490
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: ../../library/string.rst:490
 msgid ""
@@ -702,7 +702,7 @@ msgstr ""
 
 #: ../../library/string.rst:493
 msgid "``'F'``"
-msgstr ""
+msgstr "``'F'``"
 
 #: ../../library/string.rst:493
 msgid ""
@@ -712,7 +712,7 @@ msgstr ""
 
 #: ../../library/string.rst:496
 msgid "``'g'``"
-msgstr ""
+msgstr "``'g'``"
 
 #: ../../library/string.rst:496
 msgid ""
@@ -749,7 +749,7 @@ msgstr ""
 
 #: ../../library/string.rst:522
 msgid "``'G'``"
-msgstr ""
+msgstr "``'G'``"
 
 #: ../../library/string.rst:522
 msgid ""
@@ -765,7 +765,7 @@ msgstr ""
 
 #: ../../library/string.rst:530
 msgid "``'%'``"
-msgstr ""
+msgstr "``'%'``"
 
 #: ../../library/string.rst:530
 msgid ""

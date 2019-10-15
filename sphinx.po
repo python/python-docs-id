@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-15 11:41+0000\n"
 "PO-Revision-Date: 2017-02-16 17:32+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -228,8 +228,8 @@ msgid "Python 3.9 (in development)"
 msgstr "Python 3.9 (dalam pengembangan)"
 
 #: ../../tools/templates/indexsidebar.html:6
-msgid "Python 3.8 (pre-release)"
-msgstr "Python 3.8 (pra-rilis)"
+msgid "Python 3.8 (stable)"
+msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:7
 msgid "Python 3.7 (stable)"

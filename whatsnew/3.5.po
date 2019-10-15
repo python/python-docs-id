@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:496
 msgid "and::"
-msgstr ""
+msgstr "dan::"
 
 #: ../../whatsnew/3.5.rst:505
 msgid ""

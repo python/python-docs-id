@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../library/struct.rst:138
 msgid "``<``"
-msgstr ""
+msgstr "``<``"
 
 #: ../../library/struct.rst:138
 msgid "little-endian"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../library/struct.rst:140
 msgid "``>``"
-msgstr ""
+msgstr "``>``"
 
 #: ../../library/struct.rst:140
 msgid "big-endian"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../library/struct.rst:168 ../../library/struct.rst:247
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/struct.rst:170
 msgid ""
@@ -316,7 +316,7 @@ msgstr ""
 
 #: ../../library/struct.rst:194
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/struct.rst:196
 msgid "``x``"
@@ -383,7 +383,7 @@ msgstr ""
 #: ../../library/struct.rst:216 ../../library/struct.rst:218
 #: ../../library/struct.rst:220
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../library/struct.rst:204
 msgid "``?``"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../library/struct.rst:204
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/struct.rst:206
 msgid "``h``"
@@ -491,7 +491,7 @@ msgstr ""
 
 #: ../../library/struct.rst:223 ../../library/struct.rst:225
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../library/struct.rst:225
 msgid "``N``"
@@ -507,7 +507,7 @@ msgstr ""
 
 #: ../../library/struct.rst:227
 msgid "\\(6)"
-msgstr ""
+msgstr "\\(6)"
 
 #: ../../library/struct.rst:227 ../../library/struct.rst:229
 #: ../../library/struct.rst:231
@@ -517,7 +517,7 @@ msgstr ""
 #: ../../library/struct.rst:227 ../../library/struct.rst:229
 #: ../../library/struct.rst:231
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../library/struct.rst:229
 msgid "``f``"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../library/struct.rst:237
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../library/struct.rst:240
 msgid "Added support for the ``'n'`` and ``'N'`` formats."

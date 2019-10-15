@@ -736,7 +736,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:567
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../distutils/setupscript.rst:569
 msgid "``name``"
@@ -754,7 +754,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:569 ../../distutils/setupscript.rst:583
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../distutils/setupscript.rst:571
 msgid "``version``"
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:571
 msgid "(1)(2)"
-msgstr ""
+msgstr "(1)(2)"
 
 #: ../../distutils/setupscript.rst:573
 msgid "``author``"
@@ -779,7 +779,7 @@ msgstr ""
 #: ../../distutils/setupscript.rst:573 ../../distutils/setupscript.rst:575
 #: ../../distutils/setupscript.rst:578 ../../distutils/setupscript.rst:580
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../distutils/setupscript.rst:575
 msgid "``author_email``"
@@ -843,7 +843,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:589
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 #: ../../distutils/setupscript.rst:592
 msgid "``download_url``"
@@ -868,7 +868,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:595
 msgid "(6)(7)"
-msgstr ""
+msgstr "(6)(7)"
 
 #: ../../distutils/setupscript.rst:597
 msgid "``platforms``"
@@ -900,11 +900,11 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:601
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../distutils/setupscript.rst:604
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../distutils/setupscript.rst:607
 msgid "These fields are required."

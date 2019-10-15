@@ -322,7 +322,7 @@ msgstr ""
 
 #: ../../library/cgi.rst:274
 msgid "Functions"
-msgstr ""
+msgstr "Fungsi-Fungsi"
 
 #: ../../library/cgi.rst:276
 msgid ""

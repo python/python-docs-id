@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:237
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/tkinter.rst:239
 msgid ""

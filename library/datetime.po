@@ -422,12 +422,12 @@ msgstr ""
 #: ../../library/datetime.rst:284 ../../library/datetime.rst:578
 #: ../../library/datetime.rst:1121
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 #: ../../library/datetime.rst:284 ../../library/datetime.rst:578
 #: ../../library/datetime.rst:1121
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
 #: ../../library/datetime.rst:286
 msgid "``t1 = t2 + t3``"
@@ -572,7 +572,7 @@ msgstr ""
 #: ../../library/datetime.rst:345 ../../library/datetime.rst:592
 #: ../../library/datetime.rst:2469
 msgid "Notes:"
-msgstr ""
+msgstr "Catatan:"
 
 #: ../../library/datetime.rst:348
 msgid "This is exact but may overflow."
@@ -828,7 +828,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:586 ../../library/datetime.rst:1127
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 #: ../../library/datetime.rst:588
 msgid "``date1 < date2``"
@@ -1361,7 +1361,7 @@ msgstr ""
 #: ../../library/datetime.rst:2327 ../../library/datetime.rst:2387
 #: ../../library/datetime.rst:2392 ../../library/datetime.rst:2396
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/datetime.rst:1125
 msgid "``datetime2 = datetime1 - timedelta``"
@@ -1369,7 +1369,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:1125 ../../library/datetime.rst:2338
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../library/datetime.rst:1127
 msgid "``timedelta = datetime1 - datetime2``"
@@ -2502,7 +2502,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
 #: ../../library/datetime.rst:2305
 msgid "``%a``"
@@ -2713,7 +2713,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2356
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 #: ../../library/datetime.rst:2360 ../../library/datetime.rst:2523
 msgid "``%z``"
@@ -2731,7 +2731,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2360
 msgid "\\(6)"
-msgstr ""
+msgstr "\\(6)"
 
 #: ../../library/datetime.rst:2365 ../../library/datetime.rst:2538
 msgid "``%Z``"
@@ -2869,7 +2869,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2408
 msgid "\\(8)"
-msgstr ""
+msgstr "\\(8)"
 
 #: ../../library/datetime.rst:2413
 msgid "``%u``"
