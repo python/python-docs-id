@@ -2793,7 +2793,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:2584
 msgid "Logging"
-msgstr ""
+msgstr "Pencatatan *Logging*"
 
 #: ../../library/multiprocessing.rst:2586
 msgid ""

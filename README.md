@@ -26,12 +26,17 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 
 [sumber dokumen asli perjanjian dalam bahasa Inggris](https://www.python.org/dev/peps/pep-0545/#setup-the-documentation-contribution-agreement)
 
-### Berkontribusi untuk menerjemahkan
+### Berkontribusi untuk Menerjemahkan
 ---
 Anda bisa berkontribusi dengan:
 
 * Membuat _pull requests_ di [repositori Github ini](https://github.com/python/python-docs-id/)
 * Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/language/id/)
+
+### Beri Masukan
+---
+Merasa penerjemahannya tidak sesuai atau kurang cocok? Ayo diskusikan, buat [laporan isu di Github ini](https://github.com/python/python-docs-id/issues)
+Masukan Anda sangat berarti untuk pengembangan penerjemahan dokumentasi Bahasa Pemrograman Python.
 
 ### Target (Fokus) Utama Penerjemahan
 ---
@@ -45,8 +50,8 @@ setelah mencapai target berikut:
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ##### Progres
-* **tutorial/{appendix, errors, index, interactive, interpreter, introduction, modules, stdlib, venv, whatnow}** sudah diterjemahkan 100%
-* **tutorial/{appetite, classes, controlflow, datastructure, floatingpoint, inputoutput, strlib2}** belum diterjemahkan
+* **tutorial/{appendix, appetite, datastructure, errors, index, inputoutput, interactive, interpreter, introduction, modules, stdlib, strlib2, venv, whatnow}** sudah diterjemahkan 100%
+* **tutorial/{classes, controlflow, floatingpoint}** belum diterjemahkan
 
 ### Panduan Singkat Penerjemahan
 ---
@@ -55,6 +60,7 @@ Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, te
 :class:`~decimal.Decimal`
 :const:`True`
 :data:`sys.stdout`
+:dfn:`serializing`
 :exc:`KeyboardInterrupt`
 :envvar:`PATH`
 :file:`.profile`
@@ -64,6 +70,7 @@ Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, te
 :kbd:`Delete`
 :meth:`~list.append`
 :mod:`sitecustomize`
+:newsgroup:`comp.lang.python`
 :option:`-s`
 :pep:`475`
 :program:`chmod`
@@ -90,8 +97,11 @@ Jangan ragu untuk memberi masukan.
 
 Istilah | Terjemahan
 --- | ---
+*appetite* | selera
+*arbitrary. arbitrarily.* | semena-mena, bergantian, berubah-ubah, acak. secara semena-mena.
 *assigned. assignment* | diisi. mengisi, memberikan tugas, memberikan nilai 
 *boolean* | *boolean*
+*brace* | kurung kurawal
 *buffer* | penyangga
 *bug* | *bug*
 *built-in* | bawaan
@@ -118,31 +128,43 @@ Istilah | Terjemahan
 *file* | berkas
 *form* | bentuk, formulir
 *framework* | kerangka, kerangka kerja
+*header* | tajuk
 *handling. handler.* | penanganan. penangan.
 *hierarchy* | hierarki
+*indentation* | indentasi
 *interpreter* | *interpreter*
 *invocation* | seruan, pemanggilan
 *iterator* | *iterator*
 *iterables* | *iterables*
 *keyword* | kata kunci
+*layout* | tata letak
 *library* | pustaka
 *loop* | perulangan, pengulangan
 *namespace* | *namespace*
 *null* | *null*
+*ordering* | pengurutan, penyusunan
 *override* | menimpa
 *parse. parser. parsing* | urai. pengurai. mengurai.
-*pass. passing.* | langkah. melewatkan.
+*pass. passing. passed.* | langkah. melewatkan. diteruskan, dilewatkan.
 *path* | jalur
+*pickle* | *pickle*, acar, asinan, yang diawetkan
+*placeholder* | *placeholder*, penampung
 *prompt* | *prompt*
 *raise* | menimbulkan, memunculkan
 *range* | kisaran, rentang
+*round* | pembulatan
 *run* | operasikan
 *runtime* | *runtime*
+*signature* | *signature*, pengenal, tanda tangan
 *site-packages* | *site-packages*
 *slice* | iris, irisan
+*snippet* | cuplikan
 *stack trace* | tumpukan jejak
 *startup* | permulaan
 *stream* | aliran, *stream*
+*template* | *template*, templat
+*thread* | *thread*, utas
+*trade-off* | mengorbankan
 *tuple* | *tuple*
 *upload* | unggah
 

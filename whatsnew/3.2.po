@@ -2571,7 +2571,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2311
 msgid "Multi-threading"
-msgstr ""
+msgstr "*Multi-threading*"
 
 #: ../../whatsnew/3.2.rst:2313
 msgid ""

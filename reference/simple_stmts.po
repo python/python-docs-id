@@ -442,7 +442,7 @@ msgstr ""
 
 #: ../../reference/simple_stmts.rst:443
 msgid "The :keyword:`!del` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!del`"
 
 #: ../../reference/simple_stmts.rst:453
 msgid ""

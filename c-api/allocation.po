@@ -7,6 +7,7 @@
 # Akhmat Safrudin <somat@artikulpi.com>, 2018
 # Nurul Eka Fitriany Hilal <nurulekafitriany@gmail.com>, 2019
 # Helen Febriani <helenfy.72@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:32+0000\n"
-"Last-Translator: Helen Febriani <helenfy.72@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,6 +58,11 @@ msgid ""
 "the memory allocation is determined from the "
 ":c:member:`~PyTypeObject.tp_basicsize` field of the type object."
 msgstr ""
+"Alokasikan objek Python baru menggunakan tipe *TYPE* struktur C dan objek "
+"tipe Python *type*. *Fields* yang tidak ditentukan oleh header objek Python "
+"tidak diinisialisasi; jumlah referensi objek akan menjadi satu. Ukuran "
+"alokasi memori ditentukan dari *field* "
+":c:member:`~PyTypeObject.tp_basicsize` pada objek tipe."
 
 #: ../../c-api/allocation.rst:41
 msgid ""
@@ -70,6 +76,15 @@ msgid ""
 "decreases the number of allocations, improving the memory management "
 "efficiency."
 msgstr ""
+"Alokasikan objek Python baru menggunakan tipe *TYPE* struktur C dan objek "
+"tipe Python *type*. *Fields* yang tidak ditentukan oleh header objek Python "
+"tidak diinisialisasi. Memori yang dialokasikan memungkinkan untuk struktur "
+"*TYPE* ditambah *size* *fields* dari ukuran yang diberikan oleh *field* "
+":c:member:`~PyTypeObject.tp_itemsize` dari *tipe*. Ini berguna untuk "
+"mengimplementasikan objek seperti *tuple*, yang dapat menentukan ukurannya "
+"pada waktu pembentukan *construction*. Menanamkan *array* dari *fields* ke "
+"dalam alokasi yang sama mengurangi jumlah alokasi, meningkatkan efisiensi "
+"manajemen memori."
 
 #: ../../c-api/allocation.rst:53
 msgid ""
@@ -79,6 +94,11 @@ msgid ""
 "  The fields of the object should not be accessed after this call as the "
 "memory is no longer a valid Python object."
 msgstr ""
+"Merilis memori yang dialokasikan ke objek menggunakan :c:func:`PyObject_New`"
+" atau :c:func:`PyObject_NewVar`. Ini biasanya dipanggil dari penangan "
+":c:member:`~ PyTypeObject.tp_dealloc` yang ditentukan dalam tipe objek. "
+"*fields* dari objek tidak boleh diakses setelah panggilan ini karena memori "
+"tidak lagi menjadi objek Python yang valid."
 
 #: ../../c-api/allocation.rst:62
 msgid ""
@@ -86,9 +106,9 @@ msgid ""
 " using the :c:macro:`Py_None` macro, which evaluates to a pointer to this "
 "object."
 msgstr ""
-"Object yang terlihat di  Python sebagai` `Tak ada``. Ini seharusnya hanya "
-"dapat diakses menggunakan  :c:macro:`Py_None` makro, yang mengevaluasi ke "
-"sebuah pointer ke object ini."
+"Object yang terlihat di Python sebagai ``None``. Ini seharusnya hanya dapat "
+"diakses menggunakan makro :c:macro:`Py_None`, yang mengevaluasi ke sebuah "
+"pointer ke object ini."
 
 #: ../../c-api/allocation.rst:69
 msgid ":c:func:`PyModule_Create`"

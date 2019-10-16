@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../library/datatypes.rst:5
 msgid "Data Types"
-msgstr ""
+msgstr "Tipe Data"
 
 #: ../../library/datatypes.rst:7
 msgid ""
@@ -31,6 +31,9 @@ msgid ""
 "types such as dates and times, fixed-type arrays, heap queues, double-ended "
 "queues, and enumerations."
 msgstr ""
+"Modul yang dijelaskan dalam bab ini menyediakan berbagai tipe data khusus "
+"seperti tanggal dan waktu, array tipe-tetap, antrian tumpukan, antrian ujung"
+" ganda, dan enumerasi."
 
 #: ../../library/datatypes.rst:11
 msgid ""
@@ -39,6 +42,11 @@ msgid ""
 "The :class:`str` class is used to hold Unicode strings, and the "
 ":class:`bytes` and :class:`bytearray` classes are used to hold binary data."
 msgstr ""
+"Python juga menyediakan beberapa tipe data bawaan, khususnya, :class:`dict`,"
+" :class:`list`, :class:`set` dan :class:`frozenset`, dan :class:`tuple`. "
+"Kelas :class:`str` digunakan untuk menyimpan string Unicode, dan "
+":class:`bytes` dan :class:`bytearray` kelas digunakan untuk menyimpan data "
+"biner."
 
 #: ../../library/datatypes.rst:17
 msgid "The following modules are documented in this chapter:"

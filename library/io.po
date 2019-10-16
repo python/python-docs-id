@@ -1399,7 +1399,7 @@ msgstr ""
 
 #: ../../library/io.rst:1044
 msgid "Multi-threading"
-msgstr ""
+msgstr "*Multi-threading*"
 
 #: ../../library/io.rst:1046
 msgid ""

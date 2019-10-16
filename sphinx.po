@@ -229,7 +229,7 @@ msgstr "Python 3.9 (dalam pengembangan)"
 
 #: ../../tools/templates/indexsidebar.html:6
 msgid "Python 3.8 (stable)"
-msgstr ""
+msgstr "Python 3.8 (stabil)"
 
 #: ../../tools/templates/indexsidebar.html:7
 msgid "Python 3.7 (stable)"
