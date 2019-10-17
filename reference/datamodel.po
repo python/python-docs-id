@@ -865,7 +865,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:685
 msgid "Classes"
-msgstr ""
+msgstr "Kelas-kelas"
 
 #: ../../reference/datamodel.rst:681
 msgid ""

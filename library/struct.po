@@ -742,7 +742,7 @@ msgstr ""
 
 #: ../../library/struct.rst:402
 msgid "Classes"
-msgstr ""
+msgstr "Kelas-kelas"
 
 #: ../../library/struct.rst:404
 msgid "The :mod:`struct` module also defines the following type:"

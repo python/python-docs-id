@@ -559,7 +559,7 @@ msgstr ""
 
 #: ../../library/dataclasses.rst:482
 msgid "Inheritance"
-msgstr ""
+msgstr "Pewarisan"
 
 #: ../../library/dataclasses.rst:484
 msgid ""

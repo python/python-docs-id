@@ -3142,7 +3142,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2137
 msgid "zlib"
-msgstr ""
+msgstr "zlib"
 
 #: ../../whatsnew/3.3.rst:2139
 msgid ""

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Akhmat Safrudin <somat@artikulpi.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:32+0000\n"
-"Last-Translator: Akhmat Safrudin <somat@artikulpi.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../../license.rst:7
 msgid "History and License"
-msgstr ""
+msgstr "Sejarah dan Lisensi"
 
 #: ../../license.rst:11
 msgid "History of the software"
-msgstr ""
+msgstr "Sejarah perangkat lunak"
 
 #: ../../license.rst:13
 msgid ""
@@ -36,6 +37,10 @@ msgid ""
 "successor of a language called ABC.  Guido remains Python's principal "
 "author, although it includes many contributions from others."
 msgstr ""
+"Python diciptakan pada awal 1990-an oleh Guido van Rossum di Stichting "
+"Mathematisch Centrum (CWI, lihat https://www.cwi.nl/) di Belanda sebagai "
+"penerus bahasa yang disebut ABC. Guido tetap menjadi penulis utama Python, "
+"meskipun ia memasukkan banyak kontribusi dari orang lain."
 
 #: ../../license.rst:18
 msgid ""
@@ -43,6 +48,10 @@ msgid ""
 "Research Initiatives (CNRI, see https://www.cnri.reston.va.us/) in Reston, "
 "Virginia where he released several versions of the software."
 msgstr ""
+"Pada tahun 1995, Guido melanjutkan karyanya tentang Python di Corporation "
+"for National Research Initiatives (CNRI, lihat "
+"https://www.cnri.reston.va.us/) di Reston, Virginia di mana ia merilis "
+"beberapa versi perangkat lunak."
 
 #: ../../license.rst:22
 msgid ""
@@ -54,6 +63,14 @@ msgid ""
 "specifically to own Python-related Intellectual Property.  Zope Corporation "
 "is a sponsoring member of the PSF."
 msgstr ""
+"Pada bulan Mei 2000, Guido dan tim pengembangan inti Python pindah ke "
+"BeOpen.com untuk membentuk tim BeOpen PythonLabs. Pada bulan Oktober tahun "
+"yang sama, tim PythonLabs pindah ke Digital Creations (sekarang Zope "
+"Corporation; lihat http://www.zope.com/). Pada tahun 2001, Yayasan Perangkat"
+" Lunak Python (PSF, lihat https://www.python.org/psf/) dibentuk, sebuah "
+"organisasi nirlaba yang dibuat khusus untuk memiliki Kekayaan Intelektual "
+"yang berhubungan dengan Python. Zope Corporation adalah anggota sponsor dari"
+" PSF."
 
 #: ../../license.rst:30
 msgid ""
@@ -62,6 +79,10 @@ msgid ""
 "have also been GPL-compatible; the table below summarizes the various "
 "releases."
 msgstr ""
+"Semua rilis Python adalah Sumber Terbuka (lihat https://opensource.org/ "
+"untuk Definisi Sumber Terbuka). Secara historis, sebagian besar, tetapi "
+"tidak semua, rilis Python juga kompatibel dengan GPL; tabel di bawah ini "
+"merangkum berbagai rilis."
 
 #: ../../license.rst:35
 msgid "Release"
@@ -73,11 +94,11 @@ msgstr ""
 
 #: ../../license.rst:35
 msgid "Year"
-msgstr ""
+msgstr "Tahun"
 
 #: ../../license.rst:35
 msgid "Owner"
-msgstr ""
+msgstr "Pemilik"
 
 #: ../../license.rst:35
 msgid "GPL compatible?"
@@ -85,120 +106,120 @@ msgstr ""
 
 #: ../../license.rst:37
 msgid "0.9.0 thru 1.2"
-msgstr ""
+msgstr "0.9.0 hingga 1.2"
 
 #: ../../license.rst:37
 msgid "n/a"
-msgstr ""
+msgstr "t/a"
 
 #: ../../license.rst:37
 msgid "1991-1995"
-msgstr ""
+msgstr "1991-1995"
 
 #: ../../license.rst:37
 msgid "CWI"
-msgstr ""
+msgstr "CWI"
 
 #: ../../license.rst:37 ../../license.rst:39 ../../license.rst:49
 #: ../../license.rst:51 ../../license.rst:53 ../../license.rst:55
 #: ../../license.rst:57
 msgid "yes"
-msgstr ""
+msgstr "ya"
 
 #: ../../license.rst:39
 msgid "1.3 thru 1.5.2"
-msgstr ""
+msgstr "1.3 hingga 1.5.2"
 
 #: ../../license.rst:39
 msgid "1.2"
-msgstr ""
+msgstr "1.2"
 
 #: ../../license.rst:39
 msgid "1995-1999"
-msgstr ""
+msgstr "1995-1999"
 
 #: ../../license.rst:39 ../../license.rst:41 ../../license.rst:45
 msgid "CNRI"
-msgstr ""
+msgstr "CNRI"
 
 #: ../../license.rst:41 ../../license.rst:43 ../../license.rst:45
 msgid "1.6"
-msgstr ""
+msgstr "1.6"
 
 #: ../../license.rst:41
 msgid "1.5.2"
-msgstr ""
+msgstr "1.5.2"
 
 #: ../../license.rst:41 ../../license.rst:43
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: ../../license.rst:41 ../../license.rst:43 ../../license.rst:45
 #: ../../license.rst:47
 msgid "no"
-msgstr ""
+msgstr "tidak"
 
 #: ../../license.rst:43
 msgid "2.0"
-msgstr ""
+msgstr "2.0"
 
 #: ../../license.rst:43
 msgid "BeOpen.com"
-msgstr ""
+msgstr "BeOpen.com"
 
 #: ../../license.rst:45
 msgid "1.6.1"
-msgstr ""
+msgstr "1.6.1"
 
 #: ../../license.rst:45 ../../license.rst:47 ../../license.rst:49
 #: ../../license.rst:51
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: ../../license.rst:47
 msgid "2.1"
-msgstr ""
+msgstr "2.1"
 
 #: ../../license.rst:47 ../../license.rst:49
 msgid "2.0+1.6.1"
-msgstr ""
+msgstr "2.0+1.6.1"
 
 #: ../../license.rst:47 ../../license.rst:49 ../../license.rst:51
 #: ../../license.rst:53 ../../license.rst:55 ../../license.rst:57
 msgid "PSF"
-msgstr ""
+msgstr "PSF"
 
 #: ../../license.rst:49
 msgid "2.0.1"
-msgstr ""
+msgstr "2.0.1"
 
 #: ../../license.rst:51 ../../license.rst:53 ../../license.rst:57
 msgid "2.1.1"
-msgstr ""
+msgstr "2.1.1"
 
 #: ../../license.rst:51
 msgid "2.1+2.0.1"
-msgstr ""
+msgstr "2.1+2.0.1"
 
 #: ../../license.rst:53 ../../license.rst:55
 msgid "2.1.2"
-msgstr ""
+msgstr "2.1.2"
 
 #: ../../license.rst:53 ../../license.rst:55
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: ../../license.rst:55
 msgid "2.1.3"
-msgstr ""
+msgstr "2.1.3"
 
 #: ../../license.rst:57
 msgid "2.2 and above"
-msgstr ""
+msgstr "2.2 dan ke atas"
 
 #: ../../license.rst:57
 msgid "2001-now"
-msgstr ""
+msgstr "2001-sekarang"
 
 #: ../../license.rst:62
 msgid ""
@@ -252,7 +273,7 @@ msgstr ""
 
 #: ../../license.rst:269
 msgid "Mersenne Twister"
-msgstr ""
+msgstr "Mersenne Twister"
 
 #: ../../license.rst:271
 msgid ""
@@ -300,7 +321,7 @@ msgstr ""
 
 #: ../../license.rst:441
 msgid "UUencode and UUdecode functions"
-msgstr ""
+msgstr "UUencode and UUdecode functions"
 
 #: ../../license.rst:443
 msgid "The :mod:`uu` module contains the following notice::"
@@ -308,7 +329,7 @@ msgstr ""
 
 #: ../../license.rst:471
 msgid "XML Remote Procedure Calls"
-msgstr ""
+msgstr "XML Remote Procedure Calls"
 
 #: ../../license.rst:473
 msgid "The :mod:`xmlrpc.client` module contains the following notice::"
@@ -316,7 +337,7 @@ msgstr ""
 
 #: ../../license.rst:504
 msgid "test_epoll"
-msgstr ""
+msgstr "test_epoll"
 
 #: ../../license.rst:506
 msgid "The :mod:`test_epoll` module contains the following notice::"
@@ -334,7 +355,7 @@ msgstr ""
 
 #: ../../license.rst:561
 msgid "SipHash24"
-msgstr ""
+msgstr "SipHash24"
 
 #: ../../license.rst:563
 msgid ""
@@ -357,7 +378,7 @@ msgstr ""
 
 #: ../../license.rst:620
 msgid "OpenSSL"
-msgstr ""
+msgstr "OpenSSL"
 
 #: ../../license.rst:622
 msgid ""
@@ -370,7 +391,7 @@ msgstr ""
 
 #: ../../license.rst:757
 msgid "expat"
-msgstr ""
+msgstr "expat"
 
 #: ../../license.rst:759
 msgid ""
@@ -380,7 +401,7 @@ msgstr ""
 
 #: ../../license.rst:786
 msgid "libffi"
-msgstr ""
+msgstr "libffi"
 
 #: ../../license.rst:788
 msgid ""
@@ -390,7 +411,7 @@ msgstr ""
 
 #: ../../license.rst:815
 msgid "zlib"
-msgstr ""
+msgstr "zlib"
 
 #: ../../license.rst:817
 msgid ""
@@ -401,7 +422,7 @@ msgstr ""
 
 #: ../../license.rst:846
 msgid "cfuhash"
-msgstr ""
+msgstr "cfuhash"
 
 #: ../../license.rst:848
 msgid ""
@@ -411,7 +432,7 @@ msgstr ""
 
 #: ../../license.rst:887
 msgid "libmpdec"
-msgstr ""
+msgstr "libmpdec"
 
 #: ../../license.rst:889
 msgid ""

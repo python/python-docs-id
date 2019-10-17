@@ -1584,7 +1584,7 @@ msgstr ""
 #: ../../library/ssl.rst:1437 ../../library/ssl.rst:1437
 #: ../../library/ssl.rst:1438 ../../library/ssl.rst:1438
 msgid "yes"
-msgstr ""
+msgstr "ya"
 
 #: ../../library/ssl.rst:1433 ../../library/ssl.rst:1433
 #: ../../library/ssl.rst:1433 ../../library/ssl.rst:1433
@@ -1597,7 +1597,7 @@ msgstr ""
 #: ../../library/ssl.rst:1438 ../../library/ssl.rst:1438
 #: ../../library/ssl.rst:1438 ../../library/ssl.rst:1438
 msgid "no"
-msgstr ""
+msgstr "tidak"
 
 #: ../../library/ssl.rst:1433 ../../library/ssl.rst:1435
 msgid "no [1]_"

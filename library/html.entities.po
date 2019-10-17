@@ -23,17 +23,19 @@ msgstr ""
 
 #: ../../library/html.entities.rst:2
 msgid ":mod:`html.entities` --- Definitions of HTML general entities"
-msgstr ""
+msgstr ":mod:`html.entities` --- Definisi entitas umum HTML"
 
 #: ../../library/html.entities.rst:9
 msgid "**Source code:** :source:`Lib/html/entities.py`"
-msgstr ""
+msgstr "**Source code:** :source:`Lib/html/entitas.py`"
 
 #: ../../library/html.entities.rst:13
 msgid ""
 "This module defines four dictionaries, :data:`html5`, "
 ":data:`name2codepoint`, :data:`codepoint2name`, and :data:`entitydefs`."
 msgstr ""
+"Modul ini mendefinisikan empat kamus, :data:`html5`, :data:`name2codepoint`,"
+" :data:`codepoint2name`, dan :data:` entitydefs`."
 
 #: ../../library/html.entities.rst:19
 msgid ""
@@ -44,20 +46,31 @@ msgid ""
 "this case the name is present with and without the ``';'``. See also "
 ":func:`html.unescape`."
 msgstr ""
+"Kamus *dictionary* yang memetakan referensi karakter bernama di HTML5 [#]_ "
+"ke karakter(-karakter) Unicode yang setara, mis. ``html5['gt;'] == '>'``. "
+"Perhatikan bahwa tanda titik koma dimasukkan dalam nama (mis. ``'gt;'``), "
+"namun beberapa nama diterima oleh standar bahkan tanpa tanda titik koma: "
+"dalam hal ini nama hadir dengan dan tanpa ``';'``. Lihat juga "
+":func:`html.unescape`."
 
 #: ../../library/html.entities.rst:31
 msgid ""
 "A dictionary mapping XHTML 1.0 entity definitions to their replacement text "
 "in ISO Latin-1."
 msgstr ""
+"Kamus *dictionary* memetakan definisi entitas XHTML 1.0 untuk teks pengganti"
+" mereka dalam ISO Latin-1."
 
 #: ../../library/html.entities.rst:37
 msgid "A dictionary that maps HTML entity names to the Unicode code points."
 msgstr ""
+"Kamus *dictionary* yang memetakan nama entitas HTML ke titik kode Unicode."
 
 #: ../../library/html.entities.rst:42
 msgid "A dictionary that maps Unicode code points to HTML entity names."
 msgstr ""
+"Kamus *dictionary* yang memetakan kode Unicode menunjuk ke nama entitas "
+"HTML."
 
 #: ../../library/html.entities.rst:46
 msgid "Footnotes"
@@ -66,3 +79,4 @@ msgstr "Catatan kaki"
 #: ../../library/html.entities.rst:47
 msgid "See https://www.w3.org/TR/html5/syntax.html#named-character-references"
 msgstr ""
+"Lihat https://www.w3.org/TR/html5/syntax.html#named-character-references"

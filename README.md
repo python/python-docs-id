@@ -36,6 +36,7 @@ Anda bisa berkontribusi dengan:
 ### Beri Masukan
 ---
 Merasa penerjemahannya tidak sesuai atau kurang cocok? Ayo diskusikan, buat [laporan isu di Github ini](https://github.com/python/python-docs-id/issues)
+
 Masukan Anda sangat berarti untuk pengembangan penerjemahan dokumentasi Bahasa Pemrograman Python.
 
 ### Target (Fokus) Utama Penerjemahan
@@ -44,19 +45,18 @@ Sesuai informasi di PEP 545, bahwa terjemahan dokumentasi akan dimunculkan di pi
 setelah mencapai target berikut:
 
 * 100% dari **bugs.po** dengan referensi yang memadai ke pelacak isu penyimpanan bahasa terjemahan :heavy_check_mark:
-* 100% dari **tutorial**
+* 100% dari **tutorial** :heavy_check_mark:
 * 100% dari **library/functions** (builtins) :heavy_check_mark:
 
-##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
+Target selanjutnya adalah **library/stdtypes** seperti yang disebutkan di situs devguide.
 
-##### Progres
-* **tutorial/{appendix, appetite, datastructure, errors, index, inputoutput, interactive, interpreter, introduction, modules, stdlib, strlib2, venv, whatnow}** sudah diterjemahkan 100%
-* **tutorial/{classes, controlflow, floatingpoint}** belum diterjemahkan
+##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ### Panduan Singkat Penerjemahan
 ---
 Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, termasuk juga kata yang diapit dua *backtick* (`) setelahnya, dan pastikan tidak ada spasi setelah titik dua yang kedua dengan *backtick* yang pertama. Berikut beberapa contohnya (kata yang ada dalam *backtick* dapat bervariasi).
 ```
+:attr:`the_answer`
 :class:`~decimal.Decimal`
 :const:`True`
 :data:`sys.stdout`
@@ -74,6 +74,7 @@ Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, te
 :option:`-s`
 :pep:`475`
 :program:`chmod`
+:source:`Lib/html/entitas.py`
 :term:`>>>`
 ```
 
@@ -98,10 +99,13 @@ Jangan ragu untuk memberi masukan.
 Istilah | Terjemahan
 --- | ---
 *appetite* | selera
+*approximation* | pendekatan, perkiraan
 *arbitrary. arbitrarily.* | semena-mena, bergantian, berubah-ubah, acak. secara semena-mena.
 *assigned. assignment* | diisi. mengisi, memberikan tugas, memberikan nilai 
+*bind. binding. bound.* | mengikat. pengikatan. terikat.
 *boolean* | *boolean*
 *brace* | kurung kurawal
+*breaking change* | perubahan yang merusak
 *buffer* | penyangga
 *bug* | *bug*
 *built-in* | bawaan
@@ -109,29 +113,38 @@ Istilah | Terjemahan
 *changelog* | catatan perubahan
 *compiler* | *compiler*
 *concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
+*constructor* | *constructor*, pembangun
+*container* | wadah, penampung
 *custom* | ubahsuai, ubahsuaian
 *debug* | *debug*
 *decoding* | penerjemahan, *decoding*
 *default* | bawaan
 *deprecated* | usang
 *dictionary* | *dictionary*
-*docstring* | *docstring*
+*docstring* | *docstring*, String Dokumentasi
 *download* | unduh
 *e.g.* | mis.
 *emitting* | mengirimkan
+*enclosing* | lampiran
 *encoding* | penyandian, *encoding*
 *escape* | memisahkan
 *etc.* | dll.
 *exception* | pengecualian
 *fall back* | beralih
 *familiar* | terbiasa
+*fancy* | ajaib
 *file* | berkas
 *form* | bentuk, formulir
+*floating point* | pecahan
+*fraction* | pecahan
 *framework* | kerangka, kerangka kerja
+*generator* | pembangkit
 *header* | tajuk
 *handling. handler.* | penanganan. penangan.
 *hierarchy* | hierarki
 *indentation* | indentasi
+*inheritance* | pewarisan
+*instead* | alih-alih, dibandingkan (dengan)
 *interpreter* | *interpreter*
 *invocation* | seruan, pemanggilan
 *iterator* | *iterator*
@@ -139,33 +152,46 @@ Istilah | Terjemahan
 *keyword* | kata kunci
 *layout* | tata letak
 *library* | pustaka
+*listcomp* | *listcomp*, *List Comprehension*, daftar pemahaman
 *loop* | perulangan, pengulangan
-*namespace* | *namespace*
+*lossless* | berkurang
+*maintain* | merawat, mempertahankan
+*mangling* | *mangling*
+*n/a* | t/a
+*namespace* | *namespace*, ruang-nama
 *null* | *null*
 *ordering* | pengurutan, penyusunan
 *override* | menimpa
 *parse. parser. parsing* | urai. pengurai. mengurai.
-*pass. passing. passed.* | langkah. melewatkan. diteruskan, dilewatkan.
+*pass. passing. passed.* | langkah. melewatkan. diteruskan, dikirimkan.
 *path* | jalur
 *pickle* | *pickle*, acar, asinan, yang diawetkan
 *placeholder* | *placeholder*, penampung
+*private* | privat
 *prompt* | *prompt*
+*quirk* | kekhasan
 *raise* | menimbulkan, memunculkan
 *range* | kisaran, rentang
+*rather* | alih-alih, dan bukan (dengan)
+*reliable* | andal
 *round* | pembulatan
 *run* | operasikan
 *runtime* | *runtime*
+*scope* | lingkup, cakupan
 *signature* | *signature*, pengenal, tanda tangan
 *site-packages* | *site-packages*
 *slice* | iris, irisan
 *snippet* | cuplikan
 *stack trace* | tumpukan jejak
 *startup* | permulaan
+*state* | kondisi, status
 *stream* | aliran, *stream*
+*suppressed* | dihilangkan, ditekan
 *template* | *template*, templat
 *thread* | *thread*, utas
 *trade-off* | mengorbankan
 *tuple* | *tuple*
+*twist* | *twist*
 *upload* | unggah
 
 ### Keterangan Tambahan
@@ -173,6 +199,8 @@ Istilah | Terjemahan
 Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk 
 menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan 
 yang fungsinya sangat spesifik, seperti halnya Transifex.
+
+Per tanggal **2019-10-17** proses penerjemahan yang dibutuhkan sebagai minimum dari standar PEP 545 sudah selesai.
 
 Per tanggal **2019-10-15** repositori `python-docs-id` tersedia di bawah repositori Github organisasi Python.
 

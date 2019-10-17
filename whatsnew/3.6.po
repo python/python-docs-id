@@ -2283,7 +2283,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1770
 msgid "zlib"
-msgstr ""
+msgstr "zlib"
 
 #: ../../whatsnew/3.6.rst:1772
 msgid ""

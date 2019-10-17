@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../library/selectors.rst:43
 msgid "Classes"
-msgstr ""
+msgstr "Kelas-kelas"
 
 #: ../../library/selectors.rst:45
 msgid "Classes hierarchy::"
