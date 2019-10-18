@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../library/curses.ascii.rst:17
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../library/curses.ascii.rst:17
 msgid "Meaning"

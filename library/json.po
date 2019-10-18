@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../library/json.rst:320
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../library/json.rst:322
 msgid "number (real)"
@@ -383,11 +383,11 @@ msgstr ""
 
 #: ../../library/json.rst:322
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../library/json.rst:324 ../../library/json.rst:411
 msgid "true"
-msgstr ""
+msgstr "benar"
 
 #: ../../library/json.rst:324 ../../library/json.rst:411
 msgid "True"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: ../../library/json.rst:326 ../../library/json.rst:413
 msgid "false"
-msgstr ""
+msgstr "salah"
 
 #: ../../library/json.rst:326 ../../library/json.rst:413
 msgid "False"

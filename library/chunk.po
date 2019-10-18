@@ -55,12 +55,12 @@ msgstr "Konten"
 
 #: ../../library/chunk.rst:31
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../library/chunk.rst:31 ../../library/chunk.rst:33
 #: ../../library/chunk.rst:33
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/chunk.rst:31
 msgid "Chunk ID"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../library/chunk.rst:37
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../library/chunk.rst:37
 msgid "*n*"

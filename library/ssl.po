@@ -555,7 +555,7 @@ msgstr "Contoh::"
 
 #: ../../library/ssl.rst:496 ../../library/ssl.rst:511
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../library/ssl.rst:501
 msgid ""
@@ -2417,7 +2417,7 @@ msgstr ""
 
 #: ../../library/ssl.rst:2195
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/ssl.rst:2198
 msgid "Testing for SSL support"

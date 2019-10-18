@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:17+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,7 +111,7 @@ msgstr ""
 
 #: ../../library/lzma.rst:68 ../../library/lzma.rst:126
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`"
 
 #: ../../library/lzma.rst:74
 msgid "Open an LZMA-compressed file in binary mode."
@@ -612,7 +616,7 @@ msgstr ""
 
 #: ../../library/lzma.rst:385
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/lzma.rst:387
 msgid "Reading in a compressed file::"

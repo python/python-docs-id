@@ -571,11 +571,11 @@ msgstr ""
 
 #: ../../library/difflib.rst:494
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../library/difflib.rst:496
 msgid "``'replace'``"
-msgstr ""
+msgstr "``'replace'``"
 
 #: ../../library/difflib.rst:496
 msgid "``a[i1:i2]`` should be replaced by ``b[j1:j2]``."

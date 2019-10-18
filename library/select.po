@@ -334,7 +334,7 @@ msgstr ""
 #: ../../library/select.rst:578 ../../library/select.rst:586
 #: ../../library/select.rst:606 ../../library/select.rst:629
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/select.rst:283 ../../library/select.rst:398
 #: ../../library/select.rst:518 ../../library/select.rst:547

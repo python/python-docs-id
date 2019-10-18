@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:24
 msgid "Module :mod:`email`"
-msgstr ""
+msgstr "Modul :mod:`email`"
 
 #: ../../library/mailbox.rst:25
 msgid "Represent and manipulate messages."
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:31
 msgid ":class:`Mailbox` objects"
-msgstr ""
+msgstr "objek :class:`Mailbox`"
 
 #: ../../library/mailbox.rst:35
 msgid "A mailbox, which may be inspected and modified."
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:299
 msgid ":class:`Maildir`"
-msgstr ""
+msgstr ":class:`Maildir`"
 
 #: ../../library/mailbox.rst:304
 msgid ""
@@ -480,6 +480,7 @@ msgstr ""
 msgid ""
 "`maildir man page from qmail <http://www.qmail.org/man/man5/maildir.html>`_"
 msgstr ""
+"`maildir man page from qmail <http://www.qmail.org/man/man5/maildir.html>`_"
 
 #: ../../library/mailbox.rst:430
 msgid "The original specification of the format."
@@ -487,7 +488,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:434
 msgid "`Using maildir format <https://cr.yp.to/proto/maildir.html>`_"
-msgstr ""
+msgstr "`Using maildir format <https://cr.yp.to/proto/maildir.html>`_"
 
 #: ../../library/mailbox.rst:433
 msgid ""
@@ -499,6 +500,7 @@ msgstr ""
 msgid ""
 "`maildir man page from Courier <http://www.courier-mta.org/maildir.html>`_"
 msgstr ""
+"`maildir man page from Courier <http://www.courier-mta.org/maildir.html>`_"
 
 #: ../../library/mailbox.rst:437
 msgid ""
@@ -508,7 +510,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:444
 msgid ":class:`mbox`"
-msgstr ""
+msgstr ":class:`mbox`"
 
 #: ../../library/mailbox.rst:449
 msgid ""
@@ -562,7 +564,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:489
 msgid "`mbox man page from qmail <http://www.qmail.org/man/man5/mbox.html>`_"
-msgstr ""
+msgstr "`mbox man page from qmail <http://www.qmail.org/man/man5/mbox.html>`_"
 
 #: ../../library/mailbox.rst:489
 msgid "A specification of the format and its variations."
@@ -573,6 +575,8 @@ msgid ""
 "`mbox man page from tin "
 "<http://www.tin.org/bin/man.cgi?section=5&topic=mbox>`_"
 msgstr ""
+"`mbox man page from tin "
+"<http://www.tin.org/bin/man.cgi?section=5&topic=mbox>`_"
 
 #: ../../library/mailbox.rst:492
 msgid "Another specification of the format, with details on locking."
@@ -583,6 +587,8 @@ msgid ""
 "`Configuring Netscape Mail on Unix: Why The Content-Length Format is Bad "
 "<https://www.jwz.org/doc/content-length.html>`_"
 msgstr ""
+"`Configuring Netscape Mail on Unix: Why The Content-Length Format is Bad "
+"<https://www.jwz.org/doc/content-length.html>`_"
 
 #: ../../library/mailbox.rst:495
 msgid ""
@@ -601,7 +607,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:504
 msgid ":class:`MH`"
-msgstr ""
+msgstr ":class:`MH`"
 
 #: ../../library/mailbox.rst:509
 msgid ""
@@ -739,7 +745,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:634
 msgid ":class:`Babyl`"
-msgstr ""
+msgstr ":class:`Babyl`"
 
 #: ../../library/mailbox.rst:639
 msgid ""
@@ -810,6 +816,7 @@ msgstr ""
 msgid ""
 "`Format of Version 5 Babyl Files <https://quimby.gnus.org/notes/BABYL>`_"
 msgstr ""
+"`Format of Version 5 Babyl Files <https://quimby.gnus.org/notes/BABYL>`_"
 
 #: ../../library/mailbox.rst:701
 msgid "A specification of the Babyl format."
@@ -820,6 +827,8 @@ msgid ""
 "`Reading Mail with Rmail "
 "<https://www.gnu.org/software/emacs/manual/html_node/emacs/Rmail.html>`_"
 msgstr ""
+"`Reading Mail with Rmail "
+"<https://www.gnu.org/software/emacs/manual/html_node/emacs/Rmail.html>`_"
 
 #: ../../library/mailbox.rst:704
 msgid "The Rmail manual, with some information on Babyl semantics."
@@ -827,7 +836,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:710
 msgid ":class:`MMDF`"
-msgstr ""
+msgstr ":class:`MMDF`"
 
 #: ../../library/mailbox.rst:715
 msgid ""
@@ -870,6 +879,8 @@ msgid ""
 "`mmdf man page from tin "
 "<http://www.tin.org/bin/man.cgi?section=5&topic=mmdf>`_"
 msgstr ""
+"`mmdf man page from tin "
+"<http://www.tin.org/bin/man.cgi?section=5&topic=mmdf>`_"
 
 #: ../../library/mailbox.rst:752
 msgid ""
@@ -878,7 +889,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:755
 msgid "`MMDF <https://en.wikipedia.org/wiki/MMDF>`_"
-msgstr ""
+msgstr "`MMDF <https://en.wikipedia.org/wiki/MMDF>`_"
 
 #: ../../library/mailbox.rst:755
 msgid ""
@@ -888,7 +899,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:762
 msgid ":class:`Message` objects"
-msgstr ""
+msgstr "objek :class:`Message`"
 
 #: ../../library/mailbox.rst:767
 msgid ""
@@ -933,7 +944,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:800
 msgid ":class:`MaildirMessage`"
-msgstr ""
+msgstr ":class:`MaildirMessage`"
 
 #: ../../library/mailbox.rst:805
 msgid ""
@@ -958,7 +969,7 @@ msgstr ""
 #: ../../library/mailbox.rst:820 ../../library/mailbox.rst:987
 #: ../../library/mailbox.rst:1357
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 #: ../../library/mailbox.rst:820 ../../library/mailbox.rst:987
 #: ../../library/mailbox.rst:1357
@@ -974,7 +985,7 @@ msgstr ""
 #: ../../library/mailbox.rst:822 ../../library/mailbox.rst:993
 #: ../../library/mailbox.rst:1363
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../../library/mailbox.rst:822
 msgid "Draft"
@@ -987,12 +998,12 @@ msgstr ""
 #: ../../library/mailbox.rst:824 ../../library/mailbox.rst:995
 #: ../../library/mailbox.rst:1365
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../library/mailbox.rst:824 ../../library/mailbox.rst:995
 #: ../../library/mailbox.rst:1365
 msgid "Flagged"
-msgstr ""
+msgstr "Ditandai"
 
 #: ../../library/mailbox.rst:824 ../../library/mailbox.rst:995
 #: ../../library/mailbox.rst:1143 ../../library/mailbox.rst:1365
@@ -1001,7 +1012,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:826
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: ../../library/mailbox.rst:826
 msgid "Passed"
@@ -1014,7 +1025,7 @@ msgstr ""
 #: ../../library/mailbox.rst:828 ../../library/mailbox.rst:989
 #: ../../library/mailbox.rst:1359
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: ../../library/mailbox.rst:828
 msgid "Replied"
@@ -1028,7 +1039,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:830
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../../library/mailbox.rst:830
 msgid "Seen"
@@ -1042,7 +1053,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:832
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: ../../library/mailbox.rst:832
 msgid "Trashed"
@@ -1147,7 +1158,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1446 ../../library/mailbox.rst:1461
 #: ../../library/mailbox.rst:1477
 msgid "Resulting state"
-msgstr ""
+msgstr "Kondisi yang dihasilkan"
 
 #: ../../library/mailbox.rst:918 ../../library/mailbox.rst:1187
 #: ../../library/mailbox.rst:1315
@@ -1167,7 +1178,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1465 ../../library/mailbox.rst:1481
 #: ../../library/mailbox.rst:1481
 msgid "O flag"
-msgstr ""
+msgstr "Penanda O"
 
 #: ../../library/mailbox.rst:923 ../../library/mailbox.rst:923
 #: ../../library/mailbox.rst:942 ../../library/mailbox.rst:1066
@@ -1178,7 +1189,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1452 ../../library/mailbox.rst:1485
 #: ../../library/mailbox.rst:1485
 msgid "F flag"
-msgstr ""
+msgstr "Penanda F"
 
 #: ../../library/mailbox.rst:925 ../../library/mailbox.rst:927
 #: ../../library/mailbox.rst:944 ../../library/mailbox.rst:959
@@ -1188,7 +1199,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1431 ../../library/mailbox.rst:1439
 #: ../../library/mailbox.rst:1479 ../../library/mailbox.rst:1479
 msgid "R flag"
-msgstr ""
+msgstr "Penanda R"
 
 #: ../../library/mailbox.rst:925 ../../library/mailbox.rst:1068
 #: ../../library/mailbox.rst:1083 ../../library/mailbox.rst:1098
@@ -1198,18 +1209,18 @@ msgstr ""
 #: ../../library/mailbox.rst:1469 ../../library/mailbox.rst:1487
 #: ../../library/mailbox.rst:1487
 msgid "A flag"
-msgstr ""
+msgstr "Penanda A"
 
 #: ../../library/mailbox.rst:927 ../../library/mailbox.rst:1060
 #: ../../library/mailbox.rst:1431
 msgid "S flag"
-msgstr ""
+msgstr "Penanda S"
 
 #: ../../library/mailbox.rst:929 ../../library/mailbox.rst:961
 #: ../../library/mailbox.rst:1064 ../../library/mailbox.rst:1302
 #: ../../library/mailbox.rst:1435
 msgid "T flag"
-msgstr ""
+msgstr "Penanda T"
 
 #: ../../library/mailbox.rst:929 ../../library/mailbox.rst:1064
 #: ../../library/mailbox.rst:1096 ../../library/mailbox.rst:1111
@@ -1217,7 +1228,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1435 ../../library/mailbox.rst:1467
 #: ../../library/mailbox.rst:1483 ../../library/mailbox.rst:1483
 msgid "D flag"
-msgstr ""
+msgstr "Penanda D"
 
 #: ../../library/mailbox.rst:932
 msgid ""
@@ -1284,7 +1295,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:957 ../../library/mailbox.rst:1306
 msgid "P flag"
-msgstr ""
+msgstr "Penanda P"
 
 #: ../../library/mailbox.rst:957
 msgid "\"forwarded\" or \"resent\" label"
@@ -1330,11 +1341,11 @@ msgstr ""
 
 #: ../../library/mailbox.rst:991 ../../library/mailbox.rst:1361
 msgid "O"
-msgstr ""
+msgstr "O"
 
 #: ../../library/mailbox.rst:991 ../../library/mailbox.rst:1361
 msgid "Old"
-msgstr ""
+msgstr "Lama *Old*"
 
 #: ../../library/mailbox.rst:991 ../../library/mailbox.rst:1361
 msgid "Previously detected by MUA"
@@ -1346,11 +1357,11 @@ msgstr ""
 
 #: ../../library/mailbox.rst:997 ../../library/mailbox.rst:1367
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../library/mailbox.rst:997 ../../library/mailbox.rst:1367
 msgid "Answered"
-msgstr ""
+msgstr "Dijawab *Answered*"
 
 #: ../../library/mailbox.rst:1000 ../../library/mailbox.rst:1370
 msgid ""
@@ -1431,7 +1442,7 @@ msgstr ""
 #: ../../library/mailbox.rst:1077 ../../library/mailbox.rst:1092
 #: ../../library/mailbox.rst:1448 ../../library/mailbox.rst:1463
 msgid "R flag and O flag"
-msgstr ""
+msgstr "Penanda R dan Penanda O"
 
 #: ../../library/mailbox.rst:1086
 msgid ""
@@ -1452,7 +1463,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1122
 msgid ":class:`MHMessage`"
-msgstr ""
+msgstr ":class:`MHMessage`"
 
 #: ../../library/mailbox.rst:1127
 msgid ""
@@ -1483,7 +1494,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1141
 msgid "replied"
-msgstr ""
+msgstr "dibalas"
 
 #: ../../library/mailbox.rst:1143
 msgid "flagged"
@@ -1518,7 +1529,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1174 ../../library/mailbox.rst:1300
 msgid "no S flag"
-msgstr ""
+msgstr "tanpa penanda S"
 
 #: ../../library/mailbox.rst:1181
 msgid ""
@@ -1530,7 +1541,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1190 ../../library/mailbox.rst:1318
 msgid "no R flag"
-msgstr ""
+msgstr "tanpa penanda R"
 
 #: ../../library/mailbox.rst:1197
 msgid ""
@@ -1540,7 +1551,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1212
 msgid ":class:`BabylMessage`"
-msgstr ""
+msgstr ":class:`BabylMessage`"
 
 #: ../../library/mailbox.rst:1217
 msgid ""
@@ -1560,7 +1571,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1228
 msgid "deleted"
-msgstr ""
+msgstr "dihapus"
 
 #: ../../library/mailbox.rst:1230
 msgid "filed"
@@ -1572,7 +1583,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1232
 msgid "answered"
-msgstr ""
+msgstr "dijawab"
 
 #: ../../library/mailbox.rst:1234
 msgid "forwarded"
@@ -1584,7 +1595,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1236
 msgid "edited"
-msgstr ""
+msgstr "diubah"
 
 #: ../../library/mailbox.rst:1236
 msgid "Modified by the user"
@@ -1592,11 +1603,11 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1238
 msgid "resent"
-msgstr ""
+msgstr "dikirim ulang"
 
 #: ../../library/mailbox.rst:1238
 msgid "Resent"
-msgstr ""
+msgstr "Dikirim Ulang"
 
 #: ../../library/mailbox.rst:1241
 msgid ""
@@ -1678,7 +1689,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1340
 msgid ":class:`MMDFMessage`"
-msgstr ""
+msgstr ":class:`MMDFMessage`"
 
 #: ../../library/mailbox.rst:1345
 msgid ""
@@ -1780,7 +1791,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1532
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/mailbox.rst:1534
 msgid ""

@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../distutils/commandref.rst:63
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../distutils/commandref.rst:65
 msgid ":command:`include pat1 pat2 ...`"

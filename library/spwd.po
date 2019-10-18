@@ -46,11 +46,11 @@ msgstr ""
 
 #: ../../library/spwd.rst:21
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 #: ../../library/spwd.rst:21
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/spwd.rst:21
 msgid "Meaning"
@@ -58,7 +58,7 @@ msgstr "Artinya"
 
 #: ../../library/spwd.rst:23
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../library/spwd.rst:23
 msgid "``sp_namp``"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:25
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../library/spwd.rst:25
 msgid "``sp_pwdp``"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:27
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/spwd.rst:27
 msgid "``sp_lstchg``"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:29
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../library/spwd.rst:29
 msgid "``sp_min``"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:32
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/spwd.rst:32
 msgid "``sp_max``"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:35
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../library/spwd.rst:35
 msgid "``sp_warn``"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:38
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../library/spwd.rst:38
 msgid "``sp_inact``"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:42
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../../library/spwd.rst:42
 msgid "``sp_expire``"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../library/spwd.rst:45
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../library/spwd.rst:45
 msgid "``sp_flag``"

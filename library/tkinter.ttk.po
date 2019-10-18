@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:34
 msgid "Using Ttk"
-msgstr ""
+msgstr "Menggunakan Ttk"
 
 #: ../../library/tkinter.ttk.rst:36
 msgid "To start using Ttk, import its module::"
@@ -123,11 +123,11 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:80
 msgid "Tk code::"
-msgstr ""
+msgstr "kode Tk::"
 
 #: ../../library/tkinter.ttk.rst:86
 msgid "Ttk code::"
-msgstr ""
+msgstr "kode Ttk::"
 
 #: ../../library/tkinter.ttk.rst:94
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:105
 msgid "Standard Options"
-msgstr ""
+msgstr "Opsi Standar"
 
 #: ../../library/tkinter.ttk.rst:107
 msgid "All the :mod:`ttk` Widgets accepts the following options:"
@@ -161,7 +161,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:810 ../../library/tkinter.ttk.rst:861
 #: ../../library/tkinter.ttk.rst:889
 msgid "Option"
-msgstr ""
+msgstr "Opsi"
 
 #: ../../library/tkinter.ttk.rst:112 ../../library/tkinter.ttk.rst:147
 #: ../../library/tkinter.ttk.rst:173 ../../library/tkinter.ttk.rst:216
@@ -172,7 +172,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:861 ../../library/tkinter.ttk.rst:889
 #: ../../library/tkinter.ttk.rst:934
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/tkinter.ttk.rst:114
 msgid "class"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:121
 msgid "cursor"
-msgstr ""
+msgstr "kursor"
 
 #: ../../library/tkinter.ttk.rst:121
 msgid ""
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:134
 msgid "style"
-msgstr ""
+msgstr "gaya"
 
 #: ../../library/tkinter.ttk.rst:134
 msgid "May be used to specify a custom widget style."
@@ -272,7 +272,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:175 ../../library/tkinter.ttk.rst:523
 #: ../../library/tkinter.ttk.rst:863
 msgid "text"
-msgstr ""
+msgstr "teks"
 
 #: ../../library/tkinter.ttk.rst:175
 msgid "Specifies a text string to be displayed inside the widget."
@@ -301,7 +301,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:184 ../../library/tkinter.ttk.rst:525
 #: ../../library/tkinter.ttk.rst:865 ../../library/tkinter.ttk.rst:897
 msgid "image"
-msgstr ""
+msgstr "gambar"
 
 #: ../../library/tkinter.ttk.rst:184
 msgid ""
@@ -314,7 +314,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:192 ../../library/tkinter.ttk.rst:528
 msgid "compound"
-msgstr ""
+msgstr "gabungan"
 
 #: ../../library/tkinter.ttk.rst:192
 msgid ""
@@ -324,11 +324,11 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:196
 msgid "text: display text only"
-msgstr ""
+msgstr "teks: menampilkan teks saja"
 
 #: ../../library/tkinter.ttk.rst:197
 msgid "image: display image only"
-msgstr ""
+msgstr "gambar: menampilkan gambar saja"
 
 #: ../../library/tkinter.ttk.rst:198
 msgid ""
@@ -343,7 +343,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:203 ../../library/tkinter.ttk.rst:349
 #: ../../library/tkinter.ttk.rst:493
 msgid "width"
-msgstr ""
+msgstr "lebar"
 
 #: ../../library/tkinter.ttk.rst:203
 msgid ""
@@ -378,11 +378,11 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:232
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 #: ../../library/tkinter.ttk.rst:234
 msgid "active"
-msgstr ""
+msgstr "aktif"
 
 #: ../../library/tkinter.ttk.rst:234
 msgid ""
@@ -400,7 +400,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:239
 msgid "focus"
-msgstr ""
+msgstr "fokus"
 
 #: ../../library/tkinter.ttk.rst:239
 msgid "Widget has keyboard focus"
@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:246 ../../library/tkinter.ttk.rst:893
 msgid "background"
-msgstr ""
+msgstr "latar belakang"
 
 #: ../../library/tkinter.ttk.rst:246
 msgid ""
@@ -435,7 +435,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:251
 msgid "readonly"
-msgstr ""
+msgstr "baca saja"
 
 #: ../../library/tkinter.ttk.rst:251
 msgid "Widget should not allow user modification"
@@ -451,7 +451,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:255
 msgid "invalid"
-msgstr ""
+msgstr "tidak valid"
 
 #: ../../library/tkinter.ttk.rst:255
 msgid "The widget's value is invalid"
@@ -528,7 +528,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:474 ../../library/tkinter.ttk.rst:664
 #: ../../library/tkinter.ttk.rst:735 ../../library/tkinter.ttk.rst:803
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 #: ../../library/tkinter.ttk.rst:314 ../../library/tkinter.ttk.rst:400
 #: ../../library/tkinter.ttk.rst:476 ../../library/tkinter.ttk.rst:666
@@ -560,7 +560,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:328 ../../library/tkinter.ttk.rst:483
 #: ../../library/tkinter.ttk.rst:820
 msgid "height"
-msgstr ""
+msgstr "tinggi"
 
 #: ../../library/tkinter.ttk.rst:328
 msgid "Specifies the height of the pop-down listbox, in rows."
@@ -594,7 +594,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:346 ../../library/tkinter.ttk.rst:419
 #: ../../library/tkinter.ttk.rst:867
 msgid "values"
-msgstr ""
+msgstr "nilai"
 
 #: ../../library/tkinter.ttk.rst:346
 msgid "Specifies the list of values to display in the drop-down listbox."
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:407
 msgid "from"
-msgstr ""
+msgstr "dari"
 
 #: ../../library/tkinter.ttk.rst:407
 msgid ""
@@ -669,7 +669,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:412
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 #: ../../library/tkinter.ttk.rst:412
 msgid ""
@@ -707,7 +707,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:430
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #: ../../library/tkinter.ttk.rst:430
 msgid ""
@@ -719,7 +719,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:436
 msgid "command"
-msgstr ""
+msgstr "perintah"
 
 #: ../../library/tkinter.ttk.rst:436
 msgid ""
@@ -1026,7 +1026,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:676
 msgid "length"
-msgstr ""
+msgstr "panjang"
 
 #: ../../library/tkinter.ttk.rst:676
 msgid ""
@@ -1036,7 +1036,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:679
 msgid "mode"
-msgstr ""
+msgstr "mode"
 
 #: ../../library/tkinter.ttk.rst:679
 msgid "One of \"determinate\" or \"indeterminate\"."
@@ -1044,7 +1044,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:681
 msgid "maximum"
-msgstr ""
+msgstr "maksimum"
 
 #: ../../library/tkinter.ttk.rst:681
 msgid "A number specifying the maximum value. Defaults to 100."
@@ -1052,7 +1052,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:683
 msgid "value"
-msgstr ""
+msgstr "nilai"
 
 #: ../../library/tkinter.ttk.rst:683
 msgid ""
@@ -1064,7 +1064,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:689
 msgid "variable"
-msgstr ""
+msgstr "variabel"
 
 #: ../../library/tkinter.ttk.rst:689
 msgid ""
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:693
 msgid "phase"
-msgstr ""
+msgstr "fase"
 
 #: ../../library/tkinter.ttk.rst:693
 msgid ""
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:726
 msgid "Separator"
-msgstr ""
+msgstr "Pembatas"
 
 #: ../../library/tkinter.ttk.rst:728
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:768
 msgid "Bugs"
-msgstr ""
+msgstr "Bug"
 
 #: ../../library/tkinter.ttk.rst:770
 msgid ""
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:812
 msgid "columns"
-msgstr ""
+msgstr "kolom"
 
 #: ../../library/tkinter.ttk.rst:812
 msgid ""
@@ -1329,7 +1329,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:874
 msgid "open"
-msgstr ""
+msgstr "buka"
 
 #: ../../library/tkinter.ttk.rst:874
 msgid ""
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:895
 msgid "font"
-msgstr ""
+msgstr "font"
 
 #: ../../library/tkinter.ttk.rst:895
 msgid "Specifies the font to use when drawing text."
@@ -1516,7 +1516,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:991
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: ../../library/tkinter.ttk.rst:992
 msgid "Returns the column name. This is a read-only option."
@@ -1555,7 +1555,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1004
 msgid "width: width"
-msgstr ""
+msgstr "lebar: lebar"
 
 #: ../../library/tkinter.ttk.rst:1004
 msgid "The width of the column in pixels."
@@ -1610,7 +1610,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1046
 msgid "text: text"
-msgstr ""
+msgstr "teks: teks"
 
 #: ../../library/tkinter.ttk.rst:1047
 msgid "The text to display in the column heading."
@@ -1687,7 +1687,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1087
 msgid "separator"
-msgstr ""
+msgstr "pembatas"
 
 #: ../../library/tkinter.ttk.rst:1087
 msgid "Space between two columns headings."
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1089
 msgid "tree"
-msgstr ""
+msgstr "pohon"
 
 #: ../../library/tkinter.ttk.rst:1089
 msgid "The tree area."
@@ -1703,7 +1703,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1091
 msgid "cell"
-msgstr ""
+msgstr "sel"
 
 #: ../../library/tkinter.ttk.rst:1091
 msgid "A data cell."
@@ -2038,7 +2038,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1421
 msgid "width=width"
-msgstr ""
+msgstr "lebar=lebar"
 
 #: ../../library/tkinter.ttk.rst:1420
 msgid ""
@@ -2107,7 +2107,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1501
 msgid "Layouts"
-msgstr ""
+msgstr "Tata ruang"
 
 #: ../../library/tkinter.ttk.rst:1503
 msgid ""
@@ -2137,7 +2137,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1520
 msgid "unit: 0 or 1"
-msgstr ""
+msgstr "unit: 0 atau 1"
 
 #: ../../library/tkinter.ttk.rst:1518
 msgid ""

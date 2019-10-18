@@ -40,11 +40,11 @@ msgstr ""
 
 #: ../../library/grp.rst:18
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 #: ../../library/grp.rst:18
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/grp.rst:18
 msgid "Meaning"
@@ -52,7 +52,7 @@ msgstr "Artinya"
 
 #: ../../library/grp.rst:20
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../library/grp.rst:20
 msgid "gr_name"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../library/grp.rst:22
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../library/grp.rst:22
 msgid "gr_passwd"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../library/grp.rst:25
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/grp.rst:25
 msgid "gr_gid"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../library/grp.rst:27
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../library/grp.rst:27
 msgid "gr_mem"

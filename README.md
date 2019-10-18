@@ -74,6 +74,7 @@ Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, te
 :option:`-s`
 :pep:`475`
 :program:`chmod`
+:samp:`{n}`
 :source:`Lib/html/entitas.py`
 :term:`>>>`
 ```
@@ -111,16 +112,19 @@ Istilah | Terjemahan
 *built-in* | bawaan
 *cache* | *cache*
 *changelog* | catatan perubahan
+*codec* | *codec*
 *compiler* | *compiler*
 *concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
 *constructor* | *constructor*, pembangun
 *container* | wadah, penampung
+*core* | inti
 *custom* | ubahsuai, ubahsuaian
 *debug* | *debug*
 *decoding* | penerjemahan, *decoding*
 *default* | bawaan
 *deprecated* | usang
 *dictionary* | *dictionary*
+*directive* | petunjuk, pengarahan
 *docstring* | *docstring*, String Dokumentasi
 *download* | unduh
 *e.g.* | mis.
@@ -135,6 +139,7 @@ Istilah | Terjemahan
 *fancy* | ajaib
 *file* | berkas
 *form* | bentuk, formulir
+*flag. flagged. | penanda. ditandai.
 *floating point* | pecahan
 *fraction* | pecahan
 *framework* | kerangka, kerangka kerja
@@ -188,11 +193,13 @@ Istilah | Terjemahan
 *stream* | aliran, *stream*
 *suppressed* | dihilangkan, ditekan
 *template* | *template*, templat
+*test* | pengujian, tes
 *thread* | *thread*, utas
 *trade-off* | mengorbankan
 *tuple* | *tuple*
 *twist* | *twist*
 *upload* | unggah
+*vulnerable* | rentan
 
 ### Keterangan Tambahan
 ---

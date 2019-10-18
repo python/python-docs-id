@@ -553,7 +553,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:473
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../reference/datamodel.rst:473
 msgid "Meaning"

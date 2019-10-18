@@ -728,11 +728,11 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:567
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../distutils/setupscript.rst:567
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../distutils/setupscript.rst:567
 msgid "Notes"

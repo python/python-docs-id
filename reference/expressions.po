@@ -642,7 +642,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:578
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../reference/expressions.rst:580
 msgid ""
@@ -1861,7 +1861,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:1785
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../reference/expressions.rst:1787
 msgid "``:=``"

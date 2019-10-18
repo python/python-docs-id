@@ -918,7 +918,7 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:738
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/http.cookiejar.rst:740
 msgid ""

@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:25
 msgid "Module :mod:`calendar`"
-msgstr ""
+msgstr "Modul :mod:`calendar`"
 
 #: ../../library/datetime.rst:25
 msgid "General calendar related functions."
@@ -384,11 +384,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:270
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/datetime.rst:270
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../library/datetime.rst:272
 msgid "``days``"
@@ -2146,7 +2146,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2011
 msgid "or::"
-msgstr ""
+msgstr "atau::"
 
 #: ../../library/datetime.rst:2023
 msgid ""
@@ -2490,7 +2490,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Directive"
-msgstr ""
+msgstr "Petunjuk"
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Meaning"
@@ -2506,7 +2506,7 @@ msgstr "Catatan"
 
 #: ../../library/datetime.rst:2305
 msgid "``%a``"
-msgstr ""
+msgstr "``%a``"
 
 #: ../../library/datetime.rst:2305
 msgid "Weekday as locale's abbreviated name."
@@ -2522,7 +2522,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2310
 msgid "``%A``"
-msgstr ""
+msgstr "``%A``"
 
 #: ../../library/datetime.rst:2310
 msgid "Weekday as locale's full name."
@@ -2538,7 +2538,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2315
 msgid "``%w``"
-msgstr ""
+msgstr "``%w``"
 
 #: ../../library/datetime.rst:2315
 msgid "Weekday as a decimal number, where 0 is Sunday and 6 is Saturday."
@@ -2550,7 +2550,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2319
 msgid "``%d``"
-msgstr ""
+msgstr "``%d``"
 
 #: ../../library/datetime.rst:2319
 msgid "Day of the month as a zero-padded decimal number."
@@ -2569,7 +2569,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2322
 msgid "``%b``"
-msgstr ""
+msgstr "``%b``"
 
 #: ../../library/datetime.rst:2322
 msgid "Month as locale's abbreviated name."
@@ -2585,7 +2585,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2327
 msgid "``%B``"
-msgstr ""
+msgstr "``%B``"
 
 #: ../../library/datetime.rst:2327
 msgid "Month as locale's full name."
@@ -2601,7 +2601,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2332
 msgid "``%m``"
-msgstr ""
+msgstr "``%m``"
 
 #: ../../library/datetime.rst:2332
 msgid "Month as a zero-padded decimal number."
@@ -2613,7 +2613,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2335
 msgid "``%y``"
-msgstr ""
+msgstr "``%y``"
 
 #: ../../library/datetime.rst:2335
 msgid "Year without century as a zero-padded decimal number."
@@ -2625,7 +2625,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2338
 msgid "``%Y``"
-msgstr ""
+msgstr "``%Y``"
 
 #: ../../library/datetime.rst:2338
 msgid "Year with century as a decimal number."
@@ -2637,7 +2637,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2341
 msgid "``%H``"
-msgstr ""
+msgstr "``%H``"
 
 #: ../../library/datetime.rst:2341
 msgid "Hour (24-hour clock) as a zero-padded decimal number."
@@ -2649,7 +2649,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2344
 msgid "``%I``"
-msgstr ""
+msgstr "``%I``"
 
 #: ../../library/datetime.rst:2344
 msgid "Hour (12-hour clock) as a zero-padded decimal number."
@@ -2657,7 +2657,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2347
 msgid "``%p``"
-msgstr ""
+msgstr "``%p``"
 
 #: ../../library/datetime.rst:2347
 msgid "Locale's equivalent of either AM or PM."
@@ -2677,7 +2677,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2350
 msgid "``%M``"
-msgstr ""
+msgstr "``%M``"
 
 #: ../../library/datetime.rst:2350
 msgid "Minute as a zero-padded decimal number."
@@ -2689,7 +2689,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2353
 msgid "``%S``"
-msgstr ""
+msgstr "``%S``"
 
 #: ../../library/datetime.rst:2353
 msgid "Second as a zero-padded decimal number."
@@ -2717,7 +2717,7 @@ msgstr "\\(5)"
 
 #: ../../library/datetime.rst:2360 ../../library/datetime.rst:2523
 msgid "``%z``"
-msgstr ""
+msgstr "``%z``"
 
 #: ../../library/datetime.rst:2360
 msgid ""
@@ -2735,7 +2735,7 @@ msgstr "\\(6)"
 
 #: ../../library/datetime.rst:2365 ../../library/datetime.rst:2538
 msgid "``%Z``"
-msgstr ""
+msgstr "``%Z``"
 
 #: ../../library/datetime.rst:2365
 msgid "Time zone name (empty string if the object is naive)."
@@ -2747,7 +2747,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2368
 msgid "``%j``"
-msgstr ""
+msgstr "``%j``"
 
 #: ../../library/datetime.rst:2368
 msgid "Day of the year as a zero-padded decimal number."
@@ -2759,7 +2759,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2371
 msgid "``%U``"
-msgstr ""
+msgstr "``%U``"
 
 #: ../../library/datetime.rst:2371
 msgid ""
@@ -2778,7 +2778,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2379
 msgid "``%W``"
-msgstr ""
+msgstr "``%W``"
 
 #: ../../library/datetime.rst:2379
 msgid ""
@@ -2789,7 +2789,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2387
 msgid "``%c``"
-msgstr ""
+msgstr "``%c``"
 
 #: ../../library/datetime.rst:2387
 msgid "Locale's appropriate date and time representation."
@@ -2805,7 +2805,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2392
 msgid "``%x``"
-msgstr ""
+msgstr "``%x``"
 
 #: ../../library/datetime.rst:2392
 msgid "Locale's appropriate date representation."
@@ -2825,7 +2825,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2396
 msgid "``%X``"
-msgstr ""
+msgstr "``%X``"
 
 #: ../../library/datetime.rst:2396
 msgid "Locale's appropriate time representation."
@@ -2841,7 +2841,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2399
 msgid "``%%``"
-msgstr ""
+msgstr "``%%``"
 
 #: ../../library/datetime.rst:2399
 msgid "A literal ``'%'`` character."
@@ -2849,7 +2849,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2399
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: ../../library/datetime.rst:2402
 msgid ""

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../c-api/buffer.rst:11
 msgid "Buffer Protocol"
-msgstr ""
+msgstr "Protokol Penampung *Buffer*"
 
 #: ../../c-api/buffer.rst:18
 msgid ""
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../c-api/buffer.rst:69
 msgid "Buffer structure"
-msgstr ""
+msgstr "Struktur penampung"
 
 #: ../../c-api/buffer.rst:71
 msgid ""
@@ -429,7 +429,7 @@ msgstr "ya"
 #: ../../c-api/buffer.rst:274 ../../c-api/buffer.rst:323
 #: ../../c-api/buffer.rst:325
 msgid "if needed"
-msgstr ""
+msgstr "jika dibutuhkan"
 
 #: ../../c-api/buffer.rst:276 ../../c-api/buffer.rst:278
 #: ../../c-api/buffer.rst:278 ../../c-api/buffer.rst:280
@@ -444,7 +444,7 @@ msgstr ""
 #: ../../c-api/buffer.rst:337 ../../c-api/buffer.rst:337
 #: ../../c-api/buffer.rst:337
 msgid "NULL"
-msgstr ""
+msgstr "NULL"
 
 #: ../../c-api/buffer.rst:287
 msgid "contiguity requests"
@@ -459,20 +459,20 @@ msgstr ""
 
 #: ../../c-api/buffer.rst:296 ../../c-api/buffer.rst:321
 msgid "contig"
-msgstr ""
+msgstr "konfigurasi"
 
 #: ../../c-api/buffer.rst:298 ../../c-api/buffer.rst:304
 #: ../../c-api/buffer.rst:335 ../../c-api/buffer.rst:337
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../c-api/buffer.rst:300
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../../c-api/buffer.rst:302
 msgid "C or F"
-msgstr ""
+msgstr "C or F"
 
 #: ../../c-api/buffer.rst:309
 msgid "compound requests"
@@ -493,27 +493,27 @@ msgstr ""
 
 #: ../../c-api/buffer.rst:321
 msgid "readonly"
-msgstr ""
+msgstr "baca saja"
 
 #: ../../c-api/buffer.rst:321
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #: ../../c-api/buffer.rst:323 ../../c-api/buffer.rst:325
 #: ../../c-api/buffer.rst:327 ../../c-api/buffer.rst:329
 #: ../../c-api/buffer.rst:331 ../../c-api/buffer.rst:333
 msgid "U"
-msgstr ""
+msgstr "U"
 
 #: ../../c-api/buffer.rst:323 ../../c-api/buffer.rst:327
 #: ../../c-api/buffer.rst:331 ../../c-api/buffer.rst:335
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../c-api/buffer.rst:325 ../../c-api/buffer.rst:329
 #: ../../c-api/buffer.rst:333 ../../c-api/buffer.rst:337
 msgid "1 or 0"
-msgstr ""
+msgstr "1 atau 0"
 
 #: ../../c-api/buffer.rst:342
 msgid "Complex arrays"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: ../../c-api/buffer.rst:428
 msgid "Buffer-related functions"
-msgstr ""
+msgstr "Fungsi terkait penampung"
 
 #: ../../c-api/buffer.rst:432
 msgid ""

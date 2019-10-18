@@ -831,7 +831,7 @@ msgstr ""
 
 #: ../../library/argparse.rst:964
 msgid "default"
-msgstr ""
+msgstr "bawaan"
 
 #: ../../library/argparse.rst:966
 msgid ""

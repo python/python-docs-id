@@ -1670,7 +1670,7 @@ msgstr ""
 #: ../../library/importlib.rst:1403 ../../library/importlib.rst:1419
 #: ../../library/importlib.rst:1563
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`"
 
 #: ../../library/importlib.rst:1409
 msgid ""
@@ -1897,7 +1897,7 @@ msgstr ""
 
 #: ../../library/importlib.rst:1618
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/importlib.rst:1621
 msgid "Importing programmatically"

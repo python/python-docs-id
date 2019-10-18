@@ -398,7 +398,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:340
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../c-api/memory.rst:340
 msgid "PyMem_RawMalloc"
@@ -777,7 +777,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:556
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../c-api/memory.rst:558
 msgid ""

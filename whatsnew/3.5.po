@@ -1041,7 +1041,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:871
 msgid "bz2"
-msgstr ""
+msgstr "bz2"
 
 #: ../../whatsnew/3.5.rst:873
 msgid ""

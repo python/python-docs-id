@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:05+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -280,7 +284,7 @@ msgstr ""
 #: ../../library/ctypes.rst:247 ../../library/ctypes.rst:249
 #: ../../library/ctypes.rst:252 ../../library/ctypes.rst:254
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../library/ctypes.rst:233
 msgid ":class:`c_ubyte`"
@@ -308,19 +312,19 @@ msgstr ""
 
 #: ../../library/ctypes.rst:239
 msgid ":class:`c_int`"
-msgstr ""
+msgstr ":class:`c_int`"
 
 #: ../../library/ctypes.rst:239
 msgid ":c:type:`int`"
-msgstr ""
+msgstr ":c:type:`int`"
 
 #: ../../library/ctypes.rst:241
 msgid ":class:`c_uint`"
-msgstr ""
+msgstr ":class:`c_uint`"
 
 #: ../../library/ctypes.rst:241
 msgid ":c:type:`unsigned int`"
-msgstr ""
+msgstr ":c:type:`unsigned int`"
 
 #: ../../library/ctypes.rst:243
 msgid ":class:`c_long`"
@@ -344,7 +348,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:247
 msgid ":c:type:`__int64` or :c:type:`long long`"
-msgstr ""
+msgstr ":c:type:`__int64` or :c:type:`long long`"
 
 #: ../../library/ctypes.rst:249
 msgid ":class:`c_ulonglong`"
@@ -352,7 +356,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:249
 msgid ":c:type:`unsigned __int64` or :c:type:`unsigned long long`"
-msgstr ""
+msgstr ":c:type:`unsigned __int64` or :c:type:`unsigned long long`"
 
 #: ../../library/ctypes.rst:252
 msgid ":class:`c_size_t`"
@@ -381,7 +385,7 @@ msgstr ""
 #: ../../library/ctypes.rst:257 ../../library/ctypes.rst:259
 #: ../../library/ctypes.rst:261
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../library/ctypes.rst:259
 msgid ":class:`c_double`"
@@ -433,7 +437,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:267
 msgid "int or ``None``"
-msgstr ""
+msgstr "int atau ``None``"
 
 #: ../../library/ctypes.rst:271
 msgid "The constructor accepts any object with a truth value."
@@ -750,7 +754,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:712
 msgid "Pointers"
-msgstr ""
+msgstr "Penunjuk *Pointers*"
 
 #: ../../library/ctypes.rst:714
 msgid ""
@@ -1704,7 +1708,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1705
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../library/ctypes.rst:1705
 msgid "Specifies an input parameter to the function."
@@ -1712,7 +1716,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1708
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/ctypes.rst:1708
 msgid "Output parameter.  The foreign function fills in a value."
@@ -1720,7 +1724,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1711
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/ctypes.rst:1711
 msgid "Input parameter which defaults to the integer zero."

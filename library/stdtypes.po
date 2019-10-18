@@ -2450,7 +2450,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:1949
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/stdtypes.rst:1951
 msgid "``\\n``"
@@ -2752,7 +2752,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2203 ../../library/stdtypes.rst:3353
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 #: ../../library/stdtypes.rst:2205 ../../library/stdtypes.rst:3355
 msgid "``'#'``"
@@ -3443,6 +3443,8 @@ msgid ""
 "The bytearray version of this method does *not* operate in place - it always"
 " produces a new object, even if no changes were made."
 msgstr ""
+"Versi bytearray dari metode ini *tidak* beroperasi di tempatnya - selalu "
+"menghasilkan objek baru, bahkan jika tidak ada perubahan yang dilakukan."
 
 #: ../../library/stdtypes.rst:2693
 msgid ""
@@ -4978,7 +4980,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:4698
 msgid "Type Objects"
-msgstr ""
+msgstr "Objek Tipe"
 
 #: ../../library/stdtypes.rst:4704
 msgid ""

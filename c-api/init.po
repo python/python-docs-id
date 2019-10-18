@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../c-api/init.rst:162 ../../c-api/init.rst:174
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../c-api/init.rst:166
 msgid ""

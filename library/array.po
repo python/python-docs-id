@@ -37,19 +37,19 @@ msgstr ""
 
 #: ../../library/array.rst:19
 msgid "Type code"
-msgstr ""
+msgstr "Kode tipe"
 
 #: ../../library/array.rst:19
 msgid "C Type"
-msgstr ""
+msgstr "Tipe C"
 
 #: ../../library/array.rst:19
 msgid "Python Type"
-msgstr ""
+msgstr "Tipe Python"
 
 #: ../../library/array.rst:19
 msgid "Minimum size in bytes"
-msgstr ""
+msgstr "Ukuran minimum dalam bytes"
 
 #: ../../library/array.rst:19
 msgid "Notes"
@@ -69,19 +69,19 @@ msgstr ""
 #: ../../library/array.rst:35 ../../library/array.rst:37
 #: ../../library/array.rst:39 ../../library/array.rst:41
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../library/array.rst:21 ../../library/array.rst:23
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../library/array.rst:23
 msgid "``'B'``"
-msgstr ""
+msgstr "``'B'``"
 
 #: ../../library/array.rst:23
 msgid "unsigned char"
-msgstr ""
+msgstr "unsigned char"
 
 #: ../../library/array.rst:25
 msgid "``'u'``"
@@ -89,17 +89,17 @@ msgstr "``'u'``"
 
 #: ../../library/array.rst:25
 msgid "Py_UNICODE"
-msgstr ""
+msgstr "Py_UNICODE"
 
 #: ../../library/array.rst:25
 msgid "Unicode character"
-msgstr ""
+msgstr "Unicode character"
 
 #: ../../library/array.rst:25 ../../library/array.rst:27
 #: ../../library/array.rst:29 ../../library/array.rst:31
 #: ../../library/array.rst:33
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/array.rst:25
 msgid "\\(1)"
@@ -107,19 +107,19 @@ msgstr "\\(1)"
 
 #: ../../library/array.rst:27
 msgid "``'h'``"
-msgstr ""
+msgstr "``'h'``"
 
 #: ../../library/array.rst:27
 msgid "signed short"
-msgstr ""
+msgstr "signed short"
 
 #: ../../library/array.rst:29
 msgid "``'H'``"
-msgstr ""
+msgstr "``'H'``"
 
 #: ../../library/array.rst:29
 msgid "unsigned short"
-msgstr ""
+msgstr "unsigned short"
 
 #: ../../library/array.rst:31
 msgid "``'i'``"
@@ -127,57 +127,57 @@ msgstr "``'i'``"
 
 #: ../../library/array.rst:31
 msgid "signed int"
-msgstr ""
+msgstr "signed int"
 
 #: ../../library/array.rst:33
 msgid "``'I'``"
-msgstr ""
+msgstr "``'I'``"
 
 #: ../../library/array.rst:33
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 #: ../../library/array.rst:35
 msgid "``'l'``"
-msgstr ""
+msgstr "``'l'``"
 
 #: ../../library/array.rst:35
 msgid "signed long"
-msgstr ""
+msgstr "signed long"
 
 #: ../../library/array.rst:35 ../../library/array.rst:37
 #: ../../library/array.rst:43
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/array.rst:37
 msgid "``'L'``"
-msgstr ""
+msgstr "``'L'``"
 
 #: ../../library/array.rst:37
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 #: ../../library/array.rst:39
 msgid "``'q'``"
-msgstr ""
+msgstr "``'q'``"
 
 #: ../../library/array.rst:39
 msgid "signed long long"
-msgstr ""
+msgstr "signed long long"
 
 #: ../../library/array.rst:39 ../../library/array.rst:41
 #: ../../library/array.rst:45
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../library/array.rst:41
 msgid "``'Q'``"
-msgstr ""
+msgstr "``'Q'``"
 
 #: ../../library/array.rst:41
 msgid "unsigned long long"
-msgstr ""
+msgstr "unsigned long long"
 
 #: ../../library/array.rst:43
 msgid "``'f'``"
@@ -186,7 +186,7 @@ msgstr "``'f'``"
 #: ../../library/array.rst:43 ../../library/array.rst:43
 #: ../../library/array.rst:45
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../library/array.rst:45
 msgid "``'d'``"
@@ -194,7 +194,7 @@ msgstr "``'d'``"
 
 #: ../../library/array.rst:45
 msgid "double"
-msgstr ""
+msgstr "double"
 
 #: ../../library/array.rst:48
 msgid "Notes:"
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../library/array.rst:263
 msgid "Module :mod:`struct`"
-msgstr ""
+msgstr "Modul :mod:`struct`"
 
 #: ../../library/array.rst:263
 msgid "Packing and unpacking of heterogeneous binary data."
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../library/array.rst:267
 msgid "Module :mod:`xdrlib`"
-msgstr ""
+msgstr "Modul :mod:`xdrlib`"
 
 #: ../../library/array.rst:266
 msgid ""

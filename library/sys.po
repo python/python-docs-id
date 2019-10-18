@@ -286,7 +286,7 @@ msgstr ""
 #: ../../library/sys.rst:229 ../../library/sys.rst:753
 #: ../../library/sys.rst:1409 ../../library/sys.rst:1608
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../library/sys.rst:234
 msgid ""
@@ -859,7 +859,7 @@ msgstr ""
 
 #: ../../library/sys.rst:578 ../../library/sys.rst:1182
 msgid ":ref:`Availability <availability>`: Unix."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix."
 
 #: ../../library/sys.rst:583
 msgid ""
@@ -1041,7 +1041,7 @@ msgstr ""
 
 #: ../../library/sys.rst:732
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/sys.rst:732
 msgid "Meaning"
@@ -1287,7 +1287,7 @@ msgstr ""
 
 #: ../../library/sys.rst:899 ../../library/sys.rst:1500
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/sys.rst:899 ../../library/sys.rst:1500
 msgid "Explanation"

@@ -155,7 +155,7 @@ msgstr ""
 #: ../../c-api/structures.rst:139 ../../c-api/structures.rst:279
 #: ../../c-api/structures.rst:345
 msgid "C Type"
-msgstr ""
+msgstr "Tipe C"
 
 #: ../../c-api/structures.rst:139 ../../c-api/structures.rst:279
 #: ../../c-api/structures.rst:345
@@ -196,7 +196,7 @@ msgstr ""
 #: ../../c-api/structures.rst:146 ../../c-api/structures.rst:283
 #: ../../c-api/structures.rst:290 ../../c-api/structures.rst:306
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../c-api/structures.rst:146
 msgid "flag bits indicating how the call should be constructed"
@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:286 ../../c-api/structures.rst:322
 msgid "Py_ssize_t"
-msgstr ""
+msgstr "Py_ssize_t"
 
 #: ../../c-api/structures.rst:286
 msgid ""
@@ -425,7 +425,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:308
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../c-api/structures.rst:309
 msgid "T_DOUBLE"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:309
 msgid "double"
-msgstr ""
+msgstr "double"
 
 #: ../../c-api/structures.rst:310
 msgid "T_STRING"
@@ -470,7 +470,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:315
 msgid "unsigned char"
-msgstr ""
+msgstr "unsigned char"
 
 #: ../../c-api/structures.rst:316
 msgid "T_UINT"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:316
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 #: ../../c-api/structures.rst:317
 msgid "T_USHORT"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:317
 msgid "unsigned short"
-msgstr ""
+msgstr "unsigned short"
 
 #: ../../c-api/structures.rst:318
 msgid "T_ULONG"
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:318
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 #: ../../c-api/structures.rst:319
 msgid "T_BOOL"
@@ -514,7 +514,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:321
 msgid "unsigned long long"
-msgstr ""
+msgstr "unsigned long long"
 
 #: ../../c-api/structures.rst:322
 msgid "T_PYSSIZET"

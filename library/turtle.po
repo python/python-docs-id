@@ -643,7 +643,7 @@ msgstr ""
 #: ../../library/turtle.rst:0 ../../library/turtle.rst:0
 #: ../../library/turtle.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
 #: ../../library/turtle.rst:247 ../../library/turtle.rst:292
 #: ../../library/turtle.rst:317 ../../library/turtle.rst:377
@@ -1494,7 +1494,7 @@ msgstr ""
 
 #: ../../library/turtle.rst:1544
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 #: ../../library/turtle.rst:1555
 msgid "Now add the Shape to the Screen's shapelist and use it:"
@@ -2296,11 +2296,11 @@ msgstr ""
 
 #: ../../library/turtle.rst:2392
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../library/turtle.rst:2392
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/turtle.rst:2392
 msgid "Features"
@@ -2479,7 +2479,7 @@ msgstr ""
 
 #: ../../library/turtle.rst:2442
 msgid "tree"
-msgstr ""
+msgstr "pohon"
 
 #: ../../library/turtle.rst:2442
 msgid "a (graphical) breadth first tree (using generators)"

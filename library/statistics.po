@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../../library/statistics.rst:396 ../../library/statistics.rst:466
 msgid "Examples:"
-msgstr ""
+msgstr "Contoh-contoh:"
 
 #: ../../library/statistics.rst:404
 msgid ""

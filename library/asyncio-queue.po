@@ -202,7 +202,7 @@ msgstr ""
 
 #: ../../library/asyncio-queue.rst:149
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/asyncio-queue.rst:153
 msgid ""
