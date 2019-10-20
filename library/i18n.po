@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../library/i18n.rst:5
 msgid "Internationalization"
-msgstr ""
+msgstr "Internasionalisasi"
 
 #: ../../library/i18n.rst:7
 msgid ""
@@ -28,7 +28,11 @@ msgid ""
 "language to be used in  program messages or by tailoring output to match "
 "local conventions."
 msgstr ""
+"Modul yang dijelaskan di dalam bab ini membantu kamu menulis perangkat lunak yang "
+"tidak tergantung pada bahasa dan lokal dengan menyediakan mekanisme untuk memilih "
+"bahasa yang akan digunakan dalam pesan program atau dengan menyesuaikan hasil agar sesuai "
+"dengan konvensi lokal"
 
 #: ../../library/i18n.rst:12
 msgid "The list of modules described in this chapter is:"
-msgstr ""
+msgstr "Daftar modul yang dijelaskan di dalam bab ini adalah:"

@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../../library/concurrent.rst:2
 msgid "The :mod:`concurrent` package"
-msgstr ""
+msgstr "Paket :mod:`concurrent`"
 
 #: ../../library/concurrent.rst:4
 msgid "Currently, there is only one module in this package:"
-msgstr ""
+msgstr "Saat ini hanya ada satu modul di paket ini:"
 
 #: ../../library/concurrent.rst:6
 msgid ":mod:`concurrent.futures` -- Launching parallel tasks"
-msgstr ""
+msgstr ":mod:`concurrent.futures` -- Menjalankan tugas-tugas paralel"
