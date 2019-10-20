@@ -81,15 +81,15 @@ msgstr ""
 
 #: ../../distributing/index.rst:32
 msgid "Key terms"
-msgstr "Istilah kunci"
+msgstr "Istilah utama"
 
 #: ../../distributing/index.rst:34
 msgid ""
 "the `Python Packaging Index <https://pypi.org>`__ is a public repository of "
 "open source licensed packages made available for use by other Python users"
 msgstr ""
-"`Python Packaging Index <https://pypi.org>` __ adalah repositori publik dari"
-" paket berlisensi open source yang dibuat tersedia untuk digunakan oleh "
+"`Python Packaging Index <https://pypi.org>`__ adalah repositori publik dari "
+"paket berlisensi open source yang dibuat tersedia untuk digunakan oleh "
 "pengguna Python lain"
 
 #: ../../distributing/index.rst:37
@@ -101,12 +101,12 @@ msgid ""
 "issue trackers on both `GitHub <https://github.com/pypa>`__ and `BitBucket "
 "<https://bitbucket.org/pypa/>`__."
 msgstr ""
-"`Python Packaging Authority <https://www.pypa.io/>` __ adalah kelompok "
+"`Python Packaging Authority <https://www.pypa.io/>`__ adalah kelompok "
 "pengembang dan penulis dokumentasi yang bertanggung jawab atas pemeliharaan "
 "dan evolusi alat pemaketan standar serta metadata dan format file standar "
 "yang terkait. Mereka mengurus berbagai alat, dokumentasi, dan pelacak "
-"masalah pada kedua `GitHub <https://github.com/pypa>` __ dan `BitBucket "
-"<https://bitbucket.org/pypa/>` __."
+"masalah pada kedua `GitHub <https://github.com/pypa>`__ dan `BitBucket "
+"<https://bitbucket.org/pypa/>`__."
 
 #: ../../distributing/index.rst:44
 msgid ""
@@ -151,9 +151,9 @@ msgid ""
 "extensions, to be installed on a system without needing to be built locally."
 msgstr ""
 "`wheel`_ (dalam konteks ini) adalah proyek yang menambahkan perintah "
-"``bdist_wheel`` ke :mod: `distutils` / `setuptools`_. Ini menghasilkan "
-"format paket biner lintas platform (disebut \"wheels\" atau \"wheels\" dan "
-"didefinisikan dalam :pep: `427`) yang memungkinkan pustaka Python, bahkan "
+"``bdist_wheel`` ke :mod:`distutils`/`setuptools`_. Ini menghasilkan format "
+"paket biner lintas platform (disebut \"wheels\" atau \"wheels\" dan "
+"didefinisikan dalam :pep:`427`) yang memungkinkan pustaka Python, bahkan "
 "yang termasuk ekstensi biner, untuk dipasang pada sistem tanpa perlu "
 "dibangun secara lokal."
 
@@ -253,19 +253,19 @@ msgid ""
 "The Python Packaging User Guide includes more details on the `currently "
 "recommended tools`_."
 msgstr ""
-"Panduan Pengguna Pemaketan Python menyertakan lebih banyak rincian tentang "
-"`alat yang direkomendasikan saat ini`_."
+"Panduan Pengguna *Python Packaging* menyertakan lebih banyak rincian tentang"
+" `alat yang direkomendasikan saat ini`_."
 
 #: ../../distributing/index.rst:123
 msgid "Reading the Python Packaging User Guide"
-msgstr "Membaca Panduan Pengguna Pengemasan Python"
+msgstr "Membaca Panduan Pengguna *Python Packaging*"
 
 #: ../../distributing/index.rst:125
 msgid ""
 "The Python Packaging User Guide covers the various key steps and elements "
 "involved in creating and publishing a project:"
 msgstr ""
-"Panduan Pengguna Pengemasan Python mencakup berbagai langkah kunci dan "
+"Panduan Pengguna *Python Packaging* mencakup berbagai langkah kunci dan "
 "elemen yang terlibat dalam membuat dan menerbitkan sebuah proyek:"
 
 #: ../../distributing/index.rst:128
@@ -338,12 +338,12 @@ msgid ""
 msgstr ""
 "Ini sebenarnya adalah topik yang cukup rumit, dengan berbagai alternatif "
 "yang tersedia tergantung pada apa yang ingin Anda capai. Lihat Panduan "
-"Pengguna Pemaketan Python untuk informasi dan rekomendasi lebih lanjut."
+"Pengguna *Python Packaging* untuk informasi dan rekomendasi lebih lanjut."
 
 #: ../../distributing/index.rst:168
 msgid ""
 "`Python Packaging User Guide: Binary Extensions "
 "<https://packaging.python.org/guides/packaging-binary-extensions/>`__"
 msgstr ""
-"`Panduan Pengguna Paket Python: Ekstensi Biner "
-"<https://packaging.python.org/guides/packaging-binary-extensions/>` __"
+"`Panduan Pengguna *Python Packaging*: Ekstensi Biner "
+"<https://packaging.python.org/guides/packaging-binary-extensions/>`__"

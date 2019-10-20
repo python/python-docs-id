@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:5
 msgid "Compound statements"
-msgstr ""
+msgstr "Pernyataan gabungan"
 
 #: ../../reference/compound_stmts.rst:9
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:45
 msgid "Summarizing:"
-msgstr ""
+msgstr "Meringkas:"
 
 #: ../../reference/compound_stmts.rst:67
 msgid ""
@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:82
 msgid "The :keyword:`!if` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!if`"
 
 #: ../../reference/compound_stmts.rst:90
 msgid "The :keyword:`if` statement is used for conditional execution:"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:107
 msgid "The :keyword:`!while` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!while`"
 
 #: ../../reference/compound_stmts.rst:115
 msgid ""
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:140
 msgid "The :keyword:`!for` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!for`"
 
 #: ../../reference/compound_stmts.rst:151
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:224
 msgid "The :keyword:`!try` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!try`"
 
 #: ../../reference/compound_stmts.rst:234
 msgid ""
@@ -251,7 +251,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:282
 msgid "was translated to ::"
-msgstr ""
+msgstr "diterjemahkan sebagai::"
 
 #: ../../reference/compound_stmts.rst:290
 msgid ""
@@ -334,7 +334,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:379
 msgid "The :keyword:`!with` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!with`"
 
 #: ../../reference/compound_stmts.rst:388
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:417
 msgid "The suite is executed."
-msgstr ""
+msgstr "Rangkaian dieksekusi"
 
 #: ../../reference/compound_stmts.rst:419
 msgid ""
@@ -415,7 +415,7 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:439
 #: ../../reference/compound_stmts.rst:656
 msgid "is equivalent to ::"
-msgstr ""
+msgstr "setara dengan::"
 
 #: ../../reference/compound_stmts.rst:445
 msgid "Support for multiple context expressions."
@@ -433,7 +433,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:462
 msgid "Function definitions"
-msgstr ""
+msgstr "Definisi fungsi"
 
 #: ../../reference/compound_stmts.rst:477
 msgid ""
@@ -470,7 +470,7 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:520
 #: ../../reference/compound_stmts.rst:686
 msgid "is roughly equivalent to ::"
-msgstr ""
+msgstr "kira-kira setara dengan ::"
 
 #: ../../reference/compound_stmts.rst:525
 msgid ""
@@ -592,7 +592,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:625
 msgid "Class definitions"
-msgstr ""
+msgstr "Definisi Kelas"
 
 #: ../../reference/compound_stmts.rst:640
 msgid "A class definition defines a class object (see section :ref:`types`):"
@@ -678,11 +678,11 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:719
 msgid "Coroutines"
-msgstr ""
+msgstr "*Coroutines*"
 
 #: ../../reference/compound_stmts.rst:727
 msgid "Coroutine function definition"
-msgstr ""
+msgstr "Definisi fungsi *coroutines*"
 
 #: ../../reference/compound_stmts.rst:737
 msgid ""
@@ -711,7 +711,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:760
 msgid "The :keyword:`!async for` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!async for`"
 
 #: ../../reference/compound_stmts.rst:765
 msgid ""
@@ -729,12 +729,12 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:772
 #: ../../reference/compound_stmts.rst:812
 msgid "The following code::"
-msgstr ""
+msgstr "kode berikut::"
 
 #: ../../reference/compound_stmts.rst:779
 #: ../../reference/compound_stmts.rst:817
 msgid "Is semantically equivalent to::"
-msgstr ""
+msgstr "Secara semantik setara dengan::"
 
 #: ../../reference/compound_stmts.rst:794
 msgid "See also :meth:`__aiter__` and :meth:`__anext__` for details."
@@ -748,7 +748,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:804
 msgid "The :keyword:`!async with` statement"
-msgstr ""
+msgstr "Pernyataan :keyword:`!async with`"
 
 #: ../../reference/compound_stmts.rst:809
 msgid ""
@@ -800,3 +800,6 @@ msgid ""
 "transformed into the namespace's ``__doc__`` item and therefore the class's "
 ":term:`docstring`."
 msgstr ""
+"Sebuah string literal yang muncul sebagai pernyataan pertama dalam tubuh "
+"kelas diubah menjadi item *namespace* ``__doc__`` dan karenanya "
+":term:`docstring` kelas."

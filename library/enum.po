@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../library/enum.rst:304
 msgid "Comparisons"
-msgstr ""
+msgstr "Perbandingan"
 
 #: ../../library/enum.rst:306
 msgid "Enumeration members are compared by identity::"

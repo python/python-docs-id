@@ -90,7 +90,7 @@ msgstr "Rilis"
 
 #: ../../license.rst:35
 msgid "Derived from"
-msgstr ""
+msgstr "Berasal dari"
 
 #: ../../license.rst:35
 msgid "Year"
@@ -235,34 +235,36 @@ msgid ""
 "Thanks to the many outside volunteers who have worked under Guido's "
 "direction to make these releases possible."
 msgstr ""
+"Terima kasih kepada banyak sukarelawan eksternal yang telah bekerja di bawah"
+" arahan Guido untuk mewujudkan rilis-rilis ini."
 
 #: ../../license.rst:73
 msgid "Terms and conditions for accessing or otherwise using Python"
-msgstr ""
+msgstr "Syarat dan ketentuan untuk mengakses atau menggunakan Python"
 
 #: ../../license.rst:77
 msgid "PSF LICENSE AGREEMENT FOR PYTHON |release|"
-msgstr ""
+msgstr "LISENSI PERJANJIAN PSF UNTUK PYTHON |release|"
 
 #: ../../license.rst:125
 msgid "BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0"
-msgstr ""
+msgstr "LISENSI PERJANJIAN BEOPEN.COM UNTUK PYTHON 2.0"
 
 #: ../../license.rst:127
 msgid "BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1"
-msgstr ""
+msgstr "LISENSI PERJANJIAN BEOPEN SUMBER TERBUKA PYTHON VERSI 1"
 
 #: ../../license.rst:172
 msgid "CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1"
-msgstr ""
+msgstr "LISENSI PERJANJIAN CNRI UNTUK PYTHON 1.6.1"
 
 #: ../../license.rst:237
 msgid "CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2"
-msgstr ""
+msgstr "LISENSI PERJANJIAN CWI UNTUK PYTHON 0.9.0 SAMPAI 1.2"
 
 #: ../../license.rst:262
 msgid "Licenses and Acknowledgements for Incorporated Software"
-msgstr ""
+msgstr "Lisensi dan Ucapan Terima Kasih untuk Perangkat Lunak yang Tergabung"
 
 #: ../../license.rst:264
 msgid ""
@@ -270,6 +272,9 @@ msgid ""
 "acknowledgements for third-party software incorporated in the Python "
 "distribution."
 msgstr ""
+"Bagian ini tidak lengkap, tetapi daftar lisensi dan ucapan terima kasih yang"
+" terus bertambah untuk perangkat lunak pihak ketiga yang tergabung dalam "
+"distribusi Python."
 
 #: ../../license.rst:269
 msgid "Mersenne Twister"
@@ -284,7 +289,7 @@ msgstr ""
 
 #: ../../license.rst:318
 msgid "Sockets"
-msgstr ""
+msgstr "Soket"
 
 #: ../../license.rst:320
 msgid ""
@@ -295,29 +300,30 @@ msgstr ""
 
 #: ../../license.rst:353
 msgid "Asynchronous socket services"
-msgstr ""
+msgstr "Layanan soket asinkron"
 
 #: ../../license.rst:355
 msgid ""
 "The :mod:`asynchat` and :mod:`asyncore` modules contain the following "
 "notice::"
 msgstr ""
+"Modul :mod:`asynchat` dan :mod:`asyncore` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:380
 msgid "Cookie management"
-msgstr ""
+msgstr "Pengelolaan *Cookie*"
 
 #: ../../license.rst:382
 msgid "The :mod:`http.cookies` module contains the following notice::"
-msgstr ""
+msgstr "Modul :mod:`http.cookies` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:408
 msgid "Execution tracing"
-msgstr ""
+msgstr "Pelacakan eksekusi"
 
 #: ../../license.rst:410
 msgid "The :mod:`trace` module contains the following notice::"
-msgstr ""
+msgstr "Modul :mod:`trace` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:441
 msgid "UUencode and UUdecode functions"
@@ -325,7 +331,7 @@ msgstr "UUencode and UUdecode functions"
 
 #: ../../license.rst:443
 msgid "The :mod:`uu` module contains the following notice::"
-msgstr ""
+msgstr "Modul :mod:`uu` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:471
 msgid "XML Remote Procedure Calls"
@@ -333,7 +339,7 @@ msgstr "XML Remote Procedure Calls"
 
 #: ../../license.rst:473
 msgid "The :mod:`xmlrpc.client` module contains the following notice::"
-msgstr ""
+msgstr "Modul :mod:`xmlrpc.client` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:504
 msgid "test_epoll"
@@ -341,17 +347,18 @@ msgstr "test_epoll"
 
 #: ../../license.rst:506
 msgid "The :mod:`test_epoll` module contains the following notice::"
-msgstr ""
+msgstr "Modul :mod:`test_epoll` berisi pemberitahuan berikut::"
 
 #: ../../license.rst:530
 msgid "Select kqueue"
-msgstr ""
+msgstr "Pilih kqueue"
 
 #: ../../license.rst:532
 msgid ""
 "The :mod:`select` module contains the following notice for the kqueue "
 "interface::"
 msgstr ""
+"Modul :mod:`select` berisi pemberitahuan berikut untuk antarmuka kqueue::"
 
 #: ../../license.rst:561
 msgid "SipHash24"
@@ -365,7 +372,7 @@ msgstr ""
 
 #: ../../license.rst:590
 msgid "strtod and dtoa"
-msgstr ""
+msgstr "strtod dan dtoa"
 
 #: ../../license.rst:592
 msgid ""
@@ -442,7 +449,7 @@ msgstr ""
 
 #: ../../license.rst:919
 msgid "W3C C14N test suite"
-msgstr ""
+msgstr "Rangkaian pengujian W3C C14N"
 
 #: ../../license.rst:921
 msgid ""
@@ -456,6 +463,8 @@ msgstr ""
 msgid ""
 "Copyright (c) 2013 W3C(R) (MIT, ERCIM, Keio, Beihang), All Rights Reserved."
 msgstr ""
+"Hak Cipta (c) 2013 W3C(R) (MIT, ERCIM, Keio, Beihang), Semua Hak Dilindungi "
+"Undang-Undang."
 
 #: ../../license.rst:929
 msgid ""

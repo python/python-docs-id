@@ -2909,7 +2909,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:2561
 msgid "Coroutines"
-msgstr ""
+msgstr "*Coroutines*"
 
 #: ../../reference/datamodel.rst:2565
 msgid "Awaitable Objects"

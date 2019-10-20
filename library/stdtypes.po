@@ -23,19 +23,23 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:8
 msgid "Built-in Types"
-msgstr ""
+msgstr "Tipe Bawaan"
 
 #: ../../library/stdtypes.rst:10
 msgid ""
 "The following sections describe the standard types that are built into the "
 "interpreter."
 msgstr ""
+"Bagian berikut menjelaskan tipe standar yang dibangun ke dalam "
+"*interpreter*."
 
 #: ../../library/stdtypes.rst:15
 msgid ""
 "The principal built-in types are numerics, sequences, mappings, classes, "
 "instances and exceptions."
 msgstr ""
+"Tipe bawaan utama adalah angka, urutan, pemetaan, kelas, *instance*, dan "
+"pengecualian."
 
 #: ../../library/stdtypes.rst:18
 msgid ""
@@ -43,6 +47,10 @@ msgid ""
 "rearrange their members in place, and don't return a specific item, never "
 "return the collection instance itself but ``None``."
 msgstr ""
+"Beberapa kelas koleksi bisa berubah *mutable*. Metode yang menambah, "
+"mengurangi, atau mengatur ulang anggota mereka di tempat, dan tidak "
+"mengembalikan item tertentu, tidak pernah mengembalikan contoh koleksi itu "
+"sendiri tetapi ``None``."
 
 #: ../../library/stdtypes.rst:22
 msgid ""
@@ -52,16 +60,24 @@ msgid ""
 "slightly different :func:`str` function).  The latter function is implicitly"
 " used when an object is written by the :func:`print` function."
 msgstr ""
+"Beberapa operasi didukung oleh beberapa jenis objek; khususnya, secara "
+"praktis semua objek dapat dibandingkan untuk kesetaraan, diuji untuk nilai "
+"kebenaran, dan dikonversi ke string (dengan fungsi :func:`repr` atau yang "
+"sedikit berbeda fungsi :func:`str`). Fungsi terakhir secara implisit "
+"digunakan ketika suatu objek ditulis oleh fungsi :func:`print`."
 
 #: ../../library/stdtypes.rst:32
 msgid "Truth Value Testing"
-msgstr ""
+msgstr "Pengujian Kebenaran Nilai"
 
 #: ../../library/stdtypes.rst:41
 msgid ""
 "Any object can be tested for truth value, for use in an :keyword:`if` or "
 ":keyword:`while` condition or as operand of the Boolean operations below."
 msgstr ""
+"Objek apa pun dapat diuji untuk nilai kebenaran, untuk digunakan dalam "
+":keyword:`if` atau kondisi :keyword:`while` atau sebagai operan dari operasi"
+" *Boolean* di bawah ini."
 
 #: ../../library/stdtypes.rst:46
 msgid ""
@@ -70,22 +86,30 @@ msgid ""
 "that returns zero, when called with the object. [1]_  Here are most of the "
 "built-in objects considered false:"
 msgstr ""
+"Secara default, objek dianggap benar kecuali kelasnya mendefinisikan metode "
+":meth:`__bool__` yang mengembalikan ``False`` atau metode :meth:`__len__` "
+"yang mengembalikan nol, ketika dipanggil dengan objek. [1]_ Berikut adalah "
+"sebagian besar objek bawaan yang dianggap salah:"
 
 #: ../../library/stdtypes.rst:55
 msgid "constants defined to be false: ``None`` and ``False``."
-msgstr ""
+msgstr "konstanta yang didefinisikan sebagai false: ``None`` dan ``False``."
 
 #: ../../library/stdtypes.rst:57
 msgid ""
 "zero of any numeric type: ``0``, ``0.0``, ``0j``, ``Decimal(0)``, "
 "``Fraction(0, 1)``"
 msgstr ""
+"nol dari semua tipe numerik: ``0``, ``0.0``, ``0j``, ``Decimal(0)``, "
+"``Fraction(0, 1)``"
 
 #: ../../library/stdtypes.rst:60
 msgid ""
 "empty sequences and collections: ``''``, ``()``, ``[]``, ``{}``, ``set()``, "
 "``range(0)``"
 msgstr ""
+"urutan dan koleksi kosong: ``''``, ``()``, ``[]``, ``{}``, ``set()``, "
+"``range(0)``"
 
 #: ../../library/stdtypes.rst:69
 msgid ""
@@ -94,15 +118,22 @@ msgid ""
 "otherwise stated. (Important exception: the Boolean operations ``or`` and "
 "``and`` always return one of their operands.)"
 msgstr ""
+"Operasi dan fungsi bawaan yang memiliki hasil *Boolean* selalu mengembalikan"
+" ``0`` atau ``False`` untuk yang bernilai salah dan ``1`` atau ``True`` "
+"untuk yang bernilai benar, kecuali dinyatakan lain. (Pengecualian penting: "
+"operasi *Boolean* ``or`` dan ``and`` selalu mengembalikan salah satu operan "
+"mereka.)"
 
 #: ../../library/stdtypes.rst:78
 msgid ""
 "Boolean Operations --- :keyword:`!and`, :keyword:`!or`, :keyword:`!not`"
 msgstr ""
+"Operasi *Boolean* --- :keyword:`!and`, :keyword:`!or`, :keyword:`!not`"
 
 #: ../../library/stdtypes.rst:82
 msgid "These are the Boolean operations, ordered by ascending priority:"
 msgstr ""
+"Berikut adalah operasi *Boolean*, diurutkan berdasarkan prioritas menaik:"
 
 #: ../../library/stdtypes.rst:85 ../../library/stdtypes.rst:143
 #: ../../library/stdtypes.rst:272 ../../library/stdtypes.rst:361
@@ -126,11 +157,11 @@ msgstr "Catatan"
 
 #: ../../library/stdtypes.rst:87
 msgid "``x or y``"
-msgstr ""
+msgstr "``x or y``"
 
 #: ../../library/stdtypes.rst:87
 msgid "if *x* is false, then *y*, else *x*"
-msgstr ""
+msgstr "jika *x* bernilai salah, maka *y*, lainnya *x*"
 
 #: ../../library/stdtypes.rst:87 ../../library/stdtypes.rst:282
 #: ../../library/stdtypes.rst:863 ../../library/stdtypes.rst:866
@@ -141,11 +172,11 @@ msgstr "\\(1)"
 
 #: ../../library/stdtypes.rst:90
 msgid "``x and y``"
-msgstr ""
+msgstr "``x and y``"
 
 #: ../../library/stdtypes.rst:90
 msgid "if *x* is false, then *x*, else *y*"
-msgstr ""
+msgstr "jika *x* bernilai salah, maka *x*, lainnya *y*"
 
 #: ../../library/stdtypes.rst:90 ../../library/stdtypes.rst:285
 #: ../../library/stdtypes.rst:305 ../../library/stdtypes.rst:1095
@@ -160,7 +191,7 @@ msgstr "``not x``"
 
 #: ../../library/stdtypes.rst:93
 msgid "if *x* is false, then ``True``, else ``False``"
-msgstr ""
+msgstr "jika *x* bernilai salah, maka ``True``, lainnya ``False``"
 
 #: ../../library/stdtypes.rst:93 ../../library/stdtypes.rst:875
 #: ../../library/stdtypes.rst:1098 ../../library/stdtypes.rst:2240
@@ -183,22 +214,29 @@ msgid ""
 "This is a short-circuit operator, so it only evaluates the second argument "
 "if the first one is false."
 msgstr ""
+"Ini adalah operator hubungan singkat, sehingga hanya mengevaluasi argumen "
+"kedua jika yang pertama salah."
 
 #: ../../library/stdtypes.rst:109
 msgid ""
 "This is a short-circuit operator, so it only evaluates the second argument "
 "if the first one is true."
 msgstr ""
+"Ini adalah operator hubungan singkat, sehingga hanya mengevaluasi argumen "
+"kedua jika yang pertama benar."
 
 #: ../../library/stdtypes.rst:113
 msgid ""
 "``not`` has a lower priority than non-Boolean operators, so ``not a == b`` "
 "is interpreted as ``not (a == b)``, and ``a == not b`` is a syntax error."
 msgstr ""
+"``not`` memiliki prioritas lebih rendah daripada operator non-Boolean, jadi "
+"``not a == b`` diartikan sebagai ``not (a == b)``, dan ``a == not b`` adalah"
+" kesalahan sintaksis."
 
 #: ../../library/stdtypes.rst:120
 msgid "Comparisons"
-msgstr ""
+msgstr "Perbandingan"
 
 #: ../../library/stdtypes.rst:134
 msgid ""
@@ -208,10 +246,16 @@ msgid ""
 "``x < y and y <= z``, except that *y* is evaluated only once (but in both "
 "cases *z* is not evaluated at all when ``x < y`` is found to be false)."
 msgstr ""
+"Ada delapan operasi perbandingan di Python. Mereka semua memiliki prioritas "
+"yang sama (yang lebih tinggi dari operasi *Boolean*). Perbandingan dapat "
+"dirantai secara berubah-ubah; misalnya, ``x < y <= z`` setara dengan ``x < y"
+" and y <= z``, kecuali bahwa *y* dievaluasi hanya sekali (tetapi dalam kedua"
+" kasus *z* tidak dievaluasi sama sekali ketika ``x < y`` ditemukan bernilai "
+"salah)."
 
 #: ../../library/stdtypes.rst:140
 msgid "This table summarizes the comparison operations:"
-msgstr ""
+msgstr "Tabel ini merangkum operasi perbandingan:"
 
 #: ../../library/stdtypes.rst:143 ../../library/stdtypes.rst:2203
 #: ../../library/stdtypes.rst:2226 ../../library/stdtypes.rst:3353
@@ -225,7 +269,7 @@ msgstr "``<``"
 
 #: ../../library/stdtypes.rst:145
 msgid "strictly less than"
-msgstr ""
+msgstr "lebih kecil dari"
 
 #: ../../library/stdtypes.rst:147
 msgid "``<=``"
@@ -233,7 +277,7 @@ msgstr "``<=``"
 
 #: ../../library/stdtypes.rst:147
 msgid "less than or equal"
-msgstr ""
+msgstr "lebih kecil atau sama"
 
 #: ../../library/stdtypes.rst:149
 msgid "``>``"
@@ -241,7 +285,7 @@ msgstr "``>``"
 
 #: ../../library/stdtypes.rst:149
 msgid "strictly greater than"
-msgstr ""
+msgstr "lebih besar dari"
 
 #: ../../library/stdtypes.rst:151
 msgid "``>=``"
@@ -249,7 +293,7 @@ msgstr "``>=``"
 
 #: ../../library/stdtypes.rst:151
 msgid "greater than or equal"
-msgstr ""
+msgstr "lebih besar atau sama"
 
 #: ../../library/stdtypes.rst:153
 msgid "``==``"
@@ -257,7 +301,7 @@ msgstr "``==``"
 
 #: ../../library/stdtypes.rst:153
 msgid "equal"
-msgstr ""
+msgstr "sama"
 
 #: ../../library/stdtypes.rst:155
 msgid "``!=``"
@@ -265,7 +309,7 @@ msgstr "``!=``"
 
 #: ../../library/stdtypes.rst:155
 msgid "not equal"
-msgstr ""
+msgstr "tidak sama"
 
 #: ../../library/stdtypes.rst:157
 msgid "``is``"
@@ -273,7 +317,7 @@ msgstr "``is``"
 
 #: ../../library/stdtypes.rst:157
 msgid "object identity"
-msgstr ""
+msgstr "identitas objek"
 
 #: ../../library/stdtypes.rst:159
 msgid "``is not``"
@@ -281,7 +325,7 @@ msgstr "``is not``"
 
 #: ../../library/stdtypes.rst:159
 msgid "negated object identity"
-msgstr ""
+msgstr "identitas objek dinegasikan"
 
 #: ../../library/stdtypes.rst:166
 msgid ""

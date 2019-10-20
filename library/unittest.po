@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 11:23+0000\n"
+"POT-Creation-Date: 2019-10-20 11:44+0000\n"
 "PO-Revision-Date: 2017-02-16 23:33+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -116,14 +116,12 @@ msgid ""
 msgstr ""
 
 #: ../../library/unittest.rst:61
-msgid ""
-"`Nose <https://nose.readthedocs.io/>`_ and `pytest "
-"<https://docs.pytest.org/>`_"
+msgid "`pytest <https://docs.pytest.org/>`_"
 msgstr ""
 
 #: ../../library/unittest.rst:60
 msgid ""
-"Third-party unittest frameworks with a lighter-weight syntax for writing "
+"Third-party unittest framework with a lighter-weight syntax for writing "
 "tests.  For example, ``assert func(10) == 42``."
 msgstr ""
 

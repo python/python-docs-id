@@ -38,10 +38,12 @@ msgid ""
 "This article explains the new features in Python 3.8, compared to 3.7. For "
 "full details, see the :ref:`changelog <changelog>`."
 msgstr ""
+"Artikel ini menjelaskan fitur-fitur baru di Python 3.8, dibandingkan dengan "
+"3.7. Untuk detail lengkap, lihat :ref:`changelog <changelog>`."
 
 #: ../../whatsnew/3.8.rst:50
 msgid "Python 3.8 was released on October 14th, 2019."
-msgstr ""
+msgstr "Python 3.8 dirilis pada 14 Oktober 2019."
 
 #: ../../whatsnew/3.8.rst:62
 msgid "Summary -- Release highlights"
@@ -53,7 +55,7 @@ msgstr "Fitur-fitur Baru"
 
 #: ../../whatsnew/3.8.rst:76
 msgid "Assignment expressions"
-msgstr ""
+msgstr "Ekspresi Pemberian Nilai"
 
 #: ../../whatsnew/3.8.rst:78
 msgid ""
@@ -106,7 +108,7 @@ msgstr "(Dikontribusikan oleh Emily Morehouse di :issue:`35224`.)"
 
 #: ../../whatsnew/3.8.rst:121
 msgid "Positional-only parameters"
-msgstr "Parameter hanya posisi"
+msgstr "Parameter posisi-saja"
 
 #: ../../whatsnew/3.8.rst:123
 msgid ""
@@ -1691,7 +1693,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1318
 msgid "Build and C API Changes"
-msgstr ""
+msgstr "Perubahan Pembangunan *Build* dan API C"
 
 #: ../../whatsnew/3.8.rst:1320
 msgid ""

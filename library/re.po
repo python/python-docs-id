@@ -883,7 +883,7 @@ msgstr ""
 
 #: ../../library/re.rst:625
 msgid "is equivalent to ::"
-msgstr ""
+msgstr "setara dengan::"
 
 #: ../../library/re.rst:629
 msgid ""

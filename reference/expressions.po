@@ -1324,7 +1324,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:1334
 msgid "Comparisons"
-msgstr ""
+msgstr "Perbandingan"
 
 #: ../../reference/expressions.rst:1346
 msgid ""

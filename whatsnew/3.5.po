@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:0
 msgid "Editors"
-msgstr ""
+msgstr "Editor"
 
 #: ../../whatsnew/3.5.rst:5
 msgid "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
-msgstr ""
+msgstr "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
 
 #: ../../whatsnew/3.5.rst:47
 msgid ""
@@ -2763,7 +2763,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:2173
 msgid "Build and C API Changes"
-msgstr ""
+msgstr "Perubahan Pembangunan *Build* dan API C"
 
 #: ../../whatsnew/3.5.rst:2175
 msgid "New ``calloc`` functions were added:"

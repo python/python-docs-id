@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: ../../library/io.rst:1013
 msgid "Performance"
-msgstr ""
+msgstr "Performa"
 
 #: ../../library/io.rst:1015
 msgid ""

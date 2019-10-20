@@ -1268,7 +1268,7 @@ msgstr ""
 
 #: ../../library/pickle.rst:1123
 msgid "Performance"
-msgstr ""
+msgstr "Performa"
 
 #: ../../library/pickle.rst:1125
 msgid ""

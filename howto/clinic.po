@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:0
 msgid "author"
-msgstr ""
+msgstr "penulis"
 
 #: ../../howto/clinic.rst:7
 msgid "Larry Hastings"

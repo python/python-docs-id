@@ -743,7 +743,7 @@ msgstr ""
 
 #: ../../whatsnew/2.1.rst:581
 msgid "New and Improved Modules"
-msgstr ""
+msgstr "Modul Baru dan Ditingkatkan"
 
 #: ../../whatsnew/2.1.rst:583
 msgid ""
@@ -872,7 +872,7 @@ msgstr ""
 
 #: ../../whatsnew/2.1.rst:684
 msgid "Other Changes and Fixes"
-msgstr ""
+msgstr "Perubahan dan Perbaikan Lain"
 
 #: ../../whatsnew/2.1.rst:686
 msgid ""
@@ -1018,7 +1018,7 @@ msgstr ""
 
 #: ../../whatsnew/2.1.rst:789
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Ucapan Terima Kasih"
 
 #: ../../whatsnew/2.1.rst:791
 msgid ""

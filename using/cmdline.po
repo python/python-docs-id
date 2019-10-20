@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:9
 msgid "Command line and environment"
-msgstr ""
+msgstr "Baris perintah dan lingkungan"
 
 #: ../../using/cmdline.rst:11
 msgid ""
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:23
 msgid "Command line"
-msgstr ""
+msgstr "Baris perintah"
 
 #: ../../using/cmdline.rst:25
 msgid "When invoking Python, you may specify any of these options::"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:37
 msgid "Interface options"
-msgstr ""
+msgstr "Opsi antarmuka"
 
 #: ../../using/cmdline.rst:39
 msgid ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:119
 msgid ":func:`runpy.run_module`"
-msgstr ""
+msgstr ":func:`runpy.run_module`"
 
 #: ../../using/cmdline.rst:119 ../../using/cmdline.rst:171
 msgid "Equivalent functionality directly available to Python code"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:126
 msgid "namespace packages are also supported"
-msgstr ""
+msgstr "paket *namespace* juga didukung"
 
 #: ../../using/cmdline.rst:133
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:170
 msgid ":func:`runpy.run_path`"
-msgstr ""
+msgstr ":func:`runpy.run_path`"
 
 #: ../../using/cmdline.rst:174
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:180
 msgid ":ref:`tut-invoking`"
-msgstr ""
+msgstr ":ref:`tut-invoking`"
 
 #: ../../using/cmdline.rst:182
 msgid "Automatic enabling of tab-completion and history editing."
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:187
 msgid "Generic options"
-msgstr ""
+msgstr "Opsi umum"
 
 #: ../../using/cmdline.rst:193
 msgid "Print a short description of all command line options."
@@ -306,11 +306,11 @@ msgstr ""
 
 #: ../../using/cmdline.rst:212
 msgid "The ``-VV`` option."
-msgstr ""
+msgstr "Opsi ``-VV``."
 
 #: ../../using/cmdline.rst:218
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Opsi lain-lain"
 
 #: ../../using/cmdline.rst:222
 msgid ""
@@ -437,7 +437,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:331
 msgid "The option is no longer ignored."
-msgstr ""
+msgstr "Opsi tidak lagi diabaikan."
 
 #: ../../using/cmdline.rst:339
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:360
 msgid "See also :envvar:`PYTHONUNBUFFERED`."
-msgstr ""
+msgstr "Lihat juga :envvar:`PYTHONUNBUFFERED`."
 
 #: ../../using/cmdline.rst:362
 msgid "The text layer of the stdout and stderr streams now is unbuffered."
@@ -543,7 +543,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:428
 msgid "``-X faulthandler`` to enable :mod:`faulthandler`;"
-msgstr ""
+msgstr "``-X faulthandler`` untuk mengaktifkan :mod:`faulthandler`;"
 
 #: ../../using/cmdline.rst:429
 msgid ""
@@ -603,7 +603,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:455
 msgid "Enable :ref:`asyncio debug mode <asyncio-debug-mode>`."
-msgstr ""
+msgstr "Mengaktifkan :ref:`asyncio debug mode <asyncio-debug-mode>`."
 
 #: ../../using/cmdline.rst:456
 msgid ""
@@ -642,7 +642,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:474
 msgid "The ``-X faulthandler`` option."
-msgstr ""
+msgstr "Opsi ``-X faulthandler``."
 
 #: ../../using/cmdline.rst:477
 msgid "The ``-X showrefcount`` and ``-X tracemalloc`` options."
@@ -664,15 +664,15 @@ msgstr ""
 
 #: ../../using/cmdline.rst:492
 msgid "Options you shouldn't use"
-msgstr ""
+msgstr "Opsi yang tidak boleh Anda gunakan"
 
 #: ../../using/cmdline.rst:496
 msgid "Reserved for use by Jython_."
-msgstr ""
+msgstr "Dicadangkan untuk digunakan oleh Jython_."
 
 #: ../../using/cmdline.rst:504
 msgid "Environment variables"
-msgstr ""
+msgstr "Variabel lingkungan"
 
 #: ../../using/cmdline.rst:506
 msgid ""
@@ -964,7 +964,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:772
 msgid "Install debug hooks:"
-msgstr ""
+msgstr "Pasang kait *debug*:"
 
 #: ../../using/cmdline.rst:774
 msgid ""
@@ -1031,7 +1031,7 @@ msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../using/cmdline.rst:815
 msgid "See :pep:`529` for more details."
-msgstr ""
+msgstr "Lihat :pep:`529` untuk lebih detail."
 
 #: ../../using/cmdline.rst:820
 msgid ""
@@ -1066,15 +1066,15 @@ msgstr ""
 
 #: ../../using/cmdline.rst:846
 msgid "``C.UTF-8``"
-msgstr ""
+msgstr "``C.UTF-8``"
 
 #: ../../using/cmdline.rst:847
 msgid "``C.utf8``"
-msgstr ""
+msgstr "``C.utf8``"
 
 #: ../../using/cmdline.rst:848
 msgid "``UTF-8``"
-msgstr ""
+msgstr "``UTF-8``"
 
 #: ../../using/cmdline.rst:850
 msgid ""
@@ -1118,11 +1118,11 @@ msgstr ""
 
 #: ../../using/cmdline.rst:879 ../../using/cmdline.rst:940
 msgid ":ref:`Availability <availability>`: \\*nix."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: \\*nix."
 
 #: ../../using/cmdline.rst:880
 msgid "See :pep:`538` for more details."
-msgstr ""
+msgstr "Lihat :pep:`538` untuk lebih detail."
 
 #: ../../using/cmdline.rst:886
 msgid ""
@@ -1139,7 +1139,7 @@ msgstr ""
 
 #: ../../using/cmdline.rst:897
 msgid "This means that:"
-msgstr ""
+msgstr "Ini berarti:"
 
 #: ../../using/cmdline.rst:899
 msgid ""
@@ -1222,11 +1222,11 @@ msgstr ""
 
 #: ../../using/cmdline.rst:941
 msgid "See :pep:`540` for more details."
-msgstr ""
+msgstr "Lihat :pep:`540` untuk lebih detail."
 
 #: ../../using/cmdline.rst:946
 msgid "Debug-mode variables"
-msgstr ""
+msgstr "Variabel mode debug"
 
 #: ../../using/cmdline.rst:948
 msgid "Setting these variables only has an effect in a debug build of Python."

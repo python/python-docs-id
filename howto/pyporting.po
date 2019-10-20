@@ -24,15 +24,15 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:5
 msgid "Porting Python 2 Code to Python 3"
-msgstr ""
+msgstr "Penyesuaian *Porting* Kode Python 2 ke Python 3"
 
 #: ../../howto/pyporting.rst:0
 msgid "author"
-msgstr ""
+msgstr "penulis"
 
 #: ../../howto/pyporting.rst:7
 msgid "Brett Cannon"
-msgstr ""
+msgstr "Brett Cannon"
 
 #: ../../howto/pyporting.rstNone
 msgid "Abstract"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:27
 msgid "The Short Explanation"
-msgstr ""
+msgstr "Penjelasan Singkat"
 
 #: ../../howto/pyporting.rst:29
 msgid ""

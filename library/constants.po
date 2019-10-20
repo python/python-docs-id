@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:04+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../library/constants.rst:4
 msgid "Built-in Constants"
-msgstr ""
+msgstr "Konstanta Bawaan"
 
 #: ../../library/constants.rst:6
 msgid "A small number of constants live in the built-in namespace.  They are:"
-msgstr ""
+msgstr "Sejumlah kecil konstanta berada di *namespace* bawaan. Antara lain:"
 
 #: ../../library/constants.rst:10
 msgid ""
@@ -98,7 +102,7 @@ msgstr ""
 
 #: ../../library/constants.rst:75
 msgid "Constants added by the :mod:`site` module"
-msgstr ""
+msgstr "Konstanta yang ditambahkan oleh modul :mod:`site`"
 
 #: ../../library/constants.rst:77
 msgid ""

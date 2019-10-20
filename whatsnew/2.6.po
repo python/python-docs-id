@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/2.6.rst:9
 msgid "A.M. Kuchling (amk at amk.ca)"
-msgstr ""
+msgstr "A.M. Kuchling (amk at amk.ca)"
 
 #: ../../whatsnew/2.6.rst:52
 msgid ""
@@ -1490,7 +1490,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1373
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "Ini setara dengan::"
 
 #: ../../whatsnew/2.6.rst:1382
 msgid ":pep:`3129` - Class Decorators"
@@ -1918,7 +1918,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1752
 msgid "Interpreter Changes"
-msgstr ""
+msgstr "Perubahan Interpreter"
 
 #: ../../whatsnew/2.6.rst:1754
 msgid ""
@@ -1956,7 +1956,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1783
 msgid "New and Improved Modules"
-msgstr ""
+msgstr "Modul Baru dan Ditingkatkan"
 
 #: ../../whatsnew/2.6.rst:1785
 msgid ""
@@ -3337,7 +3337,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2979
 msgid "Build and C API Changes"
-msgstr ""
+msgstr "Perubahan Pembangunan *Build* dan API C"
 
 #: ../../whatsnew/2.6.rst:2981
 msgid "Changes to Python's build process and to the C API include:"
@@ -3707,7 +3707,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:3308
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Ucapan Terima Kasih"
 
 #: ../../whatsnew/2.6.rst:3310
 msgid ""

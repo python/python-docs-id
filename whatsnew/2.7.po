@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:3
 msgid "What's New in Python 2.7"
-msgstr ""
+msgstr "Apa yang Baru di Python 2.7"
 
 #: ../../whatsnew/2.7.rst:0
 msgid "Author"
@@ -32,13 +32,15 @@ msgstr "Penulis"
 
 #: ../../whatsnew/2.7.rst:5
 msgid "A.M. Kuchling (amk at amk.ca)"
-msgstr ""
+msgstr "A.M. Kuchling (amk at amk.ca)"
 
 #: ../../whatsnew/2.7.rst:52
 msgid ""
 "This article explains the new features in Python 2.7.  Python 2.7 was "
 "released on July 3, 2010."
 msgstr ""
+"Artikel ini menjelaskan fitur-fitur baru dalam Python 2.7. Python 2.7 "
+"dirilis pada 3 Juli 2010."
 
 #: ../../whatsnew/2.7.rst:55
 msgid ""
@@ -73,7 +75,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:80
 msgid "The Future for Python 2.x"
-msgstr ""
+msgstr "Masa Depan untuk Python 2.x"
 
 #: ../../whatsnew/2.7.rst:82
 msgid ""
@@ -198,7 +200,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:170
 msgid "Python 3.1 Features"
-msgstr ""
+msgstr "Fitur-fitur Python 3.1"
 
 #: ../../whatsnew/2.7.rst:172
 msgid ""
@@ -722,7 +724,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:717
 msgid "is equivalent to::"
-msgstr ""
+msgstr "setara dengan::"
 
 #: ../../whatsnew/2.7.rst:723
 msgid ""
@@ -945,7 +947,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:907
 msgid "Interpreter Changes"
-msgstr ""
+msgstr "Perubahan Interpreter"
 
 #: ../../whatsnew/2.7.rst:909
 msgid ""
@@ -1091,7 +1093,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1025
 msgid "New and Improved Modules"
-msgstr ""
+msgstr "Modul Baru dan Ditingkatkan"
 
 #: ../../whatsnew/2.7.rst:1027
 msgid ""
@@ -1785,7 +1787,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1587
 msgid "(Contributed by Gregory P. Smith.)"
-msgstr ""
+msgstr "(Dikontribusikan oleh Gregory P. Smith.)"
 
 #: ../../whatsnew/2.7.rst:1589
 msgid ""
@@ -1881,7 +1883,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1663 ../../whatsnew/2.7.rst:2523
 msgid "Python 2.7 (and Python 2.6.5) will return:"
-msgstr ""
+msgstr "Python 2.7 (dan Python 2.6.5) akan mengembalikan:"
 
 #: ../../whatsnew/2.7.rst:1672 ../../whatsnew/2.7.rst:2532
 msgid ""
@@ -1956,7 +1958,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1733
 msgid "New module: importlib"
-msgstr ""
+msgstr "Modul baru: importlib"
 
 #: ../../whatsnew/2.7.rst:1735
 msgid ""
@@ -1982,7 +1984,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1752
 msgid "Here are some examples::"
-msgstr ""
+msgstr "Berikut beberapa contoh::"
 
 #: ../../whatsnew/2.7.rst:1763
 msgid ""
@@ -1992,7 +1994,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1768
 msgid "New module: sysconfig"
-msgstr ""
+msgstr "Modul baru: sysconfig"
 
 #: ../../whatsnew/2.7.rst:1770
 msgid ""
@@ -2079,7 +2081,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:1824
 msgid "Updated module: unittest"
-msgstr ""
+msgstr "Modul diperbarui: unittest"
 
 #: ../../whatsnew/2.7.rst:1826
 msgid ""
@@ -2360,7 +2362,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2005
 msgid "http://www.voidspace.org.uk/python/articles/unittest2.shtml"
-msgstr ""
+msgstr "http://www.voidspace.org.uk/python/articles/unittest2.shtml"
 
 #: ../../whatsnew/2.7.rst:2005
 msgid ""
@@ -2370,7 +2372,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2011
 msgid "Updated module: ElementTree 1.3"
-msgstr ""
+msgstr "Modul diperbarui: ElementTree 1.3"
 
 #: ../../whatsnew/2.7.rst:2013
 msgid ""
@@ -2461,7 +2463,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2100
 msgid "Build and C API Changes"
-msgstr ""
+msgstr "Perubahan Pembangunan *Build* dan API C"
 
 #: ../../whatsnew/2.7.rst:2102
 msgid "Changes to Python's build process and to the C API include:"
@@ -2701,7 +2703,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2277
 msgid "Capsules"
-msgstr ""
+msgstr "Kapsul"
 
 #: ../../whatsnew/2.7.rst:2279
 msgid ""
@@ -2838,7 +2840,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2391
 msgid "Other Changes and Fixes"
-msgstr ""
+msgstr "Perubahan dan Perbaikan Lain"
 
 #: ../../whatsnew/2.7.rst:2393
 msgid ""
@@ -2894,7 +2896,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2435
 msgid "Porting to Python 2.7"
-msgstr ""
+msgstr "Penyesuaian *Porting* ke Python 2.7"
 
 #: ../../whatsnew/2.7.rst:2437
 msgid ""
@@ -2936,7 +2938,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2466
 msgid "In the standard library:"
-msgstr ""
+msgstr "Di pustaka standar:"
 
 #: ../../whatsnew/2.7.rst:2468
 msgid ""
@@ -2980,7 +2982,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2535
 msgid "For C extensions:"
-msgstr ""
+msgstr "Untuk ekstensi C:"
 
 #: ../../whatsnew/2.7.rst:2537
 msgid ""
@@ -3206,7 +3208,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2688
 msgid "Documentation Changes"
-msgstr ""
+msgstr "Perubahan Dokumentasi"
 
 #: ../../whatsnew/2.7.rst:2690
 msgid ""
@@ -3338,7 +3340,7 @@ msgstr ""
 
 #: ../../whatsnew/2.7.rst:2794
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Ucapan Terima Kasih"
 
 #: ../../whatsnew/2.7.rst:2796
 msgid ""
@@ -3347,3 +3349,7 @@ msgid ""
 " Nick Coghlan, Philip Jenvey, Ryan Lovett, R. David Murray, Hugh Secker-"
 "Walker."
 msgstr ""
+"Penulis ingin mengucapkan terima kasih kepada orang-orang berikut untuk "
+"menawarkan saran, koreksi dan bantuan dengan berbagai konsep artikel ini: "
+"Nick Coghlan, Philip Jenvey, Ryan Lovett, R. David Murray, Hugh Secker-"
+"Walker."

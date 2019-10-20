@@ -1221,7 +1221,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1287
 msgid "Here are some examples::"
-msgstr ""
+msgstr "Berikut beberapa contoh::"
 
 #: ../../library/ctypes.rst:1298
 msgid ""

@@ -23,15 +23,15 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:3
 msgid "What's New In Python 3.6"
-msgstr ""
+msgstr "Apa yang Baru di Python 3.6"
 
 #: ../../whatsnew/3.6.rst:0
 msgid "Editors"
-msgstr ""
+msgstr "Editor"
 
 #: ../../whatsnew/3.6.rst:5
 msgid "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
-msgstr ""
+msgstr "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
 
 #: ../../whatsnew/3.6.rst:47
 msgid ""
@@ -2432,7 +2432,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1860
 msgid "Build and C API Changes"
-msgstr ""
+msgstr "Perubahan Pembangunan *Build* dan API C"
 
 #: ../../whatsnew/3.6.rst:1862
 msgid ""

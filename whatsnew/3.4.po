@@ -365,7 +365,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:238
 msgid "Documentation Changes"
-msgstr ""
+msgstr "Perubahan Dokumentasi"
 
 #: ../../whatsnew/3.4.rst:240
 msgid ""

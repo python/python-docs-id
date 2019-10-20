@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../howto/instrumentation.rst:0 ../../howto/instrumentation.rst:0
 msgid "author"
-msgstr ""
+msgstr "penulis"
 
 #: ../../howto/instrumentation.rst:9
 msgid "David Malcolm"

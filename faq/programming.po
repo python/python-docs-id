@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:5
 msgid "Programming FAQ"
-msgstr ""
+msgstr "Pemrograman FAQ"
 
 #: ../../faq/programming.rst:8
 msgid "Contents"
@@ -31,7 +31,7 @@ msgstr "Konten"
 
 #: ../../faq/programming.rst:12
 msgid "General Questions"
-msgstr ""
+msgstr "Pertanyaan Umum"
 
 #: ../../faq/programming.rst:15
 msgid ""
@@ -105,15 +105,15 @@ msgstr ""
 
 #: ../../faq/programming.rst:55
 msgid "Wing IDE (https://wingware.com/)"
-msgstr ""
+msgstr "Wing IDE (https://wingware.com/)"
 
 #: ../../faq/programming.rst:56
 msgid "Komodo IDE (https://komodoide.com/)"
-msgstr ""
+msgstr "Komodo IDE (https://komodoide.com/)"
 
 #: ../../faq/programming.rst:57
 msgid "PyCharm (https://www.jetbrains.com/pycharm/)"
-msgstr ""
+msgstr "PyCharm (https://www.jetbrains.com/pycharm/)"
 
 #: ../../faq/programming.rst:61
 msgid "Is there a tool to help find bugs or perform static analysis?"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:109
 msgid "http://www.py2exe.org/"
-msgstr ""
+msgstr "http://www.py2exe.org/"
 
 #: ../../faq/programming.rst:111
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:122
 msgid "Core Language"
-msgstr ""
+msgstr "Inti Bahasa"
 
 #: ../../faq/programming.rst:125
 msgid "Why am I getting an UnboundLocalError when the variable has a value?"
@@ -221,15 +221,15 @@ msgstr ""
 
 #: ../../faq/programming.rst:131
 msgid "This code:"
-msgstr ""
+msgstr "Kode ini:"
 
 #: ../../faq/programming.rst:139
 msgid "works, but this code:"
-msgstr ""
+msgstr "dapat beroperasi, tapi kode ini:"
 
 #: ../../faq/programming.rst:146
 msgid "results in an UnboundLocalError:"
-msgstr ""
+msgstr "memunculkan sebuah UnboundLocalError:"
 
 #: ../../faq/programming.rst:153
 msgid ""
@@ -349,15 +349,15 @@ msgstr ""
 
 #: ../../faq/programming.rst:271
 msgid "config.py::"
-msgstr ""
+msgstr "config.py::"
 
 #: ../../faq/programming.rst:275
 msgid "mod.py::"
-msgstr ""
+msgstr "mod.py::"
 
 #: ../../faq/programming.rst:280
 msgid "main.py::"
-msgstr ""
+msgstr "main.py::"
 
 #: ../../faq/programming.rst:286
 msgid ""
@@ -400,7 +400,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:307
 msgid "locally-developed modules"
-msgstr ""
+msgstr "modul dikembangkan secara lokal"
 
 #: ../../faq/programming.rst:309
 msgid ""
@@ -491,7 +491,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:371
 msgid "but::"
-msgstr ""
+msgstr "tapi::"
 
 #: ../../faq/programming.rst:377
 msgid ""
@@ -550,7 +550,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:439
 msgid "If you wrote code like::"
-msgstr ""
+msgstr "Jika kamu menulis kode seperti::"
 
 #: ../../faq/programming.rst:449
 msgid ""
@@ -620,7 +620,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:497
 msgid "In other words:"
-msgstr ""
+msgstr "Dengan kata lain:"
 
 #: ../../faq/programming.rst:499
 msgid ""
@@ -706,7 +706,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:597
 msgid "In both cases, ::"
-msgstr ""
+msgstr "Dalam kedua kasus, ::"
 
 #: ../../faq/programming.rst:601
 msgid "gives a callable object where ``taxes(10e6) == 0.3 * 10e6 + 2``."
@@ -824,7 +824,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:712
 msgid "not::"
-msgstr ""
+msgstr "tidak::"
 
 #: ../../faq/programming.rst:716
 msgid ""
@@ -866,7 +866,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:770
 msgid "Don't try this at home, kids!"
-msgstr ""
+msgstr "Jangan lakukan ini di rumah, anak-anak!"
 
 #: ../../faq/programming.rst:776
 msgid "What does the slash(/) in the parameter list of a function mean?"
@@ -891,7 +891,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:802
 msgid "Numbers and strings"
-msgstr ""
+msgstr "Angka dan string"
 
 #: ../../faq/programming.rst:805
 msgid "How do I specify hexadecimal and octal integers?"
@@ -939,7 +939,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:847
 msgid "How do I convert a string to a number?"
-msgstr ""
+msgstr "Bagaimana cara mengonversi string menjadi angka?"
 
 #: ../../faq/programming.rst:849
 msgid ""
@@ -977,7 +977,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:872
 msgid "How do I convert a number to a string?"
-msgstr ""
+msgstr "Bagaimana cara mengonversi angka menjadi string?"
 
 #: ../../faq/programming.rst:874
 msgid ""
@@ -1008,7 +1008,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:917
 msgid "There are various techniques."
-msgstr ""
+msgstr "Ada berbagai teknik."
 
 #: ../../faq/programming.rst:919
 msgid ""
@@ -1070,7 +1070,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:994
 msgid "Not as such."
-msgstr ""
+msgstr "Tidak seperti itu."
 
 #: ../../faq/programming.rst:996
 msgid ""
@@ -1098,7 +1098,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1013
 msgid "Performance"
-msgstr ""
+msgstr "Performa"
 
 #: ../../faq/programming.rst:1016
 msgid "My program is too slow. How do I speed it up?"
@@ -1220,6 +1220,8 @@ msgstr ""
 #: ../../faq/programming.rst:1089
 msgid "(another reasonably efficient idiom is to use :class:`io.StringIO`)"
 msgstr ""
+"(idiom lain yang cukup efisien adalah dengan menggunakan "
+":class:`io.StringIO`)"
 
 #: ../../faq/programming.rst:1091
 msgid ""
@@ -1230,7 +1232,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1100
 msgid "Sequences (Tuples/Lists)"
-msgstr ""
+msgstr "Urutan (*Tuple*/*List*)"
 
 #: ../../faq/programming.rst:1103
 msgid "How do I convert between tuples and lists?"
@@ -1260,7 +1262,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1120
 msgid "What's a negative index?"
-msgstr ""
+msgstr "Apa itu indeks negatif?"
 
 #: ../../faq/programming.rst:1122
 msgid ""
@@ -1307,7 +1309,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1154
 msgid "https://code.activestate.com/recipes/52560/"
-msgstr ""
+msgstr "https://code.activestate.com/recipes/52560/"
 
 #: ../../faq/programming.rst:1156
 msgid ""
@@ -1333,7 +1335,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1180
 msgid "Use a list::"
-msgstr ""
+msgstr "Gunakan sebuah *list*::"
 
 #: ../../faq/programming.rst:1184
 msgid ""
@@ -1434,7 +1436,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1276
 msgid "If you wrote::"
-msgstr ""
+msgstr "Jika kamu menulis::"
 
 #: ../../faq/programming.rst:1284
 msgid ""
@@ -1459,7 +1461,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1302
 msgid "When you write something like::"
-msgstr ""
+msgstr "Ketika kamu menulis sesuatu seperti::"
 
 #: ../../faq/programming.rst:1310
 msgid ""
@@ -1479,7 +1481,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1328
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "Ini setara dengan::"
 
 #: ../../faq/programming.rst:1333
 msgid ""
@@ -1542,11 +1544,11 @@ msgstr ""
 
 #: ../../faq/programming.rst:1394
 msgid "Objects"
-msgstr ""
+msgstr "Objek"
 
 #: ../../faq/programming.rst:1397
 msgid "What is a class?"
-msgstr ""
+msgstr "Apa itu kelas?"
 
 #: ../../faq/programming.rst:1399
 msgid ""
@@ -1568,7 +1570,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1412
 msgid "What is a method?"
-msgstr ""
+msgstr "Apa itu metode?"
 
 #: ../../faq/programming.rst:1414
 msgid ""
@@ -1579,7 +1581,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1424
 msgid "What is self?"
-msgstr ""
+msgstr "Apa itu *self*?"
 
 #: ../../faq/programming.rst:1426
 msgid ""
@@ -1591,7 +1593,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1431
 msgid "See also :ref:`why-self`."
-msgstr ""
+msgstr "Lihat juga :ref:`why-self`."
 
 #: ../../faq/programming.rst:1435
 msgid ""
@@ -1626,7 +1628,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1472
 msgid "What is delegation?"
-msgstr ""
+msgstr "Apa itu delegasi?"
 
 #: ../../faq/programming.rst:1474
 msgid ""
@@ -1761,7 +1763,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1603
 msgid "In C++ you'd write"
-msgstr ""
+msgstr "Di C++ kamu akan menulis"
 
 #: ../../faq/programming.rst:1612
 msgid ""
@@ -1895,7 +1897,7 @@ msgstr "Modul-Modul"
 
 #: ../../faq/programming.rst:1729
 msgid "How do I create a .pyc file?"
-msgstr ""
+msgstr "Bagaimana saya membuat berkas .pyc?"
 
 #: ../../faq/programming.rst:1731
 msgid ""
@@ -1988,11 +1990,11 @@ msgstr ""
 
 #: ../../faq/programming.rst:1800
 msgid "foo.py::"
-msgstr ""
+msgstr "foo.py::"
 
 #: ../../faq/programming.rst:1805
 msgid "bar.py::"
-msgstr ""
+msgstr "bar.py::"
 
 #: ../../faq/programming.rst:1810
 msgid "The problem is that the interpreter will perform the following steps:"
@@ -2000,7 +2002,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1812
 msgid "main imports foo"
-msgstr ""
+msgstr "main imports foo"
 
 #: ../../faq/programming.rst:1813
 msgid "Empty globals for foo are created"
@@ -2012,7 +2014,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1815
 msgid "foo imports bar"
-msgstr ""
+msgstr "foo imports bar"
 
 #: ../../faq/programming.rst:1816
 msgid "Empty globals for bar are created"
@@ -2029,7 +2031,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1819
 msgid "bar.foo_var = foo.foo_var"
-msgstr ""
+msgstr "bar.foo_var = foo.foo_var"
 
 #: ../../faq/programming.rst:1821
 msgid ""
@@ -2069,7 +2071,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:1838
 msgid "``import`` statements"
-msgstr ""
+msgstr "pernyataan ``import``"
 
 #: ../../faq/programming.rst:1839
 msgid ""
@@ -2135,4 +2137,4 @@ msgstr ""
 msgid ""
 "The nature of the problem is made clear if you print out the \"identity\" of"
 " the class objects::"
-msgstr ""
+msgstr "Sifat masalah dibuat jelas jika Anda mencetak \"identitas\" objek kelas::"
