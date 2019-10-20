@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../library/persistence.rst:5
 msgid "Data Persistence"
-msgstr ""
+msgstr "Persistensi Data"
 
 #: ../../library/persistence.rst:7
 msgid ""
@@ -29,7 +29,12 @@ msgid ""
 "objects from the bytes.  The various DBM-related modules support a family of"
 " hash-based file formats that store a mapping of strings to other strings."
 msgstr ""
+"Modul yang dijelaskan di dalam bab ini mendukung untuk menyimpan data Python di dalam sebuah "
+"bentuk persisten pada disk. Modul :mod:`pickle` dan :mod:`marshal` bisa "
+"mengubah banyak tipe data Python ke sebuah aliran byte dan kemudian membuat ulang "
+"objek dari bytenya. Berbagai modul terkait DBM mendukung serangkaian "
+" format file berbasis hash yang menyimpan pemetaan string ke string lain"
 
 #: ../../library/persistence.rst:13
 msgid "The list of modules described in this chapter is:"
-msgstr ""
+msgstr "Daftar modul yang dijelaskan di dalam bab ini adalah:"

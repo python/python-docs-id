@@ -19,13 +19,15 @@ msgstr ""
 
 #: ../../library/text.rst:6
 msgid "Text Processing Services"
-msgstr ""
+msgstr "Layanan Pemrosesan Teks"
 
 #: ../../library/text.rst:8
 msgid ""
 "The modules described in this chapter provide a wide range of string "
 "manipulation operations and other text processing services."
 msgstr ""
+"Modul yang dijelaskan dalam bab ini menyediakan berbagai "
+"operasi manipulasi string dan layanan pemrosesan text lainnya."
 
 #: ../../library/text.rst:11
 msgid ""
@@ -33,3 +35,6 @@ msgid ""
 "highly relevant to text processing. In addition, see the documentation for "
 "Python's built-in string type in :ref:`textseq`."
 msgstr ""
+"Modul :mod:`codecs` yang dijelaskan pada :ref:`binaryservices` juga "
+"sangat relevan untuk pemrosesan text. Lihat juga dokumentasi untuk "
+"tipe string bawaan Python di :ref:`textseq`."

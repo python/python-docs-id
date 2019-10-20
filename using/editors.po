@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/editors.rst:7
 msgid "Editors and IDEs"
-msgstr ""
+msgstr "Editor dan IDE"
 
 #: ../../using/editors.rst:9
 msgid ""
@@ -27,6 +27,8 @@ msgid ""
 "editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
 "checks."
 msgstr ""
+"Ada banyak IDE yang mendukung bahasa program Python. Banyak "
+"editor dan IDE menyediakan *highlight syntax*, alat *debugging*, dan menguji :pep:`8` "
 
 #: ../../using/editors.rst:12
 msgid ""
@@ -35,3 +37,7 @@ msgid ""
 "<https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a "
 "comprehensive list."
 msgstr ""
+"Silahkan mengunjungi `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ "
+"dan `Integrated Development Environments "
+"<https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ untuk "
+"daftar selengkapnya"
