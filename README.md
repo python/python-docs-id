@@ -28,9 +28,9 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 
 ### Berkontribusi untuk Menerjemahkan
 ---
-Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia.
+Situs dokumentasi Python Bahasa Indonesia: **https://docs.python.org/id/3.8/**
 
-Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
+Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org/id/3.8/), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia. Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
 
 Anda bisa berkontribusi dengan:
 
@@ -106,9 +106,7 @@ Kata atau kalimat yang diapit dua tanda bintang (*), akan dituliskan sebagai pen
 ---
 Untuk memastikan konsistensi dari para penerjemah, [berikut](https://github.com/python/python-docs-id/wiki/Daftar-Istilah) adalah sejumlah saran dan pengingat istilah yang sering digunakan.
 
-Jangan ragu untuk memberi masukan.
-
-Daftar istilah tersedia di [wiki](https://github.com/python/python-docs-id/wiki/Daftar-Istilah).
+Jangan ragu untuk memberi masukan. Daftar istilah tersedia di [wiki](https://github.com/python/python-docs-id/wiki/Daftar-Istilah).
 
 ### Keterangan Tambahan
 ---
