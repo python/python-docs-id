@@ -400,7 +400,7 @@ msgstr ""
 
 #: ../../library/string.rst:339 ../../library/string.rst:370
 msgid "Option"
-msgstr ""
+msgstr "Opsi"
 
 #: ../../library/string.rst:339 ../../library/string.rst:370
 #: ../../library/string.rst:438 ../../library/string.rst:449

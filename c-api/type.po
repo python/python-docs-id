@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 11:33+0000\n"
 "PO-Revision-Date: 2017-02-16 17:39+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../c-api/type.rst:6
 msgid "Type Objects"
-msgstr ""
+msgstr "Objek Tipe"
 
 #: ../../c-api/type.rst:13
 msgid "The C structure of the objects used to describe built-in types."
@@ -233,7 +237,7 @@ msgstr ""
 
 #: ../../c-api/type.rst:186
 msgid ":c:member:`~PyTypeObject.tp_dict`"
-msgstr ""
+msgstr ":c:member:`~PyTypeObject.tp_dict`"
 
 #: ../../c-api/type.rst:187
 msgid ":c:member:`~PyTypeObject.tp_mro`"
@@ -257,19 +261,19 @@ msgstr ""
 
 #: ../../c-api/type.rst:192
 msgid ":c:member:`~PyTypeObject.tp_weaklistoffset`"
-msgstr ""
+msgstr ":c:member:`~PyTypeObject.tp_weaklistoffset`"
 
 #: ../../c-api/type.rst:193
 msgid ":c:member:`~PyTypeObject.tp_dictoffset`"
-msgstr ""
+msgstr ":c:member:`~PyTypeObject.tp_dictoffset`"
 
 #: ../../c-api/type.rst:194
 msgid ":c:member:`~PyBufferProcs.bf_getbuffer`"
-msgstr ""
+msgstr ":c:member:`~PyBufferProcs.bf_getbuffer`"
 
 #: ../../c-api/type.rst:195
 msgid ":c:member:`~PyBufferProcs.bf_releasebuffer`"
-msgstr ""
+msgstr ":c:member:`~PyBufferProcs.bf_releasebuffer`"
 
 #: ../../c-api/type.rst:197
 msgid ""

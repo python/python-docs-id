@@ -1050,7 +1050,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:858
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../howto/logging.rst:861
 msgid ""

@@ -761,7 +761,7 @@ msgstr ""
 
 #: ../../library/typing.rst:921
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "Ini setara dengan::"
 
 #: ../../library/typing.rst:925
 msgid ""

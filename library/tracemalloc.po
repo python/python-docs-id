@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../library/tracemalloc.rst:34
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/tracemalloc.rst:37
 msgid "Display the top 10"
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../../library/tracemalloc.rst:395
 msgid "Examples:"
-msgstr ""
+msgstr "Contoh-contoh:"
 
 #: ../../library/tracemalloc.rst:397
 msgid ""

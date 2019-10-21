@@ -196,7 +196,7 @@ msgstr ""
 #: ../../library/os.rst:4256 ../../library/os.rst:4277
 #: ../../library/os.rst:4287 ../../library/os.rst:4296
 msgid ":ref:`Availability <availability>`: Unix."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix."
 
 #: ../../library/os.rst:105
 msgid ""
@@ -430,7 +430,7 @@ msgstr ""
 #: ../../library/os.rst:3782 ../../library/os.rst:3793
 #: ../../library/os.rst:3863 ../../library/os.rst:3889
 msgid ":ref:`Availability <availability>`: Unix, Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix, Windows."
 
 #: ../../library/os.rst:331
 msgid ""
@@ -1035,7 +1035,7 @@ msgstr ""
 #: ../../library/os.rst:3068 ../../library/os.rst:3151
 #: ../../library/os.rst:3322 ../../library/os.rst:3770
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`."
 
 #: ../../library/os.rst:964
 msgid ""
@@ -1494,7 +1494,7 @@ msgstr ""
 #: ../../library/os.rst:3251 ../../library/os.rst:3805
 #: ../../library/os.rst:3834
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../library/os.rst:1469
 msgid "Set the \"inheritable\" flag of the specified handle."
@@ -2371,7 +2371,7 @@ msgstr ""
 
 #: ../../library/os.rst:2259
 msgid "The function accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Fungsi yang menerima sebuah :term:`path-like object`."
 
 #: ../../library/os.rst:2261
 msgid "Added support for :ref:`file descriptors <path_fd>` on Unix."

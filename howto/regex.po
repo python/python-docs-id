@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:191
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../howto/regex.rst:191
 msgid "``a``"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:193
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../howto/regex.rst:193
 msgid "``abcbd``"
@@ -354,7 +354,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:197
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../howto/regex.rst:197 ../../howto/regex.rst:205
 msgid "*Failure*"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:202
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../howto/regex.rst:202 ../../howto/regex.rst:213
 msgid "``abcb``"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:205
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../howto/regex.rst:205
 msgid ""
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:209 ../../howto/regex.rst:213
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../howto/regex.rst:209
 msgid "``abc``"
@@ -855,7 +855,7 @@ msgstr ""
 
 #: ../../howto/regex.rst:537
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 #: ../../howto/regex.rst:537
 msgid "Meaning"

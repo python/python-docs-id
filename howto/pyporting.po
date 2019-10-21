@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Akhmat Safrudin <somat@artikulpi.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:45+0000\n"
-"Last-Translator: Akhmat Safrudin <somat@artikulpi.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +24,15 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:5
 msgid "Porting Python 2 Code to Python 3"
-msgstr ""
+msgstr "Penyesuaian *Porting* Kode Python 2 ke Python 3"
 
 #: ../../howto/pyporting.rst:0
 msgid "author"
-msgstr ""
+msgstr "penulis"
 
 #: ../../howto/pyporting.rst:7
 msgid "Brett Cannon"
-msgstr ""
+msgstr "Brett Cannon"
 
 #: ../../howto/pyporting.rstNone
 msgid "Abstract"
@@ -66,7 +67,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:27
 msgid "The Short Explanation"
-msgstr ""
+msgstr "Penjelasan Singkat"
 
 #: ../../howto/pyporting.rst:29
 msgid ""
@@ -372,7 +373,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:226
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #: ../../howto/pyporting.rst:228
 msgid "isdecimal"

@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:75
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../distutils/builtdist.rst:75
 msgid "Notes"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:203
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../distutils/builtdist.rst:203
 msgid "``name``"

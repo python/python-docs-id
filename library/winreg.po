@@ -109,6 +109,8 @@ msgid ""
 "*key* is an already open key, or one of the predefined :ref:`HKEY_* "
 "constants <hkey-constants>`."
 msgstr ""
+"*key* adalah sebuah kunci yang sudah terbuka, atau kunci yang sudah "
+"didefinisikan di konstanta :ref:`HKEY_* <hkey-constants>`."
 
 #: ../../library/winreg.rst:68 ../../library/winreg.rst:90
 msgid "*sub_key* is a string that names the key this method opens or creates."
@@ -230,7 +232,7 @@ msgstr ""
 #: ../../library/winreg.rst:210 ../../library/winreg.rst:320
 #: ../../library/winreg.rst:364
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 #: ../../library/winreg.rst:210 ../../library/winreg.rst:320
 #: ../../library/winreg.rst:364

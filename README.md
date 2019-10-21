@@ -28,10 +28,18 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 
 ### Berkontribusi untuk Menerjemahkan
 ---
+Situs dokumentasi Python Bahasa Indonesia: **https://docs.python.org/id/3.8/**
+
+Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org/id/3.8/), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia. Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
+
 Anda bisa berkontribusi dengan:
 
-* Membuat _pull requests_ di [repositori Github ini](https://github.com/python/python-docs-id/)
-* Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/language/id/)
+* Membuat _Pull Requests_ di [repositori Github ini](https://github.com/python/python-docs-id/), saat ini yang aktif adalah [branch 3.8](https://github.com/hilmanrdn/python-docs-id/tree/3.8)
+* Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/), diperlukan membuat akun terlebih dahulu
+
+Jika Anda tidak menggunakan Transifex, untuk mengubah berkas ".po" dibutuhkan aplikasi editor, misalnya: [POEdit](https://poedit.net/) tersedia multiplatform, [KDE Lokalize](https://kde.org/applications/development/org.kde.lokalize) hanya untuk Linux dengan KDE, atau banyak lagi [pilihan lainnya](https://en.wikipedia.org/wiki/Comparison_of_computer-assisted_translation_tools).
+
+##### Kami rekomendasikan agar Anda tidak mengubah dengan teks editor pada umumnya, kecuali anda sudah mengerti [format file .po](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
 
 ### Beri Masukan
 ---
@@ -48,13 +56,15 @@ setelah mencapai target berikut:
 * 100% dari **tutorial** :heavy_check_mark:
 * 100% dari **library/functions** (builtins) :heavy_check_mark:
 
-Target selanjutnya adalah **library/stdtypes** seperti yang disebutkan di situs devguide.
+Target selanjutnya sudah dituliskan di [papan proyek](https://github.com/python/python-docs-id/projects/1#column-6851563). Anda bisa memulai dengan menerjemahkan kata atau kalimat yang pendek terlebih dahulu.
 
 ##### Kami rekomendasikan agar Anda tidak mulai penerjemahan dari bagian "c-api" karena bagian itu berisi sangat teknis
 
 ### Panduan Singkat Penerjemahan
 ---
-Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, termasuk juga kata yang diapit dua *backtick* (`) setelahnya, dan pastikan tidak ada spasi setelah titik dua yang kedua dengan *backtick* yang pertama. Berikut beberapa contohnya (kata yang ada dalam *backtick* dapat bervariasi).
+Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, hanya terjemahkan kata yang diapit dua *backtick* (`) setelahnya jika diperlukan, misalnya kata atau kalimat tersebut bukan sebuah nama, istilah atau konstanta.
+
+Pastikan tidak ada spasi setelah titik dua yang kedua dengan *backtick* yang pertama. Berikut beberapa contohnya (kata yang ada dalam *backtick* dapat bervariasi, dan hanya diterjemahkan jika diperlukan).
 ```
 :attr:`the_answer`
 :class:`~decimal.Decimal`
@@ -74,6 +84,7 @@ Semua kata yang diapit dua tanda titik dua (:) **tidak perlu diterjemahkan**, te
 :option:`-s`
 :pep:`475`
 :program:`chmod`
+:samp:`{n}`
 :source:`Lib/html/entitas.py`
 :term:`>>>`
 ```
@@ -89,116 +100,17 @@ Semua kata yang diapit dua tanda *backtick* berganda (``), atau di Transifex dis
 ``.pyw``
 ```
 
+Kata atau kalimat yang diapit dua tanda bintang (*), akan dituliskan sebagai penulisan miring (*italic*). Sehingga sesuaikan dengan konteksnya, apakah perlu diterjemahkan atau tetap dipertahankan sebagai kata atau kalimat dalam penulisan miring. Misalnya tidak perlu diterjemahkan jika atau kalimat itu merupakan nama, istilah atau konstanta.
+
 ### Daftar Istilah
 ---
-Untuk memastikan konsistensi dari para penerjemah, berikut adalah sejumlah 
-saran dan pengingat istilah yang sering digunakan.
+Untuk memastikan konsistensi dari para penerjemah, [berikut](https://github.com/python/python-docs-id/wiki/Daftar-Istilah) adalah sejumlah saran dan pengingat istilah yang sering digunakan.
 
-Jangan ragu untuk memberi masukan.
-
-Istilah | Terjemahan
---- | ---
-*appetite* | selera
-*approximation* | pendekatan, perkiraan
-*arbitrary. arbitrarily.* | semena-mena, bergantian, berubah-ubah, acak. secara semena-mena.
-*assigned. assignment* | diisi. mengisi, memberikan tugas, memberikan nilai 
-*bind. binding. bound.* | mengikat. pengikatan. terikat.
-*boolean* | *boolean*
-*brace* | kurung kurawal
-*breaking change* | perubahan yang merusak
-*buffer* | penyangga
-*bug* | *bug*
-*built-in* | bawaan
-*cache* | *cache*
-*changelog* | catatan perubahan
-*compiler* | *compiler*
-*concatenation. concatenated.* | perangkaian, penggabungan. digabungkan.
-*constructor* | *constructor*, pembangun
-*container* | wadah, penampung
-*custom* | ubahsuai, ubahsuaian
-*debug* | *debug*
-*decoding* | penerjemahan, *decoding*
-*default* | bawaan
-*deprecated* | usang
-*dictionary* | *dictionary*
-*docstring* | *docstring*, String Dokumentasi
-*download* | unduh
-*e.g.* | mis.
-*emitting* | mengirimkan
-*enclosing* | lampiran
-*encoding* | penyandian, *encoding*
-*escape* | memisahkan
-*etc.* | dll.
-*exception* | pengecualian
-*fall back* | beralih
-*familiar* | terbiasa
-*fancy* | ajaib
-*file* | berkas
-*form* | bentuk, formulir
-*floating point* | pecahan
-*fraction* | pecahan
-*framework* | kerangka, kerangka kerja
-*generator* | pembangkit
-*header* | tajuk
-*handling. handler.* | penanganan. penangan.
-*hierarchy* | hierarki
-*indentation* | indentasi
-*inheritance* | pewarisan
-*instead* | alih-alih, dibandingkan (dengan)
-*interpreter* | *interpreter*
-*invocation* | seruan, pemanggilan
-*iterator* | *iterator*
-*iterables* | *iterables*
-*keyword* | kata kunci
-*layout* | tata letak
-*library* | pustaka
-*listcomp* | *listcomp*, *List Comprehension*, daftar pemahaman
-*loop* | perulangan, pengulangan
-*lossless* | berkurang
-*maintain* | merawat, mempertahankan
-*mangling* | *mangling*
-*n/a* | t/a
-*namespace* | *namespace*, ruang-nama
-*null* | *null*
-*ordering* | pengurutan, penyusunan
-*override* | menimpa
-*parse. parser. parsing* | urai. pengurai. mengurai.
-*pass. passing. passed.* | langkah. melewatkan. diteruskan, dikirimkan.
-*path* | jalur
-*pickle* | *pickle*, acar, asinan, yang diawetkan
-*placeholder* | *placeholder*, penampung
-*private* | privat
-*prompt* | *prompt*
-*quirk* | kekhasan
-*raise* | menimbulkan, memunculkan
-*range* | kisaran, rentang
-*rather* | alih-alih, dan bukan (dengan)
-*reliable* | andal
-*round* | pembulatan
-*run* | operasikan
-*runtime* | *runtime*
-*scope* | lingkup, cakupan
-*signature* | *signature*, pengenal, tanda tangan
-*site-packages* | *site-packages*
-*slice* | iris, irisan
-*snippet* | cuplikan
-*stack trace* | tumpukan jejak
-*startup* | permulaan
-*state* | kondisi, status
-*stream* | aliran, *stream*
-*suppressed* | dihilangkan, ditekan
-*template* | *template*, templat
-*thread* | *thread*, utas
-*trade-off* | mengorbankan
-*tuple* | *tuple*
-*twist* | *twist*
-*upload* | unggah
+Jangan ragu untuk memberi masukan. Daftar istilah tersedia di [wiki](https://github.com/python/python-docs-id/wiki/Daftar-Istilah).
 
 ### Keterangan Tambahan
 ---
-Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk 
-menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan 
-yang fungsinya sangat spesifik, seperti halnya Transifex.
+Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan yang fungsinya sangat spesifik, seperti halnya Transifex.
 
 Per tanggal **2019-10-17** proses penerjemahan yang dibutuhkan sebagai minimum dari standar PEP 545 sudah selesai.
 
@@ -222,6 +134,12 @@ Untuk mengirim pembaruan spesifik "resource" (misalnya python-newest.tutorial--i
 ```
 tx push -t -r python-newest.tutorial--interactive
 ```
+
+### Membangun Berkas-berkas ".po" ini Menjadi Dokumentasi Python
+
+Tujuan utama dari penerjemahan berkas ".po" adalah menerjemahkan situs [Dokumentasi Python](https://docs.python.org).
+
+Untuk membangun (_build_) dari berkas-berkas ini agar menjadi dokumentasi lengkap, langkahnya baru dicoba di sistem operasi Linux dan Mac tersedia di [wiki](https://github.com/python/python-docs-id/wiki/Membangun-Dokumentasi-Python-di-Komputer).
 
 ### Referensi
 ---

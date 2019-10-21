@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:23
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`"
 
 #: ../../library/imghdr.rst:26
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:30
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../library/imghdr.rst:30
 msgid "Image format"

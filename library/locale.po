@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../library/locale.rst:130
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../library/locale.rst:130
 msgid "Explanation"

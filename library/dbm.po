@@ -80,7 +80,7 @@ msgstr ""
 #: ../../library/dbm.rst:183 ../../library/dbm.rst:279
 #: ../../library/dbm.rst:349
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 #: ../../library/dbm.rst:48 ../../library/dbm.rst:164
 #: ../../library/dbm.rst:183 ../../library/dbm.rst:279

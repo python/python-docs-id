@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 11:23+0000\n"
+"POT-Creation-Date: 2019-10-20 11:44+0000\n"
 "PO-Revision-Date: 2017-02-16 23:33+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:53
 msgid "Module :mod:`doctest`"
-msgstr ""
+msgstr "Modul :mod:`doctest`"
 
 #: ../../library/unittest.rst:53
 msgid "Another test-support module with a very different flavor."
@@ -116,14 +116,12 @@ msgid ""
 msgstr ""
 
 #: ../../library/unittest.rst:61
-msgid ""
-"`Nose <https://nose.readthedocs.io/>`_ and `pytest "
-"<https://docs.pytest.org/>`_"
+msgid "`pytest <https://docs.pytest.org/>`_"
 msgstr ""
 
 #: ../../library/unittest.rst:60
 msgid ""
-"Third-party unittest frameworks with a lighter-weight syntax for writing "
+"Third-party unittest framework with a lighter-weight syntax for writing "
 "tests.  For example, ``assert func(10) == 42``."
 msgstr ""
 
@@ -163,7 +161,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:82
 msgid "Basic example"
-msgstr ""
+msgstr "Contoh dasar"
 
 #: ../../library/unittest.rst:84
 msgid ""
@@ -758,7 +756,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:684
 msgid "Test cases"
-msgstr ""
+msgstr "Kasus pengujian"
 
 #: ../../library/unittest.rst:688
 msgid ""
@@ -894,7 +892,7 @@ msgstr ""
 #: ../../library/unittest.rst:814 ../../library/unittest.rst:936
 #: ../../library/unittest.rst:1128 ../../library/unittest.rst:1255
 msgid "Method"
-msgstr ""
+msgstr "Metode"
 
 #: ../../library/unittest.rst:814 ../../library/unittest.rst:936
 #: ../../library/unittest.rst:1128
@@ -904,7 +902,7 @@ msgstr ""
 #: ../../library/unittest.rst:814 ../../library/unittest.rst:936
 #: ../../library/unittest.rst:1128 ../../library/unittest.rst:1255
 msgid "New in"
-msgstr ""
+msgstr "Baru di"
 
 #: ../../library/unittest.rst:816
 msgid ":meth:`assertEqual(a, b) <TestCase.assertEqual>`"
@@ -956,7 +954,7 @@ msgstr ""
 #: ../../library/unittest.rst:1263 ../../library/unittest.rst:1266
 #: ../../library/unittest.rst:1269 ../../library/unittest.rst:1272
 msgid "3.1"
-msgstr ""
+msgstr "3.1"
 
 #: ../../library/unittest.rst:831
 msgid ":meth:`assertIsNot(a, b) <TestCase.assertIsNot>`"
@@ -1010,7 +1008,7 @@ msgstr ""
 #: ../../library/unittest.rst:944 ../../library/unittest.rst:947
 #: ../../library/unittest.rst:1151 ../../library/unittest.rst:1154
 msgid "3.2"
-msgstr ""
+msgstr "3.2"
 
 #: ../../library/unittest.rst:849
 msgid ":meth:`assertNotIsInstance(a, b) <TestCase.assertNotIsInstance>`"
@@ -1147,7 +1145,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:950
 msgid "3.4"
-msgstr ""
+msgstr "3.4"
 
 #: ../../library/unittest.rst:957
 msgid ""
@@ -1202,7 +1200,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1005 ../../library/unittest.rst:1073
 msgid "or::"
-msgstr ""
+msgstr "atau::"
 
 #: ../../library/unittest.rst:1010
 msgid "Added under the name ``assertRaisesRegexp``."
@@ -1833,7 +1831,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1588
 msgid "Method Name"
-msgstr ""
+msgstr "Nama Metode"
 
 #: ../../library/unittest.rst:1588 ../../library/unittest.rst:1588
 msgid "Deprecated alias"
@@ -2929,7 +2927,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:2422
 msgid "Signal Handling"
-msgstr ""
+msgstr "Penanganan Sinyal *Signal*"
 
 #: ../../library/unittest.rst:2426
 msgid ""

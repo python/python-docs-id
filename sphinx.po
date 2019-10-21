@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Iwan Setiawan <stwn@duniasemu.org>, 2018
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
@@ -47,7 +46,8 @@ msgstr ""
 
 #: ../../tools/templates/indexcontent.html:8
 msgid "Welcome! This is the documentation for Python %(release)s."
-msgstr "Selamat datang! Ini adalah dokumentasi untuk%(release)s."
+msgstr ""
+"Selamat datang! Ini adalah dokumentasi Python untuk versi %(release)s."
 
 #: ../../tools/templates/indexcontent.html:10
 msgid "Parts of the documentation:"
@@ -105,7 +105,7 @@ msgstr "dokumen mendalam tentang topik tertentu"
 
 #: ../../tools/templates/indexcontent.html:26
 msgid "Installing Python Modules"
-msgstr "Memasang Modul-modul Python"
+msgstr "Instalasi Modul-modul Python"
 
 #: ../../tools/templates/indexcontent.html:27
 msgid "installing from the Python Package Index &amp; other sources"
@@ -121,7 +121,7 @@ msgstr "menerbitkan modul untuk instalasi oleh orang lain"
 
 #: ../../tools/templates/indexcontent.html:30
 msgid "Extending and Embedding"
-msgstr "Memperluas dan Menanamkan"
+msgstr "Memperluas dan Menggabungkan"
 
 #: ../../tools/templates/indexcontent.html:31
 msgid "tutorial for C/C++ programmers"
@@ -169,7 +169,7 @@ msgstr "Ikhtisar"
 
 #: ../../tools/templates/indexcontent.html:47
 msgid "the most important terms explained"
-msgstr "istilah yang paling penting dijelaskan"
+msgstr "penjelasan istilah-istilah yang paling penting"
 
 #: ../../tools/templates/indexcontent.html:49
 msgid "Search page"

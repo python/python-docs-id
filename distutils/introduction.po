@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../distutils/introduction.rst:49
 msgid "A Simple Example"
-msgstr ""
+msgstr "Contoh Sederhana"
 
 #: ../../distutils/introduction.rst:51
 msgid ""

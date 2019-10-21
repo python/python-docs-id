@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../../extending/newtypes.rst:286
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../extending/newtypes.rst:286
 msgid "Meaning"

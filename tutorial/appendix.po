@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:102
 msgid "The Customization Modules"
-msgstr "Modul Penyesuaian"
+msgstr "Modul Ubahsuaian"
 
 #: ../../tutorial/appendix.rst:104
 msgid ""

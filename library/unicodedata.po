@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../../library/unicodedata.rst:157
 msgid "Examples:"
-msgstr ""
+msgstr "Contoh-contoh:"
 
 #: ../../library/unicodedata.rst:177
 msgid "Footnotes"

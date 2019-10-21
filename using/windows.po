@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-15 11:41+0000\n"
 "PO-Revision-Date: 2017-02-16 23:42+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../using/windows.rst:7
 msgid "Using Python on Windows"
-msgstr ""
+msgstr "Menggunakan Python di Windows"
 
 #: ../../using/windows.rst:12
 msgid ""
@@ -247,15 +251,15 @@ msgstr ""
 
 #: ../../using/windows.rst:142
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../using/windows.rst:142
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../using/windows.rst:142
 msgid "Default"
-msgstr ""
+msgstr "Bawaan"
 
 #: ../../using/windows.rst:144
 msgid "InstallAllUsers"
@@ -270,7 +274,7 @@ msgstr ""
 #: ../../using/windows.rst:197 ../../using/windows.rst:205
 #: ../../using/windows.rst:208
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../using/windows.rst:146
 msgid "TargetDir"
@@ -323,7 +327,7 @@ msgstr ""
 
 #: ../../using/windows.rst:161 ../../using/windows.rst:210
 msgid "(empty)"
-msgstr ""
+msgstr "(kosong)"
 
 #: ../../using/windows.rst:164
 msgid "AssociateFiles"
@@ -340,7 +344,7 @@ msgstr ""
 #: ../../using/windows.rst:195 ../../using/windows.rst:199
 #: ../../using/windows.rst:201 ../../using/windows.rst:203
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../using/windows.rst:167
 msgid "CompileAll"
@@ -371,7 +375,7 @@ msgstr ""
 
 #: ../../using/windows.rst:177
 msgid "Include_doc"
-msgstr ""
+msgstr "Include_doc"
 
 #: ../../using/windows.rst:177
 msgid "Install Python manual"
@@ -379,7 +383,7 @@ msgstr ""
 
 #: ../../using/windows.rst:179
 msgid "Include_debug"
-msgstr ""
+msgstr "Include_debug"
 
 #: ../../using/windows.rst:179
 msgid "Install debug binaries"
@@ -387,7 +391,7 @@ msgstr ""
 
 #: ../../using/windows.rst:181
 msgid "Include_dev"
-msgstr ""
+msgstr "Include_dev"
 
 #: ../../using/windows.rst:181
 msgid "Install developer headers and libraries"
@@ -395,7 +399,7 @@ msgstr ""
 
 #: ../../using/windows.rst:184
 msgid "Include_exe"
-msgstr ""
+msgstr "Include_exe"
 
 #: ../../using/windows.rst:184
 msgid "Install :file:`python.exe` and related files"
@@ -403,7 +407,7 @@ msgstr ""
 
 #: ../../using/windows.rst:187
 msgid "Include_launcher"
-msgstr ""
+msgstr "Include_launcher"
 
 #: ../../using/windows.rst:187
 msgid "Install :ref:`launcher`."
@@ -419,7 +423,7 @@ msgstr ""
 
 #: ../../using/windows.rst:192
 msgid "Include_lib"
-msgstr ""
+msgstr "Include_lib"
 
 #: ../../using/windows.rst:192
 msgid "Install standard library and extension modules"
@@ -427,7 +431,7 @@ msgstr ""
 
 #: ../../using/windows.rst:195
 msgid "Include_pip"
-msgstr ""
+msgstr "Include_pip"
 
 #: ../../using/windows.rst:195
 msgid "Install bundled pip and setuptools"
@@ -435,7 +439,7 @@ msgstr ""
 
 #: ../../using/windows.rst:197
 msgid "Include_symbols"
-msgstr ""
+msgstr "Include_symbols"
 
 #: ../../using/windows.rst:197
 msgid "Install debugging symbols (`*`.pdb)"
@@ -443,7 +447,7 @@ msgstr ""
 
 #: ../../using/windows.rst:199
 msgid "Include_tcltk"
-msgstr ""
+msgstr "Include_tcltk"
 
 #: ../../using/windows.rst:199
 msgid "Install Tcl/Tk support and IDLE"
@@ -451,7 +455,7 @@ msgstr ""
 
 #: ../../using/windows.rst:201
 msgid "Include_test"
-msgstr ""
+msgstr "Include_test"
 
 #: ../../using/windows.rst:201
 msgid "Install standard library test suite"
@@ -459,7 +463,7 @@ msgstr ""
 
 #: ../../using/windows.rst:203
 msgid "Include_tools"
-msgstr ""
+msgstr "Include_tools"
 
 #: ../../using/windows.rst:203
 msgid "Install utility scripts"
@@ -650,7 +654,7 @@ msgstr ""
 
 #: ../../using/windows.rst:337
 msgid "Known Issues"
-msgstr ""
+msgstr "Masalah Dikenal"
 
 #: ../../using/windows.rst:339
 msgid ""
@@ -771,7 +775,7 @@ msgstr ""
 
 #: ../../using/windows.rst:438
 msgid "Python Application"
-msgstr ""
+msgstr "Aplikasi Python"
 
 #: ../../using/windows.rst:440
 msgid ""
@@ -847,7 +851,7 @@ msgstr ""
 
 #: ../../using/windows.rst:488
 msgid "`ActivePython <https://www.activestate.com/activepython/>`_"
-msgstr ""
+msgstr "`ActivePython <https://www.activestate.com/activepython/>`_"
 
 #: ../../using/windows.rst:488
 msgid "Installer with multi-platform compatibility, documentation, PyWin32"
@@ -855,7 +859,7 @@ msgstr ""
 
 #: ../../using/windows.rst:492
 msgid "`Anaconda <https://www.anaconda.com/download/>`_"
-msgstr ""
+msgstr "`Anaconda <https://www.anaconda.com/download/>`_"
 
 #: ../../using/windows.rst:491
 msgid ""
@@ -865,7 +869,7 @@ msgstr ""
 
 #: ../../using/windows.rst:496
 msgid "`Canopy <https://www.enthought.com/product/canopy/>`_"
-msgstr ""
+msgstr "`Canopy <https://www.enthought.com/product/canopy/>`_"
 
 #: ../../using/windows.rst:495
 msgid ""
@@ -875,7 +879,7 @@ msgstr ""
 
 #: ../../using/windows.rst:500
 msgid "`WinPython <https://winpython.github.io/>`_"
-msgstr ""
+msgstr "`WinPython <https://winpython.github.io/>`_"
 
 #: ../../using/windows.rst:499
 msgid ""
@@ -961,7 +965,7 @@ msgstr ""
 
 #: ../../using/windows.rst:563
 msgid "https://www.microsoft.com/en-us/wdsi/help/folder-variables"
-msgstr ""
+msgstr "https://www.microsoft.com/en-us/wdsi/help/folder-variables"
 
 #: ../../using/windows.rst:563
 msgid "Environment variables in Windows NT"
@@ -969,7 +973,7 @@ msgstr ""
 
 #: ../../using/windows.rst:566
 msgid "https://technet.microsoft.com/en-us/library/cc754250.aspx"
-msgstr ""
+msgstr "https://technet.microsoft.com/en-us/library/cc754250.aspx"
 
 #: ../../using/windows.rst:566
 msgid "The SET command, for temporarily modifying environment variables"
@@ -977,7 +981,7 @@ msgstr ""
 
 #: ../../using/windows.rst:569
 msgid "https://technet.microsoft.com/en-us/library/cc755104.aspx"
-msgstr ""
+msgstr "https://technet.microsoft.com/en-us/library/cc755104.aspx"
 
 #: ../../using/windows.rst:569
 msgid "The SETX command, for permanently modifying environment variables"
@@ -988,6 +992,8 @@ msgid ""
 "https://support.microsoft.com/en-us/help/310519/how-to-manage-environment-"
 "variables-in-windows-xp"
 msgstr ""
+"https://support.microsoft.com/en-us/help/310519/how-to-manage-environment-"
+"variables-in-windows-xp"
 
 #: ../../using/windows.rst:572
 msgid "How To Manage Environment Variables in Windows XP"
@@ -995,7 +1001,7 @@ msgstr ""
 
 #: ../../using/windows.rst:574
 msgid "https://www.chem.gla.ac.uk/~louis/software/faq/q1.html"
-msgstr ""
+msgstr "https://www.chem.gla.ac.uk/~louis/software/faq/q1.html"
 
 #: ../../using/windows.rst:575
 msgid "Setting Environment variables, Louis J. Farrugia"
@@ -1125,7 +1131,7 @@ msgstr ""
 
 #: ../../using/windows.rst:685
 msgid "From a script"
-msgstr ""
+msgstr "Dari sebuah skrip"
 
 #: ../../using/windows.rst:687
 msgid ""
@@ -1203,19 +1209,19 @@ msgstr ""
 
 #: ../../using/windows.rst:746
 msgid "``/usr/bin/env python``"
-msgstr ""
+msgstr "``/usr/bin/env python``"
 
 #: ../../using/windows.rst:747
 msgid "``/usr/bin/python``"
-msgstr ""
+msgstr "``/usr/bin/python``"
 
 #: ../../using/windows.rst:748
 msgid "``/usr/local/bin/python``"
-msgstr ""
+msgstr "``/usr/local/bin/python``"
 
 #: ../../using/windows.rst:749
 msgid "``python``"
-msgstr ""
+msgstr "``python``"
 
 #: ../../using/windows.rst:751
 msgid "For example, if the first line of your script starts with"
@@ -1271,7 +1277,7 @@ msgstr ""
 
 #: ../../using/windows.rst:793
 msgid "Customization"
-msgstr ""
+msgstr "Ubahsuaian"
 
 #: ../../using/windows.rst:796
 msgid "Customization via INI files"
@@ -1352,7 +1358,7 @@ msgstr ""
 
 #: ../../using/windows.rst:847
 msgid "Examples:"
-msgstr ""
+msgstr "Contoh-contoh:"
 
 #: ../../using/windows.rst:849
 msgid ""
@@ -1399,7 +1405,7 @@ msgstr ""
 
 #: ../../using/windows.rst:874
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 #: ../../using/windows.rst:876
 msgid "Setting ``PY_PYTHON=3.1`` is equivalent to the INI file containing:"
@@ -1637,7 +1643,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1037
 msgid "PyWin32"
-msgstr ""
+msgstr "PyWin32"
 
 #: ../../using/windows.rst:1039
 msgid ""
@@ -1658,7 +1664,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1047
 msgid "Registry"
-msgstr ""
+msgstr "Registry"
 
 #: ../../using/windows.rst:1048
 msgid "Event log"
@@ -1681,22 +1687,23 @@ msgstr ""
 msgid ""
 "`Win32 How Do I...? <http://timgolden.me.uk/python/win32_how_do_i.html>`_"
 msgstr ""
+"`Win32 How Do I...? <http://timgolden.me.uk/python/win32_how_do_i.html>`_"
 
 #: ../../using/windows.rst:1059
 msgid "by Tim Golden"
-msgstr ""
+msgstr "oleh Tim Golden"
 
 #: ../../using/windows.rst:1061
 msgid "`Python and COM <http://www.boddie.org.uk/python/COM.html>`_"
-msgstr ""
+msgstr "`Python and COM <http://www.boddie.org.uk/python/COM.html>`_"
 
 #: ../../using/windows.rst:1062
 msgid "by David and Paul Boddie"
-msgstr ""
+msgstr "oleh David dan Paul Boddie"
 
 #: ../../using/windows.rst:1066
 msgid "cx_Freeze"
-msgstr ""
+msgstr "cx_Freeze"
 
 #: ../../using/windows.rst:1068
 msgid ""
@@ -1709,7 +1716,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1076
 msgid "WConio"
-msgstr ""
+msgstr "WConio"
 
 #: ../../using/windows.rst:1078
 msgid ""
@@ -1758,6 +1765,8 @@ msgid ""
 "`Python + Windows + distutils + SWIG + gcc MinGW "
 "<http://sebsauvage.net/python/mingw.html>`_"
 msgstr ""
+"`Python + Windows + distutils + SWIG + gcc MinGW "
+"<http://sebsauvage.net/python/mingw.html>`_"
 
 #: ../../using/windows.rst:1107
 msgid ""
@@ -1768,7 +1777,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1111
 msgid "`MingW -- Python extensions <http://www.mingw.org/wiki/FAQ#toc14>`_"
-msgstr ""
+msgstr "`MingW -- Python extensions <http://www.mingw.org/wiki/FAQ#toc14>`_"
 
 #: ../../using/windows.rst:1115
 msgid "Other Platforms"

@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:19 ../../library/asyncio-task.rst:121
 msgid "Coroutines"
-msgstr ""
+msgstr "*Coroutines*"
 
 #: ../../library/asyncio-task.rst:21
 msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:407
 msgid "is equivalent to::"
-msgstr ""
+msgstr "setara dengan::"
 
 #: ../../library/asyncio-task.rst:411
 msgid ""
@@ -476,11 +476,11 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:518
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/asyncio-task.rst:518
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/asyncio-task.rst:520
 msgid ":const:`FIRST_COMPLETED`"

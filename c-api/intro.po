@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:34
 msgid "Coding standards"
-msgstr ""
+msgstr "Standar pengkodean *coding*"
 
 #: ../../c-api/intro.rst:36
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:46
 msgid "Include Files"
-msgstr ""
+msgstr "Menyertakan Berkas"
 
 #: ../../c-api/intro.rst:48
 msgid ""
@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:101
 msgid "Useful macros"
-msgstr ""
+msgstr "Makro yang berguna"
 
 #: ../../c-api/intro.rst:103
 msgid ""
@@ -222,7 +222,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:181
 msgid "Objects, Types and Reference Counts"
-msgstr ""
+msgstr "Objek, Tipe dan Jumlah Referensi"
 
 #: ../../c-api/intro.rst:185
 msgid ""

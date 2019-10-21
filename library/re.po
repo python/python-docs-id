@@ -883,7 +883,7 @@ msgstr ""
 
 #: ../../library/re.rst:625
 msgid "is equivalent to ::"
-msgstr ""
+msgstr "setara dengan::"
 
 #: ../../library/re.rst:629
 msgid ""
@@ -1588,7 +1588,7 @@ msgstr ""
 
 #: ../../library/re.rst:1409
 msgid "``%c``"
-msgstr ""
+msgstr "``%c``"
 
 #: ../../library/re.rst:1411
 msgid "``%5c``"
@@ -1600,7 +1600,7 @@ msgstr ""
 
 #: ../../library/re.rst:1413
 msgid "``%d``"
-msgstr ""
+msgstr "``%d``"
 
 #: ../../library/re.rst:1413
 msgid "``[-+]?\\d+``"

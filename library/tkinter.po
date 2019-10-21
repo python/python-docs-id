@@ -462,7 +462,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:279
 msgid "*options*"
-msgstr ""
+msgstr "*options*"
 
 #: ../../library/tkinter.rst:276
 msgid ""
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:438
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 #: ../../library/tkinter.rst:438
 msgid "Meaning"
@@ -701,11 +701,11 @@ msgstr ""
 
 #: ../../library/tkinter.rst:440
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../library/tkinter.rst:440
 msgid "option name"
-msgstr ""
+msgstr "nama opsi"
 
 #: ../../library/tkinter.rst:440 ../../library/tkinter.rst:442
 msgid "``'relief'``"
@@ -713,7 +713,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:442
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../library/tkinter.rst:442
 msgid "option name for database lookup"
@@ -721,7 +721,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:444
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/tkinter.rst:444
 msgid "option class for database lookup"
@@ -733,7 +733,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:447
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../library/tkinter.rst:447
 msgid "default value"
@@ -745,7 +745,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:449
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/tkinter.rst:449
 msgid "current value"
@@ -983,7 +983,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:647
 msgid "cursor"
-msgstr ""
+msgstr "kursor"
 
 #: ../../library/tkinter.rst:644
 msgid ""
@@ -1008,7 +1008,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:659
 msgid "font"
-msgstr ""
+msgstr "font"
 
 #: ../../library/tkinter.rst:657
 msgid ""
@@ -1149,7 +1149,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:732
 msgid "focus"
-msgstr ""
+msgstr "fokus"
 
 #: ../../library/tkinter.rst:732
 msgid "%A"
@@ -1165,7 +1165,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:734
 msgid "height"
-msgstr ""
+msgstr "tinggi"
 
 #: ../../library/tkinter.rst:734
 msgid "%E"
@@ -1229,7 +1229,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:742
 msgid "width"
-msgstr ""
+msgstr "lebar"
 
 #: ../../library/tkinter.rst:742
 msgid "%W"

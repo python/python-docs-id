@@ -65,11 +65,11 @@ msgstr ""
 
 #: ../../library/inspect.rst:41
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/inspect.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/inspect.rst:43
 msgid "module"
@@ -79,7 +79,7 @@ msgstr "modul"
 #: ../../library/inspect.rst:58 ../../library/inspect.rst:73
 #: ../../library/inspect.rst:225
 msgid "__doc__"
-msgstr ""
+msgstr "__doc__"
 
 #: ../../library/inspect.rst:43 ../../library/inspect.rst:48
 #: ../../library/inspect.rst:58 ../../library/inspect.rst:73
@@ -103,7 +103,7 @@ msgstr "kelas"
 #: ../../library/inspect.rst:75 ../../library/inspect.rst:194
 #: ../../library/inspect.rst:208 ../../library/inspect.rst:227
 msgid "__name__"
-msgstr ""
+msgstr "__name__"
 
 #: ../../library/inspect.rst:50
 msgid "name with which this class was defined"
@@ -1008,7 +1008,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:727
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 #: ../../library/inspect.rst:727
 msgid "Meaning"
@@ -1290,7 +1290,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:992
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 #: ../../library/inspect.rst:1001
 msgid ""

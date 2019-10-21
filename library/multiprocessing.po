@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:1157
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 #: ../../library/multiprocessing.rst:1181
 msgid ""
@@ -3136,7 +3136,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:2876
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/multiprocessing.rst:2878
 msgid ""

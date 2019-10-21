@@ -1113,7 +1113,7 @@ msgstr ""
 
 #: ../../library/xml.dom.rst:928
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/xml.dom.rst:928
 msgid "Exception"
@@ -1266,7 +1266,7 @@ msgstr ""
 
 #: ../../library/xml.dom.rst:981
 msgid "Python Type"
-msgstr ""
+msgstr "Tipe Python"
 
 #: ../../library/xml.dom.rst:983
 msgid "``boolean``"

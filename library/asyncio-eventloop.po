@@ -741,7 +741,7 @@ msgstr ""
 #: ../../library/asyncio-eventloop.rst:661
 #: ../../library/asyncio-eventloop.rst:1017
 msgid ":ref:`Availability <availability>`: Unix."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix."
 
 #: ../../library/asyncio-eventloop.rst:548
 msgid "The *path* parameter can now be a :term:`path-like object`."
@@ -1830,7 +1830,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1480
 msgid ":ref:`Availability <availability>`: Unix, Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix, Windows."
 
 #: ../../library/asyncio-eventloop.rst:1485
 msgid "An event loop for Windows that uses \"I/O Completion Ports\" (IOCP)."
@@ -1838,7 +1838,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1488
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../library/asyncio-eventloop.rst:1491
 msgid ""
@@ -1859,7 +1859,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1505
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/asyncio-eventloop.rst:1507
 msgid ""

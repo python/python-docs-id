@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../../library/socket.rst:671 ../../library/socket.rst:1668
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../library/socket.rst:677
 msgid ""
@@ -1232,7 +1232,7 @@ msgstr ""
 
 #: ../../library/socket.rst:1030
 msgid ":ref:`Availability <availability>`: Unix."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix."
 
 #: ../../library/socket.rst:1036
 msgid ""
@@ -1243,7 +1243,7 @@ msgstr ""
 #: ../../library/socket.rst:1041 ../../library/socket.rst:1055
 #: ../../library/socket.rst:1069
 msgid ":ref:`Availability <availability>`: Unix, Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Unix, Windows."
 
 #: ../../library/socket.rst:1044 ../../library/socket.rst:1058
 #: ../../library/socket.rst:1072

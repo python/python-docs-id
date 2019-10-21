@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../../library/email.headerregistry.rst:0
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 #: ../../library/email.headerregistry.rst:330
 #: ../../library/email.headerregistry.rst:332
@@ -463,7 +463,7 @@ msgstr ""
 
 #: ../../library/email.headerregistry.rst:0
 msgid "from"
-msgstr ""
+msgstr "dari"
 
 #: ../../library/email.headerregistry.rst:0
 msgid "resent-from"
@@ -553,7 +553,7 @@ msgstr ""
 
 #: ../../library/email.headerregistry.rst:382
 msgid "or::"
-msgstr ""
+msgstr "atau::"
 
 #: ../../library/email.headerregistry.rst:386
 msgid ""

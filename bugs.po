@@ -4,10 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
-# Akhmat Safrudin <somat@artikulpi.com>, 2018
-# Nurul Eka Fitriany Hilal <nurulekafitriany@gmail.com>, 2019
 # Helen Febriani <helenfy.72@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:31+0000\n"
-"Last-Translator: Helen Febriani <helenfy.72@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +49,7 @@ msgstr ""
 
 #: ../../bugs.rst:16
 msgid "Documentation bugs"
-msgstr "Dokumentasi bugs"
+msgstr "Dokumentasi *bugs*"
 
 #: ../../bugs.rst:18
 msgid ""
@@ -59,10 +57,10 @@ msgid ""
 "improvement, please submit a bug report on the :ref:`tracker <using-the-"
 "tracker>`.  If you have a suggestion on how to fix it, include that as well."
 msgstr ""
-"jika Anda menemukan bugs didalam dokumentasi atau berkeinginan untuk "
+"Jika Anda menemukan *bug* di dalam dokumentasi atau berkeinginan untuk "
 "mengusulkan sebuah perbaikan, mohon untuk mengajukan sebuah laporan tentang "
-"bug di dalam ref:`tracker`. Jika Anda memiliki sebuah saran pada bagaimana "
-"cara untuk memperbaikinya, lampirkan juga."
+"bug di dalam :ref:`tracker <using-the-tracker>`. Jika Anda memiliki sebuah "
+"saran bagaimana cara untuk memperbaikinya, lampirkan juga."
 
 #: ../../bugs.rst:22
 msgid ""
@@ -79,19 +77,19 @@ msgstr ""
 
 #: ../../bugs.rst:30
 msgid "`Documentation bugs`_"
-msgstr "Dokumentasi bugs"
+msgstr "`Dokumentasi *bugs*`_"
 
 #: ../../bugs.rst:30
 msgid ""
 "A list of documentation bugs that have been submitted to the Python issue "
 "tracker."
 msgstr ""
-"Daftar dokumentasi bugs yang telah di kirimkan ke Python issue tracker "
-"(pelacak masalah)."
+"Daftar dokumentasi *bugs* yang telah dikirimkan ke pelacak isu *issue "
+"tracker* Python."
 
 #: ../../bugs.rst:33
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
-msgstr "Pelacak Masalah <https://devguide.python.org/tracker>"
+msgstr "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 
 #: ../../bugs.rst:33
 msgid ""
@@ -104,8 +102,8 @@ msgid ""
 "`Helping with Documentation <https://devguide.python.org/docquality"
 "/#helping-with-documentation>`_"
 msgstr ""
-"Membantu dengan Dokumentasi <https://devguide.python.org/docquality"
-"/#helping-with-documentation>"
+"`Membantu dengan Dokumentasi <https://devguide.python.org/docquality"
+"/#helping-with-documentation>`_"
 
 #: ../../bugs.rst:36
 msgid ""
@@ -166,8 +164,8 @@ msgid ""
 "Being now logged in, you can submit a bug.  Select the \"Create New\" link "
 "in the sidebar to open the bug reporting form."
 msgstr ""
-"Saat sudah masuk, Anda bisa mengirimkan bug. Pilih tautan \"Create New\" di "
-"menu samping untuk membuka formulir laporan bug."
+"Saat sudah masuk, Anda bisa mengirimkan *bug*. Pilih tautan \"Create New\" "
+"di menu samping untuk membuka formulir laporan *bug*."
 
 #: ../../bugs.rst:62
 msgid ""
@@ -209,8 +207,8 @@ msgid ""
 "`How to Report Bugs Effectively "
 "<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
 msgstr ""
-"Bagaimana untuk melaporkan kutu secara efektif "
-"<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>"
+"`Bagaimana Melaporkan Bug Secara Efektif "
+"<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
 
 #: ../../bugs.rst:80
 msgid ""
@@ -226,8 +224,8 @@ msgid ""
 "`Bug Report Writing Guidelines <https://developer.mozilla.org/en-"
 "US/docs/Mozilla/QA/Bug_writing_guidelines>`_"
 msgstr ""
-"Pendoman Pelaporan Bug  <https://developer.mozilla.org/en-"
-"US/docs/Mozilla/QA/Bug_writing_guidelines>"
+"`Pendoman Pelaporan Bug <https://developer.mozilla.org/en-"
+"US/docs/Mozilla/QA/Bug_writing_guidelines>`_"
 
 #: ../../bugs.rst:84
 msgid ""

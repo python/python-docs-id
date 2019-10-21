@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../library/selectors.rst:60
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/selectors.rst:60
 msgid "Meaning"
@@ -323,7 +323,7 @@ msgstr ""
 
 #: ../../library/selectors.rst:242
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/selectors.rst:244
 msgid "Here is a simple echo server implementation::"

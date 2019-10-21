@@ -551,7 +551,7 @@ msgstr ""
 #: ../../library/profile.rst:418 ../../library/profile.rst:420
 #: ../../library/profile.rst:434
 msgid "N/A"
-msgstr ""
+msgstr "T/A"
 
 #: ../../library/profile.rst:414
 msgid "``'file'``"

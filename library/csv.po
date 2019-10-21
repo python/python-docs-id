@@ -507,7 +507,7 @@ msgstr ""
 
 #: ../../library/csv.rst:484
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/csv.rst:486
 msgid "The simplest example of reading a CSV file::"

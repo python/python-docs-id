@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../library/configparser.rst:244 ../../library/configparser.rst:307
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 #: ../../library/configparser.rst:292
 msgid "Interpolation of values"

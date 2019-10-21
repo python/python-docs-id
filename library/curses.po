@@ -862,7 +862,7 @@ msgstr ""
 
 #: ../../library/curses.rst:777
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../../library/curses.rst:777
 msgid "Default value"
@@ -1472,7 +1472,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1318
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #: ../../library/curses.rst:1318 ../../library/curses.rst:1366
 #: ../../library/curses.rst:1610
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1489
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 #: ../../library/curses.rst:1491
 msgid "``KEY_PREVIOUS``"
@@ -2437,7 +2437,7 @@ msgstr ""
 #: ../../library/curses.rst:1585 ../../library/curses.rst:1702
 #: ../../library/curses.rst:1826
 msgid "Constant"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/curses.rst:1587
 msgid ":kbd:`Insert`"

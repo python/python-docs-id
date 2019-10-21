@@ -142,7 +142,7 @@ msgstr ""
 #: ../../library/asyncio-api-index.rst:188
 #: ../../library/asyncio-api-index.rst:213
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/asyncio-api-index.rst:60
 msgid ""

@@ -49,6 +49,9 @@ msgid ""
 "`Python Packaging User Guide: Creating and using virtual environments "
 "<https://packaging.python.org/installing/#creating-virtual-environments>`__"
 msgstr ""
+"`Panduan Pengguna *Python Packaging*: Pembuatan dan penggunaan *virtual "
+"environments* <https://packaging.python.org/installing/#creating-virtual-"
+"environments>`__"
 
 #: ../../library/venv.rst:34
 msgid "Creating virtual environments"

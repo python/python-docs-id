@@ -303,11 +303,11 @@ msgstr ""
 
 #: ../../c-api/init.rst:160
 msgid "See :pep:`529` for more details."
-msgstr ""
+msgstr "Lihat :pep:`529` untuk lebih detail."
 
 #: ../../c-api/init.rst:162 ../../c-api/init.rst:174
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../c-api/init.rst:166
 msgid ""

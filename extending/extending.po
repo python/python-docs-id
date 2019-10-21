@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../extending/extending.rst:40
 msgid "A Simple Example"
-msgstr ""
+msgstr "Contoh Sederhana"
 
 #: ../../extending/extending.rst:42
 msgid ""
@@ -329,7 +329,7 @@ msgstr ""
 
 #: ../../extending/extending.rst:273
 msgid "Back to the Example"
-msgstr ""
+msgstr "Kembali ke Contoh"
 
 #: ../../extending/extending.rst:275
 msgid ""

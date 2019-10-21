@@ -1268,7 +1268,7 @@ msgstr ""
 
 #: ../../library/pickle.rst:1123
 msgid "Performance"
-msgstr ""
+msgstr "Performa"
 
 #: ../../library/pickle.rst:1125
 msgid ""
@@ -1279,7 +1279,7 @@ msgstr ""
 
 #: ../../library/pickle.rst:1133
 msgid "Examples"
-msgstr ""
+msgstr "Contoh-contoh"
 
 #: ../../library/pickle.rst:1135
 msgid ""

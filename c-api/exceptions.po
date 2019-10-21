@@ -240,7 +240,7 @@ msgstr ""
 #: ../../c-api/exceptions.rst:217 ../../c-api/exceptions.rst:225
 #: ../../c-api/exceptions.rst:234 ../../c-api/exceptions.rst:243
 msgid ":ref:`Availability <availability>`: Windows."
-msgstr ""
+msgstr ":ref:`Availability <availability>`: Windows."
 
 #: ../../c-api/exceptions.rst:205
 msgid ""
@@ -515,7 +515,7 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:496
 msgid "Signal Handling"
-msgstr ""
+msgstr "Penanganan Sinyal *Signal*"
 
 #: ../../c-api/exceptions.rst:506
 msgid ""

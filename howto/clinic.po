@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:0
 msgid "author"
-msgstr ""
+msgstr "penulis"
 
 #: ../../howto/clinic.rst:7
 msgid "Larry Hastings"
@@ -990,7 +990,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:825
 msgid "``'B'``"
-msgstr ""
+msgstr "``'B'``"
 
 #: ../../howto/clinic.rst:825
 msgid "``unsigned_char(bitwise=True)``"
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:836
 msgid "``'h'``"
-msgstr ""
+msgstr "``'h'``"
 
 #: ../../howto/clinic.rst:836
 msgid "``short``"
@@ -1088,7 +1088,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:837
 msgid "``'H'``"
-msgstr ""
+msgstr "``'H'``"
 
 #: ../../howto/clinic.rst:837
 msgid "``unsigned_short(bitwise=True)``"
@@ -1104,7 +1104,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:839
 msgid "``'I'``"
-msgstr ""
+msgstr "``'I'``"
 
 #: ../../howto/clinic.rst:839
 msgid "``unsigned_int(bitwise=True)``"
@@ -1128,7 +1128,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:842
 msgid "``'l'``"
-msgstr ""
+msgstr "``'l'``"
 
 #: ../../howto/clinic.rst:842
 msgid "``long``"
@@ -1136,7 +1136,7 @@ msgstr ""
 
 #: ../../howto/clinic.rst:843
 msgid "``'L'``"
-msgstr ""
+msgstr "``'L'``"
 
 #: ../../howto/clinic.rst:843
 msgid "``long long``"
