@@ -475,55 +475,55 @@ msgstr ""
 
 #: ../../library/logging.rst:367
 msgid "Level"
-msgstr ""
+msgstr "Level"
 
 #: ../../library/logging.rst:367
 msgid "Numeric value"
-msgstr ""
+msgstr "Nilai angka"
 
 #: ../../library/logging.rst:369
 msgid "``CRITICAL``"
-msgstr ""
+msgstr "``CRITICAL``"
 
 #: ../../library/logging.rst:369
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: ../../library/logging.rst:371
 msgid "``ERROR``"
-msgstr ""
+msgstr "``ERROR``"
 
 #: ../../library/logging.rst:371
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: ../../library/logging.rst:373
 msgid "``WARNING``"
-msgstr ""
+msgstr "``WARNING``"
 
 #: ../../library/logging.rst:373
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../library/logging.rst:375
 msgid "``INFO``"
-msgstr ""
+msgstr "``INFO``"
 
 #: ../../library/logging.rst:375
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../library/logging.rst:377
 msgid "``DEBUG``"
-msgstr ""
+msgstr "``DEBUG``"
 
 #: ../../library/logging.rst:377
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../library/logging.rst:379
 msgid "``NOTSET``"
-msgstr ""
+msgstr "``NOTSET``"
 
 #: ../../library/logging.rst:379
 msgid "0"

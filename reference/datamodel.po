@@ -377,7 +377,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:327
 msgid "Bytes"
-msgstr ""
+msgstr "Bytes"
 
 #: ../../reference/datamodel.rst:323
 msgid ""

@@ -771,7 +771,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:667
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../library/zipfile.rst:667
 msgid "Month (one-based)"
@@ -779,7 +779,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:669
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../library/zipfile.rst:669
 msgid "Day of month (one-based)"
@@ -787,7 +787,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:671
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../library/zipfile.rst:671
 msgid "Hours (zero-based)"
@@ -795,7 +795,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:673
 msgid "``4``"
-msgstr ""
+msgstr "``4``"
 
 #: ../../library/zipfile.rst:673
 msgid "Minutes (zero-based)"

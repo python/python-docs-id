@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../library/re.rst:110
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 #: ../../library/re.rst:109
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../library/re.rst:121
 msgid "``$``"
-msgstr ""
+msgstr "``$``"
 
 #: ../../library/re.rst:115
 msgid ""
@@ -367,7 +367,7 @@ msgstr ""
 
 #: ../../library/re.rst:267
 msgid "``|``"
-msgstr ""
+msgstr "``|``"
 
 #: ../../library/re.rst:259
 msgid ""
@@ -556,7 +556,7 @@ msgstr ""
 
 #: ../../library/re.rst:379
 msgid "``(?=...)``"
-msgstr ""
+msgstr "``(?=...)``"
 
 #: ../../library/re.rst:377
 msgid ""
@@ -567,7 +567,7 @@ msgstr ""
 
 #: ../../library/re.rst:386
 msgid "``(?!...)``"
-msgstr ""
+msgstr "``(?!...)``"
 
 #: ../../library/re.rst:384
 msgid ""
@@ -655,7 +655,7 @@ msgstr ""
 
 #: ../../library/re.rst:453
 msgid "``\\A``"
-msgstr ""
+msgstr "``\\A``"
 
 #: ../../library/re.rst:453
 msgid "Matches only at the start of the string."
@@ -663,7 +663,7 @@ msgstr ""
 
 #: ../../library/re.rst:469
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 #: ../../library/re.rst:458
 msgid ""
@@ -686,7 +686,7 @@ msgstr ""
 
 #: ../../library/re.rst:480
 msgid "``\\B``"
-msgstr ""
+msgstr "``\\B``"
 
 #: ../../library/re.rst:474
 msgid ""
@@ -701,7 +701,7 @@ msgstr ""
 
 #: ../../library/re.rst:492
 msgid "``\\d``"
-msgstr ""
+msgstr "``\\d``"
 
 #: ../../library/re.rst:489 ../../library/re.rst:509 ../../library/re.rst:529
 msgid "For Unicode (str) patterns:"
@@ -725,7 +725,7 @@ msgstr ""
 
 #: ../../library/re.rst:499
 msgid "``\\D``"
-msgstr ""
+msgstr "``\\D``"
 
 #: ../../library/re.rst:497
 msgid ""
@@ -736,7 +736,7 @@ msgstr ""
 
 #: ../../library/re.rst:513
 msgid "``\\s``"
-msgstr ""
+msgstr "``\\s``"
 
 #: ../../library/re.rst:505
 msgid ""
@@ -754,7 +754,7 @@ msgstr ""
 
 #: ../../library/re.rst:520
 msgid "``\\S``"
-msgstr ""
+msgstr "``\\S``"
 
 #: ../../library/re.rst:518
 msgid ""
@@ -765,7 +765,7 @@ msgstr ""
 
 #: ../../library/re.rst:535
 msgid "``\\w``"
-msgstr ""
+msgstr "``\\w``"
 
 #: ../../library/re.rst:526
 msgid ""
@@ -784,7 +784,7 @@ msgstr ""
 
 #: ../../library/re.rst:544
 msgid "``\\W``"
-msgstr ""
+msgstr "``\\W``"
 
 #: ../../library/re.rst:540
 msgid ""
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../../library/re.rst:549
 msgid "``\\Z``"
-msgstr ""
+msgstr "``\\Z``"
 
 #: ../../library/re.rst:549
 msgid "Matches only at the end of the string."

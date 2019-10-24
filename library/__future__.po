@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 17:47+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,7 +114,7 @@ msgstr ""
 
 #: ../../library/__future__.rst:67
 msgid "feature"
-msgstr ""
+msgstr "fitur"
 
 #: ../../library/__future__.rst:67
 msgid "optional in"
@@ -122,19 +126,19 @@ msgstr ""
 
 #: ../../library/__future__.rst:67
 msgid "effect"
-msgstr ""
+msgstr "efek"
 
 #: ../../library/__future__.rst:69
 msgid "nested_scopes"
-msgstr ""
+msgstr "nested_scopes"
 
 #: ../../library/__future__.rst:69
 msgid "2.1.0b1"
-msgstr ""
+msgstr "2.1.0b1"
 
 #: ../../library/__future__.rst:69
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: ../../library/__future__.rst:69
 msgid ":pep:`227`: *Statically Nested Scopes*"
@@ -146,11 +150,11 @@ msgstr ""
 
 #: ../../library/__future__.rst:72
 msgid "2.2.0a1"
-msgstr ""
+msgstr "2.2.0a1"
 
 #: ../../library/__future__.rst:72
 msgid "2.3"
-msgstr ""
+msgstr "2.3"
 
 #: ../../library/__future__.rst:72
 msgid ":pep:`255`: *Simple Generators*"
@@ -162,12 +166,12 @@ msgstr ""
 
 #: ../../library/__future__.rst:75
 msgid "2.2.0a2"
-msgstr ""
+msgstr "2.2.0a2"
 
 #: ../../library/__future__.rst:75 ../../library/__future__.rst:78
 #: ../../library/__future__.rst:84 ../../library/__future__.rst:87
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: ../../library/__future__.rst:75
 msgid ":pep:`238`: *Changing the Division Operator*"
@@ -175,11 +179,11 @@ msgstr ""
 
 #: ../../library/__future__.rst:78
 msgid "absolute_import"
-msgstr ""
+msgstr "absolute_import"
 
 #: ../../library/__future__.rst:78 ../../library/__future__.rst:81
 msgid "2.5.0a1"
-msgstr ""
+msgstr "2.5.0a1"
 
 #: ../../library/__future__.rst:78
 msgid ":pep:`328`: *Imports: Multi-Line and Absolute/Relative*"
@@ -187,11 +191,11 @@ msgstr ""
 
 #: ../../library/__future__.rst:81
 msgid "with_statement"
-msgstr ""
+msgstr "with_statement"
 
 #: ../../library/__future__.rst:81
 msgid "2.6"
-msgstr ""
+msgstr "2.6"
 
 #: ../../library/__future__.rst:81
 msgid ":pep:`343`: *The \"with\" Statement*"
@@ -199,11 +203,11 @@ msgstr ""
 
 #: ../../library/__future__.rst:84
 msgid "print_function"
-msgstr ""
+msgstr "print_function"
 
 #: ../../library/__future__.rst:84 ../../library/__future__.rst:87
 msgid "2.6.0a2"
-msgstr ""
+msgstr "2.6.0a2"
 
 #: ../../library/__future__.rst:84
 msgid ":pep:`3105`: *Make print a function*"
@@ -211,7 +215,7 @@ msgstr ""
 
 #: ../../library/__future__.rst:87
 msgid "unicode_literals"
-msgstr ""
+msgstr "unicode_literals"
 
 #: ../../library/__future__.rst:87
 msgid ":pep:`3112`: *Bytes literals in Python 3000*"
@@ -219,15 +223,15 @@ msgstr ""
 
 #: ../../library/__future__.rst:90
 msgid "generator_stop"
-msgstr ""
+msgstr "generator_stop"
 
 #: ../../library/__future__.rst:90
 msgid "3.5.0b1"
-msgstr ""
+msgstr "3.5.0b1"
 
 #: ../../library/__future__.rst:90
 msgid "3.7"
-msgstr ""
+msgstr "3.7"
 
 #: ../../library/__future__.rst:90
 msgid ":pep:`479`: *StopIteration handling inside generators*"
@@ -235,15 +239,15 @@ msgstr ""
 
 #: ../../library/__future__.rst:93
 msgid "annotations"
-msgstr ""
+msgstr "anotasi"
 
 #: ../../library/__future__.rst:93
 msgid "3.7.0b1"
-msgstr ""
+msgstr "3.7.0b1"
 
 #: ../../library/__future__.rst:93
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: ../../library/__future__.rst:93
 msgid ":pep:`563`: *Postponed evaluation of annotations*"
@@ -251,7 +255,7 @@ msgstr ""
 
 #: ../../library/__future__.rst:102
 msgid ":ref:`future`"
-msgstr ""
+msgstr ":ref:`future`"
 
 #: ../../library/__future__.rst:103
 msgid "How the compiler treats future imports."

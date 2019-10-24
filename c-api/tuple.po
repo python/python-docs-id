@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../c-api/tuple.rst:155
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 #: ../../c-api/tuple.rst:155
 msgid "number of fields visible to the Python side (if used as tuple)"

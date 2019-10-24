@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../c-api/dict.rst:6
 msgid "Dictionary Objects"
-msgstr ""
+msgstr "Objek *Dictionary*"
 
 #: ../../c-api/dict.rst:13
 msgid ""

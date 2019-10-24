@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../../library/email.policy.rst:408
 msgid "``long``"
-msgstr ""
+msgstr "``long``"
 
 #: ../../library/email.policy.rst:408
 msgid ""

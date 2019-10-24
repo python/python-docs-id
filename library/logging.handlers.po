@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../library/logging.handlers.rst:347
 msgid "``'S'``"
-msgstr ""
+msgstr "``'S'``"
 
 #: ../../library/logging.handlers.rst:347
 msgid "Seconds"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: ../../library/logging.handlers.rst:353
 msgid "``'D'``"
-msgstr ""
+msgstr "``'D'``"
 
 #: ../../library/logging.handlers.rst:353
 msgid "Days"

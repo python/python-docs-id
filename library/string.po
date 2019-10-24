@@ -645,7 +645,7 @@ msgstr ""
 
 #: ../../library/string.rst:466 ../../library/string.rst:526
 msgid "``'n'``"
-msgstr ""
+msgstr "``'n'``"
 
 #: ../../library/string.rst:466
 msgid ""

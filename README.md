@@ -112,11 +112,11 @@ Jangan ragu untuk memberi masukan. Daftar istilah tersedia di [wiki](https://git
 ---
 Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan yang fungsinya sangat spesifik, seperti halnya Transifex.
 
+Per tanggal **2019-10-21** dokumentasi Python Bahasa Indonesia sudah tersedia di **https://docs.python.org/id/3.8/**
+
 Per tanggal **2019-10-17** proses penerjemahan yang dibutuhkan sebagai minimum dari standar PEP 545 sudah selesai.
 
-Per tanggal **2019-10-15** repositori `python-docs-id` tersedia di bawah repositori Github organisasi Python.
-
-https://github.com/python/python-docs-id/
+Per tanggal **2019-10-15** repositori `python-docs-id` tersedia di bawah repositori Github organisasi Python. **https://github.com/python/python-docs-id/**
 
 ### Perintah Transifex
 ---

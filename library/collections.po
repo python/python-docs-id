@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:03+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +46,7 @@ msgstr ""
 
 #: ../../library/collections.rst:26
 msgid ":class:`deque`"
-msgstr ""
+msgstr ":class:`deque`"
 
 #: ../../library/collections.rst:26
 msgid "list-like container with fast appends and pops on either end"
@@ -50,7 +54,7 @@ msgstr ""
 
 #: ../../library/collections.rst:27
 msgid ":class:`ChainMap`"
-msgstr ""
+msgstr ":class:`ChainMap`"
 
 #: ../../library/collections.rst:27
 msgid "dict-like class for creating a single view of multiple mappings"
@@ -58,7 +62,7 @@ msgstr ""
 
 #: ../../library/collections.rst:28
 msgid ":class:`Counter`"
-msgstr ""
+msgstr ":class:`Counter`"
 
 #: ../../library/collections.rst:28
 msgid "dict subclass for counting hashable objects"
@@ -66,7 +70,7 @@ msgstr ""
 
 #: ../../library/collections.rst:29
 msgid ":class:`OrderedDict`"
-msgstr ""
+msgstr ":class:`OrderedDict`"
 
 #: ../../library/collections.rst:29
 msgid "dict subclass that remembers the order entries were added"
@@ -74,7 +78,7 @@ msgstr ""
 
 #: ../../library/collections.rst:30
 msgid ":class:`defaultdict`"
-msgstr ""
+msgstr ":class:`defaultdict`"
 
 #: ../../library/collections.rst:30
 msgid "dict subclass that calls a factory function to supply missing values"
@@ -82,7 +86,7 @@ msgstr ""
 
 #: ../../library/collections.rst:31
 msgid ":class:`UserDict`"
-msgstr ""
+msgstr ":class:`UserDict`"
 
 #: ../../library/collections.rst:31
 msgid "wrapper around dictionary objects for easier dict subclassing"
@@ -90,7 +94,7 @@ msgstr ""
 
 #: ../../library/collections.rst:32
 msgid ":class:`UserList`"
-msgstr ""
+msgstr ":class:`UserList`"
 
 #: ../../library/collections.rst:32
 msgid "wrapper around list objects for easier list subclassing"
@@ -98,7 +102,7 @@ msgstr ""
 
 #: ../../library/collections.rst:33
 msgid ":class:`UserString`"
-msgstr ""
+msgstr ":class:`UserString`"
 
 #: ../../library/collections.rst:33
 msgid "wrapper around string objects for easier string subclassing"
@@ -113,7 +117,7 @@ msgstr ""
 
 #: ../../library/collections.rst:43
 msgid ":class:`ChainMap` objects"
-msgstr ""
+msgstr "objek :class:`ChainMap`"
 
 #: ../../library/collections.rst:47
 msgid ""
@@ -274,7 +278,7 @@ msgstr ""
 
 #: ../../library/collections.rst:221
 msgid ":class:`Counter` objects"
-msgstr ""
+msgstr "objek :class:`Counter`"
 
 #: ../../library/collections.rst:223
 msgid ""
@@ -466,7 +470,7 @@ msgstr ""
 
 #: ../../library/collections.rst:418
 msgid ":class:`deque` objects"
-msgstr ""
+msgstr "objek :class:`deque`"
 
 #: ../../library/collections.rst:422
 msgid ""
@@ -668,7 +672,7 @@ msgstr ""
 
 #: ../../library/collections.rst:683
 msgid ":class:`defaultdict` objects"
-msgstr ""
+msgstr "objek :class:`defaultdict`"
 
 #: ../../library/collections.rst:687
 msgid ""
@@ -739,7 +743,7 @@ msgstr ""
 
 #: ../../library/collections.rst:734
 msgid ":class:`defaultdict` Examples"
-msgstr ""
+msgstr "Contoh :class:`defaultdict`"
 
 #: ../../library/collections.rst:736
 msgid ""
@@ -995,7 +999,7 @@ msgstr ""
 
 #: ../../library/collections.rst:1039
 msgid ":class:`OrderedDict` objects"
-msgstr ""
+msgstr "objek :class:`OrderedDict`"
 
 #: ../../library/collections.rst:1041
 msgid ""
@@ -1123,7 +1127,7 @@ msgstr ""
 
 #: ../../library/collections.rst:1160
 msgid ":class:`UserDict` objects"
-msgstr ""
+msgstr "objek :class:`UserDict`"
 
 #: ../../library/collections.rst:1162
 msgid ""
@@ -1155,7 +1159,7 @@ msgstr ""
 
 #: ../../library/collections.rst:1187
 msgid ":class:`UserList` objects"
-msgstr ""
+msgstr "objek :class:`UserList`"
 
 #: ../../library/collections.rst:1189
 msgid ""
@@ -1213,7 +1217,7 @@ msgstr ""
 
 #: ../../library/collections.rst:1227
 msgid ":class:`UserString` objects"
-msgstr ""
+msgstr "objek :class:`UserString`"
 
 #: ../../library/collections.rst:1229
 msgid ""

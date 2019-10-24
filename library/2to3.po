@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:20
 msgid "Using 2to3"
-msgstr ""
+msgstr "Menggunakan 2to3"
 
 #: ../../library/2to3.rst:22
 msgid ""
@@ -211,80 +211,81 @@ msgstr "Ke"
 
 #: ../../library/2to3.rst:166
 msgid "``failUnlessEqual(a, b)``"
-msgstr ""
+msgstr "``failUnlessEqual(a, b)``"
 
 #: ../../library/2to3.rst:166 ../../library/2to3.rst:168
 msgid ":meth:`assertEqual(a, b) <unittest.TestCase.assertEqual>`"
-msgstr ""
+msgstr ":meth:`assertEqual(a, b) <unittest.TestCase.assertEqual>`"
 
 #: ../../library/2to3.rst:168
 msgid "``assertEquals(a, b)``"
-msgstr ""
+msgstr "``assertEquals(a, b)``"
 
 #: ../../library/2to3.rst:170
 msgid "``failIfEqual(a, b)``"
-msgstr ""
+msgstr "``failIfEqual(a, b)``"
 
 #: ../../library/2to3.rst:170 ../../library/2to3.rst:172
 msgid ":meth:`assertNotEqual(a, b) <unittest.TestCase.assertNotEqual>`"
-msgstr ""
+msgstr ":meth:`assertNotEqual(a, b) <unittest.TestCase.assertNotEqual>`"
 
 #: ../../library/2to3.rst:172
 msgid "``assertNotEquals(a, b)``"
-msgstr ""
+msgstr "``assertNotEquals(a, b)``"
 
 #: ../../library/2to3.rst:174
 msgid "``failUnless(a)``"
-msgstr ""
+msgstr "``failUnless(a)``"
 
 #: ../../library/2to3.rst:174 ../../library/2to3.rst:176
 msgid ":meth:`assertTrue(a) <unittest.TestCase.assertTrue>`"
-msgstr ""
+msgstr ":meth:`assertTrue(a) <unittest.TestCase.assertTrue>`"
 
 #: ../../library/2to3.rst:176
 msgid "``assert_(a)``"
-msgstr ""
+msgstr "``assert_(a)``"
 
 #: ../../library/2to3.rst:178
 msgid "``failIf(a)``"
-msgstr ""
+msgstr "``failIf(a)``"
 
 #: ../../library/2to3.rst:178
 msgid ":meth:`assertFalse(a) <unittest.TestCase.assertFalse>`"
-msgstr ""
+msgstr ":meth:`assertFalse(a) <unittest.TestCase.assertFalse>`"
 
 #: ../../library/2to3.rst:180
 msgid "``failUnlessRaises(exc, cal)``"
-msgstr ""
+msgstr "``failUnlessRaises(exc, cal)``"
 
 #: ../../library/2to3.rst:180
 msgid ":meth:`assertRaises(exc, cal) <unittest.TestCase.assertRaises>`"
-msgstr ""
+msgstr ":meth:`assertRaises(exc, cal) <unittest.TestCase.assertRaises>`"
 
 #: ../../library/2to3.rst:182
 msgid "``failUnlessAlmostEqual(a, b)``"
-msgstr ""
+msgstr "``failUnlessAlmostEqual(a, b)``"
 
 #: ../../library/2to3.rst:182 ../../library/2to3.rst:184
 msgid ":meth:`assertAlmostEqual(a, b) <unittest.TestCase.assertAlmostEqual>`"
-msgstr ""
+msgstr ":meth:`assertAlmostEqual(a, b) <unittest.TestCase.assertAlmostEqual>`"
 
 #: ../../library/2to3.rst:184
 msgid "``assertAlmostEquals(a, b)``"
-msgstr ""
+msgstr "``assertAlmostEquals(a, b)``"
 
 #: ../../library/2to3.rst:186
 msgid "``failIfAlmostEqual(a, b)``"
-msgstr ""
+msgstr "``failIfAlmostEqual(a, b)``"
 
 #: ../../library/2to3.rst:186 ../../library/2to3.rst:188
 msgid ""
 ":meth:`assertNotAlmostEqual(a, b) <unittest.TestCase.assertNotAlmostEqual>`"
 msgstr ""
+":meth:`assertNotAlmostEqual(a, b) <unittest.TestCase.assertNotAlmostEqual>`"
 
 #: ../../library/2to3.rst:188
 msgid "``assertNotAlmostEquals(a, b)``"
-msgstr ""
+msgstr "``assertNotAlmostEquals(a, b)``"
 
 #: ../../library/2to3.rst:194
 msgid "Converts :class:`basestring` to :class:`str`."
@@ -361,7 +362,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:262
 msgid "is changed to ::"
-msgstr ""
+msgstr "diubah jadi ::"
 
 #: ../../library/2to3.rst:268
 msgid "Detects sibling imports and converts them to relative imports."
@@ -459,59 +460,59 @@ msgstr ""
 
 #: ../../library/2to3.rst:354
 msgid "``operator.isCallable(obj)``"
-msgstr ""
+msgstr "``operator.isCallable(obj)``"
 
 #: ../../library/2to3.rst:354
 msgid "``callable(obj)``"
-msgstr ""
+msgstr "``callable(obj)``"
 
 #: ../../library/2to3.rst:355
 msgid "``operator.sequenceIncludes(obj)``"
-msgstr ""
+msgstr "``operator.sequenceIncludes(obj)``"
 
 #: ../../library/2to3.rst:355
 msgid "``operator.contains(obj)``"
-msgstr ""
+msgstr "``operator.contains(obj)``"
 
 #: ../../library/2to3.rst:356
 msgid "``operator.isSequenceType(obj)``"
-msgstr ""
+msgstr "``operator.isSequenceType(obj)``"
 
 #: ../../library/2to3.rst:356
 msgid "``isinstance(obj, collections.abc.Sequence)``"
-msgstr ""
+msgstr "``isinstance(obj, collections.abc.Sequence)``"
 
 #: ../../library/2to3.rst:357
 msgid "``operator.isMappingType(obj)``"
-msgstr ""
+msgstr "``operator.isMappingType(obj)``"
 
 #: ../../library/2to3.rst:357
 msgid "``isinstance(obj, collections.abc.Mapping)``"
-msgstr ""
+msgstr "``isinstance(obj, collections.abc.Mapping)``"
 
 #: ../../library/2to3.rst:358
 msgid "``operator.isNumberType(obj)``"
-msgstr ""
+msgstr "``operator.isNumberType(obj)``"
 
 #: ../../library/2to3.rst:358
 msgid "``isinstance(obj, numbers.Number)``"
-msgstr ""
+msgstr "``isinstance(obj, numbers.Number)``"
 
 #: ../../library/2to3.rst:359
 msgid "``operator.repeat(obj, n)``"
-msgstr ""
+msgstr "``operator.repeat(obj, n)``"
 
 #: ../../library/2to3.rst:359
 msgid "``operator.mul(obj, n)``"
-msgstr ""
+msgstr "``operator.mul(obj, n)``"
 
 #: ../../library/2to3.rst:360
 msgid "``operator.irepeat(obj, n)``"
-msgstr ""
+msgstr "``operator.irepeat(obj, n)``"
 
 #: ../../library/2to3.rst:360
 msgid "``operator.imul(obj, n)``"
-msgstr ""
+msgstr "``operator.imul(obj, n)``"
 
 #: ../../library/2to3.rst:365
 msgid ""

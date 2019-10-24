@@ -121,7 +121,7 @@ msgstr ""
 #: ../../library/dbm.rst:59 ../../library/dbm.rst:175
 #: ../../library/dbm.rst:290 ../../library/dbm.rst:360
 msgid "``'n'``"
-msgstr ""
+msgstr "``'n'``"
 
 #: ../../library/dbm.rst:59 ../../library/dbm.rst:175
 #: ../../library/dbm.rst:290 ../../library/dbm.rst:360

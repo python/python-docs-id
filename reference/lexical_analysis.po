@@ -616,7 +616,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:529
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 #: ../../reference/lexical_analysis.rst:529
 msgid "ASCII Backspace (BS)"

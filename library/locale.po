@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../library/locale.rst:135
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../library/locale.rst:135
 msgid "The sign should precede the value and currency symbol."
@@ -282,7 +282,7 @@ msgstr ""
 
 #: ../../library/locale.rst:138
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../library/locale.rst:138
 msgid "The sign should follow the value and currency symbol."
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../library/locale.rst:141
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../library/locale.rst:141
 msgid "The sign should immediately precede the value."
@@ -298,7 +298,7 @@ msgstr ""
 
 #: ../../library/locale.rst:144
 msgid "``4``"
-msgstr ""
+msgstr "``4``"
 
 #: ../../library/locale.rst:144
 msgid "The sign should immediately follow the value."

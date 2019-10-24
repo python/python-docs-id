@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../../library/resource.rst:299
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../library/resource.rst:299
 msgid ":attr:`ru_stime`"
@@ -361,7 +361,7 @@ msgstr ""
 
 #: ../../library/resource.rst:301
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../library/resource.rst:301
 msgid ":attr:`ru_maxrss`"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../../library/resource.rst:303
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../library/resource.rst:303
 msgid ":attr:`ru_ixrss`"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: ../../library/resource.rst:305
 msgid "``4``"
-msgstr ""
+msgstr "``4``"
 
 #: ../../library/resource.rst:305
 msgid ":attr:`ru_idrss`"

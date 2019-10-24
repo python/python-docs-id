@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:12
 msgid "Unicode Objects"
-msgstr ""
+msgstr "Objek Unicode"
 
 #: ../../c-api/unicode.rst:14
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:39
 msgid "Unicode Type"
-msgstr ""
+msgstr "Tipe Unicode"
 
 #: ../../c-api/unicode.rst:41
 msgid ""
@@ -461,11 +461,11 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:449
 msgid ":attr:`%%`"
-msgstr ""
+msgstr ":attr:`%%`"
 
 #: ../../c-api/unicode.rst:449
 msgid "*n/a*"
-msgstr ""
+msgstr "*t/a*"
 
 #: ../../c-api/unicode.rst:449
 msgid "The literal % character."
@@ -473,7 +473,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:451
 msgid ":attr:`%c`"
-msgstr ""
+msgstr ":attr:`%c`"
 
 #: ../../c-api/unicode.rst:451 ../../c-api/unicode.rst:454
 #: ../../c-api/unicode.rst:487 ../../c-api/unicode.rst:490
@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:454
 msgid ":attr:`%d`"
-msgstr ""
+msgstr ":attr:`%d`"
 
 #: ../../c-api/unicode.rst:454
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:457
 msgid ":attr:`%u`"
-msgstr ""
+msgstr ":attr:`%u`"
 
 #: ../../c-api/unicode.rst:457
 msgid "unsigned int"
@@ -506,7 +506,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:460
 msgid ":attr:`%ld`"
-msgstr ""
+msgstr ":attr:`%ld`"
 
 #: ../../c-api/unicode.rst:460 ../../c-api/unicode.rst:463
 msgid "long"
@@ -518,7 +518,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:463
 msgid ":attr:`%li`"
-msgstr ""
+msgstr ":attr:`%li`"
 
 #: ../../c-api/unicode.rst:463
 msgid "Equivalent to ``printf(\"%li\")``. [1]_"
@@ -526,7 +526,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:466
 msgid ":attr:`%lu`"
-msgstr ""
+msgstr ":attr:`%lu`"
 
 #: ../../c-api/unicode.rst:466
 msgid "unsigned long"
@@ -538,7 +538,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:469
 msgid ":attr:`%lld`"
-msgstr ""
+msgstr ":attr:`%lld`"
 
 #: ../../c-api/unicode.rst:469 ../../c-api/unicode.rst:472
 msgid "long long"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:472
 msgid ":attr:`%lli`"
-msgstr ""
+msgstr ":attr:`%lli`"
 
 #: ../../c-api/unicode.rst:472
 msgid "Equivalent to ``printf(\"%lli\")``. [1]_"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:475
 msgid ":attr:`%llu`"
-msgstr ""
+msgstr ":attr:`%llu`"
 
 #: ../../c-api/unicode.rst:475
 msgid "unsigned long long"
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:478
 msgid ":attr:`%zd`"
-msgstr ""
+msgstr ":attr:`%zd`"
 
 #: ../../c-api/unicode.rst:478 ../../c-api/unicode.rst:481
 msgid "Py_ssize_t"
@@ -582,7 +582,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:481
 msgid ":attr:`%zi`"
-msgstr ""
+msgstr ":attr:`%zi`"
 
 #: ../../c-api/unicode.rst:481
 msgid "Equivalent to ``printf(\"%zi\")``. [1]_"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:484
 msgid ":attr:`%zu`"
-msgstr ""
+msgstr ":attr:`%zu`"
 
 #: ../../c-api/unicode.rst:484
 msgid "size_t"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:487
 msgid ":attr:`%i`"
-msgstr ""
+msgstr ":attr:`%i`"
 
 #: ../../c-api/unicode.rst:487
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
@@ -610,7 +610,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:490
 msgid ":attr:`%x`"
-msgstr ""
+msgstr ":attr:`%x`"
 
 #: ../../c-api/unicode.rst:490
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
@@ -618,7 +618,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:493
 msgid ":attr:`%s`"
-msgstr ""
+msgstr ":attr:`%s`"
 
 #: ../../c-api/unicode.rst:493
 msgid "const char\\*"
@@ -630,7 +630,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:496
 msgid ":attr:`%p`"
-msgstr ""
+msgstr ":attr:`%p`"
 
 #: ../../c-api/unicode.rst:496
 msgid "const void\\*"
@@ -645,7 +645,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:504
 msgid ":attr:`%A`"
-msgstr ""
+msgstr ":attr:`%A`"
 
 #: ../../c-api/unicode.rst:504 ../../c-api/unicode.rst:507
 #: ../../c-api/unicode.rst:516 ../../c-api/unicode.rst:519
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:507
 msgid ":attr:`%U`"
-msgstr ""
+msgstr ":attr:`%U`"
 
 #: ../../c-api/unicode.rst:507
 msgid "A Unicode object."
@@ -666,7 +666,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:509
 msgid ":attr:`%V`"
-msgstr ""
+msgstr ":attr:`%V`"
 
 #: ../../c-api/unicode.rst:509
 msgid "PyObject\\*, const char\\*"
@@ -681,7 +681,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:516
 msgid ":attr:`%S`"
-msgstr ""
+msgstr ":attr:`%S`"
 
 #: ../../c-api/unicode.rst:516
 msgid "The result of calling :c:func:`PyObject_Str`."
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:519
 msgid ":attr:`%R`"
-msgstr ""
+msgstr ":attr:`%R`"
 
 #: ../../c-api/unicode.rst:519
 msgid "The result of calling :c:func:`PyObject_Repr`."

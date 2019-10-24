@@ -1279,7 +1279,7 @@ msgstr ""
 #: ../../library/xml.dom.rst:985 ../../library/xml.dom.rst:985
 #: ../../library/xml.dom.rst:987 ../../library/xml.dom.rst:989
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 #: ../../library/xml.dom.rst:987
 msgid "``long int``"

@@ -251,7 +251,7 @@ msgstr ""
 #: ../../library/winreg.rst:214 ../../library/winreg.rst:325
 #: ../../library/winreg.rst:368
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../library/winreg.rst:214
 msgid ""
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../../library/winreg.rst:218 ../../library/winreg.rst:328
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../library/winreg.rst:218
 msgid ""
