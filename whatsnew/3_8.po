@@ -104,7 +104,7 @@ msgstr "Lihat: pep:`572` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:117
 msgid "(Contributed by Emily Morehouse in :issue:`35224`.)"
-msgstr "(Dikontribusikan oleh Emily Morehouse di :issue:`35224`.)"
+msgstr "(Kontribusi dari Emily Morehouse di :issue:`35224`.)"
 
 #: ../../whatsnew/3.8.rst:121
 msgid "Positional-only parameters"
@@ -176,7 +176,7 @@ msgstr "Lihat: pep:`570` untuk keterangan lengkap."
 
 #: ../../whatsnew/3.8.rst:189
 msgid "(Contributed by Pablo Galindo in :issue:`36540`.)"
-msgstr "(Dikontribusikan oleh Pablo Galindo di :issue:`36540`.)"
+msgstr "(Kontribusi dari Pablo Galindo di :issue:`36540`.)"
 
 #: ../../whatsnew/3.8.rst:195
 msgid "Parallel filesystem cache for compiled bytecode files"
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:207
 msgid "(Contributed by Carl Meyer in :issue:`33499`.)"
-msgstr "(Dikontribusikan oleh Carl Meyer di :issue:`33499`.)"
+msgstr "(Kontribusi dari Carl Meyer di :issue:`33499`.)"
 
 #: ../../whatsnew/3.8.rst:211
 msgid "Debug build uses the same ABI as release build"
@@ -291,8 +291,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:281
 msgid "(Contributed by Eric V. Smith and Larry Hastings in :issue:`36817`.)"
-msgstr ""
-"(Dikontribusikan oleh Eric V. Smith dan Larry Hastings di :issue:`36817`.)"
+msgstr "(Kontribusi dari Eric V. Smith dan Larry Hastings di :issue:`36817`.)"
 
 #: ../../whatsnew/3.8.rst:285
 msgid "PEP 578: Python Runtime Audit Hooks"
@@ -471,7 +470,7 @@ msgstr "Lihat: pep:`587` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:349
 msgid "(Contributed by Victor Stinner in :issue:`36763`.)"
-msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`36763`.)"
+msgstr "(Kontribusi dari Victor Stinner di :issue:`36763`.)"
 
 #: ../../whatsnew/3.8.rst:353
 msgid "Vectorcall: a fast calling protocol for CPython"
@@ -496,8 +495,7 @@ msgstr "Lihat: pep:`590` untuk keterangan lengkap."
 
 #: ../../whatsnew/3.8.rst:365
 msgid "(Contributed by Jeroen Demeyer and Mark Shannon in :issue:`36974`.)"
-msgstr ""
-"(Dikontribusikan oleh Jeroen Demeyer dan Mark Shannon di :issue:`36974`.)"
+msgstr "(Kontribusi dari Jeroen Demeyer dan Mark Shannon di :issue:`36974`.)"
 
 #: ../../whatsnew/3.8.rst:369
 msgid "Pickle protocol 5 with out-of-band data buffers"
@@ -524,7 +522,7 @@ msgstr "Lihat: pep:`574` untuk deskripsi lengkap."
 
 #: ../../whatsnew/3.8.rst:382
 msgid "(Contributed by Antoine Pitrou in :issue:`36785`.)"
-msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`36785`.)"
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`36785`.)"
 
 #: ../../whatsnew/3.8.rst:386
 msgid "Other Language Changes"
@@ -565,8 +563,7 @@ msgstr ""
 msgid ""
 "(Contributed by Jonathan Eunice and Serhiy Storchaka in :issue:`30688`.)"
 msgstr ""
-"(Dikontribusikan oleh Jonathan Eunice dan Serhiy Storchaka di "
-":issue:`30688`.)"
+"(Kontribusi dari Jonathan Eunice dan Serhiy Storchaka di :issue:`30688`.)"
 
 #: ../../whatsnew/3.8.rst:416
 msgid ""
@@ -593,7 +590,7 @@ msgstr ""
 #: ../../whatsnew/3.8.rst:437
 msgid "(Contributed by David Cuthbert and Jordan Chapman in :issue:`32117`.)"
 msgstr ""
-"(Dikontribusikan oleh David Cuthbert dan Jordan Chapman di :issue:`32117`.)"
+"(Kontribusi dari David Cuthbert dan Jordan Chapman di :issue:`32117`.)"
 
 #: ../../whatsnew/3.8.rst:439
 msgid ""
@@ -642,7 +639,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:479
 msgid "(Contributed by Victor Stinner in :issue:`37032`.)"
-msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`37032`.)"
+msgstr "(Kontribusi dari Victor Stinner di :issue:`37032`.)"
 
 #: ../../whatsnew/3.8.rst:481
 msgid ""
@@ -665,7 +662,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:505
 msgid "(Contributed by Mark Dickinson in :issue:`36027`.)"
-msgstr "(Dikontribusikan oleh Mark Dickinson di :issue:`36027`.)"
+msgstr "(Kontribusi dari Mark Dickinson di :issue:`36027`.)"
 
 #: ../../whatsnew/3.8.rst:507
 msgid ""
@@ -682,7 +679,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:532
 msgid "(Contributed by Jörn Heissler in :issue:`35224`.)"
-msgstr ""
+msgstr "(Kontribusi dari Jörn Heissler di :issue:`35224`.)"
 
 #: ../../whatsnew/3.8.rst:534
 msgid ""
@@ -708,7 +705,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:564
 msgid "(Contributed by Barry Warsaw and Jason R. Coombs in :issue:`34632`.)"
-msgstr ""
+msgstr "(Kontribusi dari Barry Warsaw dan Jason R. Coombs di :issue:`34632`.)"
 
 #: ../../whatsnew/3.8.rst:568
 msgid "Improved Modules"
@@ -733,7 +730,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:580
 msgid "(Contributed by Ivan Levkivskyi in :issue:`33416`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ivan Levkivskyi di :issue:`33416`.)"
 
 #: ../../whatsnew/3.8.rst:582
 msgid "The :func:`ast.parse` function has some new flags:"
@@ -760,7 +757,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:594
 msgid "(Contributed by Guido van Rossum in :issue:`35766`.)"
-msgstr ""
+msgstr "(Kontribusi dari Guido van Rossum di :issue:`35766`.)"
 
 #: ../../whatsnew/3.8.rst:598
 msgid "asyncio"
@@ -785,7 +782,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:632
 msgid "(Contributed by Yury Selivanov in :issue:`32314`.)"
-msgstr ""
+msgstr "(Kontribusi dari Yury Selivanov di :issue:`32314`.)"
 
 #: ../../whatsnew/3.8.rst:634
 msgid ""
@@ -797,7 +794,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:649
 msgid "(Contributed by Yury Selivanov in :issue:`37028`.)"
-msgstr ""
+msgstr "(Kontribusi dari Yury Selivanov di :issue:`37028`.)"
 
 #: ../../whatsnew/3.8.rst:651 ../../whatsnew/3.8.rst:1949
 msgid ""
@@ -895,7 +892,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:721
 msgid "(Contributed by Scott Sanderson in :issue:`29235`.)"
-msgstr ""
+msgstr "(Kontribusi dari Scott Sanderson di :issue:`29235`.)"
 
 #: ../../whatsnew/3.8.rst:725
 msgid "csv"
@@ -961,7 +958,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:776
 msgid "(Contributed by Raymond Hettinger in :issue:`36772`.)"
-msgstr "(Dikontribusikan oleh Raymond Hettinger di :issue:`36772`.)"
+msgstr "(Kontribusi dari Raymond Hettinger di :issue:`36772`.)"
 
 #: ../../whatsnew/3.8.rst:778
 msgid ""
@@ -971,7 +968,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:792
 msgid "(Contributed by Carl Meyer in :issue:`21145`)"
-msgstr ""
+msgstr "(Kontribusi dari Carl Meyer di :issue:`21145`)"
 
 #: ../../whatsnew/3.8.rst:795
 msgid ""
@@ -982,7 +979,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:817
 msgid "(Contributed by Ethan Smith in :issue:`32380`)"
-msgstr ""
+msgstr "(Kontribusi dari Ethan Smith di :issue:`32380`)"
 
 #: ../../whatsnew/3.8.rst:820
 msgid "gc"
@@ -1108,7 +1105,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:915
 msgid "(Contributed by Lisa Roach in :issue:`34659`.)"
-msgstr ""
+msgstr "(Kontribusi dari Lisa Roach di :issue:`34659`.)"
 
 #: ../../whatsnew/3.8.rst:919
 msgid "json.tool"
@@ -1172,7 +1169,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:962
 msgid "(Contributed by Pablo Galindo in :issue:`35606`.)"
-msgstr ""
+msgstr "(Kontribusi dari Pablo Galindo di :issue:`35606`.)"
 
 #: ../../whatsnew/3.8.rst:964
 msgid ""
@@ -1196,7 +1193,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:986
 msgid "(Contributed by Mark Dickinson in :issue:`36887`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson di :issue:`36887`.)"
 
 #: ../../whatsnew/3.8.rst:988
 msgid ""
@@ -1274,7 +1271,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1037 ../../whatsnew/3.8.rst:1062
 msgid "(Contributed by Steve Dower in :issue:`37834`.)"
-msgstr ""
+msgstr "(Kontribusi dari Steve Dower di :issue:`37834`.)"
 
 #: ../../whatsnew/3.8.rst:1041
 msgid "os.path"
@@ -1380,7 +1377,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1123
 msgid "(Contributed by Rémi Lapeyre in :issue:`30670`.)"
-msgstr ""
+msgstr "(Kontribusi dari Rémi Lapeyre di :issue:`30670`.)"
 
 #: ../../whatsnew/3.8.rst:1127
 msgid "py_compile"
@@ -1796,8 +1793,7 @@ msgstr ""
 msgid ""
 "(Contributed by Joannah Nanjekye and Victor Stinner in :issue:`35537`.)"
 msgstr ""
-"(Dikontribusikan oleh Joannah Nanjekye dan Victor Stinner di "
-":issue:`35537`.)"
+"(Kontribusi dari Joannah Nanjekye dan Victor Stinner di :issue:`35537`.)"
 
 #: ../../whatsnew/3.8.rst:1457
 msgid ""
@@ -1988,7 +1984,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1566
 msgid "(Contributed by Victor Stinner in :issue:`35059`.)"
-msgstr "(Dikontribusikan oleh Victor Stinner di :issue:`35059`.)"
+msgstr "(Kontribusi dari Victor Stinner di :issue:`35059`.)"
 
 #: ../../whatsnew/3.8.rst:1568
 msgid ""
@@ -2026,7 +2022,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1590
 msgid "(Contributed by Antoine Pitrou in :issue:`32430`.)"
-msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`32430`.)"
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`32430`.)"
 
 #: ../../whatsnew/3.8.rst:1592
 msgid ""
@@ -2710,7 +2706,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:2078
 msgid "(Contributed by Eddie Elizondo in :issue:`35810`.)"
-msgstr "(Dikontribusikan oleh Eddie Elizondo di :issue:`35810`.)"
+msgstr "(Kontribusi dari Eddie Elizondo di :issue:`35810`.)"
 
 #: ../../whatsnew/3.8.rst:2080
 msgid ""
@@ -2720,7 +2716,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:2089
 msgid "(Contributed by Zackery Spytz in :issue:`33407`.)"
-msgstr "(Dikontribusikan oleh Zackery Spytz di :issue:`33407`.)"
+msgstr "(Kontribusi dari Zackery Spytz di :issue:`33407`.)"
 
 #: ../../whatsnew/3.8.rst:2091
 msgid ""
@@ -2734,7 +2730,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:2098
 msgid "(Contributed by Antoine Pitrou in :issue:`32388`.)"
-msgstr "(Dikontribusikan oleh Antoine Pitrou di :issue:`32388`.)"
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`32388`.)"
 
 #: ../../whatsnew/3.8.rst:2100
 msgid ""
@@ -2769,7 +2765,7 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:2122
 msgid "(Contributed by Steve Dower in :issue:`37351`.)"
-msgstr ""
+msgstr "(Kontribusi dari Steve Dower di :issue:`37351`.)"
 
 #: ../../whatsnew/3.8.rst:2126
 msgid "CPython bytecode changes"
@@ -2797,7 +2793,7 @@ msgid ""
 "(Contributed by Mark Shannon, Antoine Pitrou and Serhiy Storchaka in "
 ":issue:`17611`.)"
 msgstr ""
-"(Dikontribusikan oleh Mark Shannon, Antoine Pitrou dan Serhiy Storchaka di "
+"(Kontribusi dari Mark Shannon, Antoine Pitrou dan Serhiy Storchaka di "
 ":issue:`17611`.)"
 
 #: ../../whatsnew/3.8.rst:2143

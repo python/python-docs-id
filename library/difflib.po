@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../library/difflib.rst:68
 msgid "Code"
-msgstr ""
+msgstr "Kode"
 
 #: ../../library/difflib.rst:68 ../../library/difflib.rst:494
 msgid "Meaning"

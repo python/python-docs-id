@@ -697,7 +697,7 @@ msgstr "Artinya"
 
 #: ../../library/tkinter.rst:438
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/tkinter.rst:440
 msgid "0"

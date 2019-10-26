@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:32
 msgid "``'rgb'``"
-msgstr ""
+msgstr "``'rgb'``"
 
 #: ../../library/imghdr.rst:32
 msgid "SGI ImgLib Files"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:34
 msgid "``'gif'``"
-msgstr ""
+msgstr "``'gif'``"
 
 #: ../../library/imghdr.rst:34
 msgid "GIF 87a and 89a Files"
@@ -82,39 +82,39 @@ msgstr ""
 
 #: ../../library/imghdr.rst:36
 msgid "``'pbm'``"
-msgstr ""
+msgstr "``'pbm'``"
 
 #: ../../library/imghdr.rst:36
 msgid "Portable Bitmap Files"
-msgstr ""
+msgstr "Berkas Portable Bitmap"
 
 #: ../../library/imghdr.rst:38
 msgid "``'pgm'``"
-msgstr ""
+msgstr "``'pgm'``"
 
 #: ../../library/imghdr.rst:38
 msgid "Portable Graymap Files"
-msgstr ""
+msgstr "Berkas Portable Graymap"
 
 #: ../../library/imghdr.rst:40
 msgid "``'ppm'``"
-msgstr ""
+msgstr "``'ppm'``"
 
 #: ../../library/imghdr.rst:40
 msgid "Portable Pixmap Files"
-msgstr ""
+msgstr "Berkas Portable Pixmap"
 
 #: ../../library/imghdr.rst:42
 msgid "``'tiff'``"
-msgstr ""
+msgstr "``'tiff'``"
 
 #: ../../library/imghdr.rst:42
 msgid "TIFF Files"
-msgstr ""
+msgstr "Berkas TIFF"
 
 #: ../../library/imghdr.rst:44
 msgid "``'rast'``"
-msgstr ""
+msgstr "``'rast'``"
 
 #: ../../library/imghdr.rst:44
 msgid "Sun Raster Files"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:46
 msgid "``'xbm'``"
-msgstr ""
+msgstr "``'xbm'``"
 
 #: ../../library/imghdr.rst:46
 msgid "X Bitmap Files"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../library/imghdr.rst:48
 msgid "``'jpeg'``"
-msgstr ""
+msgstr "``'jpeg'``"
 
 #: ../../library/imghdr.rst:48
 msgid "JPEG data in JFIF or Exif formats"
@@ -138,35 +138,35 @@ msgstr ""
 
 #: ../../library/imghdr.rst:50
 msgid "``'bmp'``"
-msgstr ""
+msgstr "``'bmp'``"
 
 #: ../../library/imghdr.rst:50
 msgid "BMP files"
-msgstr ""
+msgstr "Berkas BMP"
 
 #: ../../library/imghdr.rst:52
 msgid "``'png'``"
-msgstr ""
+msgstr "``'png'``"
 
 #: ../../library/imghdr.rst:52
 msgid "Portable Network Graphics"
-msgstr ""
+msgstr "Portable Network Graphics"
 
 #: ../../library/imghdr.rst:54
 msgid "``'webp'``"
-msgstr ""
+msgstr "``'webp'``"
 
 #: ../../library/imghdr.rst:54
 msgid "WebP files"
-msgstr ""
+msgstr "Berkas WebP"
 
 #: ../../library/imghdr.rst:56
 msgid "``'exr'``"
-msgstr ""
+msgstr "``'exr'``"
 
 #: ../../library/imghdr.rst:56
 msgid "OpenEXR Files"
-msgstr ""
+msgstr "Berkas OpenEXR"
 
 #: ../../library/imghdr.rst:59
 msgid "The *exr* and *webp* formats were added."

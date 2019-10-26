@@ -758,7 +758,7 @@ msgstr "\\(1)"
 
 #: ../../distutils/setupscript.rst:571
 msgid "``version``"
-msgstr ""
+msgstr "``version``"
 
 #: ../../distutils/setupscript.rst:571
 msgid "version of this release"

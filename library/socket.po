@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: ../../library/socket.rst:1752
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/socket.rst:1754
 msgid ""

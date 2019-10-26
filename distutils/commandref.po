@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../distutils/commandref.rst:63
 msgid "Command"
-msgstr ""
+msgstr "Perintah"
 
 #: ../../distutils/commandref.rst:63
 msgid "Description"

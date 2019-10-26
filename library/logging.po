@@ -37,15 +37,15 @@ msgstr ""
 
 #: ../../library/logging.rst:19
 msgid ":ref:`Basic Tutorial <logging-basic-tutorial>`"
-msgstr ""
+msgstr ":ref:`Basic Tutorial <logging-basic-tutorial>`"
 
 #: ../../library/logging.rst:20
 msgid ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
-msgstr ""
+msgstr ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
 
 #: ../../library/logging.rst:21
 msgid ":ref:`Logging Cookbook <logging-cookbook>`"
-msgstr ""
+msgstr ":ref:`Logging Cookbook <logging-cookbook>`"
 
 #: ../../library/logging.rst:25
 msgid ""

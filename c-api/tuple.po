@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../c-api/tuple.rst:145 ../../c-api/tuple.rst:168
 msgid "Field"
-msgstr ""
+msgstr "Field"
 
 #: ../../c-api/tuple.rst:145 ../../c-api/tuple.rst:168
 msgid "C Type"

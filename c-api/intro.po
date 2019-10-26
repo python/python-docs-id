@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../../c-api/intro.rst:449
 msgid "Types"
-msgstr ""
+msgstr "Tipe-tipe"
 
 #: ../../c-api/intro.rst:451
 msgid ""

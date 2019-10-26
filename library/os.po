@@ -1657,51 +1657,51 @@ msgstr ""
 
 #: ../../library/os.rst:1618
 msgid ":data:`stat.UF_NODUMP`"
-msgstr ""
+msgstr ":data:`stat.UF_NODUMP`"
 
 #: ../../library/os.rst:1619
 msgid ":data:`stat.UF_IMMUTABLE`"
-msgstr ""
+msgstr ":data:`stat.UF_IMMUTABLE`"
 
 #: ../../library/os.rst:1620
 msgid ":data:`stat.UF_APPEND`"
-msgstr ""
+msgstr ":data:`stat.UF_APPEND`"
 
 #: ../../library/os.rst:1621
 msgid ":data:`stat.UF_OPAQUE`"
-msgstr ""
+msgstr ":data:`stat.UF_OPAQUE`"
 
 #: ../../library/os.rst:1622
 msgid ":data:`stat.UF_NOUNLINK`"
-msgstr ""
+msgstr ":data:`stat.UF_NOUNLINK`"
 
 #: ../../library/os.rst:1623
 msgid ":data:`stat.UF_COMPRESSED`"
-msgstr ""
+msgstr ":data:`stat.UF_COMPRESSED`"
 
 #: ../../library/os.rst:1624
 msgid ":data:`stat.UF_HIDDEN`"
-msgstr ""
+msgstr ":data:`stat.UF_HIDDEN`"
 
 #: ../../library/os.rst:1625
 msgid ":data:`stat.SF_ARCHIVED`"
-msgstr ""
+msgstr ":data:`stat.SF_ARCHIVED`"
 
 #: ../../library/os.rst:1626
 msgid ":data:`stat.SF_IMMUTABLE`"
-msgstr ""
+msgstr ":data:`stat.SF_IMMUTABLE`"
 
 #: ../../library/os.rst:1627
 msgid ":data:`stat.SF_APPEND`"
-msgstr ""
+msgstr ":data:`stat.SF_APPEND`"
 
 #: ../../library/os.rst:1628
 msgid ":data:`stat.SF_NOUNLINK`"
-msgstr ""
+msgstr ":data:`stat.SF_NOUNLINK`"
 
 #: ../../library/os.rst:1629
 msgid ":data:`stat.SF_SNAPSHOT`"
-msgstr ""
+msgstr ":data:`stat.SF_SNAPSHOT`"
 
 #: ../../library/os.rst:1631
 msgid ""
@@ -1721,15 +1721,15 @@ msgstr ""
 
 #: ../../library/os.rst:1648
 msgid ":data:`stat.S_ISUID`"
-msgstr ""
+msgstr ":data:`stat.S_ISUID`"
 
 #: ../../library/os.rst:1649
 msgid ":data:`stat.S_ISGID`"
-msgstr ""
+msgstr ":data:`stat.S_ISGID`"
 
 #: ../../library/os.rst:1650
 msgid ":data:`stat.S_ENFMT`"
-msgstr ""
+msgstr ":data:`stat.S_ENFMT`"
 
 #: ../../library/os.rst:1651
 msgid ":data:`stat.S_ISVTX`"
@@ -1737,63 +1737,63 @@ msgstr ""
 
 #: ../../library/os.rst:1652
 msgid ":data:`stat.S_IREAD`"
-msgstr ""
+msgstr ":data:`stat.S_IREAD`"
 
 #: ../../library/os.rst:1653
 msgid ":data:`stat.S_IWRITE`"
-msgstr ""
+msgstr ":data:`stat.S_IWRITE`"
 
 #: ../../library/os.rst:1654
 msgid ":data:`stat.S_IEXEC`"
-msgstr ""
+msgstr ":data:`stat.S_IEXEC`"
 
 #: ../../library/os.rst:1655
 msgid ":data:`stat.S_IRWXU`"
-msgstr ""
+msgstr ":data:`stat.S_IRWXU`"
 
 #: ../../library/os.rst:1656
 msgid ":data:`stat.S_IRUSR`"
-msgstr ""
+msgstr ":data:`stat.S_IRUSR`"
 
 #: ../../library/os.rst:1657
 msgid ":data:`stat.S_IWUSR`"
-msgstr ""
+msgstr ":data:`stat.S_IWUSR`"
 
 #: ../../library/os.rst:1658
 msgid ":data:`stat.S_IXUSR`"
-msgstr ""
+msgstr ":data:`stat.S_IXUSR`"
 
 #: ../../library/os.rst:1659
 msgid ":data:`stat.S_IRWXG`"
-msgstr ""
+msgstr ":data:`stat.S_IRWXG`"
 
 #: ../../library/os.rst:1660
 msgid ":data:`stat.S_IRGRP`"
-msgstr ""
+msgstr ":data:`stat.S_IRGRP`"
 
 #: ../../library/os.rst:1661
 msgid ":data:`stat.S_IWGRP`"
-msgstr ""
+msgstr ":data:`stat.S_IWGRP`"
 
 #: ../../library/os.rst:1662
 msgid ":data:`stat.S_IXGRP`"
-msgstr ""
+msgstr ":data:`stat.S_IXGRP`"
 
 #: ../../library/os.rst:1663
 msgid ":data:`stat.S_IRWXO`"
-msgstr ""
+msgstr ":data:`stat.S_IRWXO`"
 
 #: ../../library/os.rst:1664
 msgid ":data:`stat.S_IROTH`"
-msgstr ""
+msgstr ":data:`stat.S_IROTH`"
 
 #: ../../library/os.rst:1665
 msgid ":data:`stat.S_IWOTH`"
-msgstr ""
+msgstr ":data:`stat.S_IWOTH`"
 
 #: ../../library/os.rst:1666
 msgid ":data:`stat.S_IXOTH`"
-msgstr ""
+msgstr ":data:`stat.S_IXOTH`"
 
 #: ../../library/os.rst:1668 ../../library/os.rst:1691
 #: ../../library/os.rst:2908

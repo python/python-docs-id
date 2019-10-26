@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../library/statistics.rst:53
 msgid ":func:`mode`"
-msgstr ""
+msgstr ":func:`mode`"
 
 #: ../../library/statistics.rst:53
 msgid "Single mode (most common value) of discrete or nominal data."

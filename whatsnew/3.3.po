@@ -1008,7 +1008,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:784
 msgid "(Contributed by Ezio Melotti in :issue:`12753`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ezio Melotti di :issue:`12753`.)"
 
 #: ../../whatsnew/3.3.rst:786
 msgid "Unicode database updated to UCD version 6.1.0"
@@ -1030,7 +1030,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:796
 msgid "(Contributed by Petri Lehtinen in :issue:`12170`.)"
-msgstr ""
+msgstr "(Kontribusi dari Petri Lehtinen di :issue:`12170`.)"
 
 #: ../../whatsnew/3.3.rst:798
 msgid ""
@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:809
 msgid "(Contributed by Antoine Pitrou in :issue:`13748`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`13748`.)"
 
 #: ../../whatsnew/3.3.rst:811
 msgid ""
@@ -1063,7 +1063,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:814
 msgid "(Contributed by Filip Gruszczyński in :issue:`13521`.)"
-msgstr ""
+msgstr "(Kontribusi dari Filip Gruszczyński di :issue:`13521`.)"
 
 #: ../../whatsnew/3.3.rst:816
 msgid ""
@@ -1073,7 +1073,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:819
 msgid "(Contributed by Benjamin Peterson.)"
-msgstr ""
+msgstr "(Kontribusi dari Benjamin Peterson.)"
 
 #: ../../whatsnew/3.3.rst:823
 msgid "A Finer-Grained Import Lock"
@@ -1098,7 +1098,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:836
 msgid "(Contributed by Antoine Pitrou in :issue:`9260`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`9260`.)"
 
 #: ../../whatsnew/3.3.rst:840
 msgid "Builtin functions and types"
@@ -1176,7 +1176,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:896
 msgid "(Contributed by Google and Peter Moody in :pep:`3144`.)"
-msgstr ""
+msgstr "(Kontribusi dari Google dan Peter Moody di :pep:`3144`.)"
 
 #: ../../whatsnew/3.3.rst:899
 msgid "lzma"
@@ -1192,6 +1192,7 @@ msgstr ""
 #: ../../whatsnew/3.3.rst:905
 msgid "(Contributed by Nadeem Vawda and Per Øyvind Karlsen in :issue:`6715`.)"
 msgstr ""
+"(Kontribusi dari Nadeem Vawda dan Per Øyvind Karlsen di :issue:`6715`.)"
 
 #: ../../whatsnew/3.3.rst:909
 msgid "Improved Modules"
@@ -1229,7 +1230,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:926
 msgid "(Contributed by Darren Dale in :issue:`11610`.)"
-msgstr ""
+msgstr "(Kontribusi dari Darren Dale di :issue:`11610`.)"
 
 #: ../../whatsnew/3.3.rst:928
 msgid ""
@@ -1251,6 +1252,7 @@ msgstr ""
 msgid ""
 "(Contributed by Oren Tirosh and Hirokazu Yamamoto in :issue:`1172711`.)"
 msgstr ""
+"(Kontribusi dari Oren Tirosh dan Hirokazu Yamamoto di :issue:`1172711`.)"
 
 #: ../../whatsnew/3.3.rst:942
 msgid "base64"
@@ -1298,7 +1300,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:969
 msgid "(Contributed by Nadeem Vawda in :issue:`5863`.)"
-msgstr ""
+msgstr "(Kontribusi dari Nadeem Vawda di :issue:`5863`.)"
 
 #: ../../whatsnew/3.3.rst:971
 msgid ""
@@ -1310,7 +1312,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:976
 msgid "(Contributed by Nir Aides in :issue:`1625`.)"
-msgstr ""
+msgstr "(Kontribusi dari Nir Aides di :issue:`1625`.)"
 
 #: ../../whatsnew/3.3.rst:978
 msgid ""
@@ -1348,7 +1350,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:999
 msgid "(:issue:`12016`)"
-msgstr ""
+msgstr "(:issue:`12016`)"
 
 #: ../../whatsnew/3.3.rst:1001
 msgid ""
@@ -1364,7 +1366,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1012
 msgid "(:issue:`12100`)"
-msgstr ""
+msgstr "(:issue:`12100`)"
 
 #: ../../whatsnew/3.3.rst:1014
 msgid "The ``unicode_internal`` codec has been deprecated."
@@ -1414,7 +1416,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1048
 msgid "(:issue:`13585`)"
-msgstr ""
+msgstr "(:issue:`13585`)"
 
 #: ../../whatsnew/3.3.rst:1052
 msgid "crypt"
@@ -1428,7 +1430,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1057
 msgid "(:issue:`10924`)"
-msgstr ""
+msgstr "(:issue:`10924`)"
 
 #: ../../whatsnew/3.3.rst:1060
 msgid "curses"
@@ -1466,7 +1468,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1073
 msgid "(Contributed by Iñigo Serna in :issue:`6755`.)"
-msgstr ""
+msgstr "(Kontribusi dari Iñigo Serna di :issue:`6755`.)"
 
 #: ../../whatsnew/3.3.rst:1076
 msgid "datetime"
@@ -2049,7 +2051,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1455
 msgid "(Contributed by Sijin Joseph in :issue:`8808`.)"
-msgstr ""
+msgstr "(Kontribusi dari Sijin Joseph di :issue:`8808`.)"
 
 #: ../../whatsnew/3.3.rst:1459
 msgid "inspect"
@@ -2065,7 +2067,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1466
 msgid "(Contributed by Meador Inge and Nick Coghlan in :issue:`13062`.)"
-msgstr ""
+msgstr "(Kontribusi dari Meador Inge dan Nick Coghlan di :issue:`13062`.)"
 
 #: ../../whatsnew/3.3.rst:1468
 msgid ""
@@ -2077,7 +2079,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1473
 msgid "(Contributed by Meador Inge in :issue:`15153`.)"
-msgstr ""
+msgstr "(Kontribusi dari Meador Inge di :issue:`15153`.)"
 
 #: ../../whatsnew/3.3.rst:1476
 msgid "io"
@@ -2092,7 +2094,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1482
 msgid "(Contributed by David Townshend in :issue:`12760`.)"
-msgstr ""
+msgstr "(Kontribusi dari David Townshend di :issue:`12760`.)"
 
 #: ../../whatsnew/3.3.rst:1484
 msgid ""
@@ -2215,7 +2217,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1571
 msgid "(Contributed by Giampaolo Rodolà in :issue:`9795`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodolà di :issue:`9795`.)"
 
 #: ../../whatsnew/3.3.rst:1575
 msgid "os"
@@ -2462,7 +2464,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1712
 msgid "(Contributed by Georg Brandl in :issue:`14210`)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl di :issue:`14210`)"
 
 #: ../../whatsnew/3.3.rst:1716
 msgid "pickle"
@@ -2477,7 +2479,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1722
 msgid "(Contributed by Richard Oudkerk in :issue:`14166`.)"
-msgstr ""
+msgstr "(Kontribusi dari Richard Oudkerk di :issue:`14166`.)"
 
 #: ../../whatsnew/3.3.rst:1726
 msgid "pydoc"
@@ -2500,7 +2502,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1738
 msgid "(Contributed by Serhiy Storchaka in :issue:`3665`.)"
-msgstr ""
+msgstr "(Kontribusi dari Serhiy Storchaka di :issue:`3665`.)"
 
 #: ../../whatsnew/3.3.rst:1742
 msgid "sched"
@@ -2832,7 +2834,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1933
 msgid "(Contributed by Victor Stinner in :issue:`12049`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`12049`.)"
 
 #: ../../whatsnew/3.3.rst:1935
 msgid ""
@@ -2911,7 +2913,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1980
 msgid "(Contributed by Giampaolo Rodolà in :issue:`14807`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodolà di :issue:`14807`.)"
 
 #: ../../whatsnew/3.3.rst:1984
 msgid "struct"
@@ -3108,7 +3110,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2109
 msgid "(:issue:`1673007`)"
-msgstr ""
+msgstr "(:issue:`1673007`)"
 
 #: ../../whatsnew/3.3.rst:2113
 msgid "webbrowser"
@@ -3853,7 +3855,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2511
 msgid "(:issue:`10998`, contributed by Éric Araujo.)"
-msgstr ""
+msgstr "(:issue:`10998`, kontribusi dari Éric Araujo.)"
 
 #: ../../whatsnew/3.3.rst:2513
 msgid ""
@@ -3866,3 +3868,4 @@ msgstr ""
 msgid ""
 "(:issue:`11591`, contributed by Carl Meyer with editions by Éric Araujo.)"
 msgstr ""
+"(:issue:`11591`, kontribusi dari Carl Meyer dengan edisi oleh Éric Araujo.)"

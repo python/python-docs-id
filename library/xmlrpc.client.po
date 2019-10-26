@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../library/xmlrpc.client.rst:93
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 #: ../../library/xmlrpc.client.rst:95
 msgid "``boolean``"

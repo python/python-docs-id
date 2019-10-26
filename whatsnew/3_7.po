@@ -917,7 +917,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:604
 msgid "Contributed by Barry Warsaw and Brett Cannon in :issue:`32248`."
-msgstr ""
+msgstr "Kontribusi dari Barry Warsaw dan Brett Cannon di :issue:`32248`."
 
 #: ../../whatsnew/3.7.rst:608
 msgid ""
@@ -1064,7 +1064,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:717
 msgid "(Contributed by Yury Selivanov in :issue:`32662`.)"
-msgstr "(Dikontribusikan oleh Yury Selivanov di :issue: `32662`.)"
+msgstr "(Kontribusi dari Yury Selivanov di :issue: `32662`.)"
 
 #: ../../whatsnew/3.7.rst:719
 msgid ""
@@ -3420,6 +3420,7 @@ msgstr ""
 msgid ""
 "(Contributed by Serhiy Storchaka in :issue:`25054` and :issue:`32308`.)"
 msgstr ""
+"(Kontribusi dari Serhiy Storchaka di :issue:`25054` dan :issue:`32308`.)"
 
 #: ../../whatsnew/3.7.rst:2357
 msgid ""

@@ -960,7 +960,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:870 ../../library/sqlite3.rst:887
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 #: ../../library/sqlite3.rst:870 ../../library/sqlite3.rst:887
 msgid "SQLite type"

@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:52
 msgid "``'r' or 'r:*'``"
-msgstr ""
+msgstr "``'r' or 'r:*'``"
 
 #: ../../library/tarfile.rst:52
 msgid "Open for reading with transparent compression (recommended)."
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:55
 msgid "``'r:'``"
-msgstr ""
+msgstr "``'r:'``"
 
 #: ../../library/tarfile.rst:55
 msgid "Open for reading exclusively without compression."
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:58
 msgid "``'r:gz'``"
-msgstr ""
+msgstr "``'r:gz'``"
 
 #: ../../library/tarfile.rst:58
 msgid "Open for reading with gzip compression."
@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:60
 msgid "``'r:bz2'``"
-msgstr ""
+msgstr "``'r:bz2'``"
 
 #: ../../library/tarfile.rst:60
 msgid "Open for reading with bzip2 compression."
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:62
 msgid "``'r:xz'``"
-msgstr ""
+msgstr "``'r:xz'``"
 
 #: ../../library/tarfile.rst:62
 msgid "Open for reading with lzma compression."
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:64
 msgid "``'x'`` or ``'x:'``"
-msgstr ""
+msgstr "``'x'`` or ``'x:'``"
 
 #: ../../library/tarfile.rst:64
 msgid ""
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:69
 msgid "``'x:gz'``"
-msgstr ""
+msgstr "``'x:gz'``"
 
 #: ../../library/tarfile.rst:69
 msgid ""
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:73
 msgid "``'x:bz2'``"
-msgstr ""
+msgstr "``'x:bz2'``"
 
 #: ../../library/tarfile.rst:73
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:77
 msgid "``'x:xz'``"
-msgstr ""
+msgstr "``'x:xz'``"
 
 #: ../../library/tarfile.rst:77
 msgid ""
@@ -176,7 +176,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:81
 msgid "``'a' or 'a:'``"
-msgstr ""
+msgstr "``'a' or 'a:'``"
 
 #: ../../library/tarfile.rst:81
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:84
 msgid "``'w' or 'w:'``"
-msgstr ""
+msgstr "``'w' or 'w:'``"
 
 #: ../../library/tarfile.rst:84
 msgid "Open for uncompressed writing."
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:86
 msgid "``'w:gz'``"
-msgstr ""
+msgstr "``'w:gz'``"
 
 #: ../../library/tarfile.rst:86
 msgid "Open for gzip compressed writing."
@@ -202,7 +202,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:88
 msgid "``'w:bz2'``"
-msgstr ""
+msgstr "``'w:bz2'``"
 
 #: ../../library/tarfile.rst:88
 msgid "Open for bzip2 compressed writing."
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:90
 msgid "``'w:xz'``"
-msgstr ""
+msgstr "``'w:xz'``"
 
 #: ../../library/tarfile.rst:90
 msgid "Open for lzma compressed writing."
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:119
 msgid "``'r|*'``"
-msgstr ""
+msgstr "``'r|*'``"
 
 #: ../../library/tarfile.rst:119
 msgid ""
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:122
 msgid "``'r|'``"
-msgstr ""
+msgstr "``'r|'``"
 
 #: ../../library/tarfile.rst:122
 msgid "Open a *stream* of uncompressed tar blocks for reading."
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:125
 msgid "``'r|gz'``"
-msgstr ""
+msgstr "``'r|gz'``"
 
 #: ../../library/tarfile.rst:125
 msgid "Open a gzip compressed *stream* for reading."
@@ -288,7 +288,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:128
 msgid "``'r|bz2'``"
-msgstr ""
+msgstr "``'r|bz2'``"
 
 #: ../../library/tarfile.rst:128
 msgid "Open a bzip2 compressed *stream* for reading."
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:131
 msgid "``'r|xz'``"
-msgstr ""
+msgstr "``'r|xz'``"
 
 #: ../../library/tarfile.rst:131
 msgid "Open an lzma compressed *stream* for reading."
@@ -304,7 +304,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:134
 msgid "``'w|'``"
-msgstr ""
+msgstr "``'w|'``"
 
 #: ../../library/tarfile.rst:134
 msgid "Open an uncompressed *stream* for writing."
@@ -312,7 +312,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:136
 msgid "``'w|gz'``"
-msgstr ""
+msgstr "``'w|gz'``"
 
 #: ../../library/tarfile.rst:136
 msgid "Open a gzip compressed *stream* for writing."
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:139
 msgid "``'w|bz2'``"
-msgstr ""
+msgstr "``'w|bz2'``"
 
 #: ../../library/tarfile.rst:139
 msgid "Open a bzip2 compressed *stream* for writing."
@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:142
 msgid "``'w|xz'``"
-msgstr ""
+msgstr "``'w|xz'``"
 
 #: ../../library/tarfile.rst:142
 msgid "Open an lzma compressed *stream* for writing."
@@ -410,15 +410,15 @@ msgstr ""
 
 #: ../../library/tarfile.rst:217
 msgid "POSIX.1-1988 (ustar) format."
-msgstr ""
+msgstr "format POSIX.1-1988 (ustar)."
 
 #: ../../library/tarfile.rst:222
 msgid "GNU tar format."
-msgstr ""
+msgstr "format GNU tar."
 
 #: ../../library/tarfile.rst:227
 msgid "POSIX.1-2001 (pax) format."
-msgstr ""
+msgstr "format POSIX.1-2001 (pax)."
 
 #: ../../library/tarfile.rst:232
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:242
 msgid "Module :mod:`zipfile`"
-msgstr ""
+msgstr "Modul :mod:`zipfile`"
 
 #: ../../library/tarfile.rst:242
 msgid "Documentation of the :mod:`zipfile` standard module."
@@ -442,7 +442,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:246
 msgid ":ref:`archiving-operations`"
-msgstr ""
+msgstr ":ref:`archiving-operations`"
 
 #: ../../library/tarfile.rst:245
 msgid ""
@@ -462,7 +462,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:255
 msgid "TarFile Objects"
-msgstr ""
+msgstr "Objek TarFile"
 
 #: ../../library/tarfile.rst:257
 msgid ""
@@ -761,7 +761,7 @@ msgstr ""
 
 #: ../../library/tarfile.rst:519
 msgid "TarInfo Objects"
-msgstr ""
+msgstr "Objek TarInfo"
 
 #: ../../library/tarfile.rst:521
 msgid ""

@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:138
 msgid "Command"
-msgstr ""
+msgstr "Perintah"
 
 #: ../../distutils/builtdist.rst:138
 msgid "Formats"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:207
 msgid "``version``"
-msgstr ""
+msgstr "``version``"
 
 #: ../../distutils/builtdist.rst:209 ../../distutils/builtdist.rst:232
 msgid "Vendor"

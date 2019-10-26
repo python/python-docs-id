@@ -127,7 +127,7 @@ msgstr ""
 
 #: ../../library/uuid.rst:99
 msgid "Field"
-msgstr ""
+msgstr "Field"
 
 #: ../../library/uuid.rst:99
 msgid "Meaning"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../library/uuid.rst:267
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/uuid.rst:269
 msgid "Here are some examples of typical usage of the :mod:`uuid` module::"

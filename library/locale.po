@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../library/locale.rst:132
 msgid "``0``"
-msgstr ""
+msgstr "``0``"
 
 #: ../../library/locale.rst:132
 msgid "Currency and value are surrounded by parentheses."

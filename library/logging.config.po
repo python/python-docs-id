@@ -36,15 +36,15 @@ msgstr ""
 
 #: ../../library/logging.config.rst:17
 msgid ":ref:`Basic Tutorial <logging-basic-tutorial>`"
-msgstr ""
+msgstr ":ref:`Basic Tutorial <logging-basic-tutorial>`"
 
 #: ../../library/logging.config.rst:18
 msgid ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
-msgstr ""
+msgstr ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
 
 #: ../../library/logging.config.rst:19
 msgid ":ref:`Logging Cookbook <logging-cookbook>`"
-msgstr ""
+msgstr ":ref:`Logging Cookbook <logging-cookbook>`"
 
 #: ../../library/logging.config.rst:23
 msgid "This section describes the API for configuring the logging module."

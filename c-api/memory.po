@@ -298,7 +298,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:253
 msgid "Same as :c:func:`PyMem_Free`."
-msgstr ""
+msgstr "Sama seperti :c:func:`PyMem_Free`."
 
 #: ../../c-api/memory.rst:255
 msgid ""
@@ -310,7 +310,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:260
 msgid "``PyMem_MALLOC(size)``"
-msgstr ""
+msgstr "``PyMem_MALLOC(size)``"
 
 #: ../../c-api/memory.rst:261
 msgid "``PyMem_NEW(type, size)``"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:340
 msgid "PyMem_Malloc"
-msgstr ""
+msgstr "PyMem_Malloc"
 
 #: ../../c-api/memory.rst:340
 msgid "PyObject_Malloc"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../../c-api/memory.rst:368 ../../c-api/memory.rst:513
 msgid "Field"
-msgstr ""
+msgstr "Field"
 
 #: ../../c-api/memory.rst:368 ../../c-api/memory.rst:513
 msgid "Meaning"
@@ -555,55 +555,55 @@ msgstr ""
 #: ../../c-api/memory.rst:393 ../../c-api/memory.rst:402
 #: ../../c-api/memory.rst:411
 msgid "Functions:"
-msgstr ""
+msgstr "Fungsi-fungsi:"
 
 #: ../../c-api/memory.rst:395
 msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawMalloc`"
 
 #: ../../c-api/memory.rst:396
 msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawRealloc`"
 
 #: ../../c-api/memory.rst:397
 msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawCalloc`"
 
 #: ../../c-api/memory.rst:398
 msgid ":c:func:`PyMem_RawFree`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawFree`"
 
 #: ../../c-api/memory.rst:404
 msgid ":c:func:`PyMem_Malloc`,"
-msgstr ""
+msgstr ":c:func:`PyMem_Malloc`,"
 
 #: ../../c-api/memory.rst:405
 msgid ":c:func:`PyMem_Realloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_Realloc`"
 
 #: ../../c-api/memory.rst:406
 msgid ":c:func:`PyMem_Calloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_Calloc`"
 
 #: ../../c-api/memory.rst:407
 msgid ":c:func:`PyMem_Free`"
-msgstr ""
+msgstr ":c:func:`PyMem_Free`"
 
 #: ../../c-api/memory.rst:413
 msgid ":c:func:`PyObject_Malloc`"
-msgstr ""
+msgstr ":c:func:`PyObject_Malloc`"
 
 #: ../../c-api/memory.rst:414
 msgid ":c:func:`PyObject_Realloc`"
-msgstr ""
+msgstr ":c:func:`PyObject_Realloc`"
 
 #: ../../c-api/memory.rst:415
 msgid ":c:func:`PyObject_Calloc`"
-msgstr ""
+msgstr ":c:func:`PyObject_Calloc`"
 
 #: ../../c-api/memory.rst:416
 msgid ":c:func:`PyObject_Free`"
-msgstr ""
+msgstr ":c:func:`PyObject_Free`"
 
 #: ../../c-api/memory.rst:420
 msgid "Get the memory block allocator of the specified domain."

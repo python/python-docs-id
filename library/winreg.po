@@ -242,7 +242,7 @@ msgstr "Artinya"
 #: ../../library/winreg.rst:212 ../../library/winreg.rst:322
 #: ../../library/winreg.rst:366
 msgid "``0``"
-msgstr ""
+msgstr "``0``"
 
 #: ../../library/winreg.rst:212
 msgid "A string that identifies the value name"

@@ -619,7 +619,7 @@ msgstr ""
 
 #: ../../library/signal.rst:499
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/signal.rst:501
 msgid ""

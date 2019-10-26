@@ -500,6 +500,8 @@ msgid ""
 "(Contributed by Nick Coghlan in :issue:`7475`, :issue:`17827`, "
 ":issue:`17828` and :issue:`19619`.)"
 msgstr ""
+"(Kontribusi dari Nick Coghlan di :issue:`7475`, :issue:`17827`, "
+":issue:`17828` dan :issue:`19619`.)"
 
 #: ../../whatsnew/3.4.rst:381
 msgid "PEP 451: A ModuleSpec Type for the Import System"
@@ -1027,6 +1029,8 @@ msgid ""
 "(Contributed by Nick Coghlan, Ryan Kelly and Thomas Kluyver in "
 ":issue:`11816` and Claudiu Popa in :issue:`17916`.)"
 msgstr ""
+"(Kontribusi dari Nick Coghlan, Ryan Kelly dan Thomas Kluyver di "
+":issue:`11816` dan Claudiu Popa di :issue:`17916`.)"
 
 #: ../../whatsnew/3.4.rst:770
 msgid ""

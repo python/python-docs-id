@@ -878,7 +878,7 @@ msgstr ""
 
 #: ../../library/curses.rst:779 ../../library/curses.rst:781
 msgid ":const:`ACS_VLINE`"
-msgstr ""
+msgstr ":const:`ACS_VLINE`"
 
 #: ../../library/curses.rst:781
 msgid "*rs*"
@@ -898,7 +898,7 @@ msgstr ""
 
 #: ../../library/curses.rst:783 ../../library/curses.rst:785
 msgid ":const:`ACS_HLINE`"
-msgstr ""
+msgstr ":const:`ACS_HLINE`"
 
 #: ../../library/curses.rst:785
 msgid "*bs*"
@@ -918,7 +918,7 @@ msgstr ""
 
 #: ../../library/curses.rst:787
 msgid ":const:`ACS_ULCORNER`"
-msgstr ""
+msgstr ":const:`ACS_ULCORNER`"
 
 #: ../../library/curses.rst:789
 msgid "*tr*"
@@ -930,7 +930,7 @@ msgstr ""
 
 #: ../../library/curses.rst:789
 msgid ":const:`ACS_URCORNER`"
-msgstr ""
+msgstr ":const:`ACS_URCORNER`"
 
 #: ../../library/curses.rst:791
 msgid "*bl*"
@@ -942,7 +942,7 @@ msgstr ""
 
 #: ../../library/curses.rst:791
 msgid ":const:`ACS_LLCORNER`"
-msgstr ""
+msgstr ":const:`ACS_LLCORNER`"
 
 #: ../../library/curses.rst:793
 msgid "*br*"
@@ -954,7 +954,7 @@ msgstr ""
 
 #: ../../library/curses.rst:793
 msgid ":const:`ACS_LRCORNER`"
-msgstr ""
+msgstr ":const:`ACS_LRCORNER`"
 
 #: ../../library/curses.rst:799
 msgid ""
@@ -2441,7 +2441,7 @@ msgstr "Konstanta"
 
 #: ../../library/curses.rst:1587
 msgid ":kbd:`Insert`"
-msgstr ""
+msgstr ":kbd:`Insert`"
 
 #: ../../library/curses.rst:1587
 msgid "KEY_IC"
@@ -2449,7 +2449,7 @@ msgstr "KEY_IC"
 
 #: ../../library/curses.rst:1589
 msgid ":kbd:`Delete`"
-msgstr ""
+msgstr ":kbd:`Delete`"
 
 #: ../../library/curses.rst:1589
 msgid "KEY_DC"
@@ -2457,7 +2457,7 @@ msgstr "KEY_DC"
 
 #: ../../library/curses.rst:1591
 msgid ":kbd:`Home`"
-msgstr ""
+msgstr ":kbd:`Home`"
 
 #: ../../library/curses.rst:1591
 msgid "KEY_HOME"
@@ -2465,7 +2465,7 @@ msgstr "KEY_HOME"
 
 #: ../../library/curses.rst:1593
 msgid ":kbd:`End`"
-msgstr ""
+msgstr ":kbd:`End`"
 
 #: ../../library/curses.rst:1593
 msgid "KEY_END"
@@ -2473,7 +2473,7 @@ msgstr "KEY_END"
 
 #: ../../library/curses.rst:1595
 msgid ":kbd:`Page Up`"
-msgstr ""
+msgstr ":kbd:`Page Up`"
 
 #: ../../library/curses.rst:1595
 msgid "KEY_PPAGE"
@@ -2481,7 +2481,7 @@ msgstr "KEY_PPAGE"
 
 #: ../../library/curses.rst:1597
 msgid ":kbd:`Page Down`"
-msgstr ""
+msgstr ":kbd:`Page Down`"
 
 #: ../../library/curses.rst:1597
 msgid "KEY_NPAGE"
@@ -2505,7 +2505,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1612
 msgid "``ACS_BBSS``"
-msgstr ""
+msgstr "``ACS_BBSS``"
 
 #: ../../library/curses.rst:1612
 msgid "alternate name for upper right corner"
@@ -2513,7 +2513,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1614
 msgid "``ACS_BLOCK``"
-msgstr ""
+msgstr "``ACS_BLOCK``"
 
 #: ../../library/curses.rst:1614
 msgid "solid square block"
@@ -2521,7 +2521,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1616
 msgid "``ACS_BOARD``"
-msgstr ""
+msgstr "``ACS_BOARD``"
 
 #: ../../library/curses.rst:1616
 msgid "board of squares"
@@ -2529,7 +2529,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1618
 msgid "``ACS_BSBS``"
-msgstr ""
+msgstr "``ACS_BSBS``"
 
 #: ../../library/curses.rst:1618
 msgid "alternate name for horizontal line"
@@ -2537,7 +2537,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1620
 msgid "``ACS_BSSB``"
-msgstr ""
+msgstr "``ACS_BSSB``"
 
 #: ../../library/curses.rst:1620
 msgid "alternate name for upper left corner"
@@ -2545,7 +2545,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1622
 msgid "``ACS_BSSS``"
-msgstr ""
+msgstr "``ACS_BSSS``"
 
 #: ../../library/curses.rst:1622
 msgid "alternate name for top tee"
@@ -2553,7 +2553,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1624
 msgid "``ACS_BTEE``"
-msgstr ""
+msgstr "``ACS_BTEE``"
 
 #: ../../library/curses.rst:1624
 msgid "bottom tee"
@@ -2561,7 +2561,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1626
 msgid "``ACS_BULLET``"
-msgstr ""
+msgstr "``ACS_BULLET``"
 
 #: ../../library/curses.rst:1626
 msgid "bullet"
@@ -2569,7 +2569,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1628
 msgid "``ACS_CKBOARD``"
-msgstr ""
+msgstr "``ACS_CKBOARD``"
 
 #: ../../library/curses.rst:1628
 msgid "checker board (stipple)"
@@ -2577,7 +2577,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1630
 msgid "``ACS_DARROW``"
-msgstr ""
+msgstr "``ACS_DARROW``"
 
 #: ../../library/curses.rst:1630
 msgid "arrow pointing down"
@@ -2585,7 +2585,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1632
 msgid "``ACS_DEGREE``"
-msgstr ""
+msgstr "``ACS_DEGREE``"
 
 #: ../../library/curses.rst:1632
 msgid "degree symbol"
@@ -2593,7 +2593,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1634
 msgid "``ACS_DIAMOND``"
-msgstr ""
+msgstr "``ACS_DIAMOND``"
 
 #: ../../library/curses.rst:1634
 msgid "diamond"
@@ -2601,7 +2601,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1636
 msgid "``ACS_GEQUAL``"
-msgstr ""
+msgstr "``ACS_GEQUAL``"
 
 #: ../../library/curses.rst:1636
 msgid "greater-than-or-equal-to"
@@ -2609,7 +2609,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1638
 msgid "``ACS_HLINE``"
-msgstr ""
+msgstr "``ACS_HLINE``"
 
 #: ../../library/curses.rst:1638
 msgid "horizontal line"
@@ -2617,7 +2617,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1640
 msgid "``ACS_LANTERN``"
-msgstr ""
+msgstr "``ACS_LANTERN``"
 
 #: ../../library/curses.rst:1640
 msgid "lantern symbol"
@@ -2625,7 +2625,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1642
 msgid "``ACS_LARROW``"
-msgstr ""
+msgstr "``ACS_LARROW``"
 
 #: ../../library/curses.rst:1642
 msgid "left arrow"
@@ -2633,7 +2633,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1644
 msgid "``ACS_LEQUAL``"
-msgstr ""
+msgstr "``ACS_LEQUAL``"
 
 #: ../../library/curses.rst:1644
 msgid "less-than-or-equal-to"
@@ -2641,7 +2641,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1646
 msgid "``ACS_LLCORNER``"
-msgstr ""
+msgstr "``ACS_LLCORNER``"
 
 #: ../../library/curses.rst:1646
 msgid "lower left-hand corner"
@@ -2649,7 +2649,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1648
 msgid "``ACS_LRCORNER``"
-msgstr ""
+msgstr "``ACS_LRCORNER``"
 
 #: ../../library/curses.rst:1648
 msgid "lower right-hand corner"
@@ -2657,7 +2657,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1650
 msgid "``ACS_LTEE``"
-msgstr ""
+msgstr "``ACS_LTEE``"
 
 #: ../../library/curses.rst:1650
 msgid "left tee"
@@ -2665,7 +2665,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1652
 msgid "``ACS_NEQUAL``"
-msgstr ""
+msgstr "``ACS_NEQUAL``"
 
 #: ../../library/curses.rst:1652
 msgid "not-equal sign"
@@ -2673,7 +2673,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1654
 msgid "``ACS_PI``"
-msgstr ""
+msgstr "``ACS_PI``"
 
 #: ../../library/curses.rst:1654
 msgid "letter pi"
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1656
 msgid "``ACS_PLMINUS``"
-msgstr ""
+msgstr "``ACS_PLMINUS``"
 
 #: ../../library/curses.rst:1656
 msgid "plus-or-minus sign"
@@ -2689,7 +2689,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1658
 msgid "``ACS_PLUS``"
-msgstr ""
+msgstr "``ACS_PLUS``"
 
 #: ../../library/curses.rst:1658
 msgid "big plus sign"
@@ -2697,7 +2697,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1660
 msgid "``ACS_RARROW``"
-msgstr ""
+msgstr "``ACS_RARROW``"
 
 #: ../../library/curses.rst:1660
 msgid "right arrow"
@@ -2705,7 +2705,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1662
 msgid "``ACS_RTEE``"
-msgstr ""
+msgstr "``ACS_RTEE``"
 
 #: ../../library/curses.rst:1662
 msgid "right tee"
@@ -2713,7 +2713,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1664
 msgid "``ACS_S1``"
-msgstr ""
+msgstr "``ACS_S1``"
 
 #: ../../library/curses.rst:1664
 msgid "scan line 1"
@@ -2721,7 +2721,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1666
 msgid "``ACS_S3``"
-msgstr ""
+msgstr "``ACS_S3``"
 
 #: ../../library/curses.rst:1666
 msgid "scan line 3"
@@ -2729,7 +2729,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1668
 msgid "``ACS_S7``"
-msgstr ""
+msgstr "``ACS_S7``"
 
 #: ../../library/curses.rst:1668
 msgid "scan line 7"
@@ -2737,7 +2737,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1670
 msgid "``ACS_S9``"
-msgstr ""
+msgstr "``ACS_S9``"
 
 #: ../../library/curses.rst:1670
 msgid "scan line 9"
@@ -2745,7 +2745,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1672
 msgid "``ACS_SBBS``"
-msgstr ""
+msgstr "``ACS_SBBS``"
 
 #: ../../library/curses.rst:1672
 msgid "alternate name for lower right corner"
@@ -2753,7 +2753,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1674
 msgid "``ACS_SBSB``"
-msgstr ""
+msgstr "``ACS_SBSB``"
 
 #: ../../library/curses.rst:1674
 msgid "alternate name for vertical line"
@@ -2761,7 +2761,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1676
 msgid "``ACS_SBSS``"
-msgstr ""
+msgstr "``ACS_SBSS``"
 
 #: ../../library/curses.rst:1676
 msgid "alternate name for right tee"
@@ -2769,7 +2769,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1678
 msgid "``ACS_SSBB``"
-msgstr ""
+msgstr "``ACS_SSBB``"
 
 #: ../../library/curses.rst:1678
 msgid "alternate name for lower left corner"
@@ -2777,7 +2777,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1680
 msgid "``ACS_SSBS``"
-msgstr ""
+msgstr "``ACS_SSBS``"
 
 #: ../../library/curses.rst:1680
 msgid "alternate name for bottom tee"
@@ -2785,7 +2785,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1682
 msgid "``ACS_SSSB``"
-msgstr ""
+msgstr "``ACS_SSSB``"
 
 #: ../../library/curses.rst:1682
 msgid "alternate name for left tee"
@@ -2793,7 +2793,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1684
 msgid "``ACS_SSSS``"
-msgstr ""
+msgstr "``ACS_SSSS``"
 
 #: ../../library/curses.rst:1684
 msgid "alternate name for crossover or big plus"
@@ -2801,7 +2801,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1686
 msgid "``ACS_STERLING``"
-msgstr ""
+msgstr "``ACS_STERLING``"
 
 #: ../../library/curses.rst:1686
 msgid "pound sterling"
@@ -2809,7 +2809,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1688
 msgid "``ACS_TTEE``"
-msgstr ""
+msgstr "``ACS_TTEE``"
 
 #: ../../library/curses.rst:1688
 msgid "top tee"
@@ -2817,7 +2817,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1690
 msgid "``ACS_UARROW``"
-msgstr ""
+msgstr "``ACS_UARROW``"
 
 #: ../../library/curses.rst:1690
 msgid "up arrow"
@@ -2825,7 +2825,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1692
 msgid "``ACS_ULCORNER``"
-msgstr ""
+msgstr "``ACS_ULCORNER``"
 
 #: ../../library/curses.rst:1692
 msgid "upper left corner"
@@ -2833,7 +2833,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1694
 msgid "``ACS_URCORNER``"
-msgstr ""
+msgstr "``ACS_URCORNER``"
 
 #: ../../library/curses.rst:1694
 msgid "upper right corner"
@@ -2841,7 +2841,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1696
 msgid "``ACS_VLINE``"
-msgstr ""
+msgstr "``ACS_VLINE``"
 
 #: ../../library/curses.rst:1696
 msgid "vertical line"
@@ -2997,7 +2997,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1790
 msgid ":kbd:`Control-A`"
-msgstr ""
+msgstr ":kbd:`Control-A`"
 
 #: ../../library/curses.rst:1790
 msgid "Go to left edge of window."
@@ -3005,7 +3005,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1792 ../../library/curses.rst:1828
 msgid ":kbd:`Control-B`"
-msgstr ""
+msgstr ":kbd:`Control-B`"
 
 #: ../../library/curses.rst:1792
 msgid "Cursor left, wrapping to previous line if appropriate."
@@ -3013,7 +3013,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1795
 msgid ":kbd:`Control-D`"
-msgstr ""
+msgstr ":kbd:`Control-D`"
 
 #: ../../library/curses.rst:1795
 msgid "Delete character under cursor."
@@ -3021,7 +3021,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1797
 msgid ":kbd:`Control-E`"
-msgstr ""
+msgstr ":kbd:`Control-E`"
 
 #: ../../library/curses.rst:1797
 msgid "Go to right edge (stripspaces off) or end of line (stripspaces on)."
@@ -3029,7 +3029,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1800 ../../library/curses.rst:1830
 msgid ":kbd:`Control-F`"
-msgstr ""
+msgstr ":kbd:`Control-F`"
 
 #: ../../library/curses.rst:1800
 msgid "Cursor right, wrapping to next line when appropriate."
@@ -3037,7 +3037,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1803
 msgid ":kbd:`Control-G`"
-msgstr ""
+msgstr ":kbd:`Control-G`"
 
 #: ../../library/curses.rst:1803
 msgid "Terminate, returning the window contents."
@@ -3045,7 +3045,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1805
 msgid ":kbd:`Control-H`"
-msgstr ""
+msgstr ":kbd:`Control-H`"
 
 #: ../../library/curses.rst:1805
 msgid "Delete character backward."
@@ -3053,7 +3053,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1807
 msgid ":kbd:`Control-J`"
-msgstr ""
+msgstr ":kbd:`Control-J`"
 
 #: ../../library/curses.rst:1807
 msgid "Terminate if the window is 1 line, otherwise insert newline."
@@ -3061,7 +3061,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1810
 msgid ":kbd:`Control-K`"
-msgstr ""
+msgstr ":kbd:`Control-K`"
 
 #: ../../library/curses.rst:1810
 msgid "If line is blank, delete it, otherwise clear to end of line."
@@ -3069,7 +3069,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1813
 msgid ":kbd:`Control-L`"
-msgstr ""
+msgstr ":kbd:`Control-L`"
 
 #: ../../library/curses.rst:1813
 msgid "Refresh screen."
@@ -3077,7 +3077,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1815 ../../library/curses.rst:1834
 msgid ":kbd:`Control-N`"
-msgstr ""
+msgstr ":kbd:`Control-N`"
 
 #: ../../library/curses.rst:1815
 msgid "Cursor down; move down one line."
@@ -3085,7 +3085,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1817
 msgid ":kbd:`Control-O`"
-msgstr ""
+msgstr ":kbd:`Control-O`"
 
 #: ../../library/curses.rst:1817
 msgid "Insert a blank line at cursor location."
@@ -3093,7 +3093,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1819 ../../library/curses.rst:1832
 msgid ":kbd:`Control-P`"
-msgstr ""
+msgstr ":kbd:`Control-P`"
 
 #: ../../library/curses.rst:1819
 msgid "Cursor up; move up one line."
@@ -3127,7 +3127,7 @@ msgstr ":const:`KEY_BACKSPACE`"
 
 #: ../../library/curses.rst:1836
 msgid ":kbd:`Control-h`"
-msgstr ""
+msgstr ":kbd:`Control-h`"
 
 #: ../../library/curses.rst:1839
 msgid ""

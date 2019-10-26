@@ -47,7 +47,7 @@ msgstr ":c:type:`PyWideStringList`"
 
 #: ../../c-api/init_config.rst:18
 msgid "Functions:"
-msgstr ""
+msgstr "Fungsi-fungsi:"
 
 #: ../../c-api/init_config.rst:20
 msgid ":c:func:`PyConfig_Clear`"

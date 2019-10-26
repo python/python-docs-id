@@ -412,11 +412,11 @@ msgstr ""
 
 #: ../../library/hashlib.rst:340 ../../library/hashlib.rst:340
 msgid "64"
-msgstr ""
+msgstr "64"
 
 #: ../../library/hashlib.rst:340 ../../library/hashlib.rst:340
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../../library/hashlib.rst:341
 msgid "BLAKE2s"
@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../../library/hashlib.rst:341 ../../library/hashlib.rst:341
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: ../../library/hashlib.rst:341 ../../library/hashlib.rst:341
 msgid "8"

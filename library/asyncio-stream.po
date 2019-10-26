@@ -387,7 +387,7 @@ msgstr ""
 
 #: ../../library/asyncio-stream.rst:432
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 #: ../../library/asyncio-stream.rst:436
 msgid "or with HTTPS::"

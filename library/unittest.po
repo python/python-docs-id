@@ -910,7 +910,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:816
 msgid "``a == b``"
-msgstr ""
+msgstr "``a == b``"
 
 #: ../../library/unittest.rst:819
 msgid ":meth:`assertNotEqual(a, b) <TestCase.assertNotEqual>`"
@@ -918,7 +918,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:819
 msgid "``a != b``"
-msgstr ""
+msgstr "``a != b``"
 
 #: ../../library/unittest.rst:822
 msgid ":meth:`assertTrue(x) <TestCase.assertTrue>`"
@@ -942,7 +942,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:828
 msgid "``a is b``"
-msgstr ""
+msgstr "``a is b``"
 
 #: ../../library/unittest.rst:828 ../../library/unittest.rst:831
 #: ../../library/unittest.rst:834 ../../library/unittest.rst:837
@@ -962,7 +962,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:831
 msgid "``a is not b``"
-msgstr ""
+msgstr "``a is not b``"
 
 #: ../../library/unittest.rst:834
 msgid ":meth:`assertIsNone(x) <TestCase.assertIsNone>`"
@@ -1328,7 +1328,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1136
 msgid "``a > b``"
-msgstr ""
+msgstr "``a > b``"
 
 #: ../../library/unittest.rst:1139
 msgid ":meth:`assertGreaterEqual(a, b) <TestCase.assertGreaterEqual>`"
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1139
 msgid "``a >= b``"
-msgstr ""
+msgstr "``a >= b``"
 
 #: ../../library/unittest.rst:1142
 msgid ":meth:`assertLess(a, b) <TestCase.assertLess>`"
@@ -1344,7 +1344,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1142
 msgid "``a < b``"
-msgstr ""
+msgstr "``a < b``"
 
 #: ../../library/unittest.rst:1145
 msgid ":meth:`assertLessEqual(a, b) <TestCase.assertLessEqual>`"
@@ -1352,7 +1352,7 @@ msgstr ""
 
 #: ../../library/unittest.rst:1145
 msgid "``a <= b``"
-msgstr ""
+msgstr "``a <= b``"
 
 #: ../../library/unittest.rst:1148
 msgid ":meth:`assertRegex(s, r) <TestCase.assertRegex>`"

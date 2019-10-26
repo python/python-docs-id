@@ -488,119 +488,119 @@ msgstr ""
 
 #: ../../library/sys.rst:417
 msgid ":const:`debug`"
-msgstr ""
+msgstr ":const:`debug`"
 
 #: ../../library/sys.rst:417
 msgid ":option:`-d`"
-msgstr ""
+msgstr ":option:`-d`"
 
 #: ../../library/sys.rst:418
 msgid ":const:`inspect`"
-msgstr ""
+msgstr ":const:`inspect`"
 
 #: ../../library/sys.rst:418 ../../library/sys.rst:419
 msgid ":option:`-i`"
-msgstr ""
+msgstr ":option:`-i`"
 
 #: ../../library/sys.rst:419
 msgid ":const:`interactive`"
-msgstr ""
+msgstr ":const:`interactive`"
 
 #: ../../library/sys.rst:420
 msgid ":const:`isolated`"
-msgstr ""
+msgstr ":const:`isolated`"
 
 #: ../../library/sys.rst:420
 msgid ":option:`-I`"
-msgstr ""
+msgstr ":option:`-I`"
 
 #: ../../library/sys.rst:421
 msgid ":const:`optimize`"
-msgstr ""
+msgstr ":const:`optimize`"
 
 #: ../../library/sys.rst:421
 msgid ":option:`-O` or :option:`-OO`"
-msgstr ""
+msgstr ":option:`-O` or :option:`-OO`"
 
 #: ../../library/sys.rst:422
 msgid ":const:`dont_write_bytecode`"
-msgstr ""
+msgstr ":const:`dont_write_bytecode`"
 
 #: ../../library/sys.rst:422
 msgid ":option:`-B`"
-msgstr ""
+msgstr ":option:`-B`"
 
 #: ../../library/sys.rst:423
 msgid ":const:`no_user_site`"
-msgstr ""
+msgstr ":const:`no_user_site`"
 
 #: ../../library/sys.rst:423
 msgid ":option:`-s`"
-msgstr ""
+msgstr ":option:`-s`"
 
 #: ../../library/sys.rst:424
 msgid ":const:`no_site`"
-msgstr ""
+msgstr ":const:`no_site`"
 
 #: ../../library/sys.rst:424
 msgid ":option:`-S`"
-msgstr ""
+msgstr ":option:`-S`"
 
 #: ../../library/sys.rst:425
 msgid ":const:`ignore_environment`"
-msgstr ""
+msgstr ":const:`ignore_environment`"
 
 #: ../../library/sys.rst:425
 msgid ":option:`-E`"
-msgstr ""
+msgstr ":option:`-E`"
 
 #: ../../library/sys.rst:426
 msgid ":const:`verbose`"
-msgstr ""
+msgstr ":const:`verbose`"
 
 #: ../../library/sys.rst:426
 msgid ":option:`-v`"
-msgstr ""
+msgstr ":option:`-v`"
 
 #: ../../library/sys.rst:427
 msgid ":const:`bytes_warning`"
-msgstr ""
+msgstr ":const:`bytes_warning`"
 
 #: ../../library/sys.rst:427
 msgid ":option:`-b`"
-msgstr ""
+msgstr ":option:`-b`"
 
 #: ../../library/sys.rst:428
 msgid ":const:`quiet`"
-msgstr ""
+msgstr ":const:`quiet`"
 
 #: ../../library/sys.rst:428
 msgid ":option:`-q`"
-msgstr ""
+msgstr ":option:`-q`"
 
 #: ../../library/sys.rst:429
 msgid ":const:`hash_randomization`"
-msgstr ""
+msgstr ":const:`hash_randomization`"
 
 #: ../../library/sys.rst:429
 msgid ":option:`-R`"
-msgstr ""
+msgstr ":option:`-R`"
 
 #: ../../library/sys.rst:430
 msgid ":const:`dev_mode`"
-msgstr ""
+msgstr ":const:`dev_mode`"
 
 #: ../../library/sys.rst:430
 msgid ":option:`-X` ``dev``"
-msgstr ""
+msgstr ":option:`-X` ``dev``"
 
 #: ../../library/sys.rst:431
 msgid ":const:`utf8_mode`"
-msgstr ""
+msgstr ":const:`utf8_mode`"
 
 #: ../../library/sys.rst:431
 msgid ":option:`-X` ``utf8``"
-msgstr ""
+msgstr ":option:`-X` ``utf8``"
 
 #: ../../library/sys.rst:434
 msgid "Added ``quiet`` attribute for the new :option:`-q` flag."
@@ -644,7 +644,7 @@ msgstr ""
 
 #: ../../library/sys.rst:465
 msgid ":const:`epsilon`"
-msgstr ""
+msgstr ":const:`epsilon`"
 
 #: ../../library/sys.rst:465
 msgid "DBL_EPSILON"
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../../library/sys.rst:468
 msgid ":const:`dig`"
-msgstr ""
+msgstr ":const:`dig`"
 
 #: ../../library/sys.rst:468
 msgid "DBL_DIG"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../library/sys.rst:471
 msgid ":const:`mant_dig`"
-msgstr ""
+msgstr ":const:`mant_dig`"
 
 #: ../../library/sys.rst:471
 msgid "DBL_MANT_DIG"
@@ -686,7 +686,7 @@ msgstr ""
 
 #: ../../library/sys.rst:474
 msgid ":const:`max`"
-msgstr ""
+msgstr ":const:`max`"
 
 #: ../../library/sys.rst:474
 msgid "DBL_MAX"
@@ -698,7 +698,7 @@ msgstr ""
 
 #: ../../library/sys.rst:476
 msgid ":const:`max_exp`"
-msgstr ""
+msgstr ":const:`max_exp`"
 
 #: ../../library/sys.rst:476
 msgid "DBL_MAX_EXP"
@@ -711,7 +711,7 @@ msgstr ""
 
 #: ../../library/sys.rst:479
 msgid ":const:`max_10_exp`"
-msgstr ""
+msgstr ":const:`max_10_exp`"
 
 #: ../../library/sys.rst:479
 msgid "DBL_MAX_10_EXP"
@@ -725,7 +725,7 @@ msgstr ""
 
 #: ../../library/sys.rst:482
 msgid ":const:`min`"
-msgstr ""
+msgstr ":const:`min`"
 
 #: ../../library/sys.rst:482
 msgid "DBL_MIN"
@@ -737,7 +737,7 @@ msgstr ""
 
 #: ../../library/sys.rst:484
 msgid ":const:`min_exp`"
-msgstr ""
+msgstr ":const:`min_exp`"
 
 #: ../../library/sys.rst:484
 msgid "DBL_MIN_EXP"
@@ -749,7 +749,7 @@ msgstr ""
 
 #: ../../library/sys.rst:487
 msgid ":const:`min_10_exp`"
-msgstr ""
+msgstr ":const:`min_10_exp`"
 
 #: ../../library/sys.rst:487
 msgid "DBL_MIN_10_EXP"
@@ -761,7 +761,7 @@ msgstr ""
 
 #: ../../library/sys.rst:490
 msgid ":const:`radix`"
-msgstr ""
+msgstr ":const:`radix`"
 
 #: ../../library/sys.rst:490
 msgid "FLT_RADIX"
@@ -773,7 +773,7 @@ msgstr ""
 
 #: ../../library/sys.rst:492
 msgid ":const:`rounds`"
-msgstr ""
+msgstr ":const:`rounds`"
 
 #: ../../library/sys.rst:492
 msgid "FLT_ROUNDS"
@@ -1049,7 +1049,7 @@ msgstr "Artinya"
 
 #: ../../library/sys.rst:734
 msgid ":const:`1 (VER_NT_WORKSTATION)`"
-msgstr ""
+msgstr ":const:`1 (VER_NT_WORKSTATION)`"
 
 #: ../../library/sys.rst:734
 msgid "The system is a workstation."
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: ../../library/sys.rst:736
 msgid ":const:`2 (VER_NT_DOMAIN_CONTROLLER)`"
-msgstr ""
+msgstr ":const:`2 (VER_NT_DOMAIN_CONTROLLER)`"
 
 #: ../../library/sys.rst:736
 msgid "The system is a domain controller."
@@ -1065,7 +1065,7 @@ msgstr ""
 
 #: ../../library/sys.rst:739
 msgid ":const:`3 (VER_NT_SERVER)`"
-msgstr ""
+msgstr ":const:`3 (VER_NT_SERVER)`"
 
 #: ../../library/sys.rst:739
 msgid "The system is a server, but not a domain controller."
@@ -1136,7 +1136,7 @@ msgstr ""
 
 #: ../../library/sys.rst:800
 msgid ":const:`width`"
-msgstr ""
+msgstr ":const:`width`"
 
 #: ../../library/sys.rst:800
 msgid "width in bits used for hash values"
@@ -1144,7 +1144,7 @@ msgstr ""
 
 #: ../../library/sys.rst:802
 msgid ":const:`modulus`"
-msgstr ""
+msgstr ":const:`modulus`"
 
 #: ../../library/sys.rst:802
 msgid "prime modulus P used for numeric hash scheme"
@@ -1152,7 +1152,7 @@ msgstr ""
 
 #: ../../library/sys.rst:804
 msgid ":const:`inf`"
-msgstr ""
+msgstr ":const:`inf`"
 
 #: ../../library/sys.rst:804
 msgid "hash value returned for a positive infinity"
@@ -1160,7 +1160,7 @@ msgstr ""
 
 #: ../../library/sys.rst:806
 msgid ":const:`nan`"
-msgstr ""
+msgstr ":const:`nan`"
 
 #: ../../library/sys.rst:806
 msgid "hash value returned for a nan"
@@ -1168,7 +1168,7 @@ msgstr ""
 
 #: ../../library/sys.rst:808
 msgid ":const:`imag`"
-msgstr ""
+msgstr ":const:`imag`"
 
 #: ../../library/sys.rst:808
 msgid "multiplier used for the imaginary part of a complex number"
@@ -1176,7 +1176,7 @@ msgstr ""
 
 #: ../../library/sys.rst:811
 msgid ":const:`algorithm`"
-msgstr ""
+msgstr ":const:`algorithm`"
 
 #: ../../library/sys.rst:811
 msgid "name of the algorithm for hashing of str, bytes, and memoryview"
@@ -1184,7 +1184,7 @@ msgstr ""
 
 #: ../../library/sys.rst:814
 msgid ":const:`hash_bits`"
-msgstr ""
+msgstr ":const:`hash_bits`"
 
 #: ../../library/sys.rst:814
 msgid "internal output size of the hash algorithm"
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: ../../library/sys.rst:816
 msgid ":const:`seed_bits`"
-msgstr ""
+msgstr ":const:`seed_bits`"
 
 #: ../../library/sys.rst:816
 msgid "size of the seed key of the hash algorithm"
@@ -1295,7 +1295,7 @@ msgstr ""
 
 #: ../../library/sys.rst:901
 msgid ":const:`bits_per_digit`"
-msgstr ""
+msgstr ":const:`bits_per_digit`"
 
 #: ../../library/sys.rst:901
 msgid ""
@@ -1305,7 +1305,7 @@ msgstr ""
 
 #: ../../library/sys.rst:905
 msgid ":const:`sizeof_digit`"
-msgstr ""
+msgstr ":const:`sizeof_digit`"
 
 #: ../../library/sys.rst:905
 msgid "size in bytes of the C type used to represent a digit"
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #: ../../library/sys.rst:1502
 msgid ":const:`name`"
-msgstr ""
+msgstr ":const:`name`"
 
 #: ../../library/sys.rst:1502
 msgid "Name of the thread implementation:"
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: ../../library/sys.rst:1508
 msgid ":const:`lock`"
-msgstr ""
+msgstr ":const:`lock`"
 
 #: ../../library/sys.rst:1508
 msgid "Name of the lock implementation:"
@@ -2133,7 +2133,7 @@ msgstr ""
 
 #: ../../library/sys.rst:1515
 msgid ":const:`version`"
-msgstr ""
+msgstr ":const:`version`"
 
 #: ../../library/sys.rst:1515
 msgid ""

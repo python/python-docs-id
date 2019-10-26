@@ -945,7 +945,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:801
 msgid "Contributed by Serhiy Storchaka in :issue:`26492`."
-msgstr ""
+msgstr "Kontribusi dari Serhiy Storchaka di :issue:`26492`."
 
 #: ../../whatsnew/3.6.rst:804
 msgid "ast"
@@ -959,7 +959,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:809
 msgid "Contributed by Victor Stinner in :issue:`26146`."
-msgstr ""
+msgstr "Kontribusi dari Victor Stinner di :issue:`26146`."
 
 #: ../../whatsnew/3.6.rst:813
 msgid "asyncio"
@@ -1243,7 +1243,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1007
 msgid "(Contributed by Stefan Krah amd Mark Dickinson in :issue:`25928`.)"
-msgstr ""
+msgstr "(Kontribusi dari Stefan Krah amd Mark Dickinson di :issue:`25928`.)"
 
 #: ../../whatsnew/3.6.rst:1012 ../../whatsnew/3.6.rst:1986
 msgid "distutils"
@@ -1434,7 +1434,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1145
 msgid "New in 3.6.2:"
-msgstr ""
+msgstr "Baru di 3.6.2:"
 
 #: ../../whatsnew/3.6.rst:1147
 msgid ""
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1149
 msgid "New in 3.6.3:"
-msgstr ""
+msgstr "Baru di 3.6.3:"
 
 #: ../../whatsnew/3.6.rst:1151
 msgid ""
@@ -1471,7 +1471,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1166
 msgid "New in 3.6.4:"
-msgstr ""
+msgstr "Baru di 3.6.4:"
 
 #: ../../whatsnew/3.6.rst:1168
 msgid ""
@@ -1483,7 +1483,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1174
 msgid "New in 3.6.6:"
-msgstr ""
+msgstr "Baru di 3.6.6:"
 
 #: ../../whatsnew/3.6.rst:1176
 msgid ""
@@ -1505,7 +1505,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1188
 msgid "New in 3.6.7:"
-msgstr ""
+msgstr "Baru di 3.6.7:"
 
 #: ../../whatsnew/3.6.rst:1190
 msgid ""
@@ -2040,7 +2040,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1580
 msgid "(Contributed by Emanuel Barry in :issue:`26823`.)"
-msgstr ""
+msgstr "(Kontribusi dari Emanuel Barry di :issue:`26823`.)"
 
 #: ../../whatsnew/3.6.rst:1584
 msgid "tracemalloc"
@@ -2060,7 +2060,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:1592
 msgid "(Contributed by Victor Stinner in :issue:`26588`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`26588`.)"
 
 #: ../../whatsnew/3.6.rst:1598
 msgid "typing"
@@ -3178,7 +3178,7 @@ msgstr ""
 
 #: ../../whatsnew/3.6.rst:2395 ../../whatsnew/3.6.rst:2408
 msgid "(Contributed by Victor Stinner in :issue:`23404`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`23404`.)"
 
 #: ../../whatsnew/3.6.rst:2401
 msgid "Removal of ``make touch`` build target"

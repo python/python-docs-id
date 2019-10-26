@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../../library/pickle.rst:981
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/pickle.rst:983
 msgid ""

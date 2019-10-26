@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:162
 msgid "Division"
-msgstr ""
+msgstr "Pembagian"
 
 #: ../../howto/pyporting.rst:164
 msgid ""

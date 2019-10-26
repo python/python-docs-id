@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:139
 msgid "ZipFile Objects"
-msgstr ""
+msgstr "Objek ZipFile"
 
 #: ../../library/zipfile.rst:145
 msgid ""
@@ -546,7 +546,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:471
 msgid "Path Objects"
-msgstr ""
+msgstr "Objek Jalur, *Path*"
 
 #: ../../library/zipfile.rst:475
 msgid ""
@@ -612,7 +612,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:529
 msgid "PyZipFile Objects"
-msgstr ""
+msgstr "Objek PyZipFile"
 
 #: ../../library/zipfile.rst:531
 msgid ""
@@ -694,7 +694,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:605
 msgid "ZipInfo Objects"
-msgstr ""
+msgstr "Objek ZipInfo"
 
 #: ../../library/zipfile.rst:607
 msgid ""
@@ -763,11 +763,11 @@ msgstr "Nilai"
 
 #: ../../library/zipfile.rst:665
 msgid "``0``"
-msgstr ""
+msgstr "``0``"
 
 #: ../../library/zipfile.rst:665
 msgid "Year (>= 1980)"
-msgstr ""
+msgstr "Tahun (>= 1980)"
 
 #: ../../library/zipfile.rst:667
 msgid "``1``"
@@ -775,7 +775,7 @@ msgstr "``1``"
 
 #: ../../library/zipfile.rst:667
 msgid "Month (one-based)"
-msgstr ""
+msgstr "Bulan (basis 1)"
 
 #: ../../library/zipfile.rst:669
 msgid "``2``"
@@ -783,7 +783,7 @@ msgstr "``2``"
 
 #: ../../library/zipfile.rst:669
 msgid "Day of month (one-based)"
-msgstr ""
+msgstr "Tanggal dari bulan (basis 1)"
 
 #: ../../library/zipfile.rst:671
 msgid "``3``"
@@ -791,7 +791,7 @@ msgstr "``3``"
 
 #: ../../library/zipfile.rst:671
 msgid "Hours (zero-based)"
-msgstr ""
+msgstr "Jam (basis 0)"
 
 #: ../../library/zipfile.rst:673
 msgid "``4``"
@@ -799,15 +799,15 @@ msgstr "``4``"
 
 #: ../../library/zipfile.rst:673
 msgid "Minutes (zero-based)"
-msgstr ""
+msgstr "Menit (basis 0)"
 
 #: ../../library/zipfile.rst:675
 msgid "``5``"
-msgstr ""
+msgstr "``5``"
 
 #: ../../library/zipfile.rst:675
 msgid "Seconds (zero-based)"
-msgstr ""
+msgstr "Detik (basis 0)"
 
 #: ../../library/zipfile.rst:680
 msgid "The ZIP file format does not support timestamps before 1980."
@@ -842,7 +842,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:717
 msgid "Must be zero."
-msgstr ""
+msgstr "Harus nol."
 
 #: ../../library/zipfile.rst:722
 msgid "ZIP flag bits."
@@ -971,7 +971,7 @@ msgstr ""
 
 #: ../../library/zipfile.rst:845
 msgid "Interruption"
-msgstr ""
+msgstr "Interupsi"
 
 #: ../../library/zipfile.rst:847
 msgid ""

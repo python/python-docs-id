@@ -761,7 +761,7 @@ msgstr ""
 #: ../../library/test.rst:736 ../../library/test.rst:754
 #: ../../library/test.rst:1117 ../../library/test.rst:1147
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 #: ../../library/test.rst:741
 msgid ""

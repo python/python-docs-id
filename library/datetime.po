@@ -2498,7 +2498,7 @@ msgstr "Artinya"
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/datetime.rst:2303 ../../library/datetime.rst:2406
 msgid "Notes"
@@ -2873,7 +2873,7 @@ msgstr "\\(8)"
 
 #: ../../library/datetime.rst:2413
 msgid "``%u``"
-msgstr ""
+msgstr "``%u``"
 
 #: ../../library/datetime.rst:2413
 msgid "ISO 8601 weekday as a decimal number where 1 is Monday."

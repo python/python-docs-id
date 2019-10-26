@@ -150,7 +150,7 @@ msgstr ""
 #: ../../c-api/structures.rst:139 ../../c-api/structures.rst:279
 #: ../../c-api/structures.rst:345
 msgid "Field"
-msgstr ""
+msgstr "Field"
 
 #: ../../c-api/structures.rst:139 ../../c-api/structures.rst:279
 #: ../../c-api/structures.rst:345
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../c-api/structures.rst:303
 msgid "C type"
-msgstr ""
+msgstr "tipe C"
 
 #: ../../c-api/structures.rst:305
 msgid "T_SHORT"

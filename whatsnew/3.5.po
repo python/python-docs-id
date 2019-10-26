@@ -1120,7 +1120,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:928
 msgid "(Contributed by Berker Peksag in :issue:`24064`.)"
-msgstr ""
+msgstr "(Kontribusi dari Berker Peksag di :issue:`24064`.)"
 
 #: ../../whatsnew/3.5.rst:930
 msgid ""
@@ -1230,7 +1230,7 @@ msgstr "Contoh::"
 
 #: ../../whatsnew/3.5.rst:1016
 msgid "(Contributed by Łukasz Langa in :issue:`18159`.)"
-msgstr ""
+msgstr "(Kontribusi dari Łukasz Langa di :issue:`18159`.)"
 
 #: ../../whatsnew/3.5.rst:1020
 msgid "contextlib"
@@ -1246,7 +1246,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1035
 msgid "(Contributed by Berker Peksag in :issue:`22389`.)"
-msgstr ""
+msgstr "(Kontribusi dari Berker Peksag di :issue:`22389`.)"
 
 #: ../../whatsnew/3.5.rst:1039
 msgid "csv"
@@ -1381,7 +1381,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1134
 msgid "(Contributed by Ethan Furman in :issue:`21706`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ethan Furman di :issue:`21706`.)"
 
 #: ../../whatsnew/3.5.rst:1138
 msgid "faulthandler"
@@ -1443,7 +1443,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1189
 msgid "(Contributed by Raymond Hettinger in :issue:`13742`.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger di :issue:`13742`.)"
 
 #: ../../whatsnew/3.5.rst:1193
 msgid "http"
@@ -1473,7 +1473,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1219
 msgid "(Contributed by Martin Panter in :issue:`3566`.)"
-msgstr ""
+msgstr "(Kontribusi dari Martin Panter di :issue:`3566`.)"
 
 #: ../../whatsnew/3.5.rst:1223
 msgid "idlelib and IDLE"
@@ -1579,7 +1579,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1299
 msgid "(Contributed by Yury Selivanov in :issue:`24190`.)"
-msgstr ""
+msgstr "(Kontribusi dari Yury Selivanov di :issue:`24190`.)"
 
 #: ../../whatsnew/3.5.rst:1301
 msgid ""
@@ -1641,7 +1641,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1348
 msgid "(Contributed by Peter Moody and Antoine Pitrou in :issue:`16531`.)"
-msgstr ""
+msgstr "(Kontribusi dari Peter Moody dan Antoine Pitrou di :issue:`16531`.)"
 
 #: ../../whatsnew/3.5.rst:1350
 msgid ""
@@ -1652,7 +1652,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1362
 msgid "(Contributed by Leon Weber in :issue:`20480`.)"
-msgstr ""
+msgstr "(Kontribusi dari Leon Weber di :issue:`20480`.)"
 
 #: ../../whatsnew/3.5.rst:1366
 msgid "json"
@@ -1699,7 +1699,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1404
 msgid "(Contributed by Cédric Krier in :issue:`13918`.)"
-msgstr ""
+msgstr "(Kontribusi dari Cédric Krier di :issue:`13918`.)"
 
 #: ../../whatsnew/3.5.rst:1408
 msgid "logging"
@@ -1715,7 +1715,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1423
 msgid "(Contributed by Yury Selivanov in :issue:`20537`.)"
-msgstr ""
+msgstr "(Kontribusi dari Yury Selivanov di :issue:`20537`.)"
 
 #: ../../whatsnew/3.5.rst:1425
 msgid ""
@@ -1853,7 +1853,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1518
 msgid "(Contributed by Rafik Draoui and Serhiy Storchaka in :issue:`10395`.)"
-msgstr ""
+msgstr "(Kontribusi dariRafik Draoui dan Serhiy Storchaka di :issue:`10395`.)"
 
 #: ../../whatsnew/3.5.rst:1522
 msgid "pathlib"
@@ -1868,7 +1868,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1534
 msgid "(Contributed by Vajrasky Kok and Antoine Pitrou in :issue:`19775`.)"
-msgstr ""
+msgstr "(Kontribusi dari Vajrasky Kok dan Antoine Pitrou di :issue:`19775`.)"
 
 #: ../../whatsnew/3.5.rst:1536
 msgid ""
@@ -1909,7 +1909,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1563
 msgid "(Contributed by Christopher Welborn in :issue:`20218`.)"
-msgstr ""
+msgstr "(Kontribusi dari Christopher Welborn di :issue:`20218`.)"
 
 #: ../../whatsnew/3.5.rst:1567
 msgid "pickle"
@@ -1946,7 +1946,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1596
 msgid "(Contributed by Serhiy Storchaka in :issue:`9179`.)"
-msgstr ""
+msgstr "(Kontribusi dari Serhiy Storchaka di :issue:`9179`.)"
 
 #: ../../whatsnew/3.5.rst:1598
 msgid ""
@@ -1971,7 +1971,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1619
 msgid "(Contributed by Serhiy Storchaka in :issue:`22578`.)"
-msgstr ""
+msgstr "(Kontribusi dari Serhiy Storchaka di :issue:`22578`.)"
 
 #: ../../whatsnew/3.5.rst:1623
 msgid "readline"
@@ -2158,7 +2158,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1753
 msgid "(Contributed by Geert Jansen in :issue:`21965`.)"
-msgstr ""
+msgstr "(Kontribusi dari Geert Jansen di :issue:`21965`.)"
 
 #: ../../whatsnew/3.5.rst:1755
 msgid ""
@@ -2190,7 +2190,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1773
 msgid "(Contributed by Benjamin Peterson in :issue:`20188`.)"
-msgstr ""
+msgstr "(Kontribusi dari Benjamin Peterson di :issue:`20188`.)"
 
 #: ../../whatsnew/3.5.rst:1775
 msgid ""
@@ -2783,7 +2783,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:2181
 msgid "(Contributed by Victor Stinner in :issue:`21233`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`21233`.)"
 
 #: ../../whatsnew/3.5.rst:2183
 msgid "New encoding/decoding helper functions:"
@@ -2799,7 +2799,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:2188
 msgid "(Contributed by Victor Stinner in :issue:`18395`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`18395`.)"
 
 #: ../../whatsnew/3.5.rst:2190
 msgid ""
@@ -3372,7 +3372,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:2558 ../../whatsnew/3.5.rst:2571
 msgid "(Contributed by Victor Stinner in :issue:`23404`.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner di :issue:`23404`.)"
 
 #: ../../whatsnew/3.5.rst:2564
 msgid "Removal of ``make touch`` build target"

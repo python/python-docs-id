@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:26+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +61,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:34
 msgid "SMTPServer Objects"
-msgstr ""
+msgstr "Objek SMTPServer"
 
 #: ../../library/smtpd.rst:40
 msgid ""
@@ -130,7 +134,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:90
 msgid "*mail_options*:"
-msgstr ""
+msgstr "*mail_options*:"
 
 #: ../../library/smtpd.rst:88
 msgid ""
@@ -140,7 +144,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:95
 msgid "*rcpt_options*:"
-msgstr ""
+msgstr "*rcpt_options*:"
 
 #: ../../library/smtpd.rst:93
 msgid ""
@@ -188,7 +192,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:125
 msgid "DebuggingServer Objects"
-msgstr ""
+msgstr "Objek DebuggingServer"
 
 #: ../../library/smtpd.rst:130
 msgid ""
@@ -198,7 +202,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:135
 msgid "PureProxy Objects"
-msgstr ""
+msgstr "Objek PureProxy"
 
 #: ../../library/smtpd.rst:140
 msgid ""
@@ -209,7 +213,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:146
 msgid "MailmanProxy Objects"
-msgstr ""
+msgstr "Objek MailmanProxy"
 
 #: ../../library/smtpd.rst:151
 msgid ""
@@ -222,7 +226,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:158
 msgid "SMTPChannel Objects"
-msgstr ""
+msgstr "Objek SMTPChannel"
 
 #: ../../library/smtpd.rst:163
 msgid ""
@@ -338,7 +342,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:255
 msgid "Command"
-msgstr ""
+msgstr "Perintah"
 
 #: ../../library/smtpd.rst:255
 msgid "Action taken"
@@ -346,7 +350,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:257
 msgid "HELO"
-msgstr ""
+msgstr "HELO"
 
 #: ../../library/smtpd.rst:257
 msgid ""
@@ -356,7 +360,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:259
 msgid "EHLO"
-msgstr ""
+msgstr "EHLO"
 
 #: ../../library/smtpd.rst:259
 msgid ""
@@ -366,7 +370,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:261
 msgid "NOOP"
-msgstr ""
+msgstr "NOOP"
 
 #: ../../library/smtpd.rst:261
 msgid "Takes no action."
@@ -374,7 +378,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:262
 msgid "QUIT"
-msgstr ""
+msgstr "QUIT"
 
 #: ../../library/smtpd.rst:262
 msgid "Closes the connection cleanly."
@@ -382,7 +386,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:263
 msgid "MAIL"
-msgstr ""
+msgstr "MAIL"
 
 #: ../../library/smtpd.rst:263
 msgid ""
@@ -394,7 +398,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:267
 msgid "RCPT"
-msgstr ""
+msgstr "RCPT"
 
 #: ../../library/smtpd.rst:267
 msgid ""
@@ -404,7 +408,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:269
 msgid "RSET"
-msgstr ""
+msgstr "RSET"
 
 #: ../../library/smtpd.rst:269
 msgid ""
@@ -414,7 +418,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:271
 msgid "DATA"
-msgstr ""
+msgstr "DATA"
 
 #: ../../library/smtpd.rst:271
 msgid ""
@@ -425,7 +429,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:274
 msgid "HELP"
-msgstr ""
+msgstr "HELP"
 
 #: ../../library/smtpd.rst:274
 msgid "Returns minimal information on command syntax"
@@ -433,7 +437,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:275
 msgid "VRFY"
-msgstr ""
+msgstr "VRFY"
 
 #: ../../library/smtpd.rst:275
 msgid "Returns code 252 (the server doesn't know if the address is valid)"
@@ -441,7 +445,7 @@ msgstr ""
 
 #: ../../library/smtpd.rst:276
 msgid "EXPN"
-msgstr ""
+msgstr "EXPN"
 
 #: ../../library/smtpd.rst:276
 msgid "Reports that the command is not implemented."

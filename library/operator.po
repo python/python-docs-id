@@ -313,67 +313,67 @@ msgstr "Operasi"
 
 #: ../../library/operator.rst:370
 msgid "Syntax"
-msgstr ""
+msgstr "Sintaksis"
 
 #: ../../library/operator.rst:370
 msgid "Function"
-msgstr ""
+msgstr "Fungsi"
 
 #: ../../library/operator.rst:372
 msgid "Addition"
-msgstr ""
+msgstr "Penjumlahan"
 
 #: ../../library/operator.rst:372
 msgid "``a + b``"
-msgstr ""
+msgstr "``a + b``"
 
 #: ../../library/operator.rst:372
 msgid "``add(a, b)``"
-msgstr ""
+msgstr "``add(a, b)``"
 
 #: ../../library/operator.rst:374
 msgid "Concatenation"
-msgstr ""
+msgstr "Perangkaian, *Concatenation*"
 
 #: ../../library/operator.rst:374
 msgid "``seq1 + seq2``"
-msgstr ""
+msgstr "``seq1 + seq2``"
 
 #: ../../library/operator.rst:374
 msgid "``concat(seq1, seq2)``"
-msgstr ""
+msgstr "``concat(seq1, seq2)``"
 
 #: ../../library/operator.rst:376
 msgid "Containment Test"
-msgstr ""
+msgstr "Uji Pengurungan, *Containment*"
 
 #: ../../library/operator.rst:376
 msgid "``obj in seq``"
-msgstr ""
+msgstr "``obj in seq``"
 
 #: ../../library/operator.rst:376
 msgid "``contains(seq, obj)``"
-msgstr ""
+msgstr "``contains(seq, obj)``"
 
 #: ../../library/operator.rst:378 ../../library/operator.rst:380
 msgid "Division"
-msgstr ""
+msgstr "Pembagian"
 
 #: ../../library/operator.rst:378
 msgid "``a / b``"
-msgstr ""
+msgstr "``a / b``"
 
 #: ../../library/operator.rst:378
 msgid "``truediv(a, b)``"
-msgstr ""
+msgstr "``truediv(a, b)``"
 
 #: ../../library/operator.rst:380
 msgid "``a // b``"
-msgstr ""
+msgstr "``a // b``"
 
 #: ../../library/operator.rst:380
 msgid "``floordiv(a, b)``"
-msgstr ""
+msgstr "``floordiv(a, b)``"
 
 #: ../../library/operator.rst:382
 msgid "Bitwise And"
@@ -381,11 +381,11 @@ msgstr ""
 
 #: ../../library/operator.rst:382
 msgid "``a & b``"
-msgstr ""
+msgstr "``a & b``"
 
 #: ../../library/operator.rst:382
 msgid "``and_(a, b)``"
-msgstr ""
+msgstr "``and_(a, b)``"
 
 #: ../../library/operator.rst:384
 msgid "Bitwise Exclusive Or"
@@ -393,11 +393,11 @@ msgstr ""
 
 #: ../../library/operator.rst:384
 msgid "``a ^ b``"
-msgstr ""
+msgstr "``a ^ b``"
 
 #: ../../library/operator.rst:384
 msgid "``xor(a, b)``"
-msgstr ""
+msgstr "``xor(a, b)``"
 
 #: ../../library/operator.rst:386
 msgid "Bitwise Inversion"
@@ -405,11 +405,11 @@ msgstr ""
 
 #: ../../library/operator.rst:386
 msgid "``~ a``"
-msgstr ""
+msgstr "``~ a``"
 
 #: ../../library/operator.rst:386
 msgid "``invert(a)``"
-msgstr ""
+msgstr "``invert(a)``"
 
 #: ../../library/operator.rst:388
 msgid "Bitwise Or"
@@ -417,175 +417,175 @@ msgstr ""
 
 #: ../../library/operator.rst:388
 msgid "``a | b``"
-msgstr ""
+msgstr "``a | b``"
 
 #: ../../library/operator.rst:388
 msgid "``or_(a, b)``"
-msgstr ""
+msgstr "``or_(a, b)``"
 
 #: ../../library/operator.rst:390
 msgid "Exponentiation"
-msgstr ""
+msgstr "Operasi Eksponensial"
 
 #: ../../library/operator.rst:390
 msgid "``a ** b``"
-msgstr ""
+msgstr "``a ** b``"
 
 #: ../../library/operator.rst:390
 msgid "``pow(a, b)``"
-msgstr ""
+msgstr "``pow(a, b)``"
 
 #: ../../library/operator.rst:392 ../../library/operator.rst:394
 msgid "Identity"
-msgstr ""
+msgstr "Identitas"
 
 #: ../../library/operator.rst:392
 msgid "``a is b``"
-msgstr ""
+msgstr "``a is b``"
 
 #: ../../library/operator.rst:392
 msgid "``is_(a, b)``"
-msgstr ""
+msgstr "``is_(a, b)``"
 
 #: ../../library/operator.rst:394
 msgid "``a is not b``"
-msgstr ""
+msgstr "``a is not b``"
 
 #: ../../library/operator.rst:394
 msgid "``is_not(a, b)``"
-msgstr ""
+msgstr "``is_not(a, b)``"
 
 #: ../../library/operator.rst:396
 msgid "Indexed Assignment"
-msgstr ""
+msgstr "Pemberian Nilai Terindeks"
 
 #: ../../library/operator.rst:396
 msgid "``obj[k] = v``"
-msgstr ""
+msgstr "``obj[k] = v``"
 
 #: ../../library/operator.rst:396
 msgid "``setitem(obj, k, v)``"
-msgstr ""
+msgstr "``setitem(obj, k, v)``"
 
 #: ../../library/operator.rst:398
 msgid "Indexed Deletion"
-msgstr ""
+msgstr "Penghapusan Terindeks"
 
 #: ../../library/operator.rst:398
 msgid "``del obj[k]``"
-msgstr ""
+msgstr "``del obj[k]``"
 
 #: ../../library/operator.rst:398
 msgid "``delitem(obj, k)``"
-msgstr ""
+msgstr "``delitem(obj, k)``"
 
 #: ../../library/operator.rst:400
 msgid "Indexing"
-msgstr ""
+msgstr "Pengindeksan"
 
 #: ../../library/operator.rst:400
 msgid "``obj[k]``"
-msgstr ""
+msgstr "``obj[k]``"
 
 #: ../../library/operator.rst:400
 msgid "``getitem(obj, k)``"
-msgstr ""
+msgstr "``getitem(obj, k)``"
 
 #: ../../library/operator.rst:402
 msgid "Left Shift"
-msgstr ""
+msgstr "Geser, *Shift*, Kiri"
 
 #: ../../library/operator.rst:402
 msgid "``a << b``"
-msgstr ""
+msgstr "``a << b``"
 
 #: ../../library/operator.rst:402
 msgid "``lshift(a, b)``"
-msgstr ""
+msgstr "``lshift(a, b)``"
 
 #: ../../library/operator.rst:404
 msgid "Modulo"
-msgstr ""
+msgstr "*Modulo*"
 
 #: ../../library/operator.rst:404
 msgid "``a % b``"
-msgstr ""
+msgstr "``a % b``"
 
 #: ../../library/operator.rst:404
 msgid "``mod(a, b)``"
-msgstr ""
+msgstr "``mod(a, b)``"
 
 #: ../../library/operator.rst:406
 msgid "Multiplication"
-msgstr ""
+msgstr "Perkalian"
 
 #: ../../library/operator.rst:406
 msgid "``a * b``"
-msgstr ""
+msgstr "``a * b``"
 
 #: ../../library/operator.rst:406
 msgid "``mul(a, b)``"
-msgstr ""
+msgstr "``mul(a, b)``"
 
 #: ../../library/operator.rst:408
 msgid "Matrix Multiplication"
-msgstr ""
+msgstr "Perkalian *Matrix*"
 
 #: ../../library/operator.rst:408
 msgid "``a @ b``"
-msgstr ""
+msgstr "``a @ b``"
 
 #: ../../library/operator.rst:408
 msgid "``matmul(a, b)``"
-msgstr ""
+msgstr "``matmul(a, b)``"
 
 #: ../../library/operator.rst:410
 msgid "Negation (Arithmetic)"
-msgstr ""
+msgstr "Negasi (Aritmatika)"
 
 #: ../../library/operator.rst:410
 msgid "``- a``"
-msgstr ""
+msgstr "``- a``"
 
 #: ../../library/operator.rst:410
 msgid "``neg(a)``"
-msgstr ""
+msgstr "``neg(a)``"
 
 #: ../../library/operator.rst:412
 msgid "Negation (Logical)"
-msgstr ""
+msgstr "Negasi (Logika)"
 
 #: ../../library/operator.rst:412
 msgid "``not a``"
-msgstr ""
+msgstr "``not a``"
 
 #: ../../library/operator.rst:412
 msgid "``not_(a)``"
-msgstr ""
+msgstr "``not_(a)``"
 
 #: ../../library/operator.rst:414
 msgid "Positive"
-msgstr ""
+msgstr "Positif"
 
 #: ../../library/operator.rst:414
 msgid "``+ a``"
-msgstr ""
+msgstr "``+ a``"
 
 #: ../../library/operator.rst:414
 msgid "``pos(a)``"
-msgstr ""
+msgstr "``pos(a)``"
 
 #: ../../library/operator.rst:416
 msgid "Right Shift"
-msgstr ""
+msgstr "Geser, *Shift*, Kanan"
 
 #: ../../library/operator.rst:416
 msgid "``a >> b``"
-msgstr ""
+msgstr "``a >> b``"
 
 #: ../../library/operator.rst:416
 msgid "``rshift(a, b)``"
-msgstr ""
+msgstr "``rshift(a, b)``"
 
 #: ../../library/operator.rst:418
 msgid "Slice Assignment"
@@ -637,88 +637,88 @@ msgstr ""
 
 #: ../../library/operator.rst:426
 msgid "Subtraction"
-msgstr ""
+msgstr "Pengurangan"
 
 #: ../../library/operator.rst:426
 msgid "``a - b``"
-msgstr ""
+msgstr "``a - b``"
 
 #: ../../library/operator.rst:426
 msgid "``sub(a, b)``"
-msgstr ""
+msgstr "``sub(a, b)``"
 
 #: ../../library/operator.rst:428
 msgid "Truth Test"
-msgstr ""
+msgstr "Uji Kebenaran"
 
 #: ../../library/operator.rst:428
 msgid "``obj``"
-msgstr ""
+msgstr "``obj``"
 
 #: ../../library/operator.rst:428
 msgid "``truth(obj)``"
-msgstr ""
+msgstr "``truth(obj)``"
 
 #: ../../library/operator.rst:430 ../../library/operator.rst:432
 #: ../../library/operator.rst:438 ../../library/operator.rst:440
 msgid "Ordering"
-msgstr ""
+msgstr "Pengurutan"
 
 #: ../../library/operator.rst:430
 msgid "``a < b``"
-msgstr ""
+msgstr "``a < b``"
 
 #: ../../library/operator.rst:430
 msgid "``lt(a, b)``"
-msgstr ""
+msgstr "``lt(a, b)``"
 
 #: ../../library/operator.rst:432
 msgid "``a <= b``"
-msgstr ""
+msgstr "``a <= b``"
 
 #: ../../library/operator.rst:432
 msgid "``le(a, b)``"
-msgstr ""
+msgstr "``le(a, b)``"
 
 #: ../../library/operator.rst:434
 msgid "Equality"
-msgstr ""
+msgstr "Kesamaan"
 
 #: ../../library/operator.rst:434
 msgid "``a == b``"
-msgstr ""
+msgstr "``a == b``"
 
 #: ../../library/operator.rst:434
 msgid "``eq(a, b)``"
-msgstr ""
+msgstr "``eq(a, b)``"
 
 #: ../../library/operator.rst:436
 msgid "Difference"
-msgstr ""
+msgstr "Perbedaan"
 
 #: ../../library/operator.rst:436
 msgid "``a != b``"
-msgstr ""
+msgstr "``a != b``"
 
 #: ../../library/operator.rst:436
 msgid "``ne(a, b)``"
-msgstr ""
+msgstr "``ne(a, b)``"
 
 #: ../../library/operator.rst:438
 msgid "``a >= b``"
-msgstr ""
+msgstr "``a >= b``"
 
 #: ../../library/operator.rst:438
 msgid "``ge(a, b)``"
-msgstr ""
+msgstr "``ge(a, b)``"
 
 #: ../../library/operator.rst:440
 msgid "``a > b``"
-msgstr ""
+msgstr "``a > b``"
 
 #: ../../library/operator.rst:440
 msgid "``gt(a, b)``"
-msgstr ""
+msgstr "``gt(a, b)``"
 
 #: ../../library/operator.rst:444
 msgid "In-place Operators"

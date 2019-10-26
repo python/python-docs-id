@@ -11255,7 +11255,7 @@ msgstr ""
 
 #: ../../../build/NEWS:5743
 msgid "Applicable to Python2-2.7 and later"
-msgstr ""
+msgstr "Berlaku untuk Python2-2.7 dan yang lebih baru"
 
 #: ../../../build/NEWS:5745 ../../../build/NEWS:6995 ../../../build/NEWS:11112
 msgid "`bpo-19417 <https://bugs.python.org/issue19417>`__: Add test_bdb.py."
@@ -20208,7 +20208,7 @@ msgstr ""
 
 #: ../../../build/NEWS:12860
 msgid "Fix incompatible comment in python.h"
-msgstr ""
+msgstr "Perbaiki komentar yang tidak kompatibel di python.h"
 
 #: ../../../build/NEWS:12864
 msgid "Python 3.6.1 release candidate 1"
@@ -21467,7 +21467,7 @@ msgstr ""
 
 #: ../../../build/NEWS:14194 ../../../build/NEWS:17390
 msgid "Add version to title of IDLE help window."
-msgstr ""
+msgstr "Tambahkan versi ke judul jendela bantuan IDLE."
 
 #: ../../../build/NEWS:14196 ../../../build/NEWS:17392
 msgid ""
@@ -22465,7 +22465,7 @@ msgstr ""
 
 #: ../../../build/NEWS:14728
 msgid "Don't use largefile support for GNU/Hurd."
-msgstr ""
+msgstr "Jangan gunakan dukungan berkasbesar untuk GNU/Hurd."
 
 #: ../../../build/NEWS:14733 ../../../build/NEWS:17450
 msgid ""
@@ -26215,7 +26215,7 @@ msgstr ""
 
 #: ../../../build/NEWS:18532
 msgid "Prevent overflow in _Unpickler_Read."
-msgstr ""
+msgstr "Cegah *overflow* di _Unpickler_Read."
 
 #: ../../../build/NEWS:18534
 msgid ""
