@@ -46,7 +46,7 @@ msgstr "Artinya"
 
 #: ../../library/fnmatch.rst:29
 msgid "``*``"
-msgstr ""
+msgstr "``*``"
 
 #: ../../library/fnmatch.rst:29
 msgid "matches everything"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../library/fnmatch.rst:31
 msgid "``?``"
-msgstr ""
+msgstr "``?``"
 
 #: ../../library/fnmatch.rst:31
 msgid "matches any single character"

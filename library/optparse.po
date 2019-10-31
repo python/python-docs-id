@@ -1585,7 +1585,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:1321
 msgid "Parsing arguments"
-msgstr ""
+msgstr "Mengurai argumen"
 
 #: ../../library/optparse.rst:1323
 msgid ""

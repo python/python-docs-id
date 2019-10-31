@@ -546,7 +546,7 @@ msgstr ""
 
 #: ../../library/pyexpat.rst:528
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/pyexpat.rst:530
 msgid ""

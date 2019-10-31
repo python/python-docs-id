@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../library/logging.rst:10
 msgid "**Source code:** :source:`Lib/logging/__init__.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/logging/__init__.py`"
 
 #: ../../library/logging.rst:16
 msgid ""
@@ -37,15 +37,15 @@ msgstr ""
 
 #: ../../library/logging.rst:19
 msgid ":ref:`Basic Tutorial <logging-basic-tutorial>`"
-msgstr ""
+msgstr ":ref:`Basic Tutorial <logging-basic-tutorial>`"
 
 #: ../../library/logging.rst:20
 msgid ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
-msgstr ""
+msgstr ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
 
 #: ../../library/logging.rst:21
 msgid ":ref:`Logging Cookbook <logging-cookbook>`"
-msgstr ""
+msgstr ":ref:`Logging Cookbook <logging-cookbook>`"
 
 #: ../../library/logging.rst:25
 msgid ""
@@ -475,55 +475,55 @@ msgstr ""
 
 #: ../../library/logging.rst:367
 msgid "Level"
-msgstr ""
+msgstr "Level"
 
 #: ../../library/logging.rst:367
 msgid "Numeric value"
-msgstr ""
+msgstr "Nilai angka"
 
 #: ../../library/logging.rst:369
 msgid "``CRITICAL``"
-msgstr ""
+msgstr "``CRITICAL``"
 
 #: ../../library/logging.rst:369
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: ../../library/logging.rst:371
 msgid "``ERROR``"
-msgstr ""
+msgstr "``ERROR``"
 
 #: ../../library/logging.rst:371
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: ../../library/logging.rst:373
 msgid "``WARNING``"
-msgstr ""
+msgstr "``WARNING``"
 
 #: ../../library/logging.rst:373
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../library/logging.rst:375
 msgid "``INFO``"
-msgstr ""
+msgstr "``INFO``"
 
 #: ../../library/logging.rst:375
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../library/logging.rst:377
 msgid "``DEBUG``"
-msgstr ""
+msgstr "``DEBUG``"
 
 #: ../../library/logging.rst:377
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../library/logging.rst:379
 msgid "``NOTSET``"
-msgstr ""
+msgstr "``NOTSET``"
 
 #: ../../library/logging.rst:379
 msgid "0"
@@ -1001,7 +1001,7 @@ msgstr ""
 
 #: ../../library/logging.rst:776 ../../library/logging.rst:1152
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: ../../library/logging.rst:776 ../../library/logging.rst:1152
 msgid "Description"
@@ -1009,7 +1009,7 @@ msgstr "Deskripsi"
 
 #: ../../library/logging.rst:778 ../../library/logging.rst:0
 msgid "args"
-msgstr ""
+msgstr "args"
 
 #: ../../library/logging.rst:778 ../../library/logging.rst:792
 #: ../../library/logging.rst:820 ../../library/logging.rst:838
@@ -1076,11 +1076,11 @@ msgstr ""
 
 #: ../../library/logging.rst:797
 msgid "funcName"
-msgstr ""
+msgstr "funcName"
 
 #: ../../library/logging.rst:797
 msgid "``%(funcName)s``"
-msgstr ""
+msgstr "``%(funcName)s``"
 
 #: ../../library/logging.rst:797
 msgid "Name of function containing the logging call."
@@ -1102,11 +1102,11 @@ msgstr ""
 
 #: ../../library/logging.rst:803
 msgid "levelno"
-msgstr ""
+msgstr "levelno"
 
 #: ../../library/logging.rst:803
 msgid "``%(levelno)s``"
-msgstr ""
+msgstr "``%(levelno)s``"
 
 #: ../../library/logging.rst:803
 msgid ""
@@ -1167,7 +1167,7 @@ msgstr ""
 
 #: ../../library/logging.rst:820 ../../library/logging.rst:0
 msgid "msg"
-msgstr ""
+msgstr "msg"
 
 #: ../../library/logging.rst:820
 msgid ""
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../../library/logging.rst:825 ../../library/logging.rst:0
 msgid "name"
-msgstr ""
+msgstr "nama"
 
 #: ../../library/logging.rst:825
 msgid "``%(name)s``"
@@ -1762,6 +1762,8 @@ msgid ""
 "``factory(name, level, fn, lno, msg, args, exc_info, func=None, sinfo=None, "
 "**kwargs)``"
 msgstr ""
+"``factory(name, level, fn, lno, msg, args, exc_info, func=None, sinfo=None, "
+"**kwargs)``"
 
 #: ../../library/logging.rst:1249
 msgid "The logger name."
@@ -1777,7 +1779,7 @@ msgstr ""
 
 #: ../../library/logging.rst:0
 msgid "fn"
-msgstr ""
+msgstr "fn"
 
 #: ../../library/logging.rst:1251
 msgid "The full pathname of the file where the logging call was made."
@@ -1785,7 +1787,7 @@ msgstr ""
 
 #: ../../library/logging.rst:0
 msgid "lno"
-msgstr ""
+msgstr "lno"
 
 #: ../../library/logging.rst:1252
 msgid "The line number in the file where the logging call was made."
@@ -1805,7 +1807,7 @@ msgstr ""
 
 #: ../../library/logging.rst:0
 msgid "func"
-msgstr ""
+msgstr "func"
 
 #: ../../library/logging.rst:1256
 msgid "The name of the function or method which invoked the logging call."
@@ -1823,7 +1825,7 @@ msgstr ""
 
 #: ../../library/logging.rst:0
 msgid "kwargs"
-msgstr ""
+msgstr "kwargs"
 
 #: ../../library/logging.rst:1260
 msgid "Additional keyword arguments."

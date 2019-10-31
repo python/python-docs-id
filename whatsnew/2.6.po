@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:5
 msgid "What's New in Python 2.6"
-msgstr ""
+msgstr "Apa yang Baru di Python 2.6"
 
 #: ../../whatsnew/2.6.rst:0
 msgid "Author"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:90
 msgid "Python 3.0"
-msgstr ""
+msgstr "Python 3.0"
 
 #: ../../whatsnew/2.6.rst:92
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:185
 msgid "https://bugs.python.org"
-msgstr ""
+msgstr "https://bugs.python.org"
 
 #: ../../whatsnew/2.6.rst:185
 msgid "The Python bug tracker."
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:188
 msgid "http://bugs.jython.org:"
-msgstr ""
+msgstr "http://bugs.jython.org:"
 
 #: ../../whatsnew/2.6.rst:188
 msgid "The Jython bug tracker."
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:191
 msgid "http://roundup.sourceforge.net/"
-msgstr ""
+msgstr "http://roundup.sourceforge.net/"
 
 #: ../../whatsnew/2.6.rst:191
 msgid "Roundup downloads and documentation."
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:193
 msgid "http://svn.python.org/view/tracker/importer/"
-msgstr ""
+msgstr "http://svn.python.org/view/tracker/importer/"
 
 #: ../../whatsnew/2.6.rst:194
 msgid "Martin von Löwis's conversion scripts."
@@ -284,7 +284,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:236
 msgid "`Documenting Python <https://devguide.python.org/documenting/>`__"
-msgstr ""
+msgstr "`Documenting Python <https://devguide.python.org/documenting/>`__"
 
 #: ../../whatsnew/2.6.rst:236
 msgid "Describes how to write for Python's documentation."
@@ -292,7 +292,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:239
 msgid "`Sphinx <http://sphinx-doc.org/>`__"
-msgstr ""
+msgstr "`Sphinx <http://sphinx-doc.org/>`__"
 
 #: ../../whatsnew/2.6.rst:239
 msgid "Documentation and code for the Sphinx toolchain."
@@ -300,7 +300,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:241
 msgid "`Docutils <http://docutils.sourceforge.net>`__"
-msgstr ""
+msgstr "`Docutils <http://docutils.sourceforge.net>`__"
 
 #: ../../whatsnew/2.6.rst:242
 msgid "The underlying reStructuredText parser and toolset."
@@ -616,7 +616,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:533
 msgid "Windows: :file:`%APPDATA%/Python`"
-msgstr ""
+msgstr "Windows: :file:`%APPDATA%/Python`"
 
 #: ../../whatsnew/2.6.rst:535
 msgid ""
@@ -800,31 +800,31 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:791
 msgid "< (default)"
-msgstr ""
+msgstr "< (default)"
 
 #: ../../whatsnew/2.6.rst:791
 msgid "Left-align"
-msgstr ""
+msgstr "Rata-kiri"
 
 #: ../../whatsnew/2.6.rst:792
 msgid ">"
-msgstr ""
+msgstr ">"
 
 #: ../../whatsnew/2.6.rst:792
 msgid "Right-align"
-msgstr ""
+msgstr "Rata-kanan"
 
 #: ../../whatsnew/2.6.rst:793
 msgid "^"
-msgstr ""
+msgstr "^"
 
 #: ../../whatsnew/2.6.rst:793
 msgid "Center"
-msgstr ""
+msgstr "Tengah"
 
 #: ../../whatsnew/2.6.rst:794
 msgid "="
-msgstr ""
+msgstr "="
 
 #: ../../whatsnew/2.6.rst:794
 msgid "(For numeric types only) Pad after the sign."
@@ -845,7 +845,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:810
 msgid "``b``"
-msgstr ""
+msgstr "``b``"
 
 #: ../../whatsnew/2.6.rst:810
 msgid "Binary. Outputs the number in base 2."
@@ -853,7 +853,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:811
 msgid "``c``"
-msgstr ""
+msgstr "``c``"
 
 #: ../../whatsnew/2.6.rst:811
 msgid ""
@@ -863,7 +863,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:813
 msgid "``d``"
-msgstr ""
+msgstr "``d``"
 
 #: ../../whatsnew/2.6.rst:813
 msgid "Decimal Integer. Outputs the number in base 10."
@@ -871,7 +871,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:814
 msgid "``o``"
-msgstr ""
+msgstr "``o``"
 
 #: ../../whatsnew/2.6.rst:814
 msgid "Octal format. Outputs the number in base 8."
@@ -879,7 +879,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:815
 msgid "``x``"
-msgstr ""
+msgstr "``x``"
 
 #: ../../whatsnew/2.6.rst:815
 msgid ""
@@ -889,7 +889,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:817
 msgid "``e``"
-msgstr ""
+msgstr "``e``"
 
 #: ../../whatsnew/2.6.rst:817
 msgid ""
@@ -899,7 +899,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:819
 msgid "``g``"
-msgstr ""
+msgstr "``g``"
 
 #: ../../whatsnew/2.6.rst:819
 msgid ""
@@ -909,7 +909,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:822
 msgid "``n``"
-msgstr ""
+msgstr "``n``"
 
 #: ../../whatsnew/2.6.rst:822
 msgid ""
@@ -920,7 +920,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:825
 msgid "``%``"
-msgstr ""
+msgstr "``%``"
 
 #: ../../whatsnew/2.6.rst:825
 msgid ""
@@ -1658,7 +1658,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1517
 msgid "(Contributed by Alexander Belopolsky; :issue:`1686487`.)"
-msgstr ""
+msgstr "(Kontribusi dari Alexander Belopolsky; :issue:`1686487`.)"
 
 #: ../../whatsnew/2.6.rst:1519
 msgid ""
@@ -1689,7 +1689,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1546
 msgid "(Contributed by Raymond Hettinger)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger)"
 
 #: ../../whatsnew/2.6.rst:1548
 msgid ""
@@ -1717,7 +1717,7 @@ msgstr ""
 #: ../../whatsnew/2.6.rst:1596 ../../whatsnew/2.6.rst:1880
 #: ../../whatsnew/2.6.rst:1901
 msgid "(Contributed by Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger.)"
 
 #: ../../whatsnew/2.6.rst:1598
 msgid ""
@@ -2280,7 +2280,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2075
 msgid "(All contributed by Raymond Hettinger.)"
-msgstr ""
+msgstr "(semua kontribusi dari Raymond Hettinger.)"
 
 #: ../../whatsnew/2.6.rst:2077
 msgid ""
@@ -2367,7 +2367,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2132
 msgid "(Contributed by Christian Heimes and Mark Dickinson.)"
-msgstr ""
+msgstr "(Kontribusi dari Christian Heimes dan Mark Dickinson.)"
 
 #: ../../whatsnew/2.6.rst:2134
 msgid ""
@@ -2497,7 +2497,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2241
 msgid "(Contributed by Paul Moore; :issue:`2439`.)"
-msgstr ""
+msgstr "(Kontribusi dari Paul Moore; :issue:`2439`.)"
 
 #: ../../whatsnew/2.6.rst:2243
 msgid ""
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2315
 msgid "(Contributed by Tarek Ziadé; :issue:`2663`.)"
-msgstr ""
+msgstr "(Kontribusi dari Tarek Ziadé; :issue:`2663`.)"
 
 #: ../../whatsnew/2.6.rst:2317
 msgid ""
@@ -2620,7 +2620,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2335
 msgid "(Contributed by Adam Olsen; :issue:`1583`.)"
-msgstr ""
+msgstr "(Kontribusi dari Adam Olsen; :issue:`1583`.)"
 
 #: ../../whatsnew/2.6.rst:2337
 msgid ""
@@ -2791,7 +2791,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2465
 msgid "(All changes contributed by Lars Gustäbel)."
-msgstr ""
+msgstr "(Semua perubahan kontribusi dari Lars Gustäbel)."
 
 #: ../../whatsnew/2.6.rst:2467
 msgid ""
@@ -2849,7 +2849,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2513
 msgid "(Contributed by Brett Cannon.)"
-msgstr ""
+msgstr "(Kontribusi dari Brett Cannon.)"
 
 #: ../../whatsnew/2.6.rst:2515
 msgid ""
@@ -2860,7 +2860,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2534
 msgid "(Contributed by Dwayne Bailey; :issue:`1581073`.)"
-msgstr ""
+msgstr "(Kontribusi dari Dwayne Bailey; :issue:`1581073`.)"
 
 #: ../../whatsnew/2.6.rst:2536
 msgid ""
@@ -2945,7 +2945,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2582
 msgid "(:issue:`1513695`)"
-msgstr ""
+msgstr "(:issue:`1513695`)"
 
 #: ../../whatsnew/2.6.rst:2584
 msgid ""
@@ -3023,7 +3023,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:2653
 msgid "(Contributed by Alan McIntyre; :issue:`467924`.)"
-msgstr ""
+msgstr "(Kontribusi dari Alan McIntyre; :issue:`467924`.)"
 
 #: ../../whatsnew/2.6.rst:2655
 msgid ""

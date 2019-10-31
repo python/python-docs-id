@@ -147,6 +147,8 @@ msgid ""
 "(Contributed by Fredrik Johansson, Victor Stinner, Raymond Hettinger, and "
 "Mark Dickinson; :issue:`3439`.)"
 msgstr ""
+"(Kontribusi dari Fredrik Johansson, Victor Stinner, Raymond Hettinger, dan "
+"Mark Dickinson; :issue:`3439`.)"
 
 #: ../../whatsnew/3.1.rst:143
 msgid ""
@@ -161,7 +163,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:152
 msgid "(Contributed by Eric Smith; :issue:`5237`.)"
-msgstr ""
+msgstr "(Kontribusi dari Eric Smith; :issue:`5237`.)"
 
 #: ../../whatsnew/3.1.rst:154
 msgid ""
@@ -175,7 +177,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:161
 msgid "(Contributed by Georg Brandl; :issue:`5675`.)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl; :issue:`5675`.)"
 
 #: ../../whatsnew/3.1.rst:163
 msgid ""
@@ -194,6 +196,8 @@ msgid ""
 "(Contributed by Georg Brandl and Mattias Brändström; `appspot issue 53094 "
 "<https://codereview.appspot.com/53094>`_.)"
 msgstr ""
+"(Kontribusi dari Georg Brandl dan Mattias Brändström; `appspot issue 53094 "
+"<https://codereview.appspot.com/53094>`_.)"
 
 #: ../../whatsnew/3.1.rst:177
 msgid ""
@@ -203,7 +207,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:183
 msgid "(Contributed by Mark Dickinson; :issue:`4707`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson; :issue:`4707`.)"
 
 #: ../../whatsnew/3.1.rst:185
 msgid ""
@@ -260,7 +264,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:221
 msgid "(Contributed by Eric Smith and Mark Dickinson; :issue:`1580`)"
-msgstr ""
+msgstr "(Kontribusi dari Eric Smith dan Mark Dickinson; :issue:`1580`)"
 
 #: ../../whatsnew/3.1.rst:224
 msgid "New, Improved, and Deprecated Modules"
@@ -274,7 +278,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:232
 msgid "(Contributed by Raymond Hettinger; :issue:`1696199`.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger; :issue:`1696199`.)"
 
 #: ../../whatsnew/3.1.rst:234
 msgid ""
@@ -285,7 +289,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:238
 msgid "(Contributed by Guilherme Polo; :issue:`2983`.)"
-msgstr ""
+msgstr "(Kontribusi dari Guilherme Polo; :issue:`2983`.)"
 
 #: ../../whatsnew/3.1.rst:240
 msgid ""
@@ -295,7 +299,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:247
 msgid "(Contributed by Antoine Pitrou.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou.)"
 
 #: ../../whatsnew/3.1.rst:249
 msgid ""
@@ -313,7 +317,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:260
 msgid "(Contributed by Raymond Hettinger and Mark Dickinson.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger dan Mark Dickinson.)"
 
 #: ../../whatsnew/3.1.rst:262
 msgid ""
@@ -328,7 +332,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:281
 msgid "(Contributed by Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger.)"
 
 #: ../../whatsnew/3.1.rst:283
 msgid ""
@@ -341,7 +345,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:300
 msgid "(Contributed by Raymond Hettinger; :issue:`1818`.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger; :issue:`1818`.)"
 
 #: ../../whatsnew/3.1.rst:302
 msgid ""
@@ -351,7 +355,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:305
 msgid "(Contributed by Gregory Smith.)"
-msgstr ""
+msgstr "(Kontribusi dari Gregory Smith.)"
 
 #: ../../whatsnew/3.1.rst:307
 msgid ""
@@ -364,7 +368,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:315
 msgid "(Contributed by Vinay Sajip; :issue:`4384`)."
-msgstr ""
+msgstr "(Kontribusi dari Vinay Sajip; :issue:`4384`)."
 
 #: ../../whatsnew/3.1.rst:317
 msgid ""
@@ -375,7 +379,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:321
 msgid "(Contributed by Andi Vajda; :issue:`4195`.)"
-msgstr ""
+msgstr "(Kontribusi dari Andi Vajda; :issue:`4195`.)"
 
 #: ../../whatsnew/3.1.rst:323
 msgid ""
@@ -385,7 +389,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:326
 msgid "(Contributed by Alexander Belopolsky; :issue:`4201`.)"
-msgstr ""
+msgstr "(Kontribusi dari Alexander Belopolsky; :issue:`4201`.)"
 
 #: ../../whatsnew/3.1.rst:328
 msgid ":class:`functools.partial` objects can now be pickled."
@@ -405,7 +409,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:336
 msgid "(Contributed by David Laban; :issue:`4739`.)"
-msgstr ""
+msgstr "(Kontribusi dari David Laban; :issue:`4739`.)"
 
 #: ../../whatsnew/3.1.rst:338
 msgid ""
@@ -433,7 +437,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:367
 msgid "(Contributed by Benjamin Peterson and Antoine Pitrou.)"
-msgstr ""
+msgstr "(Kontribusi dari Benjamin Peterson dan Antoine Pitrou.)"
 
 #: ../../whatsnew/3.1.rst:369
 msgid ""
@@ -447,7 +451,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:377
 msgid "(Contributed by Ross Light; :issue:`4285`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ross Light; :issue:`4285`.)"
 
 #: ../../whatsnew/3.1.rst:379
 msgid "The :mod:`nntplib` and :mod:`imaplib` modules now support IPv6."
@@ -455,7 +459,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:381
 msgid "(Contributed by Derek Morr; :issue:`1655` and :issue:`1664`.)"
-msgstr ""
+msgstr "(Kontribusi dari Derek Morr; :issue:`1655` dan :issue:`1664`.)"
 
 #: ../../whatsnew/3.1.rst:383
 msgid ""
@@ -483,6 +487,7 @@ msgstr ""
 msgid ""
 "(Contributed by Alexandre Vassalotti and Antoine Pitrou, :issue:`6137`.)"
 msgstr ""
+"(Kontribusi dari Alexandre Vassalotti dan Antoine Pitrou, :issue:`6137`.)"
 
 #: ../../whatsnew/3.1.rst:407
 msgid ""
@@ -495,7 +500,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:413
 msgid "(Contributed by Brett Cannon.)"
-msgstr ""
+msgstr "(Kontribusi dari Brett Cannon.)"
 
 #: ../../whatsnew/3.1.rst:416
 msgid "Optimizations"
@@ -516,7 +521,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:427
 msgid "(Contributed by Amaury Forgeot d'Arc and Antoine Pitrou.)"
-msgstr ""
+msgstr "(Kontribusi dari Amaury Forgeot d'Arc dan Antoine Pitrou.)"
 
 #: ../../whatsnew/3.1.rst:429
 msgid ""
@@ -528,7 +533,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:434
 msgid "(Contributed by Antoine Pitrou, :issue:`4688`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou, :issue:`4688`.)"
 
 #: ../../whatsnew/3.1.rst:436
 msgid ""
@@ -543,6 +548,8 @@ msgid ""
 "(Contributed by Antoine Pitrou along with a number of other participants, "
 ":issue:`4753`)."
 msgstr ""
+"(Kontribusi dari Antoine Pitrou bersama sejumlah peserta lainnya, "
+":issue:`4753`)."
 
 #: ../../whatsnew/3.1.rst:445
 msgid ""
@@ -553,6 +560,7 @@ msgstr ""
 msgid ""
 "(Contributed by Antoine Pitrou and Amaury Forgeot d'Arc, :issue:`4868`.)"
 msgstr ""
+"(Kontribusi dari Antoine Pitrou dan Amaury Forgeot d'Arc, :issue:`4868`.)"
 
 #: ../../whatsnew/3.1.rst:450
 msgid ""
@@ -568,6 +576,8 @@ msgid ""
 "(Contributed by Bob Ippolito and converted to Py3.1 by Antoine Pitrou and "
 "Benjamin Peterson; :issue:`4136`.)"
 msgstr ""
+"(Kontribusi dari Bob Ippolito dan diubah ke Py3.1 oleh Antoine Pitrou dan "
+"Benjamin Peterson; :issue:`4136`.)"
 
 #: ../../whatsnew/3.1.rst:459
 msgid ""
@@ -577,7 +587,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:462
 msgid "(Contributed by Jake McGuire and Antoine Pitrou; :issue:`5084`.)"
-msgstr ""
+msgstr "(Kontribusi dari Jake McGuire dan Antoine Pitrou; :issue:`5084`.)"
 
 #: ../../whatsnew/3.1.rst:465
 msgid "IDLE"
@@ -591,7 +601,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:470
 msgid "(Contributed by Roger D. Serwy; :issue:`5150`.)"
-msgstr ""
+msgstr "(Kontribusi dari Roger D. Serwy; :issue:`5150`.)"
 
 #: ../../whatsnew/3.1.rst:473
 msgid "Build and C API Changes"
@@ -623,7 +633,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:496
 msgid "(Contributed by Mark Dickinson; :issue:`4258`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson; :issue:`4258`.)"
 
 #: ../../whatsnew/3.1.rst:498
 msgid ""
@@ -633,7 +643,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:501
 msgid "(Contributed by Mark Dickinson and Lisandro Dalcrin; :issue:`5175`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson dan Lisandro Dalcrin; :issue:`5175`.)"
 
 #: ../../whatsnew/3.1.rst:503
 msgid ""
@@ -642,7 +652,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:505
 msgid "(Contributed by Mark Dickinson; :issue:`4910`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson; :issue:`4910`.)"
 
 #: ../../whatsnew/3.1.rst:507
 msgid ""
@@ -653,7 +663,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:510
 msgid "(Contributed by Mark Dickinson; :issue:`5914`.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson; :issue:`5914`.)"
 
 #: ../../whatsnew/3.1.rst:512
 msgid ""
@@ -666,7 +676,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:518
 msgid "(Contributed by Larry Hastings; :issue:`5630`.)"
-msgstr ""
+msgstr "(Kontribusi dari Larry Hastings; :issue:`5630`.)"
 
 #: ../../whatsnew/3.1.rst:521
 msgid "Porting to Python 3.1"

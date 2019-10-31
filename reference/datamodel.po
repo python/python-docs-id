@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:150
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../reference/datamodel.rst:147
 msgid ""
@@ -377,7 +377,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:327
 msgid "Bytes"
-msgstr ""
+msgstr "Bytes"
 
 #: ../../reference/datamodel.rst:323
 msgid ""

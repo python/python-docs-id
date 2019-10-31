@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-01 11:34+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2019-09-01 14:43+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -47,7 +47,7 @@ msgstr ":c:type:`PyWideStringList`"
 
 #: ../../c-api/init_config.rst:18
 msgid "Functions:"
-msgstr ""
+msgstr "Fungsi-fungsi:"
 
 #: ../../c-api/init_config.rst:20
 msgid ":c:func:`PyConfig_Clear`"
@@ -179,8 +179,8 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:64
 msgid ""
-"If *length* is non-zero, *items* must be non-NULL and all strings must be "
-"non-NULL."
+"If *length* is non-zero, *items* must be non-``NULL`` and all strings must "
+"be non-``NULL``."
 msgstr ""
 
 #: ../../c-api/init_config.rst:67
@@ -410,11 +410,11 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:249
 msgid "See :c:member:`PyConfig.dev_mode`."
-msgstr ""
+msgstr "Lihat :c:member:`PyConfig.dev_mode`."
 
 #: ../../c-api/init_config.rst:253
 msgid "See :c:member:`PyConfig.isolated`."
-msgstr ""
+msgstr "Lihat :c:member:`PyConfig.isolated`."
 
 #: ../../c-api/init_config.rst:257
 msgid ""
@@ -438,7 +438,7 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:272
 msgid "See :c:member:`PyConfig.use_environment`."
-msgstr ""
+msgstr "Lihat :c:member:`PyConfig.use_environment`."
 
 #: ../../c-api/init_config.rst:276
 msgid "If non-zero, enable the UTF-8 mode."
@@ -579,19 +579,19 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:403
 msgid ":c:member:`~PyConfig.dev_mode`"
-msgstr ""
+msgstr ":c:member:`~PyConfig.dev_mode`"
 
 #: ../../c-api/init_config.rst:404
 msgid ":c:member:`~PyConfig.isolated`"
-msgstr ""
+msgstr ":c:member:`~PyConfig.isolated`"
 
 #: ../../c-api/init_config.rst:405
 msgid ":c:member:`~PyConfig.parse_argv`"
-msgstr ""
+msgstr ":c:member:`~PyConfig.parse_argv`"
 
 #: ../../c-api/init_config.rst:406
 msgid ":c:member:`~PyConfig.use_environment`"
-msgstr ""
+msgstr ":c:member:`~PyConfig.use_environment`"
 
 #: ../../c-api/init_config.rst:408
 msgid ""
@@ -845,7 +845,7 @@ msgid ":data:`sys.pycache_prefix`: ``.pyc`` cache prefix."
 msgstr ""
 
 #: ../../c-api/init_config.rst:611
-msgid "If NULL, :data:`sys.pycache_prefix` is set to ``None``."
+msgid "If ``NULL``, :data:`sys.pycache_prefix` is set to ``None``."
 msgstr ""
 
 #: ../../c-api/init_config.rst:615
@@ -1062,19 +1062,19 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:880
 msgid ":c:member:`PyConfig.home`"
-msgstr ""
+msgstr ":c:member:`PyConfig.home`"
 
 #: ../../c-api/init_config.rst:881
 msgid ":c:member:`PyConfig.pathconfig_warnings`"
-msgstr ""
+msgstr ":c:member:`PyConfig.pathconfig_warnings`"
 
 #: ../../c-api/init_config.rst:882
 msgid ":c:member:`PyConfig.program_name`"
-msgstr ""
+msgstr ":c:member:`PyConfig.program_name`"
 
 #: ../../c-api/init_config.rst:883
 msgid ":c:member:`PyConfig.pythonpath_env`"
-msgstr ""
+msgstr ":c:member:`PyConfig.pythonpath_env`"
 
 #: ../../c-api/init_config.rst:884
 msgid "current working directory: to get absolute paths"
@@ -1103,23 +1103,23 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:894
 msgid ":c:member:`PyConfig.base_exec_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_exec_prefix`"
 
 #: ../../c-api/init_config.rst:895
 msgid ":c:member:`PyConfig.base_executable`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_executable`"
 
 #: ../../c-api/init_config.rst:896
 msgid ":c:member:`PyConfig.base_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_prefix`"
 
 #: ../../c-api/init_config.rst:897
 msgid ":c:member:`PyConfig.exec_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.exec_prefix`"
 
 #: ../../c-api/init_config.rst:898
 msgid ":c:member:`PyConfig.executable`"
-msgstr ""
+msgstr ":c:member:`PyConfig.executable`"
 
 #: ../../c-api/init_config.rst:899
 msgid ""
@@ -1129,7 +1129,7 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:901
 msgid ":c:member:`PyConfig.prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.prefix`"
 
 #: ../../c-api/init_config.rst:903
 msgid ""
@@ -1321,7 +1321,7 @@ msgstr ""
 
 #: ../../c-api/init_config.rst:995
 msgid "etc."
-msgstr ""
+msgstr "dll."
 
 #: ../../c-api/init_config.rst:997
 msgid "Private provisional API:"

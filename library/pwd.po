@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../library/pwd.rst:20
 msgid "Login name"
-msgstr ""
+msgstr "Nama *login*"
 
 #: ../../library/pwd.rst:22
 msgid "1"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../library/pwd.rst:72
 msgid "Module :mod:`grp`"
-msgstr ""
+msgstr "Modul :mod:`grp`"
 
 #: ../../library/pwd.rst:72
 msgid "An interface to the group database, similar to this."

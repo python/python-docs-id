@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../library/asyncio-subprocess.rst:129
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/asyncio-subprocess.rst:133
 msgid "Can be passed to the *stdin*, *stdout* or *stderr* parameters."

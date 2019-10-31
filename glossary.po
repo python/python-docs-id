@@ -1540,7 +1540,7 @@ msgstr ""
 
 #: ../../glossary.rst:893
 msgid "PEP"
-msgstr ""
+msgstr "PEP"
 
 #: ../../glossary.rst:895
 msgid ""
@@ -1561,7 +1561,7 @@ msgstr ""
 
 #: ../../glossary.rst:907
 msgid "See :pep:`1`."
-msgstr ""
+msgstr "Lihat :pep:`1`."
 
 #: ../../glossary.rst:908
 msgid "portion"

@@ -453,7 +453,7 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:501
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 #: ../../library/asyncio-task.rst:505
 msgid ""

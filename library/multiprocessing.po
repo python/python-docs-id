@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:105
 msgid "*spawn*"
-msgstr ""
+msgstr "*spawn*"
 
 #: ../../library/multiprocessing.rst:98
 msgid ""
@@ -115,7 +115,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:114
 msgid "*fork*"
-msgstr ""
+msgstr "*fork*"
 
 #: ../../library/multiprocessing.rst:108
 msgid ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:125
 msgid "*forkserver*"
-msgstr ""
+msgstr "*forkserver*"
 
 #: ../../library/multiprocessing.rst:117
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:213
 msgid "**Queues**"
-msgstr ""
+msgstr "**Queues**"
 
 #: ../../library/multiprocessing.rst:215
 msgid ""
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:232
 msgid "**Pipes**"
-msgstr ""
+msgstr "**Pipes**"
 
 #: ../../library/multiprocessing.rst:234
 msgid ""
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:295
 msgid "**Shared memory**"
-msgstr ""
+msgstr "**Shared memory**"
 
 #: ../../library/multiprocessing.rst:297
 msgid ""
@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:318 ../../library/multiprocessing.rst:364
 msgid "will print ::"
-msgstr ""
+msgstr "akan mencetak ::"
 
 #: ../../library/multiprocessing.rst:323
 msgid ""
@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:332
 msgid "**Server process**"
-msgstr ""
+msgstr "**Server process**"
 
 #: ../../library/multiprocessing.rst:334
 msgid ""
@@ -393,7 +393,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:459
 msgid "Reference"
-msgstr ""
+msgstr "Referensi"
 
 #: ../../library/multiprocessing.rst:461
 msgid ""
@@ -2320,7 +2320,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:2133
 msgid "*context*"
-msgstr ""
+msgstr "*context*"
 
 #: ../../library/multiprocessing.rst:2138
 msgid ""
@@ -2698,7 +2698,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:2461
 msgid "**Examples**"
-msgstr ""
+msgstr "**Examples**"
 
 #: ../../library/multiprocessing.rst:2463
 msgid ""

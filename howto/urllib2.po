@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../howto/urllib2.rst:105
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 #: ../../howto/urllib2.rst:107
 msgid ""
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../howto/urllib2.rst:221
 msgid "e.g. ::"
-msgstr ""
+msgstr "mis. ::"
 
 #: ../../howto/urllib2.rst:232
 msgid "HTTPError"
@@ -448,7 +448,7 @@ msgstr ""
 
 #: ../../howto/urllib2.rst:468
 msgid "e.g."
-msgstr ""
+msgstr "mis."
 
 #: ../../howto/urllib2.rst:475
 msgid ""

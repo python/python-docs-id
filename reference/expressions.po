@@ -1923,7 +1923,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:1803
 msgid "``|``"
-msgstr ""
+msgstr "``|``"
 
 #: ../../reference/expressions.rst:1803
 msgid "Bitwise OR"
@@ -1931,7 +1931,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:1805
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 #: ../../reference/expressions.rst:1805
 msgid "Bitwise XOR"

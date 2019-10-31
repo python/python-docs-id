@@ -2284,7 +2284,7 @@ msgstr ""
 
 #: ../../library/codecs.rst:1270
 msgid "idna"
-msgstr ""
+msgstr "idna"
 
 #: ../../library/codecs.rst:1270
 msgid ""
@@ -2294,7 +2294,7 @@ msgstr ""
 
 #: ../../library/codecs.rst:1276
 msgid "mbcs"
-msgstr ""
+msgstr "mbcs"
 
 #: ../../library/codecs.rst:1276
 msgid "ansi, dbcs"
@@ -2307,7 +2307,7 @@ msgstr ""
 
 #: ../../library/codecs.rst:1280
 msgid "oem"
-msgstr ""
+msgstr "oem"
 
 #: ../../library/codecs.rst:1280
 msgid ""

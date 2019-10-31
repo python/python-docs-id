@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/2.5.rst:5
 msgid "A.M. Kuchling"
-msgstr ""
+msgstr "A.M. Kuchling"
 
 #: ../../whatsnew/2.5.rst:12
 msgid ""
@@ -1194,7 +1194,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1043
 msgid "(Contributed by Steven Bethard and Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Steven Bethard dan Raymond Hettinger.)"
 
 #: ../../whatsnew/2.5.rst:1045
 msgid ""
@@ -1458,7 +1458,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1269
 msgid "(Contributed by Guido van Rossum.)"
-msgstr ""
+msgstr "(Kontribusi dari Guido van Rossum.)"
 
 #: ../../whatsnew/2.5.rst:1271
 msgid ""
@@ -1520,7 +1520,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1309
 msgid "(Contributed by Skip Montanaro and Andrew McNamara.)"
-msgstr ""
+msgstr "(Kontribusi dari Skip Montanaro dan Andrew McNamara.)"
 
 #: ../../whatsnew/2.5.rst:1311
 msgid ""
@@ -1593,7 +1593,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1373 ../../whatsnew/2.5.rst:1382
 msgid "(Contributed by Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger.)"
 
 #: ../../whatsnew/2.5.rst:1375
 msgid ""
@@ -1634,7 +1634,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1400
 msgid "(Contributed by Georg Brandl.)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl.)"
 
 #: ../../whatsnew/2.5.rst:1404
 msgid ""
@@ -1934,7 +1934,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1632
 msgid "(Contributed by Ka-Ping Yee.)"
-msgstr ""
+msgstr "(Kontribusi dari Ka-Ping Yee.)"
 
 #: ../../whatsnew/2.5.rst:1634
 msgid ""

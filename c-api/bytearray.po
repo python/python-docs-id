@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 17:33+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: ../../c-api/bytearray.rst:50
 msgid ""
 "Create a new bytearray object from *string* and its length, *len*.  On "
-"failure, *NULL* is returned."
+"failure, ``NULL`` is returned."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:56
@@ -70,13 +70,14 @@ msgid ""
 msgstr ""
 
 #: ../../c-api/bytearray.rst:61
-msgid "Return the size of *bytearray* after checking for a *NULL* pointer."
+msgid "Return the size of *bytearray* after checking for a ``NULL`` pointer."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:66
 msgid ""
 "Return the contents of *bytearray* as a char array after checking for a "
-"*NULL* pointer.  The returned array always has an extra null byte appended."
+"``NULL`` pointer.  The returned array always has an extra null byte "
+"appended."
 msgstr ""
 
 #: ../../c-api/bytearray.rst:73

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 23:05+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -161,8 +161,8 @@ msgstr ""
 
 #: ../../library/ctypes.rst:155
 msgid ""
-"This example calls both functions with a NULL pointer (``None`` should be "
-"used as the NULL pointer)::"
+"This example calls both functions with a ``NULL`` pointer (``None`` should "
+"be used as the ``NULL`` pointer)::"
 msgstr ""
 
 #: ../../library/ctypes.rst:166
@@ -231,19 +231,19 @@ msgstr ""
 
 #: ../../library/ctypes.rst:223
 msgid "C type"
-msgstr ""
+msgstr "tipe C"
 
 #: ../../library/ctypes.rst:223
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 #: ../../library/ctypes.rst:225
 msgid ":class:`c_bool`"
-msgstr ""
+msgstr ":class:`c_bool`"
 
 #: ../../library/ctypes.rst:225
 msgid ":c:type:`_Bool`"
-msgstr ""
+msgstr ":c:type:`_Bool`"
 
 #: ../../library/ctypes.rst:225
 msgid "bool (1)"
@@ -251,11 +251,11 @@ msgstr ""
 
 #: ../../library/ctypes.rst:227
 msgid ":class:`c_char`"
-msgstr ""
+msgstr ":class:`c_char`"
 
 #: ../../library/ctypes.rst:227 ../../library/ctypes.rst:231
 msgid ":c:type:`char`"
-msgstr ""
+msgstr ":c:type:`char`"
 
 #: ../../library/ctypes.rst:227
 msgid "1-character bytes object"
@@ -263,11 +263,11 @@ msgstr ""
 
 #: ../../library/ctypes.rst:229
 msgid ":class:`c_wchar`"
-msgstr ""
+msgstr ":class:`c_wchar`"
 
 #: ../../library/ctypes.rst:229
 msgid ":c:type:`wchar_t`"
-msgstr ""
+msgstr ":c:type:`wchar_t`"
 
 #: ../../library/ctypes.rst:229
 msgid "1-character string"
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:231
 msgid ":class:`c_byte`"
-msgstr ""
+msgstr ":class:`c_byte`"
 
 #: ../../library/ctypes.rst:231 ../../library/ctypes.rst:233
 #: ../../library/ctypes.rst:235 ../../library/ctypes.rst:237
@@ -288,27 +288,27 @@ msgstr "int"
 
 #: ../../library/ctypes.rst:233
 msgid ":class:`c_ubyte`"
-msgstr ""
+msgstr ":class:`c_ubyte`"
 
 #: ../../library/ctypes.rst:233
 msgid ":c:type:`unsigned char`"
-msgstr ""
+msgstr ":c:type:`unsigned char`"
 
 #: ../../library/ctypes.rst:235
 msgid ":class:`c_short`"
-msgstr ""
+msgstr ":class:`c_short`"
 
 #: ../../library/ctypes.rst:235
 msgid ":c:type:`short`"
-msgstr ""
+msgstr ":c:type:`short`"
 
 #: ../../library/ctypes.rst:237
 msgid ":class:`c_ushort`"
-msgstr ""
+msgstr ":class:`c_ushort`"
 
 #: ../../library/ctypes.rst:237
 msgid ":c:type:`unsigned short`"
-msgstr ""
+msgstr ":c:type:`unsigned short`"
 
 #: ../../library/ctypes.rst:239
 msgid ":class:`c_int`"
@@ -328,59 +328,59 @@ msgstr ":c:type:`unsigned int`"
 
 #: ../../library/ctypes.rst:243
 msgid ":class:`c_long`"
-msgstr ""
+msgstr ":class:`c_long`"
 
 #: ../../library/ctypes.rst:243
 msgid ":c:type:`long`"
-msgstr ""
+msgstr ":c:type:`long`"
 
 #: ../../library/ctypes.rst:245
 msgid ":class:`c_ulong`"
-msgstr ""
+msgstr ":class:`c_ulong`"
 
 #: ../../library/ctypes.rst:245
 msgid ":c:type:`unsigned long`"
-msgstr ""
+msgstr ":c:type:`unsigned long`"
 
 #: ../../library/ctypes.rst:247
 msgid ":class:`c_longlong`"
-msgstr ""
+msgstr ":class:`c_longlong`"
 
 #: ../../library/ctypes.rst:247
 msgid ":c:type:`__int64` or :c:type:`long long`"
-msgstr ":c:type:`__int64` or :c:type:`long long`"
+msgstr ":c:type:`__int64` atau :c:type:`long long`"
 
 #: ../../library/ctypes.rst:249
 msgid ":class:`c_ulonglong`"
-msgstr ""
+msgstr ":class:`c_ulonglong`"
 
 #: ../../library/ctypes.rst:249
 msgid ":c:type:`unsigned __int64` or :c:type:`unsigned long long`"
-msgstr ":c:type:`unsigned __int64` or :c:type:`unsigned long long`"
+msgstr ":c:type:`unsigned __int64` atau :c:type:`unsigned long long`"
 
 #: ../../library/ctypes.rst:252
 msgid ":class:`c_size_t`"
-msgstr ""
+msgstr ":class:`c_size_t`"
 
 #: ../../library/ctypes.rst:252
 msgid ":c:type:`size_t`"
-msgstr ""
+msgstr ":c:type:`size_t`"
 
 #: ../../library/ctypes.rst:254
 msgid ":class:`c_ssize_t`"
-msgstr ""
+msgstr ":class:`c_ssize_t`"
 
 #: ../../library/ctypes.rst:254
 msgid ":c:type:`ssize_t` or :c:type:`Py_ssize_t`"
-msgstr ""
+msgstr ":c:type:`ssize_t` atau :c:type:`Py_ssize_t`"
 
 #: ../../library/ctypes.rst:257
 msgid ":class:`c_float`"
-msgstr ""
+msgstr ":class:`c_float`"
 
 #: ../../library/ctypes.rst:257
 msgid ":c:type:`float`"
-msgstr ""
+msgstr ":c:type:`float`"
 
 #: ../../library/ctypes.rst:257 ../../library/ctypes.rst:259
 #: ../../library/ctypes.rst:261
@@ -389,27 +389,27 @@ msgstr "float"
 
 #: ../../library/ctypes.rst:259
 msgid ":class:`c_double`"
-msgstr ""
+msgstr ":class:`c_double`"
 
 #: ../../library/ctypes.rst:259
 msgid ":c:type:`double`"
-msgstr ""
+msgstr ":c:type:`double`"
 
 #: ../../library/ctypes.rst:261
 msgid ":class:`c_longdouble`"
-msgstr ""
+msgstr ":class:`c_longdouble`"
 
 #: ../../library/ctypes.rst:261
 msgid ":c:type:`long double`"
-msgstr ""
+msgstr ":c:type:`long double`"
 
 #: ../../library/ctypes.rst:263
 msgid ":class:`c_char_p`"
-msgstr ""
+msgstr ":class:`c_char_p`"
 
 #: ../../library/ctypes.rst:263
 msgid ":c:type:`char *` (NUL terminated)"
-msgstr ""
+msgstr ":c:type:`char *` (NUL terminated)"
 
 #: ../../library/ctypes.rst:263
 msgid "bytes object or ``None``"
@@ -417,11 +417,11 @@ msgstr ""
 
 #: ../../library/ctypes.rst:265
 msgid ":class:`c_wchar_p`"
-msgstr ""
+msgstr ":class:`c_wchar_p`"
 
 #: ../../library/ctypes.rst:265
 msgid ":c:type:`wchar_t *` (NUL terminated)"
-msgstr ""
+msgstr ":c:type:`wchar_t *` (NUL terminated)"
 
 #: ../../library/ctypes.rst:265
 msgid "string or ``None``"
@@ -429,11 +429,11 @@ msgstr ""
 
 #: ../../library/ctypes.rst:267
 msgid ":class:`c_void_p`"
-msgstr ""
+msgstr ":class:`c_void_p`"
 
 #: ../../library/ctypes.rst:267
 msgid ":c:type:`void *`"
-msgstr ""
+msgstr ":c:type:`void *`"
 
 #: ../../library/ctypes.rst:267
 msgid "int or ``None``"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:452
 msgid "Return types"
-msgstr ""
+msgstr "Tipe kembalian"
 
 #: ../../library/ctypes.rst:454
 msgid ""
@@ -1040,7 +1040,7 @@ msgstr ""
 #: ../../library/ctypes.rst:1085
 msgid ""
 "This pointer is initialized to point to an array of :c:type:`struct _frozen`"
-" records, terminated by one whose members are all *NULL* or zero.  When a "
+" records, terminated by one whose members are all ``NULL`` or zero.  When a "
 "frozen module is imported, it is searched in this table.  Third-party code "
 "could play tricks with this to provide a dynamically created collection of "
 "frozen modules."
@@ -1064,7 +1064,7 @@ msgid ""
 "we can iterate over it, but we just have to make sure that our loop "
 "terminates, because pointers have no size. Sooner or later it would probably"
 " crash with an access violation or whatever, so it's better to break out of "
-"the loop when we hit the NULL entry::"
+"the loop when we hit the ``NULL`` entry::"
 msgstr ""
 
 #: ../../library/ctypes.rst:1127
@@ -2379,7 +2379,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:2342
 msgid "Structured data types"
-msgstr ""
+msgstr "Tipe data terstruktur"
 
 #: ../../library/ctypes.rst:2347
 msgid "Abstract base class for unions in native byte order."

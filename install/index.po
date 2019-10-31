@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../install/index.rst:16
 msgid ":ref:`installing-index`"
-msgstr ""
+msgstr ":ref:`installing-index`"
 
 #: ../../install/index.rst:16
 msgid ""
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../install/index.rst:209
 msgid "Default value"
-msgstr ""
+msgstr "Nilai bawaan"
 
 #: ../../install/index.rst:209 ../../install/index.rst:735
 #: ../../install/index.rst:747
@@ -749,11 +749,11 @@ msgstr ""
 
 #: ../../install/index.rst:501
 msgid "``--install-purelib``"
-msgstr ""
+msgstr "``--install-purelib``"
 
 #: ../../install/index.rst:502
 msgid "``--install-platlib``"
-msgstr ""
+msgstr "``--install-platlib``"
 
 #: ../../install/index.rst:503
 msgid "all modules"
@@ -761,19 +761,19 @@ msgstr ""
 
 #: ../../install/index.rst:503
 msgid "``--install-lib``"
-msgstr ""
+msgstr "``--install-lib``"
 
 #: ../../install/index.rst:504
 msgid "``--install-scripts``"
-msgstr ""
+msgstr "``--install-scripts``"
 
 #: ../../install/index.rst:505
 msgid "``--install-data``"
-msgstr ""
+msgstr "``--install-data``"
 
 #: ../../install/index.rst:506
 msgid "``--install-headers``"
-msgstr ""
+msgstr "``--install-headers``"
 
 #: ../../install/index.rst:509
 msgid ""

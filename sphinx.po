@@ -201,7 +201,7 @@ msgstr "Berkontribusi ke Dokumen"
 
 #: ../../tools/templates/indexcontent.html:61
 msgid "About the documentation"
-msgstr "Tentang Dokumentasi"
+msgstr "Tentang dokumentasi"
 
 #: ../../tools/templates/indexcontent.html:63
 msgid "History and License of Python"

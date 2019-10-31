@@ -43,11 +43,11 @@ msgstr ""
 
 #: ../../library/chunk.rst:29
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 #: ../../library/chunk.rst:29
 msgid "Length"
-msgstr ""
+msgstr "Length"
 
 #: ../../library/chunk.rst:29
 msgid "Contents"
@@ -76,7 +76,7 @@ msgstr "8"
 
 #: ../../library/chunk.rst:37
 msgid "*n*"
-msgstr ""
+msgstr "*n*"
 
 #: ../../library/chunk.rst:37
 msgid "Data bytes, where *n* is the size given in the preceding field"
@@ -84,11 +84,11 @@ msgstr ""
 
 #: ../../library/chunk.rst:41
 msgid "8 + *n*"
-msgstr ""
+msgstr "8 + *n*"
 
 #: ../../library/chunk.rst:41
 msgid "0 or 1"
-msgstr ""
+msgstr "0 atau 1"
 
 #: ../../library/chunk.rst:41
 msgid "Pad byte needed if *n* is odd and chunk alignment is used"

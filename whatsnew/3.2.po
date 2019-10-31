@@ -495,7 +495,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:495
 msgid "(Contributed by Marcin Wojdyr in :issue:`1772833`)."
-msgstr ""
+msgstr "(Kontribusi dari Marcin Wojdyr di :issue:`1772833`)."
 
 #: ../../whatsnew/3.2.rst:497
 msgid ""
@@ -844,7 +844,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:749
 msgid "(Contributed by Florent Xicluna and Fredrik Lundh, :issue:`6472`.)"
-msgstr ""
+msgstr "(Kontribusi dari Florent Xicluna dan Fredrik Lundh, :issue:`6472`.)"
 
 #: ../../whatsnew/3.2.rst:752
 msgid "functools"
@@ -930,7 +930,7 @@ msgstr ""
 #: ../../whatsnew/3.2.rst:913 ../../whatsnew/3.2.rst:1783
 #: ../../whatsnew/3.2.rst:1828
 msgid "(Contributed by Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger.)"
 
 #: ../../whatsnew/3.2.rst:824
 msgid ""
@@ -1184,11 +1184,11 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1090
 msgid "(Contributed by Mark Dickinson.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson.)"
 
 #: ../../whatsnew/3.2.rst:1093
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: ../../whatsnew/3.2.rst:1095
 msgid ""
@@ -1221,11 +1221,11 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1141
 msgid "(Contributed by Antoine Pitrou in :issue:`5506`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou di :issue:`5506`.)"
 
 #: ../../whatsnew/3.2.rst:1144
 msgid "reprlib"
-msgstr ""
+msgstr "reprlib"
 
 #: ../../whatsnew/3.2.rst:1146
 msgid ""
@@ -1246,6 +1246,7 @@ msgstr ""
 #: ../../whatsnew/3.2.rst:1167
 msgid "(Contributed by Raymond Hettinger in :issue:`9826` and :issue:`9840`.)"
 msgstr ""
+"(Kontribusi dari Raymond Hettinger di :issue:`9826` and :issue:`9840`.)"
 
 #: ../../whatsnew/3.2.rst:1170
 msgid "logging"
@@ -1302,7 +1303,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1208
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 #: ../../whatsnew/3.2.rst:1210
 msgid ""
@@ -1387,7 +1388,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1286
 msgid "(Contributed by Michael Foord in :issue:`9110`.)"
-msgstr ""
+msgstr "(Kontribusi dari Michael Foord di :issue:`9110`.)"
 
 #: ../../whatsnew/3.2.rst:1289
 msgid "decimal and fractions"
@@ -1453,11 +1454,11 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1338
 msgid "(Contributed by Mark Dickinson and Raymond Hettinger.)"
-msgstr ""
+msgstr "(Kontribusi dari Mark Dickinson dan Raymond Hettinger.)"
 
 #: ../../whatsnew/3.2.rst:1341
 msgid "ftp"
-msgstr ""
+msgstr "ftp"
 
 #: ../../whatsnew/3.2.rst:1343
 msgid ""
@@ -1488,7 +1489,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1372
 msgid "(Contributed by Giampaolo Rodolà; :issue:`8806`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodolà; :issue:`8806`.)"
 
 #: ../../whatsnew/3.2.rst:1375
 msgid "popen"
@@ -1505,6 +1506,8 @@ msgid ""
 "(Contributed by Antoine Pitrou and Brian Curtin in :issue:`7461` and "
 ":issue:`10554`.)"
 msgstr ""
+"(Kontribusi dari Antoine Pitrou dan Brian Curtin di :issue:`7461` dan "
+":issue:`10554`.)"
 
 #: ../../whatsnew/3.2.rst:1384
 msgid "select"
@@ -1548,6 +1551,9 @@ msgid ""
 " Aides and Brian Curtin in :issue:`9962`, :issue:`1675951`, :issue:`7471` "
 "and :issue:`2846`.)"
 msgstr ""
+"(Kontribusi dari Anand B. Pillai di :issue:`3488`; dan dari Antoine Pitrou, "
+"Nir Aides dan Brian Curtin di :issue:`9962`, :issue:`1675951`, :issue:`7471`"
+" dan :issue:`2846`.)"
 
 #: ../../whatsnew/3.2.rst:1426
 msgid ""
@@ -1650,7 +1656,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1535
 msgid "(Contributed by Victor Stinner.)"
-msgstr ""
+msgstr "(Kontribusi dari Victor Stinner.)"
 
 #: ../../whatsnew/3.2.rst:1538
 msgid "shutil"
@@ -1675,7 +1681,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1549 ../../whatsnew/3.2.rst:1587
 msgid "(Contributed by Tarek Ziadé.)"
-msgstr ""
+msgstr "(Kontribusi dari Tarek Ziadé.)"
 
 #: ../../whatsnew/3.2.rst:1551
 msgid ""
@@ -1721,11 +1727,11 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1602
 msgid "(Contributed by R. David Murray and Shashwat Anand; :issue:`8845`.)"
-msgstr ""
+msgstr "(Kontribusi dari R. David Murray dan Shashwat Anand; :issue:`8845`.)"
 
 #: ../../whatsnew/3.2.rst:1605
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: ../../whatsnew/3.2.rst:1607
 msgid ""
@@ -1830,10 +1836,13 @@ msgid ""
 ":issue:`8322`, :issue:`5639`, :issue:`4870`, :issue:`8484`, and "
 ":issue:`8321`.)"
 msgstr ""
+"(Kontribusi dari Antoine Pitrou di :issue:`8850`, :issue:`1589`, "
+":issue:`8322`, :issue:`5639`, :issue:`4870`, :issue:`8484`, dan "
+":issue:`8321`.)"
 
 #: ../../whatsnew/3.2.rst:1673
 msgid "nntp"
-msgstr ""
+msgstr "nntp"
 
 #: ../../whatsnew/3.2.rst:1675
 msgid ""
@@ -1855,6 +1864,8 @@ msgid ""
 "(Contributed by Antoine Pitrou in :issue:`9360` and Andrew Vant in "
 ":issue:`1926`.)"
 msgstr ""
+"(Kontribusi dari Antoine Pitrou di :issue:`9360` dan Andrew Vant di "
+":issue:`1926`.)"
 
 #: ../../whatsnew/3.2.rst:1687
 msgid "certificates"
@@ -1885,6 +1896,7 @@ msgstr ""
 #: ../../whatsnew/3.2.rst:1702
 msgid "(Contributed by Lorenzo M. Catucci and Antoine Pitrou, :issue:`4471`.)"
 msgstr ""
+"(Kontribusi dari Lorenzo M. Catucci dan Antoine Pitrou, :issue:`4471`.)"
 
 #: ../../whatsnew/3.2.rst:1705
 msgid "http.client"
@@ -1962,7 +1974,7 @@ msgstr ""
 #: ../../whatsnew/3.2.rst:1754 ../../whatsnew/3.2.rst:1763
 #: ../../whatsnew/3.2.rst:1919
 msgid "(Contributed by Michael Foord.)"
-msgstr ""
+msgstr "(Kontribusi dari Michael Foord.)"
 
 #: ../../whatsnew/3.2.rst:1756
 msgid ""
@@ -1981,7 +1993,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1773
 msgid "(Contributed by Antoine Pitrou, :issue:`9754`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou, :issue:`9754`.)"
 
 #: ../../whatsnew/3.2.rst:1775
 msgid ""
@@ -2021,6 +2033,7 @@ msgstr ""
 #: ../../whatsnew/3.2.rst:1802
 msgid "(Contributed by Raymond Hettinger and implemented by Ezio Melotti.)"
 msgstr ""
+"(Kontribusi dari Raymond Hettinger dan implementasi oleh Ezio Melotti.)"
 
 #: ../../whatsnew/3.2.rst:1804
 msgid ""
@@ -2085,7 +2098,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1821
 msgid "(Contributed by Ezio Melotti; :issue:`9424`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ezio Melotti; :issue:`9424`.)"
 
 #: ../../whatsnew/3.2.rst:1823
 msgid ""
@@ -2113,7 +2126,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1842
 msgid "(Contributed by Raymond Hettinger; :issue:`9025`.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger; :issue:`9025`.)"
 
 #: ../../whatsnew/3.2.rst:1845
 msgid "poplib"
@@ -2129,7 +2142,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1852
 msgid "(Contributed by Giampaolo Rodolà; :issue:`8807`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodolà; :issue:`8807`.)"
 
 #: ../../whatsnew/3.2.rst:1855
 msgid "asyncore"
@@ -2147,7 +2160,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1864
 msgid "(Contributed by Giampaolo Rodolà; :issue:`6706`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodolà; :issue:`6706`.)"
 
 #: ../../whatsnew/3.2.rst:1867
 msgid "tempfile"
@@ -2162,7 +2175,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1876
 msgid "(Contributed by Neil Schemenauer and Nick Coghlan; :issue:`5178`.)"
-msgstr ""
+msgstr "(Kontribusi dari Neil Schemenauer dan Nick Coghlan; :issue:`5178`.)"
 
 #: ../../whatsnew/3.2.rst:1879
 msgid "inspect"
@@ -2177,7 +2190,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1899
 msgid "(Contributed by Rodolpho Eckhardt and Nick Coghlan, :issue:`10220`.)"
-msgstr ""
+msgstr "(Kontribusi dari Rodolpho Eckhardt dan Nick Coghlan, :issue:`10220`.)"
 
 #: ../../whatsnew/3.2.rst:1901
 msgid ""
@@ -2200,7 +2213,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1932
 msgid "(Contributed by Ron Adam; :issue:`2001`.)"
-msgstr ""
+msgstr "(Kontribusi dari Ron Adam; :issue:`2001`.)"
 
 #: ../../whatsnew/3.2.rst:1935
 msgid "dis"
@@ -2231,7 +2244,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1990
 msgid "(Contributed by Nick Coghlan in :issue:`9147`.)"
-msgstr ""
+msgstr "(Kontribusi dari Nick Coghlan di :issue:`9147`.)"
 
 #: ../../whatsnew/3.2.rst:1993
 msgid "dbm"
@@ -2259,7 +2272,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2005
 msgid "site"
-msgstr ""
+msgstr "site"
 
 #: ../../whatsnew/3.2.rst:2007
 msgid ""
@@ -2292,7 +2305,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2040
 msgid "(Contributed by Tarek Ziadé in :issue:`6693`.)"
-msgstr ""
+msgstr "(Kontribusi dari Tarek Ziadé di :issue:`6693`.)"
 
 #: ../../whatsnew/3.2.rst:2043
 msgid "sysconfig"
@@ -2399,7 +2412,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2125
 msgid "(Contributed by Georg Brandl, Antonio Cuni and Ilya Sandler.)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl, Antonio Cuni dan Ilya Sandler.)"
 
 #: ../../whatsnew/3.2.rst:2128
 msgid "configparser"
@@ -2448,7 +2461,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2209
 msgid "(All changes contributed by Łukasz Langa.)"
-msgstr ""
+msgstr "(Semua perubahan kontribusi dari Łukasz Langa.)"
 
 #: ../../whatsnew/3.2.rst:2214
 msgid "urllib.parse"
@@ -2595,7 +2608,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2328
 msgid "(Contributed by Antoine Pitrou.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou.)"
 
 #: ../../whatsnew/3.2.rst:2330
 msgid ""
@@ -2695,7 +2708,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2390
 msgid "(Contributed by Antoine Pitrou; :issue:`3001`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou; :issue:`3001`.)"
 
 #: ../../whatsnew/3.2.rst:2392
 msgid ""
@@ -2847,7 +2860,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2484
 msgid "(Contributed by Alexander Belopolsky in :issue:`9528`.)"
-msgstr ""
+msgstr "(Kontribusi dari Alexander Belopolsky di :issue:`9528`.)"
 
 #: ../../whatsnew/3.2.rst:2486
 msgid ""
@@ -2858,7 +2871,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2490
 msgid "(Contributed by Georg Brandl in :issue:`7962`.)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl di :issue:`7962`.)"
 
 #: ../../whatsnew/3.2.rst:2494
 msgid "IDLE"
@@ -2872,7 +2885,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2499
 msgid "(Contributed by Raymond Hettinger; :issue:`5150`.)"
-msgstr ""
+msgstr "(Kontribusi dari Raymond Hettinger; :issue:`5150`.)"
 
 #: ../../whatsnew/3.2.rst:2501
 msgid "IDLE on Mac OS X now works with both Carbon AquaTk and Cocoa AquaTk."
@@ -2883,6 +2896,8 @@ msgid ""
 "(Contributed by Kevin Walzer, Ned Deily, and Ronald Oussoren; "
 ":issue:`6075`.)"
 msgstr ""
+"(Kontribusi dari Kevin Walzer, Ned Deily, dan Ronald Oussoren; "
+":issue:`6075`.)"
 
 #: ../../whatsnew/3.2.rst:2506
 msgid "Code Repository"
@@ -2948,7 +2963,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2543
 msgid "(Contributed by Antoine Pitrou; :issue:`9203`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou; :issue:`9203`.)"
 
 #: ../../whatsnew/3.2.rst:2545
 msgid ""
@@ -2958,7 +2973,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2548
 msgid "(Contributed by Amaury Forgeot D'Arc; :issue:`9210`.)"
-msgstr ""
+msgstr "(Kontribusi dari Amaury Forgeot D'Arc; :issue:`9210`.)"
 
 #: ../../whatsnew/3.2.rst:2550
 msgid ""
@@ -3179,7 +3194,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2676
 msgid "(Contributed by Georg Brandl; :issue:`5675`.)"
-msgstr ""
+msgstr "(Kontribusi dari Georg Brandl; :issue:`5675`.)"
 
 #: ../../whatsnew/3.2.rst:2678
 msgid ""
@@ -3195,6 +3210,8 @@ msgid ""
 "(Contributed by Georg Brandl and Mattias Brändström; `appspot issue 53094 "
 "<https://codereview.appspot.com/53094>`_.)"
 msgstr ""
+"(Kontribusi dari Georg Brandl dan Mattias Brändström; `appspot issue 53094 "
+"<https://codereview.appspot.com/53094>`_.)"
 
 #: ../../whatsnew/3.2.rst:2692
 msgid ""
@@ -3249,7 +3266,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2721
 msgid "(Contributed by Antoine Pitrou, :issue:`10711`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou, :issue:`10711`.)"
 
 #: ../../whatsnew/3.2.rst:2723
 msgid ""
@@ -3259,7 +3276,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2726
 msgid "(Contributed by Antoine Pitrou, :issue:`10272`.)"
-msgstr ""
+msgstr "(Kontribusi dari Antoine Pitrou, :issue:`10272`.)"
 
 #: ../../whatsnew/3.2.rst:2728
 msgid ""
@@ -3278,7 +3295,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2736
 msgid "(Contributed by Giampaolo Rodola in :issue:`6706`.)"
-msgstr ""
+msgstr "(Kontribusi dari Giampaolo Rodola di :issue:`6706`.)"
 
 #: ../../whatsnew/3.2.rst:2738
 msgid ""

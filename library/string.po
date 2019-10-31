@@ -579,7 +579,7 @@ msgstr ""
 #: ../../library/string.rst:443 ../../library/string.rst:470
 #: ../../library/string.rst:533
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../library/string.rst:443
 msgid "The same as ``'s'``."
@@ -645,7 +645,7 @@ msgstr ""
 
 #: ../../library/string.rst:466 ../../library/string.rst:526
 msgid "``'n'``"
-msgstr ""
+msgstr "``'n'``"
 
 #: ../../library/string.rst:466
 msgid ""

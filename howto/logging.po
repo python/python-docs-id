@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../howto/logging.rst:5
 msgid "Vinay Sajip <vinay_sajip at red-dove dot com>"
-msgstr ""
+msgstr "Vinay Sajip <vinay_sajip at red-dove dot com>"
 
 #: ../../howto/logging.rst:12
 msgid "Basic Logging Tutorial"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:69 ../../howto/logging.rst:846
 msgid "Level"
-msgstr ""
+msgstr "Level"
 
 #: ../../howto/logging.rst:69
 msgid "When it's used"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:71 ../../howto/logging.rst:856
 msgid "``DEBUG``"
-msgstr ""
+msgstr "``DEBUG``"
 
 #: ../../howto/logging.rst:71
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:74 ../../howto/logging.rst:854
 msgid "``INFO``"
-msgstr ""
+msgstr "``INFO``"
 
 #: ../../howto/logging.rst:74
 msgid "Confirmation that things are working as expected."
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:77 ../../howto/logging.rst:852
 msgid "``WARNING``"
-msgstr ""
+msgstr "``WARNING``"
 
 #: ../../howto/logging.rst:77
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:82 ../../howto/logging.rst:850
 msgid "``ERROR``"
-msgstr ""
+msgstr "``ERROR``"
 
 #: ../../howto/logging.rst:82
 msgid ""
@@ -183,7 +183,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:85 ../../howto/logging.rst:848
 msgid "``CRITICAL``"
-msgstr ""
+msgstr "``CRITICAL``"
 
 #: ../../howto/logging.rst:85
 msgid ""
@@ -398,7 +398,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:318
 msgid "Next Steps"
-msgstr ""
+msgstr "Langkah Berikutnya"
 
 #: ../../howto/logging.rst:320
 msgid ""
@@ -662,7 +662,7 @@ msgstr ""
 
 #: ../../howto/logging.rst:487
 msgid "Handlers"
-msgstr ""
+msgstr "Penangan"
 
 #: ../../howto/logging.rst:489
 msgid ""
@@ -1022,31 +1022,31 @@ msgstr ""
 
 #: ../../howto/logging.rst:846
 msgid "Numeric value"
-msgstr ""
+msgstr "Nilai angka"
 
 #: ../../howto/logging.rst:848
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: ../../howto/logging.rst:850
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: ../../howto/logging.rst:852
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../howto/logging.rst:854
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../howto/logging.rst:856
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../howto/logging.rst:858
 msgid "``NOTSET``"
-msgstr ""
+msgstr "``NOTSET``"
 
 #: ../../howto/logging.rst:858
 msgid "0"

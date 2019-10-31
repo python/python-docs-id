@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:128
 msgid ":mod:`tkinter.messagebox`"
-msgstr ""
+msgstr ":mod:`tkinter.messagebox`"
 
 #: ../../library/tkinter.rst:128
 msgid "Access to standard Tk dialog boxes."
@@ -610,7 +610,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:381
 msgid "Xlib (C)"
-msgstr ""
+msgstr "Xlib (C)"
 
 #: ../../library/tkinter.rst:380
 msgid "the Xlib library to draw graphics on the screen."
@@ -697,7 +697,7 @@ msgstr "Artinya"
 
 #: ../../library/tkinter.rst:438
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/tkinter.rst:440
 msgid "0"
@@ -737,7 +737,7 @@ msgstr "3"
 
 #: ../../library/tkinter.rst:447
 msgid "default value"
-msgstr ""
+msgstr "nilai bawaan"
 
 #: ../../library/tkinter.rst:447
 msgid "``'raised'``"
@@ -835,7 +835,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:509
 msgid "fill"
-msgstr ""
+msgstr "fill"
 
 #: ../../library/tkinter.rst:509
 msgid "Legal values: ``'x'``, ``'y'``, ``'both'``, ``'none'``."
@@ -861,7 +861,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:519
 msgid "side"
-msgstr ""
+msgstr "side"
 
 #: ../../library/tkinter.rst:518
 msgid "Legal values are: ``'left'``, ``'right'``, ``'top'``, ``'bottom'``."
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:709
 msgid "func"
-msgstr ""
+msgstr "func"
 
 #: ../../library/tkinter.rst:707
 msgid ""
@@ -1116,7 +1116,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:715
 msgid "add"
-msgstr ""
+msgstr "add"
 
 #: ../../library/tkinter.rst:712
 msgid ""
@@ -1145,7 +1145,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:732
 msgid "%f"
-msgstr ""
+msgstr "%f"
 
 #: ../../library/tkinter.rst:732
 msgid "focus"
@@ -1153,15 +1153,15 @@ msgstr "fokus"
 
 #: ../../library/tkinter.rst:732
 msgid "%A"
-msgstr ""
+msgstr "%A"
 
 #: ../../library/tkinter.rst:732
 msgid "char"
-msgstr ""
+msgstr "char"
 
 #: ../../library/tkinter.rst:734
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #: ../../library/tkinter.rst:734
 msgid "height"
@@ -1169,7 +1169,7 @@ msgstr "tinggi"
 
 #: ../../library/tkinter.rst:734
 msgid "%E"
-msgstr ""
+msgstr "%E"
 
 #: ../../library/tkinter.rst:734
 msgid "send_event"
@@ -1177,23 +1177,23 @@ msgstr ""
 
 #: ../../library/tkinter.rst:736
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: ../../library/tkinter.rst:736
 msgid "keycode"
-msgstr ""
+msgstr "keycode"
 
 #: ../../library/tkinter.rst:736
 msgid "%K"
-msgstr ""
+msgstr "%K"
 
 #: ../../library/tkinter.rst:736
 msgid "keysym"
-msgstr ""
+msgstr "keysym"
 
 #: ../../library/tkinter.rst:738
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: ../../library/tkinter.rst:738
 msgid "state"
@@ -1201,15 +1201,15 @@ msgstr ""
 
 #: ../../library/tkinter.rst:738
 msgid "%N"
-msgstr ""
+msgstr "%N"
 
 #: ../../library/tkinter.rst:738
 msgid "keysym_num"
-msgstr ""
+msgstr "keysym_num"
 
 #: ../../library/tkinter.rst:740
 msgid "%t"
-msgstr ""
+msgstr "%t"
 
 #: ../../library/tkinter.rst:740
 msgid "time"
@@ -1217,7 +1217,7 @@ msgstr "time"
 
 #: ../../library/tkinter.rst:740
 msgid "%T"
-msgstr ""
+msgstr "%T"
 
 #: ../../library/tkinter.rst:740
 msgid "type"
@@ -1225,7 +1225,7 @@ msgstr "tipe"
 
 #: ../../library/tkinter.rst:742
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #: ../../library/tkinter.rst:742
 msgid "width"
@@ -1233,7 +1233,7 @@ msgstr "lebar"
 
 #: ../../library/tkinter.rst:742
 msgid "%W"
-msgstr ""
+msgstr "%W"
 
 #: ../../library/tkinter.rst:742
 msgid "widget"
@@ -1241,35 +1241,35 @@ msgstr ""
 
 #: ../../library/tkinter.rst:744
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #: ../../library/tkinter.rst:744
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../../library/tkinter.rst:744
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #: ../../library/tkinter.rst:744
 msgid "x_root"
-msgstr ""
+msgstr "x_root"
 
 #: ../../library/tkinter.rst:746
 msgid "%y"
-msgstr ""
+msgstr "%y"
 
 #: ../../library/tkinter.rst:746
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../../library/tkinter.rst:746
 msgid "%Y"
-msgstr ""
+msgstr "%Y"
 
 #: ../../library/tkinter.rst:746
 msgid "y_root"
-msgstr ""
+msgstr "y_root"
 
 #: ../../library/tkinter.rst:751
 msgid "The index Parameter"

@@ -33,7 +33,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/2.2.rst:5
 msgid "A.M. Kuchling"
-msgstr ""
+msgstr "A.M. Kuchling"
 
 #: ../../whatsnew/2.2.rst:13
 msgid "Introduction"

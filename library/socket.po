@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 23:26+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../../library/socket.rst:276
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/socket.rst:278
 msgid ""
@@ -1822,9 +1822,9 @@ msgid ""
 "``None`` or a :term:`bytes-like object` representing a buffer. In the later "
 "case it is up to the caller to ensure that the bytestring contains the "
 "proper bits (see the optional built-in module :mod:`struct` for a way to "
-"encode C structures as bytestrings). When value is set to ``None``, optlen "
-"argument is required. It's equivalent to call setsockopt C function with "
-"optval=NULL and optlen=optlen."
+"encode C structures as bytestrings). When *value* is set to ``None``, "
+"*optlen* argument is required. It's equivalent to call :c:func:`setsockopt` "
+"C function with ``optval=NULL`` and ``optlen=optlen``."
 msgstr ""
 
 #: ../../library/socket.rst:1646
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: ../../library/socket.rst:1752
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/socket.rst:1754
 msgid ""

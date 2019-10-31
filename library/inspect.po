@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:45
 msgid "__file__"
-msgstr ""
+msgstr "__file__"
 
 #: ../../library/inspect.rst:45
 msgid "filename (missing for built-in modules)"
@@ -113,7 +113,7 @@ msgstr ""
 #: ../../library/inspect.rst:78 ../../library/inspect.rst:196
 #: ../../library/inspect.rst:210 ../../library/inspect.rst:230
 msgid "__qualname__"
-msgstr ""
+msgstr "__qualname__"
 
 #: ../../library/inspect.rst:53 ../../library/inspect.rst:63
 #: ../../library/inspect.rst:78 ../../library/inspect.rst:196
@@ -123,7 +123,7 @@ msgstr "nama yang memenuhi syarat"
 
 #: ../../library/inspect.rst:55
 msgid "__module__"
-msgstr ""
+msgstr "__module__"
 
 #: ../../library/inspect.rst:55
 msgid "name of module in which this class was defined"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:65
 msgid "__func__"
-msgstr ""
+msgstr "__func__"
 
 #: ../../library/inspect.rst:65
 msgid "function object containing implementation of method"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:69 ../../library/inspect.rst:232
 msgid "__self__"
-msgstr ""
+msgstr "__self__"
 
 #: ../../library/inspect.rst:69
 msgid "instance to which this method is bound, or ``None``"
@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:80
 msgid "__code__"
-msgstr ""
+msgstr "__code__"
 
 #: ../../library/inspect.rst:80
 msgid "code object containing compiled function :term:`bytecode`"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:84
 msgid "__defaults__"
-msgstr ""
+msgstr "__defaults__"
 
 #: ../../library/inspect.rst:84
 msgid "tuple of any default values for positional or keyword parameters"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:88
 msgid "__kwdefaults__"
-msgstr ""
+msgstr "__kwdefaults__"
 
 #: ../../library/inspect.rst:88
 msgid "mapping of any default values for keyword-only parameters"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:92
 msgid "__globals__"
-msgstr ""
+msgstr "__globals__"
 
 #: ../../library/inspect.rst:92
 msgid "global namespace in which this function was defined"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:95
 msgid "__annotations__"
-msgstr ""
+msgstr "__annotations__"
 
 #: ../../library/inspect.rst:95
 msgid ""
@@ -303,7 +303,7 @@ msgstr ""
 #: ../../library/inspect.rst:138 ../../library/inspect.rst:202
 #: ../../library/inspect.rst:219
 msgid "code"
-msgstr ""
+msgstr "code"
 
 #: ../../library/inspect.rst:138
 msgid "co_argcount"
@@ -442,7 +442,7 @@ msgstr "pembangkit"
 
 #: ../../library/inspect.rst:194 ../../library/inspect.rst:208
 msgid "name"
-msgstr ""
+msgstr "nama"
 
 #: ../../library/inspect.rst:198
 msgid "gi_frame"

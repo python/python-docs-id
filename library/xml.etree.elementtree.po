@@ -297,7 +297,7 @@ msgstr ""
 #: ../../library/xml.etree.elementtree.rst:376
 #: ../../library/xml.etree.elementtree.rst:738
 msgid "Example"
-msgstr ""
+msgstr "Contoh"
 
 #: ../../library/xml.etree.elementtree.rst:378
 msgid ""
@@ -318,7 +318,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:414
 msgid "Syntax"
-msgstr ""
+msgstr "Sintaksis"
 
 #: ../../library/xml.etree.elementtree.rst:414
 msgid "Meaning"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:428
 msgid "``*``"
-msgstr ""
+msgstr "``*``"
 
 #: ../../library/xml.etree.elementtree.rst:428
 msgid ""
@@ -354,7 +354,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:432
 msgid "``.``"
-msgstr ""
+msgstr "``.``"
 
 #: ../../library/xml.etree.elementtree.rst:432
 msgid ""
@@ -452,7 +452,7 @@ msgstr ""
 #: ../../library/xml.etree.elementtree.rst:474
 #: ../../library/xml.etree.elementtree.rst:790
 msgid "Reference"
-msgstr ""
+msgstr "Referensi"
 
 #: ../../library/xml.etree.elementtree.rst:479
 #: ../../library/xml.etree.elementtree.rst:795

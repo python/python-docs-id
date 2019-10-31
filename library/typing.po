@@ -373,7 +373,7 @@ msgstr ""
 
 #: ../../library/typing.rst:447 ../../library/typing.rst:915
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 #: ../../library/typing.rst:452
 msgid ""

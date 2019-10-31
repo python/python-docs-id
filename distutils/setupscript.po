@@ -740,7 +740,7 @@ msgstr "Catatan"
 
 #: ../../distutils/setupscript.rst:569
 msgid "``name``"
-msgstr ""
+msgstr "``name``"
 
 #: ../../distutils/setupscript.rst:569
 msgid "name of the package"
@@ -758,7 +758,7 @@ msgstr "\\(1)"
 
 #: ../../distutils/setupscript.rst:571
 msgid "``version``"
-msgstr ""
+msgstr "``version``"
 
 #: ../../distutils/setupscript.rst:571
 msgid "version of this release"
@@ -811,7 +811,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:583
 msgid "``url``"
-msgstr ""
+msgstr "``url``"
 
 #: ../../distutils/setupscript.rst:583
 msgid "home page for the package"
@@ -823,7 +823,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:585
 msgid "``description``"
-msgstr ""
+msgstr "``description``"
 
 #: ../../distutils/setupscript.rst:585
 msgid "short, summary description of the package"
@@ -831,7 +831,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:589
 msgid "``long_description``"
-msgstr ""
+msgstr "``long_description``"
 
 #: ../../distutils/setupscript.rst:589
 msgid "longer description of the package"
@@ -892,7 +892,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:601
 msgid "``license``"
-msgstr ""
+msgstr "``license``"
 
 #: ../../distutils/setupscript.rst:601
 msgid "license for the package"

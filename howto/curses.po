@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:5
 msgid "Curses Programming with Python"
-msgstr ""
+msgstr "Pemrograman Curses dengan Python"
 
 #: ../../howto/curses.rst:0
 msgid "Author"
@@ -33,7 +33,7 @@ msgstr "Penulis"
 
 #: ../../howto/curses.rst:7
 msgid "A.M. Kuchling, Eric S. Raymond"
-msgstr ""
+msgstr "A.M. Kuchling, Eric S. Raymond"
 
 #: ../../howto/curses.rst:0
 msgid "Release"
@@ -41,7 +41,7 @@ msgstr "Rilis"
 
 #: ../../howto/curses.rst:8
 msgid "2.04"
-msgstr ""
+msgstr "2.04"
 
 #: ../../howto/curses.rstNone
 msgid "Abstract"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:18
 msgid "What is curses?"
-msgstr ""
+msgstr "Apa itu curses?"
 
 #: ../../howto/curses.rst:20
 msgid ""
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:281
 msgid "Form"
-msgstr ""
+msgstr "Bentuk"
 
 #: ../../howto/curses.rst:281 ../../howto/curses.rst:350
 msgid "Description"
@@ -363,7 +363,7 @@ msgstr "Deskripsi"
 
 #: ../../howto/curses.rst:283
 msgid "*str* or *ch*"
-msgstr ""
+msgstr "*str* atau *ch*"
 
 #: ../../howto/curses.rst:283
 msgid "Display the string *str* or character *ch* at the current position"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:286
 msgid "*str* or *ch*, *attr*"
-msgstr ""
+msgstr "*str* atau *ch*, *attr*"
 
 #: ../../howto/curses.rst:286
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:290
 msgid "*y*, *x*, *str* or *ch*"
-msgstr ""
+msgstr "*y*, *x*, *str* atau *ch*"
 
 #: ../../howto/curses.rst:290
 msgid "Move to position *y,x* within the window, and display *str* or *ch*"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../howto/curses.rst:293
 msgid "*y*, *x*, *str* or *ch*, *attr*"
-msgstr ""
+msgstr "*y*, *x*, *str* atau *ch*, *attr*"
 
 #: ../../howto/curses.rst:293
 msgid ""

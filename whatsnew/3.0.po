@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:3
 msgid "What's New In Python 3.0"
-msgstr ""
+msgstr "Apa yang Baru Di Python 3.0"
 
 #: ../../whatsnew/3.0.rst:0
 msgid "Author"
@@ -32,7 +32,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/3.0.rst:7
 msgid "Guido van Rossum"
-msgstr ""
+msgstr "Guido van Rossum"
 
 #: ../../whatsnew/3.0.rst:54
 msgid ""
@@ -637,11 +637,11 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:496
 msgid ":ref:`pep-0370`."
-msgstr ""
+msgstr ":ref:`pep-0370`."
 
 #: ../../whatsnew/3.0.rst:498
 msgid ":ref:`pep-0371`."
-msgstr ""
+msgstr ":ref:`pep-0371`."
 
 #: ../../whatsnew/3.0.rst:500
 msgid ""
@@ -708,7 +708,7 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:543
 msgid ":ref:`pep-3129`."
-msgstr ""
+msgstr ":ref:`pep-3129`."
 
 #: ../../whatsnew/3.0.rst:545
 msgid ""
@@ -812,11 +812,11 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:584
 msgid "repr"
-msgstr ""
+msgstr "repr"
 
 #: ../../whatsnew/3.0.rst:584
 msgid "reprlib"
-msgstr ""
+msgstr "reprlib"
 
 #: ../../whatsnew/3.0.rst:585
 msgid "test.test_support"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 23:44+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -500,6 +500,8 @@ msgid ""
 "(Contributed by Nick Coghlan in :issue:`7475`, :issue:`17827`, "
 ":issue:`17828` and :issue:`19619`.)"
 msgstr ""
+"(Kontribusi dari Nick Coghlan di :issue:`7475`, :issue:`17827`, "
+":issue:`17828` dan :issue:`19619`.)"
 
 #: ../../whatsnew/3.4.rst:381
 msgid "PEP 451: A ModuleSpec Type for the Import System"
@@ -798,7 +800,7 @@ msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.4.rst:593
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: ../../whatsnew/3.4.rst:595
 msgid ""
@@ -1027,6 +1029,8 @@ msgid ""
 "(Contributed by Nick Coghlan, Ryan Kelly and Thomas Kluyver in "
 ":issue:`11816` and Claudiu Popa in :issue:`17916`.)"
 msgstr ""
+"(Kontribusi dari Nick Coghlan, Ryan Kelly dan Thomas Kluyver di "
+":issue:`11816` dan Claudiu Popa di :issue:`17916`.)"
 
 #: ../../whatsnew/3.4.rst:770
 msgid ""
@@ -1196,7 +1200,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:893
 msgid "glob"
-msgstr ""
+msgstr "glob"
 
 #: ../../whatsnew/3.4.rst:895
 msgid ""
@@ -1260,7 +1264,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:938
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: ../../whatsnew/3.4.rst:940
 msgid ""
@@ -1287,7 +1291,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:956
 msgid "http"
-msgstr ""
+msgstr "http"
 
 #: ../../whatsnew/3.4.rst:958
 msgid ""
@@ -1730,7 +1734,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:1271
 msgid "pty"
-msgstr ""
+msgstr "pty"
 
 #: ../../whatsnew/3.4.rst:1273
 msgid ""
@@ -2046,7 +2050,7 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:1496
 msgid "stat"
-msgstr ""
+msgstr "stat"
 
 #: ../../whatsnew/3.4.rst:1498
 msgid ""
@@ -3521,7 +3525,7 @@ msgstr ""
 msgid ""
 "The result of the :c:data:`PyOS_ReadlineFunctionPointer` callback must now "
 "be a string allocated by :c:func:`PyMem_RawMalloc` or "
-":c:func:`PyMem_RawRealloc`, or *NULL* if an error occurred, instead of a "
+":c:func:`PyMem_RawRealloc`, or ``NULL`` if an error occurred, instead of a "
 "string allocated by :c:func:`PyMem_Malloc` or :c:func:`PyMem_Realloc` "
 "(:issue:`16742`)"
 msgstr ""
@@ -3530,7 +3534,7 @@ msgstr ""
 msgid ""
 ":c:func:`PyThread_set_key_value` now always set the value. In Python 3.3, "
 "the function did nothing if the key already exists (if the current value is "
-"a non-NULL pointer)."
+"a non-``NULL`` pointer)."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2514

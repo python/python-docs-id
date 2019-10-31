@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 17:39+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:12
 msgid "Unicode Objects"
-msgstr ""
+msgstr "Objek Unicode"
 
 #: ../../c-api/unicode.rst:14
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:39
 msgid "Unicode Type"
-msgstr ""
+msgstr "Tipe Unicode"
 
 #: ../../c-api/unicode.rst:41
 msgid ""
@@ -241,8 +241,8 @@ msgstr ""
 msgid ""
 "This macro is now inefficient -- because in many cases the "
 ":c:type:`Py_UNICODE` representation does not exist and needs to be created "
-"-- and can fail (return *NULL* with an exception set).  Try to port the code"
-" to use the new :c:func:`PyUnicode_nBYTE_DATA` macros or use "
+"-- and can fail (return ``NULL`` with an exception set).  Try to port the "
+"code to use the new :c:func:`PyUnicode_nBYTE_DATA` macros or use "
 ":c:func:`PyUnicode_WRITE` or :c:func:`PyUnicode_READ`."
 msgstr ""
 
@@ -421,15 +421,15 @@ msgstr ""
 msgid ""
 "Create a Unicode object from the char buffer *u*.  The bytes will be "
 "interpreted as being UTF-8 encoded.  The buffer is copied into the new "
-"object. If the buffer is not *NULL*, the return value might be a shared "
+"object. If the buffer is not ``NULL``, the return value might be a shared "
 "object, i.e. modification of the data is not allowed."
 msgstr ""
 
 #: ../../c-api/unicode.rst:419
 msgid ""
-"If *u* is *NULL*, this function behaves like :c:func:`PyUnicode_FromUnicode`"
-" with the buffer set to *NULL*.  This usage is deprecated in favor of "
-":c:func:`PyUnicode_New`."
+"If *u* is ``NULL``, this function behaves like "
+":c:func:`PyUnicode_FromUnicode` with the buffer set to ``NULL``.  This usage"
+" is deprecated in favor of :c:func:`PyUnicode_New`."
 msgstr ""
 
 #: ../../c-api/unicode.rst:426
@@ -461,11 +461,11 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:449
 msgid ":attr:`%%`"
-msgstr ""
+msgstr ":attr:`%%`"
 
 #: ../../c-api/unicode.rst:449
 msgid "*n/a*"
-msgstr ""
+msgstr "*t/a*"
 
 #: ../../c-api/unicode.rst:449
 msgid "The literal % character."
@@ -473,7 +473,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:451
 msgid ":attr:`%c`"
-msgstr ""
+msgstr ":attr:`%c`"
 
 #: ../../c-api/unicode.rst:451 ../../c-api/unicode.rst:454
 #: ../../c-api/unicode.rst:487 ../../c-api/unicode.rst:490
@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:454
 msgid ":attr:`%d`"
-msgstr ""
+msgstr ":attr:`%d`"
 
 #: ../../c-api/unicode.rst:454
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:457
 msgid ":attr:`%u`"
-msgstr ""
+msgstr ":attr:`%u`"
 
 #: ../../c-api/unicode.rst:457
 msgid "unsigned int"
@@ -506,11 +506,11 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:460
 msgid ":attr:`%ld`"
-msgstr ""
+msgstr ":attr:`%ld`"
 
 #: ../../c-api/unicode.rst:460 ../../c-api/unicode.rst:463
 msgid "long"
-msgstr ""
+msgstr "long"
 
 #: ../../c-api/unicode.rst:460
 msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
@@ -518,7 +518,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:463
 msgid ":attr:`%li`"
-msgstr ""
+msgstr ":attr:`%li`"
 
 #: ../../c-api/unicode.rst:463
 msgid "Equivalent to ``printf(\"%li\")``. [1]_"
@@ -526,7 +526,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:466
 msgid ":attr:`%lu`"
-msgstr ""
+msgstr ":attr:`%lu`"
 
 #: ../../c-api/unicode.rst:466
 msgid "unsigned long"
@@ -538,11 +538,11 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:469
 msgid ":attr:`%lld`"
-msgstr ""
+msgstr ":attr:`%lld`"
 
 #: ../../c-api/unicode.rst:469 ../../c-api/unicode.rst:472
 msgid "long long"
-msgstr ""
+msgstr "long long"
 
 #: ../../c-api/unicode.rst:469
 msgid "Equivalent to ``printf(\"%lld\")``. [1]_"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:472
 msgid ":attr:`%lli`"
-msgstr ""
+msgstr ":attr:`%lli`"
 
 #: ../../c-api/unicode.rst:472
 msgid "Equivalent to ``printf(\"%lli\")``. [1]_"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:475
 msgid ":attr:`%llu`"
-msgstr ""
+msgstr ":attr:`%llu`"
 
 #: ../../c-api/unicode.rst:475
 msgid "unsigned long long"
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:478
 msgid ":attr:`%zd`"
-msgstr ""
+msgstr ":attr:`%zd`"
 
 #: ../../c-api/unicode.rst:478 ../../c-api/unicode.rst:481
 msgid "Py_ssize_t"
@@ -582,7 +582,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:481
 msgid ":attr:`%zi`"
-msgstr ""
+msgstr ":attr:`%zi`"
 
 #: ../../c-api/unicode.rst:481
 msgid "Equivalent to ``printf(\"%zi\")``. [1]_"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:484
 msgid ":attr:`%zu`"
-msgstr ""
+msgstr ":attr:`%zu`"
 
 #: ../../c-api/unicode.rst:484
 msgid "size_t"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:487
 msgid ":attr:`%i`"
-msgstr ""
+msgstr ":attr:`%i`"
 
 #: ../../c-api/unicode.rst:487
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
@@ -610,7 +610,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:490
 msgid ":attr:`%x`"
-msgstr ""
+msgstr ":attr:`%x`"
 
 #: ../../c-api/unicode.rst:490
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
@@ -618,7 +618,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:493
 msgid ":attr:`%s`"
-msgstr ""
+msgstr ":attr:`%s`"
 
 #: ../../c-api/unicode.rst:493
 msgid "const char\\*"
@@ -630,7 +630,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:496
 msgid ":attr:`%p`"
-msgstr ""
+msgstr ":attr:`%p`"
 
 #: ../../c-api/unicode.rst:496
 msgid "const void\\*"
@@ -645,7 +645,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:504
 msgid ":attr:`%A`"
-msgstr ""
+msgstr ":attr:`%A`"
 
 #: ../../c-api/unicode.rst:504 ../../c-api/unicode.rst:507
 #: ../../c-api/unicode.rst:516 ../../c-api/unicode.rst:519
@@ -658,7 +658,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:507
 msgid ":attr:`%U`"
-msgstr ""
+msgstr ":attr:`%U`"
 
 #: ../../c-api/unicode.rst:507
 msgid "A Unicode object."
@@ -666,7 +666,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:509
 msgid ":attr:`%V`"
-msgstr ""
+msgstr ":attr:`%V`"
 
 #: ../../c-api/unicode.rst:509
 msgid "PyObject\\*, const char\\*"
@@ -674,14 +674,14 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:509
 msgid ""
-"A Unicode object (which may be *NULL*) and a null-terminated C character "
+"A Unicode object (which may be ``NULL``) and a null-terminated C character "
 "array as a second parameter (which will be used, if the first parameter is "
-"*NULL*)."
+"``NULL``)."
 msgstr ""
 
 #: ../../c-api/unicode.rst:516
 msgid ":attr:`%S`"
-msgstr ""
+msgstr ":attr:`%S`"
 
 #: ../../c-api/unicode.rst:516
 msgid "The result of calling :c:func:`PyObject_Str`."
@@ -689,7 +689,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:519
 msgid ":attr:`%R`"
-msgstr ""
+msgstr ":attr:`%R`"
 
 #: ../../c-api/unicode.rst:519
 msgid "The result of calling :c:func:`PyObject_Repr`."
@@ -705,9 +705,9 @@ msgstr ""
 msgid ""
 "The width formatter unit is number of characters rather than bytes. The "
 "precision formatter unit is number of bytes for ``\"%s\"`` and ``\"%V\"`` "
-"(if the ``PyObject*`` argument is NULL), and a number of characters for "
+"(if the ``PyObject*`` argument is ``NULL``), and a number of characters for "
 "``\"%A\"``, ``\"%U\"``, ``\"%S\"``, ``\"%R\"`` and ``\"%V\"`` (if the "
-"``PyObject*`` argument is not NULL)."
+"``PyObject*`` argument is not ``NULL``)."
 msgstr ""
 
 #: ../../c-api/unicode.rst:533
@@ -744,7 +744,7 @@ msgstr ""
 msgid ""
 ":class:`bytes`, :class:`bytearray` and other :term:`bytes-like objects "
 "<bytes-like object>` are decoded according to the given *encoding* and using"
-" the error handling defined by *errors*. Both can be *NULL* to have the "
+" the error handling defined by *errors*. Both can be ``NULL`` to have the "
 "interface use the default values (see :ref:`builtincodecs` for details)."
 msgstr ""
 
@@ -756,8 +756,8 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:567
 msgid ""
-"The API returns *NULL* if there was an error.  The caller is responsible for"
-" decref'ing the returned objects."
+"The API returns ``NULL`` if there was an error.  The caller is responsible "
+"for decref'ing the returned objects."
 msgstr ""
 
 #: ../../c-api/unicode.rst:573
@@ -820,7 +820,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:642
 msgid ""
 "Copy the string *u* into a UCS4 buffer, including a null character, if "
-"*copy_null* is set.  Returns *NULL* and sets an exception on error (in "
+"*copy_null* is set.  Returns ``NULL`` and sets an exception on error (in "
 "particular, a :exc:`SystemError` if *buflen* is smaller than the length of "
 "*u*).  *buffer* is returned on success."
 msgstr ""
@@ -828,7 +828,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:652
 msgid ""
 "Copy the string *u* into a new UCS4 buffer that is allocated using "
-":c:func:`PyMem_Malloc`.  If this fails, *NULL* is returned with a "
+":c:func:`PyMem_Malloc`.  If this fails, ``NULL`` is returned with a "
 ":exc:`MemoryError` set.  The returned buffer always has an extra null code "
 "point appended."
 msgstr ""
@@ -848,23 +848,23 @@ msgstr ""
 #: ../../c-api/unicode.rst:672
 msgid ""
 "Create a Unicode object from the Py_UNICODE buffer *u* of the given size. "
-"*u* may be *NULL* which causes the contents to be undefined. It is the "
+"*u* may be ``NULL`` which causes the contents to be undefined. It is the "
 "user's responsibility to fill in the needed data.  The buffer is copied into"
 " the new object."
 msgstr ""
 
 #: ../../c-api/unicode.rst:677
 msgid ""
-"If the buffer is not *NULL*, the return value might be a shared object. "
+"If the buffer is not ``NULL``, the return value might be a shared object. "
 "Therefore, modification of the resulting Unicode object is only allowed when"
-" *u* is *NULL*."
+" *u* is ``NULL``."
 msgstr ""
 
 #: ../../c-api/unicode.rst:681
 msgid ""
-"If the buffer is *NULL*, :c:func:`PyUnicode_READY` must be called once the "
-"string content has been filled before using any of the access macros such as"
-" :c:func:`PyUnicode_KIND`."
+"If the buffer is ``NULL``, :c:func:`PyUnicode_READY` must be called once the"
+" string content has been filled before using any of the access macros such "
+"as :c:func:`PyUnicode_KIND`."
 msgstr ""
 
 #: ../../c-api/unicode.rst:685
@@ -876,7 +876,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:691
 msgid ""
 "Return a read-only pointer to the Unicode object's internal "
-":c:type:`Py_UNICODE` buffer, or *NULL* on error. This will create the "
+":c:type:`Py_UNICODE` buffer, or ``NULL`` on error. This will create the "
 ":c:type:`Py_UNICODE*` representation of the object if it is not yet "
 "available. The buffer is always terminated with an extra null code point. "
 "Note that the resulting :c:type:`Py_UNICODE` string may also contain "
@@ -895,7 +895,7 @@ msgstr ""
 msgid ""
 "Create a Unicode object by replacing all decimal digits in "
 ":c:type:`Py_UNICODE` buffer of the given *size* by ASCII digits 0--9 "
-"according to their decimal value.  Return *NULL* if an exception occurs."
+"according to their decimal value.  Return ``NULL`` if an exception occurs."
 msgstr ""
 
 #: ../../c-api/unicode.rst:713
@@ -910,7 +910,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:724
 msgid ""
 "Create a copy of a Unicode string ending with a null code point. Return "
-"*NULL* and raise a :exc:`MemoryError` exception on memory allocation "
+"``NULL`` and raise a :exc:`MemoryError` exception on memory allocation "
 "failure, otherwise return a new allocated buffer (use :c:func:`PyMem_Free` "
 "to free the buffer). Note that the resulting :c:type:`Py_UNICODE*` string "
 "may contain embedded null code points, which would cause the string to be "
@@ -1128,7 +1128,7 @@ msgstr ""
 msgid ""
 "Create a Unicode object from the :c:type:`wchar_t` buffer *w* of the given "
 "*size*. Passing ``-1`` as the *size* indicates that the function must itself"
-" compute the length, using wcslen. Return *NULL* on failure."
+" compute the length, using wcslen. Return ``NULL`` on failure."
 msgstr ""
 
 #: ../../c-api/unicode.rst:940
@@ -1148,25 +1148,26 @@ msgstr ""
 #: ../../c-api/unicode.rst:953
 msgid ""
 "Convert the Unicode object to a wide character string. The output string "
-"always ends with a null character. If *size* is not *NULL*, write the number"
-" of wide characters (excluding the trailing null termination character) into"
-" *\\*size*. Note that the resulting :c:type:`wchar_t` string might contain "
-"null characters, which would cause the string to be truncated when used with"
-" most C functions. If *size* is *NULL* and the :c:type:`wchar_t*` string "
-"contains null characters a :exc:`ValueError` is raised."
+"always ends with a null character. If *size* is not ``NULL``, write the "
+"number of wide characters (excluding the trailing null termination "
+"character) into *\\*size*. Note that the resulting :c:type:`wchar_t` string "
+"might contain null characters, which would cause the string to be truncated "
+"when used with most C functions. If *size* is ``NULL`` and the "
+":c:type:`wchar_t*` string contains null characters a :exc:`ValueError` is "
+"raised."
 msgstr ""
 
 #: ../../c-api/unicode.rst:961
 msgid ""
 "Returns a buffer allocated by :c:func:`PyMem_Alloc` (use "
-":c:func:`PyMem_Free` to free it) on success. On error, returns *NULL* and "
+":c:func:`PyMem_Free` to free it) on success. On error, returns ``NULL`` and "
 "*\\*size* is undefined. Raises a :exc:`MemoryError` if memory allocation is "
 "failed."
 msgstr ""
 
 #: ../../c-api/unicode.rst:968
 msgid ""
-"Raises a :exc:`ValueError` if *size* is *NULL* and the :c:type:`wchar_t*` "
+"Raises a :exc:`ValueError` if *size* is ``NULL`` and the :c:type:`wchar_t*` "
 "string contains null characters."
 msgstr ""
 
@@ -1189,9 +1190,9 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:985
 msgid ""
-"Setting encoding to *NULL* causes the default encoding to be used which is "
-"ASCII.  The file system calls should use :c:func:`PyUnicode_FSConverter` for"
-" encoding file names. This uses the variable "
+"Setting encoding to ``NULL`` causes the default encoding to be used which is"
+" ASCII.  The file system calls should use :c:func:`PyUnicode_FSConverter` "
+"for encoding file names. This uses the variable "
 ":c:data:`Py_FileSystemDefaultEncoding` internally. This variable should be "
 "treated as read-only: on some systems, it will be a pointer to a static "
 "string, on others, it will change at run-time (such as when the application "
@@ -1200,9 +1201,9 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:993
 msgid ""
-"Error handling is set by errors which may also be set to *NULL* meaning to "
-"use the default handling defined for the codec.  Default error handling for "
-"all built-in codecs is \"strict\" (:exc:`ValueError` is raised)."
+"Error handling is set by errors which may also be set to ``NULL`` meaning to"
+" use the default handling defined for the codec.  Default error handling for"
+" all built-in codecs is \"strict\" (:exc:`ValueError` is raised)."
 msgstr ""
 
 #: ../../c-api/unicode.rst:997
@@ -1224,7 +1225,7 @@ msgid ""
 "Create a Unicode object by decoding *size* bytes of the encoded string *s*. "
 "*encoding* and *errors* have the same meaning as the parameters of the same "
 "name in the :func:`str` built-in function.  The codec to be used is looked "
-"up using the Python codec registry.  Return *NULL* if an exception was "
+"up using the Python codec registry.  Return ``NULL`` if an exception was "
 "raised by the codec."
 msgstr ""
 
@@ -1233,8 +1234,8 @@ msgid ""
 "Encode a Unicode object and return the result as Python bytes object. "
 "*encoding* and *errors* have the same meaning as the parameters of the same "
 "name in the Unicode :meth:`~str.encode` method. The codec to be used is "
-"looked up using the Python codec registry. Return *NULL* if an exception was"
-" raised by the codec."
+"looked up using the Python codec registry. Return ``NULL`` if an exception "
+"was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1030
@@ -1243,7 +1244,7 @@ msgid ""
 "Python bytes object.  *encoding* and *errors* have the same meaning as the "
 "parameters of the same name in the Unicode :meth:`~str.encode` method.  The "
 "codec to be used is looked up using the Python codec registry.  Return "
-"*NULL* if an exception was raised by the codec."
+"``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1038 ../../c-api/unicode.rst:1295
@@ -1263,21 +1264,21 @@ msgstr ""
 #: ../../c-api/unicode.rst:1049
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the UTF-8 encoded string"
-" *s*. Return *NULL* if an exception was raised by the codec."
+" *s*. Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1056
 msgid ""
-"If *consumed* is *NULL*, behave like :c:func:`PyUnicode_DecodeUTF8`. If "
-"*consumed* is not *NULL*, trailing incomplete UTF-8 byte sequences will not "
-"be treated as an error. Those bytes will not be decoded and the number of "
-"bytes that have been decoded will be stored in *consumed*."
+"If *consumed* is ``NULL``, behave like :c:func:`PyUnicode_DecodeUTF8`. If "
+"*consumed* is not ``NULL``, trailing incomplete UTF-8 byte sequences will "
+"not be treated as an error. Those bytes will not be decoded and the number "
+"of bytes that have been decoded will be stored in *consumed*."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1064
 msgid ""
 "Encode a Unicode object using UTF-8 and return the result as Python bytes "
-"object.  Error handling is \"strict\".  Return *NULL* if an exception was "
+"object.  Error handling is \"strict\".  Return ``NULL`` if an exception was "
 "raised by the codec."
 msgstr ""
 
@@ -1285,14 +1286,14 @@ msgstr ""
 msgid ""
 "Return a pointer to the UTF-8 encoding of the Unicode object, and store the "
 "size of the encoded representation (in bytes) in *size*.  The *size* "
-"argument can be *NULL*; in this case no size will be stored.  The returned "
-"buffer always has an extra null byte appended (not included in *size*), "
+"argument can be ``NULL``; in this case no size will be stored.  The returned"
+" buffer always has an extra null byte appended (not included in *size*), "
 "regardless of whether there are any other null code points."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1077
 msgid ""
-"In the case of an error, *NULL* is returned with an exception set and no "
+"In the case of an error, ``NULL`` is returned with an exception set and no "
 "*size* is stored."
 msgstr ""
 
@@ -1314,8 +1315,8 @@ msgstr ""
 #: ../../c-api/unicode.rst:1102
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer *s* of the given *size* using UTF-8 "
-"and return a Python bytes object.  Return *NULL* if an exception was raised "
-"by the codec."
+"and return a Python bytes object.  Return ``NULL`` if an exception was "
+"raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1109
@@ -1336,13 +1337,13 @@ msgstr ""
 #: ../../c-api/unicode.rst:1121
 msgid ""
 "Decode *size* bytes from a UTF-32 encoded buffer string and return the "
-"corresponding Unicode object.  *errors* (if non-*NULL*) defines the error "
+"corresponding Unicode object.  *errors* (if non-``NULL``) defines the error "
 "handling. It defaults to \"strict\"."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1125 ../../c-api/unicode.rst:1198
 msgid ""
-"If *byteorder* is non-*NULL*, the decoder starts decoding using the given "
+"If *byteorder* is non-``NULL``, the decoder starts decoding using the given "
 "byte order::"
 msgstr ""
 
@@ -1361,19 +1362,19 @@ msgid ""
 msgstr ""
 
 #: ../../c-api/unicode.rst:1140 ../../c-api/unicode.rst:1214
-msgid "If *byteorder* is *NULL*, the codec starts in native order mode."
+msgid "If *byteorder* is ``NULL``, the codec starts in native order mode."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1142 ../../c-api/unicode.rst:1178
 #: ../../c-api/unicode.rst:1216 ../../c-api/unicode.rst:1253
-msgid "Return *NULL* if an exception was raised by the codec."
+msgid "Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1148
 msgid ""
-"If *consumed* is *NULL*, behave like :c:func:`PyUnicode_DecodeUTF32`. If "
-"*consumed* is not *NULL*, :c:func:`PyUnicode_DecodeUTF32Stateful` will not "
-"treat trailing incomplete UTF-32 byte sequences (such as a number of bytes "
+"If *consumed* is ``NULL``, behave like :c:func:`PyUnicode_DecodeUTF32`. If "
+"*consumed* is not ``NULL``, :c:func:`PyUnicode_DecodeUTF32Stateful` will not"
+" treat trailing incomplete UTF-32 byte sequences (such as a number of bytes "
 "not divisible by four) as an error. Those bytes will not be decoded and the "
 "number of bytes that have been decoded will be stored in *consumed*."
 msgstr ""
@@ -1382,7 +1383,7 @@ msgstr ""
 msgid ""
 "Return a Python byte string using the UTF-32 encoding in native byte order. "
 "The string always starts with a BOM mark.  Error handling is \"strict\". "
-"Return *NULL* if an exception was raised by the codec."
+"Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1165
@@ -1399,7 +1400,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:1175
 msgid ""
-"If *Py_UNICODE_WIDE* is not defined, surrogate pairs will be output as a "
+"If ``Py_UNICODE_WIDE`` is not defined, surrogate pairs will be output as a "
 "single code point."
 msgstr ""
 
@@ -1420,7 +1421,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:1194
 msgid ""
 "Decode *size* bytes from a UTF-16 encoded buffer string and return the "
-"corresponding Unicode object.  *errors* (if non-*NULL*) defines the error "
+"corresponding Unicode object.  *errors* (if non-``NULL``) defines the error "
 "handling. It defaults to \"strict\"."
 msgstr ""
 
@@ -1435,9 +1436,9 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:1222
 msgid ""
-"If *consumed* is *NULL*, behave like :c:func:`PyUnicode_DecodeUTF16`. If "
-"*consumed* is not *NULL*, :c:func:`PyUnicode_DecodeUTF16Stateful` will not "
-"treat trailing incomplete UTF-16 byte sequences (such as an odd number of "
+"If *consumed* is ``NULL``, behave like :c:func:`PyUnicode_DecodeUTF16`. If "
+"*consumed* is not ``NULL``, :c:func:`PyUnicode_DecodeUTF16Stateful` will not"
+" treat trailing incomplete UTF-16 byte sequences (such as an odd number of "
 "bytes or a split surrogate pair) as an error. Those bytes will not be "
 "decoded and the number of bytes that have been decoded will be stored in "
 "*consumed*."
@@ -1447,7 +1448,7 @@ msgstr ""
 msgid ""
 "Return a Python byte string using the UTF-16 encoding in native byte order. "
 "The string always starts with a BOM mark.  Error handling is \"strict\". "
-"Return *NULL* if an exception was raised by the codec."
+"Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1239
@@ -1458,8 +1459,8 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:1249
 msgid ""
-"If *Py_UNICODE_WIDE* is defined, a single :c:type:`Py_UNICODE` value may get"
-" represented as a surrogate pair. If it is not defined, each "
+"If ``Py_UNICODE_WIDE`` is defined, a single :c:type:`Py_UNICODE` value may "
+"get represented as a surrogate pair. If it is not defined, each "
 ":c:type:`Py_UNICODE` values is interpreted as a UCS-2 character."
 msgstr ""
 
@@ -1480,13 +1481,13 @@ msgstr ""
 #: ../../c-api/unicode.rst:1268
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the UTF-7 encoded string"
-" *s*.  Return *NULL* if an exception was raised by the codec."
+" *s*.  Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1275
 msgid ""
-"If *consumed* is *NULL*, behave like :c:func:`PyUnicode_DecodeUTF7`.  If "
-"*consumed* is not *NULL*, trailing incomplete UTF-7 base-64 sections will "
+"If *consumed* is ``NULL``, behave like :c:func:`PyUnicode_DecodeUTF7`.  If "
+"*consumed* is not ``NULL``, trailing incomplete UTF-7 base-64 sections will "
 "not be treated as an error.  Those bytes will not be decoded and the number "
 "of bytes that have been decoded will be stored in *consumed*."
 msgstr ""
@@ -1494,8 +1495,8 @@ msgstr ""
 #: ../../c-api/unicode.rst:1284
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given size using UTF-7 and "
-"return a Python bytes object.  Return *NULL* if an exception was raised by "
-"the codec."
+"return a Python bytes object.  Return ``NULL`` if an exception was raised by"
+" the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1288
@@ -1517,21 +1518,22 @@ msgstr ""
 #: ../../c-api/unicode.rst:1307
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the Unicode-Escape "
-"encoded string *s*.  Return *NULL* if an exception was raised by the codec."
+"encoded string *s*.  Return ``NULL`` if an exception was raised by the "
+"codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1313
 msgid ""
 "Encode a Unicode object using Unicode-Escape and return the result as a "
-"bytes object.  Error handling is \"strict\".  Return *NULL* if an exception "
-"was raised by the codec."
+"bytes object.  Error handling is \"strict\".  Return ``NULL`` if an "
+"exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1320
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using Unicode-"
-"Escape and return a bytes object.  Return *NULL* if an exception was raised "
-"by the codec."
+"Escape and return a bytes object.  Return ``NULL`` if an exception was "
+"raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1325
@@ -1551,21 +1553,22 @@ msgstr ""
 #: ../../c-api/unicode.rst:1337
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the Raw-Unicode-Escape "
-"encoded string *s*.  Return *NULL* if an exception was raised by the codec."
+"encoded string *s*.  Return ``NULL`` if an exception was raised by the "
+"codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1343
 msgid ""
 "Encode a Unicode object using Raw-Unicode-Escape and return the result as a "
-"bytes object.  Error handling is \"strict\".  Return *NULL* if an exception "
-"was raised by the codec."
+"bytes object.  Error handling is \"strict\".  Return ``NULL`` if an "
+"exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1351
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using Raw-"
-"Unicode-Escape and return a bytes object.  Return *NULL* if an exception was"
-" raised by the codec."
+"Unicode-Escape and return a bytes object.  Return ``NULL`` if an exception "
+"was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1357
@@ -1588,21 +1591,21 @@ msgstr ""
 #: ../../c-api/unicode.rst:1369
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the Latin-1 encoded "
-"string *s*.  Return *NULL* if an exception was raised by the codec."
+"string *s*.  Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1375
 msgid ""
 "Encode a Unicode object using Latin-1 and return the result as Python bytes "
-"object.  Error handling is \"strict\".  Return *NULL* if an exception was "
+"object.  Error handling is \"strict\".  Return ``NULL`` if an exception was "
 "raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1382
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using Latin-1 and"
-" return a Python bytes object.  Return *NULL* if an exception was raised by "
-"the codec."
+" return a Python bytes object.  Return ``NULL`` if an exception was raised "
+"by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1389
@@ -1624,21 +1627,21 @@ msgstr ""
 #: ../../c-api/unicode.rst:1401
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the ASCII encoded string"
-" *s*.  Return *NULL* if an exception was raised by the codec."
+" *s*.  Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1407
 msgid ""
 "Encode a Unicode object using ASCII and return the result as Python bytes "
-"object.  Error handling is \"strict\".  Return *NULL* if an exception was "
+"object.  Error handling is \"strict\".  Return ``NULL`` if an exception was "
 "raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1414
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using ASCII and "
-"return a Python bytes object.  Return *NULL* if an exception was raised by "
-"the codec."
+"return a Python bytes object.  Return ``NULL`` if an exception was raised by"
+" the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1421
@@ -1668,13 +1671,13 @@ msgstr ""
 #: ../../c-api/unicode.rst:1438
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the encoded string *s* "
-"using the given *mapping* object.  Return *NULL* if an exception was raised "
-"by the codec."
+"using the given *mapping* object.  Return ``NULL`` if an exception was "
+"raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1442
 msgid ""
-"If *mapping* is *NULL*, Latin-1 decoding will be applied.  Else *mapping* "
+"If *mapping* is ``NULL``, Latin-1 decoding will be applied.  Else *mapping* "
 "must map bytes ordinals (integers in the range from 0 to 255) to Unicode "
 "strings, integers (which are then interpreted as Unicode ordinals) or "
 "``None``.  Unmapped data bytes -- ones which cause a :exc:`LookupError`, as "
@@ -1685,8 +1688,8 @@ msgstr ""
 #: ../../c-api/unicode.rst:1453
 msgid ""
 "Encode a Unicode object using the given *mapping* object and return the "
-"result as a bytes object.  Error handling is \"strict\".  Return *NULL* if "
-"an exception was raised by the codec."
+"result as a bytes object.  Error handling is \"strict\".  Return ``NULL`` if"
+" an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1457
@@ -1700,8 +1703,8 @@ msgstr ""
 #: ../../c-api/unicode.rst:1466
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using the given "
-"*mapping* object and return the result as a bytes object.  Return *NULL* if "
-"an exception was raised by the codec."
+"*mapping* object and return the result as a bytes object.  Return ``NULL`` "
+"if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1473
@@ -1717,8 +1720,8 @@ msgstr ""
 #: ../../c-api/unicode.rst:1481
 msgid ""
 "Translate a Unicode object using the given *mapping* object and return the "
-"resulting Unicode object.  Return *NULL* if an exception was raised by the "
-"codec."
+"resulting Unicode object.  Return ``NULL`` if an exception was raised by the"
+" codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1485
@@ -1733,7 +1736,7 @@ msgstr ""
 msgid ""
 "Translate a :c:type:`Py_UNICODE` buffer of the given *size* by applying a "
 "character *mapping* table to it and return the resulting Unicode object. "
-"Return *NULL* when an exception was raised by the codec."
+"Return ``NULL`` when an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1501
@@ -1758,13 +1761,13 @@ msgstr ""
 #: ../../c-api/unicode.rst:1514
 msgid ""
 "Create a Unicode object by decoding *size* bytes of the MBCS encoded string "
-"*s*. Return *NULL* if an exception was raised by the codec."
+"*s*. Return ``NULL`` if an exception was raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1521
 msgid ""
-"If *consumed* is *NULL*, behave like :c:func:`PyUnicode_DecodeMBCS`. If "
-"*consumed* is not *NULL*, :c:func:`PyUnicode_DecodeMBCSStateful` will not "
+"If *consumed* is ``NULL``, behave like :c:func:`PyUnicode_DecodeMBCS`. If "
+"*consumed* is not ``NULL``, :c:func:`PyUnicode_DecodeMBCSStateful` will not "
 "decode trailing lead byte and the number of bytes that have been decoded "
 "will be stored in *consumed*."
 msgstr ""
@@ -1772,22 +1775,22 @@ msgstr ""
 #: ../../c-api/unicode.rst:1529
 msgid ""
 "Encode a Unicode object using MBCS and return the result as Python bytes "
-"object.  Error handling is \"strict\".  Return *NULL* if an exception was "
+"object.  Error handling is \"strict\".  Return ``NULL`` if an exception was "
 "raised by the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1536
 msgid ""
 "Encode the Unicode object using the specified code page and return a Python "
-"bytes object.  Return *NULL* if an exception was raised by the codec. Use "
+"bytes object.  Return ``NULL`` if an exception was raised by the codec. Use "
 ":c:data:`CP_ACP` code page to get the MBCS encoder."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1545
 msgid ""
 "Encode the :c:type:`Py_UNICODE` buffer of the given *size* using MBCS and "
-"return a Python bytes object.  Return *NULL* if an exception was raised by "
-"the codec."
+"return a Python bytes object.  Return ``NULL`` if an exception was raised by"
+" the codec."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1552
@@ -1813,7 +1816,7 @@ msgid ""
 msgstr ""
 
 #: ../../c-api/unicode.rst:1568
-msgid "They all return *NULL* or ``-1`` if an exception occurs."
+msgid "They all return ``NULL`` or ``-1`` if an exception occurs."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1573
@@ -1822,7 +1825,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:1578
 msgid ""
-"Split a string giving a list of Unicode strings.  If *sep* is *NULL*, "
+"Split a string giving a list of Unicode strings.  If *sep* is ``NULL``, "
 "splitting will be done at all whitespace substrings.  Otherwise, splits "
 "occur at the given separator.  At most *maxsplit* splits will be done.  If "
 "negative, no limit is set.  Separators are not included in the resulting "
@@ -1857,8 +1860,8 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:1604
 msgid ""
-"*errors* has the usual meaning for codecs. It may be *NULL* which indicates "
-"to use the default error handling."
+"*errors* has the usual meaning for codecs. It may be ``NULL`` which "
+"indicates to use the default error handling."
 msgstr ""
 
 #: ../../c-api/unicode.rst:1610

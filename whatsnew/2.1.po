@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../whatsnew/2.1.rst:3
 msgid "What's New in Python 2.1"
-msgstr ""
+msgstr "Apa yang Baru di Python 2.1"
 
 #: ../../whatsnew/2.1.rst:0
 msgid "Author"
@@ -33,7 +33,7 @@ msgstr "Penulis"
 
 #: ../../whatsnew/2.1.rst:5
 msgid "A.M. Kuchling"
-msgstr ""
+msgstr "A.M. Kuchling"
 
 #: ../../whatsnew/2.1.rst:13
 msgid "Introduction"
@@ -244,7 +244,7 @@ msgstr "Operasi"
 
 #: ../../whatsnew/2.1.rst:179
 msgid "Method name"
-msgstr ""
+msgstr "Nama Metode"
 
 #: ../../whatsnew/2.1.rst:181
 msgid "``<``"
@@ -252,7 +252,7 @@ msgstr "``<``"
 
 #: ../../whatsnew/2.1.rst:181
 msgid ":meth:`__lt__`"
-msgstr ""
+msgstr ":meth:`__lt__`"
 
 #: ../../whatsnew/2.1.rst:183
 msgid "``<=``"
@@ -260,7 +260,7 @@ msgstr "``<=``"
 
 #: ../../whatsnew/2.1.rst:183
 msgid ":meth:`__le__`"
-msgstr ""
+msgstr ":meth:`__le__`"
 
 #: ../../whatsnew/2.1.rst:185
 msgid "``>``"
@@ -268,7 +268,7 @@ msgstr "``>``"
 
 #: ../../whatsnew/2.1.rst:185
 msgid ":meth:`__gt__`"
-msgstr ""
+msgstr ":meth:`__gt__`"
 
 #: ../../whatsnew/2.1.rst:187
 msgid "``>=``"
@@ -276,7 +276,7 @@ msgstr "``>=``"
 
 #: ../../whatsnew/2.1.rst:187
 msgid ":meth:`__ge__`"
-msgstr ""
+msgstr ":meth:`__ge__`"
 
 #: ../../whatsnew/2.1.rst:189
 msgid "``==``"
@@ -284,7 +284,7 @@ msgstr "``==``"
 
 #: ../../whatsnew/2.1.rst:189
 msgid ":meth:`__eq__`"
-msgstr ""
+msgstr ":meth:`__eq__`"
 
 #: ../../whatsnew/2.1.rst:191
 msgid "``!=``"
@@ -292,7 +292,7 @@ msgstr "``!=``"
 
 #: ../../whatsnew/2.1.rst:191
 msgid ":meth:`__ne__`"
-msgstr ""
+msgstr ":meth:`__ne__`"
 
 #: ../../whatsnew/2.1.rst:194
 msgid ""

@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:50
 msgid "Details"
-msgstr ""
+msgstr "Detail"
 
 #: ../../howto/pyporting.rst:52
 msgid ""
@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:162
 msgid "Division"
-msgstr ""
+msgstr "Pembagian"
 
 #: ../../howto/pyporting.rst:164
 msgid ""
@@ -361,7 +361,7 @@ msgstr ""
 
 #: ../../howto/pyporting.rst:222
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../howto/pyporting.rst:222
 msgid "decode"
