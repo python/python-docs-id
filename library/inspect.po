@@ -303,7 +303,7 @@ msgstr ""
 #: ../../library/inspect.rst:138 ../../library/inspect.rst:202
 #: ../../library/inspect.rst:219
 msgid "code"
-msgstr ""
+msgstr "code"
 
 #: ../../library/inspect.rst:138
 msgid "co_argcount"
@@ -442,7 +442,7 @@ msgstr "pembangkit"
 
 #: ../../library/inspect.rst:194 ../../library/inspect.rst:208
 msgid "name"
-msgstr ""
+msgstr "nama"
 
 #: ../../library/inspect.rst:198
 msgid "gi_frame"

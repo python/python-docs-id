@@ -1052,7 +1052,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:879
 msgid "cgi"
-msgstr ""
+msgstr "cgi"
 
 #: ../../whatsnew/3.5.rst:881
 msgid ""
@@ -1072,7 +1072,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:893
 msgid "code"
-msgstr ""
+msgstr "code"
 
 #: ../../whatsnew/3.5.rst:895
 msgid ""
@@ -1250,7 +1250,7 @@ msgstr "(Kontribusi dari Berker Peksag di :issue:`22389`.)"
 
 #: ../../whatsnew/3.5.rst:1039
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 #: ../../whatsnew/3.5.rst:1041
 msgid ""
@@ -1409,7 +1409,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1158
 msgid "glob"
-msgstr ""
+msgstr "glob"
 
 #: ../../whatsnew/3.5.rst:1160
 msgid ""
@@ -1447,7 +1447,7 @@ msgstr "(Kontribusi dari Raymond Hettinger di :issue:`13742`.)"
 
 #: ../../whatsnew/3.5.rst:1193
 msgid "http"
-msgstr ""
+msgstr "http"
 
 #: ../../whatsnew/3.5.rst:1195
 msgid ""
@@ -1656,7 +1656,7 @@ msgstr "(Kontribusi dari Leon Weber di :issue:`20480`.)"
 
 #: ../../whatsnew/3.5.rst:1366
 msgid "json"
-msgstr ""
+msgstr "json"
 
 #: ../../whatsnew/3.5.rst:1368
 msgid ""
@@ -1735,7 +1735,7 @@ msgstr ""
 
 #: ../../whatsnew/3.5.rst:1437
 msgid "lzma"
-msgstr ""
+msgstr "lzma"
 
 #: ../../whatsnew/3.5.rst:1439
 msgid ""

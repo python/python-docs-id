@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../library/collections.abc.rst:38
 msgid "ABC"
-msgstr ""
+msgstr "ABC"
 
 #: ../../library/collections.abc.rst:38
 msgid "Inherits from"

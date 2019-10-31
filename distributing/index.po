@@ -101,6 +101,12 @@ msgid ""
 "issue trackers on both `GitHub <https://github.com/pypa>`__ and `Bitbucket "
 "<https://bitbucket.org/pypa/>`__."
 msgstr ""
+"`Python Packaging Authority <https://www.pypa.io/>`__ adalah kelompok "
+"pengembang dan penulis dokumentasi yang bertanggung jawab atas pemeliharaan "
+"dan evolusi alat pengemasan standar serta standar metadata dan format berkas"
+" terkait. Mereka memelihara berbagai alat, dokumentasi dan pelacak isu di "
+"`GitHub <https://github.com/pypa>`__ dan `Bitbucket "
+"<https://bitbucket.org/pypa/>`__."
 
 #: ../../distributing/index.rst:44
 msgid ""
@@ -301,6 +307,8 @@ msgid ""
 "check popular hosting sites like GitHub, Bitbucket, etc to see if there is "
 "already a project with that name"
 msgstr ""
+"periksa situs hosting populer seperti GitHub, Bitbucket, dll untuk melihat "
+"apakah sudah ada proyek dengan nama itu"
 
 #: ../../distributing/index.rst:153
 msgid "check what comes up in a web search for the name you're considering"

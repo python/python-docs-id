@@ -260,7 +260,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:180 ../../whatsnew/3.3.rst:1132
 msgid "API changes"
-msgstr ""
+msgstr "Perubahan API"
 
 #: ../../whatsnew/3.3.rst:182
 msgid "The maximum number of dimensions is officially limited to 64."
@@ -880,7 +880,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:706
 msgid "New APIs"
-msgstr ""
+msgstr "API Baru"
 
 #: ../../whatsnew/3.3.rst:707
 msgid ""
@@ -1180,7 +1180,7 @@ msgstr "(Kontribusi dari Google dan Peter Moody di :pep:`3144`.)"
 
 #: ../../whatsnew/3.3.rst:899
 msgid "lzma"
-msgstr ""
+msgstr "lzma"
 
 #: ../../whatsnew/3.3.rst:901
 msgid ""
@@ -1200,7 +1200,7 @@ msgstr "Modul yang Ditingkatkan"
 
 #: ../../whatsnew/3.3.rst:912
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: ../../whatsnew/3.3.rst:914
 msgid ""
@@ -1548,7 +1548,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1114
 msgid "pi"
-msgstr ""
+msgstr "pi"
 
 #: ../../whatsnew/3.3.rst:1114
 msgid "42.02s"
@@ -1560,7 +1560,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1114
 msgid "120x"
-msgstr ""
+msgstr "120x"
 
 #: ../../whatsnew/3.3.rst:1116
 msgid "telco"
@@ -1576,7 +1576,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1116
 msgid "30x"
-msgstr ""
+msgstr "30x"
 
 #: ../../whatsnew/3.3.rst:1118
 msgid "psycopg"
@@ -1592,7 +1592,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1118
 msgid "12x"
-msgstr ""
+msgstr "12x"
 
 #: ../../whatsnew/3.3.rst:1124
 msgid ""
@@ -1888,7 +1888,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1346
 msgid "Other API Changes"
-msgstr ""
+msgstr "Perubahan API Lainnya"
 
 #: ../../whatsnew/3.3.rst:1348
 msgid ""
@@ -1987,7 +1987,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1412
 msgid "http"
-msgstr ""
+msgstr "http"
 
 #: ../../whatsnew/3.3.rst:1414
 msgid ""
@@ -2015,7 +2015,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1430
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: ../../whatsnew/3.3.rst:1432
 msgid ""
@@ -2902,7 +2902,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1974
 msgid "stat"
-msgstr ""
+msgstr "stat"
 
 #: ../../whatsnew/3.3.rst:1976
 msgid ""
@@ -3384,7 +3384,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:2243
 msgid ":mod:`abc` module:"
-msgstr ""
+msgstr ":mod:`abc` module:"
 
 #: ../../whatsnew/3.3.rst:2252
 msgid ":mod:`importlib` package:"

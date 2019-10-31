@@ -436,7 +436,7 @@ msgstr ""
 
 #: ../../library/calendar.rst:419
 msgid "Module :mod:`time`"
-msgstr ""
+msgstr "Module :mod:`time`"
 
 #: ../../library/calendar.rst:420
 msgid "Low-level time related functions."

@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../../library/io.rst:220
 msgid "ABC"
-msgstr ""
+msgstr "ABC"
 
 #: ../../library/io.rst:220
 msgid "Inherits"

@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../library/locale.rst:65
 msgid "Key"
-msgstr ""
+msgstr "*Key*"
 
 #: ../../library/locale.rst:65
 msgid "Meaning"

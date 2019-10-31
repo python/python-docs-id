@@ -497,7 +497,7 @@ msgstr ""
 
 #: ../../library/hashlib.rst:385
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/hashlib.rst:390
 msgid "Salt length (maximum length accepted by constructors)."

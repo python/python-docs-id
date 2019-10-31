@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:28
 msgid "Module :mod:`time`"
-msgstr ""
+msgstr "Modul :mod:`time`"
 
 #: ../../library/datetime.rst:28
 msgid "Time access and conversions."
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:68
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/datetime.rst:70
 msgid "The :mod:`datetime` module exports the following constants:"
@@ -310,15 +310,15 @@ msgstr ""
 
 #: ../../library/datetime.rst:205
 msgid "``0 <= microseconds < 1000000``"
-msgstr ""
+msgstr "``0 <= microseconds < 1000000``"
 
 #: ../../library/datetime.rst:206
 msgid "``0 <= seconds < 3600*24`` (the number of seconds in one day)"
-msgstr ""
+msgstr "``0 <= seconds < 3600*24`` (the number of seconds in one day)"
 
 #: ../../library/datetime.rst:207
 msgid "``-999999999 <= days <= 999999999``"
-msgstr ""
+msgstr "``-999999999 <= days <= 999999999``"
 
 #: ../../library/datetime.rst:209
 msgid ""
@@ -392,15 +392,15 @@ msgstr "Nilai"
 
 #: ../../library/datetime.rst:272
 msgid "``days``"
-msgstr ""
+msgstr "``days``"
 
 #: ../../library/datetime.rst:272
 msgid "Between -999999999 and 999999999 inclusive"
-msgstr ""
+msgstr "Between -999999999 and 999999999 inclusive"
 
 #: ../../library/datetime.rst:274
 msgid "``seconds``"
-msgstr ""
+msgstr "``seconds``"
 
 #: ../../library/datetime.rst:274
 msgid "Between 0 and 86399 inclusive"
@@ -408,7 +408,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:276
 msgid "``microseconds``"
-msgstr ""
+msgstr "``microseconds``"
 
 #: ../../library/datetime.rst:276
 msgid "Between 0 and 999999 inclusive"
@@ -431,7 +431,7 @@ msgstr "Hasil"
 
 #: ../../library/datetime.rst:286
 msgid "``t1 = t2 + t3``"
-msgstr ""
+msgstr "``t1 = t2 + t3``"
 
 #: ../../library/datetime.rst:286
 msgid ""
@@ -451,7 +451,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:293
 msgid "``t1 = t2 * i or t1 = i * t2``"
-msgstr ""
+msgstr "``t1 = t2 * i or t1 = i * t2``"
 
 #: ../../library/datetime.rst:293
 msgid ""
@@ -465,7 +465,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:300
 msgid "``t1 = t2 * f or t1 = f * t2``"
-msgstr ""
+msgstr "``t1 = t2 * f or t1 = f * t2``"
 
 #: ../../library/datetime.rst:300
 msgid ""
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:308
 msgid "``t1 = t2 / f or t1 = t2 / i``"
-msgstr ""
+msgstr "``t1 = t2 / f or t1 = t2 / i``"
 
 #: ../../library/datetime.rst:308
 msgid ""
@@ -495,7 +495,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:312
 msgid "``t1 = t2 // i`` or ``t1 = t2 // t3``"
-msgstr ""
+msgstr "``t1 = t2 // i`` or ``t1 = t2 // t3``"
 
 #: ../../library/datetime.rst:312
 msgid ""
@@ -505,7 +505,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:316
 msgid "``t1 = t2 % t3``"
-msgstr ""
+msgstr "``t1 = t2 % t3``"
 
 #: ../../library/datetime.rst:316
 msgid "The remainder is computed as a :class:`timedelta` object. (3)"
@@ -523,7 +523,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:324
 msgid "``+t1``"
-msgstr ""
+msgstr "``+t1``"
 
 #: ../../library/datetime.rst:324
 msgid "Returns a :class:`timedelta` object with the same value. (2)"
@@ -531,7 +531,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:327
 msgid "``-t1``"
-msgstr ""
+msgstr "``-t1``"
 
 #: ../../library/datetime.rst:327
 msgid ""
@@ -541,7 +541,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:332
 msgid "``abs(t)``"
-msgstr ""
+msgstr "``abs(t)``"
 
 #: ../../library/datetime.rst:332
 msgid ""
@@ -551,7 +551,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:335
 msgid "``str(t)``"
-msgstr ""
+msgstr "``str(t)``"
 
 #: ../../library/datetime.rst:335
 msgid ""
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:339
 msgid "``repr(t)``"
-msgstr ""
+msgstr "``repr(t)``"
 
 #: ../../library/datetime.rst:339
 msgid ""
@@ -698,11 +698,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:473
 msgid "``MINYEAR <= year <= MAXYEAR``"
-msgstr ""
+msgstr "``MINYEAR <= year <= MAXYEAR``"
 
 #: ../../library/datetime.rst:474
 msgid "``1 <= month <= 12``"
-msgstr ""
+msgstr "``1 <= month <= 12``"
 
 #: ../../library/datetime.rst:475
 msgid "``1 <= day <= number of days in the given month and year``"
@@ -832,7 +832,7 @@ msgstr "\\(3)"
 
 #: ../../library/datetime.rst:588
 msgid "``date1 < date2``"
-msgstr ""
+msgstr "``date1 < date2``"
 
 #: ../../library/datetime.rst:588
 msgid ""
@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:818
 msgid "Constructor:"
-msgstr ""
+msgstr "Pembangun, *Constructor*:"
 
 #: ../../library/datetime.rst:822
 msgid ""
@@ -1039,11 +1039,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:826
 msgid "``MINYEAR <= year <= MAXYEAR``,"
-msgstr ""
+msgstr "``MINYEAR <= year <= MAXYEAR``,"
 
 #: ../../library/datetime.rst:827
 msgid "``1 <= month <= 12``,"
-msgstr ""
+msgstr "``1 <= month <= 12``,"
 
 #: ../../library/datetime.rst:828
 msgid "``1 <= day <= number of days in the given month and year``,"
@@ -1051,23 +1051,23 @@ msgstr ""
 
 #: ../../library/datetime.rst:829 ../../library/datetime.rst:1654
 msgid "``0 <= hour < 24``,"
-msgstr ""
+msgstr "``0 <= hour < 24``,"
 
 #: ../../library/datetime.rst:830 ../../library/datetime.rst:1655
 msgid "``0 <= minute < 60``,"
-msgstr ""
+msgstr "``0 <= minute < 60``,"
 
 #: ../../library/datetime.rst:831 ../../library/datetime.rst:1656
 msgid "``0 <= second < 60``,"
-msgstr ""
+msgstr "``0 <= second < 60``,"
 
 #: ../../library/datetime.rst:832 ../../library/datetime.rst:1657
 msgid "``0 <= microsecond < 1000000``,"
-msgstr ""
+msgstr "``0 <= microsecond < 1000000``,"
 
 #: ../../library/datetime.rst:833 ../../library/datetime.rst:1658
 msgid "``fold in [0, 1]``."
-msgstr ""
+msgstr "``fold in [0, 1]``."
 
 #: ../../library/datetime.rst:837 ../../library/datetime.rst:1226
 #: ../../library/datetime.rst:1790
@@ -1377,7 +1377,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:1129
 msgid "``datetime1 < datetime2``"
-msgstr ""
+msgstr "``datetime1 < datetime2``"
 
 #: ../../library/datetime.rst:1129
 msgid "Compares :class:`.datetime` to :class:`.datetime`. (4)"
@@ -2423,15 +2423,15 @@ msgstr ""
 
 #: ../../library/datetime.rst:2284
 msgid "``strftime``"
-msgstr ""
+msgstr "``strftime``"
 
 #: ../../library/datetime.rst:2284
 msgid "``strptime``"
-msgstr ""
+msgstr "``strptime``"
 
 #: ../../library/datetime.rst:2286
 msgid "Usage"
-msgstr ""
+msgstr "Penggunaan"
 
 #: ../../library/datetime.rst:2286
 msgid "Convert object to a string according to a given format"
@@ -2546,7 +2546,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2315
 msgid "0, 1, ..., 6"
-msgstr ""
+msgstr "0, 1, ..., 6"
 
 #: ../../library/datetime.rst:2319
 msgid "``%d``"
@@ -2558,14 +2558,14 @@ msgstr ""
 
 #: ../../library/datetime.rst:2319
 msgid "01, 02, ..., 31"
-msgstr ""
+msgstr "01, 02, ..., 31"
 
 #: ../../library/datetime.rst:2319 ../../library/datetime.rst:2332
 #: ../../library/datetime.rst:2335 ../../library/datetime.rst:2341
 #: ../../library/datetime.rst:2344 ../../library/datetime.rst:2350
 #: ../../library/datetime.rst:2368
 msgid "\\(9)"
-msgstr ""
+msgstr "\\(9)"
 
 #: ../../library/datetime.rst:2322
 msgid "``%b``"
@@ -2621,7 +2621,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2335
 msgid "00, 01, ..., 99"
-msgstr ""
+msgstr "00, 01, ..., 99"
 
 #: ../../library/datetime.rst:2338
 msgid "``%Y``"
@@ -2645,7 +2645,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2341
 msgid "00, 01, ..., 23"
-msgstr ""
+msgstr "00, 01, ..., 23"
 
 #: ../../library/datetime.rst:2344
 msgid "``%I``"
@@ -2673,7 +2673,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2347
 msgid "\\(1), \\(3)"
-msgstr ""
+msgstr "\\(1), \\(3)"
 
 #: ../../library/datetime.rst:2350
 msgid "``%M``"
@@ -2685,7 +2685,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2350 ../../library/datetime.rst:2353
 msgid "00, 01, ..., 59"
-msgstr ""
+msgstr "00, 01, ..., 59"
 
 #: ../../library/datetime.rst:2353
 msgid "``%S``"
@@ -2697,11 +2697,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:2353
 msgid "\\(4), \\(9)"
-msgstr ""
+msgstr "\\(4), \\(9)"
 
 #: ../../library/datetime.rst:2356
 msgid "``%f``"
-msgstr ""
+msgstr "``%f``"
 
 #: ../../library/datetime.rst:2356
 msgid "Microsecond as a decimal number, zero-padded on the left."
@@ -2709,7 +2709,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2356
 msgid "000000, 000001, ..., 999999"
-msgstr ""
+msgstr "000000, 000001, ..., 999999"
 
 #: ../../library/datetime.rst:2356
 msgid "\\(5)"
@@ -2755,7 +2755,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2368
 msgid "001, 002, ..., 366"
-msgstr ""
+msgstr "001, 002, ..., 366"
 
 #: ../../library/datetime.rst:2371
 msgid "``%U``"
@@ -2770,11 +2770,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:2371 ../../library/datetime.rst:2379
 msgid "00, 01, ..., 53"
-msgstr ""
+msgstr "00, 01, ..., 53"
 
 #: ../../library/datetime.rst:2371 ../../library/datetime.rst:2379
 msgid "\\(7), \\(9)"
-msgstr ""
+msgstr "\\(7), \\(9)"
 
 #: ../../library/datetime.rst:2379
 msgid "``%W``"
@@ -2859,7 +2859,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2408
 msgid "``%G``"
-msgstr ""
+msgstr "``%G``"
 
 #: ../../library/datetime.rst:2408
 msgid ""
@@ -2881,11 +2881,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:2413
 msgid "1, 2, ..., 7"
-msgstr ""
+msgstr "1, 2, ..., 7"
 
 #: ../../library/datetime.rst:2416
 msgid "``%V``"
-msgstr ""
+msgstr "``%V``"
 
 #: ../../library/datetime.rst:2416
 msgid ""
@@ -2895,11 +2895,11 @@ msgstr ""
 
 #: ../../library/datetime.rst:2416
 msgid "01, 02, ..., 53"
-msgstr ""
+msgstr "01, 02, ..., 53"
 
 #: ../../library/datetime.rst:2416
 msgid "\\(8), \\(9)"
-msgstr ""
+msgstr "\\(8), \\(9)"
 
 #: ../../library/datetime.rst:2423
 msgid ""

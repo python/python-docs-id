@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../howto/unicode.rst:5
 msgid "Unicode HOWTO"
-msgstr ""
+msgstr "*Unicode* HOWTO"
 
 #: ../../howto/unicode.rst:0
 msgid "Release"
@@ -32,7 +32,7 @@ msgstr "Rilis"
 
 #: ../../howto/unicode.rst:7
 msgid "1.12"
-msgstr ""
+msgstr "1.12"
 
 #: ../../howto/unicode.rst:9
 msgid ""
@@ -43,11 +43,11 @@ msgstr ""
 
 #: ../../howto/unicode.rst:15
 msgid "Introduction to Unicode"
-msgstr ""
+msgstr "Pengenalan *Unicode*"
 
 #: ../../howto/unicode.rst:18
 msgid "Definitions"
-msgstr ""
+msgstr "Definisi"
 
 #: ../../howto/unicode.rst:20
 msgid ""

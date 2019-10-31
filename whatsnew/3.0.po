@@ -812,11 +812,11 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:584
 msgid "repr"
-msgstr ""
+msgstr "repr"
 
 #: ../../whatsnew/3.0.rst:584
 msgid "reprlib"
-msgstr ""
+msgstr "reprlib"
 
 #: ../../whatsnew/3.0.rst:585
 msgid "test.test_support"

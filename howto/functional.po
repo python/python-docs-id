@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../howto/functional.rst:3
 msgid "Functional Programming HOWTO"
-msgstr ""
+msgstr "Pemrograman Fungsional HOWTO"
 
 #: ../../howto/functional.rst:0
 msgid "Author"
@@ -34,7 +34,7 @@ msgstr "Penulis"
 
 #: ../../howto/functional.rst:5
 msgid "A. M. Kuchling"
-msgstr ""
+msgstr "A. M. Kuchling"
 
 #: ../../howto/functional.rst:0
 msgid "Release"
@@ -42,7 +42,7 @@ msgstr "Rilis"
 
 #: ../../howto/functional.rst:6
 msgid "0.32"
-msgstr ""
+msgstr "0.32"
 
 #: ../../howto/functional.rst:8
 msgid ""

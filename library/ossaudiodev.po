@@ -228,7 +228,7 @@ msgstr ""
 
 #: ../../library/ossaudiodev.rst:200
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: ../../library/ossaudiodev.rst:200 ../../library/ossaudiodev.rst:254
 msgid "Description"
@@ -343,11 +343,11 @@ msgstr ""
 
 #: ../../library/ossaudiodev.rst:254
 msgid "Rate"
-msgstr ""
+msgstr "*Rate*"
 
 #: ../../library/ossaudiodev.rst:256
 msgid "8000"
-msgstr ""
+msgstr "8000"
 
 #: ../../library/ossaudiodev.rst:256
 msgid "default rate for :file:`/dev/audio`"

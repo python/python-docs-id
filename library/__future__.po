@@ -142,7 +142,7 @@ msgstr "2.2"
 
 #: ../../library/__future__.rst:69
 msgid ":pep:`227`: *Statically Nested Scopes*"
-msgstr ""
+msgstr ":pep:`227`: *Statically Nested Scopes*"
 
 #: ../../library/__future__.rst:72
 msgid "generators"
@@ -158,7 +158,7 @@ msgstr "2.3"
 
 #: ../../library/__future__.rst:72
 msgid ":pep:`255`: *Simple Generators*"
-msgstr ""
+msgstr ":pep:`255`: *Simple Generators*"
 
 #: ../../library/__future__.rst:75
 msgid "division"
@@ -175,7 +175,7 @@ msgstr "3.0"
 
 #: ../../library/__future__.rst:75
 msgid ":pep:`238`: *Changing the Division Operator*"
-msgstr ""
+msgstr ":pep:`238`: *Changing the Division Operator*"
 
 #: ../../library/__future__.rst:78
 msgid "absolute_import"
@@ -187,7 +187,7 @@ msgstr "2.5.0a1"
 
 #: ../../library/__future__.rst:78
 msgid ":pep:`328`: *Imports: Multi-Line and Absolute/Relative*"
-msgstr ""
+msgstr ":pep:`328`: *Imports: Multi-Line and Absolute/Relative*"
 
 #: ../../library/__future__.rst:81
 msgid "with_statement"
@@ -199,7 +199,7 @@ msgstr "2.6"
 
 #: ../../library/__future__.rst:81
 msgid ":pep:`343`: *The \"with\" Statement*"
-msgstr ""
+msgstr ":pep:`343`: *The \"with\" Statement*"
 
 #: ../../library/__future__.rst:84
 msgid "print_function"
@@ -211,7 +211,7 @@ msgstr "2.6.0a2"
 
 #: ../../library/__future__.rst:84
 msgid ":pep:`3105`: *Make print a function*"
-msgstr ""
+msgstr ":pep:`3105`: *Make print a function*"
 
 #: ../../library/__future__.rst:87
 msgid "unicode_literals"
@@ -219,7 +219,7 @@ msgstr "unicode_literals"
 
 #: ../../library/__future__.rst:87
 msgid ":pep:`3112`: *Bytes literals in Python 3000*"
-msgstr ""
+msgstr ":pep:`3112`: *Bytes literals in Python 3000*"
 
 #: ../../library/__future__.rst:90
 msgid "generator_stop"
@@ -235,7 +235,7 @@ msgstr "3.7"
 
 #: ../../library/__future__.rst:90
 msgid ":pep:`479`: *StopIteration handling inside generators*"
-msgstr ""
+msgstr ":pep:`479`: *StopIteration handling inside generators*"
 
 #: ../../library/__future__.rst:93
 msgid "annotations"
@@ -251,7 +251,7 @@ msgstr "4.0"
 
 #: ../../library/__future__.rst:93
 msgid ":pep:`563`: *Postponed evaluation of annotations*"
-msgstr ""
+msgstr ":pep:`563`: *Postponed evaluation of annotations*"
 
 #: ../../library/__future__.rst:102
 msgid ":ref:`future`"

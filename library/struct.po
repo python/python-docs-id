@@ -300,7 +300,7 @@ msgstr ""
 
 #: ../../library/struct.rst:194
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: ../../library/struct.rst:194
 msgid "C Type"

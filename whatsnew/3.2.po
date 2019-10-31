@@ -1188,7 +1188,7 @@ msgstr "(Kontribusi dari Mark Dickinson.)"
 
 #: ../../whatsnew/3.2.rst:1093
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: ../../whatsnew/3.2.rst:1095
 msgid ""
@@ -1225,7 +1225,7 @@ msgstr "(Kontribusi dari Antoine Pitrou di :issue:`5506`.)"
 
 #: ../../whatsnew/3.2.rst:1144
 msgid "reprlib"
-msgstr ""
+msgstr "reprlib"
 
 #: ../../whatsnew/3.2.rst:1146
 msgid ""
@@ -1303,7 +1303,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1208
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 #: ../../whatsnew/3.2.rst:1210
 msgid ""
@@ -1458,7 +1458,7 @@ msgstr "(Kontribusi dari Mark Dickinson dan Raymond Hettinger.)"
 
 #: ../../whatsnew/3.2.rst:1341
 msgid "ftp"
-msgstr ""
+msgstr "ftp"
 
 #: ../../whatsnew/3.2.rst:1343
 msgid ""
@@ -1731,7 +1731,7 @@ msgstr "(Kontribusi dari R. David Murray dan Shashwat Anand; :issue:`8845`.)"
 
 #: ../../whatsnew/3.2.rst:1605
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: ../../whatsnew/3.2.rst:1607
 msgid ""
@@ -1842,7 +1842,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:1673
 msgid "nntp"
-msgstr ""
+msgstr "nntp"
 
 #: ../../whatsnew/3.2.rst:1675
 msgid ""
@@ -2272,7 +2272,7 @@ msgstr ""
 
 #: ../../whatsnew/3.2.rst:2005
 msgid "site"
-msgstr ""
+msgstr "site"
 
 #: ../../whatsnew/3.2.rst:2007
 msgid ""

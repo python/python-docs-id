@@ -606,7 +606,7 @@ msgstr ""
 
 #: ../../library/ssl.rst:543
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/ssl.rst:545
 msgid ""

@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../install/index.rst:209
 msgid "Default value"
-msgstr ""
+msgstr "Nilai bawaan"
 
 #: ../../install/index.rst:209 ../../install/index.rst:735
 #: ../../install/index.rst:747

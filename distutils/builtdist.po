@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:5
 msgid "Creating Built Distributions"
-msgstr ""
+msgstr "Membuat Pembangunan Distribusi"
 
 #: ../../distutils/_setuptools_disclaimer.rst:3
 msgid ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:75
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: ../../distutils/builtdist.rst:75
 msgid "Description"
@@ -143,11 +143,11 @@ msgstr "Catatan"
 
 #: ../../distutils/builtdist.rst:77
 msgid "``gztar``"
-msgstr ""
+msgstr "``gztar``"
 
 #: ../../distutils/builtdist.rst:77
 msgid "gzipped tar file (:file:`.tar.gz`)"
-msgstr ""
+msgstr "berkas tar di-gzip (:file:`.tar.gz`)"
 
 #: ../../distutils/builtdist.rst:77
 msgid "\\(1)"
@@ -155,27 +155,27 @@ msgstr "\\(1)"
 
 #: ../../distutils/builtdist.rst:80
 msgid "``bztar``"
-msgstr ""
+msgstr "``bztar``"
 
 #: ../../distutils/builtdist.rst:80
 msgid "bzipped tar file (:file:`.tar.bz2`)"
-msgstr ""
+msgstr "berkas tar di-bzip (:file:`.tar.bz2`)"
 
 #: ../../distutils/builtdist.rst:83
 msgid "``xztar``"
-msgstr ""
+msgstr "``xztar``"
 
 #: ../../distutils/builtdist.rst:83
 msgid "xzipped tar file (:file:`.tar.xz`)"
-msgstr ""
+msgstr "berkas tar di-xzip (:file:`.tar.xz`)"
 
 #: ../../distutils/builtdist.rst:86
 msgid "``ztar``"
-msgstr ""
+msgstr "``ztar``"
 
 #: ../../distutils/builtdist.rst:86
 msgid "compressed tar file (:file:`.tar.Z`)"
-msgstr ""
+msgstr "berkas dikompres tar (:file:`.tar.Z`)"
 
 #: ../../distutils/builtdist.rst:86
 msgid "\\(3)"
@@ -183,31 +183,31 @@ msgstr "\\(3)"
 
 #: ../../distutils/builtdist.rst:89
 msgid "``tar``"
-msgstr ""
+msgstr "``tar``"
 
 #: ../../distutils/builtdist.rst:89
 msgid "tar file (:file:`.tar`)"
-msgstr ""
+msgstr "berkas tar (:file:`.tar`)"
 
 #: ../../distutils/builtdist.rst:91
 msgid "``zip``"
-msgstr ""
+msgstr "``zip``"
 
 #: ../../distutils/builtdist.rst:91
 msgid "zip file (:file:`.zip`)"
-msgstr ""
+msgstr "berkas zip (:file:`.zip`)"
 
 #: ../../distutils/builtdist.rst:91
 msgid "(2),(4)"
-msgstr ""
+msgstr "(2),(4)"
 
 #: ../../distutils/builtdist.rst:93
 msgid "``rpm``"
-msgstr ""
+msgstr "``rpm``"
 
 #: ../../distutils/builtdist.rst:93
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #: ../../distutils/builtdist.rst:93
 msgid "\\(5)"
@@ -215,27 +215,27 @@ msgstr "\\(5)"
 
 #: ../../distutils/builtdist.rst:95
 msgid "``pkgtool``"
-msgstr ""
+msgstr "``pkgtool``"
 
 #: ../../distutils/builtdist.rst:95
 msgid "Solaris :program:`pkgtool`"
-msgstr ""
+msgstr ":program:`pkgtool` Solaris"
 
 #: ../../distutils/builtdist.rst:97
 msgid "``sdux``"
-msgstr ""
+msgstr "``sdux``"
 
 #: ../../distutils/builtdist.rst:97
 msgid "HP-UX :program:`swinstall`"
-msgstr ""
+msgstr ":program:`swinstall` HP-UX"
 
 #: ../../distutils/builtdist.rst:99
 msgid "``wininst``"
-msgstr ""
+msgstr "``wininst``"
 
 #: ../../distutils/builtdist.rst:99
 msgid "self-extracting ZIP file for Windows"
-msgstr ""
+msgstr "berkas ZIP yang mengekstrak sendiri untuk Windows"
 
 #: ../../distutils/builtdist.rst:99
 msgid "\\(4)"
@@ -243,11 +243,11 @@ msgstr "\\(4)"
 
 #: ../../distutils/builtdist.rst:102
 msgid "``msi``"
-msgstr ""
+msgstr "``msi``"
 
 #: ../../distutils/builtdist.rst:102
 msgid "Microsoft Installer."
-msgstr ""
+msgstr "Microsoft Installer."
 
 #: ../../distutils/builtdist.rst:105
 msgid "Added support for the ``xztar`` format."
@@ -259,11 +259,11 @@ msgstr "Catatan:"
 
 #: ../../distutils/builtdist.rst:112
 msgid "default on Unix"
-msgstr ""
+msgstr "bawaan di Unix"
 
 #: ../../distutils/builtdist.rst:115
 msgid "default on Windows"
-msgstr ""
+msgstr "bawaan di Windows"
 
 #: ../../distutils/builtdist.rst:118
 msgid "requires external :program:`compress` utility."
@@ -299,39 +299,39 @@ msgstr "Perintah"
 
 #: ../../distutils/builtdist.rst:138
 msgid "Formats"
-msgstr ""
+msgstr "Format-format"
 
 #: ../../distutils/builtdist.rst:140
 msgid ":command:`bdist_dumb`"
-msgstr ""
+msgstr ":command:`bdist_dumb`"
 
 #: ../../distutils/builtdist.rst:140
 msgid "tar, gztar, bztar, xztar, ztar, zip"
-msgstr ""
+msgstr "tar, gztar, bztar, xztar, ztar, zip"
 
 #: ../../distutils/builtdist.rst:142
 msgid ":command:`bdist_rpm`"
-msgstr ""
+msgstr ":command:`bdist_rpm`"
 
 #: ../../distutils/builtdist.rst:142
 msgid "rpm, srpm"
-msgstr ""
+msgstr "rpm, srpm"
 
 #: ../../distutils/builtdist.rst:144
 msgid ":command:`bdist_wininst`"
-msgstr ""
+msgstr ":command:`bdist_wininst`"
 
 #: ../../distutils/builtdist.rst:144
 msgid "wininst"
-msgstr ""
+msgstr "wininst"
 
 #: ../../distutils/builtdist.rst:146
 msgid ":command:`bdist_msi`"
-msgstr ""
+msgstr ":command:`bdist_msi`"
 
 #: ../../distutils/builtdist.rst:146
 msgid "msi"
-msgstr ""
+msgstr "msi"
 
 #: ../../distutils/builtdist.rst:150 ../../distutils/builtdist.rst:305
 #: ../../distutils/builtdist.rst:470
@@ -401,7 +401,7 @@ msgstr "Nama"
 
 #: ../../distutils/builtdist.rst:203
 msgid "``name``"
-msgstr ""
+msgstr "``name``"
 
 #: ../../distutils/builtdist.rst:205
 msgid "Summary (in preamble)"
@@ -409,11 +409,11 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:205
 msgid "``description``"
-msgstr ""
+msgstr "``description``"
 
 #: ../../distutils/builtdist.rst:207
 msgid "Version"
-msgstr ""
+msgstr "Versi"
 
 #: ../../distutils/builtdist.rst:207
 msgid "``version``"
@@ -421,13 +421,15 @@ msgstr "``version``"
 
 #: ../../distutils/builtdist.rst:209 ../../distutils/builtdist.rst:232
 msgid "Vendor"
-msgstr ""
+msgstr "*Vendor*"
 
 #: ../../distutils/builtdist.rst:209
 msgid ""
 "``author`` and ``author_email``, or  --- & ``maintainer`` and "
 "``maintainer_email``"
 msgstr ""
+"``author`` dan ``author_email``, atau  --- & ``maintainer`` dan "
+"``maintainer_email``"
 
 #: ../../distutils/builtdist.rst:213
 msgid "Copyright"
@@ -435,23 +437,23 @@ msgstr "Hak Cipta"
 
 #: ../../distutils/builtdist.rst:213
 msgid "``license``"
-msgstr ""
+msgstr "``license``"
 
 #: ../../distutils/builtdist.rst:215
 msgid "Url"
-msgstr ""
+msgstr "Url"
 
 #: ../../distutils/builtdist.rst:215
 msgid "``url``"
-msgstr ""
+msgstr "``url``"
 
 #: ../../distutils/builtdist.rst:217
 msgid "%description (section)"
-msgstr ""
+msgstr "%description (bagian)"
 
 #: ../../distutils/builtdist.rst:217
 msgid "``long_description``"
-msgstr ""
+msgstr "``long_description``"
 
 #: ../../distutils/builtdist.rst:220
 msgid ""
@@ -462,11 +464,11 @@ msgstr ""
 
 #: ../../distutils/builtdist.rst:225
 msgid ":command:`bdist_rpm` option"
-msgstr ""
+msgstr "opsi :command:`bdist_rpm`"
 
 #: ../../distutils/builtdist.rst:225
 msgid "default value"
-msgstr ""
+msgstr "nilai bawaan"
 
 #: ../../distutils/builtdist.rst:228
 msgid "Release"
@@ -474,102 +476,102 @@ msgstr "Rilis"
 
 #: ../../distutils/builtdist.rst:228
 msgid "``release``"
-msgstr ""
+msgstr "``release``"
 
 #: ../../distutils/builtdist.rst:228
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: ../../distutils/builtdist.rst:230
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: ../../distutils/builtdist.rst:230
 msgid "``group``"
-msgstr ""
+msgstr "``group``"
 
 #: ../../distutils/builtdist.rst:230
 msgid "\"Development/Libraries\""
-msgstr ""
+msgstr "\"Development/Libraries\""
 
 #: ../../distutils/builtdist.rst:232
 msgid "``vendor``"
-msgstr ""
+msgstr "``vendor``"
 
 #: ../../distutils/builtdist.rst:232
 msgid "(see above)"
-msgstr ""
+msgstr "(lihat di atas)"
 
 #: ../../distutils/builtdist.rst:234
 msgid "Packager"
-msgstr ""
+msgstr "Pemaket"
 
 #: ../../distutils/builtdist.rst:234
 msgid "``packager``"
-msgstr ""
+msgstr "``packager``"
 
 #: ../../distutils/builtdist.rst:234 ../../distutils/builtdist.rst:236
 #: ../../distutils/builtdist.rst:238 ../../distutils/builtdist.rst:240
 #: ../../distutils/builtdist.rst:242 ../../distutils/builtdist.rst:244
 #: ../../distutils/builtdist.rst:246 ../../distutils/builtdist.rst:248
 msgid "(none)"
-msgstr ""
+msgstr "(kosong)"
 
 #: ../../distutils/builtdist.rst:236
 msgid "Provides"
-msgstr ""
+msgstr "Menyediakan"
 
 #: ../../distutils/builtdist.rst:236
 msgid "``provides``"
-msgstr ""
+msgstr "``provides``"
 
 #: ../../distutils/builtdist.rst:238
 msgid "Requires"
-msgstr ""
+msgstr "Membutuhkan"
 
 #: ../../distutils/builtdist.rst:238
 msgid "``requires``"
-msgstr ""
+msgstr "``requires``"
 
 #: ../../distutils/builtdist.rst:240
 msgid "Conflicts"
-msgstr ""
+msgstr "Konflik"
 
 #: ../../distutils/builtdist.rst:240
 msgid "``conflicts``"
-msgstr ""
+msgstr "``conflicts``"
 
 #: ../../distutils/builtdist.rst:242
 msgid "Obsoletes"
-msgstr ""
+msgstr "Usang"
 
 #: ../../distutils/builtdist.rst:242
 msgid "``obsoletes``"
-msgstr ""
+msgstr "``obsoletes``"
 
 #: ../../distutils/builtdist.rst:244
 msgid "Distribution"
-msgstr ""
+msgstr "Distribusi"
 
 #: ../../distutils/builtdist.rst:244
 msgid "``distribution_name``"
-msgstr ""
+msgstr "``distribution_name``"
 
 #: ../../distutils/builtdist.rst:246
 msgid "BuildRequires"
-msgstr ""
+msgstr "*BuildRequires*"
 
 #: ../../distutils/builtdist.rst:246
 msgid "``build_requires``"
-msgstr ""
+msgstr "``build_requires``"
 
 #: ../../distutils/builtdist.rst:248
 msgid "Icon"
-msgstr ""
+msgstr "Ikon"
 
 #: ../../distutils/builtdist.rst:248
 msgid "``icon``"
-msgstr ""
+msgstr "``icon``"
 
 #: ../../distutils/builtdist.rst:251
 msgid ""

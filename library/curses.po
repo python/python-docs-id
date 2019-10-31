@@ -743,7 +743,7 @@ msgstr ""
 
 #: ../../library/curses.rst:675
 msgid "Window Objects"
-msgstr ""
+msgstr "Objek Window"
 
 #: ../../library/curses.rst:677
 msgid ""
@@ -858,7 +858,7 @@ msgstr ""
 
 #: ../../library/curses.rst:777
 msgid "Parameter"
-msgstr ""
+msgstr "Parameter"
 
 #: ../../library/curses.rst:777
 msgid "Description"
@@ -866,15 +866,15 @@ msgstr "Deskripsi"
 
 #: ../../library/curses.rst:777
 msgid "Default value"
-msgstr ""
+msgstr "Nilai bawaan"
 
 #: ../../library/curses.rst:779
 msgid "*ls*"
-msgstr ""
+msgstr "*ls*"
 
 #: ../../library/curses.rst:779
 msgid "Left side"
-msgstr ""
+msgstr "Sisi kiri, *left side*"
 
 #: ../../library/curses.rst:779 ../../library/curses.rst:781
 msgid ":const:`ACS_VLINE`"
@@ -882,19 +882,19 @@ msgstr ":const:`ACS_VLINE`"
 
 #: ../../library/curses.rst:781
 msgid "*rs*"
-msgstr ""
+msgstr "*rs*"
 
 #: ../../library/curses.rst:781
 msgid "Right side"
-msgstr ""
+msgstr "Sisi kanan, *right side*"
 
 #: ../../library/curses.rst:783
 msgid "*ts*"
-msgstr ""
+msgstr "*ts*"
 
 #: ../../library/curses.rst:783
 msgid "Top"
-msgstr ""
+msgstr "Atas, *top*"
 
 #: ../../library/curses.rst:783 ../../library/curses.rst:785
 msgid ":const:`ACS_HLINE`"
@@ -902,19 +902,19 @@ msgstr ":const:`ACS_HLINE`"
 
 #: ../../library/curses.rst:785
 msgid "*bs*"
-msgstr ""
+msgstr "*bs*"
 
 #: ../../library/curses.rst:785
 msgid "Bottom"
-msgstr ""
+msgstr "Bawah, *bottom*"
 
 #: ../../library/curses.rst:787
 msgid "*tl*"
-msgstr ""
+msgstr "*tl*"
 
 #: ../../library/curses.rst:787
 msgid "Upper-left corner"
-msgstr ""
+msgstr "Pojok kiri atas, *upper-left corner*"
 
 #: ../../library/curses.rst:787
 msgid ":const:`ACS_ULCORNER`"
@@ -922,11 +922,11 @@ msgstr ":const:`ACS_ULCORNER`"
 
 #: ../../library/curses.rst:789
 msgid "*tr*"
-msgstr ""
+msgstr "*tr*"
 
 #: ../../library/curses.rst:789
 msgid "Upper-right corner"
-msgstr ""
+msgstr "Pojok kanan atas, *upper-right corner*"
 
 #: ../../library/curses.rst:789
 msgid ":const:`ACS_URCORNER`"
@@ -934,11 +934,11 @@ msgstr ":const:`ACS_URCORNER`"
 
 #: ../../library/curses.rst:791
 msgid "*bl*"
-msgstr ""
+msgstr "*bl*"
 
 #: ../../library/curses.rst:791
 msgid "Bottom-left corner"
-msgstr ""
+msgstr "Pojok bawah kiri, *bottom-left corner*"
 
 #: ../../library/curses.rst:791
 msgid ":const:`ACS_LLCORNER`"
@@ -946,11 +946,11 @@ msgstr ":const:`ACS_LLCORNER`"
 
 #: ../../library/curses.rst:793
 msgid "*br*"
-msgstr ""
+msgstr "*br*"
 
 #: ../../library/curses.rst:793
 msgid "Bottom-right corner"
-msgstr ""
+msgstr "Pojok bawah kanan, *bottom-right corner*"
 
 #: ../../library/curses.rst:793
 msgid ":const:`ACS_LRCORNER`"
@@ -1428,7 +1428,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1279
 msgid "Constants"
-msgstr ""
+msgstr "Konstanta"
 
 #: ../../library/curses.rst:1281
 msgid "The :mod:`curses` module defines the following data members:"
@@ -1661,11 +1661,11 @@ msgstr ""
 
 #: ../../library/curses.rst:1384
 msgid "Key constant"
-msgstr ""
+msgstr "Konstanta *Key*"
 
 #: ../../library/curses.rst:1384
 msgid "Key"
-msgstr ""
+msgstr "*Key*"
 
 #: ../../library/curses.rst:1386
 msgid "``KEY_MIN``"
@@ -1833,7 +1833,7 @@ msgstr "``KEY_NPAGE``"
 
 #: ../../library/curses.rst:1427
 msgid "Next page"
-msgstr ""
+msgstr "Halaman berikutnya"
 
 #: ../../library/curses.rst:1429
 msgid "``KEY_PPAGE``"
@@ -1993,7 +1993,7 @@ msgstr "``KEY_COPY``"
 
 #: ../../library/curses.rst:1467
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 #: ../../library/curses.rst:1469
 msgid "``KEY_CREATE``"
@@ -2009,7 +2009,7 @@ msgstr "``KEY_END``"
 
 #: ../../library/curses.rst:1471
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #: ../../library/curses.rst:1473
 msgid "``KEY_EXIT``"
@@ -2017,7 +2017,7 @@ msgstr "``KEY_EXIT``"
 
 #: ../../library/curses.rst:1473
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 #: ../../library/curses.rst:1475
 msgid "``KEY_FIND``"
@@ -2025,7 +2025,7 @@ msgstr "``KEY_FIND``"
 
 #: ../../library/curses.rst:1475
 msgid "Find"
-msgstr ""
+msgstr "Find"
 
 #: ../../library/curses.rst:1477
 msgid "``KEY_HELP``"
@@ -2033,7 +2033,7 @@ msgstr "``KEY_HELP``"
 
 #: ../../library/curses.rst:1477
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 #: ../../library/curses.rst:1479
 msgid "``KEY_MARK``"
@@ -2041,7 +2041,7 @@ msgstr "``KEY_MARK``"
 
 #: ../../library/curses.rst:1479
 msgid "Mark"
-msgstr ""
+msgstr "Mark"
 
 #: ../../library/curses.rst:1481
 msgid "``KEY_MESSAGE``"
@@ -2057,7 +2057,7 @@ msgstr "``KEY_MOVE``"
 
 #: ../../library/curses.rst:1483
 msgid "Move"
-msgstr ""
+msgstr "Move"
 
 #: ../../library/curses.rst:1485
 msgid "``KEY_NEXT``"
@@ -2065,7 +2065,7 @@ msgstr "``KEY_NEXT``"
 
 #: ../../library/curses.rst:1485
 msgid "Next"
-msgstr ""
+msgstr "Next"
 
 #: ../../library/curses.rst:1487
 msgid "``KEY_OPEN``"
@@ -2073,7 +2073,7 @@ msgstr "``KEY_OPEN``"
 
 #: ../../library/curses.rst:1487
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: ../../library/curses.rst:1489
 msgid "``KEY_OPTIONS``"
@@ -2097,7 +2097,7 @@ msgstr "``KEY_REDO``"
 
 #: ../../library/curses.rst:1493
 msgid "Redo"
-msgstr ""
+msgstr "Redo"
 
 #: ../../library/curses.rst:1495
 msgid "``KEY_REFERENCE``"
@@ -2145,7 +2145,7 @@ msgstr "``KEY_SAVE``"
 
 #: ../../library/curses.rst:1505
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: ../../library/curses.rst:1507
 msgid "``KEY_SBEG``"
@@ -2393,7 +2393,7 @@ msgstr "``KEY_UNDO``"
 
 #: ../../library/curses.rst:1567
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 #: ../../library/curses.rst:1569
 msgid "``KEY_MOUSE``"
@@ -2432,7 +2432,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1585
 msgid "Keycap"
-msgstr ""
+msgstr "Keycap"
 
 #: ../../library/curses.rst:1585 ../../library/curses.rst:1702
 #: ../../library/curses.rst:1826
@@ -2869,7 +2869,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1706
 msgid "Blue"
-msgstr ""
+msgstr "Biru"
 
 #: ../../library/curses.rst:1708
 msgid "``COLOR_CYAN``"
@@ -2877,7 +2877,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1708
 msgid "Cyan (light greenish blue)"
-msgstr ""
+msgstr "Cyan (biru kehijauan terang)"
 
 #: ../../library/curses.rst:1710
 msgid "``COLOR_GREEN``"
@@ -2897,11 +2897,11 @@ msgstr ""
 
 #: ../../library/curses.rst:1714
 msgid "``COLOR_RED``"
-msgstr ""
+msgstr "``COLOR_RED``"
 
 #: ../../library/curses.rst:1714
 msgid "Red"
-msgstr ""
+msgstr "Merah"
 
 #: ../../library/curses.rst:1716
 msgid "``COLOR_WHITE``"
@@ -2989,7 +2989,7 @@ msgstr ""
 
 #: ../../library/curses.rst:1788 ../../library/curses.rst:1826
 msgid "Keystroke"
-msgstr ""
+msgstr "Keystroke"
 
 #: ../../library/curses.rst:1788
 msgid "Action"

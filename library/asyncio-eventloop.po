@@ -1191,7 +1191,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:925
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: ../../library/asyncio-eventloop.rst:930
 msgid "Asynchronous version of :meth:`socket.getaddrinfo`."

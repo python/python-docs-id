@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 14:24+0000\n"
 "PO-Revision-Date: 2017-02-16 23:14+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../library/idle.rst:86
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: ../../library/idle.rst:83
 msgid ""
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../library/idle.rst:103
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 #: ../../library/idle.rst:103
 msgid "Close all windows and quit IDLE (ask to save unsaved windows)."
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../library/idle.rst:110
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 #: ../../library/idle.rst:109
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../../library/idle.rst:113
 msgid "Redo"
-msgstr ""
+msgstr "Redo"
 
 #: ../../library/idle.rst:113
 msgid "Redo the last undone change to the current window."
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../../library/idle.rst:119 ../../library/idle.rst:365
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 #: ../../library/idle.rst:119 ../../library/idle.rst:365
 msgid "Copy selection into the system-wide clipboard."
