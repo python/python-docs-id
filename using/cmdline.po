@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 11:28+0000\n"
+"POT-Creation-Date: 2019-11-16 11:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:41+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -608,7 +608,7 @@ msgstr "Mengaktifkan :ref:`asyncio debug mode <asyncio-debug-mode>`."
 #: ../../using/cmdline.rst:456
 msgid ""
 "Set the :attr:`~sys.flags.dev_mode` attribute of :attr:`sys.flags` to "
-"``True``"
+"``True``."
 msgstr ""
 
 #: ../../using/cmdline.rst:458
@@ -973,11 +973,11 @@ msgid ""
 msgstr ""
 
 #: ../../using/cmdline.rst:776
-msgid "``malloc_debug``: same as ``malloc`` but also install debug hooks"
+msgid "``malloc_debug``: same as ``malloc`` but also install debug hooks."
 msgstr ""
 
 #: ../../using/cmdline.rst:777
-msgid "``pymalloc_debug``: same as ``pymalloc`` but also install debug hooks"
+msgid "``pymalloc_debug``: same as ``pymalloc`` but also install debug hooks."
 msgstr ""
 
 #: ../../using/cmdline.rst:779

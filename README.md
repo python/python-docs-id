@@ -135,6 +135,11 @@ Untuk mengirim pembaruan spesifik "resource" (misalnya python-newest.tutorial--i
 tx push -t -r python-newest.tutorial--interactive
 ```
 
+Untuk sinkronisasi ulang berkas-berkas terbaru dari proyek **python-newest**:
+```
+tx config mapping-remote https://www.transifex.com/python-doc/python-newest/
+```
+
 ### Membangun Berkas-berkas ".po" ini Menjadi Dokumentasi Python
 
 Tujuan utama dari penerjemahan berkas ".po" adalah menerjemahkan situs [Dokumentasi Python](https://docs.python.org).
