@@ -5,6 +5,7 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Tria Nur Aisyah Amini <aisyahnyawn@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: 2017-02-16 17:33+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Tria Nur Aisyah Amini <aisyahnyawn@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +32,9 @@ msgid ""
 "methods.  Additional information and examples are available in :ref"
 ":`extending-index`."
 msgstr ""
+"Fungsi - fungsi ini berguna ketika membuat fungsi dan method tambahan "
+"sendiri. Infomasi dan contoh selanjutnya tersedia dalam :ref:`extending-"
+"index`."
 
 #: ../../c-api/arg.rst:12
 msgid ""
@@ -40,6 +44,11 @@ msgid ""
 "arguments.  The format strings use the same syntax for each of these "
 "functions."
 msgstr ""
+"Tiga fungsi pertama dijelaskan yaitu, :c:func:`PyArg_ParseTuple`, "
+":c:func:`PyArg_ParseTupleAndKeywords`, dan :c:func:`PyArg_Parse`, semuanya "
+"menggunakan *format string* yang digunakan untuk memberitahu fungsi tentang "
+"argumen yang diharapkan. Format string menggunakan sintaks yang sama untuk "
+"setiap fungsi tersebut."
 
 #: ../../c-api/arg.rst:19
 msgid "Parsing arguments"

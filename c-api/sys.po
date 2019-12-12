@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-16 11:56+0000\n"
+"POT-Creation-Date: 2019-12-10 12:08+0000\n"
 "PO-Revision-Date: 2017-02-16 17:39+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -362,8 +362,8 @@ msgstr ""
 
 #: ../../c-api/sys.rst:312
 msgid ""
-"Raises an auditing event with any active hooks. Returns zero for success and"
-" non-zero with an exception set on failure."
+"Raise an auditing event with any active hooks. Return zero for success and "
+"non-zero with an exception set on failure."
 msgstr ""
 
 #: ../../c-api/sys.rst:315
@@ -378,18 +378,37 @@ msgid ""
 msgstr ""
 
 #: ../../c-api/sys.rst:323
+msgid ""
+"Note that ``#`` format characters should always be treated as "
+"``Py_ssize_t``, regardless of whether ``PY_SSIZE_T_CLEAN`` was defined."
+msgstr ""
+
+#: ../../c-api/sys.rst:326
 msgid ":func:`sys.audit` performs the same function from Python code."
 msgstr ""
 
-#: ../../c-api/sys.rst:330
+#: ../../c-api/sys.rst:332
 msgid ""
-"Adds to the collection of active auditing hooks. Returns zero for success "
-"and non-zero on failure. If the runtime has been initialized, also sets an "
-"error on failure. Hooks added through this API are called for all "
-"interpreters created by the runtime."
+"Require ``Py_ssize_t`` for ``#`` format characters. Previously, an "
+"unavoidable deprecation warning was raised."
 msgstr ""
 
-#: ../../c-api/sys.rst:335
+#: ../../c-api/sys.rst:338
+msgid ""
+"Append the callable *hook* to the list of active auditing hooks. Return zero"
+" for success and non-zero on failure. If the runtime has been initialized, "
+"also set an error on failure. Hooks added through this API are called for "
+"all interpreters created by the runtime."
+msgstr ""
+
+#: ../../c-api/sys.rst:344
+msgid ""
+"The *userData* pointer is passed into the hook function. Since hook "
+"functions may be called from different runtimes, this pointer should not "
+"refer directly to Python state."
+msgstr ""
+
+#: ../../c-api/sys.rst:348
 msgid ""
 "This function is safe to call before :c:func:`Py_Initialize`. When called "
 "after runtime initialization, existing audit hooks are notified and may "
@@ -397,7 +416,7 @@ msgid ""
 ":class:`Exception` (other errors will not be silenced)."
 msgstr ""
 
-#: ../../c-api/sys.rst:340
+#: ../../c-api/sys.rst:353
 msgid ""
 "The hook function is of type :c:type:`int (*)(const char *event, PyObject "
 "*args, void *userData)`, where *args* is guaranteed to be a "
@@ -405,19 +424,11 @@ msgid ""
 "held by the Python interpreter that raised the event."
 msgstr ""
 
-#: ../../c-api/sys.rst:345
+#: ../../c-api/sys.rst:358
 msgid ""
-"The *userData* pointer is passed into the hook function. Since hook "
-"functions may be called from different runtimes, this pointer should not "
-"refer directly to Python state."
-msgstr ""
-
-#: ../../c-api/sys.rst:349
-msgid ""
-"See :pep:`578` for a detailed description of auditing. Functions in the "
-"runtime and standard library that raise events include the details in each "
-"function's documentation and listed in the :ref:`audit events table <audit-"
-"events>`."
+"See :pep:`578` for a detailed description of auditing.  Functions in the "
+"runtime and standard library that raise events are listed in the :ref:`audit"
+" events table <audit-events>`. Details are in each function's documentation."
 msgstr ""
 
 #: ../../c-api/sys.rstNone
@@ -426,7 +437,7 @@ msgid ""
 "arguments."
 msgstr ""
 
-#: ../../c-api/sys.rst:356
+#: ../../c-api/sys.rst:365
 msgid ""
 "If the interpreter is initialized, this function raises a auditing event "
 "``sys.addaudithook`` with no arguments. If any existing hooks raise an "
@@ -435,11 +446,11 @@ msgid ""
 "hook has been added unless they control all existing hooks."
 msgstr ""
 
-#: ../../c-api/sys.rst:368
+#: ../../c-api/sys.rst:377
 msgid "Process Control"
 msgstr ""
 
-#: ../../c-api/sys.rst:375
+#: ../../c-api/sys.rst:384
 msgid ""
 "Print a fatal error message and kill the process.  No cleanup is performed. "
 "This function should only be invoked when a condition is detected that would"
@@ -449,18 +460,18 @@ msgid ""
 ":file:`core` file."
 msgstr ""
 
-#: ../../c-api/sys.rst:389
+#: ../../c-api/sys.rst:398
 msgid ""
 "Exit the current process.  This calls :c:func:`Py_FinalizeEx` and then calls"
 " the standard C library function ``exit(status)``.  If "
 ":c:func:`Py_FinalizeEx` indicates an error, the exit status is set to 120."
 msgstr ""
 
-#: ../../c-api/sys.rst:393
+#: ../../c-api/sys.rst:402
 msgid "Errors from finalization no longer ignored."
 msgstr ""
 
-#: ../../c-api/sys.rst:403
+#: ../../c-api/sys.rst:412
 msgid ""
 "Register a cleanup function to be called by :c:func:`Py_FinalizeEx`.  The "
 "cleanup function will be called with no arguments and should return no "
