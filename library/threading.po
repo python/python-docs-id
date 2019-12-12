@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 11:45+0000\n"
+"POT-Creation-Date: 2019-11-13 11:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:30+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -728,21 +728,22 @@ msgstr ""
 #: ../../library/threading.rst:537
 msgid ""
 "When invoked with the *blocking* argument set to true, do the same thing as "
-"when called without arguments, and return true."
+"when called without arguments, and return ``True``."
 msgstr ""
 
 #: ../../library/threading.rst:540
 msgid ""
 "When invoked with the *blocking* argument set to false, do not block.  If a "
-"call without an argument would block, return false immediately; otherwise, "
-"do the same thing as when called without arguments, and return true."
+"call without an argument would block, return ``False`` immediately; "
+"otherwise, do the same thing as when called without arguments, and return "
+"``True``."
 msgstr ""
 
 #: ../../library/threading.rst:544
 msgid ""
 "When invoked with the floating-point *timeout* argument set to a positive "
 "value, block for at most the number of seconds specified by *timeout* and as"
-" long as the lock cannot be acquired.  Return true if the lock has been "
+" long as the lock cannot be acquired.  Return ``True`` if the lock has been "
 "acquired, false if the timeout has elapsed."
 msgstr ""
 
@@ -1032,30 +1033,30 @@ msgstr ""
 #: ../../library/threading.rst:778
 msgid ""
 "If the internal counter is larger than zero on entry, decrement it by one "
-"and return true immediately."
+"and return ``True`` immediately."
 msgstr ""
 
 #: ../../library/threading.rst:780
 msgid ""
 "If the internal counter is zero on entry, block until awoken by a call to "
 ":meth:`~Semaphore.release`.  Once awoken (and the counter is greater than "
-"0), decrement the counter by 1 and return true.  Exactly one thread will be "
-"awoken by each call to :meth:`~Semaphore.release`.  The order in which "
+"0), decrement the counter by 1 and return ``True``.  Exactly one thread will"
+" be awoken by each call to :meth:`~Semaphore.release`.  The order in which "
 "threads are awoken should not be relied on."
 msgstr ""
 
 #: ../../library/threading.rst:786
 msgid ""
 "When invoked with *blocking* set to false, do not block.  If a call without "
-"an argument would block, return false immediately; otherwise, do the same "
-"thing as when called without arguments, and return true."
+"an argument would block, return ``False`` immediately; otherwise, do the "
+"same thing as when called without arguments, and return ``True``."
 msgstr ""
 
 #: ../../library/threading.rst:790
 msgid ""
 "When invoked with a *timeout* other than ``None``, it will block for at most"
 " *timeout* seconds.  If acquire does not complete successfully in that "
-"interval, return false.  Return true otherwise."
+"interval, return ``False``.  Return ``True`` otherwise."
 msgstr ""
 
 #: ../../library/threading.rst:799
@@ -1125,7 +1126,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/threading.rst:869
-msgid "Return true if and only if the internal flag is true."
+msgid "Return ``True`` if and only if the internal flag is true."
 msgstr ""
 
 #: ../../library/threading.rst:873
@@ -1158,8 +1159,8 @@ msgstr ""
 
 #: ../../library/threading.rst:893
 msgid ""
-"This method returns true if and only if the internal flag has been set to "
-"true, either before the wait call or after the wait starts, so it will "
+"This method returns ``True`` if and only if the internal flag has been set "
+"to true, either before the wait call or after the wait starts, so it will "
 "always return ``True`` except if a timeout is given and the operation times "
 "out."
 msgstr ""

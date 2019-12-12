@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 11:47+0000\n"
+"POT-Creation-Date: 2019-11-13 11:56+0000\n"
 "PO-Revision-Date: 2019-09-01 14:44+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -1124,8 +1124,8 @@ msgstr "logging"
 #: ../../whatsnew/3.8.rst:928
 msgid ""
 "Added a *force* keyword argument to :func:`logging.basicConfig()` When set "
-"to *True*, any existing handlers attached to the root logger are removed and"
-" closed before carrying out the configuration specified by the other "
+"to true, any existing handlers attached to the root logger are removed and "
+"closed before carrying out the configuration specified by the other "
 "arguments."
 msgstr ""
 
@@ -1299,8 +1299,8 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:1056
 msgid ""
-":func:`~os.path.isdir` on Windows no longer returns true for a link to a "
-"non-existent directory."
+":func:`~os.path.isdir` on Windows no longer returns ``True`` for a link to a"
+" non-existent directory."
 msgstr ""
 
 #: ../../whatsnew/3.8.rst:1059
@@ -1364,7 +1364,7 @@ msgstr ""
 msgid ""
 "The :mod:`pprint` module added a *sort_dicts* parameter to several "
 "functions. By default, those functions continue to sort dictionaries before "
-"rendering or printing.  However, if *sort_dicts* is set to *False*, the "
+"rendering or printing.  However, if *sort_dicts* is set to false, the "
 "dictionaries retain the order that keys were inserted.  This can be useful "
 "for comparison to JSON inputs during debugging."
 msgstr ""
@@ -1372,7 +1372,7 @@ msgstr ""
 #: ../../whatsnew/3.8.rst:1109
 msgid ""
 "In addition, there is a convenience new function, :func:`pprint.pp` that is "
-"like :func:`pprint.pprint` but with *sort_dicts* defaulting to *False*::"
+"like :func:`pprint.pprint` but with *sort_dicts* defaulting to ``False``::"
 msgstr ""
 
 #: ../../whatsnew/3.8.rst:1123
@@ -2825,3 +2825,7 @@ msgstr ""
 "Menambahkan skrip patokan atau *benchmark* untuk menentukan waktu berbagai "
 "cara untuk mengakses variabel: ``Tools/scripts/var_access_benchmark.py``. "
 "(Dikontribusikan oleh Raymond Hettinger di :issue:`35884`.)"
+
+#: ../../whatsnew/3.8.rst:2161
+msgid "Here's a summary of performance improvements since Python 3.3:"
+msgstr ""
