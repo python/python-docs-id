@@ -5,15 +5,16 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Tria Nur Aisyah Amini <aisyahnyawn@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-12-16 12:12+0000\n"
 "PO-Revision-Date: 2017-02-16 17:33+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Tria Nur Aisyah Amini <aisyahnyawn@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,97 +22,108 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../c-api/apiabiversion.rst:7
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:7
 msgid "API and ABI Versioning"
 msgstr "Pengelolaan Versi API dan ABI"
 
-#: ../../c-api/apiabiversion.rst:9
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:9
 msgid ""
 "``PY_VERSION_HEX`` is the Python version number encoded in a single integer."
 msgstr ""
+"``PY_VERSION_HEX`` adalah nomor versi Python yang dikodekan dalam bilangan "
+"bulat tunggal."
 
-#: ../../c-api/apiabiversion.rst:11
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:11
 msgid ""
 "For example if the ``PY_VERSION_HEX`` is set to ``0x030401a2``, the "
 "underlying version information can be found by treating it as a 32 bit "
 "number in the following manner:"
 msgstr ""
+"Sebagai contoh, jika ``PY_VERSION_HEX`` diatur ke ``0x030401a2`` , informasi"
+" versi yang mendasarinya dapat ditemukan dengan memperlakukannya sebagai "
+"bilangan 32 bit dengan cara berikut:"
 
-#: ../../c-api/apiabiversion.rst:16
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:16
 msgid "Bytes"
 msgstr "Bytes"
 
-#: ../../c-api/apiabiversion.rst:16
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:16
 msgid "Bits (big endian order)"
 msgstr "Bits (urutan endian besar)"
 
-#: ../../c-api/apiabiversion.rst:16
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:16
 msgid "Meaning"
 msgstr "Artinya"
 
-#: ../../c-api/apiabiversion.rst:18
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:18
 msgid "``1``"
 msgstr "``1``"
 
-#: ../../c-api/apiabiversion.rst:18
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:18
 msgid "``1-8``"
 msgstr "``1-8``"
 
-#: ../../c-api/apiabiversion.rst:18
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:18
 msgid "``PY_MAJOR_VERSION`` (the ``3`` in ``3.4.1a2``)"
-msgstr ""
+msgstr "``PY_MAJOR_VERSION`` (``3`` dalam ``3.4.1a2``)"
 
-#: ../../c-api/apiabiversion.rst:21
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:21
 msgid "``2``"
 msgstr "``2``"
 
-#: ../../c-api/apiabiversion.rst:21
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:21
 msgid "``9-16``"
 msgstr "``9-16``"
 
-#: ../../c-api/apiabiversion.rst:21
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:21
 msgid "``PY_MINOR_VERSION`` (the ``4`` in ``3.4.1a2``)"
-msgstr ""
+msgstr "``PY_MINOR_VERSION`` (``4`` dalam ``3.4.1a2``)"
 
-#: ../../c-api/apiabiversion.rst:24
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:24
 msgid "``3``"
 msgstr "``3``"
 
-#: ../../c-api/apiabiversion.rst:24
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:24
 msgid "``17-24``"
 msgstr "``17-24``"
 
-#: ../../c-api/apiabiversion.rst:24
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:24
 msgid "``PY_MICRO_VERSION`` (the ``1`` in ``3.4.1a2``)"
-msgstr ""
+msgstr "``PY_MICRO_VERSION`` (``1`` dalam ``3.4.1a2``)"
 
-#: ../../c-api/apiabiversion.rst:27
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:27
 msgid "``4``"
 msgstr "``4``"
 
-#: ../../c-api/apiabiversion.rst:27
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:27
 msgid "``25-28``"
 msgstr "``25-28``"
 
-#: ../../c-api/apiabiversion.rst:27
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:27
 msgid ""
 "``PY_RELEASE_LEVEL`` (``0xA`` for alpha, ``0xB`` for beta, ``0xC`` for "
 "release candidate and ``0xF`` for final), in this case it is alpha."
 msgstr ""
+"``PY_RELEASE_LEVEL`` (``0xA`` untuk alfa, ``0xB`` untuk beta, ``0xC`` untuk "
+"kandidat yang di rilis and ``0xF`` untuk final), dalam kasus ini adalah "
+"alfa."
 
-#: ../../c-api/apiabiversion.rst:32
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:32
 msgid "``29-32``"
 msgstr "``29-32``"
 
-#: ../../c-api/apiabiversion.rst:32
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:32
 msgid ""
 "``PY_RELEASE_SERIAL`` (the ``2`` in ``3.4.1a2``, zero for final releases)"
 msgstr ""
+"``PY_RELEASE_SERIAL`` (``2`` dalam ``3.4.1a2``, nol untuk final rilis)"
 
-#: ../../c-api/apiabiversion.rst:36
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:36
 msgid "Thus ``3.4.1a2`` is hexversion ``0x030401a2``."
-msgstr ""
+msgstr "Sehingga ``3.4.1a2`` adalah versi hex dari ``0x030401a2``."
 
-#: ../../c-api/apiabiversion.rst:38
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/apiabiversion.rst:38
 msgid "All the given macros are defined in :source:`Include/patchlevel.h`."
 msgstr ""
+"Semua makro yang diberikan didefinisikan "
+"dalam:source:`Include/patchlevel.h`."
