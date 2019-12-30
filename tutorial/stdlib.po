@@ -5,15 +5,16 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Septian Hari <septianhari@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 11:58+0000\n"
+"POT-Creation-Date: 2019-12-16 12:12+0000\n"
 "PO-Revision-Date: 2017-02-16 23:41+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +22,15 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../tutorial/stdlib.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:5
 msgid "Brief Tour of the Standard Library"
 msgstr "Tur Singkat Pustaka Standar"
 
-#: ../../tutorial/stdlib.rst:11
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:11
 msgid "Operating System Interface"
 msgstr "Antarmuka Sistem Operasi"
 
-#: ../../tutorial/stdlib.rst:13
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:13
 msgid ""
 "The :mod:`os` module provides dozens of functions for interacting with the "
 "operating system::"
@@ -37,7 +38,7 @@ msgstr ""
 "Modul :mod:`os` menyediakan puluhan fungsi untuk berinteraksi dengan sistem "
 "operasi::"
 
-#: ../../tutorial/stdlib.rst:23
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:23
 msgid ""
 "Be sure to use the ``import os`` style instead of ``from os import *``.  "
 "This will keep :func:`os.open` from shadowing the built-in :func:`open` "
@@ -47,7 +48,7 @@ msgstr ""
 "*``. Ini akan menjaga :func:`os.open` dari membayangi *shadowing* fungsi "
 "bawaan :func:`open` yang beroperasi jauh berbeda."
 
-#: ../../tutorial/stdlib.rst:29
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:29
 msgid ""
 "The built-in :func:`dir` and :func:`help` functions are useful as "
 "interactive aids for working with large modules like :mod:`os`::"
@@ -55,7 +56,7 @@ msgstr ""
 "Fungsi bawaan :func:`dir` dan :func:`help` berguna sebagai alat bantu "
 "interaktif untuk bekerja dengan modul besar seperti :mod:`os`::"
 
-#: ../../tutorial/stdlib.rst:38
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:38
 msgid ""
 "For daily file and directory management tasks, the :mod:`shutil` module "
 "provides a higher level interface that is easier to use::"
@@ -63,11 +64,11 @@ msgstr ""
 "Untuk tugas manajemen berkas dan direktori sehari-hari, modul :mod:`shutil` "
 "menyediakan antarmuka level yang lebih tinggi yang lebih mudah digunakan::"
 
-#: ../../tutorial/stdlib.rst:51
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:51
 msgid "File Wildcards"
 msgstr "Berkas *Wildcard*"
 
-#: ../../tutorial/stdlib.rst:53
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:53
 msgid ""
 "The :mod:`glob` module provides a function for making file lists from "
 "directory wildcard searches::"
@@ -75,11 +76,11 @@ msgstr ""
 "Modul :mod:`glob` menyediakan fungsi untuk membuat daftar berkas dari "
 "pencarian *wildcard* di direktori::"
 
-#: ../../tutorial/stdlib.rst:64
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:64
 msgid "Command Line Arguments"
 msgstr "Baris Perintah Berargumen"
 
-#: ../../tutorial/stdlib.rst:66
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:66
 msgid ""
 "Common utility scripts often need to process command line arguments. These "
 "arguments are stored in the :mod:`sys` module's *argv* attribute as a list."
@@ -91,25 +92,31 @@ msgstr ""
 "sebagai daftar. Sebagai contoh, hasil keluaran berikut dari menjalankan "
 "``python demo.py one two three`` di baris perintah ::"
 
-#: ../../tutorial/stdlib.rst:75
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:75
 msgid ""
 "The :mod:`argparse` module provides a more sophisticated mechanism to "
 "process command line arguments.  The following script extracts one or more "
 "filenames and an optional number of lines to be displayed::"
 msgstr ""
+"Modul :mod:`argparse` menyediakan mekanisme yang lebih canggih untuk "
+"memproses argumen baris perintah. Script berikut mengekstrak satu atau lebih"
+" nama file dan sejumlah baris opsional untuk ditampilkan::"
 
-#: ../../tutorial/stdlib.rst:88
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:88
 msgid ""
 "When run at the command line with ``python top.py --lines=5 alpha.txt "
 "beta.txt``, the script sets ``args.lines`` to ``5`` and ``args.filenames`` "
 "to ``['alpha.txt', 'beta.txt']``."
 msgstr ""
+"Ketika dijalankan pada baris perintah dengan ``python top.py --lines=5 "
+"alpha.txt beta.txt``, skrip mengatur ``args.lines`` menjadi ``5`` dan "
+"``args.filenames`` menjadi ``['alpha.txt', 'beta.txt']``."
 
-#: ../../tutorial/stdlib.rst:96
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:96
 msgid "Error Output Redirection and Program Termination"
 msgstr "Pengalihan Output Kesalahan dan Pengakhiran Program"
 
-#: ../../tutorial/stdlib.rst:98
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:98
 msgid ""
 "The :mod:`sys` module also has attributes for *stdin*, *stdout*, and "
 "*stderr*. The latter is useful for emitting warnings and error messages to "
@@ -119,17 +126,17 @@ msgstr ""
 "*stderr*. Yang terakhir berguna untuk mengirimkan peringatan dan pesan "
 "kesalahan untuk membuatnya terlihat bahkan ketika *stdout* telah dialihkan::"
 
-#: ../../tutorial/stdlib.rst:105
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:105
 msgid "The most direct way to terminate a script is to use ``sys.exit()``."
 msgstr ""
 "Cara paling langsung untuk mengakhiri skrip adalah dengan menggunakan "
 "``sys.exit()``."
 
-#: ../../tutorial/stdlib.rst:111
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:111
 msgid "String Pattern Matching"
 msgstr "Pencocokan Pola String"
 
-#: ../../tutorial/stdlib.rst:113
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:113
 msgid ""
 "The :mod:`re` module provides regular expression tools for advanced string "
 "processing. For complex matching and manipulation, regular expressions offer"
@@ -139,7 +146,7 @@ msgstr ""
 "lanjutan. Untuk pencocokan dan manipulasi yang kompleks, ekspresi reguler "
 "menawarkan solusi yang ringkas dan dioptimalkan::"
 
-#: ../../tutorial/stdlib.rst:123
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:123
 msgid ""
 "When only simple capabilities are needed, string methods are preferred "
 "because they are easier to read and debug::"
@@ -147,11 +154,11 @@ msgstr ""
 "Ketika hanya kemampuan sederhana yang diperlukan, metode string lebih "
 "disukai karena lebih mudah dibaca dan dilakukan *debug*::"
 
-#: ../../tutorial/stdlib.rst:133
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:133
 msgid "Mathematics"
 msgstr "Matematika"
 
-#: ../../tutorial/stdlib.rst:135
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:135
 msgid ""
 "The :mod:`math` module gives access to the underlying C library functions "
 "for floating point math::"
@@ -159,11 +166,11 @@ msgstr ""
 "Modul :mod:`math` memberikan akses ke fungsi-fungsi pustaka C yang mendasari"
 " untuk matematika angka pecahan *floating point*::"
 
-#: ../../tutorial/stdlib.rst:144
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:144
 msgid "The :mod:`random` module provides tools for making random selections::"
 msgstr "Modul :mod:`random` menyediakan alat untuk membuat pilihan acak::"
 
-#: ../../tutorial/stdlib.rst:156
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:156
 msgid ""
 "The :mod:`statistics` module calculates basic statistical properties (the "
 "mean, median, variance, etc.) of numeric data::"
@@ -171,7 +178,7 @@ msgstr ""
 "Modul :mod:`statistics` menghitung sifat statistik dasar (rata-rata, median,"
 " varian, dll.) dari data numerik::"
 
-#: ../../tutorial/stdlib.rst:168
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:168
 msgid ""
 "The SciPy project <https://scipy.org> has many other modules for numerical "
 "computations."
@@ -179,11 +186,11 @@ msgstr ""
 "Proyek SciPy <https://scipy.org> memiliki banyak modul lain untuk "
 "perhitungan numerik."
 
-#: ../../tutorial/stdlib.rst:174
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:174
 msgid "Internet Access"
 msgstr "Akses internet"
 
-#: ../../tutorial/stdlib.rst:176
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:176
 msgid ""
 "There are a number of modules for accessing the internet and processing "
 "internet protocols. Two of the simplest are :mod:`urllib.request` for "
@@ -193,18 +200,18 @@ msgstr ""
 " Dua yang paling sederhana adalah :mod:`urllib.request` untuk mengambil data"
 " dari URL dan :mod:`smtplib` untuk mengirim email::"
 
-#: ../../tutorial/stdlib.rst:199
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:199
 msgid ""
 "(Note that the second example needs a mailserver running on localhost.)"
 msgstr ""
 "(Perhatikan bahwa contoh kedua membutuhkan server mail yang beroperasi di "
 "localhost.)"
 
-#: ../../tutorial/stdlib.rst:205
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:205
 msgid "Dates and Times"
 msgstr "Tanggal dan Waktu"
 
-#: ../../tutorial/stdlib.rst:207
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:207
 msgid ""
 "The :mod:`datetime` module supplies classes for manipulating dates and times"
 " in both simple and complex ways. While date and time arithmetic is "
@@ -218,11 +225,11 @@ msgstr ""
 "efisien untuk pemformatan dan manipulasi keluaran. Modul ini juga mendukung "
 "objek yang sadar zona waktu. ::"
 
-#: ../../tutorial/stdlib.rst:231
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:231
 msgid "Data Compression"
 msgstr "Kompresi Data"
 
-#: ../../tutorial/stdlib.rst:233
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:233
 msgid ""
 "Common data archiving and compression formats are directly supported by "
 "modules including: :mod:`zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, "
@@ -232,11 +239,11 @@ msgstr ""
 " yang ada antara lain: :mod: `zlib`, :mod:`gzip`, :mod:`bz2`, :mod:`lzma`, "
 ":mod:`zipfile` dan :mod:`tarfile`. ::"
 
-#: ../../tutorial/stdlib.rst:253
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:253
 msgid "Performance Measurement"
 msgstr "Pengukuran Kinerja"
 
-#: ../../tutorial/stdlib.rst:255
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:255
 msgid ""
 "Some Python users develop a deep interest in knowing the relative "
 "performance of different approaches to the same problem. Python provides a "
@@ -246,7 +253,7 @@ msgstr ""
 "kinerja relatif dari berbagai pendekatan untuk masalah yang sama. Python "
 "menyediakan alat pengukuran yang segera menjawab pertanyaan-pertanyaan itu."
 
-#: ../../tutorial/stdlib.rst:259
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:259
 msgid ""
 "For example, it may be tempting to use the tuple packing and unpacking "
 "feature instead of the traditional approach to swapping arguments. The "
@@ -257,7 +264,7 @@ msgstr ""
 ":mod: `timeit` dengan cepat menunjukkan keunggulan kinerja secara "
 "sederhana::"
 
-#: ../../tutorial/stdlib.rst:269
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:269
 msgid ""
 "In contrast to :mod:`timeit`'s fine level of granularity, the :mod:`profile`"
 " and :mod:`pstats` modules provide tools for identifying time critical "
@@ -267,11 +274,11 @@ msgstr ""
 " dan :mod:`pstats` menyediakan alat untuk mengidentifikasi bagian kritis "
 "waktu dalam blok kode yang lebih besar."
 
-#: ../../tutorial/stdlib.rst:277
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:277
 msgid "Quality Control"
 msgstr "Kontrol kualitas"
 
-#: ../../tutorial/stdlib.rst:279
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:279
 msgid ""
 "One approach for developing high quality software is to write tests for each"
 " function as it is developed and to run those tests frequently during the "
@@ -281,7 +288,7 @@ msgstr ""
 " adalah dengan menulis tes untuk setiap fungsi yang dikembangkan dan untuk "
 "sering menjalankan tes tersebut selama proses pengembangan."
 
-#: ../../tutorial/stdlib.rst:283
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:283
 msgid ""
 "The :mod:`doctest` module provides a tool for scanning a module and "
 "validating tests embedded in a program's docstrings.  Test construction is "
@@ -297,7 +304,7 @@ msgstr ""
 "memungkinkan modul *doctest* untuk memastikan kode tetap benar untuk "
 "dokumentasi::"
 
-#: ../../tutorial/stdlib.rst:301
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:301
 msgid ""
 "The :mod:`unittest` module is not as effortless as the :mod:`doctest` "
 "module, but it allows a more comprehensive set of tests to be maintained in "
@@ -307,11 +314,11 @@ msgstr ""
 "memungkinkan serangkaian tes yang lebih komprehensif untuk dipertahankan "
 "dalam file terpisah::"
 
-#: ../../tutorial/stdlib.rst:323
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:323
 msgid "Batteries Included"
 msgstr "Dilengkapi Baterai"
 
-#: ../../tutorial/stdlib.rst:325
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:325
 msgid ""
 "Python has a \"batteries included\" philosophy.  This is best seen through "
 "the sophisticated and robust capabilities of its larger packages. For "
@@ -321,7 +328,7 @@ msgstr ""
 "melalui kemampuan yang canggih dan kuat *robust* dengan dukungan paket-paket"
 " yang lebih besar. Sebagai contoh:"
 
-#: ../../tutorial/stdlib.rst:328
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:328
 msgid ""
 "The :mod:`xmlrpc.client` and :mod:`xmlrpc.server` modules make implementing "
 "remote procedure calls into an almost trivial task.  Despite the modules "
@@ -332,7 +339,7 @@ msgstr ""
 "dari nama-nama modul, tidak diperlukan pengetahuan atau penanganan XML "
 "secara langsung."
 
-#: ../../tutorial/stdlib.rst:332
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:332
 msgid ""
 "The :mod:`email` package is a library for managing email messages, including"
 " MIME and other :rfc:`2822`-based message documents. Unlike :mod:`smtplib` "
@@ -348,7 +355,7 @@ msgstr ""
 "mendekodekan struktur pesan kompleks (termasuk lampiran) dan untuk "
 "mengimplementasikan pengkodean internet dan protokol header."
 
-#: ../../tutorial/stdlib.rst:339
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:339
 msgid ""
 "The :mod:`json` package provides robust support for parsing this popular "
 "data interchange format.  The :mod:`csv` module supports direct reading and "
@@ -366,7 +373,7 @@ msgstr ""
 "sama, modul dan paket ini sangat menyederhanakan pertukaran data antara "
 "aplikasi Python dan alat lainnya."
 
-#: ../../tutorial/stdlib.rst:348
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:348
 msgid ""
 "The :mod:`sqlite3` module is a wrapper for the SQLite database library, "
 "providing a persistent database that can be updated and accessed using "
@@ -376,7 +383,7 @@ msgstr ""
 "menyediakan basis data persisten yang dapat diperbarui dan diakses "
 "menggunakan sintaks SQL yang sedikit tidak standar."
 
-#: ../../tutorial/stdlib.rst:352
+#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/stdlib.rst:352
 msgid ""
 "Internationalization is supported by a number of modules including "
 ":mod:`gettext`, :mod:`locale`, and the :mod:`codecs` package."

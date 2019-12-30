@@ -5,15 +5,16 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Septian Hari <septianhari@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-12-16 12:12+0000\n"
 "PO-Revision-Date: 2017-02-16 23:06+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +22,11 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/development.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:5
 msgid "Development Tools"
-msgstr ""
+msgstr "Alat Pengembangan"
 
-#: ../../library/development.rst:7
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:7
 msgid ""
 "The modules described in this chapter help you write software.  For example,"
 " the :mod:`pydoc` module takes a module and generates documentation based on"
@@ -34,13 +35,22 @@ msgid ""
 "and verify that the expected output is produced.  :program:`2to3` can "
 "translate Python 2.x source code into valid Python 3.x code."
 msgstr ""
+"Modul yang dijelaskan dalam bab ini membantu Anda menulis perangkat lunak. "
+"Sebagai contoh, modul :mod:`pydoc` mengambil modul dan menghasilkan "
+"dokumentasi berdasarkan isi modul. Modul :mod:`doctest` dan :mod:`unittest` "
+"berisi kerangka kerja untuk penulisan unit test yang secara otomatis "
+"menjalankan kode dan memverifikasi bahwa output yang diharapkan dihasilkan. "
+":program:`2to3` dapat menerjemahkan kode Python 2.x menjadi kode Python 3.x "
+"yang valid."
 
-#: ../../library/development.rst:14
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:14
 msgid "The list of modules described in this chapter is:"
 msgstr "Daftar modul yang dijelaskan di dalam bab ini adalah:"
 
-#: ../../library/development.rst:28
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:28
 msgid ""
 "See also the Python development mode: the :option:`-X` ``dev`` option and "
 ":envvar:`PYTHONDEVMODE` environment variable."
 msgstr ""
+"Lihat juga mode pengembangan Python: opsi :option:`-X` ``dev`` dan variabel "
+"lingkungan (environment variable) :envvar:`PYTHONDEVMODE`."
