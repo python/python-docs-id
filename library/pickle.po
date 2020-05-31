@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-04 11:51+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:22+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -368,7 +368,7 @@ msgstr ""
 #: ../../library/pickle.rst:257
 msgid ""
 "Return the reconstituted object hierarchy of the pickled representation "
-"*bytes_object* of an object."
+"*data* of an object. *data* must be a :term:`bytes-like object`."
 msgstr ""
 
 #: ../../library/pickle.rst:271
@@ -848,9 +848,8 @@ msgid ""
 "At unpickling time, some methods like :meth:`__getattr__`, "
 ":meth:`__getattribute__`, or :meth:`__setattr__` may be called upon the "
 "instance.  In case those methods rely on some internal invariant being true,"
-" the type should implement :meth:`__getnewargs__` or "
-":meth:`__getnewargs_ex__` to establish such an invariant; otherwise, neither"
-" :meth:`__new__` nor :meth:`__init__` will be called."
+" the type should implement :meth:`__new__` to establish such an invariant, "
+"as :meth:`__init__` is not called when unpickling an instance."
 msgstr ""
 
 #: ../../library/pickle.rst:648

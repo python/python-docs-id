@@ -1,20 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
-# Septian Hari <septianhari@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 12:12+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:16+0000\n"
-"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,31 +21,27 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:2
+#: ../../library/keyword.rst:2
 msgid ":mod:`keyword` --- Testing for Python keywords"
 msgstr ":mod:`keyword` --- Pengujian untuk kata kunci Python"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:7
+#: ../../library/keyword.rst:7
 msgid "**Source code:** :source:`Lib/keyword.py`"
 msgstr "**Kode sumber:** :source:`Lib/keyword.py`"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:11
+#: ../../library/keyword.rst:11
 msgid ""
-"This module allows a Python program to determine if a string is a keyword."
+"This module allows a Python program to determine if a string is a "
+":ref:`keyword <keywords>`."
 msgstr ""
-"Modul ini memungkinkan program Python untuk menentukan apakah sebuah string "
-"adalah kata kunci."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:16
-msgid "Return ``True`` if *s* is a Python keyword."
-msgstr "Mengembalikan nilai ``True`` jika *s* adalah kata kunci Python."
+#: ../../library/keyword.rst:17
+msgid "Return ``True`` if *s* is a Python :ref:`keyword <keywords>`."
+msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:21
+#: ../../library/keyword.rst:22
 msgid ""
-"Sequence containing all the keywords defined for the interpreter.  If any "
-"keywords are defined to only be active when particular :mod:`__future__` "
-"statements are in effect, these will be included as well."
+"Sequence containing all the :ref:`keywords <keywords>` defined for the "
+"interpreter.  If any keywords are defined to only be active when particular "
+":mod:`__future__` statements are in effect, these will be included as well."
 msgstr ""
-"Urutan yang mengandung semua kata kunci yang ditentukan untuk interpreter. "
-"Jika kata kunci apa pun ditetapkan hanya aktif ketika pernyataan khusus "
-":mod:`__future__` berlaku, maka ini akan disertakan juga."

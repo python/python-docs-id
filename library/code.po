@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:02+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -79,8 +79,8 @@ msgstr ""
 msgid ""
 "*source* is the source string; *filename* is the optional filename from "
 "which source was read, defaulting to ``'<input>'``; and *symbol* is the "
-"optional grammar start symbol, which should be either ``'single'`` (the "
-"default) or ``'eval'``."
+"optional grammar start symbol, which should be ``'single'`` (the default), "
+"``'eval'`` or ``'exec'``."
 msgstr ""
 
 #: ../../library/code.rst:62
@@ -100,7 +100,7 @@ msgstr ""
 msgid ""
 "Compile and run some source in the interpreter. Arguments are the same as "
 "for :func:`compile_command`; the default for *filename* is ``'<input>'``, "
-"and for *symbol* is ``'single'``.  One several things can happen:"
+"and for *symbol* is ``'single'``.  One of several things can happen:"
 msgstr ""
 
 #: ../../library/code.rst:81

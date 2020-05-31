@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:46+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -403,9 +403,9 @@ msgstr ""
 
 #: ../../howto/sockets.rst:320
 msgid ""
-"In Python, you use ``socket.setblocking(0)`` to make it non-blocking. In C, "
-"it's more complex, (for one thing, you'll need to choose between the BSD "
-"flavor ``O_NONBLOCK`` and the almost indistinguishable Posix flavor "
+"In Python, you use ``socket.setblocking(False)`` to make it non-blocking. In"
+" C, it's more complex, (for one thing, you'll need to choose between the BSD"
+" flavor ``O_NONBLOCK`` and the almost indistinguishable POSIX flavor "
 "``O_NDELAY``, which is completely different from ``TCP_NODELAY``), but it's "
 "the exact same idea. You do this after creating the socket, but before using"
 " it. (Actually, if you're nuts, you can switch back and forth.)"

@@ -2911,3 +2911,48 @@ source_lang = en
 trans.id = whatsnew/3_8.po
 type = PO
 
+[python-newest.c-api--call]
+file_filter = translations/python-newest.c-api--call/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--devmode]
+file_filter = translations/python-newest.library--devmode/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--dialog]
+file_filter = translations/python-newest.library--dialog/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_colorchooser]
+file_filter = translations/python-newest.library--tkinter_colorchooser/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_dnd]
+file_filter = translations/python-newest.library--tkinter_dnd/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_font]
+file_filter = translations/python-newest.library--tkinter_font/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_messagebox]
+file_filter = translations/python-newest.library--tkinter_messagebox/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.library--zoneinfo]
+file_filter = translations/python-newest.library--zoneinfo/<lang>.po
+source_lang = en
+type = PO
+
+[python-newest.whatsnew--3_9]
+file_filter = translations/python-newest.whatsnew--3_9/<lang>.po
+source_lang = en
+type = PO
+

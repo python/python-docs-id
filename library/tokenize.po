@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:31+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid ""
 "The :mod:`tokenize` module provides a lexical scanner for Python source "
 "code, implemented in Python.  The scanner in this module returns comments as"
-" tokens as well, making it useful for implementing \"pretty-printers,\" "
+" tokens as well, making it useful for implementing \"pretty-printers\", "
 "including colorizers for on-screen displays."
 msgstr ""
 
@@ -263,4 +263,14 @@ msgstr ""
 #: ../../library/tokenize.rst:256
 msgid ""
 "The exact token type names can be displayed using the :option:`-e` option:"
+msgstr ""
+
+#: ../../library/tokenize.rst:282
+msgid ""
+"Example of tokenizing a file programmatically, reading unicode strings "
+"instead of bytes with :func:`generate_tokens`::"
+msgstr ""
+
+#: ../../library/tokenize.rst:292
+msgid "Or reading bytes directly with :func:`.tokenize`::"
 msgstr ""

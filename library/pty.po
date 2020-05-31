@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:23+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -107,17 +107,34 @@ msgid ""
 "<https://bugs.python.org/issue26228>`_."
 msgstr ""
 
-#: ../../library/pty.rst:73
+#: ../../library/pty.rst:72
+msgid ""
+"Return the exit status value from :func:`os.waitpid` on the child process."
+msgstr ""
+
+#: ../../library/pty.rst:74
+msgid ""
+":func:`waitstatus_to_exitcode` can be used to convert the exit status into "
+"an exit code."
+msgstr ""
+
+#: ../../library/pty.rst:78
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``pty.spawn`` with argument "
+"``argv``."
+msgstr ""
+
+#: ../../library/pty.rst:79
 msgid ""
 ":func:`spawn` now returns the status value from :func:`os.waitpid` on the "
 "child process."
 msgstr ""
 
-#: ../../library/pty.rst:78
+#: ../../library/pty.rst:84
 msgid "Example"
 msgstr "Contoh"
 
-#: ../../library/pty.rst:82
+#: ../../library/pty.rst:88
 msgid ""
 "The following program acts like the Unix command :manpage:`script(1)`, using"
 " a pseudo-terminal to record all input and output of a terminal session in a"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-26 11:46+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -677,7 +677,15 @@ msgstr ""
 "gunakan fungsi :func:`sort` yang mengembalikan daftar terurut baru dengan "
 "membiarkan sumber tidak diubah. ::"
 
-#: ../../tutorial/datastructures.rst:625
+#: ../../tutorial/datastructures.rst:627
+msgid ""
+"Using :func:`set` on a sequence eliminates duplicate elements. The use of "
+":func:`sorted` in combination with :func:`set` over a sequence is an "
+"idiomatic way to loop over unique elements of the sequence in sorted order. "
+"::"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:640
 msgid ""
 "It is sometimes tempting to change a list while you are looping over it; "
 "however, it is often simpler and safer to create a new list instead. ::"
@@ -685,11 +693,11 @@ msgstr ""
 "Terkadang tergoda untuk mengubah daftar *list* saat Anda mengulanginya; "
 "namun, seringkali lebih mudah dan aman untuk membuat daftar *list* baru. ::"
 
-#: ../../tutorial/datastructures.rst:642
+#: ../../tutorial/datastructures.rst:657
 msgid "More on Conditions"
 msgstr "Lebih lanjut tentang Kondisi"
 
-#: ../../tutorial/datastructures.rst:644
+#: ../../tutorial/datastructures.rst:659
 msgid ""
 "The conditions used in ``while`` and ``if`` statements can contain any "
 "operators, not just comparisons."
@@ -697,7 +705,7 @@ msgstr ""
 "Kondisi yang digunakan dalam pernyataan ``while`` dan ``if`` dapat berisi "
 "operator apa pun, bukan hanya perbandingan."
 
-#: ../../tutorial/datastructures.rst:647
+#: ../../tutorial/datastructures.rst:662
 msgid ""
 "The comparison operators ``in`` and ``not in`` check whether a value occurs "
 "(does not occur) in a sequence.  The operators ``is`` and ``is not`` compare"
@@ -712,7 +720,7 @@ msgstr ""
 "pembanding memiliki prioritas yang sama, yang lebih rendah daripada semua "
 "operator numerik."
 
-#: ../../tutorial/datastructures.rst:653
+#: ../../tutorial/datastructures.rst:668
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a``"
 " is less than ``b`` and moreover ``b`` equals ``c``."
@@ -720,7 +728,7 @@ msgstr ""
 "Perbandingan bisa dibuat berantai. Sebagai contoh, ``a < b == c`` menguji "
 "apakah ``a`` kurang dari ``b`` dan apa ``b`` sama dengan ``c``."
 
-#: ../../tutorial/datastructures.rst:656
+#: ../../tutorial/datastructures.rst:671
 msgid ""
 "Comparisons may be combined using the Boolean operators ``and`` and ``or``, "
 "and the outcome of a comparison (or of any other Boolean expression) may be "
@@ -737,7 +745,7 @@ msgstr ""
 "(not B)) or C`` . Seperti biasa, tanda kurung dapat digunakan untuk "
 "mengekspresikan komposisi yang diinginkan."
 
-#: ../../tutorial/datastructures.rst:663
+#: ../../tutorial/datastructures.rst:678
 msgid ""
 "The Boolean operators ``and`` and ``or`` are so-called *short-circuit* "
 "operators: their arguments are evaluated from left to right, and evaluation "
@@ -754,7 +762,7 @@ msgstr ""
 "kembalian dari operator hubung singkat *short-circuit* adalah argumen "
 "terakhir yang dievaluasi."
 
-#: ../../tutorial/datastructures.rst:670
+#: ../../tutorial/datastructures.rst:685
 msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
@@ -762,23 +770,19 @@ msgstr ""
 "Dimungkinkan untuk menetapkan hasil perbandingan atau ekspresi Boolean "
 "lainnya ke variabel. Sebagai contoh, ::"
 
-#: ../../tutorial/datastructures.rst:678
+#: ../../tutorial/datastructures.rst:693
 msgid ""
 "Note that in Python, unlike C, assignment inside expressions must be done "
-"explicitly with the walrus operator ``:=``. This avoids a common class of "
-"problems encountered in C programs: typing ``=`` in an expression when "
-"``==`` was intended."
+"explicitly with the :ref:`walrus operator <why-can-t-i-use-an-assignment-in-"
+"an-expression>` ``:=``. This avoids a common class of problems encountered "
+"in C programs: typing ``=`` in an expression when ``==`` was intended."
 msgstr ""
-"Perhatikan bahwa dalam Python, tidak seperti C, penugasan di dalam ekspresi "
-"harus dilakukan secara eksplisit dengan operator *walrus* ``:=``. Ini "
-"menghindari masalah kelas umum yang dihadapi dalam program C: mengetikkan "
-"``=`` dalam ekspresi ketika ``==`` dimaksudkan."
 
-#: ../../tutorial/datastructures.rst:687
+#: ../../tutorial/datastructures.rst:703
 msgid "Comparing Sequences and Other Types"
 msgstr "Membandingkan Urutan *Sequences* dan Jenis Lainnya"
 
-#: ../../tutorial/datastructures.rst:688
+#: ../../tutorial/datastructures.rst:704
 msgid ""
 "Sequence objects typically may be compared to other objects with the same "
 "sequence type. The comparison uses *lexicographical* ordering: first the "
@@ -806,7 +810,7 @@ msgstr ""
 "string menggunakan nomor titik kode Unicode untuk mengurutkan masing-masing "
 "karakter. Beberapa contoh perbandingan antara urutan dengan tipe yang sama::"
 
-#: ../../tutorial/datastructures.rst:708
+#: ../../tutorial/datastructures.rst:724
 msgid ""
 "Note that comparing objects of different types with ``<`` or ``>`` is legal "
 "provided that the objects have appropriate comparison methods.  For example,"
@@ -820,11 +824,11 @@ msgstr ""
 "sehingga 0 sama dengan 0.0, dll. Jika tidak, alih-alih memberikan penyusunan"
 " acak, interpreter akan memunculkan pengecualian :exc:`TypeError`."
 
-#: ../../tutorial/datastructures.rst:716
+#: ../../tutorial/datastructures.rst:732
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../tutorial/datastructures.rst:717
+#: ../../tutorial/datastructures.rst:733
 msgid ""
 "Other languages may return the mutated object, which allows method chaining,"
 " such as ``d->insert(\"a\")->remove(\"b\")->sort();``."

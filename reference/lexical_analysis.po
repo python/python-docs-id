@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:39+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -381,7 +381,7 @@ msgstr ""
 #: ../../reference/lexical_analysis.rst:318
 msgid ""
 "*Other_ID_Start* - explicit list of characters in `PropList.txt "
-"<http://www.unicode.org/Public/12.1.0/ucd/PropList.txt>`_ to support "
+"<https://www.unicode.org/Public/13.0.0/ucd/PropList.txt>`_ to support "
 "backwards compatibility"
 msgstr ""
 
@@ -398,8 +398,8 @@ msgstr ""
 #: ../../reference/lexical_analysis.rst:326
 msgid ""
 "A non-normative HTML file listing all valid identifier characters for "
-"Unicode 4.1 can be found at https://www.dcl.hpi.uni-"
-"potsdam.de/home/loewis/table-3131.html."
+"Unicode 4.1 can be found at "
+"https://www.unicode.org/Public/13.0.0/ucd/DerivedCoreProperties.txt"
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:334
@@ -450,12 +450,12 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:379
 msgid ""
-"System-defined names. These names are defined by the interpreter and its "
-"implementation (including the standard library).  Current system names are "
-"discussed in the :ref:`specialnames` section and elsewhere.  More will "
-"likely be defined in future versions of Python.  *Any* use of ``__*__`` "
-"names, in any context, that does not follow explicitly documented use, is "
-"subject to breakage without warning."
+"System-defined names, informally known as \"dunder\" names. These names are "
+"defined by the interpreter and its implementation (including the standard "
+"library). Current system names are discussed in the :ref:`specialnames` "
+"section and elsewhere. More will likely be defined in future versions of "
+"Python.  *Any* use of ``__*__`` names, in any context, that does not follow "
+"explicitly documented use, is subject to breakage without warning."
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:391
@@ -858,12 +858,19 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:688
 msgid ""
+"Prior to Python 3.7, an :keyword:`await` expression and comprehensions "
+"containing an :keyword:`async for` clause were illegal in the expressions in"
+" formatted string literals due to a problem with the implementation."
+msgstr ""
+
+#: ../../reference/lexical_analysis.rst:693
+msgid ""
 "If a conversion is specified, the result of evaluating the expression is "
 "converted before formatting.  Conversion ``'!s'`` calls :func:`str` on the "
 "result, ``'!r'`` calls :func:`repr`, and ``'!a'`` calls :func:`ascii`."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:692
+#: ../../reference/lexical_analysis.rst:697
 msgid ""
 "The result is then formatted using the :func:`format` protocol.  The format "
 "specifier is passed to the :meth:`__format__` method of the expression or "
@@ -872,7 +879,7 @@ msgid ""
 "whole string."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:698
+#: ../../reference/lexical_analysis.rst:703
 msgid ""
 "Top-level format specifiers may include nested replacement fields. These "
 "nested fields may include their own conversion fields and :ref:`format "
@@ -881,111 +888,111 @@ msgid ""
 "as that used by the string .format() method."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:704
+#: ../../reference/lexical_analysis.rst:709
 msgid ""
 "Formatted string literals may be concatenated, but replacement fields cannot"
 " be split across literals."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:707
+#: ../../reference/lexical_analysis.rst:712
 msgid "Some examples of formatted string literals::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:726
+#: ../../reference/lexical_analysis.rst:731
 msgid ""
 "A consequence of sharing the same syntax as regular string literals is that "
 "characters in the replacement fields must not conflict with the quoting used"
 " in the outer formatted string literal::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:733
+#: ../../reference/lexical_analysis.rst:738
 msgid ""
 "Backslashes are not allowed in format expressions and will raise an error::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:738
+#: ../../reference/lexical_analysis.rst:743
 msgid ""
 "To include a value in which a backslash escape is required, create a "
 "temporary variable."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:745
+#: ../../reference/lexical_analysis.rst:750
 msgid ""
 "Formatted string literals cannot be used as docstrings, even if they do not "
 "include expressions."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:756
+#: ../../reference/lexical_analysis.rst:761
 msgid ""
 "See also :pep:`498` for the proposal that added formatted string literals, "
 "and :meth:`str.format`, which uses a related format string mechanism."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:763
+#: ../../reference/lexical_analysis.rst:768
 msgid "Numeric literals"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:769
+#: ../../reference/lexical_analysis.rst:774
 msgid ""
 "There are three types of numeric literals: integers, floating point numbers,"
 " and imaginary numbers.  There are no complex literals (complex numbers can "
 "be formed by adding a real number and an imaginary number)."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:773
+#: ../../reference/lexical_analysis.rst:778
 msgid ""
 "Note that numeric literals do not include a sign; a phrase like ``-1`` is "
 "actually an expression composed of the unary operator '``-``' and the "
 "literal ``1``."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:787
+#: ../../reference/lexical_analysis.rst:792
 msgid "Integer literals"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:789
+#: ../../reference/lexical_analysis.rst:794
 msgid "Integer literals are described by the following lexical definitions:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:803
+#: ../../reference/lexical_analysis.rst:808
 msgid ""
 "There is no limit for the length of integer literals apart from what can be "
 "stored in available memory."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:806
+#: ../../reference/lexical_analysis.rst:811
 msgid ""
 "Underscores are ignored for determining the numeric value of the literal.  "
 "They can be used to group digits for enhanced readability.  One underscore "
 "can occur between digits, and after base specifiers like ``0x``."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:810
+#: ../../reference/lexical_analysis.rst:815
 msgid ""
 "Note that leading zeros in a non-zero decimal number are not allowed. This "
 "is for disambiguation with C-style octal literals, which Python used before "
 "version 3.0."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:814
+#: ../../reference/lexical_analysis.rst:819
 msgid "Some examples of integer literals::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:820
-#: ../../reference/lexical_analysis.rst:852
+#: ../../reference/lexical_analysis.rst:825
+#: ../../reference/lexical_analysis.rst:857
 msgid "Underscores are now allowed for grouping purposes in literals."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:831
+#: ../../reference/lexical_analysis.rst:836
 msgid "Floating point literals"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:833
+#: ../../reference/lexical_analysis.rst:838
 msgid ""
 "Floating point literals are described by the following lexical definitions:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:843
+#: ../../reference/lexical_analysis.rst:848
 msgid ""
 "Note that the integer and exponent parts are always interpreted using radix "
 "10. For example, ``077e010`` is legal, and denotes the same number as "
@@ -994,19 +1001,19 @@ msgid ""
 "grouping."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:848
+#: ../../reference/lexical_analysis.rst:853
 msgid "Some examples of floating point literals::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:861
+#: ../../reference/lexical_analysis.rst:866
 msgid "Imaginary literals"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:863
+#: ../../reference/lexical_analysis.rst:868
 msgid "Imaginary literals are described by the following lexical definitions:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:868
+#: ../../reference/lexical_analysis.rst:873
 msgid ""
 "An imaginary literal yields a complex number with a real part of 0.0.  "
 "Complex numbers are represented as a pair of floating point numbers and have"
@@ -1015,23 +1022,23 @@ msgid ""
 "Some examples of imaginary literals::"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:880
+#: ../../reference/lexical_analysis.rst:885
 msgid "Operators"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:884
+#: ../../reference/lexical_analysis.rst:889
 msgid "The following tokens are operators:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:897
+#: ../../reference/lexical_analysis.rst:902
 msgid "Delimiters"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:901
+#: ../../reference/lexical_analysis.rst:906
 msgid "The following tokens serve as delimiters in the grammar:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:910
+#: ../../reference/lexical_analysis.rst:915
 msgid ""
 "The period can also occur in floating-point and imaginary literals.  A "
 "sequence of three periods has a special meaning as an ellipsis literal. The "
@@ -1039,22 +1046,22 @@ msgid ""
 " as delimiters, but also perform an operation."
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:915
+#: ../../reference/lexical_analysis.rst:920
 msgid ""
 "The following printing ASCII characters have special meaning as part of "
 "other tokens or are otherwise significant to the lexical analyzer:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:922
+#: ../../reference/lexical_analysis.rst:927
 msgid ""
 "The following printing ASCII characters are not used in Python.  Their "
 "occurrence outside string literals and comments is an unconditional error:"
 msgstr ""
 
-#: ../../reference/lexical_analysis.rst:931
+#: ../../reference/lexical_analysis.rst:936
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../reference/lexical_analysis.rst:932
-msgid "http://www.unicode.org/Public/11.0.0/ucd/NameAliases.txt"
+#: ../../reference/lexical_analysis.rst:937
+msgid "https://www.unicode.org/Public/11.0.0/ucd/NameAliases.txt"
 msgstr ""

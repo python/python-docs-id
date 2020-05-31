@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:02+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -79,11 +79,12 @@ msgstr ""
 #: ../../library/codeop.rst:45
 msgid ""
 "The *symbol* argument determines whether *source* is compiled as a statement"
-" (``'single'``, the default) or as an :term:`expression` (``'eval'``).  Any "
-"other value will cause :exc:`ValueError` to  be raised."
+" (``'single'``, the default), as a sequence of statements (``'exec'``) or as"
+" an :term:`expression` (``'eval'``).  Any other value will cause "
+":exc:`ValueError` to  be raised."
 msgstr ""
 
-#: ../../library/codeop.rst:51
+#: ../../library/codeop.rst:52
 msgid ""
 "It is possible (but not likely) that the parser stops parsing with a "
 "successful outcome before reaching the end of the source; in this case, "
@@ -92,7 +93,7 @@ msgid ""
 "This will be fixed once the API for the parser is better."
 msgstr ""
 
-#: ../../library/codeop.rst:60
+#: ../../library/codeop.rst:61
 msgid ""
 "Instances of this class have :meth:`__call__` methods identical in signature"
 " to the built-in function :func:`compile`, but with the difference that if "
@@ -101,7 +102,7 @@ msgid ""
 " statement in force."
 msgstr ""
 
-#: ../../library/codeop.rst:69
+#: ../../library/codeop.rst:70
 msgid ""
 "Instances of this class have :meth:`__call__` methods identical in signature"
 " to :func:`compile_command`; the difference is that if the instance compiles"

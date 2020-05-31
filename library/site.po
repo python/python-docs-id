@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:26+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -258,13 +258,17 @@ msgid ""
 "set it, respecting :envvar:`PYTHONNOUSERSITE` and :data:`USER_BASE`."
 msgstr ""
 
-#: ../../library/site.rst:239
+#: ../../library/site.rst:242
+msgid "Command Line Interface"
+msgstr ""
+
+#: ../../library/site.rst:246
 msgid ""
 "The :mod:`site` module also provides a way to get the user directories from "
 "the command line:"
 msgstr ""
 
-#: ../../library/site.rst:249
+#: ../../library/site.rst:254
 msgid ""
 "If it is called without arguments, it will print the contents of "
 ":data:`sys.path` on the standard output, followed by the value of "
@@ -272,21 +276,21 @@ msgid ""
 ":data:`USER_SITE`, and finally the value of :data:`ENABLE_USER_SITE`."
 msgstr ""
 
-#: ../../library/site.rst:256
+#: ../../library/site.rst:261
 msgid "Print the path to the user base directory."
 msgstr ""
 
-#: ../../library/site.rst:260
+#: ../../library/site.rst:265
 msgid "Print the path to the user site-packages directory."
 msgstr ""
 
-#: ../../library/site.rst:262
+#: ../../library/site.rst:267
 msgid ""
 "If both options are given, user base and user site will be printed (always "
 "in this order), separated by :data:`os.pathsep`."
 msgstr ""
 
-#: ../../library/site.rst:265
+#: ../../library/site.rst:270
 msgid ""
 "If any option is given, the script will exit with one of these values: ``0``"
 " if the user site-packages directory is enabled, ``1`` if it was disabled by"
@@ -294,6 +298,6 @@ msgid ""
 "administrator, and a value greater than 2 if there is an error."
 msgstr ""
 
-#: ../../library/site.rst:272
+#: ../../library/site.rst:277
 msgid ":pep:`370` -- Per user site-packages directory"
 msgstr ""

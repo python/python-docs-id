@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,9 +12,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:44+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -1373,11 +1373,9 @@ msgstr ""
 msgid ""
 "Mertz also wrote a 3-part series of articles on functional programming for "
 "IBM's DeveloperWorks site; see `part 1 "
-"<https://www.ibm.com/developerworks/linux/library/l-prog/index.html>`__, "
-"`part 2 "
-"<https://www.ibm.com/developerworks/linux/library/l-prog2/index.html>`__, "
-"and `part 3 "
-"<https://www.ibm.com/developerworks/linux/library/l-prog3/index.html>`__,"
+"<https://developer.ibm.com/articles/l-prog/>`__, `part 2 "
+"<https://developer.ibm.com/tutorials/l-prog2/>`__, and `part 3 "
+"<https://developer.ibm.com/tutorials/l-prog3/>`__,"
 msgstr ""
 
 #: ../../howto/functional.rst:1238

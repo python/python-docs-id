@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 11:29+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -156,14 +156,9 @@ msgid ""
 "We say such an object is :term:`iterable`, that is, suitable as a target for"
 " functions and constructs that expect something from which they can obtain "
 "successive items until the supply is exhausted.  We have seen that the "
-":keyword:`for` statement is such a construct, while an example of function "
-"that takes an iterable is :func:`sum`::"
+":keyword:`for` statement is such a construct, while an example of a function"
+" that takes an iterable is :func:`sum`::"
 msgstr ""
-"Kami mengatakan objek seperti itu adalah :term:`iterable`, yaitu, cocok "
-"sebagai target untuk fungsi dan konstruksi yang mengharapkan sesuatu dari "
-"mana mereka dapat memperoleh item berturut-turut sampai pasokan habis. Kita "
-"telah melihat bahwa pernyataan :keyword:`for` adalah konstruksi seperti itu,"
-" sedangkan contoh fungsi yang mengambilnya adalah :func:`sum`::"
 
 #: ../../tutorial/controlflow.rst:151
 msgid ""
@@ -743,6 +738,8 @@ msgid ""
 "The third function ``kwd_only_args`` only allows keyword arguments as "
 "indicated by a ``*`` in the function definition::"
 msgstr ""
+"Fungsi ketiga ``kwd_only_args`` hanya memungkinkan argumen kata kunci "
+"*keyword argument* seperti ditunjukkan oleh ``*`` dalam definisi fungsi::"
 
 #: ../../tutorial/controlflow.rst:636
 msgid ""

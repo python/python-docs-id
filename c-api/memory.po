@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:37+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -773,6 +773,30 @@ msgstr ""
 
 #: ../../c-api/memory.rst:532
 msgid "tracemalloc C API"
+msgstr ""
+
+#: ../../c-api/memory.rst:538
+msgid "Track an allocated memory block in the :mod:`tracemalloc` module."
+msgstr ""
+
+#: ../../c-api/memory.rst:540
+msgid ""
+"Return ``0`` on success, return ``-1`` on error (failed to allocate memory "
+"to store the trace). Return ``-2`` if tracemalloc is disabled."
+msgstr ""
+
+#: ../../c-api/memory.rst:543
+msgid "If memory block is already tracked, update the existing trace."
+msgstr ""
+
+#: ../../c-api/memory.rst:547
+msgid ""
+"Untrack an allocated memory block in the :mod:`tracemalloc` module. Do "
+"nothing if the block was not tracked."
+msgstr ""
+
+#: ../../c-api/memory.rst:550
+msgid "Return ``-2`` if tracemalloc is disabled, otherwise return ``0``."
 msgstr ""
 
 #: ../../c-api/memory.rst:556
