@@ -21,35 +21,36 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../faq/programming.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:5
 msgid "Programming FAQ"
 msgstr "Pemrograman FAQ"
 
-#: ../../faq/programming.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:8
 msgid "Contents"
 msgstr "Konten"
 
-#: ../../faq/programming.rst:12
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:12
 msgid "General Questions"
 msgstr "Pertanyaan Umum"
 
-#: ../../faq/programming.rst:15
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:15
 msgid ""
 "Is there a source code level debugger with breakpoints, single-stepping, "
 "etc.?"
 msgstr ""
 
-#: ../../faq/programming.rst:17 ../../faq/programming.rst:63
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:17
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:63
 msgid "Yes."
 msgstr "Ya."
 
-#: ../../faq/programming.rst:19
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:19
 msgid ""
 "Several debuggers for Python are described below, and the built-in function "
 ":func:`breakpoint` allows you to drop into any of them."
 msgstr ""
 
-#: ../../faq/programming.rst:22
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:22
 msgid ""
 "The pdb module is a simple but adequate console-mode debugger for Python. It"
 " is part of the standard Python library, and is :mod:`documented in the "
@@ -57,14 +58,14 @@ msgid ""
 "using the code for pdb as an example."
 msgstr ""
 
-#: ../../faq/programming.rst:27
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:27
 msgid ""
 "The IDLE interactive development environment, which is part of the standard "
 "Python distribution (normally available as Tools/scripts/idle), includes a "
 "graphical debugger."
 msgstr ""
 
-#: ../../faq/programming.rst:31
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:31
 msgid ""
 "PythonWin is a Python IDE that includes a GUI debugger based on pdb.  The "
 "Pythonwin debugger colors breakpoints and has quite a few cool features such"
@@ -74,7 +75,7 @@ msgid ""
 "ActivePython distribution (see https://www.activestate.com/activepython\\ )."
 msgstr ""
 
-#: ../../faq/programming.rst:38
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:38
 msgid ""
 "`Boa Constructor <http://boa-constructor.sourceforge.net/>`_ is an IDE and "
 "GUI builder that uses wxWidgets.  It offers visual frame creation and "
@@ -83,13 +84,13 @@ msgid ""
 "an advanced debugger, integrated help, and Zope support."
 msgstr ""
 
-#: ../../faq/programming.rst:44
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:44
 msgid ""
 "`Eric <http://eric-ide.python-projects.org/>`_ is an IDE built on PyQt and "
 "the Scintilla editing component."
 msgstr ""
 
-#: ../../faq/programming.rst:47
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:47
 msgid ""
 "Pydb is a version of the standard Python debugger pdb, modified for use with"
 " DDD (Data Display Debugger), a popular graphical debugger front end.  Pydb "
@@ -97,36 +98,36 @@ msgid ""
 "https://www.gnu.org/software/ddd."
 msgstr ""
 
-#: ../../faq/programming.rst:52
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:52
 msgid ""
 "There are a number of commercial Python IDEs that include graphical "
 "debuggers. They include:"
 msgstr ""
 
-#: ../../faq/programming.rst:55
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:55
 msgid "Wing IDE (https://wingware.com/)"
 msgstr "Wing IDE (https://wingware.com/)"
 
-#: ../../faq/programming.rst:56
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:56
 msgid "Komodo IDE (https://komodoide.com/)"
 msgstr "Komodo IDE (https://komodoide.com/)"
 
-#: ../../faq/programming.rst:57
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:57
 msgid "PyCharm (https://www.jetbrains.com/pycharm/)"
 msgstr "PyCharm (https://www.jetbrains.com/pycharm/)"
 
-#: ../../faq/programming.rst:61
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:61
 msgid "Is there a tool to help find bugs or perform static analysis?"
 msgstr ""
 
-#: ../../faq/programming.rst:65
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:65
 msgid ""
 "PyChecker is a static analysis tool that finds bugs in Python source code "
 "and warns about code complexity and style.  You can get PyChecker from "
 "http://pychecker.sourceforge.net/."
 msgstr ""
 
-#: ../../faq/programming.rst:69
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:69
 msgid ""
 "`Pylint <https://www.pylint.org/>`_ is another tool that checks if a module "
 "satisfies a coding standard, and also makes it possible to write plug-ins to"
@@ -137,18 +138,18 @@ msgid ""
 "https://docs.pylint.org/ provides a full list of Pylint's features."
 msgstr ""
 
-#: ../../faq/programming.rst:77
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:77
 msgid ""
 "Static type checkers such as `Mypy <http://mypy-lang.org/>`_, `Pyre <https"
 "://pyre-check.org/>`_, and `Pytype <https://github.com/google/pytype>`_ can "
 "check type hints in Python source code."
 msgstr ""
 
-#: ../../faq/programming.rst:84
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:84
 msgid "How can I create a stand-alone binary from a Python script?"
 msgstr ""
 
-#: ../../faq/programming.rst:86
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:86
 msgid ""
 "You don't need the ability to compile Python to C code if all you want is a "
 "stand-alone program that users can download and run without having to "
@@ -157,7 +158,7 @@ msgid ""
 "together with a Python binary to produce a single executable."
 msgstr ""
 
-#: ../../faq/programming.rst:92
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:92
 msgid ""
 "One is to use the freeze tool, which is included in the Python source tree "
 "as ``Tools/freeze``. It converts Python byte code to C arrays; a C compiler "
@@ -165,7 +166,7 @@ msgid ""
 " the standard Python modules."
 msgstr ""
 
-#: ../../faq/programming.rst:97
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:97
 msgid ""
 "It works by scanning your source recursively for import statements (in both "
 "forms) and looking for the modules in the standard Python path as well as in"
@@ -178,60 +179,60 @@ msgid ""
 "which acts exactly like your script."
 msgstr ""
 
-#: ../../faq/programming.rst:106
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:106
 msgid ""
 "Obviously, freeze requires a C compiler.  There are several other utilities "
 "which don't. One is Thomas Heller's py2exe (Windows only) at"
 msgstr ""
 
-#: ../../faq/programming.rst:109
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:109
 msgid "http://www.py2exe.org/"
 msgstr "http://www.py2exe.org/"
 
-#: ../../faq/programming.rst:111
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:111
 msgid ""
 "Another tool is Anthony Tuininga's `cx_Freeze <https://anthony-"
 "tuininga.github.io/cx_Freeze/>`_."
 msgstr ""
 
-#: ../../faq/programming.rst:115
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:115
 msgid "Are there coding standards or a style guide for Python programs?"
 msgstr ""
 
-#: ../../faq/programming.rst:117
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:117
 msgid ""
 "Yes.  The coding style required for standard library modules is documented "
 "as :pep:`8`."
 msgstr ""
 
-#: ../../faq/programming.rst:122
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:122
 msgid "Core Language"
 msgstr "Inti Bahasa"
 
-#: ../../faq/programming.rst:125
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:125
 msgid "Why am I getting an UnboundLocalError when the variable has a value?"
 msgstr ""
 
-#: ../../faq/programming.rst:127
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:127
 msgid ""
 "It can be a surprise to get the UnboundLocalError in previously working code"
 " when it is modified by adding an assignment statement somewhere in the body"
 " of a function."
 msgstr ""
 
-#: ../../faq/programming.rst:131
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:131
 msgid "This code:"
 msgstr "Kode ini:"
 
-#: ../../faq/programming.rst:139
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:139
 msgid "works, but this code:"
 msgstr "dapat beroperasi, tapi kode ini:"
 
-#: ../../faq/programming.rst:146
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:146
 msgid "results in an UnboundLocalError:"
 msgstr "memunculkan sebuah UnboundLocalError:"
 
-#: ../../faq/programming.rst:153
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:153
 msgid ""
 "This is because when you make an assignment to a variable in a scope, that "
 "variable becomes local to that scope and shadows any similarly named "
@@ -241,30 +242,30 @@ msgid ""
 "uninitialized local variable and an error results."
 msgstr ""
 
-#: ../../faq/programming.rst:160
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:160
 msgid ""
 "In the example above you can access the outer scope variable by declaring it"
 " global:"
 msgstr ""
 
-#: ../../faq/programming.rst:171
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:171
 msgid ""
 "This explicit declaration is required in order to remind you that (unlike "
 "the superficially analogous situation with class and instance variables) you"
 " are actually modifying the value of the variable in the outer scope:"
 msgstr ""
 
-#: ../../faq/programming.rst:178
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:178
 msgid ""
 "You can do a similar thing in a nested scope using the :keyword:`nonlocal` "
 "keyword:"
 msgstr ""
 
-#: ../../faq/programming.rst:195
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:195
 msgid "What are the rules for local and global variables in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:197
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:197
 msgid ""
 "In Python, variables that are only referenced inside a function are "
 "implicitly global.  If a variable is assigned a value anywhere within the "
@@ -272,7 +273,7 @@ msgid ""
 "global."
 msgstr ""
 
-#: ../../faq/programming.rst:201
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:201
 msgid ""
 "Though a bit surprising at first, a moment's consideration explains this.  "
 "On one hand, requiring :keyword:`global` for assigned variables provides a "
@@ -283,19 +284,19 @@ msgid ""
 "usefulness of the ``global`` declaration for identifying side-effects."
 msgstr ""
 
-#: ../../faq/programming.rst:211
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:211
 msgid ""
 "Why do lambdas defined in a loop with different values all return the same "
 "result?"
 msgstr ""
 
-#: ../../faq/programming.rst:213
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:213
 msgid ""
 "Assume you use a for loop to define a few different lambdas (or even plain "
 "functions), e.g.::"
 msgstr ""
 
-#: ../../faq/programming.rst:220
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:220
 msgid ""
 "This gives you a list that contains 5 lambdas that calculate ``x**2``.  You "
 "might expect that, when called, they would return, respectively, ``0``, "
@@ -303,7 +304,7 @@ msgid ""
 "see that they all return ``16``::"
 msgstr ""
 
-#: ../../faq/programming.rst:230
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:230
 msgid ""
 "This happens because ``x`` is not local to the lambdas, but is defined in "
 "the outer scope, and it is accessed when the lambda is called --- not when "
@@ -312,13 +313,13 @@ msgid ""
 " changing the value of ``x`` and see how the results of the lambdas change::"
 msgstr ""
 
-#: ../../faq/programming.rst:240
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:240
 msgid ""
 "In order to avoid this, you need to save the values in variables local to "
 "the lambdas, so that they don't rely on the value of the global ``x``::"
 msgstr ""
 
-#: ../../faq/programming.rst:247
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:247
 msgid ""
 "Here, ``n=x`` creates a new variable ``n`` local to the lambda and computed "
 "when the lambda is defined so that it has the same value that ``x`` had at "
@@ -327,17 +328,17 @@ msgid ""
 "Therefore each lambda will now return the correct result::"
 msgstr ""
 
-#: ../../faq/programming.rst:258
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:258
 msgid ""
 "Note that this behaviour is not peculiar to lambdas, but applies to regular "
 "functions too."
 msgstr ""
 
-#: ../../faq/programming.rst:263
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:263
 msgid "How do I share global variables across modules?"
 msgstr ""
 
-#: ../../faq/programming.rst:265
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:265
 msgid ""
 "The canonical way to share information across modules within a single "
 "program is to create a special module (often called config or cfg).  Just "
@@ -347,36 +348,36 @@ msgid ""
 "  For example:"
 msgstr ""
 
-#: ../../faq/programming.rst:271
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:271
 msgid "config.py::"
 msgstr "config.py::"
 
-#: ../../faq/programming.rst:275
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:275
 msgid "mod.py::"
 msgstr "mod.py::"
 
-#: ../../faq/programming.rst:280
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:280
 msgid "main.py::"
 msgstr "main.py::"
 
-#: ../../faq/programming.rst:286
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:286
 msgid ""
 "Note that using a module is also the basis for implementing the Singleton "
 "design pattern, for the same reason."
 msgstr ""
 
-#: ../../faq/programming.rst:291
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:291
 msgid "What are the \"best practices\" for using import in a module?"
 msgstr ""
 
-#: ../../faq/programming.rst:293
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:293
 msgid ""
 "In general, don't use ``from modulename import *``.  Doing so clutters the "
 "importer's namespace, and makes it much harder for linters to detect "
 "undefined names."
 msgstr ""
 
-#: ../../faq/programming.rst:297
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:297
 msgid ""
 "Import modules at the top of a file.  Doing so makes it clear what other "
 "modules your code requires and avoids questions of whether the module name "
@@ -384,31 +385,31 @@ msgid ""
 "module imports, but using multiple imports per line uses less screen space."
 msgstr ""
 
-#: ../../faq/programming.rst:302
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:302
 msgid "It's good practice if you import modules in the following order:"
 msgstr ""
 
-#: ../../faq/programming.rst:304
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:304
 msgid "standard library modules -- e.g. ``sys``, ``os``, ``getopt``, ``re``"
 msgstr ""
 
-#: ../../faq/programming.rst:305
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:305
 msgid ""
 "third-party library modules (anything installed in Python's site-packages "
 "directory) -- e.g. mx.DateTime, ZODB, PIL.Image, etc."
 msgstr ""
 
-#: ../../faq/programming.rst:307
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:307
 msgid "locally-developed modules"
 msgstr "modul dikembangkan secara lokal"
 
-#: ../../faq/programming.rst:309
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:309
 msgid ""
 "It is sometimes necessary to move imports to a function or class to avoid "
 "problems with circular imports.  Gordon McMillan says:"
 msgstr ""
 
-#: ../../faq/programming.rst:312
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:312
 msgid ""
 "Circular imports are fine where both modules use the \"import <module>\" "
 "form of import.  They fail when the 2nd module wants to grab a name out of "
@@ -417,7 +418,7 @@ msgid ""
 "module is busy importing the 2nd."
 msgstr ""
 
-#: ../../faq/programming.rst:318
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:318
 msgid ""
 "In this case, if the second module is only used in one function, then the "
 "import can easily be moved into that function.  By the time the import is "
@@ -425,7 +426,7 @@ msgid ""
 "module can do its import."
 msgstr ""
 
-#: ../../faq/programming.rst:323
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:323
 msgid ""
 "It may also be necessary to move imports out of the top level of code if "
 "some of the modules are platform-specific.  In that case, it may not even be"
@@ -434,7 +435,7 @@ msgid ""
 "code is a good option."
 msgstr ""
 
-#: ../../faq/programming.rst:328
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:328
 msgid ""
 "Only move imports into a local scope, such as inside a function definition, "
 "if it's necessary to solve a problem such as avoiding a circular import or "
@@ -448,24 +449,24 @@ msgid ""
 "of scope, the module is probably available in :data:`sys.modules`."
 msgstr ""
 
-#: ../../faq/programming.rst:341
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:341
 msgid "Why are default values shared between objects?"
 msgstr ""
 
-#: ../../faq/programming.rst:343
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:343
 msgid ""
 "This type of bug commonly bites neophyte programmers.  Consider this "
 "function::"
 msgstr ""
 
-#: ../../faq/programming.rst:350
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:350
 msgid ""
 "The first time you call this function, ``mydict`` contains a single item.  "
 "The second time, ``mydict`` contains two items because when ``foo()`` begins"
 " executing, ``mydict`` starts out with an item already in it."
 msgstr ""
 
-#: ../../faq/programming.rst:354
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:354
 msgid ""
 "It is often expected that a function call creates new objects for default "
 "values. This is not what happens. Default values are created exactly once, "
@@ -474,14 +475,14 @@ msgid ""
 "this changed object."
 msgstr ""
 
-#: ../../faq/programming.rst:359
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:359
 msgid ""
 "By definition, immutable objects such as numbers, strings, tuples, and "
 "``None``, are safe from change. Changes to mutable objects such as "
 "dictionaries, lists, and class instances can lead to confusion."
 msgstr ""
 
-#: ../../faq/programming.rst:363
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:363
 msgid ""
 "Because of this feature, it is good programming practice to not use mutable "
 "objects as default values.  Instead, use ``None`` as the default value and "
@@ -489,11 +490,11 @@ msgid ""
 "list/dictionary/whatever if it is.  For example, don't write::"
 msgstr ""
 
-#: ../../faq/programming.rst:371
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:371
 msgid "but::"
 msgstr "tapi::"
 
-#: ../../faq/programming.rst:377
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:377
 msgid ""
 "This feature can be useful.  When you have a function that's time-consuming "
 "to compute, a common technique is to cache the parameters and the resulting "
@@ -502,18 +503,18 @@ msgid ""
 "implemented like this::"
 msgstr ""
 
-#: ../../faq/programming.rst:392
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:392
 msgid ""
 "You could use a global variable containing a dictionary instead of the "
 "default value; it's a matter of taste."
 msgstr ""
 
-#: ../../faq/programming.rst:397
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:397
 msgid ""
 "How can I pass optional or keyword parameters from one function to another?"
 msgstr ""
 
-#: ../../faq/programming.rst:399
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:399
 msgid ""
 "Collect the arguments using the ``*`` and ``**`` specifiers in the "
 "function's parameter list; this gives you the positional arguments as a "
@@ -521,11 +522,11 @@ msgid ""
 "arguments when calling another function by using ``*`` and ``**``::"
 msgstr ""
 
-#: ../../faq/programming.rst:418
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:418
 msgid "What is the difference between arguments and parameters?"
 msgstr ""
 
-#: ../../faq/programming.rst:420
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:420
 msgid ""
 ":term:`Parameters <parameter>` are defined by the names that appear in a "
 "function definition, whereas :term:`arguments <argument>` are the values "
@@ -534,34 +535,34 @@ msgid ""
 "definition::"
 msgstr ""
 
-#: ../../faq/programming.rst:428
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:428
 msgid ""
 "*foo*, *bar* and *kwargs* are parameters of ``func``.  However, when calling"
 " ``func``, for example::"
 msgstr ""
 
-#: ../../faq/programming.rst:433
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:433
 msgid "the values ``42``, ``314``, and ``somevar`` are arguments."
 msgstr ""
 
-#: ../../faq/programming.rst:437
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:437
 msgid "Why did changing list 'y' also change list 'x'?"
 msgstr ""
 
-#: ../../faq/programming.rst:439
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:439
 msgid "If you wrote code like::"
 msgstr "Jika kamu menulis kode seperti::"
 
-#: ../../faq/programming.rst:449
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:449
 msgid ""
 "you might be wondering why appending an element to ``y`` changed ``x`` too."
 msgstr ""
 
-#: ../../faq/programming.rst:451
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:451
 msgid "There are two factors that produce this result:"
 msgstr ""
 
-#: ../../faq/programming.rst:453
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:453
 msgid ""
 "Variables are simply names that refer to objects.  Doing ``y = x`` doesn't "
 "create a copy of the list -- it creates a new variable ``y`` that refers to "
@@ -569,23 +570,23 @@ msgid ""
 "(the list), and both ``x`` and ``y`` refer to it."
 msgstr ""
 
-#: ../../faq/programming.rst:457
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:457
 msgid ""
 "Lists are :term:`mutable`, which means that you can change their content."
 msgstr ""
 
-#: ../../faq/programming.rst:459
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:459
 msgid ""
 "After the call to :meth:`~list.append`, the content of the mutable object "
 "has changed from ``[]`` to ``[10]``.  Since both the variables refer to the "
 "same object, using either name accesses the modified value ``[10]``."
 msgstr ""
 
-#: ../../faq/programming.rst:463
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:463
 msgid "If we instead assign an immutable object to ``x``::"
 msgstr ""
 
-#: ../../faq/programming.rst:473
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:473
 msgid ""
 "we can see that in this case ``x`` and ``y`` are not equal anymore.  This is"
 " because integers are :term:`immutable`, and when we do ``x = x + 1`` we are"
@@ -596,7 +597,7 @@ msgid ""
 "(``x`` now refers to ``6`` but ``y`` still refers to ``5``)."
 msgstr ""
 
-#: ../../faq/programming.rst:481
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:481
 msgid ""
 "Some operations (for example ``y.append(10)`` and ``y.sort()``) mutate the "
 "object, whereas superficially similar operations (for example ``y = y + "
@@ -608,7 +609,7 @@ msgid ""
 " your program to generate an easily diagnosed error."
 msgstr ""
 
-#: ../../faq/programming.rst:490
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:490
 msgid ""
 "However, there is one class of operations where the same operation sometimes"
 " has different behaviors with different types:  the augmented assignment "
@@ -618,18 +619,18 @@ msgid ""
 "1`` create new objects)."
 msgstr ""
 
-#: ../../faq/programming.rst:497
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:497
 msgid "In other words:"
 msgstr "Dengan kata lain:"
 
-#: ../../faq/programming.rst:499
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:499
 msgid ""
 "If we have a mutable object (:class:`list`, :class:`dict`, :class:`set`, "
 "etc.), we can use some specific operations to mutate it and all the "
 "variables that refer to it will see the change."
 msgstr ""
 
-#: ../../faq/programming.rst:502
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:502
 msgid ""
 "If we have an immutable object (:class:`str`, :class:`int`, :class:`tuple`, "
 "etc.), all the variables that refer to it will always see the same value, "
@@ -637,17 +638,17 @@ msgid ""
 "new object."
 msgstr ""
 
-#: ../../faq/programming.rst:507
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:507
 msgid ""
 "If you want to know if two variables refer to the same object or not, you "
 "can use the :keyword:`is` operator, or the built-in function :func:`id`."
 msgstr ""
 
-#: ../../faq/programming.rst:512
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:512
 msgid "How do I write a function with output parameters (call by reference)?"
 msgstr ""
 
-#: ../../faq/programming.rst:514
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:514
 msgid ""
 "Remember that arguments are passed by assignment in Python.  Since "
 "assignment just creates references to objects, there's no alias between an "
@@ -655,44 +656,44 @@ msgid ""
 "  You can achieve the desired effect in a number of ways."
 msgstr ""
 
-#: ../../faq/programming.rst:519
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:519
 msgid "By returning a tuple of the results::"
 msgstr ""
 
-#: ../../faq/programming.rst:530
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:530
 msgid "This is almost always the clearest solution."
 msgstr ""
 
-#: ../../faq/programming.rst:532
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:532
 msgid ""
 "By using global variables.  This isn't thread-safe, and is not recommended."
 msgstr ""
 
-#: ../../faq/programming.rst:534
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:534
 msgid "By passing a mutable (changeable in-place) object::"
 msgstr ""
 
-#: ../../faq/programming.rst:544
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:544
 msgid "By passing in a dictionary that gets mutated::"
 msgstr ""
 
-#: ../../faq/programming.rst:554
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:554
 msgid "Or bundle up values in a class instance::"
 msgstr ""
 
-#: ../../faq/programming.rst:570
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:570
 msgid "There's almost never a good reason to get this complicated."
 msgstr ""
 
-#: ../../faq/programming.rst:572
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:572
 msgid "Your best choice is to return a tuple containing the multiple results."
 msgstr ""
 
-#: ../../faq/programming.rst:576
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:576
 msgid "How do you make a higher order function in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:578
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:578
 msgid ""
 "You have two choices: you can use nested scopes or you can use callable "
 "objects. For example, suppose you wanted to define ``linear(a,b)`` which "
@@ -700,71 +701,71 @@ msgid ""
 " scopes::"
 msgstr ""
 
-#: ../../faq/programming.rst:587
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:587
 msgid "Or using a callable object::"
 msgstr ""
 
-#: ../../faq/programming.rst:597
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:597
 msgid "In both cases, ::"
 msgstr "Dalam kedua kasus, ::"
 
-#: ../../faq/programming.rst:601
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:601
 msgid "gives a callable object where ``taxes(10e6) == 0.3 * 10e6 + 2``."
 msgstr ""
 
-#: ../../faq/programming.rst:603
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:603
 msgid ""
 "The callable object approach has the disadvantage that it is a bit slower "
 "and results in slightly longer code.  However, note that a collection of "
 "callables can share their signature via inheritance::"
 msgstr ""
 
-#: ../../faq/programming.rst:612
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:612
 msgid "Object can encapsulate state for several methods::"
 msgstr ""
 
-#: ../../faq/programming.rst:630
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:630
 msgid ""
 "Here ``inc()``, ``dec()`` and ``reset()`` act like functions which share the"
 " same counting variable."
 msgstr ""
 
-#: ../../faq/programming.rst:635
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:635
 msgid "How do I copy an object in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:637
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:637
 msgid ""
 "In general, try :func:`copy.copy` or :func:`copy.deepcopy` for the general "
 "case. Not all objects can be copied, but most can."
 msgstr ""
 
-#: ../../faq/programming.rst:640
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:640
 msgid ""
 "Some objects can be copied more easily.  Dictionaries have a "
 ":meth:`~dict.copy` method::"
 msgstr ""
 
-#: ../../faq/programming.rst:645
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:645
 msgid "Sequences can be copied by slicing::"
 msgstr ""
 
-#: ../../faq/programming.rst:651
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:651
 msgid "How can I find the methods or attributes of an object?"
 msgstr ""
 
-#: ../../faq/programming.rst:653
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:653
 msgid ""
 "For an instance x of a user-defined class, ``dir(x)`` returns an "
 "alphabetized list of the names containing the instance attributes and "
 "methods and attributes defined by its class."
 msgstr ""
 
-#: ../../faq/programming.rst:659
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:659
 msgid "How can my code discover the name of an object?"
 msgstr ""
 
-#: ../../faq/programming.rst:661
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:661
 msgid ""
 "Generally speaking, it can't, because objects don't really have names. "
 "Essentially, assignment always binds a name to a value; the same is true of "
@@ -772,7 +773,7 @@ msgid ""
 "Consider the following code::"
 msgstr ""
 
-#: ../../faq/programming.rst:677
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:677
 msgid ""
 "Arguably the class has a name: even though it is bound to two names and "
 "invoked through the name B the created instance is still reported as an "
@@ -780,7 +781,7 @@ msgid ""
 "instance's name is a or b, since both names are bound to the same value."
 msgstr ""
 
-#: ../../faq/programming.rst:682
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:682
 msgid ""
 "Generally speaking it should not be necessary for your code to \"know the "
 "names\" of particular values. Unless you are deliberately writing "
@@ -788,13 +789,13 @@ msgid ""
 "approach might be beneficial."
 msgstr ""
 
-#: ../../faq/programming.rst:687
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:687
 msgid ""
 "In comp.lang.python, Fredrik Lundh once gave an excellent analogy in answer "
 "to this question:"
 msgstr ""
 
-#: ../../faq/programming.rst:690
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:690
 msgid ""
 "The same way as you get the name of that cat you found on your porch: the "
 "cat (object) itself cannot tell you its name, and it doesn't really care -- "
@@ -802,77 +803,77 @@ msgid ""
 "(namespaces) if it's their cat (object)..."
 msgstr ""
 
-#: ../../faq/programming.rst:695
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:695
 msgid ""
 "....and don't be surprised if you'll find that it's known by many names, or "
 "no name at all!"
 msgstr ""
 
-#: ../../faq/programming.rst:700
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:700
 msgid "What's up with the comma operator's precedence?"
 msgstr ""
 
-#: ../../faq/programming.rst:702
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:702
 msgid "Comma is not an operator in Python.  Consider this session::"
 msgstr ""
 
-#: ../../faq/programming.rst:707
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:707
 msgid ""
 "Since the comma is not an operator, but a separator between expressions the "
 "above is evaluated as if you had entered::"
 msgstr ""
 
-#: ../../faq/programming.rst:712
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:712
 msgid "not::"
 msgstr "tidak::"
 
-#: ../../faq/programming.rst:716
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:716
 msgid ""
 "The same is true of the various assignment operators (``=``, ``+=`` etc).  "
 "They are not truly operators but syntactic delimiters in assignment "
 "statements."
 msgstr ""
 
-#: ../../faq/programming.rst:721
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:721
 msgid "Is there an equivalent of C's \"?:\" ternary operator?"
 msgstr ""
 
-#: ../../faq/programming.rst:723
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:723
 msgid "Yes, there is. The syntax is as follows::"
 msgstr ""
 
-#: ../../faq/programming.rst:730
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:730
 msgid ""
 "Before this syntax was introduced in Python 2.5, a common idiom was to use "
 "logical operators::"
 msgstr ""
 
-#: ../../faq/programming.rst:735
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:735
 msgid ""
 "However, this idiom is unsafe, as it can give wrong results when *on_true* "
 "has a false boolean value.  Therefore, it is always better to use the ``... "
 "if ... else ...`` form."
 msgstr ""
 
-#: ../../faq/programming.rst:741
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:741
 msgid "Is it possible to write obfuscated one-liners in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:743
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:743
 msgid ""
 "Yes.  Usually this is done by nesting :keyword:`lambda` within "
 ":keyword:`!lambda`.  See the following three examples, due to Ulf Bartelt::"
 msgstr ""
 
-#: ../../faq/programming.rst:770
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:770
 msgid "Don't try this at home, kids!"
 msgstr "Jangan lakukan ini di rumah, anak-anak!"
 
-#: ../../faq/programming.rst:776
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:776
 msgid "What does the slash(/) in the parameter list of a function mean?"
 msgstr ""
 
-#: ../../faq/programming.rst:778
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:778
 msgid ""
 "A slash in the argument list of a function denotes that the parameters prior"
 " to it are positional-only.  Positional-only parameters are the ones without"
@@ -882,53 +883,53 @@ msgid ""
 "positional-only parameters. Its documentation looks like this::"
 msgstr ""
 
-#: ../../faq/programming.rst:791
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:791
 msgid ""
 "The slash at the end of the parameter list means that both parameters are "
 "positional-only. Thus, calling :func:`divmod` with keyword arguments would "
 "lead to an error::"
 msgstr ""
 
-#: ../../faq/programming.rst:802
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:802
 msgid "Numbers and strings"
 msgstr "Angka dan string"
 
-#: ../../faq/programming.rst:805
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:805
 msgid "How do I specify hexadecimal and octal integers?"
 msgstr ""
 
-#: ../../faq/programming.rst:807
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:807
 msgid ""
 "To specify an octal digit, precede the octal value with a zero, and then a "
 "lower or uppercase \"o\".  For example, to set the variable \"a\" to the "
 "octal value \"10\" (8 in decimal), type::"
 msgstr ""
 
-#: ../../faq/programming.rst:815
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:815
 msgid ""
 "Hexadecimal is just as easy.  Simply precede the hexadecimal number with a "
 "zero, and then a lower or uppercase \"x\".  Hexadecimal digits can be "
 "specified in lower or uppercase.  For example, in the Python interpreter::"
 msgstr ""
 
-#: ../../faq/programming.rst:828
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:828
 msgid "Why does -22 // 10 return -3?"
 msgstr ""
 
-#: ../../faq/programming.rst:830
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:830
 msgid ""
 "It's primarily driven by the desire that ``i % j`` have the same sign as "
 "``j``. If you want that, and also want::"
 msgstr ""
 
-#: ../../faq/programming.rst:835
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:835
 msgid ""
 "then integer division has to return the floor.  C also requires that "
 "identity to hold, and then compilers that truncate ``i // j`` need to make "
 "``i % j`` have the same sign as ``i``."
 msgstr ""
 
-#: ../../faq/programming.rst:839
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:839
 msgid ""
 "There are few real use cases for ``i % j`` when ``j`` is negative.  When "
 "``j`` is positive, there are many, and in virtually all of them it's more "
@@ -937,18 +938,18 @@ msgid ""
 "bug waiting to bite."
 msgstr ""
 
-#: ../../faq/programming.rst:847
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:847
 msgid "How do I convert a string to a number?"
 msgstr "Bagaimana cara mengonversi string menjadi angka?"
 
-#: ../../faq/programming.rst:849
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:849
 msgid ""
 "For integers, use the built-in :func:`int` type constructor, e.g. "
 "``int('144') == 144``.  Similarly, :func:`float` converts to floating-point,"
 " e.g. ``float('144') == 144.0``."
 msgstr ""
 
-#: ../../faq/programming.rst:853
+#: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:853
 msgid ""
 "By default, these interpret the number as decimal, so that ``int('0144') == "
 "144`` holds true, and ``int('0x144')`` raises :exc:`ValueError`. "

@@ -21,17 +21,17 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/time.rst:2
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:2
 msgid ":mod:`time` --- Time access and conversions"
 msgstr ":mod:`time` --- Akses waktu dan konversi"
 
-#: ../../library/time.rst:9
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:9
 msgid ""
 "This module provides various time-related functions. For related "
 "functionality, see also the :mod:`datetime` and :mod:`calendar` modules."
 msgstr ""
 
-#: ../../library/time.rst:12
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:12
 msgid ""
 "Although this module is always available, not all functions are available on"
 " all platforms.  Most of the functions defined in this module call platform "
@@ -40,32 +40,32 @@ msgid ""
 " varies among platforms."
 msgstr ""
 
-#: ../../library/time.rst:18
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:18
 msgid "An explanation of some terminology and conventions is in order."
 msgstr ""
 
-#: ../../library/time.rst:24
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:24
 msgid ""
 "The :dfn:`epoch` is the point where the time starts, and is platform "
 "dependent.  For Unix, the epoch is January 1, 1970, 00:00:00 (UTC). To find "
 "out what the epoch is on a given platform, look at ``time.gmtime(0)``."
 msgstr ""
 
-#: ../../library/time.rst:33
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:33
 msgid ""
 "The term :dfn:`seconds since the epoch` refers to the total number of "
 "elapsed seconds since the epoch, typically excluding `leap seconds`_.  Leap "
 "seconds are excluded from this total on all POSIX-compliant platforms."
 msgstr ""
 
-#: ../../library/time.rst:40
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:40
 msgid ""
 "The functions in this module may not handle dates and times before the epoch"
 " or far in the future.  The cut-off point in the future is determined by the"
 " C library; for 32-bit systems, it is typically in 2038."
 msgstr ""
 
-#: ../../library/time.rst:47
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:47
 msgid ""
 "Function :func:`strptime` can parse 2-digit years when given ``%y`` format "
 "code. When 2-digit years are parsed, they are converted according to the "
@@ -73,14 +73,14 @@ msgid ""
 "values 0--68 are mapped to 2000--2068."
 msgstr ""
 
-#: ../../library/time.rst:57
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:57
 msgid ""
 "UTC is Coordinated Universal Time (formerly known as Greenwich Mean Time, or"
 " GMT).  The acronym UTC is not a mistake but a compromise between English "
 "and French."
 msgstr ""
 
-#: ../../library/time.rst:63
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:63
 msgid ""
 "DST is Daylight Saving Time, an adjustment of the timezone by (usually) one "
 "hour during part of the year.  DST rules are magic (determined by local law)"
@@ -89,14 +89,14 @@ msgid ""
 "the only source of True Wisdom in this respect."
 msgstr ""
 
-#: ../../library/time.rst:69
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:69
 msgid ""
 "The precision of the various real-time functions may be less than suggested "
 "by the units in which their value or argument is expressed. E.g. on most "
 "Unix systems, the clock \"ticks\" only 50 or 100 times a second."
 msgstr ""
 
-#: ../../library/time.rst:73
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:73
 msgid ""
 "On the other hand, the precision of :func:`.time` and :func:`sleep` is "
 "better than their Unix equivalents: times are expressed as floating point "
@@ -106,7 +106,7 @@ msgid ""
 "this, where available)."
 msgstr ""
 
-#: ../../library/time.rst:80
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:80
 msgid ""
 "The time value as returned by :func:`gmtime`, :func:`localtime`, and "
 ":func:`strptime`, and accepted by :func:`asctime`, :func:`mktime` and "
@@ -115,73 +115,77 @@ msgid ""
 " names for individual fields."
 msgstr ""
 
-#: ../../library/time.rst:86
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:86
 msgid "See :class:`struct_time` for a description of these objects."
 msgstr ""
 
-#: ../../library/time.rst:88
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:88
 msgid ""
 "The :class:`struct_time` type was extended to provide the :attr:`tm_gmtoff` "
 "and :attr:`tm_zone` attributes when platform supports corresponding ``struct"
 " tm`` members."
 msgstr ""
 
-#: ../../library/time.rst:93
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:93
 msgid ""
 "The :class:`struct_time` attributes :attr:`tm_gmtoff` and :attr:`tm_zone` "
 "are now available on all platforms."
 msgstr ""
 
-#: ../../library/time.rst:97
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:97
 msgid "Use the following functions to convert between time representations:"
 msgstr ""
 
-#: ../../library/time.rst:100
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:100
 msgid "From"
 msgstr "dari"
 
-#: ../../library/time.rst:100
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:100
 msgid "To"
 msgstr "Ke"
 
-#: ../../library/time.rst:100
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:100
 msgid "Use"
 msgstr "Gunakan"
 
-#: ../../library/time.rst:102 ../../library/time.rst:105
-#: ../../library/time.rst:108 ../../library/time.rst:111
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:102
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:105
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:108
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:111
 msgid "seconds since the epoch"
 msgstr ""
 
-#: ../../library/time.rst:102 ../../library/time.rst:108
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:102
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:108
 msgid ":class:`struct_time` in UTC"
 msgstr ""
 
-#: ../../library/time.rst:102
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:102
 msgid ":func:`gmtime`"
 msgstr ":func:`gmtime`"
 
-#: ../../library/time.rst:105 ../../library/time.rst:111
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:105
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:111
 msgid ":class:`struct_time` in local time"
 msgstr ""
 
-#: ../../library/time.rst:105
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:105
 msgid ":func:`localtime`"
 msgstr ":func:`localtime`"
 
-#: ../../library/time.rst:108
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:108
 msgid ":func:`calendar.timegm`"
 msgstr ":func:`calendar.timegm`"
 
-#: ../../library/time.rst:111
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:111
 msgid ":func:`mktime`"
 msgstr ":func:`mktime`"
 
-#: ../../library/time.rst:119
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:119
 msgid "Functions"
 msgstr "Fungsi-Fungsi"
 
-#: ../../library/time.rst:123
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:123
 msgid ""
 "Convert a tuple or :class:`struct_time` representing a time as returned by "
 ":func:`gmtime` or :func:`localtime` to a string of the following form: "
@@ -190,44 +194,44 @@ msgid ""
 "1993'``."
 msgstr ""
 
-#: ../../library/time.rst:129
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:129
 msgid ""
 "If *t* is not provided, the current time as returned by :func:`localtime` is"
 " used. Locale information is not used by :func:`asctime`."
 msgstr ""
 
-#: ../../library/time.rst:134
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:134
 msgid ""
 "Unlike the C function of the same name, :func:`asctime` does not add a "
 "trailing newline."
 msgstr ""
 
-#: ../../library/time.rst:139
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:139
 msgid ""
 "Return the *clk_id* of the thread-specific CPU-time clock for the specified "
 "*thread_id*."
 msgstr ""
 
-#: ../../library/time.rst:141
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:141
 msgid ""
 "Use :func:`threading.get_ident` or the :attr:`~threading.Thread.ident` "
 "attribute of :class:`threading.Thread` objects to get a suitable value for "
 "*thread_id*."
 msgstr ""
 
-#: ../../library/time.rst:146
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:146
 msgid ""
 "Passing an invalid or expired *thread_id* may result in undefined behavior, "
 "such as segmentation fault."
 msgstr ""
 
-#: ../../library/time.rst:151
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:151
 msgid ""
 ":ref:`Availability <availability>`: Unix (see the man page for "
 ":manpage:`pthread_getcpuclockid(3)` for further information)."
 msgstr ""
 
-#: ../../library/time.rst:156
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:156
 msgid ""
 "Return the resolution (precision) of the specified clock *clk_id*.  Refer to"
 " :ref:`time-clock-id-constants` for a list of accepted values for *clk_id*."
@@ -241,27 +245,27 @@ msgstr ""
 msgid ":ref:`Availability <availability>`: Unix."
 msgstr ":ref:`Availability <availability>`: Unix."
 
-#: ../../library/time.rst:166
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:166
 msgid ""
 "Return the time of the specified clock *clk_id*.  Refer to :ref:`time-clock-"
 "id-constants` for a list of accepted values for *clk_id*."
 msgstr ""
 
-#: ../../library/time.rst:176
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:176
 msgid "Similar to :func:`clock_gettime` but return time as nanoseconds."
 msgstr ""
 
-#: ../../library/time.rst:185
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:185
 msgid ""
 "Set the time of the specified clock *clk_id*.  Currently, "
 ":data:`CLOCK_REALTIME` is the only accepted value for *clk_id*."
 msgstr ""
 
-#: ../../library/time.rst:195
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:195
 msgid "Similar to :func:`clock_settime` but set time with nanoseconds."
 msgstr ""
 
-#: ../../library/time.rst:204
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:204
 msgid ""
 "Convert a time expressed in seconds since the epoch to a string of a form: "
 "``'Sun Jun 20 23:21:05 1993'`` representing local time. The day field is two"
@@ -269,7 +273,7 @@ msgid ""
 "``'Wed Jun  9 04:26:40 1993'``."
 msgstr ""
 
-#: ../../library/time.rst:209
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:209
 msgid ""
 "If *secs* is not provided or :const:`None`, the current time as returned by "
 ":func:`.time` is used. ``ctime(secs)`` is equivalent to "
@@ -277,7 +281,7 @@ msgid ""
 ":func:`ctime`."
 msgstr ""
 
-#: ../../library/time.rst:217
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/time.rst:217
 msgid ""
 "Get information on the specified clock as a namespace object. Supported "
 "clock names and the corresponding functions to read their value are:"

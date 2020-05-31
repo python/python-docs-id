@@ -21,28 +21,28 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/asyncio-eventloop.rst:6
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:6
 msgid "Event Loop"
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:8
 msgid ""
 "**Source code:** :source:`Lib/asyncio/events.py`, "
 ":source:`Lib/asyncio/base_events.py`"
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:14
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:14
 msgid "Preface"
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:15
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:15
 msgid ""
 "The event loop is the core of every asyncio application. Event loops run "
 "asynchronous tasks and callbacks, perform network IO operations, and run "
 "subprocesses."
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:19
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:19
 msgid ""
 "Application developers should typically use the high-level asyncio "
 "functions, such as :func:`asyncio.run`, and should rarely need to reference "
@@ -51,21 +51,21 @@ msgid ""
 "control over the event loop behavior."
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:26
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:26
 msgid "Obtaining the Event Loop"
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:27
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:27
 msgid ""
 "The following low-level functions can be used to get, set, or create an "
 "event loop:"
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:32
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:32
 msgid "Return the running event loop in the current OS thread."
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:34
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:34
 msgid ""
 "If there is no running event loop a :exc:`RuntimeError` is raised. This "
 "function can only be called from a coroutine or a callback."
