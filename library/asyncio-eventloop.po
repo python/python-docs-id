@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-06-23 03:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:48+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -21,28 +21,28 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:6
+#: ../../library/asyncio-eventloop.rst:6
 msgid "Event Loop"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:8
+#: ../../library/asyncio-eventloop.rst:8
 msgid ""
 "**Source code:** :source:`Lib/asyncio/events.py`, "
 ":source:`Lib/asyncio/base_events.py`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:14
+#: ../../library/asyncio-eventloop.rst:14
 msgid "Preface"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:15
+#: ../../library/asyncio-eventloop.rst:15
 msgid ""
 "The event loop is the core of every asyncio application. Event loops run "
 "asynchronous tasks and callbacks, perform network IO operations, and run "
 "subprocesses."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:19
+#: ../../library/asyncio-eventloop.rst:19
 msgid ""
 "Application developers should typically use the high-level asyncio "
 "functions, such as :func:`asyncio.run`, and should rarely need to reference "
@@ -51,21 +51,21 @@ msgid ""
 "control over the event loop behavior."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:26
+#: ../../library/asyncio-eventloop.rst:26
 msgid "Obtaining the Event Loop"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:27
+#: ../../library/asyncio-eventloop.rst:27
 msgid ""
 "The following low-level functions can be used to get, set, or create an "
 "event loop:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:32
+#: ../../library/asyncio-eventloop.rst:32
 msgid "Return the running event loop in the current OS thread."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/asyncio-eventloop.rst:34
+#: ../../library/asyncio-eventloop.rst:34
 msgid ""
 "If there is no running event loop a :exc:`RuntimeError` is raised. This "
 "function can only be called from a coroutine or a callback."
@@ -264,8 +264,8 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:194
 msgid ""
-"Schedule a *callback* to be called with *args* arguments at the next "
-"iteration of the event loop."
+"Schedule the *callback* :term:`callback` to be called with *args* arguments "
+"at the next iteration of the event loop."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:197

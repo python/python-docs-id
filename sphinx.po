@@ -5,6 +5,7 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:32+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +48,8 @@ msgstr ""
 #: ../../tools/templates/dummy.html:8
 msgid "Deprecated since version {deprecated}, removed in version {removed}"
 msgstr ""
+"Tidak digunakan lagi karena versi {deprecated}, akan dihapus dalam versi "
+"{removed}"
 
 #: ../../tools/templates/indexcontent.html:8
 msgid "Welcome! This is the documentation for Python %(release)s."
@@ -229,11 +232,11 @@ msgstr "Dokumen menurut versi"
 
 #: ../../tools/templates/indexsidebar.html:5
 msgid "Python 3.10 (in development)"
-msgstr ""
+msgstr "Python 3.10 (dalam pengembangan)"
 
 #: ../../tools/templates/indexsidebar.html:6
 msgid "Python 3.9 (pre-release)"
-msgstr ""
+msgstr "Python 3.9 (pra-rilis)"
 
 #: ../../tools/templates/indexsidebar.html:7
 msgid "Python 3.8 (stable)"
@@ -253,7 +256,7 @@ msgstr "Python 3.5 (perbaikan-keamanan)"
 
 #: ../../tools/templates/indexsidebar.html:11
 msgid "Python 2.7 (EOL)"
-msgstr ""
+msgstr "Python 2.7 (EOL)"
 
 #: ../../tools/templates/indexsidebar.html:12
 msgid "All versions"

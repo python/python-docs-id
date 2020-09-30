@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: 2018-06-29 21:15+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -295,8 +295,8 @@ msgstr ""
 "mod:`__future__` import::"
 
 #: ../../whatsnew/3.7.rst:174
-msgid "It will become the default in Python 4.0."
-msgstr "Ini akan menjadi bawaan di Python 4.0."
+msgid "It will become the default in Python 3.10."
+msgstr ""
 
 #: ../../whatsnew/3.7.rst:178
 msgid ":pep:`563` -- Postponed evaluation of annotations"
@@ -963,7 +963,7 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:639
 msgid ""
-"The new :term:`provisional <provisional api>` :func:`asyncio.run` function "
+"The new :term:`provisional <provisional API>` :func:`asyncio.run` function "
 "can be used to run a coroutine from synchronous code by automatically "
 "creating and destroying the event loop. (Contributed by Yury Selivanov in "
 ":issue:`32314`.)"
