@@ -2956,3 +2956,8 @@ file_filter = translations/python-newest.whatsnew--3_9/<lang>.po
 source_lang = en
 type = PO
 
+[python-newest.library--graphlib]
+file_filter = translations/python-newest.library--graphlib/<lang>.po
+source_lang = en
+type = PO
+

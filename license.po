@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 11:45+0000\n"
+"POT-Creation-Date: 2020-09-04 03:59+0000\n"
 "PO-Revision-Date: 2017-02-16 17:32+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -234,31 +234,55 @@ msgstr ""
 msgid "Terms and conditions for accessing or otherwise using Python"
 msgstr "Syarat dan ketentuan untuk mengakses atau menggunakan Python"
 
-#: ../../license.rst:77
+#: ../../license.rst:75
+msgid ""
+"Python software and documentation are licensed under the :ref:`PSF License "
+"Agreement <PSF-license>`."
+msgstr ""
+
+#: ../../license.rst:78
+msgid ""
+"Starting with Python 3.8.6, examples, recipes, and other code in the "
+"documentation are dual licensed under the PSF License Agreement and the :ref"
+":`Zero-Clause BSD license <BSD0>`."
+msgstr ""
+
+#: ../../license.rst:82
+msgid ""
+"Some software incorporated into Python is under different licenses. The "
+"licenses are listed with code falling under that license. See "
+":ref:`OtherLicenses` for an incomplete list of these licenses."
+msgstr ""
+
+#: ../../license.rst:90
 msgid "PSF LICENSE AGREEMENT FOR PYTHON |release|"
 msgstr "LISENSI PERJANJIAN PSF UNTUK PYTHON |release|"
 
-#: ../../license.rst:125
+#: ../../license.rst:138
 msgid "BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0"
 msgstr "LISENSI PERJANJIAN BEOPEN.COM UNTUK PYTHON 2.0"
 
-#: ../../license.rst:127
+#: ../../license.rst:140
 msgid "BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1"
 msgstr "LISENSI PERJANJIAN BEOPEN SUMBER TERBUKA PYTHON VERSI 1"
 
-#: ../../license.rst:172
+#: ../../license.rst:185
 msgid "CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1"
 msgstr "LISENSI PERJANJIAN CNRI UNTUK PYTHON 1.6.1"
 
-#: ../../license.rst:237
+#: ../../license.rst:250
 msgid "CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2"
 msgstr "LISENSI PERJANJIAN CWI UNTUK PYTHON 0.9.0 SAMPAI 1.2"
 
-#: ../../license.rst:262
+#: ../../license.rst:277
+msgid "ZERO-CLAUSE BSD LICENSE FOR CODE IN THE PYTHON |release| DOCUMENTATION"
+msgstr ""
+
+#: ../../license.rst:296
 msgid "Licenses and Acknowledgements for Incorporated Software"
 msgstr "Lisensi dan Ucapan Terima Kasih untuk Perangkat Lunak yang Tergabung"
 
-#: ../../license.rst:264
+#: ../../license.rst:298
 msgid ""
 "This section is an incomplete, but growing list of licenses and "
 "acknowledgements for third-party software incorporated in the Python "
@@ -268,105 +292,105 @@ msgstr ""
 " terus bertambah untuk perangkat lunak pihak ketiga yang tergabung dalam "
 "distribusi Python."
 
-#: ../../license.rst:269
+#: ../../license.rst:303
 msgid "Mersenne Twister"
 msgstr "Mersenne Twister"
 
-#: ../../license.rst:271
+#: ../../license.rst:305
 msgid ""
 "The :mod:`_random` module includes code based on a download from "
 "http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/emt19937ar.html. The "
 "following are the verbatim comments from the original code::"
 msgstr ""
 
-#: ../../license.rst:318
+#: ../../license.rst:352
 msgid "Sockets"
 msgstr "Soket"
 
-#: ../../license.rst:320
+#: ../../license.rst:354
 msgid ""
 "The :mod:`socket` module uses the functions, :func:`getaddrinfo`, and "
 ":func:`getnameinfo`, which are coded in separate source files from the WIDE "
 "Project, http://www.wide.ad.jp/. ::"
 msgstr ""
 
-#: ../../license.rst:353
+#: ../../license.rst:387
 msgid "Asynchronous socket services"
 msgstr "Layanan soket asinkron"
 
-#: ../../license.rst:355
+#: ../../license.rst:389
 msgid ""
 "The :mod:`asynchat` and :mod:`asyncore` modules contain the following "
 "notice::"
 msgstr ""
 "Modul :mod:`asynchat` dan :mod:`asyncore` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:380
+#: ../../license.rst:414
 msgid "Cookie management"
 msgstr "Pengelolaan *Cookie*"
 
-#: ../../license.rst:382
+#: ../../license.rst:416
 msgid "The :mod:`http.cookies` module contains the following notice::"
 msgstr "Modul :mod:`http.cookies` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:408
+#: ../../license.rst:442
 msgid "Execution tracing"
 msgstr "Pelacakan eksekusi"
 
-#: ../../license.rst:410
+#: ../../license.rst:444
 msgid "The :mod:`trace` module contains the following notice::"
 msgstr "Modul :mod:`trace` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:441
+#: ../../license.rst:475
 msgid "UUencode and UUdecode functions"
 msgstr "UUencode and UUdecode functions"
 
-#: ../../license.rst:443
+#: ../../license.rst:477
 msgid "The :mod:`uu` module contains the following notice::"
 msgstr "Modul :mod:`uu` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:471
+#: ../../license.rst:505
 msgid "XML Remote Procedure Calls"
 msgstr "XML Remote Procedure Calls"
 
-#: ../../license.rst:473
+#: ../../license.rst:507
 msgid "The :mod:`xmlrpc.client` module contains the following notice::"
 msgstr "Modul :mod:`xmlrpc.client` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:504
+#: ../../license.rst:538
 msgid "test_epoll"
 msgstr "test_epoll"
 
-#: ../../license.rst:506
+#: ../../license.rst:540
 msgid "The :mod:`test_epoll` module contains the following notice::"
 msgstr "Modul :mod:`test_epoll` berisi pemberitahuan berikut::"
 
-#: ../../license.rst:530
+#: ../../license.rst:564
 msgid "Select kqueue"
 msgstr "Pilih kqueue"
 
-#: ../../license.rst:532
+#: ../../license.rst:566
 msgid ""
 "The :mod:`select` module contains the following notice for the kqueue "
 "interface::"
 msgstr ""
 "Modul :mod:`select` berisi pemberitahuan berikut untuk antarmuka kqueue::"
 
-#: ../../license.rst:561
+#: ../../license.rst:595
 msgid "SipHash24"
 msgstr "SipHash24"
 
-#: ../../license.rst:563
+#: ../../license.rst:597
 msgid ""
 "The file :file:`Python/pyhash.c` contains Marek Majkowski' implementation of"
 " Dan Bernstein's SipHash24 algorithm. It contains the following note::"
 msgstr ""
 
-#: ../../license.rst:590
+#: ../../license.rst:624
 msgid "strtod and dtoa"
 msgstr "strtod dan dtoa"
 
-#: ../../license.rst:592
+#: ../../license.rst:626
 msgid ""
 "The file :file:`Python/dtoa.c`, which supplies C functions dtoa and strtod "
 "for conversion of C doubles to and from strings, is derived from the file of"
@@ -375,11 +399,11 @@ msgid ""
 "2009, contains the following copyright and licensing notice::"
 msgstr ""
 
-#: ../../license.rst:620
+#: ../../license.rst:654
 msgid "OpenSSL"
 msgstr "OpenSSL"
 
-#: ../../license.rst:622
+#: ../../license.rst:656
 msgid ""
 "The modules :mod:`hashlib`, :mod:`posix`, :mod:`ssl`, :mod:`crypt` use the "
 "OpenSSL library for added performance if made available by the operating "
@@ -388,62 +412,62 @@ msgid ""
 " license here::"
 msgstr ""
 
-#: ../../license.rst:757
+#: ../../license.rst:791
 msgid "expat"
 msgstr "expat"
 
-#: ../../license.rst:759
+#: ../../license.rst:793
 msgid ""
 "The :mod:`pyexpat` extension is built using an included copy of the expat "
 "sources unless the build is configured ``--with-system-expat``::"
 msgstr ""
 
-#: ../../license.rst:786
+#: ../../license.rst:820
 msgid "libffi"
 msgstr "libffi"
 
-#: ../../license.rst:788
+#: ../../license.rst:822
 msgid ""
 "The :mod:`_ctypes` extension is built using an included copy of the libffi "
 "sources unless the build is configured ``--with-system-libffi``::"
 msgstr ""
 
-#: ../../license.rst:815
+#: ../../license.rst:849
 msgid "zlib"
 msgstr "zlib"
 
-#: ../../license.rst:817
+#: ../../license.rst:851
 msgid ""
 "The :mod:`zlib` extension is built using an included copy of the zlib "
 "sources if the zlib version found on the system is too old to be used for "
 "the build::"
 msgstr ""
 
-#: ../../license.rst:846
+#: ../../license.rst:880
 msgid "cfuhash"
 msgstr "cfuhash"
 
-#: ../../license.rst:848
+#: ../../license.rst:882
 msgid ""
 "The implementation of the hash table used by the :mod:`tracemalloc` is based"
 " on the cfuhash project::"
 msgstr ""
 
-#: ../../license.rst:887
+#: ../../license.rst:921
 msgid "libmpdec"
 msgstr "libmpdec"
 
-#: ../../license.rst:889
+#: ../../license.rst:923
 msgid ""
 "The :mod:`_decimal` module is built using an included copy of the libmpdec "
 "library unless the build is configured ``--with-system-libmpdec``::"
 msgstr ""
 
-#: ../../license.rst:919
+#: ../../license.rst:953
 msgid "W3C C14N test suite"
 msgstr "Rangkaian pengujian W3C C14N"
 
-#: ../../license.rst:921
+#: ../../license.rst:955
 msgid ""
 "The C14N 2.0 test suite in the :mod:`test` package "
 "(``Lib/test/xmltestdata/c14n-20/``) was retrieved from the W3C website at "
@@ -451,40 +475,40 @@ msgid ""
 "3-clause BSD license:"
 msgstr ""
 
-#: ../../license.rst:926
+#: ../../license.rst:960
 msgid ""
 "Copyright (c) 2013 W3C(R) (MIT, ERCIM, Keio, Beihang), All Rights Reserved."
 msgstr ""
 "Hak Cipta (c) 2013 W3C(R) (MIT, ERCIM, Keio, Beihang), Semua Hak Dilindungi "
 "Undang-Undang."
 
-#: ../../license.rst:929
+#: ../../license.rst:963
 msgid ""
 "Redistribution and use in source and binary forms, with or without "
 "modification, are permitted provided that the following conditions are met:"
 msgstr ""
 
-#: ../../license.rst:933
+#: ../../license.rst:967
 msgid ""
 "Redistributions of works must retain the original copyright notice, this "
 "list of conditions and the following disclaimer."
 msgstr ""
 
-#: ../../license.rst:935
+#: ../../license.rst:969
 msgid ""
 "Redistributions in binary form must reproduce the original copyright notice,"
 " this list of conditions and the following disclaimer in the documentation "
 "and/or other materials provided with the distribution."
 msgstr ""
 
-#: ../../license.rst:938
+#: ../../license.rst:972
 msgid ""
 "Neither the name of the W3C nor the names of its contributors may be used to"
 " endorse or promote products derived from this work without specific prior "
 "written permission."
 msgstr ""
 
-#: ../../license.rst:942
+#: ../../license.rst:976
 msgid ""
 "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS "
 "IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, "

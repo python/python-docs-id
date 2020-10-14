@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-09-06 04:01+0000\n"
 "PO-Revision-Date: 2017-02-16 23:23+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgid ""
 "ending in ``.pyc``. For example, if *file* is ``/foo/bar/baz.py`` *cfile* "
 "will default to ``/foo/bar/__pycache__/baz.cpython-32.pyc`` for Python 3.2."
 "  If *dfile* is specified, it is used as the name of the source file in "
-"error messages when instead of *file*.  If *doraise* is true, a "
+"error messages instead of *file*.  If *doraise* is true, a "
 ":exc:`PyCompileError` is raised when an error is encountered while compiling"
 " *file*. If *doraise* is false (the default), an error string is written to "
 "``sys.stderr``, but no exception is raised.  This function returns the path "

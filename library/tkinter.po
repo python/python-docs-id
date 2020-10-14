@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-09-11 04:03+0000\n"
 "PO-Revision-Date: 2017-02-16 23:31+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -71,8 +71,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:35
 msgid ""
-"`Tkinter 8.5 reference: a GUI for Python "
-"<https://web.archive.org/web/20190524140835/https://infohost.nmt.edu/tcc/help/pubs/tkinter/web/index.html>`_"
+"`Tkinter 8.5 reference: a GUI for Python <https://www.tkdocs.com/shipman/>`_"
 msgstr ""
 
 #: ../../library/tkinter.rst:35
@@ -472,8 +471,8 @@ msgid ""
 "they are more than one word."
 msgstr ""
 
-#: ../../library/tkinter.rst:281 ../../library/tkinter.rst:543
-#: ../../library/tkinter.rst:718
+#: ../../library/tkinter.rst:281 ../../library/tkinter.rst:542
+#: ../../library/tkinter.rst:721
 msgid "For example::"
 msgstr "Sebagai contoh::"
 
@@ -772,15 +771,15 @@ msgstr ""
 #: ../../library/tkinter.rst:466
 msgid ""
 "The packer is one of Tk's geometry-management mechanisms.    Geometry "
-"managers are used to specify the relative positioning of the positioning of "
-"widgets within their container - their mutual *master*.  In contrast to the "
-"more cumbersome *placer* (which is used less commonly, and we do not cover "
-"here), the packer takes qualitative relationship specification - *above*, "
-"*to the left of*, *filling*, etc - and works everything out to determine the"
-" exact placement coordinates for you."
+"managers are used to specify the relative positioning of widgets within "
+"their container - their mutual *master*.  In contrast to the more cumbersome"
+" *placer* (which is used less commonly, and we do not cover here), the "
+"packer takes qualitative relationship specification - *above*, *to the left "
+"of*, *filling*, etc - and works everything out to determine the exact "
+"placement coordinates for you."
 msgstr ""
 
-#: ../../library/tkinter.rst:474
+#: ../../library/tkinter.rst:473
 msgid ""
 "The size of any *master* widget is determined by the size of the \"slave "
 "widgets\" inside.  The packer is used to control where slave widgets appear "
@@ -790,7 +789,7 @@ msgid ""
 "accommodate incremental changes to the configuration, once it is packed."
 msgstr ""
 
-#: ../../library/tkinter.rst:481
+#: ../../library/tkinter.rst:480
 msgid ""
 "Note that widgets do not appear until they have had their geometry specified"
 " with a geometry manager.  It's a common early mistake to leave out the "
@@ -799,79 +798,79 @@ msgid ""
 "the packer's :meth:`pack` method applied to it."
 msgstr ""
 
-#: ../../library/tkinter.rst:487
+#: ../../library/tkinter.rst:486
 msgid ""
 "The pack() method can be called with keyword-option/value pairs that control"
 " where the widget is to appear within its container, and how it is to behave"
 " when the main application window is resized.  Here are some examples::"
 msgstr ""
 
-#: ../../library/tkinter.rst:497
+#: ../../library/tkinter.rst:496
 msgid "Packer Options"
 msgstr ""
 
-#: ../../library/tkinter.rst:499
+#: ../../library/tkinter.rst:498
 msgid ""
 "For more extensive information on the packer and the options that it can "
 "take, see the man pages and page 183 of John Ousterhout's book."
 msgstr ""
 
-#: ../../library/tkinter.rst:503 ../../library/tkinter.rst:619
+#: ../../library/tkinter.rst:502 ../../library/tkinter.rst:622
 msgid "anchor"
 msgstr ""
 
-#: ../../library/tkinter.rst:503
+#: ../../library/tkinter.rst:502
 msgid ""
 "Anchor type.  Denotes where the packer is to place each slave in its parcel."
 msgstr ""
 
-#: ../../library/tkinter.rst:506
+#: ../../library/tkinter.rst:505
 msgid "expand"
 msgstr ""
 
-#: ../../library/tkinter.rst:506
+#: ../../library/tkinter.rst:505
 msgid "Boolean, ``0`` or ``1``."
 msgstr ""
 
-#: ../../library/tkinter.rst:509
+#: ../../library/tkinter.rst:508
 msgid "fill"
 msgstr "fill"
 
-#: ../../library/tkinter.rst:509
+#: ../../library/tkinter.rst:508
 msgid "Legal values: ``'x'``, ``'y'``, ``'both'``, ``'none'``."
 msgstr ""
 
-#: ../../library/tkinter.rst:512
+#: ../../library/tkinter.rst:511
 msgid "ipadx and ipady"
 msgstr ""
 
-#: ../../library/tkinter.rst:512
+#: ../../library/tkinter.rst:511
 msgid ""
 "A distance - designating internal padding on each side of the slave widget."
 msgstr ""
 
-#: ../../library/tkinter.rst:515
+#: ../../library/tkinter.rst:514
 msgid "padx and pady"
 msgstr ""
 
-#: ../../library/tkinter.rst:515
+#: ../../library/tkinter.rst:514
 msgid ""
 "A distance - designating external padding on each side of the slave widget."
 msgstr ""
 
-#: ../../library/tkinter.rst:519
+#: ../../library/tkinter.rst:518
 msgid "side"
 msgstr "side"
 
-#: ../../library/tkinter.rst:518
+#: ../../library/tkinter.rst:517
 msgid "Legal values are: ``'left'``, ``'right'``, ``'top'``, ``'bottom'``."
 msgstr ""
 
-#: ../../library/tkinter.rst:522
+#: ../../library/tkinter.rst:521
 msgid "Coupling Widget Variables"
 msgstr ""
 
-#: ../../library/tkinter.rst:524
+#: ../../library/tkinter.rst:523
 msgid ""
 "The current-value setting of some widgets (like text entry widgets) can be "
 "connected directly to application variables by using special options.  These"
@@ -881,7 +880,7 @@ msgid ""
 "value."
 msgstr ""
 
-#: ../../library/tkinter.rst:530
+#: ../../library/tkinter.rst:529
 msgid ""
 "Unfortunately, in the current implementation of :mod:`tkinter` it is not "
 "possible to hand over an arbitrary Python variable to a widget through a "
@@ -890,7 +889,7 @@ msgid ""
 "Variable, defined in :mod:`tkinter`."
 msgstr ""
 
-#: ../../library/tkinter.rst:536
+#: ../../library/tkinter.rst:535
 msgid ""
 "There are many useful subclasses of Variable already defined: "
 ":class:`StringVar`, :class:`IntVar`, :class:`DoubleVar`, and "
@@ -900,11 +899,11 @@ msgid ""
 "value of the variable, with no further intervention on your part."
 msgstr ""
 
-#: ../../library/tkinter.rst:572
+#: ../../library/tkinter.rst:575
 msgid "The Window Manager"
 msgstr ""
 
-#: ../../library/tkinter.rst:576
+#: ../../library/tkinter.rst:579
 msgid ""
 "In Tk, there is a utility command, ``wm``, for interacting with the window "
 "manager.  Options to the ``wm`` command allow you to control things like "
@@ -914,7 +913,7 @@ msgid ""
 "the :class:`Wm` methods directly."
 msgstr ""
 
-#: ../../library/tkinter.rst:583
+#: ../../library/tkinter.rst:586
 msgid ""
 "To get at the toplevel window that contains a given widget, you can often "
 "just refer to the widget's master.  Of course if the widget has been packed "
@@ -925,26 +924,26 @@ msgid ""
 "to Tk functionality."
 msgstr ""
 
-#: ../../library/tkinter.rst:590
+#: ../../library/tkinter.rst:593
 msgid "Here are some examples of typical usage::"
 msgstr ""
 
-#: ../../library/tkinter.rst:613
+#: ../../library/tkinter.rst:616
 msgid "Tk Option Data Types"
 msgstr ""
 
-#: ../../library/tkinter.rst:618
+#: ../../library/tkinter.rst:621
 msgid ""
 "Legal values are points of the compass: ``\"n\"``, ``\"ne\"``, ``\"e\"``, "
 "``\"se\"``, ``\"s\"``, ``\"sw\"``, ``\"w\"``, ``\"nw\"``, and also "
 "``\"center\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:625
+#: ../../library/tkinter.rst:628
 msgid "bitmap"
 msgstr ""
 
-#: ../../library/tkinter.rst:622
+#: ../../library/tkinter.rst:625
 msgid ""
 "There are eight built-in, named bitmaps: ``'error'``, ``'gray25'``, "
 "``'gray50'``, ``'hourglass'``, ``'info'``, ``'questhead'``, ``'question'``, "
@@ -952,27 +951,27 @@ msgid ""
 "file, preceded with an ``@``, as in ``\"@/usr/contrib/bitmap/gumby.bit\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:628
+#: ../../library/tkinter.rst:631
 msgid "boolean"
 msgstr ""
 
-#: ../../library/tkinter.rst:628
+#: ../../library/tkinter.rst:631
 msgid "You can pass integers 0 or 1 or the strings ``\"yes\"`` or ``\"no\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:635
+#: ../../library/tkinter.rst:638
 msgid "callback"
 msgstr ""
 
-#: ../../library/tkinter.rst:631
+#: ../../library/tkinter.rst:634
 msgid "This is any Python function that takes no arguments.  For example::"
 msgstr ""
 
-#: ../../library/tkinter.rst:641
+#: ../../library/tkinter.rst:644
 msgid "color"
 msgstr ""
 
-#: ../../library/tkinter.rst:638
+#: ../../library/tkinter.rst:641
 msgid ""
 "Colors can be given as the names of X colors in the rgb.txt file, or as "
 "strings representing RGB values in 4 bit: ``\"#RGB\"``, 8 bit: "
@@ -981,11 +980,11 @@ msgid ""
 "digit.  See page 160 of Ousterhout's book for details."
 msgstr ""
 
-#: ../../library/tkinter.rst:647
+#: ../../library/tkinter.rst:650
 msgid "cursor"
 msgstr "kursor"
 
-#: ../../library/tkinter.rst:644
+#: ../../library/tkinter.rst:647
 msgid ""
 "The standard X cursor names from :file:`cursorfont.h` can be used, without "
 "the ``XC_`` prefix.  For example to get a hand cursor (:const:`XC_hand2`), "
@@ -993,11 +992,11 @@ msgid ""
 "of your own. See page 179 of Ousterhout's book."
 msgstr ""
 
-#: ../../library/tkinter.rst:654
+#: ../../library/tkinter.rst:657
 msgid "distance"
 msgstr ""
 
-#: ../../library/tkinter.rst:650
+#: ../../library/tkinter.rst:653
 msgid ""
 "Screen distances can be specified in either pixels or absolute distances. "
 "Pixels are given as numbers and absolute distances as strings, with the "
@@ -1006,119 +1005,119 @@ msgid ""
 "is expressed as ``\"3.5i\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:659
+#: ../../library/tkinter.rst:662
 msgid "font"
 msgstr "font"
 
-#: ../../library/tkinter.rst:657
+#: ../../library/tkinter.rst:660
 msgid ""
 "Tk uses a list font name format, such as ``{courier 10 bold}``. Font sizes "
 "with positive numbers are measured in points; sizes with negative numbers "
 "are measured in pixels."
 msgstr ""
 
-#: ../../library/tkinter.rst:664
+#: ../../library/tkinter.rst:667
 msgid "geometry"
 msgstr ""
 
-#: ../../library/tkinter.rst:662
+#: ../../library/tkinter.rst:665
 msgid ""
 "This is a string of the form ``widthxheight``, where width and height are "
 "measured in pixels for most widgets (in characters for widgets displaying "
 "text). For example: ``fred[\"geometry\"] = \"200x100\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:668
+#: ../../library/tkinter.rst:671
 msgid "justify"
 msgstr ""
 
-#: ../../library/tkinter.rst:667
+#: ../../library/tkinter.rst:670
 msgid ""
 "Legal values are the strings: ``\"left\"``, ``\"center\"``, ``\"right\"``, "
 "and ``\"fill\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:673
+#: ../../library/tkinter.rst:676
 msgid "region"
 msgstr ""
 
-#: ../../library/tkinter.rst:671
+#: ../../library/tkinter.rst:674
 msgid ""
 "This is a string with four space-delimited elements, each of which is a "
 "legal distance (see above).  For example: ``\"2 3 4 5\"`` and ``\"3i 2i 4.5i"
 " 2i\"`` and ``\"3c 2c 4c 10.43c\"``  are all legal regions."
 msgstr ""
 
-#: ../../library/tkinter.rst:677
+#: ../../library/tkinter.rst:680
 msgid "relief"
 msgstr ""
 
-#: ../../library/tkinter.rst:676
+#: ../../library/tkinter.rst:679
 msgid ""
 "Determines what the border style of a widget will be.  Legal values are: "
 "``\"raised\"``, ``\"sunken\"``, ``\"flat\"``, ``\"groove\"``, and "
 "``\"ridge\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:681
+#: ../../library/tkinter.rst:684
 msgid "scrollcommand"
 msgstr ""
 
-#: ../../library/tkinter.rst:680
+#: ../../library/tkinter.rst:683
 msgid ""
 "This is almost always the :meth:`!set` method of some scrollbar widget, but "
 "can be any widget method that takes a single argument."
 msgstr ""
 
-#: ../../library/tkinter.rst:684
+#: ../../library/tkinter.rst:687
 msgid "wrap"
 msgstr ""
 
-#: ../../library/tkinter.rst:684
+#: ../../library/tkinter.rst:687
 msgid "Must be one of: ``\"none\"``, ``\"char\"``, or ``\"word\"``."
 msgstr ""
 
-#: ../../library/tkinter.rst:689
+#: ../../library/tkinter.rst:692
 msgid "Bindings and Events"
 msgstr ""
 
-#: ../../library/tkinter.rst:695
+#: ../../library/tkinter.rst:698
 msgid ""
 "The bind method from the widget command allows you to watch for certain "
 "events and to have a callback function trigger when that event type occurs."
 "  The form of the bind method is::"
 msgstr ""
 
-#: ../../library/tkinter.rst:701
+#: ../../library/tkinter.rst:704
 msgid "where:"
 msgstr ""
 
-#: ../../library/tkinter.rst:705
+#: ../../library/tkinter.rst:708
 msgid "sequence"
 msgstr "urutan"
 
-#: ../../library/tkinter.rst:704
+#: ../../library/tkinter.rst:707
 msgid ""
 "is a string that denotes the target kind of event.  (See the bind man page "
 "and page 201 of John Ousterhout's book for details)."
 msgstr ""
 
-#: ../../library/tkinter.rst:710
+#: ../../library/tkinter.rst:713
 msgid "func"
 msgstr "func"
 
-#: ../../library/tkinter.rst:708
+#: ../../library/tkinter.rst:711
 msgid ""
 "is a Python function, taking one argument, to be invoked when the event "
 "occurs. An Event instance will be passed as the argument. (Functions "
 "deployed this way are commonly known as *callbacks*.)"
 msgstr ""
 
-#: ../../library/tkinter.rst:716
+#: ../../library/tkinter.rst:719
 msgid "add"
 msgstr "add"
 
-#: ../../library/tkinter.rst:713
+#: ../../library/tkinter.rst:716
 msgid ""
 "is optional, either ``''`` or ``'+'``.  Passing an empty string denotes that"
 " this binding is to replace any other bindings that this event is associated"
@@ -1126,7 +1125,7 @@ msgid ""
 "list of functions bound to this event type."
 msgstr ""
 
-#: ../../library/tkinter.rst:725
+#: ../../library/tkinter.rst:728
 msgid ""
 "Notice how the widget field of the event is being accessed in the "
 "``turn_red()`` callback.  This field contains the widget that caught the X "
@@ -1135,213 +1134,213 @@ msgid ""
 "man pages."
 msgstr ""
 
-#: ../../library/tkinter.rst:731 ../../library/tkinter.rst:731
+#: ../../library/tkinter.rst:734 ../../library/tkinter.rst:734
 msgid "Tk"
 msgstr ""
 
-#: ../../library/tkinter.rst:731 ../../library/tkinter.rst:731
+#: ../../library/tkinter.rst:734 ../../library/tkinter.rst:734
 msgid "Tkinter Event Field"
 msgstr ""
 
-#: ../../library/tkinter.rst:733
+#: ../../library/tkinter.rst:736
 msgid "%f"
 msgstr "%f"
 
-#: ../../library/tkinter.rst:733
+#: ../../library/tkinter.rst:736
 msgid "focus"
 msgstr "fokus"
 
-#: ../../library/tkinter.rst:733
+#: ../../library/tkinter.rst:736
 msgid "%A"
 msgstr "%A"
 
-#: ../../library/tkinter.rst:733
+#: ../../library/tkinter.rst:736
 msgid "char"
 msgstr "char"
 
-#: ../../library/tkinter.rst:735
+#: ../../library/tkinter.rst:738
 msgid "%h"
 msgstr "%h"
 
-#: ../../library/tkinter.rst:735
+#: ../../library/tkinter.rst:738
 msgid "height"
 msgstr "tinggi"
 
-#: ../../library/tkinter.rst:735
+#: ../../library/tkinter.rst:738
 msgid "%E"
 msgstr "%E"
 
-#: ../../library/tkinter.rst:735
+#: ../../library/tkinter.rst:738
 msgid "send_event"
 msgstr ""
 
-#: ../../library/tkinter.rst:737
+#: ../../library/tkinter.rst:740
 msgid "%k"
 msgstr "%k"
 
-#: ../../library/tkinter.rst:737
+#: ../../library/tkinter.rst:740
 msgid "keycode"
 msgstr "keycode"
 
-#: ../../library/tkinter.rst:737
+#: ../../library/tkinter.rst:740
 msgid "%K"
 msgstr "%K"
 
-#: ../../library/tkinter.rst:737
+#: ../../library/tkinter.rst:740
 msgid "keysym"
 msgstr "keysym"
 
-#: ../../library/tkinter.rst:739
+#: ../../library/tkinter.rst:742
 msgid "%s"
 msgstr "%s"
 
-#: ../../library/tkinter.rst:739
+#: ../../library/tkinter.rst:742
 msgid "state"
 msgstr ""
 
-#: ../../library/tkinter.rst:739
+#: ../../library/tkinter.rst:742
 msgid "%N"
 msgstr "%N"
 
-#: ../../library/tkinter.rst:739
+#: ../../library/tkinter.rst:742
 msgid "keysym_num"
 msgstr "keysym_num"
 
-#: ../../library/tkinter.rst:741
+#: ../../library/tkinter.rst:744
 msgid "%t"
 msgstr "%t"
 
-#: ../../library/tkinter.rst:741
+#: ../../library/tkinter.rst:744
 msgid "time"
 msgstr "time"
 
-#: ../../library/tkinter.rst:741
+#: ../../library/tkinter.rst:744
 msgid "%T"
 msgstr "%T"
 
-#: ../../library/tkinter.rst:741
+#: ../../library/tkinter.rst:744
 msgid "type"
 msgstr "tipe"
 
-#: ../../library/tkinter.rst:743
+#: ../../library/tkinter.rst:746
 msgid "%w"
 msgstr "%w"
 
-#: ../../library/tkinter.rst:743
+#: ../../library/tkinter.rst:746
 msgid "width"
 msgstr "lebar"
 
-#: ../../library/tkinter.rst:743
+#: ../../library/tkinter.rst:746
 msgid "%W"
 msgstr "%W"
 
-#: ../../library/tkinter.rst:743
+#: ../../library/tkinter.rst:746
 msgid "widget"
 msgstr ""
 
-#: ../../library/tkinter.rst:745
+#: ../../library/tkinter.rst:748
 msgid "%x"
 msgstr "%x"
 
-#: ../../library/tkinter.rst:745
+#: ../../library/tkinter.rst:748
 msgid "x"
 msgstr "x"
 
-#: ../../library/tkinter.rst:745
+#: ../../library/tkinter.rst:748
 msgid "%X"
 msgstr "%X"
 
-#: ../../library/tkinter.rst:745
+#: ../../library/tkinter.rst:748
 msgid "x_root"
 msgstr "x_root"
 
-#: ../../library/tkinter.rst:747
+#: ../../library/tkinter.rst:750
 msgid "%y"
 msgstr "%y"
 
-#: ../../library/tkinter.rst:747
+#: ../../library/tkinter.rst:750
 msgid "y"
 msgstr "y"
 
-#: ../../library/tkinter.rst:747
+#: ../../library/tkinter.rst:750
 msgid "%Y"
 msgstr "%Y"
 
-#: ../../library/tkinter.rst:747
+#: ../../library/tkinter.rst:750
 msgid "y_root"
 msgstr "y_root"
 
-#: ../../library/tkinter.rst:752
+#: ../../library/tkinter.rst:755
 msgid "The index Parameter"
 msgstr ""
 
-#: ../../library/tkinter.rst:754
+#: ../../library/tkinter.rst:757
 msgid ""
 "A number of widgets require \"index\" parameters to be passed.  These are "
 "used to point at a specific place in a Text widget, or to particular "
 "characters in an Entry widget, or to particular menu items in a Menu widget."
 msgstr ""
 
-#: ../../library/tkinter.rst:761
+#: ../../library/tkinter.rst:764
 msgid "Entry widget indexes (index, view index, etc.)"
 msgstr ""
 
-#: ../../library/tkinter.rst:759
+#: ../../library/tkinter.rst:762
 msgid ""
 "Entry widgets have options that refer to character positions in the text "
 "being displayed.  You can use these :mod:`tkinter` functions to access these"
 " special points in text widgets:"
 msgstr ""
 
-#: ../../library/tkinter.rst:765
+#: ../../library/tkinter.rst:768
 msgid "Text widget indexes"
 msgstr ""
 
-#: ../../library/tkinter.rst:764
+#: ../../library/tkinter.rst:767
 msgid ""
 "The index notation for Text widgets is very rich and is best described in "
 "the Tk man pages."
 msgstr ""
 
-#: ../../library/tkinter.rst:790
+#: ../../library/tkinter.rst:793
 msgid "Menu indexes (menu.invoke(), menu.entryconfig(), etc.)"
 msgstr ""
 
-#: ../../library/tkinter.rst:768
+#: ../../library/tkinter.rst:771
 msgid ""
 "Some options and methods for menus manipulate specific menu entries. Anytime"
 " a menu index is needed for an option or a parameter, you may pass in:"
 msgstr ""
 
-#: ../../library/tkinter.rst:771
+#: ../../library/tkinter.rst:774
 msgid ""
 "an integer which refers to the numeric position of the entry in the widget, "
 "counted from the top, starting with 0;"
 msgstr ""
 
-#: ../../library/tkinter.rst:774
+#: ../../library/tkinter.rst:777
 msgid ""
 "the string ``\"active\"``, which refers to the menu position that is "
 "currently under the cursor;"
 msgstr ""
 
-#: ../../library/tkinter.rst:777
+#: ../../library/tkinter.rst:780
 msgid "the string ``\"last\"`` which refers to the last menu item;"
 msgstr ""
 
-#: ../../library/tkinter.rst:779
+#: ../../library/tkinter.rst:782
 msgid ""
 "An integer preceded by ``@``, as in ``@6``, where the integer is interpreted"
 " as a y pixel coordinate in the menu's coordinate system;"
 msgstr ""
 
-#: ../../library/tkinter.rst:782
+#: ../../library/tkinter.rst:785
 msgid ""
 "the string ``\"none\"``, which indicates no menu entry at all, most often "
 "used with menu.activate() to deactivate all entries, and finally,"
 msgstr ""
 
-#: ../../library/tkinter.rst:785
+#: ../../library/tkinter.rst:788
 msgid ""
 "a text string that is pattern matched against the label of the menu entry, "
 "as scanned from the top of the menu to the bottom.  Note that this index "
@@ -1350,33 +1349,33 @@ msgid ""
 "above literals, instead."
 msgstr ""
 
-#: ../../library/tkinter.rst:793
+#: ../../library/tkinter.rst:796
 msgid "Images"
 msgstr ""
 
-#: ../../library/tkinter.rst:795
+#: ../../library/tkinter.rst:798
 msgid ""
 "Images of different formats can be created through the corresponding "
 "subclass of :class:`tkinter.Image`:"
 msgstr ""
 
-#: ../../library/tkinter.rst:798
+#: ../../library/tkinter.rst:801
 msgid ":class:`BitmapImage` for images in XBM format."
 msgstr ""
 
-#: ../../library/tkinter.rst:800
+#: ../../library/tkinter.rst:803
 msgid ""
 ":class:`PhotoImage` for images in PGM, PPM, GIF and PNG formats. The latter "
 "is supported starting with Tk 8.6."
 msgstr ""
 
-#: ../../library/tkinter.rst:803
+#: ../../library/tkinter.rst:806
 msgid ""
 "Either type of image is created through either the ``file`` or the ``data`` "
 "option (other options are available as well)."
 msgstr ""
 
-#: ../../library/tkinter.rst:806
+#: ../../library/tkinter.rst:809
 msgid ""
 "The image object can then be used wherever an ``image`` option is supported "
 "by some widget (e.g. labels, buttons, menus). In these cases, Tk will not "
@@ -1385,28 +1384,28 @@ msgid ""
 " empty box wherever the image was used."
 msgstr ""
 
-#: ../../library/tkinter.rst:814
+#: ../../library/tkinter.rst:817
 msgid ""
 "The `Pillow <http://python-pillow.org/>`_ package adds support for formats "
 "such as BMP, JPEG, TIFF, and WebP, among others."
 msgstr ""
 
-#: ../../library/tkinter.rst:820
+#: ../../library/tkinter.rst:823
 msgid "File Handlers"
 msgstr ""
 
-#: ../../library/tkinter.rst:822
+#: ../../library/tkinter.rst:825
 msgid ""
 "Tk allows you to register and unregister a callback function which will be "
 "called from the Tk mainloop when I/O is possible on a file descriptor. Only "
 "one handler may be registered per file descriptor. Example code::"
 msgstr ""
 
-#: ../../library/tkinter.rst:833
+#: ../../library/tkinter.rst:836
 msgid "This feature is not available on Windows."
 msgstr ""
 
-#: ../../library/tkinter.rst:835
+#: ../../library/tkinter.rst:838
 msgid ""
 "Since you don't know how many bytes are available for reading, you may not "
 "want to use the :class:`~io.BufferedIOBase` or :class:`~io.TextIOBase` "
@@ -1417,7 +1416,7 @@ msgid ""
 "``os.read(file.fileno(), maxbytecount)``."
 msgstr ""
 
-#: ../../library/tkinter.rst:846
+#: ../../library/tkinter.rst:849
 msgid ""
 "Registers the file handler callback function *func*. The *file* argument may"
 " either be an object with a :meth:`~io.IOBase.fileno` method (such as a file"
@@ -1426,10 +1425,10 @@ msgid ""
 "called as follows::"
 msgstr ""
 
-#: ../../library/tkinter.rst:857
+#: ../../library/tkinter.rst:860
 msgid "Unregisters a file handler."
 msgstr ""
 
-#: ../../library/tkinter.rst:864
+#: ../../library/tkinter.rst:867
 msgid "Constants used in the *mask* arguments."
 msgstr ""

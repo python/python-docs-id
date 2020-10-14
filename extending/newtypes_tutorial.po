@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: 2018-04-08 04:04+0000\n"
 "Last-Translator: Iwan Setiawan <stwn@duniasemu.org>, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -479,8 +479,8 @@ msgid ""
 "``first`` member, so it could be any kind of object.  It could have a "
 "destructor that causes code to be executed that tries to access the "
 "``first`` member; or that destructor could release the :term:`Global "
-"interpreter Lock` and let arbitrary code run in other threads that accesses "
-"and modifies our object."
+"interpreter Lock <GIL>` and let arbitrary code run in other threads that "
+"accesses and modifies our object."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:422
