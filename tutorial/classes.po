@@ -1284,6 +1284,13 @@ msgid ""
 "remembers all the data values and which statement was last executed).  An "
 "example shows that generators can be trivially easy to create::"
 msgstr ""
+":term:`Generators<generator>` adalah sebuah tool yang sederhana dan simpel "
+"untuk membuat sebuah iterasi. Itu ditulis seperti fungsi biasa tapi "
+"menggunakan pernyataan :keyword:`yield`  setiap kali ingin mengembalikan "
+"sebuah data. Tiap kali :func:`next` itu dipanggil, generators tersebut akan "
+"melanjutkan di mana hal itu berhenti (itu akan mengingat semua nilai dan "
+"pernyataan mana yang terakhir dieksekusi). Sebuah contoh menunjukkan bahwa "
+"generator sangat mudah dibuat::"
 
 #: ../../tutorial/classes.rst:873
 msgid ""

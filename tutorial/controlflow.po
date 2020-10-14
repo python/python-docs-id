@@ -369,6 +369,11 @@ msgid ""
 "to by that name as a user-defined function.  Other names can also point to "
 "that same function object and can also be used to access the function::"
 msgstr ""
+"Definisi fungsi mengasosiasikan nama fungsi dengan objek fungsi dalam tabel "
+"simbol saat ini. Sebuah interpreter dapat mengenali objek yang ditunjuk "
+"dengan nama itu sebagai fungsi yang ditentukan oleh pengguna. Nama lain juga"
+" dapat menunjuk ke objek fungsi yang sama dan juga dapat digunakan untuk "
+"mengakses fungsi tersebut::"
 
 #: ../../tutorial/controlflow.rst:311
 msgid ""

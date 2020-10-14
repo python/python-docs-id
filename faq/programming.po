@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-30 04:13+0000\n"
+"POT-Creation-Date: 2020-10-06 04:19+0000\n"
 "PO-Revision-Date: 2017-02-16 17:43+0000\n"
 "Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -1332,7 +1332,7 @@ msgid ""
 msgstr ""
 
 #: ../../faq/programming.rst:1179
-msgid "If space is not an issue, the list comprehension may be fastest."
+msgid "The list comprehension may be fastest."
 msgstr ""
 
 #: ../../faq/programming.rst:1183
