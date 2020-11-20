@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-27 12:02+0000\n"
+"POT-Creation-Date: 2020-10-21 04:23+0000\n"
 "PO-Revision-Date: 2019-09-01 14:38+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,3 +44,79 @@ msgid ""
 "represent events raised by other implementations. See your runtime specific "
 "documentation for actual events raised."
 msgstr ""
+
+#: ../../library/audit_events.rst:23
+msgid ""
+"The following events are raised internally and do not correspond to any "
+"public API of CPython:"
+msgstr ""
+
+#: ../../library/audit_events.rst:27
+msgid "Audit event"
+msgstr ""
+
+#: ../../library/audit_events.rst:27
+msgid "Arguments"
+msgstr ""
+
+#: ../../library/audit_events.rst:29
+msgid "_winapi.CreateFile"
+msgstr ""
+
+#: ../../library/audit_events.rst:29
+msgid ""
+"``file_name``, ``desired_access``, ``share_mode``, ``creation_disposition``,"
+" ``flags_and_attributes``"
+msgstr ""
+
+#: ../../library/audit_events.rst:33
+msgid "_winapi.CreateJunction"
+msgstr ""
+
+#: ../../library/audit_events.rst:33
+msgid "``src_path``, ``dst_path``"
+msgstr ""
+
+#: ../../library/audit_events.rst:35
+msgid "_winapi.CreateNamedPipe"
+msgstr ""
+
+#: ../../library/audit_events.rst:35
+msgid "``name``, ``open_mode``, ``pipe_mode``"
+msgstr ""
+
+#: ../../library/audit_events.rst:37
+msgid "_winapi.CreatePipe"
+msgstr ""
+
+#: ../../library/audit_events.rst:39
+msgid "_winapi.CreateProcess"
+msgstr ""
+
+#: ../../library/audit_events.rst:39
+msgid "``application_name``, ``command_line``, ``current_directory``"
+msgstr ""
+
+#: ../../library/audit_events.rst:42
+msgid "_winapi.OpenProcess"
+msgstr ""
+
+#: ../../library/audit_events.rst:42
+msgid "``process_id``, ``desired_access``"
+msgstr ""
+
+#: ../../library/audit_events.rst:44
+msgid "_winapi.TerminateProcess"
+msgstr ""
+
+#: ../../library/audit_events.rst:44
+msgid "``handle``, ``exit_code``"
+msgstr ""
+
+#: ../../library/audit_events.rst:46
+msgid "ctypes.PyObj_FromPtr"
+msgstr ""
+
+#: ../../library/audit_events.rst:46
+msgid "``obj``"
+msgstr "``obj``"

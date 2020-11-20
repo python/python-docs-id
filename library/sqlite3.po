@@ -7,6 +7,7 @@
 # Helen Febriani <helenfy.72@gmail.com>, 2018
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # LIQRGV <septianhari@gmail.com>, 2019
+# Elmo Allistair <work.elmoallistair@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:27+0000\n"
-"Last-Translator: LIQRGV <septianhari@gmail.com>, 2019\n"
+"Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +24,15 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:2
+#: ../../library/sqlite3.rst:2
 msgid ":mod:`sqlite3` --- DB-API 2.0 interface for SQLite databases"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:9
+#: ../../library/sqlite3.rst:9
 msgid "**Source code:** :source:`Lib/sqlite3/`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:13
+#: ../../library/sqlite3.rst:13
 msgid ""
 "SQLite is a C library that provides a lightweight disk-based database that "
 "doesn't require a separate server process and allows accessing the database "
@@ -41,39 +42,39 @@ msgid ""
 " PostgreSQL or Oracle."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:20
+#: ../../library/sqlite3.rst:20
 msgid ""
 "The sqlite3 module was written by Gerhard Häring.  It provides a SQL "
 "interface compliant with the DB-API 2.0 specification described by "
 ":pep:`249`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:23
+#: ../../library/sqlite3.rst:23
 msgid ""
 "To use the module, you must first create a :class:`Connection` object that "
 "represents the database.  Here the data will be stored in the "
 ":file:`example.db` file::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:30
+#: ../../library/sqlite3.rst:30
 msgid ""
 "You can also supply the special name ``:memory:`` to create a database in "
 "RAM."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:32
+#: ../../library/sqlite3.rst:32
 msgid ""
 "Once you have a :class:`Connection`, you can create a :class:`Cursor`  "
 "object and call its :meth:`~Cursor.execute` method to perform SQL commands::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:51
+#: ../../library/sqlite3.rst:51
 msgid ""
 "The data you've saved is persistent and is available in subsequent "
 "sessions::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:57
+#: ../../library/sqlite3.rst:57
 msgid ""
 "Usually your SQL operations will need to use values from Python variables.  "
 "You shouldn't assemble your query using Python's string operations because "
@@ -82,7 +83,7 @@ msgid ""
 "wrong)."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:62
+#: ../../library/sqlite3.rst:62
 msgid ""
 "Instead, use the DB-API's parameter substitution.  Put ``?`` as a "
 "placeholder wherever you want to use a value, and then provide a tuple of "
@@ -91,7 +92,7 @@ msgid ""
 "``%s`` or ``:1``.) For example::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:84
+#: ../../library/sqlite3.rst:84
 msgid ""
 "To retrieve data after executing a SELECT statement, you can either treat "
 "the cursor as an :term:`iterator`, call the cursor's "
@@ -99,79 +100,78 @@ msgid ""
 ":meth:`~Cursor.fetchall` to get a list of the matching rows."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:89
+#: ../../library/sqlite3.rst:89
 msgid "This example uses the iterator form::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:104
+#: ../../library/sqlite3.rst:104
 msgid "https://github.com/ghaering/pysqlite"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:103
+#: ../../library/sqlite3.rst:103
 msgid ""
 "The pysqlite web page -- sqlite3 is developed externally under the name "
 "\"pysqlite\"."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:108
+#: ../../library/sqlite3.rst:108
 msgid "https://www.sqlite.org"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:107
+#: ../../library/sqlite3.rst:107
 msgid ""
 "The SQLite web page; the documentation describes the syntax and the "
 "available data types for the supported SQL dialect."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:111
+#: ../../library/sqlite3.rst:111
 msgid "https://www.w3schools.com/sql/"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:111
+#: ../../library/sqlite3.rst:111
 msgid "Tutorial, reference and examples for learning SQL syntax."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:113
+#: ../../library/sqlite3.rst:113
 msgid ":pep:`249` - Database API Specification 2.0"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:114
+#: ../../library/sqlite3.rst:114
 msgid "PEP written by Marc-André Lemburg."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:120
+#: ../../library/sqlite3.rst:120
 msgid "Module functions and constants"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:125
+#: ../../library/sqlite3.rst:125
 msgid ""
 "The version number of this module, as a string. This is not the version of "
 "the SQLite library."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:131
+#: ../../library/sqlite3.rst:131
 msgid ""
 "The version number of this module, as a tuple of integers. This is not the "
 "version of the SQLite library."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:137
+#: ../../library/sqlite3.rst:137
 msgid "The version number of the run-time SQLite library, as a string."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:142
+#: ../../library/sqlite3.rst:142
 msgid ""
 "The version number of the run-time SQLite library, as a tuple of integers."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:147
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:160
+#: ../../library/sqlite3.rst:147 ../../library/sqlite3.rst:160
 msgid ""
 "This constant is meant to be used with the *detect_types* parameter of the "
 ":func:`connect` function."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:150
+#: ../../library/sqlite3.rst:150
 msgid ""
 "Setting it makes the :mod:`sqlite3` module parse the declared type for each "
 "column it returns.  It will parse out the first word of the declared type, "
@@ -181,7 +181,7 @@ msgid ""
 "registered for that type there."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sqlite3.rst:163
+#: ../../library/sqlite3.rst:163
 msgid ""
 "Setting this makes the SQLite interface parse the column name for each "
 "column it returns.  It will look for a string formed [mytype] in there, and "
@@ -437,7 +437,7 @@ msgstr ""
 #: ../../library/sqlite3.rst:361 ../../library/sqlite3.rst:378
 #: ../../library/sqlite3.rst:492 ../../library/sqlite3.rst:649
 msgid "Example:"
-msgstr ""
+msgstr "Contoh:"
 
 #: ../../library/sqlite3.rst:368
 msgid "Creates a user-defined aggregate function."
