@@ -5,6 +5,7 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 03:54+0000\n"
 "PO-Revision-Date: 2017-02-16 23:16+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../../library/json.rst:2
 msgid ":mod:`json` --- JSON encoder and decoder"
-msgstr ""
+msgstr ":mod:`json` --- JSON encoder dan decoder"
 
 #: ../../library/json.rst:10
 msgid "**Source code:** :source:`Lib/json/__init__.py`"
-msgstr ""
+msgstr "**Source code:** :source:`Lib/json/__init__.py`"
 
 #: ../../library/json.rst:14
 msgid ""
@@ -38,44 +39,54 @@ msgid ""
 "<https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax (although"
 " it is not a strict subset of JavaScript [#rfc-errata]_ )."
 msgstr ""
+"`JSON (JavaScript Object Notation) <http://json.org>`_, specified by "
+":rfc:`7159` (which obsoletes :rfc:`4627`) and by `ECMA-404 <http://www.ecma-"
+"international.org/publications/standards/Ecma-404.htm>`_, is a lightweight "
+"data interchange format inspired by `JavaScript "
+"<https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax (although"
+" it is not a strict subset of JavaScript [#rfc-errata]_ )."
 
 #: ../../library/json.rst:21
 msgid ""
 ":mod:`json` exposes an API familiar to users of the standard library "
 ":mod:`marshal` and :mod:`pickle` modules."
 msgstr ""
+":mod:`json` exposes an API familiar to users of the standard library "
+":mod:`marshal` and :mod:`pickle` modules."
 
 #: ../../library/json.rst:24
 msgid "Encoding basic Python object hierarchies::"
-msgstr ""
+msgstr "Hierarki penyandian objek Python dasar::"
 
 #: ../../library/json.rst:43
 msgid "Compact encoding::"
-msgstr ""
+msgstr "Penyandian rapat::"
 
 #: ../../library/json.rst:49
 msgid "Pretty printing::"
-msgstr ""
+msgstr "Pencetakan indah::"
 
 #: ../../library/json.rst:58
 msgid "Decoding JSON::"
-msgstr ""
+msgstr "Penerjemahan JSON::"
 
 #: ../../library/json.rst:70
 msgid "Specializing JSON object decoding::"
-msgstr ""
+msgstr "Pengkhususan penerjemahan objek JSON::"
 
 #: ../../library/json.rst:85
 msgid "Extending :class:`JSONEncoder`::"
-msgstr ""
+msgstr "Memperluas :class:`JSONEncoder`::"
 
 #: ../../library/json.rst:103
 msgid "Using :mod:`json.tool` from the shell to validate and pretty-print:"
 msgstr ""
+"Menggunakan :mod:`json.tool` dari *shell* untuk memvalidasi dan *pretty-"
+"print*:"
 
 #: ../../library/json.rst:114
 msgid "See :ref:`json-commandline` for detailed documentation."
-msgstr ""
+msgstr "Lihat :ref:`json-commandline` untuk dokumentasi terperinci."
 
 #: ../../library/json.rst:118
 msgid ""
@@ -84,12 +95,19 @@ msgid ""
 "value) is also a subset of YAML 1.0 and 1.1.  This module can thus also be "
 "used as a YAML serializer."
 msgstr ""
+"JSON merupakan bagian dari `YAML <http://yaml.org/>`_ 1.2.  JSON yang dibuat"
+" dari pengaturan bawaan dari modul ini (khususnya, nilai *separators* "
+"bawaan) juga merupakan bagian dari YAML 1.0 dan 1.1. Karenanya modul ini "
+"juga dapat digunakan sebagai sebuah *serializer* YAML."
 
 #: ../../library/json.rst:125
 msgid ""
 "This module's encoders and decoders preserve input and output order by "
 "default.  Order is only lost if the underlying containers are unordered."
 msgstr ""
+"*Encoders* dan *decoders* dari modul ini secara bawaan mempertahankan urutan"
+" masukan dan keluaran. Urutan hanya akan hilang jika *containers* dasarnya "
+"tidak berurutan. "
 
 #: ../../library/json.rst:128
 msgid ""
@@ -103,7 +121,7 @@ msgstr ""
 
 #: ../../library/json.rst:137
 msgid "Basic Usage"
-msgstr ""
+msgstr "Penggunaan Dasar"
 
 #: ../../library/json.rst:144
 msgid ""
@@ -139,6 +157,9 @@ msgid ""
 "reference check for container types will be skipped and a circular reference"
 " will result in an :exc:`OverflowError` (or worse)."
 msgstr ""
+"Jika *check_circular* bernilai *false* (bawaan: ``True``), maka pemeriksaan "
+"referensi sirkular untuk tipe-tipe *container* akan dilewati dan referensi "
+"sirkular akan menghasilkan sebuah :exc:`OverflowError` (atau lebih buruk)."
 
 #: ../../library/json.rst:164
 msgid ""
@@ -174,6 +195,7 @@ msgstr ""
 #: ../../library/json.rst:185 ../../library/json.rst:464
 msgid "Use ``(',', ': ')`` as default if *indent* is not ``None``."
 msgstr ""
+"Menggunakan ``(',', ': ')`` sebagai bawaan jika *indent* bukan ``None``."
 
 #: ../../library/json.rst:188 ../../library/json.rst:467
 msgid ""
@@ -188,6 +210,8 @@ msgid ""
 "If *sort_keys* is true (default: ``False``), then the output of dictionaries"
 " will be sorted by key."
 msgstr ""
+"Jika *sort_keys* bernilai ``True`` (bawaan: ``False``), maka keluaran "
+"*dictionaries* akan diurutkan berdasarkan *key*."
 
 #: ../../library/json.rst:196
 msgid ""
@@ -201,6 +225,8 @@ msgid ""
 "All optional parameters are now :ref:`keyword-only <keyword-"
 "only_parameter>`."
 msgstr ""
+"Semua parameter-parameter opsional sekarang menjadi :ref:`keyword-only "
+"<keyword-only_parameter>`."
 
 #: ../../library/json.rst:205
 msgid ""
@@ -252,7 +278,7 @@ msgstr ""
 
 #: ../../library/json.rst:245 ../../library/json.rst:344
 msgid "Added support for *object_pairs_hook*."
-msgstr ""
+msgstr "Menambahkan dukungan untuk *object_pairs_hook*."
 
 #: ../../library/json.rst:248 ../../library/json.rst:347
 msgid ""
@@ -325,15 +351,15 @@ msgstr ""
 
 #: ../../library/json.rst:300
 msgid "Encoders and Decoders"
-msgstr ""
+msgstr "Encoders dan Decoders"
 
 #: ../../library/json.rst:304
 msgid "Simple JSON decoder."
-msgstr ""
+msgstr "Decoder JSON sederhana."
 
 #: ../../library/json.rst:306
 msgid "Performs the following translations in decoding by default:"
-msgstr ""
+msgstr "Melakukan penerjemahan berikut secara bawaan:"
 
 #: ../../library/json.rst:311 ../../library/json.rst:400
 msgid "JSON"
@@ -341,7 +367,7 @@ msgstr "JSON"
 
 #: ../../library/json.rst:311 ../../library/json.rst:400
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../library/json.rst:313 ../../library/json.rst:402
 msgid "object"
@@ -353,11 +379,11 @@ msgstr "dict"
 
 #: ../../library/json.rst:315 ../../library/json.rst:404
 msgid "array"
-msgstr ""
+msgstr "array"
 
 #: ../../library/json.rst:315
 msgid "list"
-msgstr "daftar"
+msgstr "list"
 
 #: ../../library/json.rst:317 ../../library/json.rst:406
 msgid "string"
@@ -369,7 +395,7 @@ msgstr "str"
 
 #: ../../library/json.rst:319
 msgid "number (int)"
-msgstr ""
+msgstr "bilangan (int)"
 
 #: ../../library/json.rst:319
 msgid "int"
@@ -377,7 +403,7 @@ msgstr "int"
 
 #: ../../library/json.rst:321
 msgid "number (real)"
-msgstr ""
+msgstr "bilangan (real)"
 
 #: ../../library/json.rst:321
 msgid "float"
@@ -397,7 +423,7 @@ msgstr "salah"
 
 #: ../../library/json.rst:325 ../../library/json.rst:412
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../library/json.rst:327 ../../library/json.rst:414
 msgid "null"
@@ -477,15 +503,15 @@ msgstr ""
 
 #: ../../library/json.rst:404
 msgid "list, tuple"
-msgstr ""
+msgstr "list, tuple"
 
 #: ../../library/json.rst:408
 msgid "int, float, int- & float-derived Enums"
-msgstr ""
+msgstr "int, float, int- & float-derived Enums"
 
 #: ../../library/json.rst:408
 msgid "number"
-msgstr ""
+msgstr "number"
 
 #: ../../library/json.rst:417
 msgid "Added support for int- and float-derived Enum classes."
@@ -731,7 +757,7 @@ msgstr ""
 
 #: ../../library/json.rst:649
 msgid "the size of accepted JSON texts"
-msgstr ""
+msgstr "Ukuran teks JSON yang diterima"
 
 #: ../../library/json.rst:650
 msgid "the maximum level of nesting of JSON objects and arrays"
@@ -743,7 +769,7 @@ msgstr ""
 
 #: ../../library/json.rst:652
 msgid "the content and maximum length of JSON strings"
-msgstr ""
+msgstr "Konten dan panjang maksimum dari JSON strings"
 
 #: ../../library/json.rst:654
 msgid ""
@@ -768,7 +794,7 @@ msgstr ""
 
 #: ../../library/json.rst:675
 msgid "**Source code:** :source:`Lib/json/tool.py`"
-msgstr ""
+msgstr "**Source code:** :source:`Lib/json/tool.py`"
 
 #: ../../library/json.rst:679
 msgid ""

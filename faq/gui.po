@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Taufan Budiman <taufanbudiman@yahoo.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Taufan Budiman <taufanbudiman@yahoo.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +32,7 @@ msgstr "Konten"
 
 #: ../../faq/gui.rst:15
 msgid "General GUI Questions"
-msgstr ""
+msgstr "Pertanyaan Umum GUI"
 
 #: ../../faq/gui.rst:18
 msgid "What platform-independent GUI toolkits exist for Python?"
@@ -144,6 +145,8 @@ msgstr ""
 msgid ""
 "Kivy is free and open source software distributed under the MIT license."
 msgstr ""
+"Kivy adalah perangkat lunak gratis dan sumber terbuka yang didistribusikan "
+"di bawah lisensi MIT."
 
 #: ../../faq/gui.rst:91
 msgid "FLTK"
@@ -189,7 +192,7 @@ msgstr "Pertanyaan-pertanyaan Tkinter"
 
 #: ../../faq/gui.rst:119
 msgid "How do I freeze Tkinter applications?"
-msgstr ""
+msgstr "Bagaimana cara membekukan aplikasi Tkinter?"
 
 #: ../../faq/gui.rst:121
 msgid ""
