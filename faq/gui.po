@@ -44,6 +44,9 @@ msgid ""
 " them haven't been ported to Python 3 yet.  At least `Tkinter`_ and `Qt`_ "
 "are known to be Python 3-compatible."
 msgstr ""
+"Bergantung pada platform apa yang Anda bidik, ada beberapa. Beberapa dari "
+"mereka belum di-porting ke Python 3. Setidaknya `Tkinter`_ dan` Qt`_ "
+"diketahui kompatibel dengan Python 3."
 
 #: ../../faq/gui.rst:27
 msgid "Tkinter"
@@ -88,6 +91,9 @@ msgid ""
 "licences that allow their use in commercial products as well as in freeware "
 "or shareware."
 msgstr ""
+"Baik wxWidgets dan wxPython adalah perangkat lunak gratis, sumber terbuka, "
+"dengan lisensi permisif yang memungkinkan penggunaannya dalam produk "
+"komersial serta freeware atau shareware."
 
 #: ../../faq/gui.rst:58
 msgid "Qt"
@@ -167,6 +173,8 @@ msgstr "OpenGL"
 msgid ""
 "For OpenGL bindings, see `PyOpenGL <http://pyopengl.sourceforge.net>`_."
 msgstr ""
+"Untuk pengikatan OpenGL, lihat `PyOpenGL "
+"<http://pyopengl.sourceforge.net>`_."
 
 #: ../../faq/gui.rst:104
 msgid "What platform-specific GUI toolkits exist for Python?"
@@ -185,6 +193,9 @@ msgid ""
 "Microsoft Foundation Classes and a Python programming environment that's "
 "written mostly in Python using the MFC classes."
 msgstr ""
+":ref:`Pythonwin <windows-faq>`oleh Mark Hammond menyertakan antarmuka ke "
+"Microsoft Foundation Classes dan lingkungan pemrograman Python yang sebagian"
+" besar ditulis dengan Python menggunakan kelas MFC."
 
 #: ../../faq/gui.rst:116
 msgid "Tkinter questions"
@@ -223,6 +234,10 @@ msgid ""
 " link with libtclsam and libtksam (you might include the Tix libraries as "
 "well)."
 msgstr ""
+"Bangun Tix dengan SAM diaktifkan, lakukan panggilan yang sesuai ke "
+":c:func:`Tclsam_init`, dll. Di dalam Python : file:` Modules tkappinit.c`, "
+"dan tautkan dengan libtclsam dan libtksam (Anda mungkin menyertakan pustaka "
+"Tix juga )."
 
 #: ../../faq/gui.rst:141
 msgid "Can I have Tk events handled while waiting for I/O?"
@@ -240,6 +255,8 @@ msgstr ""
 #: ../../faq/gui.rst:151
 msgid "I can't get key bindings to work in Tkinter: why?"
 msgstr ""
+"Saya tidak bisa mendapatkan pengikatan kunci untuk bekerja di Tkinter: "
+"mengapa?"
 
 #: ../../faq/gui.rst:153
 msgid ""
