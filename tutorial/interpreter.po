@@ -62,6 +62,11 @@ msgid ""
 ":file:`py` command. See :ref:`setting-envvars` for other ways to launch "
 "Python."
 msgstr ""
+"Pada mesin *Windows* yang telah diinstall Python dari :ref:`Microsoft Store "
+"<windows-store>`, *command* :file:`python3.9` akan tersedia. Jika anda "
+"memiliki *launcher*  :ref:`py.exe <launcher>`, anda dapat menggunakan "
+"*command* :file:`py`. Lihat :ref:`setting-envvars` untuk mengetahui cara "
+"lain menjalankan Python."
 
 #: ../../tutorial/interpreter.rst:31
 msgid ""
