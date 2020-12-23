@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:31+0000\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../library/tk.rst:5
 msgid "Graphical User Interfaces with Tk"
-msgstr ""
+msgstr "User Interfaces Grafis dengan Tk"
 
 #: ../../library/tk.rst:13
 msgid ""
@@ -28,6 +32,10 @@ msgid ""
 "programmers using the :mod:`tkinter` package, and its extension, the "
 ":mod:`tkinter.tix` and the :mod:`tkinter.ttk` modules."
 msgstr ""
+"Tk/Tcl telah menjadi bagian yang tidak terpisahkan dari of Python. Ia "
+"menyediakan  *windowing toolkit* yang handal dan *platform* independen, yang"
+" tersedia untuk para programmer Python dalam  *package* :mod:`tkinter`, dan "
+"ekstensinya,  modul :mod:`tkinter.tix` dan :mod:`tkinter.ttk`."
 
 #: ../../library/tk.rst:18
 msgid ""

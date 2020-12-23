@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Elmo Allistair <work.elmoallistair@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:09+0000\n"
+"Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../library/email.rst:2
 msgid ":mod:`email` --- An email and MIME handling package"
-msgstr ""
+msgstr ":mod:`email` --- Paket penanganan email dan MIME"
 
 #: ../../library/email.rst:11
 msgid "**Source code:** :source:`Lib/email/__init__.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/email/__init__.py`"
 
 #: ../../library/email.rst:15
 msgid ""
@@ -35,6 +39,12 @@ msgid ""
 "well as such MIME-related RFCs as :rfc:`2045`, :rfc:`2046`, :rfc:`2047`, "
 ":rfc:`2183`, and :rfc:`2231`."
 msgstr ""
+"Paket :mod:`email` adalah pustaka untuk mengelola pesan email. Ini secara "
+"khusus *tidak* dirancang untuk melakukan pengiriman pesan email ke SMTP "
+"(:rfc:`2821`), NNTP, atau server lain; Itu adalah fungsi dari modul seperti "
+":mod:`smtplib` dan :mod:`nntplib`. Paket :mod:`email` berupaya agar sesuai "
+"dengan RFC, mendukung :rfc:`5233` dan :rfc:`6532`, serta RFC terkait MIME "
+"seperti :rfc:`2045`, :rfc:`2046`, :rfc:`2047`, :rfc:`2183`, dan :rfc:`2231`."
 
 #: ../../library/email.rst:23
 msgid ""
@@ -42,6 +52,8 @@ msgid ""
 "components, plus a fourth component that controls the behavior of the other "
 "components."
 msgstr ""
+"Struktur keseluruhan paket email dapat dibagi menjadi tiga komponen utama, "
+"ditambah komponen keempat yang mengontrol perilaku komponen lainnya."
 
 #: ../../library/email.rst:27
 msgid ""
@@ -55,6 +67,15 @@ msgid ""
 "model is a tree structure of objects that all provide the "
 ":class:`~email.message.EmailMessage` API."
 msgstr ""
+"Komponen utama dari paket tersebut adalah \"model objek\" yang mewakili "
+"pesan email. Aplikasi berinteraksi dengan paket terutama melalui antarmuka "
+"model objek yang ditentukan dalam sub-modul :mod:`~email.message`. Aplikasi "
+"dapat menggunakan API ini untuk mengajukan pertanyaan tentang email yang "
+"sudah ada, membuat email baru, atau untuk menambah atau menghapus "
+"subkomponen email yang menggunakan antarmuka model objek yang sama. Artinya,"
+" mengikuti sifat pesan email dan subkomponen MIME-nya, model objek email "
+"adalah struktur pohon objek yang semuanya menyediakan API "
+":class:`~email.message.EmailMessage`."
 
 #: ../../library/email.rst:37
 msgid ""
@@ -67,6 +88,14 @@ msgid ""
 "characters, but this usage is discouraged as it is too easy to end up with "
 "messages that are not valid in one way or another.)"
 msgstr ""
+"Dua komponen utama lainnya dari paket tersebut adalah :mod:`~email.parser` "
+"dan :mod:`~email.generator`. Parser mengambil versi serial dari pesan email "
+"(aliran byte) dan mengubahnya menjadi pohon objek "
+":class:`~email.message.EmailMessage`. Generator mengambil "
+":class:`~email.message.EmailMessage` dan mengubahnya kembali menjadi aliran "
+"byte serial. (Pengurai dan generator juga menangani aliran karakter teks, "
+"tetapi penggunaan ini tidak disarankan karena terlalu mudah untuk berakhir "
+"dengan pesan yang tidak valid dalam satu atau lain cara.)"
 
 #: ../../library/email.rst:46
 msgid ""
@@ -82,6 +111,17 @@ msgid ""
 "to be parsed from disk, but to serialize it using standard SMTP settings "
 "when sending it to an email server."
 msgstr ""
+"Komponen kontrolnya adalah modul :mod:`~email.policy`. Setiap "
+":class:`~email.message.EmailMessage`, setiap :mod:`~email.generator`, dan "
+"setiap :mod:`~email.parser` memiliki objek terkait :mod:`~email.policy` yang"
+" mengontrol perilakunya. Biasanya aplikasi hanya perlu menetapkan kebijakan "
+"ketika :class:`~email.message.EmailMessage` dibuat, baik dengan langsung "
+"membuat instance :class:`~email.message.EmailMessage` untuk membuat email "
+"baru, atau dengan mengurai aliran input menggunakan :mod:`~email.parser`. "
+"Namun kebijakan tersebut dapat diubah jika pesan diserialkan menggunakan "
+":mod:`~email.generator`. Hal ini memungkinkan, misalnya, pesan email umum "
+"diurai dari disk, tetapi untuk membuat serialnya menggunakan pengaturan SMTP"
+" standar saat mengirimnya ke server email."
 
 #: ../../library/email.rst:58
 msgid ""
