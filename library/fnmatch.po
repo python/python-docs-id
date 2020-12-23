@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:10+0000\n"
 "Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -116,9 +116,9 @@ msgstr ""
 
 #: ../../library/fnmatch.rst:78
 msgid ""
-"Return the subset of the list of *names* that match *pattern*. It is the "
-"same as ``[n for n in names if fnmatch(n, pattern)]``, but implemented more "
-"efficiently."
+"Construct a list from those elements of the iterable *names* that match "
+"*pattern*. It is the same as ``[n for n in names if fnmatch(n, pattern)]``, "
+"but implemented more efficiently."
 msgstr ""
 
 #: ../../library/fnmatch.rst:84
