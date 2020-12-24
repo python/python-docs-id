@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:31+0000\n"
-"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +47,13 @@ msgid ""
 "classes.  In addition, the internal module :mod:`_tkinter` provides a "
 "threadsafe mechanism which allows Python and Tcl to interact."
 msgstr ""
+"Paket :mod:`tkinter` adalah lapisan tipis berorientasi objek di atas Tcl/Tk."
+" Untuk menggunakan :mod:`tkinter`, Anda tidak perlu menulis kode Tcl, tetapi"
+" Anda perlu membaca dokumentasi Tk, dan terkadang dokumentasi Tcl. "
+":mod:`tkinter` adalah satu set pembungkus yang mengimplementasikan widget Tk"
+" sebagai kelas Python. Selain itu, modul internal :mod:`_tkinter` "
+"menyediakan mekanisme *threadsafe* yang memungkinkan Python dan Tcl "
+"berinteraksi."
 
 #: ../../library/tk.rst:25
 msgid ""
@@ -57,3 +65,10 @@ msgid ""
 " GUI libraries that you could be interested in. For more information about "
 "alternatives, see the :ref:`other-gui-packages` section."
 msgstr ""
+"Keutamaan :mod:`tkinter` adalah cepat, dan biasanya dibundel dengan Python. "
+"Meskipun dokumentasi standarnya kurang, namun tersedia materi yang baik, "
+"yang meliputi: referensi, tutorial, buku dan lain-lain. :mod:`tkinter` juga "
+"terkenal memiliki tampilan dan nuansa yang ketinggalan jaman, yang telah "
+"jauh ditingkatkan di Tk 8.5. Namun demikian, ada banyak pustaka GUI lain "
+"yang mungkin Anda minati. Untuk informasi lebih lanjut tentang alternatif, "
+"lihat bagian :ref:`other-gui-packages`."
