@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:13+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,15 +23,15 @@ msgstr ""
 
 #: ../../library/html.rst:2
 msgid ":mod:`html` --- HyperText Markup Language support"
-msgstr ""
+msgstr ":mod:`html` --- Dukungan *HyperText Markup Language*"
 
 #: ../../library/html.rst:7
 msgid "**Source code:** :source:`Lib/html/__init__.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/html/__init__.py`"
 
 #: ../../library/html.rst:11
 msgid "This module defines utilities to manipulate HTML."
-msgstr ""
+msgstr "Modul ini mendefinisikan utilitas untuk memanipulasi HTML."
 
 #: ../../library/html.rst:15
 msgid ""
@@ -49,12 +53,14 @@ msgstr ""
 
 #: ../../library/html.rst:36
 msgid "Submodules in the ``html`` package are:"
-msgstr ""
+msgstr "Submodul dalam paket ``html`` adalah:"
 
 #: ../../library/html.rst:38
 msgid ":mod:`html.parser` -- HTML/XHTML parser with lenient parsing mode"
 msgstr ""
+":mod:`html.parser` -- HTML/XHTML parser dengan mode penguraian yang "
+"fleksibel"
 
 #: ../../library/html.rst:39
 msgid ":mod:`html.entities` -- HTML entity definitions"
-msgstr ""
+msgstr ":mod:`html.entities` -- definisi entitas HTML"
