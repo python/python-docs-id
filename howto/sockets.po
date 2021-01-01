@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Akhmat Safrudin <somat@artikulpi.com>, 2018
 # Iwan Setiawan <stwn@duniasemu.org>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 17:46+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:5
 msgid "Socket Programming HOWTO"
-msgstr ""
+msgstr "HOWTO Pemrograman Soket"
 
 #: ../../howto/sockets.rst:0
 msgid "Author"
@@ -33,7 +33,7 @@ msgstr "Penulis"
 
 #: ../../howto/sockets.rst:7
 msgid "Gordon McMillan"
-msgstr ""
+msgstr "Gordon McMillan"
 
 #: ../../howto/sockets.rstNone
 msgid "Abstract"
@@ -48,6 +48,12 @@ msgid ""
 "a lot of them), but I hope it will give you enough background to begin using"
 " them decently."
 msgstr ""
+"Soket digunakan hampir di mana-mana, tetapi merupakan salah satu teknologi "
+"yang paling disalahpahami. Ini adalah gambaran soket dari 10.000 kaki. Ini "
+"sebenarnya bukan tutorial - Anda masih memiliki pekerjaan yang harus "
+"dilakukan agar segala sesuatunya beroperasi. Itu tidak mencakup poin-poin "
+"penting (dan ada banyak di antaranya), tetapi saya berharap ini akan memberi"
+" Anda latar belakang yang cukup untuk mulai menggunakannya dengan baik."
 
 #: ../../howto/sockets.rst:20
 msgid "Sockets"
@@ -78,7 +84,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:40
 msgid "History"
-msgstr ""
+msgstr "Sejarah"
 
 #: ../../howto/sockets.rst:42
 msgid ""
@@ -98,13 +104,15 @@ msgstr ""
 
 #: ../../howto/sockets.rst:54
 msgid "Creating a Socket"
-msgstr ""
+msgstr "Membuat sebuah Soket"
 
 #: ../../howto/sockets.rst:56
 msgid ""
 "Roughly speaking, when you clicked on the link that brought you to this "
 "page, your browser did something like the following::"
 msgstr ""
+"Secara kasar, ketika Anda mengklik tautan yang membawa Anda ke halaman ini, "
+"browser Anda melakukan sesuatu seperti berikut:"
 
 #: ../../howto/sockets.rst:64
 msgid ""
@@ -119,6 +127,8 @@ msgid ""
 "What happens in the web server is a bit more complex. First, the web server "
 "creates a \"server socket\"::"
 msgstr ""
+"Apa yang terjadi di server web sedikit lebih kompleks. Pertama, server web "
+"membuat \"soket server\"::"
 
 #: ../../howto/sockets.rst:80
 msgid ""
@@ -150,6 +160,8 @@ msgid ""
 "Now that we have a \"server\" socket, listening on port 80, we can enter the"
 " mainloop of the web server::"
 msgstr ""
+"Sekarang kita memiliki soket \"server\", mendengarkan pada port 80, kita "
+"dapat masuk ke *mainloop* server web::"
 
 #: ../../howto/sockets.rst:106
 msgid ""
@@ -170,7 +182,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:121
 msgid "IPC"
-msgstr ""
+msgstr "IPC"
 
 #: ../../howto/sockets.rst:123
 msgid ""
@@ -186,10 +198,12 @@ msgid ""
 "The :mod:`multiprocessing` integrates cross-platform IPC into a higher-level"
 " API."
 msgstr ""
+"The :mod:`multiprocessing` mengintegrasikan IPC lintas platform ke dalam API"
+" tingkat yang lebih tinggi."
 
 #: ../../howto/sockets.rst:134
 msgid "Using a Socket"
-msgstr ""
+msgstr "Menggunakan sebuah Soket"
 
 #: ../../howto/sockets.rst:136
 msgid ""
@@ -239,6 +253,9 @@ msgid ""
 " request, then reads a reply.  That's it. The socket is discarded. This "
 "means that a client can detect the end of the reply by receiving 0 bytes."
 msgstr ""
+"Protokol seperti HTTP menggunakan soket hanya untuk satu transfer. Klien "
+"mengirim permintaan, lalu membaca balasan. Hanya itu. Soket ditinggalkan. "
+"Artinya, klien dapat mendeteksi akhir balasan dengan menerima 0 byte."
 
 #: ../../howto/sockets.rst:169
 msgid ""
@@ -259,6 +276,8 @@ msgid ""
 "Assuming you don't want to end the connection, the simplest solution is a "
 "fixed length message::"
 msgstr ""
+"Dengan asumsi Anda tidak ingin mengakhiri koneksi, solusi paling sederhana "
+"adalah pesan dengan panjang tetap::"
 
 #: ../../howto/sockets.rst:217
 msgid ""
@@ -307,10 +326,13 @@ msgid ""
 "competitive position), these enhancements are left as an exercise for the "
 "reader. Lets move on to cleaning up."
 msgstr ""
+"Untuk kepentingan ruang, membangun karakter Anda, (dan mempertahankan posisi"
+" kompetitif saya), peningkatan ini dibiarkan sebagai latihan bagi pembaca. "
+"Mari kita lanjutkan ke pembersihan."
 
 #: ../../howto/sockets.rst:252
 msgid "Binary Data"
-msgstr ""
+msgstr "Data Biner"
 
 #: ../../howto/sockets.rst:254
 msgid ""
@@ -336,7 +358,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:272
 msgid "Disconnecting"
-msgstr ""
+msgstr "Pemutusan"
 
 #: ../../howto/sockets.rst:274
 msgid ""
@@ -372,7 +394,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:297
 msgid "When Sockets Die"
-msgstr ""
+msgstr "Saat Soket Mati"
 
 #: ../../howto/sockets.rst:299
 msgid ""
@@ -391,7 +413,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:313
 msgid "Non-blocking Sockets"
-msgstr ""
+msgstr "Soket Tidak-memblokir"
 
 #: ../../howto/sockets.rst:315
 msgid ""
@@ -423,7 +445,7 @@ msgstr ""
 
 #: ../../howto/sockets.rst:334
 msgid "Use ``select``."
-msgstr ""
+msgstr "Menggunakan ``select``."
 
 #: ../../howto/sockets.rst:336
 msgid ""
@@ -431,6 +453,9 @@ msgid ""
 "but it's close enough to the C version that if you understand ``select`` in "
 "Python, you'll have little trouble with it in C::"
 msgstr ""
+"Di C, pengkodean ``select`` cukup kompleks. Dengan Python, ini sangat mudah,"
+" tetapi cukup dekat dengan versi C sehingga jika Anda memahami ``select`` "
+"dengan Python, Anda akan mengalami sedikit masalah dengan itu di C::"
 
 #: ../../howto/sockets.rst:347
 msgid ""
@@ -449,6 +474,9 @@ msgid ""
 "actually readable, writable and in error. Each of these lists is a subset "
 "(possibly empty) of the corresponding list you passed in."
 msgstr ""
+"Sebagai gantinya, Anda akan mendapatkan tiga daftar. Mereka berisi soket "
+"yang sebenarnya dapat dibaca, ditulis dan dalam kesalahan. Setiap daftar ini"
+" adalah subset (mungkin kosong) dari daftar terkait yang Anda berikan."
 
 #: ../../howto/sockets.rst:359
 msgid ""
