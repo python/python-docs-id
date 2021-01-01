@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 11:56+0000\n"
+"POT-Creation-Date: 2020-09-14 04:04+0000\n"
 "PO-Revision-Date: 2017-02-16 23:35+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -517,8 +517,8 @@ msgid ""
 "rarely used and is not guaranteed by WSGI. On IIS<7, though, the setting can"
 " only be made on a vhost level, affecting all other script mappings, many of"
 " which break when exposed to the ``PATH_TRANSLATED`` bug. For this reason "
-"IIS<7 is almost never deployed with the fix. (Even IIS7 rarely uses it "
-"because there is still no UI for it.)"
+"IIS<7 is almost never deployed with the fix (Even IIS7 rarely uses it "
+"because there is still no UI for it.)."
 msgstr ""
 
 #: ../../library/wsgiref.rst:486

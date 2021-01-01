@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -240,6 +241,11 @@ msgid ""
 "instead of by position.  This can be done by simply passing the dict and "
 "using square brackets ``'[]'`` to access the keys. ::"
 msgstr ""
+"Jika Anda memiliki string format yang sangat panjang yang tidak ingin Anda "
+"pisahkan, alangkah baiknya jika Anda bisa mereferensikan variabel yang akan "
+"diformat berdasarkan nama alih-alih berdasarkan posisi. Ini dapat dilakukan "
+"hanya dengan melewatkan *dict* dan menggunakan tanda kurung siku ``'[]'`` "
+"untuk mengakses kunci dari *dict* ::"
 
 #: ../../tutorial/inputoutput.rst:182
 msgid ""
@@ -329,6 +335,10 @@ msgid ""
 "zero or more elements of ``values``. This operation is commonly known as "
 "string interpolation. For example::"
 msgstr ""
+"Operator % (modulo) juga dapat digunakan untuk pemformatan string. Diberikan"
+" ``'string' % values``, instansiasi dari ``%`` in ``string`` diganti dengan "
+"nol atau elemen yang lebih dari ``values``. Operasi ini umumnya dikenal "
+"sebagai interpolasi string. Sebagai contoh::"
 
 #: ../../tutorial/inputoutput.rst:269
 msgid ""
@@ -423,21 +433,24 @@ msgstr ""
 msgid ""
 "If you're not using the :keyword:`with` keyword, then you should call "
 "``f.close()`` to close the file and immediately free up any system resources"
-" used by it. If you don't explicitly close a file, Python's garbage "
-"collector will eventually destroy the object and close the open file for "
-"you, but the file may stay open for a while.  Another risk is that different"
-" Python implementations will do this clean-up at different times."
+" used by it."
 msgstr ""
-"Jika Anda tidak menggunakan kata kunci :keyword:`with`, maka Anda harus "
-"memanggil ``f.close()`` untuk menutup berkas dan segera membebaskan semua "
-"sumber daya sistem yang digunakan olehnya. Jika Anda tidak secara eksplisit "
-"menutup file, pengumpul sampah *garbage collector* Python pada akhirnya akan"
-" menghancurkan objek dan menutup file yang terbuka untuk Anda, tetapi berkas"
-" tersebut mungkin tetap terbuka untuk sementara waktu. Risiko lain adalah "
-"implementasi Python yang berbeda akan melakukan pembersihan ini pada waktu "
-"yang berbeda."
+"Jika anda tidak menggunakan kata kunci :keyword:`with`, maka anda harus "
+"memanggil ``f.close()`` untuk menutup *file* dan membebaskan sumber daya "
+"sistem yang digunakan secara langsung."
 
-#: ../../tutorial/inputoutput.rst:338
+#: ../../tutorial/inputoutput.rst:335
+msgid ""
+"Calling ``f.write()`` without using the :keyword:`!with` keyword or calling "
+"``f.close()`` **might** result in the arguments of ``f.write()`` not being "
+"completely written to the disk, even if the program exits successfully."
+msgstr ""
+"Memanggil ``f.write()`` tanpa menggunakan kata kunci :keyword:`!with` atau "
+"memanggil ``f.close()`` **dapat** menyebabkan argumen-argumen dari "
+"``f.write()`` tidak dituliskan ke dalam *disk* secara utuh, meskipun program"
+" berhenti dengan sukses."
+
+#: ../../tutorial/inputoutput.rst:343
 msgid ""
 "After a file object is closed, either by a :keyword:`with` statement or by "
 "calling ``f.close()``, attempts to use the file object will automatically "
@@ -447,11 +460,11 @@ msgstr ""
 "dengan memanggil ``f.close()``, upaya untuk menggunakan objek file akan "
 "secara otomatis gagal. ::"
 
-#: ../../tutorial/inputoutput.rst:352
+#: ../../tutorial/inputoutput.rst:357
 msgid "Methods of File Objects"
 msgstr "Metode Objek Berkas"
 
-#: ../../tutorial/inputoutput.rst:354
+#: ../../tutorial/inputoutput.rst:359
 msgid ""
 "The rest of the examples in this section will assume that a file object "
 "called ``f`` has already been created."
@@ -459,7 +472,7 @@ msgstr ""
 "Sisa contoh di bagian ini akan menganggap bahwa objek berkas bernama ``f`` "
 "telah dibuat."
 
-#: ../../tutorial/inputoutput.rst:357
+#: ../../tutorial/inputoutput.rst:362
 msgid ""
 "To read a file's contents, call ``f.read(size)``, which reads some quantity "
 "of data and returns it as a string (in text mode) or bytes object (in binary"
@@ -480,7 +493,7 @@ msgstr ""
 "akhir file telah tercapai, ``f.read()`` akan mengembalikan string kosong "
 "(``''``). ::"
 
-#: ../../tutorial/inputoutput.rst:371
+#: ../../tutorial/inputoutput.rst:376
 msgid ""
 "``f.readline()`` reads a single line from the file; a newline character "
 "(``\\n``) is left at the end of the string, and is only omitted on the last "
@@ -496,7 +509,7 @@ msgstr ""
 "tercapai, sementara baris kosong diwakili oleh ``'\\n'``, string yang hanya "
 "berisi satu baris baru. ::"
 
-#: ../../tutorial/inputoutput.rst:385
+#: ../../tutorial/inputoutput.rst:390
 msgid ""
 "For reading lines from a file, you can loop over the file object. This is "
 "memory efficient, fast, and leads to simple code::"
@@ -504,7 +517,7 @@ msgstr ""
 "Untuk membaca baris dari file, Anda dapat mengulangi objek berkas. Ini hemat"
 " memori, cepat, dan mengarah ke kode sederhana ::"
 
-#: ../../tutorial/inputoutput.rst:394
+#: ../../tutorial/inputoutput.rst:399
 msgid ""
 "If you want to read all the lines of a file in a list you can also use "
 "``list(f)`` or ``f.readlines()``."
@@ -512,7 +525,7 @@ msgstr ""
 "Jika Anda ingin membaca semua baris file dalam daftar *list*, Anda juga "
 "dapat menggunakan ``list(f)`` atau ``f.readlines()``."
 
-#: ../../tutorial/inputoutput.rst:397
+#: ../../tutorial/inputoutput.rst:402
 msgid ""
 "``f.write(string)`` writes the contents of *string* to the file, returning "
 "the number of characters written. ::"
@@ -520,7 +533,7 @@ msgstr ""
 "``f.write(string)`` menulis konten *string* ke berkas, mengembalikan jumlah "
 "karakter yang ditulis. ::"
 
-#: ../../tutorial/inputoutput.rst:403
+#: ../../tutorial/inputoutput.rst:408
 msgid ""
 "Other types of objects need to be converted -- either to a string (in text "
 "mode) or a bytes object (in binary mode) -- before writing them::"
@@ -528,7 +541,7 @@ msgstr ""
 "Jenis objek lain perlu dikonversi -- baik menjadi string (dalam mode teks) "
 "atau objek byte (dalam mode biner) -- sebelum menulisnya::"
 
-#: ../../tutorial/inputoutput.rst:411
+#: ../../tutorial/inputoutput.rst:416
 msgid ""
 "``f.tell()`` returns an integer giving the file object's current position in"
 " the file represented as number of bytes from the beginning of the file when"
@@ -538,7 +551,7 @@ msgstr ""
 "ini dalam berkas yang direpresentasikan sebagai jumlah byte dari awal berkas"
 " ketika dalam mode biner dan angka buram *opaque* ketika dalam mode teks."
 
-#: ../../tutorial/inputoutput.rst:415
+#: ../../tutorial/inputoutput.rst:420
 msgid ""
 "To change the file object's position, use ``f.seek(offset, whence)``.  The "
 "position is computed from adding *offset* to a reference point; the "
@@ -555,7 +568,7 @@ msgstr ""
 "sebagai titik referensi. *whence* dapat dihilangkan dan default ke 0, "
 "menggunakan awal file sebagai titik referensi. ::"
 
-#: ../../tutorial/inputoutput.rst:434
+#: ../../tutorial/inputoutput.rst:439
 msgid ""
 "In text files (those opened without a ``b`` in the mode string), only seeks "
 "relative to the beginning of the file are allowed (the exception being "
@@ -569,7 +582,7 @@ msgstr ""
 " adalah yang dikembalikan dari ``f.tell()``, atau nol. Nilai *offset* "
 "lainnya menghasilkan perilaku tidak terdefinisi."
 
-#: ../../tutorial/inputoutput.rst:440
+#: ../../tutorial/inputoutput.rst:445
 msgid ""
 "File objects have some additional methods, such as :meth:`~file.isatty` and "
 ":meth:`~file.truncate` which are less frequently used; consult the Library "
@@ -579,11 +592,11 @@ msgstr ""
 "dan :meth:`~file.truncate` yang lebih jarang digunakan; bacalah Referensi "
 "Pustaka untuk panduan lengkap untuk objek berkas."
 
-#: ../../tutorial/inputoutput.rst:448
+#: ../../tutorial/inputoutput.rst:453
 msgid "Saving structured data with :mod:`json`"
 msgstr "Menyimpan data terstruktur dengan :mod:`json`"
 
-#: ../../tutorial/inputoutput.rst:452
+#: ../../tutorial/inputoutput.rst:457
 msgid ""
 "Strings can easily be written to and read from a file.  Numbers take a bit "
 "more effort, since the :meth:`read` method only returns strings, which will "
@@ -600,7 +613,7 @@ msgstr ""
 "*dictionary* bersarang, penguraian dan pembuatan serialisasi dengan tangan "
 "menjadi rumit."
 
-#: ../../tutorial/inputoutput.rst:459
+#: ../../tutorial/inputoutput.rst:464
 msgid ""
 "Rather than having users constantly writing and debugging code to save "
 "complicated data types to files, Python allows you to use the popular data "
@@ -623,7 +636,7 @@ msgstr ""
 "berkas atau data, atau dikirim melalui koneksi jaringan ke beberapa mesin "
 "yang jauh."
 
-#: ../../tutorial/inputoutput.rst:470
+#: ../../tutorial/inputoutput.rst:475
 msgid ""
 "The JSON format is commonly used by modern applications to allow for data "
 "exchange.  Many programmers are already familiar with it, which makes it a "
@@ -633,7 +646,7 @@ msgstr ""
 "pertukaran data. Banyak programmer sudah terbiasa dengannya, yang membuatnya"
 " menjadi pilihan yang baik untuk interoperabilitas."
 
-#: ../../tutorial/inputoutput.rst:474
+#: ../../tutorial/inputoutput.rst:479
 msgid ""
 "If you have an object ``x``, you can view its JSON string representation "
 "with a simple line of code::"
@@ -641,7 +654,7 @@ msgstr ""
 "Jika Anda memiliki objek ``x``, Anda dapat melihat representasi string JSON "
 "dengan baris kode sederhana::"
 
-#: ../../tutorial/inputoutput.rst:481
+#: ../../tutorial/inputoutput.rst:486
 msgid ""
 "Another variant of the :func:`~json.dumps` function, called "
 ":func:`~json.dump`, simply serializes the object to a :term:`text file`.  So"
@@ -652,7 +665,7 @@ msgstr ""
 " ``f`` adalah objek :term:`text file` dibuka untuk menulis, kita dapat "
 "melakukan ini::"
 
-#: ../../tutorial/inputoutput.rst:487
+#: ../../tutorial/inputoutput.rst:492
 msgid ""
 "To decode the object again, if ``f`` is a :term:`text file` object which has"
 " been opened for reading::"
@@ -660,7 +673,7 @@ msgstr ""
 "Untuk menerjemahkan *decode* objek lagi, jika ``f`` adalah objek :term:`text"
 " file` yang telah dibuka untuk membaca::"
 
-#: ../../tutorial/inputoutput.rst:492
+#: ../../tutorial/inputoutput.rst:497
 msgid ""
 "This simple serialization technique can handle lists and dictionaries, but "
 "serializing arbitrary class instances in JSON requires a bit of extra "
@@ -672,11 +685,11 @@ msgstr ""
 "*arbitrary* di JSON membutuhkan sedikit usaha ekstra. Referensi untuk modul "
 ":mod:`json` berisi penjelasan tentang ini."
 
-#: ../../tutorial/inputoutput.rst:498
+#: ../../tutorial/inputoutput.rst:503
 msgid ":mod:`pickle` - the pickle module"
 msgstr ":mod:`Pickle` - modul *pickle*"
 
-#: ../../tutorial/inputoutput.rst:500
+#: ../../tutorial/inputoutput.rst:505
 msgid ""
 "Contrary to :ref:`JSON <tut-json>`, *pickle* is a protocol which allows the "
 "serialization of arbitrarily complex Python objects.  As such, it is "

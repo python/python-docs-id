@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:03+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -320,17 +320,27 @@ msgstr "``asend``, ``athrow``"
 msgid "``aclose``, ``__aiter__``, ``__anext__``"
 msgstr "``aclose``, ``__aiter__``, ``__anext__``"
 
-#: ../../library/collections.abc.rst:105
-msgid ""
-"ABCs for classes that provide respectively the methods :meth:`__contains__`,"
-" :meth:`__hash__`, :meth:`__len__`, and :meth:`__call__`."
+#: ../../library/collections.abc.rst:102
+msgid "ABC for classes that provide the :meth:`__contains__` method."
+msgstr ""
+
+#: ../../library/collections.abc.rst:106
+msgid "ABC for classes that provide the :meth:`__hash__` method."
 msgstr ""
 
 #: ../../library/collections.abc.rst:110
+msgid "ABC for classes that provide the :meth:`__len__` method."
+msgstr ""
+
+#: ../../library/collections.abc.rst:114
+msgid "ABC for classes that provide the :meth:`__call__` method."
+msgstr ""
+
+#: ../../library/collections.abc.rst:118
 msgid "ABC for classes that provide the :meth:`__iter__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:112
+#: ../../library/collections.abc.rst:120
 msgid ""
 "Checking ``isinstance(obj, Iterable)`` detects classes that are registered "
 "as :class:`Iterable` or that have an :meth:`__iter__` method, but it does "
@@ -339,23 +349,23 @@ msgid ""
 "call ``iter(obj)``."
 msgstr ""
 
-#: ../../library/collections.abc.rst:120
+#: ../../library/collections.abc.rst:128
 msgid "ABC for sized iterable container classes."
 msgstr ""
 
-#: ../../library/collections.abc.rst:126
+#: ../../library/collections.abc.rst:134
 msgid ""
 "ABC for classes that provide the :meth:`~iterator.__iter__` and "
 ":meth:`~iterator.__next__` methods.  See also the definition of "
 ":term:`iterator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:132
+#: ../../library/collections.abc.rst:140
 msgid ""
 "ABC for iterable classes that also provide the :meth:`__reversed__` method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:139
+#: ../../library/collections.abc.rst:147
 msgid ""
 "ABC for generator classes that implement the protocol defined in :pep:`342` "
 "that extends iterators with the :meth:`~generator.send`, "
@@ -363,11 +373,11 @@ msgid ""
 "definition of :term:`generator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:150
+#: ../../library/collections.abc.rst:158
 msgid "ABCs for read-only and mutable :term:`sequences <sequence>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:152
+#: ../../library/collections.abc.rst:160
 msgid ""
 "Implementation note: Some of the mixin methods, such as :meth:`__iter__`, "
 ":meth:`__reversed__` and :meth:`index`, make repeated calls to the "
@@ -378,37 +388,37 @@ msgid ""
 " likely need to be overridden."
 msgstr ""
 
-#: ../../library/collections.abc.rst:161
+#: ../../library/collections.abc.rst:169
 msgid "The index() method added support for *stop* and *start* arguments."
 msgstr ""
 
-#: ../../library/collections.abc.rst:168
+#: ../../library/collections.abc.rst:176
 msgid "ABCs for read-only and mutable sets."
 msgstr ""
 
-#: ../../library/collections.abc.rst:173
+#: ../../library/collections.abc.rst:181
 msgid "ABCs for read-only and mutable :term:`mappings <mapping>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:180
+#: ../../library/collections.abc.rst:188
 msgid ""
 "ABCs for mapping, items, keys, and values :term:`views <dictionary view>`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:184
+#: ../../library/collections.abc.rst:192
 msgid ""
 "ABC for :term:`awaitable` objects, which can be used in :keyword:`await` "
 "expressions.  Custom implementations must provide the :meth:`__await__` "
 "method."
 msgstr ""
 
-#: ../../library/collections.abc.rst:188
+#: ../../library/collections.abc.rst:196
 msgid ""
-":term:`Coroutine` objects and instances of the "
+":term:`Coroutine <coroutine>` objects and instances of the "
 ":class:`~collections.abc.Coroutine` ABC are all instances of this ABC."
 msgstr ""
 
-#: ../../library/collections.abc.rst:192
+#: ../../library/collections.abc.rst:200
 msgid ""
 "In CPython, generator-based coroutines (generators decorated with "
 ":func:`types.coroutine` or :func:`asyncio.coroutine`) are *awaitables*, even"
@@ -417,7 +427,7 @@ msgid ""
 ":func:`inspect.isawaitable` to detect them."
 msgstr ""
 
-#: ../../library/collections.abc.rst:202
+#: ../../library/collections.abc.rst:210
 msgid ""
 "ABC for coroutine compatible classes.  These implement the following "
 "methods, defined in :ref:`coroutine-objects`: :meth:`~coroutine.send`, "
@@ -427,7 +437,7 @@ msgid ""
 "also the definition of :term:`coroutine`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:210
+#: ../../library/collections.abc.rst:218
 msgid ""
 "In CPython, generator-based coroutines (generators decorated with "
 ":func:`types.coroutine` or :func:`asyncio.coroutine`) are *awaitables*, even"
@@ -436,31 +446,31 @@ msgid ""
 ":func:`inspect.isawaitable` to detect them."
 msgstr ""
 
-#: ../../library/collections.abc.rst:220
+#: ../../library/collections.abc.rst:228
 msgid ""
 "ABC for classes that provide ``__aiter__`` method.  See also the definition "
 "of :term:`asynchronous iterable`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:227
+#: ../../library/collections.abc.rst:235
 msgid ""
 "ABC for classes that provide ``__aiter__`` and ``__anext__`` methods.  See "
 "also the definition of :term:`asynchronous iterator`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:234
+#: ../../library/collections.abc.rst:242
 msgid ""
 "ABC for asynchronous generator classes that implement the protocol defined "
 "in :pep:`525` and :pep:`492`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:240
+#: ../../library/collections.abc.rst:248
 msgid ""
 "These ABCs allow us to ask classes or instances if they provide particular "
 "functionality, for example::"
 msgstr ""
 
-#: ../../library/collections.abc.rst:247
+#: ../../library/collections.abc.rst:255
 msgid ""
 "Several of the ABCs are also useful as mixins that make it easier to develop"
 " classes supporting container APIs.  For example, to write a class "
@@ -470,11 +480,11 @@ msgid ""
 ":meth:`__and__` and :meth:`isdisjoint`::"
 msgstr ""
 
-#: ../../library/collections.abc.rst:276
+#: ../../library/collections.abc.rst:284
 msgid "Notes on using :class:`Set` and :class:`MutableSet` as a mixin:"
 msgstr ""
 
-#: ../../library/collections.abc.rst:279
+#: ../../library/collections.abc.rst:287
 msgid ""
 "Since some set operations create new sets, the default mixin methods need a "
 "way to create new instances from an iterable. The class constructor is "
@@ -483,17 +493,18 @@ msgid ""
 ":meth:`_from_iterable` which calls ``cls(iterable)`` to produce a new set. "
 "If the :class:`Set` mixin is being used in a class with a different "
 "constructor signature, you will need to override :meth:`_from_iterable` with"
-" a classmethod that can construct new instances from an iterable argument."
+" a classmethod or regular method that can construct new instances from an "
+"iterable argument."
 msgstr ""
 
-#: ../../library/collections.abc.rst:290
+#: ../../library/collections.abc.rst:298
 msgid ""
 "To override the comparisons (presumably for speed, as the semantics are "
 "fixed), redefine :meth:`__le__` and :meth:`__ge__`, then the other "
 "operations will automatically follow suit."
 msgstr ""
 
-#: ../../library/collections.abc.rst:295
+#: ../../library/collections.abc.rst:303
 msgid ""
 "The :class:`Set` mixin provides a :meth:`_hash` method to compute a hash "
 "value for the set; however, :meth:`__hash__` is not defined because not all "
@@ -502,12 +513,12 @@ msgid ""
 " Set._hash``."
 msgstr ""
 
-#: ../../library/collections.abc.rst:303
+#: ../../library/collections.abc.rst:311
 msgid ""
 "`OrderedSet recipe <https://code.activestate.com/recipes/576694/>`_ for an "
 "example built on :class:`MutableSet`."
 msgstr ""
 
-#: ../../library/collections.abc.rst:306
+#: ../../library/collections.abc.rst:314
 msgid "For more about ABCs, see the :mod:`abc` module and :pep:`3119`."
 msgstr ""
