@@ -32,7 +32,7 @@ msgstr "Konten"
 
 #: ../../faq/windows.rst:22
 msgid "How do I run a Python program under Windows?"
-msgstr "Bagaimana cara menjalankan program Python di Windows?"
+msgstr "Bagaimana cara mengoperasikan program Python di Windows?"
 
 #: ../../faq/windows.rst:24
 msgid ""
@@ -88,7 +88,7 @@ msgstr ""
 "Anda perlu menyadari bahwa skrip Python Anda harus diproses oleh orang"
 " program yang disebut dengan Python *interpreter*. Interpreter itu membaca "
 "skrip anda, mengkompilasinya menjadi bytecode, dan kemudian mengeksekusi bytecode untuk menjalankan "
-"program Anda. Jadi, bagaimana Anda mengatur penerjemah untuk menangani Python"
+"program Anda. Jadi, bagaimana Anda mengatur interpreter untuk menangani Python"
 "Anda?"
 
 #: ../../faq/windows.rst:55
@@ -225,7 +225,7 @@ msgstr ""
 "overhead startup dua kali lipat saat pemindai dikonfigurasi "
 "untuk memantau semua pembacaan dari sistem file. Coba periksa konfigurasi dari"
 " perangkat lunak pemindaian virus pada sistem Anda untuk memastikan bahwa perangkat memang benar "
-"terkonfigurasi secara identik. McAfee, ketika dikonfigurasi untuk memindai semua sistem file yang dibaca"
+"terkonfigurasi secara identik. McAfee, ketika dikonfigurasi untuk memindai semua aktivitas baca dari sistem file"
 " aktivitas, adalah pelaku tertentu."
 
 #: ../../faq/windows.rst:141
@@ -347,7 +347,7 @@ msgid ""
 "Borland note: convert :file:`python{NN}.lib` to OMF format using "
 "Coff2Omf.exe first."
 msgstr ""
-"Borland note: convert :file:`python{NN}.lib` ke format OMF menggunakan "
+"Catatan Borland: ubah :file:`python{NN}.lib` ke format OMF menggunakan "
 "Coff20mf.exe terlebih dahulu."
 
 #: ../../faq/windows.rst:197
@@ -374,8 +374,8 @@ msgid ""
 msgstr ""
 "SWIG akan membuat fungsi init (fungsi C) yang namanya bergantung pada "
 "nama modul ekstensi. Misalnya, jika nama modulnya adalah "
-"leo, fungsi init akan dipanggil initleo (). Jika Anda menggunakan bayangan SWIG "
-"kelas, sebagaimana seharusnya, fungsi init akan dipanggil initleoc (). Ini "
+"leo, fungsi init akan dipanggil initleo(). Jika Anda menggunakan bayangan SWIG "
+"kelas, sebagaimana seharusnya, fungsi init akan dipanggil initleoc(). Ini "
 "menginisialisasi kelas pembantu yang sebagian besar tersembunyi yang digunakan oleh kelas bayangan."
 
 #: ../../faq/windows.rst:209
@@ -386,7 +386,7 @@ msgid ""
 msgstr ""
 "Alasan Anda dapat menautkan kode C pada langkah 2 ke file .exe Anda adalah itu "
 "memanggil fungsi inisialisasi sama dengan mengimpor modul "
-"ke dalam Python! (Ini adalah fakta terdokumentasi kunci kedua.)"
+"ke dalam Python! (Ini adalah fakta kunci tak terdokumentasi kedua.)"
 
 #: ../../faq/windows.rst:213
 msgid ""
@@ -430,7 +430,7 @@ msgid ""
 "structure called _Py_NoneStruct inside pythonNN.dll.  Again, this code will "
 "fail in a mult-compiler environment.  Replace such code by:"
 msgstr ""
-"Alas, Py_None adalah makro yang meluas ke referensi ke data kompleks "
+"Sayangnya, Py_None adalah makro yang meluas ke referensi ke data kompleks "
 "struktur yang disebut _Py_NoneStruct di dalam pythonNN.dll. Sekali lagi, kode ini akan "
 "gagal di lingkungan mult-compiler. Ganti kode tersebut dengan:"
 
@@ -440,7 +440,7 @@ msgid ""
 "automatically, though I have not been able to get this to work (I'm a "
 "complete SWIG newbie)."
 msgstr ""
-"Dimungkinkan untuk menggunakan perintah ``% typemap '' SWIG untuk membuat perubahan "
+"Dimungkinkan untuk menggunakan perintah ``%typemap`` SWIG untuk membuat perubahan "
 "secara otomatis, meskipun saya belum bisa membuat ini berfungsi (saya "
 "adalah pemula SWIG)."
 
