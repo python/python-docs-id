@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 04:56+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:42+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,11 +87,11 @@ msgstr ""
 
 #: ../../using/windows.rst:52
 msgid "The full installer"
-msgstr ""
+msgstr "*Installer* utuh"
 
 #: ../../using/windows.rst:55
 msgid "Installation steps"
-msgstr ""
+msgstr "Langkah instalasi"
 
 #: ../../using/windows.rst:57
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../using/windows.rst:69
 msgid "If you select \"Install Now\":"
-msgstr ""
+msgstr "Jika anda pilih \"Install Now\":"
 
 #: ../../using/windows.rst:71
 msgid ""
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../using/windows.rst:74
 msgid "Python will be installed into your user directory"
-msgstr ""
+msgstr "Python akan diinstal ke direktori pengguna anda"
 
 #: ../../using/windows.rst:75
 msgid ""
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../using/windows.rst:79
 msgid "Shortcuts will only be visible for the current user"
-msgstr ""
+msgstr "Pintasan hanya akan muncul untuk pengguna saat ini"
 
 #: ../../using/windows.rst:81
 msgid ""
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../using/windows.rst:92
 msgid "The standard library can be pre-compiled to bytecode"
-msgstr ""
+msgstr "Pustaka standar bisa dikompilasi sebelumnya ke bytecode"
 
 #: ../../using/windows.rst:93
 msgid ""
@@ -184,11 +184,11 @@ msgstr ""
 
 #: ../../using/windows.rst:94
 msgid "Shortcuts are available for all users"
-msgstr ""
+msgstr "Pintasan tersedia untuk semua pengguna"
 
 #: ../../using/windows.rst:99
 msgid "Removing the MAX_PATH Limitation"
-msgstr ""
+msgstr "Menghapus batasan MAX_PATH"
 
 #: ../../using/windows.rst:101
 msgid ""
@@ -217,11 +217,11 @@ msgstr ""
 
 #: ../../using/windows.rst:117
 msgid "Support for long paths was enabled in Python."
-msgstr ""
+msgstr "Dukungan untuk *paths* panjang telah diaktifkan di Python."
 
 #: ../../using/windows.rst:122
 msgid "Installing Without UI"
-msgstr ""
+msgstr "Melakukan instalasi tanpa UI"
 
 #: ../../using/windows.rst:124
 msgid ""
@@ -261,11 +261,11 @@ msgstr "Bawaan"
 
 #: ../../using/windows.rst:142
 msgid "InstallAllUsers"
-msgstr ""
+msgstr "InstallAllUsers"
 
 #: ../../using/windows.rst:142
 msgid "Perform a system-wide installation."
-msgstr ""
+msgstr "Lakukan instalasi di seluruh sistem."
 
 #: ../../using/windows.rst:142 ../../using/windows.rst:165
 #: ../../using/windows.rst:168 ../../using/windows.rst:177
@@ -276,11 +276,11 @@ msgstr "0"
 
 #: ../../using/windows.rst:144
 msgid "TargetDir"
-msgstr ""
+msgstr "TargetDir"
 
 #: ../../using/windows.rst:144
 msgid "The installation directory"
-msgstr ""
+msgstr "Direktori instalasi"
 
 #: ../../using/windows.rst:144
 msgid "Selected based on InstallAllUsers"
@@ -288,7 +288,7 @@ msgstr ""
 
 #: ../../using/windows.rst:147
 msgid "DefaultAllUsersTargetDir"
-msgstr ""
+msgstr "DefaultAllUsersTargetDir"
 
 #: ../../using/windows.rst:147
 msgid "The default installation directory for all-user installs"
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ../../using/windows.rst:152
 msgid "DefaultJustForMeTargetDir"
-msgstr ""
+msgstr "DefaultJustForMeTargetDir"
 
 #: ../../using/windows.rst:152
 msgid "The default install directory for just-for-me installs"
@@ -317,7 +317,7 @@ msgstr ""
 
 #: ../../using/windows.rst:159
 msgid "DefaultCustomTargetDir"
-msgstr ""
+msgstr "DefaultCustomTargetDir"
 
 #: ../../using/windows.rst:159
 msgid "The default custom install directory displayed in the UI"
@@ -329,7 +329,7 @@ msgstr "(kosong)"
 
 #: ../../using/windows.rst:162
 msgid "AssociateFiles"
-msgstr ""
+msgstr "AssociateFiles"
 
 #: ../../using/windows.rst:162
 msgid "Create file associations if the launcher is also installed."
@@ -346,15 +346,15 @@ msgstr "1"
 
 #: ../../using/windows.rst:165
 msgid "CompileAll"
-msgstr ""
+msgstr "CompileAll"
 
 #: ../../using/windows.rst:165
 msgid "Compile all ``.py`` files to ``.pyc``."
-msgstr ""
+msgstr "Kompilasi semua berkas ``.py`` menjadi ``.pyc``."
 
 #: ../../using/windows.rst:168
 msgid "PrependPath"
-msgstr ""
+msgstr "PrependPath"
 
 #: ../../using/windows.rst:168
 msgid ""
@@ -377,7 +377,7 @@ msgstr "Include_doc"
 
 #: ../../using/windows.rst:175
 msgid "Install Python manual"
-msgstr ""
+msgstr "Install manual dari Python"
 
 #: ../../using/windows.rst:177
 msgid "Include_debug"
@@ -409,11 +409,11 @@ msgstr "Include_launcher"
 
 #: ../../using/windows.rst:185
 msgid "Install :ref:`launcher`."
-msgstr ""
+msgstr "Install :ref:`launcher`."
 
 #: ../../using/windows.rst:187
 msgid "InstallLauncherAllUsers"
-msgstr ""
+msgstr "InstallLauncherAllUsers"
 
 #: ../../using/windows.rst:187
 msgid "Installs :ref:`launcher` for all users."
@@ -469,7 +469,7 @@ msgstr ""
 
 #: ../../using/windows.rst:203
 msgid "LauncherOnly"
-msgstr ""
+msgstr "LauncherOnly"
 
 #: ../../using/windows.rst:203
 msgid "Only installs the launcher. This will override most other options."
@@ -477,7 +477,7 @@ msgstr ""
 
 #: ../../using/windows.rst:206
 msgid "SimpleInstall"
-msgstr ""
+msgstr "SimpleInstall"
 
 #: ../../using/windows.rst:206
 msgid "Disable most install UI"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../../using/windows.rst:208
 msgid "SimpleInstallDescription"
-msgstr ""
+msgstr "SimpleInstallDescription"
 
 #: ../../using/windows.rst:208
 msgid "A custom message to display when the simplified install UI is used."
@@ -523,7 +523,7 @@ msgstr ""
 
 #: ../../using/windows.rst:247
 msgid "Installing Without Downloading"
-msgstr ""
+msgstr "Instalasi Tanpa Mengunduh"
 
 #: ../../using/windows.rst:249
 msgid ""
@@ -551,7 +551,7 @@ msgstr ""
 
 #: ../../using/windows.rst:269
 msgid "Modifying an install"
-msgstr ""
+msgstr "Memodifikasi suatu instalasi"
 
 #: ../../using/windows.rst:271
 msgid ""
@@ -664,7 +664,7 @@ msgstr ""
 
 #: ../../using/windows.rst:346
 msgid "The nuget.org packages"
-msgstr ""
+msgstr "Paket-paket nuget.org"
 
 #: ../../using/windows.rst:350
 msgid ""
@@ -894,7 +894,7 @@ msgstr ""
 
 #: ../../using/windows.rst:506
 msgid "Configuring Python"
-msgstr ""
+msgstr "Mengonfigurasi Python"
 
 #: ../../using/windows.rst:508
 msgid ""
@@ -1003,11 +1003,11 @@ msgstr "https://www.chem.gla.ac.uk/~louis/software/faq/q1.html"
 
 #: ../../using/windows.rst:573
 msgid "Setting Environment variables, Louis J. Farrugia"
-msgstr ""
+msgstr "Menyetel variable Lingkungan, Louis J. Farrugia"
 
 #: ../../using/windows.rst:578
 msgid "Finding the Python executable"
-msgstr ""
+msgstr "Menemukan aplikasi Python"
 
 #: ../../using/windows.rst:582
 msgid ""
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ../../using/windows.rst:606
 msgid "UTF-8 mode"
-msgstr ""
+msgstr "mode UTF-8"
 
 #: ../../using/windows.rst:610
 msgid ""
@@ -1066,7 +1066,7 @@ msgstr ""
 
 #: ../../using/windows.rst:623
 msgid "When UTF-8 mode is enabled:"
-msgstr ""
+msgstr "Ketika mode UTF-8 diaktifkan:"
 
 #: ../../using/windows.rst:625
 msgid ""
@@ -1135,11 +1135,11 @@ msgstr ""
 
 #: ../../using/windows.rst:667
 msgid "Getting started"
-msgstr ""
+msgstr "Memulai"
 
 #: ../../using/windows.rst:670
 msgid "From the command-line"
-msgstr ""
+msgstr "Dari baris-perintah"
 
 #: ../../using/windows.rst:674
 msgid ""
@@ -1186,7 +1186,7 @@ msgstr ""
 
 #: ../../using/windows.rst:715
 msgid "Virtual environments"
-msgstr ""
+msgstr "Lingkungan virtual"
 
 #: ../../using/windows.rst:719
 msgid ""
@@ -1346,7 +1346,7 @@ msgstr ""
 
 #: ../../using/windows.rst:835
 msgid "Customization"
-msgstr "Ubahsuaian"
+msgstr "Penyesuaian"
 
 #: ../../using/windows.rst:838
 msgid "Customization via INI files"
@@ -1488,7 +1488,7 @@ msgstr ""
 
 #: ../../using/windows.rst:935
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostik"
 
 #: ../../using/windows.rst:937
 msgid ""
@@ -1502,7 +1502,7 @@ msgstr ""
 
 #: ../../using/windows.rst:949
 msgid "Finding modules"
-msgstr ""
+msgstr "Mencari modul-modul"
 
 #: ../../using/windows.rst:951
 msgid ""
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1069
 msgid "Additional modules"
-msgstr ""
+msgstr "Modul-modul tambahan"
 
 #: ../../using/windows.rst:1071
 msgid ""
@@ -1737,7 +1737,7 @@ msgstr "Registry"
 
 #: ../../using/windows.rst:1090
 msgid "Event log"
-msgstr ""
+msgstr "Log peristiwa"
 
 #: ../../using/windows.rst:1091
 msgid ""
@@ -1802,7 +1802,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1130
 msgid "Compiling Python on Windows"
-msgstr ""
+msgstr "Kompilasi Python di Windows"
 
 #: ../../using/windows.rst:1132
 msgid ""
@@ -1850,7 +1850,7 @@ msgstr "`MingW -- Python extensions <http://www.mingw.org/wiki/FAQ#toc14>`_"
 
 #: ../../using/windows.rst:1157
 msgid "Other Platforms"
-msgstr ""
+msgstr "*Platform* lain"
 
 #: ../../using/windows.rst:1159
 msgid ""
@@ -1861,7 +1861,7 @@ msgstr ""
 
 #: ../../using/windows.rst:1163
 msgid "`Windows CE <http://pythonce.sourceforge.net/>`_ is still supported."
-msgstr ""
+msgstr "`Windows CE <http://pythonce.sourceforge.net/>`_ masih didukung."
 
 #: ../../using/windows.rst:1164
 msgid ""
