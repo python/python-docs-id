@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 04:56+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -451,6 +452,11 @@ msgid ""
 "statement produces an exception. The following points discuss more complex "
 "cases when an exception occurs:"
 msgstr ""
+"Jika ada klausa :keyword:`finally`, klausa untuk :keyword:`!finally` akan "
+"dijalankan sebagai tugas terakhir sebelum pernyataan untuk :keyword:`try` "
+"selesai. Klausa untuk :keyword:`!finally` dapat berjalan bai atau tidak "
+"apabila pernyataan :keyword:`!try` menghasilkan suatu pengecualian. Poin-"
+"poin berikut membahas kasus yang lebih kompleks saat pengecualian terjadi:"
 
 #: ../../tutorial/errors.rst:398
 msgid ""
@@ -459,6 +465,11 @@ msgid ""
 " not handled by an :keyword:`!except` clause, the exception is re-raised "
 "after the :keyword:`!finally` clause has been executed."
 msgstr ""
+"Jika pengecualian terjadi selama eksekusi klausa untuk :keyword: `!try`, "
+"maka pengecualian tersebut dapat ditangani oleh klausa :keyword:`except`. "
+"Jika pengecualian tidak ditangani oleh klausa :keyword: `!except`, maka "
+"pengecualian dimunculkan kembali setelah klausa :keyword:`!finally` "
+"dieksekusi."
 
 #: ../../tutorial/errors.rst:404
 msgid ""
@@ -477,6 +488,10 @@ msgid ""
 "clause will execute just prior to the :keyword:`!break`, "
 ":keyword:`!continue` or :keyword:`!return` statement's execution."
 msgstr ""
+"Jika pernyataan klausa untuk :keyword:`!try` mencapai klausa "
+":keyword:`break`, :keyword:`continue` atau :keyword:` return` maka, "
+"pernyataan untuk klausa :keyword:`!finally` akan dieksekusi sebelum  "
+":keyword:`!break`, :keyword:`!continue` atau :keyword:`!return` dieksekusi."
 
 #: ../../tutorial/errors.rst:414
 msgid ""
@@ -485,6 +500,11 @@ msgid ""
 ":keyword:`!return` statement, not the value from the :keyword:`!try` "
 "clause's :keyword:`!return` statement."
 msgstr ""
+"Jika klausa untuk :keyword:!finally`  telah menyertakan pernyataan "
+":keyword:`!return`, nilai yang dikembalikan akan menjadi salah satu dari "
+"pernyataan untuk :keyword:`!finally` dan dari klausa         "
+":keyword:`!return`, bukan nilai dari :keyword:`!try` pernayataan untuk "
+":keyword:`!return`."
 
 #: ../../tutorial/errors.rst:420
 msgid "For example::"
