@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Faiq Zakki <221709674@stis.ac.id>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-10 03:19+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:04+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Faiq Zakki <221709674@stis.ac.id>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../../library/csv.rst:2
 msgid ":mod:`csv` --- CSV File Reading and Writing"
-msgstr ""
+msgstr ":mod:`csv` --- Baca dan Tulis file CSV"
 
 #: ../../library/csv.rst:9
 msgid "**Source code:** :source:`Lib/csv.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/csv.py`"
 
 #: ../../library/csv.rst:17
 msgid ""
@@ -42,6 +43,16 @@ msgid ""
 "single module which can efficiently manipulate such data, hiding the details"
 " of reading and writing the data from the programmer."
 msgstr ""
+"Format CSV (Comma Separated Values) adalah format impor dan ekspor data yang"
+" paling umum digunakan untuk data spreadsheet dan database. Format CSV telah"
+" digunakan selama bertahun-tahun sebelum adanya upaya untuk mendeskripsikan "
+"format yang distandardisasi pada :rfc:`4180`. Kurangnya standar yang "
+"terdefinisi dengan baik berarti banyak perbedaan tipis pada data yang "
+"dihasilkan dan digunakan dengan penggunaan yang berbeda. Perbedaan tersebut "
+"membuat tidak mudah untuk memproses file CSV dari beberapa sumber. Namun, "
+"meskipun karakter pembatas dan kutipan berbeda-beda, keseluruhan formatnya "
+"cukup mirip sehingga memungkinkan untuk menulis sebuah modul yang secara "
+"efisien dapat memanipulasi data tersebut."
 
 #: ../../library/csv.rst:28
 msgid ""
@@ -52,6 +63,13 @@ msgid ""
 "Excel.  Programmers can also describe the CSV formats understood by other "
 "applications or define their own special-purpose CSV formats."
 msgstr ""
+"Modul :mod:`csv` mengimplementasikan kelas-kelas untuk membaca dan menulis "
+"data tabular dengan format CSV.  Hal ini memungkinkan pemrogram untuk "
+"mengatakan, \"tulis data ini dalam format yang disukai oleh Excel,\" atau "
+"\"baca data dari file ini yang dihasilkan oleh Excel,\" tanpa mengetahui "
+"detail persis dari format CSV yang digunakan oleh Excel.  Pemrogram juga "
+"bisa mendeskripsikan format CSV yang dapat dipahami oleh aplikasi lain atau "
+"menentukan format CSV nya sendiri dengan tujuan tertentu."
 
 #: ../../library/csv.rst:35
 msgid ""
@@ -59,23 +77,28 @@ msgid ""
 " write sequences.  Programmers can also read and write data in dictionary "
 "form using the :class:`DictReader` and :class:`DictWriter` classes."
 msgstr ""
+"Modul milik :mod:`csv`, :class:`reader` dan :class:`writer` objek membaca "
+"dan menulis urutan-urutan.  Pemrogram juga bisa membaca dan menulis data "
+"dalam bentuk dictionary dengan menggunakan kelas :class:`DictReader` dan "
+":class:`DictWriter`."
 
 #: ../../library/csv.rst:41
 msgid ":pep:`305` - CSV File API"
-msgstr ""
+msgstr ":pep:`305` - API File CSV"
 
 #: ../../library/csv.rst:42
 msgid ""
 "The Python Enhancement Proposal which proposed this addition to Python."
 msgstr ""
+"Python Enhancement Proposal (PEP) yang mengusulkan penambahan ini ke Python."
 
 #: ../../library/csv.rst:48
 msgid "Module Contents"
-msgstr ""
+msgstr "Modul-Modul"
 
 #: ../../library/csv.rst:50
 msgid "The :mod:`csv` module defines the following functions:"
-msgstr ""
+msgstr "Modul :mod:`csv` memiliki fungsi-fungsi sebagai berikut:"
 
 #: ../../library/csv.rst:58
 msgid ""
@@ -92,6 +115,19 @@ msgid ""
 "in the current dialect.  For full details about the dialect and formatting "
 "parameters, see section :ref:`csv-fmt-params`."
 msgstr ""
+"Mengembalikan sebuah objek reader yang mengiterasikan baris baris pada "
+"*csvfile* yang diberikan. *csvfile* dapat berupa segala objek yang mendukung"
+" protokol :term:`iterator` dan mengembalikan string setiap kali metode "
+":meth:`!__next__` dipanggil --- :term:`objek file <file object>` dan objek "
+"list keduanya cocok digunakan.   Jika *csvfile* merupakan objek file, harus "
+"dibuka dengan ``newline=''``. [1]_  Sebuah parameter *dialek* opsional dapat"
+" diberikan untuk mendefinisikan sebuah set parameter khusus untuk dialek CSV"
+" tertentu.  Mungkin merupakan instansi sebuah subkelas dari kelas "
+":class:`Dialect` atau salah satu string yang dikembalikan oleh fungsi "
+":func:`list_dialects`.  Argumen kata kunci opsional *fmtparams* lainnya "
+"dapat diberikan untuk menimpa parameter-parameter pemformatan individu dalam"
+" dialek saat ini.  Untuk detail lebih jelas mengenai dialek dan parameter "
+"format, lihat :ref:`csv-fmt-params`."
 
 #: ../../library/csv.rst:71
 msgid ""
@@ -100,11 +136,15 @@ msgid ""
 "format option is specified (in which case unquoted fields are transformed "
 "into floats)."
 msgstr ""
+"Setiap baris yang dibaca dari file csv dikembalikan sebagai list yang berisi"
+" strings.  Tidak ada konversi tipe data secara otomatis dilakukan kecuali "
+"kalau opsi format ``QUOTE_NONNUMERIC`` ditentukan (dalam hal ini, bidang "
+"tanpa tanda kutip diubah menjadi bertipe floats)."
 
 #: ../../library/csv.rst:75 ../../library/csv.rst:105
 #: ../../library/csv.rst:176 ../../library/csv.rst:212
 msgid "A short usage example::"
-msgstr ""
+msgstr "Contoh penggunaan singkat::"
 
 #: ../../library/csv.rst:88
 msgid ""
@@ -151,17 +191,19 @@ msgstr ""
 
 #: ../../library/csv.rst:138
 msgid "Return the names of all registered dialects."
-msgstr ""
+msgstr "Mengembalikan nama dari semua dialek yang terdaftar."
 
 #: ../../library/csv.rst:143
 msgid ""
 "Returns the current maximum field size allowed by the parser. If *new_limit*"
 " is given, this becomes the new limit."
 msgstr ""
+"Mengembalikan nilai maksimum ukuran field yang diperbolekan saat ini oleh "
+"parser. Jika  *new_limit* diberikan, hal tersebut menjadi limit baru."
 
 #: ../../library/csv.rst:147
 msgid "The :mod:`csv` module defines the following classes:"
-msgstr ""
+msgstr "Modul :mod:`csv` berisi kelas-kelas dibawah ini:"
 
 #: ../../library/csv.rst:152
 msgid ""
@@ -196,10 +238,11 @@ msgstr ""
 #: ../../library/csv.rst:170
 msgid "Returned rows are now of type :class:`OrderedDict`."
 msgstr ""
+"Baris-baris yang dikembalikan sekarang memiliki tipe :class:`OrderedDict`."
 
 #: ../../library/csv.rst:173
 msgid "Returned rows are now of type :class:`dict`."
-msgstr ""
+msgstr "Baris-baris yang dikembalikan sekarang memiliki tipe :class:`dict`."
 
 #: ../../library/csv.rst:194
 msgid ""
@@ -253,10 +296,11 @@ msgstr ""
 #: ../../library/csv.rst:256
 msgid "The :class:`Sniffer` class is used to deduce the format of a CSV file."
 msgstr ""
+"Kelas :class:`Sniffer` digunakan untuk menyimpulkan format sebuah file CSV."
 
 #: ../../library/csv.rst:258
 msgid "The :class:`Sniffer` class provides two methods:"
-msgstr ""
+msgstr "Kelas :class:`Sniffer` menyediakan dua metode:"
 
 #: ../../library/csv.rst:262
 msgid ""
@@ -273,7 +317,7 @@ msgstr ""
 
 #: ../../library/csv.rst:273
 msgid "An example for :class:`Sniffer` use::"
-msgstr ""
+msgstr "Sebuah contoh untuk penggunaan :class:`Sniffer`::"
 
 #: ../../library/csv.rst:282
 msgid "The :mod:`csv` module defines the following constants:"
@@ -281,7 +325,7 @@ msgstr ""
 
 #: ../../library/csv.rst:286
 msgid "Instructs :class:`writer` objects to quote all fields."
-msgstr ""
+msgstr "Menginstruksikan objek :class:`writer` untuk mengutip semua fields."
 
 #: ../../library/csv.rst:291
 msgid ""
@@ -289,14 +333,21 @@ msgid ""
 "special characters such as *delimiter*, *quotechar* or any of the characters"
 " in *lineterminator*."
 msgstr ""
+"Menginstruksikan objek :class:`writer` untuk hanya mengutip fields yang "
+"berisi karakter spesial seperti *delimiter*, *quotechar* atau salah satu "
+"karakter dalam *lineterminator*."
 
 #: ../../library/csv.rst:298
 msgid "Instructs :class:`writer` objects to quote all non-numeric fields."
 msgstr ""
+"Menginstuksikan objek :class:`writer` untuk mengutip semua fields yang tidak"
+" memiliki angka."
 
 #: ../../library/csv.rst:300
 msgid "Instructs the reader to convert all non-quoted fields to type *float*."
 msgstr ""
+"Mengisntruksikan reader untuk mengonversi semua fields yang tidak dikutip "
+"menjadi tipe *float*."
 
 #: ../../library/csv.rst:305
 msgid ""
@@ -311,10 +362,12 @@ msgid ""
 "Instructs :class:`reader` to perform no special processing of quote "
 "characters."
 msgstr ""
+"Menginstruksikan :class:`reader` untuk tidak melakukan pemrosesan khusus "
+"terhadap karakter kutipan"
 
 #: ../../library/csv.rst:312
 msgid "The :mod:`csv` module defines the following exception:"
-msgstr ""
+msgstr "Modul :mod:`csv` berisi exception dibawah ini:"
 
 #: ../../library/csv.rst:317
 msgid "Raised by any of the functions when an error is detected."
@@ -322,7 +375,7 @@ msgstr ""
 
 #: ../../library/csv.rst:322
 msgid "Dialects and Formatting Parameters"
-msgstr ""
+msgstr "Dialek dan Parameter Pemformatan"
 
 #: ../../library/csv.rst:324
 msgid ""
@@ -339,12 +392,14 @@ msgstr ""
 
 #: ../../library/csv.rst:334
 msgid "Dialects support the following attributes:"
-msgstr ""
+msgstr "Dialek mendukung atribut dibawah ini:"
 
 #: ../../library/csv.rst:339
 msgid ""
 "A one-character string used to separate fields.  It defaults to ``','``."
 msgstr ""
+"Sebuah karakter yang digunakan sebagai pemisah fields. Dengan nilai bawaan "
+"``','``. "
 
 #: ../../library/csv.rst:344
 msgid ""
@@ -442,7 +497,7 @@ msgstr ""
 
 #: ../../library/csv.rst:425
 msgid "DictReader objects have the following public attribute:"
-msgstr ""
+msgstr "Objek DictReader memiliki atribut publik sebagai berikut:"
 
 #: ../../library/csv.rst:429
 msgid ""
@@ -495,7 +550,7 @@ msgstr ""
 
 #: ../../library/csv.rst:470
 msgid "DictWriter objects have the following public method:"
-msgstr ""
+msgstr "Objek DictWriter memiliki metode publik sebagai berikut:"
 
 #: ../../library/csv.rst:475
 msgid ""
@@ -516,15 +571,15 @@ msgstr "Contoh-contoh"
 
 #: ../../library/csv.rst:490
 msgid "The simplest example of reading a CSV file::"
-msgstr ""
+msgstr "Contoh paling sederhana dari membaca sebuah file CSV::"
 
 #: ../../library/csv.rst:498
 msgid "Reading a file with an alternate format::"
-msgstr ""
+msgstr "Membaca file dengan format lain::"
 
 #: ../../library/csv.rst:506
 msgid "The corresponding simplest possible writing example is::"
-msgstr ""
+msgstr "Contoh paling sederhana dari menulis ke sebuah file CSV::"
 
 #: ../../library/csv.rst:513
 msgid ""
@@ -533,16 +588,23 @@ msgid ""
 ":func:`locale.getpreferredencoding`).  To decode a file using a different "
 "encoding, use the ``encoding`` argument of open::"
 msgstr ""
+"Karena :func:`open` digunakan untuk membaca file CSV, file secara default "
+"akan diterjemahkan menjadi unicode menggunakan default encoding dari sistem "
+"(lihat :func:`locale.getpreferredencoding`). Untuk menerjemahkan sebuah file"
+" dengan encoding yang berbeda, gunakan argumen ``encoding`` pada "
+":func:`open`::"
 
 #: ../../library/csv.rst:524
 msgid ""
 "The same applies to writing in something other than the system default "
 "encoding: specify the encoding argument when opening the output file."
 msgstr ""
+"Hal yang sama berlaku ketika menulis sesuatu yang berbeda dengan default "
+"encoding dari sistem: tentukan argumen encoding ketika membuka file output."
 
 #: ../../library/csv.rst:527
 msgid "Registering a new dialect::"
-msgstr ""
+msgstr "Mendaftarkan dialek baru::"
 
 #: ../../library/csv.rst:534
 msgid ""

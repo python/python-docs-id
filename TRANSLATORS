@@ -4,10 +4,12 @@
 #   grep -ohP '(?<=^# )(.+)(?=, \d+$)' -r .|sed 's| <.*>||g' | sort -u
 
 Akhmat Safrudin
+Andika Chandra
 Aulia Widyaputra
 Dionesius Agung
 Eka Antonius Kurniawan
 Elmo Allistair
+Faiq Zakki
 Fathin Luqman Tantowi
 Helen Febriani
 Ilham Akbar
