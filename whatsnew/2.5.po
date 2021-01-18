@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Iwan Setiawan <stwn@duniasemu.org>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2384,7 +2384,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:2003
 msgid "This example uses the iterator form::"
-msgstr ""
+msgstr "Contoh ini menggunakan bentuk iterator::"
 
 #: ../../whatsnew/2.5.rst:2016
 msgid ""
@@ -2402,13 +2402,15 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:2027
 msgid "https://www.sqlite.org"
-msgstr ""
+msgstr "https://www.sqlite.org"
 
 #: ../../whatsnew/2.5.rst:2026
 msgid ""
 "The SQLite web page; the documentation describes the syntax and the "
 "available data types for the supported SQL dialect."
 msgstr ""
+"Halaman web SQLite; dokumentasi menjelaskan sintaks dan tipe data yang "
+"tersedia untuk dialek SQL yang didukung."
 
 #: ../../whatsnew/2.5.rst:2029
 msgid "The documentation  for the :mod:`sqlite3` module."
@@ -2416,11 +2418,11 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:2031
 msgid ":pep:`249` - Database API Specification 2.0"
-msgstr ""
+msgstr ":pep:`249` - Spesifikasi API Basisdata 2.0"
 
 #: ../../whatsnew/2.5.rst:2032
 msgid "PEP written by Marc-André Lemburg."
-msgstr ""
+msgstr "PEP ditulis oleh Marc-André Lemburg."
 
 #: ../../whatsnew/2.5.rst:2040
 msgid "The wsgiref package"

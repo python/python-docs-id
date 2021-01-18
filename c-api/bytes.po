@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2017-02-16 17:33+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -44,13 +44,13 @@ msgstr ""
 #: ../../c-api/bytes.rst:27
 msgid ""
 "Return true if the object *o* is a bytes object or an instance of a subtype "
-"of the bytes type."
+"of the bytes type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/bytes.rst:33
 msgid ""
 "Return true if the object *o* is a bytes object, but not an instance of a "
-"subtype of the bytes type."
+"subtype of the bytes type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/bytes.rst:39

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2017-02-16 17:33+0000\n"
 "Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -58,12 +58,12 @@ msgid "The type object corresponding to cell objects."
 msgstr "Tipe objek yang sesuai dengan objek sel."
 
 #: ../../c-api/cell.rst:30
-msgid "Return true if *ob* is a cell object; *ob* must not be ``NULL``."
+msgid ""
+"Return true if *ob* is a cell object; *ob* must not be ``NULL``.  This "
+"function always succeeds."
 msgstr ""
-"Mengembalikan *True* jika *ob* merupakan objek *cell*; *ob* tidak boleh "
-"``NULL``."
 
-#: ../../c-api/cell.rst:35
+#: ../../c-api/cell.rst:36
 msgid ""
 "Create and return a new cell object containing the value *ob*. The parameter"
 " may be ``NULL``."
@@ -71,11 +71,11 @@ msgstr ""
 "Membuat dan mengembalikan objek *cell* baru yang memiliki nilai *ob*. "
 "Parameter dibolehkan ``NULL``."
 
-#: ../../c-api/cell.rst:41
+#: ../../c-api/cell.rst:42
 msgid "Return the contents of the cell *cell*."
 msgstr "Kembalikan isi sel *cell*."
 
-#: ../../c-api/cell.rst:46
+#: ../../c-api/cell.rst:47
 msgid ""
 "Return the contents of the cell *cell*, but without checking that *cell* is "
 "non-``NULL`` and a cell object."
@@ -83,7 +83,7 @@ msgstr ""
 "Kembalikan isi dari sel *cell*, tanpa mengecek jika *cell* merupakan "
 "*non-*``NULL`` dan sebuah objek *cell."
 
-#: ../../c-api/cell.rst:52
+#: ../../c-api/cell.rst:53
 msgid ""
 "Set the contents of the cell object *cell* to *value*.  This releases the "
 "reference to any current content of the cell. *value* may be ``NULL``.  "
@@ -95,7 +95,7 @@ msgstr ""
 " *cell* harus non-``NULL``. Jika bukan objek sel, ``-1`` akan dikembalikan. "
 "Ketika berhasil, ``0`` akan dikembalikan."
 
-#: ../../c-api/cell.rst:60
+#: ../../c-api/cell.rst:61
 msgid ""
 "Sets the value of the cell object *cell* to *value*.  No reference counts "
 "are adjusted, and no checks are made for safety; *cell* must be non-``NULL``"

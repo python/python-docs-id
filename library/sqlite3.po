@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Helen Febriani <helenfy.72@gmail.com>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# LIQRGV <septianhari@gmail.com>, 2019
 # Elmo Allistair <work.elmoallistair@gmail.com>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 04:56+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2017-02-16 23:27+0000\n"
-"Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2020\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +25,11 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:2
 msgid ":mod:`sqlite3` --- DB-API 2.0 interface for SQLite databases"
-msgstr ""
+msgstr ":mod:`sqlite3` --- DB-API 2.0 antarmuka untuk basisdata SQLite"
 
 #: ../../library/sqlite3.rst:9
 msgid "**Source code:** :source:`Lib/sqlite3/`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/sqlite3/`"
 
 #: ../../library/sqlite3.rst:13
 msgid ""
@@ -102,47 +101,51 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:89
 msgid "This example uses the iterator form::"
-msgstr ""
+msgstr "Contoh ini menggunakan bentuk iterator::"
 
 #: ../../library/sqlite3.rst:104
 msgid "https://github.com/ghaering/pysqlite"
-msgstr ""
+msgstr "https://github.com/ghaering/pysqlite"
 
 #: ../../library/sqlite3.rst:103
 msgid ""
 "The pysqlite web page -- sqlite3 is developed externally under the name "
 "\"pysqlite\"."
 msgstr ""
+"Halaman web pysqlite -- sqlite3 dikembangkan secara eksternal dengan nama "
+"\"pysqlite\"."
 
 #: ../../library/sqlite3.rst:108
 msgid "https://www.sqlite.org"
-msgstr ""
+msgstr "https://www.sqlite.org"
 
 #: ../../library/sqlite3.rst:107
 msgid ""
 "The SQLite web page; the documentation describes the syntax and the "
 "available data types for the supported SQL dialect."
 msgstr ""
+"Halaman web SQLite; dokumentasi menjelaskan sintaks dan tipe data yang "
+"tersedia untuk dialek SQL yang didukung."
 
 #: ../../library/sqlite3.rst:111
 msgid "https://www.w3schools.com/sql/"
-msgstr ""
+msgstr "https://www.w3schools.com/sql/"
 
 #: ../../library/sqlite3.rst:111
 msgid "Tutorial, reference and examples for learning SQL syntax."
-msgstr ""
+msgstr "Tutorial, referensi, dan contoh untuk mempelajari sintaks SQL."
 
 #: ../../library/sqlite3.rst:113
 msgid ":pep:`249` - Database API Specification 2.0"
-msgstr ""
+msgstr ":pep:`249` - Spesifikasi API Basisdata 2.0"
 
 #: ../../library/sqlite3.rst:114
 msgid "PEP written by Marc-André Lemburg."
-msgstr ""
+msgstr "PEP ditulis oleh Marc-André Lemburg."
 
 #: ../../library/sqlite3.rst:120
 msgid "Module functions and constants"
-msgstr ""
+msgstr "Fungsi dan konstanta modul"
 
 #: ../../library/sqlite3.rst:125
 msgid ""
@@ -261,7 +264,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:214
 msgid "Consult the section :ref:`sqlite3-types` of this manual for details."
-msgstr ""
+msgstr "Lihat bagian :ref:`sqlite3-types` dari manual ini untuk detailnya."
 
 #: ../../library/sqlite3.rst:216
 msgid ""
@@ -284,6 +287,9 @@ msgid ""
 " can be found in the `SQLite URI documentation "
 "<https://www.sqlite.org/uri.html>`_."
 msgstr ""
+"Informasi selengkapnya tentang fitur ini, termasuk daftar opsi yang "
+"dikenali, dapat ditemukan di `Dokumentasi URI SQLite "
+"<https://www.sqlite.org/uri.html>`_."
 
 #: ../../library/sqlite3.rst:231
 msgid ""
@@ -293,7 +299,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:232
 msgid "Added the *uri* parameter."
-msgstr ""
+msgstr "Menambahkan parameter *uri*."
 
 #: ../../library/sqlite3.rst:235
 msgid ""
@@ -330,6 +336,8 @@ msgstr ""
 msgid ""
 "This can be used to build a shell for SQLite, as in the following example:"
 msgstr ""
+"Ini dapat digunakan untuk membuat shell untuk SQLite, seperti pada contoh "
+"berikut:"
 
 #: ../../library/sqlite3.rst:271
 msgid ""
@@ -342,11 +350,11 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:281
 msgid "Connection Objects"
-msgstr ""
+msgstr "Objek Koneksi"
 
 #: ../../library/sqlite3.rst:285
 msgid "A SQLite database connection has the following attributes and methods:"
-msgstr ""
+msgstr "Koneksi database SQLite memiliki atribut dan metode berikut:"
 
 #: ../../library/sqlite3.rst:289
 msgid ""
@@ -434,7 +442,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:360
 msgid "The *deterministic* parameter was added."
-msgstr ""
+msgstr "Parameter *deterministik* telah ditambahkan."
 
 #: ../../library/sqlite3.rst:363 ../../library/sqlite3.rst:380
 #: ../../library/sqlite3.rst:494 ../../library/sqlite3.rst:651
@@ -443,7 +451,7 @@ msgstr "Contoh:"
 
 #: ../../library/sqlite3.rst:370
 msgid "Creates a user-defined aggregate function."
-msgstr ""
+msgstr "Membuat fungsi agregat yang ditentukan pengguna."
 
 #: ../../library/sqlite3.rst:372
 msgid ""
@@ -572,7 +580,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:471 ../../library/sqlite3.rst:483
 msgid "Loadable extensions are disabled by default. See [#f1]_."
-msgstr ""
+msgstr "Ekstensi yang dapat dimuat dinonaktifkan secara bawaan. Lihat [#f1]_."
 
 #: ../../library/sqlite3.rst:479
 msgid ""
@@ -615,7 +623,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:518
 msgid "See the following example code for illustration:"
-msgstr ""
+msgstr "Lihat contoh kode berikut untuk ilustrasi:"
 
 #: ../../library/sqlite3.rst:525
 msgid ""
@@ -688,7 +696,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:604
 msgid "Cursor Objects"
-msgstr ""
+msgstr "Objek Kursor"
 
 #: ../../library/sqlite3.rst:608
 msgid "A :class:`Cursor` instance has the following attributes and methods."
@@ -704,7 +712,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:620
 msgid "Here's an example of both styles:"
-msgstr ""
+msgstr "Berikut sebuah contoh dari kedua gaya:"
 
 #: ../../library/sqlite3.rst:624
 msgid ""
@@ -858,7 +866,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:751
 msgid "Row Objects"
-msgstr ""
+msgstr "Objek Baris"
 
 #: ../../library/sqlite3.rst:755
 msgid ""
@@ -887,7 +895,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:770
 msgid "Added support of slicing."
-msgstr ""
+msgstr "Menambahkan dukungan dari pemotongan."
 
 #: ../../library/sqlite3.rst:773
 msgid "Let's assume we initialize a table as in the example given above::"
@@ -903,7 +911,7 @@ msgstr "Pengecualian"
 
 #: ../../library/sqlite3.rst:821
 msgid "A subclass of :exc:`Exception`."
-msgstr ""
+msgstr "Subclass dari :exc:`Exception`."
 
 #: ../../library/sqlite3.rst:825
 msgid ""
@@ -946,7 +954,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:861
 msgid "SQLite and Python types"
-msgstr ""
+msgstr "SQLite dan tipe Python"
 
 #: ../../library/sqlite3.rst:865
 msgid "Introduction"
@@ -969,47 +977,47 @@ msgstr "tipe Python"
 
 #: ../../library/sqlite3.rst:873 ../../library/sqlite3.rst:890
 msgid "SQLite type"
-msgstr ""
+msgstr "tipe SQLite"
 
 #: ../../library/sqlite3.rst:875 ../../library/sqlite3.rst:892
 msgid ":const:`None`"
-msgstr ""
+msgstr ":const:`None`"
 
 #: ../../library/sqlite3.rst:875 ../../library/sqlite3.rst:892
 msgid "``NULL``"
-msgstr ""
+msgstr "``NULL``"
 
 #: ../../library/sqlite3.rst:877 ../../library/sqlite3.rst:894
 msgid ":class:`int`"
-msgstr ""
+msgstr ":class:`int`"
 
 #: ../../library/sqlite3.rst:877 ../../library/sqlite3.rst:894
 msgid "``INTEGER``"
-msgstr ""
+msgstr "``INTEGER``"
 
 #: ../../library/sqlite3.rst:879 ../../library/sqlite3.rst:896
 msgid ":class:`float`"
-msgstr ""
+msgstr ":class:`float`"
 
 #: ../../library/sqlite3.rst:879 ../../library/sqlite3.rst:896
 msgid "``REAL``"
-msgstr ""
+msgstr "``REAL``"
 
 #: ../../library/sqlite3.rst:881
 msgid ":class:`str`"
-msgstr "``string``"
+msgstr ":class:`str`"
 
 #: ../../library/sqlite3.rst:881 ../../library/sqlite3.rst:898
 msgid "``TEXT``"
-msgstr ""
+msgstr "``TEXT``"
 
 #: ../../library/sqlite3.rst:883 ../../library/sqlite3.rst:901
 msgid ":class:`bytes`"
-msgstr ""
+msgstr ":class:`bytes`"
 
 #: ../../library/sqlite3.rst:883 ../../library/sqlite3.rst:901
 msgid "``BLOB``"
-msgstr ""
+msgstr "``BLOB``"
 
 #: ../../library/sqlite3.rst:887
 msgid "This is how SQLite types are converted to Python types by default:"
@@ -1125,11 +1133,11 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:985
 msgid "Implicitly via the declared type"
-msgstr ""
+msgstr "Secara implisit melalui deklarasi tipe"
 
 #: ../../library/sqlite3.rst:987
 msgid "Explicitly via the column name"
-msgstr ""
+msgstr "Secara eksplisit melalui nama kolom"
 
 #: ../../library/sqlite3.rst:989
 msgid ""
@@ -1179,7 +1187,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:1023
 msgid "Controlling Transactions"
-msgstr ""
+msgstr "Mengontrol Transaksi"
 
 #: ../../library/sqlite3.rst:1025
 msgid ""
@@ -1230,11 +1238,11 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:1056
 msgid "Using :mod:`sqlite3` efficiently"
-msgstr ""
+msgstr "Menggunakan :mod:`sqlite3` secara efisien"
 
 #: ../../library/sqlite3.rst:1060
 msgid "Using shortcut methods"
-msgstr ""
+msgstr "Menggunakan metode pintasan"
 
 #: ../../library/sqlite3.rst:1062
 msgid ""
@@ -1276,32 +1284,10 @@ msgid ""
 msgstr ""
 
 #: ../../library/sqlite3.rst:1097
-msgid "Common issues"
-msgstr ""
-
-#: ../../library/sqlite3.rst:1100
-msgid "Multithreading"
-msgstr ""
-
-#: ../../library/sqlite3.rst:1102
-msgid ""
-"Older SQLite versions had issues with sharing connections between threads. "
-"That's why the Python module disallows sharing connections and cursors "
-"between threads. If you still try to do so, you will get an exception at "
-"runtime."
-msgstr ""
-
-#: ../../library/sqlite3.rst:1106
-msgid ""
-"The only exception is calling the :meth:`~Connection.interrupt` method, "
-"which only makes sense to call from a different thread."
-msgstr ""
-
-#: ../../library/sqlite3.rst:1110
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../library/sqlite3.rst:1111
+#: ../../library/sqlite3.rst:1098
 msgid ""
 "The sqlite3 module is not built with loadable extension support by default, "
 "because some platforms (notably Mac OS X) have SQLite libraries which are "

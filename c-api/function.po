@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2017-02-16 17:35+0000\n"
 "Last-Translator: Akhmat Safrudin <somat@artikulpi.com>, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -43,7 +43,8 @@ msgstr ""
 #: ../../c-api/function.rst:28
 msgid ""
 "Return true if *o* is a function object (has type "
-":c:data:`PyFunction_Type`). The parameter must not be ``NULL``."
+":c:data:`PyFunction_Type`). The parameter must not be ``NULL``.  This "
+"function always succeeds."
 msgstr ""
 
 #: ../../c-api/function.rst:34
