@@ -28,7 +28,7 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 
 ### Berkontribusi untuk Menerjemahkan
 ---
-Situs dokumentasi Python Bahasa Indonesia: **https://docs.python.org/id/3.9/**
+Situs dokumentasi Python Bahasa Indonesia: **https://docs.python.org/id/**
 
 Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org/id/3.9/), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia. Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
 
@@ -113,8 +113,6 @@ Jangan ragu untuk memberi masukan. Daftar istilah tersedia di [wiki](https://git
 Menempatkan aktivitas penerjemahan di tempat penyimpanan umum ini bertujuan untuk menarik dan mendapatkan lebih banyak kontribusi dibandingkan situs penerjemahan yang fungsinya sangat spesifik, seperti halnya Transifex.
 
 Per tanggal **2020-10-15** dokumentasi Python Bahasa Indonesia sudah tersedia di **https://docs.python.org/id/3.9/**
-
-Per tanggal **2019-10-21** dokumentasi Python Bahasa Indonesia sudah tersedia di **https://docs.python.org/id/3.8/**
 
 Per tanggal **2019-10-17** proses penerjemahan yang dibutuhkan sebagai minimum dari standar PEP 545 sudah selesai.
 
