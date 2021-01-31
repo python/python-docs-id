@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-01-23 05:12+0000\n"
 "PO-Revision-Date: 2017-02-16 23:11+0000\n"
 "Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -3073,27 +3073,20 @@ msgstr ""
 msgid ""
 "With three arguments, return a new type object.  This is essentially a "
 "dynamic form of the :keyword:`class` statement. The *name* string is the "
-"class name and becomes the :attr:`~definition.__name__` attribute; the "
-"*bases* tuple itemizes the base classes and becomes the "
-":attr:`~class.__bases__` attribute; and the *dict* dictionary is the "
-"namespace containing definitions for class body and is copied to a standard "
-"dictionary to become the :attr:`~object.__dict__` attribute.  For example, "
-"the following two statements create identical :class:`type` objects:"
+"class name and becomes the :attr:`~definition.__name__` attribute. The "
+"*bases* tuple contains the base classes and becomes the "
+":attr:`~class.__bases__` attribute; if empty, :class:`object`, the ultimate "
+"base of all classes, is added.  The *dict* dictionary contains attribute and"
+" method definitions for the class body; it may be copied or wrapped before "
+"becoming the :attr:`~object.__dict__` attribute. The following two "
+"statements create identical :class:`type` objects:"
 msgstr ""
-"Dengan tiga argumen, kembalikan objek tipe baru. Ini pada dasarnya adalah "
-"bentuk dinamis dari pernyataan :keyword:`class`. String *name* adalah nama "
-"kelas dan menjadi atribut :attr:`~definition.__ name__`; tuple *bases* "
-"memerinci kelas-kelas dasar dan menjadi atribut :attr:`~class.__ bases__`; "
-"dan *dictionary* *dict* adalah *namespace* yang mengandung definisi untuk "
-"badan kelas dan disalin ke *dictionary* standar untuk menjadi atribut "
-":attr:`~object.__ dict__`. Sebagai contoh, dua pernyataan berikut membuat "
-"objek :class:`type` indentik:"
 
-#: ../../library/functions.rst:1703
+#: ../../library/functions.rst:1704
 msgid "See also :ref:`bltin-type-objects`."
 msgstr "Lihat juga :ref:`bltin-type-objects`."
 
-#: ../../library/functions.rst:1705
+#: ../../library/functions.rst:1706
 msgid ""
 "Subclasses of :class:`type` which don't override ``type.__new__`` may no "
 "longer use the one-argument form to get the type of an object."
@@ -3102,7 +3095,7 @@ msgstr ""
 "tidak lagi menggunakan bentuk satu argumen untuk mendapatkan tipe dari suatu"
 " objek."
 
-#: ../../library/functions.rst:1711
+#: ../../library/functions.rst:1712
 msgid ""
 "Return the :attr:`~object.__dict__` attribute for a module, class, instance,"
 " or any other object with a :attr:`~object.__dict__` attribute."
@@ -3110,7 +3103,7 @@ msgstr ""
 "Kembalikan atribut: attr:`~object.__ dict__` untuk modul, kelas, *instance*,"
 " atau objek lainnya yang memiliki atribut :attr:`~object.__ dict__`."
 
-#: ../../library/functions.rst:1714
+#: ../../library/functions.rst:1715
 msgid ""
 "Objects such as modules and instances have an updateable "
 ":attr:`~object.__dict__` attribute; however, other objects may have write "
@@ -3124,7 +3117,7 @@ msgstr ""
 " sebuah :class:`types.MappingProxyType` untuk mencegah pembaruan kamus "
 "secara langsung)."
 
-#: ../../library/functions.rst:1719
+#: ../../library/functions.rst:1720
 msgid ""
 "Without an argument, :func:`vars` acts like :func:`locals`.  Note, the "
 "locals dictionary is only useful for reads since updates to the locals "
@@ -3134,7 +3127,7 @@ msgstr ""
 "*dictionary* lokal hanya berguna untuk dibaca karena pembaruan ke "
 "*dictionary* lokal diabaikan."
 
-#: ../../library/functions.rst:1723
+#: ../../library/functions.rst:1724
 msgid ""
 "A :exc:`TypeError` exception is raised if an object is specified but it "
 "doesn't have a :attr:`~object.__dict__` attribute (for example, if its class"
@@ -3145,12 +3138,12 @@ msgstr ""
 "(contohnya, jika suatu kelas didefinisikan sebagai atribut "
 ":attr:`~object.__slots__`)."
 
-#: ../../library/functions.rst:1729
+#: ../../library/functions.rst:1730
 msgid "Make an iterator that aggregates elements from each of the iterables."
 msgstr ""
 "Membuat *iterator* yang mengumpulkan elemen dari masing-masing *iterables*."
 
-#: ../../library/functions.rst:1731
+#: ../../library/functions.rst:1732
 msgid ""
 "Returns an iterator of tuples, where the *i*-th tuple contains the *i*-th "
 "element from each of the argument sequences or iterables.  The iterator "
@@ -3164,7 +3157,7 @@ msgstr ""
 "tunggal, ia mengembalikan iterator 1-tupel. Tanpa argumen, ia mengembalikan "
 "*iterator* kosong. Setara dengan::"
 
-#: ../../library/functions.rst:1750
+#: ../../library/functions.rst:1751
 msgid ""
 "The left-to-right evaluation order of the iterables is guaranteed. This "
 "makes possible an idiom for clustering a data series into n-length groups "
@@ -3178,7 +3171,7 @@ msgstr ""
 "sehingga setiap tuple keluaran memiliki hasil panggilan ``n`` ke *iterator*."
 " Ini memiliki efek membagi input menjadi potongan panjang-n."
 
-#: ../../library/functions.rst:1756
+#: ../../library/functions.rst:1757
 msgid ""
 ":func:`zip` should only be used with unequal length inputs when you don't "
 "care about trailing, unmatched values from the longer iterables.  If those "
@@ -3189,7 +3182,7 @@ msgstr ""
 "dari *iterables* yang lebih panjang. Jika nilai-nilai itu penting, gunakan "
 ":func:`itertools.zip_longest` sebagai gantinya."
 
-#: ../../library/functions.rst:1760
+#: ../../library/functions.rst:1761
 msgid ""
 ":func:`zip` in conjunction with the ``*`` operator can be used to unzip a "
 "list::"
@@ -3197,7 +3190,7 @@ msgstr ""
 ":func:`zip` bersama dengan operator ``*`` dapat digunakan untuk *unzip* "
 "sebuah list atau daftar::"
 
-#: ../../library/functions.rst:1781
+#: ../../library/functions.rst:1782
 msgid ""
 "This is an advanced function that is not needed in everyday Python "
 "programming, unlike :func:`importlib.import_module`."
@@ -3205,7 +3198,7 @@ msgstr ""
 "Ini adalah fungsi lanjutan yang tidak diperlukan dalam pemrograman Python "
 "sehari-hari, tidak seperti :func:`importlib.import_module`."
 
-#: ../../library/functions.rst:1784
+#: ../../library/functions.rst:1785
 msgid ""
 "This function is invoked by the :keyword:`import` statement.  It can be "
 "replaced (by importing the :mod:`builtins` module and assigning to "
@@ -3226,7 +3219,7 @@ msgstr ""
 "langsung :func:`__import__` juga tidak disarankan untuk kepentingan "
 ":func:`importlib.import_module`."
 
-#: ../../library/functions.rst:1793
+#: ../../library/functions.rst:1794
 msgid ""
 "The function imports the module *name*, potentially using the given "
 "*globals* and *locals* to determine how to interpret the name in a package "
@@ -3242,7 +3235,7 @@ msgstr ""
 "sekali tidak menggunakan argumen *locals*, dan hanya menggunakan *globals* "
 "untuk menentukan konteks paket dari pernyataan :keyword:`import`."
 
-#: ../../library/functions.rst:1800
+#: ../../library/functions.rst:1801
 msgid ""
 "*level* specifies whether to use absolute or relative imports. ``0`` (the "
 "default) means only perform absolute imports.  Positive values for *level* "
@@ -3255,7 +3248,7 @@ msgstr ""
 " menunjukkan jumlah direktori induk untuk mencari relatif ke direktori "
 "pemanggilan modul :func:`__import__` (lihat :pep:`328` untuk detailnya)."
 
-#: ../../library/functions.rst:1806
+#: ../../library/functions.rst:1807
 msgid ""
 "When the *name* variable is of the form ``package.module``, normally, the "
 "top-level package (the name up till the first dot) is returned, *not* the "
@@ -3267,7 +3260,7 @@ msgstr ""
 "dengan *name*. Namun, ketika argumen tidak-kosong *fromlist * diberikan, "
 "modul bernama oleh *name* dikembalikan."
 
-#: ../../library/functions.rst:1811
+#: ../../library/functions.rst:1812
 msgid ""
 "For example, the statement ``import spam`` results in bytecode resembling "
 "the following code::"
@@ -3275,11 +3268,11 @@ msgstr ""
 "Sebagai contoh, pernyataan ``import spam`` menghasilkan bytecode yang "
 "menyerupai kode berikut::"
 
-#: ../../library/functions.rst:1816
+#: ../../library/functions.rst:1817
 msgid "The statement ``import spam.ham`` results in this call::"
 msgstr "Pernyataan ``import spam.ham`` menghasilkan panggilan ini::"
 
-#: ../../library/functions.rst:1820
+#: ../../library/functions.rst:1821
 msgid ""
 "Note how :func:`__import__` returns the toplevel module here because this is"
 " the object that is bound to a name by the :keyword:`import` statement."
@@ -3288,7 +3281,7 @@ msgstr ""
 "sini karena ini adalah objek yang terikat pada nama oleh pernyataan "
 ":keyword:`import`."
 
-#: ../../library/functions.rst:1823
+#: ../../library/functions.rst:1824
 msgid ""
 "On the other hand, the statement ``from spam.ham import eggs, sausage as "
 "saus`` results in ::"
@@ -3296,7 +3289,7 @@ msgstr ""
 "Di sisi lain, pernyataan ``from spam.ham import eggs, sausage as saus`` "
 "menghasilkan ::"
 
-#: ../../library/functions.rst:1830
+#: ../../library/functions.rst:1831
 msgid ""
 "Here, the ``spam.ham`` module is returned from :func:`__import__`.  From "
 "this object, the names to import are retrieved and assigned to their "
@@ -3305,7 +3298,7 @@ msgstr ""
 "Di sini, modul ``spam.ham`` dikembalikan dari :func:`__import__`. Dari objek"
 " ini, nama yang akan diimpor diambil dan diisikan ke nama masing-masing."
 
-#: ../../library/functions.rst:1834
+#: ../../library/functions.rst:1835
 msgid ""
 "If you simply want to import a module (potentially within a package) by "
 "name, use :func:`importlib.import_module`."
@@ -3313,7 +3306,7 @@ msgstr ""
 "Jika Anda hanya ingin mengimpor sebuah modul (berpotensi dalam suatu paket) "
 "dengan nama, gunakan :func:`importlib.import_module`."
 
-#: ../../library/functions.rst:1837
+#: ../../library/functions.rst:1838
 msgid ""
 "Negative values for *level* are no longer supported (which also changes the "
 "default value to 0)."
@@ -3321,17 +3314,17 @@ msgstr ""
 "Nilai negatif untuk *level* tidak lagi didukung (juga mengubah nilai default"
 " menjadi 0)."
 
-#: ../../library/functions.rst:1841
+#: ../../library/functions.rst:1842
 msgid ""
 "When the command line options :option:`-E` or :option:`-I` are being used, "
 "the environment variable :envvar:`PYTHONCASEOK` is now ignored."
 msgstr ""
 
-#: ../../library/functions.rst:1846
+#: ../../library/functions.rst:1847
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../library/functions.rst:1847
+#: ../../library/functions.rst:1848
 msgid ""
 "Note that the parser only accepts the Unix-style end of line convention. If "
 "you are reading the code from a file, make sure to use newline conversion "

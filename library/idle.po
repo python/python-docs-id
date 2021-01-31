@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 04:10+0000\n"
+"POT-Creation-Date: 2021-01-27 05:16+0000\n"
 "PO-Revision-Date: 2017-02-16 23:14+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -523,7 +523,9 @@ msgid "Restart Shell"
 msgstr ""
 
 #: ../../library/idle.rst:253
-msgid "Restart the shell to clean the environment."
+msgid ""
+"Restart the shell to clean the environment and reset display and exception "
+"handling."
 msgstr ""
 
 #: ../../library/idle.rst:256
