@@ -1,18 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
 # Akhmat Safrudin <somat@artikulpi.com>, 2018
+# Elmo Allistair, 2021
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2021-04-02 20:27+0700\n"
-"Last-Translator: Akhmat Safrudin <somat@artikulpi.com>, 2018\n"
+"Last-Translator: Elmo Allistair, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -45,11 +46,13 @@ msgstr ""
 
 #: ../../c-api/function.rst:28
 msgid ""
-"Return true if *o* is a function object (has type :c:data:"
-"`PyFunction_Type`). The parameter must not be ``NULL``."
+"Return true if *o* is a function object (has type "
+":c:data:`PyFunction_Type`). The parameter must not be ``NULL``.  This "
+"function always succeeds."
 msgstr ""
 "Mengembalikan nilai true jika *o* adalah objek fungsi (memiliki tipe :c:"
-"data:`PyFunction_Type`). Parameter tidak boleh ``NULL``."
+"data:`PyFunction_Type`). Parameter tidak boleh ``NULL``. Fungsi ini "
+"selalu sukses."
 
 #: ../../c-api/function.rst:34
 msgid ""

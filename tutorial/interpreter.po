@@ -5,7 +5,7 @@
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# Septian Hari <septianhari@gmail.com>, 2019
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,23 +22,27 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:5
+#: ../../tutorial/interpreter.rst:5
 msgid "Using the Python Interpreter"
 msgstr "Menggunakan Interpreter Python"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:11
+#: ../../tutorial/interpreter.rst:11
 msgid "Invoking the Interpreter"
 msgstr "Memanggil Interpreter"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:13
+#: ../../tutorial/interpreter.rst:13
 msgid ""
 "The Python interpreter is usually installed as "
 ":file:`/usr/local/bin/python3.9` on those machines where it is available; "
 "putting :file:`/usr/local/bin` in your Unix shell's search path makes it "
 "possible to start it by typing the command:"
 msgstr ""
+"Penerjemah Python biasanya diinstal sebagai :file:`/usr/local/bin/python3.9`"
+" pada mesin yang tersedia; menempatkan :file:`/usr/local/bin` di jalur "
+"pencarian shell Unix Anda memungkinkan untuk memulainya dengan mengetik "
+"perintah:"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:21
+#: ../../tutorial/interpreter.rst:21
 msgid ""
 "to the shell. [#]_ Since the choice of the directory where the interpreter "
 "lives is an installation option, other places are possible; check with your "
@@ -50,7 +54,7 @@ msgstr ""
 "di sekitar atau administrator sistem. (Mis., :file:`/usr/local/python` "
 "adalah lokasi alternatif yang populer.)"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:26
+#: ../../tutorial/interpreter.rst:26
 msgid ""
 "On Windows machines where you have installed Python from the :ref:`Microsoft"
 " Store <windows-store>`, the :file:`python3.9` command will be available. If"
@@ -58,13 +62,13 @@ msgid ""
 ":file:`py` command. See :ref:`setting-envvars` for other ways to launch "
 "Python."
 msgstr ""
-"Pada mesin Windows di mana Anda telah menginstal Python dari :ref: "
-"`Microsoft Store <windows-store>`, perintah :file:`python3.8` akan tersedia."
-" Jika Anda telah menginstal :ref:`py.exe launcher <launcher>`, Anda dapat "
-"menggunakan perintah :file:`py`. Lihat :ref:`setting-envvars` untuk cara-"
-"cara lain untuk meluncurkan Python."
+"Pada mesin *Windows* yang telah diinstall Python dari :ref:`Microsoft Store "
+"<windows-store>`, *command* :file:`python3.9` akan tersedia. Jika anda "
+"memiliki *launcher*  :ref:`py.exe <launcher>`, anda dapat menggunakan "
+"*command* :file:`py`. Lihat :ref:`setting-envvars` untuk mengetahui cara "
+"lain menjalankan Python."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:31
+#: ../../tutorial/interpreter.rst:31
 msgid ""
 "Typing an end-of-file character (:kbd:`Control-D` on Unix, :kbd:`Control-Z` "
 "on Windows) at the primary prompt causes the interpreter to exit with a zero"
@@ -76,7 +80,7 @@ msgstr ""
 " keluar nol. Jika itu tidak berhasil, Anda dapat keluar dari interpreter "
 "dengan mengetikkan perintah berikut: ``quit()``."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:36
+#: ../../tutorial/interpreter.rst:36
 msgid ""
 "The interpreter's line-editing features include interactive editing, history"
 " substitution and code completion on systems that support the `GNU Readline "
@@ -99,7 +103,7 @@ msgstr ""
 "tidak tersedia; Anda hanya akan dapat menggunakan backspace untuk menghapus "
 "karakter dari baris saat ini."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:46
+#: ../../tutorial/interpreter.rst:46
 msgid ""
 "The interpreter operates somewhat like the Unix shell: when called with "
 "standard input connected to a tty device, it reads and executes commands "
@@ -112,7 +116,7 @@ msgstr ""
 " dengan berkas sebagai masukan bawaan, ia membaca dan mengeksekusi *script* "
 "dari berkas itu."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:51
+#: ../../tutorial/interpreter.rst:51
 msgid ""
 "A second way of starting the interpreter is ``python -c command [arg] ...``,"
 " which executes the statement(s) in *command*, analogous to the shell's "
@@ -126,7 +130,7 @@ msgstr ""
 "spasi atau karakter lain yang khusus untuk shell, biasanya disarankan untuk "
 "mengutip *command* secara keseluruhan dengan tanda kutip tunggal."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:57
+#: ../../tutorial/interpreter.rst:57
 msgid ""
 "Some Python modules are also useful as scripts.  These can be invoked using "
 "``python -m module [arg] ...``, which executes the source file for *module* "
@@ -137,7 +141,7 @@ msgstr ""
 "untuk *module* seolah-olah Anda telah menuliskan nama lengkapnya pada baris "
 "perintah."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:61
+#: ../../tutorial/interpreter.rst:61
 msgid ""
 "When a script file is used, it is sometimes useful to be able to run the "
 "script and enter interactive mode afterwards.  This can be done by passing "
@@ -147,15 +151,15 @@ msgstr ""
 "skrip dan masuk ke mode interaktif sesudahnya. Ini dapat dilakukan dengan "
 "menuliskan :option:`-i` sebelum skrip."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:65
+#: ../../tutorial/interpreter.rst:65
 msgid "All command line options are described in :ref:`using-on-general`."
 msgstr "Semua opsi baris perintah dijelaskan dalam :ref:`using-on-general`."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:71
+#: ../../tutorial/interpreter.rst:71
 msgid "Argument Passing"
 msgstr "Melewatkan Argumen"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:73
+#: ../../tutorial/interpreter.rst:73
 msgid ""
 "When known to the interpreter, the script name and additional arguments "
 "thereafter are turned into a list of strings and assigned to the ``argv`` "
@@ -183,11 +187,11 @@ msgstr ""
 "dikonsumsi oleh pemrosesan opsi interpreter Python tetapi ditinggalkan di "
 "``sys.argv`` untuk perintah atau modul yang akan ditangani ."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:89
+#: ../../tutorial/interpreter.rst:89
 msgid "Interactive Mode"
 msgstr "Mode Interaktif"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:91
+#: ../../tutorial/interpreter.rst:91
 msgid ""
 "When commands are read from a tty, the interpreter is said to be in "
 "*interactive mode*.  In this mode it prompts for the next command with the "
@@ -204,7 +208,7 @@ msgstr ""
 "menyatakan nomor versinya dan pemberitahuan hak cipta sebelum mencetak "
 "prompt pertama:"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:108
+#: ../../tutorial/interpreter.rst:108
 msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
 "example, take a look at this :keyword:`if` statement::"
@@ -212,19 +216,19 @@ msgstr ""
 "Garis lanjutan diperlukan ketika memasuki konstruksi multi-garis. Sebagai "
 "contoh, lihat ini pernyataan :keyword:`if`::"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:118
+#: ../../tutorial/interpreter.rst:118
 msgid "For more on interactive mode, see :ref:`tut-interac`."
 msgstr "Untuk lebih lanjut tentang mode interaktif, lihat :ref:`tut-interac`."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:124
+#: ../../tutorial/interpreter.rst:124
 msgid "The Interpreter and Its Environment"
 msgstr "Interpreter dan Lingkungannya"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:130
+#: ../../tutorial/interpreter.rst:130
 msgid "Source Code Encoding"
 msgstr "*Encoding* Penulisan Kode Sumber"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:132
+#: ../../tutorial/interpreter.rst:132
 msgid ""
 "By default, Python source files are treated as encoded in UTF-8.  In that "
 "encoding, characters of most languages in the world can be used "
@@ -243,7 +247,7 @@ msgstr ""
 "harus mengenali bahwa berkas tersebut adalah UTF-8, dan itu harus "
 "menggunakan font yang mendukung semua karakter dalam berkas."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:140
+#: ../../tutorial/interpreter.rst:140
 msgid ""
 "To declare an encoding other than the default one, a special comment line "
 "should be added as the *first* line of the file.  The syntax is as follows::"
@@ -252,14 +256,14 @@ msgstr ""
 "komentar khusus harus ditambahkan sebagai baris *first* pada berkas. "
 "Sintaksnya adalah sebagai berikut ::"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:145
+#: ../../tutorial/interpreter.rst:145
 msgid ""
 "where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
 "di mana *encoding* adalah salah satu yang valid :mod:`codec` yang didukung "
 "oleh Python."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:147
+#: ../../tutorial/interpreter.rst:147
 msgid ""
 "For example, to declare that Windows-1252 encoding is to be used, the first "
 "line of your source code file should be::"
@@ -267,7 +271,7 @@ msgstr ""
 "Misalnya, untuk menyatakan bahwa pengkodean *encoding* Windows-1252 harus "
 "digunakan, baris pertama file kode sumber Anda harus::"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:152
+#: ../../tutorial/interpreter.rst:152
 msgid ""
 "One exception to the *first line* rule is when the source code starts with a"
 " :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
@@ -278,11 +282,11 @@ msgstr ""
 "deklarasi penyandian *encoding* harus ditambahkan sebagai baris kedua pada "
 "berkas. Sebagai contoh::"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:160
+#: ../../tutorial/interpreter.rst:160
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/interpreter.rst:161
+#: ../../tutorial/interpreter.rst:161
 msgid ""
 "On Unix, the Python 3.x interpreter is by default not installed with the "
 "executable named ``python``, so that it does not conflict with a "

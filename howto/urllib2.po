@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2021-02-06 05:23+0000\n"
 "PO-Revision-Date: 2017-02-16 17:46+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -137,7 +137,7 @@ msgstr ""
 msgid ""
 "In the case of HTTP, there are two extra things that Request objects allow "
 "you to do: First, you can pass data to be sent to the server.  Second, you "
-"can pass extra information (\"metadata\") *about* the data or the about "
+"can pass extra information (\"metadata\") *about* the data or about the "
 "request itself, to the server - this information is sent as HTTP "
 "\"headers\".  Let's look at each of these in turn."
 msgstr ""

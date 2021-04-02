@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 11:56+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 23:07+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../library/doctest.rst:2
 msgid ":mod:`doctest` --- Test interactive Python examples"
-msgstr ""
+msgstr ":mod:`doctest` --- Contoh uji interaktif Python"
 
 #: ../../library/doctest.rst:12
 msgid "**Source code:** :source:`Lib/doctest.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/doctest.py`"
 
 #: ../../library/doctest.rst:16
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:31
 msgid "Here's a complete but small example module::"
-msgstr ""
+msgstr "Berikut modul contoh lengkap tapi sederhana::"
 
 #: ../../library/doctest.rst:88
 msgid ""
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:114
 msgid "And so on, eventually ending with:"
-msgstr ""
+msgstr "Dan seterusnya, akhirnya diakhiri dengan:"
 
 #: ../../library/doctest.rst:133
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:164
 msgid "Run it with the ``-v`` switch instead::"
-msgstr ""
+msgstr "Operasikan dengan opsi ``-v`` sebagai gantinya::"
 
 #: ../../library/doctest.rst:168
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:192
 msgid "Simple Usage: Checking Examples in a Text File"
-msgstr ""
+msgstr "Penggunaan Sederhana: Memeriksa Contoh di Berkas Teks"
 
 #: ../../library/doctest.rst:194
 msgid ""
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:262
 msgid "How It Works"
-msgstr ""
+msgstr "Bagaimana Itu Bekerja"
 
 #: ../../library/doctest.rst:264
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:275
 msgid "Which Docstrings Are Examined?"
-msgstr ""
+msgstr "Docstrings Mana yang Diperiksa?"
 
 #: ../../library/doctest.rst:277
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:299
 msgid "How are Docstring Examples Recognized?"
-msgstr ""
+msgstr "Bagaimana Contoh Docstring Dikenali?"
 
 #: ../../library/doctest.rst:301
 msgid ""
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:330
 msgid "The fine print:"
-msgstr ""
+msgstr "Tulisan halus:"
 
 #: ../../library/doctest.rst:332
 msgid ""
@@ -324,7 +324,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:370
 msgid "The starting column doesn't matter::"
-msgstr ""
+msgstr "Kolom awal tidak masalah::"
 
 #: ../../library/doctest.rst:377
 msgid ""
@@ -334,7 +334,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:384
 msgid "What's the Execution Context?"
-msgstr ""
+msgstr "Apa itu Konteks Eksekusi?"
 
 #: ../../library/doctest.rst:386
 msgid ""
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:401
 msgid "What About Exceptions?"
-msgstr ""
+msgstr "Bagaimana dengan Pengecualian?"
 
 #: ../../library/doctest.rst:403
 msgid ""
@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:409
 msgid "Simple example::"
-msgstr ""
+msgstr "Contoh sederhana::"
 
 #: ../../library/doctest.rst:416
 msgid ""
@@ -475,7 +475,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:513
 msgid "Option Flags"
-msgstr ""
+msgstr "Penanda Opsi"
 
 #: ../../library/doctest.rst:515
 msgid ""
@@ -489,7 +489,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:521
 msgid "The ``-o`` command line option."
-msgstr ""
+msgstr "Opsi baris perintah ``-o``."
 
 #: ../../library/doctest.rst:524
 msgid ""
@@ -596,7 +596,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:625
 msgid "A bitmask or'ing together all the comparison flags above."
-msgstr ""
+msgstr "Menggabungkan bitmask OR semua tanda perbandingan di atas."
 
 #: ../../library/doctest.rst:627
 msgid "The second group of options controls how test failures are reported:"
@@ -651,7 +651,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:677
 msgid "A bitmask or'ing together all the reporting flags above."
-msgstr ""
+msgstr "Menggabungkan bitmask OR semua tanda pelaporan di atas."
 
 #: ../../library/doctest.rst:680
 msgid ""
@@ -670,7 +670,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:702
 msgid "Directives"
-msgstr ""
+msgstr "Petunjuk"
 
 #: ../../library/doctest.rst:704
 msgid ""
@@ -694,7 +694,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:722
 msgid "For example, this test passes::"
-msgstr ""
+msgstr "Misalnya, tes ini lolos::"
 
 #: ../../library/doctest.rst:728
 msgid ""
@@ -735,7 +735,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:767
 msgid "Warnings"
-msgstr ""
+msgstr "Peringatan"
 
 #: ../../library/doctest.rst:769
 msgid ""
@@ -749,11 +749,11 @@ msgstr ""
 
 #: ../../library/doctest.rst:778
 msgid "is vulnerable!  One workaround is to do ::"
-msgstr ""
+msgstr "rentan! Salah satu solusinya adalah dengan melakukan ::"
 
 #: ../../library/doctest.rst:783
 msgid "instead.  Another is to do ::"
-msgstr ""
+msgstr "sebagai gantinya. Yang lainnya adalah melakukan ::"
 
 #: ../../library/doctest.rst:791
 msgid ""

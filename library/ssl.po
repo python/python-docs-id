@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-19 04:07+0000\n"
+"POT-Creation-Date: 2021-03-28 05:52+0000\n"
 "PO-Revision-Date: 2017-02-16 23:27+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -2132,16 +2132,16 @@ msgstr ""
 
 #: ../../library/ssl.rst:1881
 msgid ""
-"Whether to match the peer cert's hostname with :func:`match_hostname` in "
-":meth:`SSLSocket.do_handshake`. The context's "
-":attr:`~SSLContext.verify_mode` must be set to :data:`CERT_OPTIONAL` or "
-":data:`CERT_REQUIRED`, and you must pass *server_hostname* to "
-":meth:`~SSLContext.wrap_socket` in order to match the hostname.  Enabling "
-"hostname checking automatically sets :attr:`~SSLContext.verify_mode` from "
-":data:`CERT_NONE` to :data:`CERT_REQUIRED`.  It cannot be set back to "
-":data:`CERT_NONE` as long as hostname checking is enabled. The "
-":data:`PROTOCOL_TLS_CLIENT` protocol enables hostname checking by default. "
-"With other protocols, hostname checking must be enabled explicitly."
+"Whether to match the peer cert's hostname in :meth:`SSLSocket.do_handshake`."
+" The context's :attr:`~SSLContext.verify_mode` must be set to "
+":data:`CERT_OPTIONAL` or :data:`CERT_REQUIRED`, and you must pass "
+"*server_hostname* to :meth:`~SSLContext.wrap_socket` in order to match the "
+"hostname.  Enabling hostname checking automatically sets "
+":attr:`~SSLContext.verify_mode` from :data:`CERT_NONE` to "
+":data:`CERT_REQUIRED`.  It cannot be set back to :data:`CERT_NONE` as long "
+"as hostname checking is enabled. The :data:`PROTOCOL_TLS_CLIENT` protocol "
+"enables hostname checking by default. With other protocols, hostname "
+"checking must be enabled explicitly."
 msgstr ""
 
 #: ../../library/ssl.rst:1909

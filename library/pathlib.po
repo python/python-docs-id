@@ -1,19 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Fathin Luqman Tantowi <fltfathin@gmail.com>, 2020
+# Elmo Allistair <work.elmoallistair@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-04 04:16+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:21+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +50,7 @@ msgstr ""
 
 #: ../../library/pathlib.rst:29
 msgid "Pure paths are useful in some special cases; for example:"
-msgstr ""
+msgstr "Pure paths dapat berguna di berbagai kasus spesial; contohnya:"
 
 #: ../../library/pathlib.rst:31
 msgid ""
@@ -76,7 +78,7 @@ msgstr ""
 
 #: ../../library/pathlib.rst:47
 msgid "Basic use"
-msgstr ""
+msgstr "Penggunaan dasar"
 
 #: ../../library/pathlib.rst:49
 msgid "Importing the main class::"
@@ -540,6 +542,8 @@ msgid ""
 "Using the \"``**``\" pattern in large directory trees may consume an "
 "inordinate amount of time."
 msgstr ""
+"Menggunakan pola \"``**``\" di pohon direktori yang besar dapat menghabiskan"
+" banyak waktu."
 
 #: ../../library/pathlib.rst:794
 msgid ""

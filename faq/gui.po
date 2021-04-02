@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2020, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Taufan Budiman <taufanbudiman@yahoo.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
 "PO-Revision-Date: 2017-02-16 17:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Last-Translator: Taufan Budiman <taufanbudiman@yahoo.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +32,7 @@ msgstr "Konten"
 
 #: ../../faq/gui.rst:15
 msgid "General GUI Questions"
-msgstr ""
+msgstr "Pertanyaan Umum GUI"
 
 #: ../../faq/gui.rst:18
 msgid "What platform-independent GUI toolkits exist for Python?"
@@ -43,6 +44,9 @@ msgid ""
 " them haven't been ported to Python 3 yet.  At least `Tkinter`_ and `Qt`_ "
 "are known to be Python 3-compatible."
 msgstr ""
+"Bergantung pada platform apa yang Anda bidik, ada beberapa. Beberapa dari "
+"mereka belum di-porting ke Python 3. Setidaknya `Tkinter`_ dan` Qt`_ "
+"diketahui kompatibel dengan Python 3."
 
 #: ../../faq/gui.rst:27
 msgid "Tkinter"
@@ -87,6 +91,9 @@ msgid ""
 "licences that allow their use in commercial products as well as in freeware "
 "or shareware."
 msgstr ""
+"Baik wxWidgets dan wxPython adalah perangkat lunak gratis, sumber terbuka, "
+"dengan lisensi permisif yang memungkinkan penggunaannya dalam produk "
+"komersial serta freeware atau shareware."
 
 #: ../../faq/gui.rst:58
 msgid "Qt"
@@ -144,6 +151,8 @@ msgstr ""
 msgid ""
 "Kivy is free and open source software distributed under the MIT license."
 msgstr ""
+"Kivy adalah perangkat lunak gratis dan sumber terbuka yang didistribusikan "
+"di bawah lisensi MIT."
 
 #: ../../faq/gui.rst:91
 msgid "FLTK"
@@ -164,6 +173,8 @@ msgstr "OpenGL"
 msgid ""
 "For OpenGL bindings, see `PyOpenGL <http://pyopengl.sourceforge.net>`_."
 msgstr ""
+"Untuk pengikatan OpenGL, lihat `PyOpenGL "
+"<http://pyopengl.sourceforge.net>`_."
 
 #: ../../faq/gui.rst:104
 msgid "What platform-specific GUI toolkits exist for Python?"
@@ -182,6 +193,9 @@ msgid ""
 "Microsoft Foundation Classes and a Python programming environment that's "
 "written mostly in Python using the MFC classes."
 msgstr ""
+":ref:`Pythonwin <windows-faq>`oleh Mark Hammond menyertakan antarmuka ke "
+"Microsoft Foundation Classes dan lingkungan pemrograman Python yang sebagian"
+" besar ditulis dengan Python menggunakan kelas MFC."
 
 #: ../../faq/gui.rst:116
 msgid "Tkinter questions"
@@ -189,7 +203,7 @@ msgstr "Pertanyaan-pertanyaan Tkinter"
 
 #: ../../faq/gui.rst:119
 msgid "How do I freeze Tkinter applications?"
-msgstr ""
+msgstr "Bagaimana cara membekukan aplikasi Tkinter?"
 
 #: ../../faq/gui.rst:121
 msgid ""
@@ -220,6 +234,10 @@ msgid ""
 " link with libtclsam and libtksam (you might include the Tix libraries as "
 "well)."
 msgstr ""
+"Bangun Tix dengan SAM diaktifkan, lakukan panggilan yang sesuai ke "
+":c:func:`Tclsam_init`, dll. Di dalam Python : file:` Modules tkappinit.c`, "
+"dan tautkan dengan libtclsam dan libtksam (Anda mungkin menyertakan pustaka "
+"Tix juga )."
 
 #: ../../faq/gui.rst:141
 msgid "Can I have Tk events handled while waiting for I/O?"
@@ -237,6 +255,8 @@ msgstr ""
 #: ../../faq/gui.rst:151
 msgid "I can't get key bindings to work in Tkinter: why?"
 msgstr ""
+"Saya tidak bisa mendapatkan pengikatan kunci untuk bekerja di Tkinter: "
+"mengapa?"
 
 #: ../../faq/gui.rst:153
 msgid ""

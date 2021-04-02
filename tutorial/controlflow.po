@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-23 03:56+0000\n"
+"POT-Creation-Date: 2021-03-28 05:52+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2020\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -277,7 +277,7 @@ msgstr ""
 "Tempat lain :keyword:`pass` dapat digunakan adalah sebagai tempat-penampung "
 "*place-holder* untuk fungsi atau badan bersyarat *conditional body* saat "
 "Anda bekerja pada kode baru, memungkinkan Anda untuk terus berpikir pada "
-"tingkat yang lebih abstrak. :keyword: `!pass` diabaikan secara diam-diam::"
+"tingkat yang lebih abstrak. :keyword:`!pass` diabaikan secara diam-diam::"
 
 #: ../../tutorial/controlflow.rst:249
 msgid "Defining Functions"
@@ -353,16 +353,11 @@ msgid ""
 "local symbol table of the called function when it is called; thus, arguments"
 " are passed using *call by value* (where the *value* is always an object "
 "*reference*, not the value of the object). [#]_ When a function calls "
-"another function, a new local symbol table is created for that call."
+"another function, or calls itself recursively, a new local symbol table is "
+"created for that call."
 msgstr ""
-"Parameter aktual (*arguments*) untuk panggilan fungsi diperkenalkan dalam "
-"tabel simbol lokal dari fungsi yang dipanggil ketika dipanggil; dengan "
-"demikian, argumen dilewatkan menggunakan *call by value* (di mana *value* "
-"selalu menjadi objek *reference*, bukan nilai objek). [#]_ Ketika suatu "
-"fungsi memanggil fungsi lain, tabel simbol lokal baru dibuat untuk panggilan"
-" itu."
 
-#: ../../tutorial/controlflow.rst:300
+#: ../../tutorial/controlflow.rst:301
 msgid ""
 "A function definition associates the function name with the function object "
 "in the current symbol table.  The interpreter recognizes the object pointed "
@@ -375,7 +370,7 @@ msgstr ""
 " dapat menunjuk ke objek fungsi yang sama dan juga dapat digunakan untuk "
 "mengakses fungsi tersebut::"
 
-#: ../../tutorial/controlflow.rst:311
+#: ../../tutorial/controlflow.rst:312
 msgid ""
 "Coming from other languages, you might object that ``fib`` is not a function"
 " but a procedure since it doesn't return a value.  In fact, even functions "
@@ -393,7 +388,7 @@ msgstr ""
 " akan menjadi satu-satunya nilai yang ditulis. Anda dapat melihatnya jika "
 "Anda benar-benar ingin menggunakan :func:`print`::"
 
-#: ../../tutorial/controlflow.rst:322
+#: ../../tutorial/controlflow.rst:323
 msgid ""
 "It is simple to write a function that returns a list of the numbers of the "
 "Fibonacci series, instead of printing it::"
@@ -401,11 +396,11 @@ msgstr ""
 "Sangat mudah untuk menulis fungsi yang mengembalikan daftar *list* nomor "
 "seri Fibonacci, alih-alih mencetaknya::"
 
-#: ../../tutorial/controlflow.rst:338
+#: ../../tutorial/controlflow.rst:339
 msgid "This example, as usual, demonstrates some new Python features:"
 msgstr "Contoh ini, seperti biasa, menunjukkan beberapa fitur Python baru:"
 
-#: ../../tutorial/controlflow.rst:340
+#: ../../tutorial/controlflow.rst:341
 msgid ""
 "The :keyword:`return` statement returns with a value from a function. "
 ":keyword:`!return` without an expression argument returns ``None``. Falling "
@@ -415,7 +410,7 @@ msgstr ""
 ":keyword:`!return` tanpa argumen ekspresi mengembalikan ``None``. Keluar "
 "dari akhir suatu fungsi juga mengembalikan ``None``."
 
-#: ../../tutorial/controlflow.rst:344
+#: ../../tutorial/controlflow.rst:345
 msgid ""
 "The statement ``result.append(a)`` calls a *method* of the list object "
 "``result``.  A method is a function that 'belongs' to an object and is named"
@@ -441,11 +436,11 @@ msgstr ""
 "daftar; itu menambahkan elemen baru di akhir daftar. Dalam contoh ini setara"
 " dengan ``result = result + [a]``, tetapi lebih efisien."
 
-#: ../../tutorial/controlflow.rst:359
+#: ../../tutorial/controlflow.rst:360
 msgid "More on Defining Functions"
 msgstr "Lebih lanjut tentang Mendefinisikan Fungsi"
 
-#: ../../tutorial/controlflow.rst:361
+#: ../../tutorial/controlflow.rst:362
 msgid ""
 "It is also possible to define functions with a variable number of arguments."
 " There are three forms, which can be combined."
@@ -453,11 +448,11 @@ msgstr ""
 "Dimungkinkan juga untuk mendefinisikan fungsi dengan sejumlah variabel "
 "argumen. Ada tiga bentuk, yang bisa digabungkan."
 
-#: ../../tutorial/controlflow.rst:368
+#: ../../tutorial/controlflow.rst:369
 msgid "Default Argument Values"
 msgstr "Nilai Argumen Bawaan"
 
-#: ../../tutorial/controlflow.rst:370
+#: ../../tutorial/controlflow.rst:371
 msgid ""
 "The most useful form is to specify a default value for one or more "
 "arguments. This creates a function that can be called with fewer arguments "
@@ -468,18 +463,18 @@ msgstr ""
 "yang lebih sedikit daripada yang didefinisikan untuk diizinkan. Sebagai "
 "contoh::"
 
-#: ../../tutorial/controlflow.rst:386
+#: ../../tutorial/controlflow.rst:387
 msgid "This function can be called in several ways:"
 msgstr "Fungsi ini dapat dipanggil dengan beberapa cara:"
 
-#: ../../tutorial/controlflow.rst:388
+#: ../../tutorial/controlflow.rst:389
 msgid ""
 "giving only the mandatory argument: ``ask_ok('Do you really want to "
 "quit?')``"
 msgstr ""
 "hanya memberikan argumen wajib: ``ask_ok('Do you really want to quit?')``"
 
-#: ../../tutorial/controlflow.rst:390
+#: ../../tutorial/controlflow.rst:391
 msgid ""
 "giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', "
 "2)``"
@@ -487,7 +482,7 @@ msgstr ""
 "memberikan salah satu argumen opsional: ``ask_ok('OK to overwrite the "
 "file?', 2)``"
 
-#: ../../tutorial/controlflow.rst:392
+#: ../../tutorial/controlflow.rst:393
 msgid ""
 "or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come"
 " on, only yes or no!')``"
@@ -495,7 +490,7 @@ msgstr ""
 "atau bahkan memberikan semua argumen: ``ask_ok('OK to overwrite the file?', "
 "2, 'Come on, only yes or no!')``"
 
-#: ../../tutorial/controlflow.rst:395
+#: ../../tutorial/controlflow.rst:396
 msgid ""
 "This example also introduces the :keyword:`in` keyword. This tests whether "
 "or not a sequence contains a certain value."
@@ -503,7 +498,7 @@ msgstr ""
 "Contoh ini juga memperkenalkan kata kunci :keyword:`in`. Ini menguji apakah "
 "suatu urutan berisi nilai tertentu atau tidak."
 
-#: ../../tutorial/controlflow.rst:398
+#: ../../tutorial/controlflow.rst:399
 msgid ""
 "The default values are evaluated at the point of function definition in the "
 "*defining* scope, so that ::"
@@ -511,11 +506,11 @@ msgstr ""
 "Nilai bawaan dievaluasi pada titik definisi fungsi dalam lingkup *defining*,"
 " sehingga::"
 
-#: ../../tutorial/controlflow.rst:409
+#: ../../tutorial/controlflow.rst:410
 msgid "will print ``5``."
 msgstr "akan mencetak ``5``."
 
-#: ../../tutorial/controlflow.rst:411
+#: ../../tutorial/controlflow.rst:412
 msgid ""
 "**Important warning:**  The default value is evaluated only once. This makes"
 " a difference when the default is a mutable object such as a list, "
@@ -528,11 +523,11 @@ msgstr ""
 "Misalnya, fungsi berikut mengakumulasi argumen yang diteruskan pada "
 "panggilan berikutnya::"
 
-#: ../../tutorial/controlflow.rst:424
+#: ../../tutorial/controlflow.rst:425
 msgid "This will print ::"
 msgstr "Ini akan mencetak::"
 
-#: ../../tutorial/controlflow.rst:430
+#: ../../tutorial/controlflow.rst:431
 msgid ""
 "If you don't want the default to be shared between subsequent calls, you can"
 " write the function like this instead::"
@@ -540,11 +535,11 @@ msgstr ""
 "Jika Anda tidak ingin bawaan dibagi dengan panggilan berikutnya, Anda dapat "
 "menulis fungsi seperti ini sebagai gantinya:"
 
-#: ../../tutorial/controlflow.rst:443
+#: ../../tutorial/controlflow.rst:444
 msgid "Keyword Arguments"
 msgstr "Argumen Kata Kunci *Keyword Arguments*"
 
-#: ../../tutorial/controlflow.rst:445
+#: ../../tutorial/controlflow.rst:446
 msgid ""
 "Functions can also be called using :term:`keyword arguments <keyword "
 "argument>` of the form ``kwarg=value``.  For instance, the following "
@@ -553,7 +548,7 @@ msgstr ""
 "Fungsi juga dapat dipanggil menggunakan :term:`keyword argument <keyword "
 "argument>` dari bentuk ``kwarg=value``. Misalnya, fungsi berikut::"
 
-#: ../../tutorial/controlflow.rst:454
+#: ../../tutorial/controlflow.rst:455
 msgid ""
 "accepts one required argument (``voltage``) and three optional arguments "
 "(``state``, ``action``, and ``type``).  This function can be called in any "
@@ -563,11 +558,11 @@ msgstr ""
 "opsional (``state``, ``action``, dan ``type``). Fungsi ini dapat dipanggil "
 "dengan salah satu cara berikut::"
 
-#: ../../tutorial/controlflow.rst:465
+#: ../../tutorial/controlflow.rst:466
 msgid "but all the following calls would be invalid::"
 msgstr "tetapi semua pemanggilan berikut ini tidak valid::"
 
-#: ../../tutorial/controlflow.rst:472
+#: ../../tutorial/controlflow.rst:473
 msgid ""
 "In a function call, keyword arguments must follow positional arguments. All "
 "the keyword arguments passed must match one of the arguments accepted by the"
@@ -585,7 +580,7 @@ msgstr ""
 "``parrot(voltage=1000)`` juga valid). Tidak ada argumen yang dapat menerima "
 "nilai lebih dari sekali. Berikut ini contoh yang gagal karena batasan ini::"
 
-#: ../../tutorial/controlflow.rst:488
+#: ../../tutorial/controlflow.rst:489
 msgid ""
 "When a final formal parameter of the form ``**name`` is present, it receives"
 " a dictionary (see :ref:`typesmapping`) containing all keyword arguments "
@@ -604,15 +599,15 @@ msgstr ""
 "(``*name`` harus ada sebelum ``**name``.) Misalnya, jika kita mendefinisikan"
 " fungsi seperti ini::"
 
-#: ../../tutorial/controlflow.rst:505
+#: ../../tutorial/controlflow.rst:506
 msgid "It could be called like this::"
 msgstr "Ini bisa disebut seperti ini::"
 
-#: ../../tutorial/controlflow.rst:513
+#: ../../tutorial/controlflow.rst:514
 msgid "and of course it would print:"
 msgstr "dan tentu saja itu akan mencetak:"
 
-#: ../../tutorial/controlflow.rst:526
+#: ../../tutorial/controlflow.rst:527
 msgid ""
 "Note that the order in which the keyword arguments are printed is guaranteed"
 " to match the order in which they were provided in the function call."
@@ -620,11 +615,11 @@ msgstr ""
 "Perhatikan bahwa bagaimana urutan argumen kata kunci dicetak telah dijamin "
 "sesuai dengan urutan yang disediakan dalam pemanggilan fungsi."
 
-#: ../../tutorial/controlflow.rst:530
+#: ../../tutorial/controlflow.rst:531
 msgid "Special parameters"
 msgstr "Parameter spesial"
 
-#: ../../tutorial/controlflow.rst:532
+#: ../../tutorial/controlflow.rst:533
 msgid ""
 "By default, arguments may be passed to a Python function either by position "
 "or explicitly by keyword. For readability and performance, it makes sense to"
@@ -638,11 +633,11 @@ msgstr ""
 " perlu melihat definisi fungsi untuk menentukan apakah item dilewatkan "
 "secara posisi saja, posisi atau kata kunci, atau kata kunci saja."
 
-#: ../../tutorial/controlflow.rst:538
+#: ../../tutorial/controlflow.rst:539
 msgid "A function definition may look like:"
 msgstr "Definisi fungsi mungkin terlihat seperti:"
 
-#: ../../tutorial/controlflow.rst:549
+#: ../../tutorial/controlflow.rst:550
 msgid ""
 "where ``/`` and ``*`` are optional. If used, these symbols indicate the kind"
 " of parameter by how the arguments may be passed to the function: "
@@ -654,11 +649,11 @@ msgstr ""
 "posisi-saja, posisi-atau-kata kunci, dan kata kunci-saja. Parameter kata "
 "kunci juga disebut sebagai parameter bernama."
 
-#: ../../tutorial/controlflow.rst:556
+#: ../../tutorial/controlflow.rst:557
 msgid "Positional-or-Keyword Arguments"
 msgstr "Argumen Posisi-atau-Kata Kunci"
 
-#: ../../tutorial/controlflow.rst:558
+#: ../../tutorial/controlflow.rst:559
 msgid ""
 "If ``/`` and ``*`` are not present in the function definition, arguments may"
 " be passed to a function by position or by keyword."
@@ -666,11 +661,11 @@ msgstr ""
 "Jika ``/`` dan ``*`` tidak ada dalam definisi fungsi, argumen dapat "
 "diteruskan ke fungsi dengan posisi atau kata kunci."
 
-#: ../../tutorial/controlflow.rst:563
+#: ../../tutorial/controlflow.rst:564
 msgid "Positional-Only Parameters"
 msgstr "Parameter Posisi-saja"
 
-#: ../../tutorial/controlflow.rst:565
+#: ../../tutorial/controlflow.rst:566
 msgid ""
 "Looking at this in a bit more detail, it is possible to mark certain "
 "parameters as *positional-only*. If *positional-only*, the parameters' order"
@@ -687,7 +682,7 @@ msgstr ""
 "secara logis memisahkan parameter posisi-saja dari parameter lainnya. Jika "
 "tidak ada ``/`` dalam definisi fungsi, tidak ada parameter posisi-saja."
 
-#: ../../tutorial/controlflow.rst:573
+#: ../../tutorial/controlflow.rst:574
 msgid ""
 "Parameters following the ``/`` may be *positional-or-keyword* or *keyword-"
 "only*."
@@ -695,11 +690,11 @@ msgstr ""
 "Parameter yang mengikuti ``/`` dapat berupa *positional-or-keyword* atau "
 "*keyword-only*."
 
-#: ../../tutorial/controlflow.rst:577
+#: ../../tutorial/controlflow.rst:578
 msgid "Keyword-Only Arguments"
 msgstr "Argumen Kata Kunci-saja"
 
-#: ../../tutorial/controlflow.rst:579
+#: ../../tutorial/controlflow.rst:580
 msgid ""
 "To mark parameters as *keyword-only*, indicating the parameters must be "
 "passed by keyword argument, place an ``*`` in the arguments list just before"
@@ -709,11 +704,11 @@ msgstr ""
 "harus dilewatkan dengan argumen kata kunci, tempatkan ``*`` dalam daftar "
 "argumen tepat sebelum parameter *keyword-only*."
 
-#: ../../tutorial/controlflow.rst:585
+#: ../../tutorial/controlflow.rst:586
 msgid "Function Examples"
 msgstr "Contoh Fungsi"
 
-#: ../../tutorial/controlflow.rst:587
+#: ../../tutorial/controlflow.rst:588
 msgid ""
 "Consider the following example function definitions paying close attention "
 "to the markers ``/`` and ``*``::"
@@ -721,7 +716,7 @@ msgstr ""
 "Perhatikan definisi fungsi contoh berikut dengan memperhatikan marker ``/`` "
 "dan ``*``::"
 
-#: ../../tutorial/controlflow.rst:603
+#: ../../tutorial/controlflow.rst:604
 msgid ""
 "The first function definition, ``standard_arg``, the most familiar form, "
 "places no restrictions on the calling convention and arguments may be passed"
@@ -731,7 +726,7 @@ msgstr ""
 "menempatkan batasan pada konvensi pemanggilan dan argumen dapat dilewatkan "
 "dengan posisi atau kata kunci::"
 
-#: ../../tutorial/controlflow.rst:613
+#: ../../tutorial/controlflow.rst:614
 msgid ""
 "The second function ``pos_only_arg`` is restricted to only use positional "
 "parameters as there is a ``/`` in the function definition::"
@@ -739,7 +734,7 @@ msgstr ""
 "Fungsi kedua ``pos_only_arg`` dibatasi hanya menggunakan parameter posisi "
 "karena ada ``/`` dalam definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:624
+#: ../../tutorial/controlflow.rst:625
 msgid ""
 "The third function ``kwd_only_args`` only allows keyword arguments as "
 "indicated by a ``*`` in the function definition::"
@@ -747,7 +742,7 @@ msgstr ""
 "Fungsi ketiga ``kwd_only_args`` hanya memungkinkan argumen kata kunci "
 "*keyword argument* seperti ditunjukkan oleh ``*`` dalam definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:635
+#: ../../tutorial/controlflow.rst:636
 msgid ""
 "And the last uses all three calling conventions in the same function "
 "definition::"
@@ -755,7 +750,7 @@ msgstr ""
 "Dan yang terakhir menggunakan ketiga konvensi pemanggilan dalam definisi "
 "fungsi yang sama::"
 
-#: ../../tutorial/controlflow.rst:655
+#: ../../tutorial/controlflow.rst:656
 msgid ""
 "Finally, consider this function definition which has a potential collision "
 "between the positional argument ``name``  and ``**kwds`` which has ``name`` "
@@ -765,7 +760,7 @@ msgstr ""
 "antara argumen posisi ``name`` dan ``**kwds`` yang memiliki ``name`` sebagai"
 " kunci::"
 
-#: ../../tutorial/controlflow.rst:660
+#: ../../tutorial/controlflow.rst:661
 msgid ""
 "There is no possible call that will make it return ``True`` as the keyword "
 "``'name'`` will always bind to the first parameter. For example::"
@@ -774,7 +769,7 @@ msgstr ""
 "dalam ``True'' karena kata kunci `` 'nama' 'akan selalu terikat ke parameter"
 " pertama. Sebagai contoh::"
 
-#: ../../tutorial/controlflow.rst:669
+#: ../../tutorial/controlflow.rst:670
 msgid ""
 "But using ``/`` (positional only arguments), it is possible since it allows "
 "``name`` as a positional argument and ``'name'`` as a key in the keyword "
@@ -784,7 +779,7 @@ msgstr ""
 "memungkinkan ``name`` sebagai argumen posisi dan ``'name'`` sebagai kunci "
 "dalam argumen kata kunci *keyword argument*::"
 
-#: ../../tutorial/controlflow.rst:676
+#: ../../tutorial/controlflow.rst:677
 msgid ""
 "In other words, the names of positional-only parameters can be used in "
 "``**kwds`` without ambiguity."
@@ -792,11 +787,11 @@ msgstr ""
 "Dengan kata lain, nama-nama parameter posisi-saja dapat digunakan dalam "
 "``**kwds`` tanpa ambiguitas."
 
-#: ../../tutorial/controlflow.rst:681
+#: ../../tutorial/controlflow.rst:682
 msgid "Recap"
 msgstr "Rekap"
 
-#: ../../tutorial/controlflow.rst:683
+#: ../../tutorial/controlflow.rst:684
 msgid ""
 "The use case will determine which parameters to use in the function "
 "definition::"
@@ -804,11 +799,11 @@ msgstr ""
 "Contoh kasus dimana akan menentukan parameter mana yang akan digunakan dalam"
 " definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:687
+#: ../../tutorial/controlflow.rst:688
 msgid "As guidance:"
 msgstr "Sebagai pedoman:"
 
-#: ../../tutorial/controlflow.rst:689
+#: ../../tutorial/controlflow.rst:690
 msgid ""
 "Use positional-only if you want the name of the parameters to not be "
 "available to the user. This is useful when parameter names have no real "
@@ -822,7 +817,7 @@ msgstr ""
 "perlu mengambil beberapa parameter posisi dan kata kunci bergantian "
 "*arbitrary*."
 
-#: ../../tutorial/controlflow.rst:694
+#: ../../tutorial/controlflow.rst:695
 msgid ""
 "Use keyword-only when names have meaning and the function definition is more"
 " understandable by being explicit with names or you want to prevent users "
@@ -832,7 +827,7 @@ msgstr ""
 " mudah dipahami dengan secara eksplisit menggunakan nama atau Anda ingin "
 "mencegah pengguna mengandalkan posisi argumen yang dikirimkan."
 
-#: ../../tutorial/controlflow.rst:697
+#: ../../tutorial/controlflow.rst:698
 msgid ""
 "For an API, use positional-only to prevent breaking API changes if the "
 "parameter's name is modified in the future."
@@ -840,11 +835,11 @@ msgstr ""
 "Untuk API, gunakan posisi-saja untuk mencegah perubahan yang merusak dari "
 "API jika nama parameter diubah di masa mendatang."
 
-#: ../../tutorial/controlflow.rst:703
+#: ../../tutorial/controlflow.rst:704
 msgid "Arbitrary Argument Lists"
 msgstr "Daftar Argumen Berubah-ubah *Arbitrary*"
 
-#: ../../tutorial/controlflow.rst:708
+#: ../../tutorial/controlflow.rst:709
 msgid ""
 "Finally, the least frequently used option is to specify that a function can "
 "be called with an arbitrary number of arguments.  These arguments will be "
@@ -857,7 +852,7 @@ msgstr ""
 "Sebelum jumlah variabel argumen, nol atau lebih argumen normal dapat muncul."
 " ::"
 
-#: ../../tutorial/controlflow.rst:717
+#: ../../tutorial/controlflow.rst:718
 msgid ""
 "Normally, these ``variadic`` arguments will be last in the list of formal "
 "parameters, because they scoop up all remaining input arguments that are "
@@ -872,11 +867,11 @@ msgstr ""
 "parameter itu hanya dapat digunakan sebagai kata kunci alih-alih argumen "
 "posisi. ::"
 
-#: ../../tutorial/controlflow.rst:734
+#: ../../tutorial/controlflow.rst:735
 msgid "Unpacking Argument Lists"
 msgstr "Pembukaan Paket *Unpacking* Daftar Argumen"
 
-#: ../../tutorial/controlflow.rst:736
+#: ../../tutorial/controlflow.rst:737
 msgid ""
 "The reverse situation occurs when the arguments are already in a list or "
 "tuple but need to be unpacked for a function call requiring separate "
@@ -892,7 +887,7 @@ msgstr ""
 " terpisah, tulis fungsi panggilan dengan operator\\-``*`` untuk membongkar "
 "argumen dari daftar *list* atau tuple::"
 
-#: ../../tutorial/controlflow.rst:752
+#: ../../tutorial/controlflow.rst:753
 msgid ""
 "In the same fashion, dictionaries can deliver keyword arguments with the "
 "``**``\\ -operator::"
@@ -900,11 +895,11 @@ msgstr ""
 "Dengan cara yang sama, kamus dapat mengirimkan argumen kata kunci dengan "
 "operator\\-``**``::"
 
-#: ../../tutorial/controlflow.rst:768
+#: ../../tutorial/controlflow.rst:769
 msgid "Lambda Expressions"
 msgstr "Ekspresi Lambda"
 
-#: ../../tutorial/controlflow.rst:770
+#: ../../tutorial/controlflow.rst:771
 msgid ""
 "Small anonymous functions can be created with the :keyword:`lambda` keyword."
 " This function returns the sum of its two arguments: ``lambda a, b: a+b``. "
@@ -921,7 +916,7 @@ msgstr ""
 " sintaksis untuk definisi fungsi normal. Seperti definisi fungsi bersarang, "
 "fungsi lambda dapat mereferensikan variabel dari cakupan yang mengandung ::"
 
-#: ../../tutorial/controlflow.rst:787
+#: ../../tutorial/controlflow.rst:788
 msgid ""
 "The above example uses a lambda expression to return a function.  Another "
 "use is to pass a small function as an argument::"
@@ -929,11 +924,11 @@ msgstr ""
 "Contoh di atas menggunakan ekspresi lambda untuk mengembalikan fungsi. "
 "Penggunaan lain adalah untuk melewatkan fungsi kecil sebagai argumen::"
 
-#: ../../tutorial/controlflow.rst:799
+#: ../../tutorial/controlflow.rst:800
 msgid "Documentation Strings"
 msgstr "String Dokumentasi"
 
-#: ../../tutorial/controlflow.rst:806
+#: ../../tutorial/controlflow.rst:807
 msgid ""
 "Here are some conventions about the content and formatting of documentation "
 "strings."
@@ -941,7 +936,7 @@ msgstr ""
 "Berikut adalah beberapa konvensi tentang konten dan format string "
 "dokumentasi."
 
-#: ../../tutorial/controlflow.rst:809
+#: ../../tutorial/controlflow.rst:810
 msgid ""
 "The first line should always be a short, concise summary of the object's "
 "purpose.  For brevity, it should not explicitly state the object's name or "
@@ -955,7 +950,7 @@ msgstr ""
 "tersebut merupakan kata kerja yang menggambarkan operasi fungsi). Baris ini "
 "harus dimulai dengan huruf kapital dan diakhiri dengan titik."
 
-#: ../../tutorial/controlflow.rst:815
+#: ../../tutorial/controlflow.rst:816
 msgid ""
 "If there are more lines in the documentation string, the second line should "
 "be blank, visually separating the summary from the rest of the description."
@@ -967,7 +962,7 @@ msgstr ""
 "berikut harus satu atau lebih paragraf yang menggambarkan konvensi "
 "pemanggilan objek, efek sampingnya, dll."
 
-#: ../../tutorial/controlflow.rst:820
+#: ../../tutorial/controlflow.rst:821
 msgid ""
 "The Python parser does not strip indentation from multi-line string literals"
 " in Python, so tools that process documentation have to strip indentation if"
@@ -994,15 +989,15 @@ msgstr ""
 "Kesetaraan spasi harus diuji setelah ekspansi tab (hingga 8 spasi, "
 "biasanya)."
 
-#: ../../tutorial/controlflow.rst:832
+#: ../../tutorial/controlflow.rst:833
 msgid "Here is an example of a multi-line docstring::"
 msgstr "Berikut adalah contoh dari multi-baris *docstring*::"
 
-#: ../../tutorial/controlflow.rst:850
+#: ../../tutorial/controlflow.rst:851
 msgid "Function Annotations"
 msgstr "Anotasi Fungsi"
 
-#: ../../tutorial/controlflow.rst:858
+#: ../../tutorial/controlflow.rst:859
 msgid ""
 ":ref:`Function annotations <function>` are completely optional metadata "
 "information about the types used by user-defined functions (see :pep:`3107` "
@@ -1012,7 +1007,7 @@ msgstr ""
 "opsional tentang jenis yang digunakan oleh fungsi yang ditentukan pengguna "
 "(lihat :pep:`3107` dan :pep:`484` untuk informasi lebih lanjut)."
 
-#: ../../tutorial/controlflow.rst:862
+#: ../../tutorial/controlflow.rst:863
 msgid ""
 ":term:`Annotations <function annotation>` are stored in the "
 ":attr:`__annotations__` attribute of the function as a dictionary and have "
@@ -1021,24 +1016,15 @@ msgid ""
 "evaluating to the value of the annotation.  Return annotations are defined "
 "by a literal ``->``, followed by an expression, between the parameter list "
 "and the colon denoting the end of the :keyword:`def` statement.  The "
-"following example has a positional argument, a keyword argument, and the "
+"following example has a required argument, an optional argument, and the "
 "return value annotated::"
 msgstr ""
-":term:`Annotations <function annotation>` disimpan dalam atribut "
-":attr:`__annotations__` dari fungsi sebagai kamus *dictionary* dan tidak "
-"berpengaruh pada bagian fungsi yang lain. Anotasi parameter didefinisikan "
-"oleh titik dua setelah nama parameter, diikuti oleh ekspresi yang "
-"mengevaluasi nilai anotasi. Anotasi pengembalian didefinisikan oleh literal "
-"``->``, diikuti oleh ekspresi, antara daftar parameter dan titik dua yang "
-"menunjukkan akhir dari pernyataan :keyword:`def`. Contoh berikut memiliki "
-"argumen posisi, argumen kata kunci *keyword argument*, dan nilai kembalian "
-"yang dianotasi ::"
 
-#: ../../tutorial/controlflow.rst:884
+#: ../../tutorial/controlflow.rst:885
 msgid "Intermezzo: Coding Style"
 msgstr "Intermezzo: Gaya *Coding*"
 
-#: ../../tutorial/controlflow.rst:889
+#: ../../tutorial/controlflow.rst:890
 msgid ""
 "Now that you are about to write longer, more complex pieces of Python, it is"
 " a good time to talk about *coding style*.  Most languages can be written "
@@ -1053,7 +1039,7 @@ msgstr ""
 "Memudahkan orang lain untuk membaca kode Anda selalu merupakan ide yang "
 "baik, dan mengadopsi gaya pengkodean yang bagus sangat membantu untuk itu."
 
-#: ../../tutorial/controlflow.rst:895
+#: ../../tutorial/controlflow.rst:896
 msgid ""
 "For Python, :pep:`8` has emerged as the style guide that most projects "
 "adhere to; it promotes a very readable and eye-pleasing coding style.  Every"
@@ -1066,11 +1052,11 @@ msgstr ""
 "beberapa bagian; di sini adalah poin paling penting yang ditunjukkan untuk "
 "Anda:"
 
-#: ../../tutorial/controlflow.rst:900
+#: ../../tutorial/controlflow.rst:901
 msgid "Use 4-space indentation, and no tabs."
 msgstr "Gunakan lekukan 4-spasi, dan tanpa tab."
 
-#: ../../tutorial/controlflow.rst:902
+#: ../../tutorial/controlflow.rst:903
 msgid ""
 "4 spaces are a good compromise between small indentation (allows greater "
 "nesting depth) and large indentation (easier to read).  Tabs introduce "
@@ -1080,11 +1066,11 @@ msgstr ""
 "kedalaman bersarang lebih besar) dan indentasi besar (lebih mudah dibaca). "
 "Tab menimbulkan kebingungan, dan sebaiknya ditinggalkan."
 
-#: ../../tutorial/controlflow.rst:906
+#: ../../tutorial/controlflow.rst:907
 msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr "Bungkus *wrap* garis agar tidak melebihi 79 karakter."
 
-#: ../../tutorial/controlflow.rst:908
+#: ../../tutorial/controlflow.rst:909
 msgid ""
 "This helps users with small displays and makes it possible to have several "
 "code files side-by-side on larger displays."
@@ -1092,7 +1078,7 @@ msgstr ""
 "Ini membantu pengguna dengan tampilan kecil dan memungkinkan untuk memiliki "
 "beberapa file kode berdampingan pada tampilan yang lebih besar."
 
-#: ../../tutorial/controlflow.rst:911
+#: ../../tutorial/controlflow.rst:912
 msgid ""
 "Use blank lines to separate functions and classes, and larger blocks of code"
 " inside functions."
@@ -1100,15 +1086,15 @@ msgstr ""
 "Gunakan baris kosong untuk memisahkan fungsi dan kelas, dan blok kode yang "
 "lebih besar di dalam fungsi."
 
-#: ../../tutorial/controlflow.rst:914
+#: ../../tutorial/controlflow.rst:915
 msgid "When possible, put comments on a line of their own."
 msgstr "Jika memungkinkan, berikan komentar pada baris terkait."
 
-#: ../../tutorial/controlflow.rst:916
+#: ../../tutorial/controlflow.rst:917
 msgid "Use docstrings."
 msgstr "Gunakan String Dokumentasi *docstrings*."
 
-#: ../../tutorial/controlflow.rst:918
+#: ../../tutorial/controlflow.rst:919
 msgid ""
 "Use spaces around operators and after commas, but not directly inside "
 "bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
@@ -1116,7 +1102,7 @@ msgstr ""
 "Gunakan spasi di sekitar operator dan setelah koma, tetapi tidak secara "
 "langsung di dalam konstruksi kurung *bracketing*: ``a = f(1, 2) + g(3, 4)``."
 
-#: ../../tutorial/controlflow.rst:921
+#: ../../tutorial/controlflow.rst:922
 msgid ""
 "Name your classes and functions consistently; the convention is to use "
 "``UpperCamelCase`` for classes and ``lowercase_with_underscores`` for "
@@ -1129,7 +1115,7 @@ msgstr ""
 " pertama (lihat :ref:`tut-firstclass` untuk lebih lanjut tentang kelas dan "
 "metode)."
 
-#: ../../tutorial/controlflow.rst:926
+#: ../../tutorial/controlflow.rst:927
 msgid ""
 "Don't use fancy encodings if your code is meant to be used in international "
 "environments.  Python's default, UTF-8, or even plain ASCII work best in any"
@@ -1139,7 +1125,7 @@ msgstr ""
 " untuk digunakan di lingkungan internasional. Default Python, UTF-8, atau "
 "bahkan ASCII biasa berfungsi paling baik dalam hal apa pun."
 
-#: ../../tutorial/controlflow.rst:930
+#: ../../tutorial/controlflow.rst:931
 msgid ""
 "Likewise, don't use non-ASCII characters in identifiers if there is only the"
 " slightest chance people speaking a different language will read or maintain"
@@ -1149,11 +1135,11 @@ msgstr ""
 " hanya ada sedikit kesempatan orang berbicara bahasa yang berbeda akan "
 "membaca atau merawat kode."
 
-#: ../../tutorial/controlflow.rst:936
+#: ../../tutorial/controlflow.rst:937
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../tutorial/controlflow.rst:937
+#: ../../tutorial/controlflow.rst:938
 msgid ""
 "Actually, *call by object reference* would be a better description, since if"
 " a mutable object is passed, the caller will see any changes the callee "

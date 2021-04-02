@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 03:48+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: 2017-02-16 17:49+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -458,12 +458,12 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:506
 msgid ""
-"Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set "
+"Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable "
 "concurrently and block until the condition specified by *return_when*."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:510
-msgid "The *aws* set must not be empty."
+msgid "The *aws* iterable must not be empty."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:512
@@ -558,10 +558,10 @@ msgstr ""
 
 #: ../../library/asyncio-task.rst:595
 msgid ""
-"Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set "
+"Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable "
 "concurrently.  Return an iterator of coroutines. Each coroutine returned can"
-" be awaited to get the earliest next result from the set of the remaining "
-"awaitables."
+" be awaited to get the earliest next result from the iterable of the "
+"remaining awaitables."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:600
@@ -581,7 +581,7 @@ msgstr ""
 #: ../../library/asyncio-task.rst:620
 msgid ""
 "Any \\*args and \\*\\*kwargs supplied for this function are directly passed "
-"to *func*. Also, the current :class:`contextvars.Context` is propogated, "
+"to *func*. Also, the current :class:`contextvars.Context` is propagated, "
 "allowing context variables from the event loop thread to be accessed in the "
 "separate thread."
 msgstr ""
