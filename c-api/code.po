@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
-# Septian Hari <septianhari@gmail.com>, 2019
+# LIQRGV <septianhari@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-26 12:16+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: 2017-02-16 17:34+0000\n"
-"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
+"Last-Translator: LIQRGV <septianhari@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:8
+#: ../../c-api/code.rst:8
 msgid "Code Objects"
 msgstr "Objek Kode"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:12
+#: ../../c-api/code.rst:12
 msgid ""
 "Code objects are a low-level detail of the CPython implementation. Each one "
 "represents a chunk of executable code that hasn't yet been bound into a "
@@ -36,7 +36,7 @@ msgstr ""
 "Masing-masing mewakili sekumpulan kode yang dapat dieksekusi dimana belum "
 "terikat ke fungsi."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:18
+#: ../../c-api/code.rst:18
 msgid ""
 "The C structure of the objects used to describe code objects.  The fields of"
 " this type are subject to change at any time."
@@ -44,7 +44,7 @@ msgstr ""
 "Struktur C dari objek yang digunakan untuk menggambarkan objek kode. Jenis "
 "dari tipe ini dapat berubah sewaktu-waktu."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:24
+#: ../../c-api/code.rst:24
 msgid ""
 "This is an instance of :c:type:`PyTypeObject` representing the Python "
 ":class:`code` type."
@@ -52,15 +52,17 @@ msgstr ""
 "Ini adalah contoh dari :c:type:`PyTypeObject` mewakili tipe Python "
 ":class:`code`."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:30
-msgid "Return true if *co* is a :class:`code` object."
-msgstr "Mengembalikan nilai true jika *co* adalah objek :class:`code`."
+#: ../../c-api/code.rst:30
+msgid ""
+"Return true if *co* is a :class:`code` object.  This function always "
+"succeeds."
+msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:34
+#: ../../c-api/code.rst:34
 msgid "Return the number of free variables in *co*."
 msgstr "Mengembalikan jumlah variabel bebas dalam *co*."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:38
+#: ../../c-api/code.rst:38
 msgid ""
 "Return a new code object.  If you need a dummy code object to create a "
 "frame, use :c:func:`PyCode_NewEmpty` instead.  Calling :c:func:`PyCode_New` "
@@ -72,7 +74,7 @@ msgstr ""
 "Memanggil :c:func:`PyCode_New` secara langsung dapat mengikat Anda ke versi "
 "Python yang tepat karena seringnya perubahan definisi bytecode."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:45
+#: ../../c-api/code.rst:45
 msgid ""
 "Similar to :c:func:`PyCode_New`, but with an extra \"posonlyargcount\" for "
 "positional-only arguments."
@@ -80,7 +82,7 @@ msgstr ""
 "Mirip dengan :c:func:`PyCode_New`, namun dengan tambahan \"posonlyargcount\""
 " untuk argumen dengan posisi  ."
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:51
+#: ../../c-api/code.rst:51
 msgid ""
 "Return a new empty code object with the specified filename, function name, "
 "and first line number.  It is illegal to :func:`exec` or :func:`eval` the "

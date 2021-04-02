@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Faiq Zakki <221709674@stis.ac.id>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
 "PO-Revision-Date: 2017-02-16 23:04+0000\n"
+"Last-Translator: Faiq Zakki <221709674@stis.ac.id>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../library/copy.rst:2
 msgid ":mod:`copy` --- Shallow and deep copy operations"
-msgstr ""
+msgstr ":mod:`copy` --- Operasi shallow copy dan deep copy"
 
 #: ../../library/copy.rst:7
 msgid "**Source code:** :source:`Lib/copy.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/copy.py`"
 
 #: ../../library/copy.rst:11
 msgid ""
@@ -33,22 +37,28 @@ msgid ""
 " changing the other. This module provides generic shallow and deep copy "
 "operations (explained below)."
 msgstr ""
+"Pernyataan penetapan dalam Python tidak menyalin objek, mereka membuat "
+"ikatan antara target dengan sebuah objek. Untuk collections yang dapat "
+"diubah atau memiliki item-item yang dapat diubah, sebuah penyalinan "
+"terkadang dibutuhkan sehingga seseorang dapat mengubah salinan tanpa "
+"mengubah yang lainnya. Modul ini menyediakan operasi salinan dangkal dan "
+"salinan dalam (dijelaskan dibawah ini)."
 
 #: ../../library/copy.rst:18
 msgid "Interface summary:"
-msgstr ""
+msgstr "Ringkasan antarmuka:"
 
 #: ../../library/copy.rst:22
 msgid "Return a shallow copy of *x*."
-msgstr ""
+msgstr "Mengembalikan shallow copy dari *x*."
 
 #: ../../library/copy.rst:27
 msgid "Return a deep copy of *x*."
-msgstr ""
+msgstr "Mengembalikan deep copy dari *x*."
 
 #: ../../library/copy.rst:32
 msgid "Raised for module specific errors."
-msgstr ""
+msgstr "Di angkat untuk error spesifik dari modul."
 
 #: ../../library/copy.rst:36
 msgid ""
@@ -56,52 +66,71 @@ msgid ""
 "compound objects (objects that contain other objects, like lists or class "
 "instances):"
 msgstr ""
+"Perbedaan antara shallow copy dan deep copy hanya relevan untuk objek "
+"majemuk (objek yang berisi objek lainnya, seperti list atau kelas):"
 
 #: ../../library/copy.rst:39
 msgid ""
 "A *shallow copy* constructs a new compound object and then (to the extent "
 "possible) inserts *references* into it to the objects found in the original."
 msgstr ""
+"Sebuah *shallow copy* membangun sebuah objek majemuk baru dan kemudian "
+"(sejauh mungkin) menyisipkan *referensi* ke dalamnya ke objek yang ditemukan"
+" di aslinya."
 
 #: ../../library/copy.rst:42
 msgid ""
 "A *deep copy* constructs a new compound object and then, recursively, "
 "inserts *copies* into it of the objects found in the original."
 msgstr ""
+"Sebuah *deep copy* membangun objek majemuk baruk dan kemudian, secara "
+"rekursif, menyisipkan *salinan* ke dalamnya ke objek yang ditemukan di "
+"aslinya."
 
 #: ../../library/copy.rst:45
 msgid ""
 "Two problems often exist with deep copy operations that don't exist with "
 "shallow copy operations:"
 msgstr ""
+"Dua masalah yang sering muncul pada operasi deep copy yang tidak muncul pada"
+" operasi shallow copy:"
 
 #: ../../library/copy.rst:48
 msgid ""
 "Recursive objects (compound objects that, directly or indirectly, contain a "
 "reference to themselves) may cause a recursive loop."
 msgstr ""
+"Objek rekursif (objek majemuk yang secara langsung atau tidak langsung "
+"berisi sebuah referensi ke dirinya sendiri) mungkin menyebabkan sebuah "
+"perulangan rekursif."
 
 #: ../../library/copy.rst:51
 msgid ""
 "Because deep copy copies everything it may copy too much, such as data which"
 " is intended to be shared between copies."
 msgstr ""
+"Karena deep copy menyalin segalanya sehingga mungkin menyalin terlalu "
+"banyak, seperti data yang dimaksudkan untuk dibagikan kepada salinan lain."
 
 #: ../../library/copy.rst:54
 msgid "The :func:`deepcopy` function avoids these problems by:"
-msgstr ""
+msgstr "Fungsi :func:`deepcopy` menghindari masalah diatas dengan:"
 
 #: ../../library/copy.rst:56
 msgid ""
 "keeping a ``memo`` dictionary of objects already copied during the current "
 "copying pass; and"
 msgstr ""
+"menyimpan sebuah ``memo`` kamus dari objek yang sudah disalin selama "
+"penyalinan saat ini; dan"
 
 #: ../../library/copy.rst:59
 msgid ""
 "letting user-defined classes override the copying operation or the set of "
 "components copied."
 msgstr ""
+"membiarkan kelas-kelas yang didefinisikan oleh user menimpa operasi "
+"penyalinan atau kumpulan komponen yang disalin."
 
 #: ../../library/copy.rst:62
 msgid ""
@@ -111,6 +140,11 @@ msgid ""
 " unchanged; this is compatible with the way these are treated by the "
 ":mod:`pickle` module."
 msgstr ""
+"Modul ini tidak menyalin tipe-tipe seperti modul, metode, stack trace, stack"
+" frame, file, socket, window, array, atau tipe-tipe lainnya yang serupa. "
+"Modul ini dapat menyalin fungsi dan kelas (secara shallow dan deep), dengan "
+"mengembalikan objek asli tanpa perubahan; hal ini kompatibel dengan cara ini"
+" diperlakukan oleh modul :mod:`pickle`."
 
 #: ../../library/copy.rst:67
 msgid ""
@@ -118,6 +152,9 @@ msgid ""
 "lists by assigning a slice of the entire list, for example, ``copied_list = "
 "original_list[:]``."
 msgstr ""
+"Salinan dangkal dari kamus dapat di buat menggunakan :meth:`dict.copy`, dan "
+"list dengan menetapkan potongan dari keseluruhan list, sebagai contoh, "
+"``copied_list = original_list[:]``."
 
 #: ../../library/copy.rst:73
 msgid ""
@@ -126,6 +163,11 @@ msgid ""
 "information on these methods.  In fact, the :mod:`copy` module uses the "
 "registered pickle functions from the :mod:`copyreg` module."
 msgstr ""
+"Kelas-kelas dapat menggunakan antarmuka yang sama untuk mengontrol "
+"penyalinan yang mereka gunakan untuk mengontrol pengawetan. Lihat deskripsi "
+"dari modul :mod:`pickle` untuk informasi dari metode ini. Faktanya, modul "
+":mod:`copy` menggunakan fungsi pengawetan yang terdaftar dari modul "
+":mod:`copyreg`."
 
 #: ../../library/copy.rst:82
 msgid ""
@@ -138,13 +180,24 @@ msgid ""
 ":func:`deepcopy` function with the component as first argument and the memo "
 "dictionary as second argument."
 msgstr ""
+"Agar sebuah kelas dapat menentukan implementasi salinannya sendiri, ia dapat"
+" menentukan metode spesial :meth:`__copy__` dan :meth:`__deepcopy__`. Yang "
+"pertama dipanggil untuk mengimplementasikan operasi shallow copy; tanpa "
+"argument tambahan yang diberikan. Yang terakhir dipanggil untuk "
+"mengimplementasikan operasi deep copy; dengan memberikan satu argumen, yaitu"
+" kamus ``memo``. Jika implementasi :meth:`__deepcopy__` perlu untuk membuat "
+"deep copy dari sebuah komponen, harus memanggil fungsi :func:`deepcopy` "
+"dengan komponen sebagai argumen pertama dan kamus memo sebagai argumen "
+"kedua."
 
 #: ../../library/copy.rst:94
 msgid "Module :mod:`pickle`"
-msgstr ""
+msgstr "Modul :mod:`pickle`"
 
 #: ../../library/copy.rst:94
 msgid ""
 "Discussion of the special methods used to support object state retrieval and"
 " restoration."
 msgstr ""
+"Diskusi tentang metode khusus yang digunakan untuk mendukung pengambilan dan"
+" pemulihan status objek."
