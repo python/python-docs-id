@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-04-30 06:13+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
 "Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
@@ -357,8 +357,8 @@ msgstr ""
 
 #: ../../tutorial/errors.rst:275
 msgid ""
-"The :keyword:`raise` statement allows an optional :keyword:`from` which "
-"enables chaining exceptions. For example::"
+"The :keyword:`raise` statement allows an optional :keyword:`from<raise>` "
+"which enables chaining exceptions. For example::"
 msgstr ""
 
 #: ../../tutorial/errors.rst:281
