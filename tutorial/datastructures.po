@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
 # Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-04 05:56+0000\n"
 "PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -718,6 +718,11 @@ msgid ""
 " whether two objects are really the same object.  All comparison operators "
 "have the same priority, which is lower than that of all numerical operators."
 msgstr ""
+"Operator perbandingan ``in`` dan ``not in`` memeriksa apakah suatu nilai "
+"muncul (tidak muncul) di sebuah urutan atau sequence. Operator ``is`` dan "
+"``is not`` membandingkan apakah dua objek benar-benar objek yang sama. Semua"
+" operator pembanding memiliki prioritas yang sama, yang lebih rendah "
+"daripada semua operator numerik."
 
 #: ../../tutorial/datastructures.rst:667
 msgid ""
