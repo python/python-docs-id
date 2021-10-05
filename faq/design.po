@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 05:43+0000\n"
-"PO-Revision-Date: 2021-10-01 15:38+0700\n"
+"PO-Revision-Date: 2021-10-05 14:53+0700\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -61,6 +61,10 @@ msgid ""
 "will sometimes stare at it a long time wondering as to why ``y`` is being "
 "decremented even for ``x > y``."
 msgstr ""
+"Pernyataan ``x++`` akan dieksekusi jika kondisi true, namun indentasinya "
+"bisa jadi membingungkan. Bahkan seorang pemrogram C yang berpengalaman "
+"sekalipun akan melihatnya dalam waktu yang tidak sebentar, mempertanyakan "
+"mengapa ``y`` dikurangi bahkan hanya untuk ``x > y``"
 
 #: ../../faq/design.rst:31
 msgid ""
@@ -70,6 +74,11 @@ msgid ""
 "is normal to feel somewhat uneasy when reading (or being required to write) "
 "in a different one."
 msgstr ""
+"Karena tidak memiliki kurung buka/tutup, Python berisiko lebih kecil "
+"terhadap konflik coding-style. Pada C terdapat banyak cara untuk meletakkan "
+"kurung. Setelah terbiasa membaca dan menulis kode menggunakan gaya tertentu, "
+"menjadi normal saat merasa sulit membaca (atau harus menulis) dengan gaya "
+"yang berbeda."
 
 #: ../../faq/design.rst:38
 msgid ""
@@ -88,7 +97,7 @@ msgstr ""
 
 #: ../../faq/design.rst:50
 msgid "See the next question."
-msgstr ""
+msgstr "Lihat pertanyaan berikutnya."
 
 #: ../../faq/design.rst:54
 msgid "Why are floating-point calculations so inaccurate?"
@@ -879,7 +888,7 @@ msgstr ""
 
 #: ../../faq/design.rst:668
 msgid "In Python, such a construct would be ambiguous."
-msgstr ""
+msgstr "Dalam Python, construct tersebut akan menjadi ambigu."
 
 #: ../../faq/design.rst:670
 msgid ""
@@ -970,7 +979,7 @@ msgstr ""
 
 #: ../../faq/design.rst:748
 msgid "There are several reasons to allow this."
-msgstr ""
+msgstr "Terdapat beberapa alasan untuk mengizinkan ini."
 
 #: ../../faq/design.rst:750
 msgid ""
