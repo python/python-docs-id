@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# Ahmad Mustafid, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 17:31+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:47+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,18 +23,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../about.rst:3
-msgid "About these documents"
-msgstr "Tentang dokumen-dokumen ini"
+msgid "About this documentation"
+msgstr "Tentang Dokumentasi ini"
 
 #: ../../about.rst:6
 msgid ""
-"These documents are generated from `reStructuredText`_ sources by `Sphinx`_,"
-" a document processor specifically written for the Python documentation."
+"Python's documentation is generated from `reStructuredText`_ sources using "
+"`Sphinx`_, a documentation generator originally created for Python and now "
+"maintained as an independent project."
 msgstr ""
-"Dokumen-dokumen ini dihasilkan dari `reStructuredText`_ dengan `Sphinx`_, "
-"sebuah pemroses dokumen yang khusus ditulis untuk dokumentasi Python."
 
-#: ../../about.rst:15
+#: ../../about.rst:16
 msgid ""
 "Development of the documentation and its toolchain is an entirely volunteer "
 "effort, just like Python itself.  If you want to contribute, please take a "
@@ -45,38 +45,36 @@ msgstr ""
 "lihat halaman :ref:`reporting-bugs` untuk informasi cara melakukannya.  "
 "Relawan baru selalu diterima!"
 
-#: ../../about.rst:20
+#: ../../about.rst:21
 msgid "Many thanks go to:"
 msgstr "Terima kasih banyak untuk:"
 
-#: ../../about.rst:22
+#: ../../about.rst:23
 msgid ""
 "Fred L. Drake, Jr., the creator of the original Python documentation toolset"
-" and writer of much of the content;"
+" and author of much of the content;"
 msgstr ""
-"Fred L. Drake, Jr., pembuat awal kumpulan alat dokumentasi Python dan "
-"penulis banyak konten;"
+"Fred L. Drake, Jr., pencipta perangkat dokumentasi Python yang pertama dan "
+"penulis sebagian besar konten;"
 
-#: ../../about.rst:24
+#: ../../about.rst:25
 msgid ""
-"the `Docutils <http://docutils.sourceforge.net/>`_ project for creating "
+"the `Docutils <https://docutils.sourceforge.io/>`_ project for creating "
 "reStructuredText and the Docutils suite;"
 msgstr ""
-"`Docutils <http://docutils.sourceforge.net/>`_ proyek untuk membuat  "
-"reStructuredText dan Docutils suite;"
+"proyek `Docutils <https://docutils.sourceforge.io/>`_ untuk membuat "
+"reStructuredText dan paket Docutils;"
 
-#: ../../about.rst:26
+#: ../../about.rst:27
 msgid ""
-"Fredrik Lundh for his `Alternative Python Reference "
-"<http://effbot.org/zone/pyref.htm>`_ project from which Sphinx got many good"
-" ideas."
+"Fredrik Lundh for his Alternative Python Reference project from which Sphinx"
+" got many good ideas."
 msgstr ""
-"Fredrik Lundh untuk `Alternative Python Reference "
-"<http://effbot.org/zone/pyref.htm>`_ proyek dimana Sphinx mendapatkan banyak"
-" ide bagus."
+"Fredrik Lundh untuk proyek Referensi Python Alternatif darinya dimana Sphinx"
+" mendapatkan banyak ide bagus."
 
 #: ../../about.rst:32
-msgid "Contributors to the Python Documentation"
+msgid "Contributors to the Python documentation"
 msgstr "Kontributor untuk dokumentasi Python"
 
 #: ../../about.rst:34
