@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Iwan Setiawan <stwn@duniasemu.org>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Iwan Setiawan <stwn@duniasemu.org>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
-"PO-Revision-Date: 2017-02-16 23:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-29 13:04+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,11 +38,12 @@ msgstr "Guido van Rossum"
 msgid ""
 "This article explains the new features in Python 3.0, compared to 2.6. "
 "Python 3.0, also known as \"Python 3000\" or \"Py3K\", is the first ever "
-"*intentionally backwards incompatible* Python release.  There are more "
-"changes than in a typical release, and more that are important for all "
-"Python users.  Nevertheless, after digesting the changes, you'll find that "
-"Python really hasn't changed all that much -- by and large, we're mostly "
-"fixing well-known annoyances and warts, and removing a lot of old cruft."
+"*intentionally backwards incompatible* Python release. Python 3.0 was "
+"released on December 3, 2008. There are more changes than in a typical "
+"release, and more that are important for all Python users. Nevertheless, "
+"after digesting the changes, you'll find that Python really hasn't changed "
+"all that much -- by and large, we're mostly fixing well-known annoyances and"
+" warts, and removing a lot of old cruft."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:63
@@ -85,12 +86,38 @@ msgid ""
 "``print`` statement (:pep:`3105`).  Examples::"
 msgstr ""
 
+#: ../../whatsnew/3.0.rst:101
+msgid ""
+"Old: print \"The answer is\", 2*2\n"
+"New: print(\"The answer is\", 2*2)\n"
+"\n"
+"Old: print x,           # Trailing comma suppresses newline\n"
+"New: print(x, end=\" \")  # Appends a space instead of a newline\n"
+"\n"
+"Old: print              # Prints a newline\n"
+"New: print()            # You must call the function!\n"
+"\n"
+"Old: print >>sys.stderr, \"fatal error\"\n"
+"New: print(\"fatal error\", file=sys.stderr)\n"
+"\n"
+"Old: print (x, y)       # prints repr((x, y))\n"
+"New: print((x, y))      # Not the same as print(x, y)!"
+msgstr ""
+
 #: ../../whatsnew/3.0.rst:116
 msgid "You can also customize the separator between items, e.g.::"
 msgstr ""
 
+#: ../../whatsnew/3.0.rst:118
+msgid "print(\"There are <\", 2**32, \"> possibilities!\", sep=\"\")"
+msgstr ""
+
 #: ../../whatsnew/3.0.rst:120
 msgid "which produces:"
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:122
+msgid "There are <4294967296> possibilities!"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:126
@@ -137,8 +164,8 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:153
 msgid ""
-"Also, the :meth:`dict.iterkeys`, :meth:`dict.iteritems` and "
-":meth:`dict.itervalues` methods are no longer supported."
+"Also, the :meth:`!dict.iterkeys`, :meth:`!dict.iteritems` and "
+":meth:`!dict.itervalues` methods are no longer supported."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:156
@@ -164,7 +191,7 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:173
 msgid ""
-":func:`range` now behaves like :func:`xrange` used to behave, except it "
+":func:`range` now behaves like :func:`!xrange` used to behave, except it "
 "works with values of arbitrary size.  The latter no longer exists."
 msgstr ""
 
@@ -195,18 +222,19 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:195
 msgid ""
-":meth:`builtin.sorted` and :meth:`list.sort` no longer accept the *cmp* "
-"argument providing a comparison function.  Use the *key* argument instead. "
-"N.B. the *key* and *reverse* arguments are now \"keyword-only\"."
+":meth:`sorted` and :meth:`list.sort` no longer accept the *cmp* argument "
+"providing a comparison function.  Use the *key* argument instead. N.B. the "
+"*key* and *reverse* arguments are now \"keyword-only\"."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:200
 msgid ""
-"The :func:`cmp` function should be treated as gone, and the :meth:`__cmp__` "
-"special method is no longer supported.  Use :meth:`__lt__` for sorting, "
-":meth:`__eq__` with :meth:`__hash__`, and other rich comparisons as needed. "
-"(If you really need the :func:`cmp` functionality, you could use the "
-"expression ``(a > b) - (a < b)`` as the equivalent for ``cmp(a, b)``.)"
+"The :func:`!cmp` function should be treated as gone, and the "
+":meth:`!__cmp__` special method is no longer supported.  Use "
+":meth:`~object.__lt__` for sorting, :meth:`~object.__eq__` with "
+":meth:`~object.__hash__`, and other rich comparisons as needed. (If you "
+"really need the :func:`!cmp` functionality, you could use the expression "
+"``(a > b) - (a < b)`` as the equivalent for ``cmp(a, b)``.)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:207
@@ -215,9 +243,9 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:209
 msgid ""
-":pep:`237`: Essentially, :class:`long` renamed to :class:`int`. That is, "
+":pep:`237`: Essentially, :class:`!long` renamed to :class:`int`. That is, "
 "there is only one built-in integral type, named :class:`int`; but it behaves"
-" mostly like the old :class:`long` type."
+" mostly like the old :class:`!long` type."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:213
@@ -229,11 +257,11 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:217
 msgid ""
-"The :data:`sys.maxint` constant was removed, since there is no longer a "
+"The :data:`!sys.maxint` constant was removed, since there is no longer a "
 "limit to the value of integers.  However, :data:`sys.maxsize` can be used as"
 " an integer larger than any practical list or string index.  It conforms to "
 "the implementation's \"natural\" integer size and is typically the same as "
-":data:`sys.maxint` in previous releases on the same platform (assuming the "
+":data:`!sys.maxint` in previous releases on the same platform (assuming the "
 "same build options)."
 msgstr ""
 
@@ -278,7 +306,7 @@ msgid ""
 "uses Unicode, encodings or binary data most likely has to change.  The "
 "change is for the better, as in the 2.x world there were numerous bugs "
 "having to do with mixing encoded and unencoded text.  To be prepared in "
-"Python 2.x, start using :class:`unicode` for all unencoded text, and "
+"Python 2.x, start using :class:`!unicode` for all unencoded text, and "
 ":class:`str` for binary or encoded data only.  Then the ``2to3`` tool will "
 "do most of the work for you."
 msgstr ""
@@ -303,7 +331,8 @@ msgid ""
 "Like :class:`str`, the :class:`bytes` type is immutable.  There is a "
 "separate *mutable* type to hold buffered binary data, :class:`bytearray`.  "
 "Nearly all APIs that accept :class:`bytes` also accept :class:`bytearray`.  "
-"The mutable API is based on :class:`collections.MutableSequence`."
+"The mutable API is based on :class:`collections.MutableSequence "
+"<collections.abc.MutableSequence>`."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:274
@@ -318,10 +347,10 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:281
 msgid ""
-"The built-in :class:`basestring` abstract type was removed.  Use "
+"The built-in :class:`!basestring` abstract type was removed.  Use "
 ":class:`str` instead.  The :class:`str` and :class:`bytes` types don't have "
 "functionality enough in common to warrant a shared base class.  The ``2to3``"
-" tool (see below) replaces every occurrence of :class:`basestring` with "
+" tool (see below) replaces every occurrence of :class:`!basestring` with "
 ":class:`str`."
 msgstr ""
 
@@ -395,9 +424,9 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:340
 msgid ""
-"The :mod:`StringIO` and :mod:`cStringIO` modules are gone.  Instead, import "
-"the :mod:`io` module and use :class:`io.StringIO` or :class:`io.BytesIO` for"
-" text and data respectively."
+"The :mod:`!StringIO` and :mod:`!cStringIO` modules are gone.  Instead, "
+"import the :mod:`io` module and use :class:`io.StringIO` or "
+":class:`io.BytesIO` for text and data respectively."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:344
@@ -423,9 +452,9 @@ msgid ""
 ":pep:`3107`: Function argument and return value annotations.  This provides "
 "a standardized way of annotating a function's parameters and return value.  "
 "There are no semantics attached to such annotations except that they can be "
-"introspected at runtime using the :attr:`__annotations__` attribute.  The "
-"intent is to encourage experimentation through metaclasses, decorators or "
-"frameworks."
+"introspected at runtime using the :attr:`~object.__annotations__` attribute."
+"  The intent is to encourage experimentation through metaclasses, decorators"
+" or frameworks."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:363
@@ -458,6 +487,10 @@ msgid ""
 "``a, b, *rest = some_sequence``.  And even ``*rest, a = stuff``.  The "
 "``rest`` object is always a (possibly empty) list; the right-hand side may "
 "be any iterable.  Example::"
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:383
+msgid "(a, *rest, b) = range(5)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:385
@@ -529,13 +562,26 @@ msgstr ""
 msgid ":pep:`3115`: New Metaclass Syntax.  Instead of::"
 msgstr ""
 
+#: ../../whatsnew/3.0.rst:422
+msgid ""
+"class C:\n"
+"    __metaclass__ = M\n"
+"    ..."
+msgstr ""
+
 #: ../../whatsnew/3.0.rst:426
 msgid "you must now use::"
 msgstr ""
 
+#: ../../whatsnew/3.0.rst:428
+msgid ""
+"class C(metaclass=M):\n"
+"    ..."
+msgstr ""
+
 #: ../../whatsnew/3.0.rst:431
 msgid ""
-"The module-global :data:`__metaclass__` variable is no longer supported.  "
+"The module-global :data:`!__metaclass__` variable is no longer supported.  "
 "(It was a crutch to make it easier to default to new-style classes without "
 "deriving every class from :class:`object`.)"
 msgstr ""
@@ -680,15 +726,15 @@ msgid ""
 ":func:`io.open` and has additional keyword arguments *encoding*, *errors*, "
 "*newline* and *closefd*.  Also note that an invalid *mode* argument now "
 "raises :exc:`ValueError`, not :exc:`IOError`.  The binary file object "
-"underlying a text file object can be accessed as :attr:`f.buffer` (but "
+"underlying a text file object can be accessed as :attr:`!f.buffer` (but "
 "beware that the text object maintains a buffer of itself in order to speed "
 "up the encoding and decoding operations)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:529
 msgid ""
-":ref:`pep-3118`.  The old builtin :func:`buffer` is now really gone; the new"
-" builtin :func:`memoryview` provides (mostly) similar functionality."
+":ref:`pep-3118`.  The old builtin :func:`!buffer` is now really gone; the "
+"new builtin :func:`memoryview` provides (mostly) similar functionality."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:533
@@ -696,8 +742,9 @@ msgid ""
 ":ref:`pep-3119`.  The :mod:`abc` module and the ABCs defined in the "
 ":mod:`collections` module plays a somewhat more prominent role in the "
 "language now, and built-in collection types like :class:`dict` and "
-":class:`list` conform to the :class:`collections.MutableMapping` and "
-":class:`collections.MutableSequence` ABCs, respectively."
+":class:`list` conform to the :class:`collections.MutableMapping "
+"<collections.abc.MutableMapping>` and :class:`collections.MutableSequence "
+"<collections.abc.MutableSequence>` ABCs, respectively."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:539
@@ -730,9 +777,9 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:558
 msgid ""
-"Many old modules were removed.  Some, like :mod:`gopherlib` (no longer used)"
-" and :mod:`md5` (replaced by :mod:`hashlib`), were already deprecated by "
-":pep:`4`.  Others were removed as a result of the removal of support for "
+"Many old modules were removed.  Some, like :mod:`!gopherlib` (no longer "
+"used) and :mod:`!md5` (replaced by :mod:`hashlib`), were already deprecated "
+"by :pep:`4`.  Others were removed as a result of the removal of support for "
 "various platforms such as Irix, BeOS and Mac OS 9 (see :pep:`11`).  Some "
 "modules were also selected for removal in Python 3.0 due to lack of use or "
 "because a better replacement exists.  See :pep:`3108` for an exhaustive "
@@ -741,7 +788,7 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:566
 msgid ""
-"The :mod:`bsddb3` package was removed because its presence in the core "
+"The :mod:`!bsddb3` package was removed because its presence in the core "
 "standard library has proved over time to be a particular burden for the core"
 " developers due to testing instability and Berkeley DB's release schedule.  "
 "However, the package is alive and well, externally maintained at "
@@ -830,14 +877,14 @@ msgstr ""
 msgid ""
 "A common pattern in Python 2.x is to have one version of a module "
 "implemented in pure Python, with an optional accelerated version implemented"
-" as a C extension; for example, :mod:`pickle` and :mod:`cPickle`.  This "
+" as a C extension; for example, :mod:`pickle` and :mod:`!cPickle`.  This "
 "places the burden of importing the accelerated version and falling back on "
 "the pure Python version on each user of these modules.  In Python 3.0, the "
 "accelerated versions are considered implementation details of the pure "
 "Python versions. Users should always import the standard version, which "
 "attempts to import the accelerated version and falls back to the pure Python"
-" version.  The :mod:`pickle` / :mod:`cPickle` pair received this treatment."
-"  The :mod:`profile` module is on the list for 3.1.  The :mod:`StringIO` "
+" version.  The :mod:`pickle` / :mod:`!cPickle` pair received this treatment."
+"  The :mod:`profile` module is on the list for 3.1.  The :mod:`!StringIO` "
 "module has been turned into a class in the :mod:`io` module."
 msgstr ""
 
@@ -849,38 +896,38 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:606
 msgid ""
-":mod:`dbm` (:mod:`anydbm`, :mod:`dbhash`, :mod:`dbm`, :mod:`dumbdbm`, "
-":mod:`gdbm`, :mod:`whichdb`)."
+":mod:`dbm` (:mod:`!anydbm`, :mod:`!dbhash`, :mod:`!dbm`, :mod:`!dumbdbm`, "
+":mod:`!gdbm`, :mod:`!whichdb`)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:609
-msgid ":mod:`html` (:mod:`HTMLParser`, :mod:`htmlentitydefs`)."
+msgid ":mod:`html` (:mod:`!HTMLParser`, :mod:`!htmlentitydefs`)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:611
 msgid ""
-":mod:`http` (:mod:`httplib`, :mod:`BaseHTTPServer`, :mod:`CGIHTTPServer`, "
-":mod:`SimpleHTTPServer`, :mod:`Cookie`, :mod:`cookielib`)."
+":mod:`http` (:mod:`!httplib`, :mod:`!BaseHTTPServer`, :mod:`!CGIHTTPServer`,"
+" :mod:`!SimpleHTTPServer`, :mod:`!Cookie`, :mod:`!cookielib`)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:615
 msgid ""
-":mod:`tkinter` (all :mod:`Tkinter`-related modules except :mod:`turtle`).  "
-"The target audience of :mod:`turtle` doesn't really care about "
-":mod:`tkinter`.  Also note that as of Python 2.6, the functionality of "
-":mod:`turtle` has been greatly enhanced."
+":mod:`tkinter` (all ``Tkinter``-related modules except :mod:`turtle`).  The "
+"target audience of :mod:`turtle` doesn't really care about :mod:`tkinter`.  "
+"Also note that as of Python 2.6, the functionality of :mod:`turtle` has been"
+" greatly enhanced."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:620
 msgid ""
-":mod:`urllib` (:mod:`urllib`, :mod:`urllib2`, :mod:`urlparse`, "
-":mod:`robotparse`)."
+":mod:`urllib` (:mod:`!urllib`, :mod:`!urllib2`, :mod:`!urlparse`, "
+":mod:`!robotparse`)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:623
 msgid ""
-":mod:`xmlrpc` (:mod:`xmlrpclib`, :mod:`DocXMLRPCServer`, "
-":mod:`SimpleXMLRPCServer`)."
+":mod:`xmlrpc` (:mod:`!xmlrpclib`, :mod:`!DocXMLRPCServer`, "
+":mod:`!SimpleXMLRPCServer`)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:626
@@ -889,50 +936,51 @@ msgid ""
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:629
-msgid "Killed :mod:`sets`.  Use the built-in :func:`set` class."
+msgid "Killed :mod:`!sets`.  Use the built-in :func:`set` class."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:631
 msgid ""
-"Cleanup of the :mod:`sys` module: removed :func:`sys.exitfunc`, "
-":func:`sys.exc_clear`, :data:`sys.exc_type`, :data:`sys.exc_value`, "
-":data:`sys.exc_traceback`.  (Note that :data:`sys.last_type` etc. remain.)"
+"Cleanup of the :mod:`sys` module: removed :func:`!sys.exitfunc`, "
+":func:`!sys.exc_clear`, :data:`!sys.exc_type`, :data:`!sys.exc_value`, "
+":data:`!sys.exc_traceback`.  (Note that :data:`sys.last_type` etc. remain.)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:636
 msgid ""
-"Cleanup of the :class:`array.array` type: the :meth:`read` and :meth:`write`"
-" methods are gone; use :meth:`fromfile` and :meth:`tofile` instead.  Also, "
-"the ``'c'`` typecode for array is gone -- use either ``'b'`` for bytes or "
-"``'u'`` for Unicode characters."
+"Cleanup of the :class:`array.array` type: the :meth:`!read` and "
+":meth:`!write` methods are gone; use :meth:`~array.array.fromfile` and "
+":meth:`~array.array.tofile` instead.  Also, the ``'c'`` typecode for array "
+"is gone -- use either ``'b'`` for bytes or ``'u'`` for Unicode characters."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:642
 msgid ""
-"Cleanup of the :mod:`operator` module: removed :func:`sequenceIncludes` and "
-":func:`isCallable`."
+"Cleanup of the :mod:`operator` module: removed :func:`!sequenceIncludes` and"
+" :func:`!isCallable`."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:645
 msgid ""
-"Cleanup of the :mod:`thread` module: :func:`acquire_lock` and "
-":func:`release_lock` are gone; use :func:`acquire` and :func:`release` "
-"instead."
+"Cleanup of the :mod:`!thread` module: :func:`!acquire_lock` and "
+":func:`!release_lock` are gone; use :meth:`~threading.Lock.acquire` and "
+":meth:`~threading.Lock.release` instead."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:649
 msgid ""
-"Cleanup of the :mod:`random` module: removed the :func:`jumpahead` API."
+"Cleanup of the :mod:`random` module: removed the :func:`!jumpahead` API."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:651
-msgid "The :mod:`new` module is gone."
+msgid "The :mod:`!new` module is gone."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:653
 msgid ""
-"The functions :func:`os.tmpnam`, :func:`os.tempnam` and :func:`os.tmpfile` "
-"have been removed in favor of the :mod:`tempfile` module."
+"The functions :func:`!os.tmpnam`, :func:`!os.tempnam` and "
+":func:`!os.tmpfile` have been removed in favor of the :mod:`tempfile` "
+"module."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:657
@@ -943,19 +991,19 @@ msgstr ""
 
 #: ../../whatsnew/3.0.rst:661
 msgid ""
-":data:`string.letters` and its friends (:data:`string.lowercase` and "
-":data:`string.uppercase`) are gone.  Use :data:`string.ascii_letters` etc. "
-"instead.  (The reason for the removal is that :data:`string.letters` and "
+":data:`!string.letters` and its friends (:data:`!string.lowercase` and "
+":data:`!string.uppercase`) are gone.  Use :data:`string.ascii_letters` etc. "
+"instead.  (The reason for the removal is that :data:`!string.letters` and "
 "friends had locale-specific behavior, which is a bad idea for such "
-"attractively-named global \"constants\".)"
+"attractively named global \"constants\".)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:668
 msgid ""
-"Renamed module :mod:`__builtin__` to :mod:`builtins` (removing the "
-"underscores, adding an 's').  The :data:`__builtins__` variable found in "
+"Renamed module :mod:`!__builtin__` to :mod:`builtins` (removing the "
+"underscores, adding an 's').  The :data:`!__builtins__` variable found in "
 "most global namespaces is unchanged.  To modify a builtin, you should use "
-":mod:`builtins`, not :data:`__builtins__`!"
+":mod:`builtins`, not :data:`!__builtins__`!"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:675
@@ -1001,13 +1049,13 @@ msgid ""
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:705
-msgid ":exc:`StandardError` was removed."
+msgid ":exc:`!StandardError` was removed."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:707
 msgid ""
-"Exceptions no longer behave as sequences.  Use the :attr:`args` attribute "
-"instead."
+"Exceptions no longer behave as sequences.  Use the "
+":attr:`~BaseException.args` attribute instead."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:710
@@ -1015,8 +1063,8 @@ msgid ""
 ":pep:`3109`: Raising exceptions.  You must now use :samp:`raise "
 "{Exception}({args})` instead of :samp:`raise {Exception}, {args}`. "
 "Additionally, you can no longer explicitly specify a traceback; instead, if "
-"you *have* to do this, you can assign directly to the :attr:`__traceback__` "
-"attribute (see below)."
+"you *have* to do this, you can assign directly to the "
+":attr:`~BaseException.__traceback__` attribute (see below)."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:716
@@ -1034,104 +1082,110 @@ msgid ""
 "in an :keyword:`except` or :keyword:`finally` handler block.  This usually "
 "happens due to a bug in the handler block; we call this a *secondary* "
 "exception.  In this case, the original exception (that was being handled) is"
-" saved as the :attr:`__context__` attribute of the secondary exception. "
-"Explicit chaining is invoked with this syntax::"
+" saved as the :attr:`~BaseException.__context__` attribute of the secondary "
+"exception. Explicit chaining is invoked with this syntax::"
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:731
+msgid "raise SecondaryException() from primary_exception"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:733
 msgid ""
 "(where *primary_exception* is any expression that produces an exception "
 "object, probably an exception that was previously caught). In this case, the"
-" primary exception is stored on the :attr:`__cause__` attribute of the "
-"secondary exception.  The traceback printed when an unhandled exception "
-"occurs walks the chain of :attr:`__cause__` and :attr:`__context__` "
-"attributes and prints a separate traceback for each component of the chain, "
-"with the primary exception at the top.  (Java users may recognize this "
-"behavior.)"
+" primary exception is stored on the :attr:`~BaseException.__cause__` "
+"attribute of the secondary exception.  The traceback printed when an "
+"unhandled exception occurs walks the chain of :attr:`!__cause__` and "
+":attr:`~BaseException.__context__` attributes and prints a separate "
+"traceback for each component of the chain, with the primary exception at the"
+" top.  (Java users may recognize this behavior.)"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:742
+#: ../../whatsnew/3.0.rst:743
 msgid ""
 ":pep:`3134`: Exception objects now store their traceback as the "
-":attr:`__traceback__` attribute.  This means that an exception object now "
-"contains all the information pertaining to an exception, and there are fewer"
-" reasons to use :func:`sys.exc_info` (though the latter is not removed)."
+":attr:`~BaseException.__traceback__` attribute.  This means that an "
+"exception object now contains all the information pertaining to an "
+"exception, and there are fewer reasons to use :func:`sys.exc_info` (though "
+"the latter is not removed)."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:748
+#: ../../whatsnew/3.0.rst:749
 msgid ""
 "A few exception messages are improved when Windows fails to load an "
 "extension module.  For example, ``error code 193`` is now ``%1 is not a "
 "valid Win32 application``.  Strings now deal with non-English locales."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:755
+#: ../../whatsnew/3.0.rst:756
 msgid "Miscellaneous Other Changes"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:758
+#: ../../whatsnew/3.0.rst:759
 msgid "Operators And Special Methods"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:760
+#: ../../whatsnew/3.0.rst:761
 msgid ""
 "``!=`` now returns the opposite of ``==``, unless ``==`` returns "
 ":data:`NotImplemented`."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:763
+#: ../../whatsnew/3.0.rst:764
 msgid ""
 "The concept of \"unbound methods\" has been removed from the language. When "
 "referencing a method as a class attribute, you now get a plain function "
 "object."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:767
+#: ../../whatsnew/3.0.rst:768
 msgid ""
-":meth:`__getslice__`, :meth:`__setslice__` and :meth:`__delslice__` were "
+":meth:`!__getslice__`, :meth:`!__setslice__` and :meth:`!__delslice__` were "
 "killed.  The syntax ``a[i:j]`` now translates to ``a.__getitem__(slice(i, "
-"j))`` (or :meth:`__setitem__` or :meth:`__delitem__`, when used as an "
-"assignment or deletion target, respectively)."
+"j))`` (or :meth:`~object.__setitem__` or :meth:`~object.__delitem__`, when "
+"used as an assignment or deletion target, respectively)."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:773
+#: ../../whatsnew/3.0.rst:774
 msgid ""
 ":pep:`3114`: the standard :meth:`next` method has been renamed to "
 ":meth:`~iterator.__next__`."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:776
+#: ../../whatsnew/3.0.rst:777
 msgid ""
-"The :meth:`__oct__` and :meth:`__hex__` special methods are removed -- "
-":func:`oct` and :func:`hex` use :meth:`__index__` now to convert the "
-"argument to an integer."
+"The :meth:`!__oct__` and :meth:`!__hex__` special methods are removed -- "
+":func:`oct` and :func:`hex` use :meth:`~object.__index__` now to convert the"
+" argument to an integer."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:780
-msgid "Removed support for :attr:`__members__` and :attr:`__methods__`."
+#: ../../whatsnew/3.0.rst:781
+msgid "Removed support for :attr:`!__members__` and :attr:`!__methods__`."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:782
+#: ../../whatsnew/3.0.rst:783
 msgid ""
-"The function attributes named :attr:`func_X` have been renamed to use the "
-":data:`__X__` form, freeing up these names in the function attribute "
-"namespace for user-defined attributes.  To wit, :attr:`func_closure`, "
-":attr:`func_code`, :attr:`func_defaults`, :attr:`func_dict`, "
-":attr:`func_doc`, :attr:`func_globals`, :attr:`func_name` were renamed to "
-":attr:`__closure__`, :attr:`__code__`, :attr:`__defaults__`, "
-":attr:`~object.__dict__`, :attr:`__doc__`, :attr:`__globals__`, "
-":attr:`~definition.__name__`, respectively."
+"The function attributes named :attr:`!func_X` have been renamed to use the "
+":attr:`!__X__` form, freeing up these names in the function attribute "
+"namespace for user-defined attributes.  To wit, :attr:`!func_closure`, "
+":attr:`!func_code`, :attr:`!func_defaults`, :attr:`!func_dict`, "
+":attr:`!func_doc`, :attr:`!func_globals`, :attr:`!func_name` were renamed to"
+" :attr:`~function.__closure__`, :attr:`~function.__code__`, "
+":attr:`~function.__defaults__`, :attr:`~function.__dict__`, "
+":attr:`~function.__doc__`, :attr:`~function.__globals__`, "
+":attr:`~function.__name__`, respectively."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:792
-msgid ":meth:`__nonzero__` is now :meth:`__bool__`."
-msgstr ""
-
-#: ../../whatsnew/3.0.rst:795
-msgid "Builtins"
+#: ../../whatsnew/3.0.rst:794
+msgid ":meth:`!__nonzero__` is now :meth:`~object.__bool__`."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:797
+msgid "Builtins"
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:799
 msgid ""
 ":pep:`3135`: New :func:`super`.  You can now invoke :func:`super` without "
 "arguments and (assuming this is in a regular instance method defined inside "
@@ -1140,22 +1194,22 @@ msgid ""
 "unchanged."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:803
+#: ../../whatsnew/3.0.rst:805
 msgid ""
-":pep:`3111`: :func:`raw_input` was renamed to :func:`input`.  That is, the "
+":pep:`3111`: :func:`!raw_input` was renamed to :func:`input`.  That is, the "
 "new :func:`input` function reads a line from :data:`sys.stdin` and returns "
 "it with the trailing newline stripped. It raises :exc:`EOFError` if the "
 "input is terminated prematurely. To get the old behavior of :func:`input`, "
 "use ``eval(input())``."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:809
+#: ../../whatsnew/3.0.rst:811
 msgid ""
 "A new built-in function :func:`next` was added to call the "
 ":meth:`~iterator.__next__` method on an object."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:812
+#: ../../whatsnew/3.0.rst:814
 msgid ""
 "The :func:`round` function rounding strategy and return type have changed.  "
 "Exact halfway cases are now rounded to the nearest even result instead of "
@@ -1166,117 +1220,118 @@ msgid ""
 " arguments."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:821
-msgid "Moved :func:`intern` to :func:`sys.intern`."
-msgstr ""
-
 #: ../../whatsnew/3.0.rst:823
-msgid ""
-"Removed: :func:`apply`.  Instead of ``apply(f, args)`` use ``f(*args)``."
+msgid "Moved :func:`!intern` to :func:`sys.intern`."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:826
+#: ../../whatsnew/3.0.rst:825
+msgid ""
+"Removed: :func:`!apply`.  Instead of ``apply(f, args)`` use ``f(*args)``."
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:828
 msgid ""
 "Removed :func:`callable`.  Instead of ``callable(f)`` you can use "
-"``isinstance(f, collections.Callable)``.  The :func:`operator.isCallable` "
+"``isinstance(f, collections.Callable)``.  The :func:`!operator.isCallable` "
 "function is also gone."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:830
+#: ../../whatsnew/3.0.rst:832
 msgid ""
-"Removed :func:`coerce`.  This function no longer serves a purpose now that "
+"Removed :func:`!coerce`.  This function no longer serves a purpose now that "
 "classic classes are gone."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:833
+#: ../../whatsnew/3.0.rst:835
 msgid ""
-"Removed :func:`execfile`.  Instead of ``execfile(fn)`` use "
+"Removed :func:`!execfile`.  Instead of ``execfile(fn)`` use "
 "``exec(open(fn).read())``."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:836
+#: ../../whatsnew/3.0.rst:838
 msgid ""
-"Removed the :class:`file` type.  Use :func:`open`.  There are now several "
+"Removed the :class:`!file` type.  Use :func:`open`.  There are now several "
 "different kinds of streams that open can return in the :mod:`io` module."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:839
+#: ../../whatsnew/3.0.rst:841
 msgid ""
-"Removed :func:`reduce`.  Use :func:`functools.reduce` if you really need it;"
-" however, 99 percent of the time an explicit :keyword:`for` loop is more "
+"Removed :func:`!reduce`.  Use :func:`functools.reduce` if you really need "
+"it; however, 99 percent of the time an explicit :keyword:`for` loop is more "
 "readable."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:843
-msgid "Removed :func:`reload`.  Use :func:`imp.reload`."
-msgstr ""
-
 #: ../../whatsnew/3.0.rst:845
-msgid ""
-"Removed. :meth:`dict.has_key` -- use the :keyword:`in` operator instead."
+msgid "Removed :func:`!reload`.  Use :func:`!imp.reload`."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:852
+#: ../../whatsnew/3.0.rst:847
+msgid ""
+"Removed. :meth:`!dict.has_key` -- use the :keyword:`in` operator instead."
+msgstr ""
+
+#: ../../whatsnew/3.0.rst:854
 msgid "Build and C API Changes"
 msgstr "Perubahan Pembangunan *Build* dan API C"
 
-#: ../../whatsnew/3.0.rst:854
+#: ../../whatsnew/3.0.rst:856
 msgid ""
 "Due to time constraints, here is a *very* incomplete list of changes to the "
 "C API."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:857
+#: ../../whatsnew/3.0.rst:859
 msgid ""
 "Support for several platforms was dropped, including but not limited to Mac "
 "OS 9, BeOS, RISCOS, Irix, and Tru64."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:860
+#: ../../whatsnew/3.0.rst:862
 msgid ":pep:`3118`: New Buffer API."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:862
+#: ../../whatsnew/3.0.rst:864
 msgid ":pep:`3121`: Extension Module Initialization & Finalization."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:864
+#: ../../whatsnew/3.0.rst:866
 msgid ":pep:`3123`: Making :c:macro:`PyObject_HEAD` conform to standard C."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:866
+#: ../../whatsnew/3.0.rst:868
 msgid "No more C API support for restricted execution."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:868
+#: ../../whatsnew/3.0.rst:870
 msgid ""
-":c:func:`PyNumber_Coerce`, :c:func:`PyNumber_CoerceEx`, "
-":c:func:`PyMember_Get`, and :c:func:`PyMember_Set` C APIs are removed."
+":c:func:`!PyNumber_Coerce`, :c:func:`!PyNumber_CoerceEx`, "
+":c:func:`!PyMember_Get`, and :c:func:`!PyMember_Set` C APIs are removed."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:871
+#: ../../whatsnew/3.0.rst:873
 msgid ""
 "New C API :c:func:`PyImport_ImportModuleNoBlock`, works like "
 ":c:func:`PyImport_ImportModule` but won't block on the import lock "
 "(returning an error instead)."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:875
+#: ../../whatsnew/3.0.rst:877
 msgid ""
 "Renamed the boolean conversion C-level slot and method: ``nb_nonzero`` is "
 "now ``nb_bool``."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:878
+#: ../../whatsnew/3.0.rst:880
 msgid ""
-"Removed :c:macro:`METH_OLDARGS` and :c:macro:`WITH_CYCLE_GC` from the C API."
+"Removed :c:macro:`!METH_OLDARGS` and :c:macro:`!WITH_CYCLE_GC` from the C "
+"API."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:884
+#: ../../whatsnew/3.0.rst:886
 msgid "Performance"
 msgstr "Performa"
 
-#: ../../whatsnew/3.0.rst:886
+#: ../../whatsnew/3.0.rst:888
 msgid ""
 "The net result of the 3.0 generalizations is that Python 3.0 runs the "
 "pystone benchmark around 10% slower than Python 2.5.  Most likely the "
@@ -1284,27 +1339,27 @@ msgid ""
 "room for improvement, but it will happen after 3.0 is released!"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:896
+#: ../../whatsnew/3.0.rst:898
 msgid "Porting To Python 3.0"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:898
+#: ../../whatsnew/3.0.rst:900
 msgid ""
 "For porting existing Python 2.5 or 2.6 source code to Python 3.0, the best "
 "strategy is the following:"
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:901
+#: ../../whatsnew/3.0.rst:903
 msgid "(Prerequisite:) Start with excellent test coverage."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:903
+#: ../../whatsnew/3.0.rst:905
 msgid ""
 "Port to Python 2.6.  This should be no more work than the average port from "
 "Python 2.x to Python 2.(x+1).  Make sure all your tests pass."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:907
+#: ../../whatsnew/3.0.rst:909
 msgid ""
 "(Still using 2.6:) Turn on the :option:`!-3` command line switch. This "
 "enables warnings about features that will be removed (or change) in 3.0.  "
@@ -1312,15 +1367,14 @@ msgid ""
 "there are no warnings left, and all your tests still pass."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:913
+#: ../../whatsnew/3.0.rst:915
 msgid ""
 "Run the ``2to3`` source-to-source translator over your source code tree.  "
-"(See :ref:`2to3-reference` for more on this tool.)  Run the result of the "
-"translation under Python 3.0.  Manually fix up any remaining issues, fixing "
-"problems until all tests pass again."
+"Run the result of the translation under Python 3.0.  Manually fix up any "
+"remaining issues, fixing problems until all tests pass again."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:918
+#: ../../whatsnew/3.0.rst:920
 msgid ""
 "It is not recommended to try to write source code that runs unchanged under "
 "both Python 2.6 and 3.0; you'd have to use a very contorted coding style, "
@@ -1331,7 +1385,7 @@ msgid ""
 "editing the 3.0 version of the source code."
 msgstr ""
 
-#: ../../whatsnew/3.0.rst:927
+#: ../../whatsnew/3.0.rst:929
 msgid ""
 "For porting C extensions to Python 3.0, please see :ref:`cporting-howto`."
 msgstr ""
