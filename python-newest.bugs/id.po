@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Helen Febriani <helenfy.72@gmail.com>, 2019
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2021
+# Helen Febriani <helenfy.72@gmail.com>, 2021
+# Elmo <work.elmoallistair@gmail.com>, 2022
+# Ahmad Mustafid, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 17:31+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:47+0000\n"
+"Last-Translator: Ahmad Mustafid, 2024\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,9 +34,9 @@ msgid ""
 "for stability.  In order to maintain this reputation, the developers would "
 "like to know of any deficiencies you find in Python."
 msgstr ""
-"Python adalah bahasa pemrograman matang yang telah membangun reputasi "
-"stabilitas. Untuk mempertahankan reputasi ini, pengembang ingin mengetahui "
-"kekurangan apa yang ada temukan di Python."
+"Python merupakan sebuah bahasa pemrograman yang matang dan telah membangun "
+"reputasi stabil. Untuk mempertahankan reputasi ini, pengembang ingin "
+"mengatahui semua kekurangan yang kamu temui di Phyton."
 
 #: ../../bugs.rst:11
 msgid ""
@@ -42,10 +44,9 @@ msgid ""
 "Python as it streamlines the process and involves less people. Learn how to "
 ":ref:`contribute <contributing-to-python>`."
 msgstr ""
-"Terkadang lebih cepat untuk memperbaiki bugs oleh Anda kemudian "
-"menyumbangkan patch ke Python karena menyederhanakan proses dan melibatkan "
-"lebih sedikit orang. Pelajari caranya :ref:`contribute <contributing-to-"
-"python>`."
+"Terkadang akan lebih cepat untuk memperbaiki bug sendiri dan kontribusi "
+"patch ke Python, karena dapat menyederhanakan proses dengan sedikit orang "
+"yang terlibat. Pelajari caranya :ref:`contribute `."
 
 #: ../../bugs.rst:16
 msgid "Documentation bugs"
@@ -54,32 +55,31 @@ msgstr "Dokumentasi *bugs*"
 #: ../../bugs.rst:18
 msgid ""
 "If you find a bug in this documentation or would like to propose an "
-"improvement, please submit a bug report on the :ref:`tracker <using-the-"
-"tracker>`.  If you have a suggestion on how to fix it, include that as well."
+"improvement, please submit a bug report on the :ref:`issue tracker <using-"
+"the-tracker>`.  If you have a suggestion on how to fix it, include that as "
+"well."
 msgstr ""
-"Jika Anda menemukan *bug* di dalam dokumentasi atau berkeinginan untuk "
-"mengusulkan sebuah perbaikan, mohon untuk mengajukan sebuah laporan tentang "
-"bug di dalam :ref:`tracker <using-the-tracker>`. Jika Anda memiliki sebuah "
-"saran bagaimana cara untuk memperbaikinya, lampirkan juga."
 
 #: ../../bugs.rst:22
 msgid ""
-"If you're short on time, you can also email documentation bug reports to "
-"docs@python.org (behavioral bugs can be sent to python-list@python.org). "
-"'docs@' is a mailing list run by volunteers; your request will be noticed, "
-"though it may take a while to be processed."
+"You can also open a discussion item on our `Documentation Discourse forum "
+"<https://discuss.python.org/c/documentation/26>`_."
 msgstr ""
-"Jika Anda tidak punya waktu, Anda juga dapat mengirim email laporan "
-"dokumentasi bug ke docs@python.org (perilaku bugs juga dapat dikirim ke "
-"python-list@python.org). 'docs@' adalah milis yang dijalankan oleh "
-"sukarelawan; permintaan Anda akan diperhatikan, meskipun mungkin perlu waktu"
-" beberapa saat untuk diproses."
+"Anda juga dapat membuka item diskusi di forum `Documentation Discourse kami "
+"<https://discuss.python.org/c/documentation/26>`_."
 
-#: ../../bugs.rst:30
+#: ../../bugs.rst:25
+msgid ""
+"If you find a bug in the theme (HTML / CSS / JavaScript) of the "
+"documentation, please submit a bug report on the `python-doc-theme issue "
+"tracker <https://github.com/python/python-docs-theme>`_."
+msgstr ""
+
+#: ../../bugs.rst:31
 msgid "`Documentation bugs`_"
 msgstr "`Dokumentasi *bugs*`_"
 
-#: ../../bugs.rst:30
+#: ../../bugs.rst:32
 msgid ""
 "A list of documentation bugs that have been submitted to the Python issue "
 "tracker."
@@ -87,25 +87,25 @@ msgstr ""
 "Daftar dokumentasi *bugs* yang telah dikirimkan ke pelacak isu *issue "
 "tracker* Python."
 
-#: ../../bugs.rst:33
+#: ../../bugs.rst:34
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 msgstr "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 
-#: ../../bugs.rst:33
+#: ../../bugs.rst:35
 msgid ""
 "Overview of the process involved in reporting an improvement on the tracker."
 msgstr ""
 "Tinjauan dari proses yang terlibat dalam pelaporan perbaikan pada pelacak."
 
-#: ../../bugs.rst:35
+#: ../../bugs.rst:37
 msgid ""
-"`Helping with Documentation <https://devguide.python.org/docquality"
-"/#helping-with-documentation>`_"
+"`Helping with Documentation "
+"<https://devguide.python.org/docquality/#helping-with-documentation>`_"
 msgstr ""
-"`Membantu dengan Dokumentasi <https://devguide.python.org/docquality"
-"/#helping-with-documentation>`_"
+"`Membantu dengan Dokumentasi "
+"<https://devguide.python.org/docquality/#helping-with-documentation>`_"
 
-#: ../../bugs.rst:36
+#: ../../bugs.rst:38
 msgid ""
 "Comprehensive guide for individuals that are interested in contributing to "
 "Python documentation."
@@ -113,96 +113,110 @@ msgstr ""
 "Panduan komprehensif untuk pribadi yang tertarik untuk berkontribusi dalam "
 "dokumentasi Python."
 
-#: ../../bugs.rst:41
-msgid "Using the Python issue tracker"
-msgstr "Menggunakan pelacak isu Python"
-
-#: ../../bugs.rst:43
+#: ../../bugs.rst:40
 msgid ""
-"Bug reports for Python itself should be submitted via the Python Bug Tracker"
-" (https://bugs.python.org/).  The bug tracker offers a Web form which allows"
-" pertinent information to be entered and submitted to the developers."
+"`Documentation Translations "
+"<https://devguide.python.org/documentation/translating/>`_"
 msgstr ""
-"Laporan bug untuk Python perlu dikirimkan melalui pelacak Bug Python "
-"(https://bugs.python.org/).  Pelacak bug menyediakan sebuah formulir Web "
-"dimana informasi terkait dapat dimasukkan kemudian dikirimkan ke pengembang."
+"`Penerjemahan Dokumentasi "
+"<https://devguide.python.org/documentation/translating/>`_"
+
+#: ../../bugs.rst:41
+msgid ""
+"A list of GitHub pages for documentation translation and their primary "
+"contacts."
+msgstr ""
+"Daftar halaman GitHub untuk penerjemahan dokumentasi dan kontak utamanya."
 
 #: ../../bugs.rst:47
+msgid "Using the Python issue tracker"
+msgstr "Menggunakan pelacak issue Python."
+
+#: ../../bugs.rst:49
 msgid ""
-"The first step in filing a report is to determine whether the problem has "
-"already been reported.  The advantage in doing so, aside from saving the "
-"developers time, is that you learn what has been done to fix it; it may be "
-"that the problem has already been fixed for the next release, or additional "
-"information is needed (in which case you are welcome to provide it if you "
-"can!). To do this, search the bug database using the search box on the top "
-"of the page."
+"Issue reports for Python itself should be submitted via the GitHub issues "
+"tracker (https://github.com/python/cpython/issues). The GitHub issues "
+"tracker offers a web form which allows pertinent information to be entered "
+"and submitted to the developers."
 msgstr ""
-"Langkah pertama mengarsipkan laporan adalah mengecek apakah masalah telah "
-"dilaporkan.  Keuntungan dari melakukan hal tersebut, selain menghemat waktu "
-"pengembang, adalah bahwa Anda telah mempelajari apakah masalah telah "
-"diperbaiki; mungkin masalah telah diperbaiki untuk rilis berikutnya, atau "
-"dibutuhkan tambahan informasi (dalam hal ini Anda dipersilahkan untuk "
-"menyertakan yang Anda bisa!). Untuk melakukan ini, cari di basis data bug "
-"menggunakan kotak pencarian di bagian atas halaman."
+"Laporan masalah Python harus dikirimkan melalui pelacak masalah di GitHub "
+"(https://github.com/python/cpython/issues). Pelacak masalah di GitHub "
+"terdapat formulir web yang memungkinkan informasi terkait untuk bisa "
+"dimasukkan dan diserahkan kepada pengembang."
 
 #: ../../bugs.rst:54
 msgid ""
-"If the problem you're reporting is not already in the bug tracker, go back "
-"to the Python Bug Tracker and log in.  If you don't already have a tracker "
-"account, select the \"Register\" link or, if you use OpenID, one of the "
-"OpenID provider logos in the sidebar.  It is not possible to submit a bug "
-"report anonymously."
+"The first step in filing a report is to determine whether the problem has "
+"already been reported.  The advantage in doing so, aside from saving the "
+"developers' time, is that you learn what has been done to fix it; it may be "
+"that the problem has already been fixed for the next release, or additional "
+"information is needed (in which case you are welcome to provide it if you "
+"can!). To do this, search the tracker using the search box at the top of the"
+" page."
 msgstr ""
-"Jika masalah yang anda laporkan belum ada di pelacak bug, kembali ke pelacak"
-" bug Python dan masuk.  Jika Anda belum memiliki akun pelacak, pilih tautan "
-"\"Register\", atau jika Anda menggunakan OpenID, pilih salah satu logo "
-"penyedia OpenID di menu samping.  Tidak mungkin mengirimkan laporan bug "
-"secara anonim."
+"Langkah pertama dalam mengajukan laporan adalah menentukan apakah masalah "
+"tersebut sudah pernah dilaporkan.  Keuntungannya, selain menghemat waktu "
+"pengembang, Anda juga dapat mengetahui apa yang telah dilakukan untuk "
+"memperbaikinya; mungkin saja masalahnya sudah diperbaiki untuk rilis "
+"berikutnya, atau informasi tambahan diperlukan (dalam hal ini Anda "
+"dipersilakan untuk memberikannya jika mungkin). Untuk melakukan hal ini, "
+"carilah menggunakan kotak pencarian di bagian atas halaman."
 
-#: ../../bugs.rst:59
+#: ../../bugs.rst:61
 msgid ""
-"Being now logged in, you can submit a bug.  Select the \"Create New\" link "
-"in the sidebar to open the bug reporting form."
+"If the problem you're reporting is not already in the list, log in to "
+"GitHub. If you don't already have a GitHub account, create a new account "
+"using the \"Sign up\" link. It is not possible to submit a bug report "
+"anonymously."
 msgstr ""
-"Saat sudah masuk, Anda bisa mengirimkan *bug*. Pilih tautan \"Create New\" "
-"di menu samping untuk membuka formulir laporan *bug*."
+"Jika masalah yang Anda laporkan belum ada di dalam daftar, masuklah ke "
+"GitHub. Jika Anda belum memiliki akun GitHub, buatlah akun baru menggunakan "
+"tautan \"Daftar\". Anda tidak dapat mengirimkan laporan bug secara anonim."
 
-#: ../../bugs.rst:62
+#: ../../bugs.rst:66
 msgid ""
-"The submission form has a number of fields.  For the \"Title\" field, enter "
-"a *very* short description of the problem; less than ten words is good.  In "
-"the \"Type\" field, select the type of your problem; also select the "
-"\"Component\" and \"Versions\" to which the bug relates."
+"Being now logged in, you can submit an issue. Click on the \"New issue\" "
+"button in the top bar to report a new issue."
 msgstr ""
-"Formulir pengiriman memiliki sejumlah area. Untuk area \"Title\", masukkan "
-"deskripsi *sangat* singkat dari permasalahan; baiknya kurang dari 10 kata.  "
-"Di area \"Type\", pilih jenis masalah; juga pilih \"Component\" dan "
-"\"Versions\" dimana terkait bug."
+"Setelah masuk, Anda dapat mengirimkan masalah. Klik tombol \"Masalah baru\" "
+"di bilah atas untuk melaporkan masalah baru."
 
-#: ../../bugs.rst:67
+#: ../../bugs.rst:69
+msgid "The submission form has two fields, \"Title\" and \"Comment\"."
+msgstr "Formulir pengajuan memiliki dua kolom, \"Judul\" dan \"Komentar\"."
+
+#: ../../bugs.rst:71
+msgid ""
+"For the \"Title\" field, enter a *very* short description of the problem; "
+"fewer than ten words is good."
+msgstr ""
+"Untuk kolom \"Judul\", masukkan deskripsi yang *sangat* singkat tentang "
+"masalah Anda; kurang dari sepuluh kata, cukup."
+
+#: ../../bugs.rst:74
 msgid ""
 "In the \"Comment\" field, describe the problem in detail, including what you"
 " expected to happen and what did happen.  Be sure to include whether any "
 "extension modules were involved, and what hardware and software platform you"
 " were using (including version information as appropriate)."
 msgstr ""
-"Di area \"Comment\", deskripsikan masalah dengan detil, termasuk apa yang "
-"Anda harapkan terjadi dan apa yang saat ini terjadi.  Pastikan untuk "
-"menyertakan apakah ada modul ekstensi yang terkait, dan platform perangkat "
-"keras serta perangkat lunak yang digunakan (termasuk info versi yang "
-"sesuai)."
+"Pada kolom \"Comment\", Jelaskan masalah secara detail, termasuk apa yang "
+"kamu harapkan dan apa yang terjadi. Pastikan untuk menyertakan apakah ada "
+"ekstensi modul yang terlibat, dan apa saja platform perangkat keras dan "
+"perangkat lunak yang kamu gunakan (termasuk versi informasi yang sesuai)."
 
-#: ../../bugs.rst:72
+#: ../../bugs.rst:79
 msgid ""
-"Each bug report will be assigned to a developer who will determine what "
-"needs to be done to correct the problem.  You will receive an update each "
-"time action is taken on the bug."
+"Each issue report will be reviewed by a developer who will determine what "
+"needs to be done to correct the problem. You will receive an update each "
+"time an action is taken on the issue."
 msgstr ""
-"Setiap laporan bug akan diberikan kepada pengembang yang akan menentukan apa"
-" yang perlu dilakukan untuk memperbaiki masalah.  Anda akan menerima "
-"pembaruan setiap saat ada tindakan pada bug."
+"Setiap laporan masalah akan ditinjau oleh pengembang yang akan menentukan "
+"apa yang perlu dilakukan untuk memperbaiki masalah tersebut. Anda akan "
+"menerima pembaruan setiap kali ada tindakan yang diambil untuk mengatasi "
+"masalah tersebut."
 
-#: ../../bugs.rst:81
+#: ../../bugs.rst:86
 msgid ""
 "`How to Report Bugs Effectively "
 "<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
@@ -210,36 +224,36 @@ msgstr ""
 "`Bagaimana Melaporkan Bug Secara Efektif "
 "<https://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`_"
 
-#: ../../bugs.rst:80
+#: ../../bugs.rst:87
 msgid ""
 "Article which goes into some detail about how to create a useful bug report."
 " This describes what kind of information is useful and why it is useful."
 msgstr ""
-"Artikel yang menyantumkan sejumlah detil tentang bagaimana membuat laporan "
-"bug yang berguna. Menjelaskan tentang sejumlah informasi yang berguna dan "
-"mengapa hal tersebut berguna."
+"Artikel yang memuat beberapa detail tentang bagaimana membuat laporan bug "
+"yang berguna. Ini menjelaskan informasi apa saja yang berguna dan mengapa "
+"menjadi berguna."
 
-#: ../../bugs.rst:84
+#: ../../bugs.rst:90
 msgid ""
-"`Bug Report Writing Guidelines <https://developer.mozilla.org/en-"
-"US/docs/Mozilla/QA/Bug_writing_guidelines>`_"
+"`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
+"writing.html>`_"
 msgstr ""
-"`Pendoman Pelaporan Bug <https://developer.mozilla.org/en-"
-"US/docs/Mozilla/QA/Bug_writing_guidelines>`_"
+"`Pedoman Penulisan Bug <https://bugzilla.mozilla.org/page.cgi?id=bug-"
+"writing.html>`_"
 
-#: ../../bugs.rst:84
+#: ../../bugs.rst:91
 msgid ""
 "Information about writing a good bug report.  Some of this is specific to "
 "the Mozilla project, but describes general good practices."
 msgstr ""
-"Informasi tentang menulis laporan bug yang baik. Beberapa di antaranya "
-"khusus untuk proyek Mozilla, tapi secara umum menjelaskan praktik yang baik."
+"Informasi seputar penulisan laporan bug yang baik. Beberapa diantaranya "
+"merupakan project Mozilla, tapi dapat menggambarkan praktik umum yang baik."
 
-#: ../../bugs.rst:90
+#: ../../bugs.rst:97
 msgid "Getting started contributing to Python yourself"
-msgstr "Mulai berkontribusi untuk Python"
+msgstr "Mulai konstribusi pada Python mu sendiri."
 
-#: ../../bugs.rst:92
+#: ../../bugs.rst:99
 msgid ""
 "Beyond just reporting bugs that you find, you are also welcome to submit "
 "patches to fix them.  You can find more information on how to get started "
@@ -247,9 +261,9 @@ msgid ""
 "the `core-mentorship mailing list`_ is a friendly place to get answers to "
 "any and all questions pertaining to the process of fixing issues in Python."
 msgstr ""
-"Selain hanya melaporkan bugs yang Anda temukan, anda juga dipersilahkan "
-"mengirim patch untuk memperbaikinya.  Anda dapat menemukan informasi lebih "
-"lanjut mengenai bagaimana memulai memperbaiki Python di `Panduan Pengembang "
-"Python`_.  Jika Anda punya pertanyaan-pertanyaan, `milis core-mentorship`_ "
-"adalah tempat yang ramah untuk mendapatkan jawaban atas semua pertanyaan "
-"terkait proses memperbaiki masalah di Python."
+"Selain melaporkan bug yang kamu temukan, kamu pula dipersilahkan untuk "
+"mengirimkan solusi untuk memperbaikinya. Kamu dapat menukan informasi "
+"bagaiamana cara memulai menambal Python di `Python Developer's Guide`_. Jika"
+" kamu mempunyai pertanyaan, `core-mentorship mailing list`_ merupakan tempat"
+" yang ramah untuk menjawab pertanyaan-pertanyaan mu yang berkaitan dengan "
+"proses memperbaiki masalah dengan Python."
