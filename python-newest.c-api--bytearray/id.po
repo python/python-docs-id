@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Elmo <work.elmoallistair@gmail.com>, 2021
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-07 05:06+0000\n"
-"PO-Revision-Date: 2017-02-16 17:33+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:47+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,26 +71,27 @@ msgstr ""
 "Mengembalikan objek bytearray baru dari objek apa pun, *o*, yang "
 "mengimplementasikan :ref:`buffer protocol <bufferobjects>`."
 
-#: ../../c-api/bytearray.rst:50
-msgid ""
-"Create a new bytearray object from *string* and its length, *len*.  On "
-"failure, ``NULL`` is returned."
+#: ../../c-api/bytearray.rst:45 ../../c-api/bytearray.rst:52
+#: ../../c-api/bytearray.rst:59
+msgid "On failure, return ``NULL`` with an exception set."
 msgstr ""
-"Membuat objek bytearray baru dari *string* dan panjangnya, *len*. Jika "
-"gagal, ``NULL`` dikembalikan."
 
-#: ../../c-api/bytearray.rst:56
+#: ../../c-api/bytearray.rst:50
+msgid "Create a new bytearray object from *string* and its length, *len*."
+msgstr ""
+
+#: ../../c-api/bytearray.rst:57
 msgid ""
 "Concat bytearrays *a* and *b* and return a new bytearray with the result."
 msgstr ""
 "Menyatukan bytearrays *a* dan *b* dan mengembalikan bytearray baru dengan "
 "hasilnya."
 
-#: ../../c-api/bytearray.rst:61
+#: ../../c-api/bytearray.rst:64
 msgid "Return the size of *bytearray* after checking for a ``NULL`` pointer."
 msgstr "Mengembalikan ukuran *bytearray* setelah memeriksa pointer ``NULL``."
 
-#: ../../c-api/bytearray.rst:66
+#: ../../c-api/bytearray.rst:69
 msgid ""
 "Return the contents of *bytearray* as a char array after checking for a "
 "``NULL`` pointer.  The returned array always has an extra null byte "
@@ -100,23 +101,38 @@ msgstr ""
 "pointer ``NULL``. Array yang dikembalikan selalu memiliki byte null ekstra "
 "yang ditambahkan."
 
-#: ../../c-api/bytearray.rst:73
-msgid "Resize the internal buffer of *bytearray* to *len*."
-msgstr "Mengubah ukuran buffer internal *bytearray* menjadi *len*."
-
 #: ../../c-api/bytearray.rst:76
+msgid ""
+"Resize the internal buffer of *bytearray* to *len*. Failure is a ``-1`` "
+"return with an exception set."
+msgstr ""
+
+#: ../../c-api/bytearray.rst:79
+msgid ""
+"A negative *len* will now result in an exception being set and -1 returned."
+msgstr ""
+
+#: ../../c-api/bytearray.rst:84
 msgid "Macros"
 msgstr "Makro"
 
-#: ../../c-api/bytearray.rst:78
+#: ../../c-api/bytearray.rst:86
 msgid "These macros trade safety for speed and they don't check pointers."
 msgstr ""
 "Makro ini menukar keamanan dengan kecepatan dan tidak memeriksa pointer."
 
-#: ../../c-api/bytearray.rst:82
-msgid "Macro version of :c:func:`PyByteArray_AsString`."
-msgstr "Versi makro dari :c:func:`PyByteArray_AsString`."
+#: ../../c-api/bytearray.rst:90
+msgid "Similar to :c:func:`PyByteArray_AsString`, but without error checking."
+msgstr ""
 
-#: ../../c-api/bytearray.rst:87
-msgid "Macro version of :c:func:`PyByteArray_Size`."
-msgstr "Versi makro dari :c:func:`PyByteArray_Size`."
+#: ../../c-api/bytearray.rst:95
+msgid "Similar to :c:func:`PyByteArray_Size`, but without error checking."
+msgstr ""
+
+#: ../../c-api/bytearray.rst:8
+msgid "object"
+msgstr "objek"
+
+#: ../../c-api/bytearray.rst:8
+msgid "bytearray"
+msgstr ""
