@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-07 05:06+0000\n"
-"PO-Revision-Date: 2017-02-16 17:33+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:47+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2024\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: ../../c-api/capsule.rst:17
 msgid ""
 "This subtype of :c:type:`PyObject` represents an opaque value, useful for C "
-"extension modules who need to pass an opaque value (as a :c:type:`void*` "
+"extension modules who need to pass an opaque value (as a :c:expr:`void*` "
 "pointer) through Python code to other C code.  It is often used to make a C "
 "function pointer defined in one module available to other modules, so the "
 "regular import mechanism can be used to access C APIs defined in dynamically"
@@ -42,6 +42,10 @@ msgstr ""
 
 #: ../../c-api/capsule.rst:27
 msgid "The type of a destructor callback for a capsule.  Defined as::"
+msgstr ""
+
+#: ../../c-api/capsule.rst:29
+msgid "typedef void (*PyCapsule_Destructor)(PyObject *);"
 msgstr ""
 
 #: ../../c-api/capsule.rst:31
@@ -96,7 +100,7 @@ msgstr ""
 msgid ""
 "The *name* parameter must compare exactly to the name stored in the capsule."
 " If the name stored in the capsule is ``NULL``, the *name* passed in must "
-"also be ``NULL``.  Python uses the C function :c:func:`strcmp` to compare "
+"also be ``NULL``.  Python uses the C function :c:func:`!strcmp` to compare "
 "capsule names."
 msgstr ""
 
@@ -144,18 +148,20 @@ msgid ""
 "Import a pointer to a C object from a capsule attribute in a module.  The "
 "*name* parameter should specify the full name to the attribute, as in "
 "``module.attribute``.  The *name* stored in the capsule must match this "
-"string exactly.  If *no_block* is true, import the module without blocking "
-"(using :c:func:`PyImport_ImportModuleNoBlock`).  If *no_block* is false, "
-"import the module conventionally (using :c:func:`PyImport_ImportModule`)."
+"string exactly."
 msgstr ""
 
-#: ../../c-api/capsule.rst:110
+#: ../../c-api/capsule.rst:108
 msgid ""
 "Return the capsule's internal *pointer* on success.  On failure, set an "
 "exception and return ``NULL``."
 msgstr ""
 
-#: ../../c-api/capsule.rst:116
+#: ../../c-api/capsule.rst:111
+msgid "*no_block* has no effect anymore."
+msgstr ""
+
+#: ../../c-api/capsule.rst:117
 msgid ""
 "Determines whether or not *capsule* is a valid capsule.  A valid capsule is "
 "non-``NULL``, passes :c:func:`PyCapsule_CheckExact`, has a non-``NULL`` "
@@ -164,42 +170,50 @@ msgid ""
 " compared.)"
 msgstr ""
 
-#: ../../c-api/capsule.rst:122
+#: ../../c-api/capsule.rst:123
 msgid ""
 "In other words, if :c:func:`PyCapsule_IsValid` returns a true value, calls "
-"to any of the accessors (any function starting with :c:func:`PyCapsule_Get`)"
-" are guaranteed to succeed."
+"to any of the accessors (any function starting with ``PyCapsule_Get``) are "
+"guaranteed to succeed."
 msgstr ""
 
-#: ../../c-api/capsule.rst:126
+#: ../../c-api/capsule.rst:127
 msgid ""
 "Return a nonzero value if the object is valid and matches the name passed "
 "in. Return ``0`` otherwise.  This function will not fail."
 msgstr ""
 
-#: ../../c-api/capsule.rst:132
+#: ../../c-api/capsule.rst:133
 msgid "Set the context pointer inside *capsule* to *context*."
 msgstr ""
 
-#: ../../c-api/capsule.rst:134 ../../c-api/capsule.rst:141
-#: ../../c-api/capsule.rst:150 ../../c-api/capsule.rst:158
+#: ../../c-api/capsule.rst:135 ../../c-api/capsule.rst:142
+#: ../../c-api/capsule.rst:151 ../../c-api/capsule.rst:159
 msgid ""
 "Return ``0`` on success.  Return nonzero and set an exception on failure."
 msgstr ""
 
-#: ../../c-api/capsule.rst:139
+#: ../../c-api/capsule.rst:140
 msgid "Set the destructor inside *capsule* to *destructor*."
 msgstr ""
 
-#: ../../c-api/capsule.rst:146
+#: ../../c-api/capsule.rst:147
 msgid ""
 "Set the name inside *capsule* to *name*.  If non-``NULL``, the name must "
 "outlive the capsule.  If the previous *name* stored in the capsule was not "
 "``NULL``, no attempt is made to free it."
 msgstr ""
 
-#: ../../c-api/capsule.rst:155
+#: ../../c-api/capsule.rst:156
 msgid ""
 "Set the void pointer inside *capsule* to *pointer*.  The pointer may not be "
 "``NULL``."
+msgstr ""
+
+#: ../../c-api/capsule.rst:8
+msgid "object"
+msgstr "objek"
+
+#: ../../c-api/capsule.rst:8
+msgid "Capsule"
 msgstr ""
