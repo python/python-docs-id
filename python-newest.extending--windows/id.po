@@ -1,16 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Elmo <work.elmoallistair@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 17:42+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:52+0000\n"
+"Last-Translator: Elmo <work.elmoallistair@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../extending/windows.rst:8
 msgid "Building C and C++ Extensions on Windows"
-msgstr ""
+msgstr "Membangun Ekstensi C dan C++ di Windows"
 
 #: ../../extending/windows.rst:10
 msgid ""
@@ -30,6 +34,12 @@ msgid ""
 "programmer interested in producing software which can be successfully built "
 "on both Unix and Windows."
 msgstr ""
+"Bab ini menjelaskan secara singkat cara membuat modul ekstensi Windows untuk"
+" Python menggunakan Microsoft Visual C++, dan diikuti dengan informasi latar"
+" belakang yang lebih rinci tentang cara kerjanya. Materi penjelasan berguna "
+"untuk pemrogram Windows yang belajar membuat ekstensi Python dan pemrogram "
+"Unix yang tertarik untuk memproduksi perangkat lunak yang dapat dibangun di "
+"Unix dan Windows."
 
 #: ../../extending/windows.rst:17
 msgid ""
@@ -38,6 +48,10 @@ msgid ""
 "still need the C compiler that was used to build Python; typically Microsoft"
 " Visual C++."
 msgstr ""
+"Penulis modul didorong untuk menggunakan pendekatan distutil untuk membangun"
+" modul ekstensi, daripada yang dijelaskan di bagian ini. Anda masih "
+"memerlukan kompiler C yang digunakan untuk membangun Python; biasanya "
+"Microsoft Visual C++."
 
 #: ../../extending/windows.rst:24
 msgid ""
@@ -48,6 +62,12 @@ msgid ""
 "working with.  For example, if you are using Python 2.2.1, ``XY`` will "
 "actually be ``22``."
 msgstr ""
+"Bab ini menyebutkan sejumlah nama file yang menyertakan nomor versi Python "
+"yang disandikan. Nama file ini diwakili dengan nomor versi yang ditampilkan "
+"sebagai ``XY``; dalam praktiknya, ``'X'`` akan menjadi nomor versi utama dan"
+" ``'Y'`` akan menjadi nomor versi minor dari rilis Python yang sedang Anda "
+"kerjakan. Misalnya, jika Anda menggunakan Python 2.2.1, ``XY`` sebenarnya "
+"akan menjadi ``22``."
 
 #: ../../extending/windows.rst:34
 msgid "A Cookbook Approach"
@@ -56,10 +76,10 @@ msgstr ""
 #: ../../extending/windows.rst:36
 msgid ""
 "There are two approaches to building extension modules on Windows, just as "
-"there are on Unix: use the :mod:`distutils` package to control the build "
-"process, or do things manually.  The distutils approach works well for most "
-"extensions; documentation on using :mod:`distutils` to build and package "
-"extension modules is available in :ref:`distutils-index`.  If you find you "
+"there are on Unix: use the ``setuptools`` package to control the build "
+"process, or do things manually.  The setuptools approach works well for most"
+" extensions; documentation on using ``setuptools`` to build and package "
+"extension modules is available in :ref:`setuptools-index`.  If you find you "
 "really need to do things manually, it may be instructive to study the "
 "project file for the :source:`winsound <PCbuild/winsound.vcxproj>` standard "
 "library module."
@@ -140,25 +160,76 @@ msgid ""
 " create a separate copy."
 msgstr ""
 
-#: ../../extending/windows.rst:103
+#: ../../extending/windows.rst:101
+msgid ""
+"Turn off the implicit, ``#pragma``-based linkage with the Python library, "
+"performed inside CPython header files."
+msgstr ""
+
+#: ../../extending/windows.rst:110
 msgid "Using DLLs in Practice"
 msgstr ""
 
-#: ../../extending/windows.rst:108
+#: ../../extending/windows.rst:115
 msgid ""
 "Windows Python is built in Microsoft Visual C++; using other compilers may "
-"or may not work (though Borland seems to).  The rest of this section is "
-"MSVC++ specific."
+"or may not work.  The rest of this section is MSVC++ specific."
 msgstr ""
 
-#: ../../extending/windows.rst:112
+#: ../../extending/windows.rst:118
 msgid ""
-"When creating DLLs in Windows, you must pass :file:`pythonXY.lib` to the "
-"linker. To build two DLLs, spam and ni (which uses C functions found in "
-"spam), you could use these commands::"
+"When creating DLLs in Windows, you can use the CPython library in two ways:"
 msgstr ""
 
-#: ../../extending/windows.rst:119
+#: ../../extending/windows.rst:120
+msgid ""
+"By default, inclusion of :file:`PC/pyconfig.h` directly or via "
+":file:`Python.h` triggers an implicit, configure-aware link with the "
+"library.  The header file chooses :file:`pythonXY_d.lib` for Debug, "
+":file:`pythonXY.lib` for Release, and :file:`pythonX.lib` for Release with "
+"the `Limited API <stable-application-binary-interface>`_ enabled."
+msgstr ""
+
+#: ../../extending/windows.rst:126 ../../extending/windows.rst:144
+msgid ""
+"To build two DLLs, spam and ni (which uses C functions found in spam), you "
+"could use these commands::"
+msgstr ""
+
+#: ../../extending/windows.rst:129
+msgid ""
+"cl /LD /I/python/include spam.c\n"
+"cl /LD /I/python/include ni.c spam.lib"
+msgstr ""
+
+#: ../../extending/windows.rst:132
+msgid ""
+"The first command created three files: :file:`spam.obj`, :file:`spam.dll` "
+"and :file:`spam.lib`.  :file:`Spam.dll` does not contain any Python "
+"functions (such as :c:func:`PyArg_ParseTuple`), but it does know how to find"
+" the Python code thanks to the implicitly linked :file:`pythonXY.lib`."
+msgstr ""
+
+#: ../../extending/windows.rst:137 ../../extending/windows.rst:155
+msgid ""
+"The second command created :file:`ni.dll` (and :file:`.obj` and "
+":file:`.lib`), which knows how to find the necessary functions from spam, "
+"and also from the Python executable."
+msgstr ""
+
+#: ../../extending/windows.rst:141
+msgid ""
+"Manually by defining :c:macro:`Py_NO_LINK_LIB` macro before including "
+":file:`Python.h`. You must pass :file:`pythonXY.lib` to the linker."
+msgstr ""
+
+#: ../../extending/windows.rst:147
+msgid ""
+"cl /LD /DPy_NO_LINK_LIB /I/python/include spam.c ../libs/pythonXY.lib\n"
+"cl /LD /DPy_NO_LINK_LIB /I/python/include ni.c spam.lib ../libs/pythonXY.lib"
+msgstr ""
+
+#: ../../extending/windows.rst:150
 msgid ""
 "The first command created three files: :file:`spam.obj`, :file:`spam.dll` "
 "and :file:`spam.lib`.  :file:`Spam.dll` does not contain any Python "
@@ -166,14 +237,7 @@ msgid ""
 " the Python code thanks to :file:`pythonXY.lib`."
 msgstr ""
 
-#: ../../extending/windows.rst:124
-msgid ""
-"The second command created :file:`ni.dll` (and :file:`.obj` and "
-":file:`.lib`), which knows how to find the necessary functions from spam, "
-"and also from the Python executable."
-msgstr ""
-
-#: ../../extending/windows.rst:128
+#: ../../extending/windows.rst:159
 msgid ""
 "Not every identifier is exported to the lookup table.  If you want any other"
 " modules (including Python) to be able to see your identifiers, you have to "
@@ -181,10 +245,11 @@ msgid ""
 "initspam(void)`` or ``PyObject _declspec(dllexport) *NiGetSpamData(void)``."
 msgstr ""
 
-#: ../../extending/windows.rst:133
+#: ../../extending/windows.rst:164
 msgid ""
 "Developer Studio will throw in a lot of import libraries that you do not "
 "really need, adding about 100K to your executable.  To get rid of them, use "
 "the Project Settings dialog, Link tab, to specify *ignore default "
-"libraries*.  Add the correct :file:`msvcrtxx.lib` to the list of libraries."
+"libraries*.  Add the correct :file:`msvcrt{xx}.lib` to the list of "
+"libraries."
 msgstr ""
