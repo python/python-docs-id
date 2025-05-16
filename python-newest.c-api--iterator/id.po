@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# LIQRGV <septianhari@gmail.com>, 2019
+# LIQRGV <septianhari@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-07 05:06+0000\n"
-"PO-Revision-Date: 2017-02-16 17:36+0000\n"
-"Last-Translator: LIQRGV <septianhari@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:49+0000\n"
+"Last-Translator: LIQRGV <septianhari@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,15 +29,10 @@ msgstr "Objek Iterator "
 msgid ""
 "Python provides two general-purpose iterator objects.  The first, a sequence"
 " iterator, works with an arbitrary sequence supporting the "
-":meth:`__getitem__` method.  The second works with a callable object and a "
-"sentinel value, calling the callable for each item in the sequence, and "
-"ending the iteration when the sentinel value is returned."
+":meth:`~object.__getitem__` method.  The second works with a callable object"
+" and a sentinel value, calling the callable for each item in the sequence, "
+"and ending the iteration when the sentinel value is returned."
 msgstr ""
-"Python menyediakan dua objek iterator untuk tujuan umum. Yang pertama, "
-"iterator urutan, bekerja dengan objek yang mendukung metode "
-":meth:`__getitem__`. Yang kedua bekerja dengan objek yang bisa dipanggil dan"
-" nilai penjaga (sentinel), memanggil callable untuk setiap item dalam "
-"urutan, dan mengakhiri iterasi ketika nilai penjaga dikembalikan."
 
 #: ../../c-api/iterator.rst:17
 msgid ""
