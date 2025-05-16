@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 17:42+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:52+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,19 +75,13 @@ msgstr "Alat pihak ketiga yang direkomendasikan"
 msgid ""
 "This guide only covers the basic tools for creating extensions provided as "
 "part of this version of CPython. Third party tools like `Cython "
-"<http://cython.org/>`_, `cffi <https://cffi.readthedocs.io>`_, `SWIG "
-"<http://www.swig.org>`_ and `Numba <https://numba.pydata.org/>`_ offer both "
-"simpler and more sophisticated approaches to creating C and C++ extensions "
+"<https://cython.org/>`_, `cffi <https://cffi.readthedocs.io>`_, `SWIG "
+"<https://www.swig.org>`_ and `Numba <https://numba.pydata.org/>`_ offer both"
+" simpler and more sophisticated approaches to creating C and C++ extensions "
 "for Python."
 msgstr ""
-"Panduan ini hanya mencakup alat dasar untuk membuat ekstensi yang disediakan"
-" sebagai bagian dari versi CPython ini. Alat pihak ketiga seperti `Cython "
-"<http://cython.org/>`_, `cffi <https://cffi.readthedocs.io>`_, `SWIG "
-"<http://www.swig.org>`_ dan `Numba <https://numba.pydata.org/>`_ menawarkan "
-"pendekatan yang lebih sederhana dan lebih canggih untuk membuat ekstensi C "
-"dan C++ untuk Python."
 
-#: ../../extending/index.rst:40
+#: ../../extending/index.rst:37
 msgid ""
 "`Python Packaging User Guide: Binary Extensions "
 "<https://packaging.python.org/guides/packaging-binary-extensions/>`_"
