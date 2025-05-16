@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 03:54+0000\n"
-"PO-Revision-Date: 2017-02-16 17:37+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:49+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,71 +36,79 @@ msgstr ""
 
 #: ../../c-api/marshal.rst:16
 msgid ""
-"The module supports two versions of the data format: version 0 is the "
-"historical version, version 1 shares interned strings in the file, and upon "
-"unmarshalling.  Version 2 uses a binary format for floating point numbers. "
-"``Py_MARSHAL_VERSION`` indicates the current file format (currently 2)."
+"The module supports several versions of the data format; see the "
+":py:mod:`Python module documentation <marshal>` for details."
 msgstr ""
 
-#: ../../c-api/marshal.rst:24
+#: ../../c-api/marshal.rst:21
+msgid "The current format version. See :py:data:`marshal.version`."
+msgstr ""
+
+#: ../../c-api/marshal.rst:25
 msgid ""
-"Marshal a :c:type:`long` integer, *value*, to *file*.  This will only write "
+"Marshal a :c:expr:`long` integer, *value*, to *file*.  This will only write "
 "the least-significant 32 bits of *value*; regardless of the size of the "
-"native :c:type:`long` type.  *version* indicates the file format."
+"native :c:expr:`long` type.  *version* indicates the file format."
 msgstr ""
 
-#: ../../c-api/marshal.rst:31
+#: ../../c-api/marshal.rst:29 ../../c-api/marshal.rst:37
+msgid ""
+"This function can fail, in which case it sets the error indicator. Use "
+":c:func:`PyErr_Occurred` to check for that."
+msgstr ""
+
+#: ../../c-api/marshal.rst:34
 msgid ""
 "Marshal a Python object, *value*, to *file*. *version* indicates the file "
 "format."
 msgstr ""
 
-#: ../../c-api/marshal.rst:37
+#: ../../c-api/marshal.rst:42
 msgid ""
 "Return a bytes object containing the marshalled representation of *value*. "
 "*version* indicates the file format."
 msgstr ""
 
-#: ../../c-api/marshal.rst:41
+#: ../../c-api/marshal.rst:46
 msgid "The following functions allow marshalled values to be read back in."
 msgstr ""
 
-#: ../../c-api/marshal.rst:46
+#: ../../c-api/marshal.rst:51
 msgid ""
-"Return a C :c:type:`long` from the data stream in a :c:type:`FILE*` opened "
+"Return a C :c:expr:`long` from the data stream in a :c:expr:`FILE*` opened "
 "for reading.  Only a 32-bit value can be read in using this function, "
-"regardless of the native size of :c:type:`long`."
+"regardless of the native size of :c:expr:`long`."
 msgstr ""
 
-#: ../../c-api/marshal.rst:50 ../../c-api/marshal.rst:60
+#: ../../c-api/marshal.rst:55 ../../c-api/marshal.rst:65
 msgid ""
 "On error, sets the appropriate exception (:exc:`EOFError`) and returns "
 "``-1``."
 msgstr ""
 
-#: ../../c-api/marshal.rst:56
+#: ../../c-api/marshal.rst:61
 msgid ""
-"Return a C :c:type:`short` from the data stream in a :c:type:`FILE*` opened "
+"Return a C :c:expr:`short` from the data stream in a :c:expr:`FILE*` opened "
 "for reading.  Only a 16-bit value can be read in using this function, "
-"regardless of the native size of :c:type:`short`."
+"regardless of the native size of :c:expr:`short`."
 msgstr ""
 
-#: ../../c-api/marshal.rst:66
+#: ../../c-api/marshal.rst:71
 msgid ""
-"Return a Python object from the data stream in a :c:type:`FILE*` opened for "
+"Return a Python object from the data stream in a :c:expr:`FILE*` opened for "
 "reading."
 msgstr ""
 
-#: ../../c-api/marshal.rst:69 ../../c-api/marshal.rst:83
-#: ../../c-api/marshal.rst:92
+#: ../../c-api/marshal.rst:74 ../../c-api/marshal.rst:88
+#: ../../c-api/marshal.rst:97
 msgid ""
 "On error, sets the appropriate exception (:exc:`EOFError`, :exc:`ValueError`"
 " or :exc:`TypeError`) and returns ``NULL``."
 msgstr ""
 
-#: ../../c-api/marshal.rst:75
+#: ../../c-api/marshal.rst:80
 msgid ""
-"Return a Python object from the data stream in a :c:type:`FILE*` opened for "
+"Return a Python object from the data stream in a :c:expr:`FILE*` opened for "
 "reading.  Unlike :c:func:`PyMarshal_ReadObjectFromFile`, this function "
 "assumes that no further objects will be read from the file, allowing it to "
 "aggressively load file data into memory so that the de-serialization can "
@@ -109,7 +117,7 @@ msgid ""
 "anything else from the file."
 msgstr ""
 
-#: ../../c-api/marshal.rst:89
+#: ../../c-api/marshal.rst:94
 msgid ""
 "Return a Python object from the data stream in a byte buffer containing "
 "*len* bytes pointed to by *data*."
