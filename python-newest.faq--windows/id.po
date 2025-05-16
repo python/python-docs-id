@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,12 +9,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-23 06:25+0000\n"
-"PO-Revision-Date: 2017-02-16 17:43+0000\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:52+0000\n"
 "Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,19 +46,16 @@ msgstr ""
 #: ../../faq/windows.rst:28
 msgid ""
 "Unless you use some sort of integrated development environment, you will end"
-" up *typing* Windows commands into what is variously referred to as a \"DOS "
-"window\" or \"Command prompt window\".  Usually you can create such a window"
-" from your search bar by searching for ``cmd``.  You should be able to "
-"recognize when you have started such a window because you will see a Windows"
-" \"command prompt\", which usually looks like this:"
+" up *typing* Windows commands into what is referred to as a \"Command prompt"
+" window\".  Usually you can create such a window from your search bar by "
+"searching for ``cmd``.  You should be able to recognize when you have "
+"started such a window because you will see a Windows \"command prompt\", "
+"which usually looks like this:"
 msgstr ""
-"Kecuali jika Anda menggunakan semacam lingkungan pengembangan terintegrasi, "
-"Anda akan berakhir dengan mengetik perintah Windows menjadi apa yang disebut"
-" sebagai \"DOS window\" atau \"Command prompt window\". Biasanya anda dapat "
-"membuat sebuah *window* dari bilah pencarian dengan mencari ``cmd``.  Anda "
-"juga dapat mengenali ketika anda memulai sebuah *window* karena Anda akan "
-"melihat sebuah Windows \"command prompt\", yang mana biasanya akan tampak "
-"seperti ini:"
+
+#: ../../faq/windows.rst:35
+msgid "C:\\>"
+msgstr ""
 
 #: ../../faq/windows.rst:39
 msgid ""
@@ -67,6 +64,10 @@ msgid ""
 msgstr ""
 "Suratnya mungkin berbeda, dan mungkin ada hal lain setelahnya, jadi kamu "
 "mungkin dapat dengan mudah melihat sesuatu seperti ini:"
+
+#: ../../faq/windows.rst:42
+msgid "D:\\YourName\\Projects\\Python>"
+msgstr ""
 
 #: ../../faq/windows.rst:46
 msgid ""
@@ -103,9 +104,20 @@ msgstr ""
 "\"py\" sebagai instruksi untuk memulai penerjemah. Jika Anda telah membuka "
 "command window, Anda dapat mengketik command ``py`` dan menekan kembali:"
 
+#: ../../faq/windows.rst:60
+msgid "C:\\Users\\YourName> py"
+msgstr ""
+
 #: ../../faq/windows.rst:64
 msgid "You should then see something like:"
 msgstr "Anda dapat melihat sesuatu tampak seperti ini:"
+
+#: ../../faq/windows.rst:66
+msgid ""
+"Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32\n"
+"Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n"
+">>>"
+msgstr ""
 
 #: ../../faq/windows.rst:72
 msgid ""
@@ -120,6 +132,14 @@ msgstr ""
 "mengeksekusi atau mengevaluasi selang Anda menunggu. Ini adalah salah satu "
 "fitur terkuat Python. Periksa dengan memasukkan beberapa ekspresi pilihan "
 "Anda dan melihat hasilnya:"
+
+#: ../../faq/windows.rst:77
+msgid ""
+">>> print(\"Hello\")\n"
+"Hello\n"
+">>> \"Hello\" * 3\n"
+"'HelloHelloHello'"
+msgstr ""
 
 #: ../../faq/windows.rst:84
 msgid ""
@@ -166,6 +186,10 @@ msgstr ""
 "desktop Anda dan itu bernama ``hello.py``. dan command prompt Anda terbuka "
 "di direktori home jadi anda dapat tampak melihat sesuatu familiar seperti::"
 
+#: ../../faq/windows.rst:104
+msgid "C:\\Users\\YourName>"
+msgstr ""
+
 #: ../../faq/windows.rst:106
 msgid ""
 "So now you'll ask the ``py`` command to give your script to Python by typing"
@@ -173,6 +197,12 @@ msgid ""
 msgstr ""
 "Jadi sekarang Anda akan meminta perintah ``py`` untuk memberikan skrip Anda "
 "ke Python dengan mengetik ``py`` yang dilanjuti dengan jalur skrip Anda::"
+
+#: ../../faq/windows.rst:110
+msgid ""
+"C:\\Users\\YourName> py Desktop\\hello.py\n"
+"hello"
+msgstr ""
 
 #: ../../faq/windows.rst:114
 msgid "How do I make Python scripts executable?"
@@ -297,18 +327,13 @@ msgstr ""
 
 #: ../../faq/windows.rst:170
 msgid ""
-"Do _not_ build Python into your .exe file directly.  On Windows, Python must"
-" be a DLL to handle importing modules that are themselves DLL's.  (This is "
-"the first key undocumented fact.)  Instead, link to :file:`python{NN}.dll`; "
-"it is typically installed in ``C:\\Windows\\System``.  *NN* is the Python "
-"version, a number such as \"33\" for Python 3.3."
+"Do **not** build Python into your .exe file directly.  On Windows, Python "
+"must be a DLL to handle importing modules that are themselves DLL's.  (This "
+"is the first key undocumented fact.)  Instead, link to "
+":file:`python{NN}.dll`; it is typically installed in "
+"``C:\\Windows\\System``.  *NN* is the Python version, a number such as "
+"\"33\" for Python 3.3."
 msgstr ""
-"Jangan buat Python Anda langsung ke dalam .exe. Di Windows, Python harus "
-"menjadi DLL untuk menangani modul impor yang merupakan DLL itu sendiri. (Ini"
-" adalahfakta kunci pertama yang tidak terdokumentasi.) Sebagai gantinya, "
-"tautkan ke :file:`python{NN}.dll`; itu biasanya dipasang di "
-"``C:\\Windows\\System``. *NN* adalah Python versi, angka seperti \"33\" "
-"untuk Python 3.3."
 
 #: ../../faq/windows.rst:176
 msgid ""
@@ -343,29 +368,16 @@ msgstr ""
 " menggunakan pointer tersebut ke kode C apapun yang memanggil rutinitas di C"
 " Python API."
 
-#: ../../faq/windows.rst:189
-msgid ""
-"Borland note: convert :file:`python{NN}.lib` to OMF format using "
-"Coff2Omf.exe first."
-msgstr ""
-"Catatan Borland: ubah :file:`python{NN}.lib` ke format OMF menggunakan "
-"Coff20mf.exe terlebih dahulu."
-
-#: ../../faq/windows.rst:194
+#: ../../faq/windows.rst:191
 msgid ""
 "If you use SWIG, it is easy to create a Python \"extension module\" that "
 "will make the app's data and methods available to Python.  SWIG will handle "
 "just about all the grungy details for you.  The result is C code that you "
-"link *into* your .exe file (!)  You do _not_ have to create a DLL file, and "
-"this also simplifies linking."
+"link *into* your .exe file (!)  You do **not** have to create a DLL file, "
+"and this also simplifies linking."
 msgstr ""
-"Jika Anda menggunakan SWIG, mudah untuk membuat \"modul ekstensi\" Python "
-"dan hal itu akan membuat data di aplikasi dan metode yang tersedia ke "
-"Python. SWIG juga akan menangani tentang semua detail kumuh untuk Anda. "
-"Hasilnya adalah kode C Anda yang terkaitkan ke .exe file Anda (!)  Kamu "
-"tidak perlu membuat sebuah file DLL, dan ini juga memudahkan proses linking."
 
-#: ../../faq/windows.rst:200
+#: ../../faq/windows.rst:197
 msgid ""
 "SWIG will create an init function (a C function) whose name depends on the "
 "name of the extension module.  For example, if the name of the module is "
@@ -380,7 +392,7 @@ msgstr ""
 "kelas pembantu yang sebagian besar tersembunyi yang digunakan oleh kelas "
 "bayangan."
 
-#: ../../faq/windows.rst:206
+#: ../../faq/windows.rst:203
 msgid ""
 "The reason you can link the C code in step 2 into your .exe file is that "
 "calling the initialization function is equivalent to importing the module "
@@ -390,7 +402,7 @@ msgstr ""
 "itu memanggil fungsi inisialisasi sama dengan mengimpor modul ke dalam "
 "Python! (Ini adalah fakta kunci tak terdokumentasi kedua.)"
 
-#: ../../faq/windows.rst:210
+#: ../../faq/windows.rst:207
 msgid ""
 "In short, you can use the following code to initialize the Python "
 "interpreter with your extension module."
@@ -398,7 +410,16 @@ msgstr ""
 "Singkatnya, Anda dapat menggunakan kode berikut untuk menginisialisasi "
 "Python interpreter dengan ekstensi modul Anda."
 
-#: ../../faq/windows.rst:221
+#: ../../faq/windows.rst:210
+msgid ""
+"#include <Python.h>\n"
+"...\n"
+"Py_Initialize();  // Initialize Python.\n"
+"initmyAppc();  // Initialize (import) the helper class.\n"
+"PyRun_SimpleString(\"import myApp\");  // Import the shadow class."
+msgstr ""
+
+#: ../../faq/windows.rst:218
 msgid ""
 "There are two problems with Python's C API which will become apparent if you"
 " use a compiler other than MSVC, the compiler used to build pythonNN.dll."
@@ -407,19 +428,15 @@ msgstr ""
 "kompilator selain MSVC, kompilator yang digunakan untuk membangun "
 "pythonNN.dll."
 
-#: ../../faq/windows.rst:224
+#: ../../faq/windows.rst:221
 msgid ""
-"Problem 1: The so-called \"Very High Level\" functions that take FILE * "
+"Problem 1: The so-called \"Very High Level\" functions that take ``FILE *`` "
 "arguments will not work in a multi-compiler environment because each "
-"compiler's notion of a struct FILE will be different.  From an "
-"implementation standpoint these are very _low_ level functions."
+"compiler's notion of a ``struct FILE`` will be different.  From an "
+"implementation standpoint these are very low level functions."
 msgstr ""
-"Masalah 1: Yang disebut dengan \"Very High Level\" fungsi yang mengambil "
-"FILE * argumen tidak akan berfungsi di lingkungan multi-kompilator karena "
-"masing-masing Gagasan kompiler tentang struct FILE akan berbeda. Dari sebuah"
-" sudut pandang implementasi ini adalah fungsi level yang sangat _low_."
 
-#: ../../faq/windows.rst:229
+#: ../../faq/windows.rst:226
 msgid ""
 "Problem 2: SWIG generates the following code when generating wrappers to "
 "void functions:"
@@ -427,7 +444,14 @@ msgstr ""
 "Masalah 2: SWIG menghasilkan kode berikut saat membuat wrappers ke dalam "
 "fungsi void:"
 
-#: ../../faq/windows.rst:238
+#: ../../faq/windows.rst:229
+msgid ""
+"Py_INCREF(Py_None);\n"
+"_resultobj = Py_None;\n"
+"return _resultobj;"
+msgstr ""
+
+#: ../../faq/windows.rst:235
 msgid ""
 "Alas, Py_None is a macro that expands to a reference to a complex data "
 "structure called _Py_NoneStruct inside pythonNN.dll.  Again, this code will "
@@ -437,7 +461,11 @@ msgstr ""
 "struktur yang disebut _Py_NoneStruct di dalam pythonNN.dll. Sekali lagi, "
 "kode ini akan gagal di lingkungan mult-compiler. Ganti kode tersebut dengan:"
 
-#: ../../faq/windows.rst:246
+#: ../../faq/windows.rst:239
+msgid "return Py_BuildValue(\"\");"
+msgstr ""
+
+#: ../../faq/windows.rst:243
 msgid ""
 "It may be possible to use SWIG's ``%typemap`` command to make the change "
 "automatically, though I have not been able to get this to work (I'm a "
@@ -447,7 +475,7 @@ msgstr ""
 "perubahan secara otomatis, meskipun saya belum bisa membuat ini berfungsi "
 "(saya adalah pemula SWIG)."
 
-#: ../../faq/windows.rst:250
+#: ../../faq/windows.rst:247
 msgid ""
 "Using a Python shell script to put up a Python interpreter window from "
 "inside your Windows app is not a good idea; the resulting window will be "
@@ -467,12 +495,12 @@ msgstr ""
 "semua yang Anda butuhkan adalah objek Python (didefinisikan dalam modul "
 "ekstensi Anda) yang berisi metode read() dan write()."
 
-#: ../../faq/windows.rst:259
+#: ../../faq/windows.rst:256
 msgid "How do I keep editors from inserting tabs into my Python source?"
 msgstr ""
 "Bagaimana cara mencegah editor memasukkan tab ke dalam sumber Python saya?"
 
-#: ../../faq/windows.rst:261
+#: ../../faq/windows.rst:258
 msgid ""
 "The FAQ does not recommend using tabs, and the Python style guide, :pep:`8`,"
 " recommends 4 spaces for distributed Python code; this is also the Emacs "
@@ -482,7 +510,7 @@ msgstr ""
 ":pep:`8`, merekomendasikan dengan 4 spasi untuk distribusi kode Python; ini "
 "juga Emacs python-mode secara default."
 
-#: ../../faq/windows.rst:265
+#: ../../faq/windows.rst:262
 msgid ""
 "Under any editor, mixing tabs and spaces is a bad idea.  MSVC is no "
 "different in this respect, and is easily configured to use spaces: Take "
@@ -496,7 +524,7 @@ msgstr ""
 "tipe \"Default\" set \"Tab size\" dan \"Indent size\" menjadi 4, dan pilih "
 "\"Insert spaces\" tombol radio."
 
-#: ../../faq/windows.rst:270
+#: ../../faq/windows.rst:267
 msgid ""
 "Python raises :exc:`IndentationError` or :exc:`TabError` if mixed tabs and "
 "spaces are causing problems in leading whitespace. You may also run the "
@@ -507,11 +535,11 @@ msgstr ""
 "Anda juga dapat menjalankan :mod:`tabnanny` modul untuk mengecek sebuah "
 "direktori di mode batch."
 
-#: ../../faq/windows.rst:277
+#: ../../faq/windows.rst:274
 msgid "How do I check for a keypress without blocking?"
 msgstr "Bagaimana cara memeriksa tombol yang ditekan tanpa memblokir?"
 
-#: ../../faq/windows.rst:279
+#: ../../faq/windows.rst:276
 msgid ""
 "Use the :mod:`msvcrt` module.  This is a standard Windows-specific extension"
 " module. It defines a function ``kbhit()`` which checks whether a keyboard "
@@ -520,3 +548,17 @@ msgstr ""
 "Gunakan modul msvcrt. Ini adalah ekstensi khusus Windows standar modul. Ini "
 "mendefinisikan fungsi ``kbhit()`` yang memeriksa apakah keyboard menekan, "
 "dan ``getch()`` yang mendapat satu karakter tanpa mengulanginya."
+
+#: ../../faq/windows.rst:281
+msgid "How do I solve the missing api-ms-win-crt-runtime-l1-1-0.dll error?"
+msgstr ""
+
+#: ../../faq/windows.rst:283
+msgid ""
+"This can occur on Python 3.5 and later when using Windows 8.1 or earlier "
+"without all updates having been installed. First ensure your operating "
+"system is supported and is up to date, and if that does not resolve the "
+"issue, visit the `Microsoft support page <https://support.microsoft.com/en-"
+"us/help/3118401/>`_ for guidance on manually installing the C Runtime "
+"update."
+msgstr ""
