@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-23 03:56+0000\n"
-"PO-Revision-Date: 2017-02-16 17:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:52+0000\n"
+"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,11 +125,9 @@ msgstr ""
 
 #: ../../faq/general.rst:57
 msgid ""
-"See `the PSF license page <https://www.python.org/psf/license/>`_ to find "
-"further explanations and a link to the full text of the license."
+"See `the license page <https://docs.python.org/3/license.html>`_ to find "
+"further explanations and the full text of the PSF License."
 msgstr ""
-"Lihat `halaman lisensi PSF <https://www.python.org/psf/license/>`_ untuk "
-"tahu lebih lanjut penjelasan dan tautan ke teks lisensi seluruhnya."
 
 #: ../../faq/general.rst:60
 msgid ""
@@ -253,78 +251,77 @@ msgstr ""
 msgid ""
 "The language comes with a large standard library that covers areas such as "
 "string processing (regular expressions, Unicode, calculating differences "
-"between files), Internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP, CGI"
-" programming), software engineering (unit testing, logging, profiling, "
-"parsing Python code), and operating system interfaces (system calls, "
-"filesystems, TCP/IP sockets).  Look at the table of contents for :ref"
-":`library-index` to get an idea of what's available.  A wide variety of "
-"third-party extensions are also available.  Consult `the Python Package "
-"Index <https://pypi.org>`_ to find packages of interest to you."
+"between files), internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP), "
+"software engineering (unit testing, logging, profiling, parsing Python "
+"code), and operating system interfaces (system calls, filesystems, TCP/IP "
+"sockets).  Look at the table of contents for :ref:`library-index` to get an "
+"idea of what's available.  A wide variety of third-party extensions are also"
+" available.  Consult `the Python Package Index <https://pypi.org>`_ to find "
+"packages of interest to you."
 msgstr ""
-"Bahasa ini dilengkapi dengan pustaka standar berukuran besar yang mencakup "
-"bidang-bidang seperti pemrosesan string (ekspresi reguler, Unicode, "
-"penghitungan perbedaan antara file), protokol Internet (HTTP, FTP, SMTP, "
-"XML-RPC, POP, IMAP, pemrograman CGI), rekayasa perangkat lunak (pengujian "
-"unit, pencatatan, pembuatan profil, penguraian kode Python), dan antarmuka "
-"sistem operasi (panggilan sistem, sistem berkas, soket TCP/IP). Lihatlah "
-"daftar isi untuk :ref:`library-index` untuk mendapatkan gambaran tentang apa"
-" yang tersedia. Berbagai ekstensi pihak ketiga juga tersedia. Periksa `the "
-"Python Package Index <https://pypi.org>`_ untuk menemukan paket yang menarik"
-" bagi Anda."
 
-#: ../../faq/general.rst:126
+#: ../../faq/general.rst:128
 msgid "How does the Python version numbering scheme work?"
 msgstr "Bagaimana cara kerja skema penomoran versi Python?"
 
-#: ../../faq/general.rst:128
-msgid ""
-"Python versions are numbered A.B.C or A.B.  A is the major version number --"
-" it is only incremented for really major changes in the language.  B is the "
-"minor version number, incremented for less earth-shattering changes.  C is "
-"the micro-level -- it is incremented for each bugfix release.  See :pep:`6` "
-"for more information about bugfix releases."
+#: ../../faq/general.rst:130
+msgid "Python versions are numbered \"A.B.C\" or \"A.B\":"
 msgstr ""
-"Versi python diberi nomor A.B.C atau A.B. A adalah nomor versi utama -- "
-"hanya bertambah untuk perubahan besar dalam bahasa. B adalah nomor versi "
-"minor, ditambahkan untuk mengurangi perubahan yang menggoncang dunia. C "
-"adalah level mikro -- ia bertambah untuk setiap rilis bugfix. Lihat :pep:`6`"
-" untuk informasi lebih lanjut tentang rilis perbaikan bug."
+
+#: ../../faq/general.rst:132
+msgid ""
+"*A* is the major version number -- it is only incremented for really major "
+"changes in the language."
+msgstr ""
 
 #: ../../faq/general.rst:134
 msgid ""
-"Not all releases are bugfix releases.  In the run-up to a new major release,"
-" a series of development releases are made, denoted as alpha, beta, or "
-"release candidate.  Alphas are early releases in which interfaces aren't yet"
-" finalized; it's not unexpected to see an interface change between two alpha"
-" releases. Betas are more stable, preserving existing interfaces but "
+"*B* is the minor version number -- it is incremented for less earth-"
+"shattering changes."
+msgstr ""
+
+#: ../../faq/general.rst:136
+msgid ""
+"*C* is the micro version number -- it is incremented for each bugfix "
+"release."
+msgstr ""
+
+#: ../../faq/general.rst:138
+msgid ""
+"Not all releases are bugfix releases.  In the run-up to a new feature "
+"release, a series of development releases are made, denoted as alpha, beta, "
+"or release candidate.  Alphas are early releases in which interfaces aren't "
+"yet finalized; it's not unexpected to see an interface change between two "
+"alpha releases. Betas are more stable, preserving existing interfaces but "
 "possibly adding new modules, and release candidates are frozen, making no "
 "changes except as needed to fix critical bugs."
 msgstr ""
-"Tidak semua rilis adalah rilis perbaikan bug. Menjelang rilis besar baru, "
-"serangkaian rilis pengembangan dibuat, dilambangkan sebagai alpha, beta, "
-"atau kandidat rilis. Alpha adalah rilis awal di mana antarmuka belum "
-"difinalisasi; itu tidak terduga untuk melihat perubahan antarmuka antara dua"
-" rilis alpha. Beta lebih stabil, menjaga antarmuka yang ada tetapi mungkin "
-"menambahkan modul baru, dan rilis kandidat yang dibekukan, tidak membuat "
-"perubahan kecuali jika diperlukan untuk memperbaiki bug kritis."
 
-#: ../../faq/general.rst:142
-msgid ""
-"Alpha, beta and release candidate versions have an additional suffix.  The "
-"suffix for an alpha version is \"aN\" for some small number N, the suffix "
-"for a beta version is \"bN\" for some small number N, and the suffix for a "
-"release candidate version is \"rcN\" for some small number N.  In other "
-"words, all versions labeled 2.0aN precede the versions labeled 2.0bN, which "
-"precede versions labeled 2.0rcN, and *those* precede 2.0."
+#: ../../faq/general.rst:146
+msgid "Alpha, beta and release candidate versions have an additional suffix:"
 msgstr ""
-"Versi kandidat alfa, beta, dan kandidat rilis memiliki sufiks tambahan. "
-"Sufiks untuk versi alfa adalah \"aN\" untuk beberapa nomor kecil N, sufiks "
-"untuk versi beta adalah \"bN\" untuk beberapa nomor kecil N, dan sufiks "
-"untuk versi kandidat rilis adalah \"rcN\" untuk beberapa nomor kecil N. "
-"Dengan kata lain, semua versi berlabel 2.0aN mendahului versi berlabel "
-"2.0bN, yang mendahului versi berlabel 2.0rcN, dan mendahului *yang* 2.0."
+
+#: ../../faq/general.rst:148
+msgid "The suffix for an alpha version is \"aN\" for some small number *N*."
+msgstr ""
 
 #: ../../faq/general.rst:149
+msgid "The suffix for a beta version is \"bN\" for some small number *N*."
+msgstr ""
+
+#: ../../faq/general.rst:150
+msgid ""
+"The suffix for a release candidate version is \"rcN\" for some small number "
+"*N*."
+msgstr ""
+
+#: ../../faq/general.rst:152
+msgid ""
+"In other words, all versions labeled *2.0aN* precede the versions labeled "
+"*2.0bN*, which precede versions labeled *2.0rcN*, and *those* precede 2.0."
+msgstr ""
+
+#: ../../faq/general.rst:155
 msgid ""
 "You may also find version numbers with a \"+\" suffix, e.g. \"2.2+\".  These"
 " are unreleased versions, built directly from the CPython development "
@@ -338,19 +335,20 @@ msgstr ""
 "versi tersebut bertambah menjadi versi minor berikutnya, yang menjadi versi "
 "\"a0\", mis. \"2.4a0\"."
 
-#: ../../faq/general.rst:154
+#: ../../faq/general.rst:160
 msgid ""
-"See also the documentation for :data:`sys.version`, :data:`sys.hexversion`, "
-"and :data:`sys.version_info`."
+"See the `Developer's Guide <https://devguide.python.org/developer-"
+"workflow/development-cycle/>`__ for more information about the development "
+"cycle, and :pep:`387` to learn more about Python's backward compatibility "
+"policy.  See also the documentation for :data:`sys.version`, "
+":data:`sys.hexversion`, and :data:`sys.version_info`."
 msgstr ""
-"Lihat juga dokumentasi untuk :data:`sys.version`, :data:`sys.hexversion`, "
-"dan :data:`sys.version_info`."
 
-#: ../../faq/general.rst:159
+#: ../../faq/general.rst:169
 msgid "How do I obtain a copy of the Python source?"
 msgstr "Bagaimana saya mendapatkan salinan kode sumber Python?"
 
-#: ../../faq/general.rst:161
+#: ../../faq/general.rst:171
 msgid ""
 "The latest Python source distribution is always available from python.org, "
 "at https://www.python.org/downloads/.  The latest development sources can be"
@@ -360,7 +358,7 @@ msgstr ""
 "python.org, di https://www.python.org/downloads/.  Kode sumber pengembangan "
 "terbaru bisa didapatkan di https://github.com/python/cpython/."
 
-#: ../../faq/general.rst:165
+#: ../../faq/general.rst:175
 msgid ""
 "The source distribution is a gzipped tar file containing the complete C "
 "source, Sphinx-formatted documentation, Python library modules, example "
@@ -373,7 +371,7 @@ msgstr ""
 "Sumber akan mengkompilasi dan langsung dapat digunakan pada sebagian besar "
 "platform UNIX."
 
-#: ../../faq/general.rst:170
+#: ../../faq/general.rst:180
 msgid ""
 "Consult the `Getting Started section of the Python Developer's Guide "
 "<https://devguide.python.org/setup/>`__ for more information on getting the "
@@ -383,11 +381,11 @@ msgstr ""
 "<https://devguide.python.org/setup/>`__ untuk informasi lebih lanjut tentang"
 " mendapatkan kode sumber dan melakukan kompilasi."
 
-#: ../../faq/general.rst:176
+#: ../../faq/general.rst:186
 msgid "How do I get documentation on Python?"
 msgstr "Bagaimana saya mendapatkan dokumentasi tentang Python?"
 
-#: ../../faq/general.rst:180
+#: ../../faq/general.rst:188
 msgid ""
 "The standard documentation for the current stable version of Python is "
 "available at https://docs.python.org/3/.  PDF, plain text, and downloadable "
@@ -397,22 +395,20 @@ msgstr ""
 "https://docs.python.org/3/.  PDF, teks biasa, dan versi HTML yang dapat "
 "diunduh juga tersedia di https://docs.python.org/3/download.html."
 
-#: ../../faq/general.rst:184
+#: ../../faq/general.rst:192
 msgid ""
 "The documentation is written in reStructuredText and processed by `the "
-"Sphinx documentation tool <http://sphinx-doc.org/>`__.  The reStructuredText"
-" source for the documentation is part of the Python source distribution."
+"Sphinx documentation tool <https://www.sphinx-doc.org/>`__.  The "
+"reStructuredText source for the documentation is part of the Python source "
+"distribution."
 msgstr ""
-"Dokumentasi ditulis dalam reStructuredText dan diproses dengan `Alat "
-"dokumentasi Sphinx <http://sphinx-doc.org/>`__.  Sumber reStructuredText "
-"untuk dokumentasi merupakan bagian dari distribusi kode sumber Python."
 
-#: ../../faq/general.rst:190
+#: ../../faq/general.rst:198
 msgid "I've never programmed before. Is there a Python tutorial?"
 msgstr ""
 "Saya belum pernah memrogram sebelumnya. Apakah ada tutorial tentang Python?"
 
-#: ../../faq/general.rst:192
+#: ../../faq/general.rst:200
 msgid ""
 "There are numerous tutorials and books available.  The standard "
 "documentation includes :ref:`tutorial-index`."
@@ -420,7 +416,7 @@ msgstr ""
 "Ada sejumlah tutorial dan buku yang tersedia.  Dokumentasi standar "
 "menyertakan :ref:`tutorial-index`."
 
-#: ../../faq/general.rst:195
+#: ../../faq/general.rst:203
 msgid ""
 "Consult `the Beginner's Guide "
 "<https://wiki.python.org/moin/BeginnersGuide>`_ to find information for "
@@ -430,11 +426,11 @@ msgstr ""
 " menemukan informasi tentang menjadi pemrogram Python pemula, termasuk "
 "daftar tutorial."
 
-#: ../../faq/general.rst:200
+#: ../../faq/general.rst:208
 msgid "Is there a newsgroup or mailing list devoted to Python?"
 msgstr "Apakah ada newsgroup atau milis yang ditujukan untuk Python?"
 
-#: ../../faq/general.rst:202
+#: ../../faq/general.rst:210
 msgid ""
 "There is a newsgroup, :newsgroup:`comp.lang.python`, and a mailing list, "
 "`python-list <https://mail.python.org/mailman/listinfo/python-list>`_.  The "
@@ -451,20 +447,15 @@ msgstr ""
 "lalu lintas tinggi, menerima ratusan posting setiap hari, dan pembaca Usenet"
 " seringkali lebih mampu mengatasi volume ini."
 
-#: ../../faq/general.rst:209
+#: ../../faq/general.rst:217
 msgid ""
 "Announcements of new software releases and events can be found in "
 "comp.lang.python.announce, a low-traffic moderated list that receives about "
 "five postings per day.  It's available as `the python-announce mailing list "
-"<https://mail.python.org/mailman/listinfo/python-announce-list>`_."
+"<https://mail.python.org/mailman3/lists/python-announce-list.python.org/>`_."
 msgstr ""
-"Pengumuman tentang rilis perangkat lunak dan acara baru dapat ditemukan di "
-"comp.lang.python.announce, daftar yang moderasi dengan lalu lintas rendah "
-"dimana menerima sekitar lima posting per hari. Ini tersedia sebagai `the "
-"python-announce mailing list <https://mail.python.org/mailman/listinfo"
-"/python-announce-list>`_."
 
-#: ../../faq/general.rst:214
+#: ../../faq/general.rst:222
 msgid ""
 "More info about other mailing lists and newsgroups can be found at "
 "https://www.python.org/community/lists/."
@@ -472,11 +463,11 @@ msgstr ""
 "Info lebih lanjut tentang milis dan newsgroup lainnya dapat ditemukan di  "
 "https://www.python.org/community/lists/."
 
-#: ../../faq/general.rst:219
+#: ../../faq/general.rst:227
 msgid "How do I get a beta test version of Python?"
 msgstr "Bagaimana saya mendapatkan versi uji beta dari Python?"
 
-#: ../../faq/general.rst:221
+#: ../../faq/general.rst:229
 msgid ""
 "Alpha and beta releases are available from "
 "https://www.python.org/downloads/.  All releases are announced on the "
@@ -488,7 +479,7 @@ msgstr ""
 "comp.lang.python.announce dan di halaman utama Python di "
 "https://www.python.org/; tersedia juga umpan RSS dari berita."
 
-#: ../../faq/general.rst:226
+#: ../../faq/general.rst:234
 msgid ""
 "You can also access the development version of Python through Git.  See `The"
 " Python Developer's Guide <https://devguide.python.org/>`_ for details."
@@ -497,36 +488,17 @@ msgstr ""
 " `Panduan Pengembang Python <https://devguide.python.org/>`_ untuk lebih "
 "jelasnya."
 
-#: ../../faq/general.rst:231
+#: ../../faq/general.rst:239
 msgid "How do I submit bug reports and patches for Python?"
 msgstr "Bagaimana saya mengirimkan laporan bug dan patch untuk Python?"
 
-#: ../../faq/general.rst:233
+#: ../../faq/general.rst:241
 msgid ""
-"To report a bug or submit a patch, please use the Roundup installation at "
-"https://bugs.python.org/."
+"To report a bug or submit a patch, use the issue tracker at "
+"https://github.com/python/cpython/issues."
 msgstr ""
-"Untuk melaporkan bug atau mengirimkan patch, silakan gunakan instalasi "
-"Roundup di https://bugs.python.org/."
 
-#: ../../faq/general.rst:236
-msgid ""
-"You must have a Roundup account to report bugs; this makes it possible for "
-"us to contact you if we have follow-up questions.  It will also enable "
-"Roundup to send you updates as we act on your bug. If you had previously "
-"used SourceForge to report bugs to Python, you can obtain your Roundup "
-"password through Roundup's `password reset procedure "
-"<https://bugs.python.org/user?@template=forgotten>`_."
-msgstr ""
-"Anda harus memiliki akun Roundup untuk melaporkan bug; ini memungkinkan kami"
-" untuk menghubungi Anda jika kami memiliki pertanyaan tindak lanjut. Ini "
-"juga akan memungkinkan Roundup untuk mengirimi Anda pembaruan saat kami "
-"bertindak atas bug Anda. Jika sebelumnya Anda menggunakan SourceForge untuk "
-"melaporkan bug ke Python, Anda dapat memperoleh kata sandi Roundup Anda "
-"melalui `password reset procedure "
-"<https://bugs.python.org/user?@template=forgotten>`_ dari Roundup."
-
-#: ../../faq/general.rst:242
+#: ../../faq/general.rst:244
 msgid ""
 "For more information on how Python is developed, consult `the Python "
 "Developer's Guide <https://devguide.python.org/>`_."
@@ -534,25 +506,23 @@ msgstr ""
 "Untuk informasi lebih lanjut mengenai bagaimana Python dikembangkan, lihat "
 "`Panduan Pengembang Python <https://devguide.python.org/>`_."
 
-#: ../../faq/general.rst:247
+#: ../../faq/general.rst:249
 msgid "Are there any published articles about Python that I can reference?"
 msgstr ""
 "Apakah ada publikasi artikel tentang Python yang bisa saya gunakan sebagai "
 "referensi?"
 
-#: ../../faq/general.rst:249
+#: ../../faq/general.rst:251
 msgid "It's probably best to cite your favorite book about Python."
 msgstr "Mungkin sebaiknya mengutip buku favorit Anda tentang Python."
 
-#: ../../faq/general.rst:251
+#: ../../faq/general.rst:253
 msgid ""
-"The very first article about Python was written in 1991 and is now quite "
-"outdated."
+"The `very first article <https://ir.cwi.nl/pub/18204>`_ about Python was "
+"written in 1991 and is now quite outdated."
 msgstr ""
-"Artikel pertama tentang Python ditulis tahun 1991 dan sekarang sudah cukup "
-"usang."
 
-#: ../../faq/general.rst:254
+#: ../../faq/general.rst:256
 msgid ""
 "Guido van Rossum and Jelke de Boer, \"Interactively Testing Remote Servers "
 "Using the Python Programming Language\", CWI Quarterly, Volume 4, Issue 4 "
@@ -562,11 +532,11 @@ msgstr ""
 "Using the Python Programming Language\", CWI Quarterly, Volume 4, Issue 4 "
 "(December 1991), Amsterdam, pp 283--303."
 
-#: ../../faq/general.rst:260
+#: ../../faq/general.rst:262
 msgid "Are there any books on Python?"
 msgstr "Apakah ada buku-buku tentang Python?"
 
-#: ../../faq/general.rst:262
+#: ../../faq/general.rst:264
 msgid ""
 "Yes, there are many, and more are being published.  See the python.org wiki "
 "at https://wiki.python.org/moin/PythonBooks for a list."
@@ -574,7 +544,7 @@ msgstr ""
 "Ya, ada banyak, dan banyak juga yang sedang diterbitkan. Untuk daftarnya "
 "lihat wiki python.org di https://wiki.python.org/moin/PythonBooks ."
 
-#: ../../faq/general.rst:265
+#: ../../faq/general.rst:267
 msgid ""
 "You can also search online bookstores for \"Python\" and filter out the "
 "Monty Python references; or perhaps search for \"Python\" and \"language\"."
@@ -582,24 +552,22 @@ msgstr ""
 "Anda juga dapat mencari \"Python\" di toko buku online dan menyaring "
 "referensi Monty Python; atau mungkin cari \"Python\" dan \"bahasa\"."
 
-#: ../../faq/general.rst:270
+#: ../../faq/general.rst:272
 msgid "Where in the world is www.python.org located?"
 msgstr "Dimana di dunia lokasi www.python.org?"
 
-#: ../../faq/general.rst:272
+#: ../../faq/general.rst:274
 msgid ""
 "The Python project's infrastructure is located all over the world and is "
 "managed by the Python Infrastructure Team. Details `here "
-"<http://infra.psf.io>`__."
+"<https://infra.psf.io>`__."
 msgstr ""
-"Infrastruktur proyek Python terletak di seluruh dunia dan dikelola oleh Tim "
-"Infrastruktur Python. Detail `di sini <http://infra.psf.io>`__."
 
-#: ../../faq/general.rst:277
+#: ../../faq/general.rst:279
 msgid "Why is it called Python?"
 msgstr "Kenapa disebut Python?"
 
-#: ../../faq/general.rst:279
+#: ../../faq/general.rst:281
 msgid ""
 "When he began implementing Python, Guido van Rossum was also reading the "
 "published scripts from `\"Monty Python's Flying Circus\" "
@@ -614,69 +582,52 @@ msgstr ""
 "unik, dan sedikit misterius, jadi dia memutuskan untuk memanggil bahasa "
 "Python."
 
-#: ../../faq/general.rst:287
+#: ../../faq/general.rst:289
 msgid "Do I have to like \"Monty Python's Flying Circus\"?"
 msgstr "Apakah saya harus menyukai \"Monty Python's Flying Circus\"?"
 
-#: ../../faq/general.rst:289
+#: ../../faq/general.rst:291
 msgid "No, but it helps.  :)"
 msgstr "Tidak, tapi itu membantu. :)"
 
-#: ../../faq/general.rst:293
+#: ../../faq/general.rst:295
 msgid "Python in the real world"
 msgstr "Python di dunia nyata"
 
-#: ../../faq/general.rst:296
+#: ../../faq/general.rst:298
 msgid "How stable is Python?"
 msgstr "Seberapa stabil Python?"
 
-#: ../../faq/general.rst:298
+#: ../../faq/general.rst:300
 msgid ""
 "Very stable.  New, stable releases have been coming out roughly every 6 to "
 "18 months since 1991, and this seems likely to continue.  As of version 3.9,"
-" Python will have a major new release every 12 months (:pep:`602`)."
+" Python will have a new feature release every 12 months (:pep:`602`)."
 msgstr ""
-"Sangat stabil. Rilis baru dan rilisan baru yang stabil telah keluar sekitar "
-"setiap 6 sampai 18 bulan sejak 1991, dan ini sepertinya akan terus "
-"berlanjut. Mulai versi 3.9, Python akan memiliki rilis baru setiap 12 bulan "
-"(:pep:`602`)."
 
-#: ../../faq/general.rst:302
+#: ../../faq/general.rst:304
 msgid ""
-"The developers issue \"bugfix\" releases of older versions, so the stability"
-" of existing releases gradually improves.  Bugfix releases, indicated by a "
-"third component of the version number (e.g. 3.5.3, 3.6.2), are managed for "
+"The developers issue bugfix releases of older versions, so the stability of "
+"existing releases gradually improves.  Bugfix releases, indicated by a third"
+" component of the version number (e.g. 3.5.3, 3.6.2), are managed for "
 "stability; only fixes for known problems are included in a bugfix release, "
 "and it's guaranteed that interfaces will remain the same throughout a series"
 " of bugfix releases."
 msgstr ""
-"Pengembang mengeluarkan rilis \"bugfix\" dari versi yang lebih lama, "
-"sehingga stabilitas rilis yang ada secara bertahap membaik. Rilis perbaikan "
-"bug, ditunjukkan oleh komponen ketiga dari nomor versi (mis. 3.5.3, 3.6.2), "
-"dikelola untuk stabilitas; hanya perbaikan untuk masalah yang diketahui yang"
-" termasuk dalam rilis perbaikan bug, dan dijamin antarmuka akan tetap sama "
-"di sepanjang serangkaian rilis perbaikan bug."
 
-#: ../../faq/general.rst:309
+#: ../../faq/general.rst:311
 msgid ""
 "The latest stable releases can always be found on the `Python download page "
-"<https://www.python.org/downloads/>`_.  There are two production-ready "
-"versions of Python: 2.x and 3.x. The recommended version is 3.x, which is "
-"supported by most widely used libraries.  Although 2.x is still widely used,"
-" `it is not maintained anymore "
-"<https://www.python.org/dev/peps/pep-0373/>`_."
+"<https://www.python.org/downloads/>`_. Python 3.x is the recommended version"
+" and supported by most widely used libraries. Python 2.x :pep:`is not "
+"maintained anymore <373>`."
 msgstr ""
-"Rilis stabil terbaru selalu dapat ditemukan di `halaman unduh Python "
-"<https://www.python.org/downloads/>`_. Ada dua versi Python yang siap "
-"produksi: 2.x dan 3.x. Versi yang disarankan adalah 3.x, yang didukung oleh "
-"pustaka yang paling banyak digunakan. Meskipun 2.x masih banyak digunakan, "
-"`itu tidak dirawat lagi <https://www.python.org/dev/peps/pep-0373/>`_."
 
-#: ../../faq/general.rst:316
+#: ../../faq/general.rst:317
 msgid "How many people are using Python?"
 msgstr "Berapa banyak orang menggunakan Python?"
 
-#: ../../faq/general.rst:318
+#: ../../faq/general.rst:319
 msgid ""
 "There are probably millions of users, though it's difficult to obtain an "
 "exact count."
@@ -684,7 +635,7 @@ msgstr ""
 "Mungkin ada jutaan pengguna, meskipun sulit untuk mendapatkan jumlah "
 "pastinya."
 
-#: ../../faq/general.rst:321
+#: ../../faq/general.rst:322
 msgid ""
 "Python is available for free download, so there are no sales figures, and "
 "it's available from many different sites and packaged with many Linux "
@@ -695,7 +646,7 @@ msgstr ""
 "distribusi Linux, jadi statistik unduhan juga tidak menceritakan keseluruhan"
 " cerita."
 
-#: ../../faq/general.rst:325
+#: ../../faq/general.rst:326
 msgid ""
 "The comp.lang.python newsgroup is very active, but not all Python users post"
 " to the group or even read it."
@@ -703,11 +654,11 @@ msgstr ""
 "newsgroup comp.lang.python sangat aktif, tetapi tidak semua pengguna Python "
 "mengirim ke grup atau bahkan membacanya."
 
-#: ../../faq/general.rst:330
+#: ../../faq/general.rst:331
 msgid "Have any significant projects been done in Python?"
 msgstr "Apakah ada proyek-proyek penting yang dibuat dengan Python?"
 
-#: ../../faq/general.rst:332
+#: ../../faq/general.rst:333
 msgid ""
 "See https://www.python.org/about/success for a list of projects that use "
 "Python. Consulting the proceedings for `past Python conferences "
@@ -719,55 +670,42 @@ msgstr ""
 "<https://www.python.org/community/workshops/>`_ akan mengungkapkan "
 "kontribusi dari banyak perusahaan dan organisasi yang berbeda."
 
-#: ../../faq/general.rst:337
+#: ../../faq/general.rst:338
 msgid ""
 "High-profile Python projects include `the Mailman mailing list manager "
-"<http://www.list.org>`_ and `the Zope application server "
-"<http://www.zope.org>`_.  Several Linux distributions, most notably `Red Hat"
-" <https://www.redhat.com>`_, have written part or all of their installer and"
-" system administration software in Python.  Companies that use Python "
+"<https://www.list.org>`_ and `the Zope application server "
+"<https://www.zope.dev>`_.  Several Linux distributions, most notably `Red "
+"Hat <https://www.redhat.com>`_, have written part or all of their installer "
+"and system administration software in Python.  Companies that use Python "
 "internally include Google, Yahoo, and Lucasfilm Ltd."
 msgstr ""
-"Profil terkenal proyek Python termasuk `manajer milis Mailman "
-"<http://www.list.org>`_ dan `server aplikasi Zope <http://www.zope.org>`_. "
-"Beberapa distribusi Linux, terutama `Red Hat <https://www.redhat.com>`_, "
-"telah menulis sebagian atau semua installer dan perangkat lunak sistem "
-"administrasi mereka dengan Python. Perusahaan yang menggunakan Python secara"
-" internal termasuk Google, Yahoo, dan Lucasfilm Ltd."
 
-#: ../../faq/general.rst:346
+#: ../../faq/general.rst:347
 msgid "What new developments are expected for Python in the future?"
 msgstr "Apa pengembangan baru yang diharapkan dari Python di masa depan?"
 
-#: ../../faq/general.rst:348
+#: ../../faq/general.rst:349
 msgid ""
-"See https://www.python.org/dev/peps/ for the Python Enhancement Proposals "
-"(PEPs). PEPs are design documents describing a suggested new feature for "
-"Python, providing a concise technical specification and a rationale.  Look "
-"for a PEP titled \"Python X.Y Release Schedule\", where X.Y is a version "
-"that hasn't been publicly released yet."
+"See https://peps.python.org/ for the Python Enhancement Proposals (PEPs). "
+"PEPs are design documents describing a suggested new feature for Python, "
+"providing a concise technical specification and a rationale.  Look for a PEP"
+" titled \"Python X.Y Release Schedule\", where X.Y is a version that hasn't "
+"been publicly released yet."
 msgstr ""
-"Lihat https://www.python.org/dev/peps/ untuk Python Enchancement Proposal "
-"(PEPs). PEP adalah dokumen desain yang menggambarkan fitur baru yang "
-"disarankan untuk Python, memberikan spesifikasi teknis yang ringkas dan "
-"alasannya. Cari PEP berjudul \"Jadwal Rilis Python X.Y\", di mana X.Y adalah"
-" versi yang belum dirilis secara publik."
 
-#: ../../faq/general.rst:354
+#: ../../faq/general.rst:355
 msgid ""
 "New development is discussed on `the python-dev mailing list "
-"<https://mail.python.org/mailman/listinfo/python-dev/>`_."
+"<https://mail.python.org/mailman3/lists/python-dev.python.org/>`_."
 msgstr ""
-"Pengembangan baru didiskusikan di `milis python-dev "
-"<https://mail.python.org/mailman/listinfo/python-dev/>`_."
 
-#: ../../faq/general.rst:359
+#: ../../faq/general.rst:360
 msgid "Is it reasonable to propose incompatible changes to Python?"
 msgstr ""
 "Apakah beralasan untuk mengusulkan perubahan yang tidak kompatibel terhadap "
 "Python?"
 
-#: ../../faq/general.rst:361
+#: ../../faq/general.rst:362
 msgid ""
 "In general, no.  There are already millions of lines of Python code around "
 "the world, so any change in the language that invalidates more than a very "
@@ -783,7 +721,7 @@ msgstr ""
 "dokumentasi; banyak buku telah ditulis tentang Python, dan kami tidak ingin "
 "membatalkan semuanya dengan satu goresan."
 
-#: ../../faq/general.rst:368
+#: ../../faq/general.rst:369
 msgid ""
 "Providing a gradual upgrade path is necessary if a feature has to be "
 "changed. :pep:`5` describes the procedure followed for introducing backward-"
@@ -793,15 +731,15 @@ msgstr ""
 "menjelaskan prosedur yang diikuti untuk memperkenalkan perubahan yang tidak "
 "kompatibel ke belakang sambil meminimalkan gangguan bagi pengguna."
 
-#: ../../faq/general.rst:374
+#: ../../faq/general.rst:375
 msgid "Is Python a good language for beginning programmers?"
 msgstr "Apakah Python bahasa yang baik untuk pemrogram pemula?"
 
-#: ../../faq/general.rst:376
+#: ../../faq/general.rst:377
 msgid "Yes."
 msgstr "Ya."
 
-#: ../../faq/general.rst:378
+#: ../../faq/general.rst:379
 msgid ""
 "It is still common to start students with a procedural and statically typed "
 "language such as Pascal, C, or a subset of C++ or Java.  Students may be "
@@ -824,7 +762,7 @@ msgstr ""
 "seperti loop dan prosedur. Mereka bahkan dapat bekerja dengan objek yang "
 "ditentukan pengguna dalam kursus pertama mereka."
 
-#: ../../faq/general.rst:388
+#: ../../faq/general.rst:389
 msgid ""
 "For a student who has never programmed before, using a statically typed "
 "language seems unnatural.  It presents additional complexity that the "
@@ -844,7 +782,7 @@ msgstr ""
 " jangka panjang, itu tidak selalu merupakan topik terbaik untuk dibahas "
 "dalam kursus pemrograman pertama siswa."
 
-#: ../../faq/general.rst:396
+#: ../../faq/general.rst:397
 msgid ""
 "Many other aspects of Python make it a good first language.  Like Java, "
 "Python has a large standard library so that students can be assigned "
@@ -866,7 +804,7 @@ msgstr ""
 "mengajarkan siswa tentang penggunaan kembali *reuse* kode. Modul pihak "
 "ketiga seperti PyGame juga membantu dalam memperluas jangkauan siswa."
 
-#: ../../faq/general.rst:405
+#: ../../faq/general.rst:406
 msgid ""
 "Python's interactive interpreter enables students to test language features "
 "while they're programming.  They can keep a window with the interpreter "
@@ -879,7 +817,34 @@ msgstr ""
 "mereka di jendela lain. Jika mereka tidak dapat mengingat metode untuk "
 "*list*, mereka dapat melakukan sesuatu seperti ini::"
 
-#: ../../faq/general.rst:434
+#: ../../faq/general.rst:411
+msgid ""
+">>> L = []\n"
+">>> dir(L)\n"
+"['__add__', '__class__', '__contains__', '__delattr__', '__delitem__',\n"
+"'__dir__', '__doc__', '__eq__', '__format__', '__ge__',\n"
+"'__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__',\n"
+"'__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__',\n"
+"'__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__',\n"
+"'__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__',\n"
+"'__sizeof__', '__str__', '__subclasshook__', 'append', 'clear',\n"
+"'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove',\n"
+"'reverse', 'sort']\n"
+">>> [d for d in dir(L) if '__' not in d]\n"
+"['append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']\n"
+"\n"
+">>> help(L.append)\n"
+"Help on built-in function append:\n"
+"\n"
+"append(...)\n"
+"    L.append(object) -> None -- append object to end\n"
+"\n"
+">>> L.append(1)\n"
+">>> L\n"
+"[1]"
+msgstr ""
+
+#: ../../faq/general.rst:435
 msgid ""
 "With the interpreter, documentation is never far from the student as they "
 "are programming."
@@ -887,27 +852,18 @@ msgstr ""
 "Dengan interpreter, dokumentasi tidak pernah jauh dari pelajar saat mereka "
 "melakukan pemrograman."
 
-#: ../../faq/general.rst:437
+#: ../../faq/general.rst:438
 msgid ""
 "There are also good IDEs for Python.  IDLE is a cross-platform IDE for "
-"Python that is written in Python using Tkinter.  PythonWin is a Windows-"
-"specific IDE. Emacs users will be happy to know that there is a very good "
-"Python mode for Emacs.  All of these programming environments provide syntax"
-" highlighting, auto-indenting, and access to the interactive interpreter "
-"while coding.  Consult `the Python wiki "
-"<https://wiki.python.org/moin/PythonEditors>`_ for a full list of Python "
-"editing environments."
+"Python that is written in Python using Tkinter. Emacs users will be happy to"
+" know that there is a very good Python mode for Emacs.  All of these "
+"programming environments provide syntax highlighting, auto-indenting, and "
+"access to the interactive interpreter while coding.  Consult `the Python "
+"wiki <https://wiki.python.org/moin/PythonEditors>`_ for a full list of "
+"Python editing environments."
 msgstr ""
-"Ada juga IDE yang bagus untuk Python. IDLE adalah IDE lintas-platform untuk "
-"Python yang ditulis dalam Python menggunakan Tkinter. PythonWin adalah IDE "
-"khusus Windows. Pengguna Emacs akan senang mengetahui bahwa ada mode Python "
-"yang sangat bagus untuk Emacs. Semua lingkungan pemrograman ini menyediakan "
-"penyorotan sintaksis, indentasi otomatis, dan akses ke interpreter "
-"interaktif saat pengkodean. Konsultasikan `wiki Python "
-"<https://wiki.python.org/moin/PythonEditors>`_ untuk daftar lengkap "
-"lingkungan penyuntingan Python."
 
-#: ../../faq/general.rst:445
+#: ../../faq/general.rst:446
 msgid ""
 "If you want to discuss Python's use in education, you may be interested in "
 "joining `the edu-sig mailing list "
