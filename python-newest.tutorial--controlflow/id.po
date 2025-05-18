@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 05:52+0000\n"
-"PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:50+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,12 +28,9 @@ msgstr "Lebih Banyak Alat Pengatur Aliran *Control Flow*"
 
 #: ../../tutorial/controlflow.rst:7
 msgid ""
-"Besides the :keyword:`while` statement just introduced, Python uses the "
-"usual flow control statements known from other languages, with some twists."
+"As well as the :keyword:`while` statement just introduced, Python uses a few"
+" more that we will encounter in this chapter."
 msgstr ""
-"Selain pernyataan :keyword:`while` baru saja diperkenalkan, Python "
-"menggunakan pernyataan kontrol aliran yang biasa dikenal dari bahasa lain, "
-"dengan beberapa *twist*."
 
 #: ../../tutorial/controlflow.rst:14
 msgid ":keyword:`!if` Statements"
@@ -46,6 +43,23 @@ msgid ""
 msgstr ""
 "Mungkin tipe pernyataan yang paling terkenal adalah pernyataan "
 ":keyword:`if`. Sebagai contoh::"
+
+#: ../../tutorial/controlflow.rst:19
+msgid ""
+">>> x = int(input(\"Please enter an integer: \"))\n"
+"Please enter an integer: 42\n"
+">>> if x < 0:\n"
+"...     x = 0\n"
+"...     print('Negative changed to zero')\n"
+"... elif x == 0:\n"
+"...     print('Zero')\n"
+"... elif x == 1:\n"
+"...     print('Single')\n"
+"... else:\n"
+"...     print('More')\n"
+"...\n"
+"More"
+msgstr ""
 
 #: ../../tutorial/controlflow.rst:33
 msgid ""
@@ -62,11 +76,18 @@ msgstr ""
 "... adalah urutan pengganti untuk pernyataan ``switch`` atau ``case`` yang "
 "ditemukan dalam bahasa lain."
 
-#: ../../tutorial/controlflow.rst:43
+#: ../../tutorial/controlflow.rst:39
+msgid ""
+"If you're comparing the same value to several constants, or checking for "
+"specific types or attributes, you may also find the :keyword:`!match` "
+"statement useful. For more details see :ref:`tut-match`."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:46
 msgid ":keyword:`!for` Statements"
 msgstr "Pernyataan :keyword:`!for`"
 
-#: ../../tutorial/controlflow.rst:48
+#: ../../tutorial/controlflow.rst:51
 msgid ""
 "The :keyword:`for` statement in Python differs a bit from what you may be "
 "used to in C or Pascal.  Rather than always iterating over an arithmetic "
@@ -84,7 +105,19 @@ msgstr ""
 "pun (daftar *list* atau string), dalam urutan yang muncul dalam urutan. "
 "Misalnya (tidak ada permainan kata-kata):"
 
-#: ../../tutorial/controlflow.rst:69
+#: ../../tutorial/controlflow.rst:63
+msgid ""
+">>> # Measure some strings:\n"
+">>> words = ['cat', 'window', 'defenestrate']\n"
+">>> for w in words:\n"
+"...     print(w, len(w))\n"
+"...\n"
+"cat 3\n"
+"window 6\n"
+"defenestrate 12"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:72
 msgid ""
 "Code that modifies a collection while iterating over that same collection "
 "can be tricky to get right.  Instead, it is usually more straight-forward to"
@@ -94,11 +127,28 @@ msgstr ""
 "sama bisa sulit untuk diperbaiki. Sebagai gantinya, biasanya lebih mudah "
 "untuk mengulang salinan koleksi atau membuat koleksi baru::"
 
-#: ../../tutorial/controlflow.rst:88
+#: ../../tutorial/controlflow.rst:76
+msgid ""
+"# Create a sample collection\n"
+"users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}\n"
+"\n"
+"# Strategy:  Iterate over a copy\n"
+"for user, status in users.copy().items():\n"
+"    if status == 'inactive':\n"
+"        del users[user]\n"
+"\n"
+"# Strategy:  Create a new collection\n"
+"active_users = {}\n"
+"for user, status in users.items():\n"
+"    if status == 'active':\n"
+"        active_users[user] = status"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:94
 msgid "The :func:`range` Function"
 msgstr "Fungsi :func:`range`"
 
-#: ../../tutorial/controlflow.rst:90
+#: ../../tutorial/controlflow.rst:96
 msgid ""
 "If you do need to iterate over a sequence of numbers, the built-in function "
 ":func:`range` comes in handy.  It generates arithmetic progressions::"
@@ -106,7 +156,19 @@ msgstr ""
 "Jika Anda perlu mengulangi urutan angka, fungsi bawaan :func:`range` "
 "berguna. Ini menghasilkan urutan *pregressions* aritmatika::"
 
-#: ../../tutorial/controlflow.rst:102
+#: ../../tutorial/controlflow.rst:99
+msgid ""
+">>> for i in range(5):\n"
+"...     print(i)\n"
+"...\n"
+"0\n"
+"1\n"
+"2\n"
+"3\n"
+"4"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:108
 msgid ""
 "The given end point is never part of the generated sequence; ``range(10)`` "
 "generates 10 values, the legal indices for items of a sequence of length 10."
@@ -119,7 +181,19 @@ msgstr ""
 "dari nomor lain, atau untuk menentukan kenaikan yang berbeda (bahkan "
 "negatif; kadang-kadang ini disebut 'step')::"
 
-#: ../../tutorial/controlflow.rst:116
+#: ../../tutorial/controlflow.rst:113
+msgid ""
+">>> list(range(5, 10))\n"
+"[5, 6, 7, 8, 9]\n"
+"\n"
+">>> list(range(0, 10, 3))\n"
+"[0, 3, 6, 9]\n"
+"\n"
+">>> list(range(-10, -100, -30))\n"
+"[-10, -40, -70]"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:122
 msgid ""
 "To iterate over the indices of a sequence, you can combine :func:`range` and"
 " :func:`len` as follows::"
@@ -127,7 +201,20 @@ msgstr ""
 "Untuk beralih pada indeks urutan, Anda dapat menggabungkan :func:`range` dan"
 " :func:`len` sebagai berikut::"
 
-#: ../../tutorial/controlflow.rst:129
+#: ../../tutorial/controlflow.rst:125
+msgid ""
+">>> a = ['Mary', 'had', 'a', 'little', 'lamb']\n"
+">>> for i in range(len(a)):\n"
+"...     print(i, a[i])\n"
+"...\n"
+"0 Mary\n"
+"1 had\n"
+"2 a\n"
+"3 little\n"
+"4 lamb"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:135
 msgid ""
 "In most such cases, however, it is convenient to use the :func:`enumerate` "
 "function, see :ref:`tut-loopidioms`."
@@ -135,11 +222,17 @@ msgstr ""
 "Dalam kebanyakan kasus seperti itu, bagaimanapun, lebih mudah untuk "
 "menggunakan fungsi :func:`enumerate`, lihat :ref:`tut-loopidioms`."
 
-#: ../../tutorial/controlflow.rst:132
+#: ../../tutorial/controlflow.rst:138
 msgid "A strange thing happens if you just print a range::"
 msgstr "Hal aneh terjadi jika Anda hanya mencetak rentang *range*::"
 
-#: ../../tutorial/controlflow.rst:137
+#: ../../tutorial/controlflow.rst:140
+msgid ""
+">>> range(10)\n"
+"range(0, 10)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:143
 msgid ""
 "In many ways the object returned by :func:`range` behaves as if it is a "
 "list, but in fact it isn't. It is an object which returns the successive "
@@ -152,7 +245,7 @@ msgstr ""
 "mengulanginya, tetapi itu tidak benar-benar membuat daftar *list*, sehingga "
 "menghemat ruang."
 
-#: ../../tutorial/controlflow.rst:142
+#: ../../tutorial/controlflow.rst:148
 msgid ""
 "We say such an object is :term:`iterable`, that is, suitable as a target for"
 " functions and constructs that expect something from which they can obtain "
@@ -167,94 +260,156 @@ msgstr ""
 " itu, sedangkan contoh fungsi yang membutuhkan sebuah iterable adalah "
 ":func:`sum`::"
 
-#: ../../tutorial/controlflow.rst:151
+#: ../../tutorial/controlflow.rst:154
+msgid ""
+">>> sum(range(4))  # 0 + 1 + 2 + 3\n"
+"6"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:157
 msgid ""
 "Later we will see more functions that return iterables and take iterables as"
-" arguments.  Lastly, maybe you are curious about how to get a list from a "
-"range. Here is the solution::"
+" arguments.  In chapter :ref:`tut-structures`, we will discuss in more "
+"detail about :func:`list`."
 msgstr ""
-"Nanti kita akan melihat lebih banyak fungsi yang mengembalikan *iterables* "
-"dan menganggap *iterables* sebagai argumen. Terakhir, mungkin Anda ingin "
-"tahu tentang cara mendapatkan daftar *list* dari suatu rentang *range*. Ini "
-"solusinya::"
-
-#: ../../tutorial/controlflow.rst:158
-msgid ""
-"In chapter :ref:`tut-structures`, we will discuss in more detail about "
-":func:`list`."
-msgstr ""
-"Dalam bab :ref:`tut-structure`, kita akan membahas lebih detail tentang "
-":func:`list`."
 
 #: ../../tutorial/controlflow.rst:164
-msgid ""
-":keyword:`!break` and :keyword:`!continue` Statements, and :keyword:`!else` "
-"Clauses on Loops"
+msgid ":keyword:`!break` and :keyword:`!continue` Statements"
 msgstr ""
-"Pernyataan :keyword:`!break` dan :keyword:`!continue`, dan :keyword:`!else` "
-"Klausa pada Perulangan *Loops*"
 
 #: ../../tutorial/controlflow.rst:166
 msgid ""
-"The :keyword:`break` statement, like in C, breaks out of the innermost "
-"enclosing :keyword:`for` or :keyword:`while` loop."
+"The :keyword:`break` statement breaks out of the innermost enclosing "
+":keyword:`for` or :keyword:`while` loop::"
 msgstr ""
-"Pernyataan :keyword:`break`, seperti dalam C, keluar dari bagian terdalam "
-"yang terlampir perulangan :keyword:`for` atau :keyword:`while`."
 
 #: ../../tutorial/controlflow.rst:169
 msgid ""
-"Loop statements may have an :keyword:`!else` clause; it is executed when the"
-" loop terminates through exhaustion of the iterable (with :keyword:`for`) or"
-" when the condition becomes false (with :keyword:`while`), but not when the "
-"loop is terminated by a :keyword:`break` statement.  This is exemplified by "
-"the following loop, which searches for prime numbers::"
+">>> for n in range(2, 10):\n"
+"...     for x in range(2, n):\n"
+"...         if n % x == 0:\n"
+"...             print(f\"{n} equals {x} * {n//x}\")\n"
+"...             break\n"
+"...\n"
+"4 equals 2 * 2\n"
+"6 equals 2 * 3\n"
+"8 equals 2 * 4\n"
+"9 equals 3 * 3"
 msgstr ""
-"Pernyataan perulangan *loop* mungkin memiliki klausa :keyword:`!else`; itu "
-"dieksekusi ketika loop berakhir melalui selesainya *exhaustion* *iterable* "
-"(dengan :keyword:`for`) atau ketika kondisi menjadi salah (dengan "
-":keyword:`while`), tetapi tidak ketika loop diakhiri oleh pernyataan "
-":keyword:`break`. Ini dicontohkan oleh perulangan berikut, yang mencari "
-"bilangan prima::"
 
-#: ../../tutorial/controlflow.rst:193
+#: ../../tutorial/controlflow.rst:180
+msgid ""
+"The :keyword:`continue` statement continues with the next iteration of the "
+"loop::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:183
+msgid ""
+">>> for num in range(2, 10):\n"
+"...     if num % 2 == 0:\n"
+"...         print(f\"Found an even number {num}\")\n"
+"...         continue\n"
+"...     print(f\"Found an odd number {num}\")\n"
+"...\n"
+"Found an even number 2\n"
+"Found an odd number 3\n"
+"Found an even number 4\n"
+"Found an odd number 5\n"
+"Found an even number 6\n"
+"Found an odd number 7\n"
+"Found an even number 8\n"
+"Found an odd number 9"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:202
+msgid ":keyword:`!else` Clauses on Loops"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:204
+msgid ""
+"In a :keyword:`!for` or :keyword:`!while` loop the :keyword:`!break` "
+"statement may be paired with an :keyword:`!else` clause.  If the loop "
+"finishes without executing the :keyword:`!break`, the :keyword:`!else` "
+"clause executes."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:208
+msgid ""
+"In a :keyword:`for` loop, the :keyword:`!else` clause is executed after the "
+"loop finishes its final iteration, that is, if no break occurred."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:211
+msgid ""
+"In a :keyword:`while` loop, it's executed after the loop's condition becomes"
+" false."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:213
+msgid ""
+"In either kind of loop, the :keyword:`!else` clause is **not** executed if "
+"the loop was terminated by a :keyword:`break`.  Of course, other ways of "
+"ending the loop early, such as a :keyword:`return` or a raised exception, "
+"will also skip execution of the :keyword:`else` clause."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:218
+msgid ""
+"This is exemplified in the following :keyword:`!for` loop, which searches "
+"for prime numbers::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:221
+msgid ""
+">>> for n in range(2, 10):\n"
+"...     for x in range(2, n):\n"
+"...         if n % x == 0:\n"
+"...             print(n, 'equals', x, '*', n//x)\n"
+"...             break\n"
+"...     else:\n"
+"...         # loop fell through without finding a factor\n"
+"...         print(n, 'is a prime number')\n"
+"...\n"
+"2 is a prime number\n"
+"3 is a prime number\n"
+"4 equals 2 * 2\n"
+"5 is a prime number\n"
+"6 equals 2 * 3\n"
+"7 is a prime number\n"
+"8 equals 2 * 4\n"
+"9 equals 3 * 3"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:239
 msgid ""
 "(Yes, this is the correct code.  Look closely: the ``else`` clause belongs "
-"to the :keyword:`for` loop, **not** the :keyword:`if` statement.)"
+"to the ``for`` loop, **not** the ``if`` statement.)"
 msgstr ""
-"(Ya, ini adalah kode yang benar. Perhatikan baik-baik: klausul ``else`` "
-"milik perulangan :keyword:`for`, **not** pernyataan :keyword:`if`.)"
 
-#: ../../tutorial/controlflow.rst:196
+#: ../../tutorial/controlflow.rst:242
+msgid ""
+"One way to think of the else clause is to imagine it paired with the ``if`` "
+"inside the loop.  As the loop executes, it will run a sequence like "
+"if/if/if/else. The ``if`` is inside the loop, encountered a number of times."
+" If the condition is ever true, a ``break`` will happen. If the condition is"
+" never true, the ``else`` clause outside the loop will execute."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:248
 msgid ""
 "When used with a loop, the ``else`` clause has more in common with the "
 "``else`` clause of a :keyword:`try` statement than it does with that of "
-":keyword:`if` statements: a :keyword:`try` statement's ``else`` clause runs "
-"when no exception occurs, and a loop's ``else`` clause runs when no "
-"``break`` occurs. For more on the :keyword:`!try` statement and exceptions, "
-"see :ref:`tut-handling`."
+"``if`` statements: a ``try`` statement's ``else`` clause runs when no "
+"exception occurs, and a loop's ``else`` clause runs when no ``break`` "
+"occurs. For more on the ``try`` statement and exceptions, see :ref:`tut-"
+"handling`."
 msgstr ""
-"Ketika digunakan dengan sebuah perulangan, klausa ``else`` memiliki lebih "
-"banyak kesamaan dengan klausa ``else`` dari pernyataan :keyword:`try` "
-"dibandingkan dengan pernyataan :keyword:`if`: sebuah klausa  ``else`` "
-"pernyataan :keyword:`try` berjalan ketika tidak ada pengecualian terjadi, "
-"dan klausa ``else`` perulangan berjalan ketika tidak ada ``break`` terjadi. "
-"Untuk lebih lanjut tentang pernyataan :keyword:`!try` dan pengecualian, "
-"lihat :ref:`tut-handling`."
 
-#: ../../tutorial/controlflow.rst:203
-msgid ""
-"The :keyword:`continue` statement, also borrowed from C, continues with the "
-"next iteration of the loop::"
-msgstr ""
-"Pernyataan :keyword:`continue`, juga dipinjam dari C, melanjutkan dengan "
-"pengulangan berikutnya dari loop::"
-
-#: ../../tutorial/controlflow.rst:223
+#: ../../tutorial/controlflow.rst:257
 msgid ":keyword:`!pass` Statements"
 msgstr "Pernyataan :keyword:`!pass`"
 
-#: ../../tutorial/controlflow.rst:225
+#: ../../tutorial/controlflow.rst:259
 msgid ""
 "The :keyword:`pass` statement does nothing. It can be used when a statement "
 "is required syntactically but the program requires no action. For example::"
@@ -263,11 +418,25 @@ msgstr ""
 "ketika pernyataan diperlukan secara sintaksis tetapi program tidak "
 "memerlukan tindakan. Sebagai contoh::"
 
-#: ../../tutorial/controlflow.rst:232
+#: ../../tutorial/controlflow.rst:262
+msgid ""
+">>> while True:\n"
+"...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)\n"
+"..."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:266
 msgid "This is commonly used for creating minimal classes::"
 msgstr "Ini biasanya digunakan untuk membuat kelas minimal::"
 
-#: ../../tutorial/controlflow.rst:238
+#: ../../tutorial/controlflow.rst:268
+msgid ""
+">>> class MyEmptyClass:\n"
+"...     pass\n"
+"..."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:272
 msgid ""
 "Another place :keyword:`pass` can be used is as a place-holder for a "
 "function or conditional body when you are working on new code, allowing you "
@@ -279,11 +448,279 @@ msgstr ""
 "Anda bekerja pada kode baru, memungkinkan Anda untuk terus berpikir pada "
 "tingkat yang lebih abstrak. :keyword:`!pass` diabaikan secara diam-diam::"
 
-#: ../../tutorial/controlflow.rst:249
+#: ../../tutorial/controlflow.rst:276
+msgid ""
+">>> def initlog(*args):\n"
+"...     pass   # Remember to implement this!\n"
+"..."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:284
+msgid ":keyword:`!match` Statements"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:286
+msgid ""
+"A :keyword:`match` statement takes an expression and compares its value to "
+"successive patterns given as one or more case blocks.  This is superficially"
+" similar to a switch statement in C, Java or JavaScript (and many other "
+"languages), but it's more similar to pattern matching in languages like Rust"
+" or Haskell. Only the first pattern that matches gets executed and it can "
+"also extract components (sequence elements or object attributes) from the "
+"value into variables. If no case matches, none of the branches is executed."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:295
+msgid ""
+"The simplest form compares a subject value against one or more literals::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:297
+msgid ""
+"def http_error(status):\n"
+"    match status:\n"
+"        case 400:\n"
+"            return \"Bad request\"\n"
+"        case 404:\n"
+"            return \"Not found\"\n"
+"        case 418:\n"
+"            return \"I'm a teapot\"\n"
+"        case _:\n"
+"            return \"Something's wrong with the internet\""
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:308
+msgid ""
+"Note the last block: the \"variable name\" ``_`` acts as a *wildcard* and "
+"never fails to match."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:311
+msgid ""
+"You can combine several literals in a single pattern using ``|`` (\"or\")::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:313
+msgid ""
+"case 401 | 403 | 404:\n"
+"    return \"Not allowed\""
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:316
+msgid ""
+"Patterns can look like unpacking assignments, and can be used to bind "
+"variables::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:319
+msgid ""
+"# point is an (x, y) tuple\n"
+"match point:\n"
+"    case (0, 0):\n"
+"        print(\"Origin\")\n"
+"    case (0, y):\n"
+"        print(f\"Y={y}\")\n"
+"    case (x, 0):\n"
+"        print(f\"X={x}\")\n"
+"    case (x, y):\n"
+"        print(f\"X={x}, Y={y}\")\n"
+"    case _:\n"
+"        raise ValueError(\"Not a point\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:332
+msgid ""
+"Study that one carefully!  The first pattern has two literals, and can be "
+"thought of as an extension of the literal pattern shown above.  But the next"
+" two patterns combine a literal and a variable, and the variable *binds* a "
+"value from the subject (``point``).  The fourth pattern captures two values,"
+" which makes it conceptually similar to the unpacking assignment ``(x, y) = "
+"point``."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:339
+msgid ""
+"If you are using classes to structure your data you can use the class name "
+"followed by an argument list resembling a constructor, but with the ability "
+"to capture attributes into variables::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:343
+msgid ""
+"class Point:\n"
+"    def __init__(self, x, y):\n"
+"        self.x = x\n"
+"        self.y = y\n"
+"\n"
+"def where_is(point):\n"
+"    match point:\n"
+"        case Point(x=0, y=0):\n"
+"            print(\"Origin\")\n"
+"        case Point(x=0, y=y):\n"
+"            print(f\"Y={y}\")\n"
+"        case Point(x=x, y=0):\n"
+"            print(f\"X={x}\")\n"
+"        case Point():\n"
+"            print(\"Somewhere else\")\n"
+"        case _:\n"
+"            print(\"Not a point\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:361
+msgid ""
+"You can use positional parameters with some builtin classes that provide an "
+"ordering for their attributes (e.g. dataclasses). You can also define a "
+"specific position for attributes in patterns by setting the "
+"``__match_args__`` special attribute in your classes. If it's set to (\"x\","
+" \"y\"), the following patterns are all equivalent (and all bind the ``y`` "
+"attribute to the ``var`` variable)::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:367
+msgid ""
+"Point(1, var)\n"
+"Point(1, y=var)\n"
+"Point(x=1, y=var)\n"
+"Point(y=var, x=1)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:372
+msgid ""
+"A recommended way to read patterns is to look at them as an extended form of"
+" what you would put on the left of an assignment, to understand which "
+"variables would be set to what. Only the standalone names (like ``var`` "
+"above) are assigned to by a match statement. Dotted names (like "
+"``foo.bar``), attribute names (the ``x=`` and ``y=`` above) or class names "
+"(recognized by the \"(...)\" next to them like ``Point`` above) are never "
+"assigned to."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:379
+msgid ""
+"Patterns can be arbitrarily nested.  For example, if we have a short list of"
+" Points, with ``__match_args__`` added, we could match it like this::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:382
+msgid ""
+"class Point:\n"
+"    __match_args__ = ('x', 'y')\n"
+"    def __init__(self, x, y):\n"
+"        self.x = x\n"
+"        self.y = y\n"
+"\n"
+"match points:\n"
+"    case []:\n"
+"        print(\"No points\")\n"
+"    case [Point(0, 0)]:\n"
+"        print(\"The origin\")\n"
+"    case [Point(x, y)]:\n"
+"        print(f\"Single point {x}, {y}\")\n"
+"    case [Point(0, y1), Point(0, y2)]:\n"
+"        print(f\"Two on the Y axis at {y1}, {y2}\")\n"
+"    case _:\n"
+"        print(\"Something else\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:400
+msgid ""
+"We can add an ``if`` clause to a pattern, known as a \"guard\".  If the "
+"guard is false, ``match`` goes on to try the next case block.  Note that "
+"value capture happens before the guard is evaluated::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:404
+msgid ""
+"match point:\n"
+"    case Point(x, y) if x == y:\n"
+"        print(f\"Y=X at {x}\")\n"
+"    case Point(x, y):\n"
+"        print(f\"Not on the diagonal\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:410
+msgid "Several other key features of this statement:"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:412
+msgid ""
+"Like unpacking assignments, tuple and list patterns have exactly the same "
+"meaning and actually match arbitrary sequences.  An important exception is "
+"that they don't match iterators or strings."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:416
+msgid ""
+"Sequence patterns support extended unpacking: ``[x, y, *rest]`` and ``(x, y,"
+" *rest)`` work similar to unpacking assignments.  The name after ``*`` may "
+"also be ``_``, so ``(x, y, *_)`` matches a sequence of at least two items "
+"without binding the remaining items."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:421
+msgid ""
+"Mapping patterns: ``{\"bandwidth\": b, \"latency\": l}`` captures the "
+"``\"bandwidth\"`` and ``\"latency\"`` values from a dictionary.  Unlike "
+"sequence patterns, extra keys are ignored.  An unpacking like ``**rest`` is "
+"also supported.  (But ``**_`` would be redundant, so it is not allowed.)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:426
+msgid "Subpatterns may be captured using the ``as`` keyword::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:428
+msgid "case (Point(x1, y1), Point(x2, y2) as p2): ..."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:430
+msgid ""
+"will capture the second element of the input as ``p2`` (as long as the input"
+" is a sequence of two points)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:433
+msgid ""
+"Most literals are compared by equality, however the singletons ``True``, "
+"``False`` and ``None`` are compared by identity."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:436
+msgid ""
+"Patterns may use named constants.  These must be dotted names to prevent "
+"them from being interpreted as capture variable::"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:439
+msgid ""
+"from enum import Enum\n"
+"class Color(Enum):\n"
+"    RED = 'red'\n"
+"    GREEN = 'green'\n"
+"    BLUE = 'blue'\n"
+"\n"
+"color = Color(input(\"Enter your choice of 'red', 'blue' or 'green': \"))\n"
+"\n"
+"match color:\n"
+"    case Color.RED:\n"
+"        print(\"I see red!\")\n"
+"    case Color.GREEN:\n"
+"        print(\"Grass is green\")\n"
+"    case Color.BLUE:\n"
+"        print(\"I'm feeling the blues :(\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:455
+msgid ""
+"For a more detailed explanation and additional examples, you can look into "
+":pep:`636` which is written in a tutorial format."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:461
 msgid "Defining Functions"
 msgstr "Mendefinisikan Fungsi"
 
-#: ../../tutorial/controlflow.rst:251
+#: ../../tutorial/controlflow.rst:463
 msgid ""
 "We can create a function that writes the Fibonacci series to an arbitrary "
 "boundary::"
@@ -291,7 +728,22 @@ msgstr ""
 "Kita dapat membuat fungsi yang menulis seri Fibonacci ke batas acak "
 "*arbitrary*::"
 
-#: ../../tutorial/controlflow.rst:271
+#: ../../tutorial/controlflow.rst:466
+msgid ""
+">>> def fib(n):    # write Fibonacci series less than n\n"
+"...     \"\"\"Print a Fibonacci series less than n.\"\"\"\n"
+"...     a, b = 0, 1\n"
+"...     while a < n:\n"
+"...         print(a, end=' ')\n"
+"...         a, b = b, a+b\n"
+"...     print()\n"
+"...\n"
+">>> # Now call the function we just defined:\n"
+">>> fib(2000)\n"
+"0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:483
 msgid ""
 "The keyword :keyword:`def` introduces a function *definition*.  It must be "
 "followed by the function name and the parenthesized list of formal "
@@ -303,15 +755,15 @@ msgstr ""
 "kurung. Pernyataan yang membentuk tubuh fungsi mulai dari baris berikutnya, "
 "dan harus diberi indentasi."
 
-#: ../../tutorial/controlflow.rst:276
+#: ../../tutorial/controlflow.rst:488
 msgid ""
 "The first statement of the function body can optionally be a string literal;"
 " this string literal is the function's documentation string, or "
-":dfn:`docstring`. (More about docstrings can be found in the section :ref"
-":`tut-docstrings`.) There are tools which use docstrings to automatically "
-"produce online or printed documentation, or to let the user interactively "
-"browse through code; it's good practice to include docstrings in code that "
-"you write, so make a habit of it."
+":dfn:`docstring`. (More about docstrings can be found in the section "
+":ref:`tut-docstrings`.) There are tools which use docstrings to "
+"automatically produce online or printed documentation, or to let the user "
+"interactively browse through code; it's good practice to include docstrings "
+"in code that you write, so make a habit of it."
 msgstr ""
 "Pernyataan pertama dari tubuh fungsi secara opsional dapat berupa string "
 "literal; string literal ini adalah string dokumentasi fungsi, atau "
@@ -322,7 +774,7 @@ msgstr ""
 " untuk memasukkan dokumen dalam kode yang Anda tulis, jadi biasakan seperti "
 "itu."
 
-#: ../../tutorial/controlflow.rst:283
+#: ../../tutorial/controlflow.rst:495
 msgid ""
 "The *execution* of a function introduces a new symbol table used for the "
 "local variables of the function.  More precisely, all variable assignments "
@@ -347,7 +799,7 @@ msgstr ""
 "lampiran *enclosing* fungsi, dinamai dalam pernyataan :keyword:`nonlocal`), "
 "meskipun mungkin direferensikan."
 
-#: ../../tutorial/controlflow.rst:294
+#: ../../tutorial/controlflow.rst:506
 msgid ""
 "The actual parameters (arguments) to a function call are introduced in the "
 "local symbol table of the called function when it is called; thus, arguments"
@@ -357,7 +809,7 @@ msgid ""
 "created for that call."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:301
+#: ../../tutorial/controlflow.rst:513
 msgid ""
 "A function definition associates the function name with the function object "
 "in the current symbol table.  The interpreter recognizes the object pointed "
@@ -370,7 +822,16 @@ msgstr ""
 " dapat menunjuk ke objek fungsi yang sama dan juga dapat digunakan untuk "
 "mengakses fungsi tersebut::"
 
-#: ../../tutorial/controlflow.rst:312
+#: ../../tutorial/controlflow.rst:518
+msgid ""
+">>> fib\n"
+"<function fib at 10042ed0>\n"
+">>> f = fib\n"
+">>> f(100)\n"
+"0 1 1 2 3 5 8 13 21 34 55 89"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:524
 msgid ""
 "Coming from other languages, you might object that ``fib`` is not a function"
 " but a procedure since it doesn't return a value.  In fact, even functions "
@@ -388,7 +849,14 @@ msgstr ""
 " akan menjadi satu-satunya nilai yang ditulis. Anda dapat melihatnya jika "
 "Anda benar-benar ingin menggunakan :func:`print`::"
 
-#: ../../tutorial/controlflow.rst:323
+#: ../../tutorial/controlflow.rst:531
+msgid ""
+">>> fib(0)\n"
+">>> print(fib(0))\n"
+"None"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:535
 msgid ""
 "It is simple to write a function that returns a list of the numbers of the "
 "Fibonacci series, instead of printing it::"
@@ -396,11 +864,27 @@ msgstr ""
 "Sangat mudah untuk menulis fungsi yang mengembalikan daftar *list* nomor "
 "seri Fibonacci, alih-alih mencetaknya::"
 
-#: ../../tutorial/controlflow.rst:339
+#: ../../tutorial/controlflow.rst:538
+msgid ""
+">>> def fib2(n):  # return Fibonacci series up to n\n"
+"...     \"\"\"Return a list containing the Fibonacci series up to n.\"\"\"\n"
+"...     result = []\n"
+"...     a, b = 0, 1\n"
+"...     while a < n:\n"
+"...         result.append(a)    # see below\n"
+"...         a, b = b, a+b\n"
+"...     return result\n"
+"...\n"
+">>> f100 = fib2(100)    # call it\n"
+">>> f100                # write the result\n"
+"[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:551
 msgid "This example, as usual, demonstrates some new Python features:"
 msgstr "Contoh ini, seperti biasa, menunjukkan beberapa fitur Python baru:"
 
-#: ../../tutorial/controlflow.rst:341
+#: ../../tutorial/controlflow.rst:553
 msgid ""
 "The :keyword:`return` statement returns with a value from a function. "
 ":keyword:`!return` without an expression argument returns ``None``. Falling "
@@ -410,7 +894,7 @@ msgstr ""
 ":keyword:`!return` tanpa argumen ekspresi mengembalikan ``None``. Keluar "
 "dari akhir suatu fungsi juga mengembalikan ``None``."
 
-#: ../../tutorial/controlflow.rst:345
+#: ../../tutorial/controlflow.rst:557
 msgid ""
 "The statement ``result.append(a)`` calls a *method* of the list object "
 "``result``.  A method is a function that 'belongs' to an object and is named"
@@ -419,28 +903,17 @@ msgid ""
 "the object's type. Different types define different methods.  Methods of "
 "different types may have the same name without causing ambiguity.  (It is "
 "possible to define your own object types and methods, using *classes*, see "
-":ref:`tut-classes`) The method :meth:`append` shown in the example is "
+":ref:`tut-classes`) The method :meth:`!append` shown in the example is "
 "defined for list objects; it adds a new element at the end of the list.  In "
 "this example it is equivalent to ``result = result + [a]``, but more "
 "efficient."
 msgstr ""
-"Pernyataan ``result.append(a)`` memanggil *method* dari objek daftar *list* "
-"``result``. Sebuah metode adalah fungsi yang 'milik' sebuah objek dan "
-"dinamai ``obj.methodname``, di mana ``obj`` adalah suatu objek (ini mungkin "
-"sebuah ekspresi), dan ``methodname`` adalah nama dari metode yang ditentukan"
-" oleh tipe objek. Jenis yang berbeda menentukan metode yang berbeda. Metode "
-"tipe yang berbeda mungkin memiliki nama yang sama tanpa menimbulkan "
-"ambiguitas. (Dimungkinkan untuk menentukan jenis dan metode objek Anda "
-"sendiri, menggunakan *classes*, lihat :ref:`tut-classes`) Metode "
-":meth:`append` yang ditunjukkan pada contoh didefinisikan untuk objek "
-"daftar; itu menambahkan elemen baru di akhir daftar. Dalam contoh ini setara"
-" dengan ``result = result + [a]``, tetapi lebih efisien."
 
-#: ../../tutorial/controlflow.rst:360
+#: ../../tutorial/controlflow.rst:572
 msgid "More on Defining Functions"
 msgstr "Lebih lanjut tentang Mendefinisikan Fungsi"
 
-#: ../../tutorial/controlflow.rst:362
+#: ../../tutorial/controlflow.rst:574
 msgid ""
 "It is also possible to define functions with a variable number of arguments."
 " There are three forms, which can be combined."
@@ -448,11 +921,11 @@ msgstr ""
 "Dimungkinkan juga untuk mendefinisikan fungsi dengan sejumlah variabel "
 "argumen. Ada tiga bentuk, yang bisa digabungkan."
 
-#: ../../tutorial/controlflow.rst:369
+#: ../../tutorial/controlflow.rst:581
 msgid "Default Argument Values"
 msgstr "Nilai Argumen Bawaan"
 
-#: ../../tutorial/controlflow.rst:371
+#: ../../tutorial/controlflow.rst:583
 msgid ""
 "The most useful form is to specify a default value for one or more "
 "arguments. This creates a function that can be called with fewer arguments "
@@ -463,18 +936,33 @@ msgstr ""
 "yang lebih sedikit daripada yang didefinisikan untuk diizinkan. Sebagai "
 "contoh::"
 
-#: ../../tutorial/controlflow.rst:387
+#: ../../tutorial/controlflow.rst:587
+msgid ""
+"def ask_ok(prompt, retries=4, reminder='Please try again!'):\n"
+"    while True:\n"
+"        reply = input(prompt)\n"
+"        if reply in {'y', 'ye', 'yes'}:\n"
+"            return True\n"
+"        if reply in {'n', 'no', 'nop', 'nope'}:\n"
+"            return False\n"
+"        retries = retries - 1\n"
+"        if retries < 0:\n"
+"            raise ValueError('invalid user response')\n"
+"        print(reminder)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:599
 msgid "This function can be called in several ways:"
 msgstr "Fungsi ini dapat dipanggil dengan beberapa cara:"
 
-#: ../../tutorial/controlflow.rst:389
+#: ../../tutorial/controlflow.rst:601
 msgid ""
 "giving only the mandatory argument: ``ask_ok('Do you really want to "
 "quit?')``"
 msgstr ""
 "hanya memberikan argumen wajib: ``ask_ok('Do you really want to quit?')``"
 
-#: ../../tutorial/controlflow.rst:391
+#: ../../tutorial/controlflow.rst:603
 msgid ""
 "giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', "
 "2)``"
@@ -482,7 +970,7 @@ msgstr ""
 "memberikan salah satu argumen opsional: ``ask_ok('OK to overwrite the "
 "file?', 2)``"
 
-#: ../../tutorial/controlflow.rst:393
+#: ../../tutorial/controlflow.rst:605
 msgid ""
 "or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come"
 " on, only yes or no!')``"
@@ -490,7 +978,7 @@ msgstr ""
 "atau bahkan memberikan semua argumen: ``ask_ok('OK to overwrite the file?', "
 "2, 'Come on, only yes or no!')``"
 
-#: ../../tutorial/controlflow.rst:396
+#: ../../tutorial/controlflow.rst:608
 msgid ""
 "This example also introduces the :keyword:`in` keyword. This tests whether "
 "or not a sequence contains a certain value."
@@ -498,7 +986,7 @@ msgstr ""
 "Contoh ini juga memperkenalkan kata kunci :keyword:`in`. Ini menguji apakah "
 "suatu urutan berisi nilai tertentu atau tidak."
 
-#: ../../tutorial/controlflow.rst:399
+#: ../../tutorial/controlflow.rst:611
 msgid ""
 "The default values are evaluated at the point of function definition in the "
 "*defining* scope, so that ::"
@@ -506,11 +994,22 @@ msgstr ""
 "Nilai bawaan dievaluasi pada titik definisi fungsi dalam lingkup *defining*,"
 " sehingga::"
 
-#: ../../tutorial/controlflow.rst:410
+#: ../../tutorial/controlflow.rst:614
+msgid ""
+"i = 5\n"
+"\n"
+"def f(arg=i):\n"
+"    print(arg)\n"
+"\n"
+"i = 6\n"
+"f()"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:622
 msgid "will print ``5``."
 msgstr "akan mencetak ``5``."
 
-#: ../../tutorial/controlflow.rst:412
+#: ../../tutorial/controlflow.rst:624
 msgid ""
 "**Important warning:**  The default value is evaluated only once. This makes"
 " a difference when the default is a mutable object such as a list, "
@@ -523,11 +1022,29 @@ msgstr ""
 "Misalnya, fungsi berikut mengakumulasi argumen yang diteruskan pada "
 "panggilan berikutnya::"
 
-#: ../../tutorial/controlflow.rst:425
+#: ../../tutorial/controlflow.rst:629
+msgid ""
+"def f(a, L=[]):\n"
+"    L.append(a)\n"
+"    return L\n"
+"\n"
+"print(f(1))\n"
+"print(f(2))\n"
+"print(f(3))"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:637
 msgid "This will print ::"
 msgstr "Ini akan mencetak::"
 
-#: ../../tutorial/controlflow.rst:431
+#: ../../tutorial/controlflow.rst:639
+msgid ""
+"[1]\n"
+"[1, 2]\n"
+"[1, 2, 3]"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:643
 msgid ""
 "If you don't want the default to be shared between subsequent calls, you can"
 " write the function like this instead::"
@@ -535,11 +1052,20 @@ msgstr ""
 "Jika Anda tidak ingin bawaan dibagi dengan panggilan berikutnya, Anda dapat "
 "menulis fungsi seperti ini sebagai gantinya:"
 
-#: ../../tutorial/controlflow.rst:444
+#: ../../tutorial/controlflow.rst:646
+msgid ""
+"def f(a, L=None):\n"
+"    if L is None:\n"
+"        L = []\n"
+"    L.append(a)\n"
+"    return L"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:656
 msgid "Keyword Arguments"
 msgstr "Argumen Kata Kunci *Keyword Arguments*"
 
-#: ../../tutorial/controlflow.rst:446
+#: ../../tutorial/controlflow.rst:658
 msgid ""
 "Functions can also be called using :term:`keyword arguments <keyword "
 "argument>` of the form ``kwarg=value``.  For instance, the following "
@@ -548,7 +1074,16 @@ msgstr ""
 "Fungsi juga dapat dipanggil menggunakan :term:`keyword argument <keyword "
 "argument>` dari bentuk ``kwarg=value``. Misalnya, fungsi berikut::"
 
-#: ../../tutorial/controlflow.rst:455
+#: ../../tutorial/controlflow.rst:661
+msgid ""
+"def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):\n"
+"    print(\"-- This parrot wouldn't\", action, end=' ')\n"
+"    print(\"if you put\", voltage, \"volts through it.\")\n"
+"    print(\"-- Lovely plumage, the\", type)\n"
+"    print(\"-- It's\", state, \"!\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:667
 msgid ""
 "accepts one required argument (``voltage``) and three optional arguments "
 "(``state``, ``action``, and ``type``).  This function can be called in any "
@@ -558,11 +1093,29 @@ msgstr ""
 "opsional (``state``, ``action``, dan ``type``). Fungsi ini dapat dipanggil "
 "dengan salah satu cara berikut::"
 
-#: ../../tutorial/controlflow.rst:466
+#: ../../tutorial/controlflow.rst:671
+msgid ""
+"parrot(1000)                                          # 1 positional argument\n"
+"parrot(voltage=1000)                                  # 1 keyword argument\n"
+"parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments\n"
+"parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments\n"
+"parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments\n"
+"parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:678
 msgid "but all the following calls would be invalid::"
 msgstr "tetapi semua pemanggilan berikut ini tidak valid::"
 
-#: ../../tutorial/controlflow.rst:473
+#: ../../tutorial/controlflow.rst:680
+msgid ""
+"parrot()                     # required argument missing\n"
+"parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument\n"
+"parrot(110, voltage=220)     # duplicate value for the same argument\n"
+"parrot(actor='John Cleese')  # unknown keyword argument"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:685
 msgid ""
 "In a function call, keyword arguments must follow positional arguments. All "
 "the keyword arguments passed must match one of the arguments accepted by the"
@@ -580,7 +1133,18 @@ msgstr ""
 "``parrot(voltage=1000)`` juga valid). Tidak ada argumen yang dapat menerima "
 "nilai lebih dari sekali. Berikut ini contoh yang gagal karena batasan ini::"
 
-#: ../../tutorial/controlflow.rst:489
+#: ../../tutorial/controlflow.rst:693
+msgid ""
+">>> def function(a):\n"
+"...     pass\n"
+"...\n"
+">>> function(0, a=0)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: function() got multiple values for argument 'a'"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:701
 msgid ""
 "When a final formal parameter of the form ``**name`` is present, it receives"
 " a dictionary (see :ref:`typesmapping`) containing all keyword arguments "
@@ -599,15 +1163,48 @@ msgstr ""
 "(``*name`` harus ada sebelum ``**name``.) Misalnya, jika kita mendefinisikan"
 " fungsi seperti ini::"
 
-#: ../../tutorial/controlflow.rst:506
+#: ../../tutorial/controlflow.rst:709
+msgid ""
+"def cheeseshop(kind, *arguments, **keywords):\n"
+"    print(\"-- Do you have any\", kind, \"?\")\n"
+"    print(\"-- I'm sorry, we're all out of\", kind)\n"
+"    for arg in arguments:\n"
+"        print(arg)\n"
+"    print(\"-\" * 40)\n"
+"    for kw in keywords:\n"
+"        print(kw, \":\", keywords[kw])"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:718
 msgid "It could be called like this::"
 msgstr "Ini bisa disebut seperti ini::"
 
-#: ../../tutorial/controlflow.rst:514
+#: ../../tutorial/controlflow.rst:720
+msgid ""
+"cheeseshop(\"Limburger\", \"It's very runny, sir.\",\n"
+"           \"It's really very, VERY runny, sir.\",\n"
+"           shopkeeper=\"Michael Palin\",\n"
+"           client=\"John Cleese\",\n"
+"           sketch=\"Cheese Shop Sketch\")"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:726
 msgid "and of course it would print:"
 msgstr "dan tentu saja itu akan mencetak:"
 
-#: ../../tutorial/controlflow.rst:527
+#: ../../tutorial/controlflow.rst:728
+msgid ""
+"-- Do you have any Limburger ?\n"
+"-- I'm sorry, we're all out of Limburger\n"
+"It's very runny, sir.\n"
+"It's really very, VERY runny, sir.\n"
+"----------------------------------------\n"
+"shopkeeper : Michael Palin\n"
+"client : John Cleese\n"
+"sketch : Cheese Shop Sketch"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:739
 msgid ""
 "Note that the order in which the keyword arguments are printed is guaranteed"
 " to match the order in which they were provided in the function call."
@@ -615,11 +1212,11 @@ msgstr ""
 "Perhatikan bahwa bagaimana urutan argumen kata kunci dicetak telah dijamin "
 "sesuai dengan urutan yang disediakan dalam pemanggilan fungsi."
 
-#: ../../tutorial/controlflow.rst:531
+#: ../../tutorial/controlflow.rst:743
 msgid "Special parameters"
 msgstr "Parameter spesial"
 
-#: ../../tutorial/controlflow.rst:533
+#: ../../tutorial/controlflow.rst:745
 msgid ""
 "By default, arguments may be passed to a Python function either by position "
 "or explicitly by keyword. For readability and performance, it makes sense to"
@@ -633,11 +1230,21 @@ msgstr ""
 " perlu melihat definisi fungsi untuk menentukan apakah item dilewatkan "
 "secara posisi saja, posisi atau kata kunci, atau kata kunci saja."
 
-#: ../../tutorial/controlflow.rst:539
+#: ../../tutorial/controlflow.rst:751
 msgid "A function definition may look like:"
 msgstr "Definisi fungsi mungkin terlihat seperti:"
 
-#: ../../tutorial/controlflow.rst:550
+#: ../../tutorial/controlflow.rst:753
+msgid ""
+"def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):\n"
+"      -----------    ----------     ----------\n"
+"        |             |                  |\n"
+"        |        Positional or keyword   |\n"
+"        |                                - Keyword only\n"
+"         -- Positional only"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:762
 msgid ""
 "where ``/`` and ``*`` are optional. If used, these symbols indicate the kind"
 " of parameter by how the arguments may be passed to the function: "
@@ -649,11 +1256,11 @@ msgstr ""
 "posisi-saja, posisi-atau-kata kunci, dan kata kunci-saja. Parameter kata "
 "kunci juga disebut sebagai parameter bernama."
 
-#: ../../tutorial/controlflow.rst:557
+#: ../../tutorial/controlflow.rst:769
 msgid "Positional-or-Keyword Arguments"
 msgstr "Argumen Posisi-atau-Kata Kunci"
 
-#: ../../tutorial/controlflow.rst:559
+#: ../../tutorial/controlflow.rst:771
 msgid ""
 "If ``/`` and ``*`` are not present in the function definition, arguments may"
 " be passed to a function by position or by keyword."
@@ -661,11 +1268,11 @@ msgstr ""
 "Jika ``/`` dan ``*`` tidak ada dalam definisi fungsi, argumen dapat "
 "diteruskan ke fungsi dengan posisi atau kata kunci."
 
-#: ../../tutorial/controlflow.rst:564
+#: ../../tutorial/controlflow.rst:776
 msgid "Positional-Only Parameters"
 msgstr "Parameter Posisi-saja"
 
-#: ../../tutorial/controlflow.rst:566
+#: ../../tutorial/controlflow.rst:778
 msgid ""
 "Looking at this in a bit more detail, it is possible to mark certain "
 "parameters as *positional-only*. If *positional-only*, the parameters' order"
@@ -682,7 +1289,7 @@ msgstr ""
 "secara logis memisahkan parameter posisi-saja dari parameter lainnya. Jika "
 "tidak ada ``/`` dalam definisi fungsi, tidak ada parameter posisi-saja."
 
-#: ../../tutorial/controlflow.rst:574
+#: ../../tutorial/controlflow.rst:786
 msgid ""
 "Parameters following the ``/`` may be *positional-or-keyword* or *keyword-"
 "only*."
@@ -690,11 +1297,11 @@ msgstr ""
 "Parameter yang mengikuti ``/`` dapat berupa *positional-or-keyword* atau "
 "*keyword-only*."
 
-#: ../../tutorial/controlflow.rst:578
+#: ../../tutorial/controlflow.rst:790
 msgid "Keyword-Only Arguments"
 msgstr "Argumen Kata Kunci-saja"
 
-#: ../../tutorial/controlflow.rst:580
+#: ../../tutorial/controlflow.rst:792
 msgid ""
 "To mark parameters as *keyword-only*, indicating the parameters must be "
 "passed by keyword argument, place an ``*`` in the arguments list just before"
@@ -704,11 +1311,11 @@ msgstr ""
 "harus dilewatkan dengan argumen kata kunci, tempatkan ``*`` dalam daftar "
 "argumen tepat sebelum parameter *keyword-only*."
 
-#: ../../tutorial/controlflow.rst:586
+#: ../../tutorial/controlflow.rst:798
 msgid "Function Examples"
 msgstr "Contoh Fungsi"
 
-#: ../../tutorial/controlflow.rst:588
+#: ../../tutorial/controlflow.rst:800
 msgid ""
 "Consider the following example function definitions paying close attention "
 "to the markers ``/`` and ``*``::"
@@ -716,7 +1323,22 @@ msgstr ""
 "Perhatikan definisi fungsi contoh berikut dengan memperhatikan marker ``/`` "
 "dan ``*``::"
 
-#: ../../tutorial/controlflow.rst:604
+#: ../../tutorial/controlflow.rst:803
+msgid ""
+">>> def standard_arg(arg):\n"
+"...     print(arg)\n"
+"...\n"
+">>> def pos_only_arg(arg, /):\n"
+"...     print(arg)\n"
+"...\n"
+">>> def kwd_only_arg(*, arg):\n"
+"...     print(arg)\n"
+"...\n"
+">>> def combined_example(pos_only, /, standard, *, kwd_only):\n"
+"...     print(pos_only, standard, kwd_only)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:816
 msgid ""
 "The first function definition, ``standard_arg``, the most familiar form, "
 "places no restrictions on the calling convention and arguments may be passed"
@@ -726,7 +1348,16 @@ msgstr ""
 "menempatkan batasan pada konvensi pemanggilan dan argumen dapat dilewatkan "
 "dengan posisi atau kata kunci::"
 
-#: ../../tutorial/controlflow.rst:614
+#: ../../tutorial/controlflow.rst:820
+msgid ""
+">>> standard_arg(2)\n"
+"2\n"
+"\n"
+">>> standard_arg(arg=2)\n"
+"2"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:826
 msgid ""
 "The second function ``pos_only_arg`` is restricted to only use positional "
 "parameters as there is a ``/`` in the function definition::"
@@ -734,15 +1365,35 @@ msgstr ""
 "Fungsi kedua ``pos_only_arg`` dibatasi hanya menggunakan parameter posisi "
 "karena ada ``/`` dalam definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:625
+#: ../../tutorial/controlflow.rst:829
 msgid ""
-"The third function ``kwd_only_args`` only allows keyword arguments as "
+">>> pos_only_arg(1)\n"
+"1\n"
+"\n"
+">>> pos_only_arg(arg=1)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: pos_only_arg() got some positional-only arguments passed as keyword arguments: 'arg'"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:837
+msgid ""
+"The third function ``kwd_only_arg`` only allows keyword arguments as "
 "indicated by a ``*`` in the function definition::"
 msgstr ""
-"Fungsi ketiga ``kwd_only_args`` hanya memungkinkan argumen kata kunci "
-"*keyword argument* seperti ditunjukkan oleh ``*`` dalam definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:636
+#: ../../tutorial/controlflow.rst:840
+msgid ""
+">>> kwd_only_arg(3)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: kwd_only_arg() takes 0 positional arguments but 1 was given\n"
+"\n"
+">>> kwd_only_arg(arg=3)\n"
+"3"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:848
 msgid ""
 "And the last uses all three calling conventions in the same function "
 "definition::"
@@ -750,7 +1401,26 @@ msgstr ""
 "Dan yang terakhir menggunakan ketiga konvensi pemanggilan dalam definisi "
 "fungsi yang sama::"
 
-#: ../../tutorial/controlflow.rst:656
+#: ../../tutorial/controlflow.rst:851
+msgid ""
+">>> combined_example(1, 2, 3)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: combined_example() takes 2 positional arguments but 3 were given\n"
+"\n"
+">>> combined_example(1, 2, kwd_only=3)\n"
+"1 2 3\n"
+"\n"
+">>> combined_example(1, standard=2, kwd_only=3)\n"
+"1 2 3\n"
+"\n"
+">>> combined_example(pos_only=1, standard=2, kwd_only=3)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only'"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:868
 msgid ""
 "Finally, consider this function definition which has a potential collision "
 "between the positional argument ``name``  and ``**kwds`` which has ``name`` "
@@ -760,16 +1430,31 @@ msgstr ""
 "antara argumen posisi ``name`` dan ``**kwds`` yang memiliki ``name`` sebagai"
 " kunci::"
 
-#: ../../tutorial/controlflow.rst:661
+#: ../../tutorial/controlflow.rst:870
+msgid ""
+"def foo(name, **kwds):\n"
+"    return 'name' in kwds"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:873
 msgid ""
 "There is no possible call that will make it return ``True`` as the keyword "
 "``'name'`` will always bind to the first parameter. For example::"
 msgstr ""
 "Tidak ada kemungkinan panggilan yang memungkinkan untuk mengembalikan ke "
-"dalam ``True'' karena kata kunci `` 'nama' 'akan selalu terikat ke parameter"
-" pertama. Sebagai contoh::"
+"dalam ``True`` karena kata kunci  ``'name'`` akan selalu terikat ke "
+"parameter pertama. Sebagai contoh::"
 
-#: ../../tutorial/controlflow.rst:670
+#: ../../tutorial/controlflow.rst:876
+msgid ""
+">>> foo(1, **{'name': 2})\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: foo() got multiple values for argument 'name'\n"
+">>>"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:882
 msgid ""
 "But using ``/`` (positional only arguments), it is possible since it allows "
 "``name`` as a positional argument and ``'name'`` as a key in the keyword "
@@ -779,7 +1464,16 @@ msgstr ""
 "memungkinkan ``name`` sebagai argumen posisi dan ``'name'`` sebagai kunci "
 "dalam argumen kata kunci *keyword argument*::"
 
-#: ../../tutorial/controlflow.rst:677
+#: ../../tutorial/controlflow.rst:884
+msgid ""
+">>> def foo(name, /, **kwds):\n"
+"...     return 'name' in kwds\n"
+"...\n"
+">>> foo(1, **{'name': 2})\n"
+"True"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:890
 msgid ""
 "In other words, the names of positional-only parameters can be used in "
 "``**kwds`` without ambiguity."
@@ -787,11 +1481,11 @@ msgstr ""
 "Dengan kata lain, nama-nama parameter posisi-saja dapat digunakan dalam "
 "``**kwds`` tanpa ambiguitas."
 
-#: ../../tutorial/controlflow.rst:682
+#: ../../tutorial/controlflow.rst:895
 msgid "Recap"
 msgstr "Rekap"
 
-#: ../../tutorial/controlflow.rst:684
+#: ../../tutorial/controlflow.rst:897
 msgid ""
 "The use case will determine which parameters to use in the function "
 "definition::"
@@ -799,11 +1493,15 @@ msgstr ""
 "Contoh kasus dimana akan menentukan parameter mana yang akan digunakan dalam"
 " definisi fungsi::"
 
-#: ../../tutorial/controlflow.rst:688
+#: ../../tutorial/controlflow.rst:899
+msgid "def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:901
 msgid "As guidance:"
 msgstr "Sebagai pedoman:"
 
-#: ../../tutorial/controlflow.rst:690
+#: ../../tutorial/controlflow.rst:903
 msgid ""
 "Use positional-only if you want the name of the parameters to not be "
 "available to the user. This is useful when parameter names have no real "
@@ -817,7 +1515,7 @@ msgstr ""
 "perlu mengambil beberapa parameter posisi dan kata kunci bergantian "
 "*arbitrary*."
 
-#: ../../tutorial/controlflow.rst:695
+#: ../../tutorial/controlflow.rst:908
 msgid ""
 "Use keyword-only when names have meaning and the function definition is more"
 " understandable by being explicit with names or you want to prevent users "
@@ -827,7 +1525,7 @@ msgstr ""
 " mudah dipahami dengan secara eksplisit menggunakan nama atau Anda ingin "
 "mencegah pengguna mengandalkan posisi argumen yang dikirimkan."
 
-#: ../../tutorial/controlflow.rst:698
+#: ../../tutorial/controlflow.rst:911
 msgid ""
 "For an API, use positional-only to prevent breaking API changes if the "
 "parameter's name is modified in the future."
@@ -835,11 +1533,11 @@ msgstr ""
 "Untuk API, gunakan posisi-saja untuk mencegah perubahan yang merusak dari "
 "API jika nama parameter diubah di masa mendatang."
 
-#: ../../tutorial/controlflow.rst:704
+#: ../../tutorial/controlflow.rst:917
 msgid "Arbitrary Argument Lists"
 msgstr "Daftar Argumen Berubah-ubah *Arbitrary*"
 
-#: ../../tutorial/controlflow.rst:709
+#: ../../tutorial/controlflow.rst:922
 msgid ""
 "Finally, the least frequently used option is to specify that a function can "
 "be called with an arbitrary number of arguments.  These arguments will be "
@@ -852,26 +1550,37 @@ msgstr ""
 "Sebelum jumlah variabel argumen, nol atau lebih argumen normal dapat muncul."
 " ::"
 
-#: ../../tutorial/controlflow.rst:718
+#: ../../tutorial/controlflow.rst:927
 msgid ""
-"Normally, these ``variadic`` arguments will be last in the list of formal "
+"def write_multiple_items(file, separator, *args):\n"
+"    file.write(separator.join(args))"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:931
+msgid ""
+"Normally, these *variadic* arguments will be last in the list of formal "
 "parameters, because they scoop up all remaining input arguments that are "
 "passed to the function. Any formal parameters which occur after the "
 "``*args`` parameter are 'keyword-only' arguments, meaning that they can only"
 " be used as keywords rather than positional arguments. ::"
 msgstr ""
-"Biasanya, argumen ``variadic`` ini akan menjadi yang terakhir dalam daftar "
-"parameter formal, karena mereka mengambil semua argumen masukan yang tersisa"
-" yang diteruskan ke fungsi. Parameter formal apa pun yang muncul setelah "
-"parameter ``*args`` adalah argumen 'keyword-only', yang berarti bahwa "
-"parameter itu hanya dapat digunakan sebagai kata kunci alih-alih argumen "
-"posisi. ::"
 
-#: ../../tutorial/controlflow.rst:735
+#: ../../tutorial/controlflow.rst:937
+msgid ""
+">>> def concat(*args, sep=\"/\"):\n"
+"...     return sep.join(args)\n"
+"...\n"
+">>> concat(\"earth\", \"mars\", \"venus\")\n"
+"'earth/mars/venus'\n"
+">>> concat(\"earth\", \"mars\", \"venus\", sep=\".\")\n"
+"'earth.mars.venus'"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:948
 msgid "Unpacking Argument Lists"
 msgstr "Pembukaan Paket *Unpacking* Daftar Argumen"
 
-#: ../../tutorial/controlflow.rst:737
+#: ../../tutorial/controlflow.rst:950
 msgid ""
 "The reverse situation occurs when the arguments are already in a list or "
 "tuple but need to be unpacked for a function call requiring separate "
@@ -887,7 +1596,16 @@ msgstr ""
 " terpisah, tulis fungsi panggilan dengan operator\\-``*`` untuk membongkar "
 "argumen dari daftar *list* atau tuple::"
 
-#: ../../tutorial/controlflow.rst:753
+#: ../../tutorial/controlflow.rst:957
+msgid ""
+">>> list(range(3, 6))            # normal call with separate arguments\n"
+"[3, 4, 5]\n"
+">>> args = [3, 6]\n"
+">>> list(range(*args))            # call with arguments unpacked from a list\n"
+"[3, 4, 5]"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:966
 msgid ""
 "In the same fashion, dictionaries can deliver keyword arguments with the "
 "``**``\\ -operator::"
@@ -895,11 +1613,23 @@ msgstr ""
 "Dengan cara yang sama, kamus dapat mengirimkan argumen kata kunci dengan "
 "operator\\-``**``::"
 
-#: ../../tutorial/controlflow.rst:769
+#: ../../tutorial/controlflow.rst:969
+msgid ""
+">>> def parrot(voltage, state='a stiff', action='voom'):\n"
+"...     print(\"-- This parrot wouldn't\", action, end=' ')\n"
+"...     print(\"if you put\", voltage, \"volts through it.\", end=' ')\n"
+"...     print(\"E's\", state, \"!\")\n"
+"...\n"
+">>> d = {\"voltage\": \"four million\", \"state\": \"bleedin' demised\", \"action\": \"VOOM\"}\n"
+">>> parrot(**d)\n"
+"-- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:982
 msgid "Lambda Expressions"
 msgstr "Ekspresi Lambda"
 
-#: ../../tutorial/controlflow.rst:771
+#: ../../tutorial/controlflow.rst:984
 msgid ""
 "Small anonymous functions can be created with the :keyword:`lambda` keyword."
 " This function returns the sum of its two arguments: ``lambda a, b: a+b``. "
@@ -916,7 +1646,19 @@ msgstr ""
 " sintaksis untuk definisi fungsi normal. Seperti definisi fungsi bersarang, "
 "fungsi lambda dapat mereferensikan variabel dari cakupan yang mengandung ::"
 
-#: ../../tutorial/controlflow.rst:788
+#: ../../tutorial/controlflow.rst:992
+msgid ""
+">>> def make_incrementor(n):\n"
+"...     return lambda x: x + n\n"
+"...\n"
+">>> f = make_incrementor(42)\n"
+">>> f(0)\n"
+"42\n"
+">>> f(1)\n"
+"43"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1001
 msgid ""
 "The above example uses a lambda expression to return a function.  Another "
 "use is to pass a small function as an argument::"
@@ -924,11 +1666,19 @@ msgstr ""
 "Contoh di atas menggunakan ekspresi lambda untuk mengembalikan fungsi. "
 "Penggunaan lain adalah untuk melewatkan fungsi kecil sebagai argumen::"
 
-#: ../../tutorial/controlflow.rst:800
+#: ../../tutorial/controlflow.rst:1004
+msgid ""
+">>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]\n"
+">>> pairs.sort(key=lambda pair: pair[1])\n"
+">>> pairs\n"
+"[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1013
 msgid "Documentation Strings"
 msgstr "String Dokumentasi"
 
-#: ../../tutorial/controlflow.rst:807
+#: ../../tutorial/controlflow.rst:1020
 msgid ""
 "Here are some conventions about the content and formatting of documentation "
 "strings."
@@ -936,7 +1686,7 @@ msgstr ""
 "Berikut adalah beberapa konvensi tentang konten dan format string "
 "dokumentasi."
 
-#: ../../tutorial/controlflow.rst:810
+#: ../../tutorial/controlflow.rst:1023
 msgid ""
 "The first line should always be a short, concise summary of the object's "
 "purpose.  For brevity, it should not explicitly state the object's name or "
@@ -950,7 +1700,7 @@ msgstr ""
 "tersebut merupakan kata kerja yang menggambarkan operasi fungsi). Baris ini "
 "harus dimulai dengan huruf kapital dan diakhiri dengan titik."
 
-#: ../../tutorial/controlflow.rst:816
+#: ../../tutorial/controlflow.rst:1029
 msgid ""
 "If there are more lines in the documentation string, the second line should "
 "be blank, visually separating the summary from the rest of the description."
@@ -962,7 +1712,7 @@ msgstr ""
 "berikut harus satu atau lebih paragraf yang menggambarkan konvensi "
 "pemanggilan objek, efek sampingnya, dll."
 
-#: ../../tutorial/controlflow.rst:821
+#: ../../tutorial/controlflow.rst:1034
 msgid ""
 "The Python parser does not strip indentation from multi-line string literals"
 " in Python, so tools that process documentation have to strip indentation if"
@@ -989,15 +1739,30 @@ msgstr ""
 "Kesetaraan spasi harus diuji setelah ekspansi tab (hingga 8 spasi, "
 "biasanya)."
 
-#: ../../tutorial/controlflow.rst:833
+#: ../../tutorial/controlflow.rst:1046
 msgid "Here is an example of a multi-line docstring::"
 msgstr "Berikut adalah contoh dari multi-baris *docstring*::"
 
-#: ../../tutorial/controlflow.rst:851
+#: ../../tutorial/controlflow.rst:1048
+msgid ""
+">>> def my_function():\n"
+"...     \"\"\"Do nothing, but document it.\n"
+"...\n"
+"...     No, really, it doesn't do anything.\n"
+"...     \"\"\"\n"
+"...     pass\n"
+"...\n"
+">>> print(my_function.__doc__)\n"
+"Do nothing, but document it.\n"
+"\n"
+"    No, really, it doesn't do anything."
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1064
 msgid "Function Annotations"
 msgstr "Anotasi Fungsi"
 
-#: ../../tutorial/controlflow.rst:859
+#: ../../tutorial/controlflow.rst:1072
 msgid ""
 ":ref:`Function annotations <function>` are completely optional metadata "
 "information about the types used by user-defined functions (see :pep:`3107` "
@@ -1007,10 +1772,10 @@ msgstr ""
 "opsional tentang jenis yang digunakan oleh fungsi yang ditentukan pengguna "
 "(lihat :pep:`3107` dan :pep:`484` untuk informasi lebih lanjut)."
 
-#: ../../tutorial/controlflow.rst:863
+#: ../../tutorial/controlflow.rst:1076
 msgid ""
 ":term:`Annotations <function annotation>` are stored in the "
-":attr:`__annotations__` attribute of the function as a dictionary and have "
+":attr:`!__annotations__` attribute of the function as a dictionary and have "
 "no effect on any other part of the function.  Parameter annotations are "
 "defined by a colon after the parameter name, followed by an expression "
 "evaluating to the value of the annotation.  Return annotations are defined "
@@ -1020,11 +1785,24 @@ msgid ""
 "return value annotated::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:885
+#: ../../tutorial/controlflow.rst:1085
+msgid ""
+">>> def f(ham: str, eggs: str = 'eggs') -> str:\n"
+"...     print(\"Annotations:\", f.__annotations__)\n"
+"...     print(\"Arguments:\", ham, eggs)\n"
+"...     return ham + ' and ' + eggs\n"
+"...\n"
+">>> f('spam')\n"
+"Annotations: {'ham': <class 'str'>, 'return': <class 'str'>, 'eggs': <class 'str'>}\n"
+"Arguments: spam eggs\n"
+"'spam and eggs'"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1098
 msgid "Intermezzo: Coding Style"
 msgstr "Intermezzo: Gaya *Coding*"
 
-#: ../../tutorial/controlflow.rst:890
+#: ../../tutorial/controlflow.rst:1103
 msgid ""
 "Now that you are about to write longer, more complex pieces of Python, it is"
 " a good time to talk about *coding style*.  Most languages can be written "
@@ -1039,7 +1817,7 @@ msgstr ""
 "Memudahkan orang lain untuk membaca kode Anda selalu merupakan ide yang "
 "baik, dan mengadopsi gaya pengkodean yang bagus sangat membantu untuk itu."
 
-#: ../../tutorial/controlflow.rst:896
+#: ../../tutorial/controlflow.rst:1109
 msgid ""
 "For Python, :pep:`8` has emerged as the style guide that most projects "
 "adhere to; it promotes a very readable and eye-pleasing coding style.  Every"
@@ -1052,11 +1830,11 @@ msgstr ""
 "beberapa bagian; di sini adalah poin paling penting yang ditunjukkan untuk "
 "Anda:"
 
-#: ../../tutorial/controlflow.rst:901
+#: ../../tutorial/controlflow.rst:1114
 msgid "Use 4-space indentation, and no tabs."
 msgstr "Gunakan lekukan 4-spasi, dan tanpa tab."
 
-#: ../../tutorial/controlflow.rst:903
+#: ../../tutorial/controlflow.rst:1116
 msgid ""
 "4 spaces are a good compromise between small indentation (allows greater "
 "nesting depth) and large indentation (easier to read).  Tabs introduce "
@@ -1066,11 +1844,11 @@ msgstr ""
 "kedalaman bersarang lebih besar) dan indentasi besar (lebih mudah dibaca). "
 "Tab menimbulkan kebingungan, dan sebaiknya ditinggalkan."
 
-#: ../../tutorial/controlflow.rst:907
+#: ../../tutorial/controlflow.rst:1120
 msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr "Bungkus *wrap* garis agar tidak melebihi 79 karakter."
 
-#: ../../tutorial/controlflow.rst:909
+#: ../../tutorial/controlflow.rst:1122
 msgid ""
 "This helps users with small displays and makes it possible to have several "
 "code files side-by-side on larger displays."
@@ -1078,7 +1856,7 @@ msgstr ""
 "Ini membantu pengguna dengan tampilan kecil dan memungkinkan untuk memiliki "
 "beberapa file kode berdampingan pada tampilan yang lebih besar."
 
-#: ../../tutorial/controlflow.rst:912
+#: ../../tutorial/controlflow.rst:1125
 msgid ""
 "Use blank lines to separate functions and classes, and larger blocks of code"
 " inside functions."
@@ -1086,15 +1864,15 @@ msgstr ""
 "Gunakan baris kosong untuk memisahkan fungsi dan kelas, dan blok kode yang "
 "lebih besar di dalam fungsi."
 
-#: ../../tutorial/controlflow.rst:915
+#: ../../tutorial/controlflow.rst:1128
 msgid "When possible, put comments on a line of their own."
 msgstr "Jika memungkinkan, berikan komentar pada baris terkait."
 
-#: ../../tutorial/controlflow.rst:917
+#: ../../tutorial/controlflow.rst:1130
 msgid "Use docstrings."
 msgstr "Gunakan String Dokumentasi *docstrings*."
 
-#: ../../tutorial/controlflow.rst:919
+#: ../../tutorial/controlflow.rst:1132
 msgid ""
 "Use spaces around operators and after commas, but not directly inside "
 "bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
@@ -1102,7 +1880,7 @@ msgstr ""
 "Gunakan spasi di sekitar operator dan setelah koma, tetapi tidak secara "
 "langsung di dalam konstruksi kurung *bracketing*: ``a = f(1, 2) + g(3, 4)``."
 
-#: ../../tutorial/controlflow.rst:922
+#: ../../tutorial/controlflow.rst:1135
 msgid ""
 "Name your classes and functions consistently; the convention is to use "
 "``UpperCamelCase`` for classes and ``lowercase_with_underscores`` for "
@@ -1115,7 +1893,7 @@ msgstr ""
 " pertama (lihat :ref:`tut-firstclass` untuk lebih lanjut tentang kelas dan "
 "metode)."
 
-#: ../../tutorial/controlflow.rst:927
+#: ../../tutorial/controlflow.rst:1140
 msgid ""
 "Don't use fancy encodings if your code is meant to be used in international "
 "environments.  Python's default, UTF-8, or even plain ASCII work best in any"
@@ -1125,7 +1903,7 @@ msgstr ""
 " untuk digunakan di lingkungan internasional. Default Python, UTF-8, atau "
 "bahkan ASCII biasa berfungsi paling baik dalam hal apa pun."
 
-#: ../../tutorial/controlflow.rst:931
+#: ../../tutorial/controlflow.rst:1144
 msgid ""
 "Likewise, don't use non-ASCII characters in identifiers if there is only the"
 " slightest chance people speaking a different language will read or maintain"
@@ -1135,11 +1913,11 @@ msgstr ""
 " hanya ada sedikit kesempatan orang berbicara bahasa yang berbeda akan "
 "membaca atau merawat kode."
 
-#: ../../tutorial/controlflow.rst:937
+#: ../../tutorial/controlflow.rst:1150
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../tutorial/controlflow.rst:938
+#: ../../tutorial/controlflow.rst:1151
 msgid ""
 "Actually, *call by object reference* would be a better description, since if"
 " a mutable object is passed, the caller will see any changes the callee "
@@ -1149,3 +1927,63 @@ msgstr ""
 "baik, karena jika objek yang bisa ditransmisikan dilewatkan, pemanggil akan "
 "melihat perubahan yang dibuat oleh yang dipanggil *callee* (item dimasukkan "
 "ke dalam daftar)."
+
+#: ../../tutorial/controlflow.rst:48
+msgid "statement"
+msgstr "pernyataan"
+
+#: ../../tutorial/controlflow.rst:48
+msgid "for"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:478 ../../tutorial/controlflow.rst:1015
+msgid "documentation strings"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:478 ../../tutorial/controlflow.rst:1015
+msgid "docstrings"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:478 ../../tutorial/controlflow.rst:1015
+msgid "strings, documentation"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:919
+msgid "* (asterisk)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:919 ../../tutorial/controlflow.rst:963
+msgid "in function calls"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:963
+msgid "**"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1067
+msgid "function"
+msgstr "fungsi"
+
+#: ../../tutorial/controlflow.rst:1067
+msgid "annotations"
+msgstr "anotasi"
+
+#: ../../tutorial/controlflow.rst:1067
+msgid "->"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1067
+msgid "function annotations"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1067
+msgid ": (colon)"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1101
+msgid "coding"
+msgstr ""
+
+#: ../../tutorial/controlflow.rst:1101
+msgid "style"
+msgstr "gaya"
