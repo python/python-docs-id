@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:36+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:18+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/xml.sax.rst:2
-msgid ":mod:`xml.sax` --- Support for SAX2 parsers"
+msgid ":mod:`!xml.sax` --- Support for SAX2 parsers"
 msgstr ""
 
 #: ../../library/xml.sax.rst:11
@@ -176,7 +176,7 @@ msgid ""
 " purposes."
 msgstr ""
 
-#: ../../library/xml.sax.rst:148
+#: ../../library/xml.sax.rst:145
 msgid "`SAX: The Simple API for XML <http://www.saxproject.org/>`_"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgid ""
 "and historical information are also available."
 msgstr ""
 
-#: ../../library/xml.sax.rst:151
+#: ../../library/xml.sax.rst:150
 msgid "Module :mod:`xml.sax.handler`"
 msgstr ""
 
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Definitions of the interfaces for application-provided objects."
 msgstr ""
 
-#: ../../library/xml.sax.rst:154
+#: ../../library/xml.sax.rst:153
 msgid "Module :mod:`xml.sax.saxutils`"
 msgstr ""
 
