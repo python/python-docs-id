@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:32+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:16+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/trace.rst:2
-msgid ":mod:`trace` --- Trace or track Python statement execution"
+msgid ":mod:`!trace` --- Trace or track Python statement execution"
 msgstr ""
 
 #: ../../library/trace.rst:7
@@ -33,7 +33,7 @@ msgid ""
 "program or from the command line."
 msgstr ""
 
-#: ../../library/trace.rst:19
+#: ../../library/trace.rst:18
 msgid "`Coverage.py <https://coverage.readthedocs.io/>`_"
 msgstr ""
 
@@ -51,6 +51,10 @@ msgstr ""
 msgid ""
 "The :mod:`trace` module can be invoked from the command line.  It can be as "
 "simple as ::"
+msgstr ""
+
+#: ../../library/trace.rst:30
+msgid "python -m trace --count -C . somefile.py ..."
 msgstr ""
 
 #: ../../library/trace.rst:32
@@ -229,7 +233,7 @@ msgstr ""
 msgid "Merge in data from another :class:`CoverageResults` object."
 msgstr ""
 
-#: ../../library/trace.rst:192
+#: ../../library/trace.rst:193
 msgid ""
 "Write coverage results.  Set *show_missing* to show lines that had no hits."
 "  Set *summary* to include in the output the coverage summary per module.  "
@@ -238,6 +242,37 @@ msgid ""
 " directory."
 msgstr ""
 
-#: ../../library/trace.rst:198
+#: ../../library/trace.rst:199
+msgid ""
+"If *ignore_missing_files* is ``True``, coverage counts for files that no "
+"longer exist are silently ignored. Otherwise, a missing file will raise a "
+":exc:`FileNotFoundError`."
+msgstr ""
+
+#: ../../library/trace.rst:203
+msgid "Added *ignore_missing_files* parameter."
+msgstr ""
+
+#: ../../library/trace.rst:206
 msgid "A simple example demonstrating the use of the programmatic interface::"
+msgstr ""
+
+#: ../../library/trace.rst:208
+msgid ""
+"import sys\n"
+"import trace\n"
+"\n"
+"# create a Trace object, telling it what to ignore, and whether to\n"
+"# do tracing or line-counting or both.\n"
+"tracer = trace.Trace(\n"
+"    ignoredirs=[sys.prefix, sys.exec_prefix],\n"
+"    trace=0,\n"
+"    count=1)\n"
+"\n"
+"# run the new command using the given tracer\n"
+"tracer.run('main()')\n"
+"\n"
+"# make a report, placing output in the current directory\n"
+"r = tracer.results()\n"
+"r.write_results(show_missing=True, coverdir=\".\")"
 msgstr ""
