@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:36+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:18+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/xml.dom.pulldom.rst:2
-msgid ":mod:`xml.dom.pulldom` --- Support for building partial DOM trees"
+msgid ":mod:`!xml.dom.pulldom` --- Support for building partial DOM trees"
 msgstr ""
 
 #: ../../library/xml.dom.pulldom.rst:9
@@ -55,9 +55,32 @@ msgid ""
 "pass a custom parser instance in::"
 msgstr ""
 
+#: ../../library/xml.dom.pulldom.rst:34
+msgid ""
+"from xml.dom.pulldom import parse\n"
+"from xml.sax import make_parser\n"
+"from xml.sax.handler import feature_external_ges\n"
+"\n"
+"parser = make_parser()\n"
+"parser.setFeature(feature_external_ges, True)\n"
+"parse(filename, parser=parser)"
+msgstr ""
+
 #: ../../library/xml.dom.pulldom.rst:43
 msgid "Example::"
 msgstr "Contoh::"
+
+#: ../../library/xml.dom.pulldom.rst:45
+msgid ""
+"from xml.dom import pulldom\n"
+"\n"
+"doc = pulldom.parse('sales_items.xml')\n"
+"for event, node in doc:\n"
+"    if event == pulldom.START_ELEMENT and node.tagName == 'item':\n"
+"        if int(node.getAttribute('price')) > 50:\n"
+"            doc.expandNode(node)\n"
+"            print(node.toxml())"
+msgstr ""
 
 #: ../../library/xml.dom.pulldom.rst:54
 msgid "``event`` is a constant and can be one of:"
@@ -154,7 +177,7 @@ msgid "DOMEventStream Objects"
 msgstr ""
 
 #: ../../library/xml.dom.pulldom.rst:117
-msgid "Support for :meth:`sequence protocol <__getitem__>` is deprecated."
+msgid "Support for :meth:`~object.__getitem__` method has been removed."
 msgstr ""
 
 #: ../../library/xml.dom.pulldom.rst:122
@@ -169,4 +192,19 @@ msgstr ""
 
 #: ../../library/xml.dom.pulldom.rst:132
 msgid "Expands all children of *node* into *node*. Example::"
+msgstr ""
+
+#: ../../library/xml.dom.pulldom.rst:134
+msgid ""
+"from xml.dom import pulldom\n"
+"\n"
+"xml = '<html><title>Foo</title> <p>Some text <div>and more</div></p> </html>'\n"
+"doc = pulldom.parseString(xml)\n"
+"for event, node in doc:\n"
+"    if event == pulldom.START_ELEMENT and node.tagName == 'p':\n"
+"        # Following statement only prints '<p/>'\n"
+"        print(node.toxml())\n"
+"        doc.expandNode(node)\n"
+"        # Following statement prints node with all its children '<p>Some text <div>and more</div></p>'\n"
+"        print(node.toxml())"
 msgstr ""
