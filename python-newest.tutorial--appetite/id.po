@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# Ahmad Mustafid, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:39+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:49+0000\n"
+"Last-Translator: Ahmad Mustafid, 2024\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,17 +69,17 @@ msgid ""
 " tasks, but shell scripts are best at moving around files and changing text "
 "data, not well-suited for GUI applications or games. You could write a "
 "C/C++/Java program, but it can take a lot of development time to get even a "
-"first-draft program.  Python is simpler to use, available on Windows, Mac OS"
-" X, and Unix operating systems, and will help you get the job done more "
+"first-draft program.  Python is simpler to use, available on Windows, macOS,"
+" and Unix operating systems, and will help you get the job done more "
 "quickly."
 msgstr ""
-"Anda bisa menulis skrip Unix *shell* atau berkas *batch* Windows untuk "
-"beberapa tugas ini, tetapi skrip *shell* paling baik untuk bergerak di "
-"sekitar berkas dan mengubah data teks, tidak cocok untuk aplikasi atau game "
-"GUI. Anda bisa menulis program C/C++/Java, tetapi mungkin butuh banyak waktu"
-" pengembangan untuk mendapatkan bahkan program draft pertama. Python lebih "
-"mudah digunakan, tersedia di sistem operasi Windows, Mac OS X, dan Unix, dan"
-" akan membantu Anda menyelesaikan pekerjaan dengan lebih cepat."
+"Anda dapat menuliskan skrip Unix shell atau file batch Windows untuk "
+"beberapa tugas, tetapi skrip shell paling baik dalam memindahkan file dan "
+"mengubah data teks, tidak cocok untuk aplikasi GUI atau game. Anda dapat "
+"menulis program C/C++/Java, tetapi membutuhkan waktu pengembangan yang lama "
+"untuk mendapatkan program draf pertama.  Python lebih sederhana untuk "
+"digunakan, tersedia di sistem operasi Windows, macOS, dan Unix, dan akan "
+"membantu Anda menyelesaikan pekerjaan dengan lebih cepat."
 
 #: ../../tutorial/appetite.rst:29
 msgid ""
