@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
 # Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
-"PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:50+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,14 +33,14 @@ msgstr "Memanggil Interpreter"
 #: ../../tutorial/interpreter.rst:13
 msgid ""
 "The Python interpreter is usually installed as "
-":file:`/usr/local/bin/python3.9` on those machines where it is available; "
-"putting :file:`/usr/local/bin` in your Unix shell's search path makes it "
-"possible to start it by typing the command:"
+"|usr_local_bin_python_x_dot_y_literal| on those machines where it is "
+"available; putting :file:`/usr/local/bin` in your Unix shell's search path "
+"makes it possible to start it by typing the command:"
 msgstr ""
-"Penerjemah Python biasanya diinstal sebagai :file:`/usr/local/bin/python3.9`"
-" pada mesin yang tersedia; menempatkan :file:`/usr/local/bin` di jalur "
-"pencarian shell Unix Anda memungkinkan untuk memulainya dengan mengetik "
-"perintah:"
+
+#: ../../tutorial/interpreter.rst:17
+msgid "python3.14"
+msgstr ""
 
 #: ../../tutorial/interpreter.rst:21
 msgid ""
@@ -57,16 +57,11 @@ msgstr ""
 #: ../../tutorial/interpreter.rst:26
 msgid ""
 "On Windows machines where you have installed Python from the :ref:`Microsoft"
-" Store <windows-store>`, the :file:`python3.9` command will be available. If"
-" you have the :ref:`py.exe launcher <launcher>` installed, you can use the "
-":file:`py` command. See :ref:`setting-envvars` for other ways to launch "
-"Python."
+" Store <windows-store>`, the |python_x_dot_y_literal| command will be "
+"available. If you have the :ref:`py.exe launcher <launcher>` installed, you "
+"can use the :file:`py` command. See :ref:`setting-envvars` for other ways to"
+" launch Python."
 msgstr ""
-"Pada mesin *Windows* yang telah diinstall Python dari :ref:`Microsoft Store "
-"<windows-store>`, *command* :file:`python3.9` akan tersedia. Jika anda "
-"memiliki *launcher*  :ref:`py.exe <launcher>`, anda dapat menggunakan "
-"*command* :file:`py`. Lihat :ref:`setting-envvars` untuk mengetahui cara "
-"lain menjalankan Python."
 
 #: ../../tutorial/interpreter.rst:31
 msgid ""
@@ -122,13 +117,8 @@ msgid ""
 " which executes the statement(s) in *command*, analogous to the shell's "
 ":option:`-c` option.  Since Python statements often contain spaces or other "
 "characters that are special to the shell, it is usually advised to quote "
-"*command* in its entirety with single quotes."
+"*command* in its entirety."
 msgstr ""
-"Cara kedua untuk memulai interpreter adalah ``python -c command [arg] ...``,"
-" yang mengeksekusi pernyataan(-pernyataan) dalam *command*, dianalogikan "
-"dengan opsi shell :option:`-c`. Karena pernyataan Python sering mengandung "
-"spasi atau karakter lain yang khusus untuk shell, biasanya disarankan untuk "
-"mengutip *command* secara keseluruhan dengan tanda kutip tunggal."
 
 #: ../../tutorial/interpreter.rst:57
 msgid ""
@@ -208,6 +198,15 @@ msgstr ""
 "menyatakan nomor versinya dan pemberitahuan hak cipta sebelum mencetak "
 "prompt pertama:"
 
+#: ../../tutorial/interpreter.rst:98
+msgid ""
+"$ python3.14\n"
+"Python 3.14 (default, April 4 2024, 09:25:04)\n"
+"[GCC 10.2.0] on linux\n"
+"Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n"
+">>>"
+msgstr ""
+
 #: ../../tutorial/interpreter.rst:108
 msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
@@ -215,6 +214,15 @@ msgid ""
 msgstr ""
 "Garis lanjutan diperlukan ketika memasuki konstruksi multi-garis. Sebagai "
 "contoh, lihat ini pernyataan :keyword:`if`::"
+
+#: ../../tutorial/interpreter.rst:111
+msgid ""
+">>> the_world_is_flat = True\n"
+">>> if the_world_is_flat:\n"
+"...     print(\"Be careful not to fall off!\")\n"
+"...\n"
+"Be careful not to fall off!"
+msgstr ""
 
 #: ../../tutorial/interpreter.rst:118
 msgid "For more on interactive mode, see :ref:`tut-interac`."
@@ -256,6 +264,10 @@ msgstr ""
 "komentar khusus harus ditambahkan sebagai baris *first* pada berkas. "
 "Sintaksnya adalah sebagai berikut ::"
 
+#: ../../tutorial/interpreter.rst:143
+msgid "# -*- coding: encoding -*-"
+msgstr ""
+
 #: ../../tutorial/interpreter.rst:145
 msgid ""
 "where *encoding* is one of the valid :mod:`codecs` supported by Python."
@@ -271,6 +283,10 @@ msgstr ""
 "Misalnya, untuk menyatakan bahwa pengkodean *encoding* Windows-1252 harus "
 "digunakan, baris pertama file kode sumber Anda harus::"
 
+#: ../../tutorial/interpreter.rst:150
+msgid "# -*- coding: cp1252 -*-"
+msgstr ""
+
 #: ../../tutorial/interpreter.rst:152
 msgid ""
 "One exception to the *first line* rule is when the source code starts with a"
@@ -281,6 +297,12 @@ msgstr ""
 "dimulai dengan :ref:`UNIX \"shebang\" line <tut-scripts>`. Dalam hal ini, "
 "deklarasi penyandian *encoding* harus ditambahkan sebagai baris kedua pada "
 "berkas. Sebagai contoh::"
+
+#: ../../tutorial/interpreter.rst:156
+msgid ""
+"#!/usr/bin/env python3\n"
+"# -*- coding: cp1252 -*-"
+msgstr ""
 
 #: ../../tutorial/interpreter.rst:160
 msgid "Footnotes"
