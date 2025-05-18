@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
-# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
 # oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2021
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-04 05:56+0000\n"
-"PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:50+0000\n"
+"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,18 +48,14 @@ msgstr ""
 "metode dari objek daftar *list*:"
 
 #: ../../tutorial/datastructures.rst:22
-msgid ""
-"Add an item to the end of the list.  Equivalent to ``a[len(a):] = [x]``."
+msgid "Add an item to the end of the list.  Similar to ``a[len(a):] = [x]``."
 msgstr ""
-"Tambahkan item ke akhir daftar *list*. Setara dengan ``a[len(a):] = [x]``."
 
 #: ../../tutorial/datastructures.rst:28
 msgid ""
-"Extend the list by appending all the items from the iterable.  Equivalent to"
-" ``a[len(a):] = iterable``."
+"Extend the list by appending all the items from the iterable.  Similar to "
+"``a[len(a):] = iterable``."
 msgstr ""
-"Perpanjang daftar *list* dengan menambahkan semua item dari *iterable*. "
-"Setara dengan ``a[len(a):] = iterable``."
 
 #: ../../tutorial/datastructures.rst:35
 msgid ""
@@ -83,23 +79,15 @@ msgstr ""
 msgid ""
 "Remove the item at the given position in the list, and return it.  If no "
 "index is specified, ``a.pop()`` removes and returns the last item in the "
-"list.  (The square brackets around the *i* in the method signature denote "
-"that the parameter is optional, not that you should type square brackets at "
-"that position.  You will see this notation frequently in the Python Library "
-"Reference.)"
+"list. It raises an :exc:`IndexError` if the list is empty or the index is "
+"outside the list range."
 msgstr ""
-"Hapus item pada posisi yang diberikan dalam daftar, dan kembalikan. Jika "
-"tidak ada indeks yang ditentukan, ``a.pop()`` menghapus dan mengembalikan "
-"item terakhir dalam daftar. (Tanda kurung siku di sekitar *i* dalam pengenal"
-" *signature* metode menunjukkan bahwa parameternya opsional, bukan Anda "
-"harus mengetik tanda kurung siku pada posisi itu. Anda akan sering melihat "
-"notasi ini di Referensi Pustaka Python.)"
 
-#: ../../tutorial/datastructures.rst:60
-msgid "Remove all items from the list.  Equivalent to ``del a[:]``."
-msgstr "Hapus semua item dari daftar *list*. Setara dengan ``del a[:]``."
+#: ../../tutorial/datastructures.rst:59
+msgid "Remove all items from the list.  Similar to ``del a[:]``."
+msgstr ""
 
-#: ../../tutorial/datastructures.rst:66
+#: ../../tutorial/datastructures.rst:65
 msgid ""
 "Return zero-based index in the list of the first item whose value is equal "
 "to *x*. Raises a :exc:`ValueError` if there is no such item."
@@ -107,7 +95,7 @@ msgstr ""
 "Kembalikan indeks berbasis nol dalam daftar item pertama yang nilainya sama "
 "dengan *x*. Menimbulkan :exc:`ValueError` jika tidak ada item seperti itu."
 
-#: ../../tutorial/datastructures.rst:69
+#: ../../tutorial/datastructures.rst:68
 msgid ""
 "The optional arguments *start* and *end* are interpreted as in the slice "
 "notation and are used to limit the search to a particular subsequence of the"
@@ -119,11 +107,11 @@ msgstr ""
 "Indeks yang dikembalikan dihitung relatif terhadap awal urutan penuh "
 "daripada argumen *start*."
 
-#: ../../tutorial/datastructures.rst:78
+#: ../../tutorial/datastructures.rst:77
 msgid "Return the number of times *x* appears in the list."
 msgstr "Kembalikan berapa kali *x* muncul dalam daftar."
 
-#: ../../tutorial/datastructures.rst:84
+#: ../../tutorial/datastructures.rst:83
 msgid ""
 "Sort the items of the list in place (the arguments can be used for sort "
 "customization, see :func:`sorted` for their explanation)."
@@ -131,70 +119,96 @@ msgstr ""
 "Urutkan item daftar di tempat (argumen dapat digunakan untuk mengurutkan "
 "ubahsuaian *customization*, lihat :func:`sorted` untuk penjelasannya)."
 
-#: ../../tutorial/datastructures.rst:91
+#: ../../tutorial/datastructures.rst:90
 msgid "Reverse the elements of the list in place."
 msgstr "Balikkan elemen daftar *list* di tempatnya."
 
-#: ../../tutorial/datastructures.rst:97
-msgid "Return a shallow copy of the list.  Equivalent to ``a[:]``."
+#: ../../tutorial/datastructures.rst:96
+msgid "Return a shallow copy of the list.  Similar to ``a[:]``."
 msgstr ""
-"Kembalikan salinan daftar *list* yang dangkal. Setara dengan ``a[:]``."
 
-#: ../../tutorial/datastructures.rst:100
+#: ../../tutorial/datastructures.rst:99
 msgid "An example that uses most of the list methods::"
 msgstr "Contoh yang menggunakan sebagian besar metode daftar *list*::"
 
-#: ../../tutorial/datastructures.rst:123
+#: ../../tutorial/datastructures.rst:101
+msgid ""
+">>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']\n"
+">>> fruits.count('apple')\n"
+"2\n"
+">>> fruits.count('tangerine')\n"
+"0\n"
+">>> fruits.index('banana')\n"
+"3\n"
+">>> fruits.index('banana', 4)  # Find next banana starting at position 4\n"
+"6\n"
+">>> fruits.reverse()\n"
+">>> fruits\n"
+"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']\n"
+">>> fruits.append('grape')\n"
+">>> fruits\n"
+"['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']\n"
+">>> fruits.sort()\n"
+">>> fruits\n"
+"['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']\n"
+">>> fruits.pop()\n"
+"'pear'"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:122
 msgid ""
 "You might have noticed that methods like ``insert``, ``remove`` or ``sort`` "
 "that only modify the list have no return value printed -- they return the "
-"default ``None``. [1]_  This is a design principle for all mutable data "
+"default ``None``. [#]_  This is a design principle for all mutable data "
 "structures in Python."
 msgstr ""
-"Anda mungkin telah memperhatikan bahwa metode seperti ``insert``, ``remove``"
-" atau ``sort`` yang hanya mengubah daftar *list* tidak memiliki nilai "
-"pengembalian yang dicetak -- mereka mengembalikan standar ``None``. [1]_  "
-"Ini adalah prinsip desain untuk semua struktur data yang bisa berubah "
-"*mutable* dalam Python."
 
-#: ../../tutorial/datastructures.rst:128
+#: ../../tutorial/datastructures.rst:127
 msgid ""
 "Another thing you might notice is that not all data can be sorted or "
 "compared.  For instance, ``[None, 'hello', 10]`` doesn't sort because "
-"integers can't be compared to strings and *None* can't be compared to other "
-"types.  Also, there are some types that don't have a defined ordering "
+"integers can't be compared to strings and ``None`` can't be compared to "
+"other types.  Also, there are some types that don't have a defined ordering "
 "relation.  For example, ``3+4j < 5+7j`` isn't a valid comparison."
 msgstr ""
-"Hal lain yang mungkin Anda perhatikan adalah bahwa tidak semua data dapat "
-"diurutkan atau dibandingkan. Misalnya, ``[None, 'hello', 10]`` tidak "
-"mengurutkan karena bilangan bulat tidak dapat dibandingkan dengan string dan"
-" *None* tidak dapat dibandingkan dengan jenis lainnya. Juga, ada beberapa "
-"tipe yang tidak memiliki hubungan pengurutan yang ditentukan. Sebagai "
-"contoh, ``3+4j < 5+7j`` bukan perbandingan yang valid."
 
-#: ../../tutorial/datastructures.rst:139
+#: ../../tutorial/datastructures.rst:138
 msgid "Using Lists as Stacks"
 msgstr "Menggunakan Daftar *Lists* sebagai Tumpukan *Stacks*"
 
-#: ../../tutorial/datastructures.rst:144
+#: ../../tutorial/datastructures.rst:143
 msgid ""
 "The list methods make it very easy to use a list as a stack, where the last "
 "element added is the first element retrieved (\"last-in, first-out\").  To "
-"add an item to the top of the stack, use :meth:`append`.  To retrieve an "
-"item from the top of the stack, use :meth:`pop` without an explicit index.  "
-"For example::"
+"add an item to the top of the stack, use :meth:`!append`.  To retrieve an "
+"item from the top of the stack, use :meth:`!pop` without an explicit index."
+"  For example::"
 msgstr ""
-"Metode daftar membuatnya sangat mudah untuk menggunakan daftar *lust* "
-"sebagai tumpukan *stack*, di mana elemen terakhir yang ditambahkan adalah "
-"elemen pertama yang diambil (\"last-in, first-out\"). Untuk menambahkan item"
-" ke atas tumpukan, gunakan :meth:`append`. Untuk mengambil item dari atas "
-"tumpukan, gunakan :meth:`pop` tanpa indeks eksplisit. Sebagai contoh::"
 
-#: ../../tutorial/datastructures.rst:169
+#: ../../tutorial/datastructures.rst:148
+msgid ""
+">>> stack = [3, 4, 5]\n"
+">>> stack.append(6)\n"
+">>> stack.append(7)\n"
+">>> stack\n"
+"[3, 4, 5, 6, 7]\n"
+">>> stack.pop()\n"
+"7\n"
+">>> stack\n"
+"[3, 4, 5, 6]\n"
+">>> stack.pop()\n"
+"6\n"
+">>> stack.pop()\n"
+"5\n"
+">>> stack\n"
+"[3, 4]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:168
 msgid "Using Lists as Queues"
 msgstr "Menggunakan Daftar *Lists* sebagai Antrian *Queues*"
 
-#: ../../tutorial/datastructures.rst:173
+#: ../../tutorial/datastructures.rst:172
 msgid ""
 "It is also possible to use a list as a queue, where the first element added "
 "is the first element retrieved (\"first-in, first-out\"); however, lists are"
@@ -209,7 +223,7 @@ msgstr ""
 "muncul dari awal daftar lambat (karena semua elemen lain harus digeser "
 "satu)."
 
-#: ../../tutorial/datastructures.rst:179
+#: ../../tutorial/datastructures.rst:178
 msgid ""
 "To implement a queue, use :class:`collections.deque` which was designed to "
 "have fast appends and pops from both ends.  For example::"
@@ -218,11 +232,25 @@ msgstr ""
 "dirancang untuk menambahkan dan muncul dengan cepat dari kedua ujungnya. "
 "Sebagai contoh::"
 
-#: ../../tutorial/datastructures.rst:197
+#: ../../tutorial/datastructures.rst:181
+msgid ""
+">>> from collections import deque\n"
+">>> queue = deque([\"Eric\", \"John\", \"Michael\"])\n"
+">>> queue.append(\"Terry\")           # Terry arrives\n"
+">>> queue.append(\"Graham\")          # Graham arrives\n"
+">>> queue.popleft()                 # The first to arrive now leaves\n"
+"'Eric'\n"
+">>> queue.popleft()                 # The second to arrive now leaves\n"
+"'John'\n"
+">>> queue                           # Remaining queue in order of arrival\n"
+"deque(['Michael', 'Terry', 'Graham'])"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:196
 msgid "List Comprehensions"
 msgstr "Daftar *List* *Comprehensions*"
 
-#: ../../tutorial/datastructures.rst:199
+#: ../../tutorial/datastructures.rst:198
 msgid ""
 "List comprehensions provide a concise way to create lists. Common "
 "applications are to make new lists where each element is the result of some "
@@ -235,11 +263,21 @@ msgstr ""
 "anggota dari urutan lain atau *iterable*, atau untuk membuat urutan elemen-"
 "elemen yang memenuhi kondisi tertentu."
 
-#: ../../tutorial/datastructures.rst:204
+#: ../../tutorial/datastructures.rst:203
 msgid "For example, assume we want to create a list of squares, like::"
 msgstr "Misalnya, anggap kita ingin membuat daftar kotak, seperti::"
 
-#: ../../tutorial/datastructures.rst:213
+#: ../../tutorial/datastructures.rst:205
+msgid ""
+">>> squares = []\n"
+">>> for x in range(10):\n"
+"...     squares.append(x**2)\n"
+"...\n"
+">>> squares\n"
+"[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:212
 msgid ""
 "Note that this creates (or overwrites) a variable named ``x`` that still "
 "exists after the loop completes.  We can calculate the list of squares "
@@ -249,15 +287,23 @@ msgstr ""
 "masih ada setelah loop selesai. Kami dapat menghitung daftar kotak tanpa "
 "efek samping menggunakan::"
 
-#: ../../tutorial/datastructures.rst:219
+#: ../../tutorial/datastructures.rst:216
+msgid "squares = list(map(lambda x: x**2, range(10)))"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:218
 msgid "or, equivalently::"
 msgstr "atau, dengan kata lain::"
 
-#: ../../tutorial/datastructures.rst:223
+#: ../../tutorial/datastructures.rst:220
+msgid "squares = [x**2 for x in range(10)]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:222
 msgid "which is more concise and readable."
 msgstr "yang lebih ringkas dan mudah dibaca."
 
-#: ../../tutorial/datastructures.rst:225
+#: ../../tutorial/datastructures.rst:224
 msgid ""
 "A list comprehension consists of brackets containing an expression followed "
 "by a :keyword:`!for` clause, then zero or more :keyword:`!for` or "
@@ -273,11 +319,29 @@ msgstr ""
 ":keyword:`!for` dan :keyword:`!if` yang mengikutinya. Sebagai contoh, "
 "*listcomp* ini menggabungkan elemen dari dua daftar jika tidak sama::"
 
-#: ../../tutorial/datastructures.rst:235
+#: ../../tutorial/datastructures.rst:231
+msgid ""
+">>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]\n"
+"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:234
 msgid "and it's equivalent to::"
 msgstr "dan itu setara dengan::"
 
-#: ../../tutorial/datastructures.rst:246
+#: ../../tutorial/datastructures.rst:236
+msgid ""
+">>> combs = []\n"
+">>> for x in [1,2,3]:\n"
+"...     for y in [3,1,4]:\n"
+"...         if x != y:\n"
+"...             combs.append((x, y))\n"
+"...\n"
+">>> combs\n"
+"[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:245
 msgid ""
 "Note how the order of the :keyword:`for` and :keyword:`if` statements is the"
 " same in both these snippets."
@@ -285,7 +349,7 @@ msgstr ""
 "Perhatikan bagaimana urutan pernyataan :keyword:`for` dan :keyword:`if` "
 "adalah sama di kedua cuplikan ini."
 
-#: ../../tutorial/datastructures.rst:249
+#: ../../tutorial/datastructures.rst:248
 msgid ""
 "If the expression is a tuple (e.g. the ``(x, y)`` in the previous example), "
 "it must be parenthesized. ::"
@@ -293,18 +357,56 @@ msgstr ""
 "Jika ekspresi adalah tuple (mis. ``(x, y)`` dalam contoh sebelumnya), "
 "ekspresi tersebut harus diberi kurung. ::"
 
-#: ../../tutorial/datastructures.rst:280
+#: ../../tutorial/datastructures.rst:251
+msgid ""
+">>> vec = [-4, -2, 0, 2, 4]\n"
+">>> # create a new list with the values doubled\n"
+">>> [x*2 for x in vec]\n"
+"[-8, -4, 0, 4, 8]\n"
+">>> # filter the list to exclude negative numbers\n"
+">>> [x for x in vec if x >= 0]\n"
+"[0, 2, 4]\n"
+">>> # apply a function to all the elements\n"
+">>> [abs(x) for x in vec]\n"
+"[4, 2, 0, 2, 4]\n"
+">>> # call a method on each element\n"
+">>> freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']\n"
+">>> [weapon.strip() for weapon in freshfruit]\n"
+"['banana', 'loganberry', 'passion fruit']\n"
+">>> # create a list of 2-tuples like (number, square)\n"
+">>> [(x, x**2) for x in range(6)]\n"
+"[(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]\n"
+">>> # the tuple must be parenthesized, otherwise an error is raised\n"
+">>> [x, x**2 for x in range(6)]\n"
+"  File \"<stdin>\", line 1\n"
+"    [x, x**2 for x in range(6)]\n"
+"     ^^^^^^^\n"
+"SyntaxError: did you forget parentheses around the comprehension target?\n"
+">>> # flatten a list using a listcomp with two 'for'\n"
+">>> vec = [[1,2,3], [4,5,6], [7,8,9]]\n"
+">>> [num for elem in vec for num in elem]\n"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:279
 msgid ""
 "List comprehensions can contain complex expressions and nested functions::"
 msgstr ""
 "Pemahaman daftar *list comprehensions* dapat berisi ekspresi kompleks dan "
 "fungsi bersarang::"
 
-#: ../../tutorial/datastructures.rst:287
+#: ../../tutorial/datastructures.rst:281
+msgid ""
+">>> from math import pi\n"
+">>> [str(round(pi, i)) for i in range(1, 6)]\n"
+"['3.1', '3.14', '3.142', '3.1416', '3.14159']"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:286
 msgid "Nested List Comprehensions"
 msgstr "Pemahaman Daftar *List Comprehensions* Bersarang"
 
-#: ../../tutorial/datastructures.rst:289
+#: ../../tutorial/datastructures.rst:288
 msgid ""
 "The initial expression in a list comprehension can be any arbitrary "
 "expression, including another list comprehension."
@@ -313,7 +415,7 @@ msgstr ""
 "ekspresi acak *arbitrary*, termasuk pemahaman daftar *list comprehension* "
 "lainnya."
 
-#: ../../tutorial/datastructures.rst:292
+#: ../../tutorial/datastructures.rst:291
 msgid ""
 "Consider the following example of a 3x4 matrix implemented as a list of 3 "
 "lists of length 4::"
@@ -321,27 +423,63 @@ msgstr ""
 "Perhatikan contoh matriks 3x4 berikut yang diimplementasikan sebagai daftar "
 "*list* 3 dari daftar *list* panjang 4 ::"
 
-#: ../../tutorial/datastructures.rst:301
+#: ../../tutorial/datastructures.rst:294
+msgid ""
+">>> matrix = [\n"
+"...     [1, 2, 3, 4],\n"
+"...     [5, 6, 7, 8],\n"
+"...     [9, 10, 11, 12],\n"
+"... ]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:300
 msgid "The following list comprehension will transpose rows and columns::"
 msgstr ""
 "Pemahaman daftar *list comprehension* berikut akan mengubah baris dan "
 "kolom::"
 
-#: ../../tutorial/datastructures.rst:306
+#: ../../tutorial/datastructures.rst:302
 msgid ""
-"As we saw in the previous section, the nested listcomp is evaluated in the "
-"context of the :keyword:`for` that follows it, so this example is equivalent"
-" to::"
+">>> [[row[i] for row in matrix] for i in range(4)]\n"
+"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
-"Seperti yang kita lihat di bagian sebelumnya, *listcomp* bersarang "
-"dievaluasi dalam konteks :keyword:`for` yang mengikutinya, jadi contoh ini "
-"setara dengan::"
 
-#: ../../tutorial/datastructures.rst:317
+#: ../../tutorial/datastructures.rst:305
+msgid ""
+"As we saw in the previous section, the inner list comprehension is evaluated"
+" in the context of the :keyword:`for` that follows it, so this example is "
+"equivalent to::"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:309
+msgid ""
+">>> transposed = []\n"
+">>> for i in range(4):\n"
+"...     transposed.append([row[i] for row in matrix])\n"
+"...\n"
+">>> transposed\n"
+"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:316
 msgid "which, in turn, is the same as::"
 msgstr "yang, pada gilirannya, sama dengan::"
 
-#: ../../tutorial/datastructures.rst:330
+#: ../../tutorial/datastructures.rst:318
+msgid ""
+">>> transposed = []\n"
+">>> for i in range(4):\n"
+"...     # the following 3 lines implement the nested listcomp\n"
+"...     transposed_row = []\n"
+"...     for row in matrix:\n"
+"...         transposed_row.append(row[i])\n"
+"...     transposed.append(transposed_row)\n"
+"...\n"
+">>> transposed\n"
+"[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:329
 msgid ""
 "In the real world, you should prefer built-in functions to complex flow "
 "statements. The :func:`zip` function would do a great job for this use "
@@ -351,38 +489,56 @@ msgstr ""
 "*flow* yang kompleks. Fungsi :func:`zip` akan melakukan pekerjaan yang baik "
 "untuk kasus penggunaan ini::"
 
-#: ../../tutorial/datastructures.rst:336
+#: ../../tutorial/datastructures.rst:332
+msgid ""
+">>> list(zip(*matrix))\n"
+"[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:335
 msgid ""
 "See :ref:`tut-unpacking-arguments` for details on the asterisk in this line."
 msgstr ""
 "Lihat :ref:`tut-unpacking-argumen` untuk detail tentang tanda bintang "
 "*asterisk* di baris ini."
 
-#: ../../tutorial/datastructures.rst:341
+#: ../../tutorial/datastructures.rst:340
 msgid "The :keyword:`!del` statement"
 msgstr "Pernyataan :keyword:`!del`"
 
-#: ../../tutorial/datastructures.rst:343
+#: ../../tutorial/datastructures.rst:342
 msgid ""
 "There is a way to remove an item from a list given its index instead of its "
-"value: the :keyword:`del` statement.  This differs from the :meth:`pop` "
+"value: the :keyword:`del` statement.  This differs from the :meth:`!pop` "
 "method which returns a value.  The :keyword:`!del` statement can also be "
 "used to remove slices from a list or clear the entire list (which we did "
 "earlier by assignment of an empty list to the slice).  For example::"
 msgstr ""
-"Ada cara untuk menghapus item dari daftar yang diberikan indeksnya, bukan "
-"nilainya: pernyataan :keyword:`del`. Ini berbeda dari metode :meth:`pop` "
-"yang mengembalikan nilai. Pernyataan :keyword:`!del` juga dapat digunakan "
-"untuk menghapus irisan dari daftar *list* atau menghapus seluruh daftar "
-"*list* (yang kami lakukan sebelumnya dengan menetapkan daftar kosong pada "
-"*slice*). Sebagai contoh::"
 
-#: ../../tutorial/datastructures.rst:360
+#: ../../tutorial/datastructures.rst:348
+msgid ""
+">>> a = [-1, 1, 66.25, 333, 333, 1234.5]\n"
+">>> del a[0]\n"
+">>> a\n"
+"[1, 66.25, 333, 333, 1234.5]\n"
+">>> del a[2:4]\n"
+">>> a\n"
+"[1, 66.25, 1234.5]\n"
+">>> del a[:]\n"
+">>> a\n"
+"[]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:359
 msgid ":keyword:`del` can also be used to delete entire variables::"
 msgstr ""
 ":keyword:`del` juga dapat digunakan untuk menghapus seluruh variabel::"
 
-#: ../../tutorial/datastructures.rst:364
+#: ../../tutorial/datastructures.rst:361
+msgid ">>> del a"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:363
 msgid ""
 "Referencing the name ``a`` hereafter is an error (at least until another "
 "value is assigned to it).  We'll find other uses for :keyword:`del` later."
@@ -391,11 +547,11 @@ msgstr ""
 "lain ditetapkan untuknya). Kita akan menemukan kegunaan lain untuk "
 ":keyword:`del` nanti."
 
-#: ../../tutorial/datastructures.rst:371
+#: ../../tutorial/datastructures.rst:370
 msgid "Tuples and Sequences"
 msgstr "Tuples and *Urutan* Sequences"
 
-#: ../../tutorial/datastructures.rst:373
+#: ../../tutorial/datastructures.rst:372
 msgid ""
 "We saw that lists and strings have many common properties, such as indexing "
 "and slicing operations.  They are two examples of *sequence* data types (see"
@@ -409,14 +565,36 @@ msgstr ""
 "yang berkembang, tipe data urutan lainnya dapat ditambahkan. Ada juga tipe "
 "data urutan standar lain: *tuple*."
 
-#: ../../tutorial/datastructures.rst:379
+#: ../../tutorial/datastructures.rst:378
 msgid ""
 "A tuple consists of a number of values separated by commas, for instance::"
 msgstr ""
 "Sebuah *tuple* terdiri dari sejumlah nilai yang dipisahkan oleh koma, "
 "misalnya::"
 
-#: ../../tutorial/datastructures.rst:401
+#: ../../tutorial/datastructures.rst:380
+msgid ""
+">>> t = 12345, 54321, 'hello!'\n"
+">>> t[0]\n"
+"12345\n"
+">>> t\n"
+"(12345, 54321, 'hello!')\n"
+">>> # Tuples may be nested:\n"
+">>> u = t, (1, 2, 3, 4, 5)\n"
+">>> u\n"
+"((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))\n"
+">>> # Tuples are immutable:\n"
+">>> t[0] = 88888\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"TypeError: 'tuple' object does not support item assignment\n"
+">>> # but they can contain mutable objects:\n"
+">>> v = ([1, 2, 3], [3, 2, 1])\n"
+">>> v\n"
+"([1, 2, 3], [3, 2, 1])"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:400
 msgid ""
 "As you see, on output tuples are always enclosed in parentheses, so that "
 "nested tuples are interpreted correctly; they may be input with or without "
@@ -433,7 +611,7 @@ msgstr ""
 "masing item *tuple*, namun dimungkinkan untuk membuat tuple yang berisi "
 "objek yang bisa berubah *mutable*, seperti daftar."
 
-#: ../../tutorial/datastructures.rst:408
+#: ../../tutorial/datastructures.rst:407
 msgid ""
 "Though tuples may seem similar to lists, they are often used in different "
 "situations and for different purposes. Tuples are :term:`immutable`, and "
@@ -452,7 +630,7 @@ msgstr ""
 "elemennya biasanya homogen dan diakses dengan menyusuri *iterating* daftar "
 "*list*."
 
-#: ../../tutorial/datastructures.rst:416
+#: ../../tutorial/datastructures.rst:415
 msgid ""
 "A special problem is the construction of tuples containing 0 or 1 items: the"
 " syntax has some extra quirks to accommodate these.  Empty tuples are "
@@ -467,7 +645,19 @@ msgstr ""
 "menyertakan nilai tunggal dalam tanda kurung). Jelek, tapi efektif. Sebagai "
 "contoh::"
 
-#: ../../tutorial/datastructures.rst:431
+#: ../../tutorial/datastructures.rst:421
+msgid ""
+">>> empty = ()\n"
+">>> singleton = 'hello',    # <-- note trailing comma\n"
+">>> len(empty)\n"
+"0\n"
+">>> len(singleton)\n"
+"1\n"
+">>> singleton\n"
+"('hello',)"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:430
 msgid ""
 "The statement ``t = 12345, 54321, 'hello!'`` is an example of *tuple "
 "packing*: the values ``12345``, ``54321`` and ``'hello!'`` are packed "
@@ -477,7 +667,11 @@ msgstr ""
 "packing*: nilainya ``12345``, ``54321`` dan ``'hello!'`` Dikemas bersama-"
 "sama dalam *tuple*. Operasi terbalik juga dimungkinkan ::"
 
-#: ../../tutorial/datastructures.rst:437
+#: ../../tutorial/datastructures.rst:434
+msgid ">>> x, y, z = t"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:436
 msgid ""
 "This is called, appropriately enough, *sequence unpacking* and works for any"
 " sequence on the right-hand side.  Sequence unpacking requires that there "
@@ -491,11 +685,11 @@ msgstr ""
 "urutan. Perhatikan bahwa banyak tugas benar-benar hanya kombinasi dari "
 "*tuple packing* dan urutan pembongkaran *sequence unpacking*."
 
-#: ../../tutorial/datastructures.rst:447
+#: ../../tutorial/datastructures.rst:446
 msgid "Sets"
 msgstr "Himpunan *Set*"
 
-#: ../../tutorial/datastructures.rst:449
+#: ../../tutorial/datastructures.rst:448
 msgid ""
 "Python also includes a data type for *sets*.  A set is an unordered "
 "collection with no duplicate elements.  Basic uses include membership "
@@ -509,7 +703,7 @@ msgstr ""
 "mendukung operasi matematika seperti penyatuan *union*, persimpangan "
 "*intersection*, perbedaan *difference*, dan perbedaan simetris."
 
-#: ../../tutorial/datastructures.rst:454
+#: ../../tutorial/datastructures.rst:453
 msgid ""
 "Curly braces or the :func:`set` function can be used to create sets.  Note: "
 "to create an empty set you have to use ``set()``, not ``{}``; the latter "
@@ -521,11 +715,37 @@ msgstr ""
 "``set()``, bukan ``{}``; yang terakhir itu membuat kamus *dictionary* "
 "kosong, struktur data yang kita bahas di bagian selanjutnya."
 
-#: ../../tutorial/datastructures.rst:458
+#: ../../tutorial/datastructures.rst:457
 msgid "Here is a brief demonstration::"
 msgstr "Berikut ini adalah demonstrasi singkat::"
 
-#: ../../tutorial/datastructures.rst:483
+#: ../../tutorial/datastructures.rst:459
+msgid ""
+">>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}\n"
+">>> print(basket)                      # show that duplicates have been removed\n"
+"{'orange', 'banana', 'pear', 'apple'}\n"
+">>> 'orange' in basket                 # fast membership testing\n"
+"True\n"
+">>> 'crabgrass' in basket\n"
+"False\n"
+"\n"
+">>> # Demonstrate set operations on unique letters from two words\n"
+">>>\n"
+">>> a = set('abracadabra')\n"
+">>> b = set('alacazam')\n"
+">>> a                                  # unique letters in a\n"
+"{'a', 'r', 'b', 'c', 'd'}\n"
+">>> a - b                              # letters in a but not in b\n"
+"{'r', 'd', 'b'}\n"
+">>> a | b                              # letters in a or b or both\n"
+"{'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}\n"
+">>> a & b                              # letters in both a and b\n"
+"{'a', 'c'}\n"
+">>> a ^ b                              # letters in a or b but not both\n"
+"{'r', 'd', 'b', 'm', 'z', 'l'}"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:482
 msgid ""
 "Similarly to :ref:`list comprehensions <tut-listcomps>`, set comprehensions "
 "are also supported::"
@@ -533,11 +753,18 @@ msgstr ""
 "Seperti halnya untuk :ref:`list comprehensions <tut-listcomps>`, *set "
 "comprehensions* juga didukung::"
 
-#: ../../tutorial/datastructures.rst:494
+#: ../../tutorial/datastructures.rst:485
+msgid ""
+">>> a = {x for x in 'abracadabra' if x not in 'abc'}\n"
+">>> a\n"
+"{'r', 'd'}"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:493
 msgid "Dictionaries"
 msgstr "Kamus *Dictionaries*"
 
-#: ../../tutorial/datastructures.rst:496
+#: ../../tutorial/datastructures.rst:495
 msgid ""
 "Another useful data type built into Python is the *dictionary* (see "
 ":ref:`typesmapping`). Dictionaries are sometimes found in other languages as"
@@ -548,23 +775,10 @@ msgid ""
 " if a tuple contains any mutable object either directly or indirectly, it "
 "cannot be used as a key. You can't use lists as keys, since lists can be "
 "modified in place using index assignments, slice assignments, or methods "
-"like :meth:`append` and :meth:`extend`."
+"like :meth:`!append` and :meth:`!extend`."
 msgstr ""
-"Tipe data lain yang berguna yang dibangun ke dalam Python adalah "
-"*dictionary* (lihat :ref:`typesmapping`). Kamus *dictionary* kadang-kadang "
-"ditemukan dalam bahasa lain sebagai \"assosiative memories\" atau "
-"\"assosiative array\". Tidak seperti urutan *sequences*, yang diindeks oleh "
-"sejumlah angka, kamus *dictionary* diindeks oleh *keys*, yang dapat berupa "
-"jenis apa pun yang tidak dapat diubah *immutable type*; string dan angka "
-"selalu bisa menjadi kunci *key*. *Tuples* dapat digunakan sebagai kunci jika"
-" hanya berisi string, angka, atau *tuple*; jika sebuah tuple berisi objek "
-"yang bisa berubah baik secara langsung atau tidak langsung, itu tidak dapat "
-"digunakan sebagai kunci *key*. Anda tidak dapat menggunakan daftar *list* "
-"sebagai kunci, karena daftar dapat dimodifikasi di tempat menggunakan "
-"penugasan indeks, penugasan *slice*, atau metode seperti :meth:`append` dan "
-":meth:`extend`."
 
-#: ../../tutorial/datastructures.rst:507
+#: ../../tutorial/datastructures.rst:506
 msgid ""
 "It is best to think of a dictionary as a set of *key: value* pairs, with the"
 " requirement that the keys are unique (within one dictionary). A pair of "
@@ -579,7 +793,7 @@ msgstr ""
 "kurung menambahkan pasangan kunci:nilai ke kamus *dictionary*; ini juga cara"
 " kamus *dictionary* ditulis pada keluaran."
 
-#: ../../tutorial/datastructures.rst:513
+#: ../../tutorial/datastructures.rst:512
 msgid ""
 "The main operations on a dictionary are storing a value with some key and "
 "extracting the value given the key.  It is also possible to delete a "
@@ -594,7 +808,7 @@ msgstr ""
 "terkait dengan kunci itu dilupakan. Merupakan kesalahan untuk mengekstraksi "
 "nilai menggunakan kunci yang tidak ada."
 
-#: ../../tutorial/datastructures.rst:519
+#: ../../tutorial/datastructures.rst:518
 msgid ""
 "Performing ``list(d)`` on a dictionary returns a list of all the keys used "
 "in the dictionary, in insertion order (if you want it sorted, just use "
@@ -606,11 +820,33 @@ msgstr ""
 "diurutkan, cukup gunakan ``sorted(d)`` sebagai gantinya). Untuk memeriksa "
 "apakah ada satu kunci dalam kamus, gunakan kaca kunci :keyword:`in`."
 
-#: ../../tutorial/datastructures.rst:524
+#: ../../tutorial/datastructures.rst:523
 msgid "Here is a small example using a dictionary::"
 msgstr "Ini adalah contoh kecil menggunakan kamus *dictionary*::"
 
-#: ../../tutorial/datastructures.rst:545
+#: ../../tutorial/datastructures.rst:525
+msgid ""
+">>> tel = {'jack': 4098, 'sape': 4139}\n"
+">>> tel['guido'] = 4127\n"
+">>> tel\n"
+"{'jack': 4098, 'sape': 4139, 'guido': 4127}\n"
+">>> tel['jack']\n"
+"4098\n"
+">>> del tel['sape']\n"
+">>> tel['irv'] = 4127\n"
+">>> tel\n"
+"{'jack': 4098, 'guido': 4127, 'irv': 4127}\n"
+">>> list(tel)\n"
+"['jack', 'guido', 'irv']\n"
+">>> sorted(tel)\n"
+"['guido', 'irv', 'jack']\n"
+">>> 'guido' in tel\n"
+"True\n"
+">>> 'jack' not in tel\n"
+"False"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:544
 msgid ""
 "The :func:`dict` constructor builds dictionaries directly from sequences of "
 "key-value pairs::"
@@ -618,7 +854,13 @@ msgstr ""
 "Pembangun *constructor* :func:`dict` membangun kamus langsung dari urutan "
 "pasangan kunci-nilai::"
 
-#: ../../tutorial/datastructures.rst:551
+#: ../../tutorial/datastructures.rst:547
+msgid ""
+">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
+"{'sape': 4139, 'guido': 4127, 'jack': 4098}"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:550
 msgid ""
 "In addition, dict comprehensions can be used to create dictionaries from "
 "arbitrary key and value expressions::"
@@ -626,7 +868,13 @@ msgstr ""
 "Selain itu, pemahaman kamus *dict comprehensions* dapat digunakan untuk "
 "membuat kamus *dictionary* dari ekspresi kunci dan nilai acak *arbitrary*::"
 
-#: ../../tutorial/datastructures.rst:557
+#: ../../tutorial/datastructures.rst:553
+msgid ""
+">>> {x: x**2 for x in (2, 4, 6)}\n"
+"{2: 4, 4: 16, 6: 36}"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:556
 msgid ""
 "When the keys are simple strings, it is sometimes easier to specify pairs "
 "using keyword arguments::"
@@ -634,19 +882,33 @@ msgstr ""
 "Ketika kunci adalah string sederhana, kadang-kadang lebih mudah untuk "
 "menentukan pasangan menggunakan argumen kata kunci *keyword arguments*::"
 
-#: ../../tutorial/datastructures.rst:567
+#: ../../tutorial/datastructures.rst:559
+msgid ""
+">>> dict(sape=4139, guido=4127, jack=4098)\n"
+"{'sape': 4139, 'guido': 4127, 'jack': 4098}"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:566
 msgid "Looping Techniques"
 msgstr "Teknik Perulangan"
 
-#: ../../tutorial/datastructures.rst:569
+#: ../../tutorial/datastructures.rst:568
 msgid ""
 "When looping through dictionaries, the key and corresponding value can be "
-"retrieved at the same time using the :meth:`items` method. ::"
+"retrieved at the same time using the :meth:`~dict.items` method. ::"
 msgstr ""
-"Saat mengulang kamus *dictionaries*, kunci *key* dan nilai *value* terkait "
-"dapat diambil pada saat yang sama menggunakan metode :meth:`items`. ::"
 
-#: ../../tutorial/datastructures.rst:579
+#: ../../tutorial/datastructures.rst:571
+msgid ""
+">>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n"
+">>> for k, v in knights.items():\n"
+"...     print(k, v)\n"
+"...\n"
+"gallahad the pure\n"
+"robin the brave"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:578
 msgid ""
 "When looping through a sequence, the position index and corresponding value "
 "can be retrieved at the same time using the :func:`enumerate` function. ::"
@@ -654,7 +916,17 @@ msgstr ""
 "Saat mengulang melalui urutan, indeks posisi dan nilai terkait dapat diambil"
 " pada saat yang sama menggunakan fungsi :func:`enumerate`. ::"
 
-#: ../../tutorial/datastructures.rst:589
+#: ../../tutorial/datastructures.rst:581
+msgid ""
+">>> for i, v in enumerate(['tic', 'tac', 'toe']):\n"
+"...     print(i, v)\n"
+"...\n"
+"0 tic\n"
+"1 tac\n"
+"2 toe"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:588
 msgid ""
 "To loop over two or more sequences at the same time, the entries can be "
 "paired with the :func:`zip` function. ::"
@@ -662,7 +934,19 @@ msgstr ""
 "Untuk mengulang dua urutan atau lebih secara bersamaan, entri dapat "
 "dipasangkan dengan fungsi :func:`zip`. ::"
 
-#: ../../tutorial/datastructures.rst:601
+#: ../../tutorial/datastructures.rst:591
+msgid ""
+">>> questions = ['name', 'quest', 'favorite color']\n"
+">>> answers = ['lancelot', 'the holy grail', 'blue']\n"
+">>> for q, a in zip(questions, answers):\n"
+"...     print('What is your {0}?  It is {1}.'.format(q, a))\n"
+"...\n"
+"What is your name?  It is lancelot.\n"
+"What is your quest?  It is the holy grail.\n"
+"What is your favorite color?  It is blue."
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:600
 msgid ""
 "To loop over a sequence in reverse, first specify the sequence in a forward "
 "direction and then call the :func:`reversed` function. ::"
@@ -670,7 +954,19 @@ msgstr ""
 "Untuk mengulang urutan secara terbalik, pertama tentukan urutan dalam arah "
 "maju dan kemudian panggil fungsi :func:`reversed`. ::"
 
-#: ../../tutorial/datastructures.rst:613
+#: ../../tutorial/datastructures.rst:603
+msgid ""
+">>> for i in reversed(range(1, 10, 2)):\n"
+"...     print(i)\n"
+"...\n"
+"9\n"
+"7\n"
+"5\n"
+"3\n"
+"1"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:612
 msgid ""
 "To loop over a sequence in sorted order, use the :func:`sorted` function "
 "which returns a new sorted list while leaving the source unaltered. ::"
@@ -679,7 +975,21 @@ msgstr ""
 "gunakan fungsi :func:`sort` yang mengembalikan daftar terurut baru dengan "
 "membiarkan sumber tidak diubah. ::"
 
-#: ../../tutorial/datastructures.rst:627
+#: ../../tutorial/datastructures.rst:615
+msgid ""
+">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
+">>> for i in sorted(basket):\n"
+"...     print(i)\n"
+"...\n"
+"apple\n"
+"apple\n"
+"banana\n"
+"orange\n"
+"orange\n"
+"pear"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:626
 msgid ""
 "Using :func:`set` on a sequence eliminates duplicate elements. The use of "
 ":func:`sorted` in combination with :func:`set` over a sequence is an "
@@ -691,7 +1001,19 @@ msgstr ""
 ":func:`set`  terhadap sebuah urutan merupakan cara idiomatik untuk *loop* "
 "dari elemen-elemen unik dari urutan yang diurutkan. ::"
 
-#: ../../tutorial/datastructures.rst:640
+#: ../../tutorial/datastructures.rst:630
+msgid ""
+">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
+">>> for f in sorted(set(basket)):\n"
+"...     print(f)\n"
+"...\n"
+"apple\n"
+"banana\n"
+"orange\n"
+"pear"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:639
 msgid ""
 "It is sometimes tempting to change a list while you are looping over it; "
 "however, it is often simpler and safer to create a new list instead. ::"
@@ -699,11 +1021,24 @@ msgstr ""
 "Terkadang tergoda untuk mengubah daftar *list* saat Anda mengulanginya; "
 "namun, seringkali lebih mudah dan aman untuk membuat daftar *list* baru. ::"
 
-#: ../../tutorial/datastructures.rst:657
+#: ../../tutorial/datastructures.rst:642
+msgid ""
+">>> import math\n"
+">>> raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]\n"
+">>> filtered_data = []\n"
+">>> for value in raw_data:\n"
+"...     if not math.isnan(value):\n"
+"...         filtered_data.append(value)\n"
+"...\n"
+">>> filtered_data\n"
+"[56.2, 51.7, 55.3, 52.5, 47.8]"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:656
 msgid "More on Conditions"
 msgstr "Lebih lanjut tentang Kondisi"
 
-#: ../../tutorial/datastructures.rst:659
+#: ../../tutorial/datastructures.rst:658
 msgid ""
 "The conditions used in ``while`` and ``if`` statements can contain any "
 "operators, not just comparisons."
@@ -713,18 +1048,14 @@ msgstr ""
 
 #: ../../tutorial/datastructures.rst:662
 msgid ""
-"The comparison operators ``in`` and ``not in`` check whether a value occurs "
-"(does not occur) in a sequence.  The operators ``is`` and ``is not`` compare"
-" whether two objects are really the same object.  All comparison operators "
-"have the same priority, which is lower than that of all numerical operators."
+"The comparison operators ``in`` and ``not in`` are membership tests that "
+"determine whether a value is in (or not in) a container.  The operators "
+"``is`` and ``is not`` compare whether two objects are really the same "
+"object.  All comparison operators have the same priority, which is lower "
+"than that of all numerical operators."
 msgstr ""
-"Operator perbandingan ``in`` dan ``not in`` memeriksa apakah suatu nilai "
-"muncul (tidak muncul) di sebuah urutan atau sequence. Operator ``is`` dan "
-"``is not`` membandingkan apakah dua objek benar-benar objek yang sama. Semua"
-" operator pembanding memiliki prioritas yang sama, yang lebih rendah "
-"daripada semua operator numerik."
 
-#: ../../tutorial/datastructures.rst:667
+#: ../../tutorial/datastructures.rst:668
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a``"
 " is less than ``b`` and moreover ``b`` equals ``c``."
@@ -732,7 +1063,7 @@ msgstr ""
 "Perbandingan bisa dibuat berantai. Sebagai contoh, ``a < b == c`` menguji "
 "apakah ``a`` kurang dari ``b`` dan apa ``b`` sama dengan ``c``."
 
-#: ../../tutorial/datastructures.rst:670
+#: ../../tutorial/datastructures.rst:671
 msgid ""
 "Comparisons may be combined using the Boolean operators ``and`` and ``or``, "
 "and the outcome of a comparison (or of any other Boolean expression) may be "
@@ -749,7 +1080,7 @@ msgstr ""
 "(not B)) or C`` . Seperti biasa, tanda kurung dapat digunakan untuk "
 "mengekspresikan komposisi yang diinginkan."
 
-#: ../../tutorial/datastructures.rst:677
+#: ../../tutorial/datastructures.rst:678
 msgid ""
 "The Boolean operators ``and`` and ``or`` are so-called *short-circuit* "
 "operators: their arguments are evaluated from left to right, and evaluation "
@@ -766,7 +1097,7 @@ msgstr ""
 "kembalian dari operator hubung singkat *short-circuit* adalah argumen "
 "terakhir yang dievaluasi."
 
-#: ../../tutorial/datastructures.rst:684
+#: ../../tutorial/datastructures.rst:685
 msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
@@ -774,7 +1105,15 @@ msgstr ""
 "Dimungkinkan untuk menetapkan hasil perbandingan atau ekspresi Boolean "
 "lainnya ke variabel. Sebagai contoh, ::"
 
-#: ../../tutorial/datastructures.rst:692
+#: ../../tutorial/datastructures.rst:688
+msgid ""
+">>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'\n"
+">>> non_null = string1 or string2 or string3\n"
+">>> non_null\n"
+"'Trondheim'"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:693
 msgid ""
 "Note that in Python, unlike C, assignment inside expressions must be done "
 "explicitly with the :ref:`walrus operator <why-can-t-i-use-an-assignment-in-"
@@ -786,11 +1125,11 @@ msgstr ""
 "menghindari masalah kelas umum yang dihadapi dalam program C: mengetikkan "
 "``=`` dalam ekspresi ketika ``==`` dimaksudkan."
 
-#: ../../tutorial/datastructures.rst:702
+#: ../../tutorial/datastructures.rst:703
 msgid "Comparing Sequences and Other Types"
 msgstr "Membandingkan Urutan *Sequences* dan Jenis Lainnya"
 
-#: ../../tutorial/datastructures.rst:703
+#: ../../tutorial/datastructures.rst:704
 msgid ""
 "Sequence objects typically may be compared to other objects with the same "
 "sequence type. The comparison uses *lexicographical* ordering: first the "
@@ -818,7 +1157,18 @@ msgstr ""
 "string menggunakan nomor titik kode Unicode untuk mengurutkan masing-masing "
 "karakter. Beberapa contoh perbandingan antara urutan dengan tipe yang sama::"
 
-#: ../../tutorial/datastructures.rst:723
+#: ../../tutorial/datastructures.rst:716
+msgid ""
+"(1, 2, 3)              < (1, 2, 4)\n"
+"[1, 2, 3]              < [1, 2, 4]\n"
+"'ABC' < 'C' < 'Pascal' < 'Python'\n"
+"(1, 2, 3, 4)           < (1, 2, 4)\n"
+"(1, 2)                 < (1, 2, -1)\n"
+"(1, 2, 3)             == (1.0, 2.0, 3.0)\n"
+"(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
+msgstr ""
+
+#: ../../tutorial/datastructures.rst:724
 msgid ""
 "Note that comparing objects of different types with ``<`` or ``>`` is legal "
 "provided that the objects have appropriate comparison methods.  For example,"
@@ -832,11 +1182,11 @@ msgstr ""
 "sehingga 0 sama dengan 0.0, dll. Jika tidak, alih-alih memberikan penyusunan"
 " acak, interpreter akan memunculkan pengecualian :exc:`TypeError`."
 
-#: ../../tutorial/datastructures.rst:731
+#: ../../tutorial/datastructures.rst:732
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../tutorial/datastructures.rst:732
+#: ../../tutorial/datastructures.rst:733
 msgid ""
 "Other languages may return the mutated object, which allows method chaining,"
 " such as ``d->insert(\"a\")->remove(\"b\")->sort();``."
