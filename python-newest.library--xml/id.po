@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-05 04:00+0000\n"
-"PO-Revision-Date: 2017-02-16 23:36+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:18+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,8 +37,8 @@ msgstr ""
 #: ../../library/xml.rst:20
 msgid ""
 "The XML modules are not secure against erroneous or maliciously constructed "
-"data.  If you need to parse untrusted or unauthenticated data see the :ref"
-":`xml-vulnerabilities` and :ref:`defusedxml-package` sections."
+"data.  If you need to parse untrusted or unauthenticated data see the "
+":ref:`xml-vulnerabilities` and :ref:`defusedxml-package` sections."
 msgstr ""
 
 #: ../../library/xml.rst:25
@@ -131,79 +131,101 @@ msgstr ""
 msgid "billion laughs"
 msgstr ""
 
-#: ../../library/xml.rst:66 ../../library/xml.rst:66 ../../library/xml.rst:66
-#: ../../library/xml.rst:66 ../../library/xml.rst:66 ../../library/xml.rst:67
-#: ../../library/xml.rst:67 ../../library/xml.rst:67 ../../library/xml.rst:67
-#: ../../library/xml.rst:67 ../../library/xml.rst:70
-msgid "**Vulnerable**"
-msgstr "**Rentan**"
+#: ../../library/xml.rst:66 ../../library/xml.rst:67
+msgid "**Vulnerable** (1)"
+msgstr ""
 
 #: ../../library/xml.rst:67
 msgid "quadratic blowup"
 msgstr ""
 
-#: ../../library/xml.rst:68 ../../library/xml.rst:99
+#: ../../library/xml.rst:68 ../../library/xml.rst:106
 msgid "external entity expansion"
 msgstr ""
 
-#: ../../library/xml.rst:68 ../../library/xml.rst:68 ../../library/xml.rst:69
-#: ../../library/xml.rst:69
+#: ../../library/xml.rst:68 ../../library/xml.rst:69
+msgid "Safe (5)"
+msgstr ""
+
+#: ../../library/xml.rst:68
+msgid "Safe (2)"
+msgstr ""
+
+#: ../../library/xml.rst:68
+msgid "Safe (3)"
+msgstr ""
+
+#: ../../library/xml.rst:68
 msgid "Safe (4)"
 msgstr ""
 
-#: ../../library/xml.rst:68
-msgid "Safe    (1)"
-msgstr ""
-
-#: ../../library/xml.rst:68
-msgid "Safe    (2)"
-msgstr ""
-
-#: ../../library/xml.rst:68
-msgid "Safe    (3)"
-msgstr ""
-
-#: ../../library/xml.rst:69 ../../library/xml.rst:104
+#: ../../library/xml.rst:69 ../../library/xml.rst:111
 msgid "`DTD`_ retrieval"
 msgstr ""
 
-#: ../../library/xml.rst:69 ../../library/xml.rst:69 ../../library/xml.rst:69
-#: ../../library/xml.rst:70 ../../library/xml.rst:70 ../../library/xml.rst:70
-#: ../../library/xml.rst:70
+#: ../../library/xml.rst:69 ../../library/xml.rst:70
 msgid "Safe"
 msgstr ""
 
-#: ../../library/xml.rst:70 ../../library/xml.rst:111
+#: ../../library/xml.rst:70 ../../library/xml.rst:116
 msgid "decompression bomb"
 msgstr ""
 
-#: ../../library/xml.rst:73
-msgid ""
-":mod:`xml.etree.ElementTree` doesn't expand external entities and raises a "
-":exc:`ParserError` when an entity occurs."
+#: ../../library/xml.rst:70
+msgid "**Vulnerable**"
+msgstr "**Rentan**"
+
+#: ../../library/xml.rst:71 ../../library/xml.rst:123
+msgid "large tokens"
 msgstr ""
 
-#: ../../library/xml.rst:75
+#: ../../library/xml.rst:71
+msgid "**Vulnerable** (6)"
+msgstr ""
+
+#: ../../library/xml.rst:74
+msgid ""
+"Expat 2.4.1 and newer is not vulnerable to the \"billion laughs\" and "
+"\"quadratic blowup\" vulnerabilities. Items still listed as vulnerable due "
+"to potential reliance on system-provided libraries. Check "
+":const:`!pyexpat.EXPAT_VERSION`."
+msgstr ""
+
+#: ../../library/xml.rst:78
+msgid ""
+":mod:`xml.etree.ElementTree` doesn't expand external entities and raises a "
+":exc:`~xml.etree.ElementTree.ParseError` when an entity occurs."
+msgstr ""
+
+#: ../../library/xml.rst:80
 msgid ""
 ":mod:`xml.dom.minidom` doesn't expand external entities and simply returns "
 "the unexpanded entity verbatim."
 msgstr ""
 
-#: ../../library/xml.rst:77
-msgid ":mod:`xmlrpclib` doesn't expand external entities and omits them."
+#: ../../library/xml.rst:82
+msgid ":mod:`xmlrpc.client` doesn't expand external entities and omits them."
 msgstr ""
 
-#: ../../library/xml.rst:78
+#: ../../library/xml.rst:83
 msgid ""
 "Since Python 3.7.1, external general entities are no longer processed by "
 "default."
 msgstr ""
 
-#: ../../library/xml.rst:87
+#: ../../library/xml.rst:85
+msgid ""
+"Expat 2.6.0 and newer is not vulnerable to denial of service through "
+"quadratic runtime caused by parsing large tokens. Items still listed as "
+"vulnerable due to potential reliance on system-provided libraries. Check "
+":const:`!pyexpat.EXPAT_VERSION`."
+msgstr ""
+
+#: ../../library/xml.rst:92
 msgid "billion laughs / exponential entity expansion"
 msgstr ""
 
-#: ../../library/xml.rst:83
+#: ../../library/xml.rst:93
 msgid ""
 "The `Billion Laughs`_ attack -- also known as exponential entity expansion "
 "-- uses multiple levels of nested entities. Each entity refers to another "
@@ -212,34 +234,34 @@ msgid ""
 "consumes lots of memory and CPU time."
 msgstr ""
 
-#: ../../library/xml.rst:94
+#: ../../library/xml.rst:99
 msgid "quadratic blowup entity expansion"
 msgstr ""
 
-#: ../../library/xml.rst:90
+#: ../../library/xml.rst:100
 msgid ""
 "A quadratic blowup attack is similar to a `Billion Laughs`_ attack; it "
 "abuses entity expansion, too. Instead of nested entities it repeats one "
 "large entity with a couple of thousand chars over and over again. The attack"
 " isn't as efficient as the exponential case but it avoids triggering parser "
-"countermeasures that forbid deeply-nested entities."
+"countermeasures that forbid deeply nested entities."
 msgstr ""
 
-#: ../../library/xml.rst:97
+#: ../../library/xml.rst:107
 msgid ""
 "Entity declarations can contain more than just text for replacement. They "
 "can also point to external resources or local files. The XML parser accesses"
 " the resource and embeds the content into the XML document."
 msgstr ""
 
-#: ../../library/xml.rst:102
+#: ../../library/xml.rst:112
 msgid ""
 "Some XML libraries like Python's :mod:`xml.dom.pulldom` retrieve document "
 "type definitions from remote or local locations. The feature has similar "
 "implications as the external entity expansion issue."
 msgstr ""
 
-#: ../../library/xml.rst:107
+#: ../../library/xml.rst:117
 msgid ""
 "Decompression bombs (aka `ZIP bomb`_) apply to all XML libraries that can "
 "parse compressed XML streams such as gzipped HTTP streams or LZMA-compressed"
@@ -247,19 +269,27 @@ msgid ""
 "three magnitudes or more."
 msgstr ""
 
-#: ../../library/xml.rst:113
+#: ../../library/xml.rst:124
 msgid ""
-"The documentation for `defusedxml`_ on PyPI has further information about "
-"all known attack vectors with examples and references."
+"Expat needs to re-parse unfinished tokens; without the protection introduced"
+" in Expat 2.6.0, this can lead to quadratic runtime that can be used to "
+"cause denial of service in the application parsing XML. The issue is known "
+"as :cve:`2023-52425`."
 msgstr ""
 
-#: ../../library/xml.rst:119
-msgid "The :mod:`defusedxml` Package"
+#: ../../library/xml.rst:129
+msgid ""
+"The documentation for :pypi:`defusedxml` on PyPI has further information "
+"about all known attack vectors with examples and references."
 msgstr ""
 
-#: ../../library/xml.rst:121
+#: ../../library/xml.rst:135
+msgid "The :mod:`!defusedxml` Package"
+msgstr ""
+
+#: ../../library/xml.rst:137
 msgid ""
-"`defusedxml`_ is a pure Python package with modified subclasses of all "
+":pypi:`defusedxml` is a pure Python package with modified subclasses of all "
 "stdlib XML parsers that prevent any potentially malicious operation. Use of "
 "this package is recommended for any server code that parses untrusted XML "
 "data. The package also ships with example exploits and extended "
