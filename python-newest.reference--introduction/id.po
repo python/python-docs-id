@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Helen Febriani <helenfy.72@gmail.com>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:39+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:49+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../reference/introduction.rst:6
 msgid "Introduction"
-msgstr "Pengenalan"
+msgstr "Pengantar"
 
 #: ../../reference/introduction.rst:8
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 msgid "Known implementations include:"
 msgstr "Implementasi yang diketahui meliputi:"
 
-#: ../../reference/introduction.rst:51
+#: ../../reference/introduction.rst:49
 msgid "CPython"
 msgstr "CPython"
 
@@ -92,7 +92,7 @@ msgid ""
 "in C. New language features generally appear here first."
 msgstr ""
 
-#: ../../reference/introduction.rst:57
+#: ../../reference/introduction.rst:53
 msgid "Jython"
 msgstr "Jython"
 
@@ -102,10 +102,10 @@ msgid ""
 "language for Java applications, or can be used to create applications using "
 "the Java class libraries.  It is also often used to create tests for Java "
 "libraries. More information can be found at `the Jython website "
-"<http://www.jython.org/>`_."
+"<https://www.jython.org/>`_."
 msgstr ""
 
-#: ../../reference/introduction.rst:63
+#: ../../reference/introduction.rst:59
 msgid "Python for .NET"
 msgstr "Python untuk .NET"
 
@@ -117,7 +117,7 @@ msgid ""
 "<https://pythonnet.github.io/>`_."
 msgstr ""
 
-#: ../../reference/introduction.rst:69
+#: ../../reference/introduction.rst:65
 msgid "IronPython"
 msgstr "IronPython"
 
@@ -127,10 +127,10 @@ msgid ""
 "implementation that generates IL, and compiles Python code directly to .NET "
 "assemblies.  It was created by Jim Hugunin, the original creator of Jython."
 "  For more information, see `the IronPython website "
-"<http://ironpython.net/>`_."
+"<https://ironpython.net/>`_."
 msgstr ""
 
-#: ../../reference/introduction.rst:77
+#: ../../reference/introduction.rst:71
 msgid "PyPy"
 msgstr "PyPy"
 
@@ -142,7 +142,7 @@ msgid ""
 "encourage experimentation with the language itself by making it easier to "
 "modify the interpreter (since it is written in Python).  Additional "
 "information is available on `the PyPy project's home page "
-"<http://pypy.org/>`_."
+"<https://pypy.org/>`_."
 msgstr ""
 
 #: ../../reference/introduction.rst:79
@@ -160,11 +160,12 @@ msgstr "Notasi"
 
 #: ../../reference/introduction.rst:93
 msgid ""
-"The descriptions of lexical analysis and syntax use a modified BNF grammar "
-"notation.  This uses the following style of definition:"
+"The descriptions of lexical analysis and syntax use a modified `Backus–Naur "
+"form (BNF) <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>`_ "
+"grammar notation.  This uses the following style of definition:"
 msgstr ""
 
-#: ../../reference/introduction.rst:100
+#: ../../reference/introduction.rst:101
 msgid ""
 "The first line says that a ``name`` is an ``lc_letter`` followed by a "
 "sequence of zero or more ``lc_letter``\\ s and underscores.  An "
@@ -173,7 +174,7 @@ msgid ""
 " and grammar rules in this document.)"
 msgstr ""
 
-#: ../../reference/introduction.rst:105
+#: ../../reference/introduction.rst:106
 msgid ""
 "Each rule begins with a name (which is the name defined by the rule) and "
 "``::=``.  A vertical bar (``|``) is used to separate alternatives; it is the"
@@ -188,7 +189,7 @@ msgid ""
 " line after the first beginning with a vertical bar."
 msgstr ""
 
-#: ../../reference/introduction.rst:119
+#: ../../reference/introduction.rst:120
 msgid ""
 "In lexical definitions (as the example above), two more conventions are "
 "used: Two literal characters separated by three dots mean a choice of any "
@@ -198,7 +199,7 @@ msgid ""
 "'control character' if needed."
 msgstr ""
 
-#: ../../reference/introduction.rst:126
+#: ../../reference/introduction.rst:127
 msgid ""
 "Even though the notation used is almost the same, there is a big difference "
 "between the meaning of lexical and syntactic definitions: a lexical "
@@ -207,4 +208,28 @@ msgid ""
 "lexical analysis. All uses of BNF in the next chapter (\"Lexical Analysis\")"
 " are lexical definitions; uses in subsequent chapters are syntactic "
 "definitions."
+msgstr ""
+
+#: ../../reference/introduction.rst:91
+msgid "BNF"
+msgstr ""
+
+#: ../../reference/introduction.rst:91
+msgid "grammar"
+msgstr ""
+
+#: ../../reference/introduction.rst:91
+msgid "syntax"
+msgstr ""
+
+#: ../../reference/introduction.rst:91
+msgid "notation"
+msgstr ""
+
+#: ../../reference/introduction.rst:118
+msgid "lexical definitions"
+msgstr ""
+
+#: ../../reference/introduction.rst:118
+msgid "ASCII"
 msgstr ""
