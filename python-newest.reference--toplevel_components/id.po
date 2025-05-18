@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
+# Ahmad Mustafid, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:39+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:49+0000\n"
+"Last-Translator: Ahmad Mustafid, 2024\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -108,32 +109,32 @@ msgstr ""
 "Semua input yang dibaca dari berkas non-interaktif memiliki bentuk yang "
 "sama:"
 
-#: ../../reference/toplevel_components.rst:72
+#: ../../reference/toplevel_components.rst:74
 msgid "This syntax is used in the following situations:"
 msgstr "Sintaks ini digunakan dalam situasi berikut:"
 
-#: ../../reference/toplevel_components.rst:74
+#: ../../reference/toplevel_components.rst:76
 msgid "when parsing a complete Python program (from a file or from a string);"
 msgstr "saat mengurai program Python lengkap (dari berkas atau dari string);"
 
-#: ../../reference/toplevel_components.rst:76
+#: ../../reference/toplevel_components.rst:78
 msgid "when parsing a module;"
 msgstr "ketika mengurai sebuah modul;"
 
-#: ../../reference/toplevel_components.rst:78
+#: ../../reference/toplevel_components.rst:80
 msgid "when parsing a string passed to the :func:`exec` function;"
 msgstr "saat mengurai sebuah string yang dilewatkan ke fungsi :func:`exec`;"
 
-#: ../../reference/toplevel_components.rst:84
+#: ../../reference/toplevel_components.rst:86
 msgid "Interactive input"
 msgstr "Masukan interaktif"
 
-#: ../../reference/toplevel_components.rst:86
+#: ../../reference/toplevel_components.rst:88
 msgid "Input in interactive mode is parsed using the following grammar:"
 msgstr ""
 "Input dalam mode interaktif diuraikan menggunakan tata bahasa berikut:"
 
-#: ../../reference/toplevel_components.rst:91
+#: ../../reference/toplevel_components.rst:95
 msgid ""
 "Note that a (top-level) compound statement must be followed by a blank line "
 "in interactive mode; this is needed to help the parser detect the end of the"
@@ -143,11 +144,11 @@ msgstr ""
 " kosong dalam mode interaktif; ini diperlukan untuk membantu parser "
 "mendeteksi akhir masukan."
 
-#: ../../reference/toplevel_components.rst:98
+#: ../../reference/toplevel_components.rst:102
 msgid "Expression input"
 msgstr "Masukan ekspresi"
 
-#: ../../reference/toplevel_components.rst:103
+#: ../../reference/toplevel_components.rst:107
 msgid ""
 ":func:`eval` is used for expression input.  It ignores leading whitespace. "
 "The string argument to :func:`eval` must have the following form:"
@@ -155,3 +156,61 @@ msgstr ""
 ":func:`eval` digunakan untuk masukan ekspresi. Itu mengabaikan spasi "
 "*whitespace* sebelumnya. Argumen string ke :func:`eval` harus memiliki "
 "bentuk berikut:"
+
+#: ../../reference/toplevel_components.rst:8
+msgid "interpreter"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:21
+msgid "program"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:23
+#: ../../reference/toplevel_components.rst:39
+msgid "module"
+msgstr "modul"
+
+#: ../../reference/toplevel_components.rst:23
+msgid "sys"
+msgstr "sys"
+
+#: ../../reference/toplevel_components.rst:23
+#: ../../reference/toplevel_components.rst:39
+msgid "__main__"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:23
+msgid "builtins"
+msgstr "builtins"
+
+#: ../../reference/toplevel_components.rst:39
+msgid "interactive mode"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:49
+msgid "UNIX"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:49
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../reference/toplevel_components.rst:49
+msgid "command line"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:49
+msgid "standard input"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:104
+msgid "input"
+msgstr ""
+
+#: ../../reference/toplevel_components.rst:105
+msgid "built-in function"
+msgstr "fungsi bawaan"
+
+#: ../../reference/toplevel_components.rst:105
+msgid "eval"
+msgstr ""
