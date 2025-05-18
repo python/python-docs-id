@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:34+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:17+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/urllib.robotparser.rst:2
-msgid ":mod:`urllib.robotparser` ---  Parser for robots.txt"
+msgid ":mod:`!urllib.robotparser` ---  Parser for robots.txt"
 msgstr ""
 
 #: ../../library/urllib.robotparser.rst:10
@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "This module provides a single class, :class:`RobotFileParser`, which answers"
 " questions about whether or not a particular user agent can fetch a URL on "
-"the Web site that published the :file:`robots.txt` file.  For more details "
+"the web site that published the :file:`robots.txt` file.  For more details "
 "on the structure of :file:`robots.txt` files, see "
 "http://www.robotstxt.org/orig.html."
 msgstr ""
@@ -97,4 +97,39 @@ msgstr ""
 msgid ""
 "The following example demonstrates basic use of the :class:`RobotFileParser`"
 " class::"
+msgstr ""
+
+#: ../../library/urllib.robotparser.rst:92
+msgid ""
+">>> import urllib.robotparser\n"
+">>> rp = urllib.robotparser.RobotFileParser()\n"
+">>> rp.set_url(\"http://www.musi-cal.com/robots.txt\")\n"
+">>> rp.read()\n"
+">>> rrate = rp.request_rate(\"*\")\n"
+">>> rrate.requests\n"
+"3\n"
+">>> rrate.seconds\n"
+"20\n"
+">>> rp.crawl_delay(\"*\")\n"
+"6\n"
+">>> rp.can_fetch(\"*\", \"http://www.musi-cal.com/cgi-bin/search?city=San+Francisco\")\n"
+"False\n"
+">>> rp.can_fetch(\"*\", \"http://www.musi-cal.com/\")\n"
+"True"
+msgstr ""
+
+#: ../../library/urllib.robotparser.rst:12
+msgid "WWW"
+msgstr ""
+
+#: ../../library/urllib.robotparser.rst:12
+msgid "World Wide Web"
+msgstr ""
+
+#: ../../library/urllib.robotparser.rst:12
+msgid "URL"
+msgstr ""
+
+#: ../../library/urllib.robotparser.rst:12
+msgid "robots.txt"
 msgstr ""
