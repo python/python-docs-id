@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# LIQRGV <septianhari@gmail.com>, 2019
 # Faiq Zakki <221709674@stis.ac.id>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# LIQRGV <septianhari@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
-"PO-Revision-Date: 2017-02-16 23:36+0000\n"
-"Last-Translator: Faiq Zakki <221709674@stis.ac.id>, 2021\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:18+0000\n"
+"Last-Translator: LIQRGV <septianhari@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/xml.dom.rst:2
-msgid ":mod:`xml.dom` --- The Document Object Model API"
+msgid ":mod:`!xml.dom` --- The Document Object Model API"
 msgstr ""
 
 #: ../../library/xml.dom.rst:10
@@ -99,7 +99,7 @@ msgid ""
 "mapping requirements."
 msgstr ""
 
-#: ../../library/xml.dom.rst:71
+#: ../../library/xml.dom.rst:70
 msgid ""
 "`Document Object Model (DOM) Level 2 Specification "
 "<https://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/>`_"
@@ -109,10 +109,10 @@ msgstr ""
 msgid "The W3C recommendation upon which the Python DOM API is based."
 msgstr ""
 
-#: ../../library/xml.dom.rst:74
+#: ../../library/xml.dom.rst:73
 msgid ""
-"`Document Object Model (DOM) Level 1 Specification <https://www.w3.org/TR"
-"/REC-DOM-Level-1/>`_"
+"`Document Object Model (DOM) Level 1 Specification "
+"<https://www.w3.org/TR/REC-DOM-Level-1/>`_"
 msgstr ""
 
 #: ../../library/xml.dom.rst:74
@@ -122,8 +122,8 @@ msgstr ""
 
 #: ../../library/xml.dom.rst:76
 msgid ""
-"`Python Language Mapping Specification <http://www.omg.org/cgi-"
-"bin/doc?formal/02-11-05.pdf>`_"
+"`Python Language Mapping Specification "
+"<https://www.omg.org/spec/PYTH/1.2/PDF>`_"
 msgstr ""
 
 #: ../../library/xml.dom.rst:77
@@ -913,7 +913,7 @@ msgstr ""
 msgid ""
 "There are also experimental methods that give this class more mapping "
 "behavior. You can use them or you can use the standardized "
-":meth:`getAttribute\\*` family of methods on the :class:`Element` objects."
+":meth:`!getAttribute\\*` family of methods on the :class:`Element` objects."
 msgstr ""
 
 #: ../../library/xml.dom.rst:744
@@ -1278,8 +1278,8 @@ msgstr "``boolean``"
 msgid "``bool`` or ``int``"
 msgstr ""
 
-#: ../../library/xml.dom.rst:985 ../../library/xml.dom.rst:985
-#: ../../library/xml.dom.rst:987 ../../library/xml.dom.rst:989
+#: ../../library/xml.dom.rst:985 ../../library/xml.dom.rst:987
+#: ../../library/xml.dom.rst:989
 msgid "``int``"
 msgstr "``int``"
 
@@ -1316,6 +1316,12 @@ msgid ""
 "The mapping from OMG IDL to Python defines accessor functions for IDL "
 "``attribute`` declarations in much the way the Java mapping does. Mapping "
 "the IDL declarations ::"
+msgstr ""
+
+#: ../../library/xml.dom.rst:1005
+msgid ""
+"readonly attribute string someValue;\n"
+"         attribute string anotherValue;"
 msgstr ""
 
 #: ../../library/xml.dom.rst:1008
