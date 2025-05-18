@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 03:54+0000\n"
-"PO-Revision-Date: 2017-02-16 23:39+0000\n"
-"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:49+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,15 +213,9 @@ msgid ""
 "attributes is possible.  Module attributes are writable: you can write "
 "``modname.the_answer = 42``.  Writable attributes may also be deleted with "
 "the :keyword:`del` statement.  For example, ``del modname.the_answer`` will "
-"remove the attribute :attr:`the_answer` from the object named by "
+"remove the attribute :attr:`!the_answer` from the object named by "
 "``modname``."
 msgstr ""
-"Atribut dapat baca-saja *read-only* atau dapat ditulis. Dalam kasus "
-"terakhir, pemberian nilai ke atribut dimungkinkan. Atribut modul dapat "
-"ditulis: Anda dapat menulis ``modname.the_answer = 42``. Atribut yang dapat "
-"ditulis juga dapat dihapus dengan pernyataan :keyword:`del`. Sebagai contoh,"
-" ``del modname.the_answer`` akan menghapus atribut :attr:`the_answer` dari "
-"objek yang dinamai oleh ``modname``."
 
 #: ../../tutorial/classes.rst:96
 msgid ""
@@ -290,10 +284,8 @@ msgstr ""
 #: ../../tutorial/classes.rst:121
 msgid ""
 "the scopes of any enclosing functions, which are searched starting with the "
-"nearest enclosing scope, contains non-local, but also non-global names"
+"nearest enclosing scope, contain non-local, but also non-global names"
 msgstr ""
-"lingkup *scope* dari setiap fungsi penutup, yang dicari dimulai dengan "
-"lingkup penutup terdekat, berisi nama-nama non-lokal, tetapi juga non-global"
 
 #: ../../tutorial/classes.rst:123
 msgid "the next-to-last scope contains the current module's global names"
@@ -310,20 +302,13 @@ msgstr ""
 #: ../../tutorial/classes.rst:126
 msgid ""
 "If a name is declared global, then all references and assignments go "
-"directly to the middle scope containing the module's global names.  To "
-"rebind variables found outside of the innermost scope, the "
+"directly to the next-to-last scope containing the module's global names.  To"
+" rebind variables found outside of the innermost scope, the "
 ":keyword:`nonlocal` statement can be used; if not declared nonlocal, those "
 "variables are read-only (an attempt to write to such a variable will simply "
 "create a *new* local variable in the innermost scope, leaving the "
 "identically named outer variable unchanged)."
 msgstr ""
-"Jika sebuah nama dinyatakan global, maka semua referensi dan penugasan "
-"langsung ke lingkup *scope* tengah yang berisi nama global modul. Untuk "
-"mengembalikan variabel yang ditemukan di luar cakupan terdalam, pernyataan "
-":keyword:`nonlocal` dapat digunakan; jika tidak dideklarasikan nonlokal, "
-"variabel-variabel itu hanya baca-saja (upaya untuk menulis ke variabel "
-"seperti itu hanya akan membuat variabel lokal *baru* dalam cakupan terdalam,"
-" membiarkan variabel luar yang dinamai identik tidak berubah)."
 
 #: ../../tutorial/classes.rst:133
 msgid ""
@@ -403,9 +388,43 @@ msgstr ""
 "ruang nama *namespaces* yang berbeda, dan bagaimana :keyword:`global` dan "
 ":keyword:`nonlocal` memengaruhi pengikatan variabel::"
 
+#: ../../tutorial/classes.rst:168
+msgid ""
+"def scope_test():\n"
+"    def do_local():\n"
+"        spam = \"local spam\"\n"
+"\n"
+"    def do_nonlocal():\n"
+"        nonlocal spam\n"
+"        spam = \"nonlocal spam\"\n"
+"\n"
+"    def do_global():\n"
+"        global spam\n"
+"        spam = \"global spam\"\n"
+"\n"
+"    spam = \"test spam\"\n"
+"    do_local()\n"
+"    print(\"After local assignment:\", spam)\n"
+"    do_nonlocal()\n"
+"    print(\"After nonlocal assignment:\", spam)\n"
+"    do_global()\n"
+"    print(\"After global assignment:\", spam)\n"
+"\n"
+"scope_test()\n"
+"print(\"In global scope:\", spam)"
+msgstr ""
+
 #: ../../tutorial/classes.rst:191
 msgid "The output of the example code is:"
 msgstr "Keluaran dari contoh kode adalah:"
+
+#: ../../tutorial/classes.rst:193
+msgid ""
+"After local assignment: test spam\n"
+"After nonlocal assignment: nonlocal spam\n"
+"After global assignment: nonlocal spam\n"
+"In global scope: global spam"
+msgstr ""
 
 #: ../../tutorial/classes.rst:200
 msgid ""
@@ -446,6 +465,16 @@ msgstr "Sintaks Definisi Kelas"
 #: ../../tutorial/classes.rst:223
 msgid "The simplest form of class definition looks like this::"
 msgstr "Bentuk definisi kelas paling sederhana terlihat seperti ini::"
+
+#: ../../tutorial/classes.rst:225
+msgid ""
+"class ClassName:\n"
+"    <statement-1>\n"
+"    .\n"
+"    .\n"
+"    .\n"
+"    <statement-N>"
+msgstr ""
 
 #: ../../tutorial/classes.rst:232
 msgid ""
@@ -492,15 +521,8 @@ msgid ""
 " next section.  The original local scope (the one in effect just before the "
 "class definition was entered) is reinstated, and the class object is bound "
 "here to the class name given in the class definition header "
-"(:class:`ClassName` in the example)."
+"(:class:`!ClassName` in the example)."
 msgstr ""
-"Ketika definisi kelas dibiarkan normal (melalui akhir), *class object* "
-"dibuat. Ini pada dasarnya adalah pembungkus di sekitar isi *namespace* yang "
-"dibuat oleh definisi kelas; kita akan belajar lebih banyak tentang objek "
-"kelas di bagian selanjutnya. Lingkup *scope* lokal asli (yang berlaku tepat "
-"sebelum definisi kelas dimasukkan) diaktifkan kembali, dan objek kelas "
-"terikat di sini dengan nama kelas yang diberikan dalam header definisi kelas"
-" (:class:`ClassName` dalam contoh)."
 
 #: ../../tutorial/classes.rst:259
 msgid "Class Objects"
@@ -525,19 +547,24 @@ msgstr ""
 "adalah semua nama yang ada di *namespace* kelas saat objek kelas dibuat. "
 "Jadi, jika definisi kelas tampak seperti ini::"
 
+#: ../../tutorial/classes.rst:269
+msgid ""
+"class MyClass:\n"
+"    \"\"\"A simple example class\"\"\"\n"
+"    i = 12345\n"
+"\n"
+"    def f(self):\n"
+"        return 'hello world'"
+msgstr ""
+
 #: ../../tutorial/classes.rst:276
 msgid ""
 "then ``MyClass.i`` and ``MyClass.f`` are valid attribute references, "
 "returning an integer and a function object, respectively. Class attributes "
 "can also be assigned to, so you can change the value of ``MyClass.i`` by "
-"assignment. :attr:`__doc__` is also a valid attribute, returning the "
+"assignment. :attr:`~type.__doc__` is also a valid attribute, returning the "
 "docstring belonging to the class: ``\"A simple example class\"``."
 msgstr ""
-"kemudian ``MyClass.i`` dan ``MyClass.f`` adalah referensi atribut yang "
-"valid, masing-masing mengembalikan integer dan objek fungsi. Atribut kelas "
-"juga dapat ditetapkan, sehingga Anda dapat mengubah nilai ``MyClass.i`` oleh"
-" penugasan. :attr:`__doc__` juga merupakan atribut yang valid, mengembalikan"
-" *docstring* milik kelas: ``\"A simple example class\"``."
 
 #: ../../tutorial/classes.rst:282
 msgid ""
@@ -548,6 +575,10 @@ msgstr ""
 "*instantiation* kelas menggunakan notasi fungsi. Hanya berpura-pura bahwa "
 "objek kelas adalah fungsi tanpa parameter yang mengembalikan instance baru "
 "dari kelas. Misalnya (dengan asumsi kelas di atas)::"
+
+#: ../../tutorial/classes.rst:286 ../../tutorial/classes.rst:303
+msgid "x = MyClass()"
+msgstr ""
 
 #: ../../tutorial/classes.rst:288
 msgid ""
@@ -562,34 +593,41 @@ msgid ""
 "The instantiation operation (\"calling\" a class object) creates an empty "
 "object. Many classes like to create objects with instances customized to a "
 "specific initial state. Therefore a class may define a special method named "
-":meth:`__init__`, like this::"
+":meth:`~object.__init__`, like this::"
 msgstr ""
-"Operasi instansiasi (\"calling\" objek kelas) membuat objek kosong. Banyak "
-"kelas suka membuat objek dengan *instance* yang disesuaikan dengan kondisi "
-"awal tertentu. Oleh karena itu sebuah kelas dapat mendefinisikan metode "
-"khusus bernama :meth:`__init__`, seperti ini::"
+
+#: ../../tutorial/classes.rst:296
+msgid ""
+"def __init__(self):\n"
+"    self.data = []"
+msgstr ""
 
 #: ../../tutorial/classes.rst:299
 msgid ""
-"When a class defines an :meth:`__init__` method, class instantiation "
-"automatically invokes :meth:`__init__` for the newly-created class instance."
-"  So in this example, a new, initialized instance can be obtained by::"
+"When a class defines an :meth:`~object.__init__` method, class instantiation"
+" automatically invokes :meth:`!__init__` for the newly created class "
+"instance.  So in this example, a new, initialized instance can be obtained "
+"by::"
 msgstr ""
-"Ketika sebuah kelas mendefinisikan metode :meth:`__init__`, instantiasi "
-"kelas secara otomatis memanggil :meth:`__init__` untuk instance kelas yang "
-"baru dibuat. Jadi dalam contoh ini, contoh baru yang diinisialisasi dapat "
-"diperoleh oleh::"
 
 #: ../../tutorial/classes.rst:305
 msgid ""
-"Of course, the :meth:`__init__` method may have arguments for greater "
-"flexibility.  In that case, arguments given to the class instantiation "
-"operator are passed on to :meth:`__init__`.  For example, ::"
+"Of course, the :meth:`~object.__init__` method may have arguments for "
+"greater flexibility.  In that case, arguments given to the class "
+"instantiation operator are passed on to :meth:`!__init__`.  For example, ::"
 msgstr ""
-"Tentu saja, metode :meth:`__init__` mungkin memiliki argumen untuk "
-"fleksibilitas yang lebih besar. Dalam hal itu, argumen yang diberikan kepada"
-" operator instantiasi kelas diteruskan ke :meth:`__init__`. Sebagai contoh, "
-"::"
+
+#: ../../tutorial/classes.rst:309
+msgid ""
+">>> class Complex:\n"
+"...     def __init__(self, realpart, imagpart):\n"
+"...         self.r = realpart\n"
+"...         self.i = imagpart\n"
+"...\n"
+">>> x = Complex(3.0, -4.5)\n"
+">>> x.r, x.i\n"
+"(3.0, -4.5)"
+msgstr ""
 
 #: ../../tutorial/classes.rst:322
 msgid "Instance Objects"
@@ -607,38 +645,30 @@ msgstr ""
 
 #: ../../tutorial/classes.rst:328
 msgid ""
-"*data attributes* correspond to \"instance variables\" in Smalltalk, and to "
+"*Data attributes* correspond to \"instance variables\" in Smalltalk, and to "
 "\"data members\" in C++.  Data attributes need not be declared; like local "
 "variables, they spring into existence when they are first assigned to.  For "
-"example, if ``x`` is the instance of :class:`MyClass` created above, the "
+"example, if ``x`` is the instance of :class:`!MyClass` created above, the "
 "following piece of code will print the value ``16``, without leaving a "
 "trace::"
 msgstr ""
-"*data attributes* sesuai dengan \"variabel instan\" di Smalltalk, dan \"data"
-" members\" di C++. Atribut data tidak perlu dinyatakan; seperti variabel "
-"lokal, mereka muncul ketika mereka pertama kali ditugaskan. Misalnya, jika "
-"``x`` adalah turunan dari :class:`MyClass` yang dibuat di atas, bagian kode "
-"berikut akan mencetak nilai ``16``, tanpa meninggalkan jejak::"
+
+#: ../../tutorial/classes.rst:334
+msgid ""
+"x.counter = 1\n"
+"while x.counter < 10:\n"
+"    x.counter = x.counter * 2\n"
+"print(x.counter)\n"
+"del x.counter"
+msgstr ""
 
 #: ../../tutorial/classes.rst:340
 msgid ""
 "The other kind of instance attribute reference is a *method*. A method is a "
-"function that \"belongs to\" an object.  (In Python, the term method is not "
-"unique to class instances: other object types can have methods as well.  For"
-" example, list objects have methods called append, insert, remove, sort, and"
-" so on. However, in the following discussion, we'll use the term method "
-"exclusively to mean methods of class instance objects, unless explicitly "
-"stated otherwise.)"
+"function that \"belongs to\" an object."
 msgstr ""
-"Jenis lain dari referensi atribut instance adalah *method*. Metode adalah "
-"fungsi yang \"milik\" suatu objek. (Dalam Python, istilah metode tidak unik "
-"untuk instance kelas: tipe objek lain dapat memiliki metode juga. Misalnya, "
-"objek daftar memiliki metode yang disebut *append*, *insert*, *remove*, "
-"*sort*, dan sebagainya. Namun, dalam diskusi berikut, kita akan menggunakan "
-"istilah metode secara eksklusif untuk mengartikan metode objek *instance* "
-"kelas, kecuali dinyatakan secara eksplisit.)"
 
-#: ../../tutorial/classes.rst:349
+#: ../../tutorial/classes.rst:345
 msgid ""
 "Valid method names of an instance object depend on its class.  By "
 "definition, all attributes of a class that are function  objects define "
@@ -655,46 +685,48 @@ msgstr ""
 "bukan hal yang sama dengan ``MyClass.f`` --- itu adalah *method object*, "
 "bukan objek fungsi."
 
-#: ../../tutorial/classes.rst:360
+#: ../../tutorial/classes.rst:356
 msgid "Method Objects"
 msgstr "Metode Objek"
 
-#: ../../tutorial/classes.rst:362
+#: ../../tutorial/classes.rst:358
 msgid "Usually, a method is called right after it is bound::"
 msgstr "Biasanya, metode dipanggil tepat setelah itu terikat::"
 
-#: ../../tutorial/classes.rst:366
+#: ../../tutorial/classes.rst:360
+msgid "x.f()"
+msgstr ""
+
+#: ../../tutorial/classes.rst:362
 msgid ""
-"In the :class:`MyClass` example, this will return the string ``'hello "
+"In the :class:`!MyClass` example, this will return the string ``'hello "
 "world'``. However, it is not necessary to call a method right away: ``x.f`` "
 "is a method object, and can be stored away and called at a later time.  For "
 "example::"
 msgstr ""
-"Dalam contoh :class:`MyClass`, ini akan mengembalikan string ``'hello "
-"world'``. Namun, tidak perlu memanggil metode segera: ``x.f`` adalah metode "
-"objek, dan dapat disimpan dan dipanggil di lain waktu. Sebagai contoh::"
 
-#: ../../tutorial/classes.rst:374
+#: ../../tutorial/classes.rst:366
+msgid ""
+"xf = x.f\n"
+"while True:\n"
+"    print(xf())"
+msgstr ""
+
+#: ../../tutorial/classes.rst:370
 msgid "will continue to print ``hello world`` until the end of time."
 msgstr "akan terus mencetak ``hello world`` hingga akhir waktu."
 
-#: ../../tutorial/classes.rst:376
+#: ../../tutorial/classes.rst:372
 msgid ""
 "What exactly happens when a method is called?  You may have noticed that "
 "``x.f()`` was called without an argument above, even though the function "
-"definition for :meth:`f` specified an argument.  What happened to the "
+"definition for :meth:`!f` specified an argument.  What happened to the "
 "argument? Surely Python raises an exception when a function that requires an"
 " argument is called without any --- even if the argument isn't actually "
 "used..."
 msgstr ""
-"Apa yang sebenarnya terjadi ketika suatu metode dipanggil? Anda mungkin "
-"telah memperhatikan bahwa ``x.f()`` dipanggil tanpa argumen di atas, "
-"meskipun definisi fungsi untuk :meth:`f` menentukan argumen. Apa yang "
-"terjadi dengan argumen itu? Tentunya Python memunculkan pengecualian ketika "
-"fungsi yang membutuhkan argumen dipanggil tanpa --- bahkan jika argumen "
-"tersebut tidak benar-benar digunakan..."
 
-#: ../../tutorial/classes.rst:382
+#: ../../tutorial/classes.rst:378
 msgid ""
 "Actually, you may have guessed the answer: the special thing about methods "
 "is that the instance object is passed as the first argument of the function."
@@ -711,33 +743,22 @@ msgstr ""
 "memanggil fungsi yang sesuai dengan daftar argumen yang dibuat dengan "
 "menyisipkan objek contoh metode sebelum argumen pertama."
 
-#: ../../tutorial/classes.rst:389
+#: ../../tutorial/classes.rst:385
 msgid ""
-"If you still don't understand how methods work, a look at the implementation"
-" can perhaps clarify matters.  When a non-data attribute of an instance is "
-"referenced, the instance's class is searched.  If the name denotes a valid "
-"class attribute that is a function object, a method object is created by "
-"packing (pointers to) the instance object and the function object just found"
-" together in an abstract object: this is the method object.  When the method"
-" object is called with an argument list, a new argument list is constructed "
-"from the instance object and the argument list, and the function object is "
-"called with this new argument list."
+"In general, methods work as follows.  When a non-data attribute of an "
+"instance is referenced, the instance's class is searched. If the name "
+"denotes a valid class attribute that is a function object, references to "
+"both the instance object and the function object are packed into a method "
+"object.  When the method object is called with an argument list, a new "
+"argument list is constructed from the instance object and the argument list,"
+" and the function object is called with this new argument list."
 msgstr ""
-"Jika Anda masih tidak mengerti bagaimana metode bekerja, melihat "
-"implementasi mungkin dapat mengklarifikasi masalah. Ketika atribut non-data "
-"dari sebuah *instance* direferensikan, kelas *instance* tersebut dicari. "
-"Jika nama menunjukkan atribut kelas yang valid yang merupakan objek fungsi, "
-"objek metode dibuat dengan mengemas (menunjuk *pointers* ke) objek "
-"*instance* dan objek fungsi yang baru saja ditemukan bersama dalam objek "
-"abstrak: ini adalah objek metode. Ketika objek metode dipanggil dengan "
-"daftar argumen, daftar argumen baru dibangun dari objek instance dan daftar "
-"argumen, dan objek fungsi dipanggil dengan daftar argumen baru ini."
 
-#: ../../tutorial/classes.rst:403
+#: ../../tutorial/classes.rst:398
 msgid "Class and Instance Variables"
 msgstr "Variabel Kelas dan *Instance*"
 
-#: ../../tutorial/classes.rst:405
+#: ../../tutorial/classes.rst:400
 msgid ""
 "Generally speaking, instance variables are for data unique to each instance "
 "and class variables are for attributes and methods shared by all instances "
@@ -747,7 +768,28 @@ msgstr ""
 "*instance* dan variabel kelas adalah untuk atribut dan metode yang dibagikan"
 " oleh semua *instance* kelas::"
 
-#: ../../tutorial/classes.rst:427
+#: ../../tutorial/classes.rst:404
+msgid ""
+"class Dog:\n"
+"\n"
+"    kind = 'canine'         # class variable shared by all instances\n"
+"\n"
+"    def __init__(self, name):\n"
+"        self.name = name    # instance variable unique to each instance\n"
+"\n"
+">>> d = Dog('Fido')\n"
+">>> e = Dog('Buddy')\n"
+">>> d.kind                  # shared by all dogs\n"
+"'canine'\n"
+">>> e.kind                  # shared by all dogs\n"
+"'canine'\n"
+">>> d.name                  # unique to d\n"
+"'Fido'\n"
+">>> e.name                  # unique to e\n"
+"'Buddy'"
+msgstr ""
+
+#: ../../tutorial/classes.rst:422
 msgid ""
 "As discussed in :ref:`tut-object`, shared data can have possibly surprising "
 "effects with involving :term:`mutable` objects such as lists and "
@@ -761,17 +803,58 @@ msgstr ""
 "kode berikut tidak boleh digunakan sebagai variabel kelas karena hanya satu "
 "daftar yang akan dibagikan oleh semua *Dog* instance::"
 
-#: ../../tutorial/classes.rst:450
+#: ../../tutorial/classes.rst:428
+msgid ""
+"class Dog:\n"
+"\n"
+"    tricks = []             # mistaken use of a class variable\n"
+"\n"
+"    def __init__(self, name):\n"
+"        self.name = name\n"
+"\n"
+"    def add_trick(self, trick):\n"
+"        self.tricks.append(trick)\n"
+"\n"
+">>> d = Dog('Fido')\n"
+">>> e = Dog('Buddy')\n"
+">>> d.add_trick('roll over')\n"
+">>> e.add_trick('play dead')\n"
+">>> d.tricks                # unexpectedly shared by all dogs\n"
+"['roll over', 'play dead']"
+msgstr ""
+
+#: ../../tutorial/classes.rst:445
 msgid "Correct design of the class should use an instance variable instead::"
 msgstr ""
 "Desain kelas yang benar harus menggunakan variabel *instance* sebagai "
 "gantinya::"
 
-#: ../../tutorial/classes.rst:474
+#: ../../tutorial/classes.rst:447
+msgid ""
+"class Dog:\n"
+"\n"
+"    def __init__(self, name):\n"
+"        self.name = name\n"
+"        self.tricks = []    # creates a new empty list for each dog\n"
+"\n"
+"    def add_trick(self, trick):\n"
+"        self.tricks.append(trick)\n"
+"\n"
+">>> d = Dog('Fido')\n"
+">>> e = Dog('Buddy')\n"
+">>> d.add_trick('roll over')\n"
+">>> e.add_trick('play dead')\n"
+">>> d.tricks\n"
+"['roll over']\n"
+">>> e.tricks\n"
+"['play dead']"
+msgstr ""
+
+#: ../../tutorial/classes.rst:469
 msgid "Random Remarks"
 msgstr "Keterangan Acak"
 
-#: ../../tutorial/classes.rst:478
+#: ../../tutorial/classes.rst:473
 msgid ""
 "If the same attribute name occurs in both an instance and in a class, then "
 "attribute lookup prioritizes the instance::"
@@ -779,7 +862,22 @@ msgstr ""
 "Jika nama atribut yang sama muncul di kedua *instance* dan di kelas, maka "
 "pencarian atribut memprioritaskan *instance*::"
 
-#: ../../tutorial/classes.rst:493
+#: ../../tutorial/classes.rst:476
+msgid ""
+">>> class Warehouse:\n"
+"...    purpose = 'storage'\n"
+"...    region = 'west'\n"
+"...\n"
+">>> w1 = Warehouse()\n"
+">>> print(w1.purpose, w1.region)\n"
+"storage west\n"
+">>> w2 = Warehouse()\n"
+">>> w2.region = 'east'\n"
+">>> print(w2.purpose, w2.region)\n"
+"storage east"
+msgstr ""
+
+#: ../../tutorial/classes.rst:488
 msgid ""
 "Data attributes may be referenced by methods as well as by ordinary users "
 "(\"clients\") of an object.  In other words, classes are not usable to "
@@ -798,7 +896,7 @@ msgstr ""
 " implementasi dan mengontrol akses ke objek jika perlu; ini dapat digunakan "
 "oleh ekstensi ke Python yang ditulis dalam C.)"
 
-#: ../../tutorial/classes.rst:501
+#: ../../tutorial/classes.rst:496
 msgid ""
 "Clients should use data attributes with care --- clients may mess up "
 "invariants maintained by the methods by stamping on their data attributes.  "
@@ -813,7 +911,7 @@ msgstr ""
 "asalkan konflik nama dihindari --- sekali lagi, konvensi penamaan dapat "
 "menghindarkan dari banyak sakit kepala di sini."
 
-#: ../../tutorial/classes.rst:507
+#: ../../tutorial/classes.rst:502
 msgid ""
 "There is no shorthand for referencing data attributes (or other methods!) "
 "from within methods.  I find that this actually increases the readability of"
@@ -825,7 +923,7 @@ msgstr ""
 "metode: tidak ada kemungkinan membingungkan variabel lokal dan variabel "
 "*instance* ketika melirik *glancing* melalui metode."
 
-#: ../../tutorial/classes.rst:512
+#: ../../tutorial/classes.rst:507
 msgid ""
 "Often, the first argument of a method is called ``self``.  This is nothing "
 "more than a convention: the name ``self`` has absolutely no special meaning "
@@ -841,7 +939,7 @@ msgstr ""
 "dan juga dapat dibayangkan bahwa program *class browser* dapat ditulis yang "
 "bergantung pada konvensi semacam itu."
 
-#: ../../tutorial/classes.rst:518
+#: ../../tutorial/classes.rst:513
 msgid ""
 "Any function object that is a class attribute defines a method for instances"
 " of that class.  It is not necessary that the function definition is "
@@ -853,19 +951,30 @@ msgstr ""
 " teks dalam definisi kelas: menetapkan objek fungsi ke variabel lokal di "
 "kelas juga ok. Sebagai contoh::"
 
-#: ../../tutorial/classes.rst:535
+#: ../../tutorial/classes.rst:518
 msgid ""
-"Now ``f``, ``g`` and ``h`` are all attributes of class :class:`C` that refer"
-" to function objects, and consequently they are all methods of instances of "
-":class:`C` --- ``h`` being exactly equivalent to ``g``.  Note that this "
-"practice usually only serves to confuse the reader of a program."
+"# Function defined outside the class\n"
+"def f1(self, x, y):\n"
+"    return min(x, x+y)\n"
+"\n"
+"class C:\n"
+"    f = f1\n"
+"\n"
+"    def g(self):\n"
+"        return 'hello world'\n"
+"\n"
+"    h = g"
 msgstr ""
-"Sekarang ``f``, ``g`` dan ``h`` adalah semua atribut class :class:`C` yang "
-"merujuk ke objek-objek fungsi, dan akibatnya semuanya adalah metode instance"
-" dari :class:`C` --- ``h`` sama persis dengan ``g``. Perhatikan bahwa "
-"praktik ini biasanya hanya membingungkan pembaca program."
 
-#: ../../tutorial/classes.rst:540
+#: ../../tutorial/classes.rst:530
+msgid ""
+"Now ``f``, ``g`` and ``h`` are all attributes of class :class:`!C` that "
+"refer to function objects, and consequently they are all methods of "
+"instances of :class:`!C` --- ``h`` being exactly equivalent to ``g``.  Note "
+"that this practice usually only serves to confuse the reader of a program."
+msgstr ""
+
+#: ../../tutorial/classes.rst:535
 msgid ""
 "Methods may call other methods by using method attributes of the ``self`` "
 "argument::"
@@ -873,7 +982,21 @@ msgstr ""
 "Metode dapat memanggil metode lain dengan menggunakan atribut metode dari "
 "argumen ``self``::"
 
-#: ../../tutorial/classes.rst:554
+#: ../../tutorial/classes.rst:538
+msgid ""
+"class Bag:\n"
+"    def __init__(self):\n"
+"        self.data = []\n"
+"\n"
+"    def add(self, x):\n"
+"        self.data.append(x)\n"
+"\n"
+"    def addtwice(self, x):\n"
+"        self.add(x)\n"
+"        self.add(x)"
+msgstr ""
+
+#: ../../tutorial/classes.rst:549
 msgid ""
 "Methods may reference global names in the same way as ordinary functions.  "
 "The global scope associated with a method is the module containing its "
@@ -897,7 +1020,7 @@ msgstr ""
 "menemukan beberapa alasan bagus mengapa suatu metode ingin merujuk kelasnya "
 "sendiri."
 
-#: ../../tutorial/classes.rst:564
+#: ../../tutorial/classes.rst:559
 msgid ""
 "Each value is an object, and therefore has a *class* (also called its "
 "*type*). It is stored as ``object.__class__``."
@@ -905,11 +1028,11 @@ msgstr ""
 "Setiap nilai adalah objek, dan karenanya memiliki *kelas* (juga disebut "
 "sebagai *type*). Ini disimpan sebagai ``object.__class__``."
 
-#: ../../tutorial/classes.rst:571
+#: ../../tutorial/classes.rst:566
 msgid "Inheritance"
 msgstr "Pewarisan"
 
-#: ../../tutorial/classes.rst:573
+#: ../../tutorial/classes.rst:568
 msgid ""
 "Of course, a language feature would not be worthy of the name \"class\" "
 "without supporting inheritance.  The syntax for a derived class definition "
@@ -919,19 +1042,29 @@ msgstr ""
 "mendukung pewarisan. Sintaks untuk definisi kelas turunan terlihat seperti "
 "ini::"
 
-#: ../../tutorial/classes.rst:584
+#: ../../tutorial/classes.rst:572
 msgid ""
-"The name :class:`BaseClassName` must be defined in a scope containing the "
-"derived class definition.  In place of a base class name, other arbitrary "
-"expressions are also allowed.  This can be useful, for example, when the "
-"base class is defined in another module::"
+"class DerivedClassName(BaseClassName):\n"
+"    <statement-1>\n"
+"    .\n"
+"    .\n"
+"    .\n"
+"    <statement-N>"
 msgstr ""
-"Nama :class:`BaseClassName` harus didefinisikan dalam lingkup yang berisi "
-"definisi kelas turunan. Di tempat nama kelas dasar, ekspresi berubah-ubah "
-"*arbitrary* lainnya juga diperbolehkan. Ini bisa berguna, misalnya, ketika "
-"kelas dasar didefinisikan dalam modul lain::"
 
-#: ../../tutorial/classes.rst:591
+#: ../../tutorial/classes.rst:579
+msgid ""
+"The name :class:`!BaseClassName` must be defined in a namespace accessible "
+"from the scope containing the derived class definition.  In place of a base "
+"class name, other arbitrary expressions are also allowed.  This can be "
+"useful, for example, when the base class is defined in another module::"
+msgstr ""
+
+#: ../../tutorial/classes.rst:585
+msgid "class DerivedClassName(modname.BaseClassName):"
+msgstr ""
+
+#: ../../tutorial/classes.rst:587
 msgid ""
 "Execution of a derived class definition proceeds the same as for a base "
 "class. When the class object is constructed, the base class is remembered.  "
@@ -947,7 +1080,7 @@ msgstr ""
 "diterapkan secara rekursif jika kelas dasar itu sendiri berasal dari "
 "beberapa kelas lain."
 
-#: ../../tutorial/classes.rst:597
+#: ../../tutorial/classes.rst:593
 msgid ""
 "There's nothing special about instantiation of derived classes: "
 "``DerivedClassName()`` creates a new instance of the class.  Method "
@@ -961,7 +1094,7 @@ msgstr ""
 " kelas dasar jika perlu, dan referensi metode ini valid jika ini "
 "menghasilkan objek fungsi."
 
-#: ../../tutorial/classes.rst:603
+#: ../../tutorial/classes.rst:599
 msgid ""
 "Derived classes may override methods of their base classes.  Because methods"
 " have no special privileges when calling other methods of the same object, a"
@@ -976,7 +1109,7 @@ msgstr ""
 "menimpanya. (Untuk programmer C++: semua metode dalam Python secara efektif "
 "``virtual``.)"
 
-#: ../../tutorial/classes.rst:609
+#: ../../tutorial/classes.rst:605
 msgid ""
 "An overriding method in a derived class may in fact want to extend rather "
 "than simply replace the base class method of the same name. There is a "
@@ -992,11 +1125,11 @@ msgstr ""
 "untuk klien juga. (Perhatikan bahwa ini hanya berfungsi jika kelas dasar "
 "dapat diakses sebagai ``BaseClassName`` dalam lingkup global.)"
 
-#: ../../tutorial/classes.rst:616
+#: ../../tutorial/classes.rst:612
 msgid "Python has two built-in functions that work with inheritance:"
 msgstr "Python memiliki dua fungsi bawaan yang bekerja dengan warisan:"
 
-#: ../../tutorial/classes.rst:618
+#: ../../tutorial/classes.rst:614
 msgid ""
 "Use :func:`isinstance` to check an instance's type: ``isinstance(obj, int)``"
 " will be ``True`` only if ``obj.__class__`` is :class:`int` or some class "
@@ -1006,7 +1139,7 @@ msgstr ""
 " int)`` akan menjadi ``True`` hanya jika ``obj.__class__`` adalah "
 ":class:`int` atau beberapa kelas yang diturunkan dari :class:`int`."
 
-#: ../../tutorial/classes.rst:622
+#: ../../tutorial/classes.rst:618
 msgid ""
 "Use :func:`issubclass` to check class inheritance: ``issubclass(bool, int)``"
 " is ``True`` since :class:`bool` is a subclass of :class:`int`.  However, "
@@ -1018,11 +1151,11 @@ msgstr ""
 ":class:`int`. Namun, ``issubclass(float, int)`` adalah ``False`` karena "
 ":class:`float` bukan subkelas dari :class:`int`."
 
-#: ../../tutorial/classes.rst:632
+#: ../../tutorial/classes.rst:628
 msgid "Multiple Inheritance"
 msgstr "Pewarisan Berganda"
 
-#: ../../tutorial/classes.rst:634
+#: ../../tutorial/classes.rst:630
 msgid ""
 "Python supports a form of multiple inheritance as well.  A class definition "
 "with multiple base classes looks like this::"
@@ -1030,26 +1163,28 @@ msgstr ""
 "Python mendukung bentuk pewarisan berganda juga. Definisi kelas dengan "
 "beberapa kelas dasar terlihat seperti ini::"
 
-#: ../../tutorial/classes.rst:644
+#: ../../tutorial/classes.rst:633
+msgid ""
+"class DerivedClassName(Base1, Base2, Base3):\n"
+"    <statement-1>\n"
+"    .\n"
+"    .\n"
+"    .\n"
+"    <statement-N>"
+msgstr ""
+
+#: ../../tutorial/classes.rst:640
 msgid ""
 "For most purposes, in the simplest cases, you can think of the search for "
 "attributes inherited from a parent class as depth-first, left-to-right, not "
 "searching twice in the same class where there is an overlap in the "
-"hierarchy. Thus, if an attribute is not found in :class:`DerivedClassName`, "
-"it is searched for in :class:`Base1`, then (recursively) in the base classes"
-" of :class:`Base1`, and if it was not found there, it was searched for in "
-":class:`Base2`, and so on."
+"hierarchy. Thus, if an attribute is not found in :class:`!DerivedClassName`,"
+" it is searched for in :class:`!Base1`, then (recursively) in the base "
+"classes of :class:`!Base1`, and if it was not found there, it was searched "
+"for in :class:`!Base2`, and so on."
 msgstr ""
-"Untuk sebagian besar tujuan, dalam kasus paling sederhana, Anda dapat "
-"menganggap pencarian atribut yang diwarisi dari kelas induk sebagai "
-"kedalaman-pertama *depth-first*, kiri-ke-kanan, bukan mencari dua kali di "
-"kelas yang sama di mana ada tumpang tindih dalam hierarki. Dengan demikian, "
-"jika atribut tidak ditemukan di :class:`DerivedClassName`, itu dicari di "
-":class:`Base1`, kemudian (secara rekursif) di kelas dasar dari "
-":class:`Base1`, dan jika tidak ditemukan di sana, itu dicari di "
-":class:`Base2`, dan seterusnya."
 
-#: ../../tutorial/classes.rst:651
+#: ../../tutorial/classes.rst:647
 msgid ""
 "In fact, it is slightly more complex than that; the method resolution order "
 "changes dynamically to support cooperative calls to :func:`super`.  This "
@@ -1063,7 +1198,7 @@ msgstr ""
 "sebagai metode panggilan-berikutnya *call-next-method* dan lebih berdaya "
 "daripada panggilan super yang ditemukan dalam bahasa warisan tunggal."
 
-#: ../../tutorial/classes.rst:657
+#: ../../tutorial/classes.rst:653
 msgid ""
 "Dynamic ordering is necessary because all cases of multiple inheritance "
 "exhibit one or more diamond relationships (where at least one of the parent "
@@ -1076,29 +1211,14 @@ msgid ""
 "and that is monotonic (meaning that a class can be subclassed without "
 "affecting the precedence order of its parents). Taken together, these "
 "properties make it possible to design reliable and extensible classes with "
-"multiple inheritance.  For more detail, see "
-"https://www.python.org/download/releases/2.3/mro/."
+"multiple inheritance.  For more detail, see :ref:`python_2.3_mro`."
 msgstr ""
-"Urutan dinamis diperlukan karena semua kasus pewarisan berganda menunjukkan "
-"satu atau lebih hubungan intan *diamond relationships* (di mana setidaknya "
-"satu dari kelas induk dapat diakses melalui beberapa jalur dari kelas "
-"bawah). Sebagai contoh, semua kelas mewarisi dari :class:`object`, jadi "
-"segala kasus pewarisan berganda menyediakan lebih dari satu jalur untuk "
-"mencapai :class:` object`. Untuk menjaga agar kelas dasar tidak diakses "
-"lebih dari sekali, algoritma dinamis linier mengurutkan urutan pencarian "
-"dengan cara yang mempertahankan urutan kiri-ke-kanan yang ditentukan dalam "
-"setiap kelas, yang memanggil setiap induk hanya sekali, dan itu monoton "
-"(artinya suatu kelas dapat di-subklas-kan tanpa memengaruhi urutan prioritas"
-" orang tuanya). Secara bersama-sama, properti ini memungkinkan untuk "
-"merancang kelas yang andal dan dapat diperluas dengan banyak pewarisan. "
-"Untuk detail lebih lanjut, lihat "
-"https://www.python.org/download/releases/2.3/mro/."
 
-#: ../../tutorial/classes.rst:674
+#: ../../tutorial/classes.rst:670
 msgid "Private Variables"
 msgstr "Variabel Privat"
 
-#: ../../tutorial/classes.rst:676
+#: ../../tutorial/classes.rst:672
 msgid ""
 "\"Private\" instance variables that cannot be accessed except from inside an"
 " object don't exist in Python.  However, there is a convention that is "
@@ -1114,7 +1234,7 @@ msgstr ""
 "metode atau anggota data). Ini harus dianggap sebagai detail implementasi "
 "dan dapat berubah tanpa pemberitahuan."
 
-#: ../../tutorial/classes.rst:686
+#: ../../tutorial/classes.rst:682
 msgid ""
 "Since there is a valid use-case for class-private members (namely to avoid "
 "name clashes of names with names defined by subclasses), there is limited "
@@ -1135,7 +1255,13 @@ msgstr ""
 "dilakukan tanpa memperhatikan posisi sintaksis pengidentifikasi, asalkan "
 "terjadi dalam definisi kelas."
 
-#: ../../tutorial/classes.rst:695
+#: ../../tutorial/classes.rst:693
+msgid ""
+"The :ref:`private name mangling specifications <private-name-mangling>` for "
+"details and special cases."
+msgstr ""
+
+#: ../../tutorial/classes.rst:696
 msgid ""
 "Name mangling is helpful for letting subclasses override methods without "
 "breaking intraclass method calls.  For example::"
@@ -1143,7 +1269,29 @@ msgstr ""
 "*Name mangling* sangat membantu untuk membiarkan subclass menimpa metode "
 "tanpa memutus panggilan metode *intraclass*. Sebagai contoh::"
 
-#: ../../tutorial/classes.rst:717
+#: ../../tutorial/classes.rst:699
+msgid ""
+"class Mapping:\n"
+"    def __init__(self, iterable):\n"
+"        self.items_list = []\n"
+"        self.__update(iterable)\n"
+"\n"
+"    def update(self, iterable):\n"
+"        for item in iterable:\n"
+"            self.items_list.append(item)\n"
+"\n"
+"    __update = update   # private copy of original update() method\n"
+"\n"
+"class MappingSubclass(Mapping):\n"
+"\n"
+"    def update(self, keys, values):\n"
+"        # provides new signature for update()\n"
+"        # but does not break __init__()\n"
+"        for item in zip(keys, values):\n"
+"            self.items_list.append(item)"
+msgstr ""
+
+#: ../../tutorial/classes.rst:718
 msgid ""
 "The above example would work even if ``MappingSubclass`` were to introduce a"
 " ``__update`` identifier since it is replaced with ``_Mapping__update`` in "
@@ -1155,7 +1303,7 @@ msgstr ""
 "``_Mapping__update`` di kelas ``Mapping`` dan ``_MappingSubclass__update`` "
 "di kelas ``MappingSubclass`` masing-masing."
 
-#: ../../tutorial/classes.rst:722
+#: ../../tutorial/classes.rst:723
 msgid ""
 "Note that the mangling rules are designed mostly to avoid accidents; it "
 "still is possible to access or modify a variable that is considered private."
@@ -1166,7 +1314,7 @@ msgstr ""
 " variabel yang dianggap pribadi. Ini bahkan dapat berguna dalam keadaan "
 "khusus, seperti di *debugger*."
 
-#: ../../tutorial/classes.rst:726
+#: ../../tutorial/classes.rst:727
 msgid ""
 "Notice that code passed to ``exec()`` or ``eval()`` does not consider the "
 "classname of the invoking class to be the current class; this is similar to "
@@ -1182,51 +1330,60 @@ msgstr ""
 " yang sama berlaku untuk ``getattr()``, ``setattr()`` dan ``delattr()``, "
 "serta saat mereferensikan ``__dict__`` secara langsung."
 
-#: ../../tutorial/classes.rst:737
+#: ../../tutorial/classes.rst:738
 msgid "Odds and Ends"
 msgstr "Barang Sisa *Odds and Ends*"
 
-#: ../../tutorial/classes.rst:739
+#: ../../tutorial/classes.rst:740
 msgid ""
 "Sometimes it is useful to have a data type similar to the Pascal \"record\" "
-"or C \"struct\", bundling together a few named data items.  An empty class "
-"definition will do nicely::"
+"or C \"struct\", bundling together a few named data items. The idiomatic "
+"approach is to use :mod:`dataclasses` for this purpose::"
 msgstr ""
-"Kadang-kadang berguna untuk memiliki tipe data yang mirip dengan \"record\" "
-"Pascal atau \"struct\" C, menyatukan beberapa item data bernama. Definisi "
-"kelas kosong akan menghasilkan hal tersebut dengan baik::"
 
-#: ../../tutorial/classes.rst:753
+#: ../../tutorial/classes.rst:744
+msgid ""
+"from dataclasses import dataclass\n"
+"\n"
+"@dataclass\n"
+"class Employee:\n"
+"    name: str\n"
+"    dept: str\n"
+"    salary: int"
+msgstr ""
+
+#: ../../tutorial/classes.rst:754
+msgid ""
+">>> john = Employee('john', 'computer lab', 1000)\n"
+">>> john.dept\n"
+"'computer lab'\n"
+">>> john.salary\n"
+"1000"
+msgstr ""
+
+#: ../../tutorial/classes.rst:760
 msgid ""
 "A piece of Python code that expects a particular abstract data type can "
 "often be passed a class that emulates the methods of that data type instead."
 "  For instance, if you have a function that formats some data from a file "
-"object, you can define a class with methods :meth:`read` and "
-":meth:`!readline` that get the data from a string buffer instead, and pass "
-"it as an argument."
+"object, you can define a class with methods :meth:`~io.TextIOBase.read` and "
+":meth:`~io.TextIOBase.readline` that get the data from a string buffer "
+"instead, and pass it as an argument."
 msgstr ""
-"Sepotong kode Python yang mengharapkan tipe data abstrak tertentu sering "
-"dapat dilewatkan kelas yang mengemulasi metode tipe data itu sebagai "
-"gantinya. Misalnya, jika Anda memiliki fungsi yang memformat beberapa data "
-"dari objek file, Anda dapat mendefinisikan kelas dengan metode :meth:`read` "
-"dan :meth:`!readline` yang mendapatkan data dari buffer string sebagai "
-"gantinya, dan meneruskan itu sebagai argumen."
-
-#: ../../tutorial/classes.rst:764
-msgid ""
-"Instance method objects have attributes, too: ``m.__self__`` is the instance"
-" object with the method :meth:`m`, and ``m.__func__`` is the function object"
-" corresponding to the method."
-msgstr ""
-"Objek metode *instance* memiliki atribut, juga: ``m.__self__`` adalah objek "
-"instan dengan metode :meth:`m`, dan ``m.__func__`` adalah objek fungsi yang "
-"sesuai dengan metode tersebut."
 
 #: ../../tutorial/classes.rst:772
+msgid ""
+":ref:`Instance method objects <instance-methods>` have attributes, too: "
+":attr:`m.__self__ <method.__self__>` is the instance object with the method "
+":meth:`!m`, and :attr:`m.__func__ <method.__func__>` is the :ref:`function "
+"object <user-defined-funcs>` corresponding to the method."
+msgstr ""
+
+#: ../../tutorial/classes.rst:782
 msgid "Iterators"
 msgstr "*Iterators*"
 
-#: ../../tutorial/classes.rst:774
+#: ../../tutorial/classes.rst:784
 msgid ""
 "By now you have probably noticed that most container objects can be looped "
 "over using a :keyword:`for` statement::"
@@ -1235,7 +1392,21 @@ msgstr ""
 "penampung *container* dapat dibuat perulangan menggunakan pernyataan "
 ":keyword:`for`::"
 
-#: ../../tutorial/classes.rst:788
+#: ../../tutorial/classes.rst:787
+msgid ""
+"for element in [1, 2, 3]:\n"
+"    print(element)\n"
+"for element in (1, 2, 3):\n"
+"    print(element)\n"
+"for key in {'one':1, 'two':2}:\n"
+"    print(key)\n"
+"for char in \"123\":\n"
+"    print(char)\n"
+"for line in open(\"myfile.txt\"):\n"
+"    print(line, end='')"
+msgstr ""
+
+#: ../../tutorial/classes.rst:798
 msgid ""
 "This style of access is clear, concise, and convenient.  The use of "
 "iterators pervades and unifies Python.  Behind the scenes, the "
@@ -1258,24 +1429,71 @@ msgstr ""
 ":meth:`~iterator.__next__` menggunakan :func:`next` fungsi bawaan; contoh "
 "ini menunjukkan cara kerjanya::"
 
-#: ../../tutorial/classes.rst:813
+#: ../../tutorial/classes.rst:807
+msgid ""
+">>> s = 'abc'\n"
+">>> it = iter(s)\n"
+">>> it\n"
+"<str_iterator object at 0x10c90e650>\n"
+">>> next(it)\n"
+"'a'\n"
+">>> next(it)\n"
+"'b'\n"
+">>> next(it)\n"
+"'c'\n"
+">>> next(it)\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"    next(it)\n"
+"StopIteration"
+msgstr ""
+
+#: ../../tutorial/classes.rst:823
 msgid ""
 "Having seen the mechanics behind the iterator protocol, it is easy to add "
-"iterator behavior to your classes.  Define an :meth:`__iter__` method which "
-"returns an object with a :meth:`~iterator.__next__` method.  If the class "
-"defines :meth:`__next__`, then :meth:`__iter__` can just return ``self``::"
+"iterator behavior to your classes.  Define an :meth:`~container.__iter__` "
+"method which returns an object with a :meth:`~iterator.__next__` method.  If"
+" the class defines :meth:`!__next__`, then :meth:`!__iter__` can just return"
+" ``self``::"
 msgstr ""
-"Setelah melihat mekanisme di balik protokol *iterator*, mudah untuk "
-"menambahkan perilaku *iterator* ke kelas Anda. Definisikan metode "
-":meth:`__iter__` yang mengembalikan objek dengan metode "
-":meth:`~iterator.__next__`. Jika kelas mendefinisikan :meth:`__next__`, maka"
-" :meth:`__iter__` bisa langsung mengembalikan ``self``::"
 
-#: ../../tutorial/classes.rst:850
+#: ../../tutorial/classes.rst:828
+msgid ""
+"class Reverse:\n"
+"    \"\"\"Iterator for looping over a sequence backwards.\"\"\"\n"
+"    def __init__(self, data):\n"
+"        self.data = data\n"
+"        self.index = len(data)\n"
+"\n"
+"    def __iter__(self):\n"
+"        return self\n"
+"\n"
+"    def __next__(self):\n"
+"        if self.index == 0:\n"
+"            raise StopIteration\n"
+"        self.index = self.index - 1\n"
+"        return self.data[self.index]"
+msgstr ""
+
+#: ../../tutorial/classes.rst:845
+msgid ""
+">>> rev = Reverse('spam')\n"
+">>> iter(rev)\n"
+"<__main__.Reverse object at 0x00A1DB50>\n"
+">>> for char in rev:\n"
+"...     print(char)\n"
+"...\n"
+"m\n"
+"a\n"
+"p\n"
+"s"
+msgstr ""
+
+#: ../../tutorial/classes.rst:860
 msgid "Generators"
 msgstr "Pembangkit *Generator*"
 
-#: ../../tutorial/classes.rst:852
+#: ../../tutorial/classes.rst:862
 msgid ""
 ":term:`Generators <generator>` are a simple and powerful tool for creating "
 "iterators.  They are written like regular functions but use the "
@@ -1292,20 +1510,33 @@ msgstr ""
 "pernyataan mana yang terakhir dieksekusi). Sebuah contoh menunjukkan bahwa "
 "generator sangat mudah dibuat::"
 
-#: ../../tutorial/classes.rst:873
+#: ../../tutorial/classes.rst:869
+msgid ""
+"def reverse(data):\n"
+"    for index in range(len(data)-1, -1, -1):\n"
+"        yield data[index]"
+msgstr ""
+
+#: ../../tutorial/classes.rst:875
+msgid ""
+">>> for char in reverse('golf'):\n"
+"...     print(char)\n"
+"...\n"
+"f\n"
+"l\n"
+"o\n"
+"g"
+msgstr ""
+
+#: ../../tutorial/classes.rst:883
 msgid ""
 "Anything that can be done with generators can also be done with class-based "
 "iterators as described in the previous section.  What makes generators so "
-"compact is that the :meth:`__iter__` and :meth:`~generator.__next__` methods"
-" are created automatically."
+"compact is that the :meth:`~iterator.__iter__` and "
+":meth:`~generator.__next__` methods are created automatically."
 msgstr ""
-"Apa pun yang dapat dilakukan dengan pembangkit *generator* juga dapat "
-"dilakukan dengan *iterator* berbasis kelas seperti yang dijelaskan pada "
-"bagian sebelumnya. Apa yang membuat pembangkit *generator* sangat kompak "
-"adalah bahwa metode :meth:`__iter__` dan :meth:`~generator.__next__` dibuat "
-"secara otomatis."
 
-#: ../../tutorial/classes.rst:878
+#: ../../tutorial/classes.rst:888
 msgid ""
 "Another key feature is that the local variables and execution state are "
 "automatically saved between calls.  This made the function easier to write "
@@ -1317,7 +1548,7 @@ msgstr ""
 "untuk ditulis dan jauh lebih jelas daripada pendekatan menggunakan variabel "
 "instan seperti ``self.index`` dan ``self.data``."
 
-#: ../../tutorial/classes.rst:883
+#: ../../tutorial/classes.rst:893
 msgid ""
 "In addition to automatic method creation and saving program state, when "
 "generators terminate, they automatically raise :exc:`StopIteration`. In "
@@ -1329,11 +1560,11 @@ msgstr ""
 ":exc:`StopIteration`. Secara kombinasi, fitur-fitur ini membuatnya mudah "
 "untuk membuat *iterator* tanpa lebih dari sekadar menulis fungsi biasa."
 
-#: ../../tutorial/classes.rst:892
+#: ../../tutorial/classes.rst:902
 msgid "Generator Expressions"
 msgstr "Ekspresi Pembangkit *Generator*"
 
-#: ../../tutorial/classes.rst:894
+#: ../../tutorial/classes.rst:904
 msgid ""
 "Some simple generators can be coded succinctly as expressions using a syntax"
 " similar to list comprehensions but with parentheses instead of square "
@@ -1350,26 +1581,55 @@ msgstr ""
 "tetapi kurang fleksibel daripada definisi *generator* penuh dan cenderung "
 "lebih ramah memori daripada pemahaman daftar *list comprehensions* setara."
 
-#: ../../tutorial/classes.rst:901
+#: ../../tutorial/classes.rst:911
 msgid "Examples::"
 msgstr "Contoh::"
 
-#: ../../tutorial/classes.rst:922
+#: ../../tutorial/classes.rst:913
+msgid ""
+">>> sum(i*i for i in range(10))                 # sum of squares\n"
+"285\n"
+"\n"
+">>> xvec = [10, 20, 30]\n"
+">>> yvec = [7, 5, 3]\n"
+">>> sum(x*y for x,y in zip(xvec, yvec))         # dot product\n"
+"260\n"
+"\n"
+">>> unique_words = set(word for line in page  for word in line.split())\n"
+"\n"
+">>> valedictorian = max((student.gpa, student.name) for student in graduates)\n"
+"\n"
+">>> data = 'golf'\n"
+">>> list(data[i] for i in range(len(data)-1, -1, -1))\n"
+"['f', 'l', 'o', 'g']"
+msgstr ""
+
+#: ../../tutorial/classes.rst:932
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../tutorial/classes.rst:923
+#: ../../tutorial/classes.rst:933
 msgid ""
 "Except for one thing.  Module objects have a secret read-only attribute "
 "called :attr:`~object.__dict__` which returns the dictionary used to "
-"implement the module's namespace; the name :attr:`~object.__dict__` is an "
-"attribute but not a global name. Obviously, using this violates the "
-"abstraction of namespace implementation, and should be restricted to things "
-"like post-mortem debuggers."
+"implement the module's namespace; the name ``__dict__`` is an attribute but "
+"not a global name. Obviously, using this violates the abstraction of "
+"namespace implementation, and should be restricted to things like post-"
+"mortem debuggers."
 msgstr ""
-"Kecuali satu hal. Objek modul memiliki atribut baca-saja *read-only* rahasia"
-" bernama :attr:`~object.__dict__` yang mengembalikan kamus *dictionary* yang"
-" digunakan untuk mengimplementasikan *namespace* modul; nama "
-":attr:`~object.__ dict__` adalah atribut tetapi bukan nama global. Jelas, "
-"menggunakan ini melanggar abstraksi implementasi *namespace*, dan harus "
-"dibatasi untuk hal-hal seperti *debuggers* *post-mortem*."
+
+#: ../../tutorial/classes.rst:343
+msgid "object"
+msgstr "objek"
+
+#: ../../tutorial/classes.rst:343
+msgid "method"
+msgstr ""
+
+#: ../../tutorial/classes.rst:679
+msgid "name"
+msgstr "nama"
+
+#: ../../tutorial/classes.rst:679
+msgid "mangling"
+msgstr ""
