@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:32+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:16+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/tty.rst:2
-msgid ":mod:`tty` --- Terminal control functions"
+msgid ":mod:`!tty` --- Terminal control functions"
 msgstr ""
 
 #: ../../library/tty.rst:11
@@ -32,32 +32,80 @@ msgid ""
 msgstr ""
 
 #: ../../library/tty.rst:18
+msgid "Availability"
+msgstr ""
+
+#: ../../library/tty.rst:20
 msgid ""
 "Because it requires the :mod:`termios` module, it will work only on Unix."
 msgstr ""
 
-#: ../../library/tty.rst:20
+#: ../../library/tty.rst:22
 msgid "The :mod:`tty` module defines the following functions:"
 msgstr ""
 
-#: ../../library/tty.rst:25
+#: ../../library/tty.rst:27
+msgid ""
+"Convert the tty attribute list *mode*, which is a list like the one returned"
+" by :func:`termios.tcgetattr`, to that of a tty in raw mode."
+msgstr ""
+
+#: ../../library/tty.rst:35
+msgid ""
+"Convert the tty attribute list *mode*, which is a list like the one returned"
+" by :func:`termios.tcgetattr`, to that of a tty in cbreak mode."
+msgstr ""
+
+#: ../../library/tty.rst:38
+msgid ""
+"This clears the ``ECHO`` and ``ICANON`` local mode flags in *mode* as well "
+"as setting the minimum input to 1 byte with no delay."
+msgstr ""
+
+#: ../../library/tty.rst:43
+msgid ""
+"The ``ICRNL`` flag is no longer cleared. This matches Linux and macOS ``stty"
+" cbreak`` behavior and what :func:`setcbreak` historically did."
+msgstr ""
+
+#: ../../library/tty.rst:50
 msgid ""
 "Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it"
 " defaults to :const:`termios.TCSAFLUSH`, and is passed to "
-":func:`termios.tcsetattr`."
+":func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is "
+"saved before setting *fd* to raw mode; this value is returned."
 msgstr ""
 
-#: ../../library/tty.rst:32
+#: ../../library/tty.rst:55 ../../library/tty.rst:69
+msgid ""
+"The return value is now the original tty attributes, instead of ``None``."
+msgstr ""
+
+#: ../../library/tty.rst:61
 msgid ""
 "Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it "
 "defaults to :const:`termios.TCSAFLUSH`, and is passed to "
-":func:`termios.tcsetattr`."
+":func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` is "
+"saved before setting *fd* to cbreak mode; this value is returned."
 msgstr ""
 
-#: ../../library/tty.rst:39
+#: ../../library/tty.rst:66
+msgid ""
+"This clears the ``ECHO`` and ``ICANON`` local mode flags as well as setting "
+"the minimum input to 1 byte with no delay."
+msgstr ""
+
+#: ../../library/tty.rst:72
+msgid ""
+"The ``ICRNL`` flag is no longer cleared. This restores the behavior of "
+"Python 3.11 and earlier as well as matching what Linux, macOS, & BSDs "
+"describe in their ``stty(1)`` man pages regarding cbreak mode."
+msgstr ""
+
+#: ../../library/tty.rst:80
 msgid "Module :mod:`termios`"
 msgstr ""
 
-#: ../../library/tty.rst:40
+#: ../../library/tty.rst:81
 msgid "Low-level terminal control interface."
 msgstr ""
