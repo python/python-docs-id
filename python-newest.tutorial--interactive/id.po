@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:40+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:50+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,22 +52,11 @@ msgid ""
 "expressions such as ``string.a``, it will evaluate the expression up to the "
 "final ``'.'`` and then suggest completions from the attributes of the "
 "resulting object.  Note that this may execute application-defined code if an"
-" object with a :meth:`__getattr__` method is part of the expression.  The "
-"default configuration also saves your history into a file named "
+" object with a :meth:`~object.__getattr__` method is part of the expression."
+"  The default configuration also saves your history into a file named "
 ":file:`.python_history` in your user directory. The history will be "
 "available again during the next interactive interpreter session."
 msgstr ""
-"Penyelesaian nama variabel dan modul adalah :ref:`diaktifkan secara otomatis"
-" <rlcompleter-config>` pada startup interpreter sehingga tombol :kbd:`Tab` "
-"memanggil fungsi pelengkapan; terlihat pada nama pernyataan Python, variabel"
-" lokal saat ini, dan nama modul yang tersedia. Untuk ekspresi putus-putus "
-"seperti ``string.a``, itu akan mengevaluasi ekspresi hingga akhir ``'.'`` "
-"dan kemudian menyarankan penyelesaian dari atribut dari objek yang "
-"dihasilkan. Perhatikan bahwa ini dapat mengeksekusi kode yang-ditentukan-"
-"aplikasi jika suatu objek dengan metode :meth:`__getattr__` menjadi bagian "
-"dari ekspresi. Konfigurasi bawaan juga menyimpan riwayat Anda menjadi berkas"
-" bernama :file:`.python_history` di direktori pengguna Anda. Riwayat akan "
-"tersedia lagi saat sesi interpreter interaktif berikutnya."
 
 #: ../../tutorial/interactive.rst:36
 msgid "Alternatives to the Interactive Interpreter"
@@ -78,17 +67,10 @@ msgid ""
 "This facility is an enormous step forward compared to earlier versions of "
 "the interpreter; however, some wishes are left: It would be nice if the "
 "proper indentation were suggested on continuation lines (the parser knows if"
-" an indent token is required next).  The completion mechanism might use the "
-"interpreter's symbol table.  A command to check (or even suggest) matching "
-"parentheses, quotes, etc., would also be useful."
+" an :data:`~token.INDENT` token is required next).  The completion mechanism"
+" might use the interpreter's symbol table.  A command to check (or even "
+"suggest) matching parentheses, quotes, etc., would also be useful."
 msgstr ""
-"Fasilitas ini merupakan kemajuan yang sangat besar dibandingkan dengan "
-"interpreter versi sebelumnya; namun, ada beberapa keinginan yang tersisa: "
-"Akan lebih baik jika indentasi yang tepat disarankan pada baris lanjutan "
-"(parser tahu jika token indentasi diperlukan berikutnya). Mekanisme "
-"pelengkapan mungkin menggunakan tabel simbol interpreter. Perintah untuk "
-"memeriksa (atau bahkan menyarankan) tanda kurung, tanda kutip, dll., juga "
-"berguna."
 
 #: ../../tutorial/interactive.rst:45
 msgid ""
