@@ -1,16 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 17:47+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:54+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/_thread.rst:2
-msgid ":mod:`_thread` --- Low-level threading API"
+msgid ":mod:`!_thread` --- Low-level threading API"
 msgstr ""
 
 #: ../../library/_thread.rst:15
@@ -77,35 +81,59 @@ msgid ""
 msgstr ""
 
 #: ../../library/_thread.rst:60
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``_thread.start_new_thread`` with"
+" arguments ``function``, ``args``, ``kwargs``."
+msgstr ""
+
+#: ../../library/_thread.rst:62
 msgid ":func:`sys.unraisablehook` is now used to handle unhandled exceptions."
 msgstr ""
 
-#: ../../library/_thread.rst:66
+#: ../../library/_thread.rst:68
 msgid ""
-"Simulate the effect of a :data:`signal.SIGINT` signal arriving in the main "
-"thread. A thread can use this function to interrupt the main thread."
+"Simulate the effect of a signal arriving in the main thread. A thread can "
+"use this function to interrupt the main thread, though there is no guarantee"
+" that the interruption will happen immediately."
 msgstr ""
 
-#: ../../library/_thread.rst:69
+#: ../../library/_thread.rst:72
 msgid ""
-"If :data:`signal.SIGINT` isn't handled by Python (it was set to "
-":data:`signal.SIG_DFL` or :data:`signal.SIG_IGN`), this function does "
+"If given, *signum* is the number of the signal to simulate. If *signum* is "
+"not given, :const:`signal.SIGINT` is simulated."
+msgstr ""
+
+#: ../../library/_thread.rst:75
+msgid ""
+"If the given signal isn't handled by Python (it was set to "
+":const:`signal.SIG_DFL` or :const:`signal.SIG_IGN`), this function does "
 "nothing."
 msgstr ""
 
-#: ../../library/_thread.rst:76
+#: ../../library/_thread.rst:79
+msgid "The *signum* argument is added to customize the signal number."
+msgstr ""
+
+#: ../../library/_thread.rst:83
+msgid ""
+"This does not emit the corresponding signal but schedules a call to the "
+"associated handler (if it exists). If you want to truly emit the signal, use"
+" :func:`signal.raise_signal`."
+msgstr ""
+
+#: ../../library/_thread.rst:90
 msgid ""
 "Raise the :exc:`SystemExit` exception.  When not caught, this will cause the"
 " thread to exit silently."
 msgstr ""
 
-#: ../../library/_thread.rst:90
+#: ../../library/_thread.rst:104
 msgid ""
 "Return a new lock object.  Methods of locks are described below.  The lock "
 "is initially unlocked."
 msgstr ""
 
-#: ../../library/_thread.rst:96
+#: ../../library/_thread.rst:110
 msgid ""
 "Return the 'thread identifier' of the current thread.  This is a nonzero "
 "integer.  Its value has no direct meaning; it is intended as a magic cookie "
@@ -114,7 +142,7 @@ msgid ""
 "created."
 msgstr ""
 
-#: ../../library/_thread.rst:104
+#: ../../library/_thread.rst:118
 msgid ""
 "Return the native integral Thread ID of the current thread assigned by the "
 "kernel. This is a non-negative integer. Its value may be used to uniquely "
@@ -122,13 +150,15 @@ msgid ""
 "after which the value may be recycled by the OS)."
 msgstr ""
 
-#: ../../library/_thread.rst:110
-msgid ""
-":ref:`Availability <availability>`: Windows, FreeBSD, Linux, macOS, OpenBSD,"
-" NetBSD, AIX."
+#: ../../library/_thread.rst:123 ../../library/_thread.rst:148
+msgid "Availability"
 msgstr ""
 
-#: ../../library/_thread.rst:116
+#: ../../library/_thread.rst:127
+msgid "Added support for GNU/kFreeBSD."
+msgstr ""
+
+#: ../../library/_thread.rst:133
 msgid ""
 "Return the thread stack size used when creating new threads.  The optional "
 "*size* argument specifies the stack size to be used for subsequently created"
@@ -147,23 +177,22 @@ msgid ""
 "information)."
 msgstr ""
 
-#: ../../library/_thread.rst:131
-msgid ""
-":ref:`Availability <availability>`: Windows, systems with POSIX threads."
+#: ../../library/_thread.rst:150
+msgid "Unix platforms with POSIX threads support."
 msgstr ""
 
-#: ../../library/_thread.rst:136
+#: ../../library/_thread.rst:155
 msgid ""
-"The maximum value allowed for the *timeout* parameter of "
-":meth:`Lock.acquire`. Specifying a timeout greater than this value will "
-"raise an :exc:`OverflowError`."
+"The maximum value allowed for the *timeout* parameter of :meth:`Lock.acquire"
+" <threading.Lock.acquire>`. Specifying a timeout greater than this value "
+"will raise an :exc:`OverflowError`."
 msgstr ""
 
-#: ../../library/_thread.rst:143
+#: ../../library/_thread.rst:162
 msgid "Lock objects have the following methods:"
 msgstr ""
 
-#: ../../library/_thread.rst:148
+#: ../../library/_thread.rst:167
 msgid ""
 "Without any optional argument, this method acquires the lock "
 "unconditionally, if necessary waiting until it is released by another thread"
@@ -171,88 +200,123 @@ msgid ""
 "existence)."
 msgstr ""
 
-#: ../../library/_thread.rst:152
+#: ../../library/_thread.rst:171
 msgid ""
-"If the integer *waitflag* argument is present, the action depends on its "
-"value: if it is zero, the lock is only acquired if it can be acquired "
-"immediately without waiting, while if it is nonzero, the lock is acquired "
-"unconditionally as above."
+"If the *blocking* argument is present, the action depends on its value: if "
+"it is false, the lock is only acquired if it can be acquired immediately "
+"without waiting, while if it is true, the lock is acquired unconditionally "
+"as above."
 msgstr ""
 
-#: ../../library/_thread.rst:157
+#: ../../library/_thread.rst:176
 msgid ""
 "If the floating-point *timeout* argument is present and positive, it "
 "specifies the maximum wait time in seconds before returning.  A negative "
 "*timeout* argument specifies an unbounded wait.  You cannot specify a "
-"*timeout* if *waitflag* is zero."
+"*timeout* if *blocking* is false."
 msgstr ""
 
-#: ../../library/_thread.rst:162
+#: ../../library/_thread.rst:181
 msgid ""
 "The return value is ``True`` if the lock is acquired successfully, ``False``"
 " if not."
 msgstr ""
 
-#: ../../library/_thread.rst:165
+#: ../../library/_thread.rst:184
 msgid "The *timeout* parameter is new."
 msgstr ""
 
-#: ../../library/_thread.rst:168
+#: ../../library/_thread.rst:187
 msgid "Lock acquires can now be interrupted by signals on POSIX."
 msgstr ""
 
-#: ../../library/_thread.rst:174
+#: ../../library/_thread.rst:190
+msgid "Lock acquires can now be interrupted by signals on Windows."
+msgstr ""
+
+#: ../../library/_thread.rst:196
 msgid ""
 "Releases the lock.  The lock must have been acquired earlier, but not "
 "necessarily by the same thread."
 msgstr ""
 
-#: ../../library/_thread.rst:180
+#: ../../library/_thread.rst:202
 msgid ""
 "Return the status of the lock: ``True`` if it has been acquired by some "
 "thread, ``False`` if not."
 msgstr ""
 
-#: ../../library/_thread.rst:183
+#: ../../library/_thread.rst:205
 msgid ""
 "In addition to these methods, lock objects can also be used via the "
 ":keyword:`with` statement, e.g.::"
 msgstr ""
 
-#: ../../library/_thread.rst:193
+#: ../../library/_thread.rst:208
+msgid ""
+"import _thread\n"
+"\n"
+"a_lock = _thread.allocate_lock()\n"
+"\n"
+"with a_lock:\n"
+"    print(\"a_lock is locked while this executes\")"
+msgstr ""
+
+#: ../../library/_thread.rst:215
 msgid "**Caveats:**"
 msgstr ""
 
-#: ../../library/_thread.rst:197
+#: ../../library/_thread.rst:219
 msgid ""
-"Threads interact strangely with interrupts: the :exc:`KeyboardInterrupt` "
-"exception will be received by an arbitrary thread.  (When the :mod:`signal` "
-"module is available, interrupts always go to the main thread.)"
+"Interrupts always go to the main thread (the :exc:`KeyboardInterrupt` "
+"exception will be received by that thread.)"
 msgstr ""
 
-#: ../../library/_thread.rst:201
+#: ../../library/_thread.rst:222
 msgid ""
 "Calling :func:`sys.exit` or raising the :exc:`SystemExit` exception is "
 "equivalent to calling :func:`_thread.exit`."
 msgstr ""
 
-#: ../../library/_thread.rst:204
-msgid ""
-"It is not possible to interrupt the :meth:`acquire` method on a lock --- the"
-" :exc:`KeyboardInterrupt` exception will happen after the lock has been "
-"acquired."
-msgstr ""
-
-#: ../../library/_thread.rst:207
+#: ../../library/_thread.rst:225
 msgid ""
 "When the main thread exits, it is system defined whether the other threads "
 "survive.  On most systems, they are killed without executing :keyword:`try` "
 "... :keyword:`finally` clauses or executing object destructors."
 msgstr ""
 
-#: ../../library/_thread.rst:212
-msgid ""
-"When the main thread exits, it does not do any of its usual cleanup (except "
-"that :keyword:`try` ... :keyword:`finally` clauses are honored), and the "
-"standard I/O files are not flushed."
+#: ../../library/_thread.rst:7
+msgid "light-weight processes"
 msgstr ""
+
+#: ../../library/_thread.rst:7
+msgid "processes, light-weight"
+msgstr ""
+
+#: ../../library/_thread.rst:7
+msgid "binary semaphores"
+msgstr ""
+
+#: ../../library/_thread.rst:7
+msgid "semaphores, binary"
+msgstr ""
+
+#: ../../library/_thread.rst:22
+msgid "pthreads"
+msgstr ""
+
+#: ../../library/_thread.rst:22
+msgid "threads"
+msgstr ""
+
+#: ../../library/_thread.rst:22
+msgid "POSIX"
+msgstr ""
+
+#: ../../library/_thread.rst:217
+msgid "module"
+msgstr "modul"
+
+#: ../../library/_thread.rst:217
+msgid "signal"
+msgstr "signal"
