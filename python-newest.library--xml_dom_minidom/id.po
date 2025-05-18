@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
-"PO-Revision-Date: 2017-02-16 23:36+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:18+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/xml.dom.minidom.rst:2
-msgid ":mod:`xml.dom.minidom` --- Minimal DOM implementation"
+msgid ":mod:`!xml.dom.minidom` --- Minimal DOM implementation"
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:11
@@ -49,6 +49,18 @@ msgstr ""
 msgid ""
 "DOM applications typically start by parsing some XML into a DOM.  With "
 ":mod:`xml.dom.minidom`, this is done through the parse functions::"
+msgstr ""
+
+#: ../../library/xml.dom.minidom.rst:32
+msgid ""
+"from xml.dom.minidom import parse, parseString\n"
+"\n"
+"dom1 = parse('c:\\\\temp\\\\mydata.xml')  # parse an XML file by name\n"
+"\n"
+"datasource = open('c:\\\\temp\\\\mydata.xml')\n"
+"dom2 = parse(datasource)  # parse an open file\n"
+"\n"
+"dom3 = parseString('<myxml>Some data<empty/> some more data</myxml>')"
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:41
@@ -105,6 +117,18 @@ msgid ""
 "add child nodes to it to populate the DOM::"
 msgstr ""
 
+#: ../../library/xml.dom.minidom.rst:77
+msgid ""
+"from xml.dom.minidom import getDOMImplementation\n"
+"\n"
+"impl = getDOMImplementation()\n"
+"\n"
+"newdoc = impl.createDocument(None, \"some_tag\", None)\n"
+"top_element = newdoc.documentElement\n"
+"text = newdoc.createTextNode('Some textual content.')\n"
+"top_element.appendChild(text)"
+msgstr ""
+
 #: ../../library/xml.dom.minidom.rst:86
 msgid ""
 "Once you have a DOM document object, you can access the parts of your XML "
@@ -114,20 +138,26 @@ msgid ""
 "document: the one that holds all others.  Here is an example program::"
 msgstr ""
 
+#: ../../library/xml.dom.minidom.rst:92
+msgid ""
+"dom3 = parseString(\"<myxml>Some data</myxml>\")\n"
+"assert dom3.documentElement.tagName == \"myxml\""
+msgstr ""
+
 #: ../../library/xml.dom.minidom.rst:95
 msgid ""
 "When you are finished with a DOM tree, you may optionally call the "
 ":meth:`unlink` method to encourage early cleanup of the now-unneeded "
 "objects.  :meth:`unlink` is an :mod:`xml.dom.minidom`\\ -specific extension "
-"to the DOM API that renders the node and its descendants are essentially "
+"to the DOM API that renders the node and its descendants essentially "
 "useless.  Otherwise, Python's garbage collector will eventually take care of"
 " the objects in the tree."
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:104
 msgid ""
-"`Document Object Model (DOM) Level 1 Specification <https://www.w3.org/TR"
-"/REC-DOM-Level-1/>`_"
+"`Document Object Model (DOM) Level 1 Specification "
+"<https://www.w3.org/TR/REC-DOM-Level-1/>`_"
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:105
@@ -163,6 +193,12 @@ msgid ""
 ":keyword:`!with` block is exited::"
 msgstr ""
 
+#: ../../library/xml.dom.minidom.rst:131
+msgid ""
+"with xml.dom.minidom.parse(datasource) as dom:\n"
+"    ... # Work with dom."
+msgstr ""
+
 #: ../../library/xml.dom.minidom.rst:138
 msgid ""
 "Write XML to the writer object.  The writer receives texts but not bytes as "
@@ -181,10 +217,10 @@ msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:148
 msgid ""
-"Silimarly, explicitly stating the *standalone* argument causes the "
+"Similarly, explicitly stating the *standalone* argument causes the "
 "standalone document declarations to be added to the prologue of the XML "
-"document. If the value is set to `True`, `standalone=\"yes\"` is added, "
-"otherwise it is set to `\"no\"`. Not stating the argument will omit the "
+"document. If the value is set to ``True``, ``standalone=\"yes\"`` is added, "
+"otherwise it is set to ``\"no\"``. Not stating the argument will omit the "
 "declaration from the document."
 msgstr ""
 
@@ -194,13 +230,18 @@ msgid ""
 "the user."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:161
+#: ../../library/xml.dom.minidom.rst:159 ../../library/xml.dom.minidom.rst:180
+#: ../../library/xml.dom.minidom.rst:199
+msgid "The *standalone* parameter was added."
+msgstr ""
+
+#: ../../library/xml.dom.minidom.rst:164
 msgid ""
 "Return a string or byte string containing the XML represented by the DOM "
 "node."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:164
+#: ../../library/xml.dom.minidom.rst:167
 msgid ""
 "With an explicit *encoding* [1]_ argument, the result is a byte string in "
 "the specified encoding. With no *encoding* argument, the result is a Unicode"
@@ -209,63 +250,131 @@ msgid ""
 "incorrect, since UTF-8 is the default encoding of XML."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:171 ../../library/xml.dom.minidom.rst:187
+#: ../../library/xml.dom.minidom.rst:174 ../../library/xml.dom.minidom.rst:193
 msgid "The *standalone* argument behaves exactly as in :meth:`writexml`."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:173
+#: ../../library/xml.dom.minidom.rst:176
 msgid ""
 "The :meth:`toxml` method now preserves the attribute order specified by the "
 "user."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:180
+#: ../../library/xml.dom.minidom.rst:186
 msgid ""
 "Return a pretty-printed version of the document. *indent* specifies the "
 "indentation string and defaults to a tabulator; *newl* specifies the string "
 "emitted at the end of each line and defaults to ``\\n``."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:184
+#: ../../library/xml.dom.minidom.rst:190
 msgid ""
 "The *encoding* argument behaves like the corresponding argument of "
 ":meth:`toxml`."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:189
+#: ../../library/xml.dom.minidom.rst:195
 msgid ""
 "The :meth:`toprettyxml` method now preserves the attribute order specified "
 "by the user."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:197
+#: ../../library/xml.dom.minidom.rst:205
 msgid "DOM Example"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:199
+#: ../../library/xml.dom.minidom.rst:207
 msgid ""
 "This example program is a fairly realistic example of a simple program. In "
 "this particular case, we do not take much advantage of the flexibility of "
 "the DOM."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:208
+#: ../../library/xml.dom.minidom.rst:210
+msgid ""
+"import xml.dom.minidom\n"
+"\n"
+"document = \"\"\"\\\n"
+"<slideshow>\n"
+"<title>Demo slideshow</title>\n"
+"<slide><title>Slide title</title>\n"
+"<point>This is a demo</point>\n"
+"<point>Of a program for processing slides</point>\n"
+"</slide>\n"
+"\n"
+"<slide><title>Another demo slide</title>\n"
+"<point>It is important</point>\n"
+"<point>To have more than</point>\n"
+"<point>one slide</point>\n"
+"</slide>\n"
+"</slideshow>\n"
+"\"\"\"\n"
+"\n"
+"dom = xml.dom.minidom.parseString(document)\n"
+"\n"
+"def getText(nodelist):\n"
+"    rc = []\n"
+"    for node in nodelist:\n"
+"        if node.nodeType == node.TEXT_NODE:\n"
+"            rc.append(node.data)\n"
+"    return ''.join(rc)\n"
+"\n"
+"def handleSlideshow(slideshow):\n"
+"    print(\"<html>\")\n"
+"    handleSlideshowTitle(slideshow.getElementsByTagName(\"title\")[0])\n"
+"    slides = slideshow.getElementsByTagName(\"slide\")\n"
+"    handleToc(slides)\n"
+"    handleSlides(slides)\n"
+"    print(\"</html>\")\n"
+"\n"
+"def handleSlides(slides):\n"
+"    for slide in slides:\n"
+"        handleSlide(slide)\n"
+"\n"
+"def handleSlide(slide):\n"
+"    handleSlideTitle(slide.getElementsByTagName(\"title\")[0])\n"
+"    handlePoints(slide.getElementsByTagName(\"point\"))\n"
+"\n"
+"def handleSlideshowTitle(title):\n"
+"    print(f\"<title>{getText(title.childNodes)}</title>\")\n"
+"\n"
+"def handleSlideTitle(title):\n"
+"    print(f\"<h2>{getText(title.childNodes)}</h2>\")\n"
+"\n"
+"def handlePoints(points):\n"
+"    print(\"<ul>\")\n"
+"    for point in points:\n"
+"        handlePoint(point)\n"
+"    print(\"</ul>\")\n"
+"\n"
+"def handlePoint(point):\n"
+"    print(f\"<li>{getText(point.childNodes)}</li>\")\n"
+"\n"
+"def handleToc(slides):\n"
+"    for slide in slides:\n"
+"        title = slide.getElementsByTagName(\"title\")[0]\n"
+"        print(f\"<p>{getText(title.childNodes)}</p>\")\n"
+"\n"
+"handleSlideshow(dom)\n"
+msgstr ""
+
+#: ../../library/xml.dom.minidom.rst:216
 msgid "minidom and the DOM standard"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:210
+#: ../../library/xml.dom.minidom.rst:218
 msgid ""
 "The :mod:`xml.dom.minidom` module is essentially a DOM 1.0-compatible DOM "
 "with some DOM 2 features (primarily namespace features)."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:213
+#: ../../library/xml.dom.minidom.rst:221
 msgid ""
 "Usage of the DOM interface in Python is straight-forward.  The following "
 "mapping rules apply:"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:216
+#: ../../library/xml.dom.minidom.rst:224
 msgid ""
 "Interfaces are accessed through instance objects. Applications should not "
 "instantiate the classes themselves; they should use the creator functions "
@@ -274,14 +383,14 @@ msgid ""
 "operations."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:221
+#: ../../library/xml.dom.minidom.rst:229
 msgid ""
 "Operations are used as methods. Since the DOM uses only :keyword:`in` "
 "parameters, the arguments are passed in normal order (from left to right). "
 "There are no optional arguments. ``void`` operations return ``None``."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:225
+#: ../../library/xml.dom.minidom.rst:233
 msgid ""
 "IDL attributes map to instance attributes. For compatibility with the OMG "
 "IDL language mapping for Python, an attribute ``foo`` can also be accessed "
@@ -290,13 +399,13 @@ msgid ""
 "runtime."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:230
+#: ../../library/xml.dom.minidom.rst:238
 msgid ""
 "The types ``short int``, ``unsigned int``, ``unsigned long long``, and "
 "``boolean`` all map to Python integer objects."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:233
+#: ../../library/xml.dom.minidom.rst:241
 msgid ""
 "The type ``DOMString`` maps to Python strings. :mod:`xml.dom.minidom` "
 "supports either bytes or strings, but will normally produce strings. Values "
@@ -304,21 +413,21 @@ msgid ""
 "``null`` value by the DOM specification from the W3C."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:238
+#: ../../library/xml.dom.minidom.rst:246
 msgid ""
 "``const`` declarations map to variables in their respective scope (e.g. "
 "``xml.dom.minidom.Node.PROCESSING_INSTRUCTION_NODE``); they must not be "
 "changed."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:241
+#: ../../library/xml.dom.minidom.rst:249
 msgid ""
 "``DOMException`` is currently not supported in :mod:`xml.dom.minidom`. "
 "Instead, :mod:`xml.dom.minidom` uses standard Python exceptions such as "
 ":exc:`TypeError` and :exc:`AttributeError`."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:245
+#: ../../library/xml.dom.minidom.rst:253
 msgid ""
 ":class:`NodeList` objects are implemented using Python's built-in list type."
 " These objects provide the interface defined in the DOM specification, but "
@@ -327,30 +436,30 @@ msgid ""
 "recommendations."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:251
+#: ../../library/xml.dom.minidom.rst:259
 msgid ""
 "The following interfaces have no implementation in :mod:`xml.dom.minidom`:"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:253
+#: ../../library/xml.dom.minidom.rst:261
 msgid ":class:`DOMTimeStamp`"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:255
+#: ../../library/xml.dom.minidom.rst:263
 msgid ":class:`EntityReference`"
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:257
+#: ../../library/xml.dom.minidom.rst:265
 msgid ""
 "Most of these reflect information in the XML document that is not of general"
 " utility to most DOM users."
 msgstr ""
 
-#: ../../library/xml.dom.minidom.rst:261
+#: ../../library/xml.dom.minidom.rst:269
 msgid "Footnotes"
 msgstr "Catatan kaki"
 
-#: ../../library/xml.dom.minidom.rst:262
+#: ../../library/xml.dom.minidom.rst:270
 msgid ""
 "The encoding name included in the XML output should conform to the "
 "appropriate standards. For example, \"UTF-8\" is valid, but \"UTF8\" is not "
