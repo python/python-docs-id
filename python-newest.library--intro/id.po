@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Helen Febriani <helenfy.72@gmail.com>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:15+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:08+0000\n"
+"Last-Translator: oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../library/intro.rst:5
 msgid "Introduction"
-msgstr "Pengenalan"
+msgstr "Pengantar"
 
 #: ../../library/intro.rst:7
 msgid "The \"Python library\" contains several different kinds of components."
@@ -144,8 +144,165 @@ msgstr ""
 #: ../../library/intro.rst:60
 msgid ""
 "If not separately noted, all functions that claim \"Availability: Unix\" are"
-" supported on Mac OS X, which builds on a Unix core."
+" supported on macOS, iOS and Android, all of which build on a Unix core."
 msgstr ""
-"Jika tidak dicatat secara terpisah, semua fungsi yang mengklaim "
-"\"Ketersediaan: Unix\" didukung pada Mac OS X, yang dibangun di atas inti "
-"Unix."
+
+#: ../../library/intro.rst:63
+msgid ""
+"If an availability note contains both a minimum Kernel version and a minimum"
+" libc version, then both conditions must hold. For example a feature with "
+"note *Availability: Linux >= 3.17 with glibc >= 2.27* requires both Linux "
+"3.17 or newer and glibc 2.27 or newer."
+msgstr ""
+
+#: ../../library/intro.rst:71
+msgid "WebAssembly platforms"
+msgstr ""
+
+#: ../../library/intro.rst:73
+msgid ""
+"The `WebAssembly`_ platforms ``wasm32-emscripten`` (`Emscripten`_) and "
+"``wasm32-wasi`` (`WASI`_) provide a subset of POSIX APIs. WebAssembly "
+"runtimes and browsers are sandboxed and have limited access to the host and "
+"external resources. Any Python standard library module that uses processes, "
+"threading, networking, signals, or other forms of inter-process "
+"communication (IPC), is either not available or may not work as on other "
+"Unix-like systems. File I/O, file system, and Unix permission-related "
+"functions are restricted, too. Emscripten does not permit blocking I/O. "
+"Other blocking operations like :func:`~time.sleep` block the browser event "
+"loop."
+msgstr ""
+
+#: ../../library/intro.rst:83
+msgid ""
+"The properties and behavior of Python on WebAssembly platforms depend on the"
+" `Emscripten`_-SDK or `WASI`_-SDK version, WASM runtimes (browser, NodeJS, "
+"`wasmtime`_), and Python build time flags. WebAssembly, Emscripten, and WASI"
+" are evolving standards; some features like networking may be supported in "
+"the future."
+msgstr ""
+
+#: ../../library/intro.rst:89
+msgid ""
+"For Python in the browser, users should consider `Pyodide`_ or `PyScript`_. "
+"PyScript is built on top of Pyodide, which itself is built on top of CPython"
+" and Emscripten. Pyodide provides access to browsers' JavaScript and DOM "
+"APIs as well as limited networking capabilities with JavaScript's "
+"``XMLHttpRequest`` and ``Fetch`` APIs."
+msgstr ""
+
+#: ../../library/intro.rst:95
+msgid ""
+"Process-related APIs are not available or always fail with an error. That "
+"includes APIs that spawn new processes (:func:`~os.fork`, "
+":func:`~os.execve`), wait for processes (:func:`~os.waitpid`), send signals "
+"(:func:`~os.kill`), or otherwise interact with processes. The "
+":mod:`subprocess` is importable but does not work."
+msgstr ""
+
+#: ../../library/intro.rst:101
+msgid ""
+"The :mod:`socket` module is available, but is limited and behaves "
+"differently from other platforms. On Emscripten, sockets are always non-"
+"blocking and require additional JavaScript code and helpers on the server to"
+" proxy TCP through WebSockets; see `Emscripten Networking`_ for more "
+"information. WASI snapshot preview 1 only permits sockets from an existing "
+"file descriptor."
+msgstr ""
+
+#: ../../library/intro.rst:108
+msgid ""
+"Some functions are stubs that either don't do anything and always return "
+"hardcoded values."
+msgstr ""
+
+#: ../../library/intro.rst:111
+msgid ""
+"Functions related to file descriptors, file permissions, file ownership, and"
+" links are limited and don't support some operations. For example, WASI does"
+" not permit symlinks with absolute file names."
+msgstr ""
+
+#: ../../library/intro.rst:127
+msgid "Mobile platforms"
+msgstr ""
+
+#: ../../library/intro.rst:129
+msgid ""
+"Android and iOS are, in most respects, POSIX operating systems. File I/O, "
+"socket handling, and threading all behave as they would on any POSIX "
+"operating system. However, there are several major differences:"
+msgstr ""
+
+#: ../../library/intro.rst:133
+msgid ""
+"Mobile platforms can only use Python in \"embedded\" mode. There is no "
+"Python REPL, and no ability to use separate executables such as "
+":program:`python` or :program:`pip`. To add Python code to your mobile app, "
+"you must use the :ref:`Python embedding API <embedding>`. For more details, "
+"see :ref:`using-android` and :ref:`using-ios`."
+msgstr ""
+
+#: ../../library/intro.rst:139
+msgid "Subprocesses:"
+msgstr ""
+
+#: ../../library/intro.rst:141
+msgid ""
+"On Android, creating subprocesses is possible but `officially unsupported "
+"<https://issuetracker.google.com/issues/128554619#comment4>`__. In "
+"particular, Android does not support any part of the System V IPC API, so "
+":mod:`multiprocessing` is not available."
+msgstr ""
+
+#: ../../library/intro.rst:146
+msgid ""
+"An iOS app cannot use any form of subprocessing, multiprocessing, or inter-"
+"process communication. If an iOS app attempts to create a subprocess, the "
+"process creating the subprocess will either lock up, or crash. An iOS app "
+"has no visibility of other applications that are running, nor any ability to"
+" communicate with other running applications, outside of the iOS-specific "
+"APIs that exist for this purpose."
+msgstr ""
+
+#: ../../library/intro.rst:153
+msgid ""
+"Mobile apps have limited access to modify system resources (such as the "
+"system clock). These resources will often be *readable*, but attempts to "
+"modify those resources will usually fail."
+msgstr ""
+
+#: ../../library/intro.rst:157
+msgid "Console input and output:"
+msgstr ""
+
+#: ../../library/intro.rst:159
+msgid ""
+"On Android, the native ``stdout`` and ``stderr`` are not connected to "
+"anything, so Python installs its own streams which redirect messages to the "
+"system log. These can be seen under the tags ``python.stdout`` and "
+"``python.stderr`` respectively."
+msgstr ""
+
+#: ../../library/intro.rst:164
+msgid ""
+"iOS apps have a limited concept of console output. ``stdout`` and ``stderr``"
+" *exist*, and content written to ``stdout`` and ``stderr`` will be visible "
+"in logs when running in Xcode, but this content *won't* be recorded in the "
+"system log. If a user who has installed your app provides their app logs as "
+"a diagnostic aid, they will not include any detail written to ``stdout`` or "
+"``stderr``."
+msgstr ""
+
+#: ../../library/intro.rst:171
+msgid ""
+"Mobile apps have no usable ``stdin`` at all. While apps can display an on-"
+"screen keyboard, this is a software feature, not something that is attached "
+"to ``stdin``."
+msgstr ""
+
+#: ../../library/intro.rst:175
+msgid ""
+"As a result, Python modules that involve console manipulation (such as "
+":mod:`curses` and :mod:`readline`) are not available on mobile platforms."
+msgstr ""
