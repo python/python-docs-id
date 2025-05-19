@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:08+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:05+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/email.iterators.rst:2
-msgid ":mod:`email.iterators`: Iterators"
+msgid ":mod:`!email.iterators`: Iterators"
 msgstr ""
 
 #: ../../library/email.iterators.rst:7
@@ -78,6 +78,27 @@ msgstr ""
 msgid ""
 "Prints an indented representation of the content types of the message object"
 " structure.  For example:"
+msgstr ""
+
+#: ../../library/email.iterators.rst:57
+msgid ""
+">>> msg = email.message_from_file(somefile)\n"
+">>> _structure(msg)\n"
+"multipart/mixed\n"
+"    text/plain\n"
+"    text/plain\n"
+"    multipart/digest\n"
+"        message/rfc822\n"
+"            text/plain\n"
+"        message/rfc822\n"
+"            text/plain\n"
+"        message/rfc822\n"
+"            text/plain\n"
+"        message/rfc822\n"
+"            text/plain\n"
+"        message/rfc822\n"
+"            text/plain\n"
+"    text/plain"
 msgstr ""
 
 #: ../../library/email.iterators.rst:81
