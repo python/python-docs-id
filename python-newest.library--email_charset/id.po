@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:07+0000\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:04+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/email.charset.rst:2
-msgid ":mod:`email.charset`: Representing character sets"
+msgid ":mod:`!email.charset`: Representing character sets"
 msgstr ""
 
 #: ../../library/email.charset.rst:7
@@ -98,8 +98,8 @@ msgstr ""
 #: ../../library/email.charset.rst:60
 msgid ""
 "If the character set must be encoded before it can be used in an email "
-"header, this attribute will be set to ``Charset.QP`` (for quoted-printable),"
-" ``Charset.BASE64`` (for base64 encoding), or ``Charset.SHORTEST`` for the "
+"header, this attribute will be set to ``charset.QP`` (for quoted-printable),"
+" ``charset.BASE64`` (for base64 encoding), or ``charset.SHORTEST`` for the "
 "shortest of QP or BASE64 encoding. Otherwise, it will be ``None``."
 msgstr ""
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid ""
 "Same as *header_encoding*, but describes the encoding for the mail message's"
 " body, which indeed may be different than the header encoding. "
-"``Charset.SHORTEST`` is not allowed for *body_encoding*."
+"``charset.SHORTEST`` is not allowed for *body_encoding*."
 msgstr ""
 
 #: ../../library/email.charset.rst:76
@@ -205,8 +205,8 @@ msgstr ""
 
 #: ../../library/email.charset.rst:152
 msgid ""
-"Returns *input_charset* as a string coerced to lower case. :meth:`__repr__` "
-"is an alias for :meth:`__str__`."
+"Returns *input_charset* as a string coerced to lower case. :meth:`!__repr__`"
+" is an alias for :meth:`!__str__`."
 msgstr ""
 
 #: ../../library/email.charset.rst:158
@@ -239,8 +239,8 @@ msgstr ""
 
 #: ../../library/email.charset.rst:178
 msgid ""
-"Optional *header_enc* and *body_enc* is either ``Charset.QP`` for quoted-"
-"printable, ``Charset.BASE64`` for base64 encoding, ``Charset.SHORTEST`` for "
+"Optional *header_enc* and *body_enc* is either ``charset.QP`` for quoted-"
+"printable, ``charset.BASE64`` for base64 encoding, ``charset.SHORTEST`` for "
 "the shortest of quoted-printable or base64 encoding, or ``None`` for no "
 "encoding.  ``SHORTEST`` is only valid for *header_enc*. The default is "
 "``None`` for no encoding."
