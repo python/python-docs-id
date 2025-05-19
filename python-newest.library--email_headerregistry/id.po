@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:08+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:05+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/email.headerregistry.rst:2
-msgid ":mod:`email.headerregistry`: Custom Header Objects"
+msgid ":mod:`!email.headerregistry`: Custom Header Objects"
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:10
@@ -129,6 +129,10 @@ msgid ""
 "method is called as follows::"
 msgstr ""
 
+#: ../../library/email.headerregistry.rst:94
+msgid "parse(string, kwds)"
+msgstr ""
+
 #: ../../library/email.headerregistry.rst:96
 msgid ""
 "``kwds`` is a dictionary containing one pre-initialized key, ``defects``. "
@@ -148,6 +152,13 @@ msgid ""
 " ``init`` method.  The specialized class only needs to provide an ``init`` "
 "method if it wishes to set additional attributes beyond those provided by "
 "``BaseHeader`` itself.  Such an ``init`` method should look like this::"
+msgstr ""
+
+#: ../../library/email.headerregistry.rst:110
+msgid ""
+"def init(self, /, *args, **kw):\n"
+"    self._myattr = kw.pop('myattr')\n"
+"    super().init(*args, **kw)"
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:114
@@ -203,7 +214,7 @@ msgid ""
 "``-0000`` (indicating it is in UTC but contains no information about the "
 "source timezone), then :attr:`.datetime` will be a naive "
 ":class:`~datetime.datetime`.  If a specific timezone offset is found "
-"(including `+0000`), then :attr:`.datetime` will contain an aware "
+"(including ``+0000``), then :attr:`.datetime` will contain an aware "
 "``datetime`` that uses :class:`datetime.timezone` to record the timezone "
 "offset."
 msgstr ""
@@ -214,11 +225,19 @@ msgid ""
 "``datetime`` according to the :rfc:`5322` rules; that is, it is set to::"
 msgstr ""
 
+#: ../../library/email.headerregistry.rst:163
+msgid "email.utils.format_datetime(self.datetime)"
+msgstr ""
+
 #: ../../library/email.headerregistry.rst:165
 msgid ""
 "When creating a ``DateHeader``, *value* may be :class:`~datetime.datetime` "
 "instance.  This means, for example, that the following code is valid and "
 "does what one would expect::"
+msgstr ""
+
+#: ../../library/email.headerregistry.rst:169
+msgid "msg['Date'] = datetime(2011, 7, 15, 21)"
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:171
@@ -227,6 +246,10 @@ msgid ""
 "timestamp, and the resulting value will have a timezone of ``-0000``.  Much "
 "more useful is to use the :func:`~email.utils.localtime` function from the "
 ":mod:`~email.utils` module::"
+msgstr ""
+
+#: ../../library/email.headerregistry.rst:176
+msgid "msg['Date'] = utils.localtime()"
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:178
@@ -262,8 +285,8 @@ msgstr ""
 msgid ""
 "The ``decoded`` value of the header will have all encoded words decoded to "
 "unicode.  :class:`~encodings.idna` encoded domain names are also decoded to "
-"unicode.  The ``decoded`` value is set by :attr:`~str.join`\\ ing the "
-":class:`str` value of the elements of the ``groups`` attribute with ``', "
+"unicode.  The ``decoded`` value is set by :ref:`joining <meth-str-join>` the"
+" :class:`str` value of the elements of the ``groups`` attribute with ``', "
 "'``."
 msgstr ""
 
@@ -332,8 +355,8 @@ msgstr ""
 
 #: ../../library/email.headerregistry.rst:275
 msgid ""
-"A :class:`ParameterizedMIMEHeader` class that handles the :mailheader"
-":`Content-Type` header."
+"A :class:`ParameterizedMIMEHeader` class that handles the "
+":mailheader:`Content-Type` header."
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:280
@@ -342,8 +365,8 @@ msgstr ""
 
 #: ../../library/email.headerregistry.rst:289
 msgid ""
-"A :class:`ParameterizedMIMEHeader` class that handles the :mailheader"
-":`Content-Disposition` header."
+"A :class:`ParameterizedMIMEHeader` class that handles the "
+":mailheader:`Content-Disposition` header."
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:294
@@ -370,7 +393,7 @@ msgid ""
 "class.  When *use_default_map* is ``True`` (the default), the standard "
 "mapping of header names to classes is copied in to the registry during "
 "initialization.  *base_class* is always the last class in the generated "
-"class's ``__bases__`` list."
+"class's :class:`~type.__bases__` list."
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:322
@@ -551,9 +574,17 @@ msgid ""
 "address is::"
 msgstr ""
 
+#: ../../library/email.headerregistry.rst:380
+msgid "[display_name] <username@domain>"
+msgstr ""
+
 #: ../../library/email.headerregistry.rst:382
 msgid "or::"
 msgstr "atau::"
+
+#: ../../library/email.headerregistry.rst:384
+msgid "username@domain"
+msgstr ""
 
 #: ../../library/email.headerregistry.rst:386
 msgid ""
@@ -611,6 +642,10 @@ msgstr ""
 msgid ""
 "The class used to represent an address group.  The general form of an "
 "address group is::"
+msgstr ""
+
+#: ../../library/email.headerregistry.rst:432
+msgid "display_name: [address-list];"
 msgstr ""
 
 #: ../../library/email.headerregistry.rst:434
