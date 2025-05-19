@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 11:56+0000\n"
-"PO-Revision-Date: 2017-02-16 23:08+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-04-25 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:05+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/email.message.rst:2
-msgid ":mod:`email.message`: Representing an email message"
+msgid ":mod:`!email.message`: Representing an email message"
 msgstr ""
 
 #: ../../library/email.message.rst:10
@@ -72,10 +72,9 @@ msgid ""
 "The :class:`EmailMessage` dictionary-like interface is indexed by the header"
 " names, which must be ASCII values.  The values of the dictionary are "
 "strings with some extra methods.  Headers are stored and returned in case-"
-"preserving form, but field names are matched case-insensitively.  Unlike a "
-"real dict, there is an ordering to the keys, and there can be duplicate "
-"keys.  Additional methods are provided for working with headers that have "
-"duplicate keys."
+"preserving form, but field names are matched case-insensitively.  The keys "
+"are ordered, but unlike a real dict, there can be duplicates.  Additional "
+"methods are provided for working with headers that have duplicate keys."
 msgstr ""
 
 #: ../../library/email.message.rst:47
@@ -103,7 +102,7 @@ msgid ""
 " defaults to ``False``.  For backward compatibility with the base "
 ":class:`~email.message.Message` class *maxheaderlen* is accepted, but "
 "defaults to ``None``, which means that by default the line length is "
-"controlled by the :attr:`~email.policy.EmailPolicy.max_line_length` of the "
+"controlled by the :attr:`~email.policy.Policy.max_line_length` of the "
 "policy.  The *policy* argument may be used to override the default policy "
 "obtained from the message instance.  This can be used to control some of the"
 " formatting produced by the method, since the specified *policy* will be "
@@ -169,8 +168,8 @@ msgstr ""
 
 #: ../../library/email.message.rst:127
 msgid ""
-"Equivalent to :meth:`.as_bytes()`.  Allows ``bytes(msg)`` to produce a bytes"
-" object containing the serialized message."
+"Equivalent to :meth:`.as_bytes`.  Allows ``bytes(msg)`` to produce a bytes "
+"object containing the serialized message."
 msgstr ""
 
 #: ../../library/email.message.rst:133
@@ -234,6 +233,12 @@ msgid ""
 "  Used for the ``in`` operator.  For example::"
 msgstr ""
 
+#: ../../library/email.message.rst:185
+msgid ""
+"if 'message-id' in myMessage:\n"
+"   print('Message-ID:', myMessage['message-id'])"
+msgstr ""
+
 #: ../../library/email.message.rst:191
 msgid ""
 "Return the value of the named header field.  *name* does not include the "
@@ -269,14 +274,20 @@ msgid ""
 "e.g.::"
 msgstr ""
 
+#: ../../library/email.message.rst:213
+msgid ""
+"del msg['subject']\n"
+"msg['subject'] = 'Python roolz!'"
+msgstr ""
+
 #: ../../library/email.message.rst:216
 msgid ""
-"If the :mod:`policy` defines certain headers to be unique (as the standard "
-"policies do), this method may raise a :exc:`ValueError` when an attempt is "
-"made to assign a value to such a header when one already exists.  This "
-"behavior is intentional for consistency's sake, but do not depend on it as "
-"we may choose to make such assignments do an automatic deletion of the "
-"existing header in the future."
+"If the :mod:`policy <email.policy>` defines certain headers to be unique (as"
+" the standard policies do), this method may raise a :exc:`ValueError` when "
+"an attempt is made to assign a value to such a header when one already "
+"exists.  This behavior is intentional for consistency's sake, but do not "
+"depend on it as we may choose to make such assignments do an automatic "
+"deletion of the existing header in the future."
 msgstr ""
 
 #: ../../library/email.message.rst:226
@@ -303,8 +314,8 @@ msgstr ""
 #: ../../library/email.message.rst:249
 msgid ""
 "Return the value of the named header field.  This is identical to "
-":meth:`__getitem__` except that optional *failobj* is returned if the named "
-"header is missing (*failobj* defaults to ``None``)."
+":meth:`~object.__getitem__` except that optional *failobj* is returned if "
+"the named header is missing (*failobj* defaults to ``None``)."
 msgstr ""
 
 #: ../../library/email.message.rst:254
@@ -352,12 +363,27 @@ msgstr ""
 msgid "Here is an example::"
 msgstr ""
 
+#: ../../library/email.message.rst:289
+msgid ""
+"msg.add_header('Content-Disposition', 'attachment', filename='bud.gif')"
+msgstr ""
+
 #: ../../library/email.message.rst:291
 msgid "This will add a header that looks like ::"
 msgstr ""
 
+#: ../../library/email.message.rst:293
+msgid "Content-Disposition: attachment; filename=\"bud.gif\""
+msgstr ""
+
 #: ../../library/email.message.rst:295
 msgid "An example of the extended interface with non-ASCII characters::"
+msgstr ""
+
+#: ../../library/email.message.rst:297
+msgid ""
+"msg.add_header('Content-Disposition', 'attachment',\n"
+"               filename=('iso-8859-1', '', 'Fußballer.ppt'))"
 msgstr ""
 
 #: ../../library/email.message.rst:303
@@ -411,10 +437,10 @@ msgstr ""
 msgid ""
 "Set the default content type.  *ctype* should either be "
 ":mimetype:`text/plain` or :mimetype:`message/rfc822`, although this is not "
-"enforced.  The default content type is not stored in the :mailheader"
-":`Content-Type` header, so it only affects the return value of the "
-"``get_content_type`` methods when no :mailheader:`Content-Type` header is "
-"present in the message."
+"enforced.  The default content type is not stored in the "
+":mailheader:`Content-Type` header, so it only affects the return value of "
+"the ``get_content_type`` methods when no :mailheader:`Content-Type` header "
+"is present in the message."
 msgstr ""
 
 #: ../../library/email.message.rst:359
@@ -452,8 +478,8 @@ msgstr ""
 #: ../../library/email.message.rst:380
 msgid ""
 "Note that existing parameter values of headers may be accessed through the "
-":attr:`~email.headerregistry.BaseHeader.params` attribute of the header "
-"value (for example, ``msg['Content-Type'].params['charset']``)."
+":attr:`~email.headerregistry.ParameterizedMIMEHeader.params` attribute of "
+"the header value (for example, ``msg['Content-Type'].params['charset']``)."
 msgstr ""
 
 #: ../../library/email.message.rst:384
@@ -565,12 +591,48 @@ msgid ""
 "message structure:"
 msgstr ""
 
+#: ../../library/email.message.rst:491
+msgid ""
+">>> for part in msg.walk():\n"
+"...     print(part.get_content_type())\n"
+"multipart/report\n"
+"text/plain\n"
+"message/delivery-status\n"
+"text/plain\n"
+"text/plain\n"
+"message/rfc822\n"
+"text/plain"
+msgstr ""
+
 #: ../../library/email.message.rst:503
 msgid ""
 "``walk`` iterates over the subparts of any part where :meth:`is_multipart` "
 "returns ``True``, even though ``msg.get_content_maintype() == 'multipart'`` "
 "may return ``False``.  We can see this in our example by making use of the "
 "``_structure`` debug helper function:"
+msgstr ""
+
+#: ../../library/email.message.rst:509
+msgid ""
+">>> from email.iterators import _structure\n"
+">>> for part in msg.walk():\n"
+"...     print(part.get_content_maintype() == 'multipart',\n"
+"...           part.is_multipart())\n"
+"True True\n"
+"False False\n"
+"False True\n"
+"False False\n"
+"False False\n"
+"False True\n"
+"False False\n"
+">>> _structure(msg)\n"
+"multipart/report\n"
+"    text/plain\n"
+"    message/delivery-status\n"
+"        text/plain\n"
+"        text/plain\n"
+"    message/rfc822\n"
+"        text/plain"
 msgstr ""
 
 #: ../../library/email.message.rst:531
@@ -649,8 +711,8 @@ msgid ""
 " parts.  When applied directly to a ``multipart/related``, return an "
 "iterator over the all the related parts except the root part (ie: the part "
 "pointed to by the ``start`` parameter, or the first part if there is no "
-"``start`` parameter or the ``start`` parameter doesn't match the :mailheader"
-":`Content-ID` of any of the parts).  When applied directly to a "
+"``start`` parameter or the ``start`` parameter doesn't match the "
+":mailheader:`Content-ID` of any of the parts).  When applied directly to a "
 "``multipart/alternative`` or a non-``multipart``, return an empty iterator."
 msgstr ""
 
@@ -756,8 +818,8 @@ msgstr ""
 
 #: ../../library/email.message.rst:694
 msgid ""
-"Remove the payload and all of the :exc:`Content-` headers, leaving all other"
-" headers intact and in their original order."
+"Remove the payload and all of the :mailheader:`!Content-` headers, leaving "
+"all other headers intact and in their original order."
 msgstr ""
 
 #: ../../library/email.message.rst:698
