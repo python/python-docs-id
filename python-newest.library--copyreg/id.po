@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:04+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:03+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/copyreg.rst:2
-msgid ":mod:`copyreg` --- Register :mod:`pickle` support functions"
+msgid ":mod:`!copyreg` --- Register :mod:`!pickle` support functions"
 msgstr ""
 
 #: ../../library/copyreg.rst:7
@@ -47,33 +47,43 @@ msgstr ""
 #: ../../library/copyreg.rst:30
 msgid ""
 "Declares that *function* should be used as a \"reduction\" function for "
-"objects of type *type*.  *function* should return either a string or a tuple"
-" containing two or three elements."
+"objects of type *type*.  *function* must return either a string or a tuple "
+"containing between two and six elements. See the "
+":attr:`~pickle.Pickler.dispatch_table` for more details on the interface of "
+"*function*."
 msgstr ""
 
-#: ../../library/copyreg.rst:34
+#: ../../library/copyreg.rst:35
 msgid ""
-"The optional *constructor* parameter, if provided, is a callable object "
-"which can be used to reconstruct the object when called with the tuple of "
-"arguments returned by *function* at pickling time.  :exc:`TypeError` will be"
-" raised if *object* is a class or *constructor* is not callable."
+"The *constructor_ob* parameter is a legacy feature and is now ignored, but "
+"if passed it must be a callable."
 msgstr ""
 
-#: ../../library/copyreg.rst:39
+#: ../../library/copyreg.rst:38
 msgid ""
-"See the :mod:`pickle` module for more details on the interface expected of "
-"*function* and *constructor*.  Note that the "
-":attr:`~pickle.Pickler.dispatch_table` attribute of a pickler object or "
-"subclass of :class:`pickle.Pickler` can also be used for declaring reduction"
-" functions."
+"Note that the :attr:`~pickle.Pickler.dispatch_table` attribute of a pickler "
+"object or subclass of :class:`pickle.Pickler` can also be used for declaring"
+" reduction functions."
 msgstr ""
 
-#: ../../library/copyreg.rst:46
+#: ../../library/copyreg.rst:43
 msgid "Example"
 msgstr "Contoh"
 
-#: ../../library/copyreg.rst:48
+#: ../../library/copyreg.rst:45
 msgid ""
 "The example below would like to show how to register a pickle function and "
 "how it will be used:"
+msgstr ""
+
+#: ../../library/copyreg.rst:9
+msgid "module"
+msgstr "modul"
+
+#: ../../library/copyreg.rst:9
+msgid "pickle"
+msgstr "pickle"
+
+#: ../../library/copyreg.rst:9
+msgid "copy"
 msgstr ""
