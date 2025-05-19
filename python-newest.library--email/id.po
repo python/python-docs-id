@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Elmo <work.elmoallistair@gmail.com>, 2020
+# Elmo <work.elmoallistair@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 06:10+0000\n"
-"PO-Revision-Date: 2017-02-16 23:09+0000\n"
-"Last-Translator: Elmo <work.elmoallistair@gmail.com>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:05+0000\n"
+"Last-Translator: Elmo <work.elmoallistair@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/email.rst:2
-msgid ":mod:`email` --- An email and MIME handling package"
-msgstr ":mod:`email` --- Paket penanganan email dan MIME"
+msgid ":mod:`!email` --- An email and MIME handling package"
+msgstr ""
 
 #: ../../library/email.rst:11
 msgid "**Source code:** :source:`Lib/email/__init__.py`"
@@ -34,10 +34,10 @@ msgid ""
 "The :mod:`email` package is a library for managing email messages.  It is "
 "specifically *not* designed to do any sending of email messages to SMTP "
 "(:rfc:`2821`), NNTP, or other servers; those are functions of modules such "
-"as :mod:`smtplib` and :mod:`nntplib`.  The :mod:`email` package attempts to "
-"be as RFC-compliant as possible, supporting :rfc:`5322` and :rfc:`6532`, as "
-"well as such MIME-related RFCs as :rfc:`2045`, :rfc:`2046`, :rfc:`2047`, "
-":rfc:`2183`, and :rfc:`2231`."
+"as :mod:`smtplib`.  The :mod:`email` package attempts to be as RFC-compliant"
+" as possible, supporting :rfc:`5322` and :rfc:`6532`, as well as such MIME-"
+"related RFCs as :rfc:`2045`, :rfc:`2046`, :rfc:`2047`, :rfc:`2183`, and "
+":rfc:`2231`."
 msgstr ""
 
 #: ../../library/email.rst:23
@@ -190,7 +190,7 @@ msgstr ""
 msgid "Legacy API:"
 msgstr ""
 
-#: ../../library/email.rst:136
+#: ../../library/email.rst:135
 msgid "Module :mod:`smtplib`"
 msgstr ""
 
@@ -198,7 +198,7 @@ msgstr ""
 msgid "SMTP (Simple Mail Transport Protocol) client"
 msgstr ""
 
-#: ../../library/email.rst:139
+#: ../../library/email.rst:138
 msgid "Module :mod:`poplib`"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr ""
 msgid "POP (Post Office Protocol) client"
 msgstr ""
 
-#: ../../library/email.rst:142
+#: ../../library/email.rst:141
 msgid "Module :mod:`imaplib`"
 msgstr ""
 
@@ -214,28 +214,12 @@ msgstr ""
 msgid "IMAP (Internet Message Access Protocol) client"
 msgstr ""
 
-#: ../../library/email.rst:145
-msgid "Module :mod:`nntplib`"
-msgstr ""
-
-#: ../../library/email.rst:145
-msgid "NNTP (Net News Transport Protocol) client"
-msgstr ""
-
-#: ../../library/email.rst:149
+#: ../../library/email.rst:144
 msgid "Module :mod:`mailbox`"
 msgstr ""
 
-#: ../../library/email.rst:148
+#: ../../library/email.rst:145
 msgid ""
 "Tools for creating, reading, and managing collections of messages on disk "
 "using a variety standard formats."
-msgstr ""
-
-#: ../../library/email.rst:151
-msgid "Module :mod:`smtpd`"
-msgstr ""
-
-#: ../../library/email.rst:152
-msgid "SMTP server framework (primarily useful for testing)"
 msgstr ""
