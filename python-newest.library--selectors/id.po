@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Helen Febriani <helenfy.72@gmail.com>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:25+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-02 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:12+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/selectors.rst:2
-msgid ":mod:`selectors` --- High-level I/O multiplexing"
+msgid ":mod:`!selectors` --- High-level I/O multiplexing"
 msgstr ""
 
 #: ../../library/selectors.rst:9
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../library/selectors.rst:14
 msgid "Introduction"
-msgstr "Pengenalan"
+msgstr "Pengantar"
 
 #: ../../library/selectors.rst:16
 msgid ""
@@ -47,7 +47,7 @@ msgid ""
 "concrete implementations (:class:`KqueueSelector`, "
 ":class:`EpollSelector`...), that can be used to wait for I/O readiness "
 "notification on multiple file objects. In the following, \"file object\" "
-"refers to any object with a :meth:`fileno()` method, or a raw file "
+"refers to any object with a :meth:`~io.IOBase.fileno` method, or a raw file "
 "descriptor. See :term:`file object`."
 msgstr ""
 
@@ -74,46 +74,58 @@ msgstr ""
 msgid "Low-level I/O multiplexing module."
 msgstr ""
 
-#: ../../library/selectors.rst:43
-msgid "Classes"
-msgstr "Kelas-kelas"
+#: ../../includes/wasm-notavail.rst:3
+msgid "Availability"
+msgstr ""
 
-#: ../../library/selectors.rst:45
+#: ../../includes/wasm-notavail.rst:5
+msgid ""
+"This module does not work or is not available on WebAssembly. See "
+":ref:`wasm-availability` for more information."
+msgstr ""
+
+#: ../../library/selectors.rst:44
+msgid "Classes"
+msgstr "Classes"
+
+#: ../../library/selectors.rst:46
 msgid "Classes hierarchy::"
 msgstr ""
 
-#: ../../library/selectors.rst:55
+#: ../../library/selectors.rst:48
+msgid ""
+"BaseSelector\n"
+"+-- SelectSelector\n"
+"+-- PollSelector\n"
+"+-- EpollSelector\n"
+"+-- DevpollSelector\n"
+"+-- KqueueSelector"
+msgstr ""
+
+#: ../../library/selectors.rst:56
 msgid ""
 "In the following, *events* is a bitwise mask indicating which I/O events "
 "should be waited for on a given file object. It can be a combination of the "
 "modules constants below:"
 msgstr ""
 
-#: ../../library/selectors.rst:60
+#: ../../library/selectors.rst:61
 msgid "Constant"
 msgstr "Konstanta"
 
-#: ../../library/selectors.rst:60
+#: ../../library/selectors.rst:61
 msgid "Meaning"
 msgstr "Artinya"
 
-#: ../../library/selectors.rst:62
-msgid ":const:`EVENT_READ`"
-msgstr ""
-
-#: ../../library/selectors.rst:62
+#: ../../library/selectors.rst:63
 msgid "Available for read"
 msgstr ""
 
-#: ../../library/selectors.rst:64
-msgid ":const:`EVENT_WRITE`"
-msgstr ""
-
-#: ../../library/selectors.rst:64
+#: ../../library/selectors.rst:65
 msgid "Available for write"
 msgstr ""
 
-#: ../../library/selectors.rst:70
+#: ../../library/selectors.rst:71
 msgid ""
 "A :class:`SelectorKey` is a :class:`~collections.namedtuple` used to "
 "associate a file object to its underlying file descriptor, selected event "
@@ -121,25 +133,25 @@ msgid ""
 "methods."
 msgstr ""
 
-#: ../../library/selectors.rst:77
+#: ../../library/selectors.rst:78
 msgid "File object registered."
 msgstr ""
 
-#: ../../library/selectors.rst:81
+#: ../../library/selectors.rst:82
 msgid "Underlying file descriptor."
 msgstr ""
 
-#: ../../library/selectors.rst:85
+#: ../../library/selectors.rst:86
 msgid "Events that must be waited for on this file object."
 msgstr ""
 
-#: ../../library/selectors.rst:89
+#: ../../library/selectors.rst:90
 msgid ""
 "Optional opaque data associated to this file object: for example, this could"
 " be used to store a per-client session ID."
 msgstr ""
 
-#: ../../library/selectors.rst:95
+#: ../../library/selectors.rst:96
 msgid ""
 "A :class:`BaseSelector` is used to wait for I/O event readiness on multiple "
 "file objects. It supports file stream registration, unregistration, and a "
@@ -151,35 +163,35 @@ msgid ""
 " concrete implementations support the :term:`context manager` protocol."
 msgstr ""
 
-#: ../../library/selectors.rst:107
+#: ../../library/selectors.rst:109
 msgid "Register a file object for selection, monitoring it for I/O events."
 msgstr ""
 
-#: ../../library/selectors.rst:109
+#: ../../library/selectors.rst:111
 msgid ""
 "*fileobj* is the file object to monitor.  It may either be an integer file "
 "descriptor or an object with a ``fileno()`` method. *events* is a bitwise "
 "mask of events to monitor. *data* is an opaque object."
 msgstr ""
 
-#: ../../library/selectors.rst:114
+#: ../../library/selectors.rst:116
 msgid ""
 "This returns a new :class:`SelectorKey` instance, or raises a "
 ":exc:`ValueError` in case of invalid event mask or file descriptor, or "
 ":exc:`KeyError` if the file object is already registered."
 msgstr ""
 
-#: ../../library/selectors.rst:120
+#: ../../library/selectors.rst:123
 msgid ""
 "Unregister a file object from selection, removing it from monitoring. A file"
 " object shall be unregistered prior to being closed."
 msgstr ""
 
-#: ../../library/selectors.rst:123
+#: ../../library/selectors.rst:126
 msgid "*fileobj* must be a file object previously registered."
 msgstr ""
 
-#: ../../library/selectors.rst:125
+#: ../../library/selectors.rst:128
 msgid ""
 "This returns the associated :class:`SelectorKey` instance, or raises a "
 ":exc:`KeyError` if *fileobj* is not registered.  It will raise "
@@ -187,31 +199,31 @@ msgid ""
 "method or its ``fileno()`` method has an invalid return value)."
 msgstr ""
 
-#: ../../library/selectors.rst:132
+#: ../../library/selectors.rst:135
 msgid "Change a registered file object's monitored events or attached data."
 msgstr ""
 
-#: ../../library/selectors.rst:134
+#: ../../library/selectors.rst:137
 msgid ""
-"This is equivalent to :meth:`BaseSelector.unregister(fileobj)` followed by "
-":meth:`BaseSelector.register(fileobj, events, data)`, except that it can be "
+"This is equivalent to ``BaseSelector.unregister(fileobj)`` followed by "
+"``BaseSelector.register(fileobj, events, data)``, except that it can be "
 "implemented more efficiently."
 msgstr ""
 
-#: ../../library/selectors.rst:138
+#: ../../library/selectors.rst:141
 msgid ""
 "This returns a new :class:`SelectorKey` instance, or raises a "
 ":exc:`ValueError` in case of invalid event mask or file descriptor, or "
 ":exc:`KeyError` if the file object is not registered."
 msgstr ""
 
-#: ../../library/selectors.rst:144
+#: ../../library/selectors.rst:148
 msgid ""
 "Wait until some registered file objects become ready, or the timeout "
 "expires."
 msgstr ""
 
-#: ../../library/selectors.rst:147
+#: ../../library/selectors.rst:151
 msgid ""
 "If ``timeout > 0``, this specifies the maximum wait time, in seconds. If "
 "``timeout <= 0``, the call won't block, and will report the currently ready "
@@ -219,26 +231,26 @@ msgid ""
 "monitored file object becomes ready."
 msgstr ""
 
-#: ../../library/selectors.rst:153
+#: ../../library/selectors.rst:157
 msgid ""
 "This returns a list of ``(key, events)`` tuples, one for each ready file "
 "object."
 msgstr ""
 
-#: ../../library/selectors.rst:156
+#: ../../library/selectors.rst:160
 msgid ""
 "*key* is the :class:`SelectorKey` instance corresponding to a ready file "
 "object. *events* is a bitmask of events ready on this file object."
 msgstr ""
 
-#: ../../library/selectors.rst:161
+#: ../../library/selectors.rst:165
 msgid ""
 "This method can return before any file object becomes ready or the timeout "
 "has elapsed if the current process receives a signal: in this case, an empty"
 " list will be returned."
 msgstr ""
 
-#: ../../library/selectors.rst:165
+#: ../../library/selectors.rst:169
 msgid ""
 "The selector is now retried with a recomputed timeout when interrupted by a "
 "signal if the signal handler did not raise an exception (see :pep:`475` for "
@@ -246,85 +258,121 @@ msgid ""
 "timeout."
 msgstr ""
 
-#: ../../library/selectors.rst:173
+#: ../../library/selectors.rst:177
 msgid "Close the selector."
 msgstr ""
 
-#: ../../library/selectors.rst:175
+#: ../../library/selectors.rst:179
 msgid ""
 "This must be called to make sure that any underlying resource is freed. The "
 "selector shall not be used once it has been closed."
 msgstr ""
 
-#: ../../library/selectors.rst:180
+#: ../../library/selectors.rst:184
 msgid "Return the key associated with a registered file object."
 msgstr ""
 
-#: ../../library/selectors.rst:182
+#: ../../library/selectors.rst:186
 msgid ""
 "This returns the :class:`SelectorKey` instance associated to this file "
 "object, or raises :exc:`KeyError` if the file object is not registered."
 msgstr ""
 
-#: ../../library/selectors.rst:187
+#: ../../library/selectors.rst:192
 msgid "Return a mapping of file objects to selector keys."
 msgstr ""
 
-#: ../../library/selectors.rst:189
+#: ../../library/selectors.rst:194
 msgid ""
 "This returns a :class:`~collections.abc.Mapping` instance mapping registered"
 " file objects to their associated :class:`SelectorKey` instance."
 msgstr ""
 
-#: ../../library/selectors.rst:196
+#: ../../library/selectors.rst:201
 msgid ""
 "The default selector class, using the most efficient implementation "
 "available on the current platform. This should be the default choice for "
 "most users."
 msgstr ""
 
-#: ../../library/selectors.rst:203
+#: ../../library/selectors.rst:208
 msgid ":func:`select.select`-based selector."
 msgstr ""
 
-#: ../../library/selectors.rst:208
+#: ../../library/selectors.rst:213
 msgid ":func:`select.poll`-based selector."
 msgstr ""
 
-#: ../../library/selectors.rst:213
+#: ../../library/selectors.rst:218
 msgid ":func:`select.epoll`-based selector."
 msgstr ""
 
-#: ../../library/selectors.rst:217
+#: ../../library/selectors.rst:222
 msgid ""
 "This returns the file descriptor used by the underlying :func:`select.epoll`"
 " object."
 msgstr ""
 
-#: ../../library/selectors.rst:222
+#: ../../library/selectors.rst:227
 msgid ":func:`select.devpoll`-based selector."
 msgstr ""
 
-#: ../../library/selectors.rst:226
+#: ../../library/selectors.rst:231
 msgid ""
 "This returns the file descriptor used by the underlying "
 ":func:`select.devpoll` object."
 msgstr ""
 
-#: ../../library/selectors.rst:233
+#: ../../library/selectors.rst:238
 msgid ":func:`select.kqueue`-based selector."
 msgstr ""
 
-#: ../../library/selectors.rst:237
+#: ../../library/selectors.rst:242
 msgid ""
 "This returns the file descriptor used by the underlying "
 ":func:`select.kqueue` object."
 msgstr ""
 
-#: ../../library/selectors.rst:242
+#: ../../library/selectors.rst:247
 msgid "Examples"
 msgstr "Contoh-contoh"
 
-#: ../../library/selectors.rst:244
+#: ../../library/selectors.rst:249
 msgid "Here is a simple echo server implementation::"
+msgstr ""
+
+#: ../../library/selectors.rst:251
+msgid ""
+"import selectors\n"
+"import socket\n"
+"\n"
+"sel = selectors.DefaultSelector()\n"
+"\n"
+"def accept(sock, mask):\n"
+"    conn, addr = sock.accept()  # Should be ready\n"
+"    print('accepted', conn, 'from', addr)\n"
+"    conn.setblocking(False)\n"
+"    sel.register(conn, selectors.EVENT_READ, read)\n"
+"\n"
+"def read(conn, mask):\n"
+"    data = conn.recv(1000)  # Should be ready\n"
+"    if data:\n"
+"        print('echoing', repr(data), 'to', conn)\n"
+"        conn.send(data)  # Hope it won't block\n"
+"    else:\n"
+"        print('closing', conn)\n"
+"        sel.unregister(conn)\n"
+"        conn.close()\n"
+"\n"
+"sock = socket.socket()\n"
+"sock.bind(('localhost', 1234))\n"
+"sock.listen(100)\n"
+"sock.setblocking(False)\n"
+"sel.register(sock, selectors.EVENT_READ, accept)\n"
+"\n"
+"while True:\n"
+"    events = sel.select()\n"
+"    for key, mask in events:\n"
+"        callback = key.data\n"
+"        callback(key.fileobj, mask)"
 msgstr ""
