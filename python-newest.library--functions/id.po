@@ -1,0 +1,3773 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# LIQRGV <septianhari@gmail.com>, 2021
+# Elmo <work.elmoallistair@gmail.com>, 2024
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2024
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2024
+# Ahmad Mustafid, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:06+0000\n"
+"Last-Translator: Ahmad Mustafid, 2024\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/functions.rst:5 ../../library/functions.rst:11
+msgid "Built-in Functions"
+msgstr "Fungsi Bawaan"
+
+#: ../../library/functions.rst:7
+msgid ""
+"The Python interpreter has a number of functions and types built into it "
+"that are always available.  They are listed here in alphabetical order."
+msgstr ""
+"Interpreter Python memiliki sejumlah fungsi dan tipe bawaan di dalamnya yang"
+" selalu tersedia. Mereka terdaftar di sini dalam urutan abjad."
+
+#: ../../library/functions.rst:0
+msgid "**A**"
+msgstr "**A**"
+
+#: ../../library/functions.rst:0
+msgid ":func:`abs`"
+msgstr ":func:`abs`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`aiter`"
+msgstr ":func:`aiter`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`all`"
+msgstr ":func:`all`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`anext`"
+msgstr ":func:`anext`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`any`"
+msgstr ":func:`any`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`ascii`"
+msgstr ":func:`ascii`"
+
+#: ../../library/functions.rst:0
+msgid "**B**"
+msgstr "**B**"
+
+#: ../../library/functions.rst:0
+msgid ":func:`bin`"
+msgstr ":func:`bin`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`bool`"
+msgstr ":func:`bool`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`breakpoint`"
+msgstr ":func:`breakpoint`"
+
+#: ../../library/functions.rst:0
+msgid "|func-bytearray|_"
+msgstr "|func-bytearray|_"
+
+#: ../../library/functions.rst:0
+msgid "|func-bytes|_"
+msgstr "|func-bytes|_"
+
+#: ../../library/functions.rst:0
+msgid "**C**"
+msgstr "**C**"
+
+#: ../../library/functions.rst:0
+msgid ":func:`callable`"
+msgstr ":func:`callable`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`chr`"
+msgstr ":func:`chr`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`classmethod`"
+msgstr ":func:`classmethod`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`compile`"
+msgstr ":func:`compile`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`complex`"
+msgstr ":func:`complex`"
+
+#: ../../library/functions.rst:0
+msgid "**D**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`delattr`"
+msgstr ":func:`delattr`"
+
+#: ../../library/functions.rst:0
+msgid "|func-dict|_"
+msgstr "|func-dict|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`dir`"
+msgstr ":func:`dir`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`divmod`"
+msgstr ":func:`divmod`"
+
+#: ../../library/functions.rst:0
+msgid "**E**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`enumerate`"
+msgstr ":func:`enumerate`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`eval`"
+msgstr ":func:`eval`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`exec`"
+msgstr ":func:`exec`"
+
+#: ../../library/functions.rst:0
+msgid "**F**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`filter`"
+msgstr ":func:`filter`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`float`"
+msgstr ":func:`float`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`format`"
+msgstr ":func:`format`"
+
+#: ../../library/functions.rst:0
+msgid "|func-frozenset|_"
+msgstr "|func-frozenset|_"
+
+#: ../../library/functions.rst:0
+msgid "**G**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`getattr`"
+msgstr ":func:`getattr`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`globals`"
+msgstr ":func:`globals`"
+
+#: ../../library/functions.rst:0
+msgid "**H**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`hasattr`"
+msgstr ":func:`hasattr`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`hash`"
+msgstr ":func:`hash`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`help`"
+msgstr ":func:`help`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`hex`"
+msgstr ":func:`hex`"
+
+#: ../../library/functions.rst:0
+msgid "**I**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`id`"
+msgstr ":func:`id`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`input`"
+msgstr ":func:`input`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`int`"
+msgstr ":func:`int`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`isinstance`"
+msgstr ":func:`isinstance`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`issubclass`"
+msgstr ":func:`issubclass`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`iter`"
+msgstr ":func:`iter`"
+
+#: ../../library/functions.rst:0
+msgid "**L**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`len`"
+msgstr ":func:`len`"
+
+#: ../../library/functions.rst:0
+msgid "|func-list|_"
+msgstr "|func-list|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`locals`"
+msgstr ":func:`locals`"
+
+#: ../../library/functions.rst:0
+msgid "**M**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`map`"
+msgstr ":func:`map`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`max`"
+msgstr ":func:`max`"
+
+#: ../../library/functions.rst:0
+msgid "|func-memoryview|_"
+msgstr "|func-memoryview|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`min`"
+msgstr ":func:`min`"
+
+#: ../../library/functions.rst:0
+msgid "**N**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`next`"
+msgstr ":func:`next`"
+
+#: ../../library/functions.rst:0
+msgid "**O**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`object`"
+msgstr ":func:`object`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`oct`"
+msgstr ":func:`oct`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`open`"
+msgstr ":func:`open`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`ord`"
+msgstr ":func:`ord`"
+
+#: ../../library/functions.rst:0
+msgid "**P**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`pow`"
+msgstr ":func:`pow`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`print`"
+msgstr ":func:`print`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`property`"
+msgstr ":func:`property`"
+
+#: ../../library/functions.rst:0
+msgid "**R**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "|func-range|_"
+msgstr "|func-range|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`repr`"
+msgstr ":func:`repr`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`reversed`"
+msgstr ":func:`reversed`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`round`"
+msgstr ":func:`round`"
+
+#: ../../library/functions.rst:0
+msgid "**S**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "|func-set|_"
+msgstr "|func-set|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`setattr`"
+msgstr ":func:`setattr`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`slice`"
+msgstr ":func:`slice`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`sorted`"
+msgstr ":func:`sorted`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`staticmethod`"
+msgstr ":func:`staticmethod`"
+
+#: ../../library/functions.rst:0
+msgid "|func-str|_"
+msgstr "|func-str|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`sum`"
+msgstr ":func:`sum`"
+
+#: ../../library/functions.rst:0
+msgid ":func:`super`"
+msgstr ":func:`super`"
+
+#: ../../library/functions.rst:0
+msgid "**T**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "|func-tuple|_"
+msgstr "|func-tuple|_"
+
+#: ../../library/functions.rst:0
+msgid ":func:`type`"
+msgstr ":func:`type`"
+
+#: ../../library/functions.rst:0
+msgid "**V**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`vars`"
+msgstr ":func:`vars`"
+
+#: ../../library/functions.rst:0
+msgid "**Z**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`zip`"
+msgstr ":func:`zip`"
+
+#: ../../library/functions.rst:0
+msgid "**_**"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid ":func:`__import__`"
+msgstr ":func:`__import__`"
+
+#: ../../library/functions.rst:59
+msgid ""
+"Return the absolute value of a number.  The argument may be an integer, a "
+"floating-point number, or an object implementing :meth:`~object.__abs__`. If"
+" the argument is a complex number, its magnitude is returned."
+msgstr ""
+
+#: ../../library/functions.rst:67
+msgid ""
+"Return an :term:`asynchronous iterator` for an :term:`asynchronous "
+"iterable`. Equivalent to calling ``x.__aiter__()``."
+msgstr ""
+
+#: ../../library/functions.rst:70
+msgid "Note: Unlike :func:`iter`, :func:`aiter` has no 2-argument variant."
+msgstr ""
+
+#: ../../library/functions.rst:76
+msgid ""
+"Return ``True`` if all elements of the *iterable* are true (or if the "
+"iterable is empty).  Equivalent to::"
+msgstr ""
+"Kembalikan ``True`` jika semua elemen dari *iterable* bernilai benar (atau "
+"jika *iterable* kosong). Setara dengan::"
+
+#: ../../library/functions.rst:79
+msgid ""
+"def all(iterable):\n"
+"    for element in iterable:\n"
+"        if not element:\n"
+"            return False\n"
+"    return True"
+msgstr ""
+
+#: ../../library/functions.rst:89
+msgid ""
+"When awaited, return the next item from the given :term:`asynchronous "
+"iterator`, or *default* if given and the iterator is exhausted."
+msgstr ""
+
+#: ../../library/functions.rst:92
+msgid ""
+"This is the async variant of the :func:`next` builtin, and behaves "
+"similarly."
+msgstr ""
+
+#: ../../library/functions.rst:95
+msgid ""
+"This calls the :meth:`~object.__anext__` method of *async_iterator*, "
+"returning an :term:`awaitable`. Awaiting this returns the next value of the "
+"iterator. If *default* is given, it is returned if the iterator is "
+"exhausted, otherwise :exc:`StopAsyncIteration` is raised."
+msgstr ""
+
+#: ../../library/functions.rst:104
+msgid ""
+"Return ``True`` if any element of the *iterable* is true.  If the iterable "
+"is empty, return ``False``.  Equivalent to::"
+msgstr ""
+"Kembalikan ``True`` jika ada elemen dari *iterable* bernilai benar. Jika "
+"*iterable* kosong, kembalikan ``False``. Setara dengan::"
+
+#: ../../library/functions.rst:107
+msgid ""
+"def any(iterable):\n"
+"    for element in iterable:\n"
+"        if element:\n"
+"            return True\n"
+"    return False"
+msgstr ""
+
+#: ../../library/functions.rst:116
+msgid ""
+"As :func:`repr`, return a string containing a printable representation of an"
+" object, but escape the non-ASCII characters in the string returned by "
+":func:`repr` using ``\\x``, ``\\u``, or ``\\U`` escapes.  This generates a "
+"string similar to that returned by :func:`repr` in Python 2."
+msgstr ""
+
+#: ../../library/functions.rst:124
+msgid ""
+"Convert an integer number to a binary string prefixed with \"0b\". The "
+"result is a valid Python expression. If *x* is not a Python :class:`int` "
+"object, it has to define an :meth:`~object.__index__` method that returns an"
+" integer. Some examples:"
+msgstr ""
+
+#: ../../library/functions.rst:134
+msgid ""
+"If the prefix \"0b\" is desired or not, you can use either of the following "
+"ways."
+msgstr ""
+
+#: ../../library/functions.rst:141 ../../library/functions.rst:950
+#: ../../library/functions.rst:1335
+msgid "See also :func:`format` for more information."
+msgstr "Lihat juga :func:`format` untuk informasi lebih lanjut."
+
+#: ../../library/functions.rst:146
+msgid ""
+"Return a Boolean value, i.e. one of ``True`` or ``False``.  The argument is "
+"converted using the standard :ref:`truth testing procedure <truth>`. If the "
+"argument is false or omitted, this returns ``False``; otherwise, it returns "
+"``True``.  The :class:`bool` class is a subclass of :class:`int` (see "
+":ref:`typesnumeric`). It cannot be subclassed further.  Its only instances "
+"are ``False`` and ``True`` (see :ref:`typebool`)."
+msgstr ""
+
+#: ../../library/functions.rst:156 ../../library/functions.rst:815
+msgid "The parameter is now positional-only."
+msgstr ""
+
+#: ../../library/functions.rst:161
+msgid ""
+"This function drops you into the debugger at the call site.  Specifically, "
+"it calls :func:`sys.breakpointhook`, passing ``args`` and ``kws`` straight "
+"through.  By default, ``sys.breakpointhook()`` calls :func:`pdb.set_trace` "
+"expecting no arguments.  In this case, it is purely a convenience function "
+"so you don't have to explicitly import :mod:`pdb` or type as much code to "
+"enter the debugger.  However, :func:`sys.breakpointhook` can be set to some "
+"other function and :func:`breakpoint` will automatically call that, allowing"
+" you to drop into the debugger of choice. If :func:`sys.breakpointhook` is "
+"not accessible, this function will raise :exc:`RuntimeError`."
+msgstr ""
+
+#: ../../library/functions.rst:173
+msgid ""
+"By default, the behavior of :func:`breakpoint` can be changed with the "
+":envvar:`PYTHONBREAKPOINT` environment variable. See "
+":func:`sys.breakpointhook` for usage details."
+msgstr ""
+
+#: ../../library/functions.rst:177
+msgid ""
+"Note that this is not guaranteed if :func:`sys.breakpointhook` has been "
+"replaced."
+msgstr ""
+
+#: ../../library/functions.rst:180
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with "
+"argument ``breakpointhook``."
+msgstr ""
+"Memunculkan :ref:`auditing event <auditing>` ``builtins.breakpoint`` dengan "
+"argumen ``breakpointhook``."
+
+#: ../../library/functions.rst:190
+msgid ""
+"Return a new array of bytes.  The :class:`bytearray` class is a mutable "
+"sequence of integers in the range 0 <= x < 256.  It has most of the usual "
+"methods of mutable sequences, described in :ref:`typesseq-mutable`, as well "
+"as most methods that the :class:`bytes` type has, see :ref:`bytes-methods`."
+msgstr ""
+"Kembalikan array byte baru. Kelas :class:`bytearray` adalah urutan bilangan "
+"bulat yang dapat berubah dalam kisaran 0 <= x <256. Ia memiliki sebagian "
+"besar metode urutan-urutan yang dapat berubah, yang dijelaskan dalam "
+":ref:`typesseq-mutable`, dan juga sebagian besar metode yang dimiliki oleh "
+":class:`bytes`, lihat :ref:`bytes-methods`."
+
+#: ../../library/functions.rst:195
+msgid ""
+"The optional *source* parameter can be used to initialize the array in a few"
+" different ways:"
+msgstr ""
+"Parameter opsional *source* dapat digunakan untuk menginisialisasi array "
+"dengan beberapa cara berbeda:"
+
+#: ../../library/functions.rst:198
+msgid ""
+"If it is a *string*, you must also give the *encoding* (and optionally, "
+"*errors*) parameters; :func:`bytearray` then converts the string to bytes "
+"using :meth:`str.encode`."
+msgstr ""
+"Jika ini adalah *string*, Anda juga harus memberikan parameter *encoding* "
+"(dan opsional, *errors*); :func:`bytearray` kemudian mengonversi string "
+"menjadi byte menggunakan :meth:`str.encode`."
+
+#: ../../library/functions.rst:202
+msgid ""
+"If it is an *integer*, the array will have that size and will be initialized"
+" with null bytes."
+msgstr ""
+"Jika ini adalah *integer*, array akan memiliki ukuran itu dan akan "
+"diinisialisasi dengan *null bytes*."
+
+#: ../../library/functions.rst:205
+msgid ""
+"If it is an object conforming to the :ref:`buffer interface "
+"<bufferobjects>`, a read-only buffer of the object will be used to "
+"initialize the bytes array."
+msgstr ""
+"Jika itu adalah objek yang sesuai dengan :ref:`buffer interface`, buffer "
+"yang hanya baca dari objek tersebut akan digunakan untuk menginisialisasi "
+"array byte."
+
+#: ../../library/functions.rst:208
+msgid ""
+"If it is an *iterable*, it must be an iterable of integers in the range ``0 "
+"<= x < 256``, which are used as the initial contents of the array."
+msgstr ""
+"Jika ini adalah *iterable*, itu harus iterable dari bilangan bulat dalam "
+"kisaran ``0 <= x < 256``, yang digunakan sebagai konten awal array."
+
+#: ../../library/functions.rst:211
+msgid "Without an argument, an array of size 0 is created."
+msgstr "Tanpa argumen, dibuat array berukuran 0."
+
+#: ../../library/functions.rst:213
+msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
+msgstr "Lihat juga: ref:`binaryseq` dan :ref:` typebytearray`."
+
+#: ../../library/functions.rst:222
+msgid ""
+"Return a new \"bytes\" object which is an immutable sequence of integers in "
+"the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of "
+":class:`bytearray` -- it has the same non-mutating methods and the same "
+"indexing and slicing behavior."
+msgstr ""
+
+#: ../../library/functions.rst:227
+msgid ""
+"Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
+msgstr ""
+"Dengan demikian, argumen konstruktor ditafsirkan untuk :func:`bytearray`."
+
+#: ../../library/functions.rst:229
+msgid "Bytes objects can also be created with literals, see :ref:`strings`."
+msgstr "Objek byte juga dapat dibuat dengan literal, lihat :ref:`strings`."
+
+#: ../../library/functions.rst:231
+msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
+msgstr ""
+"Lihat juga :ref:`binaryseq`, :ref:`typebytes`, dan :ref:`bytes-methods`."
+
+#: ../../library/functions.rst:236
+msgid ""
+"Return :const:`True` if the *object* argument appears callable, "
+":const:`False` if not.  If this returns ``True``, it is still possible that "
+"a call fails, but if it is ``False``, calling *object* will never succeed. "
+"Note that classes are callable (calling a class returns a new instance); "
+"instances are callable if their class has a :meth:`~object.__call__` method."
+msgstr ""
+
+#: ../../library/functions.rst:242
+msgid ""
+"This function was first removed in Python 3.0 and then brought back in "
+"Python 3.2."
+msgstr ""
+"Fungsi ini pertama kali dihapus di Python 3.0 dan kemudian dibawa kembali di"
+" Python 3.2."
+
+#: ../../library/functions.rst:249
+msgid ""
+"Return the string representing a character whose Unicode code point is the "
+"integer *i*.  For example, ``chr(97)`` returns the string ``'a'``, while "
+"``chr(8364)`` returns the string ``'€'``. This is the inverse of "
+":func:`ord`."
+msgstr ""
+"Kembalikan string yang mewakili karakter dimana titik kode Unicode sebagai "
+"integer *i*. Misalnya, ``chr(97)`` mengembalikan string ``'a'``, sementara "
+"``chr(8364)`` mengembalikan string ``'€'``. Ini adalah kebalikan dari "
+":func:`ord`."
+
+#: ../../library/functions.rst:253
+msgid ""
+"The valid range for the argument is from 0 through 1,114,111 (0x10FFFF in "
+"base 16).  :exc:`ValueError` will be raised if *i* is outside that range."
+msgstr ""
+"Rentang yang valid untuk argumen adalah dari 0 hingga 1.114.111 (0x10FFFF "
+"dalam basis 16). :exc:`ValueError` akan ditimbulkan jika *i* berada di luar "
+"rentang itu."
+
+#: ../../library/functions.rst:259
+msgid "Transform a method into a class method."
+msgstr "Ubah metode menjadi metode kelas."
+
+#: ../../library/functions.rst:261
+msgid ""
+"A class method receives the class as an implicit first argument, just like "
+"an instance method receives the instance. To declare a class method, use "
+"this idiom::"
+msgstr ""
+
+#: ../../library/functions.rst:265
+msgid ""
+"class C:\n"
+"    @classmethod\n"
+"    def f(cls, arg1, arg2): ..."
+msgstr ""
+
+#: ../../library/functions.rst:269
+msgid ""
+"The ``@classmethod`` form is a function :term:`decorator` -- see "
+":ref:`function` for details."
+msgstr ""
+"Bentuk ``@classmethod`` adalah fungsi :term:`decorator` -- lihat "
+":ref:`function` untuk detail."
+
+#: ../../library/functions.rst:272
+msgid ""
+"A class method can be called either on the class (such as ``C.f()``) or on "
+"an instance (such as ``C().f()``).  The instance is ignored except for its "
+"class. If a class method is called for a derived class, the derived class "
+"object is passed as the implied first argument."
+msgstr ""
+"Metode kelas dapat dipanggil baik pada kelas (seperti ``C.f()``) atau pada "
+"*instance* (seperti ``C().f()``). Instance diabaikan kecuali untuk kelasnya."
+" Jika metode kelas dipanggil untuk kelas turunan, objek kelas turunan "
+"dilewatkan sebagai argumen pertama yang tersirat."
+
+#: ../../library/functions.rst:277
+msgid ""
+"Class methods are different than C++ or Java static methods. If you want "
+"those, see :func:`staticmethod` in this section. For more information on "
+"class methods, see :ref:`types`."
+msgstr ""
+
+#: ../../library/functions.rst:281
+msgid ""
+"Class methods can now wrap other :term:`descriptors <descriptor>` such as "
+":func:`property`."
+msgstr ""
+
+#: ../../library/functions.rst:285
+msgid ""
+"Class methods now inherit the method attributes "
+"(:attr:`~function.__module__`, :attr:`~function.__name__`, "
+":attr:`~function.__qualname__`, :attr:`~function.__doc__` and "
+":attr:`~function.__annotations__`) and have a new ``__wrapped__`` attribute."
+msgstr ""
+
+#: ../../library/functions.rst:292
+msgid ""
+"Class methods can no longer wrap other :term:`descriptors <descriptor>` such"
+" as :func:`property`."
+msgstr ""
+
+#: ../../library/functions.rst:299
+msgid ""
+"Compile the *source* into a code or AST object.  Code objects can be "
+"executed by :func:`exec` or :func:`eval`.  *source* can either be a normal "
+"string, a byte string, or an AST object.  Refer to the :mod:`ast` module "
+"documentation for information on how to work with AST objects."
+msgstr ""
+"Kompilasi *source* menjadi kode atau objek AST. Objek kode dapat dieksekusi "
+"oleh :func:`exec` atau :func:`eval`. *source* dapat berupa string normal, "
+"string byte, atau objek AST. Rujuk ke dokumentasi modul :mod:`ast` untuk "
+"informasi tentang cara bekerja dengan objek AST."
+
+#: ../../library/functions.rst:304
+msgid ""
+"The *filename* argument should give the file from which the code was read; "
+"pass some recognizable value if it wasn't read from a file (``'<string>'`` "
+"is commonly used)."
+msgstr ""
+"Argumen *filename* harus memberikan berkas dari mana kode dibaca; berikan "
+"nilai yang dapat dikenali jika tidak dibaca dari berkas (``'<string>'`` "
+"biasa digunakan)."
+
+#: ../../library/functions.rst:308
+msgid ""
+"The *mode* argument specifies what kind of code must be compiled; it can be "
+"``'exec'`` if *source* consists of a sequence of statements, ``'eval'`` if "
+"it consists of a single expression, or ``'single'`` if it consists of a "
+"single interactive statement (in the latter case, expression statements that"
+" evaluate to something other than ``None`` will be printed)."
+msgstr ""
+"Argumen *mode* menentukan jenis kode apa yang harus dikompilasi; itu bisa "
+"``'exec'`` jika *source* terdiri dari urutan pernyataan, ``'eval'`` jika "
+"terdiri dari satu ekspresi, atau ``'single'`` jika terdiri dari satu "
+"pernyataan interaktif (dalam kasus terakhir, pernyataan ekspresi yang "
+"mengevaluasi sesuatu selain ``None`` akan dicetak)."
+
+#: ../../library/functions.rst:314
+msgid ""
+"The optional arguments *flags* and *dont_inherit* control which "
+":ref:`compiler options <ast-compiler-flags>` should be activated and which "
+":ref:`future features <future>` should be allowed. If neither is present (or"
+" both are zero) the code is compiled with the same flags that affect the "
+"code that is calling :func:`compile`. If the *flags* argument is given and "
+"*dont_inherit* is not (or is zero) then the compiler options and the future "
+"statements specified by the *flags* argument are used in addition to those "
+"that would be used anyway. If *dont_inherit* is a non-zero integer then the "
+"*flags* argument is it -- the flags (future features and compiler options) "
+"in the surrounding code are ignored."
+msgstr ""
+
+#: ../../library/functions.rst:325
+msgid ""
+"Compiler options and future statements are specified by bits which can be "
+"bitwise ORed together to specify multiple options. The bitfield required to "
+"specify a given future feature can be found as the "
+":attr:`~__future__._Feature.compiler_flag` attribute on the "
+":class:`~__future__._Feature` instance in the :mod:`__future__` module. "
+":ref:`Compiler flags <ast-compiler-flags>` can be found in :mod:`ast` "
+"module, with ``PyCF_`` prefix."
+msgstr ""
+
+#: ../../library/functions.rst:333
+msgid ""
+"The argument *optimize* specifies the optimization level of the compiler; "
+"the default value of ``-1`` selects the optimization level of the "
+"interpreter as given by :option:`-O` options.  Explicit levels are ``0`` (no"
+" optimization; ``__debug__`` is true), ``1`` (asserts are removed, "
+"``__debug__`` is false) or ``2`` (docstrings are removed too)."
+msgstr ""
+"Argumen *optimize* menentukan tingkat optimisasi *compiler*; nilai default "
+"``-1`` memilih tingkat optimisasi interpreter seperti yang diberikan oleh "
+"opsi :option:`-O`. Level eksplisitnya adalah ``0`` (tidak ada optimisasi; "
+"``__debug__`` bernilai benar), ``1`` (*asserts* dihapus, ``__debug__`` "
+"bernilai salah) atau ``2`` (*docstrings* juga dihapus )."
+
+#: ../../library/functions.rst:339
+msgid ""
+"This function raises :exc:`SyntaxError` if the compiled source is invalid, "
+"and :exc:`ValueError` if the source contains null bytes."
+msgstr ""
+"Fungsi ini memunculkan :exc:`SyntaxError` jika sumber yang dikompilasi tidak"
+" valid, dan :exc:`ValueError` jika sumbernya berisi byte *null*."
+
+#: ../../library/functions.rst:342
+msgid ""
+"If you want to parse Python code into its AST representation, see "
+":func:`ast.parse`."
+msgstr ""
+"Jika Anda ingin mengurai kode Python ke dalam representasi AST-nya, lihat "
+":func:`ast.parse`."
+
+#: ../../library/functions.rst:345 ../../library/functions.rst:347
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``compile`` with arguments "
+"``source`` and ``filename``. This event may also be raised by implicit "
+"compilation."
+msgstr ""
+"Memunculkan :ref:`auditing event <auditing>` ``compile`` dengan argumen "
+"``source`` dan ``filename``. *event* ini juga dapat dimunculkan oleh "
+"kompilasi implisit."
+
+#: ../../library/functions.rst:353
+msgid ""
+"When compiling a string with multi-line code in ``'single'`` or ``'eval'`` "
+"mode, input must be terminated by at least one newline character.  This is "
+"to facilitate detection of incomplete and complete statements in the "
+":mod:`code` module."
+msgstr ""
+"Ketika mengkompilasi string dengan kode multi-baris dalam mode ``'single'`` "
+"atau ``'eval'``, masukan harus diakhiri oleh setidaknya satu karakter baris "
+"baru. Ini untuk memudahkan deteksi pernyataan tidak lengkap dan lengkap "
+"dalam modul :mod:`code`."
+
+#: ../../library/functions.rst:360
+msgid ""
+"It is possible to crash the Python interpreter with a sufficiently "
+"large/complex string when compiling to an AST object due to stack depth "
+"limitations in Python's AST compiler."
+msgstr ""
+"Dimungkinkan untuk membuat *crash* *interpreter* Python dengan string yang "
+"cukup besar/kompleks ketika dikompilasi ke objek AST karena batasan "
+"kedalaman tumpukan dalam kompiler AST Python."
+
+#: ../../library/functions.rst:364
+msgid ""
+"Allowed use of Windows and Mac newlines.  Also, input in ``'exec'`` mode "
+"does not have to end in a newline anymore.  Added the *optimize* parameter."
+msgstr ""
+
+#: ../../library/functions.rst:368
+msgid ""
+"Previously, :exc:`TypeError` was raised when null bytes were encountered in "
+"*source*."
+msgstr ""
+"Sebelumnya, :exc:`TypeError` dimunculkan ketika byte *null* ditemui di "
+"*source*."
+
+#: ../../library/functions.rst:372
+msgid ""
+"``ast.PyCF_ALLOW_TOP_LEVEL_AWAIT`` can now be passed in flags to enable "
+"support for top-level ``await``, ``async for``, and ``async with``."
+msgstr ""
+"``ast.PyCF_ALLOW_TOP_LEVEL_AWAIT`` sekarang dapat diberikan tanda untuk "
+"mengaktifkan dukungan untuk ``await``, ``async for``, dan ``async with`` "
+"tingkat atas."
+
+#: ../../library/functions.rst:381
+msgid ""
+"Convert a single string or number to a complex number, or create a complex "
+"number from real and imaginary parts."
+msgstr ""
+
+#: ../../library/functions.rst:384 ../../library/functions.rst:758
+#: ../../library/functions.rst:1006
+msgid "Examples:"
+msgstr "Contoh-contoh:"
+
+#: ../../library/functions.rst:386
+msgid ""
+">>> complex('+1.23')\n"
+"(1.23+0j)\n"
+">>> complex('-4.5j')\n"
+"-4.5j\n"
+">>> complex('-1.23+4.5j')\n"
+"(-1.23+4.5j)\n"
+">>> complex('\\t( -1.23+4.5J )\\n')\n"
+"(-1.23+4.5j)\n"
+">>> complex('-Infinity+NaNj')\n"
+"(-inf+nanj)\n"
+">>> complex(1.23)\n"
+"(1.23+0j)\n"
+">>> complex(imag=-4.5)\n"
+"-4.5j\n"
+">>> complex(-1.23, 4.5)\n"
+"(-1.23+4.5j)"
+msgstr ""
+
+#: ../../library/functions.rst:405
+msgid ""
+"If the argument is a string, it must contain either a real part (in the same"
+" format as for :func:`float`) or an imaginary part (in the same format but "
+"with a ``'j'`` or ``'J'`` suffix), or both real and imaginary parts (the "
+"sign of the imaginary part is mandatory in this case). The string can "
+"optionally be surrounded by whitespaces and the round parentheses ``'('`` "
+"and ``')'``, which are ignored. The string must not contain whitespace "
+"between ``'+'``, ``'-'``, the ``'j'`` or ``'J'`` suffix, and the decimal "
+"number. For example, ``complex('1+2j')`` is fine, but ``complex('1 + 2j')`` "
+"raises :exc:`ValueError`. More precisely, the input must conform to the "
+":token:`~float:complexvalue` production rule in the following grammar, after"
+" parentheses and leading and trailing whitespace characters are removed:"
+msgstr ""
+
+#: ../../library/functions.rst:424
+msgid ""
+"If the argument is a number, the constructor serves as a numeric conversion "
+"like :class:`int` and :class:`float`. For a general Python object ``x``, "
+"``complex(x)`` delegates to ``x.__complex__()``. If "
+":meth:`~object.__complex__` is not defined then it falls back to "
+":meth:`~object.__float__`. If :meth:`!__float__` is not defined then it "
+"falls back to :meth:`~object.__index__`."
+msgstr ""
+
+#: ../../library/functions.rst:433
+msgid ""
+"If two arguments are provided or keyword arguments are used, each argument "
+"may be any numeric type (including complex). If both arguments are real "
+"numbers, return a complex number with the real component *real* and the "
+"imaginary component *imag*. If both arguments are complex numbers, return a "
+"complex number with the real component ``real.real-imag.imag`` and the "
+"imaginary component ``real.imag+imag.real``. If one of arguments is a real "
+"number, only its real component is used in the above expressions."
+msgstr ""
+
+#: ../../library/functions.rst:443
+msgid ""
+"See also :meth:`complex.from_number` which only accepts a single numeric "
+"argument."
+msgstr ""
+
+#: ../../library/functions.rst:445
+msgid "If all arguments are omitted, returns ``0j``."
+msgstr ""
+
+#: ../../library/functions.rst:447
+msgid "The complex type is described in :ref:`typesnumeric`."
+msgstr "Tipe kompleks dijelaskan dalam :ref:`typesnumeric`."
+
+#: ../../library/functions.rst:449 ../../library/functions.rst:812
+#: ../../library/functions.rst:1054
+msgid "Grouping digits with underscores as in code literals is allowed."
+msgstr ""
+"Pengelompokan angka dengan garis bawah seperti dalam literal kode "
+"diperbolehkan."
+
+#: ../../library/functions.rst:452
+msgid ""
+"Falls back to :meth:`~object.__index__` if :meth:`~object.__complex__` and "
+":meth:`~object.__float__` are not defined."
+msgstr ""
+
+#: ../../library/functions.rst:456
+msgid ""
+"Passing a complex number as the *real* or *imag* argument is now deprecated;"
+" it should only be passed as a single positional argument."
+msgstr ""
+
+#: ../../library/functions.rst:463
+msgid ""
+"This is a relative of :func:`setattr`.  The arguments are an object and a "
+"string.  The string must be the name of one of the object's attributes.  The"
+" function deletes the named attribute, provided the object allows it.  For "
+"example, ``delattr(x, 'foobar')`` is equivalent to ``del x.foobar``. *name* "
+"need not be a Python identifier (see :func:`setattr`)."
+msgstr ""
+
+#: ../../library/functions.rst:476
+msgid ""
+"Create a new dictionary.  The :class:`dict` object is the dictionary class. "
+"See :class:`dict` and :ref:`typesmapping` for documentation about this "
+"class."
+msgstr ""
+"Buat *dictionary* baru. Objek :class:`dict` adalah kelas kamus *dictionary*."
+" Lihat :class:`dict` dan :ref:`typesmapping` untuk dokumentasi tentang kelas"
+" ini."
+
+#: ../../library/functions.rst:479
+msgid ""
+"For other containers see the built-in :class:`list`, :class:`set`, and "
+":class:`tuple` classes, as well as the :mod:`collections` module."
+msgstr ""
+"Untuk wadah *containers* lain, lihat kelas-kelas bawaan :class: `list`, "
+":class:`set`, dan :class:`tuple`, dan juga modul :mod:`collections`."
+
+#: ../../library/functions.rst:486
+msgid ""
+"Without arguments, return the list of names in the current local scope.  "
+"With an argument, attempt to return a list of valid attributes for that "
+"object."
+msgstr ""
+"Tanpa argumen, kembalikan daftar *list* nama dalam lingkup lokal saat ini. "
+"Dengan argumen, mencoba untuk mengembalikan daftar *list* atribut yang valid"
+" untuk objek itu."
+
+#: ../../library/functions.rst:489
+msgid ""
+"If the object has a method named :meth:`~object.__dir__`, this method will "
+"be called and must return the list of attributes. This allows objects that "
+"implement a custom :func:`~object.__getattr__` or "
+":func:`~object.__getattribute__` function to customize the way :func:`dir` "
+"reports their attributes."
+msgstr ""
+
+#: ../../library/functions.rst:496
+msgid ""
+"If the object does not provide :meth:`~object.__dir__`, the function tries "
+"its best to gather information from the object's :attr:`~object.__dict__` "
+"attribute, if defined, and from its type object.  The resulting list is not "
+"necessarily complete and may be inaccurate when the object has a custom "
+":func:`~object.__getattr__`."
+msgstr ""
+
+#: ../../library/functions.rst:502
+msgid ""
+"The default :func:`dir` mechanism behaves differently with different types "
+"of objects, as it attempts to produce the most relevant, rather than "
+"complete, information:"
+msgstr ""
+"Mekanisme bawaan :func:`dir` berperilaku berbeda dengan berbagai jenis "
+"objek, karena berusaha menghasilkan informasi yang paling relevan, dibanding"
+" lengkap,:"
+
+#: ../../library/functions.rst:506
+msgid ""
+"If the object is a module object, the list contains the names of the "
+"module's attributes."
+msgstr "Jika objek adalah objek modul, daftar berisi nama-nama atribut modul."
+
+#: ../../library/functions.rst:509
+msgid ""
+"If the object is a type or class object, the list contains the names of its "
+"attributes, and recursively of the attributes of its bases."
+msgstr ""
+"Jika objek adalah tipe atau objek kelas, daftar berisi nama atributnya, dan "
+"secara rekursif atribut dari basisnya."
+
+#: ../../library/functions.rst:512
+msgid ""
+"Otherwise, the list contains the object's attributes' names, the names of "
+"its class's attributes, and recursively of the attributes of its class's "
+"base classes."
+msgstr ""
+"Jika tidak, daftar berisi nama atribut objek, nama atribut kelasnya, dan "
+"secara rekursif atribut dari kelas dasar kelasnya."
+
+#: ../../library/functions.rst:516
+msgid "The resulting list is sorted alphabetically.  For example:"
+msgstr "Daftar yang dihasilkan diurutkan berdasarkan abjad.  Sebagai contoh:"
+
+#: ../../library/functions.rst:536
+msgid ""
+"Because :func:`dir` is supplied primarily as a convenience for use at an "
+"interactive prompt, it tries to supply an interesting set of names more than"
+" it tries to supply a rigorously or consistently defined set of names, and "
+"its detailed behavior may change across releases.  For example, metaclass "
+"attributes are not in the result list when the argument is a class."
+msgstr ""
+"Karena :func:`dir` disediakan terutama sebagai kenyamanan untuk digunakan "
+"pada prompt interaktif, ia mencoba untuk memasok sekumpulan nama yang "
+"menarik lebih dari sekedar untuk menyediakan sekumpulan nama yang "
+"didefinisikan secara ketat atau konsisten, dan perilakunya yang terperinci "
+"dapat berubah lintas rilis. Misalnya, atribut metaclass tidak ada dalam "
+"daftar hasil ketika argumennya adalah kelas."
+
+#: ../../library/functions.rst:546
+msgid ""
+"Take two (non-complex) numbers as arguments and return a pair of numbers "
+"consisting of their quotient and remainder when using integer division.  "
+"With mixed operand types, the rules for binary arithmetic operators apply.  "
+"For integers, the result is the same as ``(a // b, a % b)``. For floating-"
+"point numbers the result is ``(q, a % b)``, where *q* is usually "
+"``math.floor(a / b)`` but may be 1 less than that.  In any case ``q * b + a "
+"% b`` is very close to *a*, if ``a % b`` is non-zero it has the same sign as"
+" *b*, and ``0 <= abs(a % b) < abs(b)``."
+msgstr ""
+
+#: ../../library/functions.rst:558
+msgid ""
+"Return an enumerate object. *iterable* must be a sequence, an "
+":term:`iterator`, or some other object which supports iteration. The "
+":meth:`~iterator.__next__` method of the iterator returned by "
+":func:`enumerate` returns a tuple containing a count (from *start* which "
+"defaults to 0) and the values obtained from iterating over *iterable*."
+msgstr ""
+"Kembalikan objek enumerasi. *iterable* harus berupa urutan, sebuah "
+":term:`iterator`, atau objek lain yang mendukung iterasi. The "
+":meth:`~iterator.__next__` metode iterator dikembalikan oleh "
+":func:`enumerate` mengembalikan tuple yang berisi hitungan (dari *start* "
+"yang bawaan ke 0) dan nilai yang diperoleh dari mengelilingi *iterable*."
+
+#: ../../library/functions.rst:570
+msgid "Equivalent to::"
+msgstr "Setara dengan::"
+
+#: ../../library/functions.rst:572
+msgid ""
+"def enumerate(iterable, start=0):\n"
+"    n = start\n"
+"    for elem in iterable:\n"
+"        yield n, elem\n"
+"        n += 1"
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "Parameters"
+msgstr "Parameter"
+
+#: ../../library/functions.rst:582
+msgid "A Python expression."
+msgstr ""
+
+#: ../../library/functions.rst:586
+msgid "The global namespace (default: ``None``)."
+msgstr ""
+
+#: ../../library/functions.rst:590
+msgid "The local namespace (default: ``None``)."
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "Returns"
+msgstr "Kembalian"
+
+#: ../../library/functions.rst:594
+msgid "The result of the evaluated expression."
+msgstr ""
+
+#: ../../library/functions.rst:0
+msgid "raises"
+msgstr ""
+
+#: ../../library/functions.rst:595
+msgid "Syntax errors are reported as exceptions."
+msgstr ""
+
+#: ../../library/functions.rst:599 ../../library/functions.rst:660
+msgid ""
+"This function executes arbitrary code. Calling it with user-supplied input "
+"may lead to security vulnerabilities."
+msgstr ""
+
+#: ../../library/functions.rst:602
+msgid ""
+"The *expression* argument is parsed and evaluated as a Python expression "
+"(technically speaking, a condition list) using the *globals* and *locals* "
+"mappings as global and local namespace.  If the *globals* dictionary is "
+"present and does not contain a value for the key ``__builtins__``, a "
+"reference to the dictionary of the built-in module :mod:`builtins` is "
+"inserted under that key before *expression* is parsed.  That way you can "
+"control what builtins are available to the executed code by inserting your "
+"own ``__builtins__`` dictionary into *globals* before passing it to "
+":func:`eval`.  If the *locals* mapping is omitted it defaults to the "
+"*globals* dictionary.  If both mappings are omitted, the expression is "
+"executed with the *globals* and *locals* in the environment where "
+":func:`eval` is called.  Note, *eval()* will only have access to the "
+":term:`nested scopes <nested scope>` (non-locals) in the enclosing "
+"environment if they are already referenced in the scope that is calling "
+":func:`eval` (e.g. via a :keyword:`nonlocal` statement)."
+msgstr ""
+
+#: ../../library/functions.rst:618
+msgid "Example:"
+msgstr "Contoh:"
+
+#: ../../library/functions.rst:624
+msgid ""
+"This function can also be used to execute arbitrary code objects (such as "
+"those created by :func:`compile`).  In this case, pass a code object instead"
+" of a string.  If the code object has been compiled with ``'exec'`` as the "
+"*mode* argument, :func:`eval`\\'s return value will be ``None``."
+msgstr ""
+
+#: ../../library/functions.rst:629
+msgid ""
+"Hints: dynamic execution of statements is supported by the :func:`exec` "
+"function.  The :func:`globals` and :func:`locals` functions return the "
+"current global and local dictionary, respectively, which may be useful to "
+"pass around for use by :func:`eval` or :func:`exec`."
+msgstr ""
+
+#: ../../library/functions.rst:634
+msgid ""
+"If the given source is a string, then leading and trailing spaces and tabs "
+"are stripped."
+msgstr ""
+
+#: ../../library/functions.rst:637
+msgid ""
+"See :func:`ast.literal_eval` for a function that can safely evaluate strings"
+" with expressions containing only literals."
+msgstr ""
+"Lihat :func:`ast.literal_eval` untuk fungsi yang dapat dengan aman "
+"mengevaluasi string dengan ekspresi yang hanya mengandung literal."
+
+#: ../../library/functions.rst:640 ../../library/functions.rst:642
+#: ../../library/functions.rst:702 ../../library/functions.rst:704
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``exec`` with the code object as "
+"the argument. Code compilation events may also be raised."
+msgstr ""
+"Memunculkan :ref:`auditing event <auditing>` ``exec`` dengan objek kode "
+"sebagai argumen. Kompilasi kode *events* juga dapat dimunculkan."
+
+#: ../../library/functions.rst:647 ../../library/functions.rst:724
+msgid "The *globals* and *locals* arguments can now be passed as keywords."
+msgstr ""
+
+#: ../../library/functions.rst:651 ../../library/functions.rst:728
+msgid ""
+"The semantics of the default *locals* namespace have been adjusted as "
+"described for the :func:`locals` builtin."
+msgstr ""
+
+#: ../../library/functions.rst:663
+msgid ""
+"This function supports dynamic execution of Python code. *source* must be "
+"either a string or a code object.  If it is a string, the string is parsed "
+"as a suite of Python statements which is then executed (unless a syntax "
+"error occurs). [#]_ If it is a code object, it is simply executed.  In all "
+"cases, the code that's executed is expected to be valid as file input (see "
+"the section :ref:`file-input` in the Reference Manual). Be aware that the "
+":keyword:`nonlocal`, :keyword:`yield`,  and :keyword:`return` statements may"
+" not be used outside of function definitions even within the context of code"
+" passed to the :func:`exec` function. The return value is ``None``."
+msgstr ""
+
+#: ../../library/functions.rst:674
+msgid ""
+"In all cases, if the optional parts are omitted, the code is executed in the"
+" current scope.  If only *globals* is provided, it must be a dictionary (and"
+" not a subclass of dictionary), which will be used for both the global and "
+"the local variables.  If *globals* and *locals* are given, they are used for"
+" the global and local variables, respectively.  If provided, *locals* can be"
+" any mapping object.  Remember that at the module level, globals and locals "
+"are the same dictionary."
+msgstr ""
+
+#: ../../library/functions.rst:684
+msgid ""
+"When ``exec`` gets two separate objects as *globals* and *locals*, the code "
+"will be executed as if it were embedded in a class definition. This means "
+"functions and classes defined in the executed code will not be able to "
+"access variables assigned at the top level (as the \"top level\" variables "
+"are treated as class variables in a class definition)."
+msgstr ""
+
+#: ../../library/functions.rst:690
+msgid ""
+"If the *globals* dictionary does not contain a value for the key "
+"``__builtins__``, a reference to the dictionary of the built-in module "
+":mod:`builtins` is inserted under that key.  That way you can control what "
+"builtins are available to the executed code by inserting your own "
+"``__builtins__`` dictionary into *globals* before passing it to "
+":func:`exec`."
+msgstr ""
+"Jika *dictionary* *globals* tidak mengandung nilai untuk kunci "
+"``__builtins__``, referensi ke *dictionary* modul bawaan :mod:`builtins` "
+"dimasukkan di bawah kunci itu. Dengan begitu Anda dapat mengontrol bawaan "
+"apa yang tersedia untuk kode yang dieksekusi dengan memasukkan *dictionary* "
+"``__builtins__`` Anda sendiri ke *globals* sebelum meneruskannya ke "
+":func:`exec`."
+
+#: ../../library/functions.rst:696
+msgid ""
+"The *closure* argument specifies a closure--a tuple of cellvars. It's only "
+"valid when the *object* is a code object containing :term:`free (closure) "
+"variables <closure variable>`. The length of the tuple must exactly match "
+"the length of the code object's :attr:`~codeobject.co_freevars` attribute."
+msgstr ""
+
+#: ../../library/functions.rst:709
+msgid ""
+"The built-in functions :func:`globals` and :func:`locals` return the current"
+" global and local namespace, respectively, which may be useful to pass "
+"around for use as the second and third argument to :func:`exec`."
+msgstr ""
+
+#: ../../library/functions.rst:715
+msgid ""
+"The default *locals* act as described for function :func:`locals` below. "
+"Pass an explicit *locals* dictionary if you need to see effects of the code "
+"on *locals* after function :func:`exec` returns."
+msgstr ""
+
+#: ../../library/functions.rst:719
+msgid "Added the *closure* parameter."
+msgstr ""
+
+#: ../../library/functions.rst:734
+msgid ""
+"Construct an iterator from those elements of *iterable* for which *function*"
+" is true.  *iterable* may be either a sequence, a container which supports "
+"iteration, or an iterator.  If *function* is ``None``, the identity function"
+" is assumed, that is, all elements of *iterable* that are false are removed."
+msgstr ""
+
+#: ../../library/functions.rst:740
+msgid ""
+"Note that ``filter(function, iterable)`` is equivalent to the generator "
+"expression ``(item for item in iterable if function(item))`` if function is "
+"not ``None`` and ``(item for item in iterable if item)`` if function is "
+"``None``."
+msgstr ""
+"Perhatikan bahwa ``filter(function, iterable)`` setara dengan ekspresi "
+"generator ``(item for item in iterable if function(item))`` jika *function* "
+"tidak ``None`` dan ``(item for item in iterable if item)`` if *function* "
+"adalah ``None``."
+
+#: ../../library/functions.rst:745
+msgid ""
+"See :func:`itertools.filterfalse` for the complementary function that "
+"returns elements of *iterable* for which *function* is false."
+msgstr ""
+
+#: ../../library/functions.rst:756
+msgid "Return a floating-point number constructed from a number or a string."
+msgstr ""
+
+#: ../../library/functions.rst:760
+msgid ""
+">>> float('+1.23')\n"
+"1.23\n"
+">>> float('   -12345\\n')\n"
+"-12345.0\n"
+">>> float('1e-003')\n"
+"0.001\n"
+">>> float('+1E6')\n"
+"1000000.0\n"
+">>> float('-Infinity')\n"
+"-inf"
+msgstr ""
+
+#: ../../library/functions.rst:773
+msgid ""
+"If the argument is a string, it should contain a decimal number, optionally "
+"preceded by a sign, and optionally embedded in whitespace.  The optional "
+"sign may be ``'+'`` or ``'-'``; a ``'+'`` sign has no effect on the value "
+"produced.  The argument may also be a string representing a NaN (not-a-"
+"number), or positive or negative infinity. More precisely, the input must "
+"conform to the :token:`~float:floatvalue` production rule in the following "
+"grammar, after leading and trailing whitespace characters are removed:"
+msgstr ""
+
+#: ../../library/functions.rst:794
+msgid ""
+"Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", "
+"and \"iNfINity\" are all acceptable spellings for positive infinity."
+msgstr ""
+
+#: ../../library/functions.rst:797
+msgid ""
+"Otherwise, if the argument is an integer or a floating-point number, a "
+"floating-point number with the same value (within Python's floating-point "
+"precision) is returned.  If the argument is outside the range of a Python "
+"float, an :exc:`OverflowError` will be raised."
+msgstr ""
+
+#: ../../library/functions.rst:802
+msgid ""
+"For a general Python object ``x``, ``float(x)`` delegates to "
+"``x.__float__()``.  If :meth:`~object.__float__` is not defined then it "
+"falls back to :meth:`~object.__index__`."
+msgstr ""
+
+#: ../../library/functions.rst:806
+msgid ""
+"See also :meth:`float.from_number` which only accepts a numeric argument."
+msgstr ""
+
+#: ../../library/functions.rst:808
+msgid "If no argument is given, ``0.0`` is returned."
+msgstr "Jika tidak ada argumen yang diberikan, dikembalikan sebagai ``0.0``."
+
+#: ../../library/functions.rst:810
+msgid "The float type is described in :ref:`typesnumeric`."
+msgstr "Tipe float dijelaskan dalam :ref:`typesnumeric`."
+
+#: ../../library/functions.rst:818
+msgid ""
+"Falls back to :meth:`~object.__index__` if :meth:`~object.__float__` is not "
+"defined."
+msgstr ""
+
+#: ../../library/functions.rst:828
+msgid ""
+"Convert a *value* to a \"formatted\" representation, as controlled by "
+"*format_spec*.  The interpretation of *format_spec* will depend on the type "
+"of the *value* argument; however, there is a standard formatting syntax that"
+" is used by most built-in types: :ref:`formatspec`."
+msgstr ""
+
+#: ../../library/functions.rst:833
+msgid ""
+"The default *format_spec* is an empty string which usually gives the same "
+"effect as calling :func:`str(value) <str>`."
+msgstr ""
+"Default *format_spec* adalah string kosong yang biasanya memberikan efek "
+"yang sama dengan memanggil :func:`str(value) <str>`."
+
+#: ../../library/functions.rst:836
+msgid ""
+"A call to ``format(value, format_spec)`` is translated to "
+"``type(value).__format__(value, format_spec)`` which bypasses the instance "
+"dictionary when searching for the value's :meth:`~object.__format__` method."
+" A :exc:`TypeError` exception is raised if the method search reaches "
+":mod:`object` and the *format_spec* is non-empty, or if either the "
+"*format_spec* or the return value are not strings."
+msgstr ""
+
+#: ../../library/functions.rst:843
+msgid ""
+"``object().__format__(format_spec)`` raises :exc:`TypeError` if "
+"*format_spec* is not an empty string."
+msgstr ""
+"``object().__format__(format_spec)`` menimbulkan :exc:`TypeError` jika "
+"*format_spec* bukan string kosong."
+
+#: ../../library/functions.rst:852
+msgid ""
+"Return a new :class:`frozenset` object, optionally with elements taken from "
+"*iterable*.  ``frozenset`` is a built-in class.  See :class:`frozenset` and "
+":ref:`types-set` for documentation about this class."
+msgstr ""
+"Kembalikan objek baru :class:`frozenset`, secara opsional dengan elemen yang"
+" diambil dari *iterable*. ``frozenset`` adalah kelas bawaan. Lihat "
+":class:`frozenset` dan :ref:`types-set` untuk dokumentasi tentang kelas ini."
+
+#: ../../library/functions.rst:856
+msgid ""
+"For other containers see the built-in :class:`set`, :class:`list`, "
+":class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections`"
+" module."
+msgstr ""
+"Untuk wadah *containers* lain lihat kelas-kelas bawaan :class:`set`, "
+":class:`list`,: class: `tuple`, dan :class:`dict`, serta modul "
+":mod:`collections`."
+
+#: ../../library/functions.rst:864
+msgid ""
+"Return the value of the named attribute of *object*.  *name* must be a "
+"string. If the string is the name of one of the object's attributes, the "
+"result is the value of that attribute.  For example, ``getattr(x, "
+"'foobar')`` is equivalent to ``x.foobar``.  If the named attribute does not "
+"exist, *default* is returned if provided, otherwise :exc:`AttributeError` is"
+" raised. *name* need not be a Python identifier (see :func:`setattr`)."
+msgstr ""
+
+#: ../../library/functions.rst:873
+msgid ""
+"Since :ref:`private name mangling <private-name-mangling>` happens at "
+"compilation time, one must manually mangle a private attribute's (attributes"
+" with two leading underscores) name in order to retrieve it with "
+":func:`getattr`."
+msgstr ""
+
+#: ../../library/functions.rst:881
+msgid ""
+"Return the dictionary implementing the current module namespace. For code "
+"within functions, this is set when the function is defined and remains the "
+"same regardless of where the function is called."
+msgstr ""
+
+#: ../../library/functions.rst:888
+msgid ""
+"The arguments are an object and a string.  The result is ``True`` if the "
+"string is the name of one of the object's attributes, ``False`` if not. "
+"(This is implemented by calling ``getattr(object, name)`` and seeing whether"
+" it raises an :exc:`AttributeError` or not.)"
+msgstr ""
+"Argumen adalah objek dan string. Hasilnya adalah ``True`` jika string adalah"
+" nama salah satu atribut objek, ``False`` jika tidak. (Ini diimplementasikan"
+" dengan memanggil ``getattr(object, name)`` dan melihat apakah itu "
+"memunculkan :exc:`AttributeError` atau tidak.)"
+
+#: ../../library/functions.rst:896
+msgid ""
+"Return the hash value of the object (if it has one).  Hash values are "
+"integers.  They are used to quickly compare dictionary keys during a "
+"dictionary lookup.  Numeric values that compare equal have the same hash "
+"value (even if they are of different types, as is the case for 1 and 1.0)."
+msgstr ""
+"Kembalikan nilai hash objek (jika ada). Nilai hash adalah bilangan bulat. "
+"Mereka digunakan untuk dengan cepat membandingkan kunci kamus *dictionary "
+"keys* selama pencarian dictionary. Nilai numerik yang membandingkan sama "
+"memiliki nilai hash yang sama (bahkan jika mereka dari jenis yang berbeda, "
+"seperti halnya untuk 1 dan 1.0)."
+
+#: ../../library/functions.rst:903
+msgid ""
+"For objects with custom :meth:`~object.__hash__` methods, note that "
+":func:`hash` truncates the return value based on the bit width of the host "
+"machine."
+msgstr ""
+
+#: ../../library/functions.rst:910
+msgid ""
+"Invoke the built-in help system.  (This function is intended for interactive"
+" use.)  If no argument is given, the interactive help system starts on the "
+"interpreter console.  If the argument is a string, then the string is looked"
+" up as the name of a module, function, class, method, keyword, or "
+"documentation topic, and a help page is printed on the console.  If the "
+"argument is any other kind of object, a help page on the object is "
+"generated."
+msgstr ""
+"Meminta sistem bantuan bawaan. (Fungsi ini dimaksudkan untuk penggunaan "
+"interaktif.) Jika tidak ada argumen yang diberikan, sistem bantuan "
+"interaktif dimulai pada konsol interpreter. Jika argumennya adalah string, "
+"maka string tersebut dicari sebagai nama modul, fungsi, kelas, metode, kata "
+"kunci, atau topik dokumentasi, dan halaman bantuan dicetak pada konsol. Jika"
+" argumennya adalah objek jenis apa pun, halaman bantuan tentang objek "
+"tersebut dihasilkan."
+
+#: ../../library/functions.rst:917
+msgid ""
+"Note that if a slash(/) appears in the parameter list of a function when "
+"invoking :func:`help`, it means that the parameters prior to the slash are "
+"positional-only. For more info, see :ref:`the FAQ entry on positional-only "
+"parameters <faq-positional-only-arguments>`."
+msgstr ""
+
+#: ../../library/functions.rst:922
+msgid ""
+"This function is added to the built-in namespace by the :mod:`site` module."
+msgstr ""
+"Fungsi ini ditambahkan ke *namespace* bawaan dengan modul :mod:`site`."
+
+#: ../../library/functions.rst:924
+msgid ""
+"Changes to :mod:`pydoc` and :mod:`inspect` mean that the reported signatures"
+" for callables are now more comprehensive and consistent."
+msgstr ""
+"Perubahan ke :mod:`pydoc` dan :mod:`inspect` berarti bahwa tanda tangan "
+"*signatures* yang dilaporkan untuk *callables* sekarang lebih komprehensif "
+"dan konsisten."
+
+#: ../../library/functions.rst:931
+msgid ""
+"Convert an integer number to a lowercase hexadecimal string prefixed with "
+"\"0x\". If *x* is not a Python :class:`int` object, it has to define an "
+":meth:`~object.__index__` method that returns an integer. Some examples:"
+msgstr ""
+
+#: ../../library/functions.rst:940
+msgid ""
+"If you want to convert an integer number to an uppercase or lower "
+"hexadecimal string with prefix or not, you can use either of the following "
+"ways:"
+msgstr ""
+"Jika Anda ingin mengonversi bilangan bulat menjadi string heksadesimal huruf"
+" besar atau huruf kecil dengan awalan atau tidak, Anda dapat menggunakan "
+"salah satu dari cara berikut:"
+
+#: ../../library/functions.rst:952
+msgid ""
+"See also :func:`int` for converting a hexadecimal string to an integer using"
+" a base of 16."
+msgstr ""
+"Lihat juga :func:`int` untuk mengonversi string heksadesimal menjadi integer"
+" menggunakan basis 16."
+
+#: ../../library/functions.rst:957
+msgid ""
+"To obtain a hexadecimal string representation for a float, use the "
+":meth:`float.hex` method."
+msgstr ""
+"Untuk mendapatkan representasi string heksadesimal untuk float, gunakan "
+"metode :meth:`float.hex`."
+
+#: ../../library/functions.rst:963
+msgid ""
+"Return the \"identity\" of an object.  This is an integer which is "
+"guaranteed to be unique and constant for this object during its lifetime. "
+"Two objects with non-overlapping lifetimes may have the same :func:`id` "
+"value."
+msgstr ""
+"Kembalikan \"identity\" suatu objek. Ini adalah bilangan bulat yang dijamin "
+"unik dan konstan untuk objek ini selama masa pakainya. Dua objek dengan masa"
+" hidup yang tidak tumpang tindih mungkin memiliki nilai yang sama "
+":func:`id`."
+
+#: ../../library/functions.rst:968
+msgid "This is the address of the object in memory."
+msgstr ""
+
+#: ../../library/functions.rst:970
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``builtins.id`` with argument "
+"``id``."
+msgstr ""
+"Memunculkan sebuah :ref:`auditing event` ``builtins.id`` dengan argumen "
+"``id``."
+
+#: ../../library/functions.rst:976
+msgid ""
+"If the *prompt* argument is present, it is written to standard output "
+"without a trailing newline.  The function then reads a line from input, "
+"converts it to a string (stripping a trailing newline), and returns that.  "
+"When EOF is read, :exc:`EOFError` is raised.  Example::"
+msgstr ""
+"Jika argumen *prompt* ada, ini ditulis ke keluaran standar tanpa baris "
+"tambahan. Fungsi ini kemudian membaca sebuah baris dari masukan, mengubahnya"
+" menjadi sebuah string (menghapus baris baru yang tertinggal), dan "
+"mengembalikannya. Ketika EOF dibaca, :exc:`EOFError` dimunculkan. Contoh::"
+
+#: ../../library/functions.rst:981
+msgid ""
+">>> s = input('--> ')\n"
+"--> Monty Python's Flying Circus\n"
+">>> s\n"
+"\"Monty Python's Flying Circus\""
+msgstr ""
+
+#: ../../library/functions.rst:986
+msgid ""
+"If the :mod:`readline` module was loaded, then :func:`input` will use it to "
+"provide elaborate line editing and history features."
+msgstr ""
+"Jika modul :mod:`readline` dimuat, maka :func:`input` akan menggunakannya "
+"untuk menyediakan fitur pengeditan baris dan riwayat."
+
+#: ../../library/functions.rst:989 ../../library/functions.rst:991
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``builtins.input`` with argument "
+"``prompt`` before reading input"
+msgstr ""
+"Memunculkan :ref:`auditing event <auditing>` ``builtins.input`` dengan "
+"argumen ``prompt`` sebelum membaca masukan"
+
+#: ../../library/functions.rst:994 ../../library/functions.rst:996
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``builtins.input/result`` with "
+"the result after successfully reading input."
+msgstr ""
+
+#: ../../library/functions.rst:1003
+msgid ""
+"Return an integer object constructed from a number or a string, or return "
+"``0`` if no arguments are given."
+msgstr ""
+
+#: ../../library/functions.rst:1008
+msgid ""
+">>> int(123.45)\n"
+"123\n"
+">>> int('123')\n"
+"123\n"
+">>> int('   -12_345\\n')\n"
+"-12345\n"
+">>> int('FACE', 16)\n"
+"64206\n"
+">>> int('0xface', 0)\n"
+"64206\n"
+">>> int('01110011', base=2)\n"
+"115"
+msgstr ""
+
+#: ../../library/functions.rst:1023
+msgid ""
+"If the argument defines :meth:`~object.__int__`, ``int(x)`` returns "
+"``x.__int__()``.  If the argument defines :meth:`~object.__index__`, it "
+"returns ``x.__index__()``. For floating-point numbers, this truncates "
+"towards zero."
+msgstr ""
+
+#: ../../library/functions.rst:1028
+msgid ""
+"If the argument is not a number or if *base* is given, then it must be a "
+"string, :class:`bytes`, or :class:`bytearray` instance representing an "
+"integer in radix *base*.  Optionally, the string can be preceded by ``+`` or"
+" ``-`` (with no space in between), have leading zeros, be surrounded by "
+"whitespace, and have single underscores interspersed between digits."
+msgstr ""
+
+#: ../../library/functions.rst:1034
+msgid ""
+"A base-n integer string contains digits, each representing a value from 0 to"
+" n-1. The values 0--9 can be represented by any Unicode decimal digit. The "
+"values 10--35 can be represented by ``a`` to ``z`` (or ``A`` to ``Z``). The "
+"default *base* is 10. The allowed bases are 0 and 2--36. Base-2, -8, and -16"
+" strings can be optionally prefixed with ``0b``/``0B``, ``0o``/``0O``, or "
+"``0x``/``0X``, as with integer literals in code.  For base 0, the string is "
+"interpreted in a similar way to an :ref:`integer literal in code "
+"<integers>`, in that the actual base is 2, 8, 10, or 16 as determined by the"
+" prefix. Base 0 also disallows leading zeros: ``int('010', 0)`` is not "
+"legal, while ``int('010')`` and ``int('010', 8)`` are."
+msgstr ""
+
+#: ../../library/functions.rst:1045
+msgid "The integer type is described in :ref:`typesnumeric`."
+msgstr "Tipe integer dijelaskan dalam :ref:`typesnumeric`."
+
+#: ../../library/functions.rst:1047
+msgid ""
+"If *base* is not an instance of :class:`int` and the *base* object has a "
+":meth:`base.__index__ <object.__index__>` method, that method is called to "
+"obtain an integer for the base.  Previous versions used :meth:`base.__int__ "
+"<object.__int__>` instead of :meth:`base.__index__ <object.__index__>`."
+msgstr ""
+"Jika *base* bukan turunan dari :class:`int` dan objek *base* memiliki metode"
+" :meth:`base.__index__ <objek .__ index __>`, metode itu dipanggil untuk "
+"mendapatkan integer untuk basis. Versi sebelumnya digunakan "
+":meth:`base.__int__<objek.__int__>` alih-alih :meth: `base.__index__ <objek "
+".__ index __>`."
+
+#: ../../library/functions.rst:1057
+msgid "The first parameter is now positional-only."
+msgstr ""
+
+#: ../../library/functions.rst:1060
+msgid ""
+"Falls back to :meth:`~object.__index__` if :meth:`~object.__int__` is not "
+"defined."
+msgstr ""
+
+#: ../../library/functions.rst:1063
+msgid ""
+":class:`int` string inputs and string representations can be limited to help"
+" avoid denial of service attacks. A :exc:`ValueError` is raised when the "
+"limit is exceeded while converting a string to an :class:`int` or when "
+"converting an :class:`int` into a string would exceed the limit. See the "
+":ref:`integer string conversion length limitation <int_max_str_digits>` "
+"documentation."
+msgstr ""
+
+#: ../../library/functions.rst:1071
+msgid ""
+":func:`int` no longer delegates to the :meth:`~object.__trunc__` method."
+msgstr ""
+
+#: ../../library/functions.rst:1076
+msgid ""
+"Return ``True`` if the *object* argument is an instance of the *classinfo* "
+"argument, or of a (direct, indirect, or :term:`virtual <abstract base "
+"class>`) subclass thereof.  If *object* is not an object of the given type, "
+"the function always returns ``False``. If *classinfo* is a tuple of type "
+"objects (or recursively, other such tuples) or a :ref:`types-union` of "
+"multiple types, return ``True`` if *object* is an instance of any of the "
+"types. If *classinfo* is not a type or tuple of types and such tuples, a "
+":exc:`TypeError` exception is raised. :exc:`TypeError` may not be raised for"
+" an invalid type if an earlier check succeeds."
+msgstr ""
+
+#: ../../library/functions.rst:1087 ../../library/functions.rst:1101
+msgid "*classinfo* can be a :ref:`types-union`."
+msgstr ""
+
+#: ../../library/functions.rst:1093
+msgid ""
+"Return ``True`` if *class* is a subclass (direct, indirect, or "
+":term:`virtual <abstract base class>`) of *classinfo*.  A class is "
+"considered a subclass of itself. *classinfo* may be a tuple of class objects"
+" (or recursively, other such tuples) or a :ref:`types-union`, in which case "
+"return ``True`` if *class* is a subclass of any entry in *classinfo*.  In "
+"any other case, a :exc:`TypeError` exception is raised."
+msgstr ""
+
+#: ../../library/functions.rst:1108
+msgid ""
+"Return an :term:`iterator` object.  The first argument is interpreted very "
+"differently depending on the presence of the second argument. Without a "
+"second argument, *object* must be a collection object which supports the "
+":term:`iterable` protocol (the :meth:`~object.__iter__` method), or it must "
+"support the sequence protocol (the :meth:`~object.__getitem__` method with "
+"integer arguments starting at ``0``).  If it does not support either of "
+"those protocols, :exc:`TypeError` is raised. If the second argument, "
+"*sentinel*, is given, then *object* must be a callable object.  The iterator"
+" created in this case will call *object* with no arguments for each call to "
+"its :meth:`~iterator.__next__` method; if the value returned is equal to "
+"*sentinel*, :exc:`StopIteration` will be raised, otherwise the value will be"
+" returned."
+msgstr ""
+
+#: ../../library/functions.rst:1122
+msgid "See also :ref:`typeiter`."
+msgstr "Lihat juga :ref:`typeiter`."
+
+#: ../../library/functions.rst:1124
+msgid ""
+"One useful application of the second form of :func:`iter` is to build a "
+"block-reader. For example, reading fixed-width blocks from a binary database"
+" file until the end of file is reached::"
+msgstr ""
+"Salah satu kegunaan dari bentuk kedua dari :func:`iter` adalah untuk "
+"membangun pembaca blok. Misalnya, membaca blok dengan lebar tetap dari "
+"berkas basis data biner hingga akhir file tercapai::"
+
+#: ../../library/functions.rst:1128
+msgid ""
+"from functools import partial\n"
+"with open('mydata.db', 'rb') as f:\n"
+"    for block in iter(partial(f.read, 64), b''):\n"
+"        process_block(block)"
+msgstr ""
+
+#: ../../library/functions.rst:1136
+msgid ""
+"Return the length (the number of items) of an object.  The argument may be a"
+" sequence (such as a string, bytes, tuple, list, or range) or a collection "
+"(such as a dictionary, set, or frozen set)."
+msgstr ""
+"Mengembalikan panjang (jumlah item) suatu objek. Argumennya bisa berupa "
+"urutan (seperti string, byte, *tuple*, *list*, atau *range*) atau koleksi "
+"(seperti *dictionary*, set, atau *frozen set*)."
+
+#: ../../library/functions.rst:1142
+msgid ""
+"``len`` raises :exc:`OverflowError` on lengths larger than "
+":data:`sys.maxsize`, such as :class:`range(2 ** 100) <range>`."
+msgstr ""
+
+#: ../../library/functions.rst:1151
+msgid ""
+"Rather than being a function, :class:`list` is actually a mutable sequence "
+"type, as documented in :ref:`typesseq-list` and :ref:`typesseq`."
+msgstr ""
+"Alih-alih menjadi sebuah fungsi, :class:`list` sebenarnya adalah tipe urutan"
+" yang bisa berubah *mutable*, seperti yang didokumentasikan dalam "
+":ref:`typesseq-list` dan :ref: `typesseq`."
+
+#: ../../library/functions.rst:1157
+msgid ""
+"Return a mapping object representing the current local symbol table, with "
+"variable names as the keys, and their currently bound references as the "
+"values."
+msgstr ""
+
+#: ../../library/functions.rst:1161
+msgid ""
+"At module scope, as well as when using :func:`exec` or :func:`eval` with a "
+"single namespace, this function returns the same namespace as "
+":func:`globals`."
+msgstr ""
+
+#: ../../library/functions.rst:1165
+msgid ""
+"At class scope, it returns the namespace that will be passed to the "
+"metaclass constructor."
+msgstr ""
+
+#: ../../library/functions.rst:1168
+msgid ""
+"When using ``exec()`` or ``eval()`` with separate local and global "
+"arguments, it returns the local namespace passed in to the function call."
+msgstr ""
+
+#: ../../library/functions.rst:1171
+msgid ""
+"In all of the above cases, each call to ``locals()`` in a given frame of "
+"execution will return the *same* mapping object. Changes made through the "
+"mapping object returned from ``locals()`` will be visible as assigned, "
+"reassigned, or deleted local variables, and assigning, reassigning, or "
+"deleting local variables will immediately affect the contents of the "
+"returned mapping object."
+msgstr ""
+
+#: ../../library/functions.rst:1178
+msgid ""
+"In an :term:`optimized scope` (including functions, generators, and "
+"coroutines), each call to ``locals()`` instead returns a fresh dictionary "
+"containing the current bindings of the function's local variables and any "
+"nonlocal cell references. In this case, name binding changes made via the "
+"returned dict are *not* written back to the corresponding local variables or"
+" nonlocal cell references, and assigning, reassigning, or deleting local "
+"variables and nonlocal cell references does *not* affect the contents of "
+"previously returned dictionaries."
+msgstr ""
+
+#: ../../library/functions.rst:1187
+msgid ""
+"Calling ``locals()`` as part of a comprehension in a function, generator, or"
+" coroutine is equivalent to calling it in the containing scope, except that "
+"the comprehension's initialised iteration variables will be included. In "
+"other scopes, it behaves as if the comprehension were running as a nested "
+"function."
+msgstr ""
+
+#: ../../library/functions.rst:1193
+msgid ""
+"Calling ``locals()`` as part of a generator expression is equivalent to "
+"calling it in a nested generator function."
+msgstr ""
+
+#: ../../library/functions.rst:1196
+msgid ""
+"The behaviour of ``locals()`` in a comprehension has been updated as "
+"described in :pep:`709`."
+msgstr ""
+
+#: ../../library/functions.rst:1200
+msgid ""
+"As part of :pep:`667`, the semantics of mutating the mapping objects "
+"returned from this function are now defined. The behavior in "
+":term:`optimized scopes <optimized scope>` is now as described above. Aside "
+"from being defined, the behaviour in other scopes remains unchanged from "
+"previous versions."
+msgstr ""
+
+#: ../../library/functions.rst:1210
+msgid ""
+"Return an iterator that applies *function* to every item of *iterable*, "
+"yielding the results.  If additional *iterables* arguments are passed, "
+"*function* must take that many arguments and is applied to the items from "
+"all iterables in parallel.  With multiple iterables, the iterator stops when"
+" the shortest iterable is exhausted.  If *strict* is ``True`` and one of the"
+" iterables is exhausted before the others, a :exc:`ValueError` is raised. "
+"For cases where the function inputs are already arranged into argument "
+"tuples, see :func:`itertools.starmap`."
+msgstr ""
+
+#: ../../library/functions.rst:1219
+msgid "Added the *strict* parameter."
+msgstr ""
+
+#: ../../library/functions.rst:1227
+msgid ""
+"Return the largest item in an iterable or the largest of two or more "
+"arguments."
+msgstr ""
+"Kembalikan item terbesar dalam iterable atau yang terbesar dari dua atau "
+"lebih argumen."
+
+#: ../../library/functions.rst:1230
+msgid ""
+"If one positional argument is provided, it should be an :term:`iterable`. "
+"The largest item in the iterable is returned.  If two or more positional "
+"arguments are provided, the largest of the positional arguments is returned."
+msgstr ""
+"Jika satu argumen posisi disediakan, itu harus berupa :term:`iterable`. Item"
+" terbesar di *iterable* dikembalikan. Jika dua atau lebih argumen posisi "
+"disediakan, argumen posisi terbesar dikembalikan."
+
+#: ../../library/functions.rst:1235 ../../library/functions.rst:1273
+msgid ""
+"There are two optional keyword-only arguments. The *key* argument specifies "
+"a one-argument ordering function like that used for :meth:`list.sort`. The "
+"*default* argument specifies an object to return if the provided iterable is"
+" empty. If the iterable is empty and *default* is not provided, a "
+":exc:`ValueError` is raised."
+msgstr ""
+"Ada dua opsional hanya argumen kata kunci *keyword arguments*. Argumen *key*"
+" menentukan fungsi pengurutan satu argumen seperti yang digunakan untuk "
+":meth:`list.sort`. Argumen *default* menentukan objek yang akan dikembalikan"
+" jika yang disediakan itu kosong. Jika iterable kosong dan *default* tidak "
+"disediakan, :exc:`ValueError` akan dimunculkan."
+
+#: ../../library/functions.rst:1241
+msgid ""
+"If multiple items are maximal, the function returns the first one "
+"encountered.  This is consistent with other sort-stability preserving tools "
+"such as ``sorted(iterable, key=keyfunc, reverse=True)[0]`` and "
+"``heapq.nlargest(1, iterable, key=keyfunc)``."
+msgstr ""
+"Jika beberapa item maksimal, fungsi mengembalikan item pertama yang ditemui."
+" Ini konsisten dengan alat pengawet *preserving* sortir yang stabil lain "
+"seperti ``sorted(iterable, key=keyfunc, reverse=True)[0]`` dan "
+"``heapq.nlargest(1, iterable, key=keyfunc)``."
+
+#: ../../library/functions.rst:1246 ../../library/functions.rst:1284
+msgid "Added the *default* keyword-only parameter."
+msgstr ""
+
+#: ../../library/functions.rst:1249 ../../library/functions.rst:1287
+msgid "The *key* can be ``None``."
+msgstr "*key* bisa jadi ``None``."
+
+#: ../../library/functions.rst:1257
+msgid ""
+"Return a \"memory view\" object created from the given argument.  See "
+":ref:`typememoryview` for more information."
+msgstr ""
+"Kembalikan objek \"memory view\" yang dibuat dari argumen yang diberikan. "
+"Lihat :ref:`typememoryview` untuk informasi lebih lanjut."
+
+#: ../../library/functions.rst:1265
+msgid ""
+"Return the smallest item in an iterable or the smallest of two or more "
+"arguments."
+msgstr ""
+"Kembalikan item terkecil dalam *iterable* atau terkecil dari dua atau lebih "
+"argumen."
+
+#: ../../library/functions.rst:1268
+msgid ""
+"If one positional argument is provided, it should be an :term:`iterable`. "
+"The smallest item in the iterable is returned.  If two or more positional "
+"arguments are provided, the smallest of the positional arguments is "
+"returned."
+msgstr ""
+"Jika satu argumen posisi disediakan, itu harus berupa :term:`iterable`. Item"
+" terkecil di *iterable* dikembalikan. Jika dua atau lebih argumen posisional"
+" disediakan, argumen posisional terkecil akan dikembalikan."
+
+#: ../../library/functions.rst:1279
+msgid ""
+"If multiple items are minimal, the function returns the first one "
+"encountered.  This is consistent with other sort-stability preserving tools "
+"such as ``sorted(iterable, key=keyfunc)[0]`` and ``heapq.nsmallest(1, "
+"iterable, key=keyfunc)``."
+msgstr ""
+"Jika beberapa item minimal, fungsi mengembalikan item pertama yang ditemui. "
+"Ini konsisten dengan alat pengawet *preserving* sortir yang stabil lain "
+"seperti ``sorted(iterable, key=keyfunc)[0]`` dan ``heapq.nsmallest(1, "
+"iterable, key=keyfunc)``."
+
+#: ../../library/functions.rst:1294
+msgid ""
+"Retrieve the next item from the :term:`iterator` by calling its "
+":meth:`~iterator.__next__` method.  If *default* is given, it is returned if"
+" the iterator is exhausted, otherwise :exc:`StopIteration` is raised."
+msgstr ""
+
+#: ../../library/functions.rst:1301
+msgid ""
+"This is the ultimate base class of all other classes. It has methods that "
+"are common to all instances of Python classes. When the constructor is "
+"called, it returns a new featureless object. The constructor does not accept"
+" any arguments."
+msgstr ""
+
+#: ../../library/functions.rst:1308
+msgid ""
+":class:`object` instances do *not* have :attr:`~object.__dict__` attributes,"
+" so you can't assign arbitrary attributes to an instance of :class:`object`."
+msgstr ""
+
+#: ../../library/functions.rst:1315
+msgid ""
+"Convert an integer number to an octal string prefixed with \"0o\".  The "
+"result is a valid Python expression. If *x* is not a Python :class:`int` "
+"object, it has to define an :meth:`~object.__index__` method that returns an"
+" integer. For example:"
+msgstr ""
+
+#: ../../library/functions.rst:1325
+msgid ""
+"If you want to convert an integer number to an octal string either with the "
+"prefix \"0o\" or not, you can use either of the following ways."
+msgstr ""
+
+#: ../../library/functions.rst:1342
+msgid ""
+"Open *file* and return a corresponding :term:`file object`.  If the file "
+"cannot be opened, an :exc:`OSError` is raised. See :ref:`tut-files` for more"
+" examples of how to use this function."
+msgstr ""
+"Buka *file* dan mengembalikan yang sesuai dengan :term:`file object`. Jika "
+"file tersebut tidak dapat dibuka, sebuah :exc:`OSError` akan dinaikkan. "
+"Lihat :ref:`tut-files` untuk contoh yang lebih banyak terkait bagaimana "
+"menggunakan fungsi ini."
+
+#: ../../library/functions.rst:1346
+msgid ""
+"*file* is a :term:`path-like object` giving the pathname (absolute or "
+"relative to the current working directory) of the file to be opened or an "
+"integer file descriptor of the file to be wrapped.  (If a file descriptor is"
+" given, it is closed when the returned I/O object is closed unless *closefd*"
+" is set to ``False``.)"
+msgstr ""
+
+#: ../../library/functions.rst:1352
+msgid ""
+"*mode* is an optional string that specifies the mode in which the file is "
+"opened.  It defaults to ``'r'`` which means open for reading in text mode. "
+"Other common values are ``'w'`` for writing (truncating the file if it "
+"already exists), ``'x'`` for exclusive creation, and ``'a'`` for appending "
+"(which on *some* Unix systems, means that *all* writes append to the end of "
+"the file regardless of the current seek position).  In text mode, if "
+"*encoding* is not specified the encoding used is platform-dependent: "
+":func:`locale.getencoding` is called to get the current locale encoding. "
+"(For reading and writing raw bytes use binary mode and leave *encoding* "
+"unspecified.)  The available modes are:"
+msgstr ""
+
+#: ../../library/functions.rst:1369
+msgid "Character"
+msgstr "Karakter"
+
+#: ../../library/functions.rst:1369
+msgid "Meaning"
+msgstr "Artinya"
+
+#: ../../library/functions.rst:1371
+msgid "``'r'``"
+msgstr "``'r'``"
+
+#: ../../library/functions.rst:1371
+msgid "open for reading (default)"
+msgstr "terbuka untuk membaca (bawaan)"
+
+#: ../../library/functions.rst:1372
+msgid "``'w'``"
+msgstr "``'w'``"
+
+#: ../../library/functions.rst:1372
+msgid "open for writing, truncating the file first"
+msgstr "buka untuk menulis, mengosongkan berkas terlebih dahulu"
+
+#: ../../library/functions.rst:1373
+msgid "``'x'``"
+msgstr "``'x'``"
+
+#: ../../library/functions.rst:1373
+msgid "open for exclusive creation, failing if the file already exists"
+msgstr "terbuka untuk pembuatan eksklusif, gagal jika file sudah ada"
+
+#: ../../library/functions.rst:1374
+msgid "``'a'``"
+msgstr "``'a'``"
+
+#: ../../library/functions.rst:1374
+msgid "open for writing, appending to the end of file if it exists"
+msgstr ""
+
+#: ../../library/functions.rst:1375
+msgid "``'b'``"
+msgstr "``'b'``"
+
+#: ../../library/functions.rst:1375 ../../library/functions.rst:1519
+msgid "binary mode"
+msgstr "mode biner"
+
+#: ../../library/functions.rst:1376
+msgid "``'t'``"
+msgstr "``'t'``"
+
+#: ../../library/functions.rst:1376
+msgid "text mode (default)"
+msgstr "mode teks (bawaan)"
+
+#: ../../library/functions.rst:1377
+msgid "``'+'``"
+msgstr "``'+'``"
+
+#: ../../library/functions.rst:1377
+msgid "open for updating (reading and writing)"
+msgstr "terbuka untuk memperbarui (membaca dan menulis)"
+
+#: ../../library/functions.rst:1380
+msgid ""
+"The default mode is ``'r'`` (open for reading text, a synonym of ``'rt'``). "
+"Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and"
+" ``'r+b'`` open the file with no truncation."
+msgstr ""
+
+#: ../../library/functions.rst:1384
+msgid ""
+"As mentioned in the :ref:`io-overview`, Python distinguishes between binary "
+"and text I/O.  Files opened in binary mode (including ``'b'`` in the *mode* "
+"argument) return contents as :class:`bytes` objects without any decoding.  "
+"In text mode (the default, or when ``'t'`` is included in the *mode* "
+"argument), the contents of the file are returned as :class:`str`, the bytes "
+"having been first decoded using a platform-dependent encoding or using the "
+"specified *encoding* if given."
+msgstr ""
+"Seperti disebutkan dalam :ref:`io-overview`, Python membedakan antara biner "
+"dan teks I/O. Berkas dibuka dalam mode biner (termasuk ``'b'`` dalam argumen"
+" *mode*) mengembalikan konten sebagai objek :class:`bytes` tanpa *decoding*."
+" Dalam mode teks (bawaan, atau ketika ``'t'`` termasuk dalam argumen "
+"*mode*), isi file dikembalikan sebagai :class:`str`, byte yang pertama kali "
+"diterjemahkan *decoded* menggunakan *encoding* bergantung-platform atau "
+"menggunakan *encoding* yang ditentukan jika diberikan."
+
+#: ../../library/functions.rst:1394
+msgid ""
+"Python doesn't depend on the underlying operating system's notion of text "
+"files; all the processing is done by Python itself, and is therefore "
+"platform-independent."
+msgstr ""
+"Python tidak tergantung pada gagasan sistem operasi yang mendasari file "
+"teks; semua pemrosesan dilakukan oleh Python sendiri, dan oleh karena itu "
+"tidak bergantung platform."
+
+#: ../../library/functions.rst:1398
+msgid ""
+"*buffering* is an optional integer used to set the buffering policy.  Pass 0"
+" to switch buffering off (only allowed in binary mode), 1 to select line "
+"buffering (only usable when writing in text mode), and an integer > 1 to "
+"indicate the size in bytes of a fixed-size chunk buffer. Note that "
+"specifying a buffer size this way applies for binary buffered I/O, but "
+"``TextIOWrapper`` (i.e., files opened with ``mode='r+'``) would have another"
+" buffering. To disable buffering in ``TextIOWrapper``, consider using the "
+"``write_through`` flag for :func:`io.TextIOWrapper.reconfigure`. When no "
+"*buffering* argument is given, the default buffering policy works as "
+"follows:"
+msgstr ""
+
+#: ../../library/functions.rst:1408
+msgid ""
+"Binary files are buffered in fixed-size chunks; the size of the buffer is "
+"``max(min(blocksize, 8 MiB), DEFAULT_BUFFER_SIZE)`` when the device block "
+"size is available. On most systems, the buffer will typically be 128 "
+"kilobytes long."
+msgstr ""
+
+#: ../../library/functions.rst:1413
+msgid ""
+"\"Interactive\" text files (files for which :meth:`~io.IOBase.isatty` "
+"returns ``True``) use line buffering.  Other text files use the policy "
+"described above for binary files."
+msgstr ""
+"Berkas teks \"interactive\" (berkas yang :meth:`~io.IOBase.isatty` "
+"mengembalikan ``True``) menggunakan *line buffering*. File teks lainnya "
+"menggunakan kebijakan yang dijelaskan di atas untuk file biner."
+
+#: ../../library/functions.rst:1417
+msgid ""
+"*encoding* is the name of the encoding used to decode or encode the file. "
+"This should only be used in text mode.  The default encoding is platform "
+"dependent (whatever :func:`locale.getencoding` returns), but any :term:`text"
+" encoding` supported by Python can be used. See the :mod:`codecs` module for"
+" the list of supported encodings."
+msgstr ""
+
+#: ../../library/functions.rst:1423
+msgid ""
+"*errors* is an optional string that specifies how encoding and decoding "
+"errors are to be handled—this cannot be used in binary mode. A variety of "
+"standard error handlers are available (listed under :ref:`error-handlers`), "
+"though any error handling name that has been registered with "
+":func:`codecs.register_error` is also valid.  The standard names include:"
+msgstr ""
+"*errors* adalah string opsional yang menentukan bagaimana kesalahan "
+"*encoding* dan *decoding* ditangani — ini tidak dapat digunakan dalam mode "
+"biner. Berbagai penangan kesalahan standar tersedia (terdaftar di bawah "
+":ref:`error-handlers`), meskipun nama penanganan kesalahan yang telah "
+"terdaftar dengan :func:`codecs.register_error` juga valid. Nama standar "
+"meliputi:"
+
+#: ../../library/functions.rst:1431
+msgid ""
+"``'strict'`` to raise a :exc:`ValueError` exception if there is an encoding "
+"error.  The default value of ``None`` has the same effect."
+msgstr ""
+"``'strict'`` untuk memunculkan pengecualian :exc:`ValueError` jika ada "
+"kesalahan penyandian *encoding*. Nilai bawaan dari ``None`` memiliki efek "
+"yang sama."
+
+#: ../../library/functions.rst:1435
+msgid ""
+"``'ignore'`` ignores errors.  Note that ignoring encoding errors can lead to"
+" data loss."
+msgstr ""
+"``'ignore'`` mengabaikan kesalahan. Perhatikan bahwa mengabaikan kesalahan "
+"penyandian *encoding* dapat menyebabkan hilangnya data."
+
+#: ../../library/functions.rst:1438
+msgid ""
+"``'replace'`` causes a replacement marker (such as ``'?'``) to be inserted "
+"where there is malformed data."
+msgstr ""
+"``'replace'`` menyebabkan penanda  pengganti (seperti ``'?'``) disisipkan di"
+" mana ada data yang tidak sesuai format."
+
+#: ../../library/functions.rst:1441
+msgid ""
+"``'surrogateescape'`` will represent any incorrect bytes as low surrogate "
+"code units ranging from U+DC80 to U+DCFF. These surrogate code units will "
+"then be turned back into the same bytes when the ``surrogateescape`` error "
+"handler is used when writing data.  This is useful for processing files in "
+"an unknown encoding."
+msgstr ""
+
+#: ../../library/functions.rst:1448
+msgid ""
+"``'xmlcharrefreplace'`` is only supported when writing to a file. Characters"
+" not supported by the encoding are replaced with the appropriate XML "
+"character reference :samp:`&#{nnn};`."
+msgstr ""
+
+#: ../../library/functions.rst:1452
+msgid ""
+"``'backslashreplace'`` replaces malformed data by Python's backslashed "
+"escape sequences."
+msgstr ""
+"``'backslashreplace'`` menggantikan data yang salah dengan urutan pemisahan "
+"dengan *backslash* dari Python."
+
+#: ../../library/functions.rst:1455
+msgid ""
+"``'namereplace'`` (also only supported when writing) replaces unsupported "
+"characters with ``\\N{...}`` escape sequences."
+msgstr ""
+"``'namereplace'`` (juga hanya didukung saat menulis) menggantikan karakter "
+"yang tidak didukung dengan ``\\N{...}`` urutan pemisahan."
+
+#: ../../library/functions.rst:1463
+msgid ""
+"*newline* determines how to parse newline characters from the stream. It can"
+" be ``None``, ``''``, ``'\\n'``, ``'\\r'``, and ``'\\r\\n'``.  It works as "
+"follows:"
+msgstr ""
+
+#: ../../library/functions.rst:1467
+msgid ""
+"When reading input from the stream, if *newline* is ``None``, universal "
+"newlines mode is enabled.  Lines in the input can end in ``'\\n'``, "
+"``'\\r'``, or ``'\\r\\n'``, and these are translated into ``'\\n'`` before "
+"being returned to the caller.  If it is ``''``, universal newlines mode is "
+"enabled, but line endings are returned to the caller untranslated.  If it "
+"has any of the other legal values, input lines are only terminated by the "
+"given string, and the line ending is returned to the caller untranslated."
+msgstr ""
+"Saat membaca masukan dari aliran *stream*, jika *newline* adalah ``None``, "
+"mode universal baris baru diaktifkan. Baris dalam masukan dapat diakhiri "
+"dengan ``'\\n'``, ``'\\r'``, atau ``'\\r\\n'``, dan ini diterjemahkan ke "
+"dalam ``'\\n'`` sebelum dikembalikan ke pemanggil. Jika ``''``, mode baris "
+"baru universal diaktifkan, tetapi akhir baris dikembalikan ke pemanggil yang"
+" tidak diterjemahkan. Jika memiliki salah satu nilai legal lainnya, jalur "
+"masukan hanya diakhiri oleh string yang diberikan, dan akhir baris "
+"dikembalikan ke pemanggil yang tidak diterjemahkan."
+
+#: ../../library/functions.rst:1475
+msgid ""
+"When writing output to the stream, if *newline* is ``None``, any ``'\\n'`` "
+"characters written are translated to the system default line separator, "
+":data:`os.linesep`.  If *newline* is ``''`` or ``'\\n'``, no translation "
+"takes place.  If *newline* is any of the other legal values, any ``'\\n'`` "
+"characters written are translated to the given string."
+msgstr ""
+"Saat menulis keluaran ke aliran *stream*, jika *newline* adalah ``None``, "
+"setiap karakter ``'\\n'`` yang ditulis diterjemahkan ke pemisah garis bawaan"
+" sistem, :data:`os.linesep`. Jika *newline* adalah ``''`` atau ``'\\n'``, "
+"tidak ada terjemahan yang terjadi. Jika *newline* adalah salah satu dari "
+"nilai legal lainnya, setiap karakter ``'\\n'`` yang ditulis diterjemahkan ke"
+" string yang diberikan."
+
+#: ../../library/functions.rst:1481
+msgid ""
+"If *closefd* is ``False`` and a file descriptor rather than a filename was "
+"given, the underlying file descriptor will be kept open when the file is "
+"closed.  If a filename is given *closefd* must be ``True`` (the default); "
+"otherwise, an error will be raised."
+msgstr ""
+
+#: ../../library/functions.rst:1486
+msgid ""
+"A custom opener can be used by passing a callable as *opener*. The "
+"underlying file descriptor for the file object is then obtained by calling "
+"*opener* with (*file*, *flags*). *opener* must return an open file "
+"descriptor (passing :mod:`os.open` as *opener* results in functionality "
+"similar to passing ``None``)."
+msgstr ""
+"Pembuka khusus dapat digunakan dengan melewatkan *callable* sebagai "
+"*opener*. Deskriptor berkas yang mendasari untuk objek berkas kemudian "
+"diperoleh dengan memanggil *opener* dengan (*file*, *flags*). *opener* harus"
+" mengembalikan deskriptor berkas terbuka (lewat :mod:`os.open` sebagai "
+"*opener* menghasilkan fungsionalitas yang mirip dengan melewatkan ``None``)."
+
+#: ../../library/functions.rst:1492
+msgid "The newly created file is :ref:`non-inheritable <fd_inheritance>`."
+msgstr ""
+"Berkas yang baru dibuat adalah :ref:`non-inheritable <fd_inheritance>`."
+
+#: ../../library/functions.rst:1494
+msgid ""
+"The following example uses the :ref:`dir_fd <dir_fd>` parameter of the "
+":func:`os.open` function to open a file relative to a given directory::"
+msgstr ""
+"Contoh berikut menggunakan parameter :ref:`dir_fd <dir_fd>` dari fungsi "
+":func:`os.open` untuk membuka berkas relatif ke direktori yang diberikan::"
+
+#: ../../library/functions.rst:1497
+msgid ""
+">>> import os\n"
+">>> dir_fd = os.open('somedir', os.O_RDONLY)\n"
+">>> def opener(path, flags):\n"
+"...     return os.open(path, flags, dir_fd=dir_fd)\n"
+"...\n"
+">>> with open('spamspam.txt', 'w', opener=opener) as f:\n"
+"...     print('This will be written to somedir/spamspam.txt', file=f)\n"
+"...\n"
+">>> os.close(dir_fd)  # don't leak a file descriptor"
+msgstr ""
+
+#: ../../library/functions.rst:1507
+msgid ""
+"The type of :term:`file object` returned by the :func:`open` function "
+"depends on the mode.  When :func:`open` is used to open a file in a text "
+"mode (``'w'``, ``'r'``, ``'wt'``, ``'rt'``, etc.), it returns a subclass of "
+":class:`io.TextIOBase` (specifically :class:`io.TextIOWrapper`).  When used "
+"to open a file in a binary mode with buffering, the returned class is a "
+"subclass of :class:`io.BufferedIOBase`.  The exact class varies: in read "
+"binary mode, it returns an :class:`io.BufferedReader`; in write binary and "
+"append binary modes, it returns an :class:`io.BufferedWriter`, and in "
+"read/write mode, it returns an :class:`io.BufferedRandom`.  When buffering "
+"is disabled, the raw stream, a subclass of :class:`io.RawIOBase`, "
+":class:`io.FileIO`, is returned."
+msgstr ""
+"Tipe :term:`file object` yang dikembalikan oleh fungsi :func:`open` "
+"tergantung pada mode. Ketika :func:`open` digunakan untuk membuka berkas "
+"dalam mode teks (``'w'``, ``'r'``, ``'wt'``, ``'rt'``, dll.), ia "
+"mengembalikan subkelas dari :class:`io.TextIOBase` (khusus "
+":class:`io.TextIOWrapper`). Ketika digunakan untuk membuka file dalam mode "
+"biner dengan *buffering*, kelas yang dikembalikan adalah subkelas dari "
+":class:`io.BufferedIOBase`. Kelas yang tepat bervariasi: dalam mode baca "
+"biner, ia mengembalikan :class:`io.BufferedReader`; dalam mode tulis biner "
+"dan *append* biner, ia mengembalikan sebuah :class:`io.BufferedWriter`, dan "
+"dalam mode baca/tulis, ia mengembalikan sebuah :class:`io.BufferedRandom`. "
+"Ketika *buffering* dinonaktifkan, aliran tak diproses *raw stream*, subkelas"
+" dari :class:`io.RawIOBase`, :class:`io.FileIO`, dikembalikan."
+
+#: ../../library/functions.rst:1528
+msgid ""
+"See also the file handling modules, such as :mod:`fileinput`, :mod:`io` "
+"(where :func:`open` is declared), :mod:`os`, :mod:`os.path`, "
+":mod:`tempfile`, and :mod:`shutil`."
+msgstr ""
+
+#: ../../library/functions.rst:1532
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``open`` with arguments ``path``,"
+" ``mode``, ``flags``."
+msgstr ""
+
+#: ../../library/functions.rst:1534
+msgid ""
+"The ``mode`` and ``flags`` arguments may have been modified or inferred from"
+" the original call."
+msgstr ""
+"Argumen ``mode`` dan ``flags`` mungkin telah dimodifikasi atau disimpulkan "
+"dari pemanggilan asli."
+
+#: ../../library/functions.rst:1539
+msgid "The *opener* parameter was added."
+msgstr "Parameter *opener* telah ditambahkan."
+
+#: ../../library/functions.rst:1540
+msgid "The ``'x'`` mode was added."
+msgstr "Mode ``'x'`` telah ditambahkan."
+
+#: ../../library/functions.rst:1541
+msgid ""
+":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
+msgstr ""
+":exc:`IOError` sebelumnya ditimbulkan, sekarang merupakan alias dari "
+":exc:`OSError`."
+
+#: ../../library/functions.rst:1542
+msgid ""
+":exc:`FileExistsError` is now raised if the file opened in exclusive "
+"creation mode (``'x'``) already exists."
+msgstr ""
+":exc:`FileExistsError` sekarang ditimbulkan jika berkas yang dibuka dalam "
+"mode pembuatan eksklusif (``'x'``) sudah ada."
+
+#: ../../library/functions.rst:1547
+msgid "The file is now non-inheritable."
+msgstr "Berkas sekarang tidak dapat diwariskan."
+
+#: ../../library/functions.rst:1551
+msgid ""
+"If the system call is interrupted and the signal handler does not raise an "
+"exception, the function now retries the system call instead of raising an "
+":exc:`InterruptedError` exception (see :pep:`475` for the rationale)."
+msgstr ""
+"Jika panggilan sistem terganggu dan penangan sinyal tidak menimbulkan "
+"pengecualian, fungsi sekarang mencoba ulang panggilan sistem alih-alih "
+"menimbulkan pengecualian :exc:`InterruptedError` (lihat :pep:`475` untuk "
+"penjelasannya)."
+
+#: ../../library/functions.rst:1554
+msgid "The ``'namereplace'`` error handler was added."
+msgstr "Penangan kesalahan ``'namereplace'`` telah ditambahkan."
+
+#: ../../library/functions.rst:1558
+msgid "Support added to accept objects implementing :class:`os.PathLike`."
+msgstr ""
+"Dukungan ditambahkan untuk menerima objek yang mengimplementasikan "
+":class:`os.PathLike`."
+
+#: ../../library/functions.rst:1559
+msgid ""
+"On Windows, opening a console buffer may return a subclass of "
+":class:`io.RawIOBase` other than :class:`io.FileIO`."
+msgstr ""
+"Di Windows, membuka penyangga *buffer* konsol dapat mengembalikan subclass "
+"dari :class:`io.RawIOBase` selain :class:`io.FileIO`."
+
+#: ../../library/functions.rst:1562
+msgid "The ``'U'`` mode has been removed."
+msgstr ""
+
+#: ../../library/functions.rst:1567
+msgid ""
+"Given a string representing one Unicode character, return an integer "
+"representing the Unicode code point of that character.  For example, "
+"``ord('a')`` returns the integer ``97`` and ``ord('€')`` (Euro sign) returns"
+" ``8364``.  This is the inverse of :func:`chr`."
+msgstr ""
+"Diberikan string yang mewakili satu karakter Unicode, kembalikan integer "
+"yang mewakili titik kode Unicode dari karakter itu. Misalnya, ``ord('a')`` "
+"mengembalikan integer ``97`` dan ``ord('€')`` (tanda Euro) mengembalikan "
+"``8364``. Ini adalah kebalikan dari :func:`chr`."
+
+#: ../../library/functions.rst:1575
+msgid ""
+"Return *base* to the power *exp*; if *mod* is present, return *base* to the "
+"power *exp*, modulo *mod* (computed more efficiently than ``pow(base, exp) %"
+" mod``). The two-argument form ``pow(base, exp)`` is equivalent to using the"
+" power operator: ``base**exp``."
+msgstr ""
+"Kembalikan *base* ke *power* *exp*; jika *mod* ada, kembalikan *base* ke "
+"*power* *exp*, *modulo* *mod* (dihitung lebih efisien daripada ``pow(base, "
+"exp) % mod``). Bentuk dua argumen ``pow(base, exp)`` setara dengan "
+"menggunakan operator *power*: ``base**exp``."
+
+#: ../../library/functions.rst:1580
+msgid ""
+"The arguments must have numeric types.  With mixed operand types, the "
+"coercion rules for binary arithmetic operators apply.  For :class:`int` "
+"operands, the result has the same type as the operands (after coercion) "
+"unless the second argument is negative; in that case, all arguments are "
+"converted to float and a float result is delivered.  For example, ``pow(10, "
+"2)`` returns ``100``, but ``pow(10, -2)`` returns ``0.01``.  For a negative "
+"base of type :class:`int` or :class:`float` and a non-integral exponent, a "
+"complex result is delivered.  For example, ``pow(-9, 0.5)`` returns a value "
+"close to ``3j``. Whereas, for a negative base of type :class:`int` or "
+":class:`float` with an integral exponent, a float result is delivered. For "
+"example, ``pow(-9, 2.0)`` returns ``81.0``."
+msgstr ""
+
+#: ../../library/functions.rst:1592
+msgid ""
+"For :class:`int` operands *base* and *exp*, if *mod* is present, *mod* must "
+"also be of integer type and *mod* must be nonzero. If *mod* is present and "
+"*exp* is negative, *base* must be relatively prime to *mod*. In that case, "
+"``pow(inv_base, -exp, mod)`` is returned, where *inv_base* is an inverse to "
+"*base* modulo *mod*."
+msgstr ""
+"Untuk operan :class:`int` *base* dan *exp*, jika *mod* ada, *mod* juga harus"
+" bertipe integer dan *mod* harus bukan nol. Jika *mod* ada dan *exp* "
+"negatif, *basis* harus relatif prima ke *mod*. Dalam kasus itu, "
+"``pow(inv_base, -exp, mod)`` dikembalikan, di mana *inv_base* adalah "
+"kebalikan dari *base* *modulo* *mod*."
+
+#: ../../library/functions.rst:1598
+msgid "Here's an example of computing an inverse for ``38`` modulo ``97``::"
+msgstr ""
+"Berikut adalah contoh penghitungan kebalikan untuk ``38`` modulo ``97``::"
+
+#: ../../library/functions.rst:1600
+msgid ""
+">>> pow(38, -1, mod=97)\n"
+"23\n"
+">>> 23 * 38 % 97 == 1\n"
+"True"
+msgstr ""
+
+#: ../../library/functions.rst:1605
+msgid ""
+"For :class:`int` operands, the three-argument form of ``pow`` now allows the"
+" second argument to be negative, permitting computation of modular inverses."
+msgstr ""
+"Untuk operan :class:`int`, bentuk tiga argumen dari ``pow`` sekarang "
+"memungkinkan argumen kedua menjadi negatif, memungkinkan perhitungan "
+"*inverse* modular."
+
+#: ../../library/functions.rst:1610
+msgid ""
+"Allow keyword arguments.  Formerly, only positional arguments were "
+"supported."
+msgstr ""
+"Izinkan argumen kata kunci *keyword arguments*. Sebelumnya, hanya argumen "
+"posisi yang didukung."
+
+#: ../../library/functions.rst:1617
+msgid ""
+"Print *objects* to the text stream *file*, separated by *sep* and followed "
+"by *end*.  *sep*, *end*, *file*, and *flush*, if present, must be given as "
+"keyword arguments."
+msgstr ""
+
+#: ../../library/functions.rst:1621
+msgid ""
+"All non-keyword arguments are converted to strings like :func:`str` does and"
+" written to the stream, separated by *sep* and followed by *end*.  Both "
+"*sep* and *end* must be strings; they can also be ``None``, which means to "
+"use the default values.  If no *objects* are given, :func:`print` will just "
+"write *end*."
+msgstr ""
+"Semua argumen non-kata kunci dikonversi ke string seperti :func:`str` dan "
+"ditulis ke aliran *stream*, dipisahkan oleh *sep* dan diikuti oleh *end*. "
+"Baik *sep* dan *end* harus berupa string; mereka juga bisa ``None``, yang "
+"berarti menggunakan nilai bawaan. Jika tidak ada *objects* yang diberikan, "
+":func:`print` hanya akan menulis *end*."
+
+#: ../../library/functions.rst:1627
+msgid ""
+"The *file* argument must be an object with a ``write(string)`` method; if it"
+" is not present or ``None``, :data:`sys.stdout` will be used.  Since printed"
+" arguments are converted to text strings, :func:`print` cannot be used with "
+"binary mode file objects.  For these, use ``file.write(...)`` instead."
+msgstr ""
+"Argumen *file* harus berupa objek dengan metode ``write(string)``; jika "
+"tidak ada atau ``None``, :data:`sys.stdout` akan digunakan. Karena argumen "
+"yang dicetak dikonversi ke string teks, :func:`print` tidak dapat digunakan "
+"dengan objek file mode biner. Untuk ini, gunakan ``file.write(...)`` sebagai"
+" gantinya."
+
+#: ../../library/functions.rst:1632
+msgid ""
+"Output buffering is usually determined by *file*. However, if *flush* is "
+"true, the stream is forcibly flushed."
+msgstr ""
+
+#: ../../library/functions.rst:1636
+msgid "Added the *flush* keyword argument."
+msgstr "Menambahkan argumen kata kunci *flush*."
+
+#: ../../library/functions.rst:1642
+msgid "Return a property attribute."
+msgstr "Kembalikan atribut properti."
+
+#: ../../library/functions.rst:1644
+msgid ""
+"*fget* is a function for getting an attribute value.  *fset* is a function "
+"for setting an attribute value. *fdel* is a function for deleting an "
+"attribute value.  And *doc* creates a docstring for the attribute."
+msgstr ""
+"*fget* adalah fungsi untuk mendapatkan nilai atribut. *fset* adalah fungsi "
+"untuk mengatur nilai atribut. *fdel* adalah fungsi untuk menghapus nilai "
+"atribut. Dan *doc* membuat docstring untuk atribut."
+
+#: ../../library/functions.rst:1648
+msgid "A typical use is to define a managed attribute ``x``::"
+msgstr "Penggunaan khasnya untuk mendefinisikan atribut yang dikelola ``x``::"
+
+#: ../../library/functions.rst:1650
+msgid ""
+"class C:\n"
+"    def __init__(self):\n"
+"        self._x = None\n"
+"\n"
+"    def getx(self):\n"
+"        return self._x\n"
+"\n"
+"    def setx(self, value):\n"
+"        self._x = value\n"
+"\n"
+"    def delx(self):\n"
+"        del self._x\n"
+"\n"
+"    x = property(getx, setx, delx, \"I'm the 'x' property.\")"
+msgstr ""
+
+#: ../../library/functions.rst:1665
+msgid ""
+"If *c* is an instance of *C*, ``c.x`` will invoke the getter, ``c.x = "
+"value`` will invoke the setter, and ``del c.x`` the deleter."
+msgstr ""
+
+#: ../../library/functions.rst:1668
+msgid ""
+"If given, *doc* will be the docstring of the property attribute. Otherwise, "
+"the property will copy *fget*'s docstring (if it exists).  This makes it "
+"possible to create read-only properties easily using :func:`property` as a "
+":term:`decorator`::"
+msgstr ""
+"Jika diberikan, *doc* akan menjadi *docstring* dari atribut properti. Jika "
+"tidak, properti akan menyalin *docstring* dari *fget* (jika ada). Ini "
+"memungkinkan untuk membuat properti baca-saja *read-only* dengan mudah "
+"menggunakan :func:`property` sebagai :term:`decorator`::"
+
+#: ../../library/functions.rst:1672
+msgid ""
+"class Parrot:\n"
+"    def __init__(self):\n"
+"        self._voltage = 100000\n"
+"\n"
+"    @property\n"
+"    def voltage(self):\n"
+"        \"\"\"Get the current voltage.\"\"\"\n"
+"        return self._voltage"
+msgstr ""
+
+#: ../../library/functions.rst:1681
+msgid ""
+"The ``@property`` decorator turns the :meth:`!voltage` method into a "
+"\"getter\" for a read-only attribute with the same name, and it sets the "
+"docstring for *voltage* to \"Get the current voltage.\""
+msgstr ""
+
+#: ../../library/functions.rst:1689
+msgid ""
+"A property object has ``getter``, ``setter``, and ``deleter`` methods usable"
+" as decorators that create a copy of the property with the corresponding "
+"accessor function set to the decorated function.  This is best explained "
+"with an example:"
+msgstr ""
+
+#: ../../library/functions.rst:1694
+msgid ""
+"class C:\n"
+"    def __init__(self):\n"
+"        self._x = None\n"
+"\n"
+"    @property\n"
+"    def x(self):\n"
+"        \"\"\"I'm the 'x' property.\"\"\"\n"
+"        return self._x\n"
+"\n"
+"    @x.setter\n"
+"    def x(self, value):\n"
+"        self._x = value\n"
+"\n"
+"    @x.deleter\n"
+"    def x(self):\n"
+"        del self._x"
+msgstr ""
+
+#: ../../library/functions.rst:1713
+msgid ""
+"This code is exactly equivalent to the first example.  Be sure to give the "
+"additional functions the same name as the original property (``x`` in this "
+"case.)"
+msgstr ""
+"Kode ini persis sama dengan contoh pertama. Pastikan untuk memberi fungsi "
+"tambahan nama yang sama dengan properti asli (``x`` dalam kasus ini.)"
+
+#: ../../library/functions.rst:1717
+msgid ""
+"The returned property object also has the attributes ``fget``, ``fset``, and"
+" ``fdel`` corresponding to the constructor arguments."
+msgstr ""
+"Properti dari objek yang dikembalikan juga memiliki atribut ``fget``, "
+"``fset``, dan ``fdel`` yang sesuai dengan argumen pembangun *constructor*."
+
+#: ../../library/functions.rst:1720
+msgid "The docstrings of property objects are now writeable."
+msgstr "docstrings dari properti objek-objek sekarang dapat ditulisi."
+
+#: ../../library/functions.rst:1725
+msgid ""
+"Attribute holding the name of the property. The name of the property can be "
+"changed at runtime."
+msgstr ""
+
+#: ../../library/functions.rst:1736
+msgid ""
+"Rather than being a function, :class:`range` is actually an immutable "
+"sequence type, as documented in :ref:`typesseq-range` and :ref:`typesseq`."
+msgstr ""
+"Alih-alih menjadi fungsi, :class:`range` sebenarnya merupakan tipe urutan "
+"yang tidak dapat diubah *immutable*, seperti yang didokumentasikan dalam "
+":ref:`typesseq-range` dan :ref:`typesseq`."
+
+#: ../../library/functions.rst:1742
+msgid ""
+"Return a string containing a printable representation of an object.  For "
+"many types, this function makes an attempt to return a string that would "
+"yield an object with the same value when passed to :func:`eval`; otherwise, "
+"the representation is a string enclosed in angle brackets that contains the "
+"name of the type of the object together with additional information often "
+"including the name and address of the object.  A class can control what this"
+" function returns for its instances by defining a :meth:`~object.__repr__` "
+"method. If :func:`sys.displayhook` is not accessible, this function will "
+"raise :exc:`RuntimeError`."
+msgstr ""
+
+#: ../../library/functions.rst:1753
+msgid "This class has a custom representation that can be evaluated::"
+msgstr ""
+
+#: ../../library/functions.rst:1755
+msgid ""
+"class Person:\n"
+"   def __init__(self, name, age):\n"
+"      self.name = name\n"
+"      self.age = age\n"
+"\n"
+"   def __repr__(self):\n"
+"      return f\"Person('{self.name}', {self.age})\""
+msgstr ""
+
+#: ../../library/functions.rst:1766
+msgid ""
+"Return a reverse :term:`iterator`.  *seq* must be an object which has a "
+":meth:`~object.__reversed__` method or supports the sequence protocol (the "
+":meth:`~object.__len__` method and the :meth:`~object.__getitem__` method "
+"with integer arguments starting at ``0``)."
+msgstr ""
+
+#: ../../library/functions.rst:1774
+msgid ""
+"Return *number* rounded to *ndigits* precision after the decimal point.  If "
+"*ndigits* is omitted or is ``None``, it returns the nearest integer to its "
+"input."
+msgstr ""
+"Kembalikan *number* dibulatkan ke *ndigits* presisi setelah titik desimal. "
+"Jika *ndigits* dihilangkan atau ``None``, ini akan mengembalikan integer "
+"terdekat ke masukannya."
+
+#: ../../library/functions.rst:1778
+msgid ""
+"For the built-in types supporting :func:`round`, values are rounded to the "
+"closest multiple of 10 to the power minus *ndigits*; if two multiples are "
+"equally close, rounding is done toward the even choice (so, for example, "
+"both ``round(0.5)`` and ``round(-0.5)`` are ``0``, and ``round(1.5)`` is "
+"``2``).  Any integer value is valid for *ndigits* (positive, zero, or "
+"negative).  The return value is an integer if *ndigits* is omitted or "
+"``None``. Otherwise, the return value has the same type as *number*."
+msgstr ""
+
+#: ../../library/functions.rst:1787
+msgid ""
+"For a general Python object ``number``, ``round`` delegates to "
+"``number.__round__``."
+msgstr ""
+"Untuk sebuah objek Python ``number`` secara umum, ``round`` mendelegasikan "
+"ke ``number.__round__``."
+
+#: ../../library/functions.rst:1792
+msgid ""
+"The behavior of :func:`round` for floats can be surprising: for example, "
+"``round(2.675, 2)`` gives ``2.67`` instead of the expected ``2.68``. This is"
+" not a bug: it's a result of the fact that most decimal fractions can't be "
+"represented exactly as a float.  See :ref:`tut-fp-issues` for more "
+"information."
+msgstr ""
+"Perilaku :func:`round` untuk pecahan *floats* bisa mengejutkan: misalnya, "
+"``round(2.675, 2)`` memberikan ``2.67`` alih-alih yang diharapkan ``2.68``. "
+"Ini bukan bug: ini adalah hasil dari fakta bahwa sebagian besar pecahan "
+"desimal tidak dapat diwakili persis seperti pelampung *float*. Lihat "
+":ref:`tut-fp-issues` untuk informasi lebih lanjut."
+
+#: ../../library/functions.rst:1804
+msgid ""
+"Return a new :class:`set` object, optionally with elements taken from "
+"*iterable*.  ``set`` is a built-in class.  See :class:`set` and :ref:`types-"
+"set` for documentation about this class."
+msgstr ""
+"Kembalikan objek baru :class:`set`, secara opsional dengan elemen yang "
+"diambil dari *iterable*. ``set`` adalah kelas bawaan. Lihat: class:`set` dan"
+" :ref:`types-set` untuk dokumentasi tentang kelas ini."
+
+#: ../../library/functions.rst:1808
+msgid ""
+"For other containers see the built-in :class:`frozenset`, :class:`list`, "
+":class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections`"
+" module."
+msgstr ""
+"Untuk wadah *containers* lain lihat kelas-kelas bawaan :class:`frozenset`, "
+":class:`list`, :class:`tuple`, dan :class:`dict`, juga modul "
+":mod:`collections`."
+
+#: ../../library/functions.rst:1815
+msgid ""
+"This is the counterpart of :func:`getattr`.  The arguments are an object, a "
+"string, and an arbitrary value.  The string may name an existing attribute "
+"or a new attribute.  The function assigns the value to the attribute, "
+"provided the object allows it.  For example, ``setattr(x, 'foobar', 123)`` "
+"is equivalent to ``x.foobar = 123``."
+msgstr ""
+
+#: ../../library/functions.rst:1821
+msgid ""
+"*name* need not be a Python identifier as defined in :ref:`identifiers` "
+"unless the object chooses to enforce that, for example in a custom "
+":meth:`~object.__getattribute__` or via :attr:`~object.__slots__`. An "
+"attribute whose name is not an identifier will not be accessible using the "
+"dot notation, but is accessible through :func:`getattr` etc.."
+msgstr ""
+
+#: ../../library/functions.rst:1829
+msgid ""
+"Since :ref:`private name mangling <private-name-mangling>` happens at "
+"compilation time, one must manually mangle a private attribute's (attributes"
+" with two leading underscores) name in order to set it with :func:`setattr`."
+msgstr ""
+
+#: ../../library/functions.rst:1838
+msgid ""
+"Return a :term:`slice` object representing the set of indices specified by "
+"``range(start, stop, step)``.  The *start* and *step* arguments default to "
+"``None``."
+msgstr ""
+
+#: ../../library/functions.rst:1846
+msgid ""
+"Slice objects have read-only data attributes :attr:`!start`, :attr:`!stop`, "
+"and :attr:`!step` which merely return the argument values (or their "
+"default).  They have no other explicit functionality; however, they are used"
+" by NumPy and other third-party packages."
+msgstr ""
+
+#: ../../library/functions.rst:1851
+msgid ""
+"Slice objects are also generated when extended indexing syntax is used.  For"
+" example: ``a[start:stop:step]`` or ``a[start:stop, i]``.  See "
+":func:`itertools.islice` for an alternate version that returns an "
+":term:`iterator`."
+msgstr ""
+
+#: ../../library/functions.rst:1856
+msgid ""
+"Slice objects are now :term:`hashable` (provided :attr:`~slice.start`, "
+":attr:`~slice.stop`, and :attr:`~slice.step` are hashable)."
+msgstr ""
+
+#: ../../library/functions.rst:1862
+msgid "Return a new sorted list from the items in *iterable*."
+msgstr "Kembalikan daftar baru yang diurutkan dari item di *iterable*."
+
+#: ../../library/functions.rst:1864
+msgid ""
+"Has two optional arguments which must be specified as keyword arguments."
+msgstr ""
+"Memiliki dua argumen opsional yang harus ditentukan sebagai argumen kata "
+"kunci."
+
+#: ../../library/functions.rst:1866
+msgid ""
+"*key* specifies a function of one argument that is used to extract a "
+"comparison key from each element in *iterable* (for example, "
+"``key=str.lower``).  The default value is ``None`` (compare the elements "
+"directly)."
+msgstr ""
+"*key* menentukan sebuah fungsi dari satu argumen yang digunakan untuk "
+"mengekstrak kunci perbandingan dari setiap elemen di *iterable* (misalnya, "
+"``key=str.lower``). Nilai bawaannya adalah ``None`` (bandingkan elemen "
+"secara langsung)."
+
+#: ../../library/functions.rst:1870
+msgid ""
+"*reverse* is a boolean value.  If set to ``True``, then the list elements "
+"are sorted as if each comparison were reversed."
+msgstr ""
+"*reverse* adalah nilai *boolean*. Jika diatur ke ``True``, maka elemen list "
+"atau daftar diurutkan seolah-olah setiap perbandingan dibalik."
+
+#: ../../library/functions.rst:1873
+msgid ""
+"Use :func:`functools.cmp_to_key` to convert an old-style *cmp* function to a"
+" *key* function."
+msgstr ""
+"Gunakan :func:`functools.cmp_to_key` untuk mengubah fungsi *cmp* gaya lama "
+"menjadi fungsi *key*."
+
+#: ../../library/functions.rst:1876
+msgid ""
+"The built-in :func:`sorted` function is guaranteed to be stable. A sort is "
+"stable if it guarantees not to change the relative order of elements that "
+"compare equal --- this is helpful for sorting in multiple passes (for "
+"example, sort by department, then by salary grade)."
+msgstr ""
+"Fungsi bawaan :func:`sorted` dijamin stabil. Semacam stabil jika menjamin "
+"tidak mengubah urutan relatif elemen yang membandingkan kesamaan --- ini "
+"berguna untuk menyortir dalam beberapa langkah (misalnya, urutkan "
+"berdasarkan departemen, lalu dengan tingkat gaji)."
+
+#: ../../library/functions.rst:1881
+msgid ""
+"The sort algorithm uses only ``<`` comparisons between items.  While "
+"defining an :meth:`~object.__lt__` method will suffice for sorting, :PEP:`8`"
+" recommends that all six :ref:`rich comparisons <comparisons>` be "
+"implemented.  This will help avoid bugs when using the same data with other "
+"ordering tools such as :func:`max` that rely on a different underlying "
+"method.  Implementing all six comparisons also helps avoid confusion for "
+"mixed type comparisons which can call reflected the :meth:`~object.__gt__` "
+"method."
+msgstr ""
+
+#: ../../library/functions.rst:1890
+msgid ""
+"For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
+msgstr ""
+"Untuk contoh pengurutan dan tutorial singkat pengurutan, lihat :ref: "
+"`sortinghowto`."
+
+#: ../../library/functions.rst:1894
+msgid "Transform a method into a static method."
+msgstr "Ubah sebuah metode menjadi sebuah metode statis."
+
+#: ../../library/functions.rst:1896
+msgid ""
+"A static method does not receive an implicit first argument. To declare a "
+"static method, use this idiom::"
+msgstr ""
+"Metode statis tidak menerima argumen implisit pertama. Untuk mendeklarasikan"
+" metode statis, gunakan idiom ini::"
+
+#: ../../library/functions.rst:1899
+msgid ""
+"class C:\n"
+"    @staticmethod\n"
+"    def f(arg1, arg2, argN): ..."
+msgstr ""
+
+#: ../../library/functions.rst:1903
+msgid ""
+"The ``@staticmethod`` form is a function :term:`decorator` -- see "
+":ref:`function` for details."
+msgstr ""
+"Bentuk ``@staticmethod`` adalah fungsi :term:`decorator` -- lihat "
+":ref:`function` untuk detail."
+
+#: ../../library/functions.rst:1906
+msgid ""
+"A static method can be called either on the class (such as ``C.f()``) or on "
+"an instance (such as ``C().f()``). Moreover, the static method "
+":term:`descriptor` is also callable, so it can be used in the class "
+"definition (such as ``f()``)."
+msgstr ""
+
+#: ../../library/functions.rst:1911
+msgid ""
+"Static methods in Python are similar to those found in Java or C++. Also, "
+"see :func:`classmethod` for a variant that is useful for creating alternate "
+"class constructors."
+msgstr ""
+
+#: ../../library/functions.rst:1915
+msgid ""
+"Like all decorators, it is also possible to call ``staticmethod`` as a "
+"regular function and do something with its result.  This is needed in some "
+"cases where you need a reference to a function from a class body and you "
+"want to avoid the automatic transformation to instance method.  For these "
+"cases, use this idiom::"
+msgstr ""
+"Seperti semua dekorator, dimungkinkan juga untuk memanggil ``staticmethod`` "
+"sebagai fungsi biasa dan melakukan sesuatu dengan hasilnya. Ini diperlukan "
+"dalam beberapa kasus di mana Anda memerlukan referensi ke fungsi dari badan "
+"kelas dan Anda ingin menghindari transformasi otomatis ke metode *instance*."
+" Untuk kasus ini, gunakan idiom ini::"
+
+#: ../../library/functions.rst:1921
+msgid ""
+"def regular_function():\n"
+"    ...\n"
+"\n"
+"class C:\n"
+"    method = staticmethod(regular_function)"
+msgstr ""
+
+#: ../../library/functions.rst:1927
+msgid "For more information on static methods, see :ref:`types`."
+msgstr ""
+"Untuk informasi lebih lanjut tentang metode statis, lihat :ref:`types`."
+
+#: ../../library/functions.rst:1929
+msgid ""
+"Static methods now inherit the method attributes "
+"(:attr:`~function.__module__`, :attr:`~function.__name__`, "
+":attr:`~function.__qualname__`, :attr:`~function.__doc__` and "
+":attr:`~function.__annotations__`), have a new ``__wrapped__`` attribute, "
+"and are now callable as regular functions."
+msgstr ""
+
+#: ../../library/functions.rst:1945
+msgid ""
+"Return a :class:`str` version of *object*.  See :func:`str` for details."
+msgstr ""
+"Kembalikan sebuah versi :class:`str` dari *objek*.  Lihat :func:`str` untuk "
+"detailnya."
+
+#: ../../library/functions.rst:1947
+msgid ""
+"``str`` is the built-in string :term:`class`.  For general information about"
+" strings, see :ref:`textseq`."
+msgstr ""
+"``str`` adalah string bawaan :term:`class`.  Untuk informasi umum tentang "
+"string, lihat :ref:`textseq`."
+
+#: ../../library/functions.rst:1953
+msgid ""
+"Sums *start* and the items of an *iterable* from left to right and returns "
+"the total.  The *iterable*'s items are normally numbers, and the start value"
+" is not allowed to be a string."
+msgstr ""
+"Jumlah *start* dan item dari *iterable* dari kiri ke kanan dan mengembalikan"
+" total. Item *iterable* biasanya berupa angka, dan nilai awal tidak boleh "
+"berupa string."
+
+#: ../../library/functions.rst:1957
+msgid ""
+"For some use cases, there are good alternatives to :func:`sum`. The "
+"preferred, fast way to concatenate a sequence of strings is by calling "
+"``''.join(sequence)``.  To add floating-point values with extended "
+"precision, see :func:`math.fsum`\\.  To concatenate a series of iterables, "
+"consider using :func:`itertools.chain`."
+msgstr ""
+
+#: ../../library/functions.rst:1963
+msgid "The *start* parameter can be specified as a keyword argument."
+msgstr "Parameter *mulai* dapat ditentukan sebagai argumen kata kunci."
+
+#: ../../library/functions.rst:1966
+msgid ""
+"Summation of floats switched to an algorithm that gives higher accuracy and "
+"better commutativity on most builds."
+msgstr ""
+
+#: ../../library/functions.rst:1969
+msgid ""
+"Added specialization for summation of complexes, using same algorithm as for"
+" summation of floats."
+msgstr ""
+
+#: ../../library/functions.rst:1977
+msgid ""
+"Return a proxy object that delegates method calls to a parent or sibling "
+"class of *type*.  This is useful for accessing inherited methods that have "
+"been overridden in a class."
+msgstr ""
+"Kembalikan objek proxy yang mendelegasikan panggilan metode ke kelas orang "
+"tua atau saudara dari *type*. Ini berguna untuk mengakses metode yang "
+"diwariskan yang telah ditimpa di suatu kelas."
+
+#: ../../library/functions.rst:1981
+msgid ""
+"The *object_or_type* determines the :term:`method resolution order` to be "
+"searched.  The search starts from the class right after the *type*."
+msgstr ""
+
+#: ../../library/functions.rst:1985
+msgid ""
+"For example, if :attr:`~type.__mro__` of *object_or_type* is ``D -> B -> C "
+"-> A -> object`` and the value of *type* is ``B``, then :func:`super` "
+"searches ``C -> A -> object``."
+msgstr ""
+
+#: ../../library/functions.rst:1989
+msgid ""
+"The :attr:`~type.__mro__` attribute of the class corresponding to "
+"*object_or_type* lists the method resolution search order used by both "
+":func:`getattr` and :func:`super`.  The attribute is dynamic and can change "
+"whenever the inheritance hierarchy is updated."
+msgstr ""
+
+#: ../../library/functions.rst:1994
+msgid ""
+"If the second argument is omitted, the super object returned is unbound.  If"
+" the second argument is an object, ``isinstance(obj, type)`` must be true.  "
+"If the second argument is a type, ``issubclass(type2, type)`` must be true "
+"(this is useful for classmethods)."
+msgstr ""
+"Jika argumen kedua dihilangkan, objek super yang dikembalikan tidak terikat "
+"*unbound*. Jika argumen kedua adalah objek, ``isinstance(obj, type)`` harus "
+"benar. Jika argumen kedua adalah tipe, ``issubclass(type2, type)`` harus "
+"benar (ini berguna untuk metode-metode kelas)."
+
+#: ../../library/functions.rst:1999
+msgid ""
+"When called directly within an ordinary method of a class, both arguments "
+"may be omitted (\"zero-argument :func:`!super`\"). In this case, *type* will"
+" be the enclosing class, and *obj* will be the first argument of the "
+"immediately enclosing function (typically ``self``). (This means that zero-"
+"argument :func:`!super` will not work as expected within nested functions, "
+"including generator expressions, which implicitly create nested functions.)"
+msgstr ""
+
+#: ../../library/functions.rst:2006
+msgid ""
+"There are two typical use cases for *super*.  In a class hierarchy with "
+"single inheritance, *super* can be used to refer to parent classes without "
+"naming them explicitly, thus making the code more maintainable.  This use "
+"closely parallels the use of *super* in other programming languages."
+msgstr ""
+"Ada dua kasus penggunaan khas untuk *super*. Dalam hierarki kelas dengan "
+"pewarisan tunggal *single inheritance*, *super* dapat digunakan untuk "
+"merujuk ke kelas induk tanpa menyebutkannya secara eksplisit, sehingga "
+"membuat kode lebih mudah dikelola. Penggunaan ini sangat mirip dengan "
+"penggunaan *super* dalam bahasa pemrograman lain."
+
+#: ../../library/functions.rst:2011
+msgid ""
+"The second use case is to support cooperative multiple inheritance in a "
+"dynamic execution environment.  This use case is unique to Python and is not"
+" found in statically compiled languages or languages that only support "
+"single inheritance.  This makes it possible to implement \"diamond "
+"diagrams\" where multiple base classes implement the same method.  Good "
+"design dictates that such implementations have the same calling signature in"
+" every case (because the order of calls is determined at runtime, because "
+"that order adapts to changes in the class hierarchy, and because that order "
+"can include sibling classes that are unknown prior to runtime)."
+msgstr ""
+
+#: ../../library/functions.rst:2021
+msgid "For both use cases, a typical superclass call looks like this::"
+msgstr ""
+"Untuk kedua kasus penggunaan, pemanggilan *superclass* yang khas terlihat "
+"seperti ini::"
+
+#: ../../library/functions.rst:2023
+msgid ""
+"class C(B):\n"
+"    def method(self, arg):\n"
+"        super().method(arg)    # This does the same thing as:\n"
+"                               # super(C, self).method(arg)"
+msgstr ""
+
+#: ../../library/functions.rst:2028
+msgid ""
+"In addition to method lookups, :func:`super` also works for attribute "
+"lookups.  One possible use case for this is calling :term:`descriptors "
+"<descriptor>` in a parent or sibling class."
+msgstr ""
+"Selain pencarian metode, :func:`super` juga berfungsi untuk pencarian "
+"atribut. Salah satu kemungkinan kasus penggunaan ini adalah pemanggilan "
+":term:`descriptors <descriptor>` di kelas induk atau saudara kandung."
+
+#: ../../library/functions.rst:2032
+msgid ""
+"Note that :func:`super` is implemented as part of the binding process for "
+"explicit dotted attribute lookups such as ``super().__getitem__(name)``. It "
+"does so by implementing its own :meth:`~object.__getattribute__` method for "
+"searching classes in a predictable order that supports cooperative multiple "
+"inheritance. Accordingly, :func:`super` is undefined for implicit lookups "
+"using statements or operators such as ``super()[name]``."
+msgstr ""
+
+#: ../../library/functions.rst:2040
+msgid ""
+"Also note that, aside from the zero argument form, :func:`super` is not "
+"limited to use inside methods.  The two argument form specifies the "
+"arguments exactly and makes the appropriate references.  The zero argument "
+"form only works inside a class definition, as the compiler fills in the "
+"necessary details to correctly retrieve the class being defined, as well as "
+"accessing the current instance for ordinary methods."
+msgstr ""
+"Juga perhatikan bahwa, selain dari bentuk tanpa argumen, :func:`super` tidak"
+" terbatas untuk menggunakan metode di dalam. Bentuk dua argumen menentukan "
+"argumen dengan tepat dan membuat referensi yang sesuai. Bentuk tanpa argumen"
+" hanya bekerja di dalam definisi kelas, karena *compiler* mengisi rincian "
+"yang diperlukan untuk mengambil kelas yang didefinisikan dengan benar, serta"
+" mengakses *instance* saat ini untuk metode biasa."
+
+#: ../../library/functions.rst:2047
+msgid ""
+"For practical suggestions on how to design cooperative classes using "
+":func:`super`, see `guide to using super() "
+"<https://rhettinger.wordpress.com/2011/05/26/super-considered-super/>`_."
+msgstr ""
+"Untuk saran praktis tentang bagaimana merancang kelas kooperatif menggunakan"
+" :func:`super`, lihat `guide to using super() "
+"<https://rhettinger.wordpress.com/2011/05/26/super-considered-super/>`_."
+
+#: ../../library/functions.rst:2051
+msgid ""
+":class:`super` objects are now :mod:`pickleable <pickle>` and  "
+":mod:`copyable <copy>`."
+msgstr ""
+
+#: ../../library/functions.rst:2061
+msgid ""
+"Rather than being a function, :class:`tuple` is actually an immutable "
+"sequence type, as documented in :ref:`typesseq-tuple` and :ref:`typesseq`."
+msgstr ""
+"Alih-alih menjadi fungsi, :class:`tuple` sebenarnya merupakan tipe urutan "
+"yang tidak dapat diubah atau disebut *immutable*, seperti yang "
+"didokumentasikan dalam :ref:`typesseq-tuple` dan :ref:`typesseq`."
+
+#: ../../library/functions.rst:2070
+msgid ""
+"With one argument, return the type of an *object*.  The return value is a "
+"type object and generally the same object as returned by "
+":attr:`object.__class__`."
+msgstr ""
+
+#: ../../library/functions.rst:2074
+msgid ""
+"The :func:`isinstance` built-in function is recommended for testing the type"
+" of an object, because it takes subclasses into account."
+msgstr ""
+"Fungsi bawaan :func:`isinstance` direkomendasikan untuk menguji jenis objek,"
+" karena ia memperhitungkan subkelas."
+
+#: ../../library/functions.rst:2077
+msgid ""
+"With three arguments, return a new type object.  This is essentially a "
+"dynamic form of the :keyword:`class` statement. The *name* string is the "
+"class name and becomes the :attr:`~type.__name__` attribute. The *bases* "
+"tuple contains the base classes and becomes the :attr:`~type.__bases__` "
+"attribute; if empty, :class:`object`, the ultimate base of all classes, is "
+"added.  The *dict* dictionary contains attribute and method definitions for "
+"the class body; it may be copied or wrapped before becoming the "
+":attr:`~type.__dict__` attribute. The following two statements create "
+"identical :class:`!type` objects:"
+msgstr ""
+
+#: ../../library/functions.rst:2092
+msgid "See also:"
+msgstr ""
+
+#: ../../library/functions.rst:2094
+msgid ""
+":ref:`Documentation on attributes and methods on classes <class-attrs-and-"
+"methods>`."
+msgstr ""
+
+#: ../../library/functions.rst:2095
+msgid ":ref:`bltin-type-objects`"
+msgstr ""
+
+#: ../../library/functions.rst:2097
+msgid ""
+"Keyword arguments provided to the three argument form are passed to the "
+"appropriate metaclass machinery (usually :meth:`~object.__init_subclass__`) "
+"in the same way that keywords in a class definition (besides *metaclass*) "
+"would."
+msgstr ""
+
+#: ../../library/functions.rst:2102
+msgid "See also :ref:`class-customization`."
+msgstr ""
+
+#: ../../library/functions.rst:2104
+msgid ""
+"Subclasses of :class:`!type` which don't override ``type.__new__`` may no "
+"longer use the one-argument form to get the type of an object."
+msgstr ""
+
+#: ../../library/functions.rst:2111
+msgid ""
+"Return the :attr:`~object.__dict__` attribute for a module, class, instance,"
+" or any other object with a :attr:`!__dict__` attribute."
+msgstr ""
+
+#: ../../library/functions.rst:2114
+msgid ""
+"Objects such as modules and instances have an updateable "
+":attr:`~object.__dict__` attribute; however, other objects may have write "
+"restrictions on their :attr:`!__dict__` attributes (for example, classes use"
+" a :class:`types.MappingProxyType` to prevent direct dictionary updates)."
+msgstr ""
+
+#: ../../library/functions.rst:2119
+msgid "Without an argument, :func:`vars` acts like :func:`locals`."
+msgstr ""
+
+#: ../../library/functions.rst:2121
+msgid ""
+"A :exc:`TypeError` exception is raised if an object is specified but it "
+"doesn't have a :attr:`~object.__dict__` attribute (for example, if its class"
+" defines the :attr:`~object.__slots__` attribute)."
+msgstr ""
+"Sebuah pengecualian untuk :exc:`TypeError` akan muncul jika suatu objek yang"
+" ditentukan tetapi tidak memiliki sebuah atribut :attr:`~object.__dict__` "
+"(contohnya, jika suatu kelas didefinisikan sebagai atribut "
+":attr:`~object.__slots__`)."
+
+#: ../../library/functions.rst:2127
+msgid ""
+"The result of calling this function without an argument has been updated as "
+"described for the :func:`locals` builtin."
+msgstr ""
+
+#: ../../library/functions.rst:2133
+msgid ""
+"Iterate over several iterables in parallel, producing tuples with an item "
+"from each one."
+msgstr ""
+
+#: ../../library/functions.rst:2136
+msgid "Example::"
+msgstr "Contoh::"
+
+#: ../../library/functions.rst:2138
+msgid ""
+">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):\n"
+"...     print(item)\n"
+"...\n"
+"(1, 'sugar')\n"
+"(2, 'spice')\n"
+"(3, 'everything nice')"
+msgstr ""
+
+#: ../../library/functions.rst:2145
+msgid ""
+"More formally: :func:`zip` returns an iterator of tuples, where the *i*-th "
+"tuple contains the *i*-th element from each of the argument iterables."
+msgstr ""
+
+#: ../../library/functions.rst:2148
+msgid ""
+"Another way to think of :func:`zip` is that it turns rows into columns, and "
+"columns into rows.  This is similar to `transposing a matrix "
+"<https://en.wikipedia.org/wiki/Transpose>`_."
+msgstr ""
+
+#: ../../library/functions.rst:2152
+msgid ""
+":func:`zip` is lazy: The elements won't be processed until the iterable is "
+"iterated on, e.g. by a :keyword:`!for` loop or by wrapping in a "
+":class:`list`."
+msgstr ""
+
+#: ../../library/functions.rst:2156
+msgid ""
+"One thing to consider is that the iterables passed to :func:`zip` could have"
+" different lengths; sometimes by design, and sometimes because of a bug in "
+"the code that prepared these iterables.  Python offers three different "
+"approaches to dealing with this issue:"
+msgstr ""
+
+#: ../../library/functions.rst:2161
+msgid ""
+"By default, :func:`zip` stops when the shortest iterable is exhausted. It "
+"will ignore the remaining items in the longer iterables, cutting off the "
+"result to the length of the shortest iterable::"
+msgstr ""
+
+#: ../../library/functions.rst:2165
+msgid ""
+">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))\n"
+"[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
+msgstr ""
+
+#: ../../library/functions.rst:2168
+msgid ""
+":func:`zip` is often used in cases where the iterables are assumed to be of "
+"equal length.  In such cases, it's recommended to use the ``strict=True`` "
+"option. Its output is the same as regular :func:`zip`::"
+msgstr ""
+
+#: ../../library/functions.rst:2172
+msgid ""
+">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))\n"
+"[('a', 1), ('b', 2), ('c', 3)]"
+msgstr ""
+
+#: ../../library/functions.rst:2175
+msgid ""
+"Unlike the default behavior, it raises a :exc:`ValueError` if one iterable "
+"is exhausted before the others:"
+msgstr ""
+
+#: ../../library/functions.rst:2193
+msgid ""
+"Without the ``strict=True`` argument, any bug that results in iterables of "
+"different lengths will be silenced, possibly manifesting as a hard-to-find "
+"bug in another part of the program."
+msgstr ""
+
+#: ../../library/functions.rst:2197
+msgid ""
+"Shorter iterables can be padded with a constant value to make all the "
+"iterables have the same length.  This is done by "
+":func:`itertools.zip_longest`."
+msgstr ""
+
+#: ../../library/functions.rst:2201
+msgid ""
+"Edge cases: With a single iterable argument, :func:`zip` returns an iterator"
+" of 1-tuples.  With no arguments, it returns an empty iterator."
+msgstr ""
+
+#: ../../library/functions.rst:2204
+msgid "Tips and tricks:"
+msgstr ""
+
+#: ../../library/functions.rst:2206
+msgid ""
+"The left-to-right evaluation order of the iterables is guaranteed. This "
+"makes possible an idiom for clustering a data series into n-length groups "
+"using ``zip(*[iter(s)]*n, strict=True)``.  This repeats the *same* iterator "
+"``n`` times so that each output tuple has the result of ``n`` calls to the "
+"iterator. This has the effect of dividing the input into n-length chunks."
+msgstr ""
+
+#: ../../library/functions.rst:2212
+msgid ""
+":func:`zip` in conjunction with the ``*`` operator can be used to unzip a "
+"list::"
+msgstr ""
+":func:`zip` bersama dengan operator ``*`` dapat digunakan untuk *unzip* "
+"sebuah list atau daftar::"
+
+#: ../../library/functions.rst:2215
+msgid ""
+">>> x = [1, 2, 3]\n"
+">>> y = [4, 5, 6]\n"
+">>> list(zip(x, y))\n"
+"[(1, 4), (2, 5), (3, 6)]\n"
+">>> x2, y2 = zip(*zip(x, y))\n"
+">>> x == list(x2) and y == list(y2)\n"
+"True"
+msgstr ""
+
+#: ../../library/functions.rst:2223
+msgid "Added the ``strict`` argument."
+msgstr ""
+
+#: ../../library/functions.rst:2235
+msgid ""
+"This is an advanced function that is not needed in everyday Python "
+"programming, unlike :func:`importlib.import_module`."
+msgstr ""
+"Ini adalah fungsi lanjutan yang tidak diperlukan dalam pemrograman Python "
+"sehari-hari, tidak seperti :func:`importlib.import_module`."
+
+#: ../../library/functions.rst:2238
+msgid ""
+"This function is invoked by the :keyword:`import` statement.  It can be "
+"replaced (by importing the :mod:`builtins` module and assigning to "
+"``builtins.__import__``) in order to change semantics of the "
+":keyword:`!import` statement, but doing so is **strongly** discouraged as it"
+" is usually simpler to use import hooks (see :pep:`302`) to attain the same "
+"goals and does not cause issues with code which assumes the default import "
+"implementation is in use.  Direct use of :func:`__import__` is also "
+"discouraged in favor of :func:`importlib.import_module`."
+msgstr ""
+"Fungsi ini dipanggil oleh pernyataan :keyword:`import`. Itu dapat diganti "
+"(dengan mengimpor modul :mod:`builtins` dan mengisi ke "
+"``builtins.__import__``) untuk mengubah semantik pernyataan "
+":keyword:`!import`, tetapi melakukannya **strongly** atau tidak disarankan "
+"karena biasanya lebih mudah menggunakan kait impor (lihat: pep:`302`) untuk "
+"mencapai tujuan yang sama dan tidak menyebabkan masalah dengan kode yang "
+"mengasumsikan implementasi impor standar sedang digunakan. Penggunaan "
+"langsung :func:`__import__` juga tidak disarankan untuk kepentingan "
+":func:`importlib.import_module`."
+
+#: ../../library/functions.rst:2247
+msgid ""
+"The function imports the module *name*, potentially using the given "
+"*globals* and *locals* to determine how to interpret the name in a package "
+"context. The *fromlist* gives the names of objects or submodules that should"
+" be imported from the module given by *name*.  The standard implementation "
+"does not use its *locals* argument at all and uses its *globals* only to "
+"determine the package context of the :keyword:`import` statement."
+msgstr ""
+
+#: ../../library/functions.rst:2254
+msgid ""
+"*level* specifies whether to use absolute or relative imports. ``0`` (the "
+"default) means only perform absolute imports.  Positive values for *level* "
+"indicate the number of parent directories to search relative to the "
+"directory of the module calling :func:`__import__` (see :pep:`328` for the "
+"details)."
+msgstr ""
+"*level* menentukan apakah akan menggunakan impor absolut atau relatif. ``0``"
+" (bawaan) berarti hanya melakukan impor absolut. Nilai positif untuk *level*"
+" menunjukkan jumlah direktori induk untuk mencari relatif ke direktori "
+"pemanggilan modul :func:`__import__` (lihat :pep:`328` untuk detailnya)."
+
+#: ../../library/functions.rst:2260
+msgid ""
+"When the *name* variable is of the form ``package.module``, normally, the "
+"top-level package (the name up till the first dot) is returned, *not* the "
+"module named by *name*.  However, when a non-empty *fromlist* argument is "
+"given, the module named by *name* is returned."
+msgstr ""
+"Ketika variabel *name* dalam bentuk ``package.module``, biasanya, paket "
+"tingkat atas (nama hingga titik pertama) dikembalikan, *not* modul dinamai "
+"dengan *name*. Namun, ketika argumen tidak-kosong *fromlist * diberikan, "
+"modul bernama oleh *name* dikembalikan."
+
+#: ../../library/functions.rst:2265
+msgid ""
+"For example, the statement ``import spam`` results in bytecode resembling "
+"the following code::"
+msgstr ""
+"Sebagai contoh, pernyataan ``import spam`` menghasilkan bytecode yang "
+"menyerupai kode berikut::"
+
+#: ../../library/functions.rst:2268
+msgid "spam = __import__('spam', globals(), locals(), [], 0)"
+msgstr ""
+
+#: ../../library/functions.rst:2270
+msgid "The statement ``import spam.ham`` results in this call::"
+msgstr "Pernyataan ``import spam.ham`` menghasilkan panggilan ini::"
+
+#: ../../library/functions.rst:2272
+msgid "spam = __import__('spam.ham', globals(), locals(), [], 0)"
+msgstr ""
+
+#: ../../library/functions.rst:2274
+msgid ""
+"Note how :func:`__import__` returns the toplevel module here because this is"
+" the object that is bound to a name by the :keyword:`import` statement."
+msgstr ""
+"Perhatikan caranya :func:`__import__` mengembalikan modul tingkat atas di "
+"sini karena ini adalah objek yang terikat pada nama oleh pernyataan "
+":keyword:`import`."
+
+#: ../../library/functions.rst:2277
+msgid ""
+"On the other hand, the statement ``from spam.ham import eggs, sausage as "
+"saus`` results in ::"
+msgstr ""
+"Di sisi lain, pernyataan ``from spam.ham import eggs, sausage as saus`` "
+"menghasilkan ::"
+
+#: ../../library/functions.rst:2280
+msgid ""
+"_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)\n"
+"eggs = _temp.eggs\n"
+"saus = _temp.sausage"
+msgstr ""
+
+#: ../../library/functions.rst:2284
+msgid ""
+"Here, the ``spam.ham`` module is returned from :func:`__import__`.  From "
+"this object, the names to import are retrieved and assigned to their "
+"respective names."
+msgstr ""
+"Di sini, modul ``spam.ham`` dikembalikan dari :func:`__import__`. Dari objek"
+" ini, nama yang akan diimpor diambil dan diisikan ke nama masing-masing."
+
+#: ../../library/functions.rst:2288
+msgid ""
+"If you simply want to import a module (potentially within a package) by "
+"name, use :func:`importlib.import_module`."
+msgstr ""
+"Jika Anda hanya ingin mengimpor sebuah modul (berpotensi dalam suatu paket) "
+"dengan nama, gunakan :func:`importlib.import_module`."
+
+#: ../../library/functions.rst:2291
+msgid ""
+"Negative values for *level* are no longer supported (which also changes the "
+"default value to 0)."
+msgstr ""
+"Nilai negatif untuk *level* tidak lagi didukung (juga mengubah nilai default"
+" menjadi 0)."
+
+#: ../../library/functions.rst:2295
+msgid ""
+"When the command line options :option:`-E` or :option:`-I` are being used, "
+"the environment variable :envvar:`PYTHONCASEOK` is now ignored."
+msgstr ""
+
+#: ../../library/functions.rst:2300
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+#: ../../library/functions.rst:2301
+msgid ""
+"Note that the parser only accepts the Unix-style end of line convention. If "
+"you are reading the code from a file, make sure to use newline conversion "
+"mode to convert Windows or Mac-style newlines."
+msgstr ""
+"Perhatikan bahwa pengurai hanya menerima konvensi akhir garis *end of line* "
+"gaya Unix. Jika Anda membaca kode dari sebuah berkas, pastikan untuk "
+"menggunakan mode konversi baris baru untuk mengkonversi baris baru gaya "
+"Windows atau Mac."
+
+#: ../../library/functions.rst:154
+msgid "Boolean"
+msgstr ""
+
+#: ../../library/functions.rst:154 ../../library/functions.rst:2068
+msgid "type"
+msgstr "tipe"
+
+#: ../../library/functions.rst:654
+msgid "built-in function"
+msgstr "fungsi bawaan"
+
+#: ../../library/functions.rst:654
+msgid "exec"
+msgstr ""
+
+#: ../../library/functions.rst:752
+msgid "NaN"
+msgstr ""
+
+#: ../../library/functions.rst:752
+msgid "Infinity"
+msgstr ""
+
+#: ../../library/functions.rst:822
+msgid "__format__"
+msgstr ""
+
+#: ../../library/functions.rst:822 ../../library/functions.rst:1937
+msgid "string"
+msgstr "string"
+
+#: ../../library/functions.rst:822
+msgid "format() (built-in function)"
+msgstr ""
+
+#: ../../library/functions.rst:1337
+msgid "file object"
+msgstr "objek berkas"
+
+#: ../../library/functions.rst:1337 ../../library/functions.rst:1458
+msgid "open() built-in function"
+msgstr ""
+
+#: ../../library/functions.rst:1365
+msgid "file"
+msgstr ""
+
+#: ../../library/functions.rst:1365
+msgid "modes"
+msgstr ""
+
+#: ../../library/functions.rst:1458
+msgid "universal newlines"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "line-buffered I/O"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "unbuffered I/O"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "buffer size, I/O"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "I/O control"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "buffering"
+msgstr ""
+
+#: ../../library/functions.rst:1519
+msgid "text mode"
+msgstr ""
+
+#: ../../library/functions.rst:1519 ../../library/functions.rst:2229
+msgid "module"
+msgstr "modul"
+
+#: ../../library/functions.rst:1519
+msgid "sys"
+msgstr "sys"
+
+#: ../../library/functions.rst:1937
+msgid "str() (built-in function)"
+msgstr ""
+
+#: ../../library/functions.rst:2068
+msgid "object"
+msgstr "objek"
+
+#: ../../library/functions.rst:2229
+msgid "statement"
+msgstr "pernyataan"
+
+#: ../../library/functions.rst:2229
+msgid "import"
+msgstr ""
+
+#: ../../library/functions.rst:2229
+msgid "builtins"
+msgstr "builtins"

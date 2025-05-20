@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 01:08+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/language.rst:5
+msgid "Python Language Services"
+msgstr "Layanan Bahasa Python"
+
+#: ../../library/language.rst:7
+msgid ""
+"Python provides a number of modules to assist in working with the Python "
+"language.  These modules support tokenizing, parsing, syntax analysis, "
+"bytecode disassembly, and various other facilities."
+msgstr ""
+"Python menyediakan sejumlah modul untuk membantu bekerja dengan bahasa "
+"Python. Modul-modul ini mendukung tokenizing, parsing, analisis sintaks, "
+"bytecode disassembly, dan berbagai fasilitas lainnya."
+
+#: ../../library/language.rst:11
+msgid "These modules include:"
+msgstr "Modul-modul ini termasuk:"
