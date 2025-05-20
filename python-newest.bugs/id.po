@@ -8,15 +8,16 @@
 # Helen Febriani <helenfy.72@gmail.com>, 2021
 # Elmo <work.elmoallistair@gmail.com>, 2022
 # Ahmad Mustafid, 2024
+# Ismail Sunni, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: Ahmad Mustafid, 2024\n"
+"Last-Translator: Ismail Sunni, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +60,10 @@ msgid ""
 "the-tracker>`.  If you have a suggestion on how to fix it, include that as "
 "well."
 msgstr ""
+"Jika Anda menemukan *bug* di dalam dokumentasi atau berkeinginan untuk "
+"mengusulkan sebuah perbaikan, mohon untuk mengajukan sebuah laporan tentang "
+"bug di dalam :ref:`tracker <using-the-tracker>`. Jika Anda memiliki sebuah "
+"saran bagaimana cara untuk memperbaikinya, lampirkan juga."
 
 #: ../../bugs.rst:22
 msgid ""
@@ -74,6 +79,9 @@ msgid ""
 "documentation, please submit a bug report on the `python-doc-theme issue "
 "tracker <https://github.com/python/python-docs-theme>`_."
 msgstr ""
+"Jika Anda menemukan bug pada tema (HTML / CSS / JavaScript) dokumentasi, "
+"silakan kirimkan laporan bug pada `python-doc-theme issue tracker "
+"<https://github.com/python/python-docs-theme>`_."
 
 #: ../../bugs.rst:31
 msgid "`Documentation bugs`_"

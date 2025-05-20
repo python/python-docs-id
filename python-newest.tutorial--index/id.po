@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2021
+# Ismail Sunni, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Last-Translator: Ismail Sunni, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,6 +49,11 @@ msgid ""
 "site also contains distributions of and pointers to many free third party "
 "Python modules, programs and tools, and additional documentation."
 msgstr ""
+"Interpreter Python dan pustaka standar yang luas tersedia secara bebas dalam"
+" bentuk kode sumber atau biner untuk semua platform utama dari situs web "
+"Python, https://www.python.org/, dan dapat didistribusikan secara bebas. "
+"Situs yang sama juga berisi distribusi dan refernsi ke banyak modul Python "
+"gratis dari pihak ketiga, program dan alat, serta dokumentasi tambahan."
 
 #: ../../tutorial/index.rst:19
 msgid ""
