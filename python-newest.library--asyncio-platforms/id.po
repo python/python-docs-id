@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Iwan Setiawan <stwn@duniasemu.org>, 2018
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Iwan Setiawan <stwn@duniasemu.org>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 11:39+0000\n"
-"PO-Revision-Date: 2018-09-18 00:23+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2021-06-28 00:55+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,7 +65,8 @@ msgstr ""
 #: ../../library/asyncio-platforms.rst:38
 msgid ""
 ":meth:`loop.create_unix_connection` and :meth:`loop.create_unix_server` are "
-"not supported. The :data:`socket.AF_UNIX` socket family is specific to Unix."
+"not supported. The :const:`socket.AF_UNIX` socket family is specific to "
+"Unix."
 msgstr ""
 
 #: ../../library/asyncio-platforms.rst:42
@@ -116,8 +117,8 @@ msgstr ""
 #: ../../library/asyncio-platforms.rst:65
 msgid ""
 "The resolution of the monotonic clock on Windows is usually around 15.6 "
-"msec.  The best resolution is 0.5 msec. The resolution depends on the "
-"hardware (availability of `HPET "
+"milliseconds.  The best resolution is 0.5 milliseconds. The resolution "
+"depends on the hardware (availability of `HPET "
 "<https://en.wikipedia.org/wiki/High_Precision_Event_Timer>`_) and on the "
 "Windows configuration."
 msgstr ""
@@ -132,27 +133,19 @@ msgid ""
 "subprocesses, whereas :class:`SelectorEventLoop` does not."
 msgstr ""
 
-#: ../../library/asyncio-platforms.rst:80
-msgid ""
-"The :meth:`policy.set_child_watcher() "
-"<AbstractEventLoopPolicy.set_child_watcher>` function is also not supported,"
-" as :class:`ProactorEventLoop` has a different mechanism to watch child "
-"processes."
-msgstr ""
-
-#: ../../library/asyncio-platforms.rst:87
+#: ../../library/asyncio-platforms.rst:82
 msgid "macOS"
 msgstr "macOS"
 
-#: ../../library/asyncio-platforms.rst:89
+#: ../../library/asyncio-platforms.rst:84
 msgid "Modern macOS versions are fully supported."
 msgstr ""
 
-#: ../../library/asyncio-platforms.rst:92
+#: ../../library/asyncio-platforms.rst:87
 msgid "macOS <= 10.8"
 msgstr ""
 
-#: ../../library/asyncio-platforms.rst:93
+#: ../../library/asyncio-platforms.rst:88
 msgid ""
 "On macOS 10.6, 10.7 and 10.8, the default event loop uses "
 ":class:`selectors.KqueueSelector`, which does not support character devices "
@@ -160,4 +153,14 @@ msgid ""
 "configured to use :class:`~selectors.SelectSelector` or "
 ":class:`~selectors.PollSelector` to support character devices on these older"
 " versions of macOS.  Example::"
+msgstr ""
+
+#: ../../library/asyncio-platforms.rst:95
+msgid ""
+"import asyncio\n"
+"import selectors\n"
+"\n"
+"selector = selectors.SelectSelector()\n"
+"loop = asyncio.SelectorEventLoop(selector)\n"
+"asyncio.set_event_loop(loop)"
 msgstr ""
