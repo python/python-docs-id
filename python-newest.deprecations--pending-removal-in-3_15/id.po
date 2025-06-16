@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2024-07-20 00:54+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +48,7 @@ msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:16
 msgid ":mod:`ctypes`:"
-msgstr ""
+msgstr ":mod:`ctypes`:"
 
 #: ../../deprecations/pending-removal-in-3.15.rst:18
 msgid ""
@@ -114,7 +118,7 @@ msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:58
 msgid ":mod:`sysconfig`:"
-msgstr ""
+msgstr ":mod:`sysconfig`:"
 
 #: ../../deprecations/pending-removal-in-3.15.rst:60
 msgid ""
@@ -148,7 +152,7 @@ msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:80
 msgid ":mod:`typing`:"
-msgstr ""
+msgstr ":mod:`typing`:"
 
 #: ../../deprecations/pending-removal-in-3.15.rst:82
 msgid ""
@@ -160,16 +164,25 @@ msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.15.rst:88
 msgid ""
+"When using the functional syntax of :class:`~typing.TypedDict`\\s, failing "
+"to pass a value to the *fields* parameter (``TD = TypedDict(\"TD\")``) or "
+"passing ``None`` (``TD = TypedDict(\"TD\", None)``) has been deprecated "
+"since Python 3.13. Use ``class TD(TypedDict): pass`` or ``TD = "
+"TypedDict(\"TD\", {})`` to create a TypedDict with zero field."
+msgstr ""
+
+#: ../../deprecations/pending-removal-in-3.15.rst:95
+msgid ""
 "The :func:`typing.no_type_check_decorator` decorator function has been "
 "deprecated since Python 3.13. After eight years in the :mod:`typing` module,"
 " it has yet to be supported by any major type checker."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:93
+#: ../../deprecations/pending-removal-in-3.15.rst:100
 msgid ":mod:`wave`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:95
+#: ../../deprecations/pending-removal-in-3.15.rst:102
 msgid ""
 "The :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and "
 ":meth:`~wave.Wave_read.getmarkers` methods of the :class:`~wave.Wave_read` "
@@ -177,11 +190,11 @@ msgid ""
 "3.13."
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:100
+#: ../../deprecations/pending-removal-in-3.15.rst:107
 msgid ":mod:`zipimport`:"
 msgstr ""
 
-#: ../../deprecations/pending-removal-in-3.15.rst:102
+#: ../../deprecations/pending-removal-in-3.15.rst:109
 msgid ""
 ":meth:`~zipimport.zipimporter.load_module` has been deprecated since Python "
 "3.10. Use :meth:`~zipimport.zipimporter.exec_module` instead. (Contributed "

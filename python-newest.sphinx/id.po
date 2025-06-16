@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
 "Last-Translator: oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2024\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
@@ -31,16 +31,16 @@ msgid "In development"
 msgstr ""
 
 #: ../../tools/templates/customsourcelink.html:3
-msgid "This Page"
-msgstr "Halaman Ini"
+msgid "This page"
+msgstr ""
 
 #: ../../tools/templates/customsourcelink.html:5
-msgid "Report a Bug"
-msgstr "Laporkan Bug"
+msgid "Report a bug"
+msgstr ""
 
 #: ../../tools/templates/customsourcelink.html:8
-msgid "Show Source"
-msgstr "Perlihatkan Sumber"
+msgid "Show source"
+msgstr ""
 
 #: ../../tools/templates/download.html:2
 #: ../../tools/templates/indexsidebar.html:1
@@ -48,7 +48,7 @@ msgid "Download"
 msgstr "Unduh"
 
 #: ../../tools/templates/download.html:30
-msgid "Download Python %(dl_version)s Documentation"
+msgid "Download Python %(dl_version)s documentation"
 msgstr ""
 
 #: ../../tools/templates/download.html:32
@@ -432,8 +432,8 @@ msgid "Reporting issues"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:75
-msgid "Contributing to Docs"
-msgstr "Berkontribusi ke Dokumen"
+msgid "Contributing to docs"
+msgstr ""
 
 #: ../../tools/templates/indexcontent.html:76
 msgid "Download the documentation"
@@ -468,24 +468,24 @@ msgid "Other resources"
 msgstr "Sumber daya lain"
 
 #: ../../tools/templates/indexsidebar.html:12
-msgid "PEP Index"
-msgstr "Indeks PEP"
+msgid "PEP index"
+msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:13
-msgid "Beginner's Guide"
-msgstr "Panduan Pemula"
+msgid "Beginner's guide"
+msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:14
-msgid "Book List"
-msgstr "Daftar Buku"
+msgid "Book list"
+msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:15
-msgid "Audio/Visual Talks"
-msgstr "Perbincangan Audio/Visual"
+msgid "Audio/visual talks"
+msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:16
-msgid "Python Developer’s Guide"
-msgstr "Pandungan Pengembang Python"
+msgid "Python developer’s guide"
+msgstr ""
 
 #: ../../tools/templates/layout.html:6
 msgid ""

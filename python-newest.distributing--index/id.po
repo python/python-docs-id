@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2021
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:50+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2021\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,3 +31,6 @@ msgid ""
 "been moved to the `Python Packaging User Guide`_, and the tutorial on "
 "`packaging Python projects`_."
 msgstr ""
+"Informasi dan panduan untuk mendistribusikan modul dan paket Python telah "
+"dipindahkan ke `Panduan Pengguna Pengemasan Python`_, dan tutorial tentang "
+"`pengemasan proyek Python`_."

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 14:19+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Ismail Sunni, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
@@ -28,6 +28,12 @@ msgstr "Tutorial Python"
 
 #: ../../tutorial/index.rst:7
 msgid ""
+"This tutorial is designed for *programmers* that are new to the Python "
+"language, **not** *beginners* who are new to programming."
+msgstr ""
+
+#: ../../tutorial/index.rst:11
+msgid ""
 "Python is an easy to learn, powerful programming language. It has efficient "
 "high-level data structures and a simple but effective approach to object-"
 "oriented programming. Python's elegant syntax and dynamic typing, together "
@@ -41,7 +47,7 @@ msgstr ""
 "diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan "
 "pengembangan aplikasi yang cepat di banyak area di sebagian besar platform."
 
-#: ../../tutorial/index.rst:13
+#: ../../tutorial/index.rst:17
 msgid ""
 "The Python interpreter and the extensive standard library are freely "
 "available in source or binary form for all major platforms from the Python "
@@ -55,7 +61,7 @@ msgstr ""
 "Situs yang sama juga berisi distribusi dan refernsi ke banyak modul Python "
 "gratis dari pihak ketiga, program dan alat, serta dokumentasi tambahan."
 
-#: ../../tutorial/index.rst:19
+#: ../../tutorial/index.rst:23
 msgid ""
 "The Python interpreter is easily extended with new functions and data types "
 "implemented in C or C++ (or other languages callable from C). Python is also"
@@ -66,19 +72,16 @@ msgstr ""
 "dari C). Python juga cocok sebagai bahasa tambahan untuk aplikasi yang dapat"
 " disesuaikan."
 
-#: ../../tutorial/index.rst:23
+#: ../../tutorial/index.rst:27
 msgid ""
 "This tutorial introduces the reader informally to the basic concepts and "
-"features of the Python language and system. It helps to have a Python "
-"interpreter handy for hands-on experience, but all examples are self-"
+"features of the Python language and system. Be aware that it expects you to "
+"have a basic understanding of programming in general. It helps to have a "
+"Python interpreter handy for hands-on experience, but all examples are self-"
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
-"Tutorial ini memperkenalkan pembaca secara informal ke konsep dan fitur "
-"dasar bahasa dan sistem Python. Akan membantu untuk memiliki interpreter "
-"Python yang praktis untuk pengalaman mencoba langsung, tetapi semua contoh "
-"mandiri, sehingga tutorialnya dapat dibaca secara off-line juga."
 
-#: ../../tutorial/index.rst:28
+#: ../../tutorial/index.rst:33
 msgid ""
 "For a description of standard objects and modules, see :ref:`library-index`."
 " :ref:`reference-index` gives a more formal definition of the language.  To "
@@ -91,7 +94,7 @@ msgstr ""
 ":ref:`c-api-index`. Ada juga beberapa buku yang membahas Python secara "
 "mendalam."
 
-#: ../../tutorial/index.rst:33
+#: ../../tutorial/index.rst:38
 msgid ""
 "This tutorial does not attempt to be comprehensive and cover every single "
 "feature, or even every commonly used feature. Instead, it introduces many of"
@@ -108,6 +111,6 @@ msgstr ""
 "mempelajari lebih lanjut tentang berbagai modul pustaka Python yang "
 "dijelaskan dalam :ref:`library-index`."
 
-#: ../../tutorial/index.rst:40
+#: ../../tutorial/index.rst:45
 msgid "The :ref:`glossary` is also worth going through."
 msgstr ":ref:`glosarium` juga layak untuk dilihat."
