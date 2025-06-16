@@ -30,11 +30,11 @@ Anda ke PSF untuk dimasukkan dalam dokumentasi.
 ---
 Situs dokumentasi Python Bahasa Indonesia: **https://docs.python.org/id/**
 
-Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org/id/3.9/), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia. Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
+Repositori ini berisi [berkas-berkas ".po"](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) dari [dokumentasi Python](https://docs.python.org/id/3.14/), yang akan dan sudah diterjemahkan dari Bahasa Inggris ke Bahasa Indonesia. Baca daftar pekerjaan yang **akan dan sedang dikerjakan** di [papan proyek](https://github.com/python/python-docs-id/projects/1).
 
 Anda bisa berkontribusi dengan:
 
-* Membuat _Pull Requests_ di [repositori Github ini](https://github.com/python/python-docs-id/), saat ini yang aktif adalah [branch 3.9](https://github.com/python/python-docs-id/tree/3.9)
+* Membuat _Pull Requests_ di [repositori Github ini](https://github.com/python/python-docs-id/), saat ini yang aktif adalah [branch 3.14](https://github.com/python/python-docs-id/tree/3.14)
 * Menerjemahkan langsung di [situs Transifex](https://www.transifex.com/python-doc/python-newest/). Ikuti [Video (7 menit)](https://youtu.be/tg5kUJB2WLA) cara menggunakan Transifex.
 
 Jika Anda tidak menggunakan Transifex, untuk mengubah berkas ".po" dibutuhkan aplikasi editor, misalnya: [POEdit](https://poedit.net/) tersedia multiplatform, [KDE Lokalize](https://kde.org/applications/development/org.kde.lokalize) hanya untuk Linux dengan KDE, atau banyak lagi [pilihan lainnya](https://en.wikipedia.org/wiki/Comparison_of_computer-assisted_translation_tools).
