@@ -34,13 +34,13 @@ jobs:
           fetch-depth: 0
       - run: curl -O https://raw.githubusercontent.com/python-docs-translations/transifex-automations/master/sample-workflows/transifex-util.py
       - run: chmod +x transifex-util.py
-      - run: ./transifex-util.py recreate_tx_config --language XX --project-slug python-newest --version 3.14
+      - run: ./transifex-util.py recreate_tx_config --language id --project-slug python-newest --version 3.14
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
-      - run: ./transifex-util.py fetch --language XX --project-slug python-newest --version 3.14
+      - run: ./transifex-util.py fetch --language id --project-slug python-newest --version 3.14
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
-      - run: ./transifex-util.py delete_obsolete_files --language XX --project-slug python-newest --version 3.14
+      - run: ./transifex-util.py delete_obsolete_files --language id --project-slug python-newest --version 3.14
       - name: Set up Git
         run: |
           git config --local user.email github-actions@github.com
