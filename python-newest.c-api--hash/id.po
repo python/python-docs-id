@@ -1,125 +1,142 @@
-# SOME DESCRIPTIVE TITLE.
+# Translation of python-newest.c-api--hash.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# DANNY STEVESON <dannysteve0693@gmail.com>, 2025.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
-"PO-Revision-Date: 2024-02-23 14:15+0000\n"
-"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/id/)\n"
+"PO-Revision-Date: 2025-08-16 20:26+0700\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../c-api/hash.rst:4
 msgid "PyHash API"
-msgstr ""
+msgstr "PyHash API"
 
 #: ../../c-api/hash.rst:6
 msgid ""
 "See also the :c:member:`PyTypeObject.tp_hash` member and :ref:`numeric-"
 "hash`."
-msgstr ""
+msgstr "Lihat juga :c:member:`PyTypeObject.tp_hash` dan :ref:`numeric-hash`."
 
 #: ../../c-api/hash.rst:10
 msgid "Hash value type: signed integer."
-msgstr ""
+msgstr "Tipe nilai hash: signed integer."
 
 #: ../../c-api/hash.rst:16
 msgid "Hash value type: unsigned integer."
-msgstr ""
+msgstr "Tipe nilai hash: unsigned integer."
 
 #: ../../c-api/hash.rst:22
 msgid ""
 "The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
 "2**n -1``, used for numeric hash scheme."
 msgstr ""
+"`Bilangan prima Mersenne <https://en.wikipedia.org/wiki/Mersenne_prime>`_ "
+"``P = 2**n -1``, digunakan untuk skema hash numerik."
 
 #: ../../c-api/hash.rst:28
 msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
-msgstr ""
+msgstr "Eksponen ``n`` dari ``P`` di dalam :c:macro:`PyHASH_MODULUS`."
 
 #: ../../c-api/hash.rst:34
 msgid "Prime multiplier used in string and various other hashes."
-msgstr ""
+msgstr "Pengganda prima digunakan dalam string dan berbagai macam hash."
 
 #: ../../c-api/hash.rst:40
 msgid "The hash value returned for a positive infinity."
-msgstr ""
+msgstr "Nilai hash dikembalikan dalam bentuk positif tak terhingga."
 
 #: ../../c-api/hash.rst:46
 msgid "The multiplier used for the imaginary part of a complex number."
 msgstr ""
+"Pengganda digunakan untuk bagian imajiner dari suatu bilangan kompleks."
 
 #: ../../c-api/hash.rst:52
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
-msgstr ""
+msgstr "Definisi fungsi hash digunakan oleh :c:func:`PyHash_GetFuncDef`."
 
 #: ../../c-api/hash.rst:60
 msgid "Hash function name (UTF-8 encoded string)."
-msgstr ""
+msgstr "Nama fungsi hash (UTF-8 encoded string)."
 
 #: ../../c-api/hash.rst:64
 msgid "Internal size of the hash value in bits."
-msgstr ""
+msgstr "Ukuran internal hash dalam bentuk bits."
 
 #: ../../c-api/hash.rst:68
 msgid "Size of seed input in bits."
-msgstr ""
+msgstr "Ukuran input seed dalam bits."
 
 #: ../../c-api/hash.rst:75
 msgid "Get the hash function definition."
-msgstr ""
+msgstr "Dapatkan definisi fungsi hash."
 
 #: ../../c-api/hash.rst:78
 msgid ":pep:`456` \"Secure and interchangeable hash algorithm\"."
-msgstr ""
+msgstr ":pep:`456` “Algoritma hash yang aman dan dapat dipertukarkan“."
 
 #: ../../c-api/hash.rst:85
 msgid ""
 "Hash a pointer value: process the pointer value as an integer (cast it to "
 "``uintptr_t`` internally). The pointer is not dereferenced."
 msgstr ""
+"Hash sebuah nilai pointer: proses nilai pointer sebagai integer (ubah ke "
+"bentuk ``uintptr_t`` secara internal). Pointer tidak direferensikan."
 
 #: ../../c-api/hash.rst:88
 msgid "The function cannot fail: it cannot return ``-1``."
-msgstr ""
+msgstr "Fungsi tidak bisa gagal: ia tidak bisa mengembalikan nilai ``-1``."
 
 #: ../../c-api/hash.rst:95
 msgid ""
 "Compute and return the hash value of a buffer of *len* bytes starting at "
-"address *ptr*. The hash is guaranteed to match that of :class:`bytes`, "
-":class:`memoryview`, and other built-in objects that implement the "
-":ref:`buffer protocol <bufferobjects>`."
+"address *ptr*. The hash is guaranteed to match that "
+"of :class:`bytes`, :class:`memoryview`, and other built-in objects that "
+"implement the :ref:`buffer protocol <bufferobjects>`."
 msgstr ""
+"Komputasi dan kembalikan nilai hash dari sebuah penyangga dari *len* bytes "
+"dimulai dari alamat *ptr*. Hash dijamin untuk cocok "
+"pada :class:`bytes`, :class:`memoryview`, dan bawaan objek yang lain yang "
+"mengimplementasikan :ref:`buffer protocol <bufferobjects>`."
 
 #: ../../c-api/hash.rst:100
 msgid ""
-"Use this function to implement hashing for immutable objects whose "
-":c:member:`~PyTypeObject.tp_richcompare` function compares to another "
-"object's buffer."
+"Use this function to implement hashing for immutable objects "
+"whose :c:member:`~PyTypeObject.tp_richcompare` function compares to "
+"another object's buffer."
 msgstr ""
+"Gunakan fungsi ini untuk implementasikan hashing pada objek yang tidak "
+"dapat berubah dimana fungsi :c:member:`~PyTypeObject.tp_richcompare` "
+"dibandingkan pada penyangga objek yang lain."
 
 #: ../../c-api/hash.rst:104
 msgid "*len* must be greater than or equal to ``0``."
-msgstr ""
+msgstr "*len* harus lebih besar atau sama dengan ``0``."
 
 #: ../../c-api/hash.rst:106
 msgid "This function always succeeds."
-msgstr ""
+msgstr "Fungsi ini selalu berhasil."
 
 #: ../../c-api/hash.rst:113
 msgid ""
 "Generic hashing function that is meant to be put into a type object's "
 "``tp_hash`` slot. Its result only depends on the object's identity."
 msgstr ""
+"Fungsi generik hashing yang dimaksudkan untuk di taruh pada tipe objek "
+"``tp_hash``. Hasilnya hanya bergantung dari identitas objek itu."
 
 #: ../../c-api/hash.rst:118
 msgid "In CPython, it is equivalent to :c:func:`Py_HashPointer`."
-msgstr ""
+msgstr "Di CPython, itu sama dengan :c:func:`Py_HashPointer`."
