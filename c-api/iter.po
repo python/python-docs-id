@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Iterator Protocol"
+msgstr ""
+
+msgid "There are two functions specifically for working with iterators."
+msgstr ""
+
+msgid ""
+"Return non-zero if the object *o* can be safely passed to :c:func:"
+"`PyIter_NextItem` and ``0`` otherwise. This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return non-zero if the object *o* provides the :class:`AsyncIterator` "
+"protocol, and ``0`` otherwise.  This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return ``1`` and set *item* to a :term:`strong reference` of the next value "
+"of the iterator *iter* on success. Return ``0`` and set *item* to ``NULL`` "
+"if there are no remaining values. Return ``-1``, set *item* to ``NULL`` and "
+"set an exception on error."
+msgstr ""
+
+msgid ""
+"This is an older version of :c:func:`!PyIter_NextItem`, which is retained "
+"for backwards compatibility. Prefer :c:func:`PyIter_NextItem`."
+msgstr ""
+
+msgid ""
+"Return the next value from the iterator *o*.  The object must be an iterator "
+"according to :c:func:`PyIter_Check` (it is up to the caller to check this). "
+"If there are no remaining values, returns ``NULL`` with no exception set. If "
+"an error occurs while retrieving the item, returns ``NULL`` and passes along "
+"the exception."
+msgstr ""
+
+msgid ""
+"The enum value used to represent different results of :c:func:`PyIter_Send`."
+msgstr ""
+
+msgid "Sends the *arg* value into the iterator *iter*. Returns:"
+msgstr ""
+
+msgid ""
+"``PYGEN_RETURN`` if iterator returns. Return value is returned via *presult*."
+msgstr ""
+
+msgid ""
+"``PYGEN_NEXT`` if iterator yields. Yielded value is returned via *presult*."
+msgstr ""
+
+msgid ""
+"``PYGEN_ERROR`` if iterator has raised and exception. *presult* is set to "
+"``NULL``."
+msgstr ""

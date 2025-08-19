@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "XML Processing Modules"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/xml/`"
+msgstr ""
+
+msgid ""
+"Python's interfaces for processing XML are grouped in the ``xml`` package."
+msgstr ""
+
+msgid ""
+"If you need to parse untrusted or unauthenticated data, see :ref:`xml-"
+"security`."
+msgstr ""
+
+msgid ""
+"It is important to note that modules in the :mod:`xml` package require that "
+"there be at least one SAX-compliant XML parser available. The Expat parser "
+"is included with Python, so the :mod:`xml.parsers.expat` module will always "
+"be available."
+msgstr ""
+
+msgid ""
+"The documentation for the :mod:`xml.dom` and :mod:`xml.sax` packages are the "
+"definition of the Python bindings for the DOM and SAX interfaces."
+msgstr ""
+
+msgid "The XML handling submodules are:"
+msgstr ""
+
+msgid ""
+":mod:`xml.etree.ElementTree`: the ElementTree API, a simple and lightweight "
+"XML processor"
+msgstr ""
+
+msgid ":mod:`xml.dom`: the DOM API definition"
+msgstr ""
+
+msgid ":mod:`xml.dom.minidom`: a minimal DOM implementation"
+msgstr ""
+
+msgid ":mod:`xml.dom.pulldom`: support for building partial DOM trees"
+msgstr ""
+
+msgid ":mod:`xml.sax`: SAX2 base classes and convenience functions"
+msgstr ""
+
+msgid ":mod:`xml.parsers.expat`: the Expat parser binding"
+msgstr ""
+
+msgid "XML security"
+msgstr ""
+
+msgid ""
+"An attacker can abuse XML features to carry out denial of service attacks, "
+"access local files, generate network connections to other machines, or "
+"circumvent firewalls."
+msgstr ""
+
+msgid ""
+"Expat versions lower that 2.6.0 may be vulnerable to \"billion laughs\", "
+"\"quadratic blowup\" and \"large tokens\". Python may be vulnerable if it "
+"uses such older versions of Expat as a system-provided library. Check :const:"
+"`!pyexpat.EXPAT_VERSION`."
+msgstr ""
+
+msgid ":mod:`xmlrpc` is **vulnerable** to the \"decompression bomb\" attack."
+msgstr ""
+
+msgid "billion laughs / exponential entity expansion"
+msgstr ""
+
+msgid ""
+"The `Billion Laughs`_ attack -- also known as exponential entity expansion "
+"-- uses multiple levels of nested entities. Each entity refers to another "
+"entity several times, and the final entity definition contains a small "
+"string. The exponential expansion results in several gigabytes of text and "
+"consumes lots of memory and CPU time."
+msgstr ""
+
+msgid "quadratic blowup entity expansion"
+msgstr ""
+
+msgid ""
+"A quadratic blowup attack is similar to a `Billion Laughs`_ attack; it "
+"abuses entity expansion, too. Instead of nested entities it repeats one "
+"large entity with a couple of thousand chars over and over again. The attack "
+"isn't as efficient as the exponential case but it avoids triggering parser "
+"countermeasures that forbid deeply nested entities."
+msgstr ""
+
+msgid "decompression bomb"
+msgstr ""
+
+msgid ""
+"Decompression bombs (aka `ZIP bomb`_) apply to all XML libraries that can "
+"parse compressed XML streams such as gzipped HTTP streams or LZMA-compressed "
+"files. For an attacker it can reduce the amount of transmitted data by three "
+"magnitudes or more."
+msgstr ""
+
+msgid "large tokens"
+msgstr ""
+
+msgid ""
+"Expat needs to re-parse unfinished tokens; without the protection introduced "
+"in Expat 2.6.0, this can lead to quadratic runtime that can be used to cause "
+"denial of service in the application parsing XML. The issue is known as :cve:"
+"`2023-52425`."
+msgstr ""

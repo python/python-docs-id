@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+# Fried Rice, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-13 14:19+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: Fried Rice, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "API and ABI Versioning"
+msgstr "Pengelolaan Versi API dan ABI"
+
+msgid "Build-time version constants"
+msgstr "Konstanta versi build-time"
+
+msgid ""
+"CPython exposes its version number in the following macros. Note that these "
+"correspond to the version code is **built** with. See :c:var:`Py_Version` "
+"for the version used at **run time**."
+msgstr ""
+"CPython memperlihatkan nomor versinya dalam makro berikut ini. Perhatikan "
+"bahwa ini sesuai dengan kode versi yang **dibangun**. Lihat :c:var:"
+"`Py_Version` untuk versi yang digunakan pada saat **run time**."
+
+msgid ""
+"See :ref:`stable` for a discussion of API and ABI stability across versions."
+msgstr ""
+"Lihat :ref:`stable` untuk diskusi tentang stabilitas API dan ABI di seluruh "
+"versi."
+
+msgid "The ``3`` in ``3.4.1a2``."
+msgstr "``3`` di ``3.4.1a2``."
+
+msgid "The ``4`` in ``3.4.1a2``."
+msgstr "``4`` di ``3.4.1a2``."
+
+msgid "The ``1`` in ``3.4.1a2``."
+msgstr "``1`` di ``3.4.1a2``."
+
+msgid ""
+"The ``a`` in ``3.4.1a2``. This can be ``0xA`` for alpha, ``0xB`` for beta, "
+"``0xC`` for release candidate or ``0xF`` for final."
+msgstr ""
+"``a`` di ``3.4.1a2``. Ini bisa berupa ``0xA`` untuk versi alfa, ``0xB`` "
+"untuk versi beta, ``0xC`` untuk kandidat rilis atau ``0xF`` untuk versi "
+"final."
+
+msgid "The ``2`` in ``3.4.1a2``. Zero for final releases."
+msgstr "``2`` di ``3.4.1a2``. Nol untuk rilis final."
+
+msgid ""
+"The Python version number encoded in a single integer. See :c:func:"
+"`Py_PACK_FULL_VERSION` for the encoding details."
+msgstr ""
+"Nomor versi Python dikodekan dalam sebuah bilangan bulat. Lihat :c:func:"
+"`Py_PACK_FULL_VERSION` untuk mengetahui detail pengodean."
+
+msgid ""
+"Use this for numeric comparisons, for example, ``#if PY_VERSION_HEX >= ...``."
+msgstr ""
+"Gunakan ini untuk perbandingan numerik, misalnya, ``#if PY_VERSION_HEX >= ..."
+"``."
+
+msgid "Run-time version"
+msgstr "Versi run-time"
+
+msgid ""
+"The Python runtime version number encoded in a single constant integer. See :"
+"c:func:`Py_PACK_FULL_VERSION` for the encoding details. This contains the "
+"Python version used at run time."
+msgstr ""
+"Nomor versi runtime Python yang dikodekan dalam sebuah bilangan bulat "
+"konstan. Lihat :c:func:`Py_PACK_FULL_VERSION` untuk detail pengodean. Ini "
+"berisi versi Python yang digunakan pada saat dijalankan."
+
+msgid ""
+"Use this for numeric comparisons, for example, ``if (Py_Version >= ...)``."
+msgstr ""
+"Gunakan ini untuk perbandingan numerik, misalnya, ``if (Py_Version >= ...)``."
+
+msgid "Bit-packing macros"
+msgstr "Makro pengemasan bit"
+
+msgid ""
+"Return the given version, encoded as a single 32-bit integer with the "
+"following structure:"
+msgstr ""
+"Mengembalikan versi yang diberikan, dikodekan sebagai bilangan bulat 32-bit "
+"tunggal dengan struktur berikut:"
+
+msgid "Argument"
+msgstr "Argumen"
+
+msgid "No. of bits"
+msgstr "Jumlah bit"
+
+msgid "Bit mask"
+msgstr "Topeng bit"
+
+msgid "Bit shift"
+msgstr "Pergeseran bit"
+
+msgid "Example values"
+msgstr "Contoh nilai"
+
+msgid "``3.4.1a2``"
+msgstr "``3.4.1a2``"
+
+msgid "``3.10.0``"
+msgstr "``3.10.0``"
+
+msgid "*major*"
+msgstr "*major*"
+
+msgid "8"
+msgstr "8"
+
+msgid "``0xFF000000``"
+msgstr "``0xFF000000``"
+
+msgid "24"
+msgstr "24"
+
+msgid "``0x03``"
+msgstr "``0x03``"
+
+msgid "*minor*"
+msgstr "*minor*"
+
+msgid "``0x00FF0000``"
+msgstr "``0x00FF0000``"
+
+msgid "16"
+msgstr "16"
+
+msgid "``0x04``"
+msgstr "``0x04``"
+
+msgid "``0x0A``"
+msgstr "``0x0A``"
+
+msgid "*micro*"
+msgstr "*mikro*"
+
+msgid "``0x0000FF00``"
+msgstr "``0x0000FF00``"
+
+msgid "``0x01``"
+msgstr "``0x01``"
+
+msgid "``0x00``"
+msgstr "``0x00``"
+
+msgid "*release_level*"
+msgstr "*release_level*"
+
+msgid "4"
+msgstr "4"
+
+msgid "``0x000000F0``"
+msgstr "``0x000000F0``"
+
+msgid "``0xA``"
+msgstr "``0xA``"
+
+msgid "``0xF``"
+msgstr "``0xF``"
+
+msgid "*release_serial*"
+msgstr "*release_serial*"
+
+msgid "``0x0000000F``"
+msgstr "``0x0000000F``"
+
+msgid "0"
+msgstr "0"
+
+msgid "``0x2``"
+msgstr "``0x2``"
+
+msgid "``0x0``"
+msgstr "``0x0``"
+
+msgid "For example:"
+msgstr "Sebagai contoh:"
+
+msgid "Version"
+msgstr "Versi"
+
+msgid "``Py_PACK_FULL_VERSION`` arguments"
+msgstr "argumen``Py_PACK_FULL_VERSION``"
+
+msgid "Encoded version"
+msgstr "Versi yang dikodekan"
+
+msgid "``(3, 4, 1, 0xA, 2)``"
+msgstr "``(3, 4, 1, 0xA, 2)``"
+
+msgid "``0x030401a2``"
+msgstr "``0x030401a2``"
+
+msgid "``(3, 10, 0, 0xF, 0)``"
+msgstr "``(3, 10, 0, 0xF, 0)``"
+
+msgid "``0x030a00f0``"
+msgstr "``0x030a00f0``"
+
+msgid ""
+"Out-of range bits in the arguments are ignored. That is, the macro can be "
+"defined as:"
+msgstr ""
+"Bit yang berada di luar jangkauan dalam argumen akan diabaikan. Artinya, "
+"makro dapat didefinisikan sebagai:"
+
+msgid ""
+"#ifndef Py_PACK_FULL_VERSION\n"
+"#define Py_PACK_FULL_VERSION(X, Y, Z, LEVEL, SERIAL) ( \\\n"
+"   (((X) & 0xff) << 24) |                              \\\n"
+"   (((Y) & 0xff) << 16) |                              \\\n"
+"   (((Z) & 0xff) << 8) |                               \\\n"
+"   (((LEVEL) & 0xf) << 4) |                            \\\n"
+"   (((SERIAL) & 0xf) << 0))\n"
+"#endif"
+msgstr ""
+"#ifndef Py_PACK_FULL_VERSION\n"
+"#define Py_PACK_FULL_VERSION(X, Y, Z, LEVEL, SERIAL) ( \\\n"
+"   (((X) & 0xff) << 24) | \\\n"
+"   (((Y) & 0xff) << 16) | \\\n"
+"   (((Z) & 0xff) << 8) | \\\n"
+"   (((LEVEL) & 0xf) << 4) | \\\n"
+"   (((SERIAL) & 0xf) << 0))\n"
+"#endif"
+
+msgid ""
+"``Py_PACK_FULL_VERSION`` is primarily a macro, intended for use in ``#if`` "
+"directives, but it is also available as an exported function."
+msgstr ""
+"``Py_PACK_FULL_VERSION`` pada dasarnya adalah makro, yang dimaksudkan untuk "
+"digunakan dalam arahan ``#if``, tetapi juga tersedia sebagai fungsi yang "
+"diekspor."
+
+msgid ""
+"Equivalent to ``Py_PACK_FULL_VERSION(major, minor, 0, 0, 0)``. The result "
+"does not correspond to any Python release, but is useful in numeric "
+"comparisons."
+msgstr ""
+"Setara dengan ``Py_PACK_FULL_VERSION(major, minor, 0, 0, 0)``. Hasilnya "
+"tidak terikat dengan rilis Python apa pun, tetapi berguna dalam perbandingan "
+"numerik."

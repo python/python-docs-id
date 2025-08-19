@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Graphic User Interface FAQ"
+msgstr "Antarmuka Pengguna Grafis FAQ"
+
+msgid "Contents"
+msgstr "Konten"
+
+msgid "General GUI Questions"
+msgstr "Pertanyaan Umum GUI"
+
+msgid "What GUI toolkits exist for Python?"
+msgstr "Jakie zestawy narzędzi GUI istnieją dla Pythona?"
+
+msgid ""
+"Standard builds of Python include an object-oriented interface to the Tcl/Tk "
+"widget set, called :ref:`tkinter <Tkinter>`.  This is probably the easiest "
+"to install (since it comes included with most `binary distributions <https://"
+"www.python.org/downloads/>`_ of Python) and use. For more info about Tk, "
+"including pointers to the source, see the `Tcl/Tk home page <https://www.tcl."
+"tk>`_.  Tcl/Tk is fully portable to the macOS, Windows, and Unix platforms."
+msgstr ""
+"Standardowe kompilacje Pythona zawierają obiektowy interfejs do zestawu "
+"widżetów Tcl/Tk, zwany :ref:`tkinter <Tkinter>`.  Jest to prawdopodobnie "
+"najłatwiejszy do zainstalowania (ponieważ jest dołączony do większości "
+"`binarnych dystrybucji <https://www.python.org/downloads/>`_ Pythona) i "
+"używania. Więcej informacji o Tk, w tym wskazówki do źródeł, można znaleźć "
+"na `stronie domowej Tcl/Tk <https://www.tcl.tk>`_.  Tcl/Tk jest w pełni "
+"przenośny na platformy macOS, Windows i Unix."
+
+msgid ""
+"Depending on what platform(s) you are aiming at, there are also several "
+"alternatives. A `list of cross-platform <https://wiki.python.org/moin/"
+"GuiProgramming#Cross-Platform_Frameworks>`_ and `platform-specific <https://"
+"wiki.python.org/moin/GuiProgramming#Platform-specific_Frameworks>`_ GUI "
+"frameworks can be found on the python wiki."
+msgstr ""
+"Залежно від того, на яку платформу(и) ви орієнтуєтеся, є також кілька "
+"альтернатив. `Список кросплатформних <https://wiki.python.org/moin/"
+"GuiProgramming#Cross-Platform_Frameworks>`_ і `специфічних для платформи "
+"<https://wiki.python.org/moin/GuiProgramming#Platform-specific_Frameworks>`_ "
+"фреймворків графічного інтерфейсу можна знайти на python wiki."
+
+msgid "Tkinter questions"
+msgstr "Pertanyaan-pertanyaan Tkinter"
+
+msgid "How do I freeze Tkinter applications?"
+msgstr "Bagaimana cara membekukan aplikasi Tkinter?"
+
+msgid ""
+"Freeze is a tool to create stand-alone applications.  When freezing Tkinter "
+"applications, the applications will not be truly stand-alone, as the "
+"application will still need the Tcl and Tk libraries."
+msgstr ""
+"Dondur, tek başına uygulamalar oluşturmak için bir araçtır. Tkinter "
+"uygulamalarını dondururken, uygulamalar gerçekten tek başına olmayacaktır, "
+"çünkü uygulama hala Tcl ve Tk kütüphanelerine ihtiyaç duyacaktır."
+
+msgid ""
+"One solution is to ship the application with the Tcl and Tk libraries, and "
+"point to them at run-time using the :envvar:`!TCL_LIBRARY` and :envvar:`!"
+"TK_LIBRARY` environment variables."
+msgstr ""
+
+msgid ""
+"Various third-party freeze libraries such as py2exe and cx_Freeze have "
+"handling for Tkinter applications built-in."
+msgstr ""
+
+msgid "Can I have Tk events handled while waiting for I/O?"
+msgstr "G/Ç'yi beklerken Tk olaylarının işlenmesini sağlayabilir miyim?"
+
+msgid ""
+"On platforms other than Windows, yes, and you don't even need threads!  But "
+"you'll have to restructure your I/O code a bit.  Tk has the equivalent of "
+"Xt's :c:func:`!XtAddInput` call, which allows you to register a callback "
+"function which will be called from the Tk mainloop when I/O is possible on a "
+"file descriptor.  See :ref:`tkinter-file-handlers`."
+msgstr ""
+
+msgid "I can't get key bindings to work in Tkinter: why?"
+msgstr ""
+"Saya tidak bisa mendapatkan pengikatan kunci untuk bekerja di Tkinter: "
+"mengapa?"
+
+msgid ""
+"An often-heard complaint is that event handlers :ref:`bound <bindings-and-"
+"events>` to events with the :meth:`!bind` method don't get handled even when "
+"the appropriate key is pressed."
+msgstr ""
+
+msgid ""
+"The most common cause is that the widget to which the binding applies "
+"doesn't have \"keyboard focus\".  Check out the Tk documentation for the "
+"focus command. Usually a widget is given the keyboard focus by clicking in "
+"it (but not for labels; see the takefocus option)."
+msgstr ""
+"Найпоширенішою причиною є те, що віджет, до якого застосовується прив’язка, "
+"не має \"фокусу клавіатури\". Перегляньте документацію Tk для команди focus. "
+"Зазвичай віджет отримує фокус клавіатури, клацнувши його (але не для міток; "
+"див. опцію takefocus)."

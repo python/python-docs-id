@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!dbm` --- Interfaces to Unix \"databases\""
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/dbm/__init__.py`"
+msgstr "**Kod źródłowy:** :source:`Lib/dbm/__init__.py`"
+
+msgid ":mod:`dbm` is a generic interface to variants of the DBM database:"
+msgstr ""
+
+msgid ":mod:`dbm.sqlite3`"
+msgstr ""
+
+msgid ":mod:`dbm.gnu`"
+msgstr ""
+
+msgid ":mod:`dbm.ndbm`"
+msgstr ""
+
+msgid ""
+"If none of these modules are installed, the slow-but-simple implementation "
+"in module :mod:`dbm.dumb` will be used.  There is a `third party interface "
+"<https://www.jcea.es/programacion/pybsddb.htm>`_ to the Oracle Berkeley DB."
+msgstr ""
+
+msgid ""
+"A tuple containing the exceptions that can be raised by each of the "
+"supported modules, with a unique exception also named :exc:`dbm.error` as "
+"the first item --- the latter is used when :exc:`dbm.error` is raised."
+msgstr ""
+"Кортеж, що містить винятки, які можуть бути викликані кожним із "
+"підтримуваних модулів, з унікальним винятком, який також називається :exc:"
+"`dbm.error` як перший елемент --- останній елемент використовується, коли :"
+"exc:`dbm.error` піднято."
+
+msgid ""
+"This function attempts to guess which of the several simple database modules "
+"available --- :mod:`dbm.sqlite3`, :mod:`dbm.gnu`, :mod:`dbm.ndbm`, or :mod:"
+"`dbm.dumb` --- should be used to open a given file."
+msgstr ""
+
+msgid "Return one of the following values:"
+msgstr ""
+
+msgid ""
+"``None`` if the file can't be opened because it's unreadable or doesn't exist"
+msgstr ""
+
+msgid "the empty string (``''``) if the file's format can't be guessed"
+msgstr ""
+
+msgid ""
+"a string containing the required module name, such as ``'dbm.ndbm'`` or "
+"``'dbm.gnu'``"
+msgstr ""
+
+msgid "*filename* accepts a :term:`path-like object`."
+msgstr ""
+
+msgid "Open a database and return the corresponding database object."
+msgstr ""
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid ""
+"The database file to open.  If the database file already exists, the :func:"
+"`whichdb` function is used to determine its type and the appropriate module "
+"is used; if it does not exist, the first submodule listed above that can be "
+"imported is used."
+msgstr ""
+
+msgid "The database file to open."
+msgstr ""
+
+msgid ""
+"If the database file already exists, the :func:`whichdb` function is used to "
+"determine its type and the appropriate module is used; if it does not exist, "
+"the first submodule listed above that can be imported is used."
+msgstr ""
+
+msgid ""
+"* ``'r'`` (default): |flag_r| * ``'w'``: |flag_w| * ``'c'``: |flag_c| * "
+"``'n'``: |flag_n|"
+msgstr ""
+
+msgid "``'r'`` (default): |flag_r|"
+msgstr ""
+
+msgid "``'w'``: |flag_w|"
+msgstr ""
+
+msgid "``'c'``: |flag_c|"
+msgstr ""
+
+msgid "``'n'``: |flag_n|"
+msgstr ""
+
+msgid "|mode_param_doc|"
+msgstr ""
+
+msgid "*file* accepts a :term:`path-like object`."
+msgstr ""
+
+msgid ""
+"The object returned by :func:`~dbm.open` supports the same basic "
+"functionality as a :class:`dict`; keys and their corresponding values can be "
+"stored, retrieved, and deleted, and the :keyword:`in` operator and the :meth:"
+"`!keys` method are available, as well as :meth:`!get` and :meth:`!"
+"setdefault` methods."
+msgstr ""
+
+msgid ""
+"Key and values are always stored as :class:`bytes`. This means that when "
+"strings are used they are implicitly converted to the default encoding "
+"before being stored."
+msgstr ""
+
+msgid ""
+"These objects also support being used in a :keyword:`with` statement, which "
+"will automatically close them when done."
+msgstr ""
+"Ці об’єкти також підтримують використання в операторі :keyword:`with`, який "
+"автоматично закриє їх після завершення."
+
+msgid ""
+":meth:`!get` and :meth:`!setdefault` methods are now available for all :mod:"
+"`dbm` backends."
+msgstr ""
+
+msgid ""
+"Added native support for the context management protocol to the objects "
+"returned by :func:`~dbm.open`."
+msgstr ""
+
+msgid ""
+"Deleting a key from a read-only database raises a database module specific "
+"exception instead of :exc:`KeyError`."
+msgstr ""
+
+msgid ""
+"The following example records some hostnames and a corresponding title,  and "
+"then prints out the contents of the database::"
+msgstr ""
+"У наступному прикладі записуються деякі імена хостів і відповідний "
+"заголовок, а потім друкується вміст бази даних:"
+
+msgid ""
+"import dbm\n"
+"\n"
+"# Open database, creating it if necessary.\n"
+"with dbm.open('cache', 'c') as db:\n"
+"\n"
+"    # Record some values\n"
+"    db[b'hello'] = b'there'\n"
+"    db['www.python.org'] = 'Python Website'\n"
+"    db['www.cnn.com'] = 'Cable News Network'\n"
+"\n"
+"    # Note that the keys are considered bytes now.\n"
+"    assert db[b'www.python.org'] == b'Python Website'\n"
+"    # Notice how the value is now in bytes.\n"
+"    assert db['www.cnn.com'] == b'Cable News Network'\n"
+"\n"
+"    # Often-used methods of the dict interface work too.\n"
+"    print(db.get('python.org', b'not present'))\n"
+"\n"
+"    # Storing a non-string key or value will raise an exception (most\n"
+"    # likely a TypeError).\n"
+"    db['www.yahoo.com'] = 4\n"
+"\n"
+"# db is automatically closed when leaving the with statement."
+msgstr ""
+
+msgid "Module :mod:`shelve`"
+msgstr "Модуль :mod:`shelve`"
+
+msgid "Persistence module which stores non-string data."
+msgstr "Модуль постійності, який зберігає нерядкові дані."
+
+msgid "The individual submodules are described in the following sections."
+msgstr "Окремі субмодулі описані в наступних розділах."
+
+msgid ":mod:`dbm.sqlite3` --- SQLite backend for dbm"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/dbm/sqlite3.py`"
+msgstr ""
+
+msgid ""
+"This module uses the standard library :mod:`sqlite3` module to provide an "
+"SQLite backend for the :mod:`dbm` module. The files created by :mod:`dbm."
+"sqlite3` can thus be opened by :mod:`sqlite3`, or any other SQLite browser, "
+"including the SQLite CLI."
+msgstr ""
+
+msgid "Availability"
+msgstr ""
+
+msgid ""
+"This module does not work or is not available on WebAssembly. See :ref:`wasm-"
+"availability` for more information."
+msgstr ""
+
+msgid ""
+"Open an SQLite database. The returned object behaves like a :term:`mapping`, "
+"implements a :meth:`!close` method, and supports a \"closing\" context "
+"manager via the :keyword:`with` keyword."
+msgstr ""
+
+msgid "The path to the database to be opened."
+msgstr ""
+
+msgid ""
+"The Unix file access mode of the file (default: octal ``0o666``), used only "
+"when the database has to be created."
+msgstr ""
+
+msgid ":mod:`dbm.gnu` --- GNU database manager"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/dbm/gnu.py`"
+msgstr "**Kod źródłowy:** :source:`Lib/dbm/gnu.py`"
+
+msgid ""
+"The :mod:`dbm.gnu` module provides an interface to the :abbr:`GDBM (GNU "
+"dbm)` library, similar to the :mod:`dbm.ndbm` module, but with additional "
+"functionality like crash tolerance."
+msgstr ""
+
+msgid ""
+"The file formats created by :mod:`dbm.gnu` and :mod:`dbm.ndbm` are "
+"incompatible and can not be used interchangeably."
+msgstr ""
+
+msgid ""
+"This module is not supported on :ref:`mobile platforms <mobile-"
+"availability>` or :ref:`WebAssembly platforms <wasm-availability>`."
+msgstr ""
+
+msgid ""
+"Raised on :mod:`dbm.gnu`-specific errors, such as I/O errors. :exc:"
+"`KeyError` is raised for general mapping errors like specifying an incorrect "
+"key."
+msgstr ""
+"Виникає через специфічні помилки :mod:`dbm.gnu`, такі як помилки введення/"
+"виведення. :exc:`KeyError` виникає для загальних помилок зіставлення, як-от "
+"введення неправильного ключа."
+
+msgid "Open a GDBM database and return a :class:`!gdbm` object."
+msgstr ""
+
+msgid ""
+"* ``'r'`` (default): |flag_r| * ``'w'``: |flag_w| * ``'c'``: |flag_c| * "
+"``'n'``: |flag_n|  The following additional characters may be appended to "
+"control how the database is opened:  * ``'f'``: Open the database in fast "
+"mode.   Writes to the database will not be synchronized. * ``'s'``: "
+"Synchronized mode.   Changes to the database will be written immediately to "
+"the file. * ``'u'``: Do not lock database.  Not all flags are valid for all "
+"versions of GDBM. See the :data:`open_flags` member for a list of supported "
+"flag characters."
+msgstr ""
+
+msgid ""
+"The following additional characters may be appended to control how the "
+"database is opened:"
+msgstr ""
+
+msgid ""
+"``'f'``: Open the database in fast mode. Writes to the database will not be "
+"synchronized."
+msgstr ""
+
+msgid ""
+"``'s'``: Synchronized mode. Changes to the database will be written "
+"immediately to the file."
+msgstr ""
+
+msgid "``'u'``: Do not lock database."
+msgstr ""
+
+msgid ""
+"Not all flags are valid for all versions of GDBM. See the :data:`open_flags` "
+"member for a list of supported flag characters."
+msgstr ""
+
+msgid "Raises"
+msgstr ""
+
+msgid "If an invalid *flag* argument is passed."
+msgstr ""
+
+msgid ""
+"A string of characters the *flag* parameter of :meth:`~dbm.gnu.open` "
+"supports."
+msgstr ""
+
+msgid ""
+":class:`!gdbm` objects behave similar to :term:`mappings <mapping>`, but :"
+"meth:`!items` and :meth:`!values` methods are not supported. The following "
+"methods are also provided:"
+msgstr ""
+
+msgid ""
+"It's possible to loop over every key in the database using this method  and "
+"the :meth:`nextkey` method.  The traversal is ordered by GDBM's internal "
+"hash values, and won't be sorted by the key values.  This method returns the "
+"starting key."
+msgstr ""
+
+msgid ""
+"Returns the key that follows *key* in the traversal.  The following code "
+"prints every key in the database ``db``, without having to create a list in "
+"memory that contains them all::"
+msgstr ""
+"Повертає ключ, який слідує за *key* під час обходу. Наступний код друкує "
+"кожен ключ у базі даних ``db`` без необхідності створювати в пам’яті список, "
+"який містить їх усі:"
+
+msgid ""
+"k = db.firstkey()\n"
+"while k is not None:\n"
+"    print(k)\n"
+"    k = db.nextkey(k)"
+msgstr ""
+
+msgid ""
+"If you have carried out a lot of deletions and would like to shrink the "
+"space used by the GDBM file, this routine will reorganize the database.  :"
+"class:`!gdbm` objects will not shorten the length of a database file except "
+"by using this reorganization; otherwise, deleted file space will be kept and "
+"reused as new (key, value) pairs are added."
+msgstr ""
+
+msgid ""
+"When the database has been opened in fast mode, this method forces any "
+"unwritten data to be written to the disk."
+msgstr ""
+"Коли базу даних відкрито у швидкому режимі, цей метод примусово записує на "
+"диск будь-які незаписані дані."
+
+msgid "Close the GDBM database."
+msgstr ""
+
+msgid "Remove all items from the GDBM database."
+msgstr ""
+
+msgid ":mod:`dbm.ndbm` --- New Database Manager"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/dbm/ndbm.py`"
+msgstr "**Kod źródłowy:** :source:`Lib/dbm/ndbm.py`"
+
+msgid ""
+"The :mod:`dbm.ndbm` module provides an interface to the :abbr:`NDBM (New "
+"Database Manager)` library. This module can be used with the \"classic\" "
+"NDBM interface or the :abbr:`GDBM (GNU dbm)` compatibility interface."
+msgstr ""
+
+msgid ""
+"The NDBM library shipped as part of macOS has an undocumented limitation on "
+"the size of values, which can result in corrupted database files when "
+"storing values larger than this limit. Reading such corrupted files can "
+"result in a hard crash (segmentation fault)."
+msgstr ""
+
+msgid ""
+"Raised on :mod:`dbm.ndbm`-specific errors, such as I/O errors. :exc:"
+"`KeyError` is raised for general mapping errors like specifying an incorrect "
+"key."
+msgstr ""
+"Виникає через :mod:`dbm.ndbm`-специфічні помилки, такі як помилки введення/"
+"виведення. :exc:`KeyError` виникає для загальних помилок зіставлення, як-от "
+"введення неправильного ключа."
+
+msgid "Name of the NDBM implementation library used."
+msgstr ""
+
+msgid "Open an NDBM database and return an :class:`!ndbm` object."
+msgstr ""
+
+msgid ""
+"The basename of the database file (without the :file:`.dir` or :file:`.pag` "
+"extensions)."
+msgstr ""
+
+msgid ""
+":class:`!ndbm` objects behave similar to :term:`mappings <mapping>`, but :"
+"meth:`!items` and :meth:`!values` methods are not supported. The following "
+"methods are also provided:"
+msgstr ""
+
+msgid "Accepts :term:`path-like object` for filename."
+msgstr ""
+
+msgid "Close the NDBM database."
+msgstr ""
+
+msgid "Remove all items from the NDBM database."
+msgstr ""
+
+msgid ":mod:`dbm.dumb` --- Portable DBM implementation"
+msgstr ":mod:`dbm.dumb` --- Переносна реалізація DBM"
+
+msgid "**Source code:** :source:`Lib/dbm/dumb.py`"
+msgstr "**Kod źródłowy:** :source:`Lib/dbm/dumb.py`"
+
+msgid ""
+"The :mod:`dbm.dumb` module is intended as a last resort fallback for the :"
+"mod:`dbm` module when a more robust module is not available. The :mod:`dbm."
+"dumb` module is not written for speed and is not nearly as heavily used as "
+"the other database modules."
+msgstr ""
+"Модуль :mod:`dbm.dumb` призначений як остання альтернатива для модуля :mod:"
+"`dbm`, коли більш надійний модуль недоступний. Модуль :mod:`dbm.dumb` не "
+"створений для швидкості і використовується не так активно, як інші модулі "
+"бази даних."
+
+msgid ""
+"The :mod:`dbm.dumb` module provides a persistent :class:`dict`-like "
+"interface which is written entirely in Python. Unlike other :mod:`dbm` "
+"backends, such as :mod:`dbm.gnu`, no external library is required."
+msgstr ""
+
+msgid "The :mod:`!dbm.dumb` module defines the following:"
+msgstr ""
+
+msgid ""
+"Raised on :mod:`dbm.dumb`-specific errors, such as I/O errors.  :exc:"
+"`KeyError` is raised for general mapping errors like specifying an incorrect "
+"key."
+msgstr ""
+"Виникає через :mod:`dbm.dumb`-специфічні помилки, такі як помилки введення/"
+"виведення. :exc:`KeyError` виникає для загальних помилок зіставлення, як-от "
+"введення неправильного ключа."
+
+msgid ""
+"Open a :mod:`!dbm.dumb` database. The returned database object behaves "
+"similar to a :term:`mapping`, in addition to providing :meth:`~dumbdbm.sync` "
+"and :meth:`~dumbdbm.close` methods."
+msgstr ""
+
+msgid ""
+"The basename of the database file (without extensions). A new database "
+"creates the following files:  - :file:`{filename}.dat` - :file:`{filename}."
+"dir`"
+msgstr ""
+
+msgid ""
+"The basename of the database file (without extensions). A new database "
+"creates the following files:"
+msgstr ""
+
+msgid ":file:`{filename}.dat`"
+msgstr ""
+
+msgid ":file:`{filename}.dir`"
+msgstr ""
+
+msgid ""
+"* ``'r'``: |flag_r| * ``'w'``: |flag_w| * ``'c'`` (default): |flag_c| * "
+"``'n'``: |flag_n|"
+msgstr ""
+
+msgid "``'r'``: |flag_r|"
+msgstr ""
+
+msgid "``'c'`` (default): |flag_c|"
+msgstr ""
+
+msgid ""
+"It is possible to crash the Python interpreter when loading a database with "
+"a sufficiently large/complex entry due to stack depth limitations in "
+"Python's AST compiler."
+msgstr ""
+"Можливий збій інтерпретатора Python під час завантаження бази даних із "
+"достатньо великим/складним записом через обмеження глибини стеку в "
+"компіляторі AST Python."
+
+msgid ""
+":func:`~dbm.dumb.open` always creates a new database when *flag* is ``'n'``."
+msgstr ""
+
+msgid ""
+"A database opened read-only if *flag* is ``'r'``. A database is not created "
+"if it does not exist if *flag* is ``'r'`` or ``'w'``."
+msgstr ""
+
+msgid ""
+"In addition to the methods provided by the :class:`collections.abc."
+"MutableMapping` class, the following methods are provided:"
+msgstr ""
+
+msgid ""
+"Synchronize the on-disk directory and data files.  This method is called by "
+"the :meth:`shelve.Shelf.sync` method."
+msgstr ""
+
+msgid "Close the database."
+msgstr ""
+
+msgid "databases"
+msgstr ""

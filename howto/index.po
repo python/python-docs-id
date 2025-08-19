@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-15 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Python HOWTOs"
+msgstr "HOWTOs Python"
+
+msgid ""
+"Python HOWTOs are documents that cover a specific topic in-depth. Modeled on "
+"the Linux Documentation Project's HOWTO collection, this collection is an "
+"effort to foster documentation that's more detailed than the Python Library "
+"Reference."
+msgstr ""
+
+msgid "General:"
+msgstr ""
+
+msgid ":ref:`a-conceptual-overview-of-asyncio`"
+msgstr ""
+
+msgid ":ref:`annotations-howto`"
+msgstr ""
+
+msgid ":ref:`argparse-tutorial`"
+msgstr ""
+
+msgid ":ref:`descriptorhowto`"
+msgstr ""
+
+msgid ":ref:`enum-howto`"
+msgstr ""
+
+msgid ":ref:`functional-howto`"
+msgstr ""
+
+msgid ":ref:`ipaddress-howto`"
+msgstr ""
+
+msgid ":ref:`logging-howto`"
+msgstr ""
+
+msgid ":ref:`logging-cookbook`"
+msgstr ""
+
+msgid ":ref:`regex-howto`"
+msgstr ""
+
+msgid ":ref:`sortinghowto`"
+msgstr ""
+
+msgid ":ref:`unicode-howto`"
+msgstr ""
+
+msgid ":ref:`urllib-howto`"
+msgstr ""
+
+msgid "Advanced development:"
+msgstr ""
+
+msgid ":ref:`curses-howto`"
+msgstr ":ref:`curses-howto`"
+
+msgid ":ref:`freethreading-python-howto`"
+msgstr ""
+
+msgid ":ref:`freethreading-extensions-howto`"
+msgstr ""
+
+msgid ":ref:`isolating-extensions-howto`"
+msgstr ""
+
+msgid ":ref:`python_2.3_mro`"
+msgstr ""
+
+msgid ":ref:`socket-howto`"
+msgstr ""
+
+msgid ":ref:`timerfd-howto`"
+msgstr ""
+
+msgid ":ref:`cporting-howto`"
+msgstr ""
+
+msgid "Debugging and profiling:"
+msgstr ""
+
+msgid ":ref:`gdb`"
+msgstr ""
+
+msgid ":ref:`instrumentation`"
+msgstr ""
+
+msgid ":ref:`perf_profiling`"
+msgstr ""
+
+msgid ":ref:`remote-debugging`"
+msgstr ""

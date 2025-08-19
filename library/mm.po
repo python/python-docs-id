@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Multimedia Services"
+msgstr "Layanan Multimedia"
+
+msgid ""
+"The modules described in this chapter implement various algorithms or "
+"interfaces that are mainly useful for multimedia applications.  They are "
+"available at the discretion of the installation.  Here's an overview:"
+msgstr ""
+"Modul yang dijelaskan dalam bab ini menerapkan berbagai algoritma atau "
+"antarmuka yang terutama berguna untuk aplikasi multimedia. Mereka tersedia "
+"atas kebijaksanaan instalasi. Berikut ini ikhtisar:"

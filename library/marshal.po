@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!marshal` --- Internal Python object serialization"
+msgstr ""
+
+msgid ""
+"This module contains functions that can read and write Python values in a "
+"binary format.  The format is specific to Python, but independent of machine "
+"architecture issues (e.g., you can write a Python value to a file on a PC, "
+"transport the file to a Mac, and read it back there).  Details of the format "
+"are undocumented on purpose; it may change between Python versions (although "
+"it rarely does). [#]_"
+msgstr ""
+
+msgid ""
+"This is not a general \"persistence\" module.  For general persistence and "
+"transfer of Python objects through RPC calls, see the modules :mod:`pickle` "
+"and :mod:`shelve`.  The :mod:`marshal` module exists mainly to support "
+"reading and writing the \"pseudo-compiled\" code for Python modules of :file:"
+"`.pyc` files. Therefore, the Python maintainers reserve the right to modify "
+"the marshal format in backward incompatible ways should the need arise. The "
+"format of code objects is not compatible between Python versions, even if "
+"the version of the format is the same. De-serializing a code object in the "
+"incorrect Python version has undefined behavior. If you're serializing and "
+"de-serializing Python objects, use the :mod:`pickle` module instead -- the "
+"performance is comparable, version independence is guaranteed, and pickle "
+"supports a substantially wider range of objects than marshal."
+msgstr ""
+
+msgid ""
+"The :mod:`marshal` module is not intended to be secure against erroneous or "
+"maliciously constructed data.  Never unmarshal data received from an "
+"untrusted or unauthenticated source."
+msgstr ""
+"Модуль :mod:`marshal` не призначений для захисту від помилкових або "
+"зловмисно створених даних. Ніколи не скасовуйте дані, отримані з ненадійного "
+"або неавтентифікованого джерела."
+
+msgid ""
+"There are functions that read/write files as well as functions operating on "
+"bytes-like objects."
+msgstr ""
+"Існують функції, які читають/записують файли, а також функції, що працюють з "
+"байтоподібними об’єктами."
+
+msgid ""
+"Not all Python object types are supported; in general, only objects whose "
+"value is independent from a particular invocation of Python can be written "
+"and read by this module.  The following types are supported:"
+msgstr ""
+
+msgid ""
+"Numeric types: :class:`int`, :class:`bool`, :class:`float`, :class:`complex`."
+msgstr ""
+
+msgid ""
+"Strings (:class:`str`) and :class:`bytes`. :term:`Bytes-like objects <bytes-"
+"like object>` like :class:`bytearray` are marshalled as :class:`!bytes`."
+msgstr ""
+
+msgid ""
+"Containers: :class:`tuple`, :class:`list`, :class:`set`, :class:`frozenset`, "
+"and (since :data:`version` 5), :class:`slice`. It should be understood that "
+"these are supported only if the values contained therein are themselves "
+"supported. Recursive containers are supported since :data:`version` 3."
+msgstr ""
+
+msgid ""
+"The singletons :const:`None`, :const:`Ellipsis` and :exc:`StopIteration`."
+msgstr ""
+
+msgid ""
+":class:`code` objects, if *allow_code* is true. See note above about version "
+"dependence."
+msgstr ""
+
+msgid ""
+"Added format version 3, which supports marshalling recursive lists, sets and "
+"dictionaries."
+msgstr ""
+
+msgid ""
+"Added format version 4, which supports efficient representations of short "
+"strings."
+msgstr ""
+
+msgid "Added format version 5, which allows marshalling slices."
+msgstr ""
+
+msgid "The module defines these functions:"
+msgstr "Модуль визначає такі функції:"
+
+msgid ""
+"Write the value on the open file.  The value must be a supported type.  The "
+"file must be a writeable :term:`binary file`."
+msgstr ""
+"Запишіть значення у відкритий файл. Значення має бути підтримуваного типу. "
+"Файл має бути записуваним :term:`binary file`."
+
+msgid ""
+"If the value has (or contains an object that has) an unsupported type, a :"
+"exc:`ValueError` exception is raised --- but garbage data will also be "
+"written to the file.  The object will not be properly read back by :func:"
+"`load`. :ref:`Code objects <code-objects>` are only supported if "
+"*allow_code* is true."
+msgstr ""
+
+msgid ""
+"The *version* argument indicates the data format that ``dump`` should use "
+"(see below)."
+msgstr ""
+"Аргумент *version* вказує на формат даних, який має використовувати ``damp`` "
+"(див. нижче)."
+
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``marshal.dumps`` with arguments "
+"``value``, ``version``."
+msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``marshal.dumps`` з аргументами "
+"``значення``, ``версія``."
+
+msgid "Added the *allow_code* parameter."
+msgstr ""
+
+msgid ""
+"Read one value from the open file and return it.  If no valid value is read "
+"(e.g. because the data has a different Python version's incompatible marshal "
+"format), raise :exc:`EOFError`, :exc:`ValueError` or :exc:`TypeError`. :ref:"
+"`Code objects <code-objects>` are only supported if *allow_code* is true. "
+"The file must be a readable :term:`binary file`."
+msgstr ""
+
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``marshal.load`` with no "
+"arguments."
+msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``marshal.load`` без аргументів."
+
+msgid ""
+"If an object containing an unsupported type was marshalled with :func:"
+"`dump`, :func:`load` will substitute ``None`` for the unmarshallable type."
+msgstr ""
+"Якщо об’єкт, що містить непідтримуваний тип, був маршалований за допомогою :"
+"func:`dump`, :func:`load` замінить ``None`` для типу, який не можна "
+"маршалювати."
+
+msgid ""
+"This call used to raise a ``code.__new__`` audit event for each code object. "
+"Now it raises a single ``marshal.load`` event for the entire load operation."
+msgstr ""
+"Цей виклик використовувався для виклику події аудиту ``code.__new__`` для "
+"кожного об’єкта коду. Тепер він викликає одну подію ``marshal.load`` для "
+"всієї операції завантаження."
+
+msgid ""
+"Return the bytes object that would be written to a file by ``dump(value, "
+"file)``.  The value must be a supported type.  Raise a :exc:`ValueError` "
+"exception if value has (or contains an object that has) an unsupported "
+"type. :ref:`Code objects <code-objects>` are only supported if *allow_code* "
+"is true."
+msgstr ""
+
+msgid ""
+"The *version* argument indicates the data format that ``dumps`` should use "
+"(see below)."
+msgstr ""
+"Аргумент *version* вказує формат даних, який мають використовувати ``дампи`` "
+"(див. нижче)."
+
+msgid ""
+"Convert the :term:`bytes-like object` to a value.  If no valid value is "
+"found, raise :exc:`EOFError`, :exc:`ValueError` or :exc:`TypeError`. :ref:"
+"`Code objects <code-objects>` are only supported if *allow_code* is true. "
+"Extra bytes in the input are ignored."
+msgstr ""
+
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``marshal.loads`` with argument "
+"``bytes``."
+msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``marshal.loads`` з аргументом "
+"``bytes``."
+
+msgid ""
+"This call used to raise a ``code.__new__`` audit event for each code object. "
+"Now it raises a single ``marshal.loads`` event for the entire load operation."
+msgstr ""
+"Цей виклик використовувався для виклику події аудиту ``code.__new__`` для "
+"кожного об’єкта коду. Тепер він викликає одну подію ``marshal.loads`` для "
+"всієї операції завантаження."
+
+msgid "In addition, the following constants are defined:"
+msgstr "Крім того, визначено такі константи:"
+
+msgid ""
+"Indicates the format that the module uses. Version 0 is the historical first "
+"version; subsequent versions add new features. Generally, a new version "
+"becomes the default when it is introduced."
+msgstr ""
+
+msgid "Version"
+msgstr "Versi"
+
+msgid "Available since"
+msgstr ""
+
+msgid "New features"
+msgstr ""
+
+msgid "1"
+msgstr "1"
+
+msgid "Python 2.4"
+msgstr ""
+
+msgid "Sharing interned strings"
+msgstr ""
+
+msgid "2"
+msgstr "2"
+
+msgid "Python 2.5"
+msgstr ""
+
+msgid "Binary representation of floats"
+msgstr ""
+
+msgid "3"
+msgstr "3"
+
+msgid "Python 3.4"
+msgstr ""
+
+msgid "Support for object instancing and recursion"
+msgstr ""
+
+msgid "4"
+msgstr "4"
+
+msgid "Efficient representation of short strings"
+msgstr ""
+
+msgid "5"
+msgstr "5"
+
+msgid "Python 3.14"
+msgstr ""
+
+msgid "Support for :class:`slice` objects"
+msgstr ""
+
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+msgid ""
+"The name of this module stems from a bit of terminology used by the "
+"designers of Modula-3 (amongst others), who use the term \"marshalling\" for "
+"shipping of data around in a self-contained form. Strictly speaking, \"to "
+"marshal\" means to convert some data from internal to external form (in an "
+"RPC buffer for instance) and \"unmarshalling\" for the reverse process."
+msgstr ""
+"Назва цього модуля походить від певної термінології, яка використовується "
+"розробниками Modula-3 (серед інших), які використовують термін \"маршалінг\" "
+"для доставки даних у автономній формі. Строго кажучи, \"маршалінг\" означає "
+"перетворення деяких даних із внутрішньої форми у зовнішню (наприклад, у "
+"буфері RPC) і \"демаршалінг\" для зворотного процесу."
+
+msgid "module"
+msgstr "modul"
+
+msgid "pickle"
+msgstr "pickle"
+
+msgid "shelve"
+msgstr ""
+
+msgid "object"
+msgstr "objek"
+
+msgid "code"
+msgstr "code"
+
+msgid "code object"
+msgstr ""

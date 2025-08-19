@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Frame Objects"
+msgstr ""
+
+msgid "The C structure of the objects used to describe frame objects."
+msgstr ""
+
+msgid "There are no public members in this structure."
+msgstr ""
+
+msgid ""
+"The members of this structure were removed from the public C API. Refer to "
+"the :ref:`What's New entry <pyframeobject-3.11-hiding>` for details."
+msgstr ""
+
+msgid ""
+"The :c:func:`PyEval_GetFrame` and :c:func:`PyThreadState_GetFrame` functions "
+"can be used to get a frame object."
+msgstr ""
+
+msgid "See also :ref:`Reflection <reflection>`."
+msgstr ""
+
+msgid ""
+"The type of frame objects. It is the same object as :py:class:`types."
+"FrameType` in the Python layer."
+msgstr ""
+
+msgid ""
+"Previously, this type was only available after including ``<frameobject.h>``."
+msgstr ""
+
+msgid "Return non-zero if *obj* is a frame object."
+msgstr ""
+
+msgid ""
+"Previously, this function was only available after including ``<frameobject."
+"h>``."
+msgstr ""
+
+msgid "Get the *frame* next outer frame."
+msgstr ""
+
+msgid ""
+"Return a :term:`strong reference`, or ``NULL`` if *frame* has no outer frame."
+msgstr ""
+
+msgid "Get the *frame*'s :attr:`~frame.f_builtins` attribute."
+msgstr ""
+
+msgid "Return a :term:`strong reference`. The result cannot be ``NULL``."
+msgstr ""
+
+msgid "Get the *frame* code."
+msgstr ""
+
+msgid "Return a :term:`strong reference`."
+msgstr ""
+
+msgid "The result (frame code) cannot be ``NULL``."
+msgstr ""
+
+msgid ""
+"Get the generator, coroutine, or async generator that owns this frame, or "
+"``NULL`` if this frame is not owned by a generator. Does not raise an "
+"exception, even if the return value is ``NULL``."
+msgstr ""
+
+msgid "Return a :term:`strong reference`, or ``NULL``."
+msgstr ""
+
+msgid "Get the *frame*'s :attr:`~frame.f_globals` attribute."
+msgstr ""
+
+msgid "Get the *frame*'s :attr:`~frame.f_lasti` attribute."
+msgstr ""
+
+msgid "Returns -1 if ``frame.f_lasti`` is ``None``."
+msgstr ""
+
+msgid "Get the variable *name* of *frame*."
+msgstr ""
+
+msgid "Return a :term:`strong reference` to the variable value on success."
+msgstr ""
+
+msgid ""
+"Raise :exc:`NameError` and return ``NULL`` if the variable does not exist."
+msgstr ""
+
+msgid "Raise an exception and return ``NULL`` on error."
+msgstr ""
+
+msgid "*name* type must be a :class:`str`."
+msgstr ""
+
+msgid ""
+"Similar to :c:func:`PyFrame_GetVar`, but the variable name is a C string "
+"encoded in UTF-8."
+msgstr ""
+
+msgid ""
+"Get the *frame*'s :attr:`~frame.f_locals` attribute. If the frame refers to "
+"an :term:`optimized scope`, this returns a write-through proxy object that "
+"allows modifying the locals. In all other cases (classes, modules, :func:"
+"`exec`, :func:`eval`) it returns the mapping representing the frame locals "
+"directly (as described for :func:`locals`)."
+msgstr ""
+
+msgid ""
+"As part of :pep:`667`, return an instance of :c:var:"
+"`PyFrameLocalsProxy_Type`."
+msgstr ""
+
+msgid "Return the line number that *frame* is currently executing."
+msgstr ""
+
+msgid "Frame Locals Proxies"
+msgstr ""
+
+msgid ""
+"The :attr:`~frame.f_locals` attribute on a :ref:`frame object <frame-"
+"objects>` is an instance of a \"frame-locals proxy\". The proxy object "
+"exposes a write-through view of the underlying locals dictionary for the "
+"frame. This ensures that the variables exposed by ``f_locals`` are always up "
+"to date with the live local variables in the frame itself."
+msgstr ""
+
+msgid "See :pep:`667` for more information."
+msgstr ""
+
+msgid "The type of frame :func:`locals` proxy objects."
+msgstr ""
+
+msgid "Return non-zero if *obj* is a frame :func:`locals` proxy."
+msgstr ""
+
+msgid "Internal Frames"
+msgstr ""
+
+msgid "Unless using :pep:`523`, you will not need this."
+msgstr ""
+
+msgid "The interpreter's internal frame representation."
+msgstr ""
+
+msgid "Return a :term:`strong reference` to the code object for the frame."
+msgstr ""
+
+msgid "Return the byte offset into the last executed instruction."
+msgstr ""
+
+msgid ""
+"Return the currently executing line number, or -1 if there is no line number."
+msgstr ""

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Byte Array Objects"
+msgstr "Objek Byte Array"
+
+msgid ""
+"This subtype of :c:type:`PyObject` represents a Python bytearray object."
+msgstr "Subtipe dari :c:type:`PyObject` ini mewakili objek bytearray Python."
+
+msgid ""
+"This instance of :c:type:`PyTypeObject` represents the Python bytearray "
+"type; it is the same object as :class:`bytearray` in the Python layer."
+msgstr ""
+"Instance dari :c:type:`PyTypeObject` mewakili tipe bytearray Python; itu "
+"adalah objek yang sama dengan :class:`bytearray` di lapisan Python."
+
+msgid "Type check macros"
+msgstr "Makro cek tipe"
+
+msgid ""
+"Return true if the object *o* is a bytearray object or an instance of a "
+"subtype of the bytearray type.  This function always succeeds."
+msgstr ""
+"Mengembalikan nilai true jika objek *o* adalah objek bytearray atau turunan "
+"dari subtipe tipe bytearray. Fungsi ini selalu berhasil."
+
+msgid ""
+"Return true if the object *o* is a bytearray object, but not an instance of "
+"a subtype of the bytearray type.  This function always succeeds."
+msgstr ""
+"Mengembalikan nilai true jika objek *o* adalah objek bytearray, tetapi bukan "
+"turunan dari subtipe tipe bytearray. Fungsi ini selalu berhasil."
+
+msgid "Direct API functions"
+msgstr "Fungsi API langsung"
+
+msgid ""
+"Return a new bytearray object from any object, *o*, that implements the :ref:"
+"`buffer protocol <bufferobjects>`."
+msgstr ""
+"Mengembalikan objek bytearray baru dari objek apa pun, *o*, yang "
+"mengimplementasikan :ref:`buffer protocol <bufferobjects>`."
+
+msgid "On failure, return ``NULL`` with an exception set."
+msgstr ""
+
+msgid "Create a new bytearray object from *string* and its length, *len*."
+msgstr ""
+
+msgid ""
+"Concat bytearrays *a* and *b* and return a new bytearray with the result."
+msgstr ""
+"Menyatukan bytearrays *a* dan *b* dan mengembalikan bytearray baru dengan "
+"hasilnya."
+
+msgid "Return the size of *bytearray* after checking for a ``NULL`` pointer."
+msgstr "Mengembalikan ukuran *bytearray* setelah memeriksa pointer ``NULL``."
+
+msgid ""
+"Return the contents of *bytearray* as a char array after checking for a "
+"``NULL`` pointer.  The returned array always has an extra null byte appended."
+msgstr ""
+"Mengembalikan konten *bytearray* sebagai array karakter setelah memeriksa "
+"pointer ``NULL``. Array yang dikembalikan selalu memiliki byte null ekstra "
+"yang ditambahkan."
+
+msgid ""
+"Resize the internal buffer of *bytearray* to *len*. Failure is a ``-1`` "
+"return with an exception set."
+msgstr ""
+
+msgid ""
+"A negative *len* will now result in an exception being set and -1 returned."
+msgstr ""
+
+msgid "Macros"
+msgstr "Makro"
+
+msgid "These macros trade safety for speed and they don't check pointers."
+msgstr ""
+"Makro ini menukar keamanan dengan kecepatan dan tidak memeriksa pointer."
+
+msgid "Similar to :c:func:`PyByteArray_AsString`, but without error checking."
+msgstr ""
+
+msgid "Similar to :c:func:`PyByteArray_Size`, but without error checking."
+msgstr ""
+
+msgid "object"
+msgstr "objek"
+
+msgid "bytearray"
+msgstr ""

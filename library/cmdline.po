@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Modules command-line interface (CLI)"
+msgstr ""
+
+msgid "The following modules have a command-line interface."
+msgstr ""
+
+msgid ":ref:`ast <ast-cli>`"
+msgstr ""
+
+msgid ":ref:`asyncio <asyncio-cli>`"
+msgstr ""
+
+msgid ":mod:`base64`"
+msgstr ""
+
+msgid ":ref:`calendar <calendar-cli>`"
+msgstr ""
+
+msgid ":mod:`code`"
+msgstr ""
+
+msgid ":ref:`compileall <compileall-cli>`"
+msgstr ""
+
+msgid ":mod:`cProfile`: see :ref:`profile <profile-cli>`"
+msgstr ""
+
+msgid ":ref:`dis <dis-cli>`"
+msgstr ""
+
+msgid ":ref:`doctest <doctest-cli>`"
+msgstr ""
+
+msgid ":mod:`!encodings.rot_13`"
+msgstr ""
+
+msgid ":mod:`ensurepip`"
+msgstr ""
+
+msgid ":mod:`filecmp`"
+msgstr ""
+
+msgid ":mod:`fileinput`"
+msgstr ""
+
+msgid ":mod:`ftplib`"
+msgstr ""
+
+msgid ":ref:`gzip <gzip-cli>`"
+msgstr ""
+
+msgid ":ref:`http.server <http-server-cli>`"
+msgstr ""
+
+msgid ":mod:`!idlelib`"
+msgstr ""
+
+msgid ":ref:`inspect <inspect-module-cli>`"
+msgstr ""
+
+msgid ":ref:`json <json-commandline>`"
+msgstr ""
+
+msgid ":ref:`mimetypes <mimetypes-cli>`"
+msgstr ""
+
+msgid ":mod:`pdb`"
+msgstr ""
+
+msgid ":ref:`pickle <pickle-cli>`"
+msgstr ""
+
+msgid ":ref:`pickletools <pickletools-cli>`"
+msgstr ""
+
+msgid ":ref:`platform <platform-cli>`"
+msgstr ""
+
+msgid ":mod:`poplib`"
+msgstr ""
+
+msgid ":ref:`profile <profile-cli>`"
+msgstr ""
+
+msgid ":mod:`pstats`"
+msgstr ""
+
+msgid ":ref:`py_compile <py_compile-cli>`"
+msgstr ""
+
+msgid ":mod:`pyclbr`"
+msgstr ""
+
+msgid ":mod:`pydoc`"
+msgstr ""
+
+msgid ":mod:`quopri`"
+msgstr ""
+
+msgid ":ref:`random <random-cli>`"
+msgstr ""
+
+msgid ":mod:`runpy`"
+msgstr ""
+
+msgid ":ref:`site <site-commandline>`"
+msgstr ""
+
+msgid ":ref:`sqlite3 <sqlite3-cli>`"
+msgstr ""
+
+msgid ":ref:`symtable <symtable-cli>`"
+msgstr ""
+
+msgid ":ref:`sysconfig <sysconfig-cli>`"
+msgstr ""
+
+msgid ":mod:`tabnanny`"
+msgstr ""
+
+msgid ":ref:`tarfile <tarfile-commandline>`"
+msgstr ""
+
+msgid ":mod:`!this`"
+msgstr ""
+
+msgid ":ref:`timeit <timeit-command-line-interface>`"
+msgstr ""
+
+msgid ":ref:`tokenize <tokenize-cli>`"
+msgstr ""
+
+msgid ":ref:`trace <trace-cli>`"
+msgstr ""
+
+msgid ":mod:`turtledemo`"
+msgstr ""
+
+msgid ":ref:`unittest <unittest-command-line-interface>`"
+msgstr ""
+
+msgid ":ref:`uuid <uuid-cli>`"
+msgstr ""
+
+msgid ":mod:`venv`"
+msgstr ""
+
+msgid ":mod:`webbrowser`"
+msgstr ""
+
+msgid ":ref:`zipapp <zipapp-command-line-interface>`"
+msgstr ""
+
+msgid ":ref:`zipfile <zipfile-commandline>`"
+msgstr ""
+
+msgid "See also the :ref:`Python command-line interface <using-on-general>`."
+msgstr ""

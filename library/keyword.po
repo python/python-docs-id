@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!keyword` --- Testing for Python keywords"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/keyword.py`"
+msgstr "**Kode sumber:** :source:`Lib/keyword.py`"
+
+msgid ""
+"This module allows a Python program to determine if a string is a :ref:"
+"`keyword <keywords>` or :ref:`soft keyword <soft-keywords>`."
+msgstr ""
+
+msgid "Return ``True`` if *s* is a Python :ref:`keyword <keywords>`."
+msgstr "Kembalikan ``True`` jika *s* adalah :ref:`keyword <keywords>` Python."
+
+msgid ""
+"Sequence containing all the :ref:`keywords <keywords>` defined for the "
+"interpreter.  If any keywords are defined to only be active when particular :"
+"mod:`__future__` statements are in effect, these will be included as well."
+msgstr ""
+"Послідовність, що містить усі :ref:`ключові слова <keywords>`, визначені для "
+"інтерпретатора. Якщо будь-які ключові слова визначено як активні лише тоді, "
+"коли діють певні оператори :mod:`__future__`, вони також будуть включені."
+
+msgid "Return ``True`` if *s* is a Python :ref:`soft keyword <soft-keywords>`."
+msgstr ""
+
+msgid ""
+"Sequence containing all the :ref:`soft keywords <soft-keywords>` defined for "
+"the interpreter.  If any soft keywords are defined to only be active when "
+"particular :mod:`__future__` statements are in effect, these will be "
+"included as well."
+msgstr ""

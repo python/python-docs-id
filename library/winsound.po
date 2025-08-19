@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!winsound` --- Sound-playing interface for Windows"
+msgstr ""
+
+msgid ""
+"The :mod:`winsound` module provides access to the basic sound-playing "
+"machinery provided by Windows platforms.  It includes functions and several "
+"constants."
+msgstr ""
+
+msgid ""
+"Beep the PC's speaker. The *frequency* parameter specifies frequency, in "
+"hertz, of the sound, and must be in the range 37 through 32,767. The "
+"*duration* parameter specifies the number of milliseconds the sound should "
+"last.  If the system is not able to beep the speaker, :exc:`RuntimeError` is "
+"raised."
+msgstr ""
+
+msgid ""
+"Call the underlying :c:func:`!PlaySound` function from the Platform API.  "
+"The *sound* parameter may be a filename, a system sound alias, audio data as "
+"a :term:`bytes-like object`, or ``None``.  Its interpretation depends on the "
+"value of *flags*, which can be a bitwise ORed combination of the constants "
+"described below. If the *sound* parameter is ``None``, any currently playing "
+"waveform sound is stopped. If the system indicates an error, :exc:"
+"`RuntimeError` is raised."
+msgstr ""
+
+msgid ""
+"Call the underlying :c:func:`!MessageBeep` function from the Platform API.  "
+"This plays a sound as specified in the registry.  The *type* argument "
+"specifies which sound to play; possible values are ``-1``, "
+"``MB_ICONASTERISK``, ``MB_ICONEXCLAMATION``, ``MB_ICONHAND``, "
+"``MB_ICONQUESTION``, and ``MB_OK``, all described below.  The value ``-1`` "
+"produces a \"simple beep\"; this is the final fallback if a sound cannot be "
+"played otherwise.  If the system indicates an error, :exc:`RuntimeError` is "
+"raised."
+msgstr ""
+
+msgid ""
+"The *sound* parameter is the name of a WAV file. Do not use with :const:"
+"`SND_ALIAS`."
+msgstr ""
+
+msgid ""
+"The *sound* parameter is a sound association name from the registry.  If the "
+"registry contains no such name, play the system default sound unless :const:"
+"`SND_NODEFAULT` is also specified. If no default sound is registered, raise :"
+"exc:`RuntimeError`. Do not use with :const:`SND_FILENAME`."
+msgstr ""
+
+msgid ""
+"All Win32 systems support at least the following; most systems support many "
+"more:"
+msgstr ""
+
+msgid ":func:`PlaySound` *name*"
+msgstr ""
+
+msgid "Corresponding Control Panel Sound name"
+msgstr ""
+
+msgid "``'SystemAsterisk'``"
+msgstr ""
+
+msgid "Asterisk"
+msgstr ""
+
+msgid "``'SystemExclamation'``"
+msgstr ""
+
+msgid "Exclamation"
+msgstr ""
+
+msgid "``'SystemExit'``"
+msgstr ""
+
+msgid "Exit Windows"
+msgstr ""
+
+msgid "``'SystemHand'``"
+msgstr ""
+
+msgid "Critical Stop"
+msgstr ""
+
+msgid "``'SystemQuestion'``"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "For example::"
+msgstr "Sebagai contoh::"
+
+msgid ""
+"import winsound\n"
+"# Play Windows exit sound.\n"
+"winsound.PlaySound(\"SystemExit\", winsound.SND_ALIAS)\n"
+"\n"
+"# Probably play Windows default sound, if any is registered (because\n"
+"# \"*\" probably isn't the registered name of any sound).\n"
+"winsound.PlaySound(\"*\", winsound.SND_ALIAS)"
+msgstr ""
+
+msgid ""
+"Play the sound repeatedly.  The :const:`SND_ASYNC` flag must also be used to "
+"avoid blocking.  Cannot be used with :const:`SND_MEMORY`."
+msgstr ""
+
+msgid ""
+"The *sound* parameter to :func:`PlaySound` is a memory image of a WAV file, "
+"as a :term:`bytes-like object`."
+msgstr ""
+
+msgid ""
+"This module does not support playing from a memory image asynchronously, so "
+"a combination of this flag and :const:`SND_ASYNC` will raise :exc:"
+"`RuntimeError`."
+msgstr ""
+
+msgid "Stop playing all instances of the specified sound."
+msgstr ""
+
+msgid "This flag is not supported on modern Windows platforms."
+msgstr ""
+
+msgid "Return immediately, allowing sounds to play asynchronously."
+msgstr ""
+
+msgid ""
+"If the specified sound cannot be found, do not play the system default sound."
+msgstr ""
+
+msgid "Do not interrupt sounds currently playing."
+msgstr ""
+
+msgid "Return immediately if the sound driver is busy."
+msgstr ""
+
+msgid ""
+"The *sound* parameter is an application-specific alias in the registry. This "
+"flag can be combined with the :const:`SND_ALIAS` flag to specify an "
+"application-defined sound alias."
+msgstr ""
+
+msgid "Triggers a SoundSentry event when the sound is played."
+msgstr ""
+
+msgid "The sound is played synchronously.  This is the default behavior."
+msgstr ""
+
+msgid "Assign the sound to the audio session for system notification sounds."
+msgstr ""
+
+msgid "Play the ``SystemDefault`` sound."
+msgstr ""
+
+msgid "Play the ``SystemExclamation`` sound."
+msgstr ""
+
+msgid "Play the ``SystemHand`` sound."
+msgstr ""
+
+msgid "Play the ``SystemQuestion`` sound."
+msgstr ""

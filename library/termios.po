@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!termios` --- POSIX style tty control"
+msgstr ""
+
+msgid ""
+"This module provides an interface to the POSIX calls for tty I/O control. "
+"For a complete description of these calls, see :manpage:`termios(3)` Unix "
+"manual page.  It is only available for those Unix versions that support "
+"POSIX *termios* style tty I/O control configured during installation."
+msgstr ""
+
+msgid "Availability"
+msgstr ""
+
+msgid ""
+"All functions in this module take a file descriptor *fd* as their first "
+"argument.  This can be an integer file descriptor, such as returned by ``sys."
+"stdin.fileno()``, or a :term:`file object`, such as ``sys.stdin`` itself."
+msgstr ""
+
+msgid ""
+"This module also defines all the constants needed to work with the functions "
+"provided here; these have the same name as their counterparts in C.  Please "
+"refer to your system documentation for more information on using these "
+"terminal control interfaces."
+msgstr ""
+
+msgid "The module defines the following functions:"
+msgstr ""
+
+msgid ""
+"Return a list containing the tty attributes for file descriptor *fd*, as "
+"follows: ``[iflag, oflag, cflag, lflag, ispeed, ospeed, cc]`` where *cc* is "
+"a list of the tty special characters (each a string of length 1, except the "
+"items with indices :const:`VMIN` and :const:`VTIME`, which are integers when "
+"these fields are defined).  The interpretation of the flags and the speeds "
+"as well as the indexing in the *cc* array must be done using the symbolic "
+"constants defined in the :mod:`termios` module."
+msgstr ""
+
+msgid ""
+"Set the tty attributes for file descriptor *fd* from the *attributes*, which "
+"is a list like the one returned by :func:`tcgetattr`.  The *when* argument "
+"determines when the attributes are changed:"
+msgstr ""
+
+msgid "Change attributes immediately."
+msgstr ""
+
+msgid "Change attributes after transmitting all queued output."
+msgstr ""
+
+msgid ""
+"Change attributes after transmitting all queued output and discarding all "
+"queued input."
+msgstr ""
+
+msgid ""
+"Send a break on file descriptor *fd*.  A zero *duration* sends a break for "
+"0.25--0.5 seconds; a nonzero *duration* has a system dependent meaning."
+msgstr ""
+
+msgid ""
+"Wait until all output written to file descriptor *fd* has been transmitted."
+msgstr ""
+
+msgid ""
+"Discard queued data on file descriptor *fd*.  The *queue* selector specifies "
+"which queue: :const:`TCIFLUSH` for the input queue, :const:`TCOFLUSH` for "
+"the output queue, or :const:`TCIOFLUSH` for both queues."
+msgstr ""
+
+msgid ""
+"Suspend or resume input or output on file descriptor *fd*.  The *action* "
+"argument can be :const:`TCOOFF` to suspend output, :const:`TCOON` to restart "
+"output, :const:`TCIOFF` to suspend input, or :const:`TCION` to restart input."
+msgstr ""
+
+msgid ""
+"Return a tuple ``(ws_row, ws_col)`` containing the tty window size for file "
+"descriptor *fd*. Requires :const:`termios.TIOCGWINSZ` or :const:`termios."
+"TIOCGSIZE`."
+msgstr ""
+
+msgid ""
+"Set the tty window size for file descriptor *fd* from *winsize*, which is a "
+"two-item tuple ``(ws_row, ws_col)`` like the one returned by :func:"
+"`tcgetwinsize`. Requires at least one of the pairs (:const:`termios."
+"TIOCGWINSZ`, :const:`termios.TIOCSWINSZ`); (:const:`termios.TIOCGSIZE`, :"
+"const:`termios.TIOCSSIZE`) to be defined."
+msgstr ""
+
+msgid "Module :mod:`tty`"
+msgstr ""
+
+msgid "Convenience functions for common terminal control operations."
+msgstr ""
+
+msgid "Example"
+msgstr "Contoh"
+
+msgid ""
+"Here's a function that prompts for a password with echoing turned off.  Note "
+"the technique using a separate :func:`tcgetattr` call and a :keyword:"
+"`try` ... :keyword:`finally` statement to ensure that the old tty attributes "
+"are restored exactly no matter what happens::"
+msgstr ""
+
+msgid ""
+"def getpass(prompt=\"Password: \"):\n"
+"    import termios, sys\n"
+"    fd = sys.stdin.fileno()\n"
+"    old = termios.tcgetattr(fd)\n"
+"    new = termios.tcgetattr(fd)\n"
+"    new[3] = new[3] & ~termios.ECHO          # lflags\n"
+"    try:\n"
+"        termios.tcsetattr(fd, termios.TCSADRAIN, new)\n"
+"        passwd = input(prompt)\n"
+"    finally:\n"
+"        termios.tcsetattr(fd, termios.TCSADRAIN, old)\n"
+"    return passwd"
+msgstr ""
+
+msgid "POSIX"
+msgstr ""
+
+msgid "I/O control"
+msgstr ""
+
+msgid "tty"
+msgstr ""

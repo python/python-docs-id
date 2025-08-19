@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!grp` --- The group database"
+msgstr ""
+
+msgid ""
+"This module provides access to the Unix group database. It is available on "
+"all Unix versions."
+msgstr ""
+"Цей модуль забезпечує доступ до бази даних групи Unix. Він доступний у всіх "
+"версіях Unix."
+
+msgid "Availability"
+msgstr ""
+
+msgid ""
+"Group database entries are reported as a tuple-like object, whose attributes "
+"correspond to the members of the ``group`` structure (Attribute field below, "
+"see ``<grp.h>``):"
+msgstr ""
+"Записи бази даних групи повідомляються як кортежний об’єкт, атрибути якого "
+"відповідають членам структури ``групи`` (поле атрибута нижче, див. ``<grp."
+"h>``):"
+
+msgid "Index"
+msgstr "Indeks"
+
+msgid "Attribute"
+msgstr "Atribut"
+
+msgid "Meaning"
+msgstr "Artinya"
+
+msgid "0"
+msgstr "0"
+
+msgid "gr_name"
+msgstr "gr_name"
+
+msgid "the name of the group"
+msgstr "назва групи"
+
+msgid "1"
+msgstr "1"
+
+msgid "gr_passwd"
+msgstr "gr_passwd"
+
+msgid "the (encrypted) group password; often empty"
+msgstr "(зашифрований) пароль групи; часто порожній"
+
+msgid "2"
+msgstr "2"
+
+msgid "gr_gid"
+msgstr "gr_gid"
+
+msgid "the numerical group ID"
+msgstr "ідентифікатор числової групи"
+
+msgid "3"
+msgstr "3"
+
+msgid "gr_mem"
+msgstr "gr_mem"
+
+msgid "all the group member's  user names"
+msgstr "імена всіх учасників групи"
+
+msgid ""
+"The gid is an integer, name and password are strings, and the member list is "
+"a list of strings. (Note that most users are not explicitly listed as "
+"members of the group they are in according to the password database.  Check "
+"both databases to get complete membership information.  Also note that a "
+"``gr_name`` that starts with a ``+`` or ``-`` is likely to be a YP/NIS "
+"reference and may not be accessible via :func:`getgrnam` or :func:"
+"`getgrgid`.)"
+msgstr ""
+"Gid — це ціле число, ім’я та пароль — це рядки, а список учасників — це "
+"список рядків. (Зауважте, що більшість користувачів явно не вказані як члени "
+"групи, до якої вони належать, відповідно до бази даних паролів. Перевірте "
+"обидві бази даних, щоб отримати повну інформацію про членство. Також "
+"зауважте, що ``gr_name``, яке починається з ``+`` або ``-``, ймовірно, є "
+"посиланням на YP/NIS і може бути недоступним через :func:`getgrnam` або :"
+"func:`getgrgid`.)"
+
+msgid "It defines the following items:"
+msgstr "Він визначає такі пункти:"
+
+msgid ""
+"Return the group database entry for the given numeric group ID. :exc:"
+"`KeyError` is raised if the entry asked for cannot be found."
+msgstr ""
+"Повертає запис бази даних групи для вказаного числового ідентифікатора "
+"групи. :exc:`KeyError` виникає, якщо запитуваний запис не знайдено."
+
+msgid ""
+":exc:`TypeError` is raised for non-integer arguments like floats or strings."
+msgstr ""
+
+msgid ""
+"Return the group database entry for the given group name. :exc:`KeyError` is "
+"raised if the entry asked for cannot be found."
+msgstr ""
+"Повертає запис бази даних групи для заданої назви групи. :exc:`KeyError` "
+"виникає, якщо запитуваний запис не знайдено."
+
+msgid "Return a list of all available group entries, in arbitrary order."
+msgstr "Повертає список усіх доступних групових записів у довільному порядку."
+
+msgid "Module :mod:`pwd`"
+msgstr "Modul :mod:`pwd`"
+
+msgid "An interface to the user database, similar to this."
+msgstr "Подібний до цього інтерфейс до бази даних користувача."

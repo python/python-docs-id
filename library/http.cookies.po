@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!http.cookies` --- HTTP state management"
+msgstr ""
+
+msgid "**Source code:** :source:`Lib/http/cookies.py`"
+msgstr ""
+
+msgid ""
+"The :mod:`http.cookies` module defines classes for abstracting the concept "
+"of cookies, an HTTP state management mechanism. It supports both simple "
+"string-only cookies, and provides an abstraction for having any serializable "
+"data-type as cookie value."
+msgstr ""
+
+msgid ""
+"The module formerly strictly applied the parsing rules described in the :rfc:"
+"`2109` and :rfc:`2068` specifications.  It has since been discovered that "
+"MSIE 3.0x didn't follow the character rules outlined in those specs; many "
+"current-day browsers and servers have also relaxed parsing rules when it "
+"comes to cookie handling.  As a result, this module now uses parsing rules "
+"that are a bit less strict than they once were."
+msgstr ""
+
+msgid ""
+"The character set, :data:`string.ascii_letters`, :data:`string.digits` and "
+"``!#$%&'*+-.^_`|~:`` denote the set of valid characters allowed by this "
+"module in a cookie name (as :attr:`~Morsel.key`)."
+msgstr ""
+
+msgid "Allowed ':' as a valid cookie name character."
+msgstr ""
+
+msgid ""
+"On encountering an invalid cookie, :exc:`CookieError` is raised, so if your "
+"cookie data comes from a browser you should always prepare for invalid data "
+"and catch :exc:`CookieError` on parsing."
+msgstr ""
+
+msgid ""
+"Exception failing because of :rfc:`2109` invalidity: incorrect attributes, "
+"incorrect :mailheader:`Set-Cookie` header, etc."
+msgstr ""
+
+msgid ""
+"This class is a dictionary-like object whose keys are strings and whose "
+"values are :class:`Morsel` instances. Note that upon setting a key to a "
+"value, the value is first converted to a :class:`Morsel` containing the key "
+"and the value."
+msgstr ""
+
+msgid "If *input* is given, it is passed to the :meth:`load` method."
+msgstr ""
+
+msgid ""
+"This class derives from :class:`BaseCookie` and overrides :meth:`~BaseCookie."
+"value_decode` and :meth:`~BaseCookie.value_encode`. :class:`!SimpleCookie` "
+"supports strings as cookie values. When setting the value, :class:`!"
+"SimpleCookie` calls the builtin :func:`str` to convert the value to a "
+"string. Values received from HTTP are kept as strings."
+msgstr ""
+
+msgid "Module :mod:`http.cookiejar`"
+msgstr ""
+
+msgid ""
+"HTTP cookie handling for web *clients*.  The :mod:`http.cookiejar` and :mod:"
+"`http.cookies` modules do not depend on each other."
+msgstr ""
+
+msgid ":rfc:`2109` - HTTP State Management Mechanism"
+msgstr ":rfc:`2109` - механізм керування станом HTTP"
+
+msgid "This is the state management specification implemented by this module."
+msgstr ""
+
+msgid "Cookie Objects"
+msgstr "Objek *Cookie*"
+
+msgid ""
+"Return a tuple ``(real_value, coded_value)`` from a string representation. "
+"``real_value`` can be any type. This method does no decoding in :class:"
+"`BaseCookie` --- it exists so it can be overridden."
+msgstr ""
+
+msgid ""
+"Return a tuple ``(real_value, coded_value)``. *val* can be any type, but "
+"``coded_value`` will always be converted to a string. This method does no "
+"encoding in :class:`BaseCookie` --- it exists so it can be overridden."
+msgstr ""
+
+msgid ""
+"In general, it should be the case that :meth:`value_encode` and :meth:"
+"`value_decode` are inverses on the range of *value_decode*."
+msgstr ""
+
+msgid ""
+"Return a string representation suitable to be sent as HTTP headers. *attrs* "
+"and *header* are sent to each :class:`Morsel`'s :meth:`~Morsel.output` "
+"method. *sep* is used to join the headers together, and is by default the "
+"combination ``'\\r\\n'`` (CRLF)."
+msgstr ""
+
+msgid ""
+"Return an embeddable JavaScript snippet, which, if run on a browser which "
+"supports JavaScript, will act the same as if the HTTP headers was sent."
+msgstr ""
+
+msgid "The meaning for *attrs* is the same as in :meth:`output`."
+msgstr ""
+
+msgid ""
+"If *rawdata* is a string, parse it as an ``HTTP_COOKIE`` and add the values "
+"found there as :class:`Morsel`\\ s. If it is a dictionary, it is equivalent "
+"to::"
+msgstr ""
+
+msgid ""
+"for k, v in rawdata.items():\n"
+"    cookie[k] = v"
+msgstr ""
+
+msgid "Morsel Objects"
+msgstr "Object *Morsel*"
+
+msgid "Abstract a key/value pair, which has some :rfc:`2109` attributes."
+msgstr ""
+
+msgid ""
+"Morsels are dictionary-like objects, whose set of keys is constant --- the "
+"valid :rfc:`2109` attributes, which are:"
+msgstr ""
+
+msgid ""
+"The attribute :attr:`httponly` specifies that the cookie is only transferred "
+"in HTTP requests, and is not accessible through JavaScript. This is intended "
+"to mitigate some forms of cross-site scripting."
+msgstr ""
+
+msgid ""
+"The attribute :attr:`samesite` controls when the browser sends the cookie "
+"with cross-site requests. This helps to mitigate CSRF attacks. Valid values "
+"are \"Strict\" (only sent with same-site requests), \"Lax\" (sent with same-"
+"site requests and top-level navigations), and \"None\" (sent with same-site "
+"and cross-site requests). When using \"None\", the \"secure\" attribute must "
+"also be set, as required by modern browsers."
+msgstr ""
+
+msgid ""
+"The attribute :attr:`partitioned` indicates to user agents that these cross-"
+"site cookies *should* only be available in the same top-level context that "
+"the cookie was first set in. For this to be accepted by the user agent, you "
+"**must** also set ``Secure``."
+msgstr ""
+
+msgid ""
+"In addition, it is recommended to use the ``__Host`` prefix when setting "
+"partitioned cookies to make them bound to the hostname and not the "
+"registrable domain. Read `CHIPS (Cookies Having Independent Partitioned "
+"State)`_ for full details and examples."
+msgstr ""
+
+msgid "The keys are case-insensitive and their default value is ``''``."
+msgstr ""
+
+msgid ""
+":meth:`!__eq__` now takes :attr:`~Morsel.key` and :attr:`~Morsel.value` into "
+"account."
+msgstr ""
+
+msgid ""
+"Attributes :attr:`~Morsel.key`, :attr:`~Morsel.value` and :attr:`~Morsel."
+"coded_value` are read-only.  Use :meth:`~Morsel.set` for setting them."
+msgstr ""
+
+msgid "Added support for the :attr:`samesite` attribute."
+msgstr ""
+
+msgid "Added support for the :attr:`partitioned` attribute."
+msgstr ""
+
+msgid "The value of the cookie."
+msgstr "Nilai dari *cookie*"
+
+msgid "The encoded value of the cookie --- this is what should be sent."
+msgstr ""
+
+msgid "The name of the cookie."
+msgstr "Nama dari *cookie*"
+
+msgid "Set the *key*, *value* and *coded_value* attributes."
+msgstr ""
+
+msgid "Whether *K* is a member of the set of keys of a :class:`Morsel`."
+msgstr ""
+
+msgid ""
+"Return a string representation of the Morsel, suitable to be sent as an HTTP "
+"header. By default, all the attributes are included, unless *attrs* is "
+"given, in which case it should be a list of attributes to use. *header* is "
+"by default ``\"Set-Cookie:\"``."
+msgstr ""
+
+msgid ""
+"Return an embeddable JavaScript snippet, which, if run on a browser which "
+"supports JavaScript, will act the same as if the HTTP header was sent."
+msgstr ""
+
+msgid ""
+"Return a string representing the Morsel, without any surrounding HTTP or "
+"JavaScript."
+msgstr ""
+
+msgid ""
+"Update the values in the Morsel dictionary with the values in the dictionary "
+"*values*.  Raise an error if any of the keys in the *values* dict is not a "
+"valid :rfc:`2109` attribute."
+msgstr ""
+
+msgid "an error is raised for invalid keys."
+msgstr ""
+
+msgid "Return a shallow copy of the Morsel object."
+msgstr ""
+
+msgid "return a Morsel object instead of a dict."
+msgstr ""
+
+msgid ""
+"Raise an error if key is not a valid :rfc:`2109` attribute, otherwise behave "
+"the same as :meth:`dict.setdefault`."
+msgstr ""
+
+msgid "Example"
+msgstr "Contoh"
+
+msgid ""
+"The following example demonstrates how to use the :mod:`http.cookies` module."
+msgstr ""
+
+msgid ""
+">>> from http import cookies\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C[\"fig\"] = \"newton\"\n"
+">>> C[\"sugar\"] = \"wafer\"\n"
+">>> print(C) # generate HTTP headers\n"
+"Set-Cookie: fig=newton\n"
+"Set-Cookie: sugar=wafer\n"
+">>> print(C.output()) # same thing\n"
+"Set-Cookie: fig=newton\n"
+"Set-Cookie: sugar=wafer\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C[\"rocky\"] = \"road\"\n"
+">>> C[\"rocky\"][\"path\"] = \"/cookie\"\n"
+">>> print(C.output(header=\"Cookie:\"))\n"
+"Cookie: rocky=road; Path=/cookie\n"
+">>> print(C.output(attrs=[], header=\"Cookie:\"))\n"
+"Cookie: rocky=road\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C.load(\"chips=ahoy; vienna=finger\") # load from a string (HTTP "
+"header)\n"
+">>> print(C)\n"
+"Set-Cookie: chips=ahoy\n"
+"Set-Cookie: vienna=finger\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C.load('keebler=\"E=everybody; L=\\\\\"Loves\\\\\"; fudge=\\\\012;\";')\n"
+">>> print(C)\n"
+"Set-Cookie: keebler=\"E=everybody; L=\\\"Loves\\\"; fudge=\\012;\"\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C[\"oreo\"] = \"doublestuff\"\n"
+">>> C[\"oreo\"][\"path\"] = \"/\"\n"
+">>> print(C)\n"
+"Set-Cookie: oreo=doublestuff; Path=/\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C[\"twix\"] = \"none for you\"\n"
+">>> C[\"twix\"].value\n"
+"'none for you'\n"
+">>> C = cookies.SimpleCookie()\n"
+">>> C[\"number\"] = 7 # equivalent to C[\"number\"] = str(7)\n"
+">>> C[\"string\"] = \"seven\"\n"
+">>> C[\"number\"].value\n"
+"'7'\n"
+">>> C[\"string\"].value\n"
+"'seven'\n"
+">>> print(C)\n"
+"Set-Cookie: number=7\n"
+"Set-Cookie: string=seven"
+msgstr ""

@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!errno` --- Standard errno system symbols"
+msgstr ""
+
+msgid ""
+"This module makes available standard ``errno`` system symbols. The value of "
+"each symbol is the corresponding integer value. The names and descriptions "
+"are borrowed from :file:`linux/include/errno.h`, which should be all-"
+"inclusive."
+msgstr ""
+
+msgid ""
+"Dictionary providing a mapping from the errno value to the string name in "
+"the underlying system.  For instance, ``errno.errorcode[errno.EPERM]`` maps "
+"to ``'EPERM'``."
+msgstr ""
+
+msgid ""
+"To translate a numeric error code to an error message, use :func:`os."
+"strerror`."
+msgstr ""
+
+msgid ""
+"Of the following list, symbols that are not used on the current platform are "
+"not defined by the module.  The specific list of defined symbols is "
+"available as ``errno.errorcode.keys()``.  Symbols available can include:"
+msgstr ""
+
+msgid ""
+"Operation not permitted. This error is mapped to the exception :exc:"
+"`PermissionError`."
+msgstr ""
+
+msgid ""
+"No such file or directory. This error is mapped to the exception :exc:"
+"`FileNotFoundError`."
+msgstr ""
+
+msgid ""
+"No such process. This error is mapped to the exception :exc:"
+"`ProcessLookupError`."
+msgstr ""
+
+msgid ""
+"Interrupted system call. This error is mapped to the exception :exc:"
+"`InterruptedError`."
+msgstr ""
+
+msgid "I/O error"
+msgstr ""
+
+msgid "No such device or address"
+msgstr ""
+
+msgid "Arg list too long"
+msgstr ""
+
+msgid "Exec format error"
+msgstr ""
+
+msgid "Bad file number"
+msgstr ""
+
+msgid ""
+"No child processes. This error is mapped to the exception :exc:"
+"`ChildProcessError`."
+msgstr ""
+
+msgid ""
+"Try again. This error is mapped to the exception :exc:`BlockingIOError`."
+msgstr ""
+
+msgid "Out of memory"
+msgstr ""
+
+msgid ""
+"Permission denied.  This error is mapped to the exception :exc:"
+"`PermissionError`."
+msgstr ""
+
+msgid "Bad address"
+msgstr ""
+
+msgid "Block device required"
+msgstr ""
+
+msgid "Device or resource busy"
+msgstr ""
+
+msgid ""
+"File exists. This error is mapped to the exception :exc:`FileExistsError`."
+msgstr ""
+
+msgid "Cross-device link"
+msgstr ""
+
+msgid "No such device"
+msgstr ""
+
+msgid ""
+"Not a directory. This error is mapped to the exception :exc:"
+"`NotADirectoryError`."
+msgstr ""
+
+msgid ""
+"Is a directory. This error is mapped to the exception :exc:"
+"`IsADirectoryError`."
+msgstr ""
+
+msgid "Invalid argument"
+msgstr ""
+
+msgid "File table overflow"
+msgstr ""
+
+msgid "Too many open files"
+msgstr ""
+
+msgid "Not a typewriter"
+msgstr ""
+
+msgid "Text file busy"
+msgstr ""
+
+msgid "File too large"
+msgstr ""
+
+msgid "No space left on device"
+msgstr ""
+
+msgid "Illegal seek"
+msgstr ""
+
+msgid "Read-only file system"
+msgstr ""
+
+msgid "Too many links"
+msgstr ""
+
+msgid ""
+"Broken pipe. This error is mapped to the exception :exc:`BrokenPipeError`."
+msgstr ""
+
+msgid "Math argument out of domain of func"
+msgstr ""
+
+msgid "Math result not representable"
+msgstr ""
+
+msgid "Resource deadlock would occur"
+msgstr ""
+
+msgid "File name too long"
+msgstr ""
+
+msgid "No record locks available"
+msgstr ""
+
+msgid "Function not implemented"
+msgstr ""
+
+msgid "Directory not empty"
+msgstr ""
+
+msgid "Too many symbolic links encountered"
+msgstr ""
+
+msgid ""
+"Operation would block. This error is mapped to the exception :exc:"
+"`BlockingIOError`."
+msgstr ""
+
+msgid "No message of desired type"
+msgstr ""
+
+msgid "Identifier removed"
+msgstr ""
+
+msgid "Channel number out of range"
+msgstr ""
+
+msgid "Level 2 not synchronized"
+msgstr ""
+
+msgid "Level 3 halted"
+msgstr ""
+
+msgid "Level 3 reset"
+msgstr ""
+
+msgid "Link number out of range"
+msgstr ""
+
+msgid "Protocol driver not attached"
+msgstr ""
+
+msgid "No CSI structure available"
+msgstr ""
+
+msgid "Level 2 halted"
+msgstr ""
+
+msgid "Invalid exchange"
+msgstr ""
+
+msgid "Invalid request descriptor"
+msgstr ""
+
+msgid "Exchange full"
+msgstr ""
+
+msgid "No anode"
+msgstr ""
+
+msgid "Invalid request code"
+msgstr ""
+
+msgid "Invalid slot"
+msgstr ""
+
+msgid "File locking deadlock error"
+msgstr ""
+
+msgid "Bad font file format"
+msgstr ""
+
+msgid "Device not a stream"
+msgstr ""
+
+msgid "No data available"
+msgstr ""
+
+msgid "Timer expired"
+msgstr ""
+
+msgid "Out of streams resources"
+msgstr ""
+
+msgid "Machine is not on the network"
+msgstr ""
+
+msgid "Package not installed"
+msgstr ""
+
+msgid "Object is remote"
+msgstr ""
+
+msgid "Link has been severed"
+msgstr ""
+
+msgid "Advertise error"
+msgstr ""
+
+msgid "Srmount error"
+msgstr ""
+
+msgid "Communication error on send"
+msgstr ""
+
+msgid "Protocol error"
+msgstr ""
+
+msgid "Multihop attempted"
+msgstr ""
+
+msgid "RFS specific error"
+msgstr ""
+
+msgid "Not a data message"
+msgstr ""
+
+msgid "Value too large for defined data type"
+msgstr ""
+
+msgid "Name not unique on network"
+msgstr ""
+
+msgid "File descriptor in bad state"
+msgstr ""
+
+msgid "Remote address changed"
+msgstr ""
+
+msgid "Can not access a needed shared library"
+msgstr ""
+
+msgid "Accessing a corrupted shared library"
+msgstr ""
+
+msgid ".lib section in a.out corrupted"
+msgstr ""
+
+msgid "Attempting to link in too many shared libraries"
+msgstr ""
+
+msgid "Cannot exec a shared library directly"
+msgstr ""
+
+msgid "Illegal byte sequence"
+msgstr ""
+
+msgid "Interrupted system call should be restarted"
+msgstr ""
+
+msgid "Streams pipe error"
+msgstr ""
+
+msgid "Too many users"
+msgstr ""
+
+msgid "Socket operation on non-socket"
+msgstr ""
+
+msgid "Destination address required"
+msgstr ""
+
+msgid "Message too long"
+msgstr ""
+
+msgid "Protocol wrong type for socket"
+msgstr ""
+
+msgid "Protocol not available"
+msgstr ""
+
+msgid "Protocol not supported"
+msgstr ""
+
+msgid "Socket type not supported"
+msgstr ""
+
+msgid "Operation not supported on transport endpoint"
+msgstr ""
+
+msgid "Operation not supported"
+msgstr ""
+
+msgid "Protocol family not supported"
+msgstr ""
+
+msgid "Address family not supported by protocol"
+msgstr ""
+
+msgid "Address already in use"
+msgstr ""
+
+msgid "Cannot assign requested address"
+msgstr ""
+
+msgid "Network is down"
+msgstr ""
+
+msgid "Network is unreachable"
+msgstr ""
+
+msgid "Network dropped connection because of reset"
+msgstr ""
+
+msgid ""
+"Software caused connection abort. This error is mapped to the exception :exc:"
+"`ConnectionAbortedError`."
+msgstr ""
+
+msgid ""
+"Connection reset by peer. This error is mapped to the exception :exc:"
+"`ConnectionResetError`."
+msgstr ""
+
+msgid "No buffer space available"
+msgstr ""
+
+msgid "Transport endpoint is already connected"
+msgstr ""
+
+msgid "Transport endpoint is not connected"
+msgstr ""
+
+msgid ""
+"Cannot send after transport endpoint shutdown. This error is mapped to the "
+"exception :exc:`BrokenPipeError`."
+msgstr ""
+
+msgid "Too many references: cannot splice"
+msgstr ""
+
+msgid ""
+"Connection timed out. This error is mapped to the exception :exc:"
+"`TimeoutError`."
+msgstr ""
+
+msgid ""
+"Connection refused. This error is mapped to the exception :exc:"
+"`ConnectionRefusedError`."
+msgstr ""
+
+msgid "Host is down"
+msgstr ""
+
+msgid "No route to host"
+msgstr ""
+
+msgid "Memory page has hardware error."
+msgstr ""
+
+msgid ""
+"Operation already in progress. This error is mapped to the exception :exc:"
+"`BlockingIOError`."
+msgstr ""
+
+msgid ""
+"Operation now in progress. This error is mapped to the exception :exc:"
+"`BlockingIOError`."
+msgstr ""
+
+msgid "Stale NFS file handle"
+msgstr ""
+
+msgid "Structure needs cleaning"
+msgstr ""
+
+msgid "Not a XENIX named type file"
+msgstr ""
+
+msgid "No XENIX semaphores available"
+msgstr ""
+
+msgid "Is a named type file"
+msgstr ""
+
+msgid "Remote I/O error"
+msgstr ""
+
+msgid "Quota exceeded"
+msgstr ""
+
+msgid "Interface output queue is full"
+msgstr ""
+
+msgid "No medium found"
+msgstr ""
+
+msgid "Wrong medium type"
+msgstr ""
+
+msgid "Required key not available"
+msgstr ""
+
+msgid "Key has expired"
+msgstr ""
+
+msgid "Key has been revoked"
+msgstr ""
+
+msgid "Key was rejected by service"
+msgstr ""
+
+msgid "Operation not possible due to RF-kill"
+msgstr ""
+
+msgid "Locked lock was unmapped"
+msgstr ""
+
+msgid "Facility is not active"
+msgstr ""
+
+msgid "Authentication error"
+msgstr ""
+
+msgid "Bad CPU type in executable"
+msgstr ""
+
+msgid "Bad executable (or shared library)"
+msgstr ""
+
+msgid "Malformed Mach-o file"
+msgstr ""
+
+msgid "Device error"
+msgstr ""
+
+msgid "Inappropriate file type or format"
+msgstr ""
+
+msgid "Need authenticator"
+msgstr ""
+
+msgid "Attribute not found"
+msgstr ""
+
+msgid "Policy not found"
+msgstr ""
+
+msgid "Too many processes"
+msgstr ""
+
+msgid "Bad procedure for program"
+msgstr ""
+
+msgid "Program version wrong"
+msgstr ""
+
+msgid "RPC prog. not avail"
+msgstr ""
+
+msgid "Device power is off"
+msgstr ""
+
+msgid "RPC struct is bad"
+msgstr ""
+
+msgid "RPC version wrong"
+msgstr ""
+
+msgid "Shared library version mismatch"
+msgstr ""
+
+msgid ""
+"Capabilities insufficient. This error is mapped to the exception :exc:"
+"`PermissionError`."
+msgstr ""
+
+msgid "Availability"
+msgstr ""
+
+msgid "Operation canceled"
+msgstr ""
+
+msgid "Owner died"
+msgstr ""
+
+msgid "State not recoverable"
+msgstr ""

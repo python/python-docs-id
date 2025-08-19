@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Bytes Objects"
+msgstr "Bayt Nesneleri"
+
+msgid ""
+"These functions raise :exc:`TypeError` when expecting a bytes parameter and "
+"called with a non-bytes parameter."
+msgstr ""
+"Ці функції викликають :exc:`TypeError`, коли очікується параметр bytes і "
+"викликаються з параметром, який не є байтом."
+
+msgid "This subtype of :c:type:`PyObject` represents a Python bytes object."
+msgstr "Цей підтип :c:type:`PyObject` представляє об’єкт Python bytes."
+
+msgid ""
+"This instance of :c:type:`PyTypeObject` represents the Python bytes type; it "
+"is the same object as :class:`bytes` in the Python layer."
+msgstr ""
+"Цей екземпляр :c:type:`PyTypeObject` представляє тип Python bytes; це той "
+"самий об’єкт, що й :class:`bytes` на рівні Python."
+
+msgid ""
+"Return true if the object *o* is a bytes object or an instance of a subtype "
+"of the bytes type.  This function always succeeds."
+msgstr ""
+"Повертає true, якщо об’єкт *o* є об’єктом bytes або екземпляром підтипу типу "
+"bytes. Ця функція завжди успішна."
+
+msgid ""
+"Return true if the object *o* is a bytes object, but not an instance of a "
+"subtype of the bytes type.  This function always succeeds."
+msgstr ""
+"Повертає true, якщо об’єкт *o* є об’єктом bytes, але не екземпляром підтипу "
+"типу bytes. Ця функція завжди успішна."
+
+msgid ""
+"Return a new bytes object with a copy of the string *v* as value on success, "
+"and ``NULL`` on failure.  The parameter *v* must not be ``NULL``; it will "
+"not be checked."
+msgstr ""
+"Повертає новий об’єкт bytes із копією рядка *v* як значення в разі успіху та "
+"``NULL`` у разі помилки. Параметр *v* не має бути ``NULL``; перевірятися не "
+"буде."
+
+msgid ""
+"Return a new bytes object with a copy of the string *v* as value and length "
+"*len* on success, and ``NULL`` on failure.  If *v* is ``NULL``, the contents "
+"of the bytes object are uninitialized."
+msgstr ""
+"Повертає новий об’єкт bytes із копією рядка *v* як значення та довжиною "
+"*len* у разі успіху та ``NULL`` у разі помилки. Якщо *v* має значення "
+"``NULL``, вміст об’єкта bytes не ініціалізується."
+
+msgid ""
+"Take a C :c:func:`printf`\\ -style *format* string and a variable number of "
+"arguments, calculate the size of the resulting Python bytes object and "
+"return a bytes object with the values formatted into it.  The variable "
+"arguments must be C types and must correspond exactly to the format "
+"characters in the *format* string.  The following format characters are "
+"allowed:"
+msgstr ""
+"Візьміть рядок *format* у стилі C :c:func:`printf`\\ і змінну кількість "
+"аргументів, обчисліть розмір результуючого об’єкта Python bytes і поверніть "
+"об’єкт bytes із відформатованими значеннями. Змінні аргументи мають бути "
+"типу C і точно відповідати символам формату в рядку *format*. Дозволяються "
+"такі символи формату:"
+
+msgid "Format Characters"
+msgstr "Формат символів"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Comment"
+msgstr "komentarz"
+
+msgid "``%%``"
+msgstr "``%%``"
+
+msgid "*n/a*"
+msgstr "*t/a*"
+
+msgid "The literal % character."
+msgstr "Літеральний символ %."
+
+msgid "``%c``"
+msgstr "``%c``"
+
+msgid "int"
+msgstr "int"
+
+msgid "A single byte, represented as a C int."
+msgstr "Один байт, представлений як C int."
+
+msgid "``%d``"
+msgstr "``%d``"
+
+msgid "Equivalent to ``printf(\"%d\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%d\")``. [1]_"
+
+msgid "``%u``"
+msgstr "``%u``"
+
+msgid "unsigned int"
+msgstr "unsigned int"
+
+msgid "Equivalent to ``printf(\"%u\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%u\")``. [1]_"
+
+msgid "``%ld``"
+msgstr ""
+
+msgid "long"
+msgstr "long"
+
+msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%ld\")``. [1]_"
+
+msgid "``%lu``"
+msgstr ""
+
+msgid "unsigned long"
+msgstr "unsigned long"
+
+msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%lu\")``. [1]_"
+
+msgid "``%zd``"
+msgstr ""
+
+msgid ":c:type:`\\ Py_ssize_t`"
+msgstr ":c:type:`\\ Py_ssize_t`"
+
+msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%zd\")``. [1]_"
+
+msgid "``%zu``"
+msgstr ""
+
+msgid "size_t"
+msgstr "size_t"
+
+msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%zu\")``. [1]_"
+
+msgid "``%i``"
+msgstr "``%i``"
+
+msgid "Equivalent to ``printf(\"%i\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%i\")``. [1]_"
+
+msgid "``%x``"
+msgstr "``%x``"
+
+msgid "Equivalent to ``printf(\"%x\")``. [1]_"
+msgstr "Еквівалент ``printf(\"%x\")``. [1]_"
+
+msgid "``%s``"
+msgstr "``%s``"
+
+msgid "const char\\*"
+msgstr "const char\\*"
+
+msgid "A null-terminated C character array."
+msgstr "Масив символів C із закінченням нулем."
+
+msgid "``%p``"
+msgstr "``%p``"
+
+msgid "const void\\*"
+msgstr "const void\\*"
+
+msgid ""
+"The hex representation of a C pointer. Mostly equivalent to "
+"``printf(\"%p\")`` except that it is guaranteed to start with the literal "
+"``0x`` regardless of what the platform's ``printf`` yields."
+msgstr ""
+"Шістнадцяткове представлення покажчика C. Здебільшого еквівалентний "
+"``printf(\"%p\")`` за винятком того, що він гарантовано починається з "
+"літералу ``0x`` незалежно від того, що дає ``printf`` платформи."
+
+msgid ""
+"An unrecognized format character causes all the rest of the format string to "
+"be copied as-is to the result object, and any extra arguments discarded."
+msgstr ""
+"Нерозпізнаний символ формату спричиняє копіювання всієї решти рядка формату "
+"в об’єкт результату як є, а будь-які додаткові аргументи відкидаються."
+
+msgid ""
+"For integer specifiers (d, u, ld, lu, zd, zu, i, x): the 0-conversion flag "
+"has effect even when a precision is given."
+msgstr ""
+"Для цілочисельних специфікаторів (d, u, ld, lu, zd, zu, i, x): прапор 0-"
+"конверсії діє, навіть якщо задано точність."
+
+msgid ""
+"Identical to :c:func:`PyBytes_FromFormat` except that it takes exactly two "
+"arguments."
+msgstr ""
+"Ідентичний :c:func:`PyBytes_FromFormat` за винятком того, що він приймає "
+"рівно два аргументи."
+
+msgid ""
+"Return the bytes representation of object *o* that implements the buffer "
+"protocol."
+msgstr ""
+"Повертає представлення байтів об’єкта *o*, який реалізує протокол буфера."
+
+msgid "Return the length of the bytes in bytes object *o*."
+msgstr "Повертає довжину байтів у байтах об'єкт *o*."
+
+msgid "Similar to :c:func:`PyBytes_Size`, but without error checking."
+msgstr ""
+
+msgid ""
+"Return a pointer to the contents of *o*.  The pointer refers to the internal "
+"buffer of *o*, which consists of ``len(o) + 1`` bytes.  The last byte in the "
+"buffer is always null, regardless of whether there are any other null "
+"bytes.  The data must not be modified in any way, unless the object was just "
+"created using ``PyBytes_FromStringAndSize(NULL, size)``. It must not be "
+"deallocated.  If *o* is not a bytes object at all, :c:func:"
+"`PyBytes_AsString` returns ``NULL`` and raises :exc:`TypeError`."
+msgstr ""
+"Повернути вказівник на вміст *o*. Покажчик посилається на внутрішній буфер "
+"*o*, який складається з ``len(o) + 1`` байтів. Останній байт у буфері завжди "
+"нульовий, незалежно від того, чи є інші нульові байти. Дані не можна "
+"змінювати жодним чином, якщо об’єкт не було щойно створено за допомогою "
+"``PyBytes_FromStringAndSize(NULL, size)``. Його не можна звільняти. Якщо *o* "
+"взагалі не є об’єктом bytes, :c:func:`PyBytes_AsString` повертає ``NULL`` і "
+"викликає :exc:`TypeError`."
+
+msgid "Similar to :c:func:`PyBytes_AsString`, but without error checking."
+msgstr ""
+
+msgid ""
+"Return the null-terminated contents of the object *obj* through the output "
+"variables *buffer* and *length*. Returns ``0`` on success."
+msgstr ""
+
+msgid ""
+"If *length* is ``NULL``, the bytes object may not contain embedded null "
+"bytes; if it does, the function returns ``-1`` and a :exc:`ValueError` is "
+"raised."
+msgstr ""
+"Якщо *length* дорівнює ``NULL``, об’єкт bytes може не містити вбудованих "
+"нульових байтів; якщо це так, функція повертає ``-1`` і викликає :exc:"
+"`ValueError`."
+
+msgid ""
+"The buffer refers to an internal buffer of *obj*, which includes an "
+"additional null byte at the end (not counted in *length*).  The data must "
+"not be modified in any way, unless the object was just created using "
+"``PyBytes_FromStringAndSize(NULL, size)``.  It must not be deallocated.  If "
+"*obj* is not a bytes object at all, :c:func:`PyBytes_AsStringAndSize` "
+"returns ``-1`` and raises :exc:`TypeError`."
+msgstr ""
+"Буфер відноситься до внутрішнього буфера *obj*, який містить додатковий "
+"нульовий байт у кінці (не враховується в *довжині*). Дані не можна змінювати "
+"жодним чином, якщо об’єкт не було щойно створено за допомогою "
+"``PyBytes_FromStringAndSize(NULL, size)``. Його не можна звільняти. Якщо "
+"*obj* взагалі не є об’єктом bytes, :c:func:`PyBytes_AsStringAndSize` "
+"повертає ``-1`` і викликає :exc:`TypeError`."
+
+msgid ""
+"Previously, :exc:`TypeError` was raised when embedded null bytes were "
+"encountered in the bytes object."
+msgstr ""
+"Раніше :exc:`TypeError` виникало, коли в об’єкті bytes зустрічалися "
+"вбудовані нульові байти."
+
+msgid ""
+"Create a new bytes object in *\\*bytes* containing the contents of *newpart* "
+"appended to *bytes*; the caller will own the new reference.  The reference "
+"to the old value of *bytes* will be stolen.  If the new object cannot be "
+"created, the old reference to *bytes* will still be discarded and the value "
+"of *\\*bytes* will be set to ``NULL``; the appropriate exception will be set."
+msgstr ""
+"Створіть новий об’єкт bytes у *\\*bytes*, що містить вміст *newpart*, "
+"доданий до *bytes*; абонент буде володіти новим посиланням. Посилання на "
+"старе значення *bytes* буде викрадено. Якщо новий об’єкт неможливо створити, "
+"старе посилання на *bytes* все одно буде відкинуто, а значення *\\*bytes* "
+"буде встановлено на ``NULL``; буде встановлено відповідний виняток."
+
+msgid ""
+"Create a new bytes object in *\\*bytes* containing the contents of *newpart* "
+"appended to *bytes*.  This version releases the :term:`strong reference` to "
+"*newpart* (i.e. decrements its reference count)."
+msgstr ""
+
+msgid "Similar to ``sep.join(iterable)`` in Python."
+msgstr ""
+
+msgid ""
+"*sep* must be Python :class:`bytes` object. (Note that :c:func:"
+"`PyUnicode_Join` accepts ``NULL`` separator and treats it as a space, "
+"whereas :c:func:`PyBytes_Join` doesn't accept ``NULL`` separator.)"
+msgstr ""
+
+msgid ""
+"*iterable* must be an iterable object yielding objects that implement the :"
+"ref:`buffer protocol <bufferobjects>`."
+msgstr ""
+
+msgid ""
+"On success, return a new :class:`bytes` object. On error, set an exception "
+"and return ``NULL``."
+msgstr ""
+
+msgid ""
+"Resize a bytes object. *newsize* will be the new length of the bytes object. "
+"You can think of it as creating a new bytes object and destroying the old "
+"one, only more efficiently. Pass the address of an existing bytes object as "
+"an lvalue (it may be written into), and the new size desired.  On success, "
+"*\\*bytes* holds the resized bytes object and ``0`` is returned; the address "
+"in *\\*bytes* may differ from its input value.  If the reallocation fails, "
+"the original bytes object at *\\*bytes* is deallocated, *\\*bytes* is set to "
+"``NULL``, :exc:`MemoryError` is set, and ``-1`` is returned."
+msgstr ""
+
+msgid "object"
+msgstr "objek"
+
+msgid "bytes"
+msgstr ""

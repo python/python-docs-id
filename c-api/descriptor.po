@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Descriptor Objects"
+msgstr "Obyek Deskriptor"
+
+msgid ""
+"\"Descriptors\" are objects that describe some attribute of an object. They "
+"are found in the dictionary of type objects."
+msgstr ""
+"\"Deskriptor\" adalah obyek yang menggambarkan beberapa atribut dari suatu "
+"obyek. Hal tersebut ditemukan dalam kamus jenis obyek."
+
+msgid "The type object for the built-in descriptor types."
+msgstr "Jenis obyek untuk jenis deskriptor bawaan."
+
+msgid ""
+"Return non-zero if the descriptor objects *descr* describes a data "
+"attribute, or ``0`` if it describes a method.  *descr* must be a descriptor "
+"object; there is no error checking."
+msgstr ""

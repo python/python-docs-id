@@ -1,0 +1,898 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ":mod:`!select` --- Waiting for I/O completion"
+msgstr ""
+
+msgid ""
+"This module provides access to the :c:func:`!select` and :c:func:`!poll` "
+"functions available in most operating systems, :c:func:`!devpoll` available "
+"on Solaris and derivatives, :c:func:`!epoll` available on Linux 2.5+ and :c:"
+"func:`!kqueue` available on most BSD. Note that on Windows, it only works "
+"for sockets; on other operating systems, it also works for other file types "
+"(in particular, on Unix, it works on pipes). It cannot be used on regular "
+"files to determine whether a file has grown since it was last read."
+msgstr ""
+
+msgid ""
+"The :mod:`selectors` module allows high-level and efficient I/O "
+"multiplexing, built upon the :mod:`select` module primitives. Users are "
+"encouraged to use the :mod:`selectors` module instead, unless they want "
+"precise control over the OS-level primitives used."
+msgstr ""
+"Модуль :mod:`selectors` забезпечує високорівневе й ефективне "
+"мультиплексування вводу/виводу, побудоване на основі примітивів модуля :mod:"
+"`select`. Замість цього користувачам рекомендується використовувати модуль :"
+"mod:`selectors`, якщо вони не бажають точного контролю над використовуваними "
+"примітивами рівня ОС."
+
+msgid "Availability"
+msgstr ""
+
+msgid ""
+"This module does not work or is not available on WebAssembly. See :ref:`wasm-"
+"availability` for more information."
+msgstr ""
+
+msgid "The module defines the following:"
+msgstr "Модуль визначає наступне:"
+
+msgid "A deprecated alias of :exc:`OSError`."
+msgstr "Застарілий псевдонім :exc:`OSError`."
+
+msgid "Following :pep:`3151`, this class was made an alias of :exc:`OSError`."
+msgstr "Після :pep:`3151` цей клас отримав псевдонім :exc:`OSError`."
+
+msgid ""
+"(Only supported on Solaris and derivatives.)  Returns a ``/dev/poll`` "
+"polling object; see section :ref:`devpoll-objects` below for the methods "
+"supported by devpoll objects."
+msgstr ""
+"(Підтримується лише в Solaris і похідних.) Повертає об’єкт опитування ``/dev/"
+"poll``; дивіться розділ :ref:`devpoll-objects` нижче щодо методів, які "
+"підтримуються об’єктами devpoll."
+
+msgid ""
+":c:func:`!devpoll` objects are linked to the number of file descriptors "
+"allowed at the time of instantiation. If your program reduces this value, :c:"
+"func:`!devpoll` will fail. If your program increases this value, :c:func:`!"
+"devpoll` may return an incomplete list of active file descriptors."
+msgstr ""
+
+msgid "The new file descriptor is :ref:`non-inheritable <fd_inheritance>`."
+msgstr "Новий файловий дескриптор :ref:`не успадковується <fd_inheritance>`."
+
+msgid "The new file descriptor is now non-inheritable."
+msgstr "Новий файловий дескриптор тепер не успадковується."
+
+msgid ""
+"(Only supported on Linux 2.5.44 and newer.) Return an edge polling object, "
+"which can be used as Edge or Level Triggered interface for I/O events."
+msgstr ""
+"(Підтримується лише в Linux 2.5.44 і новіших версіях.) Повертає об’єкт "
+"опитування краю, який можна використовувати як інтерфейс Edge або Level "
+"Triggered для подій введення/виведення."
+
+msgid ""
+"*sizehint* informs epoll about the expected number of events to be "
+"registered.  It must be positive, or ``-1`` to use the default. It is only "
+"used on older systems where :c:func:`!epoll_create1` is not available; "
+"otherwise it has no effect (though its value is still checked)."
+msgstr ""
+
+msgid ""
+"*flags* is deprecated and completely ignored.  However, when supplied, its "
+"value must be ``0`` or ``select.EPOLL_CLOEXEC``, otherwise ``OSError`` is "
+"raised."
+msgstr ""
+"*flags* застаріло та повністю ігнорується. Однак, коли надається, його "
+"значення має бути ``0`` або ``select.EPOLL_CLOEXEC``, інакше ``OSError`` "
+"викликається."
+
+msgid ""
+"See the :ref:`epoll-objects` section below for the methods supported by "
+"epolling objects."
+msgstr ""
+"Перегляньте розділ :ref:`epoll-objects` нижче, щоб дізнатися про методи, які "
+"підтримуються об’єктами електронного опитування."
+
+msgid ""
+"``epoll`` objects support the context management protocol: when used in a :"
+"keyword:`with` statement, the new file descriptor is automatically closed at "
+"the end of the block."
+msgstr ""
+"Об’єкти ``epoll`` підтримують протокол керування контекстом: при "
+"використанні в операторі :keyword:`with` новий дескриптор файлу автоматично "
+"закривається в кінці блоку."
+
+msgid "Added the *flags* parameter."
+msgstr "Додано параметр *flags*."
+
+msgid ""
+"Support for the :keyword:`with` statement was added. The new file descriptor "
+"is now non-inheritable."
+msgstr ""
+"Додано підтримку оператора :keyword:`with`. Новий файловий дескриптор тепер "
+"не успадковується."
+
+msgid ""
+"The *flags* parameter.  ``select.EPOLL_CLOEXEC`` is used by default now. "
+"Use :func:`os.set_inheritable` to make the file descriptor inheritable."
+msgstr ""
+"Параметр *flags*. ``select.EPOLL_CLOEXEC`` зараз використовується за "
+"умовчанням. Використовуйте :func:`os.set_inheritable`, щоб зробити "
+"дескриптор файлу спадковим."
+
+msgid ""
+"(Not supported by all operating systems.)  Returns a polling object, which "
+"supports registering and unregistering file descriptors, and then polling "
+"them for I/O events; see section :ref:`poll-objects` below for the methods "
+"supported by polling objects."
+msgstr ""
+"(Підтримується не всіма операційними системами.) Повертає об’єкт опитування, "
+"який підтримує реєстрацію та скасування реєстрації дескрипторів файлів, а "
+"потім опитування їх для подій введення/виведення; дивіться розділ :ref:`poll-"
+"objects` нижче щодо методів, які підтримуються об’єктами опитування."
+
+msgid ""
+"(Only supported on BSD.)  Returns a kernel queue object; see section :ref:"
+"`kqueue-objects` below for the methods supported by kqueue objects."
+msgstr ""
+"(Підтримується лише в BSD.) Повертає об’єкт черги ядра; перегляньте розділ :"
+"ref:`kqueue-objects` нижче, щоб дізнатися про методи, які підтримуються "
+"об’єктами kqueue."
+
+msgid ""
+"(Only supported on BSD.)  Returns a kernel event object; see section :ref:"
+"`kevent-objects` below for the methods supported by kevent objects."
+msgstr ""
+"(Підтримується лише в BSD.) Повертає об’єкт події ядра; дивіться розділ :ref:"
+"`kevent-objects` нижче щодо методів, які підтримуються об’єктами kevent."
+
+msgid ""
+"This is a straightforward interface to the Unix :c:func:`!select` system "
+"call. The first three arguments are iterables of 'waitable objects': either "
+"integers representing file descriptors or objects with a parameterless "
+"method named :meth:`~io.IOBase.fileno` returning such an integer:"
+msgstr ""
+
+msgid "*rlist*: wait until ready for reading"
+msgstr "*rlist*: дочекатися готовності до читання"
+
+msgid "*wlist*: wait until ready for writing"
+msgstr "*wlist*: дочекатися готовності до запису"
+
+msgid ""
+"*xlist*: wait for an \"exceptional condition\" (see the manual page for what "
+"your system considers such a condition)"
+msgstr ""
+"*xlist*: зачекайте на \"виняткову умову\" (перегляньте сторінку посібника "
+"щодо того, що ваша система вважає такою умовою)"
+
+msgid ""
+"Empty iterables are allowed, but acceptance of three empty iterables is "
+"platform-dependent. (It is known to work on Unix but not on Windows.)  The "
+"optional *timeout* argument specifies a time-out as a floating-point number "
+"in seconds.  When the *timeout* argument is omitted the function blocks "
+"until at least one file descriptor is ready.  A time-out value of zero "
+"specifies a poll and never blocks."
+msgstr ""
+
+msgid ""
+"The return value is a triple of lists of objects that are ready: subsets of "
+"the first three arguments.  When the time-out is reached without a file "
+"descriptor becoming ready, three empty lists are returned."
+msgstr ""
+"Повернене значення — це трійка списків готових об’єктів: підмножини перших "
+"трьох аргументів. Коли час очікування досягнуто, а дескриптор файлу не "
+"готовий, повертаються три порожні списки."
+
+msgid ""
+"Among the acceptable object types in the iterables are Python :term:`file "
+"objects <file object>` (e.g. ``sys.stdin``, or objects returned by :func:"
+"`open` or :func:`os.popen`), socket objects returned by :func:`socket."
+"socket`.  You may also define a :dfn:`wrapper` class yourself, as long as it "
+"has an appropriate :meth:`~io.IOBase.fileno` method (that really returns a "
+"file descriptor, not just a random integer)."
+msgstr ""
+"Серед прийнятних типів об’єктів у ітераціях є :term:`файлові об’єкти Python "
+"<file object>` (наприклад, ``sys.stdin`` або об’єкти, повернуті :func:`open` "
+"або :func:`os.popen`), сокет об’єкти, які повертає :func:`socket.socket`. Ви "
+"також можете визначити клас :dfn:`wrapper` самостійно, за умови, що він має "
+"відповідний метод :meth:`~io.IOBase.fileno` (який дійсно повертає дескриптор "
+"файлу, а не просто випадкове ціле число)."
+
+msgid ""
+"File objects on Windows are not acceptable, but sockets are.  On Windows, "
+"the underlying :c:func:`!select` function is provided by the WinSock "
+"library, and does not handle file descriptors that don't originate from "
+"WinSock."
+msgstr ""
+
+msgid ""
+"The function is now retried with a recomputed timeout when interrupted by a "
+"signal, except if the signal handler raises an exception (see :pep:`475` for "
+"the rationale), instead of raising :exc:`InterruptedError`."
+msgstr ""
+"Функція тепер виконується повторно з переобчисленим тайм-аутом, якщо її "
+"перериває сигнал, за винятком випадків, коли обробник сигналу викликає "
+"виняток (перегляньте :pep:`475` для обґрунтування), замість того, щоб "
+"викликати :exc:`InterruptedError`."
+
+msgid ""
+"The minimum number of bytes which can be written without blocking to a pipe "
+"when the pipe has been reported as ready for writing by :func:`~select."
+"select`, :func:`!poll` or another interface in this module.  This doesn't "
+"apply to other kind of file-like objects such as sockets."
+msgstr ""
+
+msgid "This value is guaranteed by POSIX to be at least 512."
+msgstr "POSIX гарантує, що це значення буде не менше 512."
+
+msgid "``/dev/poll`` Polling Objects"
+msgstr "``/dev/poll`` Опитування об'єктів"
+
+msgid ""
+"Solaris and derivatives have ``/dev/poll``. While :c:func:`!select` is *O*\\ "
+"(*highest file descriptor*) and :c:func:`!poll` is *O*\\ (*number of file "
+"descriptors*), ``/dev/poll`` is *O*\\ (*active file descriptors*)."
+msgstr ""
+
+msgid ""
+"``/dev/poll`` behaviour is very close to the standard :c:func:`!poll` object."
+msgstr ""
+
+msgid "Close the file descriptor of the polling object."
+msgstr "Закрийте файловий дескриптор об'єкта опитування."
+
+msgid "``True`` if the polling object is closed."
+msgstr "``True``, якщо об'єкт опитування закрито."
+
+msgid "Return the file descriptor number of the polling object."
+msgstr "Повертає номер дескриптора файлу об'єкта опитування."
+
+msgid ""
+"Register a file descriptor with the polling object.  Future calls to the :"
+"meth:`poll` method will then check whether the file descriptor has any "
+"pending I/O events.  *fd* can be either an integer, or an object with a :"
+"meth:`~io.IOBase.fileno` method that returns an integer.  File objects "
+"implement :meth:`!fileno`, so they can also be used as the argument."
+msgstr ""
+"Зареєструйте дескриптор файлу з об'єктом опитування. Подальші виклики "
+"методу :meth:`poll` перевірятимуть, чи є в дескрипторі файлу будь-які "
+"незавершені події введення/виведення. *fd* може бути або цілим числом, або "
+"об’єктом із методом :meth:`~io.IOBase.fileno`, який повертає ціле число. "
+"Файлові об’єкти реалізують :meth:`!fileno`, тому їх також можна "
+"використовувати як аргумент."
+
+msgid ""
+"*eventmask* is an optional bitmask describing the type of events you want to "
+"check for. The constants are the same that with :c:func:`!poll` object. The "
+"default value is a combination of the constants :const:`POLLIN`, :const:"
+"`POLLPRI`, and :const:`POLLOUT`."
+msgstr ""
+
+msgid ""
+"Registering a file descriptor that's already registered is not an error, but "
+"the result is undefined. The appropriate action is to unregister or modify "
+"it first. This is an important difference compared with :c:func:`!poll`."
+msgstr ""
+
+msgid ""
+"This method does an :meth:`unregister` followed by a :meth:`register`. It is "
+"(a bit) more efficient that doing the same explicitly."
+msgstr ""
+"Цей метод виконує :meth:`unregister`, а потім :meth:`register`. Це (трохи) "
+"ефективніше, ніж робити те саме явно."
+
+msgid ""
+"Remove a file descriptor being tracked by a polling object.  Just like the :"
+"meth:`register` method, *fd* can be an integer or an object with a :meth:"
+"`~io.IOBase.fileno` method that returns an integer."
+msgstr ""
+"Видаліть дескриптор файлу, який відстежується об'єктом опитування. Як і "
+"метод :meth:`register`, *fd* може бути цілим числом або об’єктом із методом :"
+"meth:`~io.IOBase.fileno`, який повертає ціле число."
+
+msgid ""
+"Attempting to remove a file descriptor that was never registered is safely "
+"ignored."
+msgstr ""
+"Спроба видалити дескриптор файлу, який ніколи не був зареєстрований, "
+"безпечно ігнорується."
+
+msgid ""
+"Polls the set of registered file descriptors, and returns a possibly empty "
+"list containing ``(fd, event)`` 2-tuples for the descriptors that have "
+"events or errors to report. *fd* is the file descriptor, and *event* is a "
+"bitmask with bits set for the reported events for that descriptor --- :const:"
+"`POLLIN` for waiting input, :const:`POLLOUT` to indicate that the descriptor "
+"can be written to, and so forth. An empty list indicates that the call timed "
+"out and no file descriptors had any events to report. If *timeout* is given, "
+"it specifies the length of time in milliseconds which the system will wait "
+"for events before returning. If *timeout* is omitted, -1, or :const:`None`, "
+"the call will block until there is an event for this poll object."
+msgstr ""
+
+msgid "Edge and Level Trigger Polling (epoll) Objects"
+msgstr "Опитування (epoll) об’єктів тригера краю та рівня"
+
+msgid "https://linux.die.net/man/4/epoll"
+msgstr "https://linux.die.net/man/4/epoll"
+
+msgid "*eventmask*"
+msgstr "*маска події*"
+
+msgid "Constant"
+msgstr "Konstanta"
+
+msgid "Meaning"
+msgstr "Artinya"
+
+msgid ":const:`EPOLLIN`"
+msgstr ":const:`EPOLLIN`"
+
+msgid "Available for read"
+msgstr "Доступний для читання"
+
+msgid ":const:`EPOLLOUT`"
+msgstr ":const:`EPOLLOUT`"
+
+msgid "Available for write"
+msgstr "Доступний для запису"
+
+msgid ":const:`EPOLLPRI`"
+msgstr ":const:`EPOLLPRI`"
+
+msgid "Urgent data for read"
+msgstr "Термінові дані для читання"
+
+msgid ":const:`EPOLLERR`"
+msgstr ":const:`EPOLLERR`"
+
+msgid "Error condition happened on the assoc. fd"
+msgstr "Сталася помилка на доц. fd"
+
+msgid ":const:`EPOLLHUP`"
+msgstr ":const:`EPOLLHUP`"
+
+msgid "Hang up happened on the assoc. fd"
+msgstr "Зависання сталося на доц. fd"
+
+msgid ":const:`EPOLLET`"
+msgstr ":const:`EPOLLET`"
+
+msgid "Set Edge Trigger behavior, the default is Level Trigger behavior"
+msgstr "Встановіть поведінку Edge Trigger, за замовчуванням це Level Trigger"
+
+msgid ":const:`EPOLLONESHOT`"
+msgstr ":const:`EPOLLONESHOT`"
+
+msgid ""
+"Set one-shot behavior. After one event is pulled out, the fd is internally "
+"disabled"
+msgstr ""
+"Встановіть одноразову поведінку. Після вилучення однієї події fd внутрішньо "
+"вимикається"
+
+msgid ":const:`EPOLLEXCLUSIVE`"
+msgstr ":const:`EPOLLEXCLUSIVE`"
+
+msgid ""
+"Wake only one epoll object when the associated fd has an event. The default "
+"(if this flag is not set) is to wake all epoll objects polling on a fd."
+msgstr ""
+"Розбудити лише один об’єкт epoll, якщо пов’язаний fd має подію. За "
+"замовчуванням (якщо цей прапорець не встановлено) всі об’єкти epoll "
+"запитуються на fd."
+
+msgid ":const:`EPOLLRDHUP`"
+msgstr ":const:`EPOLLRDHUP`"
+
+msgid ""
+"Stream socket peer closed connection or shut down writing half of connection."
+msgstr ""
+"Потоковий сокет закрив однорангове з’єднання або завершив запис половини "
+"з’єднання."
+
+msgid ":const:`EPOLLRDNORM`"
+msgstr ":const:`EPOLLRDNORM`"
+
+msgid "Equivalent to :const:`EPOLLIN`"
+msgstr "Sama dengan :const:`EPOLLIN`"
+
+msgid ":const:`EPOLLRDBAND`"
+msgstr ":const:`EPOLLRDBAND`"
+
+msgid "Priority data band can be read."
+msgstr "Смугу пріоритетних даних можна зчитувати."
+
+msgid ":const:`EPOLLWRNORM`"
+msgstr ":const:`EPOLLWRNORM`"
+
+msgid "Equivalent to :const:`EPOLLOUT`"
+msgstr "Sama dengan :const:`EPOLLOUT`"
+
+msgid ":const:`EPOLLWRBAND`"
+msgstr ":const:`EPOLLWRBAND`"
+
+msgid "Priority data may be written."
+msgstr "Пріоритетні дані можуть бути записані."
+
+msgid ":const:`EPOLLMSG`"
+msgstr ":const:`EPOLLMSG`"
+
+msgid "Ignored."
+msgstr "Ігнорується."
+
+msgid ":const:`EPOLLWAKEUP`"
+msgstr ""
+
+msgid "Prevents sleep during event waiting."
+msgstr ""
+
+msgid ""
+":const:`EPOLLEXCLUSIVE` was added.  It's only supported by Linux Kernel 4.5 "
+"or later."
+msgstr ""
+":const:`EPOLLEXCLUSIVE` додано. Він підтримується лише ядром Linux 4.5 або "
+"новішої версії."
+
+msgid ""
+":const:`EPOLLWAKEUP` was added. It's only supported by Linux Kernel 3.5 or "
+"later."
+msgstr ""
+
+msgid "Close the control file descriptor of the epoll object."
+msgstr "Закрийте дескриптор керуючого файлу об’єкта epoll."
+
+msgid "``True`` if the epoll object is closed."
+msgstr "``True``, якщо об’єкт epoll закрито."
+
+msgid "Return the file descriptor number of the control fd."
+msgstr "Повертає номер дескриптора файлу елемента керування fd."
+
+msgid "Create an epoll object from a given file descriptor."
+msgstr "Створіть об’єкт epoll із заданого файлового дескриптора."
+
+msgid "Register a fd descriptor with the epoll object."
+msgstr "Зареєструйте дескриптор fd з об’єктом epoll."
+
+msgid "Modify a registered file descriptor."
+msgstr "Змінити зареєстрований файловий дескриптор."
+
+msgid "Remove a registered file descriptor from the epoll object."
+msgstr "Видаліть зареєстрований дескриптор файлу з об’єкта epoll."
+
+msgid "The method no longer ignores the :data:`~errno.EBADF` error."
+msgstr "Метод більше не ігнорує помилку :data:`~errno.EBADF`."
+
+msgid "Wait for events. timeout in seconds (float)"
+msgstr "Чекайте подій. тайм-аут у секундах (float)"
+
+msgid "Polling Objects"
+msgstr "Об'єкти опитування"
+
+msgid ""
+"The :c:func:`!poll` system call, supported on most Unix systems, provides "
+"better scalability for network servers that service many, many clients at "
+"the same time. :c:func:`!poll` scales better because the system call only "
+"requires listing the file descriptors of interest, while :c:func:`!select` "
+"builds a bitmap, turns on bits for the fds of interest, and then afterward "
+"the whole bitmap has to be linearly scanned again. :c:func:`!select` is "
+"*O*\\ (*highest file descriptor*), while :c:func:`!poll` is *O*\\ (*number "
+"of file descriptors*)."
+msgstr ""
+
+msgid ""
+"*eventmask* is an optional bitmask describing the type of events you want to "
+"check for, and can be a combination of the constants :const:`POLLIN`, :const:"
+"`POLLPRI`, and :const:`POLLOUT`, described in the table below.  If not "
+"specified, the default value used will check for all 3 types of events."
+msgstr ""
+"*eventmask* — це необов’язкова бітова маска, що описує тип подій, які ви "
+"хочете перевірити, і може бути комбінацією констант :const:`POLLIN`, :const:"
+"`POLLPRI` і :const:`POLLOUT`, описаних у таблицю нижче. Якщо не вказано, "
+"значення за умовчанням перевірятиме всі 3 типи подій."
+
+msgid ":const:`POLLIN`"
+msgstr ":const:`POLLIN`"
+
+msgid "There is data to read"
+msgstr "Є дані для читання"
+
+msgid ":const:`POLLPRI`"
+msgstr ":const:`POLLPRI`"
+
+msgid "There is urgent data to read"
+msgstr "Є термінові дані для читання"
+
+msgid ":const:`POLLOUT`"
+msgstr ":const:`POLLOUT`"
+
+msgid "Ready for output: writing will not block"
+msgstr "Готовий до виведення: запис не блокуватиметься"
+
+msgid ":const:`POLLERR`"
+msgstr ":const:`POLLERR`"
+
+msgid "Error condition of some sort"
+msgstr "Якась помилка"
+
+msgid ":const:`POLLHUP`"
+msgstr ":const:`POLLHUP`"
+
+msgid "Hung up"
+msgstr "Повісив"
+
+msgid ":const:`POLLRDHUP`"
+msgstr ":const:`POLLRDHUP`"
+
+msgid ""
+"Stream socket peer closed connection, or shut down writing half of connection"
+msgstr ""
+"Закрите однорангове з’єднання потокового сокета або завершіть запис половини "
+"з’єднання"
+
+msgid ":const:`POLLNVAL`"
+msgstr ":const:`POLLNVAL`"
+
+msgid "Invalid request: descriptor not open"
+msgstr "Недійсний запит: дескриптор не відкрито"
+
+msgid ""
+"Registering a file descriptor that's already registered is not an error, and "
+"has the same effect as registering the descriptor exactly once."
+msgstr ""
+"Реєстрація дескриптора файлу, який уже зареєстровано, не є помилкою та має "
+"той самий ефект, що й одноразова реєстрація дескриптора."
+
+msgid ""
+"Modifies an already registered fd. This has the same effect as "
+"``register(fd, eventmask)``.  Attempting to modify a file descriptor that "
+"was never registered causes an :exc:`OSError` exception with errno :const:"
+"`ENOENT` to be raised."
+msgstr ""
+"Змінює вже зареєстрований fd. Це має той самий ефект, що й ``register(fd, "
+"eventmask)``. Спроба змінити дескриптор файлу, який ніколи не був "
+"зареєстрований, викликає виняток :exc:`OSError` з errno :const:`ENOENT`."
+
+msgid ""
+"Attempting to remove a file descriptor that was never registered causes a :"
+"exc:`KeyError` exception to be raised."
+msgstr ""
+"Спроба видалити дескриптор файлу, який ніколи не був зареєстрований, "
+"викликає виняток :exc:`KeyError`."
+
+msgid ""
+"Polls the set of registered file descriptors, and returns a possibly empty "
+"list containing ``(fd, event)`` 2-tuples for the descriptors that have "
+"events or errors to report. *fd* is the file descriptor, and *event* is a "
+"bitmask with bits set for the reported events for that descriptor --- :const:"
+"`POLLIN` for waiting input, :const:`POLLOUT` to indicate that the descriptor "
+"can be written to, and so forth. An empty list indicates that the call timed "
+"out and no file descriptors had any events to report. If *timeout* is given, "
+"it specifies the length of time in milliseconds which the system will wait "
+"for events before returning. If *timeout* is omitted, negative, or :const:"
+"`None`, the call will block until there is an event for this poll object."
+msgstr ""
+
+msgid "Kqueue Objects"
+msgstr "Об’єкти Kqueue"
+
+msgid "Close the control file descriptor of the kqueue object."
+msgstr "Закрийте дескриптор керуючого файлу об’єкта kqueue."
+
+msgid "``True`` if the kqueue object is closed."
+msgstr "``True``, якщо об’єкт kqueue закрито."
+
+msgid "Create a kqueue object from a given file descriptor."
+msgstr "Створіть об’єкт kqueue із заданого файлового дескриптора."
+
+msgid "Low level interface to kevent"
+msgstr "Низькорівневий інтерфейс для kevent"
+
+msgid "changelist must be an iterable of kevent objects or ``None``"
+msgstr "список змін має бути ітерованим об’єктами kevent або ``None``"
+
+msgid "max_events must be 0 or a positive integer"
+msgstr "max_events має бути 0 або додатним цілим числом"
+
+msgid ""
+"timeout in seconds (floats possible); the default is ``None``, to wait "
+"forever"
+msgstr "тайм-аут у секундах (можливі флоати); типовим є ``None``, чекати вічно"
+
+msgid "Kevent Objects"
+msgstr "Об'єкти Kevent"
+
+msgid "https://man.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2"
+msgstr ""
+
+msgid ""
+"Value used to identify the event. The interpretation depends on the filter "
+"but it's usually the file descriptor. In the constructor ident can either be "
+"an int or an object with a :meth:`~io.IOBase.fileno` method. kevent stores "
+"the integer internally."
+msgstr ""
+"Значення, що використовується для ідентифікації події. Інтерпретація "
+"залежить від фільтра, але зазвичай це дескриптор файлу. У конструкторі ident "
+"може бути або int, або об’єктом із методом :meth:`~io.IOBase.fileno`. kevent "
+"зберігає ціле число всередині."
+
+msgid "Name of the kernel filter."
+msgstr "Назва фільтра ядра."
+
+msgid ":const:`KQ_FILTER_READ`"
+msgstr ":const:`KQ_FILTER_READ`"
+
+msgid "Takes a descriptor and returns whenever there is data available to read"
+msgstr "Бере дескриптор і повертає, коли є дані, доступні для читання"
+
+msgid ":const:`KQ_FILTER_WRITE`"
+msgstr ":const:`KQ_FILTER_WRITE`"
+
+msgid ""
+"Takes a descriptor and returns whenever there is data available to write"
+msgstr "Бере дескриптор і повертає щоразу, коли є дані для запису"
+
+msgid ":const:`KQ_FILTER_AIO`"
+msgstr ":const:`KQ_FILTER_AIO`"
+
+msgid "AIO requests"
+msgstr "запити AIO"
+
+msgid ":const:`KQ_FILTER_VNODE`"
+msgstr ":const:`KQ_FILTER_VNODE`"
+
+msgid ""
+"Returns when one or more of the requested events watched in *fflag* occurs"
+msgstr ""
+"Повертається, коли відбувається одна або кілька запитаних подій, які "
+"переглядаються в *fflag*"
+
+msgid ":const:`KQ_FILTER_PROC`"
+msgstr ":const:`KQ_FILTER_PROC`"
+
+msgid "Watch for events on a process id"
+msgstr "Слідкуйте за подіями в ідентифікаторі процесу"
+
+msgid ":const:`KQ_FILTER_NETDEV`"
+msgstr ":const:`KQ_FILTER_NETDEV`"
+
+msgid "Watch for events on a network device [not available on macOS]"
+msgstr "Стежити за подіями на мережевому пристрої [недоступно в macOS]"
+
+msgid ":const:`KQ_FILTER_SIGNAL`"
+msgstr ":const:`KQ_FILTER_SIGNAL`"
+
+msgid "Returns whenever the watched signal is delivered to the process"
+msgstr "Повертається щоразу, коли спостережуваний сигнал надходить до процесу"
+
+msgid ":const:`KQ_FILTER_TIMER`"
+msgstr ":const:`KQ_FILTER_TIMER`"
+
+msgid "Establishes an arbitrary timer"
+msgstr "Встановлює довільний таймер"
+
+msgid "Filter action."
+msgstr "Дія фільтра."
+
+msgid ":const:`KQ_EV_ADD`"
+msgstr ":const:`KQ_EV_ADD`"
+
+msgid "Adds or modifies an event"
+msgstr "Додає або змінює подію"
+
+msgid ":const:`KQ_EV_DELETE`"
+msgstr ":const:`KQ_EV_DELETE`"
+
+msgid "Removes an event from the queue"
+msgstr "Вилучає подію з черги"
+
+msgid ":const:`KQ_EV_ENABLE`"
+msgstr ":const:`KQ_EV_ENABLE`"
+
+msgid "Permitscontrol() to returns the event"
+msgstr "Permitscontrol() to повертає подію"
+
+msgid ":const:`KQ_EV_DISABLE`"
+msgstr ":const:`KQ_EV_DISABLE`"
+
+msgid "Disablesevent"
+msgstr "Вимкнути подію"
+
+msgid ":const:`KQ_EV_ONESHOT`"
+msgstr ":const:`KQ_EV_ONESHOT`"
+
+msgid "Removes event after first occurrence"
+msgstr "Видаляє подію після першого входження"
+
+msgid ":const:`KQ_EV_CLEAR`"
+msgstr ":const:`KQ_EV_CLEAR`"
+
+msgid "Reset the state after an event is retrieved"
+msgstr "Скинути стан після отримання події"
+
+msgid ":const:`KQ_EV_SYSFLAGS`"
+msgstr ":const:`KQ_EV_SYSFLAGS`"
+
+msgid "internal event"
+msgstr "внутрішня подія"
+
+msgid ":const:`KQ_EV_FLAG1`"
+msgstr ":const:`KQ_EV_FLAG1`"
+
+msgid ":const:`KQ_EV_EOF`"
+msgstr ":const:`KQ_EV_EOF`"
+
+msgid "Filter specific EOF condition"
+msgstr "Фільтр певної умови EOF"
+
+msgid ":const:`KQ_EV_ERROR`"
+msgstr ":const:`KQ_EV_ERROR`"
+
+msgid "See return values"
+msgstr "Перегляньте значення, що повертаються"
+
+msgid "Filter specific flags."
+msgstr "Фільтрувати певні прапорці."
+
+msgid ":const:`KQ_FILTER_READ` and  :const:`KQ_FILTER_WRITE` filter flags:"
+msgstr ":const:`KQ_FILTER_READ` і :const:`KQ_FILTER_WRITE` позначки фільтрів:"
+
+msgid ":const:`KQ_NOTE_LOWAT`"
+msgstr ":const:`KQ_NOTE_LOWAT`"
+
+msgid "low water mark of a socket buffer"
+msgstr "низька позначка буфера сокета"
+
+msgid ":const:`KQ_FILTER_VNODE` filter flags:"
+msgstr ":const:`KQ_FILTER_VNODE` позначки фільтра:"
+
+msgid ":const:`KQ_NOTE_DELETE`"
+msgstr ":const:`KQ_NOTE_DELETE`"
+
+msgid "*unlink()* was called"
+msgstr "Викликано *unlink()*"
+
+msgid ":const:`KQ_NOTE_WRITE`"
+msgstr ":const:`KQ_NOTE_WRITE`"
+
+msgid "a write occurred"
+msgstr "відбувся запис"
+
+msgid ":const:`KQ_NOTE_EXTEND`"
+msgstr ":const:`KQ_NOTE_EXTEND`"
+
+msgid "the file was extended"
+msgstr "файл було розширено"
+
+msgid ":const:`KQ_NOTE_ATTRIB`"
+msgstr ":const:`KQ_NOTE_ATTRIB`"
+
+msgid "an attribute was changed"
+msgstr "атрибут було змінено"
+
+msgid ":const:`KQ_NOTE_LINK`"
+msgstr ":const:`KQ_NOTE_LINK`"
+
+msgid "the link count has changed"
+msgstr "кількість посилань змінилася"
+
+msgid ":const:`KQ_NOTE_RENAME`"
+msgstr ":const:`KQ_NOTE_RENAME`"
+
+msgid "the file was renamed"
+msgstr "файл було перейменовано"
+
+msgid ":const:`KQ_NOTE_REVOKE`"
+msgstr ":const:`KQ_NOTE_REVOKE`"
+
+msgid "access to the file was revoked"
+msgstr "доступ до файлу скасовано"
+
+msgid ":const:`KQ_FILTER_PROC` filter flags:"
+msgstr ":const:`KQ_FILTER_PROC` позначки фільтра:"
+
+msgid ":const:`KQ_NOTE_EXIT`"
+msgstr ":const:`KQ_NOTE_EXIT`"
+
+msgid "the process has exited"
+msgstr "процес вийшов"
+
+msgid ":const:`KQ_NOTE_FORK`"
+msgstr ":const:`KQ_NOTE_FORK`"
+
+msgid "the process has called *fork()*"
+msgstr "процес викликав *fork()*"
+
+msgid ":const:`KQ_NOTE_EXEC`"
+msgstr ":const:`KQ_NOTE_EXEC`"
+
+msgid "the process has executed a new process"
+msgstr "процес виконав новий процес"
+
+msgid ":const:`KQ_NOTE_PCTRLMASK`"
+msgstr ":const:`KQ_NOTE_PCTRLMASK`"
+
+msgid "internal filter flag"
+msgstr "прапор внутрішнього фільтра"
+
+msgid ":const:`KQ_NOTE_PDATAMASK`"
+msgstr ":const:`KQ_NOTE_PDATAMASK`"
+
+msgid ":const:`KQ_NOTE_TRACK`"
+msgstr ":const:`KQ_NOTE_TRACK`"
+
+msgid "follow a process across *fork()*"
+msgstr "виконайте процес через *fork()*"
+
+msgid ":const:`KQ_NOTE_CHILD`"
+msgstr ":const:`KQ_NOTE_CHILD`"
+
+msgid "returned on the child process for *NOTE_TRACK*"
+msgstr "повернуто дочірнім процесом для *NOTE_TRACK*"
+
+msgid ":const:`KQ_NOTE_TRACKERR`"
+msgstr ":const:`KQ_NOTE_TRACKERR`"
+
+msgid "unable to attach to a child"
+msgstr "не може прив'язатися до дитини"
+
+msgid ":const:`KQ_FILTER_NETDEV` filter flags (not available on macOS):"
+msgstr ":const:`KQ_FILTER_NETDEV` позначки фільтра (недоступні в macOS):"
+
+msgid ":const:`KQ_NOTE_LINKUP`"
+msgstr ":const:`KQ_NOTE_LINKUP`"
+
+msgid "link is up"
+msgstr "посилання працює"
+
+msgid ":const:`KQ_NOTE_LINKDOWN`"
+msgstr ":const:`KQ_NOTE_LINKDOWN`"
+
+msgid "link is down"
+msgstr "посилання не працює"
+
+msgid ":const:`KQ_NOTE_LINKINV`"
+msgstr ":const:`KQ_NOTE_LINKINV`"
+
+msgid "link state is invalid"
+msgstr "стан посилання недійсний"
+
+msgid "Filter specific data."
+msgstr "Фільтр конкретних даних."
+
+msgid "User defined value."
+msgstr "Визначене користувачем значення."
+
+msgid "socket() (in module socket)"
+msgstr ""
+
+msgid "popen() (in module os)"
+msgstr ""
+
+msgid "WinSock"
+msgstr ""
