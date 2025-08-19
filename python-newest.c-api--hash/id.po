@@ -113,9 +113,9 @@ msgstr ""
 
 #: ../../c-api/hash.rst:100
 msgid ""
-"Use this function to implement hashing for immutable objects "
-"whose :c:member:`~PyTypeObject.tp_richcompare` function compares to "
-"another object's buffer."
+"Use this function to implement hashing for immutable objects whose "
+":c:member:`~PyTypeObject.tp_richcompare` function compares to another "
+"object's buffer."
 msgstr ""
 "Gunakan fungsi ini untuk implementasikan hashing pada objek yang tidak "
 "dapat berubah dimana fungsi :c:member:`~PyTypeObject.tp_richcompare` "
@@ -134,7 +134,7 @@ msgid ""
 "Generic hashing function that is meant to be put into a type object's "
 "``tp_hash`` slot. Its result only depends on the object's identity."
 msgstr ""
-"Fungsi generik hashing yang dimaksudkan untuk di taruh pada tipe objek "
+"Fungsi generik hashing yang dimaksudkan untuk ditaruh pada tipe objek "
 "``tp_hash``. Hasilnya hanya bergantung dari identitas objek itu."
 
 #: ../../c-api/hash.rst:118
