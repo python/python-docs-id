@@ -1,104 +1,95 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 11:39+0000\n"
-"PO-Revision-Date: 2018-09-18 00:23+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/asyncio-exceptions.rst:8
 msgid "Exceptions"
 msgstr "Pengecualian"
 
-#: ../../library/asyncio-exceptions.rst:10
 msgid "**Source code:** :source:`Lib/asyncio/exceptions.py`"
-msgstr ""
+msgstr "**Kod źródłowy:** :source:`Lib/asyncio/exceptions.py`"
 
-#: ../../library/asyncio-exceptions.rst:16
-msgid "The operation has exceeded the given deadline."
-msgstr ""
-
-#: ../../library/asyncio-exceptions.rst:19
 msgid ""
-"This exception is different from the builtin :exc:`TimeoutError` exception."
+"A deprecated alias of :exc:`TimeoutError`, raised when the operation has "
+"exceeded the given deadline."
 msgstr ""
 
-#: ../../library/asyncio-exceptions.rst:25
+msgid "This class was made an alias of :exc:`TimeoutError`."
+msgstr ""
+
 msgid "The operation has been cancelled."
-msgstr ""
+msgstr "Операцію скасовано."
 
-#: ../../library/asyncio-exceptions.rst:27
 msgid ""
-"This exception can be caught to perform custom operations when asyncio Tasks"
-" are cancelled.  In almost all situations the exception must be re-raised."
+"This exception can be caught to perform custom operations when asyncio Tasks "
+"are cancelled.  In almost all situations the exception must be re-raised."
+msgstr ""
+"Цей виняток можна перехопити для виконання спеціальних операцій, коли "
+"асинхронні завдання скасовуються. Майже в усіх ситуаціях виняток потрібно "
+"підняти повторно."
+
+msgid ""
+":exc:`CancelledError` is now a subclass of :class:`BaseException` rather "
+"than :class:`Exception`."
 msgstr ""
 
-#: ../../library/asyncio-exceptions.rst:33
-msgid ":exc:`CancelledError` is now a subclass of :class:`BaseException`."
-msgstr ""
-
-#: ../../library/asyncio-exceptions.rst:38
 msgid "Invalid internal state of :class:`Task` or :class:`Future`."
-msgstr ""
+msgstr "Недійсний внутрішній стан :class:`Task` або :class:`Future`."
 
-#: ../../library/asyncio-exceptions.rst:40
 msgid ""
 "Can be raised in situations like setting a result value for a *Future* "
 "object that already has a result value set."
 msgstr ""
+"Може бути викликано в таких ситуаціях, як встановлення значення результату "
+"для об’єкта *Future*, для якого вже встановлено значення результату."
 
-#: ../../library/asyncio-exceptions.rst:46
 msgid ""
 "The \"sendfile\" syscall is not available for the given socket or file type."
 msgstr ""
+"Системний виклик \"sendfile\" недоступний для даного сокета або типу файлу."
 
-#: ../../library/asyncio-exceptions.rst:49
 msgid "A subclass of :exc:`RuntimeError`."
-msgstr ""
+msgstr "Підклас :exc:`RuntimeError`."
 
-#: ../../library/asyncio-exceptions.rst:54
 msgid "The requested read operation did not complete fully."
-msgstr ""
+msgstr "Запитана операція читання не завершена повністю."
 
-#: ../../library/asyncio-exceptions.rst:56
 msgid "Raised by the :ref:`asyncio stream APIs<asyncio-streams>`."
-msgstr ""
+msgstr "Створено :ref:`asyncio stream API <asyncio-streams>`."
 
-#: ../../library/asyncio-exceptions.rst:58
 msgid "This exception is a subclass of :exc:`EOFError`."
-msgstr ""
+msgstr "Цей виняток є підкласом :exc:`EOFError`."
 
-#: ../../library/asyncio-exceptions.rst:62
 msgid "The total number (:class:`int`) of expected bytes."
-msgstr ""
+msgstr "Загальна кількість (:class:`int`) очікуваних байтів."
 
-#: ../../library/asyncio-exceptions.rst:66
 msgid "A string of :class:`bytes` read before the end of stream was reached."
-msgstr ""
+msgstr "Рядок із :class:`bytes` прочитано до кінця потоку."
 
-#: ../../library/asyncio-exceptions.rst:71
 msgid "Reached the buffer size limit while looking for a separator."
-msgstr ""
+msgstr "Досягнуто обмеження розміру буфера під час пошуку роздільника."
 
-#: ../../library/asyncio-exceptions.rst:73
 msgid "Raised by the :ref:`asyncio stream APIs <asyncio-streams>`."
-msgstr ""
+msgstr "Створено :ref:`asyncio stream API <asyncio-streams>`."
 
-#: ../../library/asyncio-exceptions.rst:77
 msgid "The total number of to be consumed bytes."
-msgstr ""
+msgstr "Загальна кількість спожитих байтів."

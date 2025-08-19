@@ -1,35 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2021, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-10 05:40+0000\n"
-"PO-Revision-Date: 2017-02-16 17:37+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../c-api/memory.rst:8
 msgid "Memory Management"
-msgstr ""
+msgstr "Zarządzanie Pamięcią"
 
-#: ../../c-api/memory.rst:17
 msgid "Overview"
-msgstr ""
+msgstr "Skorowidz"
 
-#: ../../c-api/memory.rst:19
 msgid ""
 "Memory management in Python involves a private heap containing all Python "
 "objects and data structures. The management of this private heap is ensured "
@@ -37,8 +35,13 @@ msgid ""
 "different components which deal with various dynamic storage management "
 "aspects, like sharing, segmentation, preallocation or caching."
 msgstr ""
+"Zarządzanie pamięcią w Pythonie zakłada prywatną stertę zawierającą "
+"wszystkie obiekty i struktury danych Pythona. Zarządzanie tą prywatną stertą "
+"jest zapewniane wewnętrznie przez *zarządcę pamięci Pythona*. Zarządca "
+"pamięci Pythona ma różne komponenty które radzą sobie z różnymi aspektami "
+"dynamicznego przechowywania, jak współdzielenie, segmentacja, alokacja "
+"wstępna i kieszeniowanie."
 
-#: ../../c-api/memory.rst:25
 msgid ""
 "At the lowest level, a raw memory allocator ensures that there is enough "
 "room in the private heap for storing all Python-related data by interacting "
@@ -51,45 +54,83 @@ msgid ""
 "manager thus delegates some of the work to the object-specific allocators, "
 "but ensures that the latter operate within the bounds of the private heap."
 msgstr ""
+"Na najniższym poziomie, przedmiot przydzielający pamięć \"na-surowo\" "
+"zapewnia że będzie dość pamięci na prywatnej stercie dla przechowania "
+"wszystkich związanych-z-językiem-pytonowskim danych przez współdziałanie z "
+"zarządcą pamięci systemu operacyjnego. Ponad zarządcą surowej pamięci, kilka "
+"szczególnych dla danych typów przedmiotów zarządców operuje na tej samej "
+"stercie i wypełnia szczególne zasady zarządzania pamięcią dostosowane do "
+"szczególnych własności każdego rodzaju przedmiotu. Dla przykładu przedmioty "
+"liczb całkowitych są zarządzane inaczej wewnątrz sterty niż ciągi znaków, "
+"krotki czy słowniki gdyż liczby całkowite zakładają inne wymagania "
+"przechowywania i wady i zalety prędkości/zajętej przestrzeni. Zarządca "
+"pamięcią Pythona zatem odprawia pewną ilość nakładów pracy dla szczególnych "
+"dla przedmiotów różnych typów zarządców, ale zapewnia że te drugie będą "
+"operować wewnątrz ograniczeń prywatnej sterty."
 
-#: ../../c-api/memory.rst:36
 msgid ""
 "It is important to understand that the management of the Python heap is "
 "performed by the interpreter itself and that the user has no control over "
 "it, even if they regularly manipulate object pointers to memory blocks "
-"inside that heap.  The allocation of heap space for Python objects and other"
-" internal buffers is performed on demand by the Python memory manager "
-"through the Python/C API functions listed in this document."
+"inside that heap.  The allocation of heap space for Python objects and other "
+"internal buffers is performed on demand by the Python memory manager through "
+"the Python/C API functions listed in this document."
 msgstr ""
+"Важливо розуміти, що керування купою Python виконується самим "
+"інтерпретатором і що користувач не має контролю над нею, навіть якщо вони "
+"регулярно маніпулюють покажчиками об’єктів на блоки пам’яті всередині цієї "
+"купи. Виділення простору купи для об’єктів Python та інших внутрішніх "
+"буферів виконується на вимогу менеджером пам’яті Python за допомогою функцій "
+"API Python/C, перелічених у цьому документі."
 
-#: ../../c-api/memory.rst:49
 msgid ""
-"To avoid memory corruption, extension writers should never try to operate on"
-" Python objects with the functions exported by the C library: "
-":c:func:`malloc`, :c:func:`calloc`, :c:func:`realloc` and :c:func:`free`.  "
-"This will result in  mixed calls between the C allocator and the Python "
-"memory manager with fatal consequences, because they implement different "
-"algorithms and operate on different heaps.  However, one may safely allocate"
-" and release memory blocks with the C library allocator for individual "
-"purposes, as shown in the following example::"
+"To avoid memory corruption, extension writers should never try to operate on "
+"Python objects with the functions exported by the C library: :c:func:"
+"`malloc`, :c:func:`calloc`, :c:func:`realloc` and :c:func:`free`.  This will "
+"result in  mixed calls between the C allocator and the Python memory manager "
+"with fatal consequences, because they implement different algorithms and "
+"operate on different heaps.  However, one may safely allocate and release "
+"memory blocks with the C library allocator for individual purposes, as shown "
+"in the following example::"
+msgstr ""
+"Щоб уникнути пошкодження пам’яті, автори розширень ніколи не повинні "
+"намагатися працювати з об’єктами Python за допомогою функцій, експортованих "
+"бібліотекою C: :c:func:`malloc`, :c:func:`calloc`, :c:func:`realloc` і :c:"
+"func:`free`. Це призведе до змішаних викликів між розподільником C і "
+"диспетчером пам’яті Python із фатальними наслідками, оскільки вони "
+"реалізують різні алгоритми та працюють із різними купами. Однак можна "
+"безпечно виділяти та звільняти блоки пам’яті за допомогою розподільника "
+"бібліотеки C для окремих цілей, як показано в наступному прикладі:"
+
+msgid ""
+"PyObject *res;\n"
+"char *buf = (char *) malloc(BUFSIZ); /* for I/O */\n"
+"\n"
+"if (buf == NULL)\n"
+"    return PyErr_NoMemory();\n"
+"...Do some I/O operation involving buf...\n"
+"res = PyBytes_FromString(buf);\n"
+"free(buf); /* malloc'ed */\n"
+"return res;"
 msgstr ""
 
-#: ../../c-api/memory.rst:68
 msgid ""
 "In this example, the memory request for the I/O buffer is handled by the C "
 "library allocator. The Python memory manager is involved only in the "
 "allocation of the bytes object returned as a result."
 msgstr ""
+"У цьому прикладі запит пам’яті для буфера введення/виведення обробляється "
+"розподільником бібліотеки C. Менеджер пам’яті Python бере участь лише у "
+"розподілі об’єкта bytes, який повертається в результаті."
 
-#: ../../c-api/memory.rst:72
 msgid ""
 "In most situations, however, it is recommended to allocate memory from the "
 "Python heap specifically because the latter is under control of the Python "
 "memory manager. For example, this is required when the interpreter is "
 "extended with new object types written in C. Another reason for using the "
 "Python heap is the desire to *inform* the Python memory manager about the "
-"memory needs of the extension module. Even when the requested memory is used"
-" exclusively for internal, highly-specific purposes, delegating all memory "
+"memory needs of the extension module. Even when the requested memory is used "
+"exclusively for internal, highly specific purposes, delegating all memory "
 "requests to the Python memory manager causes the interpreter to have a more "
 "accurate image of its memory footprint as a whole. Consequently, under "
 "certain circumstances, the Python memory manager may or may not trigger "
@@ -99,741 +140,1007 @@ msgid ""
 "completely the Python memory manager."
 msgstr ""
 
-#: ../../c-api/memory.rst:88
 msgid ""
-"The :envvar:`PYTHONMALLOC` environment variable can be used to configure the"
-" memory allocators used by Python."
+"The :envvar:`PYTHONMALLOC` environment variable can be used to configure the "
+"memory allocators used by Python."
 msgstr ""
+"Змінну середовища :envvar:`PYTHONMALLOC` можна використовувати для "
+"налаштування розподільників пам’яті, які використовує Python."
 
-#: ../../c-api/memory.rst:91
 msgid ""
 "The :envvar:`PYTHONMALLOCSTATS` environment variable can be used to print "
 "statistics of the :ref:`pymalloc memory allocator <pymalloc>` every time a "
 "new pymalloc object arena is created, and on shutdown."
 msgstr ""
+"Змінну середовища :envvar:`PYTHONMALLOCSTATS` можна використовувати для "
+"виведення статистики :ref:`розподільника пам’яті pymalloc <pymalloc>` "
+"кожного разу, коли створюється нова арена об’єкта pymalloc, і після "
+"завершення роботи."
 
-#: ../../c-api/memory.rst:97
-msgid "Raw Memory Interface"
+msgid "Allocator Domains"
 msgstr ""
 
-#: ../../c-api/memory.rst:99
+msgid ""
+"All allocating functions belong to one of three different \"domains\" (see "
+"also :c:type:`PyMemAllocatorDomain`). These domains represent different "
+"allocation strategies and are optimized for different purposes. The specific "
+"details on how every domain allocates memory or what internal functions each "
+"domain calls is considered an implementation detail, but for debugging "
+"purposes a simplified table can be found at :ref:`here <default-memory-"
+"allocators>`. The APIs used to allocate and free a block of memory must be "
+"from the same domain. For example, :c:func:`PyMem_Free` must be used to free "
+"memory allocated using :c:func:`PyMem_Malloc`."
+msgstr ""
+
+msgid "The three allocation domains are:"
+msgstr ""
+
+msgid ""
+"Raw domain: intended for allocating memory for general-purpose memory "
+"buffers where the allocation *must* go to the system allocator or where the "
+"allocator can operate without an :term:`attached thread state`. The memory "
+"is requested directly from the system. See :ref:`Raw Memory Interface <raw-"
+"memoryinterface>`."
+msgstr ""
+
+msgid ""
+"\"Mem\" domain: intended for allocating memory for Python buffers and "
+"general-purpose memory buffers where the allocation must be performed with "
+"an :term:`attached thread state`. The memory is taken from the Python "
+"private heap. See :ref:`Memory Interface <memoryinterface>`."
+msgstr ""
+
+msgid ""
+"Object domain: intended for allocating memory for Python objects. The memory "
+"is taken from the Python private heap. See :ref:`Object allocators "
+"<objectinterface>`."
+msgstr ""
+
+msgid ""
+"The :term:`free-threaded <free threading>` build requires that only Python "
+"objects are allocated using the \"object\" domain and that all Python "
+"objects are allocated using that domain. This differs from the prior Python "
+"versions, where this was only a best practice and not a hard requirement."
+msgstr ""
+
+msgid ""
+"For example, buffers (non-Python objects) should be allocated using :c:func:"
+"`PyMem_Malloc`, :c:func:`PyMem_RawMalloc`, or :c:func:`malloc`, but not :c:"
+"func:`PyObject_Malloc`."
+msgstr ""
+
+msgid "See :ref:`Memory Allocation APIs <free-threaded-memory-allocation>`."
+msgstr ""
+
+msgid "Raw Memory Interface"
+msgstr "Інтерфейс необробленої пам'яті"
+
 msgid ""
 "The following function sets are wrappers to the system allocator. These "
-"functions are thread-safe, the :term:`GIL <global interpreter lock>` does "
-"not need to be held."
+"functions are thread-safe, so a :term:`thread state` does not need to be :"
+"term:`attached <attached thread state>`."
 msgstr ""
 
-#: ../../c-api/memory.rst:103
 msgid ""
-"The :ref:`default raw memory allocator <default-memory-allocators>` uses the"
-" following functions: :c:func:`malloc`, :c:func:`calloc`, :c:func:`realloc` "
-"and :c:func:`free`; call ``malloc(1)`` (or ``calloc(1, 1)``) when requesting"
-" zero bytes."
+"The :ref:`default raw memory allocator <default-memory-allocators>` uses the "
+"following functions: :c:func:`malloc`, :c:func:`calloc`, :c:func:`realloc` "
+"and :c:func:`!free`; call ``malloc(1)`` (or ``calloc(1, 1)``) when "
+"requesting zero bytes."
 msgstr ""
 
-#: ../../c-api/memory.rst:112 ../../c-api/memory.rst:183
-#: ../../c-api/memory.rst:285
 msgid ""
-"Allocates *n* bytes and returns a pointer of type :c:type:`void*` to the "
+"Allocates *n* bytes and returns a pointer of type :c:expr:`void*` to the "
 "allocated memory, or ``NULL`` if the request fails."
 msgstr ""
 
-#: ../../c-api/memory.rst:115
 msgid ""
 "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, "
 "as if ``PyMem_RawMalloc(1)`` had been called instead. The memory will not "
 "have been initialized in any way."
 msgstr ""
+"Запит нульових байтів повертає окремий вказівник, відмінний від ``NULL``, "
+"якщо це можливо, ніби замість цього було викликано ``PyMem_RawMalloc(1)``. "
+"Пам'ять жодним чином не буде ініціалізовано."
 
-#: ../../c-api/memory.rst:122 ../../c-api/memory.rst:193
-#: ../../c-api/memory.rst:295
 msgid ""
 "Allocates *nelem* elements each whose size in bytes is *elsize* and returns "
-"a pointer of type :c:type:`void*` to the allocated memory, or ``NULL`` if "
+"a pointer of type :c:expr:`void*` to the allocated memory, or ``NULL`` if "
 "the request fails. The memory is initialized to zeros."
 msgstr ""
 
-#: ../../c-api/memory.rst:126
 msgid ""
 "Requesting zero elements or elements of size zero bytes returns a distinct "
 "non-``NULL`` pointer if possible, as if ``PyMem_RawCalloc(1, 1)`` had been "
 "called instead."
 msgstr ""
+"Запит нульових елементів або елементів розміром нуль байтів повертає окремий "
+"вказівник, відмінний від ``NULL``, якщо це можливо, ніби замість цього було "
+"викликано ``PyMem_RawCalloc(1, 1)``."
 
-#: ../../c-api/memory.rst:135 ../../c-api/memory.rst:206
-#: ../../c-api/memory.rst:308
 msgid ""
 "Resizes the memory block pointed to by *p* to *n* bytes. The contents will "
 "be unchanged to the minimum of the old and the new sizes."
 msgstr ""
+"Змінює розмір блоку пам'яті, на який вказує *p*, до *n* байтів. Вміст буде "
+"незмінним до мінімуму старого та нового розмірів."
 
-#: ../../c-api/memory.rst:138
 msgid ""
 "If *p* is ``NULL``, the call is equivalent to ``PyMem_RawMalloc(n)``; else "
 "if *n* is equal to zero, the memory block is resized but is not freed, and "
 "the returned pointer is non-``NULL``."
 msgstr ""
+"Якщо *p* має значення ``NULL``, виклик еквівалентний ``PyMem_RawMalloc(n)``; "
+"інакше, якщо *n* дорівнює нулю, розмір блоку пам’яті змінюється, але не "
+"звільняється, а повернутий вказівник не є ``NULL``."
 
-#: ../../c-api/memory.rst:142
 msgid ""
-"Unless *p* is ``NULL``, it must have been returned by a previous call to "
-":c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or "
-":c:func:`PyMem_RawCalloc`."
+"Unless *p* is ``NULL``, it must have been returned by a previous call to :c:"
+"func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or :c:func:"
+"`PyMem_RawCalloc`."
 msgstr ""
+"Якщо *p* не має значення ``NULL``, воно має бути повернуто попереднім "
+"викликом :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` або :c:func:"
+"`PyMem_RawCalloc`."
 
-#: ../../c-api/memory.rst:146
 msgid ""
 "If the request fails, :c:func:`PyMem_RawRealloc` returns ``NULL`` and *p* "
 "remains a valid pointer to the previous memory area."
 msgstr ""
+"Якщо запит завершується невдало, :c:func:`PyMem_RawRealloc` повертає "
+"``NULL``, а *p* залишається дійсним покажчиком на попередню область пам’яті."
 
-#: ../../c-api/memory.rst:152
 msgid ""
-"Frees the memory block pointed to by *p*, which must have been returned by a"
-" previous call to :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or "
-":c:func:`PyMem_RawCalloc`.  Otherwise, or if ``PyMem_RawFree(p)`` has been "
+"Frees the memory block pointed to by *p*, which must have been returned by a "
+"previous call to :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or :c:"
+"func:`PyMem_RawCalloc`.  Otherwise, or if ``PyMem_RawFree(p)`` has been "
 "called before, undefined behavior occurs."
 msgstr ""
+"Звільняє блок пам’яті, на який вказує *p*, який мав бути повернутий "
+"попереднім викликом :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` "
+"або :c:func:`PyMem_RawCalloc`. В іншому випадку, або якщо "
+"``PyMem_RawFree(p)`` був викликаний раніше, виникає невизначена поведінка."
 
-#: ../../c-api/memory.rst:157 ../../c-api/memory.rst:227
-#: ../../c-api/memory.rst:329
 msgid "If *p* is ``NULL``, no operation is performed."
-msgstr ""
+msgstr "Якщо *p* має значення ``NULL``, жодна операція не виконується."
 
-#: ../../c-api/memory.rst:163
 msgid "Memory Interface"
-msgstr ""
+msgstr "Sprzęg Pamięci"
 
-#: ../../c-api/memory.rst:165 ../../c-api/memory.rst:271
 msgid ""
 "The following function sets, modeled after the ANSI C standard, but "
-"specifying behavior when requesting zero bytes, are available for allocating"
-" and releasing memory from the Python heap."
+"specifying behavior when requesting zero bytes, are available for allocating "
+"and releasing memory from the Python heap."
 msgstr ""
+"Наступні набори функцій, створені за стандартом ANSI C, але вказуючи "
+"поведінку під час запиту нульових байтів, доступні для виділення та "
+"звільнення пам’яті з купи Python."
 
-#: ../../c-api/memory.rst:169
 msgid ""
-"The :ref:`default memory allocator <default-memory-allocators>` uses the "
-":ref:`pymalloc memory allocator <pymalloc>`."
+"The :ref:`default memory allocator <default-memory-allocators>` uses the :"
+"ref:`pymalloc memory allocator <pymalloc>`."
 msgstr ""
+":ref:`розподільник пам’яті за замовчуванням <default-memory-allocators>` "
+"використовує :ref:`розподільник пам’яті pymalloc <pymalloc>`."
 
-#: ../../c-api/memory.rst:174 ../../c-api/memory.rst:280
 msgid ""
-"The :term:`GIL <global interpreter lock>` must be held when using these "
-"functions."
+"There must be an :term:`attached thread state` when using these functions."
 msgstr ""
 
-#: ../../c-api/memory.rst:179
 msgid ""
 "The default allocator is now pymalloc instead of system :c:func:`malloc`."
 msgstr ""
+"Типовим розподільником тепер є pymalloc замість system :c:func:`malloc`."
 
-#: ../../c-api/memory.rst:186
 msgid ""
 "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, "
 "as if ``PyMem_Malloc(1)`` had been called instead. The memory will not have "
 "been initialized in any way."
 msgstr ""
+"Запит нульових байтів повертає окремий вказівник, відмінний від ``NULL``, "
+"якщо це можливо, ніби замість цього було викликано ``PyMem_Malloc(1)``. "
+"Пам'ять жодним чином не буде ініціалізовано."
 
-#: ../../c-api/memory.rst:197
 msgid ""
 "Requesting zero elements or elements of size zero bytes returns a distinct "
 "non-``NULL`` pointer if possible, as if ``PyMem_Calloc(1, 1)`` had been "
 "called instead."
 msgstr ""
+"Запит нульових елементів або елементів розміром нуль байтів повертає окремий "
+"вказівник, відмінний від ``NULL``, якщо це можливо, як якщо б замість цього "
+"було викликано ``PyMem_Calloc(1, 1)``."
 
-#: ../../c-api/memory.rst:209
 msgid ""
 "If *p* is ``NULL``, the call is equivalent to ``PyMem_Malloc(n)``; else if "
 "*n* is equal to zero, the memory block is resized but is not freed, and the "
 "returned pointer is non-``NULL``."
 msgstr ""
+"Якщо *p* має значення ``NULL``, виклик еквівалентний ``PyMem_Malloc(n)``; "
+"інакше, якщо *n* дорівнює нулю, розмір блоку пам’яті змінюється, але не "
+"звільняється, а повернутий вказівник не є ``NULL``."
 
-#: ../../c-api/memory.rst:213
 msgid ""
-"Unless *p* is ``NULL``, it must have been returned by a previous call to "
-":c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or :c:func:`PyMem_Calloc`."
+"Unless *p* is ``NULL``, it must have been returned by a previous call to :c:"
+"func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or :c:func:`PyMem_Calloc`."
 msgstr ""
+"Якщо *p* не має значення ``NULL``, воно має бути повернуто попереднім "
+"викликом :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` або :c:func:"
+"`PyMem_Calloc`."
 
-#: ../../c-api/memory.rst:216
 msgid ""
 "If the request fails, :c:func:`PyMem_Realloc` returns ``NULL`` and *p* "
 "remains a valid pointer to the previous memory area."
 msgstr ""
+"Якщо запит не вдається, :c:func:`PyMem_Realloc` повертає ``NULL``, а *p* "
+"залишається дійсним покажчиком на попередню область пам’яті."
 
-#: ../../c-api/memory.rst:222
 msgid ""
-"Frees the memory block pointed to by *p*, which must have been returned by a"
-" previous call to :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or "
-":c:func:`PyMem_Calloc`.  Otherwise, or if ``PyMem_Free(p)`` has been called "
-"before, undefined behavior occurs."
+"Frees the memory block pointed to by *p*, which must have been returned by a "
+"previous call to :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or :c:func:"
+"`PyMem_Calloc`.  Otherwise, or if ``PyMem_Free(p)`` has been called before, "
+"undefined behavior occurs."
 msgstr ""
+"Звільняє блок пам’яті, на який вказує *p*, який мав бути повернутий "
+"попереднім викликом :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` або :c:"
+"func:`PyMem_Calloc`. В іншому випадку, або якщо ``PyMem_Free(p)`` був "
+"викликаний раніше, виникає невизначена поведінка."
 
-#: ../../c-api/memory.rst:229
 msgid ""
-"The following type-oriented macros are provided for convenience.  Note  that"
-" *TYPE* refers to any C type."
+"The following type-oriented macros are provided for convenience.  Note  that "
+"*TYPE* refers to any C type."
 msgstr ""
+"Następujące makropolecenia zorientowane-według-typu dostarczone są dla "
+"wygody. Zauważ że *TYP* odnosi się do dowolnego typu C."
 
-#: ../../c-api/memory.rst:235
 msgid ""
 "Same as :c:func:`PyMem_Malloc`, but allocates ``(n * sizeof(TYPE))`` bytes "
-"of memory.  Returns a pointer cast to :c:type:`TYPE*`.  The memory will not "
-"have been initialized in any way."
+"of memory.  Returns a pointer cast to ``TYPE*``.  The memory will not have "
+"been initialized in any way."
 msgstr ""
 
-#: ../../c-api/memory.rst:242
 msgid ""
 "Same as :c:func:`PyMem_Realloc`, but the memory block is resized to ``(n * "
-"sizeof(TYPE))`` bytes.  Returns a pointer cast to :c:type:`TYPE*`. On "
-"return, *p* will be a pointer to the new memory area, or ``NULL`` in the "
-"event of failure."
+"sizeof(TYPE))`` bytes.  Returns a pointer cast to ``TYPE*``. On return, *p* "
+"will be a pointer to the new memory area, or ``NULL`` in the event of "
+"failure."
 msgstr ""
 
-#: ../../c-api/memory.rst:247
 msgid ""
-"This is a C preprocessor macro; *p* is always reassigned.  Save the original"
-" value of *p* to avoid losing memory when handling errors."
+"This is a C preprocessor macro; *p* is always reassigned.  Save the original "
+"value of *p* to avoid losing memory when handling errors."
 msgstr ""
+"Це макрос препроцесора C; *p* завжди перепризначається. Збережіть початкове "
+"значення *p*, щоб уникнути втрати пам’яті під час обробки помилок."
 
-#: ../../c-api/memory.rst:253
 msgid "Same as :c:func:`PyMem_Free`."
 msgstr "Sama seperti :c:func:`PyMem_Free`."
 
-#: ../../c-api/memory.rst:255
 msgid ""
 "In addition, the following macro sets are provided for calling the Python "
 "memory allocator directly, without involving the C API functions listed "
 "above. However, note that their use does not preserve binary compatibility "
 "across Python versions and is therefore deprecated in extension modules."
 msgstr ""
+"Dodać należy, że następujący zbiór makropoleceń dostarczony jest aby "
+"odwoływać się do programu przydzielającego pamięć w języku pytonowskim "
+"bezpośrednio, bez udziału zadań sprzęgu C wymienionych powyżej. Jednakże, "
+"zauważ, że ich użycie nie zachowuje wzajemnej zgodności binarnej pomiędzy "
+"wersjami Pythona i z tego też powodu ich użycie jest niewskazane w modułach "
+"rozszerzających."
 
-#: ../../c-api/memory.rst:260
 msgid "``PyMem_MALLOC(size)``"
 msgstr "``PyMem_MALLOC(size)``"
 
-#: ../../c-api/memory.rst:261
 msgid "``PyMem_NEW(type, size)``"
-msgstr ""
+msgstr "``PyMem_NEW(type, size)``"
 
-#: ../../c-api/memory.rst:262
 msgid "``PyMem_REALLOC(ptr, size)``"
-msgstr ""
+msgstr "``PyMem_REALLOC(ptr, size)``"
 
-#: ../../c-api/memory.rst:263
 msgid "``PyMem_RESIZE(ptr, type, size)``"
-msgstr ""
+msgstr "``PyMem_RESIZE(ptr, тип, розмір)``"
 
-#: ../../c-api/memory.rst:264
 msgid "``PyMem_FREE(ptr)``"
-msgstr ""
+msgstr "``PyMem_FREE(ptr)``"
 
-#: ../../c-api/memory.rst:265
 msgid "``PyMem_DEL(ptr)``"
-msgstr ""
+msgstr "``PyMem_DEL(ptr)``"
 
-#: ../../c-api/memory.rst:269
 msgid "Object allocators"
-msgstr ""
+msgstr "Розподільники об'єктів"
 
-#: ../../c-api/memory.rst:275
 msgid ""
-"The :ref:`default object allocator <default-memory-allocators>` uses the "
-":ref:`pymalloc memory allocator <pymalloc>`."
+"There is no guarantee that the memory returned by these allocators can be "
+"successfully cast to a Python object when intercepting the allocating "
+"functions in this domain by the methods described in the :ref:`Customize "
+"Memory Allocators <customize-memory-allocators>` section."
 msgstr ""
 
-#: ../../c-api/memory.rst:288
+msgid ""
+"The :ref:`default object allocator <default-memory-allocators>` uses the :"
+"ref:`pymalloc memory allocator <pymalloc>`."
+msgstr ""
+":ref:`розподільник об’єктів за замовчуванням <default-memory-allocators>` "
+"використовує :ref:`розподільник пам’яті pymalloc <pymalloc>`."
+
 msgid ""
 "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, "
 "as if ``PyObject_Malloc(1)`` had been called instead. The memory will not "
 "have been initialized in any way."
 msgstr ""
+"Запит нульових байтів повертає окремий покажчик, відмінний від ``NULL``, "
+"якщо це можливо, ніби замість цього було викликано ``PyObject_Malloc(1)``. "
+"Пам'ять жодним чином не буде ініціалізовано."
 
-#: ../../c-api/memory.rst:299
 msgid ""
 "Requesting zero elements or elements of size zero bytes returns a distinct "
 "non-``NULL`` pointer if possible, as if ``PyObject_Calloc(1, 1)`` had been "
 "called instead."
 msgstr ""
+"Запит нульових елементів або елементів розміром нуль байтів повертає окремий "
+"вказівник, відмінний від ``NULL``, якщо це можливо, як якщо б замість цього "
+"було викликано ``PyObject_Calloc(1, 1)``."
 
-#: ../../c-api/memory.rst:311
 msgid ""
 "If *p* is ``NULL``, the call is equivalent to ``PyObject_Malloc(n)``; else "
 "if *n* is equal to zero, the memory block is resized but is not freed, and "
 "the returned pointer is non-``NULL``."
 msgstr ""
+"Якщо *p* має значення ``NULL``, виклик еквівалентний ``PyObject_Malloc(n)``; "
+"інакше, якщо *n* дорівнює нулю, розмір блоку пам’яті змінюється, але не "
+"звільняється, а повернутий вказівник не є ``NULL``."
 
-#: ../../c-api/memory.rst:315
 msgid ""
-"Unless *p* is ``NULL``, it must have been returned by a previous call to "
-":c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or "
-":c:func:`PyObject_Calloc`."
+"Unless *p* is ``NULL``, it must have been returned by a previous call to :c:"
+"func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or :c:func:"
+"`PyObject_Calloc`."
 msgstr ""
+"Якщо *p* не має значення ``NULL``, воно має бути повернуто попереднім "
+"викликом :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` або :c:func:"
+"`PyObject_Calloc`."
 
-#: ../../c-api/memory.rst:318
 msgid ""
 "If the request fails, :c:func:`PyObject_Realloc` returns ``NULL`` and *p* "
 "remains a valid pointer to the previous memory area."
 msgstr ""
+"Якщо запит не вдається, :c:func:`PyObject_Realloc` повертає ``NULL``, а *p* "
+"залишається дійсним покажчиком на попередню область пам’яті."
 
-#: ../../c-api/memory.rst:324
 msgid ""
-"Frees the memory block pointed to by *p*, which must have been returned by a"
-" previous call to :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or "
-":c:func:`PyObject_Calloc`.  Otherwise, or if ``PyObject_Free(p)`` has been "
+"Frees the memory block pointed to by *p*, which must have been returned by a "
+"previous call to :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or :c:"
+"func:`PyObject_Calloc`.  Otherwise, or if ``PyObject_Free(p)`` has been "
 "called before, undefined behavior occurs."
 msgstr ""
+"Звільняє блок пам’яті, на який вказує *p*, який мав бути повернутий "
+"попереднім викликом :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` "
+"або :c:func:`PyObject_Calloc`. В іншому випадку, або якщо "
+"``PyObject_Free(p)`` був викликаний раніше, виникає невизначена поведінка."
 
-#: ../../c-api/memory.rst:335
-msgid "Default Memory Allocators"
-msgstr ""
-
-#: ../../c-api/memory.rst:337
-msgid "Default memory allocators:"
-msgstr ""
-
-#: ../../c-api/memory.rst:340
-msgid "Configuration"
-msgstr ""
-
-#: ../../c-api/memory.rst:340
-msgid "Name"
-msgstr "Nama"
-
-#: ../../c-api/memory.rst:340
-msgid "PyMem_RawMalloc"
-msgstr ""
-
-#: ../../c-api/memory.rst:340
-msgid "PyMem_Malloc"
-msgstr "PyMem_Malloc"
-
-#: ../../c-api/memory.rst:340
-msgid "PyObject_Malloc"
-msgstr ""
-
-#: ../../c-api/memory.rst:342
-msgid "Release build"
-msgstr ""
-
-#: ../../c-api/memory.rst:342
-msgid "``\"pymalloc\"``"
-msgstr ""
-
-#: ../../c-api/memory.rst:342 ../../c-api/memory.rst:344
-#: ../../c-api/memory.rst:344 ../../c-api/memory.rst:344
-msgid "``malloc``"
-msgstr ""
-
-#: ../../c-api/memory.rst:342 ../../c-api/memory.rst:342
-msgid "``pymalloc``"
-msgstr ""
-
-#: ../../c-api/memory.rst:343
-msgid "Debug build"
-msgstr ""
-
-#: ../../c-api/memory.rst:343
-msgid "``\"pymalloc_debug\"``"
-msgstr ""
-
-#: ../../c-api/memory.rst:343 ../../c-api/memory.rst:345
-#: ../../c-api/memory.rst:345 ../../c-api/memory.rst:345
-msgid "``malloc`` + debug"
-msgstr ""
-
-#: ../../c-api/memory.rst:343 ../../c-api/memory.rst:343
-msgid "``pymalloc`` + debug"
-msgstr ""
-
-#: ../../c-api/memory.rst:344
-msgid "Release build, without pymalloc"
-msgstr ""
-
-#: ../../c-api/memory.rst:344
-msgid "``\"malloc\"``"
-msgstr ""
-
-#: ../../c-api/memory.rst:345
-msgid "Debug build, without pymalloc"
-msgstr ""
-
-#: ../../c-api/memory.rst:345
-msgid "``\"malloc_debug\"``"
-msgstr ""
-
-#: ../../c-api/memory.rst:348
-msgid "Legend:"
-msgstr ""
-
-#: ../../c-api/memory.rst:350
-msgid "Name: value for :envvar:`PYTHONMALLOC` environment variable"
-msgstr ""
-
-#: ../../c-api/memory.rst:351
 msgid ""
-"``malloc``: system allocators from the standard C library, C functions: "
-":c:func:`malloc`, :c:func:`calloc`, :c:func:`realloc` and :c:func:`free`"
+"Do not call this directly to free an object's memory; call the type's :c:"
+"member:`~PyTypeObject.tp_free` slot instead."
 msgstr ""
 
-#: ../../c-api/memory.rst:353
-msgid "``pymalloc``: :ref:`pymalloc memory allocator <pymalloc>`"
-msgstr ""
-
-#: ../../c-api/memory.rst:354
-msgid "\"+ debug\": with debug hooks installed by :c:func:`PyMem_SetupDebugHooks`"
-msgstr ""
-
-#: ../../c-api/memory.rst:358
-msgid "Customize Memory Allocators"
-msgstr ""
-
-#: ../../c-api/memory.rst:364
 msgid ""
-"Structure used to describe a memory block allocator. The structure has four "
-"fields:"
+"Do not use this for memory allocated by :c:macro:`PyObject_GC_New` or :c:"
+"macro:`PyObject_GC_NewVar`; use :c:func:`PyObject_GC_Del` instead."
 msgstr ""
 
-#: ../../c-api/memory.rst:368 ../../c-api/memory.rst:513
-msgid "Field"
-msgstr "Field"
-
-#: ../../c-api/memory.rst:368 ../../c-api/memory.rst:513
-msgid "Meaning"
-msgstr "Artinya"
-
-#: ../../c-api/memory.rst:370 ../../c-api/memory.rst:515
-msgid "``void *ctx``"
-msgstr ""
-
-#: ../../c-api/memory.rst:370 ../../c-api/memory.rst:515
-msgid "user context passed as first argument"
-msgstr ""
-
-#: ../../c-api/memory.rst:372
-msgid "``void* malloc(void *ctx, size_t size)``"
-msgstr ""
-
-#: ../../c-api/memory.rst:372
-msgid "allocate a memory block"
-msgstr ""
-
-#: ../../c-api/memory.rst:374
-msgid "``void* calloc(void *ctx, size_t nelem, size_t elsize)``"
-msgstr ""
-
-#: ../../c-api/memory.rst:374
-msgid "allocate a memory block initialized with zeros"
-msgstr ""
-
-#: ../../c-api/memory.rst:377
-msgid "``void* realloc(void *ctx, void *ptr, size_t new_size)``"
-msgstr ""
-
-#: ../../c-api/memory.rst:377
-msgid "allocate or resize a memory block"
-msgstr ""
-
-#: ../../c-api/memory.rst:379
-msgid "``void free(void *ctx, void *ptr)``"
-msgstr ""
-
-#: ../../c-api/memory.rst:379
-msgid "free a memory block"
-msgstr ""
-
-#: ../../c-api/memory.rst:382
 msgid ""
-"The :c:type:`PyMemAllocator` structure was renamed to "
-":c:type:`PyMemAllocatorEx` and a new ``calloc`` field was added."
+":c:func:`PyObject_GC_Del` is the equivalent of this function for memory "
+"allocated by types that support garbage collection."
 msgstr ""
 
-#: ../../c-api/memory.rst:389
-msgid "Enum used to identify an allocator domain. Domains:"
-msgstr ""
-
-#: ../../c-api/memory.rst:393 ../../c-api/memory.rst:402
-#: ../../c-api/memory.rst:411
-msgid "Functions:"
-msgstr "Fungsi-fungsi:"
-
-#: ../../c-api/memory.rst:395
-msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ":c:func:`PyMem_RawMalloc`"
-
-#: ../../c-api/memory.rst:396
-msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ":c:func:`PyMem_RawRealloc`"
-
-#: ../../c-api/memory.rst:397
-msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ":c:func:`PyMem_RawCalloc`"
-
-#: ../../c-api/memory.rst:398
-msgid ":c:func:`PyMem_RawFree`"
-msgstr ":c:func:`PyMem_RawFree`"
-
-#: ../../c-api/memory.rst:404
-msgid ":c:func:`PyMem_Malloc`,"
-msgstr ":c:func:`PyMem_Malloc`,"
-
-#: ../../c-api/memory.rst:405
-msgid ":c:func:`PyMem_Realloc`"
-msgstr ":c:func:`PyMem_Realloc`"
-
-#: ../../c-api/memory.rst:406
-msgid ":c:func:`PyMem_Calloc`"
-msgstr ":c:func:`PyMem_Calloc`"
-
-#: ../../c-api/memory.rst:407
-msgid ":c:func:`PyMem_Free`"
-msgstr ":c:func:`PyMem_Free`"
-
-#: ../../c-api/memory.rst:413
 msgid ":c:func:`PyObject_Malloc`"
 msgstr ":c:func:`PyObject_Malloc`"
 
-#: ../../c-api/memory.rst:414
 msgid ":c:func:`PyObject_Realloc`"
 msgstr ":c:func:`PyObject_Realloc`"
 
-#: ../../c-api/memory.rst:415
 msgid ":c:func:`PyObject_Calloc`"
 msgstr ":c:func:`PyObject_Calloc`"
 
-#: ../../c-api/memory.rst:416
+msgid ":c:macro:`PyObject_New`"
+msgstr ""
+
+msgid ":c:macro:`PyObject_NewVar`"
+msgstr ""
+
+msgid ":c:func:`PyType_GenericAlloc`"
+msgstr ""
+
+msgid ":c:member:`~PyTypeObject.tp_free`"
+msgstr ":c:member:`~PyTypeObject.tp_free`"
+
+msgid "Default Memory Allocators"
+msgstr "Типові розподілювачі пам'яті"
+
+msgid "Default memory allocators:"
+msgstr "Розподільники пам'яті за замовчуванням:"
+
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "PyMem_RawMalloc"
+msgstr "PyMem_RawMalloc"
+
+msgid "PyMem_Malloc"
+msgstr "PyMem_Malloc"
+
+msgid "PyObject_Malloc"
+msgstr "PyObject_Malloc"
+
+msgid "Release build"
+msgstr "Реліз збірки"
+
+msgid "``\"pymalloc\"``"
+msgstr "``\"pymalloc\"``"
+
+msgid "``malloc``"
+msgstr "``malloc``"
+
+msgid "``pymalloc``"
+msgstr "``pymalloc``"
+
+msgid "Debug build"
+msgstr "Налагодити збірку"
+
+msgid "``\"pymalloc_debug\"``"
+msgstr "``\"pymalloc_debug\"``"
+
+msgid "``malloc`` + debug"
+msgstr "``malloc`` + налагодження"
+
+msgid "``pymalloc`` + debug"
+msgstr "``pymalloc`` + налагодження"
+
+msgid "Release build, without pymalloc"
+msgstr "Випуск збірки без pymalloc"
+
+msgid "``\"malloc\"``"
+msgstr "``\"malloc\"``"
+
+msgid "Debug build, without pymalloc"
+msgstr "Збірка налагодження без pymalloc"
+
+msgid "``\"malloc_debug\"``"
+msgstr "``\"malloc_debug\"``"
+
+msgid "Legend:"
+msgstr "Legenda:"
+
+msgid "Name: value for :envvar:`PYTHONMALLOC` environment variable."
+msgstr ""
+
+msgid ""
+"``malloc``: system allocators from the standard C library, C functions: :c:"
+"func:`malloc`, :c:func:`calloc`, :c:func:`realloc` and :c:func:`free`."
+msgstr ""
+
+msgid "``pymalloc``: :ref:`pymalloc memory allocator <pymalloc>`."
+msgstr ""
+
+msgid ""
+"``mimalloc``: :ref:`mimalloc memory allocator <mimalloc>`.  The pymalloc "
+"allocator will be used if mimalloc support isn't available."
+msgstr ""
+
+msgid ""
+"\"+ debug\": with :ref:`debug hooks on the Python memory allocators <pymem-"
+"debug-hooks>`."
+msgstr ""
+
+msgid "\"Debug build\": :ref:`Python build in debug mode <debug-build>`."
+msgstr ""
+
+msgid "Customize Memory Allocators"
+msgstr "Налаштувати розподільники пам'яті"
+
+msgid ""
+"Structure used to describe a memory block allocator. The structure has the "
+"following fields:"
+msgstr ""
+"Структура, яка використовується для опису розподілювача блоків пам'яті. "
+"Структура має такі поля:"
+
+msgid "Field"
+msgstr "Field"
+
+msgid "Meaning"
+msgstr "Artinya"
+
+msgid "``void *ctx``"
+msgstr "``void *ctx``"
+
+msgid "user context passed as first argument"
+msgstr "контекст користувача, переданий як перший аргумент"
+
+msgid "``void* malloc(void *ctx, size_t size)``"
+msgstr "``void* malloc(void *ctx, size_t size)``"
+
+msgid "allocate a memory block"
+msgstr "виділити блок пам'яті"
+
+msgid "``void* calloc(void *ctx, size_t nelem, size_t elsize)``"
+msgstr "``void* calloc(void *ctx, size_t nelem, size_t elsize)``"
+
+msgid "allocate a memory block initialized with zeros"
+msgstr "виділити блок пам'яті, ініціалізований нулями"
+
+msgid "``void* realloc(void *ctx, void *ptr, size_t new_size)``"
+msgstr "``void* realloc(void *ctx, void *ptr, size_t new_size)``"
+
+msgid "allocate or resize a memory block"
+msgstr "виділити або змінити розмір блоку пам'яті"
+
+msgid "``void free(void *ctx, void *ptr)``"
+msgstr "``void free(void *ctx, void *ptr)``"
+
+msgid "free a memory block"
+msgstr "звільнити блок пам'яті"
+
+msgid ""
+"The :c:type:`!PyMemAllocator` structure was renamed to :c:type:"
+"`PyMemAllocatorEx` and a new ``calloc`` field was added."
+msgstr ""
+
+msgid "Enum used to identify an allocator domain. Domains:"
+msgstr "Enum використовується для визначення домену розподілювача. Домени:"
+
+msgid "Functions:"
+msgstr "Fungsi-fungsi:"
+
+msgid ":c:func:`PyMem_RawMalloc`"
+msgstr ":c:func:`PyMem_RawMalloc`"
+
+msgid ":c:func:`PyMem_RawRealloc`"
+msgstr ":c:func:`PyMem_RawRealloc`"
+
+msgid ":c:func:`PyMem_RawCalloc`"
+msgstr ":c:func:`PyMem_RawCalloc`"
+
+msgid ":c:func:`PyMem_RawFree`"
+msgstr ":c:func:`PyMem_RawFree`"
+
+msgid ":c:func:`PyMem_Malloc`,"
+msgstr ":c:func:`PyMem_Malloc`,"
+
+msgid ":c:func:`PyMem_Realloc`"
+msgstr ":c:func:`PyMem_Realloc`"
+
+msgid ":c:func:`PyMem_Calloc`"
+msgstr ":c:func:`PyMem_Calloc`"
+
+msgid ":c:func:`PyMem_Free`"
+msgstr ":c:func:`PyMem_Free`"
+
 msgid ":c:func:`PyObject_Free`"
 msgstr ":c:func:`PyObject_Free`"
 
-#: ../../c-api/memory.rst:420
 msgid "Get the memory block allocator of the specified domain."
-msgstr ""
+msgstr "Отримати розподільник блоків пам’яті вказаного домену."
 
-#: ../../c-api/memory.rst:425
 msgid "Set the memory block allocator of the specified domain."
-msgstr ""
+msgstr "Установіть розподільник блоків пам'яті для вказаного домену."
 
-#: ../../c-api/memory.rst:427
 msgid ""
 "The new allocator must return a distinct non-``NULL`` pointer when "
 "requesting zero bytes."
 msgstr ""
+"Новий розподільник має повертати окремий покажчик, відмінний від ``NULL``, "
+"коли запитує нульові байти."
 
-#: ../../c-api/memory.rst:430
 msgid ""
-"For the :c:data:`PYMEM_DOMAIN_RAW` domain, the allocator must be thread-"
-"safe: the :term:`GIL <global interpreter lock>` is not held when the "
-"allocator is called."
+"For the :c:macro:`PYMEM_DOMAIN_RAW` domain, the allocator must be thread-"
+"safe: a :term:`thread state` is not :term:`attached <attached thread state>` "
+"when the allocator is called."
 msgstr ""
 
-#: ../../c-api/memory.rst:434
+msgid ""
+"For the remaining domains, the allocator must also be thread-safe: the "
+"allocator may be called in different interpreters that do not share a :term:"
+"`GIL`."
+msgstr ""
+
 msgid ""
 "If the new allocator is not a hook (does not call the previous allocator), "
-"the :c:func:`PyMem_SetupDebugHooks` function must be called to reinstall the"
-" debug hooks on top on the new allocator."
+"the :c:func:`PyMem_SetupDebugHooks` function must be called to reinstall the "
+"debug hooks on top on the new allocator."
 msgstr ""
+"Якщо новий розподільник не є хуком (не викликає попереднього розподільника), "
+"необхідно викликати функцію :c:func:`PyMem_SetupDebugHooks`, щоб "
+"перевстановити налагоджувальні хуки поверх нового розподільника."
 
-#: ../../c-api/memory.rst:441
-msgid "Setup hooks to detect bugs in the Python memory allocator functions."
-msgstr ""
-
-#: ../../c-api/memory.rst:443
 msgid ""
-"Newly allocated memory is filled with the byte ``0xCD`` (``CLEANBYTE``), "
-"freed memory is filled with the byte ``0xDD`` (``DEADBYTE``). Memory blocks "
-"are surrounded by \"forbidden bytes\" (``FORBIDDENBYTE``: byte ``0xFD``)."
+"See also :c:member:`PyPreConfig.allocator` and :ref:`Preinitialize Python "
+"with PyPreConfig <c-preinit>`."
 msgstr ""
 
-#: ../../c-api/memory.rst:447
+msgid ":c:func:`PyMem_SetAllocator` does have the following contract:"
+msgstr ""
+
+msgid ""
+"It can be called after :c:func:`Py_PreInitialize` and before :c:func:"
+"`Py_InitializeFromConfig` to install a custom memory allocator. There are no "
+"restrictions over the installed allocator other than the ones imposed by the "
+"domain (for instance, the Raw Domain allows the allocator to be called "
+"without an :term:`attached thread state`). See :ref:`the section on "
+"allocator domains <allocator-domains>` for more information."
+msgstr ""
+
+msgid ""
+"If called after Python has finish initializing (after :c:func:"
+"`Py_InitializeFromConfig` has been called) the allocator **must** wrap the "
+"existing allocator. Substituting the current allocator for some other "
+"arbitrary one is **not supported**."
+msgstr ""
+
+msgid "All allocators must be thread-safe."
+msgstr ""
+
+msgid ""
+"Setup :ref:`debug hooks in the Python memory allocators <pymem-debug-hooks>` "
+"to detect memory errors."
+msgstr ""
+
+msgid "Debug hooks on the Python memory allocators"
+msgstr ""
+
+msgid ""
+"When :ref:`Python is built in debug mode <debug-build>`, the :c:func:"
+"`PyMem_SetupDebugHooks` function is called at the :ref:`Python "
+"preinitialization <c-preinit>` to setup debug hooks on Python memory "
+"allocators to detect memory errors."
+msgstr ""
+
+msgid ""
+"The :envvar:`PYTHONMALLOC` environment variable can be used to install debug "
+"hooks on a Python compiled in release mode (ex: ``PYTHONMALLOC=debug``)."
+msgstr ""
+
+msgid ""
+"The :c:func:`PyMem_SetupDebugHooks` function can be used to set debug hooks "
+"after calling :c:func:`PyMem_SetAllocator`."
+msgstr ""
+
+msgid ""
+"These debug hooks fill dynamically allocated memory blocks with special, "
+"recognizable bit patterns. Newly allocated memory is filled with the byte "
+"``0xCD`` (``PYMEM_CLEANBYTE``), freed memory is filled with the byte "
+"``0xDD`` (``PYMEM_DEADBYTE``). Memory blocks are surrounded by \"forbidden "
+"bytes\" filled with the byte ``0xFD`` (``PYMEM_FORBIDDENBYTE``). Strings of "
+"these bytes are unlikely to be valid addresses, floats, or ASCII strings."
+msgstr ""
+
 msgid "Runtime checks:"
-msgstr ""
+msgstr "Перевірки виконання:"
 
-#: ../../c-api/memory.rst:449
 msgid ""
-"Detect API violations, ex: :c:func:`PyObject_Free` called on a buffer "
-"allocated by :c:func:`PyMem_Malloc`"
+"Detect API violations. For example, detect if :c:func:`PyObject_Free` is "
+"called on a memory block allocated by :c:func:`PyMem_Malloc`."
 msgstr ""
 
-#: ../../c-api/memory.rst:451
-msgid "Detect write before the start of the buffer (buffer underflow)"
+msgid "Detect write before the start of the buffer (buffer underflow)."
 msgstr ""
 
-#: ../../c-api/memory.rst:452
-msgid "Detect write after the end of the buffer (buffer overflow)"
+msgid "Detect write after the end of the buffer (buffer overflow)."
 msgstr ""
 
-#: ../../c-api/memory.rst:453
 msgid ""
-"Check that the :term:`GIL <global interpreter lock>` is held when allocator "
-"functions of :c:data:`PYMEM_DOMAIN_OBJ` (ex: :c:func:`PyObject_Malloc`) and "
-":c:data:`PYMEM_DOMAIN_MEM` (ex: :c:func:`PyMem_Malloc`) domains are called"
+"Check that there is an :term:`attached thread state` when allocator "
+"functions of :c:macro:`PYMEM_DOMAIN_OBJ` (ex: :c:func:`PyObject_Malloc`) "
+"and :c:macro:`PYMEM_DOMAIN_MEM` (ex: :c:func:`PyMem_Malloc`) domains are "
+"called."
 msgstr ""
 
-#: ../../c-api/memory.rst:458
 msgid ""
 "On error, the debug hooks use the :mod:`tracemalloc` module to get the "
 "traceback where a memory block was allocated. The traceback is only "
-"displayed if :mod:`tracemalloc` is tracing Python memory allocations and the"
-" memory block was traced."
+"displayed if :mod:`tracemalloc` is tracing Python memory allocations and the "
+"memory block was traced."
 msgstr ""
+"У разі помилки хуки налагодження використовують модуль :mod:`tracemalloc`, "
+"щоб отримати зворотне відстеження, де було виділено блок пам’яті. Зворотне "
+"відстеження відображається, лише якщо :mod:`tracemalloc` відстежує виділення "
+"пам’яті Python і блок пам’яті відстежується."
 
-#: ../../c-api/memory.rst:463
 msgid ""
-"These hooks are :ref:`installed by default <default-memory-allocators>` if "
-"Python is compiled in debug mode. The :envvar:`PYTHONMALLOC` environment "
-"variable can be used to install debug hooks on a Python compiled in release "
-"mode."
+"Let *S* = ``sizeof(size_t)``. ``2*S`` bytes are added at each end of each "
+"block of *N* bytes requested.  The memory layout is like so, where p "
+"represents the address returned by a malloc-like or realloc-like function "
+"(``p[i:j]`` means the slice of bytes from ``*(p+i)`` inclusive up to "
+"``*(p+j)`` exclusive; note that the treatment of negative indices differs "
+"from a Python slice):"
 msgstr ""
 
-#: ../../c-api/memory.rst:468
+msgid "``p[-2*S:-S]``"
+msgstr ""
+
 msgid ""
-"This function now also works on Python compiled in release mode. On error, "
-"the debug hooks now use :mod:`tracemalloc` to get the traceback where a "
-"memory block was allocated. The debug hooks now also check if the GIL is "
-"held when functions of :c:data:`PYMEM_DOMAIN_OBJ` and "
-":c:data:`PYMEM_DOMAIN_MEM` domains are called."
+"Number of bytes originally asked for.  This is a size_t, big-endian (easier "
+"to read in a memory dump)."
 msgstr ""
 
-#: ../../c-api/memory.rst:475
+msgid "``p[-S]``"
+msgstr ""
+
+msgid "API identifier (ASCII character):"
+msgstr ""
+
+msgid "``'r'`` for :c:macro:`PYMEM_DOMAIN_RAW`."
+msgstr ""
+
+msgid "``'m'`` for :c:macro:`PYMEM_DOMAIN_MEM`."
+msgstr ""
+
+msgid "``'o'`` for :c:macro:`PYMEM_DOMAIN_OBJ`."
+msgstr ""
+
+msgid "``p[-S+1:0]``"
+msgstr ""
+
+msgid "Copies of PYMEM_FORBIDDENBYTE.  Used to catch under- writes and reads."
+msgstr ""
+
+msgid "``p[0:N]``"
+msgstr ""
+
 msgid ""
-"Byte patterns ``0xCB`` (``CLEANBYTE``), ``0xDB`` (``DEADBYTE``) and ``0xFB``"
-" (``FORBIDDENBYTE``) have been replaced with ``0xCD``, ``0xDD`` and ``0xFD``"
-" to use the same values than Windows CRT debug ``malloc()`` and ``free()``."
+"The requested memory, filled with copies of PYMEM_CLEANBYTE, used to catch "
+"reference to uninitialized memory.  When a realloc-like function is called "
+"requesting a larger memory block, the new excess bytes are also filled with "
+"PYMEM_CLEANBYTE.  When a free-like function is called, these are overwritten "
+"with PYMEM_DEADBYTE, to catch reference to freed memory.  When a realloc- "
+"like function is called requesting a smaller memory block, the excess old "
+"bytes are also filled with PYMEM_DEADBYTE."
 msgstr ""
 
-#: ../../c-api/memory.rst:485
+msgid "``p[N:N+S]``"
+msgstr ""
+
+msgid "Copies of PYMEM_FORBIDDENBYTE.  Used to catch over- writes and reads."
+msgstr ""
+
+msgid "``p[N+S:N+2*S]``"
+msgstr ""
+
+msgid ""
+"Only used if the ``PYMEM_DEBUG_SERIALNO`` macro is defined (not defined by "
+"default)."
+msgstr ""
+
+msgid ""
+"A serial number, incremented by 1 on each call to a malloc-like or realloc-"
+"like function.  Big-endian :c:type:`size_t`.  If \"bad memory\" is detected "
+"later, the serial number gives an excellent way to set a breakpoint on the "
+"next run, to capture the instant at which this block was passed out.  The "
+"static function bumpserialno() in obmalloc.c is the only place the serial "
+"number is incremented, and exists so you can set such a breakpoint easily."
+msgstr ""
+
+msgid ""
+"A realloc-like or free-like function first checks that the "
+"PYMEM_FORBIDDENBYTE bytes at each end are intact.  If they've been altered, "
+"diagnostic output is written to stderr, and the program is aborted via "
+"Py_FatalError().  The other main failure mode is provoking a memory error "
+"when a program reads up one of the special bit patterns and tries to use it "
+"as an address.  If you get in a debugger then and look at the object, you're "
+"likely to see that it's entirely filled with PYMEM_DEADBYTE (meaning freed "
+"memory is getting used) or PYMEM_CLEANBYTE (meaning uninitialized memory is "
+"getting used)."
+msgstr ""
+
+msgid ""
+"The :c:func:`PyMem_SetupDebugHooks` function now also works on Python "
+"compiled in release mode.  On error, the debug hooks now use :mod:"
+"`tracemalloc` to get the traceback where a memory block was allocated. The "
+"debug hooks now also check if there is an :term:`attached thread state` when "
+"functions of :c:macro:`PYMEM_DOMAIN_OBJ` and :c:macro:`PYMEM_DOMAIN_MEM` "
+"domains are called."
+msgstr ""
+
+msgid ""
+"Byte patterns ``0xCB`` (``PYMEM_CLEANBYTE``), ``0xDB`` (``PYMEM_DEADBYTE``) "
+"and ``0xFB`` (``PYMEM_FORBIDDENBYTE``) have been replaced with ``0xCD``, "
+"``0xDD`` and ``0xFD`` to use the same values than Windows CRT debug "
+"``malloc()`` and ``free()``."
+msgstr ""
+
 msgid "The pymalloc allocator"
-msgstr ""
+msgstr "Розподільник pymalloc"
 
-#: ../../c-api/memory.rst:487
 msgid ""
 "Python has a *pymalloc* allocator optimized for small objects (smaller or "
 "equal to 512 bytes) with a short lifetime. It uses memory mappings called "
-"\"arenas\" with a fixed size of 256 KiB. It falls back to "
-":c:func:`PyMem_RawMalloc` and :c:func:`PyMem_RawRealloc` for allocations "
-"larger than 512 bytes."
+"\"arenas\" with a fixed size of either 256 KiB on 32-bit platforms or 1 MiB "
+"on 64-bit platforms. It falls back to :c:func:`PyMem_RawMalloc` and :c:func:"
+"`PyMem_RawRealloc` for allocations larger than 512 bytes."
 msgstr ""
 
-#: ../../c-api/memory.rst:492
 msgid ""
 "*pymalloc* is the :ref:`default allocator <default-memory-allocators>` of "
-"the :c:data:`PYMEM_DOMAIN_MEM` (ex: :c:func:`PyMem_Malloc`) and "
-":c:data:`PYMEM_DOMAIN_OBJ` (ex: :c:func:`PyObject_Malloc`) domains."
+"the :c:macro:`PYMEM_DOMAIN_MEM` (ex: :c:func:`PyMem_Malloc`) and :c:macro:"
+"`PYMEM_DOMAIN_OBJ` (ex: :c:func:`PyObject_Malloc`) domains."
 msgstr ""
 
-#: ../../c-api/memory.rst:496
 msgid "The arena allocator uses the following functions:"
+msgstr "Розподільник арени використовує такі функції:"
+
+msgid ":c:func:`!VirtualAlloc` and :c:func:`!VirtualFree` on Windows,"
 msgstr ""
 
-#: ../../c-api/memory.rst:498
-msgid ":c:func:`VirtualAlloc` and :c:func:`VirtualFree` on Windows,"
+msgid ":c:func:`!mmap` and :c:func:`!munmap` if available,"
 msgstr ""
 
-#: ../../c-api/memory.rst:499
-msgid ":c:func:`mmap` and :c:func:`munmap` if available,"
-msgstr ""
-
-#: ../../c-api/memory.rst:500
 msgid ":c:func:`malloc` and :c:func:`free` otherwise."
+msgstr ":c:func:`malloc` і :c:func:`free` інакше."
+
+msgid ""
+"This allocator is disabled if Python is configured with the :option:`--"
+"without-pymalloc` option. It can also be disabled at runtime using the :"
+"envvar:`PYTHONMALLOC` environment variable (ex: ``PYTHONMALLOC=malloc``)."
 msgstr ""
 
-#: ../../c-api/memory.rst:503
+msgid ""
+"Typically, it makes sense to disable the pymalloc allocator when building "
+"Python with AddressSanitizer (:option:`--with-address-sanitizer`) which "
+"helps uncover low level bugs within the C code."
+msgstr ""
+
 msgid "Customize pymalloc Arena Allocator"
-msgstr ""
+msgstr "Налаштувати pymalloc Arena Allocator"
 
-#: ../../c-api/memory.rst:509
 msgid ""
 "Structure used to describe an arena allocator. The structure has three "
 "fields:"
 msgstr ""
+"Структура, яка використовується для опису розподільника арен. Структура має "
+"три поля:"
 
-#: ../../c-api/memory.rst:517
 msgid "``void* alloc(void *ctx, size_t size)``"
-msgstr ""
+msgstr "``void* alloc(void *ctx, size_t size)``"
 
-#: ../../c-api/memory.rst:517
 msgid "allocate an arena of size bytes"
-msgstr ""
+msgstr "виділити арену розміром байт"
 
-#: ../../c-api/memory.rst:519
 msgid "``void free(void *ctx, void *ptr, size_t size)``"
-msgstr ""
+msgstr "``void free(void *ctx, void *ptr, size_t size)``"
 
-#: ../../c-api/memory.rst:519
 msgid "free an arena"
-msgstr ""
+msgstr "звільнити арену"
 
-#: ../../c-api/memory.rst:524
 msgid "Get the arena allocator."
-msgstr ""
+msgstr "Отримайте розподільник арен."
 
-#: ../../c-api/memory.rst:528
 msgid "Set the arena allocator."
+msgstr "Встановіть розподільник арен."
+
+msgid "The mimalloc allocator"
 msgstr ""
 
-#: ../../c-api/memory.rst:532
+msgid ""
+"Python supports the mimalloc allocator when the underlying platform support "
+"is available. mimalloc \"is a general purpose allocator with excellent "
+"performance characteristics. Initially developed by Daan Leijen for the "
+"runtime systems of the Koka and Lean languages.\""
+msgstr ""
+
 msgid "tracemalloc C API"
-msgstr ""
+msgstr "tracemalloc C API"
 
-#: ../../c-api/memory.rst:538
 msgid "Track an allocated memory block in the :mod:`tracemalloc` module."
-msgstr ""
+msgstr "Відстежуйте виділений блок пам’яті в модулі :mod:`tracemalloc`."
 
-#: ../../c-api/memory.rst:540
 msgid ""
 "Return ``0`` on success, return ``-1`` on error (failed to allocate memory "
 "to store the trace). Return ``-2`` if tracemalloc is disabled."
 msgstr ""
+"Повертає ``0`` у разі успіху, повертає ``-1`` у разі помилки (не вдалося "
+"виділити пам’ять для збереження трасування). Повертає ``-2``, якщо "
+"tracemalloc вимкнено."
 
-#: ../../c-api/memory.rst:543
 msgid "If memory block is already tracked, update the existing trace."
-msgstr ""
+msgstr "Якщо блок пам’яті вже відстежується, оновіть наявне трасування."
 
-#: ../../c-api/memory.rst:547
 msgid ""
 "Untrack an allocated memory block in the :mod:`tracemalloc` module. Do "
 "nothing if the block was not tracked."
 msgstr ""
+"Скасувати відстеження виділеного блоку пам’яті в модулі :mod:`tracemalloc`. "
+"Нічого не робити, якщо блок не відстежується."
 
-#: ../../c-api/memory.rst:550
 msgid "Return ``-2`` if tracemalloc is disabled, otherwise return ``0``."
-msgstr ""
+msgstr "Повертає ``-2``, якщо tracemalloc вимкнено, інакше повертає ``0``."
 
-#: ../../c-api/memory.rst:556
 msgid "Examples"
 msgstr "Contoh-contoh"
 
-#: ../../c-api/memory.rst:558
 msgid ""
 "Here is the example from section :ref:`memoryoverview`, rewritten so that "
-"the I/O buffer is allocated from the Python heap by using the first function"
-" set::"
+"the I/O buffer is allocated from the Python heap by using the first function "
+"set::"
+msgstr ""
+"Tutaj jest przykład z sekcji \"przeglądu pamięci\" - z ang. - :ref:"
+"`memoryoverview`, przepisane, tak aby przestrzeń wejścia/wyjścia była "
+"przydzielona ze sterty Pythona używając pierwszego zestawu zadań::"
+
+msgid ""
+"PyObject *res;\n"
+"char *buf = (char *) PyMem_Malloc(BUFSIZ); /* for I/O */\n"
+"\n"
+"if (buf == NULL)\n"
+"    return PyErr_NoMemory();\n"
+"/* ...Do some I/O operation involving buf... */\n"
+"res = PyBytes_FromString(buf);\n"
+"PyMem_Free(buf); /* allocated with PyMem_Malloc */\n"
+"return res;"
 msgstr ""
 
-#: ../../c-api/memory.rst:571
 msgid "The same code using the type-oriented function set::"
+msgstr "ten sam kod przy użyciu zorientowanych na typ zbiorów zadań::"
+
+msgid ""
+"PyObject *res;\n"
+"char *buf = PyMem_New(char, BUFSIZ); /* for I/O */\n"
+"\n"
+"if (buf == NULL)\n"
+"    return PyErr_NoMemory();\n"
+"/* ...Do some I/O operation involving buf... */\n"
+"res = PyBytes_FromString(buf);\n"
+"PyMem_Free(buf); /* allocated with PyMem_New */\n"
+"return res;"
 msgstr ""
 
-#: ../../c-api/memory.rst:583
 msgid ""
 "Note that in the two examples above, the buffer is always manipulated via "
 "functions belonging to the same set. Indeed, it is required to use the same "
 "memory API family for a given memory block, so that the risk of mixing "
 "different allocators is reduced to a minimum. The following code sequence "
-"contains two errors, one of which is labeled as *fatal* because it mixes two"
-" different allocators operating on different heaps. ::"
+"contains two errors, one of which is labeled as *fatal* because it mixes two "
+"different allocators operating on different heaps. ::"
+msgstr ""
+"Zauważ, że w dwóch powyższych przykładach, przestrzeń wymiany jest zawsze "
+"zmieniana przez zadania należące do tego samego zbioru. Właściwie, jest "
+"wymagane użycie tej samej rodziny sprzęgów zarządzania pamięcią (z ang. - "
+"memory API) dla danego obszaru pamięci, tak, że ryzyko pomieszania różnych "
+"programów lokujących zmniejszone jest do minimum. Następująca sekwencja "
+"zawiera dwa błędy, jeden z których określony jest jako *krytyczny* ponieważ "
+"miesza dwa różne programy lokujące pamięć działające na różnych stertach. ::"
+
+msgid ""
+"char *buf1 = PyMem_New(char, BUFSIZ);\n"
+"char *buf2 = (char *) malloc(BUFSIZ);\n"
+"char *buf3 = (char *) PyMem_Malloc(BUFSIZ);\n"
+"...\n"
+"PyMem_Del(buf3);  /* Wrong -- should be PyMem_Free() */\n"
+"free(buf2);       /* Right -- allocated via malloc() */\n"
+"free(buf1);       /* Fatal -- should be PyMem_Free()  */"
 msgstr ""
 
-#: ../../c-api/memory.rst:598
 msgid ""
 "In addition to the functions aimed at handling raw memory blocks from the "
-"Python heap, objects in Python are allocated and released with "
-":c:func:`PyObject_New`, :c:func:`PyObject_NewVar` and "
-":c:func:`PyObject_Del`."
+"Python heap, objects in Python are allocated and released with :c:macro:"
+"`PyObject_New`, :c:macro:`PyObject_NewVar` and :c:func:`PyObject_Free`."
 msgstr ""
 
-#: ../../c-api/memory.rst:602
 msgid ""
-"These will be explained in the next chapter on defining and implementing new"
-" object types in C."
+"These will be explained in the next chapter on defining and implementing new "
+"object types in C."
+msgstr ""
+"Te zostaną wyjaśnione w następnym rozdziale o określaniu i realizowaniu "
+"nowych typów obiektów w języku C."
+
+msgid "malloc (C function)"
+msgstr ""
+
+msgid "calloc (C function)"
+msgstr ""
+
+msgid "realloc (C function)"
+msgstr ""
+
+msgid "free (C function)"
 msgstr ""

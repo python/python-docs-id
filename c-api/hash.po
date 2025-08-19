@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Danny Steveson, 2025
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-17 14:16+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: Danny Steveson, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "PyHash API"
+msgstr "PyHash API"
+
+msgid ""
+"See also the :c:member:`PyTypeObject.tp_hash` member and :ref:`numeric-hash`."
+msgstr "Lihat juga :c:member:`PyTypeObject.tp_hash` dan :ref:`numeric-hash`"
+
+msgid "Hash value type: signed integer."
+msgstr ""
+
+msgid "Hash value type: unsigned integer."
+msgstr ""
+
+msgid ""
+"The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
+"2**n -1``, used for numeric hash scheme."
+msgstr ""
+
+msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
+msgstr ""
+
+msgid "Prime multiplier used in string and various other hashes."
+msgstr ""
+
+msgid "The hash value returned for a positive infinity."
+msgstr ""
+
+msgid "The multiplier used for the imaginary part of a complex number."
+msgstr ""
+
+msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
+msgstr ""
+
+msgid "Hash function name (UTF-8 encoded string)."
+msgstr ""
+
+msgid "Internal size of the hash value in bits."
+msgstr ""
+
+msgid "Size of seed input in bits."
+msgstr ""
+
+msgid "Get the hash function definition."
+msgstr ""
+
+msgid ":pep:`456` \"Secure and interchangeable hash algorithm\"."
+msgstr ""
+
+msgid ""
+"Hash a pointer value: process the pointer value as an integer (cast it to "
+"``uintptr_t`` internally). The pointer is not dereferenced."
+msgstr ""
+
+msgid "The function cannot fail: it cannot return ``-1``."
+msgstr ""
+
+msgid ""
+"Compute and return the hash value of a buffer of *len* bytes starting at "
+"address *ptr*. The hash is guaranteed to match that of :class:`bytes`, :"
+"class:`memoryview`, and other built-in objects that implement the :ref:"
+"`buffer protocol <bufferobjects>`."
+msgstr ""
+
+msgid ""
+"Use this function to implement hashing for immutable objects whose :c:member:"
+"`~PyTypeObject.tp_richcompare` function compares to another object's buffer."
+msgstr ""
+
+msgid "*len* must be greater than or equal to ``0``."
+msgstr ""
+
+msgid "This function always succeeds."
+msgstr ""
+
+msgid ""
+"Generic hashing function that is meant to be put into a type object's "
+"``tp_hash`` slot. Its result only depends on the object's identity."
+msgstr ""
+
+msgid "In CPython, it is equivalent to :c:func:`Py_HashPointer`."
+msgstr ""

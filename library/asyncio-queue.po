@@ -1,210 +1,302 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 11:39+0000\n"
-"PO-Revision-Date: 2017-02-16 17:49+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/asyncio-queue.rst:7
 msgid "Queues"
-msgstr ""
+msgstr "Черги"
 
-#: ../../library/asyncio-queue.rst:9
 msgid "**Source code:** :source:`Lib/asyncio/queues.py`"
-msgstr ""
+msgstr "**Kod źródłowy:** :source:`Lib/asyncio/queues.py`"
 
-#: ../../library/asyncio-queue.rst:13
 msgid ""
 "asyncio queues are designed to be similar to classes of the :mod:`queue` "
 "module.  Although asyncio queues are not thread-safe, they are designed to "
 "be used specifically in async/await code."
 msgstr ""
+"асинхронні черги розроблені таким чином, щоб бути подібними до класів "
+"модуля :mod:`queue`. Хоча асинхронні черги не є потокобезпечними, вони "
+"розроблені спеціально для використання в асинхронному коді/коді очікування."
 
-#: ../../library/asyncio-queue.rst:17
 msgid ""
-"Note that methods of asyncio queues don't have a *timeout* parameter; use "
-":func:`asyncio.wait_for` function to do queue operations with a timeout."
+"Note that methods of asyncio queues don't have a *timeout* parameter; use :"
+"func:`asyncio.wait_for` function to do queue operations with a timeout."
 msgstr ""
+"Зауважте, що методи асинхронних черг не мають параметра *timeout*; "
+"використовуйте функцію :func:`asyncio.wait_for`, щоб виконувати операції в "
+"черзі з тайм-аутом."
 
-#: ../../library/asyncio-queue.rst:21
 msgid "See also the `Examples`_ section below."
-msgstr ""
+msgstr "Дивіться також розділ `Examples`_ нижче."
 
-#: ../../library/asyncio-queue.rst:24
 msgid "Queue"
-msgstr ""
+msgstr "Чергу"
 
-#: ../../library/asyncio-queue.rst:28
 msgid "A first in, first out (FIFO) queue."
-msgstr ""
+msgstr "Черга першим прийшов, першим вийшов (FIFO)."
 
-#: ../../library/asyncio-queue.rst:30
 msgid ""
 "If *maxsize* is less than or equal to zero, the queue size is infinite.  If "
 "it is an integer greater than ``0``, then ``await put()`` blocks when the "
 "queue reaches *maxsize* until an item is removed by :meth:`get`."
 msgstr ""
+"Якщо *maxsize* менше або дорівнює нулю, розмір черги є нескінченним. Якщо це "
+"ціле число, більше за ``0``, тоді ``await put()`` блокує, коли черга досягає "
+"*maxsize*, доки елемент не буде видалено :meth:`get`."
 
-#: ../../library/asyncio-queue.rst:35
 msgid ""
-"Unlike the standard library threading :mod:`queue`, the size of the queue is"
-" always known and can be returned by calling the :meth:`qsize` method."
+"Unlike the standard library threading :mod:`queue`, the size of the queue is "
+"always known and can be returned by calling the :meth:`qsize` method."
+msgstr ""
+"На відміну від стандартної потокової обробки бібліотеки :mod:`queue`, розмір "
+"черги завжди відомий і може бути повернутий викликом методу :meth:`qsize`."
+
+msgid "Removed the *loop* parameter."
 msgstr ""
 
-#: ../../library/asyncio-queue.rst:42
-msgid "The *loop* parameter."
-msgstr ""
-
-#: ../../library/asyncio-queue.rst:43
 msgid "This class is :ref:`not thread safe <asyncio-multithreading>`."
-msgstr ""
+msgstr "Цей клас :ref:`не потоково безпечний <asyncio-multithreading>`."
 
-#: ../../library/asyncio-queue.rst:47
 msgid "Number of items allowed in the queue."
-msgstr ""
+msgstr "Кількість елементів, дозволених у черзі."
 
-#: ../../library/asyncio-queue.rst:51
 msgid "Return ``True`` if the queue is empty, ``False`` otherwise."
-msgstr ""
+msgstr "Повертає ``True``, якщо черга порожня, ``False`` інакше."
 
-#: ../../library/asyncio-queue.rst:55
 msgid "Return ``True`` if there are :attr:`maxsize` items in the queue."
-msgstr ""
+msgstr "Повертає ``True``, якщо в черзі є елементи :attr:`maxsize`."
 
-#: ../../library/asyncio-queue.rst:57
 msgid ""
-"If the queue was initialized with ``maxsize=0`` (the default), then "
-":meth:`full()` never returns ``True``."
+"If the queue was initialized with ``maxsize=0`` (the default), then :meth:"
+"`full` never returns ``True``."
 msgstr ""
 
-#: ../../library/asyncio-queue.rst:62
 msgid ""
 "Remove and return an item from the queue. If queue is empty, wait until an "
 "item is available."
 msgstr ""
+"Видалити та повернути елемент із черги. Якщо черга порожня, зачекайте, поки "
+"елемент стане доступним."
 
-#: ../../library/asyncio-queue.rst:67
 msgid ""
-"Return an item if one is immediately available, else raise "
-":exc:`QueueEmpty`."
+"Raises :exc:`QueueShutDown` if the queue has been shut down and is empty, or "
+"if the queue has been shut down immediately."
 msgstr ""
 
-#: ../../library/asyncio-queue.rst:72
+msgid ""
+"Return an item if one is immediately available, else raise :exc:`QueueEmpty`."
+msgstr ""
+"Повернути елемент, якщо він одразу доступний, інакше підняти :exc:"
+"`QueueEmpty`."
+
 msgid "Block until all items in the queue have been received and processed."
-msgstr ""
+msgstr "Блокуйте, доки всі елементи в черзі не будуть отримані та оброблені."
 
-#: ../../library/asyncio-queue.rst:74
 msgid ""
 "The count of unfinished tasks goes up whenever an item is added to the "
-"queue. The count goes down whenever a consumer coroutine calls "
-":meth:`task_done` to indicate that the item was retrieved and all work on it"
-" is complete.  When the count of unfinished tasks drops to zero, "
-":meth:`join` unblocks."
+"queue. The count goes down whenever a consumer coroutine calls :meth:"
+"`task_done` to indicate that the item was retrieved and all work on it is "
+"complete.  When the count of unfinished tasks drops to zero, :meth:`join` "
+"unblocks."
 msgstr ""
+"Кількість незавершених завдань зростає щоразу, коли елемент додається до "
+"черги. Підрахунок зменшується щоразу, коли співпрограма споживача викликає :"
+"meth:`task_done`, щоб вказати, що елемент було отримано та вся робота над "
+"ним завершена. Коли кількість незавершених завдань падає до нуля, :meth:"
+"`join` розблоковується."
 
-#: ../../library/asyncio-queue.rst:82
 msgid ""
 "Put an item into the queue. If the queue is full, wait until a free slot is "
 "available before adding the item."
 msgstr ""
+"Помістіть товар у чергу. Якщо черга заповнена, зачекайте, поки з’явиться "
+"вільне місце, перш ніж додавати елемент."
 
-#: ../../library/asyncio-queue.rst:87
+msgid "Raises :exc:`QueueShutDown` if the queue has been shut down."
+msgstr ""
+
 msgid "Put an item into the queue without blocking."
-msgstr ""
+msgstr "Поставте елемент у чергу без блокування."
 
-#: ../../library/asyncio-queue.rst:89
 msgid "If no free slot is immediately available, raise :exc:`QueueFull`."
-msgstr ""
+msgstr "Якщо вільного місця немає, підніміть :exc:`QueueFull`."
 
-#: ../../library/asyncio-queue.rst:93
 msgid "Return the number of items in the queue."
-msgstr ""
+msgstr "Повернути кількість елементів у черзі."
 
-#: ../../library/asyncio-queue.rst:97
-msgid "Indicate that a formerly enqueued task is complete."
-msgstr ""
-
-#: ../../library/asyncio-queue.rst:99
 msgid ""
-"Used by queue consumers. For each :meth:`~Queue.get` used to fetch a task, a"
-" subsequent call to :meth:`task_done` tells the queue that the processing on"
-" the task is complete."
+"Shut down the queue, making :meth:`~Queue.get` and :meth:`~Queue.put` raise :"
+"exc:`QueueShutDown`."
 msgstr ""
 
-#: ../../library/asyncio-queue.rst:103
+msgid ""
+"By default, :meth:`~Queue.get` on a shut down queue will only raise once the "
+"queue is empty. Set *immediate* to true to make :meth:`~Queue.get` raise "
+"immediately instead."
+msgstr ""
+
+msgid ""
+"All blocked callers of :meth:`~Queue.put` and :meth:`~Queue.get` will be "
+"unblocked. If *immediate* is true, a task will be marked as done for each "
+"remaining item in the queue, which may unblock callers of :meth:`~Queue."
+"join`."
+msgstr ""
+
+msgid "Indicate that a formerly enqueued work item is complete."
+msgstr ""
+
+msgid ""
+"Used by queue consumers. For each :meth:`~Queue.get` used to fetch a work "
+"item, a subsequent call to :meth:`task_done` tells the queue that the "
+"processing on the work item is complete."
+msgstr ""
+
 msgid ""
 "If a :meth:`join` is currently blocking, it will resume when all items have "
-"been processed (meaning that a :meth:`task_done` call was received for every"
-" item that had been :meth:`~Queue.put` into the queue)."
+"been processed (meaning that a :meth:`task_done` call was received for every "
+"item that had been :meth:`~Queue.put` into the queue)."
+msgstr ""
+"Якщо :meth:`join` зараз блокує, воно відновиться, коли всі елементи буде "
+"оброблено (це означає, що виклик :meth:`task_done` отримано для кожного "
+"елемента, який був :meth:`~Queue.put` в черга)."
+
+msgid ""
+"``shutdown(immediate=True)`` calls :meth:`task_done` for each remaining item "
+"in the queue."
 msgstr ""
 
-#: ../../library/asyncio-queue.rst:108
 msgid ""
 "Raises :exc:`ValueError` if called more times than there were items placed "
 "in the queue."
 msgstr ""
+"Викликає :exc:`ValueError`, якщо викликається стільки разів, скільки було "
+"елементів, розміщених у черзі."
 
-#: ../../library/asyncio-queue.rst:113
 msgid "Priority Queue"
-msgstr ""
+msgstr "Пріоритетна черга"
 
-#: ../../library/asyncio-queue.rst:117
 msgid ""
 "A variant of :class:`Queue`; retrieves entries in priority order (lowest "
 "first)."
 msgstr ""
+"Варіант :class:`Queue`; отримує записи в порядку пріоритету (найнижчий "
+"спочатку)."
 
-#: ../../library/asyncio-queue.rst:120
 msgid "Entries are typically tuples of the form ``(priority_number, data)``."
-msgstr ""
+msgstr "Записи зазвичай є кортежами у формі ``(число_пріоритету, дані)``."
 
-#: ../../library/asyncio-queue.rst:125
 msgid "LIFO Queue"
-msgstr ""
+msgstr "Черга LIFO"
 
-#: ../../library/asyncio-queue.rst:129
 msgid ""
-"A variant of :class:`Queue` that retrieves most recently added entries first"
-" (last in, first out)."
+"A variant of :class:`Queue` that retrieves most recently added entries first "
+"(last in, first out)."
 msgstr ""
+"Варіант :class:`Queue`, який першими отримує нещодавно додані записи "
+"(останнім увійшов, першим вийшов)."
 
-#: ../../library/asyncio-queue.rst:134
 msgid "Exceptions"
 msgstr "Pengecualian"
 
-#: ../../library/asyncio-queue.rst:138
 msgid ""
-"This exception is raised when the :meth:`~Queue.get_nowait` method is called"
-" on an empty queue."
+"This exception is raised when the :meth:`~Queue.get_nowait` method is called "
+"on an empty queue."
 msgstr ""
+"Цей виняток виникає, коли метод :meth:`~Queue.get_nowait` викликається в "
+"порожній черзі."
 
-#: ../../library/asyncio-queue.rst:144
 msgid ""
 "Exception raised when the :meth:`~Queue.put_nowait` method is called on a "
 "queue that has reached its *maxsize*."
 msgstr ""
+"Виняток виникає, коли метод :meth:`~Queue.put_nowait` викликається в черзі, "
+"яка досягла *максимального розміру*."
 
-#: ../../library/asyncio-queue.rst:149
+msgid ""
+"Exception raised when :meth:`~Queue.put` or :meth:`~Queue.get` is called on "
+"a queue which has been shut down."
+msgstr ""
+
 msgid "Examples"
 msgstr "Contoh-contoh"
 
-#: ../../library/asyncio-queue.rst:153
 msgid ""
 "Queues can be used to distribute workload between several concurrent tasks::"
+msgstr ""
+"Черги можна використовувати для розподілу робочого навантаження між кількома "
+"одночасними завданнями:"
+
+msgid ""
+"import asyncio\n"
+"import random\n"
+"import time\n"
+"\n"
+"\n"
+"async def worker(name, queue):\n"
+"    while True:\n"
+"        # Get a \"work item\" out of the queue.\n"
+"        sleep_for = await queue.get()\n"
+"\n"
+"        # Sleep for the \"sleep_for\" seconds.\n"
+"        await asyncio.sleep(sleep_for)\n"
+"\n"
+"        # Notify the queue that the \"work item\" has been processed.\n"
+"        queue.task_done()\n"
+"\n"
+"        print(f'{name} has slept for {sleep_for:.2f} seconds')\n"
+"\n"
+"\n"
+"async def main():\n"
+"    # Create a queue that we will use to store our \"workload\".\n"
+"    queue = asyncio.Queue()\n"
+"\n"
+"    # Generate random timings and put them into the queue.\n"
+"    total_sleep_time = 0\n"
+"    for _ in range(20):\n"
+"        sleep_for = random.uniform(0.05, 1.0)\n"
+"        total_sleep_time += sleep_for\n"
+"        queue.put_nowait(sleep_for)\n"
+"\n"
+"    # Create three worker tasks to process the queue concurrently.\n"
+"    tasks = []\n"
+"    for i in range(3):\n"
+"        task = asyncio.create_task(worker(f'worker-{i}', queue))\n"
+"        tasks.append(task)\n"
+"\n"
+"    # Wait until the queue is fully processed.\n"
+"    started_at = time.monotonic()\n"
+"    await queue.join()\n"
+"    total_slept_for = time.monotonic() - started_at\n"
+"\n"
+"    # Cancel our worker tasks.\n"
+"    for task in tasks:\n"
+"        task.cancel()\n"
+"    # Wait until all worker tasks are cancelled.\n"
+"    await asyncio.gather(*tasks, return_exceptions=True)\n"
+"\n"
+"    print('====')\n"
+"    print(f'3 workers slept in parallel for {total_slept_for:.2f} seconds')\n"
+"    print(f'total expected sleep time: {total_sleep_time:.2f} seconds')\n"
+"\n"
+"\n"
+"asyncio.run(main())"
 msgstr ""

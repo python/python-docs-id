@@ -1,152 +1,137 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
-"PO-Revision-Date: 2017-02-16 23:12+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/grp.rst:2
-msgid ":mod:`grp` --- The group database"
+msgid ":mod:`!grp` --- The group database"
 msgstr ""
 
-#: ../../library/grp.rst:10
 msgid ""
 "This module provides access to the Unix group database. It is available on "
 "all Unix versions."
 msgstr ""
+"Цей модуль забезпечує доступ до бази даних групи Unix. Він доступний у всіх "
+"версіях Unix."
 
-#: ../../library/grp.rst:13
-msgid ""
-"Group database entries are reported as a tuple-like object, whose attributes"
-" correspond to the members of the ``group`` structure (Attribute field "
-"below, see ``<pwd.h>``):"
+msgid "Availability"
 msgstr ""
 
-#: ../../library/grp.rst:18
+msgid ""
+"Group database entries are reported as a tuple-like object, whose attributes "
+"correspond to the members of the ``group`` structure (Attribute field below, "
+"see ``<grp.h>``):"
+msgstr ""
+"Записи бази даних групи повідомляються як кортежний об’єкт, атрибути якого "
+"відповідають членам структури ``групи`` (поле атрибута нижче, див. ``<grp."
+"h>``):"
+
 msgid "Index"
 msgstr "Indeks"
 
-#: ../../library/grp.rst:18
 msgid "Attribute"
 msgstr "Atribut"
 
-#: ../../library/grp.rst:18
 msgid "Meaning"
 msgstr "Artinya"
 
-#: ../../library/grp.rst:20
 msgid "0"
 msgstr "0"
 
-#: ../../library/grp.rst:20
 msgid "gr_name"
-msgstr ""
+msgstr "gr_name"
 
-#: ../../library/grp.rst:20
 msgid "the name of the group"
-msgstr ""
+msgstr "назва групи"
 
-#: ../../library/grp.rst:22
 msgid "1"
 msgstr "1"
 
-#: ../../library/grp.rst:22
 msgid "gr_passwd"
-msgstr ""
+msgstr "gr_passwd"
 
-#: ../../library/grp.rst:22
 msgid "the (encrypted) group password; often empty"
-msgstr ""
+msgstr "(зашифрований) пароль групи; часто порожній"
 
-#: ../../library/grp.rst:25
 msgid "2"
 msgstr "2"
 
-#: ../../library/grp.rst:25
 msgid "gr_gid"
-msgstr ""
+msgstr "gr_gid"
 
-#: ../../library/grp.rst:25
 msgid "the numerical group ID"
-msgstr ""
+msgstr "ідентифікатор числової групи"
 
-#: ../../library/grp.rst:27
 msgid "3"
 msgstr "3"
 
-#: ../../library/grp.rst:27
 msgid "gr_mem"
-msgstr ""
+msgstr "gr_mem"
 
-#: ../../library/grp.rst:27
 msgid "all the group member's  user names"
-msgstr ""
+msgstr "імена всіх учасників групи"
 
-#: ../../library/grp.rst:31
 msgid ""
-"The gid is an integer, name and password are strings, and the member list is"
-" a list of strings. (Note that most users are not explicitly listed as "
+"The gid is an integer, name and password are strings, and the member list is "
+"a list of strings. (Note that most users are not explicitly listed as "
 "members of the group they are in according to the password database.  Check "
 "both databases to get complete membership information.  Also note that a "
 "``gr_name`` that starts with a ``+`` or ``-`` is likely to be a YP/NIS "
-"reference and may not be accessible via :func:`getgrnam` or "
-":func:`getgrgid`.)"
+"reference and may not be accessible via :func:`getgrnam` or :func:"
+"`getgrgid`.)"
 msgstr ""
+"Gid — це ціле число, ім’я та пароль — це рядки, а список учасників — це "
+"список рядків. (Зауважте, що більшість користувачів явно не вказані як члени "
+"групи, до якої вони належать, відповідно до бази даних паролів. Перевірте "
+"обидві бази даних, щоб отримати повну інформацію про членство. Також "
+"зауважте, що ``gr_name``, яке починається з ``+`` або ``-``, ймовірно, є "
+"посиланням на YP/NIS і може бути недоступним через :func:`getgrnam` або :"
+"func:`getgrgid`.)"
 
-#: ../../library/grp.rst:38
 msgid "It defines the following items:"
-msgstr ""
+msgstr "Він визначає такі пункти:"
 
-#: ../../library/grp.rst:43
 msgid ""
-"Return the group database entry for the given numeric group ID. "
-":exc:`KeyError` is raised if the entry asked for cannot be found."
+"Return the group database entry for the given numeric group ID. :exc:"
+"`KeyError` is raised if the entry asked for cannot be found."
 msgstr ""
+"Повертає запис бази даних групи для вказаного числового ідентифікатора "
+"групи. :exc:`KeyError` виникає, якщо запитуваний запис не знайдено."
 
-#: ../../library/grp.rst:46
 msgid ""
-"Since Python 3.6 the support of non-integer arguments like floats or strings"
-" in :func:`getgrgid` is deprecated."
+":exc:`TypeError` is raised for non-integer arguments like floats or strings."
 msgstr ""
 
-#: ../../library/grp.rst:52
 msgid ""
-"Return the group database entry for the given group name. :exc:`KeyError` is"
-" raised if the entry asked for cannot be found."
+"Return the group database entry for the given group name. :exc:`KeyError` is "
+"raised if the entry asked for cannot be found."
 msgstr ""
+"Повертає запис бази даних групи для заданої назви групи. :exc:`KeyError` "
+"виникає, якщо запитуваний запис не знайдено."
 
-#: ../../library/grp.rst:58
 msgid "Return a list of all available group entries, in arbitrary order."
-msgstr ""
+msgstr "Повертає список усіх доступних групових записів у довільному порядку."
 
-#: ../../library/grp.rst:64
 msgid "Module :mod:`pwd`"
 msgstr "Modul :mod:`pwd`"
 
-#: ../../library/grp.rst:64
 msgid "An interface to the user database, similar to this."
-msgstr ""
-
-#: ../../library/grp.rst:66
-msgid "Module :mod:`spwd`"
-msgstr ""
-
-#: ../../library/grp.rst:67
-msgid "An interface to the shadow password database, similar to this."
-msgstr ""
+msgstr "Подібний до цього інтерфейс до бази даних користувача."

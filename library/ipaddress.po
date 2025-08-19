@@ -1,96 +1,113 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2020, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-30 04:29+0000\n"
-"PO-Revision-Date: 2017-02-16 23:15+0000\n"
-"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../library/ipaddress.rst:2
-msgid ":mod:`ipaddress` --- IPv4/IPv6 manipulation library"
+msgid ":mod:`!ipaddress` --- IPv4/IPv6 manipulation library"
 msgstr ""
 
-#: ../../library/ipaddress.rst:9
 msgid "**Source code:** :source:`Lib/ipaddress.py`"
-msgstr ""
+msgstr "**Kod źródłowy:** :source:`Lib/ipaddress.py`"
 
-#: ../../library/ipaddress.rst:13
 msgid ""
-":mod:`ipaddress` provides the capabilities to create, manipulate and operate"
-" on IPv4 and IPv6 addresses and networks."
+":mod:`ipaddress` provides the capabilities to create, manipulate and operate "
+"on IPv4 and IPv6 addresses and networks."
 msgstr ""
+":mod:`ipaddress` надає можливості створювати, маніпулювати та працювати з "
+"адресами та мережами IPv4 та IPv6."
 
-#: ../../library/ipaddress.rst:16
 msgid ""
 "The functions and classes in this module make it straightforward to handle "
-"various tasks related to IP addresses, including checking whether or not two"
-" hosts are on the same subnet, iterating over all hosts in a particular "
+"various tasks related to IP addresses, including checking whether or not two "
+"hosts are on the same subnet, iterating over all hosts in a particular "
 "subnet, checking whether or not a string represents a valid IP address or "
 "network definition, and so on."
 msgstr ""
+"Функції та класи в цьому модулі спрощують виконання різноманітних завдань, "
+"пов’язаних з IP-адресами, включаючи перевірку того, чи два хости знаходяться "
+"в одній підмережі, ітерацію по всіх хостах у певній підмережі, перевірку "
+"того, чи рядок представляє дійсний чи ні IP-адреса або визначення мережі "
+"тощо."
 
-#: ../../library/ipaddress.rst:22
 msgid ""
-"This is the full module API reference—for an overview and introduction, see "
-":ref:`ipaddress-howto`."
+"This is the full module API reference—for an overview and introduction, see :"
+"ref:`ipaddress-howto`."
 msgstr ""
+"Це повна довідка щодо API модуля — для огляду та введення див. :ref:"
+"`ipaddress-howto`."
 
-#: ../../library/ipaddress.rst:35
 msgid "Convenience factory functions"
-msgstr ""
+msgstr "Функції фабрики комфорту"
 
-#: ../../library/ipaddress.rst:37
 msgid ""
 "The :mod:`ipaddress` module provides factory functions to conveniently "
 "create IP addresses, networks and interfaces:"
 msgstr ""
+"Модуль :mod:`ipaddress` надає заводські функції для зручного створення IP-"
+"адрес, мереж та інтерфейсів:"
 
-#: ../../library/ipaddress.rst:42
 msgid ""
 "Return an :class:`IPv4Address` or :class:`IPv6Address` object depending on "
 "the IP address passed as argument.  Either IPv4 or IPv6 addresses may be "
-"supplied; integers less than 2**32 will be considered to be IPv4 by default."
-" A :exc:`ValueError` is raised if *address* does not represent a valid IPv4 "
-"or IPv6 address."
+"supplied; integers less than ``2**32`` will be considered to be IPv4 by "
+"default. A :exc:`ValueError` is raised if *address* does not represent a "
+"valid IPv4 or IPv6 address."
 msgstr ""
+"Повертає об’єкт :class:`IPv4Address` або :class:`IPv6Address` залежно від IP-"
+"адреси, переданої як аргумент. Можна надати адреси IPv4 або IPv6; цілі "
+"числа, менші за ``2**32``, за умовчанням вважатимуться IPv4. Помилка :exc:"
+"`ValueError` виникає, якщо *адреса* не є дійсною адресою IPv4 або IPv6."
 
-#: ../../library/ipaddress.rst:56
 msgid ""
 "Return an :class:`IPv4Network` or :class:`IPv6Network` object depending on "
 "the IP address passed as argument.  *address* is a string or integer "
 "representing the IP network.  Either IPv4 or IPv6 networks may be supplied; "
-"integers less than 2**32 will be considered to be IPv4 by default.  *strict*"
-" is passed to :class:`IPv4Network` or :class:`IPv6Network` constructor.  A "
-":exc:`ValueError` is raised if *address* does not represent a valid IPv4 or "
-"IPv6 address, or if the network has host bits set."
+"integers less than ``2**32`` will be considered to be IPv4 by default.  "
+"*strict* is passed to :class:`IPv4Network` or :class:`IPv6Network` "
+"constructor.  A :exc:`ValueError` is raised if *address* does not represent "
+"a valid IPv4 or IPv6 address, or if the network has host bits set."
 msgstr ""
+"Повертає об’єкт :class:`IPv4Network` або :class:`IPv6Network` залежно від IP-"
+"адреси, переданої як аргумент. *адреса* — це рядок або ціле число, що "
+"представляє IP-мережу. Можуть надаватися мережі IPv4 або IPv6; цілі числа, "
+"менші за ``2**32``, за умовчанням вважатимуться IPv4. *strict* передається "
+"конструктору :class:`IPv4Network` або :class:`IPv6Network`. Помилка :exc:"
+"`ValueError` виникає, якщо *адреса* не представляє дійсну адресу IPv4 або "
+"IPv6 або якщо мережа має встановлені біти хоста."
 
-#: ../../library/ipaddress.rst:70
 msgid ""
 "Return an :class:`IPv4Interface` or :class:`IPv6Interface` object depending "
 "on the IP address passed as argument.  *address* is a string or integer "
-"representing the IP address.  Either IPv4 or IPv6 addresses may be supplied;"
-" integers less than 2**32 will be considered to be IPv4 by default.  A "
-":exc:`ValueError` is raised if *address* does not represent a valid IPv4 or "
+"representing the IP address.  Either IPv4 or IPv6 addresses may be supplied; "
+"integers less than ``2**32`` will be considered to be IPv4 by default.  A :"
+"exc:`ValueError` is raised if *address* does not represent a valid IPv4 or "
 "IPv6 address."
 msgstr ""
+"Повертає об’єкт :class:`IPv4Interface` або :class:`IPv6Interface` залежно "
+"від IP-адреси, переданої як аргумент. *адреса* — це рядок або ціле число, що "
+"представляє IP-адресу. Можна надати адреси IPv4 або IPv6; цілі числа, менші "
+"за ``2**32``, за умовчанням вважатимуться IPv4. Помилка :exc:`ValueError` "
+"виникає, якщо *адреса* не є дійсною адресою IPv4 або IPv6."
 
-#: ../../library/ipaddress.rst:77
 msgid ""
 "One downside of these convenience functions is that the need to handle both "
 "IPv4 and IPv6 formats means that error messages provide minimal information "
@@ -98,16 +115,19 @@ msgid ""
 "format was intended. More detailed error reporting can be obtained by "
 "calling the appropriate version specific class constructors directly."
 msgstr ""
+"Одним із недоліків цих зручних функцій є те, що потреба в обробці форматів "
+"IPv4 і IPv6 означає, що повідомлення про помилки надають мінімальну "
+"інформацію про точну помилку, оскільки функції не знають, який формат був "
+"передбачуваний: IPv4 чи IPv6. Більш детальні звіти про помилки можна "
+"отримати, викликавши відповідні конструктори класів, що стосуються "
+"конкретної версії."
 
-#: ../../library/ipaddress.rst:86
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP-адреси"
 
-#: ../../library/ipaddress.rst:89
 msgid "Address objects"
-msgstr ""
+msgstr "Adreslerin nesneleri"
 
-#: ../../library/ipaddress.rst:91
 msgid ""
 "The :class:`IPv4Address` and :class:`IPv6Address` objects share a lot of "
 "common attributes.  Some attributes that are only meaningful for IPv6 "
@@ -116,155 +136,281 @@ msgid ""
 "Address objects are :term:`hashable`, so they can be used as keys in "
 "dictionaries."
 msgstr ""
+"Об’єкти :class:`IPv4Address` і :class:`IPv6Address` мають багато спільних "
+"атрибутів. Деякі атрибути, які мають значення лише для адрес IPv6, також "
+"реалізовані об’єктами :class:`IPv4Address`, щоб полегшити написання коду, "
+"який правильно обробляє обидві версії IP. Адресні об’єкти :term:`hashable`, "
+"тому їх можна використовувати як ключі в словниках."
 
-#: ../../library/ipaddress.rst:99
 msgid ""
 "Construct an IPv4 address.  An :exc:`AddressValueError` is raised if "
 "*address* is not a valid IPv4 address."
 msgstr ""
+"Створіть адресу IPv4. Помилка :exc:`AddressValueError` виникає, якщо "
+"*адреса* не є дійсною адресою IPv4."
 
-#: ../../library/ipaddress.rst:102
 msgid "The following constitutes a valid IPv4 address:"
-msgstr ""
+msgstr "Нижче наведено дійсну адресу IPv4:"
 
-#: ../../library/ipaddress.rst:104
 msgid ""
-"A string in decimal-dot notation, consisting of four decimal integers in the"
-" inclusive range 0--255, separated by dots (e.g. ``192.168.0.1``). Each "
-"integer represents an octet (byte) in the address. Leading zeroes are "
-"tolerated only for values less than 8 (as there is no ambiguity between the "
-"decimal and octal interpretations of such strings)."
+"A string in decimal-dot notation, consisting of four decimal integers in the "
+"inclusive range 0--255, separated by dots (e.g. ``192.168.0.1``). Each "
+"integer represents an octet (byte) in the address. Leading zeroes are not "
+"tolerated to prevent confusion with octal notation."
 msgstr ""
+"Рядок у десятковій точковій нотації, що складається з чотирьох цілих "
+"десяткових чисел у діапазоні від 0 до 255, розділених крапками (наприклад, "
+"``192.168.0.1``). Кожне ціле число представляє октет (байт) в адресі. "
+"Початкові нулі не допускаються, щоб уникнути плутанини з вісімковою системою "
+"запису."
 
-#: ../../library/ipaddress.rst:109
 msgid "An integer that fits into 32 bits."
 msgstr "Sebuah *integer* yang cukup untuk 32 *bits*."
 
-#: ../../library/ipaddress.rst:110
 msgid ""
-"An integer packed into a :class:`bytes` object of length 4 (most significant"
-" octet first)."
+"An integer packed into a :class:`bytes` object of length 4 (most significant "
+"octet first)."
 msgstr ""
+"Ціле число, упаковане в об’єкт :class:`bytes` довжиною 4 (старший октет "
+"спочатку)."
 
-#: ../../library/ipaddress.rst:122
+msgid ""
+"Leading zeros are tolerated, even in ambiguous cases that look like octal "
+"notation."
+msgstr ""
+"Початкові нулі допускаються, навіть у неоднозначних випадках, які виглядають "
+"як вісімкове позначення."
+
+msgid ""
+"Leading zeros are no longer tolerated and are treated as an error. IPv4 "
+"address strings are now parsed as strict as glibc :func:`~socket.inet_pton`."
+msgstr ""
+"Початкові нулі більше не допускаються та розглядаються як помилка. Рядки "
+"адреси IPv4 тепер аналізуються так само строго, як glibc :func:`~socket."
+"inet_pton`."
+
 msgid "The appropriate version number: ``4`` for IPv4, ``6`` for IPv6."
+msgstr "Відповідний номер версії: ``4`` для IPv4, ``6`` для IPv6."
+
+msgid "Made available on the class."
 msgstr ""
 
-#: ../../library/ipaddress.rst:126
 msgid ""
 "The total number of bits in the address representation for this version: "
 "``32`` for IPv4, ``128`` for IPv6."
 msgstr ""
+"Загальна кількість бітів у поданні адреси для цієї версії: ``32`` для IPv4, "
+"``128`` для IPv6."
 
-#: ../../library/ipaddress.rst:129
 msgid ""
 "The prefix defines the number of leading bits in an  address that are "
 "compared to determine whether or not an address is part of a network."
 msgstr ""
+"Префікс визначає кількість початкових бітів в адресі, які порівнюються, щоб "
+"визначити, чи є адреса частиною мережі."
 
-#: ../../library/ipaddress.rst:136
 msgid ""
 "The string representation in dotted decimal notation. Leading zeroes are "
 "never included in the representation."
 msgstr ""
+"Представлення рядка в десятковій нотації з розділеними крапками. Початкові "
+"нулі ніколи не включаються в представлення."
 
-#: ../../library/ipaddress.rst:139
 msgid ""
 "As IPv4 does not define a shorthand notation for addresses with octets set "
 "to zero, these two attributes are always the same as ``str(addr)`` for IPv4 "
 "addresses. Exposing these attributes makes it easier to write display code "
 "that can handle both IPv4 and IPv6 addresses."
 msgstr ""
+"Оскільки IPv4 не визначає скороченого позначення для адрес з нульовими "
+"октетами, ці два атрибути завжди збігаються з ``str(addr)`` для адрес IPv4. "
+"Розкриття цих атрибутів полегшує написання коду відображення, який може "
+"обробляти адреси IPv4 і IPv6."
 
-#: ../../library/ipaddress.rst:146
 msgid ""
 "The binary representation of this address - a :class:`bytes` object of the "
 "appropriate length (most significant octet first). This is 4 bytes for IPv4 "
 "and 16 bytes for IPv6."
 msgstr ""
+"Двійкове представлення цієї адреси – об’єкт :class:`bytes` відповідної "
+"довжини (старший октет першим). Це 4 байти для IPv4 і 16 байтів для IPv6."
 
-#: ../../library/ipaddress.rst:152
 msgid "The name of the reverse DNS PTR record for the IP address, e.g.::"
+msgstr "Ім’я зворотного запису PTR DNS для IP-адреси, наприклад::"
+
+msgid ""
+">>> ipaddress.ip_address(\"127.0.0.1\").reverse_pointer\n"
+"'1.0.0.127.in-addr.arpa'\n"
+">>> ipaddress.ip_address(\"2001:db8::1\").reverse_pointer\n"
+"'1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.b.d.0.1.0.0.2.ip6.arpa'"
 msgstr ""
 
-#: ../../library/ipaddress.rst:159
 msgid ""
 "This is the name that could be used for performing a PTR lookup, not the "
 "resolved hostname itself."
 msgstr ""
+"Це ім’я, яке можна використовувати для пошуку PTR, а не саме розв’язане ім’я "
+"хоста."
 
-#: ../../library/ipaddress.rst:166
 msgid ""
-"``True`` if the address is reserved for multicast use.  See :RFC:`3171` (for"
-" IPv4) or :RFC:`2373` (for IPv6)."
+"``True`` if the address is reserved for multicast use.  See :RFC:`3171` (for "
+"IPv4) or :RFC:`2373` (for IPv6)."
 msgstr ""
+"``True``, якщо адреса зарезервована для багатоадресного використання. Див. :"
+"RFC:`3171` (для IPv4) або :RFC:`2373` (для IPv6)."
 
-#: ../../library/ipaddress.rst:171
 msgid ""
-"``True`` if the address is allocated for private networks.  See iana-ipv4"
-"-special-registry_ (for IPv4) or iana-ipv6-special-registry_ (for IPv6)."
+"``True`` if the address is defined as not globally reachable by iana-ipv4-"
+"special-registry_ (for IPv4) or iana-ipv6-special-registry_ (for IPv6) with "
+"the following exceptions:"
 msgstr ""
 
-#: ../../library/ipaddress.rst:177
 msgid ""
-"``True`` if the address is allocated for public networks.  See iana-ipv4"
-"-special-registry_ (for IPv4) or iana-ipv6-special-registry_ (for IPv6)."
+"``is_private`` is ``False`` for the shared address space (``100.64.0.0/10``)"
 msgstr ""
 
-#: ../../library/ipaddress.rst:185
 msgid ""
-"``True`` if the address is unspecified.  See :RFC:`5735` (for IPv4) or "
-":RFC:`2373` (for IPv6)."
+"For IPv4-mapped IPv6-addresses the ``is_private`` value is determined by the "
+"semantics of the underlying IPv4 addresses and the following condition holds "
+"(see :attr:`IPv6Address.ipv4_mapped`)::"
 msgstr ""
 
-#: ../../library/ipaddress.rst:190
-msgid "``True`` if the address is otherwise IETF reserved."
+msgid "address.is_private == address.ipv4_mapped.is_private"
 msgstr ""
 
-#: ../../library/ipaddress.rst:194
 msgid ""
-"``True`` if this is a loopback address.  See :RFC:`3330` (for IPv4) or "
-":RFC:`2373` (for IPv6)."
+"``is_private`` has value opposite to :attr:`is_global`, except for the "
+"shared address space (``100.64.0.0/10`` range) where they are both ``False``."
 msgstr ""
 
-#: ../../library/ipaddress.rst:199
+msgid "Fixed some false positives and false negatives."
+msgstr ""
+
+msgid ""
+"``192.0.0.0/24`` is considered private with the exception of "
+"``192.0.0.9/32`` and ``192.0.0.10/32`` (previously: only the "
+"``192.0.0.0/29`` sub-range was considered private)."
+msgstr ""
+
+msgid "``64:ff9b:1::/48`` is considered private."
+msgstr ""
+
+msgid "``2002::/16`` is considered private."
+msgstr ""
+
+msgid ""
+"There are exceptions within ``2001::/23`` (otherwise considered private): "
+"``2001:1::1/128``, ``2001:1::2/128``, ``2001:3::/32``, ``2001:4:112::/48``, "
+"``2001:20::/28``, ``2001:30::/28``. The exceptions are not considered "
+"private."
+msgstr ""
+
+msgid ""
+"``True`` if the address is defined as globally reachable by iana-ipv4-"
+"special-registry_ (for IPv4) or iana-ipv6-special-registry_ (for IPv6) with "
+"the following exception:"
+msgstr ""
+
+msgid "address.is_global == address.ipv4_mapped.is_global"
+msgstr ""
+
+msgid ""
+"``is_global`` has value opposite to :attr:`is_private`, except for the "
+"shared address space (``100.64.0.0/10`` range) where they are both ``False``."
+msgstr ""
+
+msgid ""
+"Fixed some false positives and false negatives, see :attr:`is_private` for "
+"details."
+msgstr ""
+
+msgid ""
+"``True`` if the address is unspecified.  See :RFC:`5735` (for IPv4) or :RFC:"
+"`2373` (for IPv6)."
+msgstr ""
+"``True``, якщо адреса не вказана. Див. :RFC:`5735` (для IPv4) або :RFC:"
+"`2373` (для IPv6)."
+
+msgid ""
+"``True`` if the address is noted as reserved by the IETF. For IPv4, this is "
+"only ``240.0.0.0/4``, the ``Reserved`` address block. For IPv6, this is all "
+"addresses `allocated <iana-ipv6-address-space_>`__ as ``Reserved by IETF`` "
+"for future use."
+msgstr ""
+
+msgid ""
+"For IPv4, ``is_reserved`` is not related to the address block value of the "
+"``Reserved-by-Protocol`` column in iana-ipv4-special-registry_."
+msgstr ""
+
+msgid ""
+"For IPv6, ``fec0::/10`` a former Site-Local scoped address prefix is "
+"currently excluded from that list (see :attr:`~IPv6Address.is_site_local` & :"
+"rfc:`3879`)."
+msgstr ""
+
+msgid ""
+"``True`` if this is a loopback address.  See :RFC:`3330` (for IPv4) or :RFC:"
+"`2373` (for IPv6)."
+msgstr ""
+"``True``, якщо це петлева адреса. Див. :RFC:`3330` (для IPv4) або :RFC:"
+"`2373` (для IPv6)."
+
 msgid ""
 "``True`` if the address is reserved for link-local usage.  See :RFC:`3927`."
 msgstr ""
+"``True``, якщо адреса зарезервована для локального використання посилання. "
+"Див. :RFC:`3927`."
 
-#: ../../library/ipaddress.rst:207
 msgid ""
-"Returns a string representation of the IP address, controlled by an explicit"
-" format string. *fmt* can be one of the following: ``'s'``, the default "
+":class:`IPv4Address` object representing the IPv4-mapped IPv6 address. See :"
+"RFC:`4291`."
+msgstr ""
+
+msgid ""
+"Returns a string representation of the IP address, controlled by an explicit "
+"format string. *fmt* can be one of the following: ``'s'``, the default "
 "option, equivalent to :func:`str`, ``'b'`` for a zero-padded binary string, "
-"``'X'`` or ``'x'`` for an uppercase or lowercase hexadecimal representation,"
-" or ``'n'``, which is equivalent to ``'b'`` for IPv4 addresses and ``'x'`` "
+"``'X'`` or ``'x'`` for an uppercase or lowercase hexadecimal representation, "
+"or ``'n'``, which is equivalent to ``'b'`` for IPv4 addresses and ``'x'`` "
 "for IPv6. For binary and hexadecimal representations, the form specifier "
 "``'#'`` and the grouping option ``'_'`` are available. ``__format__`` is "
 "used by ``format``, ``str.format`` and f-strings."
 msgstr ""
+"Повертає рядкове представлення IP-адреси, кероване рядком явного формату. "
+"*fmt* може бути одним із таких: ``'s'``, параметр за замовчуванням, "
+"еквівалентний :func:`str`, ``'b'`` для двійкового рядка з доповненням нуля, "
+"``'X '`` або ``'x'`` для шістнадцяткового представлення у верхньому чи "
+"нижньому регістрі, або ``'n'``, що еквівалентно ``'b'`` для адрес IPv4 і "
+"``'x'`` для IPv6. Для двійкових і шістнадцяткових представлень доступні "
+"специфікатор форми ``'#'`` і опція групування ``'_'``. ``__format__`` "
+"використовується ``format``, ``str.format`` і f-рядками."
 
-#: ../../library/ipaddress.rst:234
 msgid ""
 "Construct an IPv6 address.  An :exc:`AddressValueError` is raised if "
 "*address* is not a valid IPv6 address."
 msgstr ""
+"Створіть адресу IPv6. Помилка :exc:`AddressValueError` виникає, якщо "
+"*адреса* не є дійсною адресою IPv6."
 
-#: ../../library/ipaddress.rst:237
 msgid "The following constitutes a valid IPv6 address:"
-msgstr ""
+msgstr "Нижче наведено дійсну адресу IPv6:"
 
-#: ../../library/ipaddress.rst:239
 msgid ""
 "A string consisting of eight groups of four hexadecimal digits, each group "
-"representing 16 bits.  The groups are separated by colons. This describes an"
-" *exploded* (longhand) notation.  The string can also be *compressed* "
+"representing 16 bits.  The groups are separated by colons. This describes an "
+"*exploded* (longhand) notation.  The string can also be *compressed* "
 "(shorthand notation) by various means.  See :RFC:`4291` for details.  For "
 "example, ``\"0000:0000:0000:0000:0000:0abc:0007:0def\"`` can be compressed "
 "to ``\"::abc:7:def\"``."
 msgstr ""
+"Рядок, що складається з восьми груп по чотири шістнадцяткові цифри, кожна "
+"група представляє 16 біт. Групи розділені двокрапками. Це описує "
+"*розгорнуту* (довгу) нотацію. Рядок також можна *стиснути* (скорочений "
+"запис) різними способами. Докладніше див. :RFC:`4291`. Наприклад, "
+"``\"0000:0000:0000:0000:0000:0abc:0007:0def\"`` можна стиснути до ``\"::"
+"abc:7:def\"``."
 
-#: ../../library/ipaddress.rst:247
 msgid ""
 "Optionally, the string may also have a scope zone ID, expressed with a "
 "suffix ``%scope_id``. If present, the scope ID must be non-empty, and may "
@@ -272,188 +418,255 @@ msgid ""
 "``fe80::1234%1`` might identify address ``fe80::1234`` on the first link of "
 "the node."
 msgstr ""
+"За бажанням рядок може також мати ідентифікатор зони видимості, виражений "
+"суфіксом ``%scope_id``. Якщо присутній, ідентифікатор області має бути "
+"непорожнім і не може містити \"%\". Докладніше див. :RFC:`4007`. Наприклад, "
+"``fe80::1234%1`` може ідентифікувати адресу ``fe80::1234`` на першому "
+"посиланні вузла."
 
-#: ../../library/ipaddress.rst:252
 msgid "An integer that fits into 128 bits."
-msgstr ""
+msgstr "Ціле число, яке вміщується в 128 біт."
 
-#: ../../library/ipaddress.rst:253
 msgid ""
 "An integer packed into a :class:`bytes` object of length 16, big-endian."
 msgstr ""
+"Ціле число, упаковане в об’єкт :class:`bytes` довжиною 16, старший порядок "
+"байтів."
 
-#: ../../library/ipaddress.rst:263
 msgid ""
 "The short form of the address representation, with leading zeroes in groups "
 "omitted and the longest sequence of groups consisting entirely of zeroes "
 "collapsed to a single empty group."
 msgstr ""
+"Коротка форма подання адреси з опущеними початковими нулями в групах і "
+"найдовшою послідовністю груп, що повністю складається з нулів, згорнута до "
+"однієї порожньої групи."
 
-#: ../../library/ipaddress.rst:267
 msgid "This is also the value returned by ``str(addr)`` for IPv6 addresses."
-msgstr ""
+msgstr "Це також значення, яке повертає ``str(addr)`` для адрес IPv6."
 
-#: ../../library/ipaddress.rst:271
 msgid ""
 "The long form of the address representation, with all leading zeroes and "
 "groups consisting entirely of zeroes included."
 msgstr ""
+"Довга форма подання адреси з усіма початковими нулями та групами, що "
+"повністю складаються з нулів."
 
-#: ../../library/ipaddress.rst:275
 msgid ""
 "For the following attributes and methods, see the corresponding "
 "documentation of the :class:`IPv4Address` class:"
 msgstr ""
+"Щоб дізнатися про такі атрибути та методи, перегляньте відповідну "
+"документацію класу :class:`IPv4Address`:"
 
-#: ../../library/ipaddress.rst:290
-msgid "is_global"
-msgstr ""
-
-#: ../../library/ipaddress.rst:295
 msgid ""
 "``True`` if the address is reserved for site-local usage.  Note that the "
-"site-local address space has been deprecated by :RFC:`3879`. Use "
-":attr:`~IPv4Address.is_private` to test if this address is in the space of "
-"unique local addresses as defined by :RFC:`4193`."
+"site-local address space has been deprecated by :RFC:`3879`. Use :attr:"
+"`~IPv4Address.is_private` to test if this address is in the space of unique "
+"local addresses as defined by :RFC:`4193`."
 msgstr ""
+"``True``, якщо адреса зарезервована для локального використання сайту. "
+"Зауважте, що :RFC:`3879` заборонив локальний адресний простір сайту. "
+"Використовуйте :attr:`~IPv4Address.is_private`, щоб перевірити, чи ця адреса "
+"входить до простору унікальних локальних адрес, як визначено :RFC:`4193`."
 
-#: ../../library/ipaddress.rst:302
 msgid ""
-"For addresses that appear to be IPv4 mapped addresses (starting with "
-"``::FFFF/96``), this property will report the embedded IPv4 address. For any"
-" other address, this property will be ``None``."
+"For addresses that appear to be IPv4 mapped addresses (starting with ``::"
+"FFFF/96``), this property will report the embedded IPv4 address. For any "
+"other address, this property will be ``None``."
 msgstr ""
+"Для адрес, які виглядають як зіставлені адреси IPv4 (починаючи з ``::"
+"FFFF/96``), ця властивість повідомить про вбудовану адресу IPv4. Для будь-"
+"якої іншої адреси ця властивість матиме значення ``None``."
 
-#: ../../library/ipaddress.rst:308
 msgid ""
-"For scoped addresses as defined by :RFC:`4007`, this property identifies the"
-" particular zone of the address's scope that the address belongs to, as a "
+"For scoped addresses as defined by :RFC:`4007`, this property identifies the "
+"particular zone of the address's scope that the address belongs to, as a "
 "string. When no scope zone is specified, this property will be ``None``."
 msgstr ""
+"Для адрес із областю видимості, як визначено :RFC:`4007`, ця властивість "
+"визначає конкретну зону області дії адреси, до якої належить адреса, як "
+"рядок. Якщо зона видимості не вказана, ця властивість матиме значення "
+"``None``."
 
-#: ../../library/ipaddress.rst:314
 msgid ""
 "For addresses that appear to be 6to4 addresses  (starting with "
 "``2002::/16``) as defined by :RFC:`3056`, this property will report the "
 "embedded IPv4 address.  For any other address, this property will be "
 "``None``."
 msgstr ""
+"Для адрес, які виглядають як адреси 6to4 (починаючи з ``2002::/16``), як "
+"визначено :RFC:`3056`, ця властивість повідомить про вбудовану адресу IPv4. "
+"Для будь-якої іншої адреси ця властивість матиме значення ``None``."
 
-#: ../../library/ipaddress.rst:321
 msgid ""
 "For addresses that appear to be Teredo addresses (starting with "
 "``2001::/32``) as defined by :RFC:`4380`, this property will report the "
 "embedded ``(server, client)`` IP address pair.  For any other address, this "
 "property will be ``None``."
 msgstr ""
+"Для адрес, які виглядають як адреси Teredo (починаючи з ``2001::/32``), як "
+"визначено :RFC:`4380`, ця властивість повідомить про вбудовану пару IP-адрес "
+"``(сервер, клієнт)``. Для будь-якої іншої адреси ця властивість матиме "
+"значення ``None``."
 
-#: ../../library/ipaddress.rst:328
 msgid ""
 "Refer to the corresponding method documentation in :class:`IPv4Address`."
-msgstr ""
+msgstr "Зверніться до документації відповідного методу в :class:`IPv4Address`."
 
-#: ../../library/ipaddress.rst:334
 msgid "Conversion to Strings and Integers"
-msgstr ""
+msgstr "Перетворення на рядки та цілі числа"
 
-#: ../../library/ipaddress.rst:336
 msgid ""
 "To interoperate with networking interfaces such as the socket module, "
 "addresses must be converted to strings or integers. This is handled using "
 "the :func:`str` and :func:`int` builtin functions::"
 msgstr ""
+"Для взаємодії з мережевими інтерфейсами, такими як модуль сокета, адреси "
+"повинні бути перетворені в рядки або цілі числа. Це обробляється за "
+"допомогою вбудованих функцій :func:`str` і :func:`int`:"
 
-#: ../../library/ipaddress.rst:349
 msgid ""
-"Note that IPv6 scoped addresses are converted to integers without scope zone"
-" ID."
+">>> str(ipaddress.IPv4Address('192.168.0.1'))\n"
+"'192.168.0.1'\n"
+">>> int(ipaddress.IPv4Address('192.168.0.1'))\n"
+"3232235521\n"
+">>> str(ipaddress.IPv6Address('::1'))\n"
+"'::1'\n"
+">>> int(ipaddress.IPv6Address('::1'))\n"
+"1"
 msgstr ""
 
-#: ../../library/ipaddress.rst:353 ../../library/ipaddress.rst:737
-#: ../../library/ipaddress.rst:873
+msgid ""
+"Note that IPv6 scoped addresses are converted to integers without scope zone "
+"ID."
+msgstr ""
+"Зауважте, що IPv6-адреси перетворюються на цілі числа без ідентифікатора "
+"зони."
+
 msgid "Operators"
-msgstr ""
+msgstr "Оператори"
 
-#: ../../library/ipaddress.rst:355
 msgid ""
 "Address objects support some operators.  Unless stated otherwise, operators "
 "can only be applied between compatible objects (i.e. IPv4 with IPv4, IPv6 "
 "with IPv6)."
 msgstr ""
+"Об'єкти адреси підтримують деякі оператори. Якщо не зазначено інше, "
+"оператори можна застосовувати лише між сумісними об’єктами (наприклад, IPv4 "
+"з IPv4, IPv6 з IPv6)."
 
-#: ../../library/ipaddress.rst:361
 msgid "Comparison operators"
-msgstr ""
+msgstr "Оператори порівняння"
 
-#: ../../library/ipaddress.rst:363
 msgid ""
 "Address objects can be compared with the usual set of comparison operators. "
 "Same IPv6 addresses with different scope zone IDs are not equal. Some "
 "examples::"
 msgstr ""
+"Об'єкти адреси можна порівнювати за допомогою звичайного набору операторів "
+"порівняння. Однакові IPv6-адреси з різними ідентифікаторами зон дії не "
+"однакові. Деякі приклади::"
 
-#: ../../library/ipaddress.rst:380
-msgid "Arithmetic operators"
-msgstr ""
-
-#: ../../library/ipaddress.rst:382
 msgid ""
-"Integers can be added to or subtracted from address objects.  Some "
-"examples::"
+">>> IPv4Address('127.0.0.2') > IPv4Address('127.0.0.1')\n"
+"True\n"
+">>> IPv4Address('127.0.0.2') == IPv4Address('127.0.0.1')\n"
+"False\n"
+">>> IPv4Address('127.0.0.2') != IPv4Address('127.0.0.1')\n"
+"True\n"
+">>> IPv6Address('fe80::1234') == IPv6Address('fe80::1234%1')\n"
+"False\n"
+">>> IPv6Address('fe80::1234%1') != IPv6Address('fe80::1234%2')\n"
+"True"
 msgstr ""
 
-#: ../../library/ipaddress.rst:395
+msgid "Arithmetic operators"
+msgstr "Арифметичні оператори"
+
+msgid ""
+"Integers can be added to or subtracted from address objects.  Some examples::"
+msgstr ""
+"Цілі числа можна додавати або віднімати від об’єктів адреси. Деякі приклади::"
+
+msgid ""
+">>> IPv4Address('127.0.0.2') + 3\n"
+"IPv4Address('127.0.0.5')\n"
+">>> IPv4Address('127.0.0.2') - 3\n"
+"IPv4Address('126.255.255.255')\n"
+">>> IPv4Address('255.255.255.255') + 1\n"
+"Traceback (most recent call last):\n"
+"  File \"<stdin>\", line 1, in <module>\n"
+"ipaddress.AddressValueError: 4294967296 (>= 2**32) is not permitted as an "
+"IPv4 address"
+msgstr ""
+
 msgid "IP Network definitions"
-msgstr ""
+msgstr "Визначення мережі IP"
 
-#: ../../library/ipaddress.rst:397
 msgid ""
 "The :class:`IPv4Network` and :class:`IPv6Network` objects provide a "
 "mechanism for defining and inspecting IP network definitions.  A network "
-"definition consists of a *mask* and a *network address*, and as such defines"
-" a range of IP addresses that equal the network address when masked (binary "
+"definition consists of a *mask* and a *network address*, and as such defines "
+"a range of IP addresses that equal the network address when masked (binary "
 "AND) with the mask.  For example, a network definition with the mask "
 "``255.255.255.0`` and the network address ``192.168.1.0`` consists of IP "
 "addresses in the inclusive range ``192.168.1.0`` to ``192.168.1.255``."
 msgstr ""
+"Об’єкти :class:`IPv4Network` і :class:`IPv6Network` забезпечують механізм "
+"для визначення та перевірки визначень IP-мереж. Визначення мережі "
+"складається з *маски* та *мережевої адреси*, і, таким чином, визначає "
+"діапазон IP-адрес, які дорівнюють мережевій адресі, коли вона маскована "
+"(двійкове І) з маскою. Наприклад, визначення мережі з маскою "
+"``255.255.255.0`` і мережевою адресою ``192.168.1.0`` складається з IP-адрес "
+"у включному діапазоні ``192.168.1.0`` до ``192.168.1.255`` ."
 
-#: ../../library/ipaddress.rst:407
 msgid "Prefix, net mask and host mask"
-msgstr ""
+msgstr "Префікс, маска мережі та маска хоста"
 
-#: ../../library/ipaddress.rst:409
 msgid ""
 "There are several equivalent ways to specify IP network masks.  A *prefix* "
 "``/<nbits>`` is a notation that denotes how many high-order bits are set in "
 "the network mask.  A *net mask* is an IP address with some number of high-"
 "order bits set.  Thus the prefix ``/24`` is equivalent to the net mask "
-"``255.255.255.0`` in IPv4, or ``ffff:ff00::`` in IPv6.  In addition, a *host"
-" mask* is the logical inverse of a *net mask*, and is sometimes used (for "
+"``255.255.255.0`` in IPv4, or ``ffff:ff00::`` in IPv6.  In addition, a *host "
+"mask* is the logical inverse of a *net mask*, and is sometimes used (for "
 "example in Cisco access control lists) to denote a network mask.  The host "
 "mask equivalent to ``/24`` in IPv4 is ``0.0.0.255``."
 msgstr ""
+"Існує кілька еквівалентних способів вказати мережеві маски IP. *Префікс* ``/ "
+"<nbits>`` — це позначення, яке вказує, скільки старших бітів встановлено в "
+"масці мережі. *Мережева маска* — це IP-адреса з певною кількістю "
+"встановлених старших бітів. Таким чином, префікс ``/24`` еквівалентний масці "
+"мережі ``255.255.255.0`` в IPv4 або ``ffff:ff00::`` в IPv6. Крім того, "
+"*маска хоста* є логічною протилежністю *мережевої маски* та іноді "
+"використовується (наприклад, у списках контролю доступу Cisco) для "
+"позначення маски мережі. Маска хоста, еквівалентна ``/24`` в IPv4, є "
+"``0.0.0.255``."
 
-#: ../../library/ipaddress.rst:420
 msgid "Network objects"
-msgstr ""
+msgstr "Об'єкти мережі"
 
-#: ../../library/ipaddress.rst:422
 msgid ""
 "All attributes implemented by address objects are implemented by network "
 "objects as well.  In addition, network objects implement additional "
-"attributes. All of these are common between :class:`IPv4Network` and "
-":class:`IPv6Network`, so to avoid duplication they are only documented for "
-":class:`IPv4Network`. Network objects are :term:`hashable`, so they can be "
-"used as keys in dictionaries."
+"attributes. All of these are common between :class:`IPv4Network` and :class:"
+"`IPv6Network`, so to avoid duplication they are only documented for :class:"
+"`IPv4Network`. Network objects are :term:`hashable`, so they can be used as "
+"keys in dictionaries."
 msgstr ""
+"Усі атрибути, реалізовані об’єктами адреси, також реалізуються об’єктами "
+"мережі. Крім того, об'єкти мережі реалізують додаткові атрибути. Усі вони є "
+"спільними для :class:`IPv4Network` та :class:`IPv6Network`, тому, щоб "
+"уникнути дублювання, вони задокументовані лише для :class:`IPv4Network`. "
+"Мережеві об’єкти :term:`hashable`, тому їх можна використовувати як ключі в "
+"словниках."
 
-#: ../../library/ipaddress.rst:431
 msgid ""
-"Construct an IPv4 network definition.  *address* can be one of the "
-"following:"
+"Construct an IPv4 network definition.  *address* can be one of the following:"
 msgstr ""
+"Створіть визначення мережі IPv4. *адреса* може бути однією з наступних:"
 
-#: ../../library/ipaddress.rst:433
 msgid ""
 "A string consisting of an IP address and an optional mask, separated by a "
 "slash (``/``).  The IP address is the network address, and the mask can be "
@@ -464,122 +677,131 @@ msgid ""
 "all-zero mask which is treated as a *net mask*.  If no mask is provided, "
 "it's considered to be ``/32``."
 msgstr ""
+"Рядок, що складається з IP-адреси та додаткової маски, розділених скісною "
+"рискою (``/``). IP-адреса – це мережева адреса, а маска може бути або одним "
+"числом, що означає, що це *префікс*, або рядковим представленням адреси "
+"IPv4. Якщо це останнє, маска інтерпретується як *маска мережі*, якщо вона "
+"починається з ненульового поля, або як *маска хоста*, якщо вона починається "
+"з нульового поля, за винятком маски з усіма нулями який розглядається як "
+"*мережева маска*. Якщо маска не вказана, вона вважається ``/32``."
 
-#: ../../library/ipaddress.rst:442
 msgid ""
 "For example, the following *address* specifications are equivalent: "
 "``192.168.1.0/24``, ``192.168.1.0/255.255.255.0`` and "
 "``192.168.1.0/0.0.0.255``."
 msgstr ""
+"Наприклад, такі специфікації *адреси* є еквівалентними: ``192.168.1.0/24``, "
+"``192.168.1.0/255.255.255.0`` та ``192.168.1.0/0.0.0.255``."
 
-#: ../../library/ipaddress.rst:446
 msgid ""
 "An integer that fits into 32 bits.  This is equivalent to a single-address "
-"network, with the network address being *address* and the mask being "
-"``/32``."
+"network, with the network address being *address* and the mask being ``/32``."
 msgstr ""
+"Ціле число, яке вміщується в 32 біти. Це еквівалентно одноадресній мережі, "
+"де мережна адреса — *address*, а маска — ``/32``."
 
-#: ../../library/ipaddress.rst:450
 msgid ""
 "An integer packed into a :class:`bytes` object of length 4, big-endian. The "
 "interpretation is similar to an integer *address*."
 msgstr ""
+"Ціле число, упаковане в об’єкт :class:`bytes` довжиною 4, старший порядок. "
+"Інтерпретація подібна до цілої *адреси*."
 
-#: ../../library/ipaddress.rst:453
 msgid ""
 "A two-tuple of an address description and a netmask, where the address "
-"description is either a string, a 32-bits integer, a 4-bytes packed integer,"
-" or an existing IPv4Address object; and the netmask is either an integer "
-"representing the prefix length (e.g. ``24``) or a string representing the "
-"prefix mask (e.g. ``255.255.255.0``)."
+"description is either a string, a 32-bits integer, a 4-bytes packed integer, "
+"or an existing :class:`IPv4Address` object; and the netmask is either an "
+"integer representing the prefix length (e.g. ``24``) or a string "
+"representing the prefix mask (e.g. ``255.255.255.0``)."
 msgstr ""
 
-#: ../../library/ipaddress.rst:459
 msgid ""
 "An :exc:`AddressValueError` is raised if *address* is not a valid IPv4 "
 "address.  A :exc:`NetmaskValueError` is raised if the mask is not valid for "
 "an IPv4 address."
 msgstr ""
+"Помилка :exc:`AddressValueError` виникає, якщо *адреса* не є дійсною адресою "
+"IPv4. Помилка :exc:`NetmaskValueError` виникає, якщо маска недійсна для "
+"адреси IPv4."
 
-#: ../../library/ipaddress.rst:463 ../../library/ipaddress.rst:683
 msgid ""
-"If *strict* is ``True`` and host bits are set in the supplied address, then "
-":exc:`ValueError` is raised.  Otherwise, the host bits are masked out to "
+"If *strict* is ``True`` and host bits are set in the supplied address, then :"
+"exc:`ValueError` is raised.  Otherwise, the host bits are masked out to "
 "determine the appropriate network address."
 msgstr ""
+"Якщо *strict* має значення ``True`` і біти хоста встановлені в наданій "
+"адресі, тоді виникає :exc:`ValueError`. В іншому випадку біти хоста "
+"маскуються, щоб визначити відповідну мережеву адресу."
 
-#: ../../library/ipaddress.rst:467
 msgid ""
-"Unless stated otherwise, all network methods accepting other network/address"
-" objects will raise :exc:`TypeError` if the argument's IP version is "
+"Unless stated otherwise, all network methods accepting other network/address "
+"objects will raise :exc:`TypeError` if the argument's IP version is "
 "incompatible to ``self``."
 msgstr ""
+"Якщо не вказано інше, усі мережеві методи, які приймають інші об’єкти мережі/"
+"адреси, викличуть :exc:`TypeError`, якщо IP-версія аргументу несумісна з "
+"``self``."
 
-#: ../../library/ipaddress.rst:473 ../../library/ipaddress.rst:689
 msgid "Added the two-tuple form for the *address* constructor parameter."
-msgstr ""
+msgstr "Додано форму двох кортежів для параметра конструктора *адреса*."
 
-#: ../../library/ipaddress.rst:478
 msgid ""
 "Refer to the corresponding attribute documentation in :class:`IPv4Address`."
 msgstr ""
+"Зверніться до відповідної документації атрибутів у :class:`IPv4Address`."
 
-#: ../../library/ipaddress.rst:488
 msgid ""
 "These attributes are true for the network as a whole if they are true for "
 "both the network address and the broadcast address."
 msgstr ""
+"Ці атрибути дійсні для мережі в цілому, якщо вони справедливі як для адреси "
+"мережі, так і для широкомовної адреси."
 
-#: ../../library/ipaddress.rst:493
 msgid ""
 "The network address for the network. The network address and the prefix "
 "length together uniquely define a network."
 msgstr ""
+"Мережева адреса для мережі. Адреса мережі та довжина префікса разом "
+"однозначно визначають мережу."
 
-#: ../../library/ipaddress.rst:498
 msgid ""
-"The broadcast address for the network. Packets sent to the broadcast address"
-" should be received by every host on the network."
+"The broadcast address for the network. Packets sent to the broadcast address "
+"should be received by every host on the network."
 msgstr ""
+"Широкомовна адреса для мережі. Пакети, надіслані на широкомовну адресу, "
+"повинні бути отримані кожним хостом у мережі."
 
-#: ../../library/ipaddress.rst:503
 msgid "The host mask, as an :class:`IPv4Address` object."
-msgstr ""
+msgstr "Маска хоста як об’єкт :class:`IPv4Address`."
 
-#: ../../library/ipaddress.rst:507
 msgid "The net mask, as an :class:`IPv4Address` object."
-msgstr ""
+msgstr "Маска мережі як об’єкт :class:`IPv4Address`."
 
-#: ../../library/ipaddress.rst:513
 msgid ""
 "A string representation of the network, with the mask in prefix notation."
-msgstr ""
+msgstr "Рядкове представлення мережі з маскою в нотації префікса."
 
-#: ../../library/ipaddress.rst:516
 msgid ""
 "``with_prefixlen`` and ``compressed`` are always the same as "
 "``str(network)``. ``exploded`` uses the exploded form the network address."
 msgstr ""
+"``with_prefixlen`` і ``compressed`` завжди однакові з ``str(network)``. "
+"``exploded`` використовує розчленовану форму мережевої адреси."
 
-#: ../../library/ipaddress.rst:522
 msgid ""
 "A string representation of the network, with the mask in net mask notation."
-msgstr ""
+msgstr "Рядкове представлення мережі з маскою в нотації маски мережі."
 
-#: ../../library/ipaddress.rst:527
 msgid ""
 "A string representation of the network, with the mask in host mask notation."
-msgstr ""
+msgstr "Рядкове представлення мережі з маскою в нотації маски хоста."
 
-#: ../../library/ipaddress.rst:532
 msgid "The total number of addresses in the network."
-msgstr ""
+msgstr "Загальна кількість адрес у мережі."
 
-#: ../../library/ipaddress.rst:536
 msgid "Length of the network prefix, in bits."
-msgstr ""
+msgstr "Довжина мережевого префікса в бітах."
 
-#: ../../library/ipaddress.rst:540
 msgid ""
 "Returns an iterator over the usable hosts in the network.  The usable hosts "
 "are all the IP addresses that belong to the network, except the network "
@@ -588,21 +810,29 @@ msgid ""
 "included in the result. Networks with a mask of 32 will return a list "
 "containing the single host address."
 msgstr ""
+"Повертає ітератор для придатних для використання хостів у мережі. "
+"Використовувані хости — це всі IP-адреси, які належать до мережі, за "
+"винятком самої мережевої адреси та широкомовної адреси мережі. Для мереж із "
+"довжиною маски 31 мережева адреса та широкомовна адреса мережі також "
+"включені в результат. Мережі з маскою 32 повертатимуть список, що містить "
+"одну адресу хоста."
 
-#: ../../library/ipaddress.rst:558
 msgid ""
-"``True`` if this network is partly or wholly contained in *other* or *other*"
-" is wholly contained in this network."
+"``True`` if this network is partly or wholly contained in *other* or *other* "
+"is wholly contained in this network."
 msgstr ""
+"``Правда``, якщо ця мережа частково або повністю міститься в *other* або "
+"*other* повністю міститься в цій мережі."
 
-#: ../../library/ipaddress.rst:563
 msgid ""
-"Computes the network definitions resulting from removing the given *network*"
-" from this one.  Returns an iterator of network objects. Raises "
-":exc:`ValueError` if *network* is not completely contained in this network."
+"Computes the network definitions resulting from removing the given *network* "
+"from this one.  Returns an iterator of network objects. Raises :exc:"
+"`ValueError` if *network* is not completely contained in this network."
 msgstr ""
+"Обчислює визначення мережі в результаті видалення даної *мережі* з цієї. "
+"Повертає ітератор мережевих об’єктів. Викликає :exc:`ValueError`, якщо "
+"*мережа* не повністю міститься в цій мережі."
 
-#: ../../library/ipaddress.rst:576
 msgid ""
 "The subnets that join to make the current network definition, depending on "
 "the argument values.  *prefixlen_diff* is the amount our prefix length "
@@ -611,8 +841,13 @@ msgid ""
 "*prefixlen_diff* and *new_prefix* must be set.  Returns an iterator of "
 "network objects."
 msgstr ""
+"Підмережі, які об’єднуються для створення поточного визначення мережі, "
+"залежно від значень аргументів. *prefixlen_diff* — це величина, на яку має "
+"бути збільшена довжина нашого префікса. *new_prefix* — бажаний новий префікс "
+"підмереж; він повинен бути більшим за наш префікс. Має бути встановлено один "
+"і тільки один з *prefixlen_diff* і *new_prefix*. Повертає ітератор мережевих "
+"об’єктів."
 
-#: ../../library/ipaddress.rst:601
 msgid ""
 "The supernet containing this network definition, depending on the argument "
 "values.  *prefixlen_diff* is the amount our prefix length should be "
@@ -620,76 +855,87 @@ msgid ""
 "must be smaller than our prefix.  One and only one of *prefixlen_diff* and "
 "*new_prefix* must be set.  Returns a single network object."
 msgstr ""
+"Супермережа, що містить це визначення мережі, залежно від значень "
+"аргументів. *prefixlen_diff* — це величина, на яку має бути зменшена довжина "
+"нашого префікса. *new_prefix* — бажаний новий префікс супермережі; він "
+"повинен бути меншим за наш префікс. Має бути встановлено один і тільки один "
+"з *prefixlen_diff* і *new_prefix*. Повертає єдиний мережевий об’єкт."
 
-#: ../../library/ipaddress.rst:617
 msgid "Return ``True`` if this network is a subnet of *other*."
-msgstr ""
+msgstr "Повертає ``True``, якщо ця мережа є підмережею *other*."
 
-#: ../../library/ipaddress.rst:628
 msgid "Return ``True`` if this network is a supernet of *other*."
-msgstr ""
+msgstr "Повертає ``True``, якщо ця мережа є супермережею *other*."
 
-#: ../../library/ipaddress.rst:639
 msgid ""
 "Compare this network to *other*.  In this comparison only the network "
-"addresses are considered; host bits aren't.  Returns either ``-1``, ``0`` or"
-" ``1``."
+"addresses are considered; host bits aren't.  Returns either ``-1``, ``0`` or "
+"``1``."
 msgstr ""
+"Порівняйте цю мережу з *іншою*. У цьому порівнянні розглядаються лише "
+"мережеві адреси; біти хоста не є. Повертає ``-1``, ``0`` або ``1``."
 
-#: ../../library/ipaddress.rst:650
-msgid "It uses the same ordering and comparison algorithm as \"<\", \"==\", and \">\""
-msgstr ""
-
-#: ../../library/ipaddress.rst:656
 msgid ""
-"Construct an IPv6 network definition.  *address* can be one of the "
-"following:"
+"It uses the same ordering and comparison algorithm as \"<\", \"==\", and "
+"\">\""
 msgstr ""
+"Він використовує той самий алгоритм упорядкування та порівняння, що й \" "
+"<\", \"==\", and \"> \""
 
-#: ../../library/ipaddress.rst:658
+msgid ""
+"Construct an IPv6 network definition.  *address* can be one of the following:"
+msgstr ""
+"Створіть визначення мережі IPv6. *адреса* може бути однією з наступних:"
+
 msgid ""
 "A string consisting of an IP address and an optional prefix length, "
 "separated by a slash (``/``).  The IP address is the network address, and "
 "the prefix length must be a single number, the *prefix*.  If no prefix "
 "length is provided, it's considered to be ``/128``."
 msgstr ""
+"Рядок, що складається з IP-адреси та додаткової довжини префікса, розділених "
+"похилою рискою (``/``). IP-адреса – це мережева адреса, а довжина префікса "
+"має бути одним числом, *префіксом*. Якщо довжина префікса не вказана, він "
+"вважається ``/128``."
 
-#: ../../library/ipaddress.rst:663
 msgid ""
-"Note that currently expanded netmasks are not supported.  That means "
-"``2001:db00::0/24`` is a valid argument while ``2001:db00::0/ffff:ff00::`` "
-"not."
+"Note that currently expanded netmasks are not supported.  That means ``2001:"
+"db00::0/24`` is a valid argument while ``2001:db00::0/ffff:ff00::`` is not."
 msgstr ""
+"Зауважте, що наразі розширені маски мережі не підтримуються. Це означає, що "
+"``2001:db00::0/24`` є дійсним аргументом, а ``2001:db00::0/ffff:ff00::`` ні."
 
-#: ../../library/ipaddress.rst:667
 msgid ""
 "An integer that fits into 128 bits.  This is equivalent to a single-address "
 "network, with the network address being *address* and the mask being "
 "``/128``."
 msgstr ""
+"Ціле число, яке вміщується в 128 біт. Це еквівалентно одноадресній мережі, "
+"де мережна адреса — *address*, а маска — ``/128``."
 
-#: ../../library/ipaddress.rst:671
 msgid ""
-"An integer packed into a :class:`bytes` object of length 16, big-endian. The"
-" interpretation is similar to an integer *address*."
+"An integer packed into a :class:`bytes` object of length 16, big-endian. The "
+"interpretation is similar to an integer *address*."
 msgstr ""
+"Ціле число, упаковане в об’єкт :class:`bytes` довжиною 16, старший порядок "
+"байтів. Інтерпретація подібна до цілої *адреси*."
 
-#: ../../library/ipaddress.rst:674
 msgid ""
 "A two-tuple of an address description and a netmask, where the address "
 "description is either a string, a 128-bits integer, a 16-bytes packed "
-"integer, or an existing IPv6Address object; and the netmask is an integer "
-"representing the prefix length."
+"integer, or an existing :class:`IPv6Address` object; and the netmask is an "
+"integer representing the prefix length."
 msgstr ""
 
-#: ../../library/ipaddress.rst:679
 msgid ""
 "An :exc:`AddressValueError` is raised if *address* is not a valid IPv6 "
 "address.  A :exc:`NetmaskValueError` is raised if the mask is not valid for "
 "an IPv6 address."
 msgstr ""
+"Помилка :exc:`AddressValueError` виникає, якщо *адреса* не є дійсною адресою "
+"IPv6. Помилка :exc:`NetmaskValueError` виникає, якщо маска недійсна для "
+"адреси IPv6."
 
-#: ../../library/ipaddress.rst:712
 msgid ""
 "Returns an iterator over the usable hosts in the network.  The usable hosts "
 "are all the IP addresses that belong to the network, except the Subnet-"
@@ -697,141 +943,185 @@ msgid ""
 "Router anycast address is also included in the result. Networks with a mask "
 "of 128 will return a list containing the single host address."
 msgstr ""
+"Повертає ітератор для придатних для використання хостів у мережі. "
+"Використовувані хости — це всі IP-адреси, які належать до мережі, за "
+"винятком будь-адреси маршрутизатора підмережі. Для мереж із довжиною маски "
+"127 у результат також включено будь-яку адресу підмережного маршрутизатора. "
+"Мережі з маскою 128 повертатимуть список, що містить одну адресу хоста."
 
-#: ../../library/ipaddress.rst:727
 msgid ""
 "Refer to the corresponding attribute documentation in :class:`IPv4Network`."
 msgstr ""
+"Зверніться до відповідної документації атрибутів у :class:`IPv4Network`."
 
-#: ../../library/ipaddress.rst:732
 msgid ""
-"These attribute is true for the network as a whole if it is true for both "
-"the network address and the broadcast address."
+"This attribute is true for the network as a whole if it is true for both the "
+"network address and the broadcast address."
 msgstr ""
 
-#: ../../library/ipaddress.rst:739
 msgid ""
 "Network objects support some operators.  Unless stated otherwise, operators "
 "can only be applied between compatible objects (i.e. IPv4 with IPv4, IPv6 "
 "with IPv6)."
 msgstr ""
+"Мережні об'єкти підтримують деякі оператори. Якщо не зазначено інше, "
+"оператори можна застосовувати лише між сумісними об’єктами (наприклад, IPv4 "
+"з IPv4, IPv6 з IPv6)."
 
-#: ../../library/ipaddress.rst:745 ../../library/ipaddress.rst:881
 msgid "Logical operators"
-msgstr ""
+msgstr "Логічні оператори"
 
-#: ../../library/ipaddress.rst:747
 msgid ""
 "Network objects can be compared with the usual set of logical operators. "
 "Network objects are ordered first by network address, then by net mask."
 msgstr ""
+"Мережеві об'єкти можна порівняти зі звичайним набором логічних операторів. "
+"Мережні об’єкти впорядковуються спочатку за мережевою адресою, а потім за "
+"маскою мережі."
 
-#: ../../library/ipaddress.rst:752
 msgid "Iteration"
-msgstr ""
+msgstr "Iteracja"
 
-#: ../../library/ipaddress.rst:754
 msgid ""
 "Network objects can be iterated to list all the addresses belonging to the "
 "network.  For iteration, *all* hosts are returned, including unusable hosts "
 "(for usable hosts, use the :meth:`~IPv4Network.hosts` method).  An example::"
 msgstr ""
+"Об’єкти мережі можна повторювати, щоб отримати список усіх адрес, що "
+"належать до мережі. Для ітерації повертаються *всі* хости, включаючи "
+"непридатні хости (для придатних хостів використовуйте метод :meth:"
+"`~IPv4Network.hosts`). Приклад::"
 
-#: ../../library/ipaddress.rst:781
-msgid "Networks as containers of addresses"
+msgid ""
+">>> for addr in IPv4Network('192.0.2.0/28'):\n"
+"...     addr\n"
+"...\n"
+"IPv4Address('192.0.2.0')\n"
+"IPv4Address('192.0.2.1')\n"
+"IPv4Address('192.0.2.2')\n"
+"IPv4Address('192.0.2.3')\n"
+"IPv4Address('192.0.2.4')\n"
+"IPv4Address('192.0.2.5')\n"
+"IPv4Address('192.0.2.6')\n"
+"IPv4Address('192.0.2.7')\n"
+"IPv4Address('192.0.2.8')\n"
+"IPv4Address('192.0.2.9')\n"
+"IPv4Address('192.0.2.10')\n"
+"IPv4Address('192.0.2.11')\n"
+"IPv4Address('192.0.2.12')\n"
+"IPv4Address('192.0.2.13')\n"
+"IPv4Address('192.0.2.14')\n"
+"IPv4Address('192.0.2.15')"
 msgstr ""
 
-#: ../../library/ipaddress.rst:783
+msgid "Networks as containers of addresses"
+msgstr "Мережі як контейнери адрес"
+
 msgid "Network objects can act as containers of addresses.  Some examples::"
 msgstr ""
+"Мережеві об'єкти можуть виконувати роль контейнерів адрес. Деякі приклади::"
 
-#: ../../library/ipaddress.rst:796
-msgid "Interface objects"
+msgid ""
+">>> IPv4Network('192.0.2.0/28')[0]\n"
+"IPv4Address('192.0.2.0')\n"
+">>> IPv4Network('192.0.2.0/28')[15]\n"
+"IPv4Address('192.0.2.15')\n"
+">>> IPv4Address('192.0.2.6') in IPv4Network('192.0.2.0/28')\n"
+"True\n"
+">>> IPv4Address('192.0.3.6') in IPv4Network('192.0.2.0/28')\n"
+"False"
 msgstr ""
 
-#: ../../library/ipaddress.rst:798
+msgid "Interface objects"
+msgstr "Об'єкти інтерфейсу"
+
 msgid ""
 "Interface objects are :term:`hashable`, so they can be used as keys in "
 "dictionaries."
 msgstr ""
+"Об’єкти інтерфейсу :term:`hashable`, тому їх можна використовувати як ключі "
+"в словниках."
 
-#: ../../library/ipaddress.rst:803
 msgid ""
 "Construct an IPv4 interface.  The meaning of *address* is as in the "
 "constructor of :class:`IPv4Network`, except that arbitrary host addresses "
 "are always accepted."
 msgstr ""
+"Побудуйте інтерфейс IPv4. Значення *адреси* таке ж, як і в конструкторі :"
+"class:`IPv4Network`, за винятком того, що довільні адреси хостів завжди "
+"приймаються."
 
-#: ../../library/ipaddress.rst:807
 msgid ""
-":class:`IPv4Interface` is a subclass of :class:`IPv4Address`, so it inherits"
-" all the attributes from that class.  In addition, the following attributes "
+":class:`IPv4Interface` is a subclass of :class:`IPv4Address`, so it inherits "
+"all the attributes from that class.  In addition, the following attributes "
 "are available:"
 msgstr ""
+":class:`IPv4Interface` є підкласом :class:`IPv4Address`, тому він успадковує "
+"всі атрибути цього класу. Крім того, доступні такі атрибути:"
 
-#: ../../library/ipaddress.rst:813
 msgid "The address (:class:`IPv4Address`) without network information."
-msgstr ""
+msgstr "Адреса (:class:`IPv4Address`) без інформації про мережу."
 
-#: ../../library/ipaddress.rst:821
 msgid "The network (:class:`IPv4Network`) this interface belongs to."
-msgstr ""
+msgstr "Мережа (:class:`IPv4Network`), до якої належить цей інтерфейс."
 
-#: ../../library/ipaddress.rst:829
 msgid ""
 "A string representation of the interface with the mask in prefix notation."
-msgstr ""
+msgstr "Рядкове представлення інтерфейсу з маскою в префіксній нотації."
 
-#: ../../library/ipaddress.rst:837
 msgid ""
 "A string representation of the interface with the network as a net mask."
-msgstr ""
+msgstr "Рядкове представлення інтерфейсу з мережею як мережевою маскою."
 
-#: ../../library/ipaddress.rst:845
 msgid ""
 "A string representation of the interface with the network as a host mask."
-msgstr ""
+msgstr "Рядкове представлення інтерфейсу з мережею як маскою хоста."
 
-#: ../../library/ipaddress.rst:854
 msgid ""
 "Construct an IPv6 interface.  The meaning of *address* is as in the "
 "constructor of :class:`IPv6Network`, except that arbitrary host addresses "
 "are always accepted."
 msgstr ""
+"Побудуйте інтерфейс IPv6. Значення *address* таке ж, як і в конструкторі :"
+"class:`IPv6Network`, за винятком того, що довільні адреси хостів завжди "
+"приймаються."
 
-#: ../../library/ipaddress.rst:858
 msgid ""
-":class:`IPv6Interface` is a subclass of :class:`IPv6Address`, so it inherits"
-" all the attributes from that class.  In addition, the following attributes "
+":class:`IPv6Interface` is a subclass of :class:`IPv6Address`, so it inherits "
+"all the attributes from that class.  In addition, the following attributes "
 "are available:"
 msgstr ""
+":class:`IPv6Interface` є підкласом :class:`IPv6Address`, тому він успадковує "
+"всі атрибути цього класу. Крім того, доступні такі атрибути:"
 
-#: ../../library/ipaddress.rst:868
 msgid ""
-"Refer to the corresponding attribute documentation in "
-":class:`IPv4Interface`."
+"Refer to the corresponding attribute documentation in :class:`IPv4Interface`."
 msgstr ""
+"Зверніться до відповідної документації атрибутів у :class:`IPv4Interface`."
 
-#: ../../library/ipaddress.rst:875
 msgid ""
 "Interface objects support some operators.  Unless stated otherwise, "
 "operators can only be applied between compatible objects (i.e. IPv4 with "
 "IPv4, IPv6 with IPv6)."
 msgstr ""
+"Об'єкти інтерфейсу підтримують деякі оператори. Якщо не зазначено інше, "
+"оператори можна застосовувати лише між сумісними об’єктами (наприклад, IPv4 "
+"з IPv4, IPv6 з IPv6)."
 
-#: ../../library/ipaddress.rst:883
 msgid ""
 "Interface objects can be compared with the usual set of logical operators."
 msgstr ""
+"Об'єкти інтерфейсу можна порівняти зі звичайним набором логічних операторів."
 
-#: ../../library/ipaddress.rst:885
 msgid ""
-"For equality comparison (``==`` and ``!=``), both the IP address and network"
-" must be the same for the objects to be equal.  An interface will not "
-"compare equal to any address or network object."
+"For equality comparison (``==`` and ``!=``), both the IP address and network "
+"must be the same for the objects to be equal.  An interface will not compare "
+"equal to any address or network object."
 msgstr ""
+"Для порівняння рівності (``==`` і ``!=``) IP-адреса та мережа мають бути "
+"однаковими, щоб об’єкти були однаковими. Інтерфейс не порівнюватиметься з "
+"будь-якою адресою чи мережевим об’єктом."
 
-#: ../../library/ipaddress.rst:889
 msgid ""
 "For ordering (``<``, ``>``, etc) the rules are different.  Interface and "
 "address objects with the same IP version can be compared, and the address "
@@ -839,82 +1129,97 @@ msgid ""
 "objects are first compared by their networks and, if those are the same, "
 "then by their IP addresses."
 msgstr ""
+"Для впорядкування (``<``, ``>`` тощо) правила відрізняються. Об’єкти "
+"інтерфейсу та адреси з однаковою версією IP можна порівнювати, і об’єкти "
+"адреси завжди будуть сортуватися перед об’єктами інтерфейсу. Два об’єкти "
+"інтерфейсу спочатку порівнюються за їхніми мережами, а якщо вони однакові, "
+"то за їхніми IP-адресами."
 
-#: ../../library/ipaddress.rst:897
 msgid "Other Module Level Functions"
-msgstr ""
+msgstr "Інші функції рівня модуля"
 
-#: ../../library/ipaddress.rst:899
 msgid "The module also provides the following module level functions:"
-msgstr ""
+msgstr "Модуль також надає такі функції рівня модуля:"
 
-#: ../../library/ipaddress.rst:903
 msgid ""
 "Represent an address as 4 packed bytes in network (big-endian) order. "
-"*address* is an integer representation of an IPv4 IP address.  A "
-":exc:`ValueError` is raised if the integer is negative or too large to be an"
-" IPv4 IP address."
+"*address* is an integer representation of an IPv4 IP address.  A :exc:"
+"`ValueError` is raised if the integer is negative or too large to be an IPv4 "
+"IP address."
 msgstr ""
+"Представлення адреси у вигляді 4 упакованих байтів у мережевому порядку (від "
+"старшого до старшого). *адреса* — це ціле числове представлення IP-адреси "
+"IPv4. Помилка :exc:`ValueError` виникає, якщо ціле число від’ємне або "
+"завелике, щоб бути IP-адресою IPv4."
 
-#: ../../library/ipaddress.rst:916
 msgid ""
 "Represent an address as 16 packed bytes in network (big-endian) order. "
-"*address* is an integer representation of an IPv6 IP address.  A "
-":exc:`ValueError` is raised if the integer is negative or too large to be an"
-" IPv6 IP address."
+"*address* is an integer representation of an IPv6 IP address.  A :exc:"
+"`ValueError` is raised if the integer is negative or too large to be an IPv6 "
+"IP address."
 msgstr ""
+"Представлення адреси у вигляді 16 упакованих байтів у мережевому порядку "
+"(від старшого до старшого). *адреса* — це ціле числове представлення IP-"
+"адреси IPv6. Помилка :exc:`ValueError` виникає, якщо ціле число від’ємне або "
+"завелике для IP-адреси IPv6."
 
-#: ../../library/ipaddress.rst:924
 msgid ""
 "Return an iterator of the summarized network range given the first and last "
-"IP addresses.  *first* is the first :class:`IPv4Address` or "
-":class:`IPv6Address` in the range and *last* is the last "
-":class:`IPv4Address` or :class:`IPv6Address` in the range.  A "
-":exc:`TypeError` is raised if *first* or *last* are not IP addresses or are "
-"not of the same version.  A :exc:`ValueError` is raised if *last* is not "
-"greater than *first* or if *first* address version is not 4 or 6."
+"IP addresses.  *first* is the first :class:`IPv4Address` or :class:"
+"`IPv6Address` in the range and *last* is the last :class:`IPv4Address` or :"
+"class:`IPv6Address` in the range.  A :exc:`TypeError` is raised if *first* "
+"or *last* are not IP addresses or are not of the same version.  A :exc:"
+"`ValueError` is raised if *last* is not greater than *first* or if *first* "
+"address version is not 4 or 6."
 msgstr ""
+"Повертає ітератор сумарного мережевого діапазону з урахуванням першої та "
+"останньої IP-адрес. *first* — це перша :class:`IPv4Address` або :class:"
+"`IPv6Address` у діапазоні, а *last* — це остання :class:`IPv4Address` або :"
+"class:`IPv6Address` у діапазоні. Помилка :exc:`TypeError` виникає, якщо "
+"*first* або *last* не є IP-адресами або мають різну версію. Помилка :exc:"
+"`ValueError` виникає, якщо *last* не перевищує *first* або якщо *first* "
+"версія адреси не 4 або 6."
 
-#: ../../library/ipaddress.rst:940
 msgid ""
-"Return an iterator of the collapsed :class:`IPv4Network` or "
-":class:`IPv6Network` objects.  *addresses* is an iterator of "
-":class:`IPv4Network` or :class:`IPv6Network` objects.  A :exc:`TypeError` is"
-" raised if *addresses* contains mixed version objects."
+"Return an iterator of the collapsed :class:`IPv4Network` or :class:"
+"`IPv6Network` objects.  *addresses* is an :term:`iterable` of :class:"
+"`IPv4Network` or :class:`IPv6Network` objects.  A :exc:`TypeError` is raised "
+"if *addresses* contains mixed version objects."
 msgstr ""
 
-#: ../../library/ipaddress.rst:953
 msgid ""
 "Return a key suitable for sorting between networks and addresses.  Address "
 "and Network objects are not sortable by default; they're fundamentally "
 "different, so the expression::"
 msgstr ""
+"Повертає ключ, придатний для сортування між мережами та адресами. Об’єкти "
+"\"Адреса\" та \"Мережа\" не можна сортувати за замовчуванням; вони "
+"принципово різні, тому вираз::"
 
-#: ../../library/ipaddress.rst:959
+msgid "IPv4Address('192.0.2.0') <= IPv4Network('192.0.2.0/24')"
+msgstr ""
+
 msgid ""
 "doesn't make sense.  There are some times however, where you may wish to "
 "have :mod:`ipaddress` sort these anyway.  If you need to do this, you can "
-"use this function as the *key* argument to :func:`sorted()`."
+"use this function as the *key* argument to :func:`sorted`."
 msgstr ""
 
-#: ../../library/ipaddress.rst:963
 msgid "*obj* is either a network or address object."
-msgstr ""
+msgstr "*obj* — це об’єкт мережі або адреси."
 
-#: ../../library/ipaddress.rst:967
 msgid "Custom Exceptions"
-msgstr ""
+msgstr "Спеціальні винятки"
 
-#: ../../library/ipaddress.rst:969
 msgid ""
-"To support more specific error reporting from class constructors, the module"
-" defines the following exceptions:"
+"To support more specific error reporting from class constructors, the module "
+"defines the following exceptions:"
 msgstr ""
+"Щоб підтримувати більш конкретні звіти про помилки від конструкторів класів, "
+"модуль визначає наступні винятки:"
 
-#: ../../library/ipaddress.rst:974
 msgid "Any value error related to the address."
-msgstr ""
+msgstr "Будь-яка помилка значення, пов’язана з адресою."
 
-#: ../../library/ipaddress.rst:979
 msgid "Any value error related to the net mask."
-msgstr ""
+msgstr "Будь-яка помилка значення, пов’язана з маскою мережі."

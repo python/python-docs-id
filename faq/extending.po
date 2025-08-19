@@ -1,251 +1,307 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019, Python Software Foundation
+# Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
-# 
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.8\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
-"PO-Revision-Date: 2017-02-16 17:43+0000\n"
-"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
-"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../faq/extending.rst:3
 msgid "Extending/Embedding FAQ"
-msgstr ""
+msgstr "Поширені запитання про розширення/вбудовування"
 
-#: ../../faq/extending.rst:6
 msgid "Contents"
 msgstr "Konten"
 
-#: ../../faq/extending.rst:16
 msgid "Can I create my own functions in C?"
-msgstr ""
+msgstr "Чи можу я створювати власні функції на C?"
 
-#: ../../faq/extending.rst:18
 msgid ""
 "Yes, you can create built-in modules containing functions, variables, "
-"exceptions and even new types in C.  This is explained in the document :ref"
-":`extending-index`."
+"exceptions and even new types in C.  This is explained in the document :ref:"
+"`extending-index`."
 msgstr ""
+"Так, у C можна створювати вбудовані модулі, що містять функції, змінні, "
+"винятки та навіть нові типи. Це пояснюється в документі :ref:`extending-"
+"index`."
 
-#: ../../faq/extending.rst:22
 msgid "Most intermediate or advanced Python books will also cover this topic."
 msgstr ""
+"Більшість книжок про Python середнього та просунутого рівня також охоплюють "
+"цю тему."
 
-#: ../../faq/extending.rst:26
 msgid "Can I create my own functions in C++?"
-msgstr ""
+msgstr "Чи можу я створювати власні функції на C++?"
 
-#: ../../faq/extending.rst:28
 msgid ""
-"Yes, using the C compatibility features found in C++.  Place ``extern \"C\" "
-"{ ... }`` around the Python include files and put ``extern \"C\"`` before "
-"each function that is going to be called by the Python interpreter.  Global "
-"or static C++ objects with constructors are probably not a good idea."
+"Yes, using the C compatibility features found in C++.  Place ``extern "
+"\"C\" { ... }`` around the Python include files and put ``extern \"C\"`` "
+"before each function that is going to be called by the Python interpreter.  "
+"Global or static C++ objects with constructors are probably not a good idea."
 msgstr ""
+"Так, використовуючи функції сумісності з C, наявні в C++. Розмістіть "
+"``extern \"C\" { ... }`` навколо файлів включення Python і поставте ``extern "
+"\"C\"`` перед кожною функцією, яку буде викликати інтерпретатор Python. "
+"Глобальні чи статичні об’єкти C++ із конструкторами, мабуть, не є гарною "
+"ідеєю."
 
-#: ../../faq/extending.rst:37
 msgid "Writing C is hard; are there any alternatives?"
-msgstr ""
+msgstr "Писати С важко; є якісь альтернативи?"
 
-#: ../../faq/extending.rst:39
 msgid ""
 "There are a number of alternatives to writing your own C extensions, "
-"depending on what you're trying to do."
+"depending on what you're trying to do. :ref:`Recommended third party tools "
+"<c-api-tools>` offer both simpler and more sophisticated approaches to "
+"creating C and C++ extensions for Python."
 msgstr ""
 
-#: ../../faq/extending.rst:44
-msgid ""
-"`Cython <http://cython.org>`_ and its relative `Pyrex "
-"<https://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/>`_ are compilers"
-" that accept a slightly modified form of Python and generate the "
-"corresponding C code.  Cython and Pyrex make it possible to write an "
-"extension without having to learn Python's C API."
-msgstr ""
-
-#: ../../faq/extending.rst:50
-msgid ""
-"If you need to interface to some C or C++ library for which no Python "
-"extension currently exists, you can try wrapping the library's data types "
-"and functions with a tool such as `SWIG <http://www.swig.org>`_.  `SIP "
-"<https://riverbankcomputing.com/software/sip/intro>`__, `CXX "
-"<http://cxx.sourceforge.net/>`_ `Boost "
-"<http://www.boost.org/libs/python/doc/index.html>`_, or `Weave "
-"<https://github.com/scipy/weave>`_ are also alternatives for wrapping C++ "
-"libraries."
-msgstr ""
-
-#: ../../faq/extending.rst:61
 msgid "How can I execute arbitrary Python statements from C?"
-msgstr ""
+msgstr "Як я можу виконати довільні оператори Python із C?"
 
-#: ../../faq/extending.rst:63
 msgid ""
 "The highest-level function to do this is :c:func:`PyRun_SimpleString` which "
 "takes a single string argument to be executed in the context of the module "
 "``__main__`` and returns ``0`` for success and ``-1`` when an exception "
-"occurred (including :exc:`SyntaxError`).  If you want more control, use "
-":c:func:`PyRun_String`; see the source for :c:func:`PyRun_SimpleString` in "
+"occurred (including :exc:`SyntaxError`).  If you want more control, use :c:"
+"func:`PyRun_String`; see the source for :c:func:`PyRun_SimpleString` in "
 "``Python/pythonrun.c``."
 msgstr ""
+"Функція найвищого рівня для цього — :c:func:`PyRun_SimpleString`, яка "
+"приймає один рядковий аргумент для виконання в контексті модуля ``__main__`` "
+"і повертає ``0`` для успіху та ``- 1``, коли стався виняток (включаючи :exc:"
+"`SyntaxError`). Якщо вам потрібен більше контролю, використовуйте :c:func:"
+"`PyRun_String`; див. джерело для :c:func:`PyRun_SimpleString` у ``Python/"
+"pythonrun.c``."
 
-#: ../../faq/extending.rst:72
 msgid "How can I evaluate an arbitrary Python expression from C?"
-msgstr ""
+msgstr "Як я можу обчислити довільний вираз Python із C?"
 
-#: ../../faq/extending.rst:74
 msgid ""
-"Call the function :c:func:`PyRun_String` from the previous question with the"
-" start symbol :c:data:`Py_eval_input`; it parses an expression, evaluates it"
-" and returns its value."
+"Call the function :c:func:`PyRun_String` from the previous question with the "
+"start symbol :c:data:`Py_eval_input`; it parses an expression, evaluates it "
+"and returns its value."
 msgstr ""
+"Викличте функцію :c:func:`PyRun_String` з попереднього запитання з символом "
+"початку :c:data:`Py_eval_input`; він аналізує вираз, обчислює його та "
+"повертає його значення."
 
-#: ../../faq/extending.rst:80
 msgid "How do I extract C values from a Python object?"
-msgstr ""
+msgstr "Як отримати значення C з об’єкта Python?"
 
-#: ../../faq/extending.rst:82
 msgid ""
 "That depends on the object's type.  If it's a tuple, :c:func:`PyTuple_Size` "
 "returns its length and :c:func:`PyTuple_GetItem` returns the item at a "
-"specified index.  Lists have similar functions, :c:func:`PyListSize` and "
-":c:func:`PyList_GetItem`."
+"specified index.  Lists have similar functions, :c:func:`PyList_Size` and :c:"
+"func:`PyList_GetItem`."
 msgstr ""
 
-#: ../../faq/extending.rst:87
 msgid ""
-"For bytes, :c:func:`PyBytes_Size` returns its length and "
-":c:func:`PyBytes_AsStringAndSize` provides a pointer to its value and its "
-"length.  Note that Python bytes objects may contain null bytes so C's "
-":c:func:`strlen` should not be used."
+"For bytes, :c:func:`PyBytes_Size` returns its length and :c:func:"
+"`PyBytes_AsStringAndSize` provides a pointer to its value and its length.  "
+"Note that Python bytes objects may contain null bytes so C's :c:func:`!"
+"strlen` should not be used."
 msgstr ""
 
-#: ../../faq/extending.rst:92
 msgid ""
 "To test the type of an object, first make sure it isn't ``NULL``, and then "
-"use :c:func:`PyBytes_Check`, :c:func:`PyTuple_Check`, "
-":c:func:`PyList_Check`, etc."
+"use :c:func:`PyBytes_Check`, :c:func:`PyTuple_Check`, :c:func:"
+"`PyList_Check`, etc."
 msgstr ""
+"Щоб перевірити тип об’єкта, спочатку переконайтеся, що він не ``NULL``, а "
+"потім скористайтеся :c:func:`PyBytes_Check`, :c:func:`PyTuple_Check`, :c:"
+"func:`PyList_Check` і т.д."
 
-#: ../../faq/extending.rst:95
 msgid ""
-"There is also a high-level API to Python objects which is provided by the "
-"so-called 'abstract' interface -- read ``Include/abstract.h`` for further "
-"details.  It allows interfacing with any kind of Python sequence using calls"
-" like :c:func:`PySequence_Length`, :c:func:`PySequence_GetItem`, etc. as "
-"well as many other useful protocols such as numbers "
-"(:c:func:`PyNumber_Index` et al.) and mappings in the PyMapping APIs."
+"There is also a high-level API to Python objects which is provided by the so-"
+"called 'abstract' interface -- read ``Include/abstract.h`` for further "
+"details.  It allows interfacing with any kind of Python sequence using calls "
+"like :c:func:`PySequence_Length`, :c:func:`PySequence_GetItem`, etc. as well "
+"as many other useful protocols such as numbers (:c:func:`PyNumber_Index` et "
+"al.) and mappings in the PyMapping APIs."
 msgstr ""
+"Існує також високорівневий API для об’єктів Python, який надається так "
+"званим \"абстрактним\" інтерфейсом — читайте ``Include/abstract.h`` для "
+"отримання додаткової інформації. Він дозволяє взаємодіяти з будь-якою "
+"послідовністю Python за допомогою таких викликів, як :c:func:"
+"`PySequence_Length`, :c:func:`PySequence_GetItem` тощо, а також багатьох "
+"інших корисних протоколів, таких як числа (:c:func:`PyNumber_Index` та ін.) "
+"і відображення в API PyMapping."
 
-#: ../../faq/extending.rst:104
 msgid "How do I use Py_BuildValue() to create a tuple of arbitrary length?"
 msgstr ""
+"Як я можу використовувати Py_BuildValue() для створення кортежу довільної "
+"довжини?"
 
-#: ../../faq/extending.rst:106
 msgid "You can't.  Use :c:func:`PyTuple_Pack` instead."
 msgstr ""
+"Ви не можете це робити. Натомість використовуйте :c:func:`PyTuple_Pack`."
 
-#: ../../faq/extending.rst:110
 msgid "How do I call an object's method from C?"
-msgstr ""
+msgstr "Як викликати метод об’єкта з C?"
 
-#: ../../faq/extending.rst:112
 msgid ""
 "The :c:func:`PyObject_CallMethod` function can be used to call an arbitrary "
 "method of an object.  The parameters are the object, the name of the method "
 "to call, a format string like that used with :c:func:`Py_BuildValue`, and "
 "the argument values::"
 msgstr ""
+"Функцію :c:func:`PyObject_CallMethod` можна використовувати для виклику "
+"довільного методу об’єкта. Параметрами є об’єкт, ім’я методу для виклику, "
+"рядок формату, який використовується з :c:func:`Py_BuildValue`, і значення "
+"аргументів::"
 
-#: ../../faq/extending.rst:121
+msgid ""
+"PyObject *\n"
+"PyObject_CallMethod(PyObject *object, const char *method_name,\n"
+"                    const char *arg_format, ...);"
+msgstr ""
+
 msgid ""
 "This works for any object that has methods -- whether built-in or user-"
 "defined. You are responsible for eventually :c:func:`Py_DECREF`\\ 'ing the "
 "return value."
 msgstr ""
+"Це працює для будь-якого об’єкта, який має методи – вбудовані чи визначені "
+"користувачем. Ви несете відповідальність за остаточне :c:func:`Py_DECREF`\\ "
+"'виведення значення, що повертається."
 
-#: ../../faq/extending.rst:124
 msgid ""
 "To call, e.g., a file object's \"seek\" method with arguments 10, 0 "
 "(assuming the file object pointer is \"f\")::"
 msgstr ""
+"Щоб викликати, наприклад, метод \"seek\" файлового об'єкта з аргументами 10, "
+"0 (припускаючи, що вказівник на файловий об'єкт є \"f\")::"
 
-#: ../../faq/extending.rst:135
 msgid ""
-"Note that since :c:func:`PyObject_CallObject` *always* wants a tuple for the"
-" argument list, to call a function without arguments, pass \"()\" for the "
+"res = PyObject_CallMethod(f, \"seek\", \"(ii)\", 10, 0);\n"
+"if (res == NULL) {\n"
+"        ... an exception occurred ...\n"
+"}\n"
+"else {\n"
+"        Py_DECREF(res);\n"
+"}"
+msgstr ""
+
+msgid ""
+"Note that since :c:func:`PyObject_CallObject` *always* wants a tuple for the "
+"argument list, to call a function without arguments, pass \"()\" for the "
 "format, and to call a function with one argument, surround the argument in "
 "parentheses, e.g. \"(i)\"."
 msgstr ""
+"Зауважте, що оскільки :c:func:`PyObject_CallObject` *завжди* вимагає кортеж "
+"для списку аргументів, щоб викликати функцію без аргументів, передайте "
+"\"()\" для формату, а щоб викликати функцію з одним аргументом, оточіть "
+"аргумент в дужках, напр. \"(i)\"."
 
-#: ../../faq/extending.rst:142
 msgid ""
 "How do I catch the output from PyErr_Print() (or anything that prints to "
 "stdout/stderr)?"
 msgstr ""
+"Як мені перехопити вихідні дані PyErr_Print() (або будь-чого, що друкує в "
+"stdout/stderr)?"
 
-#: ../../faq/extending.rst:144
 msgid ""
 "In Python code, define an object that supports the ``write()`` method.  "
 "Assign this object to :data:`sys.stdout` and :data:`sys.stderr`.  Call "
 "print_error, or just allow the standard traceback mechanism to work. Then, "
 "the output will go wherever your ``write()`` method sends it."
 msgstr ""
+"У коді Python визначте об’єкт, який підтримує метод ``write()``. Призначте "
+"цей об’єкт :data:`sys.stdout` і :data:`sys.stderr`. Викличте print_error або "
+"просто дозвольте стандартному механізму відстеження працювати. Тоді вивід "
+"буде відправлятися туди, куди його надсилає метод ``write()``."
 
-#: ../../faq/extending.rst:149
 msgid "The easiest way to do this is to use the :class:`io.StringIO` class:"
 msgstr ""
+"Найпростіший спосіб зробити це — використати клас :class:`io.StringIO`:"
 
-#: ../../faq/extending.rst:161
-msgid "A custom object to do the same would look like this:"
-msgstr ""
-
-#: ../../faq/extending.rst:182
-msgid "How do I access a module written in Python from C?"
-msgstr ""
-
-#: ../../faq/extending.rst:184
-msgid "You can get a pointer to the module object as follows::"
-msgstr ""
-
-#: ../../faq/extending.rst:188
 msgid ""
-"If the module hasn't been imported yet (i.e. it is not yet present in "
-":data:`sys.modules`), this initializes the module; otherwise it simply "
-"returns the value of ``sys.modules[\"<modulename>\"]``.  Note that it "
-"doesn't enter the module into any namespace -- it only ensures it has been "
-"initialized and is stored in :data:`sys.modules`."
+">>> import io, sys\n"
+">>> sys.stdout = io.StringIO()\n"
+">>> print('foo')\n"
+">>> print('hello world!')\n"
+">>> sys.stderr.write(sys.stdout.getvalue())\n"
+"foo\n"
+"hello world!"
 msgstr ""
 
-#: ../../faq/extending.rst:194
+msgid "A custom object to do the same would look like this:"
+msgstr "Настроюваний об’єкт, який буде робити те саме, виглядатиме так:"
+
+msgid ""
+">>> import io, sys\n"
+">>> class StdoutCatcher(io.TextIOBase):\n"
+"...     def __init__(self):\n"
+"...         self.data = []\n"
+"...     def write(self, stuff):\n"
+"...         self.data.append(stuff)\n"
+"...\n"
+">>> import sys\n"
+">>> sys.stdout = StdoutCatcher()\n"
+">>> print('foo')\n"
+">>> print('hello world!')\n"
+">>> sys.stderr.write(''.join(sys.stdout.data))\n"
+"foo\n"
+"hello world!"
+msgstr ""
+
+msgid "How do I access a module written in Python from C?"
+msgstr "Як отримати доступ до модуля, написаного мовою Python, із C?"
+
+msgid "You can get a pointer to the module object as follows::"
+msgstr "Ви можете отримати вказівник на об’єкт модуля наступним чином:"
+
+msgid "module = PyImport_ImportModule(\"<modulename>\");"
+msgstr ""
+
+msgid ""
+"If the module hasn't been imported yet (i.e. it is not yet present in :data:"
+"`sys.modules`), this initializes the module; otherwise it simply returns the "
+"value of ``sys.modules[\"<modulename>\"]``.  Note that it doesn't enter the "
+"module into any namespace -- it only ensures it has been initialized and is "
+"stored in :data:`sys.modules`."
+msgstr ""
+"Якщо модуль ще не було імпортовано (тобто його ще немає в :data:`sys."
+"modules`), це ініціалізує модуль; інакше він просто повертає значення ``sys."
+"modules[\" <modulename> \"]``. Зверніть увагу, що він не вводить модуль у "
+"простір імен — він лише гарантує, що його було ініціалізовано та збережено "
+"в :data:`sys.modules`."
+
 msgid ""
 "You can then access the module's attributes (i.e. any name defined in the "
 "module) as follows::"
 msgstr ""
+"Потім ви можете отримати доступ до атрибутів модуля (тобто до будь-якого "
+"імені, визначеного в модулі) наступним чином:"
 
-#: ../../faq/extending.rst:199
+msgid "attr = PyObject_GetAttrString(module, \"<attrname>\");"
+msgstr ""
+
 msgid ""
 "Calling :c:func:`PyObject_SetAttrString` to assign to variables in the "
 "module also works."
 msgstr ""
+"Виклик :c:func:`PyObject_SetAttrString` для призначення змінним у модулі "
+"також працює."
 
-#: ../../faq/extending.rst:204
 msgid "How do I interface to C++ objects from Python?"
-msgstr ""
+msgstr "Як підключитися до об’єктів C++ із Python?"
 
-#: ../../faq/extending.rst:206
 msgid ""
 "Depending on your requirements, there are many approaches.  To do this "
 "manually, begin by reading :ref:`the \"Extending and Embedding\" document "
@@ -254,81 +310,98 @@ msgid ""
 "building a new Python type around a C structure (pointer) type will also "
 "work for C++ objects."
 msgstr ""
+"Залежно від ваших вимог існує багато підходів. Щоб зробити це вручну, "
+"почніть із прочитання документу :ref:`\"Розширення та вбудовування\\ "
+"<extending-index>`. Зрозумійте, що для системи виконання Python немає "
+"великої різниці між C і C++, тому стратегія побудови нового типу Python "
+"навколо типу структури (вказівника) C також працюватиме для об’єктів C++."
 
-#: ../../faq/extending.rst:212
 msgid "For C++ libraries, see :ref:`c-wrapper-software`."
-msgstr ""
+msgstr "Для бібліотек C++ див. :ref:`c-wrapper-software`."
 
-#: ../../faq/extending.rst:216
 msgid "I added a module using the Setup file and the make fails; why?"
-msgstr ""
+msgstr "Я додав модуль за допомогою файлу Setup, і отримав помилку, чому?"
 
-#: ../../faq/extending.rst:218
 msgid ""
-"Setup must end in a newline, if there is no newline there, the build process"
-" fails.  (Fixing this requires some ugly shell script hackery, and this bug "
+"Setup must end in a newline, if there is no newline there, the build process "
+"fails.  (Fixing this requires some ugly shell script hackery, and this bug "
 "is so minor that it doesn't seem worth the effort.)"
 msgstr ""
+"Налаштування має закінчуватися символом нового рядка, якщо там немає нового "
+"рядка, процес збирання завершується помилкою. (Щоб виправити це, потрібне "
+"негарне хакерство сценарію оболонки, і ця помилка настільки незначна, що "
+"здається не вартою зусиль.)"
 
-#: ../../faq/extending.rst:224
 msgid "How do I debug an extension?"
-msgstr ""
+msgstr "Як відлагодити розширення?"
 
-#: ../../faq/extending.rst:226
 msgid ""
 "When using GDB with dynamically loaded extensions, you can't set a "
 "breakpoint in your extension until your extension is loaded."
 msgstr ""
+"Під час використання GDB із динамічно завантажуваними розширеннями ви не "
+"можете встановити точку зупинки у своєму розширенні, доки воно не "
+"завантажиться."
 
-#: ../../faq/extending.rst:229
 msgid "In your ``.gdbinit`` file (or interactively), add the command:"
+msgstr "У свій файл ``.gdbinit`` (або інтерактивно) додайте команду:"
+
+msgid "br _PyImport_LoadDynamicModule"
 msgstr ""
 
-#: ../../faq/extending.rst:235
 msgid "Then, when you run GDB:"
+msgstr "Тоді, коли ви запускаєте GDB:"
+
+msgid ""
+"$ gdb /local/bin/python\n"
+"gdb) run myscript.py\n"
+"gdb) continue # repeat until your extension is loaded\n"
+"gdb) finish   # so that your extension is loaded\n"
+"gdb) br myfunction.c:50\n"
+"gdb) continue"
 msgstr ""
 
-#: ../../faq/extending.rst:247
 msgid ""
 "I want to compile a Python module on my Linux system, but some files are "
 "missing. Why?"
 msgstr ""
+"Я хочу скомпілювати модуль Python у своїй системі Linux, але деякі файли "
+"відсутні. чому"
 
-#: ../../faq/extending.rst:249
 msgid ""
-"Most packaged versions of Python don't include the "
-":file:`/usr/lib/python2.{x}/config/` directory, which contains various files"
-" required for compiling Python extensions."
+"Most packaged versions of Python omit some files required for compiling "
+"Python extensions."
 msgstr ""
 
-#: ../../faq/extending.rst:253
-msgid "For Red Hat, install the python-devel RPM to get the necessary files."
+msgid "For Red Hat, install the python3-devel RPM to get the necessary files."
 msgstr ""
 
-#: ../../faq/extending.rst:255
-msgid "For Debian, run ``apt-get install python-dev``."
+msgid "For Debian, run ``apt-get install python3-dev``."
 msgstr ""
 
-#: ../../faq/extending.rst:259
 msgid "How do I tell \"incomplete input\" from \"invalid input\"?"
-msgstr ""
+msgstr "Як відрізнити \"неповне введення\" від \"некоректного введення\"?"
 
-#: ../../faq/extending.rst:261
 msgid ""
-"Sometimes you want to emulate the Python interactive interpreter's behavior,"
-" where it gives you a continuation prompt when the input is incomplete (e.g."
-" you typed the start of an \"if\" statement or you didn't close your "
+"Sometimes you want to emulate the Python interactive interpreter's behavior, "
+"where it gives you a continuation prompt when the input is incomplete (e.g. "
+"you typed the start of an \"if\" statement or you didn't close your "
 "parentheses or triple string quotes), but it gives you a syntax error "
 "message immediately when the input is invalid."
 msgstr ""
+"Іноді потрібно імітувати поведінку інтерактивного інтерпретатора Python, "
+"коли він дає вам запит на продовження, коли введення неповне (наприклад, ви "
+"ввели початок оператора \"if\" або не закрили дужки чи потрійні рядкові "
+"лапки), але він дає вам повідомлення про синтаксичну помилку негайно, коли "
+"введення некректне."
 
-#: ../../faq/extending.rst:267
 msgid ""
 "In Python you can use the :mod:`codeop` module, which approximates the "
 "parser's behavior sufficiently.  IDLE uses this, for example."
 msgstr ""
+"У Python ви можете використовувати модуль :mod:`codeop`, який достатньо "
+"наближає поведінку аналізатора. IDLE використовує це, наприклад."
 
-#: ../../faq/extending.rst:270
 msgid ""
 "The easiest way to do it in C is to call :c:func:`PyRun_InteractiveLoop` "
 "(perhaps in a separate thread) and let the Python interpreter handle the "
@@ -336,57 +409,42 @@ msgid ""
 "to point at your custom input function. See ``Modules/readline.c`` and "
 "``Parser/myreadline.c`` for more hints."
 msgstr ""
+"Найпростіший спосіб зробити це в C — викликати :c:func:"
+"`PyRun_InteractiveLoop` (можливо, в окремому потоці) і дозволити "
+"інтерпретатору Python обробити вхідні дані за вас. Ви також можете "
+"встановити :c:func:`PyOS_ReadlineFunctionPointer` так, щоб він вказував на "
+"вашу власну функцію введення. Перегляньте ``Modules/readline.c`` і ``Parser/"
+"myreadline.c`` для отримання додаткових підказок."
 
-#: ../../faq/extending.rst:276
-msgid ""
-"However sometimes you have to run the embedded Python interpreter in the "
-"same thread as your rest application and you can't allow the "
-":c:func:`PyRun_InteractiveLoop` to stop while waiting for user input.  The "
-"one solution then is to call :c:func:`PyParser_ParseString` and test for "
-"``e.error`` equal to ``E_EOF``, which means the input is incomplete.  Here's"
-" a sample code fragment, untested, inspired by code from Alex Farber::"
-msgstr ""
-
-#: ../../faq/extending.rst:310
-msgid ""
-"Another solution is trying to compile the received string with "
-":c:func:`Py_CompileString`. If it compiles without errors, try to execute "
-"the returned code object by calling :c:func:`PyEval_EvalCode`. Otherwise "
-"save the input for later. If the compilation fails, find out if it's an "
-"error or just more input is required - by extracting the message string from"
-" the exception tuple and comparing it to the string \"unexpected EOF while "
-"parsing\".  Here is a complete example using the GNU readline library (you "
-"may want to ignore **SIGINT** while calling readline())::"
-msgstr ""
-
-#: ../../faq/extending.rst:432
 msgid "How do I find undefined g++ symbols __builtin_new or __pure_virtual?"
-msgstr ""
+msgstr "Як знайти невизначені символи g++ __builtin_new або __pure_virtual?"
 
-#: ../../faq/extending.rst:434
 msgid ""
-"To dynamically load g++ extension modules, you must recompile Python, relink"
-" it using g++ (change LINKCC in the Python Modules Makefile), and link your "
-"extension module using g++ (e.g., ``g++ -shared -o mymodule.so "
-"mymodule.o``)."
+"To dynamically load g++ extension modules, you must recompile Python, relink "
+"it using g++ (change LINKCC in the Python Modules Makefile), and link your "
+"extension module using g++ (e.g., ``g++ -shared -o mymodule.so mymodule.o``)."
 msgstr ""
+"Щоб динамічно завантажувати модулі розширення g++, ви повинні "
+"перекомпілювати Python, перекомпілювати його за допомогою g++ (змінити "
+"LINKCC у Makefile модулів Python) і пов'язати свій модуль розширення за "
+"допомогою g++ (наприклад, ``g++ -shared -o mymodule.so mymodule.o``)."
 
-#: ../../faq/extending.rst:440
 msgid ""
 "Can I create an object class with some methods implemented in C and others "
 "in Python (e.g. through inheritance)?"
 msgstr ""
+"Чи можу я створити клас об’єктів за допомогою деяких методів, реалізованих у "
+"C, а інших – у Python (наприклад, через успадкування)?"
 
-#: ../../faq/extending.rst:442
 msgid ""
-"Yes, you can inherit from built-in classes such as :class:`int`, "
-":class:`list`, :class:`dict`, etc."
+"Yes, you can inherit from built-in classes such as :class:`int`, :class:"
+"`list`, :class:`dict`, etc."
 msgstr ""
+"Так, ви можете успадкувати такі вбудовані класи, як :class:`int`, :class:"
+"`list`, :class:`dict` тощо."
 
-#: ../../faq/extending.rst:445
 msgid ""
-"The Boost Python Library (BPL, "
-"http://www.boost.org/libs/python/doc/index.html) provides a way of doing "
-"this from C++ (i.e. you can inherit from an extension class written in C++ "
-"using the BPL)."
+"The Boost Python Library (BPL, https://www.boost.org/libs/python/doc/index."
+"html) provides a way of doing this from C++ (i.e. you can inherit from an "
+"extension class written in C++ using the BPL)."
 msgstr ""

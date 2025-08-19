@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Pending removal in future versions"
+msgstr ""
+
+msgid ""
+"The following APIs are deprecated and will be removed, although there is "
+"currently no date scheduled for their removal."
+msgstr ""
+
+msgid ":c:macro:`Py_TPFLAGS_HAVE_FINALIZE`: Unneeded since Python 3.8."
+msgstr ""
+
+msgid ":c:func:`PyErr_Fetch`: Use :c:func:`PyErr_GetRaisedException` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyErr_NormalizeException`: Use :c:func:`PyErr_GetRaisedException` "
+"instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyErr_Restore`: Use :c:func:`PyErr_SetRaisedException` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyModule_GetFilename`: Use :c:func:`PyModule_GetFilenameObject` "
+"instead."
+msgstr ""
+
+msgid ":c:func:`PyOS_AfterFork`: Use :c:func:`PyOS_AfterFork_Child` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PySlice_GetIndicesEx`: Use :c:func:`PySlice_Unpack` and :c:func:"
+"`PySlice_AdjustIndices` instead."
+msgstr ""
+
+msgid ":c:func:`PyUnicode_READY`: Unneeded since Python 3.12"
+msgstr ""
+
+msgid ":c:func:`!PyErr_Display`: Use :c:func:`PyErr_DisplayException` instead."
+msgstr ""
+
+msgid ""
+":c:func:`!_PyErr_ChainExceptions`: Use :c:func:`!_PyErr_ChainExceptions1` "
+"instead."
+msgstr ""
+
+msgid ""
+":c:member:`!PyBytesObject.ob_shash` member: call :c:func:`PyObject_Hash` "
+"instead."
+msgstr ""
+
+msgid "Thread Local Storage (TLS) API:"
+msgstr ""
+
+msgid ""
+":c:func:`PyThread_create_key`: Use :c:func:`PyThread_tss_alloc` instead."
+msgstr ""
+
+msgid ":c:func:`PyThread_delete_key`: Use :c:func:`PyThread_tss_free` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyThread_set_key_value`: Use :c:func:`PyThread_tss_set` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyThread_get_key_value`: Use :c:func:`PyThread_tss_get` instead."
+msgstr ""
+
+msgid ""
+":c:func:`PyThread_delete_key_value`: Use :c:func:`PyThread_tss_delete` "
+"instead."
+msgstr ""
+
+msgid ":c:func:`PyThread_ReInitTLS`: Unneeded since Python 3.7."
+msgstr ""
