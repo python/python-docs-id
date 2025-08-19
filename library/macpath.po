@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"PO-Revision-Date: 2017-02-16 23:17+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/macpath.rst:2
+msgid ":mod:`macpath` --- Mac OS 9 path manipulation functions"
+msgstr ":mod:`macpath` --- Mac OS 9 path manipulation functions"
+
+#: ../../library/macpath.rst:7
+msgid "**Source code:** :source:`Lib/macpath.py`"
+msgstr "**Kode sumber:** :source:`Lib/macpath.py`"
+
+#: ../../library/macpath.rst:13
+msgid ""
+"This module is the Mac OS 9 (and earlier) implementation of the "
+":mod:`os.path` module. It can be used to manipulate old-style Macintosh "
+"pathnames on Mac OS X (or any other platform)."
+msgstr ""
+"Modul ini adalah implementasi Mac OS 9 (dan sebelumnya) dari modul "
+":mod:`os.path`. Ini dapat digunakan untuk memanipulasi nama path Macintosh "
+"jenis lama di Mac OS X (atau platform lainnya)."
+
+#: ../../library/macpath.rst:17
+msgid ""
+"The following functions are available in this module: :func:`normcase`, "
+":func:`normpath`, :func:`isabs`, :func:`join`, :func:`split`, :func:`isdir`,"
+" :func:`isfile`, :func:`walk`, :func:`exists`. For other functions available"
+" in :mod:`os.path` dummy counterparts are available."
+msgstr ""
+"Fungsi-fungsi berikut tersedia dalam modul ini: :func:`normcase`, "
+":func:`normpath`, :func:`isab`, :func:`join`, :func:`split`, :func:`isdir`, "
+":func: `isfile`, :func:` walk`, :func:`exists`. Untuk fungsi lain yang "
+"tersedia di :mod:`os.path` salinan dummy tersedia."

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:40+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../tutorial/interactive.rst:5
+msgid "Interactive Input Editing and History Substitution"
+msgstr "Pengeditan Input Interaktif dan Penggantian Riwayat"
+
+#: ../../tutorial/interactive.rst:7
+msgid ""
+"Some versions of the Python interpreter support editing of the current input"
+" line and history substitution, similar to facilities found in the Korn "
+"shell and the GNU Bash shell.  This is implemented using the `GNU Readline`_"
+" library, which supports various styles of editing.  This library has its "
+"own documentation which we won't duplicate here."
+msgstr ""
+"Beberapa versi interpreter Python mendukung pengeditan jalur input aktual "
+"dan penggantian riwayat, mirip dengan fasilitas yang ditemukan di shell Korn"
+" dan shell Bash GNU. Ini diimplementasikan menggunakan pustaka `GNU "
+"Readline`_, yang mendukung berbagai gaya pengeditan. Pustaka ini memiliki "
+"dokumentasi sendiri yang tidak akan kami duplikat di sini."
+
+#: ../../tutorial/interactive.rst:17
+msgid "Tab Completion and History Editing"
+msgstr "Pelengkapan Tab dan Pengeditan Riwayat"
+
+#: ../../tutorial/interactive.rst:19
+msgid ""
+"Completion of variable and module names is :ref:`automatically enabled "
+"<rlcompleter-config>` at interpreter startup so that the :kbd:`Tab` key "
+"invokes the completion function; it looks at Python statement names, the "
+"current local variables, and the available module names.  For dotted "
+"expressions such as ``string.a``, it will evaluate the expression up to the "
+"final ``'.'`` and then suggest completions from the attributes of the "
+"resulting object.  Note that this may execute application-defined code if an"
+" object with a :meth:`__getattr__` method is part of the expression.  The "
+"default configuration also saves your history into a file named "
+":file:`.python_history` in your user directory. The history will be "
+"available again during the next interactive interpreter session."
+msgstr ""
+"Penyelesaian nama variabel dan modul adalah :ref:`diaktifkan secara otomatis"
+" <rlcompleter-config>` pada startup interpreter sehingga tombol :kbd:`Tab` "
+"memanggil fungsi pelengkapan; terlihat pada nama pernyataan Python, variabel"
+" lokal saat ini, dan nama modul yang tersedia. Untuk ekspresi putus-putus "
+"seperti ``string.a``, itu akan mengevaluasi ekspresi hingga akhir ``'.'`` "
+"dan kemudian menyarankan penyelesaian dari atribut dari objek yang "
+"dihasilkan. Perhatikan bahwa ini dapat mengeksekusi kode yang-ditentukan-"
+"aplikasi jika suatu objek dengan metode :meth:`__getattr__` menjadi bagian "
+"dari ekspresi. Konfigurasi bawaan juga menyimpan riwayat Anda menjadi berkas"
+" bernama :file:`.python_history` di direktori pengguna Anda. Riwayat akan "
+"tersedia lagi saat sesi interpreter interaktif berikutnya."
+
+#: ../../tutorial/interactive.rst:36
+msgid "Alternatives to the Interactive Interpreter"
+msgstr "Alternatif untuk Interpreter Interaktif"
+
+#: ../../tutorial/interactive.rst:38
+msgid ""
+"This facility is an enormous step forward compared to earlier versions of "
+"the interpreter; however, some wishes are left: It would be nice if the "
+"proper indentation were suggested on continuation lines (the parser knows if"
+" an indent token is required next).  The completion mechanism might use the "
+"interpreter's symbol table.  A command to check (or even suggest) matching "
+"parentheses, quotes, etc., would also be useful."
+msgstr ""
+"Fasilitas ini merupakan kemajuan yang sangat besar dibandingkan dengan "
+"interpreter versi sebelumnya; namun, ada beberapa keinginan yang tersisa: "
+"Akan lebih baik jika indentasi yang tepat disarankan pada baris lanjutan "
+"(parser tahu jika token indentasi diperlukan berikutnya). Mekanisme "
+"pelengkapan mungkin menggunakan tabel simbol interpreter. Perintah untuk "
+"memeriksa (atau bahkan menyarankan) tanda kurung, tanda kutip, dll., juga "
+"berguna."
+
+#: ../../tutorial/interactive.rst:45
+msgid ""
+"One alternative enhanced interactive interpreter that has been around for "
+"quite some time is IPython_, which features tab completion, object "
+"exploration and advanced history management.  It can also be thoroughly "
+"customized and embedded into other applications.  Another similar enhanced "
+"interactive environment is bpython_."
+msgstr ""
+"Salah satu alternatif interpreter interaktif canggih yang telah ada selama "
+"beberapa waktu adalah IPython_, yang menampilkan pelengkapan tab, eksplorasi"
+" objek, dan manajemen riwayat lanjut. Itu juga dapat sepenuhnya disesuaikan "
+"dan tertanam ke dalam aplikasi lain. Lingkungan interaktif ditingkatkan "
+"serupa lainnya adalah bpython_."

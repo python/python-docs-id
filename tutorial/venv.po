@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:41+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../tutorial/venv.rst:6
+msgid "Virtual Environments and Packages"
+msgstr "Lingkungan dan Paket Virtual"
+
+#: ../../tutorial/venv.rst:9
+msgid "Introduction"
+msgstr "Pengantar"
+
+#: ../../tutorial/venv.rst:11
+msgid ""
+"Python applications will often use packages and modules that don't come as "
+"part of the standard library.  Applications will sometimes need a specific "
+"version of a library, because the application may require that a particular "
+"bug has been fixed or the application may be written using an obsolete "
+"version of the library's interface."
+msgstr ""
+"Aplikasi Python akan sering menggunakan paket dan modul yang tidak datang "
+"sebagai bagian dari pustaka standar. Aplikasi kadang-kadang membutuhkan "
+"versi pustaka tertentu, karena aplikasi mungkin mensyaratkan bug tertentu "
+"telah diperbaiki atau aplikasi dapat ditulis menggunakan versi usang dari "
+"antarmuka pustaka."
+
+#: ../../tutorial/venv.rst:17
+msgid ""
+"This means it may not be possible for one Python installation to meet the "
+"requirements of every application.  If application A needs version 1.0 of a "
+"particular module but application B needs version 2.0, then the requirements"
+" are in conflict and installing either version 1.0 or 2.0 will leave one "
+"application unable to run."
+msgstr ""
+"Ini berarti tidak mungkin bagi satu instalasi Python untuk memenuhi "
+"persyaratan setiap aplikasi. Jika aplikasi A membutuhkan versi 1.0 dari "
+"modul tertentu tetapi aplikasi B membutuhkan versi 2.0, maka persyaratannya "
+"bertentangan dan menginstal versi 1.0 atau 2.0 akan membuat satu aplikasi "
+"tidak dapat berjalan."
+
+#: ../../tutorial/venv.rst:23
+msgid ""
+"The solution for this problem is to create a :term:`virtual environment`, a "
+"self-contained directory tree that contains a Python installation for a "
+"particular version of Python, plus a number of additional packages."
+msgstr ""
+"Solusi untuk masalah ini adalah membuat :term:`virtual environment`, sebuah "
+"struktur direktori mandiri yang berisi instalasi Python untuk versi tertentu"
+" dari Python, serta sejumlah paket tambahan."
+
+#: ../../tutorial/venv.rst:27
+msgid ""
+"Different applications can then use different virtual environments. To "
+"resolve the earlier example of conflicting requirements, application A can "
+"have its own virtual environment with version 1.0 installed while "
+"application B has another virtual environment with version 2.0. If "
+"application B requires a library be upgraded to version 3.0, this will not "
+"affect application A's environment."
+msgstr ""
+"Aplikasi yang berbeda kemudian dapat menggunakan lingkungan virtual yang "
+"berbeda. Untuk menyelesaikan contoh sebelumnya dari persyaratan yang saling "
+"bertentangan, aplikasi A dapat memiliki lingkungan virtual sendiri dengan "
+"versi 1.0 yang diinstal sementara aplikasi B memiliki lingkungan virtual "
+"lain dengan versi 2.0. Jika aplikasi B membutuhkan pustaka ditingkatkan ke "
+"versi 3.0, ini tidak akan mempengaruhi lingkungan aplikasi A."
+
+#: ../../tutorial/venv.rst:36
+msgid "Creating Virtual Environments"
+msgstr "Menciptakan Lingkungan Virtual"
+
+#: ../../tutorial/venv.rst:38
+msgid ""
+"The module used to create and manage virtual environments is called "
+":mod:`venv`.  :mod:`venv` will usually install the most recent version of "
+"Python that you have available. If you have multiple versions of Python on "
+"your system, you can select a specific Python version by running ``python3``"
+" or whichever version you want."
+msgstr ""
+"Modul yang digunakan untuk membuat dan mengelola lingkungan virtual disebut "
+":mod:`venv`. :mod:`venv` biasanya akan menginstal versi Python terbaru yang "
+"Anda miliki. Jika Anda memiliki beberapa versi Python di sistem Anda, Anda "
+"dapat memilih versi Python tertentu dengan menjalankan ``python3`` atau "
+"versi mana pun yang Anda inginkan."
+
+#: ../../tutorial/venv.rst:44
+msgid ""
+"To create a virtual environment, decide upon a directory where you want to "
+"place it, and run the :mod:`venv` module as a script with the directory "
+"path::"
+msgstr ""
+"Untuk membuat lingkungan virtual, tentukan direktori tempat Anda ingin "
+"meletakkannya, dan jalankan modul :mod:`venv` sebagai skrip dengan jalur "
+"direktori::"
+
+#: ../../tutorial/venv.rst:49
+msgid ""
+"This will create the ``tutorial-env`` directory if it doesn't exist, and "
+"also create directories inside it containing a copy of the Python "
+"interpreter, the standard library, and various supporting files."
+msgstr ""
+"Ini akan membuat direktori ``tutorial-env`` jika tidak ada, dan juga membuat"
+" direktori di dalamnya yang berisi salinan interpreter Python, pustaka "
+"standar, dan berbagai berkas pendukung."
+
+#: ../../tutorial/venv.rst:53
+msgid ""
+"A common directory location for a virtual environment is ``.venv``. This "
+"name keeps the directory typically hidden in your shell and thus out of the "
+"way while giving it a name that explains why the directory exists. It also "
+"prevents clashing with ``.env`` environment variable definition files that "
+"some tooling supports."
+msgstr ""
+"Lokasi direktori yang umum dipakai untuk lingkungan virtual adalah "
+"``.venv``. Nama ini membuat direktori biasanya tersembunyi di shell Anda dan"
+" dengan demikian terpencil sambil memberikan nama yang menjelaskan mengapa "
+"direktori itu ada. Ini juga mencegah bentrok dengan berkas definisi variabel"
+" lingkungan ``.env`` yang didukung beberapa peralatan."
+
+#: ../../tutorial/venv.rst:59
+msgid "Once you've created a virtual environment, you may activate it."
+msgstr "Setelah Anda membuat lingkungan virtual, Anda dapat mengaktifkannya."
+
+#: ../../tutorial/venv.rst:61
+msgid "On Windows, run::"
+msgstr "Di Windows, operasikan::"
+
+#: ../../tutorial/venv.rst:65
+msgid "On Unix or MacOS, run::"
+msgstr "Pada Unix atau MacOS, operasikan ::"
+
+#: ../../tutorial/venv.rst:69
+msgid ""
+"(This script is written for the bash shell.  If you use the :program:`csh` "
+"or :program:`fish` shells, there are alternate ``activate.csh`` and "
+"``activate.fish`` scripts you should use instead.)"
+msgstr ""
+"(Skrip ini ditulis untuk bash shell. Jika Anda menggunakan :program:`csh` "
+"atau :program:`fish` shells, ada pilihan skrip ``activate.csh`` dan "
+"``activate.fish`` alternatif yang dapat Anda gunakan.)"
+
+#: ../../tutorial/venv.rst:74
+msgid ""
+"Activating the virtual environment will change your shell's prompt to show "
+"what virtual environment you're using, and modify the environment so that "
+"running ``python`` will get you that particular version and installation of "
+"Python. For example:"
+msgstr ""
+"Mengaktifkan lingkungan virtual akan mengubah prompt shell Anda untuk "
+"menunjukkan lingkungan virtual apa yang Anda gunakan, dan memodifikasi "
+"lingkungan sehingga menjalankan ``python`` akan membuat Anda mendapatkan "
+"versi dan instalasi Python tertentu. Sebagai contoh:"
+
+#: ../../tutorial/venv.rst:93
+msgid "Managing Packages with pip"
+msgstr "Mengelola Paket dengan pip"
+
+#: ../../tutorial/venv.rst:95
+msgid ""
+"You can install, upgrade, and remove packages using a program called "
+":program:`pip`.  By default ``pip`` will install packages from the Python "
+"Package Index, <https://pypi.org>.  You can browse the Python Package Index "
+"by going to it in your web browser, or you can use ``pip``'s limited search "
+"feature:"
+msgstr ""
+"Anda dapat menginstal, memutakhirkan, dan menghapus paket menggunakan "
+"program yang disebut :program:`pip`. Secara default ``pip`` akan menginstal "
+"paket dari Python Package Index, <https://pypi.org>. Anda dapat menelusuri "
+"Python Package Index dengan melihatnya di browser web Anda, atau Anda dapat "
+"menggunakan fitur pencarian terbatas ``pip``:"
+
+#: ../../tutorial/venv.rst:111
+msgid ""
+"``pip`` has a number of subcommands: \"search\", \"install\", \"uninstall\","
+" \"freeze\", etc.  (Consult the :ref:`installing-index` guide for complete "
+"documentation for ``pip``.)"
+msgstr ""
+"``pip`` memiliki sejumlah sub-perintah: \"search\", \"install\", "
+"\"uninstall\", \"freeze\", dll. (Konsultasikan dengan :ref:`install-index` "
+"guide untuk dokumentasi lengkap untuk ``pip``.)"
+
+#: ../../tutorial/venv.rst:115
+msgid ""
+"You can install the latest version of a package by specifying a package's "
+"name:"
+msgstr ""
+"Anda dapat menginstal versi terbaru dari suatu paket dengan menyebutkan nama"
+" suatu paket:"
+
+#: ../../tutorial/venv.rst:126
+msgid ""
+"You can also install a specific version of a package by giving the package "
+"name  followed by ``==`` and the version number:"
+msgstr ""
+"Anda juga dapat menginstal versi spesifik suatu paket dengan memberikan nama"
+" paket diikuti dengan ``==`` dan nomor versi:"
+
+#: ../../tutorial/venv.rst:137
+msgid ""
+"If you re-run this command, ``pip`` will notice that the requested version "
+"is already installed and do nothing.  You can supply a different version "
+"number to get that version, or you can run ``pip install --upgrade`` to "
+"upgrade the package to the latest version:"
+msgstr ""
+"Jika Anda menjalankan kembali perintah ini, ``pip`` akan melihat bahwa versi"
+" yang diminta sudah diinstal dan tidak melakukan apa-apa. Anda dapat "
+"memberikan nomor versi yang berbeda untuk mendapatkan versi itu, atau Anda "
+"dapat menjalankan ``pip install --upgrade`` untuk meningkatkan paket ke "
+"versi terbaru:"
+
+#: ../../tutorial/venv.rst:152
+msgid ""
+"``pip uninstall`` followed by one or more package names will remove the "
+"packages from the virtual environment."
+msgstr ""
+"``pip uninstall`` diikuti oleh satu atau beberapa nama paket akan menghapus "
+"paket-paket dari lingkungan virtual."
+
+#: ../../tutorial/venv.rst:155
+msgid "``pip show`` will display information about a particular package:"
+msgstr "``pip show`` akan menampilkan informasi tentang paket tertentu:"
+
+#: ../../tutorial/venv.rst:172
+msgid ""
+"``pip list`` will display all of the packages installed in the virtual "
+"environment:"
+msgstr ""
+"``pip list`` akan menampilkan semua paket yang diinstal di lingkungan "
+"virtual:"
+
+#: ../../tutorial/venv.rst:184
+msgid ""
+"``pip freeze`` will produce a similar list of the installed packages, but "
+"the output uses the format that ``pip install`` expects. A common convention"
+" is to put this list in a ``requirements.txt`` file:"
+msgstr ""
+"``pip freeze`` akan menghasilkan daftar yang sama dari paket yang diinstal, "
+"tetapi keluarannya menggunakan format yang diharapkan oleh ``pip install``. "
+"Sebuah konvensi yang umum digunakan adalah meletakkan daftar ini dalam file "
+"``requirements.txt``:"
+
+#: ../../tutorial/venv.rst:196
+msgid ""
+"The ``requirements.txt`` can then be committed to version control and "
+"shipped as part of an application.  Users can then install all the necessary"
+" packages with ``install -r``:"
+msgstr ""
+"``requirements.txt`` kemudian dapat dikirimkan atau commit ke sistem kontrol"
+" versi dan dikirim sebagai bagian dari aplikasi. Pengguna kemudian dapat "
+"menginstal semua paket yang diperlukan dengan ``install -r``:"
+
+#: ../../tutorial/venv.rst:213
+msgid ""
+"``pip`` has many more options.  Consult the :ref:`installing-index` guide "
+"for complete documentation for ``pip``.  When you've written a package and "
+"want to make it available on the Python Package Index, consult the :ref"
+":`distributing-index` guide."
+msgstr ""
+"``pip`` memiliki banyak opsi lagi. Baca panduan :ref:`install-index` untuk "
+"dokumentasi lengkap ``pip``. Ketika Anda telah menulis sebuah paket dan "
+"ingin membuatnya tersedia di Python Package Index, bacalah panduan :ref"
+":`distributing-index`."

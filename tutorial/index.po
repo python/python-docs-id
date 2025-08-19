@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:40+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../tutorial/index.rst:5
+msgid "The Python Tutorial"
+msgstr "Tutorial Python"
+
+#: ../../tutorial/index.rst:7
+msgid ""
+"Python is an easy to learn, powerful programming language. It has efficient "
+"high-level data structures and a simple but effective approach to object-"
+"oriented programming. Python's elegant syntax and dynamic typing, together "
+"with its interpreted nature, make it an ideal language for scripting and "
+"rapid application development in many areas on most platforms."
+msgstr ""
+"Python adalah bahasa pemrograman yang berdaya dan mudah dipelajari. Python "
+"memiliki struktur data tingkat tinggi yang efisien dan pendekatan yang "
+"sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis "
+"Python yang elegan dan tipe dinamis, bersama dengan sifatnya yang "
+"diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan "
+"pengembangan aplikasi yang cepat di banyak area di sebagian besar platform."
+
+#: ../../tutorial/index.rst:13
+msgid ""
+"The Python interpreter and the extensive standard library are freely "
+"available in source or binary form for all major platforms from the Python "
+"Web site, https://www.python.org/, and may be freely distributed. The same "
+"site also contains distributions of and pointers to many free third party "
+"Python modules, programs and tools, and additional documentation."
+msgstr ""
+"Interpreter Python dan pustaka standar yang luas tersedia secara bebas dalam"
+" bentuk kode sumber atau biner untuk semua platform utama dari situs Web "
+"Python, https://www.python.org/, dan dapat didistribusikan secara bebas. "
+"Situs yang sama juga berisi distribusi dan refernsi ke banyak modul Python "
+"gratis dari pihak ketiga, program dan alat, serta dokumentasi tambahan."
+
+#: ../../tutorial/index.rst:19
+msgid ""
+"The Python interpreter is easily extended with new functions and data types "
+"implemented in C or C++ (or other languages callable from C). Python is also"
+" suitable as an extension language for customizable applications."
+msgstr ""
+"Interpreter Python mudah dikembangkan dengan fungsi dan tipe data baru "
+"diimplementasikan dalam C atau C ++ (atau bahasa lain yang bisa dipanggil "
+"dari C). Python juga cocok sebagai bahasa tambahan untuk aplikasi yang dapat"
+" disesuaikan."
+
+#: ../../tutorial/index.rst:23
+msgid ""
+"This tutorial introduces the reader informally to the basic concepts and "
+"features of the Python language and system. It helps to have a Python "
+"interpreter handy for hands-on experience, but all examples are self-"
+"contained, so the tutorial can be read off-line as well."
+msgstr ""
+"Tutorial ini memperkenalkan pembaca secara informal ke konsep dan fitur "
+"dasar bahasa dan sistem Python. Akan membantu untuk memiliki interpreter "
+"Python yang praktis untuk pengalaman mencoba langsung, tetapi semua contoh "
+"mandiri, sehingga tutorialnya dapat dibaca secara off-line juga."
+
+#: ../../tutorial/index.rst:28
+msgid ""
+"For a description of standard objects and modules, see :ref:`library-index`."
+" :ref:`reference-index` gives a more formal definition of the language.  To "
+"write extensions in C or C++, read :ref:`extending-index` and :ref:`c-api-"
+"index`. There are also several books covering Python in depth."
+msgstr ""
+"Untuk deskripsi objek dan modul standar, lihat :ref:`library-index`. :ref"
+":`reference-index` memberikan definisi bahasa yang lebih formal. Untuk "
+"menulis ekstensi dalam C atau C ++, baca :ref:`extending-index` dan :ref:`c"
+"-api-index`. Ada juga beberapa buku yang membahas Python secara mendalam."
+
+#: ../../tutorial/index.rst:33
+msgid ""
+"This tutorial does not attempt to be comprehensive and cover every single "
+"feature, or even every commonly used feature. Instead, it introduces many of"
+" Python's most noteworthy features, and will give you a good idea of the "
+"language's flavor and style. After reading it, you will be able to read and "
+"write Python modules and programs, and you will be ready to learn more about"
+" the various Python library modules described in :ref:`library-index`."
+msgstr ""
+"Tutorial ini tidak mencoba menjadi komprehensif dan mencakup semua fitur, "
+"atau bahkan setiap fitur yang umum digunakan. Alih-alih, ini memperkenalkan "
+"banyak fitur Python yang paling penting, dan akan memberi Anda ide bagus "
+"tentang rasa dan gaya bahasa itu. Setelah membacanya, Anda akan dapat "
+"membaca dan menulis modul serta program Python, dan Anda akan siap untuk "
+"mempelajari lebih lanjut tentang berbagai modul pustaka Python yang "
+"dijelaskan dalam :ref:`library-index`."
+
+#: ../../tutorial/index.rst:40
+msgid "The :ref:`glossary` is also worth going through."
+msgstr ":ref:`glosarium` juga layak untuk dilihat."

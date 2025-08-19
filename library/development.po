@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# LIQRGV <septianhari@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"PO-Revision-Date: 2017-02-16 23:06+0000\n"
+"Last-Translator: LIQRGV <septianhari@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:5
+msgid "Development Tools"
+msgstr "Alat Pengembangan"
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:7
+msgid ""
+"The modules described in this chapter help you write software.  For example,"
+" the :mod:`pydoc` module takes a module and generates documentation based on"
+" the module's contents.  The :mod:`doctest` and :mod:`unittest` modules "
+"contains frameworks for writing unit tests that automatically exercise code "
+"and verify that the expected output is produced.  :program:`2to3` can "
+"translate Python 2.x source code into valid Python 3.x code."
+msgstr ""
+"Modul yang dijelaskan dalam bab ini membantu Anda menulis perangkat lunak. "
+"Sebagai contoh, modul :mod:`pydoc` mengambil modul dan menghasilkan "
+"dokumentasi berdasarkan isi modul. Modul :mod:`doctest` dan :mod:`unittest` "
+"berisi kerangka kerja untuk penulisan unit test yang secara otomatis "
+"menjalankan kode dan memverifikasi bahwa output yang diharapkan dihasilkan. "
+":program:`2to3` dapat menerjemahkan kode Python 2.x menjadi kode Python 3.x "
+"yang valid."
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/development.rst:14
+msgid "The list of modules described in this chapter is:"
+msgstr "Daftar modul yang dijelaskan di dalam bab ini adalah:"

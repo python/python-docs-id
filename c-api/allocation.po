@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Akhmat Safrudin <somat@artikulpi.com>, 2018
+# Nurul Eka Fitriany Hilal <nurulekafitriany@gmail.com>, 2019
+# Helen Febriani <helenfy.72@gmail.com>, 2019
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:32+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../c-api/allocation.rst:6
+msgid "Allocating Objects on the Heap"
+msgstr "Mengalokasikan objek kedalam struktur data (heap)"
+
+#: ../../c-api/allocation.rst:17
+msgid ""
+"Initialize a newly-allocated object *op* with its type and initial "
+"reference.  Returns the initialized object.  If *type* indicates that the "
+"object participates in the cyclic garbage detector, it is added to the "
+"detector's set of observed objects. Other fields of the object are not "
+"affected."
+msgstr ""
+"Inisialisasi sebuah objek yang baru dialokasi *op* dengan tipe dan referensi"
+" awal. Mengembalikan objek yang telah diinisialisasi. Jika *tipe* pada objek"
+" mengindikasi bahwa objek berpartisipasi di dalam siklus detektor sampah, "
+"maka objek tersebut ditambahkan pada set detektor terhadap objek sedang "
+"diobservasi."
+
+#: ../../c-api/allocation.rst:26
+msgid ""
+"This does everything :c:func:`PyObject_Init` does, and also initializes the "
+"length information for a variable-size object."
+msgstr ""
+"Ini melakukan segalanya :c:func:`PyObject_Init`, dan juga menginisialiasi "
+"panjang informasi pada sebuah ukuran object variabel."
+
+#: ../../c-api/allocation.rst:32
+msgid ""
+"Allocate a new Python object using the C structure type *TYPE* and the "
+"Python type object *type*.  Fields not defined by the Python object header "
+"are not initialized; the object's reference count will be one.  The size of "
+"the memory allocation is determined from the "
+":c:member:`~PyTypeObject.tp_basicsize` field of the type object."
+msgstr ""
+"Alokasikan objek Python baru menggunakan tipe *TYPE* struktur C dan objek "
+"tipe Python *type*. *Fields* yang tidak ditentukan oleh header objek Python "
+"tidak diinisialisasi; jumlah referensi objek akan menjadi satu. Ukuran "
+"alokasi memori ditentukan dari *field* "
+":c:member:`~PyTypeObject.tp_basicsize` pada objek tipe."
+
+#: ../../c-api/allocation.rst:41
+msgid ""
+"Allocate a new Python object using the C structure type *TYPE* and the "
+"Python type object *type*.  Fields not defined by the Python object header "
+"are not initialized.  The allocated memory allows for the *TYPE* structure "
+"plus *size* fields of the size given by the "
+":c:member:`~PyTypeObject.tp_itemsize` field of *type*.  This is useful for "
+"implementing objects like tuples, which are able to determine their size at "
+"construction time.  Embedding the array of fields into the same allocation "
+"decreases the number of allocations, improving the memory management "
+"efficiency."
+msgstr ""
+"Alokasikan objek Python baru menggunakan tipe *TYPE* struktur C dan objek "
+"tipe Python *type*. *Fields* yang tidak ditentukan oleh header objek Python "
+"tidak diinisialisasi. Memori yang dialokasikan memungkinkan untuk struktur "
+"*TYPE* ditambah *size* *fields* dari ukuran yang diberikan oleh *field* "
+":c:member:`~PyTypeObject.tp_itemsize` dari *tipe*. Ini berguna untuk "
+"mengimplementasikan objek seperti *tuple*, yang dapat menentukan ukurannya "
+"pada waktu pembentukan *construction*. Menanamkan *array* dari *fields* ke "
+"dalam alokasi yang sama mengurangi jumlah alokasi, meningkatkan efisiensi "
+"manajemen memori."
+
+#: ../../c-api/allocation.rst:53
+msgid ""
+"Releases memory allocated to an object using :c:func:`PyObject_New` or "
+":c:func:`PyObject_NewVar`.  This is normally called from the "
+":c:member:`~PyTypeObject.tp_dealloc` handler specified in the object's type."
+"  The fields of the object should not be accessed after this call as the "
+"memory is no longer a valid Python object."
+msgstr ""
+"Merilis memori yang dialokasikan ke objek menggunakan :c:func:`PyObject_New`"
+" atau :c:func:`PyObject_NewVar`. Ini biasanya dipanggil dari penangan "
+":c:member:`~ PyTypeObject.tp_dealloc` yang ditentukan dalam tipe objek. "
+"*fields* dari objek tidak boleh diakses setelah panggilan ini karena memori "
+"tidak lagi menjadi objek Python yang valid."
+
+#: ../../c-api/allocation.rst:62
+msgid ""
+"Object which is visible in Python as ``None``.  This should only be accessed"
+" using the :c:macro:`Py_None` macro, which evaluates to a pointer to this "
+"object."
+msgstr ""
+"Object yang terlihat di Python sebagai ``None``. Ini seharusnya hanya dapat "
+"diakses menggunakan makro :c:macro:`Py_None`, yang mengevaluasi ke sebuah "
+"pointer ke object ini."
+
+#: ../../c-api/allocation.rst:69
+msgid ":c:func:`PyModule_Create`"
+msgstr ":c:func:`PyModule_Create`"
+
+#: ../../c-api/allocation.rst:70
+msgid "To allocate and create extension modules."
+msgstr "Untuk mengalokasikan dan membuat modul ekstensi."

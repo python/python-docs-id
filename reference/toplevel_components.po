@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:39+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../reference/toplevel_components.rst:6
+msgid "Top-level components"
+msgstr "Komponen tingkat atas"
+
+#: ../../reference/toplevel_components.rst:10
+msgid ""
+"The Python interpreter can get its input from a number of sources: from a "
+"script passed to it as standard input or as program argument, typed in "
+"interactively, from a module source file, etc.  This chapter gives the "
+"syntax used in these cases."
+msgstr ""
+"*Interpreter* Python dapat memperoleh masukan dari sejumlah sumber: dari "
+"skrip yang diteruskan sebagai masukan standar atau sebagai argumen program, "
+"diketikkan secara interaktif, dari berkas sumber modul, dll. Bab ini "
+"memberikan sintaks yang digunakan dalam kasus-kasus tersebut."
+
+#: ../../reference/toplevel_components.rst:19
+msgid "Complete Python programs"
+msgstr "Program Python lengkap"
+
+#: ../../reference/toplevel_components.rst:28
+msgid ""
+"While a language specification need not prescribe how the language "
+"interpreter is invoked, it is useful to have a notion of a complete Python "
+"program.  A complete Python program is executed in a minimally initialized "
+"environment: all built-in and standard modules are available, but none have "
+"been initialized, except for :mod:`sys` (various system services), "
+":mod:`builtins` (built-in functions, exceptions and ``None``) and "
+":mod:`__main__`.  The latter is used to provide the local and global "
+"namespace for execution of the complete program."
+msgstr ""
+"Meskipun spesifikasi bahasa tidak perlu menentukan bagaimana interpreter "
+"bahasa digunakan, penting untuk memiliki gagasan tentang program Python yang"
+" lengkap. Program Python lengkap dioperasikan dalam lingkungan yang "
+"diinisialisasi minimal: semua modul bawaan dan standar tersedia, tetapi "
+"tidak ada yang diinisialisasi, kecuali untuk :mod:`sys` (berbagai layanan "
+"sistem), :mod:`builtins` (fungsi bawaan, pengecualian dan ``None``) dan "
+":mod:`__main__`. Yang terakhir digunakan untuk menyediakan *namespace* lokal"
+" dan global untuk eksekusi program lengkap."
+
+#: ../../reference/toplevel_components.rst:36
+msgid ""
+"The syntax for a complete Python program is that for file input, described "
+"in the next section."
+msgstr ""
+"Sintaksis untuk program Python lengkap adalah untuk masukan berkas, "
+"dijelaskan pada bagian selanjutnya."
+
+#: ../../reference/toplevel_components.rst:43
+msgid ""
+"The interpreter may also be invoked in interactive mode; in this case, it "
+"does not read and execute a complete program but reads and executes one "
+"statement (possibly compound) at a time.  The initial environment is "
+"identical to that of a complete program; each statement is executed in the "
+"namespace of :mod:`__main__`."
+msgstr ""
+"*Interpreter* juga dapat dipanggil dalam mode interaktif; dalam hal ini, ia "
+"tidak membaca dan menjalankan program yang lengkap tetapi membaca dan "
+"mengeksekusi satu pernyataan (mungkin digabungkan) pada suatu waktu. "
+"Lingkungan awal identik dengan program lengkap; setiap pernyataan dieksekusi"
+" di *namespace* :mod:`__main__`."
+
+#: ../../reference/toplevel_components.rst:55
+msgid ""
+"A complete program can be passed to the interpreter in three forms: with the"
+" :option:`-c` *string* command line option, as a file passed as the first "
+"command line argument, or as standard input.  If the file or standard input "
+"is a tty device, the interpreter enters interactive mode; otherwise, it "
+"executes the file as a complete program."
+msgstr ""
+"Program lengkap dapat diteruskan ke interpreter dalam tiga bentuk: dengan "
+"opsi :option:`-c` *string* opsi baris perintah, sebagai file yang diteruskan"
+" sebagai argumen baris perintah pertama, atau sebagai masukan standar. Jika "
+"berkas atau masukan standar adalah perangkat tty, *interpreter* memasuki "
+"mode interaktif; jika tidak, berkas akan dieksekusi sebagai program yang "
+"lengkap."
+
+#: ../../reference/toplevel_components.rst:65
+msgid "File input"
+msgstr "Masukan dari Berkas"
+
+#: ../../reference/toplevel_components.rst:67
+msgid "All input read from non-interactive files has the same form:"
+msgstr ""
+"Semua input yang dibaca dari berkas non-interaktif memiliki bentuk yang "
+"sama:"
+
+#: ../../reference/toplevel_components.rst:72
+msgid "This syntax is used in the following situations:"
+msgstr "Sintaks ini digunakan dalam situasi berikut:"
+
+#: ../../reference/toplevel_components.rst:74
+msgid "when parsing a complete Python program (from a file or from a string);"
+msgstr "saat mengurai program Python lengkap (dari berkas atau dari string);"
+
+#: ../../reference/toplevel_components.rst:76
+msgid "when parsing a module;"
+msgstr "ketika mengurai sebuah modul;"
+
+#: ../../reference/toplevel_components.rst:78
+msgid "when parsing a string passed to the :func:`exec` function;"
+msgstr "saat mengurai sebuah string yang dilewatkan ke fungsi :func:`exec`;"
+
+#: ../../reference/toplevel_components.rst:84
+msgid "Interactive input"
+msgstr "Masukan interaktif"
+
+#: ../../reference/toplevel_components.rst:86
+msgid "Input in interactive mode is parsed using the following grammar:"
+msgstr ""
+"Input dalam mode interaktif diuraikan menggunakan tata bahasa berikut:"
+
+#: ../../reference/toplevel_components.rst:91
+msgid ""
+"Note that a (top-level) compound statement must be followed by a blank line "
+"in interactive mode; this is needed to help the parser detect the end of the"
+" input."
+msgstr ""
+"Perhatikan bahwa pernyataan gabungan (tingkat atas) harus diikuti oleh baris"
+" kosong dalam mode interaktif; ini diperlukan untuk membantu parser "
+"mendeteksi akhir masukan."
+
+#: ../../reference/toplevel_components.rst:98
+msgid "Expression input"
+msgstr "Masukan ekspresi"
+
+#: ../../reference/toplevel_components.rst:103
+msgid ""
+":func:`eval` is used for expression input.  It ignores leading whitespace. "
+"The string argument to :func:`eval` must have the following form:"
+msgstr ""
+":func:`eval` digunakan untuk masukan ekspresi. Itu mengabaikan spasi "
+"*whitespace* sebelumnya. Argumen string ke :func:`eval` harus memiliki "
+"bentuk berikut:"

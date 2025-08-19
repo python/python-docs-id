@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"PO-Revision-Date: 2017-02-16 23:17+0000\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/markup.rst:5
+msgid "Structured Markup Processing Tools"
+msgstr "Alat Pemroses Markup Terstruktur"
+
+#: ../../library/markup.rst:7
+msgid ""
+"Python supports a variety of modules to work with various forms of "
+"structured data markup.  This includes modules to work with the Standard "
+"Generalized Markup Language (SGML) and the Hypertext Markup Language (HTML),"
+" and several interfaces for working with the Extensible Markup Language "
+"(XML)."
+msgstr ""
+"Python mendukung berbagai modul untuk bekerja dengan berbagai bentuk markup "
+"data terstruktur. Ini termasuk modul untuk bekerja dengan Standard "
+"Generalized Markup Language (SGML) dan Hypertext Markup Language (HTML), dan"
+" beberapa antarmuka untuk bekerja dengan Extensible Markup Language (XML)."

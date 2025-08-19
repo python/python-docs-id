@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:33+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/unix.rst:5
+msgid "Unix Specific Services"
+msgstr "Layanan Khusus Unix"
+
+#: ../../library/unix.rst:7
+msgid ""
+"The modules described in this chapter provide interfaces to features that "
+"are unique to the Unix operating system, or in some cases to some or many "
+"variants of it.  Here's an overview:"
+msgstr ""
+"Modul yang dijelaskan dalam bab ini memberikan antarmuka ke fitur-fitur yang"
+" unik untuk sistem operasi Unix, atau dalam beberapa kasus untuk sebagian "
+"atau banyak variannya. Berikut ini ikhtisar:"

@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:11+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/functional.rst:3
+msgid "Functional Programming Modules"
+msgstr "Modul Pemrograman Fungsional"
+
+#: ../../library/functional.rst:5
+msgid ""
+"The modules described in this chapter provide functions and classes that "
+"support a functional programming style, and general operations on callables."
+msgstr ""
+"Modul yang dijelaskan dalam bab ini menyediakan fungsi dan kelas yang "
+"mendukung gaya pemrograman fungsional, dan operasi umum pada *callables*."
+
+#: ../../library/functional.rst:8
+msgid "The following modules are documented in this chapter:"
+msgstr "Modul-modul berikut didokumentasikan dalam bab ini:"

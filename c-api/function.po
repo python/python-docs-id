@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2021, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Akhmat Safrudin <somat@artikulpi.com>, 2018
+# Elmo Allistair, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
+"PO-Revision-Date: 2021-04-02 20:27+0700\n"
+"Last-Translator: Elmo Allistair, 2021\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+
+#: ../../c-api/function.rst:6
+msgid "Function Objects"
+msgstr "Objek Fungsi"
+
+#: ../../c-api/function.rst:10
+msgid "There are a few functions specific to Python functions."
+msgstr "Terdapat beberapa fungsi spesifik untuk fungsi Python."
+
+#: ../../c-api/function.rst:15
+msgid "The C structure used for functions."
+msgstr "Struktur C yang digunakan untuk fungsi."
+
+#: ../../c-api/function.rst:22
+msgid ""
+"This is an instance of :c:type:`PyTypeObject` and represents the Python "
+"function type.  It is exposed to Python programmers as ``types."
+"FunctionType``."
+msgstr ""
+"Ini adalah instance dari :c:type:`PyTypeObject` dan mewakili jenis fungsi "
+"Python. Itu diekspos ke programmer Python sebagai ``types.FunctionType``."
+
+#: ../../c-api/function.rst:28
+msgid ""
+"Return true if *o* is a function object (has type "
+":c:data:`PyFunction_Type`). The parameter must not be ``NULL``.  This "
+"function always succeeds."
+msgstr ""
+"Mengembalikan nilai true jika *o* adalah objek fungsi (memiliki tipe :c:"
+"data:`PyFunction_Type`). Parameter tidak boleh ``NULL``. Fungsi ini "
+"selalu sukses."
+
+#: ../../c-api/function.rst:34
+msgid ""
+"Return a new function object associated with the code object *code*. "
+"*globals* must be a dictionary with the global variables accessible to the "
+"function."
+msgstr ""
+"Mengembalikan objek fungsi baru yang terkait dengan objek kode *code*. "
+"*global* harus berupa dictionary dengan variabel global yang dapat diakses "
+"oleh fungsi tersebut."
+
+#: ../../c-api/function.rst:37
+msgid ""
+"The function's docstring and name are retrieved from the code object. "
+"*__module__* is retrieved from *globals*. The argument defaults, "
+"annotations and closure are set to ``NULL``. *__qualname__* is set to the "
+"same value as the function's name."
+msgstr ""
+"Docstring dan nama fungsi diambil dari objek kode. *__module__* diambil "
+"dari *global*. Default argumen, anotasi dan penutupan diatur ke ``NULL``. "
+"*__qualname__* diatur ke nilai yang sama dengan nama fungsi."
+
+#: ../../c-api/function.rst:44
+msgid ""
+"As :c:func:`PyFunction_New`, but also allows setting the function object's "
+"``__qualname__`` attribute.  *qualname* should be a unicode object or "
+"``NULL``; if ``NULL``, the ``__qualname__`` attribute is set to the same "
+"value as its ``__name__`` attribute."
+msgstr ""
+"Seperti :c:func:`PyFunction_New`, tetapi juga memungkinkan pengaturan "
+"atribut ``__qualname__`` pada objek fungsi. *qualname* harus berupa objek "
+"unicode atau ``NULL``; jika ``NULL``, atribut ``__qualname__`` diatur ke "
+"nilai yang sama dengan atribut ``__name__``."
+
+#: ../../c-api/function.rst:54
+msgid "Return the code object associated with the function object *op*."
+msgstr "Mengembalikan objek kode yang terkait dengan objek fungsi *op*."
+
+#: ../../c-api/function.rst:59
+msgid ""
+"Return the globals dictionary associated with the function object *op*."
+msgstr ""
+"Mengembalikan dictionary global yang terkait dengan objek fungsi *op*."
+
+#: ../../c-api/function.rst:64
+msgid ""
+"Return the *__module__* attribute of the function object *op*. This is "
+"normally a string containing the module name, but can be set to any other "
+"object by Python code."
+msgstr ""
+"Mengembalikan atribut *__module__* dari objek fungsi *op*. Ini biasanya "
+"berupa string yang berisi nama modul, tetapi dapat diatur ke objek lain "
+"dengan kode Python."
+
+#: ../../c-api/function.rst:71
+msgid ""
+"Return the argument default values of the function object *op*. This can be "
+"a tuple of arguments or ``NULL``."
+msgstr ""
+"Mengembalikan nilai argumen default dari objek fungsi *op*. Ini bisa berupa "
+"argumen tuple atau ``NULL``."
+
+#: ../../c-api/function.rst:77
+msgid ""
+"Set the argument default values for the function object *op*. *defaults* "
+"must be ``Py_None`` or a tuple."
+msgstr ""
+"Menetapkan nilai argumen default untuk objek fungsi *op*. *default* harus "
+"``Py_None`` atau tuple."
+
+#: ../../c-api/function.rst:80 ../../c-api/function.rst:94
+#: ../../c-api/function.rst:108
+msgid "Raises :exc:`SystemError` and returns ``-1`` on failure."
+msgstr "Menimbulkan :exc:`SystemError` dan mengembalikan ``-1`` jika gagal."
+
+#: ../../c-api/function.rst:85
+msgid ""
+"Return the closure associated with the function object *op*. This can be "
+"``NULL`` or a tuple of cell objects."
+msgstr ""
+"Mengembalikan penutupan yang terkait dengan objek fungsi *op*. Ini bisa "
+"berupa ``NULL`` atau tuple objek sel."
+
+#: ../../c-api/function.rst:91
+msgid ""
+"Set the closure associated with the function object *op*. *closure* must be "
+"``Py_None`` or a tuple of cell objects."
+msgstr ""
+"Mengatur penutupan yang terkait dengan objek fungsi *op*. *closure* harus "
+"berupa ``Py_None`` atau tuple objek sel."
+
+#: ../../c-api/function.rst:99
+msgid ""
+"Return the annotations of the function object *op*. This can be a mutable "
+"dictionary or ``NULL``."
+msgstr ""
+"Kembalikan anotasi objek fungsi *op*. Ini bisa berupa dictionary yang bisa "
+"berubah atau ``NULL``."
+
+#: ../../c-api/function.rst:105
+msgid ""
+"Set the annotations for the function object *op*. *annotations* must be a "
+"dictionary or ``Py_None``."
+msgstr ""
+"Mengatur anotasi untuk objek fungsi *op*. *annotations* harus berupa "
+"dictionary atau ``Py_None``."

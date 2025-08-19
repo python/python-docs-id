@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:30+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/text.rst:6
+msgid "Text Processing Services"
+msgstr "Layanan Pemrosesan Teks"
+
+#: ../../library/text.rst:8
+msgid ""
+"The modules described in this chapter provide a wide range of string "
+"manipulation operations and other text processing services."
+msgstr ""
+"Modul yang dijelaskan dalam bab ini menyediakan berbagai operasi manipulasi "
+"string dan layanan pemrosesan text lainnya."
+
+#: ../../library/text.rst:11
+msgid ""
+"The :mod:`codecs` module described under :ref:`binaryservices` is also "
+"highly relevant to text processing. In addition, see the documentation for "
+"Python's built-in string type in :ref:`textseq`."
+msgstr ""
+"Modul :mod:`codecs` yang dijelaskan pada :ref:`binaryservices` juga sangat "
+"relevan untuk pemrosesan text. Lihat juga dokumentasi untuk tipe string "
+"bawaan Python di :ref:`textseq`."

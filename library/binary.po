@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"PO-Revision-Date: 2017-02-16 18:42+0000\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/binary.rst:5
+msgid "Binary Data Services"
+msgstr "Servis Data Binary"
+
+#: ../../library/binary.rst:7
+msgid ""
+"The modules described in this chapter provide some basic services operations"
+" for manipulation of binary data. Other operations on binary data, "
+"specifically in relation to file formats and network protocols, are "
+"described in the relevant sections."
+msgstr ""
+"Modul-modul yang dijelaskan pada bab ini menyediakan operasi-operasi servis "
+"dasar untuk memanipulasi data *binary*. Operasi lainnya pada data *binary*, "
+"khususnya yang berkaitan dengan format *file* dan protokol jaringan, "
+"dijelaskan pada bagian yang relevan. "
+
+#: ../../library/binary.rst:12
+msgid ""
+"Some libraries described under :ref:`textservices` also work with either "
+"ASCII-compatible binary formats (for example, :mod:`re`) or all binary data "
+"(for example, :mod:`difflib`)."
+msgstr ""
+"Beberapa pustaka yang dijelaskan pada :ref:`textservices` juga bekerja "
+"dengan format-format *binary* yang ASCII-compatible (contohnya, :mod:`re`) "
+"maupun semua data *binary* (contohnya, :mod:`difflib`)."
+
+#: ../../library/binary.rst:16
+msgid ""
+"In addition, see the documentation for Python's built-in binary data types "
+"in :ref:`binaryseq`."
+msgstr ""
+"Sebagai tambahan, lihat dokumentasi untuk tipe data *binary* bawaan Python "
+"di :ref:`binaryseq`."

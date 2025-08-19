@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 17:41+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../distutils/index.rst:5
+msgid "Distributing Python Modules (Legacy version)"
+msgstr "Mendistribusikan Modul Python (versi peninggalan)"
+
+#: ../../distutils/index.rst:0
+msgid "Authors"
+msgstr "Penulis"
+
+#: ../../distutils/index.rst:7
+msgid "Greg Ward, Anthony Baxter"
+msgstr "Greg Ward, Anthony Baxter"
+
+#: ../../distutils/index.rst:0
+msgid "Email"
+msgstr "Email"
+
+#: ../../distutils/index.rst:8
+msgid "distutils-sig@python.org"
+msgstr "distutils-sig@python.org"
+
+#: ../../distutils/index.rst:12
+msgid ":ref:`distributing-index`"
+msgstr ":ref:`distributing-index`"
+
+#: ../../distutils/index.rst:13
+msgid "The up to date module distribution documentations"
+msgstr "Dokumentasi terbaru distribusi modul"
+
+#: ../../distutils/_setuptools_disclaimer.rst:3
+msgid ""
+"This document is being retained solely until the ``setuptools`` "
+"documentation at https://setuptools.readthedocs.io/en/latest/setuptools.html"
+" independently covers all of the relevant information currently included "
+"here."
+msgstr ""
+"Dokumen ini dipertahankan hanya sampai dokumentasi ``setuptools`` di "
+"https://setuptools.readthedocs.io/en/latest/setuptools.html secara mandiri "
+"mencakup semua informasi relevan yang saat ini termasuk di sini."
+
+#: ../../distutils/index.rst:19
+msgid ""
+"This guide only covers the basic tools for building and distributing "
+"extensions that are provided as part of this version of Python. Third party "
+"tools offer easier to use and more secure alternatives. Refer to the `quick "
+"recommendations section <https://packaging.python.org/guides/tool-"
+"recommendations/>`__ in the Python Packaging User Guide for more "
+"information."
+msgstr ""
+"Panduan ini hanya mencakup alat dasar untuk membangun dan mendistribusikan "
+"ekstensi yang disediakan sebagai bagian dari versi Python ini. Alat pihak "
+"ketiga menawarkan alternatif yang lebih mudah digunakan dan lebih aman. "
+"Lihat bagian `rekomendasi cepat <https://packaging.python.org/guides/tool-"
+"recommendations/>`__ dalam Panduan Pengguna Pengemasan Python untuk "
+"informasi lebih lanjut."
+
+#: ../../distutils/index.rst:25
+msgid ""
+"This document describes the Python Distribution Utilities (\"Distutils\") "
+"from the module developer's point of view, describing the underlying "
+"capabilities that ``setuptools`` builds on to allow Python developers to "
+"make Python modules and extensions readily available to a wider audience."
+msgstr ""
+"Dokumen ini menjelaskan Python Distribution Utilities (\"Distutils\") dari "
+"sudut pandang pengembang modul, menjelaskan kemampuan yang mendasari yang "
+"``setuptools`` dibangun untuk memungkinkan pengembang Python membuat modul "
+"dan ekstensi Python tersedia untuk audiens yang lebih luas."

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Elmo Allistair, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 04:23+0000\n"
+"PO-Revision-Date: 2021-04-02 20:35+0700\n"
+"Last-Translator: Elmo Allistair, 2021\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2\n"
+
+#: ../../c-api/file.rst:6
+msgid "File Objects"
+msgstr "Objek File"
+
+#: ../../c-api/file.rst:10
+msgid ""
+"These APIs are a minimal emulation of the Python 2 C API for built-in file "
+"objects, which used to rely on the buffered I/O (:c:type:`FILE*`) support "
+"from the C standard library.  In Python 3, files and streams use the new :"
+"mod:`io` module, which defines several layers over the low-level unbuffered "
+"I/O of the operating system.  The functions described below are convenience "
+"C wrappers over these new APIs, and meant mostly for internal error "
+"reporting in the interpreter; third-party code is advised to access the :"
+"mod:`io` APIs instead."
+msgstr ""
+"API ini adalah emulasi minimal Python 2 C API untuk objek file bawaan, yang "
+"biasanya mengandalkan dukungan I/O (:c:type:`FILE*`) yang di-buffer dari "
+"pustaka standar C. Dalam Python 3, file dan aliran menggunakan modul baru :"
+"mod:`io`, yang mendefinisikan beberapa lapisan di atas I/O tanpa buffer "
+"dari sistem operasi tingkat rendah . Fungsi yang dijelaskan di bawah ini "
+"adalah pembungkus kenyamanan C atas API baru ini, dan sebagian besar "
+"dimaksudkan untuk pelaporan kesalahan internal di interpreter; kode pihak "
+"ketiga disarankan untuk mengakses :mod:`io` APIs sebagai gantinya."
+
+#: ../../c-api/file.rst:22
+msgid ""
+"Create a Python file object from the file descriptor of an already opened "
+"file *fd*.  The arguments *name*, *encoding*, *errors* and *newline* can be "
+"``NULL`` to use the defaults; *buffering* can be *-1* to use the default. "
+"*name* is ignored and kept for backward compatibility. Return ``NULL`` on "
+"failure. For a more comprehensive description of the arguments, please "
+"refer to the :func:`io.open` function documentation."
+msgstr ""
+"Membuat objek file Python dari deskriptor file dari file yang sudah dibuka "
+"*fd*. Argumen *name*, *encoding*, *errors* dan * newline* bisa ``NULL`` "
+"untuk menggunakan nilai default; *buffering* bisa *-1* untuk menggunakan "
+"default. *name* diabaikan dan disimpan untuk kompatibilitas ke belakang. "
+"Mengembalikan ``NULL`` jika gagal. Untuk penjelasan yang lebih lengkap "
+"tentang argumen, silakan merujuk ke dokumentasi fungsi  :func:`io.open`."
+
+#: ../../c-api/file.rst:31
+msgid ""
+"Since Python streams have their own buffering layer, mixing them with OS-"
+"level file descriptors can produce various issues (such as unexpected "
+"ordering of data)."
+msgstr ""
+"Karena aliran Python memiliki lapisan penyangga sendiri, mencampurnya "
+"dengan deskriptor file tingkat OS dapat menghasilkan berbagai masalah "
+"(seperti pengurutan data yang tidak terduga)."
+
+#: ../../c-api/file.rst:35
+msgid "Ignore *name* attribute."
+msgstr "Abaikan atribut *name*."
+
+#: ../../c-api/file.rst:41
+msgid ""
+"Return the file descriptor associated with *p* as an :c:type:`int`.  If the "
+"object is an integer, its value is returned.  If not, the object's :meth:"
+"`~io.IOBase.fileno` method is called if it exists; the method must return "
+"an integer, which is returned as the file descriptor value.  Sets an "
+"exception and returns ``-1`` on failure."
+msgstr ""
+"Mengembalikan deskriptor file yang terkait dengan *p* sebagai :c:type:"
+"`int`. Jika objek adalah bilangan bulat, nilainya dikembalikan. Jika tidak, "
+"metode objek :meth:`~io.IOBase.fileno` akan dipanggil jika ada; metode "
+"harus mengembalikan bilangan bulat, yang dikembalikan sebagai nilai "
+"deskriptor file. Menetapkan pengecualian dan mengembalikan ``-1`` jika "
+"gagal."
+
+#: ../../c-api/file.rst:52
+msgid ""
+"Equivalent to ``p.readline([n])``, this function reads one line from the "
+"object *p*.  *p* may be a file object or any object with a :meth:`~io."
+"IOBase.readline` method.  If *n* is ``0``, exactly one line is read, "
+"regardless of the length of the line.  If *n* is greater than ``0``, no "
+"more than *n* bytes will be read from the file; a partial line can be "
+"returned.  In both cases, an empty string is returned if the end of the "
+"file is reached immediately.  If *n* is less than ``0``, however, one line "
+"is read regardless of length, but :exc:`EOFError` is raised if the end of "
+"the file is reached immediately."
+msgstr ""
+"Setara dengan ``p.readline([n])``, fungsi ini membaca satu baris dari objek "
+"*p*. *p* dapat berupa objek file atau objek apa pun dengan metode :meth:"
+"`~io.IOBase.readline`. Jika *n* adalah ``0``, tepat satu baris terbaca, "
+"berapa pun panjang barisnya. Jika *n* lebih besar dari ``0``, tidak lebih "
+"dari *n* byte yang akan dibaca dari file; garis parsial dapat dikembalikan. "
+"Dalam kedua kasus, string kosong dikembalikan jika akhir file dicapai "
+"dengan segera. Jika *n* lebih kecil dari ``0``, bagaimanapun, satu baris "
+"dibaca berapa pun panjangnya, tapi :exc:`EOFError` dimunculkan jika akhir "
+"file dicapai dengan segera."
+
+#: ../../c-api/file.rst:65
+msgid ""
+"Overrides the normal behavior of :func:`io.open_code` to pass its parameter "
+"through the provided handler."
+msgstr ""
+"Mengganti perilaku normal :func:`io.open_code` untuk meneruskan "
+"parameternya melalui penangan yang disediakan."
+
+#: ../../c-api/file.rst:68
+msgid ""
+"The handler is a function of type :c:type:`PyObject *(\\*)(PyObject *path, "
+"void *userData)`, where *path* is guaranteed to be :c:type:"
+"`PyUnicodeObject`."
+msgstr ""
+"Handler adalah fungsi dari tipe :c:type:`PyObject *(\\*)(PyObject *path, "
+"void *userData)`, di mana *path* dijamin menjadi :c:type:`PyUnicodeObject`."
+
+#: ../../c-api/file.rst:71
+msgid ""
+"The *userData* pointer is passed into the hook function. Since hook "
+"functions may be called from different runtimes, this pointer should not "
+"refer directly to Python state."
+msgstr ""
+"Pointer *userData* diteruskan ke fungsi hook. Karena fungsi hook dapat "
+"dipanggil dari runtime yang berbeda, pointer ini tidak boleh merujuk "
+"langsung ke status Python."
+
+#: ../../c-api/file.rst:75
+msgid ""
+"As this hook is intentionally used during import, avoid importing new "
+"modules during its execution unless they are known to be frozen or "
+"available in ``sys.modules``."
+msgstr ""
+"Karena hook ini sengaja digunakan selama impor, hindari mengimpor modul "
+"baru selama eksekusinya kecuali jika mereka diketahui telah dibekukan atau "
+"tersedia di ``sys.modules``."
+
+#: ../../c-api/file.rst:79
+msgid ""
+"Once a hook has been set, it cannot be removed or replaced, and later calls "
+"to :c:func:`PyFile_SetOpenCodeHook` will fail. On failure, the function "
+"returns -1 and sets an exception if the interpreter has been initialized."
+msgstr ""
+"Setelah hook diatur, hook tidak dapat dilepas atau diganti, dan panggilan "
+"ke :c:func:`PyFile_SetOpenCodeHook` akan gagal. Jika gagal, fungsi "
+"mengembalikan -1 dan mengatur pengecualian jika interpreter telah "
+"diinisialisasi."
+
+#: ../../c-api/file.rst:83
+msgid "This function is safe to call before :c:func:`Py_Initialize`."
+msgstr "Fungsi ini aman untuk dipanggil sebelum :c:func:`Py_Initialize`."
+
+#: ../../c-api/file.rst:86
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``setopencodehook`` with no "
+"arguments."
+msgstr ""
+
+#: ../../c-api/file.rst:95
+msgid ""
+"Write object *obj* to file object *p*.  The only supported flag for *flags* "
+"is :const:`Py_PRINT_RAW`; if given, the :func:`str` of the object is "
+"written instead of the :func:`repr`.  Return ``0`` on success or ``-1`` on "
+"failure; the appropriate exception will be set."
+msgstr ""
+"Menulis objek *obj* ke file objek *p*. Satu-satunya tanda yang didukung "
+"untuk *flags* adalah :const:`Py_PRINT_RAW`; jika diberikan, fungsi :func:"
+"`str` dari objek akan dituliskan sebagai pengganti :func:`repr`. "
+"Mengembalikan ``0`` saat sukses atau ``-1`` saat gagal; pengecualian yang "
+"sesuai akan ditetapkan."
+
+#: ../../c-api/file.rst:103
+msgid ""
+"Write string *s* to file object *p*.  Return ``0`` on success or ``-1`` on "
+"failure; the appropriate exception will be set."
+msgstr ""
+"Menulis string *s* ke file objek *p*. Mengembalikan ``0`` saat sukses atau "
+"``-1`` saat gagal; pengecualian yang sesuai akan ditetapkan."

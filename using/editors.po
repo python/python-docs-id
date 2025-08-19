@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2019-07-19 03:03+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../using/editors.rst:7
+msgid "Editors and IDEs"
+msgstr "Editor dan IDE"
+
+#: ../../using/editors.rst:9
+msgid ""
+"There are a number of IDEs that support Python programming language. Many "
+"editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
+"checks."
+msgstr ""
+"Ada banyak IDE yang mendukung bahasa program Python. Banyak editor dan IDE "
+"menyediakan *highlight syntax*, alat *debugging*, dan menguji :pep:`8` "
+
+#: ../../using/editors.rst:12
+msgid ""
+"Please go to `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ "
+"and `Integrated Development Environments "
+"<https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a "
+"comprehensive list."
+msgstr ""
+"Silahkan mengunjungi `Python Editors "
+"<https://wiki.python.org/moin/PythonEditors>`_ dan `Integrated Development "
+"Environments "
+"<https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ untuk "
+"daftar selengkapnya"

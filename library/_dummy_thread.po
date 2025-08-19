@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Elmo Allistair <work.elmoallistair@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"PO-Revision-Date: 2017-02-16 17:47+0000\n"
+"Last-Translator: Elmo Allistair <work.elmoallistair@gmail.com>, 2021\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/_dummy_thread.rst:2
+msgid ""
+":mod:`_dummy_thread` --- Drop-in replacement for the :mod:`_thread` module"
+msgstr ":mod:`_dummy_thread` --- Drop-in pengganti untuk modul :mod:`_thread`"
+
+#: ../../library/_dummy_thread.rst:7
+msgid "**Source code:** :source:`Lib/_dummy_thread.py`"
+msgstr "**Kode sumber:** :source:`Lib/_dummy_thread.py`"
+
+#: ../../library/_dummy_thread.rst:9
+msgid ""
+"Python now always has threading enabled.  Please use :mod:`_thread` (or, "
+"better, :mod:`threading`) instead."
+msgstr ""
+"Python sekarang selalu mengaktifkan threading. Gunakan :mod:`_thread` (atau,"
+" lebih baik, :mod:`threading`) sebagai gantinya."
+
+#: ../../library/_dummy_thread.rst:15
+msgid ""
+"This module provides a duplicate interface to the :mod:`_thread` module. It "
+"was meant to be imported when the :mod:`_thread` module was not provided on "
+"a platform."
+msgstr ""
+"Modul ini menyediakan duplikat antarmuka ke modul :mod:`_thread`. Itu "
+"dimaksudkan untuk diimpor ketika modul :mod:`_thread` tidak tersedia di "
+"platform."
+
+#: ../../library/_dummy_thread.rst:19
+msgid ""
+"Be careful to not use this module where deadlock might occur from a thread "
+"being created that blocks waiting for another thread to be created.  This "
+"often occurs with blocking I/O."
+msgstr ""

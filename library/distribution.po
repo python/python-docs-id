@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Septian Hari <septianhari@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 12:12+0000\n"
+"PO-Revision-Date: 2017-02-16 23:07+0000\n"
+"Last-Translator: Septian Hari <septianhari@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/distribution.rst:3
+msgid "Software Packaging and Distribution"
+msgstr "Pengemasan dan Distribusi Perangkat Lunak"
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/distribution.rst:5
+msgid ""
+"These libraries help you with publishing and installing Python software. "
+"While these modules are designed to work in conjunction with the `Python "
+"Package Index <https://pypi.org>`__, they can also be used with a local "
+"index server, or without any index server at all."
+msgstr ""
+"Pustaka ini membantu Anda dengan menerbitkan dan melakukan instalasi "
+"perangkat lunak Python. Sementara modul-modul ini dirancang untuk bekerja "
+"bersama dengan `Python Package Index <https://pypi.org>` __, mereka juga "
+"dapat digunakan dengan server indeks lokal, atau tanpa server indeks sama "
+"sekali."

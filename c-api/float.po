@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2021, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Elmo Allistair, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
+"PO-Revision-Date: 2021-04-02 20:30+0700\n"
+"Last-Translator: Elmo Allistair, 2021\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2\n"
+
+#: ../../c-api/float.rst:6
+msgid "Floating Point Objects"
+msgstr "Objek Pecahan"
+
+#: ../../c-api/float.rst:13
+msgid ""
+"This subtype of :c:type:`PyObject` represents a Python floating point "
+"object."
+msgstr "Subtipe dari :c:type:`PyObject` ini mewakili objek pecahan Python."
+
+#: ../../c-api/float.rst:18
+msgid ""
+"This instance of :c:type:`PyTypeObject` represents the Python floating "
+"point type.  This is the same object as :class:`float` in the Python layer."
+msgstr ""
+"Instance dari :c:type:`PyTypeObject` ini mewakili tipe pecahan Python. Ini "
+"adalah objek yang sama dengan :class:`float` di lapisan Python."
+
+#: ../../c-api/float.rst:24
+msgid ""
+"Return true if its argument is a :c:type:`PyFloatObject` or a subtype of "
+":c:type:`PyFloatObject`.  This function always succeeds."
+msgstr ""
+"Mengambalikan nilai true jika argumennya adalah :c:type:`PyFloatObject` "
+"atau subtipe dari :c:type:`PyFloatObject`. Fungsi ini selalu sukses."
+
+#: ../../c-api/float.rst:30
+msgid ""
+"Return true if its argument is a :c:type:`PyFloatObject`, but not a subtype "
+"of :c:type:`PyFloatObject`.  This function always succeeds."
+msgstr ""
+"Mengambalikan nilai true jika argumennya adalah :c:type:`PyFloatObject`, "
+"tetapi bukan subtipe dari :c:type:`PyFloatObject`."
+
+#: ../../c-api/float.rst:36
+msgid ""
+"Create a :c:type:`PyFloatObject` object based on the string value in *str*, "
+"or ``NULL`` on failure."
+msgstr ""
+"Membuat objek :c:type:`PyFloatObject` berdasarkan nilai string di *str*, "
+"atau ``NULL`` jika gagal."
+
+#: ../../c-api/float.rst:42
+msgid ""
+"Create a :c:type:`PyFloatObject` object from *v*, or ``NULL`` on failure."
+msgstr ""
+"Membuat objek :c:type:`PyFloatObject` dari *v*, atau ``NULL`` jika gagal."
+
+#: ../../c-api/float.rst:47
+msgid ""
+"Return a C :c:type:`double` representation of the contents of *pyfloat*.  "
+"If *pyfloat* is not a Python floating point object but has a :meth:"
+"`__float__` method, this method will first be called to convert *pyfloat* "
+"into a float. If ``__float__()`` is not defined then it falls back to :meth:"
+"`__index__`. This method returns ``-1.0`` upon failure, so one should call :"
+"c:func:`PyErr_Occurred` to check for errors."
+msgstr ""
+"Mengembalikan representasi C :c:type:`double` dari konten *pyfloat*. Jika "
+"*pyfloat* bukan objek pecahan Python tetapi memiliki metode :meth:"
+"`__float__`, metode ini pertama-tama akan dipanggil untuk mengubah "
+"*pyfloat* menjadi float. Jika ``__float__ ()`` tidak ditentukan maka "
+"kembali ke :meth:`__index__`. Metode ini mengembalikan ``-1.0`` setelah "
+"gagal, jadi seseorang harus memanggil :c:func:`PyErr_Occurred` untuk "
+"memeriksa kesalahan."
+
+#: ../../c-api/float.rst:54
+msgid "Use :meth:`__index__` if available."
+msgstr "Gunakan :meth:`__index__` jika tersedia."
+
+#: ../../c-api/float.rst:60
+msgid ""
+"Return a C :c:type:`double` representation of the contents of *pyfloat*, "
+"but without error checking."
+msgstr ""
+"Mengembalikan representasi C :c:type:`double` dari konten *pyfloat*, tetapi "
+"tanpa pemeriksaan error."
+
+#: ../../c-api/float.rst:66
+msgid ""
+"Return a structseq instance which contains information about the precision, "
+"minimum and maximum values of a float. It's a thin wrapper around the "
+"header file :file:`float.h`."
+msgstr ""
+"Mengembalikan instance structseq yang berisi informasi tentang presisi, "
+"nilai minimum dan maksimum float. Ini adalah pembungkus tipis di sekitar "
+"file header :file:`float.h`."
+
+#: ../../c-api/float.rst:73
+msgid ""
+"Return the maximum representable finite float *DBL_MAX* as C :c:type:"
+"`double`."
+msgstr ""
+"Mengembalikan float maksimum yang dapat direpresentasikan *DBL_MAX* sebagai "
+"C :c:type:`double`."
+
+#: ../../c-api/float.rst:78
+msgid ""
+"Return the minimum normalized positive float *DBL_MIN* as C :c:type:"
+"`double`."
+msgstr ""
+"Mengembalikan float positif minimum yang dinormalisasi *DBL_MIN* sebagai C :"
+"c:type:`double`."

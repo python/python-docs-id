@@ -1,0 +1,855 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2019, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"PO-Revision-Date: 2017-02-16 23:41+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../tutorial/modules.rst:5
+msgid "Modules"
+msgstr "Modul-Modul"
+
+#: ../../tutorial/modules.rst:7
+msgid ""
+"If you quit from the Python interpreter and enter it again, the definitions "
+"you have made (functions and variables) are lost. Therefore, if you want to "
+"write a somewhat longer program, you are better off using a text editor to "
+"prepare the input for the interpreter and running it with that file as input"
+" instead.  This is known as creating a *script*.  As your program gets "
+"longer, you may want to split it into several files for easier maintenance."
+"  You may also want to use a handy function that you've written in several "
+"programs without copying its definition into each program."
+msgstr ""
+"Jika Anda berhenti dari *interpreter* Python dan memasukkannya lagi, "
+"definisi yang Anda buat (fungsi dan variabel) akan hilang. Karena itu, jika "
+"Anda ingin menulis program yang agak lebih panjang, Anda lebih baik "
+"menggunakan editor teks untuk menyiapkan input bagi penerjemah dan "
+"menjalankannya dengan file itu sebagai input. Ini dikenal sebagai membuat "
+"*script*. Saat program Anda menjadi lebih panjang, Anda mungkin ingin "
+"membaginya menjadi beberapa file untuk pengelolaan yang lebih mudah. Anda "
+"mungkin juga ingin menggunakan fungsi praktis yang Anda tulis di beberapa "
+"program tanpa menyalin definisi ke setiap program."
+
+#: ../../tutorial/modules.rst:16
+msgid ""
+"To support this, Python has a way to put definitions in a file and use them "
+"in a script or in an interactive instance of the interpreter. Such a file is"
+" called a *module*; definitions from a module can be *imported* into other "
+"modules or into the *main* module (the collection of variables that you have"
+" access to in a script executed at the top level and in calculator mode)."
+msgstr ""
+"Untuk mendukung ini, Python memiliki cara untuk meletakkan definisi dalam "
+"file dan menggunakannya dalam skrip atau dalam contoh interaktif dari "
+"*interpreter*. File seperti itu disebut *module*; definisi dari modul dapat "
+"*imported* ke modul lain atau ke modul *main* (kumpulan variabel yang Anda "
+"memiliki akses ke dalam skrip yang dieksekusi di tingkat atas dan dalam mode"
+" kalkulator)."
+
+#: ../../tutorial/modules.rst:22
+msgid ""
+"A module is a file containing Python definitions and statements.  The file "
+"name is the module name with the suffix :file:`.py` appended.  Within a "
+"module, the module's name (as a string) is available as the value of the "
+"global variable ``__name__``.  For instance, use your favorite text editor "
+"to create a file called :file:`fibo.py` in the current directory with the "
+"following contents::"
+msgstr ""
+"Modul adalah file yang berisi definisi dan pernyataan Python. Nama berkas "
+"adalah nama modul dengan akhiran :file:`.py` diakhirnya. Dalam sebuah modul,"
+" nama modul (sebagai string) tersedia sebagai nilai variabel global "
+"``__name__``. Misalnya, gunakan editor teks favorit Anda untuk membuat "
+"bernama bernama :file:`fibo.py` di direktori saat ini dengan konten berikut "
+"::"
+
+#: ../../tutorial/modules.rst:45
+msgid ""
+"Now enter the Python interpreter and import this module with the following "
+"command::"
+msgstr ""
+"Sekarang masukkan interpreter Python dan impor modul ini dengan perintah "
+"berikut::"
+
+#: ../../tutorial/modules.rst:50
+msgid ""
+"This does not enter the names of the functions defined in ``fibo``  directly"
+" in the current symbol table; it only enters the module name ``fibo`` there."
+" Using the module name you can access the functions::"
+msgstr ""
+"Ini tidak memasukkan nama fungsi yang didefinisikan dalam ``fibo`` secara "
+"langsung dalam tabel simbol saat ini; itu hanya memasukkan nama modul "
+"``fibo`` di sana. Menggunakan nama modul Anda dapat mengakses fungsi::"
+
+#: ../../tutorial/modules.rst:61
+msgid ""
+"If you intend to use a function often you can assign it to a local name::"
+msgstr ""
+"Jika Anda sering ingin menggunakan suatu fungsi, Anda dapat menetapkannya ke"
+" nama lokal::"
+
+#: ../../tutorial/modules.rst:71
+msgid "More on Modules"
+msgstr "Lebih lanjut tentang Modul"
+
+#: ../../tutorial/modules.rst:73
+msgid ""
+"A module can contain executable statements as well as function definitions. "
+"These statements are intended to initialize the module. They are executed "
+"only the *first* time the module name is encountered in an import statement."
+" [#]_ (They are also run if the file is executed as a script.)"
+msgstr ""
+"Modul dapat berisi pernyataan yang dapat dieksekusi serta definisi fungsi. "
+"Pernyataan ini dimaksudkan untuk menginisialisasi modul. Mereka dieksekusi "
+"hanya *first* kali nama modul ditemui dalam pernyataan impor. [#]_ (Mereka "
+"juga dijalankan jika file dieksekusi sebagai skrip.)"
+
+#: ../../tutorial/modules.rst:78
+msgid ""
+"Each module has its own private symbol table, which is used as the global "
+"symbol table by all functions defined in the module. Thus, the author of a "
+"module can use global variables in the module without worrying about "
+"accidental clashes with a user's global variables. On the other hand, if you"
+" know what you are doing you can touch a module's global variables with the "
+"same notation used to refer to its functions, ``modname.itemname``."
+msgstr ""
+"Setiap modul memiliki tabel simbol pribadi sendiri, yang digunakan sebagai "
+"tabel simbol global oleh semua fungsi yang didefinisikan dalam modul. Dengan"
+" demikian, penulis modul dapat menggunakan variabel global dalam modul tanpa"
+" khawatir tentang bentrokan tidak disengaja dengan variabel global pengguna."
+" Di sisi lain, jika Anda tahu apa yang Anda lakukan, Anda dapat menyentuh "
+"variabel global modul dengan notasi yang sama yang digunakan untuk merujuk "
+"ke fungsinya, ``modname.itemname``."
+
+#: ../../tutorial/modules.rst:85
+msgid ""
+"Modules can import other modules.  It is customary but not required to place"
+" all :keyword:`import` statements at the beginning of a module (or script, "
+"for that matter).  The imported module names are placed in the importing "
+"module's global symbol table."
+msgstr ""
+"Modul dapat mengimpor modul lain. Biasanya, tetapi tidak diperlukan untuk "
+"menempatkan semua pernyataan :keyword:`import` di awal modul (atau skrip, "
+"dalam hal ini). Nama-nama modul yang diimpor ditempatkan di tabel simbol "
+"global modul impor."
+
+#: ../../tutorial/modules.rst:90
+msgid ""
+"There is a variant of the :keyword:`import` statement that imports names "
+"from a module directly into the importing module's symbol table.  For "
+"example::"
+msgstr ""
+"Ada varian dari pernyataan :keyword:`import` yang mengimpor nama dari modul "
+"langsung ke tabel simbol modul impor. Sebagai contoh::"
+
+#: ../../tutorial/modules.rst:97
+msgid ""
+"This does not introduce the module name from which the imports are taken in "
+"the local symbol table (so in the example, ``fibo`` is not defined)."
+msgstr ""
+"Ini tidak memperkenalkan nama modul dari mana impor diambil dalam tabel "
+"simbol lokal (jadi dalam contoh, ``fibo`` tidak didefinisikan)."
+
+#: ../../tutorial/modules.rst:100
+msgid "There is even a variant to import all names that a module defines::"
+msgstr ""
+"Bahkan ada varian untuk mengimpor semua nama yang didefinisikan oleh modul::"
+
+#: ../../tutorial/modules.rst:106
+msgid ""
+"This imports all names except those beginning with an underscore (``_``). In"
+" most cases Python programmers do not use this facility since it introduces "
+"an unknown set of names into the interpreter, possibly hiding some things "
+"you have already defined."
+msgstr ""
+"Ini mengimpor semua nama kecuali yang dimulai dengan garis bawah (``_``). "
+"Dalam kebanyakan kasus, programmer Python tidak menggunakan fasilitas ini "
+"karena ia memperkenalkan sekumpulan nama yang tidak diketahui ke dalam "
+"*interpreter*, mungkin menyembunyikan beberapa hal yang sudah Anda "
+"definisikan."
+
+#: ../../tutorial/modules.rst:111
+msgid ""
+"Note that in general the practice of importing ``*`` from a module or "
+"package is frowned upon, since it often causes poorly readable code. "
+"However, it is okay to use it to save typing in interactive sessions."
+msgstr ""
+"Perhatikan bahwa secara umum praktik mengimpor ``*`` dari modul atau paket "
+"tidak disukai, karena sering menyebabkan kode yang kurang dapat dibaca. "
+"Namun, boleh saja menggunakannya untuk menghemat pengetikan di sesi "
+"interaktif."
+
+#: ../../tutorial/modules.rst:115
+msgid ""
+"If the module name is followed by :keyword:`!as`, then the name following "
+":keyword:`!as` is bound directly to the imported module."
+msgstr ""
+"Jika nama modul diikuti oleh :keyword:`!as`, maka nama setelah "
+":keyword:`!as` terikat langsung ke modul yang diimpor."
+
+#: ../../tutorial/modules.rst:124
+msgid ""
+"This is effectively importing the module in the same way that ``import "
+"fibo`` will do, with the only difference of it being available as ``fib``."
+msgstr ""
+"Ini secara efektif mengimpor modul dengan cara yang sama dengan ``import "
+"fibo`` akan dilakukan, dengan satu-satunya perbedaan adalah sebagai ``fib``."
+
+#: ../../tutorial/modules.rst:127
+msgid ""
+"It can also be used when utilising :keyword:`from` with similar effects::"
+msgstr ""
+"Itu juga dapat digunakan ketika menggunakan :keyword:`from` dengan efek yang"
+" sama::"
+
+#: ../../tutorial/modules.rst:136
+msgid ""
+"For efficiency reasons, each module is only imported once per interpreter "
+"session.  Therefore, if you change your modules, you must restart the "
+"interpreter -- or, if it's just one module you want to test interactively, "
+"use :func:`importlib.reload`, e.g. ``import importlib; "
+"importlib.reload(modulename)``."
+msgstr ""
+"Untuk alasan efisiensi, setiap modul hanya diimpor satu kali per sesi "
+"*interpreter*. Karenanya, jika Anda mengubah modul, Anda harus memulai ulang"
+" *interpreter* -- atau, jika hanya satu modul yang ingin Anda uji secara "
+"interaktif, gunakan :func:`importlib.reload`, mis. ``import importlib; "
+"importlib.reload(modulename)``."
+
+#: ../../tutorial/modules.rst:146
+msgid "Executing modules as scripts"
+msgstr "Mengoperasikan modul sebagai skrip"
+
+#: ../../tutorial/modules.rst:148
+msgid "When you run a Python module with ::"
+msgstr "Ketika Anda mengoperasikan modul Python dengan ::"
+
+#: ../../tutorial/modules.rst:152
+msgid ""
+"the code in the module will be executed, just as if you imported it, but "
+"with the ``__name__`` set to ``\"__main__\"``.  That means that by adding "
+"this code at the end of your module::"
+msgstr ""
+"kode dalam modul akan dieksekusi, sama seperti jika Anda mengimpornya, "
+"tetapi dengan ``__name__`` diatur ke ``\"__main__\"``. Itu berarti bahwa "
+"dengan menambahkan kode ini di akhir modul Anda ::"
+
+#: ../../tutorial/modules.rst:160
+msgid ""
+"you can make the file usable as a script as well as an importable module, "
+"because the code that parses the command line only runs if the module is "
+"executed as the \"main\" file:"
+msgstr ""
+"Anda dapat membuat berkas dapat digunakan sebagai skrip dan juga modul yang "
+"dapat diimpor, karena kode yang mengurai *parsing* baris perintah hanya "
+"beroperasi jika modul dieksekusi sebagai berkas \"main\":"
+
+#: ../../tutorial/modules.rst:169
+msgid "If the module is imported, the code is not run::"
+msgstr "Jika modul diimpor, kode ini tidak dioperasikan ::"
+
+#: ../../tutorial/modules.rst:174
+msgid ""
+"This is often used either to provide a convenient user interface to a "
+"module, or for testing purposes (running the module as a script executes a "
+"test suite)."
+msgstr ""
+"Ini sering digunakan baik untuk menyediakan antarmuka pengguna yang nyaman "
+"ke modul, atau untuk tujuan pengujian (menjalankan modul sebagai skrip "
+"mengeksekusi rangkaian pengujian)."
+
+#: ../../tutorial/modules.rst:181
+msgid "The Module Search Path"
+msgstr "Jalur Pencarian Modul"
+
+#: ../../tutorial/modules.rst:185
+msgid ""
+"When a module named :mod:`spam` is imported, the interpreter first searches "
+"for a built-in module with that name. If not found, it then searches for a "
+"file named :file:`spam.py` in a list of directories given by the variable "
+":data:`sys.path`.  :data:`sys.path` is initialized from these locations:"
+msgstr ""
+"Ketika sebuah modul bernama :mod:`spam` diimpor, *interpreter* pertama-tama "
+"mencari modul bawaan dengan nama itu. Jika tidak ditemukan, ia kemudian "
+"mencari berkas bernama :file:`spam.py` dalam daftar direktori yang diberikan"
+" oleh variabel :data:`sys.path`. :data:`sys.path` diinisialisasi dari lokasi"
+" ini:"
+
+#: ../../tutorial/modules.rst:190
+msgid ""
+"The directory containing the input script (or the current directory when no "
+"file is specified)."
+msgstr ""
+"Direktori yang berisi skrip masukan (atau direktori saat ini ketika tidak "
+"ada file ditentukan)."
+
+#: ../../tutorial/modules.rst:192
+msgid ""
+":envvar:`PYTHONPATH` (a list of directory names, with the same syntax as the"
+" shell variable :envvar:`PATH`)."
+msgstr ""
+":envvar:`PYTHONPATH` (daftar nama direktori, dengan sintaksis yang sama "
+"dengan variabel shell :envvar:`PATH`)."
+
+#: ../../tutorial/modules.rst:194
+msgid "The installation-dependent default."
+msgstr "Bawaan yang bergantung pada instalasi."
+
+#: ../../tutorial/modules.rst:197
+msgid ""
+"On file systems which support symlinks, the directory containing the input "
+"script is calculated after the symlink is followed. In other words the "
+"directory containing the symlink is **not** added to the module search path."
+msgstr ""
+"Pada sistem file yang mendukung symlink, direktori yang berisi skrip masukan"
+" dihitung setelah symlink diikuti. Dengan kata lain direktori yang berisi "
+"symlink **not** ditambahkan ke jalur pencarian modul."
+
+#: ../../tutorial/modules.rst:201
+msgid ""
+"After initialization, Python programs can modify :data:`sys.path`.  The "
+"directory containing the script being run is placed at the beginning of the "
+"search path, ahead of the standard library path. This means that scripts in "
+"that directory will be loaded instead of modules of the same name in the "
+"library directory. This is an error unless the replacement is intended.  See"
+" section :ref:`tut-standardmodules` for more information."
+msgstr ""
+"Setelah inisialisasi, program Python dapat memodifikasi: data :`sys.path`. "
+"Direktori yang berisi skrip yang dijalankan ditempatkan di awal jalur "
+"pencarian, di depan jalur pustaka standar. Ini berarti bahwa skrip dalam "
+"direktori itu akan dimuat bukan modul dengan nama yang sama di direktori "
+"pustaka. Ini adalah kesalahan kecuali penggantian memang diharapkan. Lihat "
+"bagian :ref:`tut-standardmodules` untuk informasi lebih lanjut."
+
+#: ../../tutorial/modules.rst:212
+msgid "\"Compiled\" Python files"
+msgstr "Berkas Python \"Compiled\""
+
+#: ../../tutorial/modules.rst:214
+msgid ""
+"To speed up loading modules, Python caches the compiled version of each "
+"module in the ``__pycache__`` directory under the name "
+":file:`module.{version}.pyc`, where the version encodes the format of the "
+"compiled file; it generally contains the Python version number.  For "
+"example, in CPython release 3.3 the compiled version of spam.py would be "
+"cached as ``__pycache__/spam.cpython-33.pyc``.  This naming convention "
+"allows compiled modules from different releases and different versions of "
+"Python to coexist."
+msgstr ""
+"Untuk mempercepat memuat modul, Python menyimpan *cache* versi terkompilasi "
+"dari setiap modul di direktori ``__pycache__`` dengan nama :file:`module. "
+"{version}.pyc`, di mana versi menyandikan format berkas terkompilasi; "
+"umumnya berisi nomor versi Python. Misalnya, dalam rilis CPython 3.3 versi "
+"yang dikompilasi dari spam.py akan di-*cache* sebagai "
+"``__pycache__/spam.cpython-33.pyc``. Konvensi penamaan ini memungkinkan "
+"modul yang dikompilasi dari rilis yang beragam dan versi Python yang berbeda"
+" untuk hidup berdampingan."
+
+#: ../../tutorial/modules.rst:222
+msgid ""
+"Python checks the modification date of the source against the compiled "
+"version to see if it's out of date and needs to be recompiled.  This is a "
+"completely automatic process.  Also, the compiled modules are platform-"
+"independent, so the same library can be shared among systems with different "
+"architectures."
+msgstr ""
+"Python memeriksa tanggal modifikasi sumber terhadap versi yang dikompilasi "
+"untuk melihat apakah itu kedaluwarsa dan perlu dikompilasi ulang. Ini adalah"
+" proses yang sepenuhnya otomatis. Juga, modul yang dikompilasi adalah "
+"platform-independen, sehingga perpustakaan yang sama dapat dibagi di antara "
+"sistem dengan arsitektur yang berbeda."
+
+#: ../../tutorial/modules.rst:227
+msgid ""
+"Python does not check the cache in two circumstances.  First, it always "
+"recompiles and does not store the result for the module that's loaded "
+"directly from the command line.  Second, it does not check the cache if "
+"there is no source module.  To support a non-source (compiled only) "
+"distribution, the compiled module must be in the source directory, and there"
+" must not be a source module."
+msgstr ""
+"Python tidak memeriksa *cache* dalam dua keadaan. Pertama, selalu "
+"mengkompilasi ulang dan tidak menyimpan hasil untuk modul yang dimuat "
+"langsung dari baris perintah. Kedua, itu tidak memeriksa *cache* jika tidak "
+"ada modul sumber. Untuk mendukung distribusi non-sumber (dikompilasi saja), "
+"modul yang dikompilasi harus ada di direktori sumber, dan tidak boleh ada "
+"modul sumber."
+
+#: ../../tutorial/modules.rst:234
+msgid "Some tips for experts:"
+msgstr "Beberapa tips untuk para ahli:"
+
+#: ../../tutorial/modules.rst:236
+msgid ""
+"You can use the :option:`-O` or :option:`-OO` switches on the Python command"
+" to reduce the size of a compiled module.  The ``-O`` switch removes assert "
+"statements, the ``-OO`` switch removes both assert statements and __doc__ "
+"strings.  Since some programs may rely on having these available, you should"
+" only use this option if you know what you're doing.  \"Optimized\" modules "
+"have an ``opt-`` tag and are usually smaller.  Future releases may change "
+"the effects of optimization."
+msgstr ""
+"Anda dapat menggunakan :option:`-O` atau :option:`-OO` mengaktifkan perintah"
+" Python untuk mengurangi ukuran modul yang dikompilasi. Saklar ``-O`` "
+"menghapus pernyataan tegas *assert*, saklar ``-OO`` menghapus pernyataan "
+"tegas *assert* dan string __doc__. Karena beberapa program bergantung pada "
+"ketersediaannya, Anda hanya boleh menggunakan opsi ini jika Anda tahu apa "
+"yang Anda lakukan. Modul \"Optimized\" memiliki tag ``opt-`` dan biasanya "
+"lebih kecil. Rilis di masa depan dapat mengubah efek pengoptimalan."
+
+#: ../../tutorial/modules.rst:244
+msgid ""
+"A program doesn't run any faster when it is read from a ``.pyc`` file than "
+"when it is read from a ``.py`` file; the only thing that's faster about "
+"``.pyc`` files is the speed with which they are loaded."
+msgstr ""
+"Suatu program tidak berjalan lebih cepat ketika itu dibaca dari file "
+"``.pyc`` daripada ketika itu dibaca dari file ``.py``; satu-satunya hal yang"
+" lebih cepat tentang berkas ``.pyc`` adalah kecepatan memuatnya."
+
+#: ../../tutorial/modules.rst:248
+msgid ""
+"The module :mod:`compileall` can create .pyc files for all modules in a "
+"directory."
+msgstr ""
+"Modul :mod:`compileall` dapat membuat berkas .pyc untuk semua modul dalam "
+"direktori."
+
+#: ../../tutorial/modules.rst:251
+msgid ""
+"There is more detail on this process, including a flow chart of the "
+"decisions, in :pep:`3147`."
+msgstr ""
+"Ada detail lebih lanjut tentang proses ini, termasuk bagan alur keputusan, "
+"di :pep:`3147`."
+
+#: ../../tutorial/modules.rst:258
+msgid "Standard Modules"
+msgstr "Modul Standar"
+
+#: ../../tutorial/modules.rst:262
+msgid ""
+"Python comes with a library of standard modules, described in a separate "
+"document, the Python Library Reference (\"Library Reference\" hereafter).  "
+"Some modules are built into the interpreter; these provide access to "
+"operations that are not part of the core of the language but are "
+"nevertheless built in, either for efficiency or to provide access to "
+"operating system primitives such as system calls.  The set of such modules "
+"is a configuration option which also depends on the underlying platform.  "
+"For example, the :mod:`winreg` module is only provided on Windows systems. "
+"One particular module deserves some attention: :mod:`sys`, which is built "
+"into every Python interpreter.  The variables ``sys.ps1`` and ``sys.ps2`` "
+"define the strings used as primary and secondary prompts::"
+msgstr ""
+"Python dilengkapi dengan pustaka modul standar, yang dijelaskan dalam "
+"dokumen terpisah, Referensi Pustaka Python (\"Library Reference\" "
+"selanjutnya). Beberapa modul dibangun ke dalam interpreter; ini menyediakan "
+"akses ke operasi yang bukan bagian dari inti bahasa tetapi tetap dibangun, "
+"baik untuk efisiensi atau untuk menyediakan akses ke sistem operasi primitif"
+" seperti pemanggilan sistem. Himpunan modul tersebut adalah opsi konfigurasi"
+" yang juga tergantung pada platform yang mendasarinya. Sebagai contoh, modul"
+" :mod:`winreg` hanya disediakan pada sistem Windows. Satu modul tertentu "
+"patut mendapat perhatian: :mod:`sys`, yang dibangun ke dalam setiap "
+"interpreter Python. Variabel ``sys.ps1`` dan ``sys.ps2`` menentukan string "
+"yang digunakan sebagai prompt primer dan sekunder ::"
+
+#: ../../tutorial/modules.rst:285
+msgid ""
+"These two variables are only defined if the interpreter is in interactive "
+"mode."
+msgstr ""
+"Kedua variabel ini hanya ditentukan jika interpreter dalam mode interaktif."
+
+#: ../../tutorial/modules.rst:287
+msgid ""
+"The variable ``sys.path`` is a list of strings that determines the "
+"interpreter's search path for modules. It is initialized to a default path "
+"taken from the environment variable :envvar:`PYTHONPATH`, or from a built-in"
+" default if :envvar:`PYTHONPATH` is not set.  You can modify it using "
+"standard list operations::"
+msgstr ""
+"Variabel ``sys.path`` adalah daftar string yang menentukan jalur pencarian "
+"*interpreter* untuk modul. Ini diinisialisasi ke jalur default yang diambil "
+"dari variabel lingkungan :envvar:`PYTHONPATH`, atau dari bawaan bawaan jika "
+":envvar:`PYTHONPATH` tidak disetel. Anda dapat memodifikasinya menggunakan "
+"operasi standar untuk *list*::"
+
+#: ../../tutorial/modules.rst:300
+msgid "The :func:`dir` Function"
+msgstr "Fungsi :func:`dir`"
+
+#: ../../tutorial/modules.rst:302
+msgid ""
+"The built-in function :func:`dir` is used to find out which names a module "
+"defines.  It returns a sorted list of strings::"
+msgstr ""
+"Fungsi bawaan :func:`dir` digunakan untuk mencari tahu nama-nama yang "
+"ditentukan oleh modul. Ia mengembalikan *list* string yang diurutkan::"
+
+#: ../../tutorial/modules.rst:327
+msgid ""
+"Without arguments, :func:`dir` lists the names you have defined currently::"
+msgstr ""
+"Tanpa argumen, :func:`dir` mencantumkan nama yang telah Anda tentukan saat "
+"ini::"
+
+#: ../../tutorial/modules.rst:335
+msgid ""
+"Note that it lists all types of names: variables, modules, functions, etc."
+msgstr ""
+"Perhatikan bahwa ini mencantumkan semua jenis nama: variabel, modul, fungsi,"
+" dll."
+
+#: ../../tutorial/modules.rst:339
+msgid ""
+":func:`dir` does not list the names of built-in functions and variables.  If"
+" you want a list of those, they are defined in the standard module "
+":mod:`builtins`::"
+msgstr ""
+":func:`dir` tidak mencantumkan nama fungsi dan variabel bawaan. Jika Anda "
+"ingin daftar itu, mereka didefinisikan dalam modul standar :mod:`builtins`::"
+
+#: ../../tutorial/modules.rst:378
+msgid "Packages"
+msgstr "Paket"
+
+#: ../../tutorial/modules.rst:380
+msgid ""
+"Packages are a way of structuring Python's module namespace by using "
+"\"dotted module names\".  For example, the module name :mod:`A.B` designates"
+" a submodule named ``B`` in a package named ``A``.  Just like the use of "
+"modules saves the authors of different modules from having to worry about "
+"each other's global variable names, the use of dotted module names saves the"
+" authors of multi-module packages like NumPy or Pillow from having to worry "
+"about each other's module names."
+msgstr ""
+"Paket adalah cara penataan *namespace* modul Python dengan menggunakan "
+"\"dotted module names\". Sebagai contoh, nama modul :mod:`A.B` menetapkan "
+"submodule bernama ``B`` dalam sebuah paket bernama ``A``. Sama seperti "
+"penggunaan modul menyelamatkan penulis modul yang berbeda dari harus "
+"khawatir tentang nama variabel global masing-masing, penggunaan nama modul "
+"bertitik menyelamatkan penulis paket multi-modul seperti NumPy atau Pillow "
+"dari harus khawatir tentang nama modul masing-masing ."
+
+#: ../../tutorial/modules.rst:388
+msgid ""
+"Suppose you want to design a collection of modules (a \"package\") for the "
+"uniform handling of sound files and sound data.  There are many different "
+"sound file formats (usually recognized by their extension, for example: "
+":file:`.wav`, :file:`.aiff`, :file:`.au`), so you may need to create and "
+"maintain a growing collection of modules for the conversion between the "
+"various file formats. There are also many different operations you might "
+"want to perform on sound data (such as mixing, adding echo, applying an "
+"equalizer function, creating an artificial stereo effect), so in addition "
+"you will be writing a never-ending stream of modules to perform these "
+"operations.  Here's a possible structure for your package (expressed in "
+"terms of a hierarchical filesystem):"
+msgstr ""
+"Misalkan Anda ingin merancang koleksi modul (\"paket\") untuk penanganan "
+"berkas suara dan data suara yang seragam. Ada banyak format berkas suara "
+"yang berbeda (biasanya dikenali oleh ekstensi mereka, misalnya: "
+":file:`.wav`, :file:`.aiff`, :file:`.au`), jadi Anda mungkin perlu membuat "
+"dan memelihara koleksi modul yang terus bertambah untuk konversi antara "
+"berbagai format file. Ada juga banyak operasi berbeda yang mungkin ingin "
+"Anda lakukan pada data suara (seperti mencampur, menambahkan gema, "
+"menerapkan fungsi equalizer, menciptakan efek stereo buatan), jadi selain "
+"itu Anda akan menulis aliran modul tanpa henti untuk melakukan operasi ini. "
+"Berikut adalah struktur yang mungkin untuk paket Anda (dinyatakan dalam "
+"hierarki sistem file):"
+
+#: ../../tutorial/modules.rst:425
+msgid ""
+"When importing the package, Python searches through the directories on "
+"``sys.path`` looking for the package subdirectory."
+msgstr ""
+"Saat mengimpor paket, Python mencari melalui direktori pada ``sys.path`` "
+"mencari subdirektori paket."
+
+#: ../../tutorial/modules.rst:428
+msgid ""
+"The :file:`__init__.py` files are required to make Python treat directories "
+"containing the file as packages.  This prevents directories with a common "
+"name, such as ``string``, unintentionally hiding valid modules that occur "
+"later on the module search path. In the simplest case, :file:`__init__.py` "
+"can just be an empty file, but it can also execute initialization code for "
+"the package or set the ``__all__`` variable, described later."
+msgstr ""
+"Berkas :file:`__init__.py` diperlukan untuk membuat Python memperlakukan "
+"direktori yang berisi file sebagai paket. Ini mencegah direktori dengan nama"
+" umum, seperti ``string``, menyembunyikan modul valid yang muncul kemudian "
+"pada jalur pencarian modul. Dalam kasus yang paling sederhana, :file: "
+"`__init__.py` dapat berupa file kosong, tetapi juga dapat menjalankan kode "
+"inisialisasi untuk paket atau mengatur variabel ``__all__``, dijelaskan "
+"nanti."
+
+#: ../../tutorial/modules.rst:435
+msgid ""
+"Users of the package can import individual modules from the package, for "
+"example::"
+msgstr ""
+"Pengguna paket dapat mengimpor modul individual dari paket, misalnya::"
+
+#: ../../tutorial/modules.rst:440
+msgid ""
+"This loads the submodule :mod:`sound.effects.echo`.  It must be referenced "
+"with its full name. ::"
+msgstr ""
+"Ini memuat submodule :mod:`sound.effects.echo`. Itu harus dirujuk dengan "
+"nama lengkapnya. ::"
+
+#: ../../tutorial/modules.rst:445
+msgid "An alternative way of importing the submodule is::"
+msgstr "Cara alternatif mengimpor submodule adalah::"
+
+#: ../../tutorial/modules.rst:449
+msgid ""
+"This also loads the submodule :mod:`echo`, and makes it available without "
+"its package prefix, so it can be used as follows::"
+msgstr ""
+"Ini juga memuat submodul :mod: `echo`, dan membuatnya tersedia tanpa awalan "
+"paketnya, sehingga dapat digunakan sebagai berikut::"
+
+#: ../../tutorial/modules.rst:454
+msgid ""
+"Yet another variation is to import the desired function or variable "
+"directly::"
+msgstr ""
+"Namun variasi lain adalah mengimpor fungsi atau variabel yang diinginkan "
+"secara langsung::"
+
+#: ../../tutorial/modules.rst:458
+msgid ""
+"Again, this loads the submodule :mod:`echo`, but this makes its function "
+":func:`echofilter` directly available::"
+msgstr ""
+"Sekali lagi, ini memuat submodul :mod:`echo`, tetapi ini membuat fungsinya "
+":func:`echofilter` langsung tersedia::"
+
+#: ../../tutorial/modules.rst:463
+msgid ""
+"Note that when using ``from package import item``, the item can be either a "
+"submodule (or subpackage) of the package, or some  other name defined in the"
+" package, like a function, class or variable.  The ``import`` statement "
+"first tests whether the item is defined in the package; if not, it assumes "
+"it is a module and attempts to load it.  If it fails to find it, an "
+":exc:`ImportError` exception is raised."
+msgstr ""
+"Perhatikan bahwa ketika menggunakan ``from package import item``, item "
+"tersebut dapat berupa submodul (atau subpaket) dari paket, atau beberapa "
+"nama lain yang ditentukan dalam paket, seperti fungsi, kelas atau variabel. "
+"Pernyataan ``import`` pertama menguji apakah item tersebut didefinisikan "
+"dalam paket; jika tidak, ini dianggap sebagai modul dan mencoba memuatnya. "
+"Jika gagal menemukannya, pengecualian :exc:`ImportError` dimunculkan."
+
+#: ../../tutorial/modules.rst:470
+msgid ""
+"Contrarily, when using syntax like ``import item.subitem.subsubitem``, each "
+"item except for the last must be a package; the last item can be a module or"
+" a package but can't be a class or function or variable defined in the "
+"previous item."
+msgstr ""
+"Sebaliknya, ketika menggunakan sintaksis seperti ``import "
+"item.subitem.subsubitem``, setiap item kecuali yang terakhir harus berupa "
+"paket; item terakhir dapat berupa modul atau paket tetapi tidak bisa berupa "
+"kelas atau fungsi atau variabel yang didefinisikan dalam item sebelumnya."
+
+#: ../../tutorial/modules.rst:479
+msgid "Importing \\* From a Package"
+msgstr "Mengimpor \\* Dari Paket"
+
+#: ../../tutorial/modules.rst:483
+msgid ""
+"Now what happens when the user writes ``from sound.effects import *``?  "
+"Ideally, one would hope that this somehow goes out to the filesystem, finds "
+"which submodules are present in the package, and imports them all.  This "
+"could take a long time and importing sub-modules might have unwanted side-"
+"effects that should only happen when the sub-module is explicitly imported."
+msgstr ""
+"Sekarang apa yang terjadi ketika pengguna menulis ``from sound.effects "
+"import *``? Idealnya, orang akan berharap bahwa ini entah bagaimana keluar "
+"ke sistem file, menemukan submodul mana yang ada dalam paket, dan mengimpor "
+"semuanya. Ini bisa memakan waktu lama dan mengimpor submodul mungkin "
+"memiliki efek samping yang tidak diinginkan yang seharusnya hanya terjadi "
+"ketika submodul diimpor secara eksplisit."
+
+#: ../../tutorial/modules.rst:489
+msgid ""
+"The only solution is for the package author to provide an explicit index of "
+"the package.  The :keyword:`import` statement uses the following convention:"
+" if a package's :file:`__init__.py` code defines a list named ``__all__``, "
+"it is taken to be the list of module names that should be imported when "
+"``from package import *`` is encountered.  It is up to the package author to"
+" keep this list up-to-date when a new version of the package is released.  "
+"Package authors may also decide not to support it, if they don't see a use "
+"for importing \\* from their package.  For example, the file "
+":file:`sound/effects/__init__.py` could contain the following code::"
+msgstr ""
+"Satu-satunya solusi adalah bagi pembuat paket untuk memberikan indeks paket "
+"secara eksplisit. Pernyataan :keyword:`import` menggunakan konvensi berikut:"
+" jika suatu paket punya kode :file:`__init __.py` yang mendefinisikan daftar"
+" bernama ``__all__``, itu diambil sebagai daftar nama modul yang harus "
+"diimpor ketika ``from package import *`` ditemukan. Terserah pembuat paket "
+"untuk tetap memperbarui daftar ini ketika versi baru dari paket dirilis. "
+"Pembuat paket juga dapat memutuskan untuk tidak mendukungnya, jika mereka "
+"tidak melihat penggunaan untuk mengimpor \\* dari paket mereka. Sebagai "
+"contoh, berkas :file:`sound/effects/__init__.py` dapat berisi kode berikut::"
+
+#: ../../tutorial/modules.rst:501
+msgid ""
+"This would mean that ``from sound.effects import *`` would import the three "
+"named submodules of the :mod:`sound` package."
+msgstr ""
+"Ini berarti bahwa ``from sound.effects import *`` akan mengimpor tiga "
+"submodul bernama dari paket :mod:`sound`."
+
+#: ../../tutorial/modules.rst:504
+msgid ""
+"If ``__all__`` is not defined, the statement ``from sound.effects import *``"
+" does *not* import all submodules from the package :mod:`sound.effects` into"
+" the current namespace; it only ensures that the package "
+":mod:`sound.effects` has been imported (possibly running any initialization "
+"code in :file:`__init__.py`) and then imports whatever names are defined in "
+"the package.  This includes any names defined (and submodules explicitly "
+"loaded) by :file:`__init__.py`.  It also includes any submodules of the "
+"package that were explicitly loaded by previous :keyword:`import` "
+"statements.  Consider this code::"
+msgstr ""
+"Jika ``__all__`` tidak didefinisikan, pernyataan ``from sound.effects import"
+" *`` *tidak* impor semua submodul dari paket :mod:`sound.effects` ke "
+"*namespace* saat ini; itu hanya memastikan bahwa paket :mod:`sound.effects` "
+"telah diimpor (mungkin menjalankan kode inisialisasi apa pun di "
+":file:`__init__.py`) dan kemudian mengimpor nama apa pun yang didefinisikan "
+"dalam paket. Ini termasuk semua nama yang didefinisikan (dan submodul yang "
+"dimuat secara eksplisit) oleh :file:`__init__.py`. Itu juga termasuk semua "
+"submodul dari paket yang secara eksplisit dimuat oleh sebelumnya pernyataan "
+":keyword:`import`. Pertimbangkan kode ini ::"
+
+#: ../../tutorial/modules.rst:517
+msgid ""
+"In this example, the :mod:`echo` and :mod:`surround` modules are imported in"
+" the current namespace because they are defined in the :mod:`sound.effects` "
+"package when the ``from...import`` statement is executed.  (This also works "
+"when ``__all__`` is defined.)"
+msgstr ""
+"Dalam contoh ini, modul :mod:`echo` dan :mod:`surround` diimpor dalam "
+"*namespace* saat ini karena mereka didefinisikan dalam paket "
+":mod:`sound.effects` ketika paket ``from...import`` Pernyataan dieksekusi. "
+"(Ini juga berfungsi ketika ``__all__`` didefinisikan.)"
+
+#: ../../tutorial/modules.rst:522
+msgid ""
+"Although certain modules are designed to export only names that follow "
+"certain patterns when you use ``import *``, it is still considered bad "
+"practice in production code."
+msgstr ""
+"Meskipun modul-modul tertentu dirancang hanya untuk mengekspor nama-nama "
+"yang mengikuti pola tertentu ketika Anda menggunakan ``import *``, itu masih"
+" dianggap praktik buruk dalam lingkungan kode produksi *production*."
+
+#: ../../tutorial/modules.rst:526
+msgid ""
+"Remember, there is nothing wrong with using ``from package import "
+"specific_submodule``!  In fact, this is the recommended notation unless the "
+"importing module needs to use submodules with the same name from different "
+"packages."
+msgstr ""
+"Ingat, tidak ada yang salah dengan menggunakan ``from package import "
+"specific_submodule``! Sebenarnya, ini adalah notasi yang disarankan kecuali "
+"modul impor perlu menggunakan submodul dengan nama yang sama dari paket yang"
+" berbeda."
+
+#: ../../tutorial/modules.rst:533
+msgid "Intra-package References"
+msgstr "Referensi Intra-paket"
+
+#: ../../tutorial/modules.rst:535
+msgid ""
+"When packages are structured into subpackages (as with the :mod:`sound` "
+"package in the example), you can use absolute imports to refer to submodules"
+" of siblings packages.  For example, if the module "
+":mod:`sound.filters.vocoder` needs to use the :mod:`echo` module in the "
+":mod:`sound.effects` package, it can use ``from sound.effects import echo``."
+msgstr ""
+"Ketika paket disusun menjadi subpaket (seperti pada paket :mod:`sound` pada "
+"contoh), Anda dapat menggunakan impor absolut untuk merujuk pada submodul "
+"paket saudara kandung. Misalnya, jika modul :mod:`sound.filters.vocoder` "
+"perlu menggunakan modul :mod:`echo` dalam paket :mod:`sound.effects`, ia "
+"dapat menggunakan ``from sound.effects import echo``."
+
+#: ../../tutorial/modules.rst:541
+msgid ""
+"You can also write relative imports, with the ``from module import name`` "
+"form of import statement.  These imports use leading dots to indicate the "
+"current and parent packages involved in the relative import.  From the "
+":mod:`surround` module for example, you might use::"
+msgstr ""
+"Anda juga dapat menulis impor relatif, dengan bentuk ``from module import "
+"name`` pada pernyataan impor. Impor ini menggunakan titik-titik di awalan "
+"untuk menunjukkan paket saat ini dan induk yang terlibat dalam impor "
+"relatif. Dari modul :mod:`surround` misalnya, Anda dapat menggunakan::"
+
+#: ../../tutorial/modules.rst:550
+msgid ""
+"Note that relative imports are based on the name of the current module.  "
+"Since the name of the main module is always ``\"__main__\"``, modules "
+"intended for use as the main module of a Python application must always use "
+"absolute imports."
+msgstr ""
+"Perhatikan bahwa impor relatif didasarkan pada nama modul saat ini. Karena "
+"nama modul utama selalu ``\"__main__\"``, modul yang dimaksudkan untuk "
+"digunakan sebagai modul utama aplikasi Python harus selalu menggunakan impor"
+" absolut."
+
+#: ../../tutorial/modules.rst:556
+msgid "Packages in Multiple Directories"
+msgstr "Paket di Beberapa Direktori"
+
+#: ../../tutorial/modules.rst:558
+msgid ""
+"Packages support one more special attribute, :attr:`__path__`.  This is "
+"initialized to be a list containing the name of the directory holding the "
+"package's :file:`__init__.py` before the code in that file is executed.  "
+"This variable can be modified; doing so affects future searches for modules "
+"and subpackages contained in the package."
+msgstr ""
+"Paket mendukung satu atribut khusus lagi, :attr:`__path__`. Ini "
+"diinisialisasi menjadi daftar yang berisi nama direktori yang menyimpan file"
+" paket: `__init__.py` sebelum kode dalam file tersebut dieksekusi. Variabel "
+"ini dapat dimodifikasi; hal itu memengaruhi pencarian modul dan subpackage "
+"di masa depan yang terkandung dalam paket."
+
+#: ../../tutorial/modules.rst:564
+msgid ""
+"While this feature is not often needed, it can be used to extend the set of "
+"modules found in a package."
+msgstr ""
+"Meskipun fitur ini tidak sering dibutuhkan, fitur ini dapat digunakan untuk "
+"memperluas rangkaian modul yang ditemukan dalam suatu paket."
+
+#: ../../tutorial/modules.rst:569
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+#: ../../tutorial/modules.rst:570
+msgid ""
+"In fact function definitions are also 'statements' that are 'executed'; the "
+"execution of a module-level function definition enters the function name in "
+"the module's global symbol table."
+msgstr ""
+"Bahkan definisi fungsi juga 'statements' yang 'executed'; eksekusi dari "
+"definisi fungsi level-modul memasukkan nama fungsi di tabel simbol global "
+"modul."

@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-21 03:26+0000\n"
+"PO-Revision-Date: 2017-02-16 17:40+0000\n"
+"Last-Translator: Ryan Febriansyah <15523163@students.uii.ac.id>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../distributing/index.rst:5
+msgid "Distributing Python Modules"
+msgstr "Mendistribusikan Modul Python"
+
+#: ../../distributing/index.rst:0
+msgid "Email"
+msgstr "Email"
+
+#: ../../distributing/index.rst:7
+msgid "distutils-sig@python.org"
+msgstr "distutils-sig@python.org"
+
+#: ../../distributing/index.rst:10
+msgid ""
+"As a popular open source development project, Python has an active "
+"supporting community of contributors and users that also make their software"
+" available for other Python developers to use under open source license "
+"terms."
+msgstr ""
+"Sebagai proyek pengembangan open source yang populer, Python memiliki "
+"komunitas pendukung aktif dan pengguna yang juga membuat perangkat lunak "
+"mereka tersedia untuk pengembang Python lain untuk digunakan di bawah "
+"persyaratan lisensi sumber terbuka."
+
+#: ../../distributing/index.rst:14
+msgid ""
+"This allows Python users to share and collaborate effectively, benefiting "
+"from the solutions others have already created to common (and sometimes even"
+" rare!) problems, as well as potentially contributing their own solutions to"
+" the common pool."
+msgstr ""
+"Hal ini memungkinkan pengguna Python untuk berbagi dan berkolaborasi secara "
+"efektif, mendapatkan manfaat dari solusi yang telah dibuat oleh orang lain "
+"untuk masalah umum (dan kadang-kadang bahkan langka!), Serta berpotensi "
+"memberikan kontribusi solusi mereka sendiri ke kumpulan umum."
+
+#: ../../distributing/index.rst:19
+msgid ""
+"This guide covers the distribution part of the process. For a guide to "
+"installing other Python projects, refer to the :ref:`installation guide "
+"<installing-index>`."
+msgstr ""
+"Panduan ini mencakup bagian distribusi dari proses. Untuk panduan untuk "
+"melakukan instalasi proyek Python lainnya, lihat: ref: `panduan instalasi`."
+
+#: ../../distributing/index.rst:25
+msgid ""
+"For corporate and other institutional users, be aware that many "
+"organisations have their own policies around using and contributing to open "
+"source software. Please take such policies into account when making use of "
+"the distribution and installation tools provided with Python."
+msgstr ""
+"Untuk pengguna korporat dan institusi lainnya, sadarilah bahwa banyak "
+"organisasi memiliki kebijakan mereka sendiri tentang penggunaan dan "
+"kontribusi untuk perangkat lunak sumber terbuka. Harap pertimbangkan "
+"kebijakan tersebut saat menggunakan alat distribusi dan instalasi yang "
+"disediakan dengan Python."
+
+#: ../../distributing/index.rst:32
+msgid "Key terms"
+msgstr "Istilah utama"
+
+#: ../../distributing/index.rst:34
+msgid ""
+"the `Python Packaging Index <https://pypi.org>`__ is a public repository of "
+"open source licensed packages made available for use by other Python users"
+msgstr ""
+"`Python Packaging Index <https://pypi.org>`__ adalah repositori publik dari "
+"paket berlisensi open source yang dibuat tersedia untuk digunakan oleh "
+"pengguna Python lain"
+
+#: ../../distributing/index.rst:37
+msgid ""
+"the `Python Packaging Authority <https://www.pypa.io/>`__ are the group of "
+"developers and documentation authors responsible for the maintenance and "
+"evolution of the standard packaging tools and the associated metadata and "
+"file format standards. They maintain a variety of tools, documentation and "
+"issue trackers on both `GitHub <https://github.com/pypa>`__ and `Bitbucket "
+"<https://bitbucket.org/pypa/>`__."
+msgstr ""
+"`Python Packaging Authority <https://www.pypa.io/>`__ adalah kelompok "
+"pengembang dan penulis dokumentasi yang bertanggung jawab atas pemeliharaan "
+"dan evolusi alat pengemasan standar serta standar metadata dan format berkas"
+" terkait. Mereka memelihara berbagai alat, dokumentasi dan pelacak isu di "
+"`GitHub <https://github.com/pypa>`__ dan `Bitbucket "
+"<https://bitbucket.org/pypa/>`__."
+
+#: ../../distributing/index.rst:44
+msgid ""
+":mod:`distutils` is the original build and distribution system first added "
+"to the Python standard library in 1998. While direct use of :mod:`distutils`"
+" is being phased out, it still laid the foundation for the current packaging"
+" and distribution infrastructure, and it not only remains part of the "
+"standard library, but its name lives on in other ways (such as the name of "
+"the mailing list used to coordinate Python packaging standards development)."
+msgstr ""
+":mod: `distutils` adalah sistem bangun dan distribusi orisinal yang pertama "
+"kali ditambahkan ke pustaka standar Python pada tahun 1998. Sementara "
+"penggunaan langsung dari :mod: `distutils` sedang dihapus, itu masih "
+"meletakkan fondasi untuk pemaketan dan distribusi infrastruktur saat ini , "
+"dan itu tidak hanya tetap menjadi bagian dari pustaka standar, tetapi "
+"namanya hidup dengan cara lain (seperti nama milis yang digunakan untuk "
+"mengkoordinasikan pengembangan paket standar Python)."
+
+#: ../../distributing/index.rst:51
+msgid ""
+"`setuptools`_ is a (largely) drop-in replacement for :mod:`distutils` first "
+"published in 2004. Its most notable addition over the unmodified "
+":mod:`distutils` tools was the ability to declare dependencies on other "
+"packages. It is currently recommended as a more regularly updated "
+"alternative to :mod:`distutils` that offers consistent support for more "
+"recent packaging standards across a wide range of Python versions."
+msgstr ""
+"`setuptools`_ adalah pengganti (sebagian besar) langsung untuk :mod: "
+"`distutils` yang pertama kali diterbitkan pada tahun 2004. Penambahannya "
+"yang paling penting di atas mod yang tidak dimodifikasi alat :mod: "
+"`distutils` adalah kemampuan untuk mendeklarasikan dependensi pada paket-"
+"paket lain. Saat ini direkomendasikan sebagai alternatif yang lebih teratur "
+"diperbarui untuk :mod: `distutils` yang menawarkan dukungan konsisten untuk "
+"standar kemasan yang lebih baru di berbagai versi Python."
+
+#: ../../distributing/index.rst:57
+msgid ""
+"`wheel`_ (in this context) is a project that adds the ``bdist_wheel`` "
+"command to :mod:`distutils`/`setuptools`_. This produces a cross platform "
+"binary packaging format (called \"wheels\" or \"wheel files\" and defined in"
+" :pep:`427`) that allows Python libraries, even those including binary "
+"extensions, to be installed on a system without needing to be built locally."
+msgstr ""
+"`wheel`_ (dalam konteks ini) adalah proyek yang menambahkan perintah "
+"``bdist_wheel`` ke :mod:`distutils`/`setuptools`_. Ini menghasilkan format "
+"paket biner lintas platform (disebut \"wheels\" atau \"wheels\" dan "
+"didefinisikan dalam :pep:`427`) yang memungkinkan pustaka Python, bahkan "
+"yang termasuk ekstensi biner, untuk dipasang pada sistem tanpa perlu "
+"dibangun secara lokal."
+
+#: ../../distributing/index.rst:68
+msgid "Open source licensing and collaboration"
+msgstr "Lisensi dan kolaborasi sumber terbuka"
+
+#: ../../distributing/index.rst:70
+msgid ""
+"In most parts of the world, software is automatically covered by copyright. "
+"This means that other developers require explicit permission to copy, use, "
+"modify and redistribute the software."
+msgstr ""
+"Di sebagian besar dunia, perangkat lunak secara otomatis dilindungi oleh hak"
+" cipta. Ini berarti bahwa pengembang lain memerlukan izin eksplisit untuk "
+"menyalin, menggunakan, memodifikasi, dan mendistribusikan ulang perangkat "
+"lunak."
+
+#: ../../distributing/index.rst:74
+msgid ""
+"Open source licensing is a way of explicitly granting such permission in a "
+"relatively consistent way, allowing developers to share and collaborate "
+"efficiently by making common solutions to various problems freely available."
+" This leaves many developers free to spend more time focusing on the "
+"problems that are relatively unique to their specific situation."
+msgstr ""
+"Lisensi sumber terbuka adalah cara untuk secara eksplisit memberikan izin "
+"seperti itu dengan cara yang relatif konsisten, memungkinkan pengembang "
+"untuk berbagi dan berkolaborasi secara efisien dengan membuat solusi umum "
+"untuk berbagai masalah yang tersedia secara bebas. Ini membuat banyak "
+"pengembang bebas menghabiskan lebih banyak waktu berfokus pada masalah yang "
+"relatif unik untuk situasi khusus mereka."
+
+#: ../../distributing/index.rst:80
+msgid ""
+"The distribution tools provided with Python are designed to make it "
+"reasonably straightforward for developers to make their own contributions "
+"back to that common pool of software if they choose to do so."
+msgstr ""
+"Alat distribusi yang disediakan dengan Python dirancang untuk memudahkan "
+"pengembang untuk membuat kontribusi mereka sendiri kembali ke kumpulan "
+"perangkat lunak umum jika mereka memilih untuk melakukannya."
+
+#: ../../distributing/index.rst:84
+msgid ""
+"The same distribution tools can also be used to distribute software within "
+"an organisation, regardless of whether that software is published as open "
+"source software or not."
+msgstr ""
+"Alat distribusi yang sama juga dapat digunakan untuk mendistribusikan "
+"perangkat lunak dalam suatu organisasi, terlepas dari apakah perangkat lunak"
+" tersebut dipublikasikan sebagai perangkat lunak sumber terbuka atau tidak."
+
+#: ../../distributing/index.rst:90
+msgid "Installing the tools"
+msgstr "Instalasi alat"
+
+#: ../../distributing/index.rst:92
+msgid ""
+"The standard library does not include build tools that support modern Python"
+" packaging standards, as the core development team has found that it is "
+"important to have standard tools that work consistently, even on older "
+"versions of Python."
+msgstr ""
+"Pustaka standar tidak termasuk alat bangun yang mendukung standar pemaketan "
+"Python modern, sebagaimana tim pengembang inti telah menemukan bahwa penting"
+" untuk memiliki alat standar yang bekerja secara konsisten, bahkan pada "
+"versi Python yang terdahulu."
+
+#: ../../distributing/index.rst:97
+msgid ""
+"The currently recommended build and distribution tools can be installed by "
+"invoking the ``pip`` module at the command line::"
+msgstr ""
+"Alat bangun dan distribusi yang direkomendasikan saat ini dapat diinstal "
+"dengan menjalankan modul ``pip`` pada baris perintah ::"
+
+#: ../../distributing/index.rst:104
+msgid ""
+"For POSIX users (including Mac OS X and Linux users), these instructions "
+"assume the use of a :term:`virtual environment`."
+msgstr ""
+"Untuk pengguna POSIX (termasuk pengguna Mac OS X dan Linux), petunjuk ini "
+"mengasumsikan penggunaan :term: `lingkungan virtual`."
+
+#: ../../distributing/index.rst:107
+msgid ""
+"For Windows users, these instructions assume that the option to adjust the "
+"system PATH environment variable was selected when installing Python."
+msgstr ""
+"Untuk pengguna Windows, petunjuk ini mengasumsikan bahwa opsi untuk "
+"menyesuaikan variabel lingkungan PATH sistem dipilih ketika melakukan "
+"instalasi Python."
+
+#: ../../distributing/index.rst:111
+msgid ""
+"The Python Packaging User Guide includes more details on the `currently "
+"recommended tools`_."
+msgstr ""
+"Panduan Pengguna *Python Packaging* menyertakan lebih banyak rincian tentang"
+" `alat yang direkomendasikan saat ini`_."
+
+#: ../../distributing/index.rst:123
+msgid "Reading the Python Packaging User Guide"
+msgstr "Membaca Panduan Pengguna *Python Packaging*"
+
+#: ../../distributing/index.rst:125
+msgid ""
+"The Python Packaging User Guide covers the various key steps and elements "
+"involved in creating and publishing a project:"
+msgstr ""
+"Panduan Pengguna *Python Packaging* mencakup berbagai langkah kunci dan "
+"elemen yang terlibat dalam membuat dan menerbitkan sebuah proyek:"
+
+#: ../../distributing/index.rst:128
+msgid "`Project structure`_"
+msgstr "`Struktur proyek`_"
+
+#: ../../distributing/index.rst:129
+msgid "`Building and packaging the project`_"
+msgstr "`Membangun dan memaketkan proyek`_"
+
+#: ../../distributing/index.rst:130
+msgid "`Uploading the project to the Python Packaging Index`_"
+msgstr "`Mengunggah proyek ke Indeks Pemaketan Python`_"
+
+#: ../../distributing/index.rst:131
+msgid "`The .pypirc file`_"
+msgstr "File ``.pypirc``"
+
+#: ../../distributing/index.rst:144
+msgid "How do I...?"
+msgstr "Bagaimana saya...?"
+
+#: ../../distributing/index.rst:146
+msgid "These are quick answers or links for some common tasks."
+msgstr "Ini adalah jawaban cepat atau tautan untuk beberapa tugas umum."
+
+#: ../../distributing/index.rst:149
+msgid "... choose a name for my project?"
+msgstr "... pilih nama untuk proyek saya?"
+
+#: ../../distributing/index.rst:151
+msgid "This isn't an easy topic, but here are a few tips:"
+msgstr "Ini bukan topik yang mudah, tetapi berikut beberapa kiatnya:"
+
+#: ../../distributing/index.rst:153
+msgid "check the Python Packaging Index to see if the name is already in use"
+msgstr ""
+"periksa Indeks Pemaketan Python untuk melihat apakah nama tersebut sudah "
+"digunakan"
+
+#: ../../distributing/index.rst:154
+msgid ""
+"check popular hosting sites like GitHub, Bitbucket, etc to see if there is "
+"already a project with that name"
+msgstr ""
+"periksa situs hosting populer seperti GitHub, Bitbucket, dll untuk melihat "
+"apakah sudah ada proyek dengan nama itu"
+
+#: ../../distributing/index.rst:156
+msgid "check what comes up in a web search for the name you're considering"
+msgstr ""
+"periksa apa yang muncul dalam pencarian web untuk nama yang Anda "
+"pertimbangkan"
+
+#: ../../distributing/index.rst:157
+msgid ""
+"avoid particularly common words, especially ones with multiple meanings, as "
+"they can make it difficult for users to find your software when searching "
+"for it"
+msgstr ""
+"hindari kata-kata yang sangat umum, terutama yang memiliki banyak makna, "
+"karena dapat menyulitkan pengguna untuk menemukan perangkat lunak Anda "
+"ketika menelusurinya"
+
+#: ../../distributing/index.rst:163
+msgid "... create and distribute binary extensions?"
+msgstr "... membuat dan mendistribusikan ekstensi biner?"
+
+#: ../../distributing/index.rst:165
+msgid ""
+"This is actually quite a complex topic, with a variety of alternatives "
+"available depending on exactly what you're aiming to achieve. See the Python"
+" Packaging User Guide for more information and recommendations."
+msgstr ""
+"Ini sebenarnya adalah topik yang cukup rumit, dengan berbagai alternatif "
+"yang tersedia tergantung pada apa yang ingin Anda capai. Lihat Panduan "
+"Pengguna *Python Packaging* untuk informasi dan rekomendasi lebih lanjut."
+
+#: ../../distributing/index.rst:171
+msgid ""
+"`Python Packaging User Guide: Binary Extensions "
+"<https://packaging.python.org/guides/packaging-binary-extensions/>`__"
+msgstr ""
+"`Panduan Pengguna *Python Packaging*: Ekstensi Biner "
+"<https://packaging.python.org/guides/packaging-binary-extensions/>`__"

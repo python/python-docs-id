@@ -1,0 +1,2047 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2021, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Iwan Setiawan <stwn@duniasemu.org>, 2018
+# Helen Febriani <helenfy.72@gmail.com>, 2018
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-19 05:30+0000\n"
+"PO-Revision-Date: 2017-02-16 17:46+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: ../../install/index.rst:7
+msgid "Installing Python Modules (Legacy version)"
+msgstr "Menginstal Modul Python (Versi Legacy)"
+
+#: ../../install/index.rst:0
+msgid "Author"
+msgstr "Penulis"
+
+#: ../../install/index.rst:9
+msgid "Greg Ward"
+msgstr "Greg Ward"
+
+#: ../../install/index.rst:16
+msgid ":ref:`installing-index`"
+msgstr ":ref:`installing-index`"
+
+#: ../../install/index.rst:16
+msgid ""
+"The up to date module installation documentation. For regular Python usage, "
+"you almost certainly want that document rather than this one."
+msgstr ""
+"Dokumentasi instalasi modul terbaru. Untuk penggunaan Python biasa, Anda "
+"hampir pasti menginginkan dokumen itu daripada yang satu ini."
+
+#: ../../distutils/_setuptools_disclaimer.rst:3
+msgid ""
+"This document is being retained solely until the ``setuptools`` "
+"documentation at https://setuptools.readthedocs.io/en/latest/setuptools."
+"html independently covers all of the relevant information currently "
+"included here."
+msgstr ""
+"Dokumen ini dipertahankan hanya sampai dokumentasi ``setuptools`` di "
+"https://setuptools.readthedocs.io/en/latest/setuptools.html secara "
+"independen mencakup semua informasi relevan yang saat ini disertakan di "
+"sini."
+
+#: ../../install/index.rst:23
+msgid ""
+"This guide only covers the basic tools for building and distributing "
+"extensions that are provided as part of this version of Python. Third party "
+"tools offer easier to use and more secure alternatives. Refer to the `quick "
+"recommendations section <https://packaging.python.org/guides/tool-"
+"recommendations/>`__ in the Python Packaging User Guide for more "
+"information."
+msgstr ""
+"Panduan ini hanya mencakup alat dasar untuk membangun dan mendistribusikan "
+"ekstensi yang disediakan sebagai bagian dari versi Python ini. Alat pihak "
+"ketiga menawarkan alternatif yang lebih mudah digunakan dan lebih aman. "
+"Lihat `bagian rekomendasi cepat <https://packaging.python.org/guides/tool-"
+"recommendations/>`__ dalam Panduan Pengguna Pengemasan Python untuk "
+"informasi lebih lanjut."
+
+#: ../../install/index.rst:34
+msgid "Introduction"
+msgstr "Pengenalan"
+
+#: ../../install/index.rst:36
+msgid ""
+"In Python 2.0, the ``distutils`` API was first added to the standard "
+"library. This provided Linux distro maintainers with a standard way of "
+"converting Python projects into Linux distro packages, and system "
+"administrators with a standard way of installing them directly onto target "
+"systems."
+msgstr ""
+"Di Python 2.0, API ``distutils`` pertama kali ditambahkan ke pustaka "
+"standar. Ini menyediakan pengelola distro Linux dengan cara standar untuk "
+"mengubah proyek Python menjadi paket distro Linux, dan administrator sistem "
+"dengan cara standar untuk menginstalnya langsung ke sistem target."
+
+#: ../../install/index.rst:41
+msgid ""
+"In the many years since Python 2.0 was released, tightly coupling the build "
+"system and package installer to the language runtime release cycle has "
+"turned out to be problematic, and it is now recommended that projects use "
+"the ``pip`` package installer and the ``setuptools`` build system, rather "
+"than using ``distutils`` directly."
+msgstr ""
+"Bertahun-tahun sejak Python 2.0 dirilis, menggabungkan sistem build dan "
+"penginstal paket dengan erat ke siklus rilis runtime bahasa ternyata menjadi"
+" masalah, dan sekarang direkomendasikan agar proyek menggunakan penginstal "
+"paket ``pip`` dan sistem build ``setuptools``, daripada menggunakan "
+"``distutils`` secara langsung."
+
+#: ../../install/index.rst:47
+msgid ""
+"See :ref:`installing-index` and :ref:`distributing-index` for more details."
+msgstr ""
+"Lihat :ref:`install-index` dan :ref:`distributing-index` untuk keterangan "
+"lebih lanjut."
+
+#: ../../install/index.rst:49
+msgid ""
+"This legacy documentation is being retained only until we're confident that "
+"the ``setuptools`` documentation covers everything needed."
+msgstr ""
+"Dokumentasi warisan ini dipertahankan hanya sampai kami yakin bahwa "
+"dokumentasi ``setuptools`` mencakup semua yang diperlukan."
+
+#: ../../install/index.rst:55
+msgid "Distutils based source distributions"
+msgstr "Distribusi sumber berbasis distutils"
+
+#: ../../install/index.rst:57
+msgid ""
+"If you download a module source distribution, you can tell pretty quickly "
+"if it was packaged and distributed in the standard way, i.e. using the "
+"Distutils. First, the distribution's name and version number will be "
+"featured prominently in the name of the downloaded archive, e.g. :file:"
+"`foo-1.0.tar.gz` or :file:`widget-0.9.7.zip`.  Next, the archive will "
+"unpack into a similarly-named directory: :file:`foo-1.0` or :file:"
+"`widget-0.9.7`.  Additionally, the distribution will contain a setup "
+"script :file:`setup.py`, and a file named :file:`README.txt` or possibly "
+"just :file:`README`, which should explain that building and installing the "
+"module distribution is a simple matter of running one command from a "
+"terminal::"
+msgstr ""
+"Jika Anda mengunduh distribusi sumber modul, Anda dapat mengetahui dengan "
+"cepat apakah itu dikemas dan didistribusikan dengan cara standar, yaitu "
+"menggunakan Distutils. Pertama, nama distribusi dan nomor versi akan "
+"ditampilkan secara mencolok di nama arsip yang diunduh, mis. "
+":file:`foo-1.0.tar.gz` atau :file:`widget-0.9.7.zip`. Selanjutnya, arsip "
+"akan mengekstrak file ke dalam direktori dengan nama yang mirip: "
+":file:`foo-1.0` atau :file:`widget-0.9.7`. Selain itu, distribusi akan "
+"berisi skrip pengaturan :file:`setup.py`, dan file bernama "
+":file:`README.txt` atau mungkin hanya :file:`README`, yang seharusnya "
+"menjelaskan bahwa membangun dan menginstal distribusi modul adalah masalah "
+"sesederhana menjalankan satu perintah dari terminal::"
+
+#: ../../install/index.rst:70
+msgid ""
+"For Windows, this command should be run from a command prompt window (:"
+"menuselection:`Start --> Accessories`)::"
+msgstr ""
+"Untuk Windows, perintah ini harus dijalankan dari jendela prompt perintah "
+"(:menuselection:`Start --> Accessories`)::"
+
+#: ../../install/index.rst:75
+msgid ""
+"If all these things are true, then you already know how to build and "
+"install the modules you've just downloaded:  Run the command above. Unless "
+"you need to install things in a non-standard way or customize the build "
+"process, you don't really need this manual.  Or rather, the above command "
+"is everything you need to get out of this manual."
+msgstr ""
+"Jika semua ini benar, maka Anda telah mengetahui cara membuat dan menginstal"
+" modul yang baru saja Anda unduh: Jalankan perintah di atas. Kecuali Anda "
+"perlu menginstal sesuatu dengan cara non-standar atau menyesuaikan proses "
+"build, Anda tidak benar-benar membutuhkan manual ini. Atau lebih tepatnya, "
+"perintah di atas adalah semua yang Anda butuhkan untuk keluar dari manual "
+"ini."
+
+#: ../../install/index.rst:85
+msgid "Standard Build and Install"
+msgstr "Bangun dan Install Standar"
+
+#: ../../install/index.rst:87
+msgid ""
+"As described in section :ref:`inst-new-standard`, building and installing a "
+"module distribution using the Distutils is usually one simple command to "
+"run from a terminal::"
+msgstr ""
+"Seperti yang dijelaskan di bagian :ref:`inst-new-standard`, membangun dan "
+"menginstal distribusi modul menggunakan Distutils biasanya merupakan satu "
+"perintah sederhana untuk dijalankan dari terminal::"
+
+#: ../../install/index.rst:97
+msgid "Platform variations"
+msgstr "Variasi platform"
+
+#: ../../install/index.rst:99
+msgid ""
+"You should always run the setup command from the distribution root "
+"directory, i.e. the top-level subdirectory that the module source "
+"distribution unpacks into.  For example, if you've just downloaded a module "
+"source distribution :file:`foo-1.0.tar.gz` onto a Unix system, the normal "
+"thing to do is::"
+msgstr ""
+"Anda harus selalu menjalankan perintah penyiapan dari direktori root "
+"distribusi, yaitu subdirektori tingkat atas yang diuraikan oleh distribusi "
+"sumber modul. Misalnya, jika Anda baru saja mengunduh distribusi sumber "
+"modul :file:`foo-1.0.tar.gz` ke sistem Unix, hal yang normal untuk dilakukan"
+" adalah::"
+
+#: ../../install/index.rst:108
+msgid ""
+"On Windows, you'd probably download :file:`foo-1.0.zip`.  If you downloaded "
+"the archive file to :file:`C:\\\\Temp`, then it would unpack into "
+":file:`C:\\\\Temp\\\\foo-1.0`; you can use either an archive manipulator "
+"with a graphical user interface (such as WinZip) or a command-line tool "
+"(such as :program:`unzip` or :program:`pkunzip`) to unpack the archive.  "
+"Then, open a command prompt window and run::"
+msgstr ""
+"Di Windows, Anda mungkin mengunduh :file:`foo-1.0.zip`. Jika Anda mengunduh "
+"file arsip ke :file:`C:\\\\Temp`, maka file akan diurai menjadi "
+":file:`C:\\\\Temp\\\\foo-1.0`; Anda dapat menggunakan manipulator arsip "
+"dengan antarmuka pengguna grafis (seperti WinZip) atau alat baris perintah "
+"(seperti :program:`unzip` atau :program:`pkunzip`) untuk mengekstrak arsip. "
+"Kemudian, buka jendela prompt perintah dan jalankan::"
+
+#: ../../install/index.rst:122
+msgid "Splitting the job up"
+msgstr "Membagi pekerjaan"
+
+#: ../../install/index.rst:124
+msgid ""
+"Running ``setup.py install`` builds and installs all modules in one run.  "
+"If you prefer to work incrementally---especially useful if you want to "
+"customize the build process, or if things are going wrong---you can use the "
+"setup script to do one thing at a time.  This is particularly helpful when "
+"the build and install will be done by different users---for example, you "
+"might want to build a module distribution and hand it off to a system "
+"administrator for installation (or do it yourself, with super-user "
+"privileges)."
+msgstr ""
+"Menjalankan ``setup.py install`` akan membangun dan menginstal semua modul "
+"dalam satu proses. Jika Anda lebih suka bekerja secara bertahap---terutama "
+"berguna jika Anda ingin menyesuaikan proses build, atau jika ada yang "
+"sesuatu salah---Anda dapat menggunakan skrip penyiapan untuk melakukan satu "
+"hal dalam satu waktu. Ini sangat membantu ketika build dan install akan "
+"dilakukan oleh pengguna yang berbeda---misalnya, Anda mungkin ingin "
+"membangun distribusi modul dan menyerahkannya ke administrator sistem untuk "
+"instalasi (atau lakukan sendiri, dengan hak istimewa super-user )."
+
+#: ../../install/index.rst:132
+msgid ""
+"For example, you can build everything in one step, and then install "
+"everything in a second step, by invoking the setup script twice::"
+msgstr ""
+"Misalnya, Anda bisa membangun semuanya dalam satu langkah, lalu menginstal "
+"semuanya di langkah kedua, dengan menjalankan skrip pengaturan dua kali::"
+
+#: ../../install/index.rst:138
+msgid ""
+"If you do this, you will notice that running the :command:`install` command "
+"first runs the :command:`build` command, which---in this case---quickly "
+"notices that it has nothing to do, since everything in the :file:`build` "
+"directory is up-to-date."
+msgstr ""
+"Jika Anda melakukan ini, Anda akan melihat bahwa menjalankan perintah "
+":command:`install` pertama-tama akan menjalankan perintah :command:`build`, "
+"yang---dalam hal ini---dapat dengan cepat memberi tahu bahwa itu tidak ada "
+"hubungannya, karena semua yang ada di direktori :file:`build` adalah yang "
+"terbaru."
+
+#: ../../install/index.rst:143
+msgid ""
+"You may not need this ability to break things down often if all you do is "
+"install modules downloaded off the 'net, but it's very handy for more "
+"advanced tasks.  If you get into distributing your own Python modules and "
+"extensions, you'll run lots of individual Distutils commands on their own."
+msgstr ""
+"Anda mungkin tidak memerlukan kemampuan ini untuk memecah banyak hal jika "
+"yang Anda lakukan hanyalah menginstal modul yang diunduh dari 'net, tetapi "
+"ini sangat berguna untuk tugas-tugas yang lebih lanjut. Jika Anda mulai "
+"mendistribusikan modul dan ekstensi Python Anda sendiri, Anda akan "
+"menjalankan banyak perintah Distutils tersendiri."
+
+#: ../../install/index.rst:152
+msgid "How building works"
+msgstr "Bagaimana pembangunan bekerja"
+
+#: ../../install/index.rst:154
+msgid ""
+"As implied above, the :command:`build` command is responsible for putting "
+"the files to install into a *build directory*.  By default, this is "
+":file:`build` under the distribution root; if you're excessively concerned "
+"with speed, or want to keep the source tree pristine, you can change the "
+"build directory with the :option:`!--build-base` option. For example::"
+msgstr ""
+"Seperti yang tersirat di atas, perintah :command:`build` bertanggung jawab "
+"untuk menempatkan file yang akan diinstal ke dalam direktori *build*. "
+"Standarnya, ini adalah :file:`build` di bawah root distribusi; jika Anda "
+"terlalu mengkhawatirkan kecepatan, atau ingin menjaga struktur kode sumber "
+"tetap murni, Anda dapat mengubah direktori build dengan opsi :option"
+":`!--build-base`. Sebagai contoh::"
+
+#: ../../install/index.rst:162
+msgid ""
+"(Or you could do this permanently with a directive in your system or "
+"personal Distutils configuration file; see section :ref:`inst-config-"
+"files`.)  Normally, this isn't necessary."
+msgstr ""
+"(Atau Anda dapat melakukan ini secara permanen dengan arahan di sistem Anda "
+"atau file konfigurasi Distutils pribadi; lihat bagian :ref:`inst-config-"
+"files`.) Biasanya, ini tidak perlu."
+
+#: ../../install/index.rst:166
+msgid "The default layout for the build tree is as follows::"
+msgstr "Tata letak default untuk build tree adalah sebagai berikut:"
+
+#: ../../install/index.rst:173
+msgid ""
+"where ``<plat>`` expands to a brief description of the current OS/hardware "
+"platform and Python version.  The first form, with just a :file:`lib` "
+"directory, is used for \"pure module distributions\"---that is, module "
+"distributions that include only pure Python modules.  If a module "
+"distribution contains any extensions (modules written in C/C++), then the "
+"second form, with two ``<plat>`` directories, is used.  In that case, the "
+":file:`temp.{plat}` directory holds temporary files generated by the "
+"compile/link process that don't actually get installed.  In either case, the"
+" :file:`lib` (or :file:`lib.{plat}`) directory contains all Python modules "
+"(pure Python and extensions) that will be installed."
+msgstr ""
+"di mana ``<plat>`` berkembang menjadi deskripsi singkat tentang OS/platform "
+"perangkat keras dan versi Python saat ini. Bentuk pertama, hanya dengan "
+"direktori :file:`lib`, digunakan untuk \"distribusi modul murni\"---yaitu, "
+"distribusi modul yang hanya menyertakan modul Python murni. Jika distribusi "
+"modul berisi ekstensi apa pun (modul yang ditulis dalam C/C++), maka bentuk"
+"  kedua, dengan dua direktori ``<plat>``, digunakan. Dalam hal ini, "
+"direktori :file:`temp.{Plat}` menyimpan file sementara yang dihasilkan oleh "
+"proses kompilasi/tautan yang sebenarnya tidak terinstal. Dalam kedua kasus "
+"tersebut, direktori :file:`lib` (atau :file:`lib.{Plat}`) berisi semua modul"
+" Python (Python murni dan ekstensi) yang akan diinstal."
+
+#: ../../install/index.rst:183
+msgid ""
+"In the future, more directories will be added to handle Python scripts, "
+"documentation, binary executables, and whatever else is needed to handle "
+"the job of installing Python modules and applications."
+msgstr ""
+"Di masa mendatang, lebih banyak direktori akan ditambahkan untuk menangani "
+"skrip Python, dokumentasi, biner yang dapat dieksekusi, dan apa pun yang "
+"diperlukan untuk menangani pekerjaan penginstalan modul dan aplikasi Python."
+
+#: ../../install/index.rst:191
+msgid "How installation works"
+msgstr "Bagaimana instalasi bekerja"
+
+#: ../../install/index.rst:193
+msgid ""
+"After the :command:`build` command runs (whether you run it explicitly, or "
+"the :command:`install` command does it for you), the work of the :command:"
+"`install` command is relatively simple: all it has to do is copy everything "
+"under :file:`build/lib` (or :file:`build/lib.{plat}`) to your chosen "
+"installation directory."
+msgstr ""
+"Setelah perintah :command:`build` dijalankan (apakah Anda menjalankannya "
+"secara eksplisit, atau perintah :command:`install` yang melakukannya untuk "
+"Anda), cara kerja perintah :command:`install` relatif sederhana: semua yang "
+"harus dilakukan adalah menyalin semua yang ada di bawah :file:`build/lib` "
+"(atau :file:`build/lib.{plat}`) ke direktori instalasi yang Anda pilih."
+
+#: ../../install/index.rst:199
+msgid ""
+"If you don't choose an installation directory---i.e., if you just run "
+"``setup.py install``\\ ---then the :command:`install` command installs to "
+"the standard location for third-party Python modules.  This location varies "
+"by platform and by how you built/installed Python itself.  On Unix (and Mac "
+"OS X, which is also Unix-based), it also depends on whether the module "
+"distribution being installed is pure Python or contains extensions (\"non-"
+"pure\"):"
+msgstr ""
+"Jika Anda tidak memilih direktori instalasi---yaitu, jika Anda hanya "
+"menjalankan ``setup.py install``\\ ---maka perintah  :command:`install` akan"
+" menginstal ke lokasi standar untuk modul Python pihak ketiga . Lokasi ini "
+"bervariasi menurut platform dan cara Anda membuat / menginstal Python itu "
+"sendiri. Di Unix (dan Mac OS X, yang juga berbasis Unix), ini juga "
+"bergantung pada apakah distribusi modul yang diinstal adalah Python murni "
+"atau berisi ekstensi (\"tidak murni\"):"
+
+#: ../../install/index.rst:209
+msgid "Platform"
+msgstr "Platform"
+
+#: ../../install/index.rst:209
+msgid "Standard installation location"
+msgstr "Lokasi installasi standar"
+
+#: ../../install/index.rst:209
+msgid "Default value"
+msgstr "Nilai bawaan"
+
+#: ../../install/index.rst:209 ../../install/index.rst:735
+#: ../../install/index.rst:747
+msgid "Notes"
+msgstr "Catatan"
+
+#: ../../install/index.rst:211
+msgid "Unix (pure)"
+msgstr "Unix (murni)"
+
+#: ../../install/index.rst:211 ../../install/index.rst:424
+msgid ":file:`{prefix}/lib/python{X.Y}/site-packages`"
+msgstr ":file:`{prefix}/lib/python{X.Y}/site-packages`"
+
+#: ../../install/index.rst:211 ../../install/index.rst:213
+msgid ":file:`/usr/local/lib/python{X.Y}/site-packages`"
+msgstr ":file:`/usr/local/lib/python{X.Y}/site-packages`"
+
+#: ../../install/index.rst:211 ../../install/index.rst:213
+#: ../../install/index.rst:737
+msgid "\\(1)"
+msgstr "\\(1)"
+
+#: ../../install/index.rst:213
+msgid "Unix (non-pure)"
+msgstr "Unix (tidak murni)"
+
+#: ../../install/index.rst:213 ../../install/index.rst:425
+msgid ":file:`{exec-prefix}/lib/python{X.Y}/site-packages`"
+msgstr ":file:`{exec-prefix}/lib/python{X.Y}/site-packages`"
+
+#: ../../install/index.rst:215
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../install/index.rst:215 ../../install/index.rst:476
+msgid ":file:`{prefix}\\\\Lib\\\\site-packages`"
+msgstr ":file:`{prefix}\\\\Lib\\\\site-packages`"
+
+#: ../../install/index.rst:215
+msgid ":file:`C:\\\\Python{XY}\\\\Lib\\\\site-packages`"
+msgstr ":file:`C:\\\\Python{XY}\\\\Lib\\\\site-packages`"
+
+#: ../../install/index.rst:215 ../../install/index.rst:739
+msgid "\\(2)"
+msgstr "\\(2)"
+
+#: ../../install/index.rst:218 ../../install/index.rst:759
+msgid "Notes:"
+msgstr "Catatan:"
+
+#: ../../install/index.rst:221
+msgid ""
+"Most Linux distributions include Python as a standard part of the system, "
+"so :file:`{prefix}` and :file:`{exec-prefix}` are usually both :file:`/usr` "
+"on Linux.  If you build Python yourself on Linux (or any Unix-like system), "
+"the default :file:`{prefix}` and :file:`{exec-prefix}` are :file:`/usr/"
+"local`."
+msgstr ""
+"Kebanyakan distribusi Linux menyertakan Python sebagai bagian standar "
+"sistem, jadi :file:`{prefix}` dan :file:`{exec-prefix}` biasanya keduanya "
+":file:`/usr` di Linux. Jika Anda membuat Python sendiri di Linux (atau "
+"sistem serupa Unix), bawaan :file:`{prefix}` dan :file:`{exec-prefix}` "
+"adalah :file:`/usr/local`."
+
+#: ../../install/index.rst:227
+msgid ""
+"The default installation directory on Windows was :file:`C:\\\\Program Files"
+"\\\\Python` under Python 1.6a1, 1.5.2, and earlier."
+msgstr ""
+"Direktori instalasi default pada Windows adalah :file:`C:\\\\Program "
+"Files\\\\Python` di bawah Python 1.6a1, 1.5.2, dan sebelumnya."
+
+#: ../../install/index.rst:230
+msgid ""
+":file:`{prefix}` and :file:`{exec-prefix}` stand for the directories that "
+"Python is installed to, and where it finds its libraries at run-time.  They "
+"are always the same under Windows, and very often the same under Unix and "
+"Mac OS X.  You can find out what your Python installation uses for "
+":file:`{prefix}` and :file:`{exec-prefix}` by running Python in interactive "
+"mode and typing a few simple commands. Under Unix, just type ``python`` at "
+"the shell prompt.  Under Windows, choose :menuselection:`Start --> Programs "
+"--> Python X.Y --> Python (command line)`.   Once the interpreter is "
+"started, you type Python code at the prompt.  For example, on my Linux "
+"system, I type the three Python statements shown below, and get the output "
+"as shown, to find out my :file:`{prefix}` and :file:`{exec-prefix}`:"
+msgstr ""
+":file:`{prefix}` dan :file:`{exec-prefix}` adalah singkatan dari direktori "
+"tempat Python diinstal, dan di mana ia menemukan library-nya pada saat run-"
+"time. Mereka selalu sama di Windows, dan sangat sering sama di Unix dan Mac "
+"OS X. Anda dapat mengetahui apa yang digunakan instalasi Python untuk "
+":file:`{prefix}` dan :file:`{exec-prefix}` dengan menjalankan Python dalam "
+"mode interaktif dan mengetik beberapa perintah sederhana. Di Unix, cukup "
+"ketik ``python`` pada prompt shell. Di bawah Windows, pilih "
+":menuelection:`Start --> Programs --> Python X.Y --> Python (command line)`."
+" Setelah penerjemah dimulai, Anda mengetik kode Python saat diminta. "
+"Misalnya, pada sistem Linux saya, saya mengetik tiga pernyataan Python yang "
+"ditunjukkan di bawah ini, dan mendapatkan output seperti yang ditunjukkan, "
+"untuk mengetahui :file:`{prefix}` dan :file:`{exec-prefix}` saya:"
+
+#: ../../install/index.rst:252
+msgid ""
+"A few other placeholders are used in this document: :file:`{X.Y}` stands "
+"for the version of Python, for example ``3.2``; :file:`{abiflags}` will be "
+"replaced by the value of :data:`sys.abiflags` or the empty string for "
+"platforms which don't define ABI flags; :file:`{distname}` will be replaced "
+"by the name of the module distribution being installed.  Dots and "
+"capitalization are important in the paths; for example, a value that uses "
+"``python3.2`` on UNIX will typically use ``Python32`` on Windows."
+msgstr ""
+"Beberapa placeholder lain digunakan dalam dokumen ini: :file:`{X.Y}` adalah "
+"singkatan dari versi Python, misalnya ``3.2`; :file:`{abiflags}` akan "
+"diganti dengan nilai :data:`sys.abiflags` atau string kosong untuk platform "
+"yang tidak mendefinisikan penanda ABI; :file:`{distname}` akan diganti "
+"dengan nama distribusi modul yang diinstal. Titik dan kapitalisasi penting "
+"di jalur; misalnya, nilai yang menggunakan ``python3.2`` di UNIX biasanya "
+"akan menggunakan ``Python32`` di Windows."
+
+#: ../../install/index.rst:260
+msgid ""
+"If you don't want to install modules to the standard location, or if you "
+"don't have permission to write there, then you need to read about alternate "
+"installations in section :ref:`inst-alt-install`.  If you want to customize "
+"your installation directories more heavily, see section :ref:`inst-custom-"
+"install` on custom installations."
+msgstr ""
+"Jika Anda tidak ingin menginstal modul ke lokasi standar, atau jika Anda "
+"tidak memiliki izin untuk menulis di sana, maka Anda perlu membaca tentang "
+"instalasi alternatif di bagian :ref:`inst-alt-install`. Jika Anda ingin "
+"mengubah direktori instalasi Anda lebih berat, lihat bagian :ref:`inst-"
+"custom-install` pada instalasi kustom."
+
+#: ../../install/index.rst:270
+msgid "Alternate Installation"
+msgstr "Instalasi Alternatif"
+
+#: ../../install/index.rst:272
+msgid ""
+"Often, it is necessary or desirable to install modules to a location other "
+"than the standard location for third-party Python modules.  For example, on "
+"a Unix system you might not have permission to write to the standard third-"
+"party module directory.  Or you might wish to try out a module before making"
+" it a standard part of your local Python installation.  This is especially "
+"true when upgrading a distribution already present: you want to make sure "
+"your existing base of scripts still works with the new version before "
+"actually upgrading."
+msgstr ""
+"Seringkali, kita perlu atau ingin menginstal modul ke lokasi selain lokasi "
+"standar untuk modul Python pihak ketiga. Misalnya, pada sistem Unix Anda "
+"mungkin tidak memiliki izin untuk menulis ke direktori modul standar pihak "
+"ketiga. Atau Anda mungkin ingin mencoba modul sebelum menjadikannya sebagai "
+"bagian standar dari instalasi Python lokal Anda. Hal ini terutama berlaku "
+"saat memutakhirkan distribusi yang sudah ada: Anda ingin memastikan basis "
+"skrip yang ada masih berfungsi dengan versi baru sebelum benar-benar "
+"memutakhirkan."
+
+#: ../../install/index.rst:280
+msgid ""
+"The Distutils :command:`install` command is designed to make installing "
+"module distributions to an alternate location simple and painless.  The "
+"basic idea is that you supply a base directory for the installation, and the"
+" :command:`install` command picks a set of directories (called an "
+"*installation scheme*) under this base directory in which to install files."
+"  The details differ across platforms, so read whichever of the following "
+"sections applies to you."
+msgstr ""
+"Perintah Distutils :command:`install` dirancang untuk membuat distribusi "
+"modul instalasi ke lokasi alternatif sederhana dan tidak menyakitkan. Ide "
+"dasarnya adalah Anda menyediakan direktori dasar untuk instalasi, dan "
+"perintah :command:`install` memilih sekumpulan direktori (disebut *skema "
+"instalasi*) di bawah direktori dasar ini untuk menginstal file. Detailnya "
+"berbeda di setiap platform, jadi bacalah bagian mana pun berikut ini yang "
+"sesuai untuk Anda."
+
+#: ../../install/index.rst:288
+msgid ""
+"Note that the various alternate installation schemes are mutually "
+"exclusive: you can pass ``--user``, or ``--home``, or ``--prefix`` and ``--"
+"exec-prefix``, or ``--install-base`` and ``--install-platbase``, but you "
+"can't mix from these groups."
+msgstr ""
+"Perhatikan bahwa berbagai skema instalasi alternatif sama-sama eksklusif: "
+"Anda dapat memberikan ``--user``, atau ``--home``, atau ``--prefix`` dan "
+"``--exec-prefix``, atau ``--install-base`` dan ``--install-platbase``, "
+"tetapi Anda tidak dapat mencampur dari grup ini."
+
+#: ../../install/index.rst:297
+msgid "Alternate installation: the user scheme"
+msgstr "Instalasi alternatif: skema user"
+
+#: ../../install/index.rst:299
+msgid ""
+"This scheme is designed to be the most convenient solution for users that "
+"don't have write permission to the global site-packages directory or don't "
+"want to install into it.  It is enabled with a simple option::"
+msgstr ""
+"Skema ini dirancang untuk menjadi solusi yang paling nyaman bagi pengguna "
+"yang tidak memiliki izin menulis ke direktori paket situs global atau tidak "
+"ingin menginstalnya. Ini diaktifkan dengan opsi sederhana::"
+
+#: ../../install/index.rst:305
+msgid ""
+"Files will be installed into subdirectories of :data:`site.USER_BASE` "
+"(written as :file:`{userbase}` hereafter).  This scheme installs pure "
+"Python modules and extension modules in the same location (also known as :"
+"data:`site.USER_SITE`). Here are the values for UNIX, including Mac OS X:"
+msgstr ""
+"File akan dipasang ke subdirektori dari :data:`site.USER_BASE` (selanjutnya "
+"ditulis sebagai :file:`{userbase}`). Skema ini menginstal modul Python murni"
+" dan modul ekstensi di lokasi yang sama (juga dikenal sebagai "
+":data:`site.USER_SITE`). Berikut adalah nilai untuk UNIX, termasuk Mac OS X:"
+
+#: ../../install/index.rst:311 ../../install/index.rst:322
+#: ../../install/index.rst:373 ../../install/index.rst:422
+#: ../../install/index.rst:474 ../../install/index.rst:499
+#: ../../install/index.rst:735 ../../install/index.rst:747
+msgid "Type of file"
+msgstr "Tipe file"
+
+#: ../../install/index.rst:311 ../../install/index.rst:322
+#: ../../install/index.rst:373 ../../install/index.rst:422
+#: ../../install/index.rst:474
+msgid "Installation directory"
+msgstr "Direktori instalasi"
+
+#: ../../install/index.rst:313 ../../install/index.rst:324
+#: ../../install/index.rst:375 ../../install/index.rst:476
+msgid "modules"
+msgstr "modul"
+
+#: ../../install/index.rst:313
+msgid ":file:`{userbase}/lib/python{X.Y}/site-packages`"
+msgstr ":file:`{userbase}/lib/python{X.Y}/site-packages`"
+
+#: ../../install/index.rst:314 ../../install/index.rst:325
+#: ../../install/index.rst:376 ../../install/index.rst:426
+#: ../../install/index.rst:477 ../../install/index.rst:504
+msgid "scripts"
+msgstr "skrip"
+
+#: ../../install/index.rst:314
+msgid ":file:`{userbase}/bin`"
+msgstr ":file:`{userbase}/bin`"
+
+#: ../../install/index.rst:315 ../../install/index.rst:326
+#: ../../install/index.rst:377 ../../install/index.rst:427
+#: ../../install/index.rst:478 ../../install/index.rst:505
+msgid "data"
+msgstr "data"
+
+#: ../../install/index.rst:315 ../../install/index.rst:326
+msgid ":file:`{userbase}`"
+msgstr ":file:`{userbase}`"
+
+#: ../../install/index.rst:316 ../../install/index.rst:327
+#: ../../install/index.rst:378 ../../install/index.rst:428
+#: ../../install/index.rst:479 ../../install/index.rst:506
+msgid "C headers"
+msgstr "C header"
+
+#: ../../install/index.rst:316
+msgid ":file:`{userbase}/include/python{X.Y}{abiflags}/{distname}`"
+msgstr ":file:`{userbase}/include/python{X.Y}{abiflags}/{distname}`"
+
+#: ../../install/index.rst:319
+msgid "And here are the values used on Windows:"
+msgstr "Dan inilah nilai yang digunakan di Windows:"
+
+#: ../../install/index.rst:324
+msgid ":file:`{userbase}\\\\Python{XY}\\\\site-packages`"
+msgstr ":file:`{userbase}\\\\Python{XY}\\\\site-packages`"
+
+#: ../../install/index.rst:325
+msgid ":file:`{userbase}\\\\Python{XY}\\\\Scripts`"
+msgstr ":file:`{userbase}\\\\Python{XY}\\\\Scripts`"
+
+#: ../../install/index.rst:327
+msgid ":file:`{userbase}\\\\Python{XY}\\\\Include\\\\{distname}`"
+msgstr ":file:`{userbase}\\\\Python{XY}\\\\Include\\\\{distname}`"
+
+#: ../../install/index.rst:330
+msgid ""
+"The advantage of using this scheme compared to the other ones described "
+"below is that the user site-packages directory is under normal conditions "
+"always included in :data:`sys.path` (see :mod:`site` for more information), "
+"which means that there is no additional step to perform after running the :"
+"file:`setup.py` script to finalize the installation."
+msgstr ""
+"Keuntungan menggunakan skema ini dibandingkan dengan skema lain yang "
+"dijelaskan di bawah ini adalah direktori paket situs pengguna dalam kondisi "
+"normal selalu disertakan dalam :data:`sys.path` (lihat :mod:`site` untuk "
+"informasi lebih lanjut), yang mana berarti tidak ada langkah tambahan yang "
+"harus dilakukan setelah menjalankan skrip :file:`setup.py` untuk "
+"menyelesaikan instalasi."
+
+#: ../../install/index.rst:336
+msgid ""
+"The :command:`build_ext` command also has a ``--user`` option to add :file:"
+"`{userbase}/include` to the compiler search path for header files and :file:"
+"`{userbase}/lib` to the compiler search path for libraries as well as to "
+"the runtime search path for shared C libraries (rpath)."
+msgstr ""
+"Perintah :command:`build_ext` juga memiliki opsi ``--user`` untuk "
+"menambahkan :file:`{userbase}/include` ke path pencarian compiler untuk file"
+" header dan :file:`{userbase}/lib` ke path pencarian compiler untuk pustaka "
+"serta ke path pencarian runtime untuk pustaka C bersama (rpath)."
+
+#: ../../install/index.rst:345
+msgid "Alternate installation: the home scheme"
+msgstr "Instalasi alternatif: skema home"
+
+#: ../../install/index.rst:347
+msgid ""
+"The idea behind the \"home scheme\" is that you build and maintain a "
+"personal stash of Python modules.  This scheme's name is derived from the "
+"idea of a \"home\" directory on Unix, since it's not unusual for a Unix user"
+" to make their home directory have a layout similar to :file:`/usr/` or "
+":file:`/usr/local/`. This scheme can be used by anyone, regardless of the "
+"operating system they are installing for."
+msgstr ""
+"Ide di balik \"skema home\" adalah Anda membangun dan memelihara simpanan "
+"pribadi modul Python. Nama skema ini berasal dari ide direktori \"home\" di "
+"Unix, karena bukan hal yang aneh bagi pengguna Unix untuk membuat direktori "
+"home mereka memiliki layout yang mirip dengan :file:`/usr/` atau "
+":file:`/usr/local/`. Skema ini dapat digunakan oleh siapa saja, terlepas "
+"dari sistem operasi yang mereka instal."
+
+#: ../../install/index.rst:354
+msgid "Installing a new module distribution is as simple as ::"
+msgstr "Menginstal distribusi modul baru semudah ::"
+
+#: ../../install/index.rst:358
+msgid ""
+"where you can supply any directory you like for the :option:`!--home` "
+"option.  On Unix, lazy typists can just type a tilde (``~``); the :command:"
+"`install` command will expand this to your home directory::"
+msgstr ""
+"di mana Anda dapat menyediakan direktori apa pun yang Anda suka untuk opsi "
+":option:`! --home`. Di Unix, juru ketik yang malas cukup mengetik tilde "
+"(``~``); perintah :command:`install` akan memperluas ini ke direktori home "
+"Anda::"
+
+#: ../../install/index.rst:364
+msgid ""
+"To make Python find the distributions installed with this scheme, you may "
+"have to :ref:`modify Python's search path <inst-search-path>` or edit :mod:"
+"`sitecustomize` (see :mod:`site`) to call :func:`site.addsitedir` or edit :"
+"data:`sys.path`."
+msgstr ""
+"Untuk membuat Python menemukan distribusi yang diinstal dengan skema ini, "
+"Anda mungkin harus :ref:`memodifikasi path pencarian Python <inst-search-"
+"path>` atau edit :mod:`sitecustomize` (lihat :mod:`site`) untuk memanggil "
+":func:`site.addsitedir` atau edit :data:`sys.path`."
+
+#: ../../install/index.rst:369
+msgid ""
+"The :option:`!--home` option defines the installation base directory.  "
+"Files are installed to the following directories under the installation "
+"base as follows:"
+msgstr ""
+"Opsi :option:`!--home` menentukan direktori dasar instalasi. File diinstal "
+"ke direktori berikut di bawah basis penginstalan sebagai berikut:"
+
+#: ../../install/index.rst:375
+msgid ":file:`{home}/lib/python`"
+msgstr ":file:`{home}/lib/python`"
+
+#: ../../install/index.rst:376
+msgid ":file:`{home}/bin`"
+msgstr ":file:`{home}/bin`"
+
+#: ../../install/index.rst:377
+msgid ":file:`{home}`"
+msgstr ":file:`{home}`"
+
+#: ../../install/index.rst:378
+msgid ":file:`{home}/include/python/{distname}`"
+msgstr ":file:`{home}/include/python/{distname}`"
+
+#: ../../install/index.rst:381
+msgid "(Mentally replace slashes with backslashes if you're on Windows.)"
+msgstr ""
+"(Ganti garis miring dengan garis miring terbalik jika Anda menggunakan "
+"Windows.)"
+
+#: ../../install/index.rst:387
+msgid "Alternate installation: Unix (the prefix scheme)"
+msgstr "Instalasi alternatif: Unix (skema prefiks)"
+
+#: ../../install/index.rst:389
+msgid ""
+"The \"prefix scheme\" is useful when you wish to use one Python installation"
+" to perform the build/install (i.e., to run the setup script), but install "
+"modules into the third-party module directory of a different Python "
+"installation (or something that looks like a different Python installation)."
+"  If this sounds a trifle unusual, it is---that's why the user and home "
+"schemes come before.  However, there are at least two known cases where the "
+"prefix scheme will be useful."
+msgstr ""
+"\"Skema prefiks\" berguna ketika Anda ingin menggunakan satu instalasi "
+"Python untuk melakukan build/install (yaitu, untuk menjalankan skrip "
+"pengaturan), tetapi menginstal modul ke direktori modul pihak ketiga dari "
+"instalasi Python yang berbeda (atau sesuatu yang terlihat seperti instalasi "
+"Python yang berbeda). Jika ini terdengar agak tidak biasa, itulah mengapa "
+"skema pengguna dan home datang sebelumnya. Namun, setidaknya ada dua kasus "
+"yang diketahui di mana skema prefiks akan berguna."
+
+#: ../../install/index.rst:396
+msgid ""
+"First, consider that many Linux distributions put Python in :file:`/usr`, "
+"rather than the more traditional :file:`/usr/local`.  This is entirely "
+"appropriate, since in those cases Python is part of \"the system\" rather "
+"than a local add-on. However, if you are installing Python modules from "
+"source, you probably want them to go in :file:`/usr/local/lib/python2.{X}` "
+"rather than :file:`/usr/lib/python2.{X}`.  This can be done with ::"
+msgstr ""
+"Pertama, pertimbangkan bahwa banyak distribusi Linux meletakkan Python di "
+":file:`/usr`, daripada yang lebih tradisional :file:`/usr/local`. Ini "
+"sepenuhnya sesuai, karena dalam kasus tersebut Python adalah bagian dari "
+"\"sistem\" daripada add-on lokal. Namun, jika Anda menginstal modul Python "
+"dari sumber, Anda mungkin ingin modul tersebut masuk ke "
+":file:`/usr/local/lib/python2.{X}` daripada :file:`/usr/lib/python2.{X}`. "
+"Ini dapat dilakukan dengan:"
+
+#: ../../install/index.rst:405
+msgid ""
+"Another possibility is a network filesystem where the name used to write to "
+"a remote directory is different from the name used to read it: for example, "
+"the Python interpreter accessed as :file:`/usr/local/bin/python` might "
+"search for modules in :file:`/usr/local/lib/python2.{X}`, but those modules "
+"would have to be installed to, say, :file:`/mnt/{@server}/export/lib/"
+"python2.{X}`.  This could be done with ::"
+msgstr ""
+"Kemungkinan lain adalah sistem file jaringan di mana nama yang digunakan "
+"untuk menulis ke direktori remote berbeda dari nama yang digunakan untuk "
+"membacanya: misalnya, interpreter Python diakses sebagai "
+":file:`/usr/local/bin/python` mungkin mencari modul dalam "
+":file:`/usr/local/lib/python2.{X}`, tetapi modul tersebut harus dipasang ke,"
+" misalnya, :file:`/mnt/{@server}/export/lib/python2.{X}`. Ini bisa dilakukan"
+" dengan ::"
+
+#: ../../install/index.rst:414
+msgid ""
+"In either case, the :option:`!--prefix` option defines the installation "
+"base, and the :option:`!--exec-prefix` option defines the platform-specific "
+"installation base, which is used for platform-specific files.  (Currently, "
+"this just means non-pure module distributions, but could be expanded to C "
+"libraries, binary executables, etc.)  If :option:`!--exec-prefix` is not "
+"supplied, it defaults to :option:`!--prefix`.  Files are installed as "
+"follows:"
+msgstr ""
+"Dalam kedua kasus tersebut, opsi :option:`!--prefix` menentukan basis "
+"instalasi, dan opsi :option:`!--exec-prefix` menentukan basis instalasi "
+"khusus platform, yang digunakan untuk file khusus platform. (Saat ini, ini "
+"hanya berarti distribusi modul non-murni, tetapi dapat diperluas ke pustaka "
+"C, biner yang dapat dieksekusi, dll.) Jika :option:`!--exec-prefix` tidak "
+"disediakan, defaultnya adalah :option:`!--prefix`. File diinstal sebagai "
+"berikut:"
+
+#: ../../install/index.rst:424 ../../install/index.rst:501
+msgid "Python modules"
+msgstr "Modul Python"
+
+#: ../../install/index.rst:425 ../../install/index.rst:502
+msgid "extension modules"
+msgstr "modul ekstensi"
+
+#: ../../install/index.rst:426
+msgid ":file:`{prefix}/bin`"
+msgstr ":file:`{prefix}/bin`"
+
+#: ../../install/index.rst:427 ../../install/index.rst:478
+msgid ":file:`{prefix}`"
+msgstr ":file:`{prefix}`"
+
+#: ../../install/index.rst:428
+msgid ":file:`{prefix}/include/python{X.Y}{abiflags}/{distname}`"
+msgstr ":file:`{prefix}/include/python{X.Y}{abiflags}/{distname}`"
+
+#: ../../install/index.rst:431
+msgid ""
+"There is no requirement that :option:`!--prefix` or :option:`!--exec-"
+"prefix` actually point to an alternate Python installation; if the "
+"directories listed above do not already exist, they are created at "
+"installation time."
+msgstr ""
+"Tidak ada persyaratan bahwa :option:`!--prefix` atau :option:`!--exec-"
+"prefix` sebenarnya mengarah ke instalasi Python alternatif; jika direktori "
+"yang tercantum di atas belum ada, mereka dibuat pada saat instalasi."
+
+#: ../../install/index.rst:435
+msgid ""
+"Incidentally, the real reason the prefix scheme is important is simply that "
+"a standard Unix installation uses the prefix scheme, but with :option:`!--"
+"prefix` and :option:`!--exec-prefix` supplied by Python itself as ``sys."
+"prefix`` and ``sys.exec_prefix``.  Thus, you might think you'll never use "
+"the prefix scheme, but every time you run ``python setup.py install`` "
+"without any other options, you're using it."
+msgstr ""
+"Secara kebetulan, alasan sebenarnya mengapa skema prefiks penting adalah "
+"karena instalasi Unix standar menggunakan skema prefiks, tetapi dengan "
+":option:`!--prefix` dan :option:`!--exec-prefix` disediakan oleh Python "
+"sendiri sebagai ``sys.prefix`` dan ``sys.exec_prefix``. Jadi, Anda mungkin "
+"berpikir Anda tidak akan pernah menggunakan skema prefiks, tetapi setiap "
+"kali Anda menjalankan ``python setup.py install`` tanpa opsi lain, Anda "
+"menggunakannya."
+
+#: ../../install/index.rst:442
+msgid ""
+"Note that installing extensions to an alternate Python installation has no "
+"effect on how those extensions are built: in particular, the Python header "
+"files (:file:`Python.h` and friends) installed with the Python interpreter "
+"used to run the setup script will be used in compiling extensions.  It is "
+"your responsibility to ensure that the interpreter used to run extensions "
+"installed in this way is compatible with the interpreter used to build them."
+"  The best way to do this is to ensure that the two interpreters are the "
+"same version of Python (possibly different builds, or possibly copies of the"
+" same build).  (Of course, if your :option:`!--prefix` and :option:`!--exec-"
+"prefix` don't even point to an alternate Python installation, this is "
+"immaterial.)"
+msgstr ""
+"Perhatikan bahwa menginstal ekstensi ke instalasi Python alternatif tidak "
+"berpengaruh pada bagaimana ekstensi tersebut dibuat: khususnya, file header "
+"Python (:file:`Python.h` dan teman-teman) yang diinstal dengan interpreter "
+"Python yang digunakan untuk menjalankan skrip pengaturan akan digunakan "
+"dalam menyusun ekstensi. Anda bertanggung jawab untuk memastikan bahwa "
+"penafsir yang digunakan untuk menjalankan ekstensi yang dipasang dengan cara"
+" ini kompatibel dengan interpreter yang digunakan untuk membuatnya. Cara "
+"terbaik untuk melakukannya adalah dengan memastikan bahwa kedua interpreter "
+"adalah versi Python yang sama (kemungkinan build berbeda, atau mungkin "
+"salinan build yang sama). (Tentu saja, jika :option:`!--prefix` dan :option"
+":`!--exec-prefix`  Anda bahkan tidak menunjuk ke instalasi Python "
+"alternatif, ini tidak penting.)"
+
+#: ../../install/index.rst:457
+msgid "Alternate installation: Windows (the prefix scheme)"
+msgstr "Instalasi alternatif: Windows (skema prefiks)"
+
+#: ../../install/index.rst:459
+msgid ""
+"Windows has no concept of a user's home directory, and since the standard "
+"Python installation under Windows is simpler than under Unix, the :option:"
+"`!--prefix` option has traditionally been used to install additional "
+"packages in separate locations on Windows. ::"
+msgstr ""
+"Windows tidak memiliki konsep direktori home pengguna, dan karena instalasi "
+"Python standar di bawah Windows lebih sederhana daripada di bawah Unix, opsi"
+" :option:`!--prefix` secara tradisional digunakan untuk menginstal paket "
+"tambahan di lokasi terpisah pada Windows.::"
+
+#: ../../install/index.rst:466
+msgid ""
+"to install modules to the :file:`\\\\Temp\\\\Python` directory on the "
+"current drive."
+msgstr ""
+"untuk menginstal modul ke direktori :file:`\\\\Temp\\\\Python` pada drive "
+"saat ini."
+
+#: ../../install/index.rst:468
+msgid ""
+"The installation base is defined by the :option:`!--prefix` option; the :"
+"option:`!--exec-prefix` option is not supported under Windows, which means "
+"that pure Python modules and extension modules are installed into the same "
+"location. Files are installed as follows:"
+msgstr ""
+"Basis instalasi ditentukan oleh opsi :option:`!--prefix`; opsi :option"
+":`!--exec-prefix` tidak didukung pada Windows, yang berarti modul Python "
+"murni dan modul ekstensi diinstal ke lokasi yang sama. File diinstal sebagai"
+" berikut:"
+
+#: ../../install/index.rst:477
+msgid ":file:`{prefix}\\\\Scripts`"
+msgstr ":file:`{prefix}\\\\Scripts`"
+
+#: ../../install/index.rst:479
+msgid ":file:`{prefix}\\\\Include\\\\{distname}`"
+msgstr ":file:`{prefix}\\\\Include\\\\{distname}`"
+
+#: ../../install/index.rst:486
+msgid "Custom Installation"
+msgstr "Instalasi kustom"
+
+#: ../../install/index.rst:488
+msgid ""
+"Sometimes, the alternate installation schemes described in section :ref:"
+"`inst-alt-install` just don't do what you want.  You might want to tweak "
+"just one or two directories while keeping everything under the same base "
+"directory, or you might want to completely redefine the installation "
+"scheme.  In either case, you're creating a *custom installation scheme*."
+msgstr ""
+"Terkadang, skema instalasi alternatif yang dijelaskan di bagian :ref:`inst-"
+"alt-install` tidak melakukan apa yang Anda inginkan. Anda mungkin ingin "
+"mengubah hanya satu atau dua direktori sambil menyimpan semuanya di bawah "
+"direktori dasar yang sama, atau Anda mungkin ingin sepenuhnya mendefinisikan"
+" ulang skema instalasi. Dalam kedua kasus tersebut, Anda membuat *skema "
+"penginstalan kustom*."
+
+#: ../../install/index.rst:494
+msgid ""
+"To create a custom installation scheme, you start with one of the alternate "
+"schemes and override some of the installation directories used for the "
+"various types of files, using these options:"
+msgstr ""
+"Untuk membuat skema penginstalan kustom, Anda mulai dengan salah satu skema "
+"alternatif dan mengganti beberapa direktori penginstalan yang digunakan "
+"untuk berbagai jenis file, menggunakan opsi berikut:"
+
+#: ../../install/index.rst:499
+msgid "Override option"
+msgstr "Opsi timpa"
+
+#: ../../install/index.rst:501
+msgid "``--install-purelib``"
+msgstr "``--install-purelib``"
+
+#: ../../install/index.rst:502
+msgid "``--install-platlib``"
+msgstr "``--install-platlib``"
+
+#: ../../install/index.rst:503
+msgid "all modules"
+msgstr "semua modul"
+
+#: ../../install/index.rst:503
+msgid "``--install-lib``"
+msgstr "``--install-lib``"
+
+#: ../../install/index.rst:504
+msgid "``--install-scripts``"
+msgstr "``--install-scripts``"
+
+#: ../../install/index.rst:505
+msgid "``--install-data``"
+msgstr "``--install-data``"
+
+#: ../../install/index.rst:506
+msgid "``--install-headers``"
+msgstr "``--install-headers``"
+
+#: ../../install/index.rst:509
+msgid ""
+"These override options can be relative, absolute, or explicitly defined in "
+"terms of one of the installation base directories. (There are two "
+"installation base directories, and they are normally the same---they only "
+"differ when you use the Unix \"prefix scheme\" and supply different ``--"
+"prefix`` and ``--exec-prefix`` options; using ``--install-lib`` will "
+"override values computed or given for ``--install-purelib`` and ``--install-"
+"platlib``, and is recommended for schemes that don't make a difference "
+"between Python and extension modules.)"
+msgstr ""
+"Opsi timpa ini dapat bersifat relatif, absolut, atau secara eksplisit "
+"ditentukan dalam salah satu direktori dasar instalasi. (Ada dua direktori "
+"dasar instalasi, dan biasanya sama---mereka hanya berbeda ketika Anda "
+"menggunakan \"skema prefiks\" Unix dan memberikan opsi ``--prefix`` dan "
+"``--exec-prefix`` yang berbeda; menggunakan ``--install-lib'' akan menimpa "
+"nilai yang dihitung atau diberikan untuk ``--install-purelib`` dan "
+"``--install-platlib``, dan direkomendasikan untuk skema yang tidak membuat "
+"perbedaan antara Python dan modul ekstensi.)"
+
+#: ../../install/index.rst:518
+msgid ""
+"For example, say you're installing a module distribution to your home "
+"directory under Unix---but you want scripts to go in :file:`~/scripts` "
+"rather than :file:`~/bin`. As you might expect, you can override this "
+"directory with the :option:`!--install-scripts` option; in this case, it "
+"makes most sense to supply a relative path, which will be interpreted "
+"relative to the installation base directory (your home directory, in this "
+"case)::"
+msgstr ""
+"Misalnya, Anda menginstal distribusi modul ke direktori home Anda di bawah "
+"Unix---tetapi Anda ingin skrip masuk ke dalam :file:`~/scripts` daripada "
+":file:`~/bin`. Seperti yang Anda duga, Anda dapat mengganti direktori ini "
+"dengan opsi :option:`!--install-scripts`; dalam kasus ini, akan lebih masuk "
+"akal untuk menyediakan jalur relatif, yang akan ditafsirkan relatif terhadap"
+" direktori dasar instalasi (direktori home Anda, dalam hal ini)::"
+
+#: ../../install/index.rst:527
+msgid ""
+"Another Unix example: suppose your Python installation was built and "
+"installed with a prefix of :file:`/usr/local/python`, so under a standard  "
+"installation scripts will wind up in :file:`/usr/local/python/bin`.  If you "
+"want them in :file:`/usr/local/bin` instead, you would supply this absolute "
+"directory for the :option:`!--install-scripts` option::"
+msgstr ""
+"Contoh Unix lainnya: misalkan instalasi Python Anda dibangun dan diinstal "
+"dengan prefiks :file:`/usr/local/python`, jadi di bawah skrip instalasi "
+"standar akan berakhir di :file:`/usr/local/python/bin`. Jika Anda "
+"menginginkannya di :file:`/usr/local/bin`, Anda harus menyediakan direktori "
+"absolut ini untuk opsi :option:`!--install-scripts`::"
+
+#: ../../install/index.rst:535
+msgid ""
+"(This performs an installation using the \"prefix scheme\", where the "
+"prefix is whatever your Python interpreter was installed with--- :file:`/"
+"usr/local/python` in this case.)"
+msgstr ""
+"(Ini melakukan instalasi menggunakan \"skema prefiks\", di mana prefix "
+"adalah apa pun yang telah diinstal interpreter Python Anda dengan--- "
+":file:`/usr/local/python` dalam kasus ini.)"
+
+#: ../../install/index.rst:539
+msgid ""
+"If you maintain Python on Windows, you might want third-party modules to "
+"live in a subdirectory of :file:`{prefix}`, rather than right in :file:"
+"`{prefix}` itself.  This is almost as easy as customizing the script "
+"installation directory---you just have to remember that there are two types "
+"of modules to worry about, Python and extension modules, which can "
+"conveniently be both controlled by one option::"
+msgstr ""
+"Jika Anda mempertahankan Python di Windows, Anda mungkin ingin modul pihak "
+"ketiga berada di subdirektori :file:`{prefix}`, bukan tepat di dalam "
+":file:`{prefix}` itu sendiri. Ini hampir semudah menyesuaikan direktori "
+"instalasi skrip---Anda hanya perlu ingat bahwa ada dua jenis modul yang "
+"perlu dikhawatirkan, Python dan modul ekstensi, yang dapat dikontrol dengan "
+"mudah oleh satu opsi::"
+
+#: ../../install/index.rst:548
+msgid ""
+"The specified installation directory is relative to :file:`{prefix}`.  Of "
+"course, you also have to ensure that this directory is in Python's module "
+"search path, such as by putting a :file:`.pth` file in a site directory "
+"(see :mod:`site`).  See section :ref:`inst-search-path` to find out how to "
+"modify Python's search path."
+msgstr ""
+"Direktori instalasi yang ditentukan relatif terhadap :file:`{prefix}`. Tentu"
+" saja, Anda juga harus memastikan bahwa direktori ini berada di path "
+"pencarian modul Python, seperti dengan meletakkan file :file:`.pth` di "
+"direktori situs (lihat :mod:`site`). Lihat bagian :ref:`inst-search-path` "
+"untuk mengetahui cara memodifikasi path pencarian Python."
+
+#: ../../install/index.rst:554
+msgid ""
+"If you want to define an entire installation scheme, you just have to supply"
+" all of the installation directory options.  The recommended way to do this "
+"is to supply relative paths; for example, if you want to maintain all Python"
+" module-related files under :file:`python` in your home directory, and you "
+"want a separate directory for each platform that you use your home directory"
+" from, you might define the following installation scheme::"
+msgstr ""
+"Jika Anda ingin menentukan seluruh skema instalasi, Anda hanya perlu "
+"menyediakan semua opsi direktori instalasi. Cara yang disarankan untuk "
+"melakukan ini adalah dengan menyediakan path relatif; misalnya, jika Anda "
+"ingin mempertahankan semua file terkait modul Python di bawah :file:`python`"
+" di direktori home Anda, dan Anda ingin direktori terpisah untuk setiap "
+"platform tempat Anda menggunakan direktori home, Anda dapat menentukan skema"
+" instalasi berikut::"
+
+#: ../../install/index.rst:567
+msgid "or, equivalently, ::"
+msgstr "atau, setara, ::"
+
+#: ../../install/index.rst:575
+msgid ""
+"``$PLAT`` is not (necessarily) an environment variable---it will be "
+"expanded by the Distutils as it parses your command line options, just as "
+"it does when parsing your configuration file(s)."
+msgstr ""
+"``$PLAT`` bukanlah (harus) variabel environment---itu akan diperluas oleh "
+"Distutils saat ia mem-parsing opsi baris perintah Anda, seperti yang "
+"dilakukannya saat mem-parsing file konfigurasi Anda."
+
+#: ../../install/index.rst:579
+msgid ""
+"Obviously, specifying the entire installation scheme every time you install "
+"a new module distribution would be very tedious.  Thus, you can put these "
+"options into your Distutils config file (see section :ref:`inst-config-"
+"files`):"
+msgstr ""
+"Jelas, menentukan seluruh skema instalasi setiap kali Anda menginstal "
+"distribusi modul baru akan sangat membosankan. Dengan demikian, Anda dapat "
+"meletakkan opsi ini ke dalam file konfigurasi Distutils Anda (lihat bagian "
+":ref:`inst-config-files`):"
+
+#: ../../install/index.rst:592
+msgid "or, equivalently,"
+msgstr "atau, setara,"
+
+#: ../../install/index.rst:603
+msgid ""
+"Note that these two are *not* equivalent if you supply a different "
+"installation base directory when you run the setup script.  For example, ::"
+msgstr ""
+"Perhatikan bahwa keduanya *tidak* setara jika Anda menyediakan direktori "
+"dasar penginstalan yang berbeda saat Anda menjalankan skrip penataan. "
+"Sebagai contoh,::"
+
+#: ../../install/index.rst:608
+msgid ""
+"would install pure modules to :file:`/tmp/python/lib` in the first case, "
+"and to :file:`/tmp/lib` in the second case.  (For the second case, you "
+"probably want to supply an installation base of :file:`/tmp/python`.)"
+msgstr ""
+"akan menginstal modul murni ke :file:`/tmp/python/lib` dalam kasus pertama, "
+"dan ke :file:`/tmp/lib` dalam kasus kedua. (Untuk kasus kedua, Anda mungkin "
+"ingin menyediakan basis instalasi :file:`/tmp/python`.)"
+
+#: ../../install/index.rst:612
+msgid ""
+"You probably noticed the use of ``$HOME`` and ``$PLAT`` in the sample "
+"configuration file input.  These are Distutils configuration variables, "
+"which bear a strong resemblance to environment variables. In fact, you can "
+"use environment variables in config files on platforms that have such a "
+"notion but the Distutils additionally define a few extra variables that may "
+"not be in your environment, such as ``$PLAT``.  (And of course, on systems "
+"that don't have environment variables, such as Mac OS 9, the configuration "
+"variables supplied by the Distutils are the only ones you can use.) See "
+"section :ref:`inst-config-files` for details."
+msgstr ""
+"Anda mungkin memperhatikan penggunaan ``$HOME`` dan ``$PLAT`` di sampel "
+"input file konfigurasi. Ini adalah variabel konfigurasi Distutils, yang "
+"memiliki kemiripan yang kuat dengan variabel environment. Faktanya, Anda "
+"dapat menggunakan variabel environment dalam file konfigurasi pada platform "
+"yang memiliki gagasan seperti itu tetapi Distutils juga menetapkan beberapa "
+"variabel tambahan yang mungkin tidak ada di environment Anda, seperti "
+"``$PLAT``. (Dan tentu saja, pada sistem yang tidak memiliki variabel "
+"environment, seperti Mac OS 9, variabel konfigurasi yang disediakan oleh "
+"Distutils adalah satu-satunya yang dapat Anda gunakan.) Lihat bagian :ref"
+":`inst-config-files` untuk detailnya."
+
+#: ../../install/index.rst:622
+msgid ""
+"When a :ref:`virtual environment <venv-def>` is activated, any options that "
+"change the installation path will be ignored from all distutils "
+"configuration files to prevent inadvertently installing projects outside of "
+"the virtual environment."
+msgstr ""
+"Ketika a :ref:`virtual environment <venv-def>` diaktifkan, setiap opsi yang "
+"mengubah path instalasi akan diabaikan dari semua file konfigurasi distutils"
+" untuk mencegah penginstalan proyek di luar lingkungan virtual secara tidak "
+"sengaja."
+
+#: ../../install/index.rst:636
+msgid "Modifying Python's Search Path"
+msgstr "Memodifikasi Path Pencarian Python"
+
+#: ../../install/index.rst:638
+msgid ""
+"When the Python interpreter executes an :keyword:`import` statement, it "
+"searches for both Python code and extension modules along a search path.  A "
+"default value for the path is configured into the Python binary when the "
+"interpreter is built. You can determine the path by importing the :mod:"
+"`sys` module and printing the value of ``sys.path``.   ::"
+msgstr ""
+"Ketika interpreter Python menjalankan :keyword:`import`, ia mencari kode "
+"Python dan modul ekstensi di sepanjang path pencarian. Nilai default untuk "
+"path dikonfigurasikan ke dalam biner Python saat interpreter dibuat. Anda "
+"dapat menentukan path dengan mengimport modul :mod:`sys` dan mencetak nilai "
+"``sys.path``.::"
+
+#: ../../install/index.rst:655
+msgid ""
+"The null string in ``sys.path`` represents the current working directory."
+msgstr "String null dalam ``sys.path`` mewakili direktori kerja saat ini."
+
+#: ../../install/index.rst:657
+msgid ""
+"The expected convention for locally installed packages is to put them in the"
+" :file:`{...}/site-packages/` directory, but you may want to install Python "
+"modules into some arbitrary directory.  For example, your site may have a "
+"convention of keeping all software related to the web server under "
+":file:`/www`. Add-on Python modules might then belong in "
+":file:`/www/python`, and in order to import them, this directory must be "
+"added to ``sys.path``.  There are several different ways to add the "
+"directory."
+msgstr ""
+"Konvensi yang diharapkan untuk paket yang diinstal secara lokal adalah "
+"dengan meletakkannya di direktori :file:`{...}/site-packages/`, tetapi Anda "
+"mungkin ingin menginstal modul Python ke dalam direktori arbitrer. Misalnya,"
+" situs Anda mungkin memiliki konvensi untuk menyimpan semua perangkat lunak "
+"yang terkait dengan server web di bawah :file:`/www`. Add-on modul Python "
+"mungkin termasuk dalam :file:`/www/python`, dan untuk mengimpornya, "
+"direktori ini harus ditambahkan ke ``sys.path``. Ada beberapa cara berbeda "
+"untuk menambahkan direktori."
+
+#: ../../install/index.rst:665
+msgid ""
+"The most convenient way is to add a path configuration file to a directory "
+"that's already on Python's path, usually to the :file:`.../site-packages/` "
+"directory.  Path configuration files have an extension of :file:`.pth`, and "
+"each line must contain a single path that will be appended to ``sys.path``."
+"  (Because the new paths are appended to ``sys.path``, modules in the added "
+"directories will not override standard modules.  This means you can't use "
+"this mechanism for installing fixed versions of standard modules.)"
+msgstr ""
+"Cara yang paling mudah adalah dengan menambahkan path file konfigurasi ke "
+"direktori yang sudah ada di path Python, biasanya ke direktori :file"
+":`.../site-packages/`. File konfigurasi path memiliki ekstensi :file:`.pth`,"
+" dan setiap baris harus berisi satu path yang akan ditambahkan ke "
+"``sys.path``. (Karena path baru ditambahkan ke ``sys.path``, modul dalam "
+"direktori yang ditambahkan tidak akan menimpa modul standar. Ini berarti "
+"Anda tidak dapat menggunakan mekanisme ini untuk menginstal versi tetap dari"
+" modul standar.)"
+
+#: ../../install/index.rst:673
+msgid ""
+"Paths can be absolute or relative, in which case they're relative to the "
+"directory containing the :file:`.pth` file.  See the documentation of the :"
+"mod:`site` module for more information."
+msgstr ""
+"Path bisa absolut atau relatif, dalam hal ini mereka relatif terhadap "
+"direktori yang berisi file :file:`.pth`. Lihat dokumentasi modul :mod:`site`"
+" untuk informasi lebih lanjut."
+
+#: ../../install/index.rst:677
+msgid ""
+"A slightly less convenient way is to edit the :file:`site.py` file in "
+"Python's standard library, and modify ``sys.path``.  :file:`site.py` is "
+"automatically imported when the Python interpreter is executed, unless the :"
+"option:`-S` switch is supplied to suppress this behaviour.  So you could "
+"simply edit :file:`site.py` and add two lines to it:"
+msgstr ""
+"Cara yang sedikit kurang nyaman adalah dengan mengedit file :file:`site.py` "
+"di pustaka standar Python, dan memodifikasi ``sys.path``. :file:`site.py` "
+"secara otomatis diimpor saat interpreter Python dijalankan, kecuali jika "
+"opsi :option:`-S` disediakan untuk menahan perilaku ini. Jadi Anda cukup "
+"mengedit :file:`site.py` dan menambahkan dua baris padanya:"
+
+#: ../../install/index.rst:688
+msgid ""
+"However, if you reinstall the same major version of Python (perhaps when "
+"upgrading from 2.2 to 2.2.2, for example) :file:`site.py` will be "
+"overwritten by the stock version.  You'd have to remember that it was "
+"modified and save a copy before doing the installation."
+msgstr ""
+"Namun, jika Anda menginstal ulang versi utama Python yang sama (mungkin saat"
+" meningkatkan dari 2.2 ke 2.2.2, misalnya) :file:`site.py` akan ditimpa oleh"
+" versi stok. Anda harus ingat bahwa itu telah diubah dan menyimpan "
+"salinannya sebelum melakukan instalasi."
+
+#: ../../install/index.rst:693
+msgid ""
+"There are two environment variables that can modify ``sys.path``. :envvar:"
+"`PYTHONHOME` sets an alternate value for the prefix of the Python "
+"installation.  For example, if :envvar:`PYTHONHOME` is set to ``/www/"
+"python``, the search path will be set to ``['', '/www/python/lib/pythonX."
+"Y/', '/www/python/lib/pythonX.Y/plat-linux2', ...]``."
+msgstr ""
+"Ada dua variabel environment yang dapat mengubah ``sys.path``. "
+":envvar:`PYTHONHOME` menetapkan nilai alternatif untuk prefiks instalasi "
+"Python. Misalnya, jika :envvar:`PYTHONHOME` disetel ke ``/www/python``, path"
+" pencarian akan disetel ke ``['', '/www/python/lib/pythonX.Y/', "
+"'/www/python/lib/pythonX.Y/plat-linux2', ...]``."
+
+#: ../../install/index.rst:699
+msgid ""
+"The :envvar:`PYTHONPATH` variable can be set to a list of paths that will "
+"be added to the beginning of ``sys.path``.  For example, if :envvar:"
+"`PYTHONPATH` is set to ``/www/python:/opt/py``, the search path will begin "
+"with ``['/www/python', '/opt/py']``.  (Note that directories must exist in "
+"order to be added to ``sys.path``; the :mod:`site` module removes paths "
+"that don't exist.)"
+msgstr ""
+"Variabel :envvar:`PYTHONPATH` dapat disetel ke daftar path yang akan "
+"ditambahkan ke awal ``sys.path``. Misalnya, jika :envvar:`PYTHONPATH` "
+"disetel ke ``/www/python:/opt/py``, pencarian path akan dimulai dengan "
+"``['/www/python', '/opt/py']``. (Perhatikan bahwa direktori harus ada agar "
+"dapat ditambahkan ke ``sys.path``; modul :mod:`site` menghapus path yang "
+"tidak ada.)"
+
+#: ../../install/index.rst:706
+msgid ""
+"Finally, ``sys.path`` is just a regular Python list, so any Python "
+"application can modify it by adding or removing entries."
+msgstr ""
+"Akhirnya, ``sys.path`` hanyalah daftar Python biasa, jadi aplikasi Python "
+"apa pun dapat memodifikasinya dengan menambahkan atau menghapus entri."
+
+#: ../../install/index.rst:713
+msgid "Distutils Configuration Files"
+msgstr "File Konfigurasi Distutils"
+
+#: ../../install/index.rst:715
+msgid ""
+"As mentioned above, you can use Distutils configuration files to record "
+"personal or site preferences for any Distutils options.  That is, any option"
+" to any command can be stored in one of two or three (depending on your "
+"platform) configuration files, which will be consulted before the command-"
+"line is parsed. This means that configuration files will override default "
+"values, and the command-line will in turn override configuration files.  "
+"Furthermore, if multiple configuration files apply, values from \"earlier\" "
+"files are overridden by \"later\" files."
+msgstr ""
+"Seperti disebutkan di atas, Anda dapat menggunakan file konfigurasi "
+"Distutils untuk merekam preferensi pribadi atau situs untuk setiap opsi "
+"Distutils. Artinya, opsi apa pun untuk perintah apa pun dapat disimpan di "
+"salah satu dari dua atau tiga file konfigurasi (bergantung pada platform "
+"Anda), yang akan dikonsultasikan sebelum baris perintah diurai. Ini berarti "
+"bahwa file konfigurasi akan menimpa nilai default, dan baris perintah pada "
+"gilirannya akan menimpa file konfigurasi. Selain itu, jika beberapa file "
+"konfigurasi diterapkan, nilai dari file \"sebelumnya\" akan ditimpa oleh "
+"file \"nantinya\"."
+
+#: ../../install/index.rst:728
+msgid "Location and names of config files"
+msgstr "Lokasi dan nama file konfigurasi"
+
+#: ../../install/index.rst:730
+msgid ""
+"The names and locations of the configuration files vary slightly across "
+"platforms.  On Unix and Mac OS X, the three configuration files (in the "
+"order they are processed) are:"
+msgstr ""
+"Nama dan lokasi file konfigurasi sedikit berbeda di setiap platform. Di Unix"
+" dan Mac OS X, tiga file konfigurasi (sesuai urutan prosesnya) adalah:"
+
+#: ../../install/index.rst:735 ../../install/index.rst:747
+msgid "Location and filename"
+msgstr "Lokasi dan nama file"
+
+#: ../../install/index.rst:737 ../../install/index.rst:749
+msgid "system"
+msgstr "system"
+
+#: ../../install/index.rst:737
+msgid ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
+msgstr ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
+
+#: ../../install/index.rst:739 ../../install/index.rst:751
+msgid "personal"
+msgstr "personal"
+
+#: ../../install/index.rst:739
+msgid ":file:`$HOME/.pydistutils.cfg`"
+msgstr ":file:`$HOME/.pydistutils.cfg`"
+
+#: ../../install/index.rst:741 ../../install/index.rst:753
+msgid "local"
+msgstr "lokal"
+
+#: ../../install/index.rst:741 ../../install/index.rst:753
+msgid ":file:`setup.cfg`"
+msgstr ":file:`setup.cfg`"
+
+#: ../../install/index.rst:741 ../../install/index.rst:753
+msgid "\\(3)"
+msgstr "\\(3)"
+
+#: ../../install/index.rst:744
+msgid "And on Windows, the configuration files are:"
+msgstr "Dan di Windows, file konfigurasinya adalah:"
+
+#: ../../install/index.rst:749
+msgid ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
+msgstr ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
+
+#: ../../install/index.rst:749
+msgid "\\(4)"
+msgstr "\\(4)"
+
+#: ../../install/index.rst:751
+msgid ":file:`%HOME%\\\\pydistutils.cfg`"
+msgstr ":file:`%HOME%\\\\pydistutils.cfg`"
+
+#: ../../install/index.rst:751
+msgid "\\(5)"
+msgstr "\\(5)"
+
+#: ../../install/index.rst:756
+msgid ""
+"On all platforms, the \"personal\" file can be temporarily disabled by "
+"passing the `--no-user-cfg` option."
+msgstr ""
+"Di semua platform, file \"pribadi\" dapat dinonaktifkan sementara dengan "
+"memberikan opsi `--no-user-cfg`."
+
+#: ../../install/index.rst:762
+msgid ""
+"Strictly speaking, the system-wide configuration file lives in the "
+"directory where the Distutils are installed; under Python 1.6 and later on "
+"Unix, this is as shown. For Python 1.5.2, the Distutils will normally be "
+"installed to :file:`{prefix}/lib/python1.5/site-packages/distutils`, so the "
+"system configuration file should be put there under Python 1.5.2."
+msgstr ""
+"Sebenarnya, file konfigurasi seluruh sistem berada di direktori tempat "
+"Distutils diinstal; di bawah Python 1.6 dan yang lebih baru di Unix, ini "
+"seperti yang ditunjukkan. Untuk Python 1.5.2, Distutils biasanya akan "
+"diinstal ke :file:`{prefix}/lib/python1.5/site-/distutils`, jadi file "
+"konfigurasi sistem harus diletakkan di sana dengan Python 1.5.2."
+
+#: ../../install/index.rst:769
+msgid ""
+"On Unix, if the :envvar:`HOME` environment variable is not defined, the "
+"user's home directory will be determined with the :func:`getpwuid` function "
+"from the standard :mod:`pwd` module. This is done by the :func:`os.path."
+"expanduser` function used by Distutils."
+msgstr ""
+"Pada Unix, jika variabel environment :envvar:`HOME` tidak ditentukan, "
+"direktori home pengguna akan ditentukan dengan fungsi :func:`getpwuid` dari "
+"modul standar :mod:`pwd`. Ini dilakukan oleh fungsi "
+":func:`os.path.expanduser` yang digunakan oleh Distutils."
+
+#: ../../install/index.rst:775
+msgid ""
+"I.e., in the current directory (usually the location of the setup script)."
+msgstr "Yaitu, di direktori saat ini (biasanya lokasi skrip pengaturan)."
+
+#: ../../install/index.rst:778
+msgid ""
+"(See also note (1).)  Under Python 1.6 and later, Python's default "
+"\"installation prefix\" is :file:`C:\\\\Python`, so the system "
+"configuration file is normally :file:`C:\\\\Python\\\\Lib\\\\distutils\\"
+"\\distutils.cfg`. Under Python 1.5.2, the default prefix was :file:`C:\\"
+"\\Program Files\\\\Python`, and the Distutils were not part of the standard "
+"library---so the system configuration file would be :file:`C:\\\\Program "
+"Files\\\\Python\\\\distutils\\\\distutils.cfg` in a standard Python 1.5.2 "
+"installation under Windows."
+msgstr ""
+"(Lihat juga catatan (1).) Di bawah Python 1.6 dan yang lebih baru, \"prefiks"
+" instalasi\" default Python adalah :file:`C:\\\\Python`, jadi file "
+"konfigurasi sistem biasanya "
+":file:`C:\\\\Python\\Lib\\\\distutils\\\\distutils.cfg`. Di bawah Python "
+"1.5.2, prefiks defaultnya adalah :file:`C:\\\\Program Files\\\\Python`, dan "
+"Distutils bukan bagian dari standar pustaka---jadi file konfigurasi "
+"sistemnya adalah :file:`C:\\\\Program "
+"Files\\\\Python\\\\distutils\\\\distutils.cfg` dalam instalasi Python 1.5.2 "
+"standar pada Windows."
+
+#: ../../install/index.rst:787
+msgid ""
+"On Windows, if the :envvar:`HOME` environment variable is not defined, :"
+"envvar:`USERPROFILE` then :envvar:`HOMEDRIVE` and :envvar:`HOMEPATH` will "
+"be tried. This is done by the :func:`os.path.expanduser` function used by "
+"Distutils."
+msgstr ""
+"Pada Windows, jika variabel environment :envvar:`HOME` tidak ditentukan, "
+":envvar:`USERPROFILE` maka :envvar:`HOMEDRIVE` dan :envvar:`HOMEPATH` akan "
+"dicoba. Ini dilakukan oleh fungsi :func:`os.path.expanduser` yang digunakan "
+"oleh Distutils."
+
+#: ../../install/index.rst:796
+msgid "Syntax of config files"
+msgstr "Sintaks file konfigurasi"
+
+#: ../../install/index.rst:798
+msgid ""
+"The Distutils configuration files all have the same syntax.  The config "
+"files are grouped into sections.  There is one section for each Distutils "
+"command, plus a ``global`` section for global options that affect every "
+"command.  Each section consists of one option per line, specified as "
+"``option=value``."
+msgstr ""
+"Semua file konfigurasi Distutils memiliki sintaks yang sama. File "
+"konfigurasi dikelompokkan menjadi beberapa bagian. Ada satu bagian untuk "
+"setiap perintah Distutils, ditambah bagian ``global`` untuk opsi global yang"
+" memengaruhi setiap perintah. Setiap bagian terdiri dari satu opsi per "
+"baris, ditentukan sebagai ``option=value``."
+
+#: ../../install/index.rst:803
+msgid ""
+"For example, the following is a complete config file that just forces all "
+"commands to run quietly by default:"
+msgstr ""
+"Misalnya, berikut ini adalah file konfigurasi lengkap yang memaksa semua "
+"perintah untuk berjalan diam-diam secara default:"
+
+#: ../../install/index.rst:811
+msgid ""
+"If this is installed as the system config file, it will affect all "
+"processing of any Python module distribution by any user on the current "
+"system.  If it is installed as your personal config file (on systems that "
+"support them), it will affect only module distributions processed by you.  "
+"And if it is used as the :file:`setup.cfg` for a particular module "
+"distribution, it affects only that distribution."
+msgstr ""
+"Jika ini dipasang sebagai file konfigurasi sistem, ini akan memengaruhi "
+"semua pemrosesan distribusi modul Python oleh pengguna mana pun di sistem "
+"saat ini. Jika diinstal sebagai file konfigurasi pribadi Anda (pada sistem "
+"yang mendukungnya), ini hanya akan memengaruhi distribusi modul yang "
+"diproses oleh Anda. Dan jika digunakan sebagai :file:`setup.cfg` untuk "
+"distribusi modul tertentu, ini hanya mempengaruhi distribusi tersebut."
+
+#: ../../install/index.rst:818
+msgid ""
+"You could override the default \"build base\" directory and make the :"
+"command:`build\\*` commands always forcibly rebuild all files with the "
+"following:"
+msgstr ""
+"Anda dapat menimpa direktori \"build base\" default dan membuat perintah "
+":command:`build\\*` selalu secara paksa membangun kembali semua file dengan "
+"yang berikut ini:"
+
+#: ../../install/index.rst:828
+msgid "which corresponds to the command-line arguments ::"
+msgstr "yang sesuai dengan argumen baris perintah ::"
+
+#: ../../install/index.rst:832
+msgid ""
+"except that including the :command:`build` command on the command-line "
+"means that command will be run.  Including a particular command in config "
+"files has no such implication; it only means that if the command is run, "
+"the options in the config file will apply.  (Or if other commands that "
+"derive values from it are run, they will use the values in the config file.)"
+msgstr ""
+"kecuali itu menyertakan perintah :command:`build` pada baris perintah "
+"berarti bahwa perintah akan dijalankan. Memasukkan perintah tertentu dalam "
+"file konfigurasi tidak memiliki implikasi seperti itu; ini hanya berarti "
+"bahwa jika perintah dijalankan, opsi di file konfigurasi akan diterapkan. "
+"(Atau jika perintah lain yang memperoleh nilai darinya dijalankan, perintah "
+"tersebut akan menggunakan nilai di file konfigurasi.)"
+
+#: ../../install/index.rst:838
+msgid ""
+"You can find out the complete list of options for any command using the :"
+"option:`!--help` option, e.g.::"
+msgstr ""
+"Anda dapat menemukan daftar lengkap opsi untuk setiap perintah menggunakan "
+"opsi :option:`!--help`, misalnya::"
+
+#: ../../install/index.rst:843
+msgid ""
+"and you can find out the complete list of global options by using :option:"
+"`!--help` without a command::"
+msgstr ""
+"dan Anda dapat mengetahui daftar lengkap opsi global dengan menggunakan "
+":option:`!--help` tanpa perintah::"
+
+#: ../../install/index.rst:848
+msgid ""
+"See also the \"Reference\" section of the \"Distributing Python Modules\" "
+"manual."
+msgstr ""
+"Lihat juga bagian \"Referensi\" dari manual \"Mendistribusikan Modul "
+"Python\"."
+
+#: ../../install/index.rst:854
+msgid "Building Extensions: Tips and Tricks"
+msgstr "Membangun Ekstensi: Tip dan Trik"
+
+#: ../../install/index.rst:856
+msgid ""
+"Whenever possible, the Distutils try to use the configuration information "
+"made available by the Python interpreter used to run the :file:`setup.py` "
+"script. For example, the same compiler and linker flags used to compile "
+"Python will also be used for compiling extensions.  Usually this will work "
+"well, but in complicated situations this might be inappropriate.  This "
+"section discusses how to override the usual Distutils behaviour."
+msgstr ""
+"Jika memungkinkan, Distutils mencoba menggunakan informasi konfigurasi yang "
+"disediakan oleh interpreter Python yang digunakan untuk menjalankan skrip "
+":file:`setup.py`. Misalnya, penanda compiler dan linker yang sama yang "
+"digunakan untuk mengompilasi Python juga akan digunakan untuk mengompilasi "
+"ekstensi. Biasanya ini akan bekerja dengan baik, tetapi dalam situasi yang "
+"rumit ini mungkin tidak tepat. Bagian ini membahas cara mengganti perilaku "
+"Distutils yang biasa."
+
+#: ../../install/index.rst:867
+msgid "Tweaking compiler/linker flags"
+msgstr "Menyesuaikan penanda compiler/linker"
+
+#: ../../install/index.rst:869
+msgid ""
+"Compiling a Python extension written in C or C++ will sometimes require "
+"specifying custom flags for the compiler and linker in order to use a "
+"particular library or produce a special kind of object code. This is "
+"especially true if the extension hasn't been tested on your platform, or if "
+"you're trying to cross-compile Python."
+msgstr ""
+"Mengompilasi ekstensi Python yang ditulis dalam C atau C ++ kadang-kadang "
+"akan memerlukan spesifikasi penanda khusus untuk compiler dan linker untuk "
+"menggunakan library tertentu atau menghasilkan jenis kode objek khusus. Ini "
+"terutama benar jika ekstensi belum diuji pada platform Anda, atau jika Anda "
+"mencoba mengkompilasi silang Python."
+
+#: ../../install/index.rst:875
+msgid ""
+"In the most general case, the extension author might have foreseen that "
+"compiling the extensions would be complicated, and provided a :file:`Setup` "
+"file for you to edit.  This will likely only be done if the module "
+"distribution contains many separate extension modules, or if they often "
+"require elaborate sets of compiler flags in order to work."
+msgstr ""
+"Dalam kasus yang paling umum, pembuat ekstensi mungkin telah memperkirakan "
+"bahwa kompilasi ekstensi akan menjadi rumit, dan menyediakan file "
+":file:`Setup` file untuk Anda edit. Ini kemungkinan besar hanya akan "
+"dilakukan jika distribusi modul berisi banyak modul ekstensi terpisah, atau "
+"jika mereka sering membutuhkan kumpulan tanda compiler yang rumit agar dapat"
+" berfungsi."
+
+#: ../../install/index.rst:881
+msgid ""
+"A :file:`Setup` file, if present, is parsed in order to get a list of "
+"extensions to build.  Each line in a :file:`Setup` describes a single "
+"module.  Lines have the following structure::"
+msgstr ""
+"File :file:`Setup`, jika ada, diurai untuk mendapatkan daftar ekstensi yang "
+"akan dibuat. Setiap baris dalam :file:`Setup` menjelaskan modul tunggal. "
+"Garis memiliki struktur berikut:"
+
+#: ../../install/index.rst:888
+msgid "Let's examine each of the fields in turn."
+msgstr "Mari kita periksa masing-masing bidang secara bergantian."
+
+#: ../../install/index.rst:890
+msgid ""
+"*module* is the name of the extension module to be built, and should be a "
+"valid Python identifier.  You can't just change this in order to rename a "
+"module (edits to the source code would also be needed), so this should be "
+"left alone."
+msgstr ""
+"*module* adalah nama modul ekstensi yang akan dibuat, dan harus merupakan "
+"Python identifier yang valid. Anda tidak bisa begitu saja mengubah ini untuk"
+" mengganti nama modul (pengeditan ke kode sumber juga akan diperlukan), jadi"
+" ini harus dibiarkan saja."
+
+#: ../../install/index.rst:894
+msgid ""
+"*sourcefile* is anything that's likely to be a source code file, at least "
+"judging by the filename.  Filenames ending in :file:`.c` are assumed to be "
+"written in C, filenames ending in :file:`.C`, :file:`.cc`, and :file:`.c++` "
+"are assumed to be C++, and filenames ending in :file:`.m` or :file:`.mm` "
+"are assumed to be in Objective C."
+msgstr ""
+"*sourcefile* adalah segala sesuatu yang cenderung menjadi file kode sumber, "
+"setidaknya dilihat dari nama filenya. Nama file yang diakhiri dengan "
+":file:`.c` diasumsikan ditulis dalam C, nama file yang diakhiri dengan "
+":file:`.C`, :file:`.cc`, dan :file:`.c++` diasumsikan sebagai C++, dan nama "
+"file yang diakhiri dengan :file:`.m` atau :file:`.mm` diasumsikan berada "
+"dalam Objective C."
+
+#: ../../install/index.rst:900
+msgid ""
+"*cpparg* is an argument for the C preprocessor,  and is anything starting "
+"with :option:`!-I`, :option:`!-D`, :option:`!-U` or :option:`!-C`."
+msgstr ""
+"*cpparg* adalah argumen untuk preprocessor C, dan apa pun yang dimulai "
+"dengan :option:`!-I`, :option:`!-D`, :option:`!-U` atau :option:`!-C `."
+
+#: ../../install/index.rst:903
+msgid ""
+"*library* is anything ending in :file:`.a` or beginning with :option:`!-l` "
+"or :option:`!-L`."
+msgstr ""
+"*library* adalah apapun yang diakhiri dengan :file:`.a` atau dimulai dengan "
+":option:`!-l` atau :option:`!-L`."
+
+#: ../../install/index.rst:906
+msgid ""
+"If a particular platform requires a special library on your platform, you "
+"can add it by editing the :file:`Setup` file and running ``python setup.py "
+"build``. For example, if the module defined by the line ::"
+msgstr ""
+"Jika platform tertentu memerlukan pustaka khusus pada platform Anda, Anda "
+"dapat menambahkannya dengan mengedit file :file:`Setup` dan menjalankan "
+"``python setup.py build``. Misalnya, jika modul ditentukan oleh baris::"
+
+#: ../../install/index.rst:912
+msgid ""
+"must be linked with the math library :file:`libm.a` on your platform, "
+"simply add :option:`!-lm` to the line::"
+msgstr ""
+"harus ditautkan dengan pustaka math :file:`libm.a` pada platform Anda, cukup"
+" tambahkan :option:`!-lm` ke baris::"
+
+#: ../../install/index.rst:917
+msgid ""
+"Arbitrary switches intended for the compiler or the linker can be supplied "
+"with the :option:`!-Xcompiler` *arg* and :option:`!-Xlinker` *arg* options::"
+msgstr ""
+"Sakelar arbitrer yang ditujukan untuk compiler atau linker dapat diberikan "
+"dengan opsi :option:`!-Xcompiler` *arg* dan opsi :option:`!-Xlinker` *arg*::"
+
+#: ../../install/index.rst:922
+msgid ""
+"The next option after :option:`!-Xcompiler` and :option:`!-Xlinker` will be "
+"appended to the proper command line, so in the above example the compiler "
+"will be passed the :option:`!-o32` option, and the linker will be passed :"
+"option:`!-shared`.  If a compiler option requires an argument, you'll have "
+"to supply multiple :option:`!-Xcompiler` options; for example, to pass ``-x "
+"c++`` the :file:`Setup` file would have to contain ``-Xcompiler -x -"
+"Xcompiler c++``."
+msgstr ""
+"Opsi berikutnya setelah :option:`!-Xcompiler` dan :option:`!-Xlinker` akan "
+"ditambahkan ke baris perintah yang tepat, jadi pada contoh di atas "
+"kompilator akan diberikan opsi :option:`!-o32`, dan penaut akan diberikan "
+":option:`!-shared`. Jika opsi kompilator membutuhkan sebuah argumen, Anda "
+"harus menyediakan beberapa opsi :option:`!-Xcompiler`; misalnya, untuk "
+"meneruskan ``-x c++`` file :file:`Setup` harus berisi ``-Xcompiler -x "
+"-Xcompiler c++``."
+
+#: ../../install/index.rst:929
+msgid ""
+"Compiler flags can also be supplied through setting the :envvar:`CFLAGS` "
+"environment variable.  If set, the contents of :envvar:`CFLAGS` will be "
+"added to the compiler flags specified in the  :file:`Setup` file."
+msgstr ""
+"Penanda compiler juga bisa diberikan melalui pengaturan variabel environment"
+" :envvar:`CFLAGS`. Jika disetel, konten :envvar:`CFLAGS` akan ditambahkan ke"
+" penanda kompilator yang ditentukan dalam file :file:`Setup`."
+
+#: ../../install/index.rst:937
+msgid "Using non-Microsoft compilers on Windows"
+msgstr "Menggunakan kompiler non-Microsoft di Windows"
+
+#: ../../install/index.rst:944
+msgid "Borland/CodeGear C++"
+msgstr "Borland/CodeGear C ++"
+
+#: ../../install/index.rst:946
+msgid ""
+"This subsection describes the necessary steps to use Distutils with the "
+"Borland C++ compiler version 5.5.  First you have to know that Borland's "
+"object file format (OMF) is different from the format used by the Python "
+"version you can download from the Python or ActiveState Web site.  (Python "
+"is built with Microsoft Visual C++, which uses COFF as the object file "
+"format.) For this reason you have to convert Python's library "
+":file:`python25.lib` into the Borland format.  You can do this as follows:"
+msgstr ""
+"Subbagian ini menjelaskan langkah-langkah yang diperlukan untuk menggunakan "
+"Distutils dengan compiler Borland C++ versi 5.5. Pertama-tama Anda harus "
+"tahu bahwa format file objek (OMF) Borland berbeda dengan format yang "
+"digunakan oleh versi Python yang dapat Anda unduh dari situs Web Python atau"
+" ActiveState. (Python dibuat dengan Microsoft Visual C++, yang menggunakan "
+"COFF sebagai format file objek.) Untuk alasan ini, Anda harus mengonversi "
+"pustaka Pythonv :file:`python25.lib` ke dalam format Borland. Anda dapat "
+"melakukan ini sebagai berikut:"
+
+#: ../../install/index.rst:961
+msgid ""
+"The :file:`coff2omf` program comes with the Borland compiler.  The file :"
+"file:`python25.lib` is in the :file:`Libs` directory of your Python "
+"installation.  If your extension uses other libraries (zlib, ...) you have "
+"to convert them too."
+msgstr ""
+"Program :file:`coff2omf` dilengkapi dengan compiler Borland. File "
+":file:`python25.lib` ada di direktori :file:`Libs` dari instalasi Python "
+"Anda. Jika ekstensi Anda menggunakan pustaka lain (zlib, ...) Anda juga "
+"harus mengonversinya."
+
+#: ../../install/index.rst:966
+msgid ""
+"The converted files have to reside in the same directories as the normal "
+"libraries."
+msgstr ""
+"File yang dikonversi harus berada di direktori yang sama dengan pustaka "
+"normal."
+
+#: ../../install/index.rst:969
+msgid ""
+"How does Distutils manage to use these libraries with their changed names?  "
+"If the extension needs a library (eg. :file:`foo`) Distutils checks first if"
+" it finds a library with suffix :file:`_bcpp` (eg. :file:`foo_bcpp.lib`) and"
+" then uses this library.  In the case it doesn't find such a special library"
+" it uses the default name (:file:`foo.lib`.) [#]_"
+msgstr ""
+"Bagaimana Distutils mengelola untuk menggunakan pustaka ini dengan nama yang"
+" berubah? Jika ekstensi memerlukan pustaka (mis. :file:`foo`) Distutils "
+"memeriksa terlebih dahulu apakah ia menemukan pustaka dengan sufiks "
+":file:`_bcpp` (mis. :File:`foo_bcpp.lib`) dan kemudian menggunakan pustaka "
+"ini. Dalam kasus ia tidak menemukan pustaka khusus ia menggunakan nama "
+"default (:file:`foo.lib`.) [#] _"
+
+#: ../../install/index.rst:975
+msgid ""
+"To let Distutils compile your extension with Borland C++ you now have to "
+"type::"
+msgstr ""
+"Untuk mengizinkan Distutils mengkompilasi ekstensi Anda dengan Borland C++, "
+"Anda harus mengetik::"
+
+#: ../../install/index.rst:979
+msgid ""
+"If you want to use the Borland C++ compiler as the default, you could "
+"specify this in your personal or system-wide configuration file for "
+"Distutils (see section :ref:`inst-config-files`.)"
+msgstr ""
+"Jika Anda ingin menggunakan kompiler Borland C++ sebagai default, Anda dapat"
+" menentukannya di file konfigurasi pribadi atau sistem untuk Distutils "
+"(lihat bagian :ref:`inst-config-files`.)"
+
+#: ../../install/index.rst:988
+msgid "`C++Builder Compiler <https://www.embarcadero.com/products>`_"
+msgstr "`C++ Builder Compiler <https://www.embarcadero.com/products>`_"
+
+#: ../../install/index.rst:987
+msgid ""
+"Information about the free C++ compiler from Borland, including links to "
+"the download pages."
+msgstr ""
+"Informasi tentang compiler C++ gratis dari Borland, termasuk link ke halaman"
+" download."
+
+#: ../../install/index.rst:991
+msgid ""
+"`Creating Python Extensions Using Borland's Free Compiler <http://www."
+"cyberus.ca/~g_will/pyExtenDL.shtml>`_"
+msgstr ""
+"`Membuat Ekstensi Python Menggunakan Kompiler Borland Gratis "
+"<http://www.cyberus.ca/~g_will/pyExtenDL.shtml>` _"
+
+#: ../../install/index.rst:991
+msgid ""
+"Document describing how to use Borland's free command-line C++ compiler to "
+"build Python."
+msgstr ""
+"Dokumen yang menjelaskan cara menggunakan compiler C++ baris perintah gratis"
+" dari Borland untuk membuat Python."
+
+#: ../../install/index.rst:996
+msgid "GNU C / Cygwin / MinGW"
+msgstr "GNU C / Cygwin / MinGW"
+
+#: ../../install/index.rst:998
+msgid ""
+"This section describes the necessary steps to use Distutils with the GNU C/C"
+"++ compilers in their Cygwin and MinGW distributions. [#]_ For a Python "
+"interpreter that was built with Cygwin, everything should work without any "
+"of these following steps."
+msgstr ""
+"Bagian ini menjelaskan langkah-langkah yang diperlukan untuk menggunakan "
+"Distutils dengan kompiler GNU C/C++ di distribusi Cygwin dan MinGW mereka. "
+"[#]_ Untuk interpreter Python yang dibangun dengan Cygwin, semuanya harus "
+"bekerja tanpa langkah-langkah berikut ini."
+
+#: ../../install/index.rst:1003
+msgid ""
+"Not all extensions can be built with MinGW or Cygwin, but many can.  "
+"Extensions most likely to not work are those that use C++ or depend on "
+"Microsoft Visual C extensions."
+msgstr ""
+"Tidak semua ekstensi dapat dibuat dengan MinGW atau Cygwin, tetapi banyak "
+"yang bisa. Ekstensi yang paling mungkin tidak berfungsi adalah ekstensi yang"
+" menggunakan C++ atau bergantung pada ekstensi Microsoft Visual C."
+
+#: ../../install/index.rst:1007
+msgid "To let Distutils compile your extension with Cygwin you have to type::"
+msgstr ""
+"Untuk mengizinkan Distutils mengkompilasi ekstensi Anda dengan Cygwin, Anda "
+"harus mengetik::"
+
+#: ../../install/index.rst:1011
+msgid "and for Cygwin in no-cygwin mode [#]_ or for MinGW type::"
+msgstr "dan untuk Cygwin dalam mode no-cygwin [#]_ atau untuk tipe MinGW::"
+
+#: ../../install/index.rst:1015
+msgid ""
+"If you want to use any of these options/compilers as default, you should "
+"consider writing it in your personal or system-wide configuration file for "
+"Distutils (see section :ref:`inst-config-files`.)"
+msgstr ""
+"Jika Anda ingin menggunakan salah satu opsi/kompiler ini sebagai default, "
+"Anda harus mempertimbangkan untuk menulisnya di file konfigurasi pribadi "
+"atau seluruh sistem Anda untuk Distutils (lihat bagian :ref:`inst-config-"
+"files`.)"
+
+#: ../../install/index.rst:1020
+msgid "Older Versions of Python and MinGW"
+msgstr "Versi Lama Python dan MinGW"
+
+#: ../../install/index.rst:1021
+msgid ""
+"The following instructions only apply if you're using a version of Python "
+"inferior to 2.4.1 with a MinGW inferior to 3.0.0 (with "
+"binutils-2.13.90-20030111-1)."
+msgstr ""
+"Petunjuk berikut hanya berlaku jika Anda menggunakan versi Python yang lebih"
+" rendah dari 2.4.1 dengan MinGW yang lebih rendah dari 3.0.0 (dengan "
+"binutils-2.13.90-20030111-1)."
+
+#: ../../install/index.rst:1025
+msgid ""
+"These compilers require some special libraries.  This task is more complex "
+"than for Borland's C++, because there is no program to convert the "
+"library.  First you have to create a list of symbols which the Python DLL "
+"exports. (You can find a good program for this task at https://sourceforge."
+"net/projects/mingw/files/MinGW/Extension/pexports/)."
+msgstr ""
+"Kompiler ini membutuhkan beberapa pustaka khusus. Tugas ini lebih kompleks "
+"daripada C++ Borland, karena tidak ada program untuk mengonversi pustaka. "
+"Pertama, Anda harus membuat daftar simbol yang diekspor Python DLL. (Anda "
+"dapat menemukan program yang bagus untuk tugas ini di "
+"https://sourceforge.net/projects/mingw/files/MinGW/Extension/pexports/)."
+
+#: ../../install/index.rst:1038
+msgid ""
+"The location of an installed :file:`python25.dll` will depend on the "
+"installation options and the version and language of Windows.  In a \"just "
+"for me\" installation, it will appear in the root of the installation "
+"directory.  In a shared installation, it will be located in the system "
+"directory."
+msgstr ""
+"Lokasi dari file yang diinstal :file:`python25.dll` akan tergantung pada "
+"opsi instalasi dan versi serta bahasa Windows. Dalam instalasi \"hanya untuk"
+" saya\", ini akan muncul di root direktori instalasi. Dalam instalasi "
+"bersama, itu akan ditempatkan di direktori sistem."
+
+#: ../../install/index.rst:1043
+msgid ""
+"Then you can create from these information an import library for gcc. ::"
+msgstr ""
+"Kemudian Anda dapat membuat dari informasi ini pustaka impor untuk gcc. ::"
+
+#: ../../install/index.rst:1047
+msgid ""
+"The resulting library has to be placed in the same directory as :file:"
+"`python25.lib`. (Should be the :file:`libs` directory under your Python "
+"installation directory.)"
+msgstr ""
+"Pustaka yang dihasilkan harus ditempatkan di direktori yang sama dengan "
+":file:`python25.lib`. (Seharusnya direktori :file:`libs` di bawah direktori "
+"instalasi Python Anda.)"
+
+#: ../../install/index.rst:1051
+msgid ""
+"If your extension uses other libraries (zlib,...) you might  have to "
+"convert them too. The converted files have to reside in the same "
+"directories as the normal libraries do."
+msgstr ""
+"Jika ekstensi Anda menggunakan pustaka lain (zlib, ...) Anda mungkin harus "
+"mengonversinya juga. File yang dikonversi harus berada di direktori yang "
+"sama seperti pustaka normal."
+
+#: ../../install/index.rst:1058
+msgid ""
+"`Building Python modules on MS Windows platform with MinGW <http://old.zope."
+"org/Members/als/tips/win32_mingw_modules>`_"
+msgstr ""
+"`Membangun modul Python pada platform MS Windows dengan MinGW "
+"<http://old.zope.org/Members/als/tips/win32_mingw_modules>`_"
+
+#: ../../install/index.rst:1059
+msgid ""
+"Information about building the required libraries for the MinGW environment."
+msgstr ""
+"Informasi tentang membangun pustaka yang diperlukan untuk environment MinGW."
+
+#: ../../install/index.rst:1063
+msgid "Footnotes"
+msgstr "Catatan kaki"
+
+#: ../../install/index.rst:1064
+msgid ""
+"This also means you could replace all existing COFF-libraries with OMF-"
+"libraries of the same name."
+msgstr ""
+"Ini juga berarti Anda dapat mengganti semua pustaka COFF yang ada dengan "
+"pustaka OMF dengan nama yang sama."
+
+#: ../../install/index.rst:1067
+msgid "Check https://www.sourceware.org/cygwin/ for more information"
+msgstr ""
+"Periksa https://www.sourceware.org/cygwin/ dan http://www.mingw.org/ untuk "
+"informasi lebih lanjut"
+
+#: ../../install/index.rst:1069
+msgid ""
+"Then you have no POSIX emulation available, but you also don't need :file:"
+"`cygwin1.dll`."
+msgstr ""
+"Maka Anda tidak memiliki emulasi POSIX yang tersedia, tetapi Anda juga tidak"
+" memerlukan :file:`cygwin1.dll`."

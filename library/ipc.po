@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2019
+# Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"PO-Revision-Date: 2017-02-16 23:16+0000\n"
+"Last-Translator: Imaduddin A Majid <imaduddinamajid@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../library/ipc.rst:5
+msgid "Networking and Interprocess Communication"
+msgstr "Komunikasi Interproses dan Networking"
+
+#: ../../library/ipc.rst:7
+msgid ""
+"The modules described in this chapter provide mechanisms for networking and "
+"inter-processes communication."
+msgstr ""
+"Modul-modul yang dijelaskan pada bab ini menyediakan mekanisme untuk "
+"*networking* dan komunikasi inter-proses."
+
+#: ../../library/ipc.rst:10
+msgid ""
+"Some modules only work for two processes that are on the same machine, e.g. "
+":mod:`signal` and :mod:`mmap`.  Other modules support networking protocols "
+"that two or more processes can use to communicate across machines."
+msgstr ""
+"Beberapa modul hanya bekerja untuk dua proses yang terdapat pada mesin yang "
+"sama, contohnya :mod:`signal` dan :mod:`mmap`.  Modul lainnya mendukung "
+"protokol jaringan yang dapat digunakan dua atau lebih proses untuk "
+"komunikasi lintas mesin."
+
+#: ../../library/ipc.rst:14
+msgid "The list of modules described in this chapter is:"
+msgstr "Daftar modul yang dijelaskan di dalam bab ini adalah:"

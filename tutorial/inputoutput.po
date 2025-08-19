@@ -1,0 +1,707 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ryan Febriansyah <15523163@students.uii.ac.id>, 2020
+# oon arfiandwi <oon.arfiandwi@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
+"PO-Revision-Date: 2017-02-16 23:40+0000\n"
+"Last-Translator: oon arfiandwi <oon.arfiandwi@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/python-doc/teams/5390/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../tutorial/inputoutput.rst:5
+msgid "Input and Output"
+msgstr "Masukan dan Keluaran"
+
+#: ../../tutorial/inputoutput.rst:7
+msgid ""
+"There are several ways to present the output of a program; data can be "
+"printed in a human-readable form, or written to a file for future use. This "
+"chapter will discuss some of the possibilities."
+msgstr ""
+"Ada beberapa cara untuk mempresentasikan keluaran suatu program; data dapat "
+"dicetak dalam bentuk yang dapat dibaca manusia, atau ditulis ke berkas untuk"
+" digunakan di masa mendatang. Bab ini akan membahas beberapa kemungkinan."
+
+#: ../../tutorial/inputoutput.rst:15
+msgid "Fancier Output Formatting"
+msgstr "Pemformatan Keluaran yang Lebih Menarik"
+
+#: ../../tutorial/inputoutput.rst:17
+msgid ""
+"So far we've encountered two ways of writing values: *expression statements*"
+" and the :func:`print` function.  (A third way is using the :meth:`write` "
+"method of file objects; the standard output file can be referenced as "
+"``sys.stdout``. See the Library Reference for more information on this.)"
+msgstr ""
+"Sejauh ini kami telah menemukan dua cara penulisan nilai: *expression "
+"statements* dan fungsi :func:`print`. (Cara ketiga menggunakan :meth:`write`"
+" metode objek berkas; berkas standar keluaran dapat dirujuk sebagai "
+"``sys.stdout``. Lihat Referensi Pustaka untuk informasi lebih lanjut tentang"
+" ini.)"
+
+#: ../../tutorial/inputoutput.rst:22
+msgid ""
+"Often you'll want more control over the formatting of your output than "
+"simply printing space-separated values. There are several ways to format "
+"output."
+msgstr ""
+"Seringkali Anda akan menginginkan lebih banyak kontrol atas pemformatan "
+"keluaran Anda daripada sekadar mencetak nilai yang dipisahkan ruang. Ada "
+"beberapa cara untuk memformat keluaran."
+
+#: ../../tutorial/inputoutput.rst:25
+msgid ""
+"To use :ref:`formatted string literals <tut-f-strings>`, begin a string with"
+" ``f`` or ``F`` before the opening quotation mark or triple quotation mark. "
+"Inside this string, you can write a Python expression between ``{`` and "
+"``}`` characters that can refer to variables or literal values."
+msgstr ""
+"Untuk menggunakan :ref:`formatted string literals <tut-f-strings>`, mulailah"
+" string dengan ``f`` atau ``F`` sebelum tanda kutip pembuka atau tanda kutip"
+" tiga. Di dalam string ini, Anda bisa menulis ekspresi Python antara "
+"karakter ``{`` dan ``}`` yang dapat merujuk ke variabel atau nilai literal."
+
+#: ../../tutorial/inputoutput.rst:37
+msgid ""
+"The :meth:`str.format` method of strings requires more manual effort.  "
+"You'll still use ``{`` and ``}`` to mark where a variable will be "
+"substituted and can provide detailed formatting directives, but you'll also "
+"need to provide the information to be formatted."
+msgstr ""
+"Metode :meth:`str.format` dari string membutuhkan lebih banyak upaya manual."
+" Anda masih akan menggunakan ``{`` dan ``}`` untuk menandai di mana variabel"
+" akan diganti dan dapat memberikan arahan pemformatan terperinci, tetapi "
+"Anda juga harus memberikan informasi yang akan diformat."
+
+#: ../../tutorial/inputoutput.rst:50
+msgid ""
+"Finally, you can do all the string handling yourself by using string slicing"
+" and concatenation operations to create any layout you can imagine.  The "
+"string type has some methods that perform useful operations for padding "
+"strings to a given column width."
+msgstr ""
+"Akhirnya, Anda dapat melakukan semua string yang menangani diri Anda sendiri"
+" dengan menggunakan operasi *slicing* string dan *concatenation* untuk "
+"membuat tata letak yang dapat Anda bayangkan. Tipe string memiliki beberapa "
+"metode yang melakukan operasi yang berguna untuk string *padding* ke lebar "
+"kolom yang diberikan."
+
+#: ../../tutorial/inputoutput.rst:55
+msgid ""
+"When you don't need fancy output but just want a quick display of some "
+"variables for debugging purposes, you can convert any value to a string with"
+" the :func:`repr` or :func:`str` functions."
+msgstr ""
+"Ketika Anda tidak membutuhkan keluaran yang menarik tetapi hanya ingin "
+"tampilan cepat dari beberapa variabel untuk keperluan debugging, Anda dapat "
+"mengonversi nilai apa pun menjadi string dengan fungsi :func:`repr` atau "
+":func:`str`."
+
+#: ../../tutorial/inputoutput.rst:59
+msgid ""
+"The :func:`str` function is meant to return representations of values which "
+"are fairly human-readable, while :func:`repr` is meant to generate "
+"representations which can be read by the interpreter (or will force a "
+":exc:`SyntaxError` if there is no equivalent syntax).  For objects which "
+"don't have a particular representation for human consumption, :func:`str` "
+"will return the same value as :func:`repr`.  Many values, such as numbers or"
+" structures like lists and dictionaries, have the same representation using "
+"either function.  Strings, in particular, have two distinct representations."
+msgstr ""
+"Fungsi :func:`str` dimaksudkan untuk mengembalikan representasi nilai-nilai "
+"yang terbaca oleh manusia, sementara :func:`repr` dimaksudkan untuk "
+"menghasilkan representasi yang dapat dibaca oleh penerjemah (atau akan "
+"memaksa :exc:`SyntaxError` jika tidak ada sintaks yang setara). Untuk objek "
+"yang tidak memiliki representasi khusus untuk konsumsi manusia, :func:`str` "
+"akan mengembalikan nilai yang sama dengan :func:`repr`. Banyak nilai, "
+"seperti angka atau struktur seperti daftar dan kamus, memiliki representasi "
+"yang sama menggunakan kedua fungsi tersebut. String, khususnya, memiliki dua"
+" representasi berbeda."
+
+#: ../../tutorial/inputoutput.rst:68
+msgid "Some examples::"
+msgstr "Beberapa contoh::"
+
+#: ../../tutorial/inputoutput.rst:91
+msgid ""
+"The :mod:`string` module contains a :class:`~string.Template` class that "
+"offers yet another way to substitute values into strings, using placeholders"
+" like ``$x`` and replacing them with values from a dictionary, but offers "
+"much less control of the formatting."
+msgstr ""
+"Modul :mod:`string` berisi kelas :class:`~string.Template` yang menawarkan "
+"cara lain untuk mengganti nilai menjadi string, menggunakan penampung "
+"seperti ``$x`` dan menggantinya dengan nilai-nilai dari *dictionary*, tetapi"
+" menawarkan kontrol format yang jauh lebih sedikit."
+
+#: ../../tutorial/inputoutput.rst:100
+msgid "Formatted String Literals"
+msgstr "Literal String Terformat"
+
+#: ../../tutorial/inputoutput.rst:102
+msgid ""
+":ref:`Formatted string literals <f-strings>` (also called f-strings for "
+"short) let you include the value of Python expressions inside a string by "
+"prefixing the string with ``f`` or ``F`` and writing expressions as "
+"``{expression}``."
+msgstr ""
+":ref:`Formatted string literals <f-strings>` (juga disebut f-string) "
+"memungkinkan Anda menyertakan nilai ekspresi Python di dalam string dengan "
+"mengawali string dengan ``f`` atau ``F`` dan menulis ekspresi sebagai "
+"``{expression}``."
+
+#: ../../tutorial/inputoutput.rst:107
+msgid ""
+"An optional format specifier can follow the expression. This allows greater "
+"control over how the value is formatted. The following example rounds pi to "
+"three places after the decimal::"
+msgstr ""
+"Penentu format opsional dapat mengikuti ekspresi. Ini memungkinkan kontrol "
+"yang lebih besar atas bagaimana nilai diformat. Contoh berikut ini "
+"pembulatan pi ke tiga tempat setelah desimal::"
+
+#: ../../tutorial/inputoutput.rst:115
+msgid ""
+"Passing an integer after the ``':'`` will cause that field to be a minimum "
+"number of characters wide.  This is useful for making columns line up. ::"
+msgstr ""
+"Melewatkan bilangan bulat setelah ``':'`` akan menyebabkan *field* itu "
+"menjadi jumlah minimum lebar karakter. Ini berguna untuk membuat kolom "
+"berbaris. ::"
+
+#: ../../tutorial/inputoutput.rst:126
+msgid ""
+"Other modifiers can be used to convert the value before it is formatted. "
+"``'!a'`` applies :func:`ascii`, ``'!s'`` applies :func:`str`, and ``'!r'`` "
+"applies :func:`repr`::"
+msgstr ""
+"Pengubah lain dapat digunakan untuk mengonversi nilai sebelum diformat. "
+"``'!a'`` berlaku :func:`ascii`, ``'!s'`` berlaku :func:`str`, dan ``'!r'`` "
+"berlaku :func:`repr`::"
+
+#: ../../tutorial/inputoutput.rst:136
+msgid ""
+"For a reference on these format specifications, see the reference guide for "
+"the :ref:`formatspec`."
+msgstr ""
+"Untuk referensi tentang spesifikasi format ini, lihat panduan referensi "
+"untuk :ref:`formatpec`."
+
+#: ../../tutorial/inputoutput.rst:142
+msgid "The String format() Method"
+msgstr "Metode String format()"
+
+#: ../../tutorial/inputoutput.rst:144
+msgid "Basic usage of the :meth:`str.format` method looks like this::"
+msgstr "Penggunaan dasar metode :meth:`str.format` terlihat seperti ini::"
+
+#: ../../tutorial/inputoutput.rst:149
+msgid ""
+"The brackets and characters within them (called format fields) are replaced "
+"with the objects passed into the :meth:`str.format` method.  A number in the"
+" brackets can be used to refer to the position of the object passed into the"
+" :meth:`str.format` method. ::"
+msgstr ""
+"Tanda kurung dan karakter di dalamnya (disebut *fields* format) diganti "
+"dengan objek yang diteruskan ke metode :meth:`str.format`. Angka dalam tanda"
+" kurung dapat digunakan untuk merujuk ke posisi objek yang dilewatkan ke "
+"dalam metode :meth:`str.format`. ::"
+
+#: ../../tutorial/inputoutput.rst:159
+msgid ""
+"If keyword arguments are used in the :meth:`str.format` method, their values"
+" are referred to by using the name of the argument. ::"
+msgstr ""
+"Jika argumen kata kunci *keyword argument* digunakan dalam metode "
+":meth:`str.format`, nilainya dirujuk dengan menggunakan nama argumen. ::"
+
+#: ../../tutorial/inputoutput.rst:166
+msgid "Positional and keyword arguments can be arbitrarily combined::"
+msgstr ""
+"Argumen posisi dan kata kunci dapat dikombinasikan secara bergantian::"
+
+#: ../../tutorial/inputoutput.rst:172
+msgid ""
+"If you have a really long format string that you don't want to split up, it "
+"would be nice if you could reference the variables to be formatted by name "
+"instead of by position.  This can be done by simply passing the dict and "
+"using square brackets ``'[]'`` to access the keys. ::"
+msgstr ""
+"Jika Anda memiliki string format yang sangat panjang yang tidak ingin Anda "
+"pisahkan, alangkah baiknya jika Anda bisa mereferensikan variabel yang akan "
+"diformat berdasarkan nama alih-alih berdasarkan posisi. Ini dapat dilakukan "
+"hanya dengan melewatkan *dict* dan menggunakan tanda kurung siku ``'[]'`` "
+"untuk mengakses kunci dari *dict* ::"
+
+#: ../../tutorial/inputoutput.rst:182
+msgid ""
+"This could also be done by passing the table as keyword arguments with the "
+"'**' notation. ::"
+msgstr ""
+"Ini juga bisa dilakukan dengan memberikan tabel sebagai argumen kata kunci "
+"*keyword argument* dengan notasi '**'. ::"
+
+#: ../../tutorial/inputoutput.rst:189
+msgid ""
+"This is particularly useful in combination with the built-in function "
+":func:`vars`, which returns a dictionary containing all local variables."
+msgstr ""
+"Ini sangat berguna dalam kombinasi dengan fungsi bawaan :func:`vars`, yang "
+"mengembalikan *dictionary* yang berisi semua variabel lokal."
+
+#: ../../tutorial/inputoutput.rst:192
+msgid ""
+"As an example, the following lines produce a tidily-aligned set of columns "
+"giving integers and their squares and cubes::"
+msgstr ""
+"Sebagai contoh, baris-baris berikut menghasilkan kumpulan kolom yang "
+"disejajarkan rapi memberikan bilangan bulat dan kotak dan kubusnya::"
+
+#: ../../tutorial/inputoutput.rst:209
+msgid ""
+"For a complete overview of string formatting with :meth:`str.format`, see "
+":ref:`formatstrings`."
+msgstr ""
+"Untuk ikhtisar lengkap pemformatan string dengan :meth:`str.format`, lihat "
+":ref:`formatstrings`."
+
+#: ../../tutorial/inputoutput.rst:214
+msgid "Manual String Formatting"
+msgstr "Pemformatan String Manual"
+
+#: ../../tutorial/inputoutput.rst:216
+msgid "Here's the same table of squares and cubes, formatted manually::"
+msgstr "Inilah tabel kotak dan kubus yang sama, yang diformat secara manual::"
+
+#: ../../tutorial/inputoutput.rst:234
+msgid ""
+"(Note that the one space between each column was added by the way "
+":func:`print` works: it always adds spaces between its arguments.)"
+msgstr ""
+"(Perhatikan bahwa satu spasi di antara setiap kolom ditambahkan dengan cara "
+":func:`print` berfungsi: selalu menambah spasi di antara argumennya.)"
+
+#: ../../tutorial/inputoutput.rst:237
+msgid ""
+"The :meth:`str.rjust` method of string objects right-justifies a string in a"
+" field of a given width by padding it with spaces on the left. There are "
+"similar methods :meth:`str.ljust` and :meth:`str.center`. These methods do "
+"not write anything, they just return a new string. If the input string is "
+"too long, they don't truncate it, but return it unchanged; this will mess up"
+" your column lay-out but that's usually better than the alternative, which "
+"would be lying about a value. (If you really want truncation you can always "
+"add a slice operation, as in ``x.ljust(n)[:n]``.)"
+msgstr ""
+"Metode :meth:`str.rjust` dari objek string merata-kanan-kan sebuah string "
+"dalam bidang dengan lebar tertentu dengan menambahkannya dengan spasi di "
+"sebelah kiri. Ada metode serupa :meth:`str.ljust` dan :meth:`str.center`. "
+"Metode ini tidak menulis apa pun, mereka hanya mengembalikan string baru. "
+"Jika string input terlalu panjang, mereka tidak memotongnya, tetapi "
+"mengembalikannya tidak berubah; ini akan mengacaukan tata letak kolom Anda, "
+"tetapi itu biasanya lebih baik daripada alternatif, yang akan berbohong "
+"tentang nilai. (Jika Anda benar-benar menginginkan pemotongan, Anda selalu "
+"dapat menambahkan operasi *slice*, seperti pada ``x.ljust(n)[:n]``.)"
+
+#: ../../tutorial/inputoutput.rst:246
+msgid ""
+"There is another method, :meth:`str.zfill`, which pads a numeric string on "
+"the left with zeros.  It understands about plus and minus signs::"
+msgstr ""
+"Ada metode lain, :meth:`str.zfill`, yang melapisi string numerik di sebelah "
+"kiri dengan nol. Itu mengerti tentang tanda plus dan minus::"
+
+#: ../../tutorial/inputoutput.rst:258
+msgid "Old string formatting"
+msgstr "Pemformatan string lama"
+
+#: ../../tutorial/inputoutput.rst:260
+msgid ""
+"The % operator (modulo) can also be used for string formatting. Given "
+"``'string' % values``, instances of ``%`` in ``string`` are replaced with "
+"zero or more elements of ``values``. This operation is commonly known as "
+"string interpolation. For example::"
+msgstr ""
+"Operator % (modulo) juga dapat digunakan untuk pemformatan string. Diberikan"
+" ``'string' % values``, instansiasi dari ``%`` in ``string`` diganti dengan "
+"nol atau elemen yang lebih dari ``values``. Operasi ini umumnya dikenal "
+"sebagai interpolasi string. Sebagai contoh::"
+
+#: ../../tutorial/inputoutput.rst:269
+msgid ""
+"More information can be found in the :ref:`old-string-formatting` section."
+msgstr ""
+"Informasi lebih lanjut dapat ditemukan di bagian :ref:`old-string-"
+"formatting`."
+
+#: ../../tutorial/inputoutput.rst:275
+msgid "Reading and Writing Files"
+msgstr "Membaca dan Menulis Berkas"
+
+#: ../../tutorial/inputoutput.rst:281
+msgid ""
+":func:`open` returns a :term:`file object`, and is most commonly used with "
+"two arguments: ``open(filename, mode)``."
+msgstr ""
+":func:`open` mengembalikan sebuah :term:`file object`, dan paling umum "
+"digunakan dengan dua argumen: ``open(filename, mode)``."
+
+#: ../../tutorial/inputoutput.rst:293
+msgid ""
+"The first argument is a string containing the filename.  The second argument"
+" is another string containing a few characters describing the way in which "
+"the file will be used.  *mode* can be ``'r'`` when the file will only be "
+"read, ``'w'`` for only writing (an existing file with the same name will be "
+"erased), and ``'a'`` opens the file for appending; any data written to the "
+"file is automatically added to the end.  ``'r+'`` opens the file for both "
+"reading and writing. The *mode* argument is optional; ``'r'`` will be "
+"assumed if it's omitted."
+msgstr ""
+"Argumen pertama adalah string yang berisi nama file. Argumen kedua adalah "
+"string lain yang berisi beberapa karakter yang menggambarkan cara berkas "
+"akan digunakan. *mode* dapat ``'r'`` ketika file hanya akan dibaca, ``'w'`` "
+"untuk hanya menulis (berkas yang ada dengan nama yang sama akan dihapus), "
+"dan ``'a'`` membuka berkas untuk ditambahkan; setiap data yang ditulis ke "
+"file secara otomatis ditambahkan ke bagian akhir. ``'r+'`` membuka berkas "
+"untuk membaca dan menulis. Argumen *mode* adalah opsional; ``'r'`` akan "
+"diasumsikan jika dihilangkan."
+
+#: ../../tutorial/inputoutput.rst:302
+msgid ""
+"Normally, files are opened in :dfn:`text mode`, that means, you read and "
+"write strings from and to the file, which are encoded in a specific "
+"encoding. If encoding is not specified, the default is platform dependent "
+"(see :func:`open`). ``'b'`` appended to the mode opens the file in "
+":dfn:`binary mode`: now the data is read and written in the form of bytes "
+"objects.  This mode should be used for all files that don't contain text."
+msgstr ""
+"Biasanya, file dibuka di :dfn:`text mode`, yang berarti, Anda membaca dan "
+"menulis string dari dan ke file, yang dikodekan dalam pengkodean tertentu. "
+"Jika pengkodean tidak ditentukan, standarnya adalah bergantung platform "
+"(lihat :func: `open`). ``'b'`` ditambahkan ke mode membuka berkas di "
+":dfn:`binary mode`: sekarang data dibaca dan ditulis dalam bentuk objek "
+"byte. Mode ini harus digunakan untuk semua file yang tidak mengandung teks."
+
+#: ../../tutorial/inputoutput.rst:309
+msgid ""
+"In text mode, the default when reading is to convert platform-specific line "
+"endings (``\\n`` on Unix, ``\\r\\n`` on Windows) to just ``\\n``.  When "
+"writing in text mode, the default is to convert occurrences of ``\\n`` back "
+"to platform-specific line endings.  This behind-the-scenes modification to "
+"file data is fine for text files, but will corrupt binary data like that in "
+":file:`JPEG` or :file:`EXE` files.  Be very careful to use binary mode when "
+"reading and writing such files."
+msgstr ""
+"Dalam mode teks, standar saat membaca adalah mengonversi akhir baris "
+"spesifik platform (``\\n`` pada Unix, ``\\r\\n`` pada Windows) menjadi hanya"
+" ``\\n``. Saat menulis dalam mode teks, defaultnya adalah mengonversi "
+"kemunculan ``\\n`` kembali ke akhir baris spesifik platform. Modifikasi di "
+"balik layar ini untuk mengarsipkan data baik untuk file teks, tetapi akan "
+"merusak data biner seperti itu di :file:`JPEG` atau berkas :file:`EXE`. "
+"Berhati-hatilah untuk menggunakan mode biner saat membaca dan menulis file "
+"seperti itu."
+
+#: ../../tutorial/inputoutput.rst:317
+msgid ""
+"It is good practice to use the :keyword:`with` keyword when dealing with "
+"file objects.  The advantage is that the file is properly closed after its "
+"suite finishes, even if an exception is raised at some point.  Using "
+":keyword:`!with` is also much shorter than writing equivalent "
+":keyword:`try`\\ -\\ :keyword:`finally` blocks::"
+msgstr ""
+"Ini adalah praktik yang baik untuk menggunakan kata kunci :keyword:`with` "
+"saat berurusan dengan objek file. Keuntungannya adalah bahwa file ditutup "
+"dengan benar setelah rangkaiannya selesai, bahkan jika suatu pengecualian "
+"muncul di beberapa titik. Menggunakan :keyword:`!with` juga jauh lebih "
+"pendek daripada penulisan yang setara :keyword:`try`\\ -\\ blok "
+":keyword:`finally`::"
+
+#: ../../tutorial/inputoutput.rst:330
+msgid ""
+"If you're not using the :keyword:`with` keyword, then you should call "
+"``f.close()`` to close the file and immediately free up any system resources"
+" used by it."
+msgstr ""
+"Jika anda tidak menggunakan kata kunci :keyword:`with`, maka anda harus "
+"memanggil ``f.close()`` untuk menutup *file* dan membebaskan sumber daya "
+"sistem yang digunakan secara langsung."
+
+#: ../../tutorial/inputoutput.rst:335
+msgid ""
+"Calling ``f.write()`` without using the :keyword:`!with` keyword or calling "
+"``f.close()`` **might** result in the arguments of ``f.write()`` not being "
+"completely written to the disk, even if the program exits successfully."
+msgstr ""
+"Memanggil ``f.write()`` tanpa menggunakan kata kunci :keyword:`!with` atau "
+"memanggil ``f.close()`` **dapat** menyebabkan argumen-argumen dari "
+"``f.write()`` tidak dituliskan ke dalam *disk* secara utuh, meskipun program"
+" berhenti dengan sukses."
+
+#: ../../tutorial/inputoutput.rst:343
+msgid ""
+"After a file object is closed, either by a :keyword:`with` statement or by "
+"calling ``f.close()``, attempts to use the file object will automatically "
+"fail. ::"
+msgstr ""
+"Setelah objek file ditutup, baik dengan pernyataan :keyword:`with` atau "
+"dengan memanggil ``f.close()``, upaya untuk menggunakan objek file akan "
+"secara otomatis gagal. ::"
+
+#: ../../tutorial/inputoutput.rst:357
+msgid "Methods of File Objects"
+msgstr "Metode Objek Berkas"
+
+#: ../../tutorial/inputoutput.rst:359
+msgid ""
+"The rest of the examples in this section will assume that a file object "
+"called ``f`` has already been created."
+msgstr ""
+"Sisa contoh di bagian ini akan menganggap bahwa objek berkas bernama ``f`` "
+"telah dibuat."
+
+#: ../../tutorial/inputoutput.rst:362
+msgid ""
+"To read a file's contents, call ``f.read(size)``, which reads some quantity "
+"of data and returns it as a string (in text mode) or bytes object (in binary"
+" mode). *size* is an optional numeric argument.  When *size* is omitted or "
+"negative, the entire contents of the file will be read and returned; it's "
+"your problem if the file is twice as large as your machine's memory. "
+"Otherwise, at most *size* characters (in text mode) or *size* bytes (in "
+"binary mode) are read and returned. If the end of the file has been reached,"
+" ``f.read()`` will return an empty string (``''``).  ::"
+msgstr ""
+"Untuk membaca konten file, panggil ``f.read(size)``, yang membaca sejumlah "
+"kuantitas data dan mengembalikannya sebagai string (dalam mode teks) atau "
+"objek byte (dalam mode biner). *size* adalah argumen numerik opsional. "
+"Ketika *size* dihilangkan atau negatif, seluruh isi file akan dibaca dan "
+"dikembalikan; itu masalah Anda jika file tersebut dua kali lebih besar dari "
+"memori mesin Anda. Kalau tidak, paling banyak *size* karakter (dalam mode "
+"teks) atau *size* byte (dalam mode biner) dibaca dan dikembalikan. Jika "
+"akhir file telah tercapai, ``f.read()`` akan mengembalikan string kosong "
+"(``''``). ::"
+
+#: ../../tutorial/inputoutput.rst:376
+msgid ""
+"``f.readline()`` reads a single line from the file; a newline character "
+"(``\\n``) is left at the end of the string, and is only omitted on the last "
+"line of the file if the file doesn't end in a newline.  This makes the "
+"return value unambiguous; if ``f.readline()`` returns an empty string, the "
+"end of the file has been reached, while a blank line is represented by "
+"``'\\n'``, a string containing only a single newline.  ::"
+msgstr ""
+"``f.readline()`` membaca satu baris dari file; karakter baris baru (``\\n``)"
+" dibiarkan di akhir string, dan hanya dihapus pada baris terakhir file jika "
+"file tidak berakhir pada baris baru. Ini membuat nilai pengembalian tidak "
+"ambigu; jika ``f.readline()`` mengembalikan string kosong, akhir file telah "
+"tercapai, sementara baris kosong diwakili oleh ``'\\n'``, string yang hanya "
+"berisi satu baris baru. ::"
+
+#: ../../tutorial/inputoutput.rst:390
+msgid ""
+"For reading lines from a file, you can loop over the file object. This is "
+"memory efficient, fast, and leads to simple code::"
+msgstr ""
+"Untuk membaca baris dari file, Anda dapat mengulangi objek berkas. Ini hemat"
+" memori, cepat, dan mengarah ke kode sederhana ::"
+
+#: ../../tutorial/inputoutput.rst:399
+msgid ""
+"If you want to read all the lines of a file in a list you can also use "
+"``list(f)`` or ``f.readlines()``."
+msgstr ""
+"Jika Anda ingin membaca semua baris file dalam daftar *list*, Anda juga "
+"dapat menggunakan ``list(f)`` atau ``f.readlines()``."
+
+#: ../../tutorial/inputoutput.rst:402
+msgid ""
+"``f.write(string)`` writes the contents of *string* to the file, returning "
+"the number of characters written. ::"
+msgstr ""
+"``f.write(string)`` menulis konten *string* ke berkas, mengembalikan jumlah "
+"karakter yang ditulis. ::"
+
+#: ../../tutorial/inputoutput.rst:408
+msgid ""
+"Other types of objects need to be converted -- either to a string (in text "
+"mode) or a bytes object (in binary mode) -- before writing them::"
+msgstr ""
+"Jenis objek lain perlu dikonversi -- baik menjadi string (dalam mode teks) "
+"atau objek byte (dalam mode biner) -- sebelum menulisnya::"
+
+#: ../../tutorial/inputoutput.rst:416
+msgid ""
+"``f.tell()`` returns an integer giving the file object's current position in"
+" the file represented as number of bytes from the beginning of the file when"
+" in binary mode and an opaque number when in text mode."
+msgstr ""
+"``f.tell()`` mengembalikan integer yang memberikan posisi objek file saat "
+"ini dalam berkas yang direpresentasikan sebagai jumlah byte dari awal berkas"
+" ketika dalam mode biner dan angka buram *opaque* ketika dalam mode teks."
+
+#: ../../tutorial/inputoutput.rst:420
+msgid ""
+"To change the file object's position, use ``f.seek(offset, whence)``.  The "
+"position is computed from adding *offset* to a reference point; the "
+"reference point is selected by the *whence* argument.  A *whence* value of 0"
+" measures from the beginning of the file, 1 uses the current file position, "
+"and 2 uses the end of the file as the reference point.  *whence* can be "
+"omitted and defaults to 0, using the beginning of the file as the reference "
+"point. ::"
+msgstr ""
+"Untuk mengubah posisi objek file, gunakan ``f.seek(offset, whence)``. Posisi"
+" dihitung dari menambahkan *offset* ke titik referensi; titik referensi "
+"dipilih oleh argumen *whence*. Nilai A *whence* dari 0 mengukur dari awal "
+"berkas, 1 menggunakan posisi file saat ini, dan 2 menggunakan akhir file "
+"sebagai titik referensi. *whence* dapat dihilangkan dan default ke 0, "
+"menggunakan awal file sebagai titik referensi. ::"
+
+#: ../../tutorial/inputoutput.rst:439
+msgid ""
+"In text files (those opened without a ``b`` in the mode string), only seeks "
+"relative to the beginning of the file are allowed (the exception being "
+"seeking to the very file end with ``seek(0, 2)``) and the only valid "
+"*offset* values are those returned from the ``f.tell()``, or zero. Any other"
+" *offset* value produces undefined behaviour."
+msgstr ""
+"Dalam file teks (yang dibuka tanpa ``b`` dalam mode string), hanya mencari "
+"relatif ke awal file yang diizinkan (pengecualian sedang mencari sampai "
+"akhir file dengan ``seek(0, 2)``) dan satu-satunya nilai *offset* yang valid"
+" adalah yang dikembalikan dari ``f.tell()``, atau nol. Nilai *offset* "
+"lainnya menghasilkan perilaku tidak terdefinisi."
+
+#: ../../tutorial/inputoutput.rst:445
+msgid ""
+"File objects have some additional methods, such as :meth:`~file.isatty` and "
+":meth:`~file.truncate` which are less frequently used; consult the Library "
+"Reference for a complete guide to file objects."
+msgstr ""
+"Objek file memiliki beberapa metode tambahan, seperti :meth:`~file.isatty` "
+"dan :meth:`~file.truncate` yang lebih jarang digunakan; bacalah Referensi "
+"Pustaka untuk panduan lengkap untuk objek berkas."
+
+#: ../../tutorial/inputoutput.rst:453
+msgid "Saving structured data with :mod:`json`"
+msgstr "Menyimpan data terstruktur dengan :mod:`json`"
+
+#: ../../tutorial/inputoutput.rst:457
+msgid ""
+"Strings can easily be written to and read from a file.  Numbers take a bit "
+"more effort, since the :meth:`read` method only returns strings, which will "
+"have to be passed to a function like :func:`int`, which takes a string like "
+"``'123'`` and returns its numeric value 123.  When you want to save more "
+"complex data types like nested lists and dictionaries, parsing and "
+"serializing by hand becomes complicated."
+msgstr ""
+"String dapat dengan mudah ditulis dan dibaca dari file. Angka membutuhkan "
+"sedikit usaha, karena metode :meth:`read` hanya mengembalikan string, yang "
+"harus diteruskan ke fungsi seperti :func:`int`, yang mengambil string "
+"seperti ``'123'`` dan mengembalikan nilai numerik 123. Ketika Anda ingin "
+"menyimpan tipe data yang lebih kompleks seperti daftar *list* dan "
+"*dictionary* bersarang, penguraian dan pembuatan serialisasi dengan tangan "
+"menjadi rumit."
+
+#: ../../tutorial/inputoutput.rst:464
+msgid ""
+"Rather than having users constantly writing and debugging code to save "
+"complicated data types to files, Python allows you to use the popular data "
+"interchange format called `JSON (JavaScript Object Notation) "
+"<http://json.org>`_.  The standard module called :mod:`json` can take Python"
+" data hierarchies, and convert them to string representations; this process "
+"is called :dfn:`serializing`.  Reconstructing the data from the string "
+"representation is called :dfn:`deserializing`.  Between serializing and "
+"deserializing, the string representing the object may have been stored in a "
+"file or data, or sent over a network connection to some distant machine."
+msgstr ""
+"Alih-alih membuat pengguna terus-menerus menulis dan men-debug kode untuk "
+"menyimpan tipe data yang rumit ke berkas, Python memungkinkan Anda untuk "
+"menggunakan format pertukaran data populer yang disebut `JSON (JavaScript "
+"Object Notation) <http://json.org>`_. Modul standar bernama :mod:`json` "
+"dapat mengambil hierarki data Python, dan mengubahnya menjadi representasi "
+"string; proses ini disebut :dfn:`serializing`. Merekonstruksi data dari "
+"representasi string disebut :dfn:`deserializing`. Antara *serializing* dan "
+"*deserializing*, string yang mewakili objek mungkin telah disimpan dalam "
+"berkas atau data, atau dikirim melalui koneksi jaringan ke beberapa mesin "
+"yang jauh."
+
+#: ../../tutorial/inputoutput.rst:475
+msgid ""
+"The JSON format is commonly used by modern applications to allow for data "
+"exchange.  Many programmers are already familiar with it, which makes it a "
+"good choice for interoperability."
+msgstr ""
+"Format JSON umumnya digunakan oleh aplikasi modern untuk memungkinkan "
+"pertukaran data. Banyak programmer sudah terbiasa dengannya, yang membuatnya"
+" menjadi pilihan yang baik untuk interoperabilitas."
+
+#: ../../tutorial/inputoutput.rst:479
+msgid ""
+"If you have an object ``x``, you can view its JSON string representation "
+"with a simple line of code::"
+msgstr ""
+"Jika Anda memiliki objek ``x``, Anda dapat melihat representasi string JSON "
+"dengan baris kode sederhana::"
+
+#: ../../tutorial/inputoutput.rst:486
+msgid ""
+"Another variant of the :func:`~json.dumps` function, called "
+":func:`~json.dump`, simply serializes the object to a :term:`text file`.  So"
+" if ``f`` is a :term:`text file` object opened for writing, we can do this::"
+msgstr ""
+"Varian lain dari fungsi :func:`~json.dumps`, disebut :func:`~json.dump`, "
+"dengan mudah membuat serialisasi objek menjadi :term: `text file`. Jadi jika"
+" ``f`` adalah objek :term:`text file` dibuka untuk menulis, kita dapat "
+"melakukan ini::"
+
+#: ../../tutorial/inputoutput.rst:492
+msgid ""
+"To decode the object again, if ``f`` is a :term:`text file` object which has"
+" been opened for reading::"
+msgstr ""
+"Untuk menerjemahkan *decode* objek lagi, jika ``f`` adalah objek :term:`text"
+" file` yang telah dibuka untuk membaca::"
+
+#: ../../tutorial/inputoutput.rst:497
+msgid ""
+"This simple serialization technique can handle lists and dictionaries, but "
+"serializing arbitrary class instances in JSON requires a bit of extra "
+"effort. The reference for the :mod:`json` module contains an explanation of "
+"this."
+msgstr ""
+"Teknik serialisasi sederhana ini dapat menangani daftar *list* dan "
+"*dictionary*, tetapi membuat serialisasi *instance* kelas yang berubah-ubah "
+"*arbitrary* di JSON membutuhkan sedikit usaha ekstra. Referensi untuk modul "
+":mod:`json` berisi penjelasan tentang ini."
+
+#: ../../tutorial/inputoutput.rst:503
+msgid ":mod:`pickle` - the pickle module"
+msgstr ":mod:`Pickle` - modul *pickle*"
+
+#: ../../tutorial/inputoutput.rst:505
+msgid ""
+"Contrary to :ref:`JSON <tut-json>`, *pickle* is a protocol which allows the "
+"serialization of arbitrarily complex Python objects.  As such, it is "
+"specific to Python and cannot be used to communicate with applications "
+"written in other languages.  It is also insecure by default: deserializing "
+"pickle data coming from an untrusted source can execute arbitrary code, if "
+"the data was crafted by a skilled attacker."
+msgstr ""
+"Berlawanan dengan :ref:`JSON <tut-json>`, *pickle* adalah protokol yang "
+"memungkinkan serialisasi objek Python yang semena-mena *arbitrarily* "
+"kompleks. Dengan demikian, ini khusus untuk Python dan tidak dapat digunakan"
+" untuk berkomunikasi dengan aplikasi yang ditulis dalam bahasa lain. Ini "
+"juga tidak aman secara bawaan: *deserializing* *pickle* data yang berasal "
+"dari sumber yang tidak dipercaya dapat mengeksekusi kode semena-mena "
+"*arbitrary*, jika data dibuat oleh penyerang yang terampil."
