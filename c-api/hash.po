@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Translation of python-newest.c-api--hash.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -19,8 +19,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "PyHash API"
 msgstr "PyHash API"
@@ -30,53 +30,58 @@ msgid ""
 msgstr "Lihat juga :c:member:`PyTypeObject.tp_hash` dan :ref:`numeric-hash`"
 
 msgid "Hash value type: signed integer."
-msgstr ""
+msgstr "Tipe nilai hash: signed integer."
 
 msgid "Hash value type: unsigned integer."
-msgstr ""
+msgstr "Tipe nilai hash: unsigned integer."
 
 msgid ""
 "The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
 "2**n -1``, used for numeric hash scheme."
 msgstr ""
+"`Bilangan prima Mersenne <https://en.wikipedia.org/wiki/Mersenne_prime>`_ "
+"``P = 2**n -1``, digunakan untuk skema hash numerik."
 
 msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
-msgstr ""
+msgstr "Eksponen ``n`` dari ``P`` di dalam :c:macro:`PyHASH_MODULUS`."
 
 msgid "Prime multiplier used in string and various other hashes."
-msgstr ""
+msgstr "Pengganda prima digunakan dalam string dan berbagai macam hash."
 
 msgid "The hash value returned for a positive infinity."
-msgstr ""
+msgstr "Nilai hash dikembalikan dalam bentuk positif tak terhingga."
 
 msgid "The multiplier used for the imaginary part of a complex number."
 msgstr ""
+"Pengganda digunakan untuk bagian imajiner dari suatu bilangan kompleks."
 
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
-msgstr ""
+msgstr "Definisi fungsi hash digunakan oleh :c:func:`PyHash_GetFuncDef`."
 
 msgid "Hash function name (UTF-8 encoded string)."
-msgstr ""
+msgstr "Nama fungsi hash (UTF-8 encoded string)."
 
 msgid "Internal size of the hash value in bits."
-msgstr ""
+msgstr "Ukuran internal hash dalam bentuk bits."
 
 msgid "Size of seed input in bits."
-msgstr ""
+msgstr "Ukuran input seed dalam bits."
 
 msgid "Get the hash function definition."
-msgstr ""
+msgstr "Dapatkan definisi fungsi hash."
 
 msgid ":pep:`456` \"Secure and interchangeable hash algorithm\"."
-msgstr ""
+msgstr ":pep:`456` “Algoritma hash yang aman dan dapat dipertukarkan“."
 
 msgid ""
 "Hash a pointer value: process the pointer value as an integer (cast it to "
 "``uintptr_t`` internally). The pointer is not dereferenced."
 msgstr ""
+"Hash sebuah nilai pointer: proses nilai pointer sebagai integer (ubah ke "
+"bentuk ``uintptr_t`` secara internal). Pointer tidak dilakukan dereferensi."
 
 msgid "The function cannot fail: it cannot return ``-1``."
-msgstr ""
+msgstr "Fungsi tidak bisa gagal: ia tidak bisa mengembalikan nilai ``-1``."
 
 msgid ""
 "Compute and return the hash value of a buffer of *len* bytes starting at "
@@ -84,22 +89,31 @@ msgid ""
 "class:`memoryview`, and other built-in objects that implement the :ref:"
 "`buffer protocol <bufferobjects>`."
 msgstr ""
+"Komputasi dan kembalikan nilai hash dari sebuah penyangga dari *len* bytes "
+"dimulai dari alamat *ptr*. Hash dijamin untuk cocok "
+"pada :class:`bytes`, :class:`memoryview`, dan bawaan objek yang lain yang "
+"mengimplementasikan :ref:`buffer protocol <bufferobjects>`."
 
 msgid ""
 "Use this function to implement hashing for immutable objects whose :c:member:"
 "`~PyTypeObject.tp_richcompare` function compares to another object's buffer."
 msgstr ""
+"Gunakan fungsi ini untuk implementasikan hashing pada objek yang tidak "
+"dapat berubah dimana fungsi :c:member:`~PyTypeObject.tp_richcompare` "
+"dibandingkan pada penyangga objek yang lain."
 
 msgid "*len* must be greater than or equal to ``0``."
-msgstr ""
+msgstr "*len* harus lebih besar atau sama dengan ``0``."
 
 msgid "This function always succeeds."
-msgstr ""
+msgstr "Fungsi ini selalu berhasil."
 
 msgid ""
 "Generic hashing function that is meant to be put into a type object's "
 "``tp_hash`` slot. Its result only depends on the object's identity."
 msgstr ""
+"Fungsi generik hashing yang dimaksudkan untuk ditaruh pada tipe objek "
+"``tp_hash``. Hasilnya hanya bergantung dari identitas objek itu."
 
 msgid "In CPython, it is equivalent to :c:func:`Py_HashPointer`."
-msgstr ""
+msgstr "Di CPython, itu sama dengan :c:func:`Py_HashPointer`."
