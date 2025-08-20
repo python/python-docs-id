@@ -78,7 +78,7 @@ msgid ""
 "``uintptr_t`` internally). The pointer is not dereferenced."
 msgstr ""
 "Hash sebuah nilai pointer: proses nilai pointer sebagai integer (ubah ke "
-"bentuk ``uintptr_t`` secara internal). Pointer tidak direferensikan."
+"bentuk ``uintptr_t`` secara internal). Pointer tidak dilakukan dereferensi."
 
 msgid "The function cannot fail: it cannot return ``-1``."
 msgstr "Fungsi tidak bisa gagal: ia tidak bisa mengembalikan nilai ``-1``."
