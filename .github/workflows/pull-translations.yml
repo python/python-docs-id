@@ -1,13 +1,12 @@
-# Workflow from https://github.com/python-docs-translations/transifex-automations/blob/main/sample-workflows/transifex-pull.yml
+# Workflow adapted from https://github.com/python-docs-translations/transifex-automations/blob/main/sample-workflows/transifex-pull.yml
 name: Pull Translations from Transifex
-
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 permissions:
   contents: write
-
+  pull-requests: write
 jobs:
   update-translation:
     runs-on: ubuntu-latest
@@ -32,6 +31,7 @@ jobs:
         with:
           ref: ${{ matrix.version }}
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
       - run: curl -O https://raw.githubusercontent.com/python-docs-translations/transifex-automations/master/sample-workflows/transifex-util.py
       - run: chmod +x transifex-util.py
       - run: ./transifex-util.py recreate_tx_config --language id --project-slug python-newest --version 3.14
@@ -45,6 +45,17 @@ jobs:
         run: |
           git config --local user.email github-actions@github.com
           git config --local user.name "GitHub Action's update-translation job"
+      - name: Check for recent manual changes
+        run: |
+          RECENT_COMMITS=$(git log --since="24 hours ago" --grep="Update translation from Transifex" --invert-grep --oneline | wc -l)
+          if [ "$RECENT_COMMITS" -gt 0 ]; then
+            echo "Recent manual commits detected:"
+            git log --since="24 hours ago" --grep="Update translation from Transifex" --invert-grep --oneline
+            echo "RECENT_MANUAL_CHANGES=1" >> $GITHUB_ENV
+          else
+            echo "No recent manual changes detected"
+            echo "RECENT_MANUAL_CHANGES=0" >> $GITHUB_ENV
+          fi
       - name: Filter files
         run: |
           ! git diff -I'^"POT-Creation-Date: ' \
@@ -52,11 +63,28 @@ jobs:
                      -I'^# ' -I'^"Last-Translator: ' \
                      --exit-code \
             && echo "SIGNIFICANT_CHANGES=1" >> $GITHUB_ENV || exit 0
-      - run: git add .
-      - run: git commit -m 'Update translation from Transifex'
-        if: env.SIGNIFICANT_CHANGES
-      - uses: ad-m/github-push-action@master
-        if: env.SIGNIFICANT_CHANGES
+      - name: Create Pull Request if recent manual changes exist
+        if: env.SIGNIFICANT_CHANGES == '1' && env.RECENT_MANUAL_CHANGES == '1'
+        uses: peter-evans/create-pull-request@v5
         with:
-          branch: ${{ matrix.version }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: transifex-updates-${{ matrix.version }}-${{ github.run_number }}
+          title: 'Update translations from Transifex for ${{ matrix.version }}'
+          body: |
+            Automated translation updates from Transifex
+            
+            **Manual changes detected in the last 24 hours** - please review carefully to avoid conflicts.
+            
+            Recent manual commits:
+            ```
+            $(git log --since="24 hours ago" --grep="Update translation from Transifex" --invert-grep --oneline)
+            ```
+                        
+          base: ${{ matrix.version }}
+          delete-branch: true
+      - name: Commit and push directly if no recent manual changes
+        if: env.SIGNIFICANT_CHANGES == '1' && env.RECENT_MANUAL_CHANGES == '0'
+        run: |
+          git add .
+          git commit -m 'Update translation from Transifex'
+          git push origin ${{ matrix.version }}
