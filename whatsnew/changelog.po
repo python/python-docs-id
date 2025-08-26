@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 14:15+0000\n"
+"POT-Creation-Date: 2025-08-25 14:20+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -29,6 +29,15 @@ msgid "Python next"
 msgstr ""
 
 msgid "*Release date: XXXX-XX-XX*"
+msgstr ""
+
+msgid "Tools/Demos"
+msgstr "Perkakas/Demo"
+
+msgid ""
+":gh:`137873`: The iOS test runner has been simplified, resolving some issues "
+"that have been observed using the runner in GitHub Actions and Azure "
+"Pipelines test environments."
 msgstr ""
 
 msgid "Library"
@@ -195,9 +204,6 @@ msgstr ""
 
 msgid "*Release date: 2025-07-22*"
 msgstr ""
-
-msgid "Tools/Demos"
-msgstr "Perkakas/Demo"
 
 msgid ""
 ":gh:`136251`: Fixes and usability improvements for ``Tools/wasm/emscripten/"
