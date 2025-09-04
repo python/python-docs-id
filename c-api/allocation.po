@@ -6,15 +6,16 @@
 # Translators:
 # python-doc bot, 2025
 # Fried Rice, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-13 14:19+0000\n"
+"POT-Creation-Date: 2025-09-03 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: Fried Rice, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +100,7 @@ msgid ""
 "`PyType_GenericAlloc` is preferred over a custom function that simply calls "
 "this macro."
 msgstr ""
-"Ketika mengisi slot tipe:c:member:`~PyTypeObject.tp_alloc` , :c:func:"
+"Ketika mengisi slot tipe :c:member:`~PyTypeObject.tp_alloc` , :c:func:"
 "`PyType_GenericAlloc` lebih direkomendasikan daripada fungsi kustom yang "
 "hanya memanggil makro ini."
 
@@ -125,7 +126,7 @@ msgid ""
 "(usually called via the object's :c:member:`~PyTypeObject.tp_free` slot)."
 msgstr ""
 "Memori yang dialokasikan oleh makro ini harus dibebaskan dengan :c:func:"
-"`PyObject_Free` (biasanya dipanggil melalui slot objek:c:member:"
+"`PyObject_Free` (biasanya dipanggil melalui slot objek :c:member:"
 "`~PyTypeObject.tp_free` )."
 
 msgid ""

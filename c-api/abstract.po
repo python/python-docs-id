@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
+"POT-Creation-Date: 2025-09-03 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -43,6 +44,6 @@ msgid ""
 "value yet."
 msgstr ""
 "Tidak mungkin untuk menggunakan fungsi-fungsi ini pada objek yang tidak "
-"diinisialisasi dengan benar, seperti objek daftar yang telah dibuat oleh :c: "
+"diinisialisasi dengan benar, seperti objek daftar yang telah dibuat oleh :c:"
 "func:`PyList_New`, tetapi item-itemnya belum disetel ke beberapa nilai non-"
 "\\``NULL`` sebelumnya."

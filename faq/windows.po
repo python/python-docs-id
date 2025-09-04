@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
+"POT-Creation-Date: 2025-09-03 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +39,7 @@ msgid ""
 msgstr ""
 "Ini belum tentu pertanyaan langsung. Jika Anda sudahFamiliar dengan program "
 "yang berjalan dari Windows command line maka semuanyaAkan tampak jelas; jika "
-"tidak, Anda mungkin membutuhkan lebih banyak panduan. "
+"tidak, Anda mungkin membutuhkan lebih banyak panduan."
 
 msgid ""
 "Unless you use some sort of integrated development environment, you will end "
