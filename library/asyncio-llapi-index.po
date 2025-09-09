@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -23,19 +23,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Low-level API Index"
-msgstr "Індекс API низького рівня"
+msgstr ""
 
 msgid "This page lists all low-level asyncio APIs."
-msgstr "На цій сторінці перераховано всі асинхронні API низького рівня."
+msgstr ""
 
 msgid "Obtaining the Event Loop"
-msgstr "Отримання циклу подій"
+msgstr ""
 
 msgid ":func:`asyncio.get_running_loop`"
 msgstr ":func:`asyncio.get_running_loop`"
 
 msgid "The **preferred** function to get the running event loop."
-msgstr "**Переважна** функція для отримання запущеного циклу подій."
+msgstr ""
 
 msgid ":func:`asyncio.get_event_loop`"
 msgstr ":func:`asyncio.get_event_loop`"
@@ -47,23 +47,22 @@ msgid ":func:`asyncio.set_event_loop`"
 msgstr ":func:`asyncio.set_event_loop`"
 
 msgid "Set the event loop as current via the current policy."
-msgstr "Установіть цикл подій як поточний за допомогою поточної політики."
+msgstr ""
 
 msgid ":func:`asyncio.new_event_loop`"
 msgstr ":func:`asyncio.new_event_loop`"
 
 msgid "Create a new event loop."
-msgstr "Створіть новий цикл подій."
+msgstr ""
 
 msgid "Examples"
 msgstr "Contoh-contoh"
 
 msgid ":ref:`Using asyncio.get_running_loop() <asyncio_example_future>`."
 msgstr ""
-":ref:`Використання asyncio.get_running_loop() <asyncio_example_future>`."
 
 msgid "Event Loop Methods"
-msgstr "Методи циклу подій"
+msgstr ""
 
 msgid ""
 "See also the main documentation section about the :ref:`asyncio-event-loop-"
@@ -71,91 +70,91 @@ msgid ""
 msgstr ""
 
 msgid "Lifecycle"
-msgstr "Життєвий цикл"
+msgstr ""
 
 msgid ":meth:`loop.run_until_complete`"
 msgstr ":meth:`loop.run_until_complete`"
 
 msgid "Run a Future/Task/awaitable until complete."
-msgstr "Запустіть Future/Task/waitable до завершення."
+msgstr ""
 
 msgid ":meth:`loop.run_forever`"
 msgstr ":meth:`loop.run_forever`"
 
 msgid "Run the event loop forever."
-msgstr "Запустити цикл подій назавжди."
+msgstr ""
 
 msgid ":meth:`loop.stop`"
 msgstr ":meth:`loop.stop`"
 
 msgid "Stop the event loop."
-msgstr "Зупиніть цикл подій."
+msgstr ""
 
 msgid ":meth:`loop.close`"
 msgstr ":meth:`loop.close`"
 
 msgid "Close the event loop."
-msgstr "Закрийте цикл подій."
+msgstr ""
 
 msgid ":meth:`loop.is_running`"
 msgstr ""
 
 msgid "Return ``True`` if the event loop is running."
-msgstr "Повертає ``True``, якщо запущено цикл подій."
+msgstr ""
 
 msgid ":meth:`loop.is_closed`"
 msgstr ""
 
 msgid "Return ``True`` if the event loop is closed."
-msgstr "Повертає ``True``, якщо цикл події закрито."
+msgstr ""
 
 msgid "``await`` :meth:`loop.shutdown_asyncgens`"
 msgstr "``await`` :meth:`loop.shutdown_asyncgens`"
 
 msgid "Close asynchronous generators."
-msgstr "Закрити асинхронні генератори."
+msgstr ""
 
 msgid "Debugging"
-msgstr "Налагодження"
+msgstr ""
 
 msgid ":meth:`loop.set_debug`"
 msgstr ":meth:`loop.set_debug`"
 
 msgid "Enable or disable the debug mode."
-msgstr "Увімкніть або вимкніть режим налагодження."
+msgstr ""
 
 msgid ":meth:`loop.get_debug`"
 msgstr ":meth:`loop.get_debug`"
 
 msgid "Get the current debug mode."
-msgstr "Отримати поточний режим налагодження."
+msgstr ""
 
 msgid "Scheduling Callbacks"
-msgstr "Планування зворотних викликів"
+msgstr ""
 
 msgid ":meth:`loop.call_soon`"
 msgstr ":meth:`loop.call_soon`"
 
 msgid "Invoke a callback soon."
-msgstr "Незабаром викликайте зворотний дзвінок."
+msgstr ""
 
 msgid ":meth:`loop.call_soon_threadsafe`"
 msgstr ":meth:`loop.call_soon_threadsafe`"
 
 msgid "A thread-safe variant of :meth:`loop.call_soon`."
-msgstr "Потоково-безпечний варіант :meth:`loop.call_soon`."
+msgstr ""
 
 msgid ":meth:`loop.call_later`"
 msgstr ":meth:`loop.call_later`"
 
 msgid "Invoke a callback *after* the given time."
-msgstr "Викликати зворотний виклик *після* вказаного часу."
+msgstr ""
 
 msgid ":meth:`loop.call_at`"
 msgstr ":meth:`loop.call_at`"
 
 msgid "Invoke a callback *at* the given time."
-msgstr "Викликати зворотний виклик *у* вказаний час."
+msgstr ""
 
 msgid "Thread/Interpreter/Process Pool"
 msgstr ""
@@ -167,30 +166,27 @@ msgid ""
 "Run a CPU-bound or other blocking function in a :mod:`concurrent.futures` "
 "executor."
 msgstr ""
-"Запустіть пов’язану з ЦП функцію або іншу функцію блокування у виконавці :"
-"mod:`concurrent.futures`."
 
 msgid ":meth:`loop.set_default_executor`"
 msgstr ":meth:`loop.set_default_executor`"
 
 msgid "Set the default executor for :meth:`loop.run_in_executor`."
 msgstr ""
-"Встановити виконавця за замовчуванням для :meth:`loop.run_in_executor`."
 
 msgid "Tasks and Futures"
-msgstr "Завдання та майбутнє"
+msgstr ""
 
 msgid ":meth:`loop.create_future`"
 msgstr ":meth:`loop.create_future`"
 
 msgid "Create a :class:`Future` object."
-msgstr "Створіть об’єкт :class:`Future`."
+msgstr ""
 
 msgid ":meth:`loop.create_task`"
 msgstr ":meth:`loop.create_task`"
 
 msgid "Schedule coroutine as a :class:`Task`."
-msgstr "Розклад співпрограми як :class:`Task`."
+msgstr ""
 
 msgid ":meth:`loop.set_task_factory`"
 msgstr ":meth:`loop.set_task_factory`"
@@ -199,8 +195,6 @@ msgid ""
 "Set a factory used by :meth:`loop.create_task` to create :class:`Tasks "
 "<Task>`."
 msgstr ""
-"Установіть фабрику, яку використовує :meth:`loop.create_task` для створення :"
-"class:`Tasks <Task>`."
 
 msgid ":meth:`loop.get_task_factory`"
 msgstr ":meth:`loop.get_task_factory`"
@@ -209,8 +203,6 @@ msgid ""
 "Get the factory :meth:`loop.create_task` uses to create :class:`Tasks "
 "<Task>`."
 msgstr ""
-"Отримайте фабрику, яку :meth:`loop.create_task` використовує для створення :"
-"class:`Tasks <Task>`."
 
 msgid "DNS"
 msgstr "DNS"
@@ -219,76 +211,76 @@ msgid "``await`` :meth:`loop.getaddrinfo`"
 msgstr "``await`` :meth:`loop.getaddrinfo`"
 
 msgid "Asynchronous version of :meth:`socket.getaddrinfo`."
-msgstr "Асинхронна версія :meth:`socket.getaddrinfo`."
+msgstr ""
 
 msgid "``await`` :meth:`loop.getnameinfo`"
 msgstr "``await`` :meth:`loop.getnameinfo`"
 
 msgid "Asynchronous version of :meth:`socket.getnameinfo`."
-msgstr "Асинхронна версія :meth:`socket.getnameinfo`."
+msgstr ""
 
 msgid "Networking and IPC"
-msgstr "Мережа та IPC"
+msgstr ""
 
 msgid "``await`` :meth:`loop.create_connection`"
 msgstr "``await`` :meth:`loop.create_connection`"
 
 msgid "Open a TCP connection."
-msgstr "Відкрийте TCP-з'єднання."
+msgstr ""
 
 msgid "``await`` :meth:`loop.create_server`"
 msgstr "``await`` :meth:`loop.create_server`"
 
 msgid "Create a TCP server."
-msgstr "Створіть сервер TCP."
+msgstr ""
 
 msgid "``await`` :meth:`loop.create_unix_connection`"
 msgstr "``await`` :meth:`loop.create_unix_connection`"
 
 msgid "Open a Unix socket connection."
-msgstr "Відкрийте підключення сокета Unix."
+msgstr ""
 
 msgid "``await`` :meth:`loop.create_unix_server`"
 msgstr "``await`` :meth:`loop.create_unix_server`"
 
 msgid "Create a Unix socket server."
-msgstr "Створіть сокет-сервер Unix."
+msgstr ""
 
 msgid "``await`` :meth:`loop.connect_accepted_socket`"
 msgstr "``await`` :meth:`loop.connect_accepted_socket`"
 
 msgid "Wrap a :class:`~socket.socket` into a ``(transport, protocol)`` pair."
-msgstr "Оберніть :class:`~socket.socket` в пару ``(транспорт, протокол)``."
+msgstr ""
 
 msgid "``await`` :meth:`loop.create_datagram_endpoint`"
 msgstr "``await`` :meth:`loop.create_datagram_endpoint`"
 
 msgid "Open a datagram (UDP) connection."
-msgstr "Відкрийте з'єднання дейтаграми (UDP)."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sendfile`"
 msgstr "``await`` :meth:`loop.sendfile`"
 
 msgid "Send a file over a transport."
-msgstr "Надіслати файл через транспорт."
+msgstr ""
 
 msgid "``await`` :meth:`loop.start_tls`"
 msgstr "``await`` :meth:`loop.start_tls`"
 
 msgid "Upgrade an existing connection to TLS."
-msgstr "Оновіть наявне підключення до TLS."
+msgstr ""
 
 msgid "``await`` :meth:`loop.connect_read_pipe`"
 msgstr "``await`` :meth:`loop.connect_read_pipe`"
 
 msgid "Wrap a read end of a pipe into a ``(transport, protocol)`` pair."
-msgstr "Оберніть зчитований кінець каналу в пару ``(транспорт, протокол)``."
+msgstr ""
 
 msgid "``await`` :meth:`loop.connect_write_pipe`"
 msgstr "``await`` :meth:`loop.connect_write_pipe`"
 
 msgid "Wrap a write end of a pipe into a ``(transport, protocol)`` pair."
-msgstr "Оберніть кінець каналу для запису в пару ``(транспорт, протокол)``."
+msgstr ""
 
 msgid "Sockets"
 msgstr "Soket"
@@ -297,13 +289,13 @@ msgid "``await`` :meth:`loop.sock_recv`"
 msgstr "``await`` :meth:`loop.sock_recv`"
 
 msgid "Receive data from the :class:`~socket.socket`."
-msgstr "Отримувати дані з :class:`~socket.socket`."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sock_recv_into`"
 msgstr "``await`` :meth:`loop.sock_recv_into`"
 
 msgid "Receive data from the :class:`~socket.socket` into a buffer."
-msgstr "Отримувати дані з :class:`~socket.socket` в буфер."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sock_recvfrom`"
 msgstr ""
@@ -321,7 +313,7 @@ msgid "``await`` :meth:`loop.sock_sendall`"
 msgstr "``await`` :meth:`loop.sock_sendall`"
 
 msgid "Send data to the :class:`~socket.socket`."
-msgstr "Надсилайте дані до :class:`~socket.socket`."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sock_sendto`"
 msgstr ""
@@ -333,73 +325,73 @@ msgid "``await`` :meth:`loop.sock_connect`"
 msgstr "``await`` :meth:`loop.sock_connect`"
 
 msgid "Connect the :class:`~socket.socket`."
-msgstr "Підключіть :class:`~socket.socket`."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sock_accept`"
 msgstr "``await`` :meth:`loop.sock_accept`"
 
 msgid "Accept a :class:`~socket.socket` connection."
-msgstr "Прийміть підключення :class:`~socket.socket`."
+msgstr ""
 
 msgid "``await`` :meth:`loop.sock_sendfile`"
 msgstr "``await`` :meth:`loop.sock_sendfile`"
 
 msgid "Send a file over the :class:`~socket.socket`."
-msgstr "Надішліть файл через :class:`~socket.socket`."
+msgstr ""
 
 msgid ":meth:`loop.add_reader`"
 msgstr ":meth:`loop.add_reader`"
 
 msgid "Start watching a file descriptor for read availability."
-msgstr "Почніть переглядати файловий дескриптор на наявність читання."
+msgstr ""
 
 msgid ":meth:`loop.remove_reader`"
 msgstr ":meth:`loop.remove_reader`"
 
 msgid "Stop watching a file descriptor for read availability."
-msgstr "Припиніть перегляд дескриптора файлу на доступність читання."
+msgstr ""
 
 msgid ":meth:`loop.add_writer`"
 msgstr ":meth:`loop.add_writer`"
 
 msgid "Start watching a file descriptor for write availability."
-msgstr "Почніть переглядати файловий дескриптор на доступність запису."
+msgstr ""
 
 msgid ":meth:`loop.remove_writer`"
 msgstr ":meth:`loop.remove_writer`"
 
 msgid "Stop watching a file descriptor for write availability."
-msgstr "Припиніть стежити за доступністю запису в дескрипторі файлів."
+msgstr ""
 
 msgid "Unix Signals"
-msgstr "Сигнали Unix"
+msgstr ""
 
 msgid ":meth:`loop.add_signal_handler`"
 msgstr ":meth:`loop.add_signal_handler`"
 
 msgid "Add a handler for a :mod:`signal`."
-msgstr "Додайте обробник для :mod:`signal`."
+msgstr ""
 
 msgid ":meth:`loop.remove_signal_handler`"
 msgstr ":meth:`loop.remove_signal_handler`"
 
 msgid "Remove a handler for a :mod:`signal`."
-msgstr "Видаліть обробник для :mod:`signal`."
+msgstr ""
 
 msgid "Subprocesses"
-msgstr "Підпроцеси"
+msgstr ""
 
 msgid ":meth:`loop.subprocess_exec`"
 msgstr ":meth:`loop.subprocess_exec`"
 
 msgid "Spawn a subprocess."
-msgstr "Створити підпроцес."
+msgstr ""
 
 msgid ":meth:`loop.subprocess_shell`"
 msgstr ":meth:`loop.subprocess_shell`"
 
 msgid "Spawn a subprocess from a shell command."
-msgstr "Створити підпроцес із команди оболонки."
+msgstr ""
 
 msgid "Error Handling"
 msgstr "Penanganan Kesalahan"
@@ -408,25 +400,25 @@ msgid ":meth:`loop.call_exception_handler`"
 msgstr ":meth:`loop.call_exception_handler`"
 
 msgid "Call the exception handler."
-msgstr "Виклик обробника винятків."
+msgstr ""
 
 msgid ":meth:`loop.set_exception_handler`"
 msgstr ":meth:`loop.set_exception_handler`"
 
 msgid "Set a new exception handler."
-msgstr "Встановити новий обробник винятків."
+msgstr ""
 
 msgid ":meth:`loop.get_exception_handler`"
 msgstr ":meth:`loop.get_exception_handler`"
 
 msgid "Get the current exception handler."
-msgstr "Отримати поточний обробник винятків."
+msgstr ""
 
 msgid ":meth:`loop.default_exception_handler`"
 msgstr ":meth:`loop.default_exception_handler`"
 
 msgid "The default exception handler implementation."
-msgstr "Реалізація обробника винятків за замовчуванням."
+msgstr ""
 
 msgid ""
 ":ref:`Using asyncio.new_event_loop() and loop.run_forever() "
@@ -434,145 +426,130 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`Using loop.call_later() <asyncio_example_call_later>`."
-msgstr ":ref:`Використання loop.call_later() <asyncio_example_call_later>`."
+msgstr ""
 
 msgid ""
 "Using ``loop.create_connection()`` to implement :ref:`an echo-client "
 "<asyncio_example_tcp_echo_client_protocol>`."
 msgstr ""
-"Використання ``loop.create_connection()`` для реалізації :ref:`ехо-клієнта "
-"<asyncio_example_tcp_echo_client_protocol>`."
 
 msgid ""
 "Using ``loop.create_connection()`` to :ref:`connect a socket "
 "<asyncio_example_create_connection>`."
 msgstr ""
-"Використання ``loop.create_connection()`` для :ref:`підключення сокета "
-"<asyncio_example_create_connection>`."
 
 msgid ""
 ":ref:`Using add_reader() to watch an FD for read events "
 "<asyncio_example_watch_fd>`."
 msgstr ""
-":ref:`Використання add_reader() для перегляду FD для подій читання "
-"<asyncio_example_watch_fd>`."
 
 msgid ":ref:`Using loop.add_signal_handler() <asyncio_example_unix_signals>`."
 msgstr ""
-":ref:`Використання loop.add_signal_handler() <asyncio_example_unix_signals>`."
 
 msgid ":ref:`Using loop.subprocess_exec() <asyncio_example_subprocess_proto>`."
 msgstr ""
-":ref:`Використання loop.subprocess_exec() "
-"<asyncio_example_subprocess_proto>`."
 
 msgid "Transports"
-msgstr "Транспорти"
+msgstr ""
 
 msgid "All transports implement the following methods:"
-msgstr "Усі транспорти реалізують такі методи:"
+msgstr ""
 
 msgid ":meth:`transport.close() <BaseTransport.close>`"
 msgstr ":meth:`transport.close() <BaseTransport.close>`"
 
 msgid "Close the transport."
-msgstr "Закрити транспорт."
+msgstr ""
 
 msgid ":meth:`transport.is_closing() <BaseTransport.is_closing>`"
 msgstr ":meth:`transport.is_closing() <BaseTransport.is_closing>`"
 
 msgid "Return ``True`` if the transport is closing or is closed."
-msgstr "Повертає ``True``, якщо транспорт закривається або закритий."
+msgstr ""
 
 msgid ":meth:`transport.get_extra_info() <BaseTransport.get_extra_info>`"
 msgstr ":meth:`transport.get_extra_info() <BaseTransport.get_extra_info>`"
 
 msgid "Request for information about the transport."
-msgstr "Запит інформації про транспорт."
+msgstr ""
 
 msgid ":meth:`transport.set_protocol() <BaseTransport.set_protocol>`"
 msgstr ":meth:`transport.set_protocol() <BaseTransport.set_protocol>`"
 
 msgid "Set a new protocol."
-msgstr "Встановіть новий протокол."
+msgstr ""
 
 msgid ":meth:`transport.get_protocol() <BaseTransport.get_protocol>`"
 msgstr ":meth:`transport.get_protocol() <BaseTransport.get_protocol>`"
 
 msgid "Return the current protocol."
-msgstr "Повернути поточний протокол."
+msgstr ""
 
 msgid ""
 "Transports that can receive data (TCP and Unix connections, pipes, etc).  "
 "Returned from methods like :meth:`loop.create_connection`, :meth:`loop."
 "create_unix_connection`, :meth:`loop.connect_read_pipe`, etc:"
 msgstr ""
-"Транспорти, які можуть отримувати дані (з’єднання TCP і Unix, канали тощо). "
-"Повертається з таких методів, як :meth:`loop.create_connection`, :meth:`loop."
-"create_unix_connection`, :meth:`loop.connect_read_pipe` тощо:"
 
 msgid "Read Transports"
-msgstr "Читайте Транспорт"
+msgstr ""
 
 msgid ":meth:`transport.is_reading() <ReadTransport.is_reading>`"
 msgstr ":meth:`transport.is_reading() <ReadTransport.is_reading>`"
 
 msgid "Return ``True`` if the transport is receiving."
-msgstr "Повертає ``True``, якщо транспорт отримує."
+msgstr ""
 
 msgid ":meth:`transport.pause_reading() <ReadTransport.pause_reading>`"
 msgstr ":meth:`transport.pause_reading() <ReadTransport.pause_reading>`"
 
 msgid "Pause receiving."
-msgstr "Призупинити отримання."
+msgstr ""
 
 msgid ":meth:`transport.resume_reading() <ReadTransport.resume_reading>`"
 msgstr ":meth:`transport.resume_reading() <ReadTransport.resume_reading>`"
 
 msgid "Resume receiving."
-msgstr "Відновити прийом."
+msgstr ""
 
 msgid ""
 "Transports that can Send data (TCP and Unix connections, pipes, etc).  "
 "Returned from methods like :meth:`loop.create_connection`, :meth:`loop."
 "create_unix_connection`, :meth:`loop.connect_write_pipe`, etc:"
 msgstr ""
-"Транспорти, які можуть надсилати дані (з’єднання TCP і Unix, канали тощо). "
-"Повертається з таких методів, як :meth:`loop.create_connection`, :meth:`loop."
-"create_unix_connection`, :meth:`loop.connect_write_pipe` тощо:"
 
 msgid "Write Transports"
-msgstr "Напишіть Транспорти"
+msgstr ""
 
 msgid ":meth:`transport.write() <WriteTransport.write>`"
 msgstr ":meth:`transport.write() <WriteTransport.write>`"
 
 msgid "Write data to the transport."
-msgstr "Записати дані в транспорт."
+msgstr ""
 
 msgid ":meth:`transport.writelines() <WriteTransport.writelines>`"
 msgstr ":meth:`transport.writelines() <WriteTransport.writelines>`"
 
 msgid "Write buffers to the transport."
-msgstr "Записати буфери в транспорт."
+msgstr ""
 
 msgid ":meth:`transport.can_write_eof() <WriteTransport.can_write_eof>`"
 msgstr ":meth:`transport.can_write_eof() <WriteTransport.can_write_eof>`"
 
 msgid "Return :const:`True` if the transport supports sending EOF."
-msgstr "Повертає :const:`True`, якщо транспорт підтримує надсилання EOF."
+msgstr ""
 
 msgid ":meth:`transport.write_eof() <WriteTransport.write_eof>`"
 msgstr ":meth:`transport.write_eof() <WriteTransport.write_eof>`"
 
 msgid "Close and send EOF after flushing buffered data."
-msgstr "Закрийте та надішліть EOF після очищення буферизованих даних."
+msgstr ""
 
 msgid ":meth:`transport.abort() <WriteTransport.abort>`"
 msgstr ":meth:`transport.abort() <WriteTransport.abort>`"
 
 msgid "Close the transport immediately."
-msgstr "Негайно закрити транспорт."
+msgstr ""
 
 msgid ""
 ":meth:`transport.get_write_buffer_size() <WriteTransport."
@@ -591,7 +568,6 @@ msgstr ""
 
 msgid "Return high and low water marks for write flow control."
 msgstr ""
-"Повернути верхні та нижні водяні позначки для керування потоком запису."
 
 msgid ""
 ":meth:`transport.set_write_buffer_limits() <WriteTransport."
@@ -602,20 +578,18 @@ msgstr ""
 
 msgid "Set new high and low water marks for write flow control."
 msgstr ""
-"Встановіть нові позначки верхнього та нижнього рівня для контролю потоку "
-"запису."
 
 msgid "Transports returned by :meth:`loop.create_datagram_endpoint`:"
-msgstr "Транспорти, повернуті :meth:`loop.create_datagram_endpoint`:"
+msgstr ""
 
 msgid "Datagram Transports"
-msgstr "Транспортування дейтаграм"
+msgstr ""
 
 msgid ":meth:`transport.sendto() <DatagramTransport.sendto>`"
 msgstr ":meth:`transport.sendto() <DatagramTransport.sendto>`"
 
 msgid "Send data to the remote peer."
-msgstr "Надсилати дані віддаленому одноранговому пристрою."
+msgstr ""
 
 msgid ":meth:`transport.abort() <DatagramTransport.abort>`"
 msgstr ":meth:`transport.abort() <DatagramTransport.abort>`"
@@ -624,17 +598,15 @@ msgid ""
 "Low-level transport abstraction over subprocesses. Returned by :meth:`loop."
 "subprocess_exec` and :meth:`loop.subprocess_shell`:"
 msgstr ""
-"Низькорівнева транспортна абстракція над підпроцесами. Повертається :meth:"
-"`loop.subprocess_exec` і :meth:`loop.subprocess_shell`:"
 
 msgid "Subprocess Transports"
-msgstr "Транспортування підпроцесів"
+msgstr ""
 
 msgid ":meth:`transport.get_pid() <SubprocessTransport.get_pid>`"
 msgstr ":meth:`transport.get_pid() <SubprocessTransport.get_pid>`"
 
 msgid "Return the subprocess process id."
-msgstr "Повернути ідентифікатор процесу підпроцесу."
+msgstr ""
 
 msgid ""
 ":meth:`transport.get_pipe_transport() <SubprocessTransport."
@@ -647,130 +619,120 @@ msgid ""
 "Return the transport for the requested communication pipe (*stdin*, "
 "*stdout*, or *stderr*)."
 msgstr ""
-"Повернути транспорт для запитуваного каналу зв’язку (*stdin*, *stdout* або "
-"*stderr*)."
 
 msgid ":meth:`transport.get_returncode() <SubprocessTransport.get_returncode>`"
 msgstr ""
 ":meth:`transport.get_returncode() <SubprocessTransport.get_returncode>`"
 
 msgid "Return the subprocess return code."
-msgstr "Повернути код повернення підпроцесу."
+msgstr ""
 
 msgid ":meth:`transport.kill() <SubprocessTransport.kill>`"
 msgstr ":meth:`transport.kill() <SubprocessTransport.kill>`"
 
 msgid "Kill the subprocess."
-msgstr "Закрийте підпроцес."
+msgstr ""
 
 msgid ":meth:`transport.send_signal() <SubprocessTransport.send_signal>`"
 msgstr ":meth:`transport.send_signal() <SubprocessTransport.send_signal>`"
 
 msgid "Send a signal to the subprocess."
-msgstr "Надішліть сигнал підпроцесу."
+msgstr ""
 
 msgid ":meth:`transport.terminate() <SubprocessTransport.terminate>`"
 msgstr ":meth:`transport.terminate() <SubprocessTransport.terminate>`"
 
 msgid "Stop the subprocess."
-msgstr "Зупиніть підпроцес."
+msgstr ""
 
 msgid ":meth:`transport.close() <SubprocessTransport.close>`"
 msgstr ":meth:`transport.close() <SubprocessTransport.close>`"
 
 msgid "Kill the subprocess and close all pipes."
-msgstr "Закрийте підпроцес і закрийте всі канали."
+msgstr ""
 
 msgid "Protocols"
-msgstr "Протоколи"
+msgstr ""
 
 msgid "Protocol classes can implement the following **callback methods**:"
 msgstr ""
-"Класи протоколів можуть реалізовувати такі **методи зворотного виклику**:"
 
 msgid "``callback`` :meth:`connection_made() <BaseProtocol.connection_made>`"
-msgstr "``callback`` :meth:`connection_made() <BaseProtocol.connection_made>`"
+msgstr ""
 
 msgid "Called when a connection is made."
-msgstr "Викликається, коли встановлено з'єднання."
+msgstr ""
 
 msgid "``callback`` :meth:`connection_lost() <BaseProtocol.connection_lost>`"
-msgstr "``callback`` :meth:`connection_lost() <BaseProtocol.connection_lost>`"
+msgstr ""
 
 msgid "Called when the connection is lost or closed."
-msgstr "Викликається, коли з'єднання втрачено або закрито."
+msgstr ""
 
 msgid "``callback`` :meth:`pause_writing() <BaseProtocol.pause_writing>`"
-msgstr "``callback`` :meth:`pause_writing() <BaseProtocol.pause_writing>`"
+msgstr ""
 
 msgid "Called when the transport's buffer goes over the high water mark."
-msgstr "Викликається, коли транспортний буфер перевищує позначку високої води."
+msgstr ""
 
 msgid "``callback`` :meth:`resume_writing() <BaseProtocol.resume_writing>`"
-msgstr "``callback`` :meth:`resume_writing() <BaseProtocol.resume_writing>`"
+msgstr ""
 
 msgid "Called when the transport's buffer drains below the low water mark."
 msgstr ""
-"Викликається, коли буфер транспорту стікає нижче позначки низького рівня "
-"води."
 
 msgid "Streaming Protocols (TCP, Unix Sockets, Pipes)"
-msgstr "Протоколи потокової передачі (TCP, Unix-сокети, канали)"
+msgstr ""
 
 msgid "``callback`` :meth:`data_received() <Protocol.data_received>`"
-msgstr "``callback`` :meth:`data_received() <Protocol.data_received>`"
+msgstr ""
 
 msgid "Called when some data is received."
-msgstr "Викликається при отриманні деяких даних."
+msgstr ""
 
 msgid "``callback`` :meth:`eof_received() <Protocol.eof_received>`"
-msgstr "``callback`` :meth:`eof_received() <Protocol.eof_received>`"
+msgstr ""
 
 msgid "Called when an EOF is received."
-msgstr "Викликається, коли отримано EOF."
+msgstr ""
 
 msgid "Buffered Streaming Protocols"
-msgstr "Буферизовані потокові протоколи"
+msgstr ""
 
 msgid "``callback`` :meth:`get_buffer() <BufferedProtocol.get_buffer>`"
-msgstr "``callback`` :meth:`get_buffer() <BufferedProtocol.get_buffer>`"
+msgstr ""
 
 msgid "Called to allocate a new receive buffer."
-msgstr "Викликається для виділення нового буфера отримання."
+msgstr ""
 
 msgid "``callback`` :meth:`buffer_updated() <BufferedProtocol.buffer_updated>`"
 msgstr ""
-"``callback`` :meth:`buffer_updated() <BufferedProtocol.buffer_updated>`"
 
 msgid "Called when the buffer was updated with the received data."
-msgstr "Викликається, коли буфер оновлюється отриманими даними."
+msgstr ""
 
 msgid "``callback`` :meth:`eof_received() <BufferedProtocol.eof_received>`"
-msgstr "``callback`` :meth:`eof_received() <BufferedProtocol.eof_received>`"
+msgstr ""
 
 msgid "Datagram Protocols"
-msgstr "Протоколи дейтаграм"
+msgstr ""
 
 msgid ""
 "``callback`` :meth:`datagram_received() <DatagramProtocol.datagram_received>`"
 msgstr ""
-"``callback`` :meth:`datagram_received() <DatagramProtocol.datagram_received>`"
 
 msgid "Called when a datagram is received."
-msgstr "Викликається, коли отримано дейтаграму."
+msgstr ""
 
 msgid "``callback`` :meth:`error_received() <DatagramProtocol.error_received>`"
 msgstr ""
-"``callback`` :meth:`error_received() <DatagramProtocol.error_received>`"
 
 msgid ""
 "Called when a previous send or receive operation raises an :class:`OSError`."
 msgstr ""
-"Викликається, коли попередня операція надсилання чи отримання викликає :"
-"class:`OSError`."
 
 msgid "Subprocess Protocols"
-msgstr "Протоколи підпроцесів"
+msgstr ""
 
 msgid "``callback`` :meth:`~SubprocessProtocol.pipe_data_received`"
 msgstr ""
@@ -778,8 +740,6 @@ msgstr ""
 msgid ""
 "Called when the child process writes data into its *stdout* or *stderr* pipe."
 msgstr ""
-"Викликається, коли дочірній процес записує дані у свій канал *stdout* або "
-"*stderr*."
 
 msgid "``callback`` :meth:`~SubprocessProtocol.pipe_connection_lost`"
 msgstr ""
@@ -787,12 +747,10 @@ msgstr ""
 msgid ""
 "Called when one of the pipes communicating with the child process is closed."
 msgstr ""
-"Викликається, коли одна з труб, що спілкуються з дочірнім процесом, закрита."
 
 msgid ""
 "``callback`` :meth:`process_exited() <SubprocessProtocol.process_exited>`"
 msgstr ""
-"``callback`` :meth:`process_exited() <SubprocessProtocol.process_exited>`"
 
 msgid ""
 "Called when the child process has exited. It can be called before :meth:"
@@ -801,34 +759,31 @@ msgid ""
 msgstr ""
 
 msgid "Event Loop Policies"
-msgstr "Політики циклу подій"
+msgstr ""
 
 msgid ""
 "Policies is a low-level mechanism to alter the behavior of functions like :"
 "func:`asyncio.get_event_loop`.  See also the main :ref:`policies section "
 "<asyncio-policies>` for more details."
 msgstr ""
-"Політики — це механізм низького рівня для зміни поведінки таких функцій, як :"
-"func:`asyncio.get_event_loop`. Перегляньте також основний :ref:`розділ "
-"правил <asyncio-policies>` для отримання додаткової інформації."
 
 msgid "Accessing Policies"
-msgstr "Доступ до політик"
+msgstr ""
 
 msgid ":meth:`asyncio.get_event_loop_policy`"
 msgstr ":meth:`asyncio.get_event_loop_policy`"
 
 msgid "Return the current process-wide policy."
-msgstr "Повернути поточну політику для всього процесу."
+msgstr ""
 
 msgid ":meth:`asyncio.set_event_loop_policy`"
 msgstr ":meth:`asyncio.set_event_loop_policy`"
 
 msgid "Set a new process-wide policy."
-msgstr "Установіть нову політику для всього процесу."
+msgstr ""
 
 msgid ":class:`AbstractEventLoopPolicy`"
 msgstr ":class:`AbstractEventLoopPolicy`"
 
 msgid "Base class for policy objects."
-msgstr "Базовий клас для об’єктів політики."
+msgstr ""

@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +103,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`572` for a full description."
-msgstr "Lihat :pep:`572` untuk deskripsi lengkap."
+msgstr "Lihat: pep:`572` untuk deskripsi lengkap."
 
 msgid "(Contributed by Emily Morehouse in :issue:`35224`.)"
 msgstr "(Kontribusi dari Emily Morehouse di :issue:`35224`.)"
@@ -206,7 +205,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`570` for a full description."
-msgstr "Lihat :pep:`570` untuk deskripsi lengkap."
+msgstr "Lihat: pep:`570` untuk keterangan lengkap."
 
 msgid "(Contributed by Pablo Galindo in :issue:`36540`.)"
 msgstr "(Kontribusi dari Pablo Galindo di :issue:`36540`.)"
@@ -452,7 +451,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`587` for a full description."
-msgstr "Lihat :pep:`587` untuk deskripsi lengkap."
+msgstr "Lihat: pep:`587` untuk deskripsi lengkap."
 
 msgid "(Contributed by Victor Stinner in :issue:`36763`.)"
 msgstr "(Kontribusi dari Victor Stinner di :issue:`36763`.)"
@@ -472,7 +471,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`590` for a full description."
-msgstr "Lihat :pep:`590` untuk deskripsi lengkap."
+msgstr "Lihat: pep:`590` untuk keterangan lengkap."
 
 msgid ""
 "(Contributed by Jeroen Demeyer, Mark Shannon and Petr Viktorin in :issue:"

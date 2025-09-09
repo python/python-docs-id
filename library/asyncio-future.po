@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Futures"
-msgstr "Ф'ючерси"
+msgstr ""
 
 msgid ""
 "**Source code:** :source:`Lib/asyncio/futures.py`, :source:`Lib/asyncio/"
@@ -129,7 +125,7 @@ msgid ""
 msgstr ""
 
 msgid "Added support for the :mod:`contextvars` module."
-msgstr "Додано підтримку модуля :mod:`contextvars`."
+msgstr ""
 
 msgid ""
 "Deprecation warning is emitted if *loop* is not specified and there is no "
@@ -206,9 +202,6 @@ msgid ""
 "class:`contextvars.Context` for the *callback* to run in. The current "
 "context is used when no *context* is provided."
 msgstr ""
-"Необов’язковий аргумент *context*, що містить лише ключове слово, дозволяє "
-"вказати спеціальний :class:`contextvars.Context` для виконання *зворотного "
-"виклику*. Поточний контекст використовується, якщо *контексту* не надано."
 
 msgid ""
 ":func:`functools.partial` can be used to pass parameters to the callback, e."
@@ -225,11 +218,9 @@ msgid ""
 "The *context* keyword-only parameter was added. See :pep:`567` for more "
 "details."
 msgstr ""
-"Додано параметр *context* тільки для ключового слова. Дивіться :pep:`567` "
-"для більш детальної інформації."
 
 msgid "Remove *callback* from the callbacks list."
-msgstr "Видалити *callback* зі списку зворотних викликів."
+msgstr ""
 
 msgid ""
 "Returns the number of callbacks removed, which is typically 1, unless a "

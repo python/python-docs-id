@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 14:16+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -270,16 +269,16 @@ msgid ":py:data:`inspect.CO_NESTED`"
 msgstr ""
 
 msgid ":py:data:`inspect.CO_GENERATOR`"
-msgstr ":py:data:`inspect.CO_GENERATOR`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_COROUTINE`"
-msgstr ":py:data:`inspect.CO_COROUTINE`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
-msgstr ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
-msgstr ":py:data:`inspect.CO_ASYNC_GENERATOR`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
 msgstr ""
@@ -370,7 +369,7 @@ msgid ""
 msgstr ""
 
 msgid "as ``_PyCode_SetExtra``"
-msgstr "sebagai ``_PyCode_SetExtra``"
+msgstr ""
 
 msgid ""
 "Renamed to ``PyUnstable_Code_SetExtra``. The old private name is deprecated, "
@@ -384,10 +383,10 @@ msgid "code"
 msgstr "code"
 
 msgid "code object"
-msgstr "objek kode"
+msgstr ""
 
 msgid "PyCode_New (C function)"
-msgstr "PyCode_New (fungsi C)"
+msgstr ""
 
 msgid "PyCode_NewWithPosOnlyArgs (C function)"
 msgstr ""

@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:34+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -194,7 +193,7 @@ msgid ""
 msgstr ""
 "*Encoders* dan *decoders* dari modul ini secara bawaan mempertahankan urutan "
 "masukan dan keluaran. Urutan hanya akan hilang jika *containers* dasarnya "
-"tidak berurutan."
+"tidak berurutan. "
 
 msgid "Basic Usage"
 msgstr "Penggunaan Dasar"
@@ -892,7 +891,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line options"
-msgstr "Параметри командного рядка"
+msgstr ""
 
 msgid "The JSON file to be validated or pretty-printed:"
 msgstr ""
@@ -934,7 +933,7 @@ msgid "Mutually exclusive options for whitespace control."
 msgstr ""
 
 msgid "Show the help message."
-msgstr "Pokaż komunikat pomocy."
+msgstr ""
 
 msgid "Footnotes"
 msgstr "Catatan kaki"

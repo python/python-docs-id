@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -2171,13 +2171,13 @@ msgid "private"
 msgstr ""
 
 msgid "names"
-msgstr "імена"
+msgstr ""
 
 msgid "literal"
 msgstr ""
 
 msgid "immutable"
-msgstr "незмінний"
+msgstr ""
 
 msgid "data"
 msgstr "data"
@@ -2201,7 +2201,7 @@ msgid "empty"
 msgstr ""
 
 msgid "tuple"
-msgstr "tuple"
+msgstr ""
 
 msgid "comma"
 msgstr ""
@@ -2282,13 +2282,13 @@ msgid "**"
 msgstr ""
 
 msgid "hashable"
-msgstr "хешований"
+msgstr ""
 
 msgid "generator"
 msgstr "pembangkit"
 
 msgid "generator expression"
-msgstr "генераторний вираз"
+msgstr ""
 
 msgid "keyword"
 msgstr ""
@@ -2303,7 +2303,7 @@ msgid "function"
 msgstr "fungsi"
 
 msgid "coroutine"
-msgstr "coroutine"
+msgstr ""
 
 msgid "yield from expression"
 msgstr ""
@@ -2366,7 +2366,7 @@ msgid "slicing"
 msgstr ""
 
 msgid "slice"
-msgstr "шматочок"
+msgstr ""
 
 msgid "start (slice object attribute)"
 msgstr ""
@@ -2378,7 +2378,7 @@ msgid "step (slice object attribute)"
 msgstr ""
 
 msgid "callable"
-msgstr "викликний"
+msgstr ""
 
 msgid "call"
 msgstr ""
@@ -2414,7 +2414,7 @@ msgid "built-in function"
 msgstr "fungsi bawaan"
 
 msgid "method"
-msgstr "metoda"
+msgstr ""
 
 msgid "built-in method"
 msgstr ""
@@ -2492,7 +2492,7 @@ msgid "ZeroDivisionError"
 msgstr ""
 
 msgid "division"
-msgstr "podział"
+msgstr ""
 
 msgid "/ (slash)"
 msgstr ""
@@ -2642,7 +2642,7 @@ msgid "else"
 msgstr ""
 
 msgid "lambda"
-msgstr "lambda"
+msgstr ""
 
 msgid "form"
 msgstr ""
@@ -2654,7 +2654,7 @@ msgid "lambda expression"
 msgstr ""
 
 msgid "iterable"
-msgstr "ітерований"
+msgstr ""
 
 msgid "in expression lists"
 msgstr ""

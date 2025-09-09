@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-07 14:14+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -767,7 +767,7 @@ msgid ""
 msgstr ""
 
 msgid "Built-in functions"
-msgstr "Вбудовані функції"
+msgstr ""
 
 msgid ""
 "A built-in function object is a wrapper around a C function.  Examples of "
@@ -2457,7 +2457,7 @@ msgid ""
 msgstr ""
 
 msgid "__slots__"
-msgstr "__slots__"
+msgstr ""
 
 msgid ""
 "*__slots__* allow us to explicitly declare data members (like properties) "
@@ -3426,12 +3426,12 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`343` - The \"with\" statement"
-msgstr ":pep:`343` - оператор \"з\"."
+msgstr ""
 
 msgid ""
 "The specification, background, and examples for the Python :keyword:`with` "
 "statement."
-msgstr "Специфікація, передумови та приклади оператора Python :keyword:`with`."
+msgstr ""
 
 msgid "Customizing positional arguments in class pattern matching"
 msgstr ""
@@ -4001,7 +4001,7 @@ msgid "immutable sequence"
 msgstr ""
 
 msgid "immutable"
-msgstr "незмінний"
+msgstr ""
 
 msgid "string"
 msgstr "string"
@@ -4022,7 +4022,7 @@ msgid "Unicode"
 msgstr ""
 
 msgid "tuple"
-msgstr "tuple"
+msgstr ""
 
 msgid "singleton"
 msgstr ""
@@ -4040,7 +4040,7 @@ msgid "mutable sequence"
 msgstr ""
 
 msgid "mutable"
-msgstr "мінливий"
+msgstr ""
 
 msgid "assignment"
 msgstr ""
@@ -4082,7 +4082,7 @@ msgid "dbm.gnu"
 msgstr ""
 
 msgid "callable"
-msgstr "викликний"
+msgstr ""
 
 msgid "function"
 msgstr "fungsi"
@@ -4112,7 +4112,7 @@ msgid "global"
 msgstr ""
 
 msgid "namespace"
-msgstr "простір імен"
+msgstr ""
 
 msgid "__doc__ (function attribute)"
 msgstr ""
@@ -4145,7 +4145,7 @@ msgid "__type_params__ (function attribute)"
 msgstr ""
 
 msgid "method"
-msgstr "metoda"
+msgstr ""
 
 msgid "user-defined method"
 msgstr ""
@@ -4169,10 +4169,10 @@ msgid "generator"
 msgstr "pembangkit"
 
 msgid "iterator"
-msgstr "iterator"
+msgstr ""
 
 msgid "coroutine"
-msgstr "coroutine"
+msgstr ""
 
 msgid "asynchronous generator"
 msgstr "pembangkit asinkron"
@@ -4457,7 +4457,7 @@ msgid "tb_next (traceback attribute)"
 msgstr ""
 
 msgid "slice"
-msgstr "шматочок"
+msgstr ""
 
 msgid "start (slice object attribute)"
 msgstr ""
@@ -4538,7 +4538,7 @@ msgid "__class__ (module attribute)"
 msgstr ""
 
 msgid "metaclass"
-msgstr "metaklasa"
+msgstr ""
 
 msgid "= (equals)"
 msgstr ""

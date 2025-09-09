@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -1915,7 +1919,7 @@ msgid "``__sizeof__``: default sizeof for the mock"
 msgstr ""
 
 msgid "For example:"
-msgstr ""
+msgstr "Sebagai contoh:"
 
 msgid ""
 "The two equality methods, :meth:`!__eq__` and :meth:`!__ne__`, are special. "
