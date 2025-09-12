@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -266,6 +266,11 @@ msgid ""
 "duplicates, providing iteration over the enum class, etc."
 msgstr ""
 
+msgid ""
+"Before 3.11 ``EnumType`` was called ``EnumMeta``, which is still available "
+"as an alias."
+msgstr ""
+
 msgid "This method is called in two different ways:"
 msgstr ""
 
@@ -392,21 +397,6 @@ msgstr ""
 msgid ""
 ">>> list(reversed(Color))\n"
 "[<Color.BLUE: 3>, <Color.GREEN: 2>, <Color.RED: 1>]"
-msgstr ""
-
-msgid ""
-"Adds a new name as an alias to an existing member.  Raises a :exc:"
-"`NameError` if the name is already assigned to a different member."
-msgstr ""
-
-msgid ""
-"Adds a new value as an alias to an existing member.  Raises a :exc:"
-"`ValueError` if the value is already linked with a different member."
-msgstr ""
-
-msgid ""
-"Before 3.11 ``EnumType`` was called ``EnumMeta``, which is still available "
-"as an alias."
 msgstr ""
 
 msgid "*Enum* is the base class for all *enum* enumerations."
@@ -644,6 +634,34 @@ msgid ""
 msgstr ""
 
 msgid "Added :ref:`enum-dataclass-support`"
+msgstr ""
+
+msgid "Adds a new name as an alias to an existing member::"
+msgstr ""
+
+msgid ""
+">>> Color.RED._add_alias_(\"ERROR\")\n"
+">>> Color.ERROR\n"
+"<Color.RED: 1>"
+msgstr ""
+
+msgid ""
+"Raises a :exc:`NameError` if the name is already assigned to a different "
+"member."
+msgstr ""
+
+msgid "Adds a new value as an alias to an existing member::"
+msgstr ""
+
+msgid ""
+">>> Color.RED._add_value_alias_(42)\n"
+">>> Color(42)\n"
+"<Color.RED: 1>"
+msgstr ""
+
+msgid ""
+"Raises a :exc:`ValueError` if the value is already linked with a different "
+"member."
 msgstr ""
 
 msgid ""
@@ -1031,16 +1049,6 @@ msgstr ""
 msgid "Supported ``_sunder_`` names"
 msgstr ""
 
-msgid ""
-":meth:`~EnumType._add_alias_` -- adds a new name as an alias to an existing "
-"member."
-msgstr ""
-
-msgid ""
-":meth:`~EnumType._add_value_alias_` -- adds a new value as an alias to an "
-"existing member."
-msgstr ""
-
 msgid ":attr:`~Enum._name_` -- name of the member"
 msgstr ""
 
@@ -1076,6 +1084,16 @@ msgstr ""
 msgid ""
 "For :class:`Flag` classes the next value chosen will be the next highest "
 "power-of-two."
+msgstr ""
+
+msgid ""
+":meth:`~Enum._add_alias_` -- adds a new name as an alias to an existing "
+"member."
+msgstr ""
+
+msgid ""
+":meth:`~Enum._add_value_alias_` -- adds a new value as an alias to an "
+"existing member."
 msgstr ""
 
 msgid ""

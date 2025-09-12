@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -49,6 +49,9 @@ msgid "The multiplier used for the imaginary part of a complex number."
 msgstr ""
 
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
+msgstr ""
+
+msgid "Hash function."
 msgstr ""
 
 msgid "Hash function name (UTF-8 encoded string)."
