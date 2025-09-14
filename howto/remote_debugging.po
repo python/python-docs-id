@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -19,6 +19,112 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Remote debugging attachment protocol"
+msgstr ""
+
+msgid ""
+"This protocol enables external tools to attach to a running CPython process "
+"and execute Python code remotely."
+msgstr ""
+
+msgid ""
+"Most platforms require elevated privileges to attach to another Python "
+"process."
+msgstr ""
+
+msgid "Permission requirements"
+msgstr ""
+
+msgid ""
+"Attaching to a running Python process for remote debugging requires elevated "
+"privileges on most platforms. The specific requirements and troubleshooting "
+"steps depend on your operating system:"
+msgstr ""
+
+msgid "Linux"
+msgstr ""
+
+msgid ""
+"The tracer process must have the ``CAP_SYS_PTRACE`` capability or equivalent "
+"privileges. You can only trace processes you own and can signal. Tracing may "
+"fail if the process is already being traced, or if it is running with set-"
+"user-ID or set-group-ID. Security modules like Yama may further restrict "
+"tracing."
+msgstr ""
+
+msgid "To temporarily relax ptrace restrictions (until reboot), run:"
+msgstr ""
+
+msgid "``echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope``"
+msgstr ""
+
+msgid ""
+"Disabling ``ptrace_scope`` reduces system hardening and should only be done "
+"in trusted environments."
+msgstr ""
+
+msgid ""
+"If running inside a container, use ``--cap-add=SYS_PTRACE`` or ``--"
+"privileged``, and run as root if needed."
+msgstr ""
+
+msgid "Try re-running the command with elevated privileges:"
+msgstr ""
+
+msgid "``sudo -E !!``"
+msgstr ""
+
+msgid "macOS"
+msgstr ""
+
+msgid ""
+"To attach to another process, you typically need to run your debugging tool "
+"with elevated privileges. This can be done by using ``sudo`` or running as "
+"root."
+msgstr ""
+
+msgid ""
+"Even when attaching to processes you own, macOS may block debugging unless "
+"the debugger is run with root privileges due to system security restrictions."
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid ""
+"To attach to another process, you usually need to run your debugging tool "
+"with administrative privileges. Start the command prompt or terminal as "
+"Administrator."
+msgstr ""
+
+msgid ""
+"Some processes may still be inaccessible even with Administrator rights, "
+"unless you have the ``SeDebugPrivilege`` privilege enabled."
+msgstr ""
+
+msgid ""
+"To resolve file or folder access issues, adjust the security permissions:"
+msgstr ""
+
+msgid "Right-click the file or folder and select **Properties**."
+msgstr ""
+
+msgid "Go to the **Security** tab to view users and groups with access."
+msgstr ""
+
+msgid "Click **Edit** to modify permissions."
+msgstr ""
+
+msgid "Select your user account."
+msgstr ""
+
+msgid "In **Permissions**, check **Read** or **Full control** as needed."
+msgstr ""
+
+msgid "Click **Apply**, then **OK** to confirm."
+msgstr ""
+
+msgid ""
+"Ensure you've satisfied all :ref:`permission-requirements` before proceeding."
 msgstr ""
 
 msgid ""
