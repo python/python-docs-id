@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -26,7 +26,7 @@ msgid "Exceptions"
 msgstr "Pengecualian"
 
 msgid "**Source code:** :source:`Lib/asyncio/exceptions.py`"
-msgstr ""
+msgstr "**Kod źródłowy:** :source:`Lib/asyncio/exceptions.py`"
 
 msgid ""
 "A deprecated alias of :exc:`TimeoutError`, raised when the operation has "
@@ -37,12 +37,15 @@ msgid "This class was made an alias of :exc:`TimeoutError`."
 msgstr ""
 
 msgid "The operation has been cancelled."
-msgstr ""
+msgstr "Операцію скасовано."
 
 msgid ""
 "This exception can be caught to perform custom operations when asyncio Tasks "
 "are cancelled.  In almost all situations the exception must be re-raised."
 msgstr ""
+"Цей виняток можна перехопити для виконання спеціальних операцій, коли "
+"асинхронні завдання скасовуються. Майже в усіх ситуаціях виняток потрібно "
+"підняти повторно."
 
 msgid ""
 ":exc:`CancelledError` is now a subclass of :class:`BaseException` rather "
@@ -50,40 +53,43 @@ msgid ""
 msgstr ""
 
 msgid "Invalid internal state of :class:`Task` or :class:`Future`."
-msgstr ""
+msgstr "Недійсний внутрішній стан :class:`Task` або :class:`Future`."
 
 msgid ""
 "Can be raised in situations like setting a result value for a *Future* "
 "object that already has a result value set."
 msgstr ""
+"Може бути викликано в таких ситуаціях, як встановлення значення результату "
+"для об’єкта *Future*, для якого вже встановлено значення результату."
 
 msgid ""
 "The \"sendfile\" syscall is not available for the given socket or file type."
 msgstr ""
+"Системний виклик \"sendfile\" недоступний для даного сокета або типу файлу."
 
 msgid "A subclass of :exc:`RuntimeError`."
-msgstr ""
+msgstr "Підклас :exc:`RuntimeError`."
 
 msgid "The requested read operation did not complete fully."
-msgstr ""
+msgstr "Запитана операція читання не завершена повністю."
 
 msgid "Raised by the :ref:`asyncio stream APIs<asyncio-streams>`."
-msgstr ""
+msgstr "Створено :ref:`asyncio stream API <asyncio-streams>`."
 
 msgid "This exception is a subclass of :exc:`EOFError`."
-msgstr ""
+msgstr "Цей виняток є підкласом :exc:`EOFError`."
 
 msgid "The total number (:class:`int`) of expected bytes."
-msgstr ""
+msgstr "Загальна кількість (:class:`int`) очікуваних байтів."
 
 msgid "A string of :class:`bytes` read before the end of stream was reached."
-msgstr ""
+msgstr "Рядок із :class:`bytes` прочитано до кінця потоку."
 
 msgid "Reached the buffer size limit while looking for a separator."
-msgstr ""
+msgstr "Досягнуто обмеження розміру буфера під час пошуку роздільника."
 
 msgid "Raised by the :ref:`asyncio stream APIs <asyncio-streams>`."
-msgstr ""
+msgstr "Створено :ref:`asyncio stream API <asyncio-streams>`."
 
 msgid "The total number of to be consumed bytes."
-msgstr ""
+msgstr "Загальна кількість спожитих байтів."

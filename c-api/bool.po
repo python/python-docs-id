@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -61,10 +62,10 @@ msgid ":c:data:`Py_True` is :term:`immortal`."
 msgstr ""
 
 msgid "Return :c:data:`Py_False` from a function."
-msgstr ""
+msgstr "Mengembalikan :c:data:`Py_False` dari sebuah fungsi."
 
 msgid "Return :c:data:`Py_True` from a function."
-msgstr ""
+msgstr "Mengembalikan :c:data:`Py_True` dari sebuah fungsi."
 
 msgid ""
 "Return :c:data:`Py_True` or :c:data:`Py_False`, depending on the truth value "

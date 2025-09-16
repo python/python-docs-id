@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Policies"
-msgstr ""
+msgstr "політики"
 
 msgid ""
 "Policies are deprecated and will be removed in Python 3.16. Users are "
@@ -51,17 +55,21 @@ msgid ""
 "Policy objects should implement the APIs defined in the :class:"
 "`AbstractEventLoopPolicy` abstract base class."
 msgstr ""
+"Об’єкти політики мають реалізовувати API, визначені в :class:"
+"`AbstractEventLoopPolicy` абстрактному базовому класі."
 
 msgid "Getting and Setting the Policy"
-msgstr ""
+msgstr "Отримання та налаштування політики"
 
 msgid ""
 "The following functions can be used to get and set the policy for the "
 "current process:"
 msgstr ""
+"Наступні функції можна використовувати для отримання та налаштування "
+"політики для поточного процесу:"
 
 msgid "Return the current process-wide policy."
-msgstr ""
+msgstr "Повернути поточну політику для всього процесу."
 
 msgid ""
 "The :func:`get_event_loop_policy` function is deprecated and will be removed "
@@ -69,10 +77,12 @@ msgid ""
 msgstr ""
 
 msgid "Set the current process-wide policy to *policy*."
-msgstr ""
+msgstr "Установіть поточну політику для всього процесу на *policy*."
 
 msgid "If *policy* is set to ``None``, the default policy is restored."
 msgstr ""
+"Якщо *policy* встановлено на ``None``, політика за замовчуванням буде "
+"відновлена."
 
 msgid ""
 "The :func:`set_event_loop_policy` function is deprecated and will be removed "
@@ -80,30 +90,33 @@ msgid ""
 msgstr ""
 
 msgid "Policy Objects"
-msgstr ""
+msgstr "Об'єкти політики"
 
 msgid "The abstract event loop policy base class is defined as follows:"
 msgstr ""
+"Базовий клас політики абстрактного циклу подій визначається наступним чином:"
 
 msgid "An abstract base class for asyncio policies."
-msgstr ""
+msgstr "Абстрактний базовий клас для асинхронних політик."
 
 msgid "Get the event loop for the current context."
-msgstr ""
+msgstr "Отримати цикл подій для поточного контексту."
 
 msgid ""
 "Return an event loop object implementing the :class:`AbstractEventLoop` "
 "interface."
 msgstr ""
+"Повертає об’єкт циклу подій, що реалізує інтерфейс :class:"
+"`AbstractEventLoop`."
 
 msgid "This method should never return ``None``."
-msgstr ""
+msgstr "Цей метод ніколи не повинен повертати ``None``."
 
 msgid "Set the event loop for the current context to *loop*."
-msgstr ""
+msgstr "Встановіть для циклу подій для поточного контексту значення *loop*."
 
 msgid "Create and return a new event loop object."
-msgstr ""
+msgstr "Створити та повернути новий об’єкт циклу подій."
 
 msgid ""
 "The :class:`AbstractEventLoopPolicy` class is deprecated and will be removed "
@@ -111,20 +124,25 @@ msgid ""
 msgstr ""
 
 msgid "asyncio ships with the following built-in policies:"
-msgstr ""
+msgstr "asyncio поставляється з такими вбудованими політиками:"
 
 msgid ""
 "The default asyncio policy.  Uses :class:`SelectorEventLoop` on Unix and :"
 "class:`ProactorEventLoop` on Windows."
 msgstr ""
+"Стандартна асинхронна політика. Використовує :class:`SelectorEventLoop` в "
+"Unix і :class:`ProactorEventLoop` у Windows."
 
 msgid ""
 "There is no need to install the default policy manually. asyncio is "
 "configured to use the default policy automatically."
 msgstr ""
+"Немає необхідності встановлювати стандартну політику вручну. asyncio "
+"налаштовано на автоматичне використання політики за замовчуванням."
 
 msgid "On Windows, :class:`ProactorEventLoop` is now used by default."
 msgstr ""
+"У Windows :class:`ProactorEventLoop` тепер використовується за замовчуванням."
 
 msgid ""
 "The :meth:`get_event_loop` method of the default asyncio policy now raises "
@@ -140,6 +158,8 @@ msgid ""
 "An alternative event loop policy that uses the :class:`SelectorEventLoop` "
 "event loop implementation."
 msgstr ""
+"Альтернативна політика циклу подій, яка використовує реалізацію циклу подій :"
+"class:`SelectorEventLoop`."
 
 msgid "Availability"
 msgstr ""
@@ -153,6 +173,8 @@ msgid ""
 "An alternative event loop policy that uses the :class:`ProactorEventLoop` "
 "event loop implementation."
 msgstr ""
+"Альтернативна політика циклу подій, яка використовує реалізацію циклу подій :"
+"class:`ProactorEventLoop`."
 
 msgid ""
 "The :class:`WindowsProactorEventLoopPolicy` class is deprecated and will be "
@@ -160,13 +182,16 @@ msgid ""
 msgstr ""
 
 msgid "Custom Policies"
-msgstr ""
+msgstr "Спеціальна політика"
 
 msgid ""
 "To implement a new event loop policy, it is recommended to subclass :class:"
 "`DefaultEventLoopPolicy` and override the methods for which custom behavior "
 "is wanted, e.g.::"
 msgstr ""
+"Щоб запровадити нову політику циклу подій, рекомендується створити підклас :"
+"class:`DefaultEventLoopPolicy` і перевизначити методи, для яких потрібна "
+"спеціальна поведінка, наприклад::"
 
 msgid ""
 "class MyEventLoopPolicy(asyncio.DefaultEventLoopPolicy):\n"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -27,20 +27,24 @@ msgstr "Indeks API Tingkat-atas"
 
 msgid "This page lists all high-level async/await enabled asyncio APIs."
 msgstr ""
+"На цій сторінці перераховано всі асинхронні API високого рівня з підтримкою "
+"функції очікування."
 
 msgid "Tasks"
-msgstr ""
+msgstr "завдання"
 
 msgid ""
 "Utilities to run asyncio programs, create Tasks, and await on multiple "
 "things with timeouts."
 msgstr ""
+"Утиліти для запуску асинхронних програм, створення завдань і очікування "
+"кількох речей із тайм-аутом."
 
 msgid ":func:`run`"
 msgstr ":func:`run`"
 
 msgid "Create event loop, run a coroutine, close the loop."
-msgstr ""
+msgstr "Створіть цикл подій, запустіть співпрограму, закрийте цикл."
 
 msgid ":class:`Runner`"
 msgstr ""
@@ -52,7 +56,7 @@ msgid ":class:`Task`"
 msgstr ":class:`Task`"
 
 msgid "Task object."
-msgstr ""
+msgstr "Об'єкт завдання."
 
 msgid ":class:`TaskGroup`"
 msgstr ""
@@ -72,7 +76,7 @@ msgid ":func:`current_task`"
 msgstr ":func:`current_task`"
 
 msgid "Return the current Task."
-msgstr ""
+msgstr "Повернути поточне завдання."
 
 msgid ":func:`all_tasks`"
 msgstr ":func:`all_tasks`"
@@ -84,31 +88,31 @@ msgid "``await`` :func:`sleep`"
 msgstr "``await`` :func:`sleep`"
 
 msgid "Sleep for a number of seconds."
-msgstr ""
+msgstr "Поспати кілька секунд."
 
 msgid "``await`` :func:`gather`"
 msgstr "``await`` :func:`gather`"
 
 msgid "Schedule and wait for things concurrently."
-msgstr ""
+msgstr "Плануйте та чекайте подій одночасно."
 
 msgid "``await`` :func:`wait_for`"
 msgstr "``await`` :func:`wait_for`"
 
 msgid "Run with a timeout."
-msgstr ""
+msgstr "Запустити з тайм-аутом."
 
 msgid "``await`` :func:`shield`"
 msgstr "``await`` :func:`shield`"
 
 msgid "Shield from cancellation."
-msgstr ""
+msgstr "Щит від скасування."
 
 msgid "``await`` :func:`wait`"
 msgstr "``await`` :func:`wait`"
 
 msgid "Monitor for completion."
-msgstr ""
+msgstr "Монітор для завершення."
 
 msgid ":func:`timeout`"
 msgstr ""
@@ -117,7 +121,7 @@ msgid "Run with a timeout. Useful in cases when ``wait_for`` is not suitable."
 msgstr ""
 
 msgid ":func:`to_thread`"
-msgstr ""
+msgstr ":func:`to_thread`"
 
 msgid "Asynchronously run a function in a separate OS thread."
 msgstr ""
@@ -126,13 +130,13 @@ msgid ":func:`run_coroutine_threadsafe`"
 msgstr ":func:`run_coroutine_threadsafe`"
 
 msgid "Schedule a coroutine from another OS thread."
-msgstr ""
+msgstr "Заплануйте співпрограму з іншого потоку ОС."
 
 msgid "``for in`` :func:`as_completed`"
 msgstr "``for in`` :func:`as_completed`"
 
 msgid "Monitor for completion with a ``for`` loop."
-msgstr ""
+msgstr "Контроль завершення за допомогою циклу ``for``."
 
 msgid "Examples"
 msgstr "Contoh-contoh"
@@ -141,162 +145,174 @@ msgid ""
 ":ref:`Using asyncio.gather() to run things in parallel "
 "<asyncio_example_gather>`."
 msgstr ""
+":ref:`Використання asyncio.gather() для паралельного запуску "
+"<asyncio_example_gather>`."
 
 msgid ""
 ":ref:`Using asyncio.wait_for() to enforce a timeout "
 "<asyncio_example_waitfor>`."
 msgstr ""
+":ref:`Використання asyncio.wait_for() для застосування тайм-ауту "
+"<asyncio_example_waitfor>`."
 
 msgid ":ref:`Cancellation <asyncio_example_task_cancel>`."
-msgstr ""
+msgstr ":ref:`Скасування <asyncio_example_task_cancel>`."
 
 msgid ":ref:`Using asyncio.sleep() <asyncio_example_sleep>`."
-msgstr ""
+msgstr ":ref:`Використання asyncio.sleep() <asyncio_example_sleep>`."
 
 msgid "See also the main :ref:`Tasks documentation page <coroutine>`."
 msgstr ""
+"Дивіться також головну :ref:`сторінку документації завдань <coroutine>`."
 
 msgid "Queues"
-msgstr ""
+msgstr "Черги"
 
 msgid ""
 "Queues should be used to distribute work amongst multiple asyncio Tasks, "
 "implement connection pools, and pub/sub patterns."
 msgstr ""
+"Черги слід використовувати для розподілу роботи між декількома асинхронними "
+"завданнями, впровадження пулів підключень і шаблонів pub/sub."
 
 msgid ":class:`Queue`"
 msgstr ":class:`Queue`"
 
 msgid "A FIFO queue."
-msgstr ""
+msgstr "Черга FIFO."
 
 msgid ":class:`PriorityQueue`"
 msgstr ":class:`PriorityQueue`"
 
 msgid "A priority queue."
-msgstr ""
+msgstr "Пріоритетна черга."
 
 msgid ":class:`LifoQueue`"
 msgstr ":class:`LifoQueue`"
 
 msgid "A LIFO queue."
-msgstr ""
+msgstr "Черга LIFO."
 
 msgid ""
 ":ref:`Using asyncio.Queue to distribute workload between several Tasks "
 "<asyncio_example_queue_dist>`."
 msgstr ""
+":ref:`Використання asyncio.Queue для розподілу робочого навантаження між "
+"кількома завданнями <asyncio_example_queue_dist>`."
 
 msgid "See also the :ref:`Queues documentation page <asyncio-queues>`."
 msgstr ""
+"Дивіться також :ref:`сторінку документації про черги <asyncio-queues>`."
 
 msgid "Subprocesses"
-msgstr ""
+msgstr "Підпроцеси"
 
 msgid "Utilities to spawn subprocesses and run shell commands."
-msgstr ""
+msgstr "Утиліти для створення підпроцесів і виконання команд оболонки."
 
 msgid "``await`` :func:`create_subprocess_exec`"
 msgstr "``await`` :func:`create_subprocess_exec`"
 
 msgid "Create a subprocess."
-msgstr ""
+msgstr "Створіть підпроцес."
 
 msgid "``await`` :func:`create_subprocess_shell`"
 msgstr "``await`` :func:`create_subprocess_shell`"
 
 msgid "Run a shell command."
-msgstr ""
+msgstr "Виконайте команду оболонки."
 
 msgid ":ref:`Executing a shell command <asyncio_example_subprocess_shell>`."
 msgstr ":ref:`Executing a shell command <asyncio_example_subprocess_shell>`."
 
 msgid "See also the :ref:`subprocess APIs <asyncio-subprocess>` documentation."
 msgstr ""
+"Дивіться також документацію :ref:`API підпроцесів <asyncio-subprocess>`."
 
 msgid "Streams"
-msgstr ""
+msgstr "Потоки"
 
 msgid "High-level APIs to work with network IO."
-msgstr ""
+msgstr "API високого рівня для роботи з мережевим вводом-виводом."
 
 msgid "``await`` :func:`open_connection`"
 msgstr "``await`` :func:`open_connection`"
 
 msgid "Establish a TCP connection."
-msgstr ""
+msgstr "Встановіть з'єднання TCP."
 
 msgid "``await`` :func:`open_unix_connection`"
 msgstr "``await`` :func:`open_unix_connection`"
 
 msgid "Establish a Unix socket connection."
-msgstr ""
+msgstr "Встановіть підключення через сокет Unix."
 
 msgid "``await`` :func:`start_server`"
 msgstr "``await`` :func:`start_server`"
 
 msgid "Start a TCP server."
-msgstr ""
+msgstr "Запустіть сервер TCP."
 
 msgid "``await`` :func:`start_unix_server`"
 msgstr "``await`` :func:`start_unix_server`"
 
 msgid "Start a Unix socket server."
-msgstr ""
+msgstr "Запустіть сокет-сервер Unix."
 
 msgid ":class:`StreamReader`"
 msgstr ":class:`StreamReader`"
 
 msgid "High-level async/await object to receive network data."
-msgstr ""
+msgstr "Високорівневий об’єкт async/wait для отримання мережевих даних."
 
 msgid ":class:`StreamWriter`"
 msgstr ":class:`StreamWriter`"
 
 msgid "High-level async/await object to send network data."
-msgstr ""
+msgstr "Високорівневий об’єкт async/await для надсилання мережевих даних."
 
 msgid ":ref:`Example TCP client <asyncio_example_stream>`."
-msgstr ""
+msgstr ":ref:`Приклад TCP-клієнта <asyncio_example_stream>`."
 
 msgid "See also the :ref:`streams APIs <asyncio-streams>` documentation."
-msgstr ""
+msgstr "Дивіться також документацію :ref:`streams APIs <asyncio-streams>`."
 
 msgid "Synchronization"
-msgstr ""
+msgstr "Синхронізація"
 
 msgid "Threading-like synchronization primitives that can be used in Tasks."
 msgstr ""
+"Примітиви потокової синхронізації, які можна використовувати в Завданнях."
 
 msgid ":class:`Lock`"
 msgstr ":class:`Lock`"
 
 msgid "A mutex lock."
-msgstr ""
+msgstr "Блокування м'ютексу."
 
 msgid ":class:`Event`"
 msgstr ":class:`Event`"
 
 msgid "An event object."
-msgstr ""
+msgstr "Об'єкт події."
 
 msgid ":class:`Condition`"
 msgstr ":class:`Condition`"
 
 msgid "A condition object."
-msgstr ""
+msgstr "Об'єкт умови."
 
 msgid ":class:`Semaphore`"
 msgstr ":class:`Semaphore`"
 
 msgid "A semaphore."
-msgstr ""
+msgstr "Семафор."
 
 msgid ":class:`BoundedSemaphore`"
 msgstr ":class:`BoundedSemaphore`"
 
 msgid "A bounded semaphore."
-msgstr ""
+msgstr "Обмежений семафор."
 
 msgid ":class:`Barrier`"
 msgstr ""
@@ -305,7 +321,7 @@ msgid "A barrier object."
 msgstr ""
 
 msgid ":ref:`Using asyncio.Event <asyncio_example_sync_event>`."
-msgstr ""
+msgstr ":ref:`Використання asyncio.Event <asyncio_example_sync_event>`."
 
 msgid ":ref:`Using asyncio.Barrier <asyncio_example_barrier>`."
 msgstr ""
@@ -314,6 +330,8 @@ msgid ""
 "See also the documentation of asyncio :ref:`synchronization primitives "
 "<asyncio-sync>`."
 msgstr ""
+"Дивіться також документацію asyncio :ref:`примітивів синхронізації <asyncio-"
+"sync>`."
 
 msgid "Exceptions"
 msgstr "Pengecualian"
@@ -323,6 +341,7 @@ msgstr ":exc:`asyncio.CancelledError`"
 
 msgid "Raised when a Task is cancelled. See also :meth:`Task.cancel`."
 msgstr ""
+"Піднімається, коли завдання скасовано. Дивіться також :meth:`Task.cancel`."
 
 msgid ":exc:`asyncio.BrokenBarrierError`"
 msgstr ""
@@ -334,8 +353,12 @@ msgid ""
 ":ref:`Handling CancelledError to run code on cancellation request "
 "<asyncio_example_task_cancel>`."
 msgstr ""
+":ref:`Обробка CancelledError для запуску коду запиту на скасування "
+"<asyncio_example_task_cancel>`."
 
 msgid ""
 "See also the full list of :ref:`asyncio-specific exceptions <asyncio-"
 "exceptions>`."
 msgstr ""
+"Дивіться також повний список :ref:`специфічних винятків asyncio <asyncio-"
+"exceptions>`."

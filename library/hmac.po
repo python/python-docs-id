@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -110,13 +114,13 @@ msgid ""
 msgstr ""
 
 msgid "A hash object has the following attributes:"
-msgstr ""
+msgstr "Хеш-об’єкт має такі атрибути:"
 
 msgid "The size of the resulting HMAC digest in bytes."
 msgstr ""
 
 msgid "The internal block size of the hash algorithm in bytes."
-msgstr ""
+msgstr "Розмір внутрішнього блоку хеш-алгоритму в байтах."
 
 msgid "The canonical name of this HMAC, always lowercase, e.g. ``hmac-md5``."
 msgstr ""

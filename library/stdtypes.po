@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Hengky Kurniawan, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1843,7 +1844,7 @@ msgid ""
 msgstr ""
 
 msgid "Category"
-msgstr ""
+msgstr "Категорія"
 
 msgid ":class:`str` methods"
 msgstr ""
@@ -3527,7 +3528,7 @@ msgid ""
 msgstr ""
 
 msgid "Bytes Objects"
-msgstr ""
+msgstr "Bayt Nesneleri"
 
 msgid ""
 "Bytes objects are immutable sequences of single bytes. Since many major "
@@ -7073,7 +7074,7 @@ msgid "protocol"
 msgstr ""
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid "sequence"
 msgstr "urutan"
@@ -7109,7 +7110,7 @@ msgid "subscript"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"
 
 msgid "loop"
 msgstr ""
@@ -7124,16 +7125,16 @@ msgid "loop over"
 msgstr ""
 
 msgid "immutable"
-msgstr ""
+msgstr "незмінний"
 
 msgid "tuple"
-msgstr ""
+msgstr "tupel"
 
 msgid "hash"
 msgstr ""
 
 msgid "mutable"
-msgstr ""
+msgstr "мінливий"
 
 msgid "list"
 msgstr "list"
@@ -7181,7 +7182,7 @@ msgid "re"
 msgstr "re"
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "str.splitlines method"
 msgstr ""
@@ -7259,7 +7260,7 @@ msgid "# (hash)"
 msgstr ""
 
 msgid "space"
-msgstr ""
+msgstr "простір"
 
 msgid "binary sequence types"
 msgstr ""
@@ -7331,13 +7332,13 @@ msgid "union"
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "code"
 msgstr "code"
 
 msgid "code object"
-msgstr ""
+msgstr "objek kode"
 
 msgid "compile"
 msgstr ""

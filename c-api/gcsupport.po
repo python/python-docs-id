@@ -5,15 +5,17 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
+# Fried Rice, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Fried Rice, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -109,6 +111,9 @@ msgid ""
 "`PyType_GenericAlloc` is preferred over a custom function that simply calls "
 "this macro."
 msgstr ""
+"Ketika mengisi slot tipe :c:member:`~PyTypeObject.tp_alloc` , :c:func:"
+"`PyType_GenericAlloc` lebih direkomendasikan daripada fungsi kustom yang "
+"hanya memanggil makro ini."
 
 msgid ""
 "Memory allocated by this macro must be freed with :c:func:`PyObject_GC_Del` "
@@ -122,7 +127,7 @@ msgid ":c:macro:`PyObject_New`"
 msgstr ""
 
 msgid ":c:func:`PyType_GenericAlloc`"
-msgstr ""
+msgstr ":c:func:`PyType_GenericAlloc`"
 
 msgid ":c:member:`~PyTypeObject.tp_alloc`"
 msgstr ":c:member:`~PyTypeObject.tp_alloc`"
@@ -225,10 +230,10 @@ msgid ":c:func:`PyObject_Free` is the non-GC equivalent of this function."
 msgstr ""
 
 msgid ":c:macro:`PyObject_GC_New`"
-msgstr ""
+msgstr ":c:macro:`PyObject_GC_New`"
 
 msgid ":c:macro:`PyObject_GC_NewVar`"
-msgstr ""
+msgstr ":c:macro:`PyObject_GC_NewVar`"
 
 msgid ":c:member:`~PyTypeObject.tp_free`"
 msgstr ":c:member:`~PyTypeObject.tp_free`"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -29,6 +29,8 @@ msgid ""
 "This module provides access to the Unix user account and password database.  "
 "It is available on all Unix versions."
 msgstr ""
+"Цей модуль забезпечує доступ до бази даних облікових записів користувачів і "
+"паролів Unix. Він доступний у всіх версіях Unix."
 
 msgid "Availability"
 msgstr ""
@@ -38,6 +40,9 @@ msgid ""
 "attributes correspond to the members of the ``passwd`` structure (Attribute "
 "field below, see ``<pwd.h>``):"
 msgstr ""
+"Записи бази даних паролів повідомляються як об’єкт, подібний до кортежу, "
+"атрибути якого відповідають членам структури ``passwd`` (поле атрибута "
+"нижче, див. ``<pwd.h>``):"
 
 msgid "Index"
 msgstr "Indeks"
@@ -52,7 +57,7 @@ msgid "0"
 msgstr "0"
 
 msgid "``pw_name``"
-msgstr ""
+msgstr "``pw_name``"
 
 msgid "Login name"
 msgstr "Nama *login*"
@@ -61,60 +66,62 @@ msgid "1"
 msgstr "1"
 
 msgid "``pw_passwd``"
-msgstr ""
+msgstr "``pw_passwd``"
 
 msgid "Optional encrypted password"
-msgstr ""
+msgstr "Додатковий зашифрований пароль"
 
 msgid "2"
 msgstr "2"
 
 msgid "``pw_uid``"
-msgstr ""
+msgstr "``pw_uid``"
 
 msgid "Numerical user ID"
-msgstr ""
+msgstr "Числовий ідентифікатор користувача"
 
 msgid "3"
 msgstr "3"
 
 msgid "``pw_gid``"
-msgstr ""
+msgstr "``pw_gid``"
 
 msgid "Numerical group ID"
-msgstr ""
+msgstr "Ідентифікатор числової групи"
 
 msgid "4"
 msgstr "4"
 
 msgid "``pw_gecos``"
-msgstr ""
+msgstr "``pw_gecos``"
 
 msgid "User name or comment field"
-msgstr ""
+msgstr "Ім'я користувача або поле коментаря"
 
 msgid "5"
 msgstr "5"
 
 msgid "``pw_dir``"
-msgstr ""
+msgstr "``pw_dir``"
 
 msgid "User home directory"
-msgstr ""
+msgstr "Домашній каталог користувача"
 
 msgid "6"
 msgstr "6"
 
 msgid "``pw_shell``"
-msgstr ""
+msgstr "``pw_shell``"
 
 msgid "User command interpreter"
-msgstr ""
+msgstr "Інтерпретатор команд користувача"
 
 msgid ""
 "The uid and gid items are integers, all others are strings. :exc:`KeyError` "
 "is raised if the entry asked for cannot be found."
 msgstr ""
+"Елементи uid і gid є цілими числами, всі інші є рядками. :exc:`KeyError` "
+"виникає, якщо запитуваний запис не знайдено."
 
 msgid ""
 "In traditional Unix the field ``pw_passwd`` usually contains a password "
@@ -127,20 +134,24 @@ msgid ""
 msgstr ""
 
 msgid "It defines the following items:"
-msgstr ""
+msgstr "Він визначає такі пункти:"
 
 msgid "Return the password database entry for the given numeric user ID."
 msgstr ""
+"Повернути запис бази даних паролів для вказаного числового ідентифікатора "
+"користувача."
 
 msgid "Return the password database entry for the given user name."
-msgstr ""
+msgstr "Повернути запис бази даних паролів для вказаного імені користувача."
 
 msgid ""
 "Return a list of all available password database entries, in arbitrary order."
 msgstr ""
+"Повертає список усіх доступних записів бази даних паролів у довільному "
+"порядку."
 
 msgid "Module :mod:`grp`"
 msgstr "Modul :mod:`grp`"
 
 msgid "An interface to the group database, similar to this."
-msgstr ""
+msgstr "Подібний до цього інтерфейс до бази даних групи."
