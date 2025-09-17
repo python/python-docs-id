@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Fried Rice, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: Fried Rice, 2025\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -174,7 +173,7 @@ msgid "Returns ``-1`` on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 msgid "Use :meth:`~object.__index__` if available."
-msgstr "Gunakan :meth:`~object.__index__` jika tersedia."
+msgstr ""
 
 msgid "This function will no longer use :meth:`~object.__int__`."
 msgstr ""

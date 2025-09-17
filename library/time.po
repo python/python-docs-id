@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -525,7 +525,7 @@ msgid "``%c``"
 msgstr "``%c``"
 
 msgid "Locale's appropriate date and time representation."
-msgstr "Відповідне представлення дати та часу в локалі."
+msgstr ""
 
 msgid "``%d``"
 msgstr "``%d``"
@@ -579,7 +579,7 @@ msgid "``%p``"
 msgstr "``%p``"
 
 msgid "Locale's equivalent of either AM or PM."
-msgstr "Локальний еквівалент AM або PM."
+msgstr ""
 
 msgid "\\(2)"
 msgstr "\\(2)"
@@ -630,13 +630,13 @@ msgid "``%x``"
 msgstr "``%x``"
 
 msgid "Locale's appropriate date representation."
-msgstr "Відповідне представлення дати в локалі."
+msgstr ""
 
 msgid "``%X``"
 msgstr "``%X``"
 
 msgid "Locale's appropriate time representation."
-msgstr "Відповідне представлення часу локалі."
+msgstr ""
 
 msgid "``%y``"
 msgstr "``%y``"
@@ -648,7 +648,7 @@ msgid "``%Y``"
 msgstr "``%Y``"
 
 msgid "Year with century as a decimal number."
-msgstr "Рік із століттям як десяткове число."
+msgstr ""
 
 msgid "``%z``"
 msgstr "``%z``"
@@ -687,7 +687,7 @@ msgid "``%%``"
 msgstr "``%%``"
 
 msgid "A literal ``'%'`` character."
-msgstr "Буквальний символ ``'%''``."
+msgstr ""
 
 msgid "Notes:"
 msgstr "Catatan:"

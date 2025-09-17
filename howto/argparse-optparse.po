@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -31,24 +27,22 @@ msgid ""
 msgstr ""
 
 msgid "Handling positional arguments."
-msgstr "Обробка позиційних аргументів."
+msgstr ""
 
 msgid "Supporting subcommands."
 msgstr ""
 
 msgid "Allowing alternative option prefixes like ``+`` and ``/``."
-msgstr "Дозволяє альтернативні префікси параметрів, наприклад ``+`` і ``/``."
+msgstr ""
 
 msgid "Handling zero-or-more and one-or-more style arguments."
-msgstr "Обробка нуля або більше та одного або кількох аргументів стилю."
+msgstr ""
 
 msgid "Producing more informative usage messages."
-msgstr "Створення більш інформативних повідомлень про використання."
+msgstr ""
 
 msgid "Providing a much simpler interface for custom ``type`` and ``action``."
 msgstr ""
-"Забезпечення набагато простішого інтерфейсу для користувацького ``типу`` і "
-"``дії``."
 
 msgid ""
 "Originally, the :mod:`argparse` module attempted to maintain compatibility "
@@ -80,8 +74,6 @@ msgid ""
 "Replace all :meth:`optparse.OptionParser.add_option` calls with :meth:"
 "`ArgumentParser.add_argument` calls."
 msgstr ""
-"Замініть усі виклики :meth:`optparse.OptionParser.add_option` на виклики :"
-"meth:`ArgumentParser.add_argument`."
 
 msgid ""
 "Replace ``(options, args) = parser.parse_args()`` with ``args = parser."
@@ -89,55 +81,36 @@ msgid ""
 "for the positional arguments. Keep in mind that what was previously called "
 "``options``, now in the :mod:`argparse` context is called ``args``."
 msgstr ""
-"Замініть ``(options, args) = parser.parse_args()`` на ``args = parser."
-"parse_args()`` і додайте додаткові виклики :meth:`ArgumentParser."
-"add_argument` для позиційних аргументів. Майте на увазі, що те, що раніше "
-"називалося ``options``, тепер у контексті :mod:`argparse` називається "
-"``args``."
 
 msgid ""
 "Replace :meth:`optparse.OptionParser.disable_interspersed_args` by using :"
 "meth:`~ArgumentParser.parse_intermixed_args` instead of :meth:"
 "`~ArgumentParser.parse_args`."
 msgstr ""
-"Замініть :meth:`optparse.OptionParser.disable_interspersed_args` на "
-"використання :meth:`~ArgumentParser.parse_intermixed_args` замість :meth:"
-"`~ArgumentParser.parse_args`."
 
 msgid ""
 "Replace callback actions and the ``callback_*`` keyword arguments with "
 "``type`` or ``action`` arguments."
 msgstr ""
-"Замініть дії зворотного виклику та аргументи ключового слова ``callback_*`` "
-"на аргументи ``type`` або ``action``."
 
 msgid ""
 "Replace string names for ``type`` keyword arguments with the corresponding "
 "type objects (e.g. int, float, complex, etc)."
 msgstr ""
-"Замініть назви рядків для ключових аргументів ``type`` відповідними "
-"об’єктами типу (наприклад, int, float, complex тощо)."
 
 msgid ""
 "Replace :class:`optparse.Values` with :class:`Namespace` and :exc:`optparse."
 "OptionError` and :exc:`optparse.OptionValueError` with :exc:`ArgumentError`."
 msgstr ""
-"Замініть :class:`optparse.Values` на :class:`Namespace` і :exc:`optparse."
-"OptionError` і :exc:`optparse.OptionValueError` на :exc:`ArgumentError`."
 
 msgid ""
 "Replace strings with implicit arguments such as ``%default`` or ``%prog`` "
 "with the standard Python syntax to use dictionaries to format strings, that "
 "is, ``%(default)s`` and ``%(prog)s``."
 msgstr ""
-"Замініть рядки неявними аргументами, такими як ``%default`` або ``%prog`` "
-"стандартним синтаксисом Python, щоб використовувати словники для "
-"форматування рядків, тобто ``%(default)s`` і ``%(prog)s``."
 
 msgid ""
 "Replace the OptionParser constructor ``version`` argument with a call to "
 "``parser.add_argument('--version', action='version', version='<the "
 "version>')``."
 msgstr ""
-"Замініть аргумент ``version`` конструктора OptionParser на виклик ``parser."
-"add_argument('--version', action='version', version=' <the version> ')``."
