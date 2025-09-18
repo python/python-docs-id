@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 14:21+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -26,7 +26,7 @@ msgid "Memory Management"
 msgstr ""
 
 msgid "Overview"
-msgstr ""
+msgstr "Skorowidz"
 
 msgid ""
 "Memory management in Python involves a private heap containing all Python "
@@ -335,19 +335,19 @@ msgid "``PyMem_MALLOC(size)``"
 msgstr "``PyMem_MALLOC(size)``"
 
 msgid "``PyMem_NEW(type, size)``"
-msgstr ""
+msgstr "``PyMem_NEW(type, size)``"
 
 msgid "``PyMem_REALLOC(ptr, size)``"
-msgstr ""
+msgstr "``PyMem_REALLOC(ptr, size)``"
 
 msgid "``PyMem_RESIZE(ptr, type, size)``"
 msgstr ""
 
 msgid "``PyMem_FREE(ptr)``"
-msgstr ""
+msgstr "``PyMem_FREE(ptr)``"
 
 msgid "``PyMem_DEL(ptr)``"
-msgstr ""
+msgstr "``PyMem_DEL(ptr)``"
 
 msgid "Object allocators"
 msgstr ""
@@ -431,7 +431,7 @@ msgid ":c:macro:`PyObject_NewVar`"
 msgstr ""
 
 msgid ":c:func:`PyType_GenericAlloc`"
-msgstr ""
+msgstr ":c:func:`PyType_GenericAlloc`"
 
 msgid ":c:member:`~PyTypeObject.tp_free`"
 msgstr ":c:member:`~PyTypeObject.tp_free`"
@@ -443,37 +443,37 @@ msgid "Default memory allocators:"
 msgstr ""
 
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracja"
 
 msgid "Name"
 msgstr "Nama"
 
 msgid "PyMem_RawMalloc"
-msgstr ""
+msgstr "PyMem_RawMalloc"
 
 msgid "PyMem_Malloc"
 msgstr "PyMem_Malloc"
 
 msgid "PyObject_Malloc"
-msgstr ""
+msgstr "PyObject_Malloc"
 
 msgid "Release build"
 msgstr ""
 
 msgid "``\"pymalloc\"``"
-msgstr ""
+msgstr "``\"pymalloc\"``"
 
 msgid "``malloc``"
-msgstr ""
+msgstr "``malloc``"
 
 msgid "``pymalloc``"
-msgstr ""
+msgstr "``pymalloc``"
 
 msgid "Debug build"
 msgstr ""
 
 msgid "``\"pymalloc_debug\"``"
-msgstr ""
+msgstr "``\"pymalloc_debug\"``"
 
 msgid "``malloc`` + debug"
 msgstr ""
@@ -485,13 +485,13 @@ msgid "Release build, without pymalloc"
 msgstr ""
 
 msgid "``\"malloc\"``"
-msgstr ""
+msgstr "``\"malloc\"``"
 
 msgid "Debug build, without pymalloc"
 msgstr ""
 
 msgid "``\"malloc_debug\"``"
-msgstr ""
+msgstr "``\"malloc_debug\"``"
 
 msgid "Legend:"
 msgstr ""
@@ -535,31 +535,31 @@ msgid "Meaning"
 msgstr "Artinya"
 
 msgid "``void *ctx``"
-msgstr ""
+msgstr "``void *ctx``"
 
 msgid "user context passed as first argument"
 msgstr ""
 
 msgid "``void* malloc(void *ctx, size_t size)``"
-msgstr ""
+msgstr "``void* malloc(void *ctx, size_t size)``"
 
 msgid "allocate a memory block"
 msgstr ""
 
 msgid "``void* calloc(void *ctx, size_t nelem, size_t elsize)``"
-msgstr ""
+msgstr "``void* calloc(void *ctx, size_t nelem, size_t elsize)``"
 
 msgid "allocate a memory block initialized with zeros"
 msgstr ""
 
 msgid "``void* realloc(void *ctx, void *ptr, size_t new_size)``"
-msgstr ""
+msgstr "``void* realloc(void *ctx, void *ptr, size_t new_size)``"
 
 msgid "allocate or resize a memory block"
 msgstr ""
 
 msgid "``void free(void *ctx, void *ptr)``"
-msgstr ""
+msgstr "``void free(void *ctx, void *ptr)``"
 
 msgid "free a memory block"
 msgstr ""
@@ -872,13 +872,13 @@ msgid ""
 msgstr ""
 
 msgid "``void* alloc(void *ctx, size_t size)``"
-msgstr ""
+msgstr "``void* alloc(void *ctx, size_t size)``"
 
 msgid "allocate an arena of size bytes"
 msgstr ""
 
 msgid "``void free(void *ctx, void *ptr, size_t size)``"
-msgstr ""
+msgstr "``void free(void *ctx, void *ptr, size_t size)``"
 
 msgid "free an arena"
 msgstr ""
@@ -900,7 +900,7 @@ msgid ""
 msgstr ""
 
 msgid "tracemalloc C API"
-msgstr ""
+msgstr "tracemalloc C API"
 
 msgid "Track an allocated memory block in the :mod:`tracemalloc` module."
 msgstr ""

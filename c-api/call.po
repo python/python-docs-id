@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 
 msgid "The Vectorcall Protocol"
-msgstr ""
+msgstr "Protokol Vectorcall"
 
 msgid ""
 "The vectorcall protocol was introduced in :pep:`590` as an additional "
@@ -243,76 +243,76 @@ msgid "kwargs"
 msgstr "kwargs"
 
 msgid ":c:func:`PyObject_Call`"
-msgstr ""
+msgstr ":c:func:`PyObject_Call`"
 
 msgid "``PyObject *``"
-msgstr ""
+msgstr "``PyObject *``"
 
 msgid "tuple"
-msgstr ""
+msgstr "tupel"
 
 msgid "dict/``NULL``"
-msgstr ""
+msgstr "dict/``NULL``"
 
 msgid ":c:func:`PyObject_CallNoArgs`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallNoArgs`"
 
 msgid "---"
-msgstr ""
+msgstr "---"
 
 msgid ":c:func:`PyObject_CallOneArg`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallOneArg`"
 
 msgid "1 object"
 msgstr ""
 
 msgid ":c:func:`PyObject_CallObject`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallObject`"
 
 msgid "tuple/``NULL``"
-msgstr ""
+msgstr "tuple/``NULL``"
 
 msgid ":c:func:`PyObject_CallFunction`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallFunction`"
 
 msgid "format"
 msgstr "format"
 
 msgid ":c:func:`PyObject_CallMethod`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallMethod`"
 
 msgid "obj + ``char*``"
-msgstr ""
+msgstr "obj + ``char*``"
 
 msgid ":c:func:`PyObject_CallFunctionObjArgs`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallFunctionObjArgs`"
 
 msgid "variadic"
 msgstr ""
 
 msgid ":c:func:`PyObject_CallMethodObjArgs`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallMethodObjArgs`"
 
 msgid "obj + name"
 msgstr ""
 
 msgid ":c:func:`PyObject_CallMethodNoArgs`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallMethodNoArgs`"
 
 msgid ":c:func:`PyObject_CallMethodOneArg`"
-msgstr ""
+msgstr ":c:func:`PyObject_CallMethodOneArg`"
 
 msgid ":c:func:`PyObject_Vectorcall`"
-msgstr ""
+msgstr ":c:func:`PyObject_Vectorcall`"
 
 msgid "vectorcall"
 msgstr ""
 
 msgid ":c:func:`PyObject_VectorcallDict`"
-msgstr ""
+msgstr ":c:func:`PyObject_VectorcallDict`"
 
 msgid ":c:func:`PyObject_VectorcallMethod`"
-msgstr ""
+msgstr ":c:func:`PyObject_VectorcallMethod`"
 
 msgid "arg + name"
 msgstr ""

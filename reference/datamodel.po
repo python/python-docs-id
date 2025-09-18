@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -2457,7 +2457,7 @@ msgid ""
 msgstr ""
 
 msgid "__slots__"
-msgstr ""
+msgstr "__slots__"
 
 msgid ""
 "*__slots__* allow us to explicitly declare data members (like properties) "
@@ -4029,7 +4029,7 @@ msgid "Unicode"
 msgstr ""
 
 msgid "tuple"
-msgstr ""
+msgstr "tupel"
 
 msgid "singleton"
 msgstr ""
@@ -4152,7 +4152,7 @@ msgid "__type_params__ (function attribute)"
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "user-defined method"
 msgstr ""
@@ -4176,10 +4176,10 @@ msgid "generator"
 msgstr "pembangkit"
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid "coroutine"
-msgstr ""
+msgstr "coroutine"
 
 msgid "asynchronous generator"
 msgstr "pembangkit asinkron"
@@ -4323,7 +4323,7 @@ msgid "code"
 msgstr "code"
 
 msgid "code object"
-msgstr ""
+msgstr "objek kode"
 
 msgid "co_argcount (code object attribute)"
 msgstr ""
@@ -4545,7 +4545,7 @@ msgid "__class__ (module attribute)"
 msgstr ""
 
 msgid "metaclass"
-msgstr ""
+msgstr "metaklasa"
 
 msgid "= (equals)"
 msgstr ""

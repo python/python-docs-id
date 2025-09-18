@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Bytes Objects"
-msgstr ""
+msgstr "Bayt Nesneleri"
 
 msgid ""
 "These functions raise :exc:`TypeError` when expecting a bytes parameter and "
@@ -73,10 +73,10 @@ msgid "Format Characters"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Comment"
-msgstr ""
+msgstr "komentarz"
 
 msgid "``%%``"
 msgstr "``%%``"
@@ -133,7 +133,7 @@ msgid "``%zd``"
 msgstr ""
 
 msgid ":c:type:`\\ Py_ssize_t`"
-msgstr ""
+msgstr ":c:type:`\\ Py_ssize_t`"
 
 msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
 msgstr ""
@@ -142,7 +142,7 @@ msgid "``%zu``"
 msgstr ""
 
 msgid "size_t"
-msgstr ""
+msgstr "size_t"
 
 msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
 msgstr ""
@@ -163,7 +163,7 @@ msgid "``%s``"
 msgstr "``%s``"
 
 msgid "const char\\*"
-msgstr ""
+msgstr "const char\\*"
 
 msgid "A null-terminated C character array."
 msgstr ""
@@ -172,7 +172,7 @@ msgid "``%p``"
 msgstr "``%p``"
 
 msgid "const void\\*"
-msgstr ""
+msgstr "const void\\*"
 
 msgid ""
 "The hex representation of a C pointer. Mostly equivalent to "
@@ -204,7 +204,7 @@ msgid "Return the length of the bytes in bytes object *o*."
 msgstr ""
 
 msgid "Similar to :c:func:`PyBytes_Size`, but without error checking."
-msgstr ""
+msgstr "Mirip dengan :c:func:`PyBytes_Size` tapi tanpa pemeriksaan kesalahan."
 
 msgid ""
 "Return a pointer to the contents of *o*.  The pointer refers to the internal "

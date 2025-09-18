@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -507,7 +507,7 @@ msgid ""
 msgstr ""
 
 msgid "coroutine"
-msgstr ""
+msgstr "coroutine"
 
 msgid ""
 "Coroutines are a more generalized form of subroutines. Subroutines are "
@@ -1179,7 +1179,7 @@ msgid ""
 msgstr ""
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid ""
 "An object representing a stream of data.  Repeated calls to the iterator's :"
@@ -1240,7 +1240,7 @@ msgid "See :term:`argument`."
 msgstr "Lihat :term:`argument`."
 
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 msgid ""
 "An anonymous inline function consisting of a single :term:`expression` which "
@@ -1365,7 +1365,7 @@ msgid ""
 msgstr ""
 
 msgid "metaclass"
-msgstr ""
+msgstr "metaklasa"
 
 msgid ""
 "The class of a class.  Class definitions create a class name, a class "
@@ -1383,7 +1383,7 @@ msgid "More information can be found in :ref:`metaclasses`."
 msgstr "Informasi lebih lanjut dapat ditemukan di :ref:`metaclasses`."
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid ""
 "A function which is defined inside a class body.  If called as an attribute "
@@ -1859,7 +1859,7 @@ msgid ""
 msgstr ""
 
 msgid "__slots__"
-msgstr ""
+msgstr "__slots__"
 
 msgid ""
 "A declaration inside a class that saves memory by pre-declaring space for "
@@ -2176,7 +2176,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid ""
 "A manner of interpreting text streams in which all of the following are "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-09-17 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -4400,6 +4400,16 @@ msgid ""
 "`585` and :ref:`types-genericalias`."
 msgstr ""
 
+msgid ""
+"This type represents the types :class:`bytes`, :class:`bytearray`, and :"
+"class:`memoryview` of byte sequences."
+msgstr ""
+
+msgid ""
+"Prefer :class:`collections.abc.Buffer`, or a union like ``bytes | bytearray "
+"| memoryview``."
+msgstr ""
+
 msgid "Deprecated alias to :class:`collections.abc.Collection`."
 msgstr ""
 
@@ -4684,6 +4694,15 @@ msgid "Undecided (see :ref:`deprecated-aliases` for more information)"
 msgstr ""
 
 msgid ":pep:`585`"
+msgstr ""
+
+msgid ":class:`typing.ByteString`"
+msgstr ""
+
+msgid "3.17"
+msgstr ""
+
+msgid ":gh:`91896`"
 msgstr ""
 
 msgid ":data:`typing.Text`"
