@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -59,13 +60,13 @@ msgid "New built-in features:"
 msgstr "Fitur bawaan baru:"
 
 msgid ":pep:`616`, string methods to remove prefixes and suffixes."
-msgstr ":pep: `616`, metode string untuk menghapus prefiks dan sufiks."
+msgstr ":pep:`616`, metode string untuk menghapus prefiks dan sufiks."
 
 msgid "New features in the standard library:"
 msgstr "Fitur baru di pustaka standar:"
 
 msgid ":pep:`593`, flexible function and variable annotations;"
-msgstr ":pep: `593`, fungsi fleksibel dan penjelasan variabel;"
+msgstr ":pep:`593`, fungsi fleksibel dan penjelasan variabel;"
 
 msgid ""
 ":func:`os.pidfd_open` added that allows process management without races and "
@@ -80,14 +81,14 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`617`, CPython now uses a new parser based on PEG;"
-msgstr ":pep: `617`, CPython sekarang menggunakan parser baru berdasarkan PEG;"
+msgstr ":pep:`617`, CPython sekarang menggunakan parser baru berdasarkan PEG;"
 
 msgid ""
 "a number of Python builtins (range, tuple, set, frozenset, list, dict) are "
 "now sped up using :pep:`590` vectorcall;"
 msgstr ""
 "sejumlah bawaan Python (range, tuple, set, frozenset, list, dict) sekarang "
-"dipercepat menggunakan :pep: `590` vectorcall;"
+"dipercepat menggunakan :pep:`590` vectorcall;"
 
 msgid "garbage collection does not block on resurrected objects;"
 msgstr "pengumpulan sampah tidak memblokir objek yang dibangkitkan;"

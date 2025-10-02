@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Hengky Kurniawan, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -274,6 +278,18 @@ msgid ""
 ">>> one.error is two.error\n"
 "True"
 msgstr ""
+">>> import sys\n"
+">>> import _testsinglephase as one\n"
+">>> del sys.modules['_testsinglephase']\n"
+">>> import _testsinglephase as two\n"
+">>> one is two\n"
+"False\n"
+">>> one.__dict__ is two.__dict__\n"
+"False\n"
+">>> one.sum is two.sum\n"
+"True\n"
+">>> one.error is two.error\n"
+"True"
 
 msgid ""
 "The exact behavior should be considered a CPython implementation detail."

@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 14:21+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -254,19 +255,19 @@ msgid "Meaning"
 msgstr "Artinya"
 
 msgid ":py:data:`inspect.CO_OPTIMIZED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_OPTIMIZED`"
 
 msgid ":py:data:`inspect.CO_NEWLOCALS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NEWLOCALS`"
 
 msgid ":py:data:`inspect.CO_VARARGS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARARGS`"
 
 msgid ":py:data:`inspect.CO_VARKEYWORDS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARKEYWORDS`"
 
 msgid ":py:data:`inspect.CO_NESTED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NESTED`"
 
 msgid ":py:data:`inspect.CO_GENERATOR`"
 msgstr ":py:data:`inspect.CO_GENERATOR`"
@@ -281,16 +282,16 @@ msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
 msgstr ":py:data:`inspect.CO_ASYNC_GENERATOR`"
 
 msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_HAS_DOCSTRING`"
 
 msgid ":py:data:`inspect.CO_METHOD`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_METHOD`"
 
 msgid "no effect (:py:data:`__future__.division`)"
-msgstr ""
+msgstr "Tanpa efek (:py:data:`__future__.division`)"
 
 msgid "no effect (:py:data:`__future__.absolute_import`)"
-msgstr ""
+msgstr "Tanpa efek (:py:data:`__future__.absolute_import`)"
 
 msgid "no effect (:py:data:`__future__.with_statement`)"
 msgstr ""
@@ -305,7 +306,7 @@ msgid "no effect (:py:data:`__future__.generator_stop`)"
 msgstr ""
 
 msgid ":py:data:`__future__.annotations`"
-msgstr ""
+msgstr ":py:data:`__future__.annotations`"
 
 msgid "Extra information"
 msgstr ""

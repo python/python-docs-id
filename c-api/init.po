@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -154,10 +155,10 @@ msgid "Synchronization:"
 msgstr ""
 
 msgid ":c:func:`PyMutex_Lock`"
-msgstr ""
+msgstr ":c:func:`PyMutex_Lock`"
 
 msgid ":c:func:`PyMutex_Unlock`"
-msgstr ""
+msgstr ":c:func:`PyMutex_Unlock`"
 
 msgid ""
 "Despite their apparent similarity to some of the functions listed above, the "
@@ -1626,6 +1627,11 @@ msgstr ""
 msgid ""
 "This is not a replacement for :c:func:`PyModule_GetState()`, which "
 "extensions should use to store interpreter-specific state information."
+msgstr ""
+
+msgid ""
+"The returned dictionary is borrowed from the interpreter and is valid until "
+"interpreter shutdown."
 msgstr ""
 
 msgid "Type of a frame evaluation function."

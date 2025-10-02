@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 14:21+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +101,7 @@ msgid "``%d``"
 msgstr "``%d``"
 
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%d\")``. [1]_"
 
 msgid "``%u``"
 msgstr "``%u``"
@@ -109,55 +110,55 @@ msgid "unsigned int"
 msgstr "unsigned int"
 
 msgid "Equivalent to ``printf(\"%u\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%u\")``. [1]_"
 
 msgid "``%ld``"
-msgstr ""
+msgstr "``%ld``"
 
 msgid "long"
 msgstr "long"
 
 msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%ld\")``. [1]_"
 
 msgid "``%lu``"
-msgstr ""
+msgstr "``%lu``"
 
 msgid "unsigned long"
 msgstr "unsigned long"
 
 msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%lu\")``. [1]_"
 
 msgid "``%zd``"
-msgstr ""
+msgstr "``%zd``"
 
 msgid ":c:type:`\\ Py_ssize_t`"
 msgstr ":c:type:`\\ Py_ssize_t`"
 
 msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%zd\")``. [1]_"
 
 msgid "``%zu``"
-msgstr ""
+msgstr "``%zu``"
 
 msgid "size_t"
 msgstr "size_t"
 
 msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%zu\")``. [1]_"
 
 msgid "``%i``"
 msgstr "``%i``"
 
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%i\")``. [1]_"
 
 msgid "``%x``"
 msgstr "``%x``"
 
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
-msgstr ""
+msgstr "Ekuivalen dengan ``printf(\"%x\")``. [1]_"
 
 msgid "``%s``"
 msgstr "``%s``"

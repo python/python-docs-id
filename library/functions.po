@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 14:21+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -484,7 +485,7 @@ msgid "Without an argument, an array of size 0 is created."
 msgstr "Tanpa argumen, dibuat array berukuran 0."
 
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr "Lihat juga: ref:`binaryseq` dan :ref:` typebytearray`."
+msgstr "Lihat juga :ref:`binaryseq` dan :ref:`typebytearray`."
 
 msgid ""
 "Return a new \"bytes\" object which is an immutable sequence of integers in "
@@ -1349,8 +1350,8 @@ msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.id`` with argument "
 "``id``."
 msgstr ""
-"Memunculkan sebuah :ref:`auditing event` ``builtins.id`` dengan argumen "
-"``id``."
+"Memunculkan sebuah :ref:`auditing event <auditing>` ``builtins.id`` dengan "
+"argumen ``id``."
 
 msgid ""
 "If the *prompt* argument is present, it is written to standard output "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-29 14:15+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -982,10 +982,6 @@ msgid "Pushes ``co_consts[consti]`` onto the stack."
 msgstr ""
 
 msgid ""
-"Works as :opcode:`LOAD_CONST`, but is more efficient for immortal objects."
-msgstr ""
-
-msgid ""
 "Pushes the integer ``i`` onto the stack. ``i`` must be in ``range(256)``"
 msgstr ""
 
@@ -1435,7 +1431,7 @@ msgstr ""
 
 msgid ""
 "Pushes a ``NULL`` to the stack. Used in the call sequence to match the "
-"``NULL`` pushed by :opcode:`LOAD_METHOD` for non-method calls."
+"``NULL`` pushed by :opcode:`!LOAD_METHOD` for non-method calls."
 msgstr ""
 
 msgid ""
@@ -1808,6 +1804,10 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Works as :opcode:`LOAD_CONST`, but is more efficient for immortal objects."
+msgstr ""
+
+msgid ""
 "Undirected relative jump instructions which are replaced by their directed "
 "(forward/backward) counterparts by the assembler."
 msgstr ""
@@ -1827,11 +1827,6 @@ msgid ""
 msgstr ""
 
 msgid "This opcode is now a pseudo-instruction."
-msgstr ""
-
-msgid ""
-"Optimized unbound method lookup. Emitted as a ``LOAD_ATTR`` opcode with a "
-"flag set in the arg."
 msgstr ""
 
 msgid "Opcode collections"

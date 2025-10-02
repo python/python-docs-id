@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +125,7 @@ msgid "Print a traceback. Print only traceback if *obj* is ``NULL``."
 msgstr ""
 
 msgid "Use :func:`sys.unraisablehook`."
-msgstr ""
+msgstr "Gunakan :func:`sys.unraisablehook`."
 
 msgid ""
 "Similar to :c:func:`PyErr_WriteUnraisable`, but the *format* and subsequent "
@@ -820,7 +821,7 @@ msgid ""
 msgstr ""
 
 msgid ":attr:`UnicodeError.end`"
-msgstr ""
+msgstr ":attr:`UnicodeError.end`"
 
 msgid "Return the *reason* attribute of the given exception object."
 msgstr ""
@@ -1130,7 +1131,7 @@ msgid "Notes"
 msgstr "Catatan"
 
 msgid "[win]_"
-msgstr ""
+msgstr "[win]_"
 
 msgid "Notes:"
 msgstr "Catatan:"
@@ -1153,7 +1154,7 @@ msgid ":exc:`DeprecationWarning`"
 msgstr ":exc:`DeprecationWarning`"
 
 msgid ":exc:`EncodingWarning`"
-msgstr ""
+msgstr ":exc:`EncodingWarning`"
 
 msgid ":exc:`FutureWarning`"
 msgstr ":exc:`FutureWarning`"
@@ -1183,7 +1184,7 @@ msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ":c:data:`PyExc_ResourceWarning`."
 
 msgid ":c:data:`PyExc_EncodingWarning`."
-msgstr ""
+msgstr ":c:data:`PyExc_EncodingWarning`."
 
 msgid "strerror (C function)"
 msgstr ""
