@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 17:23+0000\n"
+"POT-Creation-Date: 2025-10-05 14:11+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -520,16 +520,7 @@ msgstr ""
 msgid "Examples of returned values:"
 msgstr ""
 
-msgid "linux-i586"
-msgstr ""
-
-msgid "linux-alpha (?)"
-msgstr ""
-
-msgid "solaris-2.6-sun4u"
-msgstr ""
-
-msgid "Windows will return one of:"
+msgid "Windows:"
 msgstr ""
 
 msgid "win-amd64 (64-bit Windows on AMD64, aka x86_64, Intel64, and EM64T)"
@@ -541,19 +532,19 @@ msgstr ""
 msgid "win32 (all others - specifically, sys.platform is returned)"
 msgstr ""
 
-msgid "macOS can return:"
+msgid "POSIX based OS:"
 msgstr ""
 
-msgid "macosx-10.6-ppc"
+msgid "linux-x86_64"
 msgstr ""
 
-msgid "macosx-10.4-ppc64"
+msgid "macosx-15.5-arm64"
 msgstr ""
 
-msgid "macosx-10.3-i386"
+msgid "macosx-26.0-universal2 (macOS on Apple Silicon or Intel)"
 msgstr ""
 
-msgid "macosx-10.4-fat"
+msgid "android-24-arm64_v8a"
 msgstr ""
 
 msgid ""

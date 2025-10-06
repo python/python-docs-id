@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 14:15+0000\n"
+"POT-Creation-Date: 2025-10-05 14:11+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -30,6 +30,12 @@ msgstr "Python next"
 
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid ":gh:`139573`: Updated bundled version of OpenSSL to 3.0.18."
+msgstr ""
 
 msgid "Tools/Demos"
 msgstr "Perkakas/Demo"
@@ -62,9 +68,6 @@ msgstr ""
 
 msgid "*Release date: 2025-09-18*"
 msgstr ""
-
-msgid "Windows"
-msgstr "Windows"
 
 msgid ""
 ":gh:`138896`: Fix error installing C runtime on non-updated Windows machines"
