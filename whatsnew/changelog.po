@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-07 14:17+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -31,11 +31,17 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
-msgid "Windows"
-msgstr "Windows"
+msgid "macOS"
+msgstr "macOS"
+
+msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.17."
+msgstr ""
 
 msgid ":gh:`139573`: Updated bundled version of OpenSSL to 3.0.18."
 msgstr ""
+
+msgid "Windows"
+msgstr "Windows"
 
 msgid "Tools/Demos"
 msgstr "Perkakas/Demo"
@@ -55,6 +61,16 @@ msgid ""
 ":gh:`138171`: A script for building an iOS XCframework was added. As part of "
 "this change, the top level ``iOS`` folder has been moved to be a "
 "subdirectory of the ``Apple`` folder."
+msgstr ""
+
+msgid "Security"
+msgstr "Keamanan"
+
+msgid ""
+":gh:`139400`: :mod:`xml.parsers.expat`: Make sure that parent Expat parsers "
+"are only garbage-collected once they are no longer referenced by subparsers "
+"created by :meth:`~xml.parsers.expat.xmlparser.ExternalEntityParserCreate`. "
+"Patch by Sebastian Pipping."
 msgstr ""
 
 msgid "Library"
@@ -78,9 +94,6 @@ msgid ""
 "that have been observed using the runner in GitHub Actions and Azure "
 "Pipelines test environments."
 msgstr ""
-
-msgid "Security"
-msgstr "Keamanan"
 
 msgid ""
 ":gh:`135661`: Fix CDATA section parsing in :class:`html.parser.HTMLParser` "
@@ -234,9 +247,6 @@ msgstr ""
 
 msgid "*Release date: 2025-08-14*"
 msgstr ""
-
-msgid "macOS"
-msgstr "macOS"
 
 msgid ""
 ":gh:`137450`: macOS installer shell path management improvements: separate "
