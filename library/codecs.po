@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-09 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1639,6 +1639,9 @@ msgstr "iso8859_4"
 msgid "iso-8859-4, latin4, L4"
 msgstr "iso-8859-4, latin4, L4"
 
+msgid "Northern Europe"
+msgstr ""
+
 msgid "iso8859_5"
 msgstr "iso8859_5"
 
@@ -2058,6 +2061,36 @@ msgid "Restoration of the binary transforms."
 msgstr ""
 
 msgid "Restoration of the aliases for the binary transforms."
+msgstr ""
+
+msgid "Standalone Codec Functions"
+msgstr ""
+
+msgid ""
+"The following functions provide encoding and decoding functionality similar "
+"to codecs, but are not available as named codecs through :func:`codecs."
+"encode` or :func:`codecs.decode`. They are used internally (for example, by :"
+"mod:`pickle`) and behave similarly to the ``string_escape`` codec that was "
+"removed in Python 3."
+msgstr ""
+
+msgid ""
+"Encode *input* using escape sequences. Similar to how :func:`repr` on bytes "
+"produces escaped byte values."
+msgstr ""
+
+msgid "*input* must be a :class:`bytes` object."
+msgstr ""
+
+msgid ""
+"Returns a tuple ``(output, length)`` where *output* is a :class:`bytes` "
+"object and *length* is the number of bytes consumed."
+msgstr ""
+
+msgid "Decode *input* from escape sequences back to the original bytes."
+msgstr ""
+
+msgid "*input* must be a :term:`bytes-like object`."
 msgstr ""
 
 msgid "Text Transforms"

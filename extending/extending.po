@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-09 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -107,12 +107,66 @@ msgstr ""
 
 msgid ""
 "All user-visible symbols defined by :file:`Python.h` have a prefix of ``Py`` "
-"or ``PY``, except those defined in standard header files. For convenience, "
-"and since they are used extensively by the Python interpreter, ``\"Python."
-"h\"`` includes a few standard header files: ``<stdio.h>``, ``<string.h>``, "
-"``<errno.h>``, and ``<stdlib.h>``.  If the latter header file does not exist "
-"on your system, it declares the functions :c:func:`malloc`, :c:func:`free` "
-"and :c:func:`realloc` directly."
+"or ``PY``, except those defined in standard header files."
+msgstr ""
+
+msgid ""
+"For backward compatibility, :file:`Python.h` includes several standard "
+"header files. C extensions should include the standard headers that they "
+"use, and should not rely on these implicit includes. If using the limited C "
+"API version 3.13 or newer, the implicit includes are:"
+msgstr ""
+
+msgid "``<assert.h>``"
+msgstr ""
+
+msgid "``<intrin.h>`` (on Windows)"
+msgstr ""
+
+msgid "``<inttypes.h>``"
+msgstr ""
+
+msgid "``<limits.h>``"
+msgstr ""
+
+msgid "``<math.h>``"
+msgstr ""
+
+msgid "``<stdarg.h>``"
+msgstr ""
+
+msgid "``<wchar.h>``"
+msgstr ""
+
+msgid "``<sys/types.h>`` (if present)"
+msgstr ""
+
+msgid ""
+"If :c:macro:`Py_LIMITED_API` is not defined, or is set to version 3.12 or "
+"older, the headers below are also included:"
+msgstr ""
+
+msgid "``<ctype.h>``"
+msgstr ""
+
+msgid "``<unistd.h>`` (on POSIX)"
+msgstr ""
+
+msgid ""
+"If :c:macro:`Py_LIMITED_API` is not defined, or is set to version 3.10 or "
+"older, the headers below are also included:"
+msgstr ""
+
+msgid "``<errno.h>``"
+msgstr ""
+
+msgid "``<stdio.h>``"
+msgstr ""
+
+msgid "``<stdlib.h>``"
+msgstr ""
+
+msgid "``<string.h>``"
 msgstr ""
 
 msgid ""
