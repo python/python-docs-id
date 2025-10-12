@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-11 14:13+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -33,8 +33,8 @@ msgstr ""
 msgid ""
 "zlib's functions have many options and often need to be used in a particular "
 "order.  This documentation doesn't attempt to cover all of the permutations; "
-"consult the zlib manual at http://www.zlib.net/manual.html for authoritative "
-"information."
+"consult the `zlib manual <https://www.zlib.net/manual.html>`_ for "
+"authoritative information."
 msgstr ""
 
 msgid "For reading and writing ``.gz`` files see the :mod:`gzip` module."
@@ -355,6 +355,96 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The following constants are available to configure compression and "
+"decompression behavior:"
+msgstr ""
+
+msgid "The deflate compression method."
+msgstr ""
+
+msgid ""
+"The maximum window size, expressed as a power of 2. For example, if :const:`!"
+"MAX_WBITS` is ``15`` it results in a window size of ``32 KiB``."
+msgstr ""
+
+msgid "The default memory level for compression objects."
+msgstr ""
+
+msgid "The default buffer size for decompression operations."
+msgstr ""
+
+msgid "Compression level ``0``."
+msgstr ""
+
+msgid "Compression level ``1``."
+msgstr ""
+
+msgid "Compression level ``9``."
+msgstr ""
+
+msgid "Default compression level (``-1``)."
+msgstr ""
+
+msgid "Default compression strategy, for normal data."
+msgstr ""
+
+msgid "Compression strategy for data produced by a filter (or predictor)."
+msgstr ""
+
+msgid "Compression strategy that forces Huffman coding only."
+msgstr ""
+
+msgid ""
+"Compression strategy that limits match distances to one (run-length "
+"encoding)."
+msgstr ""
+
+msgid ""
+"This constant is only available if Python was compiled with zlib 1.2.0.1 or "
+"greater."
+msgstr ""
+
+msgid "Compression strategy that prevents the use of dynamic Huffman codes."
+msgstr ""
+
+msgid ""
+"This constant is only available if Python was compiled with zlib 1.2.2.2 or "
+"greater."
+msgstr ""
+
+msgid "Flush mode ``0``. No special flushing behavior."
+msgstr ""
+
+msgid "Flush mode ``1``. Flush as much output as possible."
+msgstr ""
+
+msgid ""
+"Flush mode ``2``. All output is flushed and the output is aligned to a byte "
+"boundary."
+msgstr ""
+
+msgid ""
+"Flush mode ``3``. All output is flushed and the compression state is reset."
+msgstr ""
+
+msgid ""
+"Flush mode ``4``. All pending input is processed, no more input is expected."
+msgstr ""
+
+msgid "Flush mode ``5``. A deflate block is completed and emitted."
+msgstr ""
+
+msgid ""
+"Flush mode ``6``, for inflate operations. Instructs inflate to return when "
+"it gets to the next deflate block boundary."
+msgstr ""
+
+msgid ""
+"This constant is only available if Python was compiled with zlib 1.2.3.4 or "
+"greater."
+msgstr ""
+
+msgid ""
 "Information about the version of the zlib library in use is available "
 "through the following constants:"
 msgstr ""
@@ -386,13 +476,13 @@ msgstr ""
 msgid "Reading and writing :program:`gzip`\\ -format files."
 msgstr ""
 
-msgid "http://www.zlib.net"
+msgid "https://www.zlib.net"
 msgstr ""
 
 msgid "The zlib library home page."
 msgstr ""
 
-msgid "http://www.zlib.net/manual.html"
+msgid "https://www.zlib.net/manual.html"
 msgstr ""
 
 msgid ""
