@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 14:17+0000\n"
+"POT-Creation-Date: 2025-10-15 14:16+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -83,7 +83,7 @@ msgid ""
 "packages."
 msgstr ""
 
-msgid "Python Install Manager"
+msgid "Python install manager"
 msgstr ""
 
 msgid "Installation"
@@ -142,8 +142,8 @@ msgid ""
 "below for more information."
 msgstr ""
 
-msgid "Basic Use"
-msgstr ""
+msgid "Basic use"
+msgstr "Penggunaan dasar"
 
 msgid ""
 "The recommended command for launching Python is ``python``, which will "
@@ -255,7 +255,7 @@ msgid ""
 "``pymanager exec`` forms of the command were used."
 msgstr ""
 
-msgid "Command Help"
+msgid "Command help"
 msgstr ""
 
 msgid ""
@@ -284,7 +284,7 @@ msgid ""
 "more information about these files."
 msgstr ""
 
-msgid "Listing Runtimes"
+msgid "Listing runtimes"
 msgstr ""
 
 msgid ""
@@ -338,7 +338,7 @@ msgid ""
 "allow additional options, and will produce legacy formatted output."
 msgstr ""
 
-msgid "Installing Runtimes"
+msgid "Installing runtimes"
 msgstr ""
 
 msgid ""
@@ -386,7 +386,7 @@ msgstr ""
 msgid "$> py install ... [-t=|--target=<PATH>] <TAG>"
 msgstr ""
 
-msgid "Offline Installs"
+msgid "Offline installs"
 msgstr ""
 
 msgid ""
@@ -426,7 +426,7 @@ msgid ""
 "without access to the internet."
 msgstr ""
 
-msgid "Uninstalling Runtimes"
+msgid "Uninstalling runtimes"
 msgstr ""
 
 msgid "$> py uninstall [-y|--yes] <TAG>..."
@@ -710,7 +710,7 @@ msgid ""
 "``pymanager`` commands for installing and uninstalling."
 msgstr ""
 
-msgid "Advanced Installation"
+msgid "Advanced installation"
 msgstr ""
 
 msgid ""
@@ -831,7 +831,7 @@ msgid ""
 "prevent using the Store package in this way."
 msgstr ""
 
-msgid "Administrative Configuration"
+msgid "Administrative configuration"
 msgstr ""
 
 msgid ""
@@ -963,20 +963,12 @@ msgid ""
 "other than a Python runtime."
 msgstr ""
 
-msgid "Installing Free-threaded Binaries"
-msgstr ""
-
-msgid "(Experimental)"
+msgid "Installing free-threaded binaries"
 msgstr ""
 
 msgid ""
-"Everything described in this section is considered experimental, and should "
-"be expected to change in future releases."
-msgstr ""
-
-msgid ""
-"Pre-built distributions of the experimental free-threaded build are "
-"available by installing tags with the ``t`` suffix."
+"Pre-built distributions of the free-threaded build are available by "
+"installing tags with the ``t`` suffix."
 msgstr ""
 
 msgid ""
@@ -1151,8 +1143,8 @@ msgid ""
 "The two recommended use cases for this distribution are described below."
 msgstr ""
 
-msgid "Python Application"
-msgstr "Aplikasi Python"
+msgid "Python application"
+msgstr ""
 
 msgid ""
 "An application written in Python does not necessarily require users to be "
@@ -1351,8 +1343,8 @@ msgid ""
 "please install Python 3.12."
 msgstr ""
 
-msgid "Removing the MAX_PATH Limitation"
-msgstr "Menghapus batasan MAX_PATH"
+msgid "Removing the MAX_PATH limitation"
+msgstr ""
 
 msgid ""
 "Windows historically has limited path lengths to 260 characters. This meant "
@@ -1757,8 +1749,8 @@ msgstr ""
 msgid "Support for long paths was enabled in Python."
 msgstr "Dukungan untuk *paths* panjang telah diaktifkan di Python."
 
-msgid "Installing Without UI"
-msgstr "Melakukan instalasi tanpa UI"
+msgid "Installing without UI"
+msgstr ""
 
 msgid ""
 "All of the options available in the installer UI can also be specified from "
@@ -2050,8 +2042,8 @@ msgid ""
 "</Options>"
 msgstr ""
 
-msgid "Installing Without Downloading"
-msgstr "Instalasi Tanpa Mengunduh"
+msgid "Installing without downloading"
+msgstr ""
 
 msgid ""
 "As some features of Python are not included in the initial installer "
@@ -2141,7 +2133,7 @@ msgid ""
 "nuget>`."
 msgstr ""
 
-msgid "Python Launcher for Windows (Deprecated)"
+msgid "Python launcher for Windows (deprecated)"
 msgstr ""
 
 msgid ""
@@ -2332,9 +2324,6 @@ msgstr ""
 msgid ""
 "The key benefit of this is that a single launcher can support multiple "
 "Python versions at the same time depending on the contents of the first line."
-msgstr ""
-
-msgid "Shebang Lines"
 msgstr ""
 
 msgid ""
@@ -2589,7 +2578,7 @@ msgid ""
 "debugging."
 msgstr ""
 
-msgid "Dry Run"
+msgid "Dry run"
 msgstr ""
 
 msgid ""
