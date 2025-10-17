@@ -7215,7 +7215,7 @@ msgid "! f-string"
 msgstr ""
 
 msgid "f-strings"
-msgstr ""
+msgstr "f-strings"
 
 msgid "fstring"
 msgstr "fstring"

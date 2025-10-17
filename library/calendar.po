@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-15 14:16+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +47,7 @@ msgstr ""
 "pertama dalam seminggu ke hari Sabtu (6) atau ke nama hari yang lain. "
 "Parameter-parameter yang menentukan tanggal-tanggal diberikan dalam bentuk "
 "bilangan bulat. Untuk fungsionalitas yang lain, lihat juga modul-modul :mod:"
-"`datetime` dan :mod:`time`. "
+"`datetime` dan :mod:`time`."
 
 msgid ""
 "The functions and classes defined in this module use an idealized calendar, "
@@ -335,7 +336,7 @@ msgid ""
 msgstr ""
 "Memberikan keluaran suatu kalender tahunan dalam bentuk suatu tabel HTML. "
 "Argumen *width* (nilai bawaan adalah 3) menentukan banyaknya bulan tiap "
-"baris. "
+"baris."
 
 msgid ""
 "Return a year's calendar as a complete HTML page. *width* (defaulting to 3) "

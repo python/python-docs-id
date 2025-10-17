@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 14:17+0000\n"
+"POT-Creation-Date: 2025-10-15 14:16+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +118,8 @@ msgid ""
 "complex(real=3, imag=5)\n"
 "complex(**{'real': 3, 'imag': 5})"
 msgstr ""
+"complex(real=3, imag=5)\n"
+"complex(**{'real': 3, 'imag': 5})"
 
 msgid ""
 ":dfn:`positional argument`: an argument that is not a keyword argument. "
@@ -129,6 +132,8 @@ msgid ""
 "complex(3, 5)\n"
 "complex(*(3, 5))"
 msgstr ""
+"complex(3, 5)\n"
+"complex(*(3, 5))"
 
 msgid ""
 "Arguments are assigned to the named local variables in a function body. See "
@@ -419,6 +424,13 @@ msgid ""
 "        print(x)\n"
 "    return inner"
 msgstr ""
+"def outer():\n"
+"    x = 0\n"
+"    def inner():\n"
+"        nonlocal x\n"
+"        x += 1\n"
+"        print(x)\n"
+"    return inner"
 
 msgid ""
 "Due to the :attr:`codeobject.co_freevars` attribute (which, despite its "
@@ -444,7 +456,7 @@ msgid ""
 msgstr ""
 
 msgid "context"
-msgstr ""
+msgstr "konteks"
 
 msgid ""
 "This term has different meanings depending on where and how it is used. Some "
@@ -720,7 +732,7 @@ msgid "f-string"
 msgstr "f-string"
 
 msgid "f-strings"
-msgstr ""
+msgstr "f-strings"
 
 msgid ""
 "String literals prefixed with ``f`` or ``F`` are commonly called \"f-"
@@ -824,7 +836,7 @@ msgid ""
 msgstr ""
 
 msgid "free variable"
-msgstr ""
+msgstr "variabel bebas"
 
 msgid ""
 "Formally, as defined in the :ref:`language execution model <bind_names>`, a "
@@ -889,6 +901,9 @@ msgid ""
 ">>> __future__.division\n"
 "_Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)"
 msgstr ""
+">>> import __future__\n"
+">>> __future__.division\n"
+"_Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)"
 
 msgid "garbage collection"
 msgstr "pengumpulan sampah"
@@ -1303,10 +1318,10 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`finders-and-loaders`"
-msgstr ""
+msgstr ":ref:`finders-and-loaders`"
 
 msgid ":class:`importlib.abc.Loader`"
-msgstr ""
+msgstr ":class:`importlib.abc.Loader`"
 
 msgid ":pep:`302`"
 msgstr ":pep:`302`"
@@ -1581,7 +1596,7 @@ msgid ""
 msgstr ""
 
 msgid "def func(foo, bar=None): ..."
-msgstr ""
+msgstr "def func(foo, bar=None): ..."
 
 msgid ""
 ":dfn:`positional-only`: specifies an argument that can be supplied only by "
@@ -1591,7 +1606,7 @@ msgid ""
 msgstr ""
 
 msgid "def func(posonly1, posonly2, /, positional_or_keyword): ..."
-msgstr ""
+msgstr "def func(posonly1, posonly2, /, positional_or_keyword): ..."
 
 msgid ""
 ":dfn:`keyword-only`: specifies an argument that can be supplied only by "
@@ -1602,7 +1617,7 @@ msgid ""
 msgstr ""
 
 msgid "def func(arg, *, kw_only1, kw_only2): ..."
-msgstr ""
+msgstr "def func(arg, *, kw_only1, kw_only2): ..."
 
 msgid ""
 ":dfn:`var-positional`: specifies that an arbitrary sequence of positional "
@@ -1613,7 +1628,7 @@ msgid ""
 msgstr ""
 
 msgid "def func(*args, **kwargs): ..."
-msgstr ""
+msgstr "def func(*args, **kwargs): ..."
 
 msgid ""
 ":dfn:`var-keyword`: specifies that arbitrarily many keyword arguments can be "
