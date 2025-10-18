@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 14:15+0000\n"
+"POT-Creation-Date: 2025-10-17 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -85,7 +85,7 @@ msgid ""
 msgstr ""
 
 msgid "Added ``qualname`` and ``exceptiontable`` parameters."
-msgstr ""
+msgstr "Telah ditambahkan parameter ``qualname`` dan ``exceptiontable``."
 
 msgid ""
 "Renamed from ``PyCode_New`` as part of :ref:`unstable-c-api`. The old name "
@@ -99,10 +99,10 @@ msgid ""
 msgstr ""
 
 msgid "as ``PyCode_NewWithPosOnlyArgs``"
-msgstr ""
+msgstr "sebagai ``PyCode_NewWithPosOnlyArgs``"
 
 msgid "Added ``qualname`` and  ``exceptiontable`` parameters."
-msgstr ""
+msgstr "Telah ditambahkan parameter ``qualname`` dan ``exceptiontable``."
 
 msgid ""
 "Renamed to ``PyUnstable_Code_NewWithPosOnlyArgs``. The old name is "
@@ -133,7 +133,7 @@ msgid ""
 msgstr ""
 
 msgid "Returns ``1`` if the function succeeds and 0 otherwise."
-msgstr ""
+msgstr "Mengembalikan ``1`` jika fungsi berhasil dan 0 jika sebaliknya."
 
 msgid ""
 "Equivalent to the Python code ``getattr(co, 'co_code')``. Returns a strong "
@@ -294,22 +294,22 @@ msgid "no effect (:py:data:`__future__.absolute_import`)"
 msgstr "Tanpa efek (:py:data:`__future__.absolute_import`)"
 
 msgid "no effect (:py:data:`__future__.with_statement`)"
-msgstr ""
+msgstr "tanpa efek (:py:data:`__future__.with_statement`)"
 
 msgid "no effect (:py:data:`__future__.print_function`)"
-msgstr ""
+msgstr "tanpa efek (:py:data:`__future__.print_function`)"
 
 msgid "no effect (:py:data:`__future__.unicode_literals`)"
-msgstr ""
+msgstr "tanpa efek (:py:data:`__future__.unicode_literals`)"
 
 msgid "no effect (:py:data:`__future__.generator_stop`)"
-msgstr ""
+msgstr "tanpa efek (:py:data:`__future__.generator_stop`)"
 
 msgid ":py:data:`__future__.annotations`"
 msgstr ":py:data:`__future__.annotations`"
 
 msgid "Extra information"
-msgstr ""
+msgstr "Informasi tambahan"
 
 msgid ""
 "To support low-level extensions to frame evaluation, such as external just-"
@@ -339,7 +339,7 @@ msgid ""
 msgstr ""
 
 msgid "as ``_PyEval_RequestCodeExtraIndex``"
-msgstr ""
+msgstr "sebagai ``_PyEval_RequestCodeExtraIndex``"
 
 msgid ""
 "Renamed to ``PyUnstable_Eval_RequestCodeExtraIndex``. The old private name "
@@ -357,7 +357,7 @@ msgid ""
 msgstr ""
 
 msgid "as ``_PyCode_GetExtra``"
-msgstr ""
+msgstr "sebagai ``_PyCode_GetExtra``"
 
 msgid ""
 "Renamed to ``PyUnstable_Code_GetExtra``. The old private name is deprecated, "
@@ -390,10 +390,10 @@ msgid "PyCode_New (C function)"
 msgstr "PyCode_New (fungsi C)"
 
 msgid "PyCode_NewWithPosOnlyArgs (C function)"
-msgstr ""
+msgstr "PyCode_NewWithPosOnlyArgs (fungsi C)"
 
 msgid "_PyEval_RequestCodeExtraIndex (C function)"
-msgstr ""
+msgstr "_PyEval_RequestCodeExtraIndex (fungsi C)"
 
 msgid "_PyCode_GetExtra (C function)"
 msgstr ""

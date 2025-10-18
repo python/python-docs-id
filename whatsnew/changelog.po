@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 14:16+0000\n"
+"POT-Creation-Date: 2025-10-17 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -83,6 +83,16 @@ msgstr ""
 
 msgid "Library"
 msgstr "Pustaka"
+
+msgid ""
+":gh:`140041`: Fix import of :mod:`ctypes` on Android and Cygwin when ABI "
+"flags are present."
+msgstr ""
+
+msgid ""
+":gh:`140120`: Fixed a memory leak in :mod:`hmac` when it was using the hacl-"
+"star backend. Discovered by ``@ashm-dev`` using AddressSanitizer."
+msgstr ""
 
 msgid ""
 ":gh:`139905`: Add suggestion to error message for :class:`typing.Generic` "
@@ -188,6 +198,12 @@ msgstr ""
 msgid ""
 ":gh:`130567`: Fix possible crash in :func:`locale.strxfrm` due to a platform "
 "bug on macOS."
+msgstr ""
+
+msgid ""
+":gh:`138859`: Fix generic type parameterization raising a :exc:`TypeError` "
+"when omitting a :class:`ParamSpec` that has a default which is not a list of "
+"types."
 msgstr ""
 
 msgid ""
@@ -372,6 +388,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`131788`: Make ``ResourceTracker.send`` from :mod:`multiprocessing` re-"
+"entrant safe"
+msgstr ""
+
+msgid ""
 ":gh:`118981`: Fix potential hang in ``multiprocessing.popen_spawn_posix`` "
 "that can happen when the child proc dies early by closing the child fds "
 "right away."
@@ -412,6 +433,11 @@ msgstr ""
 
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
+
+msgid ""
+":gh:`140061`: Fixing the checking of whether an object is uniquely "
+"referenced to ensure free-threaded compatibility. Patch by Sergey Miryanov."
+msgstr ""
 
 msgid ""
 ":gh:`140000`: Fix potential memory leak when a reference cycle exists "
@@ -506,6 +532,14 @@ msgstr ""
 
 msgid ""
 ":gh:`128640`: Fix a crash when using threads inside of a subinterpreter."
+msgstr ""
+
+msgid "C API"
+msgstr "C API"
+
+msgid ""
+":gh:`140153`: Fix :c:func:`Py_REFCNT` definition on limited C API 3.11-3.13. "
+"Patch by Victor Stinner."
 msgstr ""
 
 msgid "Build"
@@ -834,9 +868,6 @@ msgid ""
 ":gh:`136870`: Fix data races while de-instrumenting bytecode of code objects "
 "running concurrently in threads."
 msgstr ""
-
-msgid "C API"
-msgstr "C API"
 
 msgid ""
 ":gh:`137573`: Mark ``_PyOptimizer_Optimize`` as :c:macro:`Py_NO_INLINE` to "

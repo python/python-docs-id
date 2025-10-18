@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09 14:15+0000\n"
+"POT-Creation-Date: 2025-10-17 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -49,10 +49,10 @@ msgid "Functions that initialize the interpreter:"
 msgstr ""
 
 msgid ":c:func:`Py_Initialize`"
-msgstr ""
+msgstr ":c:func:`Py_Initialize`"
 
 msgid ":c:func:`Py_InitializeEx`"
-msgstr ""
+msgstr ":c:func:`Py_InitializeEx`"
 
 msgid ":c:func:`Py_InitializeFromConfig`"
 msgstr ":c:func:`Py_InitializeFromConfig`"
@@ -61,13 +61,13 @@ msgid ":c:func:`Py_BytesMain`"
 msgstr ":c:func:`Py_BytesMain`"
 
 msgid ":c:func:`Py_Main`"
-msgstr ""
+msgstr ":c:func:`Py_Main`"
 
 msgid "the runtime pre-initialization functions covered in :ref:`init-config`"
 msgstr ""
 
 msgid "Configuration functions:"
-msgstr ""
+msgstr "Fungsi konfigurasi:"
 
 msgid ":c:func:`PyImport_AppendInittab`"
 msgstr ":c:func:`PyImport_AppendInittab`"
@@ -76,7 +76,7 @@ msgid ":c:func:`PyImport_ExtendInittab`"
 msgstr ":c:func:`PyImport_ExtendInittab`"
 
 msgid ":c:func:`!PyInitFrozenExtensions`"
-msgstr ""
+msgstr ":c:func:`!PyInitFrozenExtensions`"
 
 msgid ":c:func:`PyMem_SetAllocator`"
 msgstr ":c:func:`PyMem_SetAllocator`"
@@ -100,7 +100,7 @@ msgid "the configuration functions covered in :ref:`init-config`"
 msgstr ""
 
 msgid "Informative functions:"
-msgstr ""
+msgstr "Fungsi informatif:"
 
 msgid ":c:func:`Py_IsInitialized`"
 msgstr ":c:func:`Py_IsInitialized`"
@@ -356,7 +356,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`528` for more details."
-msgstr ""
+msgstr "Lihat :pep:`528` untuk lebih detail."
 
 msgid ""
 "This API is kept for backward compatibility: setting :c:member:`PyConfig."
@@ -836,7 +836,7 @@ msgid ""
 msgstr ""
 
 msgid "See also the :c:var:`Py_Version` constant."
-msgstr ""
+msgstr "Lihat juga konstanta :c:var:`Py_Version`."
 
 msgid ""
 "Return the platform identifier for the current platform.  On Unix, this is "
@@ -867,7 +867,7 @@ msgid ""
 msgstr ""
 
 msgid "\"[GCC 2.7.2.2]\""
-msgstr ""
+msgstr "\"[GCC 2.7.2.2]\""
 
 msgid ""
 "The returned string points into static storage; the caller should not modify "
@@ -936,7 +936,7 @@ msgid ""
 msgstr ""
 
 msgid "PyRun_SimpleString(\"import sys; sys.path.pop(0)\\n\");"
-msgstr ""
+msgstr "PyRun_SimpleString(\"import sys; sys.path.pop(0)\\n\");"
 
 msgid ""
 "This API is kept for backward compatibility: setting :c:member:`PyConfig."
@@ -1373,7 +1373,7 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyEval_ReleaseThread`"
-msgstr ""
+msgstr ":c:func:`PyEval_ReleaseThread`"
 
 msgid ""
 "Similar to :c:func:`PyGILState_Ensure`, this function will hang the thread "
@@ -1456,7 +1456,7 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyThreadState_Get`"
-msgstr ""
+msgstr ":c:func:`PyThreadState_Get`"
 
 msgid ""
 "Return ``1`` if the current thread is holding the :term:`GIL` and ``0`` "
@@ -2130,47 +2130,47 @@ msgid ""
 msgstr ""
 
 msgid "Value of *what*"
-msgstr ""
+msgstr "Nilai dari *what*"
 
 msgid "Meaning of *arg*"
-msgstr ""
+msgstr "Arti dari *arg*"
 
 msgid ":c:data:`PyTrace_CALL`"
-msgstr ""
+msgstr ":c:data:`PyTrace_CALL`"
 
 msgid "Always :c:data:`Py_None`."
-msgstr ""
+msgstr "Selalu :c:data:`Py_None`."
 
 msgid ":c:data:`PyTrace_EXCEPTION`"
-msgstr ""
+msgstr ":c:data:`PyTrace_EXCEPTION`"
 
 msgid "Exception information as returned by :func:`sys.exc_info`."
 msgstr ""
 
 msgid ":c:data:`PyTrace_LINE`"
-msgstr ""
+msgstr ":c:data:`PyTrace_LINE`"
 
 msgid ":c:data:`PyTrace_RETURN`"
-msgstr ""
+msgstr ":c:data:`PyTrace_RETURN`"
 
 msgid ""
 "Value being returned to the caller, or ``NULL`` if caused by an exception."
 msgstr ""
 
 msgid ":c:data:`PyTrace_C_CALL`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_CALL`"
 
 msgid "Function object being called."
 msgstr ""
 
 msgid ":c:data:`PyTrace_C_EXCEPTION`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_EXCEPTION`"
 
 msgid ":c:data:`PyTrace_C_RETURN`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_RETURN`"
 
 msgid ":c:data:`PyTrace_OPCODE`"
-msgstr ""
+msgstr ":c:data:`PyTrace_OPCODE`"
 
 msgid ""
 "The value of the *what* parameter to a :c:type:`Py_tracefunc` function when "
@@ -2259,7 +2259,7 @@ msgid ""
 msgstr ""
 
 msgid "See also the :func:`sys.settrace` function."
-msgstr ""
+msgstr "Lihat juga fungsi :func:`sys.settrace`."
 
 msgid ""
 "Like :c:func:`PyEval_SetTrace` but sets the tracing function in all running "
@@ -2508,7 +2508,7 @@ msgid ""
 msgstr ""
 
 msgid "PyMutex mutex = {0};"
-msgstr ""
+msgstr "PyMutex mutex = {0};"
 
 msgid ""
 "Instances of :c:type:`!PyMutex` should not be copied or moved.  Both the "
@@ -2607,6 +2607,14 @@ msgid ""
 "   Py_RETURN_NONE;\n"
 "}"
 msgstr ""
+"static PyObject *\n"
+"set_field(MyObject *self, PyObject *value)\n"
+"{\n"
+"   Py_BEGIN_CRITICAL_SECTION(self);\n"
+"   Py_SETREF(self->field, Py_XNewRef(value));\n"
+"   Py_END_CRITICAL_SECTION();\n"
+"   Py_RETURN_NONE;\n"
+"}"
 
 msgid ""
 "In the above example, :c:macro:`Py_SETREF` calls :c:macro:`Py_DECREF`, which "
@@ -2630,6 +2638,9 @@ msgid ""
 "    PyCriticalSection _py_cs;\n"
 "    PyCriticalSection_Begin(&_py_cs, (PyObject*)(op))"
 msgstr ""
+"{\n"
+"    PyCriticalSection _py_cs;\n"
+"    PyCriticalSection_Begin(&_py_cs, (PyObject*)(op))"
 
 msgid "In the default build, this macro expands to ``{``."
 msgstr ""
@@ -2642,6 +2653,9 @@ msgid ""
 "     PyCriticalSection _py_cs;\n"
 "     PyCriticalSection_BeginMutex(&_py_cs, m)"
 msgstr ""
+"{\n"
+"     PyCriticalSection _py_cs;\n"
+"     PyCriticalSection_BeginMutex(&_py_cs, m)"
 
 msgid ""
 "Note that unlike :c:macro:`Py_BEGIN_CRITICAL_SECTION`, there is no cast for "
@@ -2658,6 +2672,8 @@ msgid ""
 "    PyCriticalSection_End(&_py_cs);\n"
 "}"
 msgstr ""
+"    PyCriticalSection_End(&_py_cs);\n"
+"}"
 
 msgid "In the default build, this macro expands to ``}``."
 msgstr ""
@@ -2673,6 +2689,9 @@ msgid ""
 "    PyCriticalSection2 _py_cs2;\n"
 "    PyCriticalSection2_Begin(&_py_cs2, (PyObject*)(a), (PyObject*)(b))"
 msgstr ""
+"{\n"
+"    PyCriticalSection2 _py_cs2;\n"
+"    PyCriticalSection2_Begin(&_py_cs2, (PyObject*)(a), (PyObject*)(b))"
 
 msgid "Locks the mutexes *m1* and *m2* and begins a critical section."
 msgstr ""
@@ -2682,6 +2701,9 @@ msgid ""
 "     PyCriticalSection2 _py_cs2;\n"
 "     PyCriticalSection2_BeginMutex(&_py_cs2, m1, m2)"
 msgstr ""
+"{\n"
+"     PyCriticalSection2 _py_cs2;\n"
+"     PyCriticalSection2_BeginMutex(&_py_cs2, m1, m2)"
 
 msgid ""
 "Note that unlike :c:macro:`Py_BEGIN_CRITICAL_SECTION2`, there is no cast for "
@@ -2695,9 +2717,11 @@ msgid ""
 "    PyCriticalSection2_End(&_py_cs2);\n"
 "}"
 msgstr ""
+"    PyCriticalSection2_End(&_py_cs2);\n"
+"}"
 
 msgid "PyEval_InitThreads()"
-msgstr ""
+msgstr "PyEval_InitThreads()"
 
 msgid "modules (in module sys)"
 msgstr ""
@@ -2712,7 +2736,7 @@ msgid "builtins"
 msgstr "builtins"
 
 msgid "__main__"
-msgstr ""
+msgstr "__main__"
 
 msgid "sys"
 msgstr "sys"
@@ -2727,13 +2751,13 @@ msgid "Py_FinalizeEx (C function)"
 msgstr ""
 
 msgid "Py_Initialize()"
-msgstr ""
+msgstr "Py_Initialize()"
 
 msgid "main()"
-msgstr ""
+msgstr "main()"
 
 msgid "Py_GetPath()"
-msgstr ""
+msgstr "Py_GetPath()"
 
 msgid "executable (in module sys)"
 msgstr ""
@@ -2748,7 +2772,7 @@ msgid "copyright (in module sys)"
 msgstr ""
 
 msgid "Py_FatalError()"
-msgstr ""
+msgstr "Py_FatalError()"
 
 msgid "argv (in module sys)"
 msgstr ""
@@ -2781,19 +2805,19 @@ msgid "PyEval_SaveThread (C function)"
 msgstr ""
 
 msgid "PyEval_AcquireThread()"
-msgstr ""
+msgstr "PyEval_AcquireThread()"
 
 msgid "PyEval_ReleaseThread()"
-msgstr ""
+msgstr "PyEval_ReleaseThread()"
 
 msgid "PyEval_SaveThread()"
-msgstr ""
+msgstr "PyEval_SaveThread()"
 
 msgid "PyEval_RestoreThread()"
-msgstr ""
+msgstr "PyEval_RestoreThread()"
 
 msgid "_thread"
-msgstr ""
+msgstr "_thread"
 
 msgid "stdout (in module sys)"
 msgstr ""

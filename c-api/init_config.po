@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 14:17+0000\n"
+"POT-Creation-Date: 2025-10-17 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +31,7 @@ msgstr ""
 
 msgid "Python can be initialized with :c:func:`Py_InitializeFromInitConfig`."
 msgstr ""
+"Python dapat terinisialisasi dengan :c:func:`Py_InitializeFromInitConfig`."
 
 msgid ""
 "The :c:func:`Py_RunMain` function can be used to write a customized Python "
@@ -280,7 +282,7 @@ msgid "Visibility"
 msgstr ""
 
 msgid "``\"allocator\"``"
-msgstr ""
+msgstr "``\"allocator\"``"
 
 msgid ":c:member:`allocator <PyPreConfig.allocator>`"
 msgstr ""
@@ -292,291 +294,293 @@ msgid "Read-only"
 msgstr ""
 
 msgid "``\"argv\"``"
-msgstr ""
+msgstr "``\"argv\"``"
 
 msgid ":c:member:`argv <PyConfig.argv>`"
-msgstr ""
+msgstr ":c:member:`argv <PyConfig.argv>`"
 
 msgid "``list[str]``"
-msgstr ""
+msgstr "``list[str]``"
 
 msgid "Public"
-msgstr ""
+msgstr "Publik"
 
 msgid "``\"base_exec_prefix\"``"
-msgstr ""
+msgstr "``\"base_exec_prefix\"``"
 
 msgid ":c:member:`base_exec_prefix <PyConfig.base_exec_prefix>`"
-msgstr ""
+msgstr ":c:member:`base_exec_prefix <PyConfig.base_exec_prefix>`"
 
 msgid "``str``"
 msgstr "``str``"
 
 msgid "``\"base_executable\"``"
-msgstr ""
+msgstr "``\"base_executable\"``"
 
 msgid ":c:member:`base_executable <PyConfig.base_executable>`"
-msgstr ""
+msgstr ":c:member:`base_executable <PyConfig.base_executable>`"
 
 msgid "``\"base_prefix\"``"
-msgstr ""
+msgstr "``\"base_prefix\"``"
 
 msgid ":c:member:`base_prefix <PyConfig.base_prefix>`"
-msgstr ""
+msgstr ":c:member:`base_prefix <PyConfig.base_prefix>`"
 
 msgid "``\"buffered_stdio\"``"
-msgstr ""
+msgstr "``\"buffered_stdio\"``"
 
 msgid ":c:member:`buffered_stdio <PyConfig.buffered_stdio>`"
-msgstr ""
+msgstr ":c:member:`buffered_stdio <PyConfig.buffered_stdio>`"
 
 msgid "``bool``"
 msgstr "``bool``"
 
 msgid "``\"bytes_warning\"``"
-msgstr ""
+msgstr "``\"bytes_warning\"``"
 
 msgid ":c:member:`bytes_warning <PyConfig.bytes_warning>`"
-msgstr ""
+msgstr ":c:member:`bytes_warning <PyConfig.bytes_warning>`"
 
 msgid "``\"check_hash_pycs_mode\"``"
-msgstr ""
+msgstr "``\"check_hash_pycs_mode\"``"
 
 msgid ":c:member:`check_hash_pycs_mode <PyConfig.check_hash_pycs_mode>`"
-msgstr ""
+msgstr ":c:member:`check_hash_pycs_mode <PyConfig.check_hash_pycs_mode>`"
 
 msgid "``\"code_debug_ranges\"``"
-msgstr ""
+msgstr "``\"code_debug_ranges\"``"
 
 msgid ":c:member:`code_debug_ranges <PyConfig.code_debug_ranges>`"
-msgstr ""
+msgstr ":c:member:`code_debug_ranges <PyConfig.code_debug_ranges>`"
 
 msgid "``\"coerce_c_locale\"``"
-msgstr ""
+msgstr "``\"coerce_c_locale\"``"
 
 msgid ":c:member:`coerce_c_locale <PyPreConfig.coerce_c_locale>`"
-msgstr ""
+msgstr ":c:member:`coerce_c_locale <PyPreConfig.coerce_c_locale>`"
 
 msgid "``\"coerce_c_locale_warn\"``"
-msgstr ""
+msgstr "``\"coerce_c_locale_warn\"``"
 
 msgid ":c:member:`coerce_c_locale_warn <PyPreConfig.coerce_c_locale_warn>`"
-msgstr ""
+msgstr ":c:member:`coerce_c_locale_warn <PyPreConfig.coerce_c_locale_warn>`"
 
 msgid "``\"configure_c_stdio\"``"
-msgstr ""
+msgstr "``\"configure_c_stdio\"``"
 
 msgid ":c:member:`configure_c_stdio <PyConfig.configure_c_stdio>`"
-msgstr ""
+msgstr ":c:member:`configure_c_stdio <PyConfig.configure_c_stdio>`"
 
 msgid "``\"configure_locale\"``"
-msgstr ""
+msgstr "``\"configure_locale\"``"
 
 msgid ":c:member:`configure_locale <PyPreConfig.configure_locale>`"
-msgstr ""
+msgstr ":c:member:`configure_locale <PyPreConfig.configure_locale>`"
 
 msgid "``\"cpu_count\"``"
-msgstr ""
+msgstr "``\"cpu_count\"``"
 
 msgid ":c:member:`cpu_count <PyConfig.cpu_count>`"
-msgstr ""
+msgstr ":c:member:`cpu_count <PyConfig.cpu_count>`"
 
 msgid "``\"dev_mode\"``"
-msgstr ""
+msgstr "``\"dev_mode\"``"
 
 msgid ":c:member:`dev_mode <PyConfig.dev_mode>`"
-msgstr ""
+msgstr ":c:member:`dev_mode <PyConfig.dev_mode>`"
 
 msgid "``\"dump_refs\"``"
-msgstr ""
+msgstr "``\"dump_refs\"``"
 
 msgid ":c:member:`dump_refs <PyConfig.dump_refs>`"
-msgstr ""
+msgstr ":c:member:`dump_refs <PyConfig.dump_refs>`"
 
 msgid "``\"dump_refs_file\"``"
-msgstr ""
+msgstr "``\"dump_refs_file\"``"
 
 msgid ":c:member:`dump_refs_file <PyConfig.dump_refs_file>`"
-msgstr ""
+msgstr ":c:member:`dump_refs_file <PyConfig.dump_refs_file>`"
 
 msgid "``\"exec_prefix\"``"
-msgstr ""
+msgstr "``\"exec_prefix\"``"
 
 msgid ":c:member:`exec_prefix <PyConfig.exec_prefix>`"
-msgstr ""
+msgstr ":c:member:`exec_prefix <PyConfig.exec_prefix>`"
 
 msgid "``\"executable\"``"
-msgstr ""
+msgstr "``\"executable\"``"
 
 msgid ":c:member:`executable <PyConfig.executable>`"
-msgstr ""
+msgstr ":c:member:`executable <PyConfig.executable>`"
 
 msgid "``\"faulthandler\"``"
-msgstr ""
+msgstr "``\"faulthandler\"``"
 
 msgid ":c:member:`faulthandler <PyConfig.faulthandler>`"
-msgstr ""
+msgstr ":c:member:`faulthandler <PyConfig.faulthandler>`"
 
 msgid "``\"filesystem_encoding\"``"
-msgstr ""
+msgstr "``\"filesystem_encoding\"``"
 
 msgid ":c:member:`filesystem_encoding <PyConfig.filesystem_encoding>`"
-msgstr ""
+msgstr ":c:member:`filesystem_encoding <PyConfig.filesystem_encoding>`"
 
 msgid "``\"filesystem_errors\"``"
-msgstr ""
+msgstr "``\"filesystem_errors\"``"
 
 msgid ":c:member:`filesystem_errors <PyConfig.filesystem_errors>`"
-msgstr ""
+msgstr ":c:member:`filesystem_errors <PyConfig.filesystem_errors>`"
 
 msgid "``\"hash_seed\"``"
-msgstr ""
+msgstr "``\"hash_seed\"``"
 
 msgid ":c:member:`hash_seed <PyConfig.hash_seed>`"
-msgstr ""
+msgstr ":c:member:`hash_seed <PyConfig.hash_seed>`"
 
 msgid "``\"home\"``"
-msgstr ""
+msgstr "``\"home\"``"
 
 msgid ":c:member:`home <PyConfig.home>`"
-msgstr ""
+msgstr ":c:member:`home <PyConfig.home>`"
 
 msgid "``\"import_time\"``"
-msgstr ""
+msgstr "``\"import_time\"``"
 
 msgid ":c:member:`import_time <PyConfig.import_time>`"
-msgstr ""
+msgstr ":c:member:`import_time <PyConfig.import_time>`"
 
 msgid "``\"inspect\"``"
-msgstr ""
+msgstr "``\"inspect\"``"
 
 msgid ":c:member:`inspect <PyConfig.inspect>`"
-msgstr ""
+msgstr ":c:member:`inspect <PyConfig.inspect>`"
 
 msgid "``\"install_signal_handlers\"``"
-msgstr ""
+msgstr "``\"install_signal_handlers\"``"
 
 msgid ":c:member:`install_signal_handlers <PyConfig.install_signal_handlers>`"
-msgstr ""
+msgstr ":c:member:`install_signal_handlers <PyConfig.install_signal_handlers>`"
 
 msgid "``\"int_max_str_digits\"``"
-msgstr ""
+msgstr "``\"int_max_str_digits\"``"
 
 msgid ":c:member:`int_max_str_digits <PyConfig.int_max_str_digits>`"
-msgstr ""
+msgstr ":c:member:`int_max_str_digits <PyConfig.int_max_str_digits>`"
 
 msgid "``\"interactive\"``"
-msgstr ""
+msgstr "``\"interactive\"``"
 
 msgid ":c:member:`interactive <PyConfig.interactive>`"
-msgstr ""
+msgstr ":c:member:`interactive <PyConfig.interactive>`"
 
 msgid "``\"isolated\"``"
-msgstr ""
+msgstr "``\"isolated\"``"
 
 msgid ":c:member:`isolated <PyConfig.isolated>`"
-msgstr ""
+msgstr ":c:member:`isolated <PyConfig.isolated>`"
 
 msgid "``\"legacy_windows_fs_encoding\"``"
-msgstr ""
+msgstr "``\"legacy_windows_fs_encoding\"``"
 
 msgid ""
 ":c:member:`legacy_windows_fs_encoding <PyPreConfig."
 "legacy_windows_fs_encoding>`"
 msgstr ""
+":c:member:`legacy_windows_fs_encoding <PyPreConfig."
+"legacy_windows_fs_encoding>`"
 
 msgid "``\"legacy_windows_stdio\"``"
-msgstr ""
+msgstr "``\"legacy_windows_stdio\"``"
 
 msgid ":c:member:`legacy_windows_stdio <PyConfig.legacy_windows_stdio>`"
-msgstr ""
+msgstr ":c:member:`legacy_windows_stdio <PyConfig.legacy_windows_stdio>`"
 
 msgid "``\"malloc_stats\"``"
-msgstr ""
+msgstr "``\"malloc_stats\"``"
 
 msgid ":c:member:`malloc_stats <PyConfig.malloc_stats>`"
-msgstr ""
+msgstr ":c:member:`malloc_stats <PyConfig.malloc_stats>`"
 
 msgid "``\"module_search_paths\"``"
-msgstr ""
+msgstr "``\"module_search_paths\"``"
 
 msgid ":c:member:`module_search_paths <PyConfig.module_search_paths>`"
-msgstr ""
+msgstr ":c:member:`module_search_paths <PyConfig.module_search_paths>`"
 
 msgid "``\"optimization_level\"``"
-msgstr ""
+msgstr "``\"optimization_level\"``"
 
 msgid ":c:member:`optimization_level <PyConfig.optimization_level>`"
-msgstr ""
+msgstr ":c:member:`optimization_level <PyConfig.optimization_level>`"
 
 msgid "``\"orig_argv\"``"
-msgstr ""
+msgstr "``\"orig_argv\"``"
 
 msgid ":c:member:`orig_argv <PyConfig.orig_argv>`"
-msgstr ""
+msgstr ":c:member:`orig_argv <PyConfig.orig_argv>`"
 
 msgid "``\"parse_argv\"``"
-msgstr ""
+msgstr "``\"parse_argv\"``"
 
 msgid ":c:member:`parse_argv <PyConfig.parse_argv>`"
-msgstr ""
+msgstr ":c:member:`parse_argv <PyConfig.parse_argv>`"
 
 msgid "``\"parser_debug\"``"
-msgstr ""
+msgstr "``\"parser_debug\"``"
 
 msgid ":c:member:`parser_debug <PyConfig.parser_debug>`"
-msgstr ""
+msgstr ":c:member:`parser_debug <PyConfig.parser_debug>`"
 
 msgid "``\"pathconfig_warnings\"``"
-msgstr ""
+msgstr "``\"pathconfig_warnings\"``"
 
 msgid ":c:member:`pathconfig_warnings <PyConfig.pathconfig_warnings>`"
-msgstr ""
+msgstr ":c:member:`pathconfig_warnings <PyConfig.pathconfig_warnings>`"
 
 msgid "``\"perf_profiling\"``"
-msgstr ""
+msgstr "``\"perf_profiling\"``"
 
 msgid ":c:member:`perf_profiling <PyConfig.perf_profiling>`"
-msgstr ""
+msgstr ":c:member:`perf_profiling <PyConfig.perf_profiling>`"
 
 msgid "``\"platlibdir\"``"
-msgstr ""
+msgstr "``\"platlibdir\"``"
 
 msgid ":c:member:`platlibdir <PyConfig.platlibdir>`"
-msgstr ""
+msgstr ":c:member:`platlibdir <PyConfig.platlibdir>`"
 
 msgid "``\"prefix\"``"
-msgstr ""
+msgstr "``\"prefix\"``"
 
 msgid ":c:member:`prefix <PyConfig.prefix>`"
-msgstr ""
+msgstr ":c:member:`prefix <PyConfig.prefix>`"
 
 msgid "``\"program_name\"``"
-msgstr ""
+msgstr "``\"program_name\"``"
 
 msgid ":c:member:`program_name <PyConfig.program_name>`"
-msgstr ""
+msgstr ":c:member:`program_name <PyConfig.program_name>`"
 
 msgid "``\"pycache_prefix\"``"
-msgstr ""
+msgstr "``\"pycache_prefix\"``"
 
 msgid ":c:member:`pycache_prefix <PyConfig.pycache_prefix>`"
-msgstr ""
+msgstr ":c:member:`pycache_prefix <PyConfig.pycache_prefix>`"
 
 msgid "``\"quiet\"``"
-msgstr ""
+msgstr "``\"quiet\"``"
 
 msgid ":c:member:`quiet <PyConfig.quiet>`"
-msgstr ""
+msgstr ":c:member:`quiet <PyConfig.quiet>`"
 
 msgid "``\"run_command\"``"
-msgstr ""
+msgstr "``\"run_command\"``"
 
 msgid ":c:member:`run_command <PyConfig.run_command>`"
-msgstr ""
+msgstr ":c:member:`run_command <PyConfig.run_command>`"
 
 msgid "``\"run_filename\"``"
-msgstr ""
+msgstr "``\"run_filename\"``"
 
 msgid ":c:member:`run_filename <PyConfig.run_filename>`"
 msgstr ""
@@ -2627,7 +2631,7 @@ msgid ""
 msgstr ""
 
 msgid "main()"
-msgstr ""
+msgstr "main()"
 
 msgid "argv (in module sys)"
 msgstr ""
