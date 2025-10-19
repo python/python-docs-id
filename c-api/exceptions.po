@@ -440,7 +440,7 @@ msgid "This call steals a reference to *exc*, which must be a valid exception."
 msgstr ""
 
 msgid "Use :c:func:`PyErr_GetRaisedException` instead."
-msgstr ""
+msgstr "Gunakan :c:func:`PyErr_GetRaisedException` sebagai gantinya."
 
 msgid ""
 "Retrieve the error indicator into three variables whose addresses are "

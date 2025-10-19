@@ -33,6 +33,8 @@ msgstr ""
 
 msgid "This function is a deprecated alias of :c:func:`PyImport_ImportModule`."
 msgstr ""
+"Fungsi ini adalah alias yang sudah tidak digunakan lagi dari :c:func:"
+"`PyImport_ImportModule`."
 
 msgid ""
 "This function used to fail immediately when the import lock was held by "
@@ -166,6 +168,8 @@ msgid ""
 "See also :c:func:`PyImport_ExecCodeModuleEx` and :c:func:"
 "`PyImport_ExecCodeModuleWithPathnames`."
 msgstr ""
+"Lihat juga :c:func:`PyImport_ExecCodeModuleEx` dan :c:func:"
+"`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
 "The setting of :attr:`~module.__cached__` and :attr:`~module.__loader__` is "
@@ -178,7 +182,7 @@ msgid ""
 msgstr ""
 
 msgid "See also :c:func:`PyImport_ExecCodeModuleWithPathnames`."
-msgstr ""
+msgstr "Lihat juga :c:func:`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
 "Like :c:func:`PyImport_ExecCodeModuleEx`, but the :attr:`~module.__cached__` "

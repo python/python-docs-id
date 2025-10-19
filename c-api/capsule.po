@@ -43,7 +43,7 @@ msgid "The type of a destructor callback for a capsule.  Defined as::"
 msgstr ""
 
 msgid "typedef void (*PyCapsule_Destructor)(PyObject *);"
-msgstr ""
+msgstr "typedef void (*PyCapsule_Destructor)(PyObject *);"
 
 msgid ""
 "See :c:func:`PyCapsule_New` for the semantics of PyCapsule_Destructor "

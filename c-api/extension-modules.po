@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 
 msgid "Initialization function"
-msgstr ""
+msgstr "Fungsi inisialisasi"
 
 msgid ""
 "The initialization function defined by an extension module has the following "

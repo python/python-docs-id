@@ -396,7 +396,7 @@ msgid "_PyEval_RequestCodeExtraIndex (C function)"
 msgstr "_PyEval_RequestCodeExtraIndex (fungsi C)"
 
 msgid "_PyCode_GetExtra (C function)"
-msgstr ""
+msgstr "_PyCode_GetExtra (fungsi C)"
 
 msgid "_PyCode_SetExtra (C function)"
-msgstr ""
+msgstr "_PyCode_SetExtra (fungsi C)"
