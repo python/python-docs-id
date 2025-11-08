@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-27 14:15+0000\n"
+"POT-Creation-Date: 2025-11-07 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -85,6 +85,24 @@ msgid ""
 "Return the minimum normalized positive float *DBL_MIN* as C :c:expr:`double`."
 msgstr ""
 
+msgid "Return :data:`math.nan` from a function."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to ``return PyFloat_FromDouble(NAN)``."
+msgstr ""
+
+msgid ""
+"Return :data:`math.inf` or :data:`-math.inf <math.inf>` from a function, "
+"depending on the sign of *sign*."
+msgstr ""
+
+msgid "On most platforms, this is equivalent to the following::"
+msgstr ""
+
+msgid "return PyFloat_FromDouble(copysign(INFINITY, sign));"
+msgstr ""
+
 msgid "Pack and Unpack functions"
 msgstr ""
 
@@ -108,8 +126,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Note that NaNs type may not be preserved on IEEE platforms (silent NaN "
-"become quiet), for example on x86 systems in 32-bit mode."
+"Note that NaNs type may not be preserved on IEEE platforms (signaling NaN "
+"become quiet NaN), for example on x86 systems in 32-bit mode."
 msgstr ""
 
 msgid ""
