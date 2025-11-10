@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-07 14:15+0000\n"
+"POT-Creation-Date: 2025-11-09 14:13+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -303,6 +303,22 @@ msgid ""
 "use."
 msgstr ""
 
+msgid ""
+"Get the source line in *filename* at line *lineno*. *filename* should be a "
+"Python :class:`str` object."
+msgstr ""
+
+msgid ""
+"On success, this function returns a Python string object with the found "
+"line. On failure, this function returns ``NULL`` without an exception set."
+msgstr ""
+
+msgid ""
+"Similar to :c:func:`PyErr_ProgramTextObject`, but *filename* is a :c:expr:"
+"`const char *`, which is decoded with the :term:`filesystem encoding and "
+"error handler`, instead of a Python object reference."
+msgstr ""
+
 msgid "Issuing warnings"
 msgstr "Menerbitkan peringatan"
 
@@ -360,6 +376,12 @@ msgstr ""
 msgid ""
 "Function similar to :c:func:`PyErr_WarnEx`, but use :c:func:"
 "`PyUnicode_FromFormat` to format the warning message.  *format* is an ASCII-"
+"encoded string."
+msgstr ""
+
+msgid ""
+"Similar to :c:func:`PyErr_WarnExplicit`, but uses :c:func:"
+"`PyUnicode_FromFormat` to format the warning message. *format* is an ASCII-"
 "encoded string."
 msgstr ""
 
@@ -1210,6 +1232,35 @@ msgstr ":c:data:`PyExc_ResourceWarning`."
 
 msgid ":c:data:`PyExc_EncodingWarning`."
 msgstr ":c:data:`PyExc_EncodingWarning`."
+
+msgid "Tracebacks"
+msgstr ""
+
+msgid ""
+"Type object for traceback objects. This is available as :class:`types."
+"TracebackType` in the Python layer."
+msgstr ""
+
+msgid ""
+"Return true if *op* is a traceback object, false otherwise. This function "
+"does not account for subtypes."
+msgstr ""
+
+msgid ""
+"Replace the :attr:`~BaseException.__traceback__` attribute on the current "
+"exception with a new traceback prepending *f* to the existing chain."
+msgstr ""
+
+msgid "Calling this function without an exception set is undefined behavior."
+msgstr ""
+
+msgid ""
+"This function returns ``0`` on success, and returns ``-1`` with an exception "
+"set on failure."
+msgstr ""
+
+msgid "Write the traceback *tb* into the file *f*."
+msgstr ""
 
 msgid "strerror (C function)"
 msgstr ""

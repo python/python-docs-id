@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 14:15+0000\n"
+"POT-Creation-Date: 2025-11-09 14:13+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -37,8 +37,52 @@ msgid "Hash value type: unsigned integer."
 msgstr ""
 
 msgid ""
+"A numerical value indicating the algorithm for hashing of :class:`str`, :"
+"class:`bytes`, and :class:`memoryview`."
+msgstr ""
+
+msgid "The algorithm name is exposed by :data:`sys.hash_info.algorithm`."
+msgstr ""
+
+msgid ""
+"Numerical values to compare to :c:macro:`Py_HASH_ALGORITHM` to determine "
+"which algorithm is used for hashing. The hash algorithm can be configured "
+"via the configure :option:`--with-hash-algorithm` option."
+msgstr ""
+
+msgid "Add :c:macro:`!Py_HASH_FNV` and :c:macro:`!Py_HASH_SIPHASH24`."
+msgstr ""
+
+msgid "Add :c:macro:`!Py_HASH_SIPHASH13`."
+msgstr ""
+
+msgid ""
+"Buffers of length in range ``[1, Py_HASH_CUTOFF)`` are hashed using DJBX33A "
+"instead of the algorithm described by :c:macro:`Py_HASH_ALGORITHM`."
+msgstr ""
+
+msgid "A :c:macro:`!Py_HASH_CUTOFF` of 0 disables the optimization."
+msgstr ""
+
+msgid ""
+":c:macro:`!Py_HASH_CUTOFF` must be non-negative and less or equal than 7."
+msgstr ""
+
+msgid ""
+"32-bit platforms should use a cutoff smaller than 64-bit platforms because "
+"it is easier to create colliding strings. A cutoff of 7 on 64-bit platforms "
+"and 5 on 32-bit platforms should provide a decent safety margin."
+msgstr ""
+
+msgid "This corresponds to the :data:`sys.hash_info.cutoff` constant."
+msgstr ""
+
+msgid ""
 "The `Mersenne prime <https://en.wikipedia.org/wiki/Mersenne_prime>`_ ``P = "
 "2**n -1``, used for numeric hash scheme."
+msgstr ""
+
+msgid "This corresponds to the :data:`sys.hash_info.modulus` constant."
 msgstr ""
 
 msgid "The exponent ``n`` of ``P`` in :c:macro:`PyHASH_MODULUS`."
@@ -50,7 +94,13 @@ msgstr ""
 msgid "The hash value returned for a positive infinity."
 msgstr ""
 
+msgid "This corresponds to the :data:`sys.hash_info.inf` constant."
+msgstr ""
+
 msgid "The multiplier used for the imaginary part of a complex number."
+msgstr ""
+
+msgid "This corresponds to the :data:`sys.hash_info.imag` constant."
 msgstr ""
 
 msgid "Hash function definition used by :c:func:`PyHash_GetFuncDef`."
@@ -62,10 +112,19 @@ msgstr ""
 msgid "Hash function name (UTF-8 encoded string)."
 msgstr ""
 
+msgid "This corresponds to the :data:`sys.hash_info.algorithm` constant."
+msgstr ""
+
 msgid "Internal size of the hash value in bits."
 msgstr ""
 
+msgid "This corresponds to the :data:`sys.hash_info.hash_bits` constant."
+msgstr ""
+
 msgid "Size of seed input in bits."
+msgstr ""
+
+msgid "This corresponds to the :data:`sys.hash_info.seed_bits` constant."
 msgstr ""
 
 msgid "Get the hash function definition."
