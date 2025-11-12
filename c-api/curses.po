@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-11 14:15+0000\n"
+"PO-Revision-Date: 2025-11-11 14:16+0000\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Curses C API"
+msgstr ""
+
+msgid ""
+":mod:`curses` exposes a small C interface for extension modules. Consumers "
+"must include the header file :file:`py_curses.h` (which is not included by "
+"default by :file:`Python.h`) and :c:func:`import_curses` must be invoked, "
+"usually as part of the module initialisation function, to populate :c:var:"
+"`PyCurses_API`."
+msgstr ""
+
+msgid ""
+"Neither the C API nor the pure Python :mod:`curses` module are compatible "
+"with subinterpreters."
+msgstr ""
+
+msgid ""
+"Import the curses C API. The macro does not need a semi-colon to be called."
+msgstr ""
+
+msgid "On success, populate the :c:var:`PyCurses_API` pointer."
+msgstr ""
+
+msgid ""
+"On failure, set :c:var:`PyCurses_API` to NULL and set an exception. The "
+"caller must check if an error occurred via :c:func:`PyErr_Occurred`:"
+msgstr ""
+
+msgid ""
+"import_curses();  // semi-colon is optional but recommended\n"
+"if (PyErr_Occurred()) { /* cleanup */ }"
+msgstr ""
+
+msgid ""
+"Dynamically allocated object containing the curses C API. This variable is "
+"only available once :c:macro:`import_curses` succeeds."
+msgstr ""
+
+msgid "``PyCurses_API[0]`` corresponds to :c:data:`PyCursesWindow_Type`."
+msgstr ""
+
+msgid ""
+"``PyCurses_API[1]``, ``PyCurses_API[2]``, and ``PyCurses_API[3]`` are "
+"pointers to predicate functions of type ``int (*)(void)``."
+msgstr ""
+
+msgid ""
+"When called, these predicates return whether :func:`curses.setupterm`, :func:"
+"`curses.initscr`, and :func:`curses.start_color` have been called "
+"respectively."
+msgstr ""
+
+msgid ""
+"See also the convenience macros :c:macro:`PyCursesSetupTermCalled`, :c:macro:"
+"`PyCursesInitialised`, and :c:macro:`PyCursesInitialisedColor`."
+msgstr ""
+
+msgid ""
+"The number of entries in this structure is subject to changes. Consider "
+"using :c:macro:`PyCurses_API_pointers` to check if new fields are available "
+"or not."
+msgstr ""
+
+msgid ""
+"The number of accessible fields (``4``) in :c:var:`PyCurses_API`. This "
+"number is incremented whenever new fields are added."
+msgstr ""
+
+msgid ""
+"The :ref:`heap type <heap-types>` corresponding to :class:`curses.window`."
+msgstr ""
+
+msgid ""
+"Return true if *op* is a :class:`curses.window` instance, false otherwise."
+msgstr ""
+
+msgid ""
+"The following macros are convenience macros expanding into C statements. In "
+"particular, they can only be used as ``macro;`` or ``macro``, but not "
+"``macro()`` or ``macro();``."
+msgstr ""
+
+msgid "Macro checking if :func:`curses.setupterm` has been called."
+msgstr ""
+
+msgid "The macro expansion is roughly equivalent to:"
+msgstr ""
+
+msgid ""
+"{\n"
+"    typedef int (*predicate_t)(void);\n"
+"    predicate_t was_setupterm_called = (predicate_t)PyCurses_API[1];\n"
+"    if (!was_setupterm_called()) {\n"
+"        return NULL;\n"
+"    }\n"
+"}"
+msgstr ""
+
+msgid "Macro checking if :func:`curses.initscr` has been called."
+msgstr ""
+
+msgid ""
+"{\n"
+"    typedef int (*predicate_t)(void);\n"
+"    predicate_t was_initscr_called = (predicate_t)PyCurses_API[2];\n"
+"    if (!was_initscr_called()) {\n"
+"        return NULL;\n"
+"    }\n"
+"}"
+msgstr ""
+
+msgid "Macro checking if :func:`curses.start_color` has been called."
+msgstr ""
+
+msgid ""
+"{\n"
+"    typedef int (*predicate_t)(void);\n"
+"    predicate_t was_start_color_called = (predicate_t)PyCurses_API[3];\n"
+"    if (!was_start_color_called()) {\n"
+"        return NULL;\n"
+"    }\n"
+"}"
+msgstr ""
+
+msgid "Internal data"
+msgstr ""
+
+msgid ""
+"The following objects are exposed by the C API but should be considered "
+"internal-only."
+msgstr ""
+
+msgid "Name of the curses capsule to pass to :c:func:`PyCapsule_Import`."
+msgstr ""
+
+msgid "Internal usage only. Use :c:macro:`import_curses` instead."
+msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2025-11-11 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -47,6 +47,12 @@ msgstr ""
 
 msgid ""
 "Previously, this type was only available after including ``<frameobject.h>``."
+msgstr ""
+
+msgid ""
+"Create a new frame object. This function returns a :term:`strong reference` "
+"to the new frame object on success, and returns ``NULL`` with an exception "
+"set on failure."
 msgstr ""
 
 msgid "Return non-zero if *obj* is a frame object."
@@ -152,6 +158,44 @@ msgid "The type of frame :func:`locals` proxy objects."
 msgstr ""
 
 msgid "Return non-zero if *obj* is a frame :func:`locals` proxy."
+msgstr ""
+
+msgid "Legacy Local Variable APIs"
+msgstr ""
+
+msgid ""
+"These APIs are :term:`soft deprecated`. As of Python 3.13, they do nothing. "
+"They exist solely for backwards compatibility."
+msgstr ""
+
+msgid "This function is :term:`soft deprecated` and does nothing."
+msgstr ""
+
+msgid ""
+"Prior to Python 3.13, this function would copy the :attr:`~frame.f_locals` "
+"attribute of *f* to the internal \"fast\" array of local variables, allowing "
+"changes in frame objects to be visible to the interpreter. If *clear* was "
+"true, this function would process variables that were unset in the locals "
+"dictionary."
+msgstr ""
+
+msgid "This function now does nothing."
+msgstr ""
+
+msgid ""
+"Prior to Python 3.13, this function would copy the internal \"fast\" array "
+"of local variables (which is used by the interpreter) to the :attr:`~frame."
+"f_locals` attribute of *f*, allowing changes in local variables to be "
+"visible to frame objects."
+msgstr ""
+
+msgid ""
+"Prior to Python 3.13, this function was similar to :c:func:"
+"`PyFrame_FastToLocals`, but would return ``0`` on success, and ``-1`` with "
+"an exception set on failure."
+msgstr ""
+
+msgid ":pep:`667`"
 msgstr ""
 
 msgid "Internal Frames"

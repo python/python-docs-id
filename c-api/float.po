@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-07 14:15+0000\n"
+"POT-Creation-Date: 2025-11-11 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -83,6 +83,32 @@ msgstr ""
 
 msgid ""
 "Return the minimum normalized positive float *DBL_MIN* as C :c:expr:`double`."
+msgstr ""
+
+msgid ""
+"This macro expands a to constant expression of type :c:expr:`double`, that "
+"represents the positive infinity."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to the :c:macro:`!INFINITY` macro from "
+"the C11 standard ``<math.h>`` header."
+msgstr ""
+
+msgid ""
+"This macro expands a to constant expression of type :c:expr:`double`, that "
+"represents a quiet not-a-number (qNaN) value."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to the :c:macro:`!NAN` macro from the "
+"C11 standard ``<math.h>`` header."
+msgstr ""
+
+msgid "High precision (long double) definition of :data:`~math.e` constant."
+msgstr ""
+
+msgid "High precision (long double) definition of :data:`~math.pi` constant."
 msgstr ""
 
 msgid "Return :data:`math.nan` from a function."
