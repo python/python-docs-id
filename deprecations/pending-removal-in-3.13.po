@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2025-11-15 14:12+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -119,34 +119,4 @@ msgid ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
 msgstr ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
 
 msgid ":class:`classmethod` descriptor chaining (:gh:`89519`)"
-msgstr ""
-
-msgid ":mod:`importlib.resources` deprecated methods:"
-msgstr ""
-
-msgid "``contents()``"
-msgstr "``contents()``"
-
-msgid "``is_resource()``"
-msgstr "``is_resource()``"
-
-msgid "``open_binary()``"
-msgstr "``open_binary()``"
-
-msgid "``open_text()``"
-msgstr "``open_text()``"
-
-msgid "``path()``"
-msgstr "``path()``"
-
-msgid "``read_binary()``"
-msgstr "``read_binary()``"
-
-msgid "``read_text()``"
-msgstr "``read_text()``"
-
-msgid ""
-"Use :func:`importlib.resources.files` instead.  Refer to `importlib-"
-"resources: Migrating from Legacy <https://importlib-resources.readthedocs.io/"
-"en/latest/using.html#migrating-from-legacy>`_ (:gh:`106531`)"
 msgstr ""
