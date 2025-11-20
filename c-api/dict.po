@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 18:32+0000\n"
+"POT-Creation-Date: 2025-11-19 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -486,6 +486,90 @@ msgstr ""
 msgid ""
 "Return true if *op* is an instance of a dictionary items view. This function "
 "always succeeds."
+msgstr ""
+
+msgid "Ordered Dictionaries"
+msgstr ""
+
+msgid ""
+"Python's C API provides interface for :class:`collections.OrderedDict` from "
+"C. Since Python 3.7, dictionaries are ordered by default, so there is "
+"usually little need for these functions; prefer ``PyDict*`` where possible."
+msgstr ""
+
+msgid ""
+"Type object for ordered dictionaries. This is the same object as :class:"
+"`collections.OrderedDict` in the Python layer."
+msgstr ""
+
+msgid ""
+"Return true if *od* is an ordered dictionary object or an instance of a "
+"subtype of the :class:`~collections.OrderedDict` type.  This function always "
+"succeeds."
+msgstr ""
+
+msgid ""
+"Return true if *od* is an ordered dictionary object, but not an instance of "
+"a subtype of the :class:`~collections.OrderedDict` type. This function "
+"always succeeds."
+msgstr ""
+
+msgid "Analogous to :c:type:`PyDictKeys_Type` for ordered dictionaries."
+msgstr ""
+
+msgid "Analogous to :c:type:`PyDictValues_Type` for ordered dictionaries."
+msgstr ""
+
+msgid "Analogous to :c:type:`PyDictItems_Type` for ordered dictionaries."
+msgstr ""
+
+msgid "Return a new empty ordered dictionary, or ``NULL`` on failure."
+msgstr ""
+
+msgid "This is analogous to :c:func:`PyDict_New`."
+msgstr ""
+
+msgid ""
+"Insert *value* into the ordered dictionary *od* with a key of *key*. Return "
+"``0`` on success or ``-1`` with an exception set on failure."
+msgstr ""
+
+msgid "This is analogous to :c:func:`PyDict_SetItem`."
+msgstr ""
+
+msgid ""
+"Remove the entry in the ordered dictionary *od* with key *key*. Return ``0`` "
+"on success or ``-1`` with an exception set on failure."
+msgstr ""
+
+msgid "This is analogous to :c:func:`PyDict_DelItem`."
+msgstr ""
+
+msgid "These are :term:`soft deprecated` aliases to ``PyDict`` APIs:"
+msgstr ""
+
+msgid "``PyODict``"
+msgstr ""
+
+msgid "``PyDict``"
+msgstr ""
+
+msgid ":c:func:`PyDict_GetItem`"
+msgstr ""
+
+msgid ":c:func:`PyDict_GetItemWithError`"
+msgstr ""
+
+msgid ":c:func:`PyDict_GetItemString`"
+msgstr ""
+
+msgid ":c:func:`PyDict_Contains`"
+msgstr ""
+
+msgid ":c:func:`PyDict_Size`"
+msgstr ""
+
+msgid ":c:func:`PyDict_GET_SIZE`"
 msgstr ""
 
 msgid "object"

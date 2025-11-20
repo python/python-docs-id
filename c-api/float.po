@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 14:15+0000\n"
+"POT-Creation-Date: 2025-11-19 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -105,6 +105,12 @@ msgid ""
 "C11 standard ``<math.h>`` header."
 msgstr ""
 
+msgid "Equivalent to :c:macro:`!INFINITY`."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`."
+msgstr ""
+
 msgid ""
 "The definition (accurate for a :c:expr:`double` type) of the :data:`math.e` "
 "constant."
@@ -142,6 +148,32 @@ msgid "On most platforms, this is equivalent to the following::"
 msgstr ""
 
 msgid "return PyFloat_FromDouble(copysign(INFINITY, sign));"
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is finite, that is, it "
+"is normal, subnormal or zero, but not infinite or NaN. Return ``0`` "
+"otherwise."
+msgstr ""
+
+msgid ""
+"The macro is :term:`soft deprecated`.  Use :c:macro:`!isfinite` instead."
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is positive or negative "
+"infinity.  Return ``0`` otherwise."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`.  Use :c:macro:`!isinf` instead."
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is a not-a-number (NaN) "
+"value.  Return ``0`` otherwise."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`.  Use :c:macro:`!isnan` instead."
 msgstr ""
 
 msgid "Pack and Unpack functions"

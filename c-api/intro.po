@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 14:15+0000\n"
+"POT-Creation-Date: 2025-11-19 19:26+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -218,10 +218,29 @@ msgid ""
 "command line (see :c:member:`PyConfig.use_environment`)."
 msgstr ""
 
+msgid ""
+"Declare a function returning the specified *type* using a fast-calling "
+"qualifier for functions that are local to the current file. Semantically, "
+"this is equivalent to ``static type``."
+msgstr ""
+
+msgid ""
+"Equivalent to :c:macro:`Py_LOCAL` but additionally requests the function be "
+"inlined."
+msgstr ""
+
 msgid "Return the maximum value between ``x`` and ``y``."
 msgstr ""
 
 msgid "Return the size of a structure (``type``) ``member`` in bytes."
+msgstr ""
+
+msgid ""
+"This is a :term:`soft deprecated` alias to :c:func:`!memcpy`. Use :c:func:`!"
+"memcpy` directly instead."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`."
 msgstr ""
 
 msgid "Return the minimum value between ``x`` and ``y``."

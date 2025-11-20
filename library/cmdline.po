@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-15 14:12+0000\n"
+"POT-Creation-Date: 2025-11-19 19:26+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -54,7 +54,7 @@ msgstr ""
 msgid ":mod:`!encodings.rot_13`"
 msgstr ""
 
-msgid ":mod:`ensurepip`"
+msgid ":ref:`ensurepip <ensurepip-cli>`"
 msgstr ""
 
 msgid ":mod:`filecmp`"
@@ -72,7 +72,7 @@ msgstr ""
 msgid ":ref:`http.server <http-server-cli>`"
 msgstr ""
 
-msgid ":mod:`!idlelib`"
+msgid ":ref:`idlelib <idlelib-cli>`"
 msgstr ""
 
 msgid ":ref:`inspect <inspect-module-cli>`"
@@ -84,7 +84,7 @@ msgstr ""
 msgid ":ref:`mimetypes <mimetypes-cli>`"
 msgstr ""
 
-msgid ":mod:`pdb`"
+msgid ":ref:`pdb <pdb-cli>`"
 msgstr ""
 
 msgid ":ref:`pickle <pickle-cli>`"
@@ -162,10 +162,10 @@ msgstr ""
 msgid ":ref:`uuid <uuid-cli>`"
 msgstr ""
 
-msgid ":mod:`venv`"
+msgid ":ref:`venv <venv-cli>`"
 msgstr ""
 
-msgid ":mod:`webbrowser`"
+msgid ":ref:`webbrowser <webbrowser-cli>`"
 msgstr ""
 
 msgid ":ref:`zipapp <zipapp-command-line-interface>`"
