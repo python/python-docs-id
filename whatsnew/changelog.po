@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-03 14:17+0000\n"
+"POT-Creation-Date: 2025-12-05 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -24,6 +24,65 @@ msgstr ""
 
 msgid "Changelog"
 msgstr "Catatan Perubahan"
+
+msgid "Python next"
+msgstr "Python next"
+
+msgid "*Release date: XXXX-XX-XX*"
+msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "Security"
+msgstr "Keamanan"
+
+msgid ""
+":gh:`142145`: Remove quadratic behavior in ``xml.minidom`` node ID cache "
+"clearing."
+msgstr ""
+
+msgid "Library"
+msgstr "Pustaka"
+
+msgid ""
+":gh:`142206`: The resource tracker in the :mod:`multiprocessing` module now "
+"uses the original communication protocol, as in Python 3.14.0 and below, by "
+"default. This avoids issues with upgrading Python while it is running. (Note "
+"that such 'in-place' upgrades are not tested.) The tracker remains "
+"compatible with subprocesses that use new protocol (that is, subprocesses "
+"using Python 3.13.10, 3.14.1 and 3.15)."
+msgstr ""
+
+msgid ""
+":gh:`142214`: Fix two regressions in :mod:`dataclasses` in Python 3.14.1 "
+"related to annotations."
+msgstr ""
+
+msgid ""
+"An exception is no longer raised if ``slots=True`` is used and the "
+"``__init__`` method does not have an ``__annotate__`` attribute (likely "
+"because ``init=False`` was used)."
+msgstr ""
+
+msgid ""
+"An exception is no longer raised if annotations are requested on the "
+"``__init__`` method and one of the fields is not present in the class "
+"annotations. This can occur in certain dynamic scenarios."
+msgstr ""
+
+msgid "Patch by Jelle Zijlstra."
+msgstr ""
+
+msgid "Core and Builtins"
+msgstr "Inti dan Bawaan"
+
+msgid ""
+":gh:`142218`: Fix crash when inserting into a split table dictionary with a "
+"non :class:`str` key that matches an existing key."
+msgstr ""
+
+msgid ""
+":gh:`116738`: Fix :mod:`cmath` data race when initializing trigonometric "
+"tables with subinterpreters."
+msgstr ""
 
 msgid "Python 3.14.1 final"
 msgstr ""
@@ -98,9 +157,6 @@ msgid ""
 "TestCase.setUpClass` raises an exception"
 msgstr ""
 
-msgid "Security"
-msgstr "Keamanan"
-
 msgid ""
 ":gh:`139700`: Check consistency of the zip64 end of central directory "
 "record. Support records with \"zip64 extensible data\" if there are no bytes "
@@ -143,9 +199,6 @@ msgid ""
 "have led to symptoms including a :exc:`MemoryError`, swapping, out of memory "
 "(OOM) killed processes or containers, or even system crashes."
 msgstr ""
-
-msgid "Library"
-msgstr "Pustaka"
 
 msgid ""
 ":gh:`74389`: When the stdin being used by a :class:`subprocess.Popen` "
@@ -803,9 +856,6 @@ msgid ""
 "`multiprocessing`, that implied that :class:`concurrent.futures."
 "ThreadPoolExecutor` did not exist."
 msgstr ""
-
-msgid "Core and Builtins"
-msgstr "Inti dan Bawaan"
 
 msgid ""
 ":gh:`142048`: Fix quadratically increasing garbage collection delays in free-"
@@ -37033,9 +37083,6 @@ msgid "``Thread.isDaemon`` => :attr:`threading.Thread.daemon`"
 msgstr ""
 
 msgid "``Thread.setDaemon`` => :attr:`threading.Thread.daemon`"
-msgstr ""
-
-msgid "Patch by Jelle Zijlstra."
 msgstr ""
 
 msgid ""
