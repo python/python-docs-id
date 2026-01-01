@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
 # Hengky Kurniawan, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 14:16+0000\n"
+"POT-Creation-Date: 2025-12-31 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -516,8 +516,8 @@ msgid ""
 "include the following operations:"
 msgstr ""
 
-msgid ":func:`math.trunc( x) <math.trunc>`"
-msgstr ""
+msgid ":func:`math.trunc(\\ x) <math.trunc>`"
+msgstr ":func:`math.trunc(\\ x) <math.trunc>`"
 
 msgid "*x* truncated to :class:`~numbers.Integral`"
 msgstr ""
@@ -530,8 +530,8 @@ msgid ""
 "defaults to 0."
 msgstr ""
 
-msgid ":func:`math.floor( x) <math.floor>`"
-msgstr ""
+msgid ":func:`math.floor(\\ x) <math.floor>`"
+msgstr ":func:`math.floor(\\ x) <math.floor>`"
 
 msgid "the greatest :class:`~numbers.Integral` <= *x*"
 msgstr ""
