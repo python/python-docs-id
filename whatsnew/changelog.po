@@ -5,6 +5,7 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2026
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-03 14:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -412,10 +413,10 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.14.2 final"
-msgstr ""
+msgstr "Python 3.14.2 final"
 
 msgid "*Release date: 2025-12-05*"
-msgstr ""
+msgstr "*Tanggal rilis: 2025-12-05*"
 
 msgid "Security"
 msgstr "Keamanan"
@@ -453,6 +454,8 @@ msgid ""
 ":gh:`142214`: Fix two regressions in :mod:`dataclasses` in Python 3.14.1 "
 "related to annotations."
 msgstr ""
+":gh:`142214`: Perbaikan dua regresi dalam :mod:`dataclasses` pada Python "
+"3.14.1 terkait anotasi."
 
 msgid ""
 "An exception is no longer raised if ``slots=True`` is used and the "
@@ -480,10 +483,10 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.14.1 final"
-msgstr ""
+msgstr "Python 3.14.1 final"
 
 msgid "*Release date: 2025-12-02*"
-msgstr ""
+msgstr "*Tanggal rilis: 2025-12-02*"
 
 msgid ""
 ":gh:`139810`: Installing with ``py install 3[.x]-dev`` will now select final "
@@ -1669,10 +1672,10 @@ msgid ":gh:`139312`: Upgrade bundled libexpat to 2.7.3"
 msgstr ""
 
 msgid "Python 3.14.0 release candidate 3"
-msgstr ""
+msgstr "Python 3.14.0 kandidat rilis 3"
 
 msgid "*Release date: 2025-09-18*"
-msgstr ""
+msgstr "*Tanggal rilis: 2025-09-18*"
 
 msgid ""
 ":gh:`138896`: Fix error installing C runtime on non-updated Windows machines"
@@ -2396,10 +2399,10 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.14.0 beta 3"
-msgstr ""
+msgstr "Python 3.14.0 beta 3"
 
 msgid "*Release date: 2025-06-17*"
-msgstr ""
+msgstr "*Tanggal rilis: 2025-06-17*"
 
 msgid ""
 ":gh:`135099`: Fix a crash that could occur on Windows when a background "
@@ -2418,7 +2421,7 @@ msgid ""
 msgstr ""
 
 msgid ":gh:`135120`: Add :func:`!test.support.subTests`."
-msgstr ""
+msgstr ":gh:`135120`: Menambahkan :func:`!test.support.subTests`."
 
 msgid ""
 ":gh:`135462`: Fix quadratic complexity in processing specially crafted input "
