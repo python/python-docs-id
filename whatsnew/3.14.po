@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 14:15+0000\n"
+"POT-Creation-Date: 2026-01-07 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -3621,6 +3621,19 @@ msgid ""
 "removal in Python 3.17."
 msgstr ""
 
+msgid "Pending removal in Python 3.18"
+msgstr ""
+
+msgid ":mod:`decimal`:"
+msgstr ""
+
+msgid ""
+"The non-standard and undocumented :class:`~decimal.Decimal` format specifier "
+"``'N'``, which is only supported in the :mod:`!decimal` module's C "
+"implementation, has been deprecated since Python 3.13. (Contributed by "
+"Serhiy Storchaka in :gh:`89902`.)"
+msgstr ""
+
 msgid "Pending removal in Python 3.19"
 msgstr "Penghapusan yang tertunda di Python 3.19"
 
@@ -4652,9 +4665,6 @@ msgid ""
 msgstr ""
 
 msgid "The bundled copy of ``libmpdec``."
-msgstr ""
-
-msgid "Pending removal in Python 3.18"
 msgstr ""
 
 msgid ""
