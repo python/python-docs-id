@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-07 14:19+0000\n"
+"POT-Creation-Date: 2026-01-13 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -264,6 +264,49 @@ msgid ""
 ">>> heappush(h, (3, 'create tests'))\n"
 ">>> heappop(h)\n"
 "(1, 'write spec')"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid ""
+"`Medians <https://en.wikipedia.org/wiki/Median>`_ are a measure of central "
+"tendency for a set of numbers.  In distributions skewed by outliers, the "
+"median provides a more stable estimate than an average (arithmetic mean).  A "
+"running median is an `online algorithm <https://en.wikipedia.org/wiki/"
+"Online_algorithm>`_ that updates continuously as new data arrives."
+msgstr ""
+
+msgid ""
+"A running median can be efficiently implemented by balancing two heaps, a "
+"max-heap for values at or below the midpoint and a min-heap for values above "
+"the midpoint.  When the two heaps have the same size, the new median is the "
+"average of the tops of the two heaps; otherwise, the median is at the top of "
+"the larger heap::"
+msgstr ""
+
+msgid ""
+"def running_median(iterable):\n"
+"    \"Yields the cumulative median of values seen so far.\"\n"
+"\n"
+"    lo = []  # max-heap\n"
+"    hi = []  # min-heap (same size as or one smaller than lo)\n"
+"\n"
+"    for x in iterable:\n"
+"        if len(lo) == len(hi):\n"
+"            heappush_max(lo, heappushpop(hi, x))\n"
+"            yield lo[0]\n"
+"        else:\n"
+"            heappush(hi, heappushpop_max(lo, x))\n"
+"            yield (lo[0] + hi[0]) / 2"
+msgstr ""
+
+msgid "For example::"
+msgstr "Sebagai contoh::"
+
+msgid ""
+">>> list(running_median([5.0, 9.0, 4.0, 12.0, 8.0, 9.0]))\n"
+"[5.0, 7.0, 5.0, 7.0, 8.0, 8.5]"
 msgstr ""
 
 msgid "Priority Queue Implementation Notes"
