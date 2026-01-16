@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 14:20+0000\n"
+"POT-Creation-Date: 2026-01-15 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -399,15 +399,3 @@ msgstr "objek kode"
 
 msgid "PyCode_New (C function)"
 msgstr "PyCode_New (fungsi C)"
-
-msgid "PyCode_NewWithPosOnlyArgs (C function)"
-msgstr "PyCode_NewWithPosOnlyArgs (fungsi C)"
-
-msgid "_PyEval_RequestCodeExtraIndex (C function)"
-msgstr "_PyEval_RequestCodeExtraIndex (fungsi C)"
-
-msgid "_PyCode_GetExtra (C function)"
-msgstr "_PyCode_GetExtra (fungsi C)"
-
-msgid "_PyCode_SetExtra (C function)"
-msgstr "_PyCode_SetExtra (fungsi C)"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 14:15+0000\n"
+"POT-Creation-Date: 2026-01-15 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1860,6 +1860,14 @@ msgstr ""
 
 msgid ""
 "This bit is inherited if :c:member:`~PyTypeObject.tp_call` is also inherited."
+msgstr ""
+
+msgid "as ``_Py_TPFLAGS_HAVE_VECTORCALL``"
+msgstr ""
+
+msgid ""
+"Renamed to the current name, without the leading underscore. The old "
+"provisional name is :term:`soft deprecated`."
 msgstr ""
 
 msgid ""
