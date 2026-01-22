@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 14:21+0000\n"
+"POT-Creation-Date: 2026-01-21 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Hengky Kurniawan, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -89,9 +89,25 @@ msgid "Library"
 msgstr "Pustaka"
 
 msgid ""
+":gh:`144050`: Fix :func:`stat.filemode` in the pure-Python implementation to "
+"avoid misclassifying invalid mode values as block devices."
+msgstr ""
+
+msgid ""
+":gh:`143999`: Fix an issue where :func:`inspect.getgeneratorstate` and :func:"
+"`inspect.getcoroutinestate` could fail for generators wrapped by :func:"
+"`types.coroutine` in the suspended state."
+msgstr ""
+
+msgid ""
 ":gh:`143831`: :class:`annotationlib.ForwardRef` objects are now hashable "
 "when created from annotation scopes with closures. Previously, hashing such "
 "objects would throw an exception. Patch by Bartosz Sławecki."
+msgstr ""
+
+msgid ""
+":gh:`143874`: Fixed a bug in :mod:`pdb` where expression results were not "
+"sent back to remote client."
 msgstr ""
 
 msgid ""
@@ -419,6 +435,13 @@ msgid ""
 "occurred."
 msgstr ""
 
+msgid "IDLE"
+msgstr "IDLE"
+
+msgid ""
+":gh:`143774`: Better explain the operation of Format / Format Paragraph."
+msgstr ""
+
 msgid "Documentation"
 msgstr "Dokumentasi"
 
@@ -427,6 +450,10 @@ msgstr ""
 
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
+
+msgid ""
+":gh:`144012`: Check if the result is ``NULL`` in ``BINARY_OP_EXTENT`` opcode."
+msgstr ""
 
 msgid ""
 ":gh:`141805`: Fix crash in :class:`set` when objects with the same hash are "
@@ -1420,9 +1447,6 @@ msgid ""
 ":issue:`41839`: Allow negative priority values from :func:`os."
 "sched_get_priority_min` and :func:`os.sched_get_priority_max` functions."
 msgstr ""
-
-msgid "IDLE"
-msgstr "IDLE"
 
 msgid ""
 ":gh:`96491`: Deduplicate version number in IDLE shell title bar after saving "
