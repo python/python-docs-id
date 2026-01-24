@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-03 14:14+0000\n"
+"POT-Creation-Date: 2026-01-23 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -190,9 +190,22 @@ msgstr ""
 
 msgid ""
 "If *ptype* is non-``NULL``, then the value it points to will be set to one "
-"of ``Py_DTST_FINITE``, ``Py_DTST_INFINITE``, or ``Py_DTST_NAN``, signifying "
-"that *val* is a finite number, an infinite number, or not a number, "
-"respectively."
+"of the following constants depending on the type of *val*:"
+msgstr ""
+
+msgid "*\\*ptype*"
+msgstr ""
+
+msgid "type of *val*"
+msgstr ""
+
+msgid "finite number"
+msgstr ""
+
+msgid "infinite number"
+msgstr ""
+
+msgid "not a number"
 msgstr ""
 
 msgid ""
