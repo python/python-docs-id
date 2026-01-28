@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 14:20+0000\n"
+"POT-Creation-Date: 2026-01-27 14:24+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -532,6 +532,11 @@ msgstr "Atribut"
 
 msgid "Meaning"
 msgstr "Artinya"
+
+msgid ""
+"A reference to the :class:`dictionary <dict>` that holds the function's "
+"builtins namespace."
+msgstr ""
 
 msgid ""
 "A reference to the :class:`dictionary <dict>` that holds the function's :ref:"
@@ -4113,6 +4118,9 @@ msgid "user-defined"
 msgstr ""
 
 msgid "user-defined function"
+msgstr ""
+
+msgid "__builtins__ (function attribute)"
 msgstr ""
 
 msgid "__closure__ (function attribute)"
