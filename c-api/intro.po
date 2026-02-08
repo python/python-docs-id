@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 14:39+0000\n"
+"POT-Creation-Date: 2026-02-07 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -157,7 +157,102 @@ msgid ""
 "utility are defined here.  This is not necessarily a complete listing."
 msgstr ""
 
+msgid ""
+"If this macro is defined, then the current system is able to start threads."
+msgstr ""
+
+msgid ""
+"Currently, all systems supported by CPython (per :pep:`11`), with the "
+"exception of some WebAssembly platforms, support starting threads."
+msgstr ""
+
+msgid ""
+"Like :samp:`getenv({s})`, but returns ``NULL`` if :option:`-E` was passed on "
+"the command line (see :c:member:`PyConfig.use_environment`)."
+msgstr ""
+
+msgid "Docstring macros"
+msgstr ""
+
+msgid ""
+"Creates a variable with name *name* that can be used in docstrings. If "
+"Python is built without docstrings (:option:`--without-doc-strings`), the "
+"value will be an empty string."
+msgstr ""
+
+msgid "Example::"
+msgstr "Contoh::"
+
+msgid ""
+"PyDoc_STRVAR(pop_doc, \"Remove and return the rightmost element.\");\n"
+"\n"
+"static PyMethodDef deque_methods[] = {\n"
+"    // ...\n"
+"    {\"pop\", (PyCFunction)deque_pop, METH_NOARGS, pop_doc},\n"
+"    // ...\n"
+"}"
+msgstr ""
+
+msgid "Expands to :samp:`PyDoc_VAR({name}) = PyDoc_STR({str})`."
+msgstr ""
+
+msgid ""
+"Expands to the given input string, or an empty string if docstrings are "
+"disabled (:option:`--without-doc-strings`)."
+msgstr ""
+
+msgid ""
+"static PyMethodDef pysqlite_row_methods[] = {\n"
+"    {\"keys\", (PyCFunction)pysqlite_row_keys, METH_NOARGS,\n"
+"        PyDoc_STR(\"Returns the keys of the row.\")},\n"
+"    {NULL, NULL}\n"
+"};"
+msgstr ""
+
+msgid ""
+"Declares a static character array variable with the given *name*. Expands "
+"to :samp:`static const char {name}[]`"
+msgstr ""
+
+msgid "For example::"
+msgstr "Sebagai contoh::"
+
+msgid ""
+"PyDoc_VAR(python_doc) = PyDoc_STR(\n"
+"   \"A genus of constricting snakes in the Pythonidae family native \"\n"
+"   \"to the tropics and subtropics of the Eastern Hemisphere.\");"
+msgstr ""
+
+msgid "General utility macros"
+msgstr ""
+
+msgid "The following macros common tasks not specific to Python."
+msgstr ""
+
+msgid ""
+"Use this for unused arguments in a function definition to silence compiler "
+"warnings. Example: ``int func(int a, int Py_UNUSED(b)) { return a; }``."
+msgstr ""
+
+msgid ""
+"Use a GCC attribute *name*, hiding it from compilers that don't support GCC "
+"attributes (such as MSVC)."
+msgstr ""
+
+msgid ""
+"This expands to :samp:`__attribute__(({name)})` on a GCC compiler, and "
+"expands to nothing on compilers that don't support GCC attributes."
+msgstr ""
+
+msgid "Numeric utilities"
+msgstr ""
+
 msgid "Return the absolute value of ``x``."
+msgstr ""
+
+msgid ""
+"The argument may be evaluated more than once. Consequently, do not pass an "
+"expression with side-effects directly to this macro."
 msgstr ""
 
 msgid ""
@@ -165,16 +260,26 @@ msgid ""
 "INT_MIN` value for :c:expr:`int` type), the behavior is undefined."
 msgstr ""
 
-msgid "Specify alignment to *num* bytes on compilers that support it."
+msgid "Corresponds roughly to :samp:`(({x}) < 0 ? -({x}) : ({x}))`"
 msgstr ""
 
-msgid "Consider using the C11 standard ``_Alignas`` specifier over this macro."
+msgid "Return the larger or smaller of the arguments, respectively."
 msgstr ""
 
 msgid ""
-"Similar to ``integer >> positions``, but forces sign extension, as the C "
-"standard does not define whether a right-shift of a signed integer will "
-"perform sign extension or a zero-fill."
+"Any arguments may be evaluated more than once. Consequently, do not pass an "
+"expression with side-effects directly to this macro."
+msgstr ""
+
+msgid ""
+":c:macro:`!Py_MAX` corresponds roughly to :samp:`((({x}) > ({y})) ? ({x}) : "
+"({y}))`."
+msgstr ""
+
+msgid ""
+"Similar to :samp:`{integer} >> {positions}`, but forces sign extension, as "
+"the C standard does not define whether a right-shift of a signed integer "
+"will perform sign extension or a zero-fill."
 msgstr ""
 
 msgid ""
@@ -200,8 +305,145 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Argument must be a character or an integer in the range [-128, 127] or [0, "
+"255].  This macro returns ``c`` cast to an ``unsigned char``."
+msgstr ""
+
+msgid "Assertion utilities"
+msgstr ""
+
+msgid ""
+"Use this when you have a code path that cannot be reached by design. For "
+"example, in the ``default:`` clause in a ``switch`` statement for which all "
+"possible values are covered in ``case`` statements.  Use this in places "
+"where you might be tempted to put an ``assert(0)`` or ``abort()`` call."
+msgstr ""
+
+msgid ""
+"In release mode, the macro helps the compiler to optimize the code, and "
+"avoids a warning about unreachable code.  For example, the macro is "
+"implemented with ``__builtin_unreachable()`` on GCC in release mode."
+msgstr ""
+
+msgid ""
+"In debug mode, and on unsupported compilers, the macro expands to a call to :"
+"c:func:`Py_FatalError`."
+msgstr ""
+
+msgid ""
+"A use for ``Py_UNREACHABLE()`` is following a call a function that never "
+"returns but that is not declared ``_Noreturn``."
+msgstr ""
+
+msgid ""
+"If a code path is very unlikely code but can be reached under exceptional "
+"case, this macro must not be used.  For example, under low memory condition "
+"or if a system call returns a value out of the expected range.  In this "
+"case, it's better to report the error to the caller.  If the error cannot be "
+"reported to caller, :c:func:`Py_FatalError` can be used."
+msgstr ""
+
+msgid ""
+"Cast *value* to type *smaller* from type *larger*, validating that no "
+"information was lost."
+msgstr ""
+
+msgid ""
+"On release builds of Python, this is roughly equivalent to :samp:"
+"`(({smaller}) {value})` (in C++, :samp:`static_cast<{smaller}>({value})` "
+"will be used instead)."
+msgstr ""
+
+msgid ""
+"On debug builds (implying that :c:macro:`Py_DEBUG` is defined), this asserts "
+"that no information was lost with the cast from *larger* to *smaller*."
+msgstr ""
+
+msgid ""
+"*value*, *larger*, and *smaller* may all be evaluated more than once in the "
+"expression; consequently, do not pass an expression with side-effects "
+"directly to this macro."
+msgstr ""
+
+msgid ""
+"Asserts a compile-time condition *cond*, as a statement. The build will fail "
+"if the condition is false or cannot be evaluated at compile time."
+msgstr ""
+
+msgid "Corresponds roughly to :samp:`static_assert({cond})` on C23 and above."
+msgstr ""
+
+msgid "Py_BUILD_ASSERT(sizeof(PyTime_t) == sizeof(int64_t));"
+msgstr ""
+
+msgid ""
+"Asserts a compile-time condition *cond*, as an expression that evaluates to "
+"``0``. The build will fail if the condition is false or cannot be evaluated "
+"at compile time."
+msgstr ""
+
+msgid ""
+"#define foo_to_char(foo) \\\n"
+"    ((char *)(foo) + Py_BUILD_ASSERT_EXPR(offsetof(struct foo, string) == 0))"
+msgstr ""
+
+msgid "Type size utilities"
+msgstr ""
+
+msgid "Compute the length of a statically allocated C array at compile time."
+msgstr ""
+
+msgid ""
+"The *array* argument must be a C array with a size known at compile time. "
+"Passing an array with an unknown size, such as a heap-allocated array, will "
+"result in a compilation error on some compilers, or otherwise produce "
+"incorrect results."
+msgstr ""
+
+msgid "This is roughly equivalent to::"
+msgstr ""
+
+msgid "sizeof(array) / sizeof((array)[0])"
+msgstr ""
+
+msgid "Return the size of a structure (*type*) *member* in bytes."
+msgstr ""
+
+msgid "Corresponds roughly to :samp:`sizeof((({type} *)NULL)->{member})`."
+msgstr ""
+
+msgid "Macro definition utilities"
+msgstr ""
+
+msgid ""
+"This is equivalent to :samp:`{X}`, which is useful for token-pasting in "
+"macros, as macro expansions in *X* are forcefully evaluated by the "
+"preprocessor."
+msgstr ""
+
+msgid ""
+"Convert ``x`` to a C string.  For example, ``Py_STRINGIFY(123)`` returns "
+"``\"123\"``."
+msgstr ""
+
+msgid "Declaration utilities"
+msgstr ""
+
+msgid ""
+"The following macros can be used in declarations. They are most useful for "
+"defining the C API itself, and have limited use for extension authors. Most "
+"of them expand to compiler-specific spellings of common extensions to the C "
+"language."
+msgstr ""
+
+msgid ""
 "Ask the compiler to always inline a static inline function. The compiler can "
 "ignore it and decide to not inline the function."
+msgstr ""
+
+msgid ""
+"Corresponds to ``always_inline`` attribute in GCC and ``__forceinline`` in "
+"MSVC."
 msgstr ""
 
 msgid ""
@@ -229,26 +471,25 @@ msgid "static inline Py_ALWAYS_INLINE int random(void) { return 4; }"
 msgstr ""
 
 msgid ""
-"If this macro is defined, then the current system is able to start threads."
+"Disable inlining on a function. For example, it reduces the C stack "
+"consumption: useful on LTO+PGO builds which heavily inline code (see :issue:"
+"`33720`)."
 msgstr ""
 
 msgid ""
-"Currently, all systems supported by CPython (per :pep:`11`), with the "
-"exception of some WebAssembly platforms, support starting threads."
+"Corresponds to the ``noinline`` attribute/specification on GCC and MSVC."
+msgstr ""
+
+msgid "Usage::"
+msgstr "Penggunaan::"
+
+msgid "Py_NO_INLINE static int random(void) { return 4; }"
 msgstr ""
 
 msgid ""
-"Argument must be a character or an integer in the range [-128, 127] or [0, "
-"255].  This macro returns ``c`` cast to an ``unsigned char``."
+"Use this to declare APIs that were deprecated in a specific CPython version. "
+"The macro must be placed before the symbol name."
 msgstr ""
-
-msgid ""
-"Use this for deprecated declarations.  The macro must be placed before the "
-"symbol name."
-msgstr ""
-
-msgid "Example::"
-msgstr "Contoh::"
 
 msgid "Py_DEPRECATED(3.8) PyAPI_FUNC(int) Py_OldFunction(void);"
 msgstr ""
@@ -257,42 +498,9 @@ msgid "MSVC support was added."
 msgstr ""
 
 msgid ""
-"This is equivalent to ``X``, which is useful for token-pasting in macros, as "
-"macro expansions in *X* are forcefully evaluated by the preprocessor."
-msgstr ""
-
-msgid ""
-"Use a GCC attribute *name*, hiding it from compilers that don't support GCC "
-"attributes (such as MSVC)."
-msgstr ""
-
-msgid ""
-"This expands to ``__attribute__((name))`` on a GCC compiler, and expands to "
-"nothing on compilers that don't support GCC attributes."
-msgstr ""
-
-msgid ""
-"Like ``getenv(s)``, but returns ``NULL`` if :option:`-E` was passed on the "
-"command line (see :c:member:`PyConfig.use_environment`)."
-msgstr ""
-
-msgid "Use *number* as a ``long long`` integer literal."
-msgstr ""
-
-msgid ""
-"This usally expands to *number* followed by ``LL``, but will expand to some "
-"compiler-specific suffixes (such as ``I64``) on older compilers."
-msgstr ""
-
-msgid ""
-"In modern versions of Python, this macro is not very useful, as C99 and "
-"later require the ``LL`` suffix to be valid for an integer."
-msgstr ""
-
-msgid ""
 "Declare a function returning the specified *type* using a fast-calling "
 "qualifier for functions that are local to the current file. Semantically, "
-"this is equivalent to ``static type``."
+"this is equivalent to :samp:`static {type}`."
 msgstr ""
 
 msgid ""
@@ -308,187 +516,6 @@ msgstr ""
 msgid ""
 "On compatible versions of GCC/Clang, it expands to "
 "``__attribute__((visibility(\"hidden\")))``."
-msgstr ""
-
-msgid "Return the maximum value between ``x`` and ``y``."
-msgstr ""
-
-msgid "Return the size of a structure (``type``) ``member`` in bytes."
-msgstr ""
-
-msgid ""
-"This is a :term:`soft deprecated` alias to :c:func:`!memcpy`. Use :c:func:`!"
-"memcpy` directly instead."
-msgstr ""
-
-msgid "The macro is :term:`soft deprecated`."
-msgstr ""
-
-msgid "Return the minimum value between ``x`` and ``y``."
-msgstr ""
-
-msgid ""
-"Disable inlining on a function. For example, it reduces the C stack "
-"consumption: useful on LTO+PGO builds which heavily inline code (see :issue:"
-"`33720`)."
-msgstr ""
-
-msgid "Usage::"
-msgstr "Penggunaan::"
-
-msgid "Py_NO_INLINE static int random(void) { return 4; }"
-msgstr ""
-
-msgid ""
-"Cast *value* to type *smaller* from type *larger*, validating that no "
-"information was lost."
-msgstr ""
-
-msgid ""
-"On release builds of Python, this is roughly equivalent to ``(smaller) "
-"value`` (in C++, ``static_cast<smaller>(value)`` will be used instead)."
-msgstr ""
-
-msgid ""
-"On debug builds (implying that :c:macro:`Py_DEBUG` is defined), this asserts "
-"that no information was lost with the cast from *larger* to *smaller*."
-msgstr ""
-
-msgid ""
-"*value*, *larger*, and *smaller* may all be evaluated more than once in the "
-"expression; consequently, do not pass an expression with side-effects "
-"directly to this macro."
-msgstr ""
-
-msgid ""
-"Convert ``x`` to a C string.  E.g. ``Py_STRINGIFY(123)`` returns ``\"123\"``."
-msgstr ""
-
-msgid ""
-"Similar to :c:macro:`Py_LL`, but *number* will be an ``unsigned long long`` "
-"literal instead. This is done by appending ``U`` to the result of ``Py_LL``."
-msgstr ""
-
-msgid ""
-"In modern versions of Python, this macro is not very useful, as C99 and "
-"later require the ``ULL``/``LLU`` suffixes to be valid for an integer."
-msgstr ""
-
-msgid ""
-"Use this when you have a code path that cannot be reached by design. For "
-"example, in the ``default:`` clause in a ``switch`` statement for which all "
-"possible values are covered in ``case`` statements.  Use this in places "
-"where you might be tempted to put an ``assert(0)`` or ``abort()`` call."
-msgstr ""
-
-msgid ""
-"In release mode, the macro helps the compiler to optimize the code, and "
-"avoids a warning about unreachable code.  For example, the macro is "
-"implemented with ``__builtin_unreachable()`` on GCC in release mode."
-msgstr ""
-
-msgid ""
-"A use for ``Py_UNREACHABLE()`` is following a call a function that never "
-"returns but that is not declared :c:macro:`_Py_NO_RETURN`."
-msgstr ""
-
-msgid ""
-"If a code path is very unlikely code but can be reached under exceptional "
-"case, this macro must not be used.  For example, under low memory condition "
-"or if a system call returns a value out of the expected range.  In this "
-"case, it's better to report the error to the caller.  If the error cannot be "
-"reported to caller, :c:func:`Py_FatalError` can be used."
-msgstr ""
-
-msgid ""
-"Use this for unused arguments in a function definition to silence compiler "
-"warnings. Example: ``int func(int a, int Py_UNUSED(b)) { return a; }``."
-msgstr ""
-
-msgid ""
-"Asserts a compile-time condition *cond*, as a statement. The build will fail "
-"if the condition is false or cannot be evaluated at compile time."
-msgstr ""
-
-msgid "For example::"
-msgstr "Sebagai contoh::"
-
-msgid "Py_BUILD_ASSERT(sizeof(PyTime_t) == sizeof(int64_t));"
-msgstr ""
-
-msgid ""
-"Asserts a compile-time condition *cond*, as an expression that evaluates to "
-"``0``. The build will fail if the condition is false or cannot be evaluated "
-"at compile time."
-msgstr ""
-
-msgid ""
-"#define foo_to_char(foo) \\\n"
-"    ((char *)(foo) + Py_BUILD_ASSERT_EXPR(offsetof(struct foo, string) == 0))"
-msgstr ""
-
-msgid ""
-"Creates a variable with name *name* that can be used in docstrings. If "
-"Python is built without docstrings, the value will be empty."
-msgstr ""
-
-msgid ""
-"Use :c:macro:`PyDoc_STRVAR` for docstrings to support building Python "
-"without docstrings, as specified in :pep:`7`."
-msgstr ""
-
-msgid ""
-"PyDoc_STRVAR(pop_doc, \"Remove and return the rightmost element.\");\n"
-"\n"
-"static PyMethodDef deque_methods[] = {\n"
-"    // ...\n"
-"    {\"pop\", (PyCFunction)deque_pop, METH_NOARGS, pop_doc},\n"
-"    // ...\n"
-"}"
-msgstr ""
-
-msgid ""
-"Creates a docstring for the given input string or an empty string if "
-"docstrings are disabled."
-msgstr ""
-
-msgid ""
-"Use :c:macro:`PyDoc_STR` in specifying docstrings to support building Python "
-"without docstrings, as specified in :pep:`7`."
-msgstr ""
-
-msgid ""
-"static PyMethodDef pysqlite_row_methods[] = {\n"
-"    {\"keys\", (PyCFunction)pysqlite_row_keys, METH_NOARGS,\n"
-"        PyDoc_STR(\"Returns the keys of the row.\")},\n"
-"    {NULL, NULL}\n"
-"};"
-msgstr ""
-
-msgid "Declares a static character array variable with the given name *name*."
-msgstr ""
-
-msgid ""
-"PyDoc_VAR(python_doc) = PyDoc_STR(\"A genus of constricting snakes in the "
-"Pythonidae family native \"\n"
-"                                  \"to the tropics and subtropics of the "
-"Eastern Hemisphere.\");"
-msgstr ""
-
-msgid "Compute the length of a statically allocated C array at compile time."
-msgstr ""
-
-msgid ""
-"The *array* argument must be a C array with a size known at compile time. "
-"Passing an array with an unknown size, such as a heap-allocated array, will "
-"result in a compilation error on some compilers, or otherwise produce "
-"incorrect results."
-msgstr ""
-
-msgid "This is roughly equivalent to::"
-msgstr ""
-
-msgid "sizeof(array) / sizeof((array)[0])"
 msgstr ""
 
 msgid ""
@@ -516,6 +543,41 @@ msgid ""
 "API. Its expansion depends on the platform and build configuration. This "
 "macro is intended for defining CPython's C API itself; extension modules "
 "should not use it for their own symbols."
+msgstr ""
+
+msgid "Outdated macros"
+msgstr ""
+
+msgid ""
+"The following macros have been used to features that have been standardized "
+"in C11."
+msgstr ""
+
+msgid "Specify alignment to *num* bytes on compilers that support it."
+msgstr ""
+
+msgid "Consider using the C11 standard ``_Alignas`` specifier over this macro."
+msgstr ""
+
+msgid ""
+"Use *number* as a ``long long`` or ``unsigned long long`` integer literal, "
+"respectively."
+msgstr ""
+
+msgid ""
+"Expands to *number* followed by ``LL`` or ``LLU``, respectively, but will "
+"expand to some compiler-specific suffixes on some older compilers."
+msgstr ""
+
+msgid "Consider using the C99 standard suffixes ``LL`` and ``LLU`` directly."
+msgstr ""
+
+msgid ""
+"This is a :term:`soft deprecated` alias to :c:func:`!memcpy`. Use :c:func:`!"
+"memcpy` directly instead."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`."
 msgstr ""
 
 msgid ""
