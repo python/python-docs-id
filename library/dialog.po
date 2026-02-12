@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 14:24+0000\n"
+"POT-Creation-Date: 2026-02-11 14:49+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "Tkinter Dialogs"
 msgstr ""
 
-msgid ":mod:`tkinter.simpledialog` --- Standard Tkinter input dialogs"
+msgid ":mod:`!tkinter.simpledialog` --- Standard Tkinter input dialogs"
 msgstr ""
 
 msgid "**Source code:** :source:`Lib/tkinter/simpledialog.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`tkinter.simpledialog` module contains convenience classes and "
+"The :mod:`!tkinter.simpledialog` module contains convenience classes and "
 "functions for creating simple modal dialogs to get a value from the user."
 msgstr ""
 
@@ -50,14 +50,14 @@ msgid ""
 "layouts."
 msgstr ""
 
-msgid ":mod:`tkinter.filedialog` --- File selection dialogs"
+msgid ":mod:`!tkinter.filedialog` --- File selection dialogs"
 msgstr ""
 
 msgid "**Source code:** :source:`Lib/tkinter/filedialog.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`tkinter.filedialog` module provides classes and factory functions "
+"The :mod:`!tkinter.filedialog` module provides classes and factory functions "
 "for creating file/directory selection windows."
 msgstr ""
 
@@ -212,14 +212,14 @@ msgid ""
 "directory. Confirmation is required if an already existing file is selected."
 msgstr ""
 
-msgid ":mod:`tkinter.commondialog` --- Dialog window templates"
+msgid ":mod:`!tkinter.commondialog` --- Dialog window templates"
 msgstr ""
 
 msgid "**Source code:** :source:`Lib/tkinter/commondialog.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`tkinter.commondialog` module provides the :class:`Dialog` class "
+"The :mod:`!tkinter.commondialog` module provides the :class:`Dialog` class "
 "that is the base class for dialogs defined in other supporting modules."
 msgstr ""
 
