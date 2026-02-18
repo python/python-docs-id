@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-15 14:21+0000\n"
+"POT-Creation-Date: 2026-02-17 14:41+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,6 +32,12 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
+msgid "macOS"
+msgstr "macOS"
+
+msgid ":gh:`144551`: Update macOS installer to use OpenSSL 3.0.19."
+msgstr ""
+
 msgid "Windows"
 msgstr "Windows"
 
@@ -40,6 +46,17 @@ msgstr ""
 
 msgid "Library"
 msgstr "Pustaka"
+
+msgid ""
+":gh:`144833`: Fixed a use-after-free in :mod:`ssl` when ``SSL_new()`` "
+"returns NULL in ``newPySSLSocket()``. The error was reported via a dangling "
+"pointer after the object had already been freed."
+msgstr ""
+
+msgid ""
+":gh:`144782`: Fix :class:`argparse.ArgumentParser` to be :mod:`pickleable "
+"<pickle>`."
+msgstr ""
 
 msgid ""
 ":gh:`144538`: Bump the version of pip bundled in ensurepip to version 26.0.1"
@@ -67,6 +84,10 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`80667`: Support lookup for Tangut Ideographs in :mod:`unicodedata`."
+msgstr ""
+
+msgid ""
 ":issue:`40243`: Fix :meth:`!unicodedata.ucd_3_2_0.numeric` for non-decimal "
 "values."
 msgstr ""
@@ -79,10 +100,23 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`144759`: Fix undefined behavior in the lexer when ``start`` and "
+"``multi_line_start`` pointers are ``NULL`` in "
+"``_PyLexer_remember_fstring_buffers()`` and "
+"``_PyLexer_restore_fstring_buffers()``. The ``NULL`` pointer arithmetic "
+"(``NULL - valid_pointer``) is now guarded with explicit ``NULL`` checks."
+msgstr ""
+
+msgid ""
 ":gh:`144563`: Fix interaction of the Tachyon profiler and :mod:`ctypes` and "
 "other modules that load the Python shared library (if present) in an "
 "independent map as this was causing the mechanism that loads the binary "
 "information to be confused. Patch by Pablo Galindo"
+msgstr ""
+
+msgid ""
+":gh:`144601`: Fix crash when importing a module whose ``PyInit`` function "
+"raises an exception from a subinterpreter."
 msgstr ""
 
 msgid ""
@@ -1994,9 +2028,6 @@ msgstr ""
 
 msgid "*Release date: 2025-10-07*"
 msgstr ""
-
-msgid "macOS"
-msgstr "macOS"
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.17."
 msgstr ""
