@@ -1225,6 +1225,24 @@ resource_name          = howto--urllib2
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:improve-page]
+file_filter            = improve-page.po
+source_file            = gettext/improve-page.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = improve-page
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:improve-page-nojs]
+file_filter            = improve-page-nojs.po
+source_file            = gettext/improve-page-nojs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = improve-page-nojs
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:installing--index]
 file_filter            = installing/index.po
 source_file            = gettext/installing/index.pot
