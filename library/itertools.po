@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 14:39+0000\n"
+"POT-Creation-Date: 2026-02-21 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -45,7 +45,7 @@ msgid ""
 "by combining :func:`map` and :func:`count` to form ``map(f, count())``."
 msgstr ""
 
-msgid "**Infinite iterators:**"
+msgid "**General iterators:**"
 msgstr ""
 
 msgid "Iterator"
@@ -59,45 +59,6 @@ msgstr ""
 
 msgid "Example"
 msgstr "Contoh"
-
-msgid ":func:`count`"
-msgstr ":func:`count`"
-
-msgid "[start[, step]]"
-msgstr ""
-
-msgid "start, start+step, start+2*step, ..."
-msgstr "start, start+step, start+2*step, ..."
-
-msgid "``count(10) → 10 11 12 13 14 ...``"
-msgstr ""
-
-msgid ":func:`cycle`"
-msgstr ":func:`cycle`"
-
-msgid "p"
-msgstr "p"
-
-msgid "p0, p1, ... plast, p0, p1, ..."
-msgstr "p0, p1, ... plast, p0, p1, ..."
-
-msgid "``cycle('ABCD') → A B C D A B C D ...``"
-msgstr ""
-
-msgid ":func:`repeat`"
-msgstr ":func:`repeat`"
-
-msgid "elem [,n]"
-msgstr ""
-
-msgid "elem, elem, elem, ... endlessly or up to n times"
-msgstr ""
-
-msgid "``repeat(10, 3) → 10 10 10``"
-msgstr ""
-
-msgid "**Iterators terminating on the shortest input sequence:**"
-msgstr ""
 
 msgid ":func:`accumulate`"
 msgstr ":func:`accumulate`"
@@ -156,6 +117,30 @@ msgstr ""
 msgid "``compress('ABCDEF', [1,0,1,0,1,1]) → A C E F``"
 msgstr ""
 
+msgid ":func:`count`"
+msgstr ":func:`count`"
+
+msgid "[start[, step]]"
+msgstr ""
+
+msgid "start, start+step, start+2*step, ..."
+msgstr "start, start+step, start+2*step, ..."
+
+msgid "``count(10) → 10 11 12 13 14 ...``"
+msgstr ""
+
+msgid ":func:`cycle`"
+msgstr ":func:`cycle`"
+
+msgid "p"
+msgstr "p"
+
+msgid "p0, p1, ... plast, p0, p1, ..."
+msgstr "p0, p1, ... plast, p0, p1, ..."
+
+msgid "``cycle('ABCD') → A B C D A B C D ...``"
+msgstr ""
+
 msgid ":func:`dropwhile`"
 msgstr ":func:`dropwhile`"
 
@@ -208,6 +193,18 @@ msgid "(p[0], p[1]), (p[1], p[2])"
 msgstr ""
 
 msgid "``pairwise('ABCDEFG') → AB BC CD DE EF FG``"
+msgstr ""
+
+msgid ":func:`repeat`"
+msgstr ":func:`repeat`"
+
+msgid "elem [,n]"
+msgstr ""
+
+msgid "elem, elem, elem, ... endlessly or up to n times"
+msgstr ""
+
+msgid "``repeat(10, 3) → 10 10 10``"
 msgstr ""
 
 msgid ":func:`starmap`"
