@@ -334,6 +334,15 @@ resource_name          = c-api--init_config
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--interp-lifecycle]
+file_filter            = c-api/interp-lifecycle.po
+source_file            = gettext/c-api/interp-lifecycle.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--interp-lifecycle
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--intro]
 file_filter            = c-api/intro.po
 source_file            = gettext/c-api/intro.pot
@@ -505,6 +514,15 @@ resource_name          = c-api--picklebuffer
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--profiling]
+file_filter            = c-api/profiling.po
+source_file            = gettext/c-api/profiling.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--profiling
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--refcounting]
 file_filter            = c-api/refcounting.po
 source_file            = gettext/c-api/refcounting.pot
@@ -568,6 +586,24 @@ resource_name          = c-api--structures
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--subinterpreters]
+file_filter            = c-api/subinterpreters.po
+source_file            = gettext/c-api/subinterpreters.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--subinterpreters
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--synchronization]
+file_filter            = c-api/synchronization.po
+source_file            = gettext/c-api/synchronization.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--synchronization
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--sys]
 file_filter            = c-api/sys.po
 source_file            = gettext/c-api/sys.pot
@@ -577,12 +613,30 @@ resource_name          = c-api--sys
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--threads]
+file_filter            = c-api/threads.po
+source_file            = gettext/c-api/threads.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--threads
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--time]
 file_filter            = c-api/time.po
 source_file            = gettext/c-api/time.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = c-api--time
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--tls]
+file_filter            = c-api/tls.po
+source_file            = gettext/c-api/tls.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--tls
 replace_edited_strings = false
 keep_translations      = false
 
