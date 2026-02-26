@@ -3700,6 +3700,15 @@ resource_name          = library--threading
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:library--threadsafety]
+file_filter            = library/threadsafety.po
+source_file            = gettext/library/threadsafety.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--threadsafety
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:library--time]
 file_filter            = library/time.po
 source_file            = gettext/library/time.pot
