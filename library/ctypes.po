@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-11 14:42+0000\n"
+"POT-Creation-Date: 2026-03-23 14:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -309,13 +309,19 @@ msgstr "tipe C"
 msgid "Python type"
 msgstr "tipe Python"
 
+msgid ":py:attr:`~_SimpleCData._type_`"
+msgstr ""
+
 msgid ":class:`c_bool`"
 msgstr ":class:`c_bool`"
 
 msgid ":c:expr:`_Bool`"
 msgstr ""
 
-msgid "bool (1)"
+msgid ":py:class:`bool`"
+msgstr ""
+
+msgid "``'?'``"
 msgstr ""
 
 msgid ":class:`c_char`"
@@ -324,8 +330,11 @@ msgstr ":class:`c_char`"
 msgid ":c:expr:`char`"
 msgstr ""
 
-msgid "1-character bytes object"
+msgid "1-character :py:class:`bytes`"
 msgstr ""
+
+msgid "``'c'``"
+msgstr "``'c'``"
 
 msgid ":class:`c_wchar`"
 msgstr ":class:`c_wchar`"
@@ -333,14 +342,20 @@ msgstr ":class:`c_wchar`"
 msgid ":c:type:`wchar_t`"
 msgstr ":c:type:`wchar_t`"
 
-msgid "1-character string"
+msgid "1-character :py:class:`str`"
 msgstr ""
+
+msgid "``'u'``"
+msgstr "``'u'``"
 
 msgid ":class:`c_byte`"
 msgstr ":class:`c_byte`"
 
-msgid "int"
-msgstr "int"
+msgid ":py:class:`int`"
+msgstr ""
+
+msgid "``'b'``"
+msgstr "``'b'``"
 
 msgid ":class:`c_ubyte`"
 msgstr ":class:`c_ubyte`"
@@ -348,11 +363,17 @@ msgstr ":class:`c_ubyte`"
 msgid ":c:expr:`unsigned char`"
 msgstr ""
 
+msgid "``'B'``"
+msgstr "``'B'``"
+
 msgid ":class:`c_short`"
 msgstr ":class:`c_short`"
 
 msgid ":c:expr:`short`"
 msgstr ""
+
+msgid "``'h'``"
+msgstr "``'h'``"
 
 msgid ":class:`c_ushort`"
 msgstr ":class:`c_ushort`"
@@ -360,16 +381,25 @@ msgstr ":class:`c_ushort`"
 msgid ":c:expr:`unsigned short`"
 msgstr ""
 
+msgid "``'H'``"
+msgstr "``'H'``"
+
 msgid ":class:`c_int`"
 msgstr ":class:`c_int`"
 
 msgid ":c:expr:`int`"
 msgstr ""
 
+msgid "``'i'`` \\*"
+msgstr ""
+
 msgid ":class:`c_int8`"
 msgstr ""
 
 msgid ":c:type:`int8_t`"
+msgstr ""
+
+msgid "\\*"
 msgstr ""
 
 msgid ":class:`c_int16`"
@@ -394,6 +424,9 @@ msgid ":class:`c_uint`"
 msgstr ":class:`c_uint`"
 
 msgid ":c:expr:`unsigned int`"
+msgstr ""
+
+msgid "``'I'`` \\*"
 msgstr ""
 
 msgid ":class:`c_uint8`"
@@ -426,22 +459,34 @@ msgstr ":class:`c_long`"
 msgid ":c:expr:`long`"
 msgstr ""
 
+msgid "``'l'``"
+msgstr "``'l'``"
+
 msgid ":class:`c_ulong`"
 msgstr ":class:`c_ulong`"
 
 msgid ":c:expr:`unsigned long`"
 msgstr ""
 
+msgid "``'L'``"
+msgstr "``'L'``"
+
 msgid ":class:`c_longlong`"
 msgstr ":class:`c_longlong`"
 
-msgid ":c:expr:`__int64` or :c:expr:`long long`"
+msgid ":c:expr:`long long`"
+msgstr ""
+
+msgid "``'q'`` \\*"
 msgstr ""
 
 msgid ":class:`c_ulonglong`"
 msgstr ":class:`c_ulonglong`"
 
-msgid ":c:expr:`unsigned __int64` or :c:expr:`unsigned long long`"
+msgid ":c:expr:`unsigned long long`"
+msgstr ""
+
+msgid "``'Q'`` \\*"
 msgstr ""
 
 msgid ":class:`c_size_t`"
@@ -453,7 +498,7 @@ msgstr ":c:type:`size_t`"
 msgid ":class:`c_ssize_t`"
 msgstr ":class:`c_ssize_t`"
 
-msgid ":c:type:`ssize_t` or :c:expr:`Py_ssize_t`"
+msgid ":c:type:`Py_ssize_t`"
 msgstr ""
 
 msgid ":class:`c_time_t`"
@@ -468,8 +513,11 @@ msgstr ":class:`c_float`"
 msgid ":c:expr:`float`"
 msgstr ""
 
-msgid "float"
-msgstr "float"
+msgid ":py:class:`float`"
+msgstr ""
+
+msgid "``'f'``"
+msgstr "``'f'``"
 
 msgid ":class:`c_double`"
 msgstr ":class:`c_double`"
@@ -477,10 +525,16 @@ msgstr ":class:`c_double`"
 msgid ":c:expr:`double`"
 msgstr ""
 
+msgid "``'d'``"
+msgstr "``'d'``"
+
 msgid ":class:`c_longdouble`"
 msgstr ":class:`c_longdouble`"
 
 msgid ":c:expr:`long double`"
+msgstr ""
+
+msgid "``'g'`` \\*"
 msgstr ""
 
 msgid ":class:`c_char_p`"
@@ -489,8 +543,11 @@ msgstr ":class:`c_char_p`"
 msgid ":c:expr:`char *` (NUL terminated)"
 msgstr ""
 
-msgid "bytes object or ``None``"
+msgid ":py:class:`bytes` or ``None``"
 msgstr ""
+
+msgid "``'z'``"
+msgstr "``'z'``"
 
 msgid ":class:`c_wchar_p`"
 msgstr ":class:`c_wchar_p`"
@@ -498,8 +555,11 @@ msgstr ":class:`c_wchar_p`"
 msgid ":c:expr:`wchar_t *` (NUL terminated)"
 msgstr ""
 
-msgid "string or ``None``"
+msgid ":py:class:`str` or ``None``"
 msgstr ""
+
+msgid "``'Z'``"
+msgstr "``'Z'``"
 
 msgid ":class:`c_void_p`"
 msgstr ":class:`c_void_p`"
@@ -507,10 +567,31 @@ msgstr ":class:`c_void_p`"
 msgid ":c:expr:`void *`"
 msgstr ""
 
-msgid "int or ``None``"
-msgstr "int atau ``None``"
+msgid ":py:class:`int` or ``None``"
+msgstr ""
 
-msgid "The constructor accepts any object with a truth value."
+msgid "``'P'``"
+msgstr ""
+
+msgid ":class:`py_object`"
+msgstr ""
+
+msgid ":c:expr:`PyObject *`"
+msgstr ""
+
+msgid ":py:class:`object`"
+msgstr ""
+
+msgid "``'O'``"
+msgstr "``'O'``"
+
+msgid ":ref:`VARIANT_BOOL <ctypes-wintypes>`"
+msgstr ""
+
+msgid ":c:expr:`short int`"
+msgstr ""
+
+msgid "``'v'``"
 msgstr ""
 
 msgid ""
@@ -525,8 +606,11 @@ msgstr ""
 msgid ":c:expr:`float complex`"
 msgstr ""
 
-msgid "complex"
+msgid ":py:class:`complex`"
 msgstr ""
+
+msgid "``'F'``"
+msgstr "``'F'``"
 
 msgid ":class:`c_double_complex`"
 msgstr ""
@@ -534,11 +618,17 @@ msgstr ""
 msgid ":c:expr:`double complex`"
 msgstr ""
 
+msgid "``'D'``"
+msgstr "``'D'``"
+
 msgid ":class:`c_longdouble_complex`"
 msgstr ""
 
 msgid ":c:expr:`long double complex`"
 msgstr ""
+
+msgid "``'G'``"
+msgstr "``'G'``"
 
 msgid ""
 "All these types can be created by calling them with an optional initializer "
@@ -553,6 +643,19 @@ msgid ""
 ">>> c_ushort(-3)\n"
 "c_ushort(65533)\n"
 ">>>"
+msgstr ""
+
+msgid ""
+"The constructors for numeric types will convert input using :py:meth:"
+"`~object.__bool__`, :py:meth:`~object.__index__` (for ``int``), :py:meth:"
+"`~object.__float__` or :py:meth:`~object.__complex__`. This means :py:class:"
+"`~ctypes.c_bool` accepts any object with a truth value::"
+msgstr ""
+
+msgid ""
+">>> empty_list = []\n"
+">>> c_bool(empty_list)\n"
+"c_bool(False)"
 msgstr ""
 
 msgid ""
@@ -3048,6 +3151,31 @@ msgid ""
 "true for all other ctypes object instances."
 msgstr ""
 
+msgid "Each subclass has a class attribute:"
+msgstr ""
+
+msgid ""
+"Class attribute that contains an internal type code, as a single-character "
+"string. See :ref:`ctypes-fundamental-data-types` for a summary."
+msgstr ""
+
+msgid ""
+"Types marked \\* in the summary may be (or always are) aliases of a "
+"different :class:`_SimpleCData` subclass, and will not necessarily use the "
+"listed type code. For example, if the platform's :c:expr:`long`, :c:expr:"
+"`long long` and :c:expr:`time_t` C types are the same, then :class:"
+"`c_long`, :class:`c_longlong` and :class:`c_time_t` all refer to a single "
+"class, :class:`c_long`, whose :attr:`_type_` code is ``'l'``. The ``'L'`` "
+"code will be unused."
+msgstr ""
+
+msgid ""
+"The :mod:`array` and :ref:`struct <format-characters>` modules, as well as "
+"third-party modules like `numpy <https://numpy.org/doc/stable/reference/"
+"arrays.interface.html#object.__array_interface__>`__, use similar -- but "
+"slightly different -- type codes."
+msgstr ""
+
 msgid ""
 "Fundamental data types, when returned as foreign function call results, or, "
 "for example, by retrieving structure field members or array items, are "
@@ -3150,7 +3278,9 @@ msgstr ""
 
 msgid ""
 "Represents the C :c:expr:`signed long long` datatype.  The constructor "
-"accepts an optional integer initializer; no overflow checking is done."
+"accepts an optional integer initializer; no overflow checking is done. On "
+"platforms where ``sizeof(long long) == sizeof(long)`` it is an alias to :"
+"class:`c_long`."
 msgstr ""
 
 msgid ""
@@ -3158,13 +3288,20 @@ msgid ""
 "an optional integer initializer; no overflow checking is done."
 msgstr ""
 
-msgid "Represents the C :c:type:`size_t` datatype."
+msgid ""
+"Represents the C :c:type:`size_t` datatype. Usually an alias for another "
+"unsigned integer type."
 msgstr ""
 
-msgid "Represents the C :c:type:`ssize_t` datatype."
+msgid ""
+"Represents the :c:type:`Py_ssize_t` datatype. This is a signed version of :c:"
+"type:`size_t`; that is, the POSIX :c:type:`ssize_t` type. Usually an alias "
+"for another integer type."
 msgstr ""
 
-msgid "Represents the C :c:type:`time_t` datatype."
+msgid ""
+"Represents the C :c:type:`time_t` datatype. Usually an alias for another "
+"integer type."
 msgstr ""
 
 msgid ""
@@ -3206,7 +3343,9 @@ msgstr ""
 
 msgid ""
 "Represents the C :c:expr:`unsigned long long` datatype.  The constructor "
-"accepts an optional integer initializer; no overflow checking is done."
+"accepts an optional integer initializer; no overflow checking is done. On "
+"platforms where ``sizeof(long long) == sizeof(long)`` it is an alias to :"
+"class:`c_long`."
 msgstr ""
 
 msgid ""
@@ -3252,9 +3391,9 @@ msgstr ""
 
 msgid ""
 "The :mod:`!ctypes.wintypes` module provides quite some other Windows "
-"specific data types, for example :c:type:`!HWND`, :c:type:`!WPARAM`, or :c:"
-"type:`!DWORD`. Some useful structures like :c:type:`!MSG` or :c:type:`!RECT` "
-"are also defined."
+"specific data types, for example :c:type:`!HWND`, :c:type:`!WPARAM`, :c:type:"
+"`!VARIANT_BOOL` or :c:type:`!DWORD`. Some useful structures like :c:type:`!"
+"MSG` or :c:type:`!RECT` are also defined."
 msgstr ""
 
 msgid "Structured data types"
