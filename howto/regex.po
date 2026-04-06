@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-21 14:21+0000\n"
+"POT-Creation-Date: 2026-04-05 14:30+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Regular Expression HOWTO"
+msgid "Regular expression HOWTO"
 msgstr ""
 
 msgid "Author"
@@ -75,7 +75,7 @@ msgid ""
 "more understandable."
 msgstr ""
 
-msgid "Simple Patterns"
+msgid "Simple patterns"
 msgstr ""
 
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 "refer to almost any textbook on writing compilers."
 msgstr ""
 
-msgid "Matching Characters"
+msgid "Matching characters"
 msgstr ""
 
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 "want to match \"any character\"."
 msgstr ""
 
-msgid "Repeating Things"
+msgid "Repeating things"
 msgstr ""
 
 msgid ""
@@ -338,6 +338,9 @@ msgstr "``abc``"
 msgid "Back up again, so that ``[bcd]*`` is only matching ``bc``."
 msgstr ""
 
+msgid "7"
+msgstr "7"
+
 msgid ""
 "Try ``b`` again.  This time the character at the current position is "
 "``'b'``, so it succeeds."
@@ -395,7 +398,7 @@ msgid ""
 "shorter and easier to read."
 msgstr ""
 
-msgid "Using Regular Expressions"
+msgid "Using regular expressions"
 msgstr ""
 
 msgid ""
@@ -405,7 +408,7 @@ msgid ""
 "perform matches with them."
 msgstr ""
 
-msgid "Compiling Regular Expressions"
+msgid "Compiling regular expressions"
 msgstr ""
 
 msgid ""
@@ -445,7 +448,7 @@ msgid ""
 "disadvantage which is the topic of the next section."
 msgstr ""
 
-msgid "The Backslash Plague"
+msgid "The backslash plague"
 msgstr ""
 
 msgid ""
@@ -510,8 +513,8 @@ msgstr ""
 msgid ""
 "In addition, special escape sequences that are valid in regular expressions, "
 "but not valid as Python string literals, now result in a :exc:"
-"`DeprecationWarning` and will eventually become a :exc:`SyntaxError`, which "
-"means the sequences will be invalid if raw string notation or escaping the "
+"`SyntaxWarning` and will eventually become a :exc:`SyntaxError`, which means "
+"the sequences will be invalid if raw string notation or escaping the "
 "backslashes isn't used."
 msgstr ""
 
@@ -536,7 +539,7 @@ msgstr "``\"\\\\w+\\\\s+\\\\1\"``"
 msgid "``r\"\\w+\\s+\\1\"``"
 msgstr "``r\"\\w+\\s+\\1\"``"
 
-msgid "Performing Matches"
+msgid "Performing matches"
 msgstr ""
 
 msgid ""
@@ -567,14 +570,14 @@ msgstr ""
 msgid "``findall()``"
 msgstr "``findall()``"
 
-msgid "Find all substrings where the RE matches, and returns them as a list."
+msgid "Find all substrings where the RE matches, and return them as a list."
 msgstr ""
 
 msgid "``finditer()``"
 msgstr "``finditer()``"
 
 msgid ""
-"Find all substrings where the RE matches, and returns them as an :term:"
+"Find all substrings where the RE matches, and return them as an :term:"
 "`iterator`."
 msgstr ""
 
@@ -722,8 +725,8 @@ msgid ""
 "The ``r`` prefix, making the literal a raw string literal, is needed in this "
 "example because escape sequences in a normal \"cooked\" string literal that "
 "are not recognized by Python, as opposed to regular expressions, now result "
-"in a :exc:`DeprecationWarning` and will eventually become a :exc:"
-"`SyntaxError`.  See :ref:`the-backslash-plague`."
+"in a :exc:`SyntaxWarning` and will eventually become a :exc:`SyntaxError`.  "
+"See :ref:`the-backslash-plague`."
 msgstr ""
 
 msgid ""
@@ -745,7 +748,7 @@ msgid ""
 "(29, 31)"
 msgstr ""
 
-msgid "Module-Level Functions"
+msgid "Module-level functions"
 msgstr ""
 
 msgid ""
@@ -778,7 +781,7 @@ msgid ""
 "not much difference thanks to the internal cache."
 msgstr ""
 
-msgid "Compilation Flags"
+msgid "Compilation flags"
 msgstr ""
 
 msgid ""
@@ -913,7 +916,7 @@ msgid ""
 "the whitespace is in a character class or preceded by an unescaped "
 "backslash; this lets you organize and indent the RE more clearly.  This flag "
 "also lets you put comments within a RE that will be ignored by the engine; "
-"comments are marked by a ``'#'`` that's neither in a character class or "
+"comments are marked by a ``'#'`` that's neither in a character class nor "
 "preceded by an unescaped backslash."
 msgstr ""
 
@@ -949,7 +952,7 @@ msgid ""
 "difficult to understand than the version using :const:`re.VERBOSE`."
 msgstr ""
 
-msgid "More Pattern Power"
+msgid "More pattern power"
 msgstr ""
 
 msgid ""
@@ -958,7 +961,7 @@ msgid ""
 "retrieve portions of the text that was matched."
 msgstr ""
 
-msgid "More Metacharacters"
+msgid "More metacharacters"
 msgstr ""
 
 msgid ""
@@ -1244,7 +1247,7 @@ msgid ""
 "substitutions."
 msgstr ""
 
-msgid "Non-capturing and Named Groups"
+msgid "Non-capturing and named groups"
 msgstr ""
 
 msgid ""
@@ -1386,7 +1389,7 @@ msgid ""
 "'the the'"
 msgstr ""
 
-msgid "Lookahead Assertions"
+msgid "Lookahead assertions"
 msgstr ""
 
 msgid ""
@@ -1504,7 +1507,7 @@ msgstr ""
 msgid "``.*[.](?!bat$|exe$)[^.]*$``"
 msgstr "``.*[.](?!bat$|exe$)[^.]*$``"
 
-msgid "Modifying Strings"
+msgid "Modifying strings"
 msgstr ""
 
 msgid ""
@@ -1535,7 +1538,7 @@ msgid ""
 "number of replacements"
 msgstr ""
 
-msgid "Splitting Strings"
+msgid "Splitting strings"
 msgstr ""
 
 msgid ""
@@ -1600,7 +1603,7 @@ msgid ""
 "['Words', 'words, words.']"
 msgstr ""
 
-msgid "Search and Replace"
+msgid "Search and replace"
 msgstr ""
 
 msgid ""
@@ -1735,7 +1738,7 @@ msgid ""
 "x'``."
 msgstr ""
 
-msgid "Common Problems"
+msgid "Common problems"
 msgstr ""
 
 msgid ""
@@ -1745,7 +1748,7 @@ msgid ""
 "pitfalls."
 msgstr ""
 
-msgid "Use String Methods"
+msgid "Use string methods"
 msgstr ""
 
 msgid ""
@@ -1832,7 +1835,7 @@ msgid ""
 "Use :func:`re.search` instead."
 msgstr ""
 
-msgid "Greedy versus Non-Greedy"
+msgid "Greedy versus non-greedy"
 msgstr ""
 
 msgid ""
@@ -1932,9 +1935,9 @@ msgstr ""
 
 msgid ""
 "Regular expressions are a complicated topic.  Did this document help you "
-"understand them?  Were there parts that were unclear, or Problems you "
+"understand them?  Were there parts that were unclear, or problems you "
 "encountered that weren't covered here?  If so, please send suggestions for "
-"improvements to the author."
+"improvements to the :ref:`issue tracker <using-the-tracker>`."
 msgstr ""
 
 msgid ""
