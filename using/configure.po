@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-03 14:38+0000\n"
+"POT-Creation-Date: 2026-04-11 14:31+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1762,6 +1762,9 @@ msgid "Optimization flags."
 msgstr ""
 
 msgid "Strict or non-strict aliasing flags used to compile ``Python/dtoa.c``."
+msgstr ""
+
+msgid "Flags used to compile ``Python/ceval.c``."
 msgstr ""
 
 msgid "Compiler flags used to build a shared library."
