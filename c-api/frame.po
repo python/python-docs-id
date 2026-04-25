@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 15:16+0000\n"
+"POT-Creation-Date: 2026-04-23 15:47+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Frame Objects"
+msgid "Frame objects"
 msgstr ""
 
 msgid "The C structure of the objects used to describe frame objects."
@@ -141,7 +141,7 @@ msgstr ""
 msgid "Return the line number that *frame* is currently executing."
 msgstr ""
 
-msgid "Frame Locals Proxies"
+msgid "Frame locals proxies"
 msgstr ""
 
 msgid ""
@@ -161,15 +161,12 @@ msgstr ""
 msgid "Return non-zero if *obj* is a frame :func:`locals` proxy."
 msgstr ""
 
-msgid "Legacy Local Variable APIs"
+msgid "Legacy local variable APIs"
 msgstr ""
 
 msgid ""
 "These APIs are :term:`soft deprecated`. As of Python 3.13, they do nothing. "
 "They exist solely for backwards compatibility."
-msgstr ""
-
-msgid "This function is :term:`soft deprecated` and does nothing."
 msgstr ""
 
 msgid ""
@@ -199,7 +196,7 @@ msgstr ""
 msgid ":pep:`667`"
 msgstr ""
 
-msgid "Internal Frames"
+msgid "Internal frames"
 msgstr ""
 
 msgid "Unless using :pep:`523`, you will not need this."
