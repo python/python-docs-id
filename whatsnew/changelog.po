@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 14:49+0000\n"
+"POT-Creation-Date: 2026-05-03 14:43+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,6 +32,12 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
+msgid "macOS"
+msgstr "macOS"
+
+msgid ":gh:`149254`: Update macOS installer to use OpenSSL 3.0.20."
+msgstr ""
+
 msgid "Windows"
 msgstr "Windows"
 
@@ -42,6 +48,9 @@ msgstr ""
 
 msgid "Security"
 msgstr "Keamanan"
+
+msgid ":gh:`149254`: Update Android and iOS installer to use OpenSSL 3.0.20."
+msgstr ""
 
 msgid ""
 ":gh:`149017`: Update bundled `libexpat <https://libexpat.github.io/>`_ to "
@@ -97,8 +106,26 @@ msgid "Library"
 msgstr "Pustaka"
 
 msgid ""
+":gh:`149221`: Catch rare math domain error for :func:`random."
+"binomialvariate`."
+msgstr ""
+
+msgid ""
+":gh:`149117`: Fix :func:`runpy.run_module` and :func:`runpy.run_path` to set "
+"the :attr:`~ImportError.name` attribute on the :exc:`ImportError` they raise."
+msgstr ""
+
+msgid ""
 ":gh:`149148`: :mod:`ensurepip`: Upgrade bundled pip to 26.1. This version "
 "fixes the :cve:`2026-3219` vulnerability. Patch by Victor Stinner."
+msgstr ""
+
+msgid ""
+":gh:`148914`: Fix memoization of in-band :class:`~pickle.PickleBuffer` in "
+"the Python implementation of :mod:`pickle`. Previously, identical :class:`!"
+"PickleBuffer`\\ s did not preserve identity, and empty writable :class:`!"
+"PickleBuffer` memoized an empty bytearray object in place of ``b''``, so the "
+"following references to ``b''`` were unpickled as an empty bytearray object."
 msgstr ""
 
 msgid ""
@@ -271,6 +298,14 @@ msgid ""
 ":gh:`142516`: Forward-port the generational cycle garbage collector to the "
 "default 3.14 build, replacing the incremental collector while leaving the "
 "free-threaded collector unchanged."
+msgstr ""
+
+msgid ""
+":gh:`148390`: Fix an undefined behavior in :class:`memoryview` when using "
+"the native boolean format (``?``) in :meth:`~memoryview.cast`. Previously, "
+"on some common platforms, calling ``memoryview(b).cast(\"?\").tolist()`` "
+"incorrectly returned ``[False]`` instead of ``[True]`` for any even byte "
+"*b*. Patch by Bénédikt Tran."
 msgstr ""
 
 msgid ""
@@ -1029,9 +1064,6 @@ msgid ""
 ":gh:`140131`: Fix REPL cursor position on Windows when module completion "
 "suggestion line hits console width."
 msgstr ""
-
-msgid "macOS"
-msgstr "macOS"
 
 msgid ":gh:`144551`: Update macOS installer to use OpenSSL 3.0.19."
 msgstr ""
