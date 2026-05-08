@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 15:48+0000\n"
+"POT-Creation-Date: 2026-05-07 16:02+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -31,6 +31,28 @@ msgstr "Python next"
 
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid ""
+":gh:`142295`: For Python macOS framework builds, update Info.plist files to "
+"be more compliant with current Apple guidelines. Original patch contributed "
+"by Martinus Verburg."
+msgstr ""
+
+msgid "Tests"
+msgstr "Pengujian"
+
+msgid ""
+":gh:`149425`: Increase time delta in ``test.test_zipfile.test_core."
+"OtherTests.test_write_without_source_date_epoch``"
+msgstr ""
+
+msgid ""
+":gh:`145736`: Fix test_tkinter test_configure_values test case backport miss "
+"for Tk 9."
+msgstr ""
 
 msgid "Security"
 msgstr "Keamanan"
@@ -51,12 +73,20 @@ msgid ":gh:`138907`: Support :rfc:`9309` in :mod:`urllib.robotparser`."
 msgstr ""
 
 msgid ""
+":gh:`148615`: Fix :mod:`pdb` to accept standard -- end of options separator. "
+"Reported by haampie. Patched by Shrey Naithani."
+msgstr ""
+
+msgid ""
 ":gh:`130750`: Restore quoting of choices in :mod:`argparse` error messages "
 "for improved clarity and consistency with documentation."
 msgstr ""
 
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
+
+msgid ":gh:`146270`: Fix a sequential consistency bug in ``structmember.c``."
+msgstr ""
 
 msgid ""
 ":gh:`137293`: Fix :exc:`SystemError` when searching ELF Files in :func:`sys."
@@ -413,9 +443,6 @@ msgid ""
 ":gh:`146458`: Fix incorrect REPL height and width tracking on console window "
 "resize on Windows."
 msgstr ""
-
-msgid "macOS"
-msgstr "macOS"
 
 msgid ":gh:`149254`: Update macOS installer to use OpenSSL 3.0.20."
 msgstr ""
@@ -1059,9 +1086,6 @@ msgid ""
 "sidebar of the docs, offering links to create GitHub issues, discussion "
 "forum posts, or pull requests."
 msgstr ""
-
-msgid "Tests"
-msgstr "Pengujian"
 
 msgid ""
 ":gh:`144418`: The Android testbed's emulator RAM has been increased from 2 "
