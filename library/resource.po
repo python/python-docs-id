@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-19 14:37+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -69,6 +69,17 @@ msgid ""
 msgstr ""
 
 msgid "Constant used to represent the limit for an unlimited resource."
+msgstr ""
+
+msgid ""
+"It is now always positive. Previously, it could be negative, such as -1 or "
+"-3."
+msgstr ""
+
+msgid ""
+"Constants used to represent the soft and hard limit values if they cannot be "
+"represented in the ``rlim_t`` value in C. Can be equal to :data:"
+"`RLIM_INFINITY`."
 msgstr ""
 
 msgid ""
@@ -232,6 +243,24 @@ msgid "The maximum number of pseudo-terminals created by this user id."
 msgstr ""
 
 msgid "The maximum number of kqueues this user id is allowed to create."
+msgstr ""
+
+msgid ""
+"The maximum number of threads for this user id, not counting the main and "
+"kernel threads."
+msgstr ""
+
+msgid ""
+"The maximum total size of in-kernel buffers for bi-directional pipes/fifos "
+"that this user id is allowed to consume."
+msgstr ""
+
+msgid "The maximum number of threads each process can create."
+msgstr ""
+
+msgid ""
+"The limit of the number of process-shared Posix thread library objects "
+"allocated by user id."
 msgstr ""
 
 msgid "Resource Usage"

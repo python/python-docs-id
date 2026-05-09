@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 15:53+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -46,49 +46,6 @@ msgid ""
 "noted otherwise, all return values are floats."
 msgstr ""
 
-msgid "**Number-theoretic functions**"
-msgstr ""
-
-msgid ":func:`comb(n, k) <comb>`"
-msgstr ""
-
-msgid ""
-"Number of ways to choose *k* items from *n* items without repetition and "
-"without order"
-msgstr ""
-
-msgid ":func:`factorial(n) <factorial>`"
-msgstr ""
-
-msgid "*n* factorial"
-msgstr ""
-
-msgid ":func:`gcd(*integers) <gcd>`"
-msgstr ""
-
-msgid "Greatest common divisor of the integer arguments"
-msgstr ""
-
-msgid ":func:`isqrt(n) <isqrt>`"
-msgstr ""
-
-msgid "Integer square root of a nonnegative integer *n*"
-msgstr ""
-
-msgid ":func:`lcm(*integers) <lcm>`"
-msgstr ""
-
-msgid "Least common multiple of the integer arguments"
-msgstr ""
-
-msgid ":func:`perm(n, k) <perm>`"
-msgstr ""
-
-msgid ""
-"Number of ways to choose *k* items from *n* items without repetition and "
-"with order"
-msgstr ""
-
 msgid "**Floating point arithmetic**"
 msgstr ""
 
@@ -114,6 +71,18 @@ msgid ":func:`fma(x, y, z) <fma>`"
 msgstr ""
 
 msgid "Fused multiply-add operation: ``(x * y) + z``"
+msgstr ""
+
+msgid ":func:`fmax(x, y) <fmax>`"
+msgstr ""
+
+msgid "Maximum of two floating-point values"
+msgstr ""
+
+msgid ":func:`fmin(x, y) <fmin>`"
+msgstr ""
+
+msgid "Minimum of two floating-point values"
 msgstr ""
 
 msgid ":func:`fmod(x, y) <fmod>`"
@@ -167,6 +136,18 @@ msgstr ""
 msgid "Check if *x* is neither an infinity nor a NaN"
 msgstr ""
 
+msgid ":func:`isnormal(x) <isnormal>`"
+msgstr ""
+
+msgid "Check if *x* is a normal number"
+msgstr ""
+
+msgid ":func:`issubnormal(x) <issubnormal>`"
+msgstr ""
+
+msgid "Check if *x* is a subnormal number"
+msgstr ""
+
 msgid ":func:`isinf(x) <isinf>`"
 msgstr ""
 
@@ -189,6 +170,12 @@ msgid ":func:`nextafter(x, y, steps) <nextafter>`"
 msgstr ""
 
 msgid "Floating-point value *steps* steps after *x* towards *y*"
+msgstr ""
+
+msgid ":func:`signbit(x) <signbit>`"
+msgstr ""
+
+msgid "Check if *x* is a negative number"
 msgstr ""
 
 msgid ":func:`ulp(x) <ulp>`"
@@ -458,84 +445,6 @@ msgstr ""
 msgid "\"Not a number\" (NaN)"
 msgstr ""
 
-msgid "Number-theoretic functions"
-msgstr ""
-
-msgid ""
-"Return the number of ways to choose *k* items from *n* items without "
-"repetition and without order."
-msgstr ""
-
-msgid ""
-"Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates to zero "
-"when ``k > n``."
-msgstr ""
-
-msgid ""
-"Also called the binomial coefficient because it is equivalent to the "
-"coefficient of k-th term in polynomial expansion of ``(1 + x)ⁿ``."
-msgstr ""
-
-msgid ""
-"Raises :exc:`TypeError` if either of the arguments are not integers. Raises :"
-"exc:`ValueError` if either of the arguments are negative."
-msgstr ""
-
-msgid "Return factorial of the nonnegative integer *n*."
-msgstr ""
-
-msgid "Floats with integral values (like ``5.0``) are no longer accepted."
-msgstr ""
-
-msgid ""
-"Return the greatest common divisor of the specified integer arguments. If "
-"any of the arguments is nonzero, then the returned value is the largest "
-"positive integer that is a divisor of all arguments.  If all arguments are "
-"zero, then the returned value is ``0``.  ``gcd()`` without arguments returns "
-"``0``."
-msgstr ""
-
-msgid ""
-"Added support for an arbitrary number of arguments. Formerly, only two "
-"arguments were supported."
-msgstr ""
-
-msgid ""
-"Return the integer square root of the nonnegative integer *n*. This is the "
-"floor of the exact square root of *n*, or equivalently the greatest integer "
-"*a* such that *a*\\ ² |nbsp| ≤ |nbsp| *n*."
-msgstr ""
-
-msgid ""
-"For some applications, it may be more convenient to have the least integer "
-"*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of "
-"the exact square root of *n*. For positive *n*, this can be computed using "
-"``a = 1 + isqrt(n - 1)``."
-msgstr ""
-
-msgid ""
-"Return the least common multiple of the specified integer arguments. If all "
-"arguments are nonzero, then the returned value is the smallest positive "
-"integer that is a multiple of all arguments.  If any of the arguments is "
-"zero, then the returned value is ``0``.  ``lcm()`` without arguments returns "
-"``1``."
-msgstr ""
-
-msgid ""
-"Return the number of ways to choose *k* items from *n* items without "
-"repetition and with order."
-msgstr ""
-
-msgid ""
-"Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates to zero when "
-"``k > n``."
-msgstr ""
-
-msgid ""
-"If *k* is not specified or is ``None``, then *k* defaults to *n* and the "
-"function returns ``n!``."
-msgstr ""
-
 msgid "Floating point arithmetic"
 msgstr ""
 
@@ -567,6 +476,28 @@ msgid ""
 "implementation-defined, namely the result of ``fma(0, inf, nan)`` and "
 "``fma(inf, 0, nan)``. In these cases, ``math.fma`` returns a NaN, and does "
 "not raise any exception."
+msgstr ""
+
+msgid ""
+"Get the larger of two floating-point values, treating NaNs as missing data."
+msgstr ""
+
+msgid ""
+"When both operands are (signed) NaNs or zeroes, return ``nan`` and ``0`` "
+"respectively and the sign of the result is implementation-defined, that is, :"
+"func:`!fmax` is not required to be sensitive to the sign of such operands "
+"(see Annex F of the C11 standard, §F.10.0.3 and §F.10.9.2)."
+msgstr ""
+
+msgid ""
+"Get the smaller of two floating-point values, treating NaNs as missing data."
+msgstr ""
+
+msgid ""
+"When both operands are (signed) NaNs or zeroes, return ``nan`` and ``0`` "
+"respectively and the sign of the result is implementation-defined, that is, :"
+"func:`!fmin` is not required to be sensitive to the sign of such operands "
+"(see Annex F of the C11 standard, §F.10.0.3 and §F.10.9.3)."
 msgstr ""
 
 msgid ""
@@ -700,6 +631,18 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Return ``True`` if *x* is a normal number, that is a finite nonzero number "
+"that is not a subnormal (see :func:`issubnormal`). Return ``False`` "
+"otherwise."
+msgstr ""
+
+msgid ""
+"Return ``True`` if *x* is a subnormal number, that is a finite nonzero "
+"number with a magnitude smaller than :data:`sys.float_info.min`. Return "
+"``False`` otherwise."
+msgstr ""
+
+msgid ""
 "Return ``True`` if *x* is a positive or negative infinity, and ``False`` "
 "otherwise."
 msgstr ""
@@ -738,6 +681,12 @@ msgid "See also :func:`math.ulp`."
 msgstr ""
 
 msgid "Added the *steps* argument."
+msgstr ""
+
+msgid "Return ``True`` if the sign of *x* is negative and ``False`` otherwise."
+msgstr ""
+
+msgid "This is useful to detect the sign bit of zeroes, infinities and NaNs."
 msgstr ""
 
 msgid "Return the value of the least significant bit of the float *x*:"
@@ -864,7 +813,7 @@ msgstr ""
 msgid "Roughly equivalent to::"
 msgstr ""
 
-msgid "sqrt(sum((px - qx) ** 2.0 for px, qx in zip(p, q)))"
+msgid "sqrt(sum((px - qx) ** 2.0 for px, qx in zip(p, q, strict=True)))"
 msgstr ""
 
 msgid ""
@@ -1045,6 +994,76 @@ msgid ""
 "*x*."
 msgstr ""
 
+msgid "Number-theoretic functions"
+msgstr ""
+
+msgid ""
+"For backward compatibility, the :mod:`!math` module provides also aliases of "
+"the following functions from the :mod:`math.integer` module:"
+msgstr ""
+
+msgid ":func:`comb(n, k) <math.integer.comb>`"
+msgstr ""
+
+msgid ""
+"Number of ways to choose *k* items from *n* items without repetition and "
+"without order"
+msgstr ""
+
+msgid ":func:`factorial(n) <math.integer.factorial>`"
+msgstr ""
+
+msgid "*n* factorial"
+msgstr ""
+
+msgid ":func:`gcd(*integers) <math.integer.gcd>`"
+msgstr ""
+
+msgid "Greatest common divisor of the integer arguments"
+msgstr ""
+
+msgid ":func:`isqrt(n) <math.integer.isqrt>`"
+msgstr ""
+
+msgid "Integer square root of a nonnegative integer *n*"
+msgstr ""
+
+msgid ":func:`lcm(*integers) <math.integer.lcm>`"
+msgstr ""
+
+msgid "Least common multiple of the integer arguments"
+msgstr ""
+
+msgid ":func:`perm(n, k) <math.integer.perm>`"
+msgstr ""
+
+msgid ""
+"Number of ways to choose *k* items from *n* items without repetition and "
+"with order"
+msgstr ""
+
+msgid "The :func:`gcd` function."
+msgstr ""
+
+msgid "The :func:`comb`, :func:`perm` and :func:`isqrt` functions."
+msgstr ""
+
+msgid "The :func:`lcm` function."
+msgstr ""
+
+msgid ""
+"Added support for an arbitrary number of arguments in the :func:`gcd` "
+"function. Formerly, only two arguments were supported."
+msgstr ""
+
+msgid ""
+"Floats with integral values (like ``5.0``) are no longer accepted in the :"
+"func:`factorial` function."
+msgstr ""
+
+msgid "Use the :mod:`math.integer` functions instead of these aliases."
+msgstr ""
+
 msgid "Constants"
 msgstr "Konstanta"
 
@@ -1103,4 +1122,10 @@ msgid "Module :mod:`cmath`"
 msgstr ""
 
 msgid "Complex number versions of many of these functions."
+msgstr ""
+
+msgid "Module :mod:`math.integer`"
+msgstr ""
+
+msgid "Integer-specific mathematics functions."
 msgstr ""

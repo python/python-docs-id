@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-21 15:07+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -176,6 +176,9 @@ msgstr "``PyFunction_EVENT_MODIFY_DEFAULTS``"
 msgid "``PyFunction_EVENT_MODIFY_KWDEFAULTS``"
 msgstr "``PyFunction_EVENT_MODIFY_KWDEFAULTS``"
 
+msgid "``PyFunction_PYFUNC_EVENT_MODIFY_QUALNAME``"
+msgstr ""
+
 msgid "Type of a function watcher callback function."
 msgstr ""
 
@@ -203,7 +206,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If *event* is ``PyFunction_EVENT_DESTROY``,  Taking a reference in the "
+"If *event* is ``PyFunction_EVENT_DESTROY``, taking a reference in the "
 "callback to the about-to-be-destroyed function will resurrect it, preventing "
 "it from being freed at this time. When the resurrected object is destroyed "
 "later, any watcher callbacks active at that time will be called again."

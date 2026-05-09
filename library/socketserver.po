@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -50,6 +50,11 @@ msgid ""
 "constructor automatically attempts to invoke :meth:`~BaseServer.server_bind` "
 "and :meth:`~BaseServer.server_activate`.  The other parameters are passed to "
 "the :class:`BaseServer` base class."
+msgstr ""
+
+msgid ""
+"The default queue size is now ``socket.SOMAXCONN`` for :class:`socketserver."
+"TCPServer`."
 msgstr ""
 
 msgid ""

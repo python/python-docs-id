@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 14:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -23,8 +23,8 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Dictionary Objects"
-msgstr "Objek *Dictionary*"
+msgid "Dictionary objects"
+msgstr ""
 
 msgid ""
 "This subtype of :c:type:`PyObject` represents a Python dictionary object."
@@ -55,6 +55,14 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The first argument can be a :class:`dict`, a :class:`frozendict`, or a "
+"mapping."
+msgstr ""
+
+msgid "Also accept :class:`frozendict`."
+msgstr ""
+
+msgid ""
 "The type object for mapping proxy objects created by :c:func:"
 "`PyDictProxy_New` and for the read-only ``__dict__`` attribute of many built-"
 "in types. A :c:type:`PyDictProxy_Type` instance provides a dynamic, read-"
@@ -67,9 +75,17 @@ msgid "Empty an existing dictionary of all key-value pairs."
 msgstr ""
 
 msgid ""
+"Do nothing if the argument is not a :class:`dict` or a :class:`!dict` "
+"subclass."
+msgstr ""
+
+msgid ""
 "Determine if dictionary *p* contains *key*.  If an item in *p* matches "
 "*key*, return ``1``, otherwise return ``0``.  On error, return ``-1``. This "
 "is equivalent to the Python expression ``key in p``."
+msgstr ""
+
+msgid "The first argument can be a :class:`dict` or a :class:`frozendict`."
 msgstr ""
 
 msgid ""
@@ -126,7 +142,8 @@ msgstr ""
 msgid "If the key is missing, set *\\*result* to ``NULL`` and return ``0``."
 msgstr ""
 
-msgid "On error, raise an exception and return ``-1``."
+msgid ""
+"On error, raise an exception, set *\\*result* to ``NULL`` and return ``-1``."
 msgstr ""
 
 msgid "See also the :c:func:`PyObject_GetItem` function."
@@ -235,6 +252,9 @@ msgid ""
 "``NULL``, and return ``0``."
 msgstr ""
 
+msgid "On error, raise an exception and return ``-1``."
+msgstr ""
+
 msgid ""
 "Similar to :meth:`dict.pop`, but without the default value and not raising :"
 "exc:`KeyError` if the key is missing."
@@ -261,6 +281,9 @@ msgstr ""
 msgid ""
 "Return the number of items in the dictionary.  This is equivalent to "
 "``len(p)`` on a dictionary."
+msgstr ""
+
+msgid "The argument can be a :class:`dict` or a :class:`frozendict`."
 msgstr ""
 
 msgid "Similar to :c:func:`PyDict_Size`, but without error checking."
@@ -337,8 +360,9 @@ msgstr ""
 
 msgid ""
 "The function is not thread-safe in the :term:`free-threaded <free "
-"threading>` build without external synchronization.  You can use :c:macro:"
-"`Py_BEGIN_CRITICAL_SECTION` to lock the dictionary while iterating over it::"
+"threading>` build without external synchronization for a mutable :class:"
+"`dict`. You can use :c:macro:`Py_BEGIN_CRITICAL_SECTION` to lock the "
+"dictionary while iterating over it::"
 msgstr ""
 
 msgid ""
@@ -353,6 +377,9 @@ msgstr ""
 "    ...\n"
 "}\n"
 "Py_END_CRITICAL_SECTION();"
+
+msgid "The function is thread-safe on a :class:`frozendict`."
+msgstr ""
 
 msgid ""
 "On the free-threaded build, this function can be used safely inside a "
@@ -503,7 +530,7 @@ msgid ""
 "it before returning."
 msgstr ""
 
-msgid "Dictionary View Objects"
+msgid "Dictionary view objects"
 msgstr ""
 
 msgid ""
@@ -542,7 +569,46 @@ msgid ""
 "always succeeds."
 msgstr ""
 
-msgid "Ordered Dictionaries"
+msgid "Frozen dictionary objects"
+msgstr ""
+
+msgid ""
+"This instance of :c:type:`PyTypeObject` represents the Python frozen "
+"dictionary type. This is the same object as :class:`frozendict` in the "
+"Python layer."
+msgstr ""
+
+msgid ""
+"Return true if *p* is a :class:`dict` object, a :class:`frozendict` object, "
+"or an instance of a subtype of the :class:`!dict` or :class:`!frozendict` "
+"type. This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return true if *p* is a :class:`dict` object or a :class:`frozendict` "
+"object, but not an instance of a subtype of the :class:`!dict` or :class:`!"
+"frozendict` type. This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return true if *p* is a :class:`frozendict` object or an instance of a "
+"subtype of the :class:`!frozendict` type. This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return true if *p* is a :class:`frozendict` object, but not an instance of a "
+"subtype of the :class:`!frozendict` type. This function always succeeds."
+msgstr ""
+
+msgid ""
+"Return a new :class:`frozendict` from an iterable, or ``NULL`` on failure "
+"with an exception set."
+msgstr ""
+
+msgid "Create an empty dictionary if *iterable* is ``NULL``."
+msgstr ""
+
+msgid "Ordered dictionaries"
 msgstr ""
 
 msgid ""

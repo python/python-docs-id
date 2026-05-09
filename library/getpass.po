@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 15:53+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -66,12 +66,43 @@ msgstr ""
 msgid ""
 "On Unix systems, when *echo_char* is set, the terminal will be configured to "
 "operate in :manpage:`noncanonical mode "
-"<termios(3)#Canonical_and_noncanonical_mode>`. In particular, this means "
-"that line editing shortcuts such as :kbd:`Ctrl+U` will not work and may "
-"insert unexpected characters into the input."
+"<termios(3)#Canonical_and_noncanonical_mode>`. Common terminal control "
+"characters are supported:"
+msgstr ""
+
+msgid ":kbd:`Ctrl+A` - Move cursor to beginning of line"
+msgstr ""
+
+msgid ":kbd:`Ctrl+E` - Move cursor to end of line"
+msgstr ""
+
+msgid ":kbd:`Ctrl+K` - Kill (delete) from cursor to end of line"
+msgstr ""
+
+msgid ":kbd:`Ctrl+U` - Kill (delete) entire line"
+msgstr ""
+
+msgid ":kbd:`Ctrl+W` - Erase previous word"
+msgstr ""
+
+msgid ":kbd:`Ctrl+V` - Insert next character literally (quote)"
+msgstr ""
+
+msgid ":kbd:`Backspace`/:kbd:`DEL` - Delete character before cursor"
+msgstr ""
+
+msgid ""
+"These shortcuts work by reading the terminal's configured control character "
+"mappings from termios settings."
 msgstr ""
 
 msgid "Added the *echo_char* parameter for keyboard feedback."
+msgstr ""
+
+msgid ""
+"When using non-empty *echo_char* on Unix, keyboard shortcuts (including "
+"cursor movement and line editing) are now properly handled using the "
+"terminal's control character configuration."
 msgstr ""
 
 msgid "A :exc:`UserWarning` subclass issued when password input may be echoed."

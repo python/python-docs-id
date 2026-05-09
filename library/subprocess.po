@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -909,13 +909,37 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When the ``timeout`` parameter is not ``None``, then (on POSIX) the function "
-"is implemented using a busy loop (non-blocking call and short sleeps). Use "
-"the :mod:`asyncio` module for an asynchronous wait: see :class:`asyncio."
+"When ``timeout`` is not ``None`` and the platform supports it, an efficient "
+"event-driven mechanism is used to wait for process termination:"
+msgstr ""
+
+msgid "Linux >= 5.3 uses :func:`os.pidfd_open` + :func:`select.poll`"
+msgstr ""
+
+msgid ""
+"macOS and other BSD variants use :func:`select.kqueue` + ``KQ_FILTER_PROC`` "
+"+ ``KQ_NOTE_EXIT``"
+msgstr ""
+
+msgid "Windows uses ``WaitForSingleObject``"
+msgstr ""
+
+msgid ""
+"If none of these mechanisms are available, the function falls back to a busy "
+"loop (non-blocking call and short sleeps)."
+msgstr ""
+
+msgid ""
+"Use the :mod:`asyncio` module for an asynchronous wait: see :class:`asyncio."
 "create_subprocess_exec`."
 msgstr ""
 
 msgid "*timeout* was added."
+msgstr ""
+
+msgid ""
+"if *timeout* is not ``None``, use efficient event-driven implementation on "
+"Linux >= 5.3 and macOS / BSD."
 msgstr ""
 
 msgid ""

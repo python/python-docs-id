@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -53,6 +53,9 @@ msgid ""
 "contains :file:`.py` files, Python will not attempt to modify the archive by "
 "adding the corresponding :file:`.pyc` file, meaning that if a ZIP archive "
 "doesn't contain :file:`.pyc` files, importing may be rather slow."
+msgstr ""
+
+msgid "Zstandard (*zstd*) compressed zip file entries are supported."
 msgstr ""
 
 msgid "ZIP64 is supported"
@@ -160,15 +163,6 @@ msgstr ""
 msgid ""
 "Return ``True`` if the module specified by *fullname* is a package. Raise :"
 "exc:`ZipImportError` if the module couldn't be found."
-msgstr ""
-
-msgid ""
-"Load the module specified by *fullname*. *fullname* must be the fully "
-"qualified (dotted) module name. Returns the imported module on success, "
-"raises :exc:`ZipImportError` on failure."
-msgstr ""
-
-msgid "Use :meth:`exec_module` instead."
 msgstr ""
 
 msgid ""

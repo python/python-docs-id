@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 14:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -26,8 +26,11 @@ msgstr ""
 
 msgid ""
 "The :mod:`!wave` module provides a convenient interface to the Waveform "
-"Audio \"WAVE\" (or \"WAV\") file format. Only uncompressed PCM encoded wave "
-"files are supported."
+"Audio \"WAVE\" (or \"WAV\") file format."
+msgstr ""
+
+msgid ""
+"The module supports uncompressed PCM and IEEE floating-point WAV formats."
 msgstr ""
 
 msgid ""
@@ -35,12 +38,17 @@ msgid ""
 "extended format is ``KSDATAFORMAT_SUBTYPE_PCM``."
 msgstr ""
 
+msgid ""
+"Support for reading and writing ``WAVE_FORMAT_IEEE_FLOAT`` files was added."
+msgstr ""
+
 msgid "The :mod:`!wave` module defines the following function and exception:"
 msgstr ""
 
 msgid ""
-"If *file* is a string, open the file by that name, otherwise treat it as a "
-"file-like object.  *mode* can be:"
+"If *file* is a string, a :term:`path-like object` or a :term:`bytes-like "
+"object` open the file by that name, otherwise treat it as a file-like "
+"object.  *mode* can be:"
 msgstr ""
 
 msgid "``'rb'``"
@@ -81,8 +89,22 @@ msgid "Added support for unseekable files."
 msgstr ""
 
 msgid ""
+"Added support for :term:`path-like objects <path-like object>` and :term:"
+"`bytes-like objects <bytes-like object>`."
+msgstr ""
+
+msgid ""
 "An error raised when something is impossible because it violates the WAV "
 "specification or hits an implementation deficiency."
+msgstr ""
+
+msgid "Format code for uncompressed PCM audio."
+msgstr ""
+
+msgid "Format code for IEEE floating-point audio."
+msgstr ""
+
+msgid "Format code for WAVE extensible headers."
 msgstr ""
 
 msgid "Wave_read Objects"
@@ -112,6 +134,14 @@ msgstr ""
 msgid "Returns number of audio frames."
 msgstr ""
 
+msgid "Returns the frame format code."
+msgstr ""
+
+msgid ""
+"This is one of :data:`WAVE_FORMAT_PCM`, :data:`WAVE_FORMAT_IEEE_FLOAT`, or :"
+"data:`WAVE_FORMAT_EXTENSIBLE`."
+msgstr ""
+
 msgid "Returns compression type (``'NONE'`` is the only supported type)."
 msgstr ""
 
@@ -131,22 +161,6 @@ msgid ""
 msgstr ""
 
 msgid "Rewind the file pointer to the beginning of the audio stream."
-msgstr ""
-
-msgid ""
-"The following two methods are defined for compatibility with the old :mod:`!"
-"aifc` module, and don't do anything interesting."
-msgstr ""
-
-msgid "Returns ``None``."
-msgstr ""
-
-msgid ""
-"The method only existed for compatibility with the :mod:`!aifc` module which "
-"has been removed in Python 3.13."
-msgstr ""
-
-msgid "Raise an error."
 msgstr ""
 
 msgid ""
@@ -201,6 +215,11 @@ msgstr ""
 msgid "Set the sample width to *n* bytes."
 msgstr ""
 
+msgid ""
+"For :data:`WAVE_FORMAT_IEEE_FLOAT`, only 4-byte (32-bit) and 8-byte (64-bit) "
+"sample widths are supported."
+msgstr ""
+
 msgid "Return the sample width in bytes."
 msgstr ""
 
@@ -233,10 +252,34 @@ msgstr ""
 msgid "Return the human-readable compression type name."
 msgstr ""
 
+msgid "Set the frame format code."
+msgstr ""
+
+msgid ""
+"Supported values are :data:`WAVE_FORMAT_PCM` and :data:"
+"`WAVE_FORMAT_IEEE_FLOAT`."
+msgstr ""
+
+msgid ""
+"When setting :data:`WAVE_FORMAT_IEEE_FLOAT`, the sample width must be 4 or 8 "
+"bytes."
+msgstr ""
+
+msgid "Return the current frame format code."
+msgstr ""
+
 msgid ""
 "The *tuple* should be ``(nchannels, sampwidth, framerate, nframes, comptype, "
-"compname)``, with values valid for the ``set*()`` methods.  Sets all "
+"compname, format)``, with values valid for the ``set*()`` methods. Sets all "
 "parameters."
+msgstr ""
+
+msgid ""
+"For backwards compatibility, a 6-item tuple without *format* is also "
+"accepted and defaults to :data:`WAVE_FORMAT_PCM`."
+msgstr ""
+
+msgid "For ``format=WAVE_FORMAT_IEEE_FLOAT``, *sampwidth* must be 4 or 8."
 msgstr ""
 
 msgid ""
@@ -266,4 +309,9 @@ msgid ""
 "Note that it is invalid to set any parameters after calling :meth:"
 "`writeframes` or :meth:`writeframesraw`, and any attempt to do so will "
 "raise :exc:`wave.Error`."
+msgstr ""
+
+msgid ""
+"For :data:`WAVE_FORMAT_IEEE_FLOAT` output, a ``fact`` chunk is written as "
+"required by the WAVE specification for non-PCM formats."
 msgstr ""

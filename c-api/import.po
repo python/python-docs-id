@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 15:48+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -30,21 +30,6 @@ msgid ""
 "This is a wrapper around :c:func:`PyImport_Import()` which takes a :c:expr:"
 "`const char *` as an argument instead of a :c:expr:`PyObject *`."
 msgstr ""
-
-msgid "This function is a deprecated alias of :c:func:`PyImport_ImportModule`."
-msgstr ""
-"Fungsi ini adalah alias yang sudah tidak digunakan lagi dari :c:func:"
-"`PyImport_ImportModule`."
-
-msgid ""
-"This function used to fail immediately when the import lock was held by "
-"another thread.  In Python 3.3 though, the locking scheme switched to per-"
-"module locks for most purposes, so this function's special behaviour isn't "
-"needed anymore."
-msgstr ""
-
-msgid "Use :c:func:`PyImport_ImportModule` instead."
-msgstr "Gunakan :c:func:`PyImport_ImportModule` sebagai gantinya."
 
 msgid ""
 "Import a module.  This is best described by referring to the built-in Python "
@@ -150,8 +135,7 @@ msgstr ""
 
 msgid ""
 "The module's :attr:`~module.__file__` attribute will be set to the code "
-"object's :attr:`~codeobject.co_filename`.  If applicable, :attr:`~module."
-"__cached__` will also be set."
+"object's :attr:`~codeobject.co_filename`."
 msgstr ""
 
 msgid ""
@@ -172,8 +156,11 @@ msgstr ""
 "`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
-"The setting of :attr:`~module.__cached__` and :attr:`~module.__loader__` is "
-"deprecated. See :class:`~importlib.machinery.ModuleSpec` for alternatives."
+"The setting of ``__cached__`` and :attr:`~module.__loader__` is deprecated. "
+"See :class:`~importlib.machinery.ModuleSpec` for alternatives."
+msgstr ""
+
+msgid "``__cached__`` is no longer set."
 msgstr ""
 
 msgid ""
@@ -185,14 +172,17 @@ msgid "See also :c:func:`PyImport_ExecCodeModuleWithPathnames`."
 msgstr "Lihat juga :c:func:`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
-"Like :c:func:`PyImport_ExecCodeModuleEx`, but the :attr:`~module.__cached__` "
-"attribute of the module object is set to *cpathname* if it is non-``NULL``.  "
-"Of the three functions, this is the preferred one to use."
+"Like :c:func:`PyImport_ExecCodeModuleEx`, but the path to any compiled file "
+"via *cpathname* is used appropriately when non-``NULL``.  Of the three "
+"functions, this is the preferred one to use."
 msgstr ""
 
 msgid ""
-"Setting :attr:`~module.__cached__` is deprecated. See :class:`~importlib."
-"machinery.ModuleSpec` for alternatives."
+"Setting ``__cached__`` is deprecated. See :class:`~importlib.machinery."
+"ModuleSpec` for alternatives."
+msgstr ""
+
+msgid "``__cached__`` no longer set."
 msgstr ""
 
 msgid ""
@@ -357,6 +347,67 @@ msgstr ""
 msgid ""
 "Similar to :c:func:`PyImport_ImportModuleAttr`, but names are UTF-8 encoded "
 "strings instead of Python :class:`str` objects."
+msgstr ""
+
+msgid "Gets the current lazy imports mode."
+msgstr ""
+
+msgid ""
+"Return a :term:`strong reference` to the current lazy imports filter, or "
+"``NULL`` if none exists. This function always succeeds."
+msgstr ""
+
+msgid "This function always returns ``0``."
+msgstr ""
+
+msgid ""
+"Sets the current lazy imports filter. The *filter* should be a callable that "
+"will receive ``(importing_module_name, imported_module_name, [fromlist])`` "
+"when an import can potentially be lazy. The ``imported_module_name`` value "
+"is the resolved module name, so ``lazy from .spam import eggs`` passes "
+"``package.spam``. The callable must return ``True`` if the import should be "
+"lazy and ``False`` otherwise."
+msgstr ""
+
+msgid "Return ``0`` on success and ``-1`` with an exception set otherwise."
+msgstr ""
+
+msgid "Enumeration of possible lazy import modes."
+msgstr ""
+
+msgid "Respect the ``lazy`` keyword in source code. This is the default mode."
+msgstr ""
+
+msgid "Make all imports lazy by default."
+msgstr ""
+
+msgid ""
+"Disable lazy imports entirely. Even explicit ``lazy`` statements become "
+"eager imports."
+msgstr ""
+
+msgid ""
+"This function is a building block that enables embedders to implement the :"
+"py:meth:`~importlib.abc.Loader.create_module` step of custom static "
+"extension importers (e.g. of statically-linked extensions)."
+msgstr ""
+
+msgid "*spec* must be a :class:`~importlib.machinery.ModuleSpec` object."
+msgstr ""
+
+msgid ""
+"*initfunc* must be an :ref:`initialization function <extension-export-"
+"hook>`, the same as for :c:func:`PyImport_AppendInittab`."
+msgstr ""
+
+msgid ""
+"On success, create and return a module object. This module will not be "
+"initialized; call :c:func:`PyModule_Exec` to initialize it. (Custom "
+"importers should do this in their :py:meth:`~importlib.abc.Loader."
+"exec_module` method.)"
+msgstr ""
+
+msgid "On error, return NULL with an exception set."
 msgstr ""
 
 msgid "package variable"

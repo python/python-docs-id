@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-19 14:37+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -222,6 +222,9 @@ msgid ""
 "class:`float` type."
 msgstr ""
 
+msgid "Accepts any real number as *time*, not only integer or float."
+msgstr ""
+
 msgid "Similar to :func:`clock_settime` but set time with nanoseconds."
 msgstr ""
 
@@ -237,6 +240,9 @@ msgid ""
 "func:`.time` is used. ``ctime(secs)`` is equivalent to "
 "``asctime(localtime(secs))``. Locale information is not used by :func:"
 "`ctime`."
+msgstr ""
+
+msgid "Accepts any real number, not only integer or float."
 msgstr ""
 
 msgid ""
@@ -402,8 +408,7 @@ msgstr ""
 
 msgid ""
 "Suspend execution of the calling thread for the given number of seconds. The "
-"argument may be a floating-point number to indicate a more precise sleep "
-"time."
+"argument may be a non-integer to indicate a more precise sleep time."
 msgstr ""
 
 msgid ""

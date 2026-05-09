@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-21 15:07+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -42,8 +42,15 @@ msgstr ""
 
 msgid ""
 "If none of these modules are installed, the slow-but-simple implementation "
-"in module :mod:`dbm.dumb` will be used.  There is a `third party interface "
+"in module :mod:`dbm.dumb` will be used. There is a `third party interface "
 "<https://www.jcea.es/programacion/pybsddb.htm>`_ to the Oracle Berkeley DB."
+msgstr ""
+
+msgid ""
+"None of the underlying modules will automatically shrink the disk space used "
+"by the database file. However, :mod:`dbm.sqlite3`, :mod:`dbm.gnu` and :mod:"
+"`dbm.dumb` provide a :meth:`!reorganize` method that can be used for this "
+"purpose."
 msgstr ""
 
 msgid ""
@@ -238,10 +245,23 @@ msgid ""
 "manager via the :keyword:`with` keyword."
 msgstr ""
 
-msgid "The following method is also provided:"
+msgid "The following methods are also provided:"
 msgstr ""
 
 msgid "Close the SQLite database."
+msgstr ""
+
+msgid ""
+"If you have carried out a lot of deletions and would like to shrink the "
+"space used on disk, this method will reorganize the database; otherwise, "
+"deleted file space will be kept and reused as new (key, value) pairs are "
+"added."
+msgstr ""
+
+msgid ""
+"While reorganizing, as much as two times the size of the original database "
+"is required in free disk space. However, be aware that this factor changes "
+"for each :mod:`!dbm` submodule."
 msgstr ""
 
 msgid ":mod:`!dbm.gnu` --- GNU database manager"
@@ -334,9 +354,6 @@ msgstr ""
 msgid "Added the :meth:`!clear` method."
 msgstr ""
 
-msgid "The following methods are also provided:"
-msgstr ""
-
 msgid "Close the GDBM database."
 msgstr ""
 
@@ -366,6 +383,12 @@ msgid ""
 "class:`!gdbm` objects will not shorten the length of a database file except "
 "by using this reorganization; otherwise, deleted file space will be kept and "
 "reused as new (key, value) pairs are added."
+msgstr ""
+
+msgid ""
+"While reorganizing, as much as one time the size of the original database is "
+"required in free disk space. However, be aware that this factor changes for "
+"each :mod:`!dbm` submodule."
 msgstr ""
 
 msgid ""
@@ -423,6 +446,9 @@ msgid ""
 "and :meth:`!update` are not supported, the :meth:`!keys` method returns a "
 "list, and the :meth:`!setdefault` method requires two arguments. It also "
 "supports a \"closing\" context manager via the :keyword:`with` keyword."
+msgstr ""
+
+msgid "The following method is also provided:"
 msgstr ""
 
 msgid "Close the NDBM database."
@@ -494,6 +520,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+":mod:`!dbm.dumb` does not support concurrent read/write access. (Multiple "
+"simultaneous read accesses are safe.) When a program has the database open "
+"for writing, no other program should have it open for reading or writing."
+msgstr ""
+
+msgid ""
 ":func:`~dbm.dumb.open` always creates a new database when *flag* is ``'n'``."
 msgstr ""
 
@@ -510,6 +542,17 @@ msgid ""
 msgstr ""
 
 msgid "Close the database."
+msgstr ""
+
+msgid ""
+"If you have carried out a lot of deletions and would like to shrink the "
+"space used on disk, this method will reorganize the database; otherwise, "
+"deleted file space will not be reused."
+msgstr ""
+
+msgid ""
+"While reorganizing, no additional free disk space is required. However, be "
+"aware that this factor changes for each :mod:`!dbm` submodule."
 msgstr ""
 
 msgid ""

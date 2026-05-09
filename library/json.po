@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 14:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -341,6 +341,13 @@ msgid ""
 msgstr ""
 
 msgid ""
+"If set, a function that is called with the result of any JSON array literal "
+"decoded with as a Python list. The return value of this function will be "
+"used instead of the :class:`list`. This feature can be used to implement "
+"custom decoders. Default ``None``."
+msgstr ""
+
+msgid ""
 "If set, a function that is called with the string of every JSON float to be "
 "decoded. If ``None`` (the default), it is equivalent to ``float(num_str)``. "
 "This can be used to parse JSON floats into custom datatypes, for example :"
@@ -386,6 +393,9 @@ msgid ""
 "The default *parse_int* of :func:`int` now limits the maximum length of the "
 "integer string via the interpreter's :ref:`integer string conversion length "
 "limitation <int_max_str_digits>` to help avoid denial of service attacks."
+msgstr ""
+
+msgid "Added the optional *array_hook* parameter."
 msgstr ""
 
 msgid ""
@@ -488,6 +498,16 @@ msgstr ""
 
 msgid "Added support for *object_pairs_hook*."
 msgstr "Menambahkan dukungan untuk *object_pairs_hook*."
+
+msgid ""
+"*array_hook* is an optional function that will be called with the result of "
+"every JSON array decoded as a list. The return value of *array_hook* will be "
+"used instead of the :class:`list`. This feature can be used to implement "
+"custom decoders."
+msgstr ""
+
+msgid "Added support for *array_hook*."
+msgstr ""
 
 msgid ""
 "*parse_float* is an optional function that will be called with the string of "

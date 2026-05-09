@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 14:49+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -314,11 +314,20 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Set *color* to ``True`` to enable output in color, similar to :program:`git "
+"diff --color`. Even if enabled, it can be :ref:`controlled using environment "
+"variables <using-on-controlling-color>`."
+msgstr ""
+
+msgid ""
 "The unified diff format normally has a header for filenames and modification "
 "times.  Any or all of these may be specified using strings for *fromfile*, "
 "*tofile*, *fromfiledate*, and *tofiledate*.  The modification times are "
 "normally expressed in the ISO 8601 format. If not specified, the strings "
 "default to blanks."
+msgstr ""
+
+msgid "Added the *color* parameter."
 msgstr ""
 
 msgid ""

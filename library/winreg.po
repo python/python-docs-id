@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-19 14:37+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -23,6 +23,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!winreg` --- Windows registry access"
+msgstr ""
+
+msgid "**Source code:** :source:`PC/winreg.c`"
 msgstr ""
 
 msgid ""
@@ -161,6 +164,24 @@ msgid ""
 msgstr ""
 
 msgid "On unsupported Windows versions, :exc:`NotImplementedError` is raised."
+msgstr ""
+
+msgid "Deletes the specified key and all its subkeys and values recursively."
+msgstr ""
+
+msgid ""
+"*sub_key* is a string that names the subkey to delete. If ``None``, deletes "
+"all subkeys and values of the specified key."
+msgstr ""
+
+msgid ""
+"This function deletes a key and all its descendants. If *sub_key* is "
+"``None``, all subkeys and values of the specified key are deleted."
+msgstr ""
+
+msgid ""
+"Raises an :ref:`auditing event <auditing>` ``winreg.DeleteTree`` with "
+"arguments ``key``, ``sub_key``."
 msgstr ""
 
 msgid "Removes a named value from a registry key."
@@ -737,6 +758,13 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The object also support equality comparison semantics, so handle objects "
+"will compare equal if they both reference the same underlying Windows handle "
+"value. Closed handle objects (those with a handle value of zero) always "
+"compare equal."
+msgstr ""
+
+msgid ""
 "Handle objects can be converted to an integer (e.g., using the built-in :"
 "func:`int` function), in which case the underlying Windows handle value is "
 "returned.  You can also use the :meth:`~PyHKEY.Detach` method to return the "
@@ -783,6 +811,11 @@ msgstr ""
 
 msgid ""
 "will automatically close *key* when control leaves the :keyword:`with` block."
+msgstr ""
+
+msgid ""
+"Handle objects are now compared by their underlying Windows handle value "
+"instead of object identity for equality comparisons."
 msgstr ""
 
 msgid "% (percent)"

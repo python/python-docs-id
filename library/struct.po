@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 15:53+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -457,6 +457,12 @@ msgstr ""
 msgid "16"
 msgstr "16"
 
+msgid "``Zf``"
+msgstr ""
+
+msgid "``Zd``"
+msgstr ""
+
 msgid "``s``"
 msgstr "``s``"
 
@@ -491,6 +497,9 @@ msgid "Added support for the ``'e'`` format."
 msgstr ""
 
 msgid "Added support for the ``'F'`` and ``'D'`` formats."
+msgstr ""
+
+msgid "Added support for the ``'Zf'`` and ``'Zd'`` formats."
 msgstr ""
 
 msgid ""
@@ -586,10 +595,10 @@ msgid ""
 "For the ``'F'`` and ``'D'`` format characters, the packed representation "
 "uses the IEEE 754 binary32 and binary64 format for components of the complex "
 "number, regardless of the floating-point format used by the platform. Note "
-"that complex types (``F`` and ``D``) are available unconditionally, despite "
-"complex types being an optional feature in C. As specified in the C11 "
-"standard, each complex type is represented by a two-element C array "
-"containing, respectively, the real and imaginary parts."
+"that complex types (``F``/``Zf`` and ``D``/``Zd``) are available "
+"unconditionally, despite complex types being an optional feature in C. As "
+"specified in the C11 standard, each complex type is represented by a two-"
+"element C array containing, respectively, the real and imaginary parts."
 msgstr ""
 
 msgid ""

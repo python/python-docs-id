@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 16:02+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2026-01-07 14:20+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -21,6 +21,11 @@ msgstr ""
 msgid "Pending removal in Python 3.18"
 msgstr ""
 
+msgid ""
+"No longer accept a boolean value when a file descriptor is expected. "
+"(Contributed by Serhiy Storchaka in :gh:`82626`.)"
+msgstr ""
+
 msgid ":mod:`decimal`:"
 msgstr ""
 
@@ -29,4 +34,13 @@ msgid ""
 "``'N'``, which is only supported in the :mod:`!decimal` module's C "
 "implementation, has been deprecated since Python 3.13. (Contributed by "
 "Serhiy Storchaka in :gh:`89902`.)"
+msgstr ""
+
+msgid "Deprecations defined by :pep:`829`:"
+msgstr ""
+
+msgid "``import`` lines in :file:`{name}.pth` files are silently ignored."
+msgstr ""
+
+msgid "(Contributed by Barry Warsaw in :gh:`148641`.)"
 msgstr ""

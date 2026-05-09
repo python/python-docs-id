@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-17 14:50+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -145,6 +145,67 @@ msgid ""
 "C++ users should note that although the API is defined entirely using C, the "
 "header files properly declare the entry points to be ``extern \"C\"``. As a "
 "result, there is no need to do anything special to use the API from C++."
+msgstr ""
+
+msgid "System includes"
+msgstr ""
+
+msgid ""
+":file:`Python.h` includes several standard header files. C extensions should "
+"include the standard headers that they use, and should not rely on these "
+"implicit includes. The implicit includes are:"
+msgstr ""
+
+msgid "``<assert.h>``"
+msgstr ""
+
+msgid "``<intrin.h>`` (on Windows)"
+msgstr ""
+
+msgid "``<inttypes.h>``"
+msgstr ""
+
+msgid "``<limits.h>``"
+msgstr ""
+
+msgid "``<math.h>``"
+msgstr ""
+
+msgid "``<stdarg.h>``"
+msgstr ""
+
+msgid "``<string.h>``"
+msgstr ""
+
+msgid "``<wchar.h>``"
+msgstr ""
+
+msgid "``<sys/types.h>`` (if present)"
+msgstr ""
+
+msgid ""
+"The following are included for backwards compatibility, unless using :ref:"
+"`Limited API <limited-c-api>` 3.13 or newer:"
+msgstr ""
+
+msgid "``<ctype.h>``"
+msgstr ""
+
+msgid "``<unistd.h>`` (on POSIX)"
+msgstr ""
+
+msgid ""
+"The following are included for backwards compatibility, unless using :ref:"
+"`Limited API <limited-c-api>` 3.11 or newer:"
+msgstr ""
+
+msgid "``<errno.h>``"
+msgstr ""
+
+msgid "``<stdio.h>``"
+msgstr ""
+
+msgid "``<stdlib.h>``"
 msgstr ""
 
 msgid "Useful macros"
@@ -549,14 +610,21 @@ msgid "Outdated macros"
 msgstr ""
 
 msgid ""
-"The following macros have been used to features that have been standardized "
-"in C11."
+"The following :term:`soft deprecated` macros have been used to features that "
+"have been standardized in C11 (or previous standards)."
 msgstr ""
 
-msgid "Specify alignment to *num* bytes on compilers that support it."
+msgid ""
+"On some GCC-like compilers, specify alignment to *num* bytes. This does "
+"nothing on other compilers."
 msgstr ""
 
-msgid "Consider using the C11 standard ``_Alignas`` specifier over this macro."
+msgid "Use the standard ``alignas`` specifier rather than this macro."
+msgstr ""
+
+msgid ""
+"The :c:func:`printf` formatting modifier for :c:type:`size_t`. Use ``\"z\"`` "
+"directly instead."
 msgstr ""
 
 msgid ""
@@ -573,16 +641,44 @@ msgid "Consider using the C99 standard suffixes ``LL`` and ``LLU`` directly."
 msgstr ""
 
 msgid ""
-"This is a :term:`soft deprecated` alias to :c:func:`!memcpy`. Use :c:func:`!"
-"memcpy` directly instead."
-msgstr ""
-
-msgid "The macro is :term:`soft deprecated`."
+"Aliases for the types :c:type:`!long long`, :c:type:`!int32_t`, :c:type:`!"
+"uint32_t`. :c:type:`!int64_t` and :c:type:`!uint64_t`, respectively. "
+"Historically, these types needed compiler-specific extensions."
 msgstr ""
 
 msgid ""
-"This is a :term:`soft deprecated` alias to the C99-standard ``va_copy`` "
-"function."
+"Aliases for the values :c:macro:`!LLONG_MIN`, :c:macro:`!LLONG_MAX`, :c:"
+"macro:`!ULLONG_MAX`, and :c:macro:`!SIZE_MAX`, respectively. Use these "
+"standard names instead."
+msgstr ""
+
+msgid ""
+"The required header, ``<limits.h>``, :ref:`is included <capi-system-"
+"includes>` in ``Python.h``."
+msgstr ""
+
+msgid "This is an alias to :c:func:`!memcpy`."
+msgstr ""
+
+msgid "Use :c:func:`!memcpy` directly instead."
+msgstr ""
+
+msgid ""
+"Size of the :c:type:`!wchar_t` type. Use ``sizeof(wchar_t)`` or "
+"``WCHAR_WIDTH/8`` instead."
+msgstr ""
+
+msgid ""
+"The required header for the latter, ``<limits.h>``, :ref:`is included <capi-"
+"system-includes>` in ``Python.h``."
+msgstr ""
+
+msgid ""
+"Defined if ``wchar_t`` can hold a Unicode character (UCS-4). Use "
+"``sizeof(wchar_t) >= 4`` instead"
+msgstr ""
+
+msgid "This is an alias to the C99-standard ``va_copy`` function."
 msgstr ""
 
 msgid ""
@@ -1105,10 +1201,7 @@ msgid ""
 "The embedding application can steer the search by setting :c:member:"
 "`PyConfig.program_name` *before* calling :c:func:`Py_InitializeFromConfig`. "
 "Note that :envvar:`PYTHONHOME` still overrides this and :envvar:`PYTHONPATH` "
-"is still inserted in front of the standard path.  An application that "
-"requires total control has to provide its own implementation of :c:func:"
-"`Py_GetPath`, :c:func:`Py_GetPrefix`, :c:func:`Py_GetExecPrefix`, and :c:"
-"func:`Py_GetProgramFullPath` (all defined in :file:`Modules/getpath.c`)."
+"is still inserted in front of the standard path."
 msgstr ""
 
 msgid ""
@@ -1145,16 +1238,26 @@ msgstr ""
 msgid ""
 "Compiling the interpreter with the :c:macro:`!Py_DEBUG` macro defined "
 "produces what is generally meant by :ref:`a debug build of Python <debug-"
-"build>`. :c:macro:`!Py_DEBUG` is enabled in the Unix build by adding :option:"
-"`--with-pydebug` to the :file:`./configure` command. It is also implied by "
-"the presence of the not-Python-specific :c:macro:`!_DEBUG` macro.  When :c:"
-"macro:`!Py_DEBUG` is enabled in the Unix build, compiler optimization is "
-"disabled."
+"build>`."
+msgstr ""
+
+msgid ""
+"On Unix, :c:macro:`!Py_DEBUG` can be enabled by adding :option:`--with-"
+"pydebug` to the :file:`./configure` command. This will also disable compiler "
+"optimization."
+msgstr ""
+
+msgid ""
+"On Windows, selecting a debug build (e.g., by passing the :option:`-d` "
+"option to :file:`PCbuild/build.bat`) automatically enables :c:macro:`!"
+"Py_DEBUG`. Additionally, the presence of the not-Python-specific :c:macro:`!"
+"_DEBUG` macro, when defined by the compiler, will also implicitly enable :c:"
+"macro:`!Py_DEBUG`."
 msgstr ""
 
 msgid ""
 "In addition to the reference count debugging described below, extra checks "
-"are performed, see :ref:`Python Debug Build <debug-build>`."
+"are performed. See :ref:`Python Debug Build <debug-build>` for more details."
 msgstr ""
 
 msgid ""
@@ -1312,18 +1415,6 @@ msgid "path"
 msgstr ""
 
 msgid "path (in module sys)"
-msgstr ""
-
-msgid "Py_GetPath (C function)"
-msgstr ""
-
-msgid "Py_GetPrefix (C function)"
-msgstr ""
-
-msgid "Py_GetExecPrefix (C function)"
-msgstr ""
-
-msgid "Py_GetProgramFullPath (C function)"
 msgstr ""
 
 msgid "Py_IsInitialized (C function)"

@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 15:47+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -2075,8 +2075,9 @@ msgstr ""
 
 msgid ""
 ":c:func:`!Py_SetPath` now sets :data:`sys.executable` to the program full "
-"path (:c:func:`Py_GetProgramFullPath`) rather than to the program name (:c:"
-"func:`Py_GetProgramName`). (Contributed by Victor Stinner in :issue:`38234`.)"
+"path (:c:func:`!Py_GetProgramFullPath`) rather than to the program name (:c:"
+"func:`!Py_GetProgramName`). (Contributed by Victor Stinner in :issue:"
+"`38234`.)"
 msgstr ""
 
 msgid "Deprecated"

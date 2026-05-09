@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 15:53+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -180,6 +180,26 @@ msgstr ""
 msgid ""
 "Return true if the string only contains ASCII characters. Equivalent to :py:"
 "meth:`str.isascii`."
+msgstr ""
+
+msgid ""
+"If the hash of *str*, as returned by :c:func:`PyObject_Hash`, has been "
+"cached and is immediately available, return it. Otherwise, return ``-1`` "
+"*without* setting an exception."
+msgstr ""
+
+msgid ""
+"If *str* is not a string (that is, if ``PyUnicode_Check(obj)`` is false), "
+"the behavior is undefined."
+msgstr ""
+
+msgid "This function never fails with an exception."
+msgstr ""
+
+msgid ""
+"Note that there are no guarantees on when an object's hash is cached, and "
+"the (non-)existence of a cached hash does not imply that the string has any "
+"other properties."
 msgstr ""
 
 msgid "Unicode Character Properties"

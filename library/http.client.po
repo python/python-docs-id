@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 15:48+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -65,7 +65,10 @@ msgid ""
 "not given, the global default timeout setting is used). The optional "
 "*source_address* parameter may be a tuple of a (host, port) to use as the "
 "source address the HTTP connection is made from. The optional *blocksize* "
-"parameter sets the buffer size in bytes for sending a file-like message body."
+"parameter sets the buffer size in bytes for sending a file-like message "
+"body. The optional *max_response_headers* parameter sets the maximum number "
+"of allowed response headers to help prevent denial-of-service attacks, "
+"otherwise the default value (100) is used."
 msgstr ""
 
 msgid ""
@@ -89,6 +92,9 @@ msgid ""
 msgstr ""
 
 msgid "*blocksize* parameter was added."
+msgstr ""
+
+msgid "*max_response_headers* parameter was added."
 msgstr ""
 
 msgid ""
@@ -415,6 +421,12 @@ msgid "Close the connection to the server."
 msgstr ""
 
 msgid "Buffer size in bytes for sending a file-like message body."
+msgstr ""
+
+msgid ""
+"The maximum number of allowed response headers to help prevent denial-of-"
+"service attacks. By default, the maximum number of allowed headers is set to "
+"100."
 msgstr ""
 
 msgid ""

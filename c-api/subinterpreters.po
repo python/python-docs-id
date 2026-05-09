@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 14:38+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2026-02-25 14:46+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -406,6 +406,25 @@ msgid "See the :pep:`523` \"Adding a frame evaluation API to CPython\"."
 msgstr ""
 
 msgid "Set the frame evaluation function."
+msgstr ""
+
+msgid ""
+"Enables or disables specialization why a custom frame evaluator is in place."
+msgstr ""
+
+msgid ""
+"If *allow_specialization* is non-zero, the adaptive specializer will "
+"continue to specialize bytecodes even though a custom eval frame function is "
+"set. When *allow_specialization* is zero, setting a custom eval frame "
+"disables specialization. The standard interpreter loop will continue to "
+"deopt while a frame evaluation API is in place - the frame evaluation "
+"function needs to handle the specialized opcodes to take advantage of this."
+msgstr ""
+
+msgid ""
+"Return non-zero if adaptive specialization is enabled for the interpreter. "
+"Specialization is enabled when no custom eval frame function is set, or when "
+"one is set with *allow_specialization* enabled."
 msgstr ""
 
 msgid "Low-level APIs"

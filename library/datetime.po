@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-19 14:37+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -699,6 +699,9 @@ msgid ""
 "`localtime` failure."
 msgstr ""
 
+msgid "Accepts any real number as *timestamp*, not only integer or float."
+msgstr ""
+
 msgid ""
 "Return the date corresponding to the proleptic Gregorian *ordinal*, where "
 "January 1 of year 1 has ordinal 1."
@@ -763,13 +766,12 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If *format* specifies a day of month without a year a :exc:"
-"`DeprecationWarning` is emitted.  This is to avoid a quadrennial leap year "
-"bug in code seeking to parse only a month and day as the default year used "
-"in absence of one in the format is not a leap year. Such *format* values may "
-"raise an error as of Python 3.15.  The workaround is to always include a "
-"year in your *format*.  If parsing *date_string* values that do not have a "
-"year, explicitly add a year that is a leap year before parsing:"
+"If *format* specifies a day of month (``%d``) without a year, :exc:"
+"`ValueError` is raised.  This is to avoid a quadrennial leap year bug in "
+"code seeking to parse only a month and day as the default year used in "
+"absence of one in the format is not a leap year. The workaround is to always "
+"include a year in your *format*.  If parsing *date_string* values that do "
+"not have a year, explicitly add a year that is a leap year before parsing:"
 msgstr ""
 
 msgid ""
@@ -1292,9 +1294,6 @@ msgid ""
 "`gmtime` failure."
 msgstr ""
 
-msgid "Accepts any real number as *timestamp*, not only integer or float."
-msgstr ""
-
 msgid "Use :meth:`datetime.fromtimestamp` with :const:`UTC` instead."
 msgstr ""
 
@@ -1392,16 +1391,6 @@ msgid ""
 "by :func:`time.strptime` or if it returns a value which isn't a time tuple.  "
 "See also :ref:`strftime-strptime-behavior` and :meth:`datetime."
 "fromisoformat`."
-msgstr ""
-
-msgid ""
-"If *format* specifies a day of month without a year a :exc:"
-"`DeprecationWarning` is now emitted.  This is to avoid a quadrennial leap "
-"year bug in code seeking to parse only a month and day as the default year "
-"used in absence of one in the format is not a leap year. Such *format* "
-"values may raise an error as of Python 3.15.  The workaround is to always "
-"include a year in your *format*.  If parsing *date_string* values that do "
-"not have a year, explicitly add a year that is a leap year before parsing:"
 msgstr ""
 
 msgid ""
@@ -1728,11 +1717,10 @@ msgstr ""
 
 msgid ""
 "Naive :class:`.datetime` instances are assumed to represent local time and "
-"this method relies on the platform C :c:func:`mktime` function to perform "
-"the conversion. Since :class:`!datetime` supports wider range of values "
-"than :c:func:`mktime` on many platforms, this method may raise :exc:"
-"`OverflowError` or :exc:`OSError` for times far in the past or far in the "
-"future."
+"this method relies on platform C functions to perform the conversion. Since :"
+"class:`!datetime` supports a wider range of values than the platform C "
+"functions on many platforms, this method may raise :exc:`OverflowError` or :"
+"exc:`OSError` for times far in the past or far in the future."
 msgstr ""
 
 msgid ""
@@ -1761,6 +1749,11 @@ msgstr ""
 msgid ""
 "The :meth:`timestamp` method uses the :attr:`.fold` attribute to "
 "disambiguate the times during a repeated interval."
+msgstr ""
+
+msgid ""
+"This method no longer relies on the platform C :c:func:`mktime` function to "
+"perform conversions."
 msgstr ""
 
 msgid ""
@@ -2966,8 +2959,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The following is a list of all the format codes that the 1989 C standard "
-"requires, and these work on all platforms with a standard C implementation."
+"The following is a list of all the format codes that the 2011 C standard "
+"requires, and these work on all supported platforms."
 msgstr ""
 
 msgid "Directive"
@@ -3006,27 +2999,6 @@ msgstr ""
 msgid "Sonntag, Montag, ..., Samstag (de_DE)"
 msgstr ""
 
-msgid "``%w``"
-msgstr "``%w``"
-
-msgid "Weekday as a decimal number, where 0 is Sunday and 6 is Saturday."
-msgstr ""
-
-msgid "0, 1, ..., 6"
-msgstr "0, 1, ..., 6"
-
-msgid "``%d``"
-msgstr "``%d``"
-
-msgid "Day of the month as a zero-padded decimal number."
-msgstr ""
-
-msgid "01, 02, ..., 31"
-msgstr "01, 02, ..., 31"
-
-msgid "\\(9)"
-msgstr "\\(9)"
-
 msgid "``%b``"
 msgstr "``%b``"
 
@@ -3051,31 +3023,109 @@ msgstr ""
 msgid "Januar, Februar, ..., Dezember (de_DE)"
 msgstr ""
 
-msgid "``%m``"
-msgstr "``%m``"
+msgid "``%c``"
+msgstr "``%c``"
 
-msgid "Month as a zero-padded decimal number."
+msgid "Locale's appropriate date and time representation."
 msgstr ""
 
-msgid "01, 02, ..., 12"
+msgid "Tue Aug 16 21:30:00 1988 (en_US);"
 msgstr ""
 
-msgid "``%y``"
-msgstr "``%y``"
+msgid "Di 16 Aug 21:30:00 1988 (de_DE)"
+msgstr ""
 
-msgid "Year without century as a zero-padded decimal number."
+msgid "``%C``"
+msgstr ""
+
+msgid ""
+"The year divided by 100 and truncated to an integer as a zero-padded decimal "
+"number."
+msgstr ""
+
+msgid "01, 02, ..., 99"
+msgstr ""
+
+msgid "\\(0)"
+msgstr ""
+
+msgid "``%d``"
+msgstr "``%d``"
+
+msgid "Day of the month as a zero-padded decimal number."
+msgstr ""
+
+msgid "01, 02, ..., 31"
+msgstr "01, 02, ..., 31"
+
+msgid "\\(9), \\(10)"
+msgstr ""
+
+msgid "``%D``"
+msgstr ""
+
+msgid "Equivalent to ``%m/%d/%y``."
+msgstr ""
+
+msgid "11/28/25"
+msgstr ""
+
+msgid "\\(9)"
+msgstr "\\(9)"
+
+msgid "``%e``"
+msgstr ""
+
+msgid "The day of the month as a space-padded decimal number."
+msgstr ""
+
+msgid "␣1, ␣2, ..., 31"
+msgstr ""
+
+msgid "\\(10)"
+msgstr ""
+
+msgid "``%F``"
+msgstr ""
+
+msgid "Equivalent to ``%Y-%m-%d``, the ISO 8601 format."
+msgstr ""
+
+msgid "2025-10-11, 1001-12-30"
+msgstr ""
+
+msgid "``%g``"
+msgstr ""
+
+msgid ""
+"Last 2 digits of ISO 8601 year representing the year that contains the "
+"greater part of the ISO week (``%V``)."
 msgstr ""
 
 msgid "00, 01, ..., 99"
 msgstr "00, 01, ..., 99"
 
-msgid "``%Y``"
-msgstr "``%Y``"
+msgid "``%G``"
+msgstr "``%G``"
 
-msgid "Year with century as a decimal number."
+msgid ""
+"ISO 8601 year with century representing the year that contains the greater "
+"part of the ISO week (``%V``)."
 msgstr ""
 
 msgid "0001, 0002, ..., 2013, 2014, ..., 9998, 9999"
+msgstr ""
+
+msgid "\\(8)"
+msgstr "\\(8)"
+
+msgid "``%h``"
+msgstr ""
+
+msgid "Equivalent to ``%b``."
+msgstr ""
+
+msgid "See ``%b``."
 msgstr ""
 
 msgid "``%H``"
@@ -3093,6 +3143,44 @@ msgstr "``%I``"
 msgid "Hour (12-hour clock) as a zero-padded decimal number."
 msgstr ""
 
+msgid "01, 02, ..., 12"
+msgstr ""
+
+msgid "``%j``"
+msgstr "``%j``"
+
+msgid "Day of the year as a zero-padded decimal number."
+msgstr ""
+
+msgid "001, 002, ..., 366"
+msgstr "001, 002, ..., 366"
+
+msgid "``%m``"
+msgstr "``%m``"
+
+msgid "Month as a zero-padded decimal number."
+msgstr ""
+
+msgid "``%M``"
+msgstr "``%M``"
+
+msgid "Minute as a zero-padded decimal number."
+msgstr ""
+
+msgid "00, 01, ..., 59"
+msgstr "00, 01, ..., 59"
+
+msgid "``%n``"
+msgstr ""
+
+msgid ""
+"The newline character (``'\\n'``). For :meth:`!strptime`, zero or more "
+"whitespace."
+msgstr ""
+
+msgid "``\\n``"
+msgstr "``\\n``"
+
 msgid "``%p``"
 msgstr "``%p``"
 
@@ -3108,14 +3196,26 @@ msgstr ""
 msgid "\\(1), \\(3)"
 msgstr "\\(1), \\(3)"
 
-msgid "``%M``"
-msgstr "``%M``"
-
-msgid "Minute as a zero-padded decimal number."
+msgid "``%r``"
 msgstr ""
 
-msgid "00, 01, ..., 59"
-msgstr "00, 01, ..., 59"
+msgid "Locale's 12-hour clock time."
+msgstr ""
+
+msgid "12:00:00 AM"
+msgstr ""
+
+msgid "\\(1), \\(0)"
+msgstr ""
+
+msgid "``%R``"
+msgstr ""
+
+msgid "Equivalent to ``%H:%M``."
+msgstr ""
+
+msgid "10:01"
+msgstr ""
 
 msgid "``%S``"
 msgstr "``%S``"
@@ -3126,49 +3226,34 @@ msgstr ""
 msgid "\\(4), \\(9)"
 msgstr "\\(4), \\(9)"
 
-msgid "``%f``"
-msgstr "``%f``"
-
-msgid "Microsecond as a decimal number, zero-padded to 6 digits."
+msgid "``%t``"
 msgstr ""
-
-msgid "000000, 000001, ..., 999999"
-msgstr "000000, 000001, ..., 999999"
-
-msgid "\\(5)"
-msgstr "\\(5)"
-
-msgid "``%z``"
-msgstr "``%z``"
 
 msgid ""
-"UTC offset in the form ``±HHMM[SS[.ffffff]]`` (empty string if the object is "
-"naive)."
+"The tab character (``'\\t'``). For :meth:`!strptime`, zero or more "
+"whitespace."
 msgstr ""
 
-msgid "(empty), +0000, -0400, +1030, +063415, -030712.345216"
+msgid "``\\t``"
 msgstr ""
 
-msgid "\\(6)"
-msgstr "\\(6)"
-
-msgid "``%Z``"
-msgstr "``%Z``"
-
-msgid "Time zone name (empty string if the object is naive)."
+msgid "``%T``"
 msgstr ""
 
-msgid "(empty), UTC, GMT"
+msgid "ISO 8601 time format, equivalent to ``%H:%M:%S``."
 msgstr ""
 
-msgid "``%j``"
-msgstr "``%j``"
-
-msgid "Day of the year as a zero-padded decimal number."
+msgid "10:01:59"
 msgstr ""
 
-msgid "001, 002, ..., 366"
-msgstr "001, 002, ..., 366"
+msgid "``%u``"
+msgstr "``%u``"
+
+msgid "ISO 8601 weekday as a decimal number where 1 is Monday."
+msgstr ""
+
+msgid "1, 2, ..., 7"
+msgstr "1, 2, ..., 7"
 
 msgid "``%U``"
 msgstr "``%U``"
@@ -3185,6 +3270,29 @@ msgstr "00, 01, ..., 53"
 msgid "\\(7), \\(9)"
 msgstr "\\(7), \\(9)"
 
+msgid "``%V``"
+msgstr "``%V``"
+
+msgid ""
+"ISO 8601 week as a decimal number with Monday as the first day of the week. "
+"Week 01 is the week containing Jan 4."
+msgstr ""
+
+msgid "01, 02, ..., 53"
+msgstr "01, 02, ..., 53"
+
+msgid "\\(8), \\(9)"
+msgstr "\\(8), \\(9)"
+
+msgid "``%w``"
+msgstr "``%w``"
+
+msgid "Weekday as a decimal number, where 0 is Sunday and 6 is Saturday."
+msgstr ""
+
+msgid "0, 1, ..., 6"
+msgstr "0, 1, ..., 6"
+
 msgid "``%W``"
 msgstr "``%W``"
 
@@ -3192,18 +3300,6 @@ msgid ""
 "Week number of the year (Monday as the first day of the week) as a zero-"
 "padded decimal number. All days in a new year preceding the first Monday are "
 "considered to be in week 0."
-msgstr ""
-
-msgid "``%c``"
-msgstr "``%c``"
-
-msgid "Locale's appropriate date and time representation."
-msgstr ""
-
-msgid "Tue Aug 16 21:30:00 1988 (en_US);"
-msgstr ""
-
-msgid "Di 16 Aug 21:30:00 1988 (de_DE)"
 msgstr ""
 
 msgid "``%x``"
@@ -3233,6 +3329,41 @@ msgstr ""
 msgid "21:30:00 (de_DE)"
 msgstr ""
 
+msgid "``%y``"
+msgstr "``%y``"
+
+msgid "Year without century as a zero-padded decimal number."
+msgstr ""
+
+msgid "``%Y``"
+msgstr "``%Y``"
+
+msgid "Year with century as a decimal number."
+msgstr ""
+
+msgid "``%z``"
+msgstr "``%z``"
+
+msgid ""
+"UTC offset in the form ``±HHMM[SS[.ffffff]]`` (empty string if the object is "
+"naive)."
+msgstr ""
+
+msgid "(empty), +0000, -0400, +1030, +063415, -030712.345216"
+msgstr ""
+
+msgid "\\(6)"
+msgstr "\\(6)"
+
+msgid "``%Z``"
+msgstr "``%Z``"
+
+msgid "Time zone name (empty string if the object is naive)."
+msgstr ""
+
+msgid "(empty), UTC, GMT"
+msgstr ""
+
 msgid "``%%``"
 msgstr "``%%``"
 
@@ -3243,43 +3374,28 @@ msgid "%"
 msgstr "%"
 
 msgid ""
-"Several additional directives not required by the C89 standard are included "
-"for convenience. These parameters all correspond to ISO 8601 date values."
+"The ISO 8601 year and ISO 8601 week directives are not interchangeable with "
+"the year and week number directives above. Calling :meth:`~.datetime."
+"strptime` with incomplete or ambiguous ISO 8601 directives will raise a :exc:"
+"`ValueError`."
 msgstr ""
-
-msgid "``%G``"
-msgstr "``%G``"
 
 msgid ""
-"ISO 8601 year with century representing the year that contains the greater "
-"part of the ISO week (``%V``)."
+"Several additional directives not required by the C11 standard are included "
+"for convenience."
 msgstr ""
 
-msgid "\\(8)"
-msgstr "\\(8)"
+msgid "``%f``"
+msgstr "``%f``"
 
-msgid "``%u``"
-msgstr "``%u``"
-
-msgid "ISO 8601 weekday as a decimal number where 1 is Monday."
+msgid "Microsecond as a decimal number, zero-padded to 6 digits."
 msgstr ""
 
-msgid "1, 2, ..., 7"
-msgstr "1, 2, ..., 7"
+msgid "000000, 000001, ..., 999999"
+msgstr "000000, 000001, ..., 999999"
 
-msgid "``%V``"
-msgstr "``%V``"
-
-msgid ""
-"ISO 8601 week as a decimal number with Monday as the first day of the week. "
-"Week 01 is the week containing Jan 4."
-msgstr ""
-
-msgid "01, 02, ..., 53"
-msgstr "01, 02, ..., 53"
-
-msgid "\\(8), \\(9)"
-msgstr "\\(8), \\(9)"
+msgid "\\(5)"
+msgstr "\\(5)"
 
 msgid "``%:z``"
 msgstr ""
@@ -3290,14 +3406,6 @@ msgid ""
 msgstr ""
 
 msgid "(empty), +00:00, -04:00, +10:30, +06:34:15, -03:07:12.345216"
-msgstr ""
-
-msgid ""
-"These may not be available on all platforms when used with the :meth:`~."
-"datetime.strftime` method. The ISO 8601 year and ISO 8601 week directives "
-"are not interchangeable with the year and week number directives above. "
-"Calling :meth:`~.datetime.strptime` with incomplete or ambiguous ISO 8601 "
-"directives will raise a :exc:`ValueError`."
 msgstr ""
 
 msgid ""
@@ -3312,7 +3420,12 @@ msgstr ""
 msgid "``%G``, ``%u`` and ``%V`` were added."
 msgstr ""
 
-msgid "``%:z`` was added."
+msgid "``%:z`` was added for :meth:`~.datetime.strftime`."
+msgstr ""
+
+msgid ""
+"``%D``, ``%F``, ``%n``, ``%t``, and ``%:z`` were added for :meth:`~.datetime."
+"strptime`."
 msgstr ""
 
 msgid "Technical detail"
@@ -3385,6 +3498,10 @@ msgid ""
 msgstr ""
 
 msgid ""
+"This format code is currently unsupported by :meth:`~.datetime.strptime`."
+msgstr ""
+
+msgid ""
 "Because the format depends on the current locale, care should be taken when "
 "making assumptions about the output value. Field orderings will vary (for "
 "example, \"month/day/year\" versus \"day/month/year\"), and the output may "
@@ -3448,14 +3565,21 @@ msgstr ""
 msgid ""
 "When the ``%z`` directive is provided to the  :meth:`~.datetime.strptime` "
 "method, the UTC offsets can have a colon as a separator between hours, "
-"minutes and seconds. For example, ``'+01:00:00'`` will be parsed as an "
-"offset of one hour. In addition, providing ``'Z'`` is identical to "
-"``'+00:00'``."
+"minutes and seconds. For example, both ``'+010000'`` and ``'+01:00:00'`` "
+"will be parsed as an offset of one hour. In addition, providing ``'Z'`` is "
+"identical to ``'+00:00'``."
 msgstr ""
 
 msgid ""
-"Behaves exactly as ``%z``, but has a colon separator added between hours, "
-"minutes and seconds."
+"When used with :meth:`~.datetime.strftime`, behaves exactly as ``%z``, "
+"except that a colon separator is added between hours, minutes and seconds."
+msgstr ""
+
+msgid ""
+"When used with :meth:`~.datetime.strptime`, the UTC offset is *required* to "
+"have a colon as a separator between hours, minutes and seconds. For example, "
+"``'+01:00:00'`` (but *not* ``'+010000'``) will be parsed as an offset of one "
+"hour. In addition, providing ``'Z'`` is identical to ``'+00:00'``."
 msgstr ""
 
 msgid ""
@@ -3520,11 +3644,12 @@ msgid ""
 "datetime.datetime(1984, 2, 29, 0, 0)"
 msgstr ""
 
+msgid "Using ``%d`` without a year now raises :exc:`ValueError`."
+msgstr ""
+
 msgid ""
-":meth:`~.datetime.strptime` calls using a format string containing a day of "
-"month without a year now emit a :exc:`DeprecationWarning`. In 3.15 or later "
-"we may change this into an error or change the default year to a leap year. "
-"See :gh:`70647`."
+":meth:`~.datetime.strptime` calls using a format string containing ``%e`` "
+"without a year now emit a :exc:`DeprecationWarning`."
 msgstr ""
 
 msgid "Footnotes"

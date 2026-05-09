@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
 # Hengky Kurniawan, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-17 14:50+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -1159,10 +1159,7 @@ msgid ""
 "the :envvar:`PYTHONUTF8` environment variable."
 msgstr ""
 
-msgid "Also set to ``1`` if the ``LC_CTYPE`` locale is ``C`` or ``POSIX``."
-msgstr ""
-
-msgid "Default: ``-1`` in Python config and ``0`` in isolated config."
+msgid "Default: ``1``."
 msgstr ""
 
 msgid "Preinitialize Python with PyPreConfig"
@@ -1467,9 +1464,6 @@ msgstr ""
 msgid "stdin is always opened in buffered mode."
 msgstr ""
 
-msgid "Default: ``1``."
-msgstr ""
-
 msgid ""
 "If equals to ``1``, issue a warning when comparing :class:`bytes` or :class:"
 "`bytearray` with :class:`str`, or comparing :class:`bytes` with :class:`int`."
@@ -1481,6 +1475,11 @@ msgid ""
 msgstr ""
 
 msgid "Incremented by the :option:`-b` command line option."
+msgstr ""
+
+msgid ""
+"The :option:`-b` and :option:`!-bb` options will become no-op in 3.17. :c:"
+"member:`~PyConfig.bytes_warning` member will be removed in 3.17."
 msgstr ""
 
 msgid ""
@@ -2030,12 +2029,12 @@ msgid "Value of the :option:`-m` command line option."
 msgstr ""
 
 msgid ""
-"``package.module`` path to module that should be imported before ``site.py`` "
-"is run."
+"``module`` or ``module:func`` entry point that should be executed before "
+"the :mod:`site` module is imported."
 msgstr ""
 
 msgid ""
-"Set by the :option:`-X presite=package.module <-X>` command-line option and "
+"Set by the :option:`-X presite=module:func <-X>` command-line option and "
 "the :envvar:`PYTHON_PRESITE` environment variable. The command-line option "
 "takes precedence."
 msgstr ""
@@ -2359,7 +2358,7 @@ msgid ""
 "\n"
 "    /* Specify sys.path explicitly */\n"
 "    /* If you want to modify the default set of paths, finish\n"
-"       initialization first and then use PySys_GetObject(\"path\") */\n"
+"       initialization first and then use PySys_GetAttrString(\"path\") */\n"
 "    config.module_search_paths_set = 1;\n"
 "    status = PyWideStringList_Append(&config.module_search_paths,\n"
 "                                     L\"/path/to/stdlib\");\n"
@@ -2582,6 +2581,9 @@ msgstr ""
 msgid "Set :c:member:`~PyConfig.site_import` to ``0``."
 msgstr ""
 
+msgid "Set :c:member:`~PyConfig.user_site_directory` to ``0`` (since 3.15)."
+msgstr ""
+
 msgid "Set :c:member:`~PyConfig.safe_path` to ``1``."
 msgstr ""
 
@@ -2606,6 +2608,11 @@ msgid ""
 "`site`, therefore affected by :option:`-S`."
 msgstr ""
 
+msgid ""
+":c:member:`~PyConfig.user_site_directory` is now set to ``0`` when a ``."
+"_pth`` file is present."
+msgstr ""
+
 msgid "Py_GetArgcArgv()"
 msgstr ""
 
@@ -2615,19 +2622,130 @@ msgstr ""
 msgid "See also :c:member:`PyConfig.orig_argv` member."
 msgstr ""
 
-msgid "Delaying main module execution"
+msgid "Multi-Phase Initialization Private Provisional API"
 msgstr ""
 
 msgid ""
-"In some embedding use cases, it may be desirable to separate interpreter "
-"initialization from the execution of the main module."
+"This section is a private provisional API introducing multi-phase "
+"initialization, the core feature of :pep:`432`:"
+msgstr ""
+
+msgid "\"Core\" initialization phase, \"bare minimum Python\":"
+msgstr ""
+
+msgid "Builtin types;"
+msgstr ""
+
+msgid "Builtin exceptions;"
+msgstr ""
+
+msgid "Builtin and frozen modules;"
 msgstr ""
 
 msgid ""
-"This separation can be achieved by setting ``PyConfig.run_command`` to the "
-"empty string during initialization (to prevent the interpreter from dropping "
-"into the interactive prompt), and then subsequently executing the desired "
-"main module code using ``__main__.__dict__`` as the global namespace."
+"The :mod:`sys` module is only partially initialized (ex: :data:`sys.path` "
+"doesn't exist yet)."
+msgstr ""
+
+msgid "\"Main\" initialization phase, Python is fully initialized:"
+msgstr ""
+
+msgid "Install and configure :mod:`importlib`;"
+msgstr ""
+
+msgid "Apply the :ref:`Path Configuration <init-path-config>`;"
+msgstr ""
+
+msgid "Install signal handlers;"
+msgstr ""
+
+msgid ""
+"Finish :mod:`sys` module initialization (ex: create :data:`sys.stdout` and :"
+"data:`sys.path`);"
+msgstr ""
+
+msgid ""
+"Enable optional features like :mod:`faulthandler` and :mod:`tracemalloc`;"
+msgstr ""
+
+msgid "Import the :mod:`site` module;"
+msgstr ""
+
+msgid "etc."
+msgstr "dll."
+
+msgid "Private provisional API:"
+msgstr ""
+
+msgid ""
+"If set to ``0``, :c:func:`Py_InitializeFromConfig` stops at the \"Core\" "
+"initialization phase."
+msgstr ""
+
+msgid ""
+"Move to the \"Main\" initialization phase, finish the Python initialization."
+msgstr ""
+
+msgid ""
+"No module is imported during the \"Core\" phase and the ``importlib`` module "
+"is not configured: the :ref:`Path Configuration <init-path-config>` is only "
+"applied during the \"Main\" phase. It may allow to customize Python in "
+"Python to override or tune the :ref:`Path Configuration <init-path-config>`, "
+"maybe install a custom :data:`sys.meta_path` importer or an import hook, etc."
+msgstr ""
+
+msgid ""
+"It may become possible to calculate the :ref:`Path Configuration <init-path-"
+"config>` in Python, after the Core phase and before the Main phase, which is "
+"one of the :pep:`432` motivation."
+msgstr ""
+
+msgid ""
+"The \"Core\" phase is not properly defined: what should be and what should "
+"not be available at this phase is not specified yet. The API is marked as "
+"private and provisional: the API can be modified or even be removed anytime "
+"until a proper public API is designed."
+msgstr ""
+
+msgid ""
+"Example running Python code between \"Core\" and \"Main\" initialization "
+"phases::"
+msgstr ""
+
+msgid ""
+"void init_python(void)\n"
+"{\n"
+"    PyStatus status;\n"
+"\n"
+"    PyConfig config;\n"
+"    PyConfig_InitPythonConfig(&config);\n"
+"    config._init_main = 0;\n"
+"\n"
+"    /* ... customize 'config' configuration ... */\n"
+"\n"
+"    status = Py_InitializeFromConfig(&config);\n"
+"    PyConfig_Clear(&config);\n"
+"    if (PyStatus_Exception(status)) {\n"
+"        Py_ExitStatusException(status);\n"
+"    }\n"
+"\n"
+"    /* Use sys.stderr because sys.stdout is only created\n"
+"       by _Py_InitializeMain() */\n"
+"    int res = PyRun_SimpleString(\n"
+"        \"import sys; \"\n"
+"        \"print('Run Python code before _Py_InitializeMain', \"\n"
+"               \"file=sys.stderr)\");\n"
+"    if (res < 0) {\n"
+"        exit(1);\n"
+"    }\n"
+"\n"
+"    /* ... put more configuration code here ... */\n"
+"\n"
+"    status = _Py_InitializeMain();\n"
+"    if (PyStatus_Exception(status)) {\n"
+"        Py_ExitStatusException(status);\n"
+"    }\n"
+"}"
 msgstr ""
 
 msgid "main()"

@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 14:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -201,6 +201,11 @@ msgid ""
 "noticed by the import system."
 msgstr ""
 
+msgid ""
+"If the module cannot be imported, :func:`import_module` will raise :exc:"
+"`ImportError` or an appropriate subclass like :exc:`ModuleNotFoundError`."
+msgstr ""
+
 msgid "Parent packages are automatically imported."
 msgstr ""
 
@@ -362,6 +367,31 @@ msgid "Returns ``None`` when called instead of :data:`NotImplemented`."
 msgstr ""
 
 msgid ""
+"An optional method which searches for possible specs with given *parent* "
+"module spec. If *parent* is *None*, :meth:`MetaPathFinder.discover` will "
+"search for top-level modules."
+msgstr ""
+
+msgid "Returns an iterable of possible specs."
+msgstr ""
+
+msgid "Raises :exc:`ValueError` if *parent* is not a package module."
+msgstr ""
+
+msgid ""
+"This method can potentially yield a very large number of objects, and it may "
+"carry out IO operations when computing these values."
+msgstr ""
+
+msgid ""
+"Because of this, it will generally be desirable to compute the result values "
+"on-the-fly, as they are needed. As such, the returned object is only "
+"guaranteed to be an :class:`iterable <collections.abc.Iterable>`, instead of "
+"a :class:`list` or other :class:`collection <collections.abc.Collection>` "
+"type."
+msgstr ""
+
+msgid ""
 "An abstract base class representing a :term:`path entry finder`.  Though it "
 "bears some similarities to :class:`MetaPathFinder`, ``PathEntryFinder`` is "
 "meant for use only within the path-based import subsystem provided by :class:"
@@ -385,6 +415,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"An optional method which searches for possible specs with given *parent* "
+"module spec. If *parent* is *None*, :meth:`PathEntryFinder.discover` will "
+"search for top-level modules."
+msgstr ""
+
+msgid ""
 "An abstract base class for a :term:`loader`. See :pep:`302` for the exact "
 "definition for a loader."
 msgstr ""
@@ -396,6 +432,9 @@ msgid ""
 msgstr ""
 
 msgid "Introduced the optional :meth:`get_resource_reader` method."
+msgstr ""
+
+msgid "Removed the ``load_module()`` method."
 msgstr ""
 
 msgid ""
@@ -415,62 +454,6 @@ msgid ""
 msgstr ""
 
 msgid ":meth:`create_module` must also be defined."
-msgstr ""
-
-msgid ""
-"A legacy method for loading a module.  If the module cannot be loaded, :exc:"
-"`ImportError` is raised, otherwise the loaded module is returned."
-msgstr ""
-
-msgid ""
-"If the requested module already exists in :data:`sys.modules`, that module "
-"should be used and reloaded. Otherwise the loader should create a new module "
-"and insert it into :data:`sys.modules` before any loading begins, to prevent "
-"recursion from the import.  If the loader inserted a module and the load "
-"fails, it must be removed by the loader from :data:`sys.modules`; modules "
-"already in :data:`sys.modules` before the loader began execution should be "
-"left alone."
-msgstr ""
-
-msgid ""
-"The loader should set several attributes on the module (note that some of "
-"these attributes can change when a module is reloaded):"
-msgstr ""
-
-msgid ":attr:`module.__name__`"
-msgstr ""
-
-msgid ":attr:`module.__file__`"
-msgstr ""
-
-msgid ":attr:`module.__cached__` *(deprecated)*"
-msgstr ""
-
-msgid ":attr:`module.__path__`"
-msgstr ""
-
-msgid ":attr:`module.__package__` *(deprecated)*"
-msgstr ""
-
-msgid ":attr:`module.__loader__` *(deprecated)*"
-msgstr ""
-
-msgid ""
-"When :meth:`exec_module` is available then backwards-compatible "
-"functionality is provided."
-msgstr ""
-
-msgid ""
-"Raise :exc:`ImportError` when called instead of :exc:`NotImplementedError`.  "
-"Functionality provided when :meth:`exec_module` is available."
-msgstr ""
-
-msgid ""
-"The recommended API for loading a module is :meth:`exec_module` (and :meth:"
-"`create_module`).  Loaders should implement it instead of :meth:"
-"`load_module`.  The import machinery takes care of all the other "
-"responsibilities of :meth:`load_module` when :meth:`exec_module` is "
-"implemented."
 msgstr ""
 
 msgid "*Superseded by TraversableResources*"
@@ -550,16 +533,18 @@ msgid ""
 "``exec(code, module.__dict__)``."
 msgstr ""
 
+msgid ""
+"The optional argument *fullname* specifies the module name. It is needed to "
+"unambiguous :ref:`filter <warning-filter>` syntax warnings by module name."
+msgstr ""
+
 msgid "Made the method static."
 msgstr ""
 
+msgid "Added the *fullname* parameter."
+msgstr ""
+
 msgid "Implementation of :meth:`Loader.exec_module`."
-msgstr ""
-
-msgid "Implementation of :meth:`Loader.load_module`."
-msgstr ""
-
-msgid "use :meth:`exec_module` instead."
 msgstr ""
 
 msgid ""
@@ -594,12 +579,6 @@ msgid "The name of the module the loader can handle."
 msgstr ""
 
 msgid "Path to the file of the module."
-msgstr ""
-
-msgid "Calls super's ``load_module()``."
-msgstr ""
-
-msgid "Use :meth:`Loader.exec_module` instead."
 msgstr ""
 
 msgid "Returns :attr:`path`."
@@ -686,12 +665,6 @@ msgid "Concrete implementation of :meth:`InspectLoader.get_code`."
 msgstr ""
 
 msgid "Concrete implementation of :meth:`Loader.exec_module`."
-msgstr ""
-
-msgid "Concrete implementation of :meth:`Loader.load_module`."
-msgstr ""
-
-msgid "Use :meth:`exec_module` instead."
 msgstr ""
 
 msgid "Concrete implementation of :meth:`InspectLoader.get_source`."
@@ -879,6 +852,45 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Represents a :term:`namespace package`'s path (:attr:`module.__path__`)."
+msgstr ""
+
+msgid ""
+"When its ``__path__`` value is accessed it will be recomputed if necessary. "
+"This keeps it in-sync with the global state (:attr:`sys.modules`)."
+msgstr ""
+
+msgid "The *name* argument is the name of the namespace module."
+msgstr ""
+
+msgid "The *path* argument is the initial path value."
+msgstr ""
+
+msgid ""
+"The *path_finder* argument is the callable used to recompute the path value. "
+"The callable has the same signature as :meth:`importlib.abc.MetaPathFinder."
+"find_spec`."
+msgstr ""
+
+msgid ""
+"When the parent's :attr:`module.__path__` attribute is updated, the path "
+"value is recomputed."
+msgstr ""
+
+msgid ""
+"If the parent module is missing from :data:`sys.modules`, then :exc:"
+"`ModuleNotFoundError` will be raised."
+msgstr ""
+
+msgid "For top-level modules, the parent module's path is :data:`sys.path`."
+msgstr ""
+
+msgid ""
+":meth:`PathFinder.invalidate_caches` invalidates :class:`NamespacePath`, "
+"forcing the path value to be recomputed next time it is accessed."
+msgstr ""
+
+msgid ""
 "A concrete implementation of :class:`importlib.abc.SourceLoader` by "
 "subclassing :class:`importlib.abc.FileLoader` and providing some concrete "
 "implementations of other methods."
@@ -898,14 +910,6 @@ msgid ""
 msgstr ""
 
 msgid "Concrete implementation of :meth:`importlib.abc.SourceLoader.set_data`."
-msgstr ""
-
-msgid ""
-"Concrete implementation of :meth:`importlib.abc.Loader.load_module` where "
-"specifying the name of the module to load is optional."
-msgstr ""
-
-msgid "Use :meth:`importlib.abc.Loader.exec_module` instead."
 msgstr ""
 
 msgid ""
@@ -1045,9 +1049,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The filename of a compiled version of the module's code (see :attr:`module."
-"__cached__`). The :term:`finder` should always set this attribute but it may "
-"be ``None`` for modules that do not need compiled code stored."
+"The filename of a compiled version of the module's code. The :term:`finder` "
+"should always set this attribute but it may be ``None`` for modules that do "
+"not need compiled code stored."
 msgstr ""
 
 msgid ""
@@ -1165,20 +1169,15 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The *debug_override* parameter is deprecated and can be used to override the "
-"system's value for ``__debug__``. A ``True`` value is the equivalent of "
-"setting *optimization* to the empty string. A ``False`` value is the same as "
-"setting *optimization* to ``1``. If both *debug_override* an *optimization* "
-"are not ``None`` then :exc:`TypeError` is raised."
-msgstr ""
-
-msgid ""
 "The *optimization* parameter was added and the *debug_override* parameter "
 "was deprecated."
 msgstr ""
 
 msgid "Accepts a :term:`path-like object`."
 msgstr "Menerima sebuah :term:`path-like object`."
+
+msgid "The *debug_override* parameter was removed."
+msgstr ""
 
 msgid ""
 "Given the *path* to a :pep:`3147` file name, return the associated source "

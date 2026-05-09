@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -319,12 +319,6 @@ msgid ""
 "bitmap of ``CO_*`` flags, read more :ref:`here <inspect-module-co-flags>`"
 msgstr ""
 
-msgid "co_lnotab"
-msgstr ""
-
-msgid "encoded mapping of line numbers to bytecode indices"
-msgstr ""
-
 msgid "co_freevars"
 msgstr ""
 
@@ -428,6 +422,14 @@ msgstr ""
 msgid "object being iterated by ``yield from``, or ``None``"
 msgstr ""
 
+msgid "gi_state"
+msgstr ""
+
+msgid ""
+"state of the generator, one of ``GEN_CREATED``, ``GEN_RUNNING``, "
+"``GEN_SUSPENDED``, or ``GEN_CLOSED``"
+msgstr ""
+
 msgid "async generator"
 msgstr ""
 
@@ -447,6 +449,14 @@ msgid "ag_suspended"
 msgstr ""
 
 msgid "ag_code"
+msgstr ""
+
+msgid "ag_state"
+msgstr ""
+
+msgid ""
+"state of the async generator, one of ``AGEN_CREATED``, ``AGEN_RUNNING``, "
+"``AGEN_SUSPENDED``, or ``AGEN_CLOSED``"
 msgstr ""
 
 msgid "coroutine"
@@ -477,6 +487,14 @@ msgid "cr_origin"
 msgstr ""
 
 msgid "where coroutine was created, or ``None``. See |coroutine-origin-link|"
+msgstr ""
+
+msgid "cr_state"
+msgstr ""
+
+msgid ""
+"state of the coroutine, one of ``CORO_CREATED``, ``CORO_RUNNING``, "
+"``CORO_SUSPENDED``, or ``CORO_CLOSED``"
 msgstr ""
 
 msgid "builtin"
@@ -512,6 +530,11 @@ msgid "Add ``ag_suspended`` attribute to async generators."
 msgstr ""
 
 msgid "Add ``f_generator`` attribute to frames."
+msgstr ""
+
+msgid ""
+"Add ``gi_state`` attribute to generators, ``cr_state`` attribute to "
+"coroutines, and ``ag_state`` attribute to async generators."
 msgstr ""
 
 msgid ""
@@ -781,13 +804,36 @@ msgstr ""
 
 msgid ""
 "Get the documentation string for an object, cleaned up with :func:"
-"`cleandoc`. If the documentation string for an object is not provided and "
-"the object is a class, a method, a property or a descriptor, retrieve the "
-"documentation string from the inheritance hierarchy. Return ``None`` if the "
-"documentation string is invalid or missing."
+"`cleandoc`. If the documentation string for an object is not provided:"
+msgstr ""
+
+msgid ""
+"if the object is a class and *inherit_class_doc* is true (by default), "
+"retrieve the documentation string from the inheritance hierarchy;"
+msgstr ""
+
+msgid ""
+"if the object is a method, a property or a descriptor, retrieve the "
+"documentation string from the inheritance hierarchy;"
+msgstr ""
+
+msgid ""
+"otherwise, if *fallback_to_class_doc* is true (by default), retrieve the "
+"documentation string from the class of the object."
+msgstr ""
+
+msgid "Return ``None`` if the documentation string is invalid or missing."
 msgstr ""
 
 msgid "Documentation strings are now inherited if not overridden."
+msgstr ""
+
+msgid "Added parameters *inherit_class_doc* and *fallback_to_class_doc*."
+msgstr ""
+
+msgid ""
+"Documentation strings on :class:`~functools.cached_property` objects are now "
+"inherited if not overridden."
 msgstr ""
 
 msgid ""
@@ -1343,6 +1389,14 @@ msgid ""
 msgstr ""
 
 msgid ""
+"A member of the :class:`annotationlib.Format` enum can be passed to the "
+"*annotation_format* parameter to control the format of the returned "
+"annotations. For example, use ``annotation_format=annotationlib.Format."
+"STRING`` to return annotations in string format. Note that with the default "
+"``VALUE`` format, creation of some argspecs may raise an exception."
+msgstr ""
+
+msgid ""
 "This function is now based on :func:`signature`, but still ignores "
 "``__wrapped__`` attributes and includes the already bound first parameter in "
 "the signature output for bound methods."
@@ -1894,9 +1948,16 @@ msgstr ""
 msgid ""
 "By default, accepts the name of a module and prints the source of that "
 "module. A class or function within the module can be printed instead by "
-"appended a colon and the qualified name of the target object."
+"appending a colon and the qualified name of the target object."
 msgstr ""
 
 msgid ""
 "Print information about the specified object rather than the source code"
+msgstr ""
+
+msgid ""
+"The ``--details`` option now supports basic introspection for modules "
+"without available source code and indicates when modules are frozen. It also "
+"indicates when the given target reference is not the canonical name of the "
+"referenced object."
 msgstr ""

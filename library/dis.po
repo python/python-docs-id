@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 15:53+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -398,7 +398,7 @@ msgstr ""
 
 msgid ""
 "The :pep:`626` :meth:`~codeobject.co_lines` method is used instead of the :"
-"attr:`~codeobject.co_firstlineno` and :attr:`~codeobject.co_lnotab` "
+"attr:`~codeobject.co_firstlineno` and :attr:`!codeobject.co_lnotab` "
 "attributes of the :ref:`code object <code-objects>`."
 msgstr ""
 
@@ -1432,7 +1432,7 @@ msgstr ""
 
 msgid ""
 "Pushes a ``NULL`` to the stack. Used in the call sequence to match the "
-"``NULL`` pushed by :opcode:`!LOAD_METHOD` for non-method calls."
+"``NULL`` pushed by :opcode:`LOAD_ATTR` for non-method calls."
 msgstr ""
 
 msgid ""
@@ -1809,10 +1809,6 @@ msgstr ""
 msgid ""
 "Marks the end of the code block associated with the last ``SETUP_FINALLY``, "
 "``SETUP_CLEANUP`` or ``SETUP_WITH``."
-msgstr ""
-
-msgid ""
-"Works as :opcode:`LOAD_CONST`, but is more efficient for immortal objects."
 msgstr ""
 
 msgid ""

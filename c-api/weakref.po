@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 15:47+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -88,24 +88,6 @@ msgid "If the reference is dead, set *\\*pobj* to ``NULL`` and return 0."
 msgstr ""
 
 msgid "On error, raise an exception and return -1."
-msgstr ""
-
-msgid ""
-"Return a :term:`borrowed reference` to the referenced object from a weak "
-"reference, *ref*.  If the referent is no longer live, returns ``Py_None``."
-msgstr ""
-
-msgid ""
-"This function returns a :term:`borrowed reference` to the referenced object. "
-"This means that you should always call :c:func:`Py_INCREF` on the object "
-"except when it cannot be destroyed before the last usage of the borrowed "
-"reference."
-msgstr ""
-
-msgid "Use :c:func:`PyWeakref_GetRef` instead."
-msgstr ""
-
-msgid "Similar to :c:func:`PyWeakref_GetObject`, but does no error checking."
 msgstr ""
 
 msgid ""

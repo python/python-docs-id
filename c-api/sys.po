@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -282,22 +282,65 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Return the object *name* from the :mod:`sys` module or ``NULL`` if it does "
-"not exist, without setting an exception."
+"Get the attribute *name* of the :mod:`sys` module. Return a :term:`strong "
+"reference`. Raise :exc:`RuntimeError` and return ``NULL`` if it does not "
+"exist or if the :mod:`sys` module cannot be found."
+msgstr ""
+
+msgid ""
+"If the non-existing object should not be treated as a failure, you can use :"
+"c:func:`PySys_GetOptionalAttr` instead."
+msgstr ""
+
+msgid ""
+"This is the same as :c:func:`PySys_GetAttr`, but *name* is specified as a :c:"
+"expr:`const char*` UTF-8 encoded bytes string, rather than a :c:expr:"
+"`PyObject*`."
+msgstr ""
+
+msgid ""
+"If the non-existing object should not be treated as a failure, you can use :"
+"c:func:`PySys_GetOptionalAttrString` instead."
+msgstr ""
+
+msgid ""
+"Variant of :c:func:`PySys_GetAttr` which doesn't raise exception if the "
+"object does not exist."
+msgstr ""
+
+msgid ""
+"Set *\\*result* to a new :term:`strong reference` to the object and return "
+"``1`` if the object exists."
+msgstr ""
+
+msgid ""
+"Set *\\*result* to ``NULL`` and return ``0`` without setting an exception if "
+"the object does not exist."
+msgstr ""
+
+msgid ""
+"Set an exception, set *\\*result* to ``NULL``, and return ``-1``, if an "
+"error occurred."
+msgstr ""
+
+msgid ""
+"This is the same as :c:func:`PySys_GetOptionalAttr`, but *name* is specified "
+"as a :c:expr:`const char*` UTF-8 encoded bytes string, rather than a :c:expr:"
+"`PyObject*`."
+msgstr ""
+
+msgid ""
+"Similar to :c:func:`PySys_GetAttrString`, but return a :term:`borrowed "
+"reference` and return ``NULL`` *without* setting exception on failure."
+msgstr ""
+
+msgid "Preserves exception that was set before the call."
 msgstr ""
 
 msgid ""
 "Set *name* in the :mod:`sys` module to *v* unless *v* is ``NULL``, in which "
 "case *name* is deleted from the sys module. Returns ``0`` on success, ``-1`` "
 "on error."
-msgstr ""
-
-msgid ""
-"Reset :data:`sys.warnoptions` to an empty list. This function may be called "
-"prior to :c:func:`Py_Initialize`."
-msgstr ""
-
-msgid "Clear :data:`sys.warnoptions` and :data:`!warnings.filters` instead."
 msgstr ""
 
 msgid ""

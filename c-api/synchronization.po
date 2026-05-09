@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 14:38+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2026-02-25 14:46+0000\n"
 "Last-Translator: Hengky Kurniawan, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -106,13 +106,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The functions and structs used by the macros are exposed for cases where C "
-"macros are not available. They should only be used as in the given macro "
-"expansions. Note that the sizes and contents of the structures may change in "
-"future Python versions."
-msgstr ""
-
-msgid ""
 "Operations that need to lock two objects at once must use :c:macro:"
 "`Py_BEGIN_CRITICAL_SECTION2`.  You *cannot* use nested critical sections to "
 "lock more than one object at once, because the inner critical section may "
@@ -156,7 +149,9 @@ msgid ""
 "section."
 msgstr ""
 
-msgid "In the free-threaded build, this macro expands to::"
+msgid ""
+"In the free-threaded build, and when building for the :ref:`Stable ABI "
+"<stable-abi>`, this macro expands to::"
 msgstr ""
 
 msgid ""
@@ -172,6 +167,9 @@ msgid "In the default build, this macro expands to ``{``."
 msgstr ""
 
 msgid "Locks the mutex *m* and begins a critical section."
+msgstr ""
+
+msgid "In the free-threaded build, this macro expands to::"
 msgstr ""
 
 msgid ""
@@ -246,12 +244,39 @@ msgstr ""
 "    PyCriticalSection2_End(&_py_cs2);\n"
 "}"
 
+msgid "Low-level critical section API"
+msgstr ""
+
+msgid ""
+"The following functions and structs are exposed for cases where C macros are "
+"not available."
+msgstr ""
+
+msgid ""
+"To be used only as in the macro expansions listed :ref:`earlier in this "
+"section <critical-section-macros>`."
+msgstr ""
+
+msgid ""
+"In non-:term:`free-threaded <free threading>` builds of CPython, these "
+"functions do nothing."
+msgstr ""
+
+msgid ""
+"To be used only as in the macro expansions listed :ref:`earlier in this "
+"section <critical-section-macros>`. Note that the contents of the structures "
+"are private and their meaning may change in future Python versions."
+msgstr ""
+
 msgid "Legacy locking APIs"
 msgstr ""
 
 msgid ""
 "These APIs are obsolete since Python 3.13 with the introduction of :c:type:"
 "`PyMutex`."
+msgstr ""
+
+msgid "These APIs are now a simple wrapper around ``PyMutex``."
 msgstr ""
 
 msgid "A pointer to a mutual exclusion lock."
@@ -278,6 +303,11 @@ msgid ""
 msgstr ""
 
 msgid "The caller does not need to hold an :term:`attached thread state`."
+msgstr ""
+
+msgid ""
+"This function now always uses :c:type:`PyMutex`. In prior versions, this "
+"would use a lock provided by the operating system."
 msgstr ""
 
 msgid ""

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-17 14:50+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +67,38 @@ msgid ""
 msgstr ""
 
 msgid ""
+"By default, :mod:`!shelve` uses :func:`pickle.dumps` and :func:`pickle."
+"loads` for serializing and deserializing. This can be changed by supplying "
+"*serializer* and *deserializer*, respectively."
+msgstr ""
+
+msgid ""
+"The *serializer* argument must be a callable which takes an object ``obj`` "
+"and the *protocol* as inputs and returns the representation ``obj`` as a :"
+"term:`bytes-like object`; the *protocol* value may be ignored by the "
+"serializer."
+msgstr ""
+
+msgid ""
+"The *deserializer* argument must be a callable which takes a serialized "
+"object given as a :class:`bytes` object and returns the corresponding object."
+msgstr ""
+
+msgid ""
+"A :exc:`ShelveError` is raised if *serializer* is given but *deserializer* "
+"is not, or vice-versa."
+msgstr ""
+
+msgid ""
 ":const:`pickle.DEFAULT_PROTOCOL` is now used as the default pickle protocol."
 msgstr ""
 
 msgid "Accepts :term:`path-like object` for filename."
+msgstr ""
+
+msgid ""
+"Accepts custom *serializer* and *deserializer* functions in place of :func:"
+"`pickle.dumps` and :func:`pickle.loads`."
 msgstr ""
 
 msgid ""
@@ -103,8 +131,13 @@ msgstr ""
 msgid ""
 "Write back all entries in the cache if the shelf was opened with *writeback* "
 "set to :const:`True`.  Also empty the cache and synchronize the persistent "
-"dictionary on disk, if feasible.  This is called automatically when the "
-"shelf is closed with :meth:`close`."
+"dictionary on disk, if feasible.  This is called automatically when :meth:"
+"`reorganize` is called or the shelf is closed with :meth:`close`."
+msgstr ""
+
+msgid ""
+"Calls :meth:`sync` and attempts to shrink space used on disk by removing "
+"empty space resulting from deletions."
 msgstr ""
 
 msgid ""
@@ -146,6 +179,13 @@ msgid ""
 msgstr ""
 
 msgid ""
+":meth:`Shelf.reorganize` may not be available for all database packages and "
+"may temporarily increase resource usage (especially disk space) when called. "
+"Additionally, it will never run automatically and instead needs to be called "
+"explicitly."
+msgstr ""
+
+msgid ""
 "A subclass of :class:`collections.abc.MutableMapping` which stores pickled "
 "values in the *dict* object."
 msgstr ""
@@ -170,6 +210,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The *serializer* and *deserializer* parameters have the same interpretation "
+"as in :func:`~shelve.open`."
+msgstr ""
+
+msgid ""
 "A :class:`Shelf` object can also be used as a context manager, in which case "
 "it will be automatically closed when the :keyword:`with` block ends."
 msgstr ""
@@ -182,6 +227,9 @@ msgstr ""
 msgid "Added context manager support."
 msgstr ""
 
+msgid "Added the *serializer* and *deserializer* parameters."
+msgstr ""
+
 msgid ""
 "A subclass of :class:`Shelf` which exposes :meth:`!first`, :meth:`!next`, :"
 "meth:`!previous`, :meth:`!last` and :meth:`!set_location` methods. These are "
@@ -190,8 +238,8 @@ msgid ""
 "*dict* object passed to the constructor must support those methods.  This is "
 "generally accomplished by calling one of :func:`!bsddb.hashopen`, :func:`!"
 "bsddb.btopen` or :func:`!bsddb.rnopen`.  The optional *protocol*, "
-"*writeback*, and *keyencoding* parameters have the same interpretation as "
-"for the :class:`Shelf` class."
+"*writeback*, *keyencoding*, *serializer* and *deserializer* parameters have "
+"the same interpretation as in :func:`~shelve.open`."
 msgstr ""
 
 msgid ""
@@ -199,8 +247,9 @@ msgid ""
 "like object.  The underlying file will be opened using :func:`dbm.open`.  By "
 "default, the file will be created and opened for both read and write.  The "
 "optional *flag* parameter has the same interpretation as for the :func:`."
-"open` function.  The optional *protocol* and *writeback* parameters have the "
-"same interpretation as for the :class:`Shelf` class."
+"open` function.  The optional *protocol*, *writeback*, *serializer* and "
+"*deserializer* parameters have the same interpretation as in :func:`~shelve."
+"open`."
 msgstr ""
 
 msgid "Example"
@@ -241,6 +290,18 @@ msgid ""
 "# consume more memory and make the d.close() operation slower.\n"
 "\n"
 "d.close()                  # close it"
+msgstr ""
+
+msgid "Exceptions"
+msgstr "Pengecualian"
+
+msgid ""
+"Exception raised when one of the arguments *deserializer* and *serializer* "
+"is missing in the :func:`~shelve.open`, :class:`Shelf`, :class:`BsdDbShelf` "
+"and :class:`DbfilenameShelf`."
+msgstr ""
+
+msgid "The *deserializer* and *serializer* arguments must be given together."
 msgstr ""
 
 msgid "Module :mod:`dbm`"

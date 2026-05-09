@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 15:43+0000\n"
+"POT-Creation-Date: 2026-05-08 18:34+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -221,24 +221,6 @@ msgid ""
 "Clear out the internal cache of information, such as the :func:`uname`. This "
 "is typically useful when the platform's :func:`node` is changed by an "
 "external process and one needs to retrieve the updated value."
-msgstr ""
-
-msgid "Java platform"
-msgstr ""
-
-msgid "Version interface for Jython."
-msgstr ""
-
-msgid ""
-"Returns a tuple ``(release, vendor, vminfo, osinfo)`` with *vminfo* being a "
-"tuple ``(vm_name, vm_release, vm_vendor)`` and *osinfo* being a tuple "
-"``(os_name, os_version, os_arch)``. Values which cannot be determined are "
-"set to the defaults given as parameters (which all default to ``''``)."
-msgstr ""
-
-msgid ""
-"It was largely untested, had a confusing API, and was only useful for Jython "
-"support."
 msgstr ""
 
 msgid "Windows platform"
