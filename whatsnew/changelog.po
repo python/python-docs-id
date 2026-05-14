@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-11 16:26+0000\n"
+"POT-Creation-Date: 2026-05-13 16:14+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -31,6 +31,14 @@ msgstr "Python next"
 
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "Tests"
+msgstr "Pengujian"
+
+msgid ""
+":gh:`149776`: Fix test_socket on Linux kernel 7.1 and newer: skip UDP Lite "
+"tests if it's not supported. Patch by Victor Stinner."
+msgstr ""
 
 msgid "Security"
 msgstr "Keamanan"
@@ -53,7 +61,24 @@ msgstr ""
 msgid "Library"
 msgstr "Pustaka"
 
+msgid ""
+":gh:`149718`: Coalesce consecutive identical stack frames in Tachyon, so "
+"aggregating collectors (pstats, collapsed, flamegraph, gecko) receive one "
+"collect. Improves sample rate 3x, error rate and missed rate drop by 70%. "
+"Patch by Maurycy Pawłowski-Wieroński."
+msgstr ""
+
+msgid ""
+":gh:`149701`: Fix bad return code from Lib/venv/bin/activate if hashing is "
+"disabled"
+msgstr ""
+
 msgid ":gh:`139489`: Add :func:`xml.is_valid_text` to ``xml.__all__``."
+msgstr ""
+
+msgid ""
+":gh:`149614`: Fix a regression that broke the ability to deepcopy :class:"
+"`argparse.ArgumentParser` instances."
 msgstr ""
 
 msgid ""
@@ -75,8 +100,26 @@ msgid ""
 "buffer_size>`."
 msgstr ""
 
+msgid ""
+":issue:`45509`: Gzip headers are now checked for corrupted NAME, COMMENT and "
+"HCRC fields."
+msgstr ""
+
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
+
+msgid ""
+":gh:`139808`: Add branch protections for AArch64 (BTI/PAC) in assembly code "
+"used by :option:`-X perf_jit <-X>` (Linux perf profiler integration)."
+msgstr ""
+
+msgid ":gh:`149676`: Fix ``frozendict | frozendict`` hash."
+msgstr ""
+
+msgid ""
+":gh:`149642`: Allow imports inside ``exec()`` calls within functions under "
+"``PYTHON_LAZY_IMPORTS=all``."
+msgstr ""
 
 msgid ""
 ":gh:`144957`: Fix lazy ``from`` imports of module attributes provided by "
@@ -87,6 +130,20 @@ msgid ""
 ":gh:`149459`: Fix a crash in the JIT optimizer when a specialized "
 "``LOAD_SPECIAL`` guard deoptimized after inserting the synthetic ``NULL`` "
 "stack entry."
+msgstr ""
+
+msgid "C API"
+msgstr "C API"
+
+msgid ""
+":gh:`149725`: Add :c:func:`PySentinel_CheckExact` for exact :class:"
+"`sentinel` type tests to accompany the existing :c:func:`PySentinel_Check`."
+msgstr ""
+
+msgid ""
+":gh:`145235`: Made :c:func:`PyDict_AddWatcher`, :c:func:"
+"`PyDict_ClearWatcher`, :c:func:`PyDict_Watch`, and :c:func:`PyDict_Unwatch` "
+"thread-safe on the :term:`free threaded <free threading>` build."
 msgstr ""
 
 msgid "Python 3.15.0 beta 1"
@@ -1145,9 +1202,6 @@ msgid ""
 "`OSError` exceptions raised from scanning the filesystem."
 msgstr ""
 
-msgid "Tests"
-msgstr "Pengujian"
-
 msgid ""
 ":gh:`149425`: Increase time delta in ``test.test_zipfile.test_core."
 "OtherTests.test_write_without_source_date_epoch``"
@@ -1277,9 +1331,6 @@ msgid ""
 "allowing user-installed extensions to have settings and key bindings defined "
 "in ~/.idlerc."
 msgstr ""
-
-msgid "C API"
-msgstr "C API"
 
 msgid ""
 ":gh:`149225`: :c:type:`PyCriticalSection` and related functions are added to "
