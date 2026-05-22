@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 18:34+0000\n"
+"POT-Creation-Date: 2026-05-21 16:35+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -35,12 +35,147 @@ msgstr ""
 msgid ""
 "The module uses the same names and symbols as defined by Unicode Standard "
 "Annex #44, `\"Unicode Character Database\" <https://www.unicode.org/reports/"
-"tr44/>`_.  It defines the following functions:"
+"tr44/>`_."
 msgstr ""
 
 msgid ""
 "The :ref:`unicode-howto` for more information about Unicode and how to use "
 "this module."
+msgstr ""
+
+msgid "**Lookup**"
+msgstr ""
+
+msgid ":func:`lookup(name) <lookup>`"
+msgstr ""
+
+msgid "Look up character by name"
+msgstr ""
+
+msgid ":func:`name(chr) <name>`"
+msgstr ""
+
+msgid "Return the name assigned to a character"
+msgstr ""
+
+msgid "**Numeric values**"
+msgstr ""
+
+msgid ":func:`decimal(chr) <decimal>`"
+msgstr ""
+
+msgid "Decimal value of a character"
+msgstr ""
+
+msgid ":func:`digit(chr) <digit>`"
+msgstr ""
+
+msgid "Digit value of a character"
+msgstr ""
+
+msgid ":func:`numeric(chr) <numeric>`"
+msgstr ""
+
+msgid "Numeric value of a character"
+msgstr ""
+
+msgid "**Properties**"
+msgstr ""
+
+msgid ":func:`bidirectional(chr) <bidirectional>`"
+msgstr ""
+
+msgid "Bidirectional class of a character"
+msgstr ""
+
+msgid ":func:`block(chr) <block>`"
+msgstr ""
+
+msgid "Unicode block of a character"
+msgstr ""
+
+msgid ":func:`category(chr) <category>`"
+msgstr ""
+
+msgid "General category of a character"
+msgstr ""
+
+msgid ":func:`combining(chr) <combining>`"
+msgstr ""
+
+msgid "Canonical combining class of a character"
+msgstr ""
+
+msgid ":func:`decomposition(chr) <decomposition>`"
+msgstr ""
+
+msgid "Character decomposition mapping"
+msgstr ""
+
+msgid ":func:`east_asian_width(chr) <east_asian_width>`"
+msgstr ""
+
+msgid "East Asian width of a character"
+msgstr ""
+
+msgid ":func:`extended_pictographic(chr) <extended_pictographic>`"
+msgstr ""
+
+msgid "Check if a character has the Extended_Pictographic property"
+msgstr ""
+
+msgid ":func:`grapheme_cluster_break(chr) <grapheme_cluster_break>`"
+msgstr ""
+
+msgid "Grapheme_Cluster_Break property of a character"
+msgstr ""
+
+msgid ":func:`indic_conjunct_break(chr) <indic_conjunct_break>`"
+msgstr ""
+
+msgid "Indic_Conjunct_Break property of a character"
+msgstr ""
+
+msgid ":func:`isxidcontinue(chr) <isxidcontinue>`"
+msgstr ""
+
+msgid "Check if a character is a valid identifier continuation"
+msgstr ""
+
+msgid ":func:`isxidstart(chr) <isxidstart>`"
+msgstr ""
+
+msgid "Check if a character is a valid identifier start"
+msgstr ""
+
+msgid ":func:`mirrored(chr) <mirrored>`"
+msgstr ""
+
+msgid "Mirrored property of a character"
+msgstr ""
+
+msgid "**Normalization**"
+msgstr ""
+
+msgid ":func:`normalize(form, unistr) <normalize>`"
+msgstr ""
+
+msgid "Return the normalized form of a string"
+msgstr ""
+
+msgid ":func:`is_normalized(form, unistr) <is_normalized>`"
+msgstr ""
+
+msgid "Check if a Unicode string is normalized"
+msgstr ""
+
+msgid "**Text segmentation**"
+msgstr ""
+
+msgid ":func:`iter_graphemes(unistr) <iter_graphemes>`"
+msgstr ""
+
+msgid "Iterate over grapheme clusters in a string"
 msgstr ""
 
 msgid ""
@@ -292,7 +427,7 @@ msgid ""
 ">`_."
 msgstr ""
 
-msgid "In addition, the module exposes the following constant:"
+msgid "In addition, the module exposes the following constants:"
 msgstr ""
 
 msgid "The version of the Unicode database used in this module."
