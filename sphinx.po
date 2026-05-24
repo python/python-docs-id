@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 16:14+0000\n"
+"POT-Creation-Date: 2026-05-23 14:55+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -250,12 +250,6 @@ msgstr ""
 msgid "Third-party modules and PyPI.org"
 msgstr ""
 
-msgid "Distributing Python modules"
-msgstr ""
-
-msgid "Publishing modules for use by other people"
-msgstr ""
-
 msgid "Extending and embedding"
 msgstr ""
 
@@ -278,6 +272,21 @@ msgid "Deprecations"
 msgstr ""
 
 msgid "Deprecated functionality"
+msgstr ""
+
+msgid "Other resources:"
+msgstr ""
+
+msgid "Python Packaging User Guide"
+msgstr ""
+
+msgid "Resources relating to Python packaging"
+msgstr ""
+
+msgid "Static Typing with Python"
+msgstr ""
+
+msgid "Information and guides about Python type safety"
 msgstr ""
 
 msgid "Indices, glossary, and search:"
@@ -310,7 +319,7 @@ msgstr ""
 msgid "Complete table of contents"
 msgstr ""
 
-msgid "Lists all sections and subsections"
+msgid "All sections and subsections"
 msgstr ""
 
 msgid "Project information:"
