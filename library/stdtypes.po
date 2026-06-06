@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-03 18:19+0000\n"
+"POT-Creation-Date: 2026-06-05 16:27+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -3050,9 +3050,6 @@ msgid ""
 "``['']``."
 msgstr ""
 
-msgid "For example::"
-msgstr "Sebagai contoh::"
-
 msgid ""
 ">>> '1,2,3'.split(',')\n"
 "['1', '2', '3']\n"
@@ -3096,7 +3093,7 @@ msgid ""
 "['foo   ']"
 msgstr ""
 
-msgid "See also :meth:`join`."
+msgid "See also :meth:`join` and :meth:`rsplit`."
 msgstr ""
 
 msgid ""
@@ -3184,6 +3181,9 @@ msgstr ""
 
 msgid "``\\v`` and ``\\f`` added to list of line boundaries."
 msgstr ""
+
+msgid "For example::"
+msgstr "Sebagai contoh::"
 
 msgid ""
 ">>> 'ab c\\n\\nde fg\\rkl\\r\\n'.splitlines()\n"
