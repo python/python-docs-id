@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 16:27+0000\n"
+"POT-Creation-Date: 2026-06-07 15:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,8 +32,23 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
+msgid "Security"
+msgstr "Keamanan"
+
+msgid ""
+":gh:`149835`: :func:`shutil.move` now resolves symlinks via :func:`os.path."
+"realpath` when checking whether the destination is inside the source "
+"directory, preventing a symlink-based bypass of that guard."
+msgstr ""
+
 msgid "Library"
 msgstr "Pustaka"
+
+msgid ""
+":gh:`151021`: Fix :meth:`mmap.mmap.find` and :meth:`~mmap.mmap.rfind` to "
+"return ``-1`` when searching for an empty subsequence with a start position "
+"past the end of the mapping."
+msgstr ""
 
 msgid ""
 ":gh:`62825`: Encodings \"KS_C_5601-1987\", \"KS X 1001\", etc are now "
@@ -44,6 +59,13 @@ msgid ""
 ":gh:`150913`: Fix :class:`sqlite3.Blob` slice assignment to raise :exc:"
 "`TypeError` and :exc:`IndexError` for type and size mismatches respectively, "
 "even when the target slice is empty."
+msgstr ""
+
+msgid ""
+":gh:`150662`: Fix the ``--gecko`` collector in :mod:`profiling.sampling` "
+"that kept every sample in memory. It now writes sample and marker data to "
+"temporary files and reads them back, ultimately building the output file at "
+"the end. Patch by Pablo Galindo and Maurycy Pawłowski-Wieroński."
 msgstr ""
 
 msgid ""
@@ -68,8 +90,20 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`148954`: Fix XML injection vulnerability in :func:`xmlrpc.client.dumps` "
+"where the ``methodname`` was not being escaped before interpolation into the "
+"XML body."
+msgstr ""
+
+msgid ""
 ":gh:`91099`: :meth:`imaplib.IMAP4.login` now raises exceptions with :class:"
 "`str` instead of :class:`bytes`. Patch by Florian Best."
+msgstr ""
+
+msgid "IDLE"
+msgstr "IDLE"
+
+msgid ":issue:`6699`: Warn the user if a file will be overwritten when saving."
 msgstr ""
 
 msgid "Documentation"
@@ -104,6 +138,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`150207`: Fix a crash when a memory allocation fails during tokenizer "
+"initialization. A proper :exc:`MemoryError` is now raised instead."
+msgstr ""
+
+msgid ""
 ":gh:`149805`: Fix a :exc:`SystemError` when compiling a compiling "
 "``__classdict__`` class annotation. Found by OSS-Fuzz in :oss-fuzz:"
 "`512907042`."
@@ -123,9 +162,6 @@ msgstr ""
 
 msgid "*Release date: 2026-06-02*"
 msgstr ""
-
-msgid "Security"
-msgstr "Keamanan"
 
 msgid ""
 ":gh:`149698`: Update bundled `libexpat <https://libexpat.github.io/>`_ to "
@@ -1731,9 +1767,6 @@ msgstr ""
 
 msgid ":gh:`149254`: Update macOS installer to use OpenSSL 3.5.6."
 msgstr ""
-
-msgid "IDLE"
-msgstr "IDLE"
 
 msgid ""
 ":gh:`94523`: Detect file if modified at local disk and prompt to ask "
