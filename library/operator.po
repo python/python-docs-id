@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-02 00:16+0000\n"
+"POT-Creation-Date: 2026-06-09 16:27+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Return ``a + b``, for *a* and *b* numbers."
 msgstr ""
 
-msgid "Return the bitwise and of *a* and *b*."
+msgid "Return ``a & b``."
 msgstr ""
 
 msgid "Return ``a // b``."
@@ -110,18 +110,16 @@ msgid ""
 "have been an instance of a subclass of ``int``."
 msgstr ""
 
-msgid ""
-"Return the bitwise inverse of the number *obj*.  This is equivalent to "
-"``~obj``."
+msgid "Return ``~obj``."
 msgstr ""
 
-msgid "Return *a* shifted left by *b*."
+msgid "Return ``a << b``."
 msgstr ""
 
 msgid "Return ``a % b``."
 msgstr ""
 
-msgid "Return ``a * b``, for *a* and *b* numbers."
+msgid "Return ``a * b``."
 msgstr ""
 
 msgid "Return ``a @ b``."
@@ -130,16 +128,16 @@ msgstr ""
 msgid "Return *obj* negated (``-obj``)."
 msgstr ""
 
-msgid "Return the bitwise or of *a* and *b*."
+msgid "Return ``a | b``."
 msgstr ""
 
-msgid "Return *obj* positive (``+obj``)."
+msgid "Return ``+obj``."
 msgstr ""
 
-msgid "Return ``a ** b``, for *a* and *b* numbers."
+msgid "Return ``a ** b``."
 msgstr ""
 
-msgid "Return *a* shifted right by *b*."
+msgid "Return ``a >> b``."
 msgstr ""
 
 msgid "Return ``a - b``."
@@ -150,7 +148,7 @@ msgid ""
 "\"true\" division."
 msgstr ""
 
-msgid "Return the bitwise exclusive or of *a* and *b*."
+msgid "Return ``a ^ b``."
 msgstr ""
 
 msgid ""
@@ -357,7 +355,7 @@ msgstr "``a // b``"
 msgid "``floordiv(a, b)``"
 msgstr "``floordiv(a, b)``"
 
-msgid "Bitwise And"
+msgid "Bitwise And, or Intersection"
 msgstr ""
 
 msgid "``a & b``"
@@ -366,7 +364,7 @@ msgstr "``a & b``"
 msgid "``and_(a, b)``"
 msgstr "``and_(a, b)``"
 
-msgid "Bitwise Exclusive Or"
+msgid "Bitwise Exclusive Or, or Symmetric Difference"
 msgstr ""
 
 msgid "``a ^ b``"
@@ -375,7 +373,7 @@ msgstr "``a ^ b``"
 msgid "``xor(a, b)``"
 msgstr "``xor(a, b)``"
 
-msgid "Bitwise Inversion"
+msgid "Bitwise Inversion, or Complement"
 msgstr ""
 
 msgid "``~ a``"
@@ -384,7 +382,7 @@ msgstr "``~ a``"
 msgid "``invert(a)``"
 msgstr "``invert(a)``"
 
-msgid "Bitwise Or"
+msgid "Bitwise Or, or Union"
 msgstr ""
 
 msgid "``a | b``"
