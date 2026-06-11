@@ -1576,6 +1576,15 @@ resource_name          = library--asyncio-task
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:library--asyncio-threading]
+file_filter            = library/asyncio-threading.po
+source_file            = gettext/library/asyncio-threading.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--asyncio-threading
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:library--asyncore]
 file_filter            = library/asyncore.po
 source_file            = gettext/library/asyncore.pot
