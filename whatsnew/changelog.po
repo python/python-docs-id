@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 16:27+0000\n"
+"POT-Creation-Date: 2026-06-11 17:33+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,6 +32,21 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
+msgid "macOS"
+msgstr "macOS"
+
+msgid ":gh:`151163`: Updated macOS installer to include SQLite version 3.53.2."
+msgstr ""
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid ":gh:`151163`: Updated Windows builds to include SQLite version 3.53.2."
+msgstr ""
+
+msgid ":gh:`151159`: Updated bundled version of OpenSSL to 3.5.7."
+msgstr ""
+
 msgid "Tests"
 msgstr "Pengujian"
 
@@ -40,6 +55,12 @@ msgstr ""
 
 msgid "Security"
 msgstr "Keamanan"
+
+msgid ":gh:`151159`: Update macOS installer to use OpenSSL 3.5.7."
+msgstr ""
+
+msgid ":gh:`151159`: Update Android and iOS installers to use OpenSSL 3.5.7."
+msgstr ""
 
 msgid ""
 ":gh:`150599`: Fix a possible stack buffer overflow in :mod:`bz2` when a :"
@@ -55,6 +76,23 @@ msgstr ""
 
 msgid "Library"
 msgstr "Pustaka"
+
+msgid ""
+":gh:`151126`: Fix a crash when :exc:`MemoryError` in :func:`!os."
+"_path_splitroot` was not set properly."
+msgstr ""
+
+msgid ""
+":gh:`151295`: Fixed a crash (use-after-free) in :meth:`bytes.join` and :meth:"
+"`bytearray.join` that could occur if an item's :meth:`~object.__buffer__` "
+"concurrently mutates the sequence being joined. The mutation is now reported "
+"as a :exc:`RuntimeError` instead."
+msgstr ""
+
+msgid ""
+":gh:`109940`: Fix Windows :mod:`venv` activation in ``cmd.exe`` to respect "
+"``VIRTUAL_ENV_DISABLE_PROMPT``."
+msgstr ""
 
 msgid ""
 ":gh:`151039`: Fix a crash when static :mod:`datetime` types outlive the "
@@ -76,6 +114,11 @@ msgid ""
 ":gh:`150913`: Fix :class:`sqlite3.Blob` slice assignment to raise :exc:"
 "`TypeError` and :exc:`IndexError` for type and size mismatches respectively, "
 "even when the target slice is empty."
+msgstr ""
+
+msgid ""
+":gh:`143008`: Fix race conditions when re-initializing a :class:`io."
+"TextIOWrapper` object."
 msgstr ""
 
 msgid ""
@@ -121,6 +164,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`143988`: Fixed crashes in :meth:`socket.socket.sendmsg` and :meth:"
+"`socket.socket.recvmsg_into` that could occur if buffer sequences are "
+"concurrently mutated."
+msgstr ""
+
+msgid ""
 ":gh:`91099`: :meth:`imaplib.IMAP4.login` now raises exceptions with :class:"
 "`str` instead of :class:`bytes`. Patch by Florian Best."
 msgstr ""
@@ -149,8 +198,33 @@ msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
 
 msgid ""
+":gh:`151253`: If ``import encodings`` (first import) fails at Python "
+"startup, dump the Python path configuration to help users debugging their "
+"configuration. Patch by Victor Stinner."
+msgstr ""
+
+msgid ""
+":gh:`151238`: Fix a crash when compiling a concatenated f-string or t-string "
+"if an error occurs when processing one of it's parts."
+msgstr ""
+
+msgid ""
+":gh:`151112`: Fix a crash in the compiler that could occur when running out "
+"of memory."
+msgstr ""
+
+msgid ""
 ":gh:`151126`: Fix a crash, when there's no memory left on a device, which "
-"happened in code compilation. Now it raises a proper :exc:`MemoryError`."
+"happened in: code compilation, :mod:`!_interpchannels` module, :func:`!"
+"_winapi.CreateProcess` function."
+msgstr ""
+
+msgid "Now these places raise proper :exc:`MemoryError` errors."
+msgstr ""
+
+msgid ""
+":gh:`150988`: Fix a reference leak in :exc:`OSError` when attributes are set "
+"before ``super().__init__()``."
 msgstr ""
 
 msgid ""
@@ -166,6 +240,13 @@ msgid ""
 "value instead of the 32-bit value required by the jitdump format, which "
 "shifted every following field and prevented profilers from resolving Python "
 "frames."
+msgstr ""
+
+msgid ""
+":gh:`150700`: Fix a :exc:`SystemError` when compiling a class-scope "
+"comprehension containing a ``lambda`` that references ``__class__``, "
+"``__classdict__``, or ``__conditional_annotations__``. Patch by Bartosz "
+"Sławecki."
 msgstr ""
 
 msgid ""
@@ -197,9 +278,21 @@ msgid "C API"
 msgstr "C API"
 
 msgid ""
+":gh:`123619`: :c:func:`PyUnstable_Object_EnableDeferredRefcount` now returns "
+"``0`` if the object is not tracked by the garbage collector: if :func:`gc."
+"is_tracked` is false. Patch by Victor Stinner."
+msgstr ""
+
+msgid ""
 ":gh:`150907`: Fix ``dynamic_annotations.h`` header file when built with C++ "
 "and Valgrind: add ``extern \"C++\" scope`` for the C++ template. Patch by "
 "Victor Stinner."
+msgstr ""
+
+msgid "Build"
+msgstr "Pembangunan"
+
+msgid ":gh:`151163`: Updated Android build to include SQLite version 3.53.2."
 msgstr ""
 
 msgid "Python 3.15.0 beta 2"
@@ -586,9 +679,6 @@ msgid ""
 "tests if it's not supported. Patch by Victor Stinner."
 msgstr ""
 
-msgid "Build"
-msgstr "Pembangunan"
-
 msgid ""
 ":gh:`148294`: Corrected the use of ``AC_PATH_TOOL`` in ``configure.ac`` to "
 "allow a C++ compiler to be found on :envvar:`!PATH`."
@@ -599,9 +689,6 @@ msgid ""
 "thread stack size of at least 1 MiB instead of musl default which is 128 "
 "kiB. Patch by Victor Stinner."
 msgstr ""
-
-msgid "Windows"
-msgstr "Windows"
 
 msgid ""
 ":gh:`149786`: Fixes virtual environment launchers on Windows free-threaded "
@@ -620,9 +707,6 @@ msgstr ""
 
 msgid ":gh:`149029`: Update Windows installer to ship with SQLite 3.53.1."
 msgstr ""
-
-msgid "macOS"
-msgstr "macOS"
 
 msgid ""
 ":gh:`150644`: When system logging is enabled (with ``config."
