@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 16:27+0000\n"
+"POT-Creation-Date: 2026-06-19 16:29+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -698,34 +698,7 @@ msgstr ""
 
 msgid ""
 "Returns information identifying the current operating system. The return "
-"value is an object with five attributes:"
-msgstr ""
-
-msgid ":attr:`sysname` - operating system name"
-msgstr ":attr:`sysname` - nama sistem operasi"
-
-msgid ":attr:`nodename` - name of machine on network (implementation-defined)"
-msgstr ""
-
-msgid ":attr:`release` - operating system release"
-msgstr ":attr:`release` - rilis sistem operasi"
-
-msgid ":attr:`version` - operating system version"
-msgstr ":attr:`version` - versi sistem operasi"
-
-msgid ":attr:`machine` - hardware identifier"
-msgstr ":attr:`machine` - pengidentifikasi perangkat keras"
-
-msgid ""
-"For backwards compatibility, this object is also iterable, behaving like a "
-"five-tuple containing :attr:`sysname`, :attr:`nodename`, :attr:`release`, :"
-"attr:`version`, and :attr:`machine` in that order."
-msgstr ""
-
-msgid ""
-"Some systems truncate :attr:`nodename` to 8 characters or to the leading "
-"component; a better way to get the hostname is :func:`socket.gethostname`  "
-"or even ``socket.gethostbyaddr(socket.gethostname())``."
+"value is a :class:`uname_result`."
 msgstr ""
 
 msgid ""
@@ -735,9 +708,43 @@ msgid ""
 "on iOS and Android."
 msgstr ""
 
+msgid ":data:`sys.platform` which has finer granularity."
+msgstr ""
+
 msgid ""
 "Return type changed from a tuple to a tuple-like object with named "
 "attributes."
+msgstr ""
+
+msgid ""
+"Name and information about the system returned by :func:`os.uname`. These "
+"attributes correspond to the members described in :manpage:`uname(2)`."
+msgstr ""
+
+msgid ""
+"For backwards compatibility, this object is also iterable, behaving like a "
+"five-tuple containing :attr:`~uname_result.sysname`, :attr:`~uname_result."
+"nodename`, :attr:`~uname_result.release`, :attr:`~uname_result.version`, "
+"and :attr:`~uname_result.machine` in that order."
+msgstr ""
+
+msgid "Operating system name."
+msgstr ""
+
+msgid ""
+"Name of machine on network. Some systems truncate :attr:`~uname_result."
+"nodename` to 8 characters or to the leading component; a better way to get "
+"the hostname is :func:`socket.gethostname` or even ``socket."
+"gethostbyaddr(socket.gethostname())``."
+msgstr ""
+
+msgid "Operating system release."
+msgstr ""
+
+msgid "Operating system version."
+msgstr ""
+
+msgid "Hardware identifier."
 msgstr ""
 
 msgid ""
@@ -949,9 +956,6 @@ msgid ""
 "of metadata."
 msgstr ""
 
-msgid "This function is not available on MacOS."
-msgstr ""
-
 msgid ""
 "Return system configuration information relevant to an open file. *name* "
 "specifies the configuration value to retrieve; it may be a string which is "
@@ -985,8 +989,8 @@ msgstr ""
 
 msgid ""
 "Return information about the filesystem containing the file associated with "
-"file descriptor *fd*, like :func:`statvfs`.  As of Python 3.3, this is "
-"equivalent to ``os.statvfs(fd)``."
+"file descriptor *fd* in a :class:`statvfs_result`, like :func:`statvfs`. As "
+"of Python 3.3, this is equivalent to ``os.statvfs(fd)``."
 msgstr ""
 
 msgid ""
@@ -3311,44 +3315,97 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Perform a :c:func:`!statvfs` system call on the given path.  The return "
-"value is an object whose attributes describe the filesystem on the given "
-"path, and correspond to the members of the :c:struct:`statvfs` structure, "
-"namely: :attr:`f_bsize`, :attr:`f_frsize`, :attr:`f_blocks`, :attr:"
-"`f_bfree`, :attr:`f_bavail`, :attr:`f_files`, :attr:`f_ffree`, :attr:"
-"`f_favail`, :attr:`f_flag`, :attr:`f_namemax`, :attr:`f_fsid`."
+"Perform a :manpage:`statvfs(3)` system call on the given path.  The return "
+"value is a :class:`statvfs_result` whose attributes describe the filesystem "
+"on the given path and correspond to the members of the :c:struct:`statvfs` "
+"structure."
 msgstr ""
 
 msgid ""
-"Two module-level constants are defined for the :attr:`f_flag` attribute's "
-"bit-flags: if :const:`ST_RDONLY` is set, the filesystem is mounted read-"
-"only, and if :const:`ST_NOSUID` is set, the semantics of setuid/setgid bits "
-"are disabled or not supported."
+"Filesystem statistics returned by :func:`os.statvfs` and :func:`os."
+"fstatvfs`. See :manpage:`statvfs(3)` for more details."
+msgstr ""
+
+msgid "Block size."
+msgstr ""
+
+msgid "Fragment size."
 msgstr ""
 
 msgid ""
-"Additional module-level constants are defined for GNU/glibc based systems. "
-"These are :const:`ST_NODEV` (disallow access to device special files), :"
-"const:`ST_NOEXEC` (disallow program execution), :const:`ST_SYNCHRONOUS` "
-"(writes are synced at once), :const:`ST_MANDLOCK` (allow mandatory locks on "
-"an FS), :const:`ST_WRITE` (write on file/directory/symlink), :const:"
-"`ST_APPEND` (append-only file), :const:`ST_IMMUTABLE` (immutable file), :"
-"const:`ST_NOATIME` (do not update access times), :const:`ST_NODIRATIME` (do "
-"not update directory access times), :const:`ST_RELATIME` (update atime "
-"relative to mtime/ctime)."
+"Number of :attr:`~statvfs_result.f_frsize` sized blocks the filesystem can "
+"contain."
 msgstr ""
 
-msgid "The :const:`ST_RDONLY` and :const:`ST_NOSUID` constants were added."
+msgid "Number of free blocks."
+msgstr ""
+
+msgid "Number of free blocks for unprivileged users."
+msgstr ""
+
+msgid "Number of file entries, inodes, the filesystem can contain."
+msgstr ""
+
+msgid "Number of free files entries."
+msgstr ""
+
+msgid "Number of free file entries for unprivileged users."
 msgstr ""
 
 msgid ""
-"The :const:`ST_NODEV`, :const:`ST_NOEXEC`, :const:`ST_SYNCHRONOUS`, :const:"
-"`ST_MANDLOCK`, :const:`ST_WRITE`, :const:`ST_APPEND`, :const:"
-"`ST_IMMUTABLE`, :const:`ST_NOATIME`, :const:`ST_NODIRATIME`, and :const:"
-"`ST_RELATIME` constants were added."
+"Bit-mask of mount flags.  The following flags are defined: :data:"
+"`ST_RDONLY`, :data:`ST_NOSUID`, :data:`ST_NODEV`, :data:`ST_NOEXEC`, :data:"
+"`ST_SYNCHRONOUS`, :data:`ST_MANDLOCK`, :data:`ST_WRITE`, :data:`ST_APPEND`, :"
+"data:`ST_IMMUTABLE`, :data:`ST_NOATIME`, :data:`ST_NODIRATIME`, and :data:"
+"`ST_RELATIME`."
 msgstr ""
 
-msgid "Added the :attr:`f_fsid` attribute."
+msgid ""
+"Filesystem max filename length. OS specific limitations such as :ref:"
+"`Windows MAX_PATH <max-path>` and those described in Linux :manpage:"
+"`pathname(7)` may exist."
+msgstr ""
+
+msgid "Filesystem ID."
+msgstr ""
+
+msgid "The following flags are used in :attr:`statvfs_result.f_flag`."
+msgstr ""
+
+msgid "Read-only filesystem."
+msgstr ""
+
+msgid "Setuid/setgid bits are disabled or not supported."
+msgstr ""
+
+msgid "Disallow access to device special files."
+msgstr ""
+
+msgid "Disallow program execution."
+msgstr ""
+
+msgid "Writes are synced at once."
+msgstr ""
+
+msgid "Allow mandatory locks on an FS."
+msgstr ""
+
+msgid "Write on file/directory/symlink."
+msgstr ""
+
+msgid "Append-only file."
+msgstr ""
+
+msgid "Immutable file."
+msgstr ""
+
+msgid "Do not update access times."
+msgstr ""
+
+msgid "Do not update directory access times."
+msgstr ""
+
+msgid "Update atime relative to mtime/ctime."
 msgstr ""
 
 msgid ""
