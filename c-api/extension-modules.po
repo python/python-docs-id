@@ -5,15 +5,16 @@
 #
 # Translators:
 # Hengky Kurniawan, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 16:23+0000\n"
+"POT-Creation-Date: 2026-06-25 16:18+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -141,10 +142,44 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The hook should be kept short -- ideally, one line as above. If you do need "
-"to use Python C API in this function, it is recommended to call "
-"``PyABIInfo_Check(&abi_info, \"modulename\")`` first to raise an exception, "
-"rather than crash, in common cases of ABI mismatch."
+"The hook should be kept short. If it does more than ``return`` a static "
+"array, several caveats apply:"
+msgstr ""
+
+msgid ""
+"If you need to use any Python C API, it is recommended to call :c:func:"
+"`PyABIInfo_Check` first to raise an exception, rather than crash, in common "
+"cases of ABI mismatch."
+msgstr ""
+
+msgid ""
+"Code in the export hook must never rely on the :term:`GIL`: :term:`free-"
+"threaded builds <free-threaded build>` of Python can only check the :c:macro:"
+"`Py_mod_gil` slot (or the lack of it) after the hook returns,"
+msgstr ""
+
+msgid ""
+"Similarly, the hook may be called in any subinterpreter, since the :c:macro:"
+"`Py_mod_multiple_interpreters` slot (or lack of it) is only checked after "
+"the hook returns."
+msgstr ""
+
+msgid "For example::"
+msgstr "Sebagai contoh::"
+
+msgid ""
+"PyMODEXPORT_FUNC\n"
+"PyModExport_modulename(void)\n"
+"{\n"
+"   if (PyABIInfo_Check(&abi_info, \"modulename\") < 0) {\n"
+"      /* ABI mismatch. It's not safe to examine the raised exception. */\n"
+"      return NULL;\n"
+"   }\n"
+"\n"
+"   /* use Python API (as little as possible); don't rely on GIL */\n"
+"\n"
+"   return modulename_slots;\n"
+"}"
 msgstr ""
 
 msgid ""
