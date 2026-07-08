@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 16:23+0000\n"
+"POT-Creation-Date: 2026-07-07 16:22+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -79,12 +79,22 @@ msgid ""
 "general structure of a URL: ``scheme://netloc/path?query#fragment``. Each "
 "tuple item is a string, possibly empty, or ``None`` if *missing_as_none* is "
 "true. Not defined component are represented an empty string (by default) or "
-"``None`` if *missing_as_none* is true. The components are not broken up into "
-"smaller parts (for example, the network location is a single string), and % "
-"escapes are not expanded. The delimiters as shown above are not part of the "
-"result, except for a leading slash in the *path* component, which is "
-"retained if present.  For example:"
+"``None`` if *missing_as_none* is true. The delimiters as shown above are not "
+"part of the result, except for a leading slash in the *path* component, "
+"which is retained if present."
 msgstr ""
+
+msgid ""
+"Additionally, the netloc property is broken down into these additional "
+"attributes added to the returned object: username, password, hostname, and "
+"port."
+msgstr ""
+
+msgid "Percent-encoded sequences are not decoded."
+msgstr ""
+
+msgid "For example:"
+msgstr "Sebagai contoh:"
 
 msgid ""
 ">>> from urllib.parse import urlsplit\n"
