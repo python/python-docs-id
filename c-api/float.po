@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 16:23+0000\n"
+"POT-Creation-Date: 2026-07-11 14:46+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -235,9 +235,6 @@ msgstr ""
 msgid "Pack a C double as the IEEE 754 binary64 double precision format."
 msgstr ""
 
-msgid "This function always succeeds in CPython."
-msgstr ""
-
 msgid "Unpack functions"
 msgstr ""
 
@@ -254,9 +251,6 @@ msgid ""
 "Return value: The unpacked double.  On error, this is ``-1.0`` and :c:func:"
 "`PyErr_Occurred` is true (and an exception is set, most likely :exc:"
 "`OverflowError`)."
-msgstr ""
-
-msgid "These functions always succeed in CPython."
 msgstr ""
 
 msgid "Unpack the IEEE 754 binary16 half-precision format as a C double."
