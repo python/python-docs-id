@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 16:22+0000\n"
+"POT-Creation-Date: 2026-07-17 15:08+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -35,39 +35,40 @@ msgid ""
 "enable an object to be dragged, you must create an event binding for it that "
 "starts the drag-and-drop process. Typically, you bind a ButtonPress event to "
 "a callback function that you write (see :ref:`Bindings-and-Events`). The "
-"function should call :func:`dnd_start`, where 'source' is the object to be "
-"dragged, and 'event' is the event that invoked the call (the argument to "
+"function should call :func:`dnd_start`, where *source* is the object to be "
+"dragged, and *event* is the event that invoked the call (the argument to "
 "your callback function)."
 msgstr ""
 
 msgid "Selection of a target object occurs as follows:"
 msgstr ""
 
-msgid "Top-down search of area under mouse for target widget"
+msgid "Top-down search of the area under the mouse for a target widget:"
 msgstr ""
 
-msgid "Target widget should have a callable *dnd_accept* attribute"
-msgstr ""
-
-msgid ""
-"If *dnd_accept* is not present or returns ``None``, search moves to parent "
-"widget"
-msgstr ""
-
-msgid "If no target widget is found, then the target object is ``None``"
-msgstr ""
-
-msgid "Call to *<old_target>.dnd_leave(source, event)*"
-msgstr ""
-
-msgid "Call to *<new_target>.dnd_enter(source, event)*"
-msgstr ""
-
-msgid "Call to *<target>.dnd_commit(source, event)* to notify of drop"
+msgid "the target widget should have a callable *dnd_accept* attribute;"
 msgstr ""
 
 msgid ""
-"Call to *<source>.dnd_end(target, event)* to signal end of drag-and-drop"
+"if *dnd_accept* is not present or returns ``None``, the search moves to the "
+"parent widget;"
+msgstr ""
+
+msgid "if no target widget is found, the target object is ``None``."
+msgstr ""
+
+msgid "Call to ``<old_target>.dnd_leave(source, event)``."
+msgstr ""
+
+msgid "Call to ``<new_target>.dnd_enter(source, event)``."
+msgstr ""
+
+msgid "Call to ``<target>.dnd_commit(source, event)`` to notify of the drop."
+msgstr ""
+
+msgid ""
+"Call to ``<source>.dnd_end(target, event)`` to signal the end of drag-and-"
+"drop."
 msgstr ""
 
 msgid ""
