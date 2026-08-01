@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 16:24+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Transifex Bot <>, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -189,7 +189,7 @@ msgid ""
 "other Enums default to 1 and increase from there."
 msgstr ""
 
-msgid ":func:`~enum.property`"
+msgid ":deco:`~enum.property`"
 msgstr ""
 
 msgid ""
@@ -198,14 +198,14 @@ msgid ""
 "way."
 msgstr ""
 
-msgid ":func:`unique`"
+msgid ":deco:`unique`"
 msgstr ""
 
 msgid ""
 "Enum class decorator that ensures only one name is bound to any one value."
 msgstr ""
 
-msgid ":func:`verify`"
+msgid ":deco:`verify`"
 msgstr ""
 
 msgid ""
@@ -213,19 +213,19 @@ msgid ""
 "enumeration."
 msgstr ""
 
-msgid ":func:`member`"
+msgid ":deco:`member`"
 msgstr ""
 
 msgid "Make ``obj`` a member.  Can be used as a decorator."
 msgstr ""
 
-msgid ":func:`nonmember`"
+msgid ":deco:`nonmember`"
 msgstr ""
 
 msgid "Do not make ``obj`` a member.  Can be used as a decorator."
 msgstr ""
 
-msgid ":func:`global_enum`"
+msgid ":deco:`global_enum`"
 msgstr ""
 
 msgid ""
@@ -1213,7 +1213,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"A decorator similar to the built-in *property*, but specifically for "
+"A decorator similar to the built-in :deco:`property`, but specifically for "
 "enumerations.  It allows member attributes to have the same names as members "
 "themselves."
 msgstr ""
