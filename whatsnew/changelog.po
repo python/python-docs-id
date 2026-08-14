@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 14:51+0000\n"
+"POT-Creation-Date: 2026-08-13 14:51+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -31,6 +31,22 @@ msgstr "Python next"
 
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "Tools/Demos"
+msgstr "Perkakas/Demo"
+
+msgid ""
+":gh:`154059`: Fix the time units in Tachyon flame graph tooltips by "
+"accounting for the sampling interval when converting samples to milliseconds."
+msgstr ""
+
+msgid "Security"
+msgstr "Keamanan"
+
+msgid ""
+":gh:`155558`: Update bundled `libexpat <https://libexpat.github.io/>`_ to "
+"version 2.8.3 for the fix to :cve:`2026-72522`."
+msgstr ""
 
 msgid "Library"
 msgstr "Pustaka"
@@ -52,6 +68,9 @@ msgid ""
 "available) can run on macOS 26 (where they aren't)."
 msgstr ""
 
+msgid ":gh:`154568`: Fix :mod:`array` unpickling of little-endian float16."
+msgstr ""
+
 msgid ""
 ":gh:`154086`: Store per-thread sample counts in Tachyon flamegraphs so "
 "filtering a thread updates frame widths and totals."
@@ -62,9 +81,6 @@ msgstr ""
 
 msgid "*Release date: 2026-08-04*"
 msgstr ""
-
-msgid "Security"
-msgstr "Keamanan"
 
 msgid ""
 ":gh:`152674`: The :class:`xml.etree.ElementTree.Element` methods :meth:`~xml."
@@ -515,9 +531,6 @@ msgstr "Windows"
 
 msgid ":gh:`124111`: Updated Windows builds to use Tcl/Tk 9.0.4."
 msgstr ""
-
-msgid "Tools/Demos"
-msgstr "Perkakas/Demo"
 
 msgid ""
 ":gh:`154580`: Fix ``python-gdb.py`` raising :exc:`UnicodeEncodeError` when "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-09 14:27+0000\n"
+"POT-Creation-Date: 2026-08-13 14:51+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -602,7 +602,28 @@ msgstr ""
 
 msgid ""
 "Skip the first line of the source, allowing use of non-Unix forms of ``#!"
-"cmd``.  This is intended for a DOS specific hack only."
+"cmd``."
+msgstr ""
+
+msgid ""
+"This can be used to turn a Python script into a Windows batch file. "
+"Similarly to adding a shebang line and setting the executable bit on Unix, "
+"the extension of the Python script can be changed to ``.bat`` and the "
+"following line can be added at the start of the script:"
+msgstr ""
+
+msgid "@py -x \"%~f0\" %* & exit /b"
+msgstr ""
+
+msgid "Or, to specify the path to the Python interpreter explicitly:"
+msgstr ""
+
+msgid "@\"C:\\Path\\to\\python.exe\" -x \"%~f0\" %* & exit /b"
+msgstr ""
+
+msgid ""
+"Unlike a shebang line which is a Python comment, this line is not valid "
+"Python syntax, and the :option:`-x` option is needed to skip it."
 msgstr ""
 
 msgid ""
