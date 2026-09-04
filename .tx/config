@@ -3736,6 +3736,15 @@ resource_name          = library--time
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:library--time-complexity]
+file_filter            = library/time-complexity.po
+source_file            = gettext/library/time-complexity.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--time-complexity
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:library--timeit]
 file_filter            = library/timeit.po
 source_file            = gettext/library/timeit.pot

@@ -1,0 +1,479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# python-doc bot, 2026
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-25 14:37+0000\n"
+"PO-Revision-Date: 2026-08-25 14:39+0000\n"
+"Last-Translator: python-doc bot, 2026\n"
+"Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
+"id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Time complexity of operations on built-in types"
+msgstr ""
+
+msgid ""
+"This page documents the time complexity of various operations on built-in "
+"types in CPython. Other Python implementations may have different "
+"performance characteristics. Additionally, the listed costs assume exact "
+"built-in types, as instances of subclasses may have different costs."
+msgstr ""
+
+msgid ""
+"We use |big O notation|_ to describe how the running time of an operation "
+"grows with the size of its inputs. Unless stated otherwise, *n* denotes the "
+"number of elements currently in the container, and *k* is the value of a "
+"numeric parameter, such as an index or a repeat count."
+msgstr ""
+
+msgid ":class:`!list`"
+msgstr ""
+
+msgid ""
+"Lists are mutable sequences; for more detail on the implementation see :ref:"
+"`how-are-lists-implemented`. The largest costs come from growing beyond the "
+"current allocation size (because everything must move), or from inserting or "
+"deleting somewhere near the beginning (because everything after that must "
+"move). If you need to add or remove at both ends, consider using a :class:"
+"`collections.deque` instead."
+msgstr ""
+
+msgid "Operation"
+msgstr "Operasi"
+
+msgid "Complexity"
+msgstr ""
+
+msgid "Copy (``l.copy()``)"
+msgstr ""
+
+msgid "*O*\\ (*n*)"
+msgstr ""
+
+msgid "Append (``l.append(x)``) [1]_"
+msgstr ""
+
+msgid "*O*\\ (1)"
+msgstr ""
+
+msgid "Pop (``l.pop(k)``) [1]_ [2]_"
+msgstr ""
+
+msgid "*O*\\ (*n* - *k*)"
+msgstr ""
+
+msgid "Insert (``l.insert(k, x)``) [1]_ [2]_"
+msgstr ""
+
+msgid "Get item (``l[k]``)"
+msgstr ""
+
+msgid "Set item (``l[k] = x``)"
+msgstr ""
+
+msgid "Delete item (``del l[k]``) [2]_"
+msgstr ""
+
+msgid "Iteration"
+msgstr ""
+
+msgid "Get slice (``l[i:j]``)"
+msgstr ""
+
+msgid "*O*\\ (*j* - *i*)"
+msgstr ""
+
+msgid "Set slice (``l[i:j] = t``) [1]_"
+msgstr ""
+
+msgid ""
+"*O*\\ (*j* - *i*) if len(*t*) == *j* - *i*, otherwise *O*\\ (*n* - *i* + "
+"len(*t*))"
+msgstr ""
+
+msgid "Delete slice (``del l[i:j]``)"
+msgstr ""
+
+msgid "*O*\\ (*n* - *i*)"
+msgstr ""
+
+msgid "Extend (``l.extend(t)``) [1]_ [3]_"
+msgstr ""
+
+msgid "*O*\\ (len(*t*))"
+msgstr ""
+
+msgid "Sort (``l.sort()``) [4]_"
+msgstr ""
+
+msgid "*O*\\ (*n* log *n*)"
+msgstr ""
+
+msgid "Concatenate (``l1 + l2``)"
+msgstr ""
+
+msgid "*O*\\ (len(*l1*) + len(*l2*))"
+msgstr ""
+
+msgid "Multiply (``l * k``)"
+msgstr ""
+
+msgid "*O*\\ (*nk*)"
+msgstr ""
+
+msgid "``x in l``"
+msgstr ""
+
+msgid "``min(l)``, ``max(l)``"
+msgstr ""
+
+msgid "Get length (``len(l)``) [5]_"
+msgstr ""
+
+msgid ":class:`!tuple`"
+msgstr ""
+
+msgid ""
+"A :class:`tuple` is an :term:`immutable` sequence. Because a tuple can never "
+"change, there are no insertion or deletion costs, and making a copy simply "
+"returns the same object, so is constant time (*O*\\ (1))."
+msgstr ""
+
+msgid "Copy (``tuple(t)``)"
+msgstr ""
+
+msgid "Get item (``t[k]``)"
+msgstr ""
+
+msgid "Get slice (``t[i:j]``)"
+msgstr ""
+
+msgid "Concatenate (``t1 + t2``)"
+msgstr ""
+
+msgid "*O*\\ (len(*t1*) + len(*t2*))"
+msgstr ""
+
+msgid "Multiply (``t * k``)"
+msgstr ""
+
+msgid "``x in t``"
+msgstr ""
+
+msgid "``min(t)``, ``max(t)``"
+msgstr ""
+
+msgid "Get length (``len(t)``) [5]_"
+msgstr ""
+
+msgid ":class:`!dict`, :class:`!frozendict`"
+msgstr ""
+
+msgid ""
+"The times listed for dict objects are average-case times, as they assume the "
+"hash function for the objects is sufficiently robust to make collisions "
+"uncommon. They also assume the keys are well-distributed among the set of "
+"possible keys. In the worst case, when every key hashes to the same value, "
+"each of the *O*\\ (1) operations below instead takes *O*\\ (*n*) time. They "
+"also assume that hashing and comparing a key is *O*\\ (1). For more detail "
+"on the implementation, see :ref:`how-are-dictionaries-implemented`."
+msgstr ""
+
+msgid ""
+"A :class:`frozendict` is immutable, so it does not support setting, "
+"deleting, or updating items. The other operations below apply to it at the "
+"same costs."
+msgstr ""
+
+msgid "``key in d``"
+msgstr ""
+
+msgid "Copy (``d.copy()``) [6]_ [7]_"
+msgstr ""
+
+msgid "Get item (``d[key]``, ``d.get(key)``)"
+msgstr ""
+
+msgid "Set item (``d[key] = value``) [1]_"
+msgstr ""
+
+msgid "Delete item (``del d[key]``, ``d.pop(key)``)"
+msgstr ""
+
+msgid "Update (``d.update(t)``, ``d |= t``) [1]_ [3]_ [7]_"
+msgstr ""
+
+msgid "Iteration [7]_"
+msgstr ""
+
+msgid "Get length (``len(d)``) [5]_"
+msgstr ""
+
+msgid ":class:`!set`, :class:`!frozenset`"
+msgstr ""
+
+msgid ""
+"See :class:`dict` as the :class:`set` and :class:`frozenset` implementations "
+"are similar, and the same caveats apply. In the worst case, *O*\\ (1) "
+"operations instead take *O*\\ (*n*) time, and operations that look up every "
+"element degrade accordingly."
+msgstr ""
+
+msgid ""
+"A :class:`frozenset` is :term:`immutable`, so it does not support adding, "
+"discarding, or the in-place update operations. The others below apply to it "
+"at the same costs."
+msgstr ""
+
+msgid "``x in s``"
+msgstr "``x in s``"
+
+msgid "Copy (``s.copy()``) [6]_ [7]_"
+msgstr ""
+
+msgid "Add (``s.add(x)``) [1]_"
+msgstr ""
+
+msgid "Discard (``s.discard(x)``, ``s.remove(x)``)"
+msgstr ""
+
+msgid "Union (``s1 | s2``, ``s1.union(s2)``) [7]_"
+msgstr ""
+
+msgid "*O*\\ (len(*s1*) + len(*s2*))"
+msgstr ""
+
+msgid "Update (``s1 |= s2``, ``s1.update(s2)``) [1]_ [7]_"
+msgstr ""
+
+msgid "*O*\\ (len(*s2*))"
+msgstr ""
+
+msgid "Intersection (``s1 & s2``, ``s1.intersection(s2)``) [7]_ [8]_"
+msgstr ""
+
+msgid "*O*\\ (min(len(*s1*), len(*s2*)))"
+msgstr ""
+
+msgid ""
+"Intersection update (``s1 &= s2``, ``s1.intersection_update(s2)``) [1]_ [7]_ "
+"[8]_"
+msgstr ""
+
+msgid "Difference (``s1 - s2``, ``s1.difference(s2)``) [7]_ [9]_"
+msgstr ""
+
+msgid "*O*\\ (len(*s1*))"
+msgstr ""
+
+msgid ""
+"Difference update (``s1 -= s2``, ``s1.difference_update(s2)``) [1]_ [7]_ [8]_"
+msgstr ""
+
+msgid ""
+"Symmetric difference (``s1 ^ s2``, ``s1.symmetric_difference(s2)``) [7]_"
+msgstr ""
+
+msgid ""
+"Symmetric difference update (``s1 ^= s2``, ``s1."
+"symmetric_difference_update(s2)``) [1]_ [7]_"
+msgstr ""
+
+msgid "Get length (``len(s)``) [5]_"
+msgstr ""
+
+msgid ":class:`!str`, :class:`!bytes`, :class:`!bytearray`"
+msgstr ""
+
+msgid ""
+":class:`str` and :class:`bytes` objects are immutable sequences of "
+"characters and bytes, respectively. As with tuples, copying one returns the "
+"original object. A :class:`bytearray` is mutable, and additionally supports "
+"the mutating operations of :class:`list` (except :meth:`!sort`), at the same "
+"costs. However, deleting at the front with ``del`` (``del b[0]``, ``del b[:"
+"k]``) only advances the start of the buffer instead of moving the remaining "
+"bytes, and is amortized *O*\\ (1)."
+msgstr ""
+
+msgid "Get item (``s[k]``)"
+msgstr ""
+
+msgid "Get slice (``s[i:j]``)"
+msgstr ""
+
+msgid "Concatenate (``s + t``) [10]_"
+msgstr ""
+
+msgid "*O*\\ (len(*s*) + len(*t*))"
+msgstr ""
+
+msgid "Multiply (``s * k``)"
+msgstr ""
+
+msgid "Substring search (``x in s``, ``s.find(x)``, ``s.index(x)``) [11]_"
+msgstr ""
+
+msgid "Reverse substring search (``s.rfind(x)``, ``s.rindex(x)``) [11]_ [12]_"
+msgstr ""
+
+msgid "*O*\\ (*n* × len(*x*))"
+msgstr ""
+
+msgid "Encode or decode [13]_"
+msgstr ""
+
+msgid ":class:`!memoryview`"
+msgstr ""
+
+msgid ""
+":class:`memoryview` objects allow Python code to access the internal data of "
+"an object that supports the :ref:`buffer protocol <bufferobjects>` without "
+"copying. In particular, slicing a memory view returns a new view onto the "
+"same buffer."
+msgstr ""
+
+msgid "Create (``memoryview(obj)``)"
+msgstr ""
+
+msgid "Get item (``v[k]``)"
+msgstr ""
+
+msgid "Get slice (``v[i:j]``)"
+msgstr ""
+
+msgid "Index (``v.index(x)``) [11]_ [14]_"
+msgstr ""
+
+msgid "Count (``v.count(x)``) [14]_"
+msgstr ""
+
+msgid "Convert to bytes (``v.tobytes()``, ``bytes(v)``)"
+msgstr ""
+
+msgid "Get length (``len(v)``) [5]_"
+msgstr ""
+
+msgid ":class:`!range`"
+msgstr ""
+
+msgid ""
+"A :class:`range` object computes its items on demand from its *start*, "
+"*stop* and *step* values, so most operations do not depend on the length of "
+"the range."
+msgstr ""
+
+msgid "Get item (``r[k]``)"
+msgstr ""
+
+msgid "Get slice (``r[i:j]``)"
+msgstr ""
+
+msgid "``x in r`` [15]_"
+msgstr ""
+
+msgid "Index and count (``r.index(x)``, ``r.count(x)``) [15]_"
+msgstr ""
+
+msgid "``min(r)``, ``max(r)``"
+msgstr ""
+
+msgid "Get length (``len(r)``) [5]_"
+msgstr ""
+
+msgid "Notes"
+msgstr "Catatan"
+
+msgid ""
+"Amortized. An individual operation may occasionally be *O*\\ (*n*) when the "
+"underlying storage is resized, but this cost is spread over many operations, "
+"depending on the history of the container."
+msgstr ""
+
+msgid ""
+"Popping or deleting the element at index *k* of a list of size *n* shifts "
+"all elements after *k* one slot to the left, moving *n* - *k* - 1 elements; "
+"inserting at index *k* shifts the elements from *k* onwards one slot to the "
+"right, moving *n* - *k* elements. The worst case is index 0, where the whole "
+"rest of the list has to be moved; the average case, an index in the middle "
+"of the list, takes *O*\\ (*n*/2) = *O*\\ (*n*) operations; and operating at "
+"the end of the list moves nothing and is *O*\\ (1)."
+msgstr ""
+
+msgid ""
+"Plus the cost of iterating over *t*, which may be expensive for an arbitrary "
+"iterable."
+msgstr ""
+
+msgid ""
+"This is the worst case scenario. Sorting is adaptive and input that is "
+"already sorted or reverse-sorted takes only *O*\\ (*n*) comparisons. See :"
+"source:`Objects/listsort.txt` for more information."
+msgstr ""
+
+msgid ""
+"The number of elements is stored in the object, so ``len()`` does not need "
+"to count them."
+msgstr ""
+
+msgid ""
+"Copying a :class:`frozendict` or a :class:`frozenset` is *O*\\ (1) as it "
+"returns the original object."
+msgstr ""
+
+msgid ""
+"These operations scan the container's internal hash table, which is not "
+"shrunk when elements are removed. After removing most elements, they still "
+"take time proportional to the container's former size, until a later "
+"insertion triggers a resize."
+msgstr ""
+
+msgid "*O*\\ (len(*t*)) if *t* is not a set."
+msgstr ""
+
+msgid "*O*\\ (len(*s*) + len(*t*)) if *t* is not a set."
+msgstr ""
+
+msgid ""
+"Each concatenation builds a new object, so building a string by "
+"concatenating many pieces in a loop is quadratic in the total length. See "
+"the :ref:`note on concatenating immutable sequences <typesseq-repeated-"
+"concatenation>` for alternatives."
+msgstr ""
+
+msgid ""
+"With *start* and *end* arguments, *n* is the length of the region searched "
+"rather than of *s*, and unlike slicing nothing is copied."
+msgstr ""
+
+msgid ""
+"This is the worst case. Reverse searches are *O*\\ (*n*) on typical input. "
+"Forward searches instead use a more elaborate algorithm with a linear worst "
+"case, described in :source:`Objects/stringlib/stringlib_find_two_way_notes."
+"txt`."
+msgstr ""
+
+msgid "This assumes a codec that does a constant amount of work per character."
+msgstr ""
+
+msgid ""
+"These unpack and compare each element individually, so they are much slower "
+"than the equivalent :class:`bytes` methods."
+msgstr ""
+
+msgid ""
+"Assuming :class:`int` or :class:`bool` arguments. For other types, the range "
+"is searched like any other sequence in *O*\\ (*n*) time."
+msgstr ""
