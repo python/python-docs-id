@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-23 14:16+0000\n"
+"POT-Creation-Date: 2026-09-05 16:26+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -223,4 +223,73 @@ msgid "array of tables"
 msgstr ""
 
 msgid "list of dicts"
+msgstr ""
+
+msgid "Limits and interoperability considerations"
+msgstr ""
+
+msgid ""
+":mod:`!tomllib` places some limits on the documents it can handle, and it "
+"preserves details that other TOML parsers are allowed to ignore. When "
+"writing portable TOML files, only use features that are guaranteed or "
+"recommended by the standard."
+msgstr ""
+
+msgid ""
+"The implementation details listed here may change in future versions of "
+"Python."
+msgstr ""
+
+msgid "Tables/dicts"
+msgstr ""
+
+msgid ""
+"The TOML spec does not guarantee key/value pairs in TOML documents and "
+"tables to be in any specific order."
+msgstr ""
+
+msgid ""
+":mod:`!tomllib` loads dictionary entries in the order they appear in the "
+"source."
+msgstr ""
+
+msgid "Integers"
+msgstr ""
+
+msgid "TOML recommends supporting integers in ``range(−2**63, 2**63)``."
+msgstr ""
+
+msgid ""
+":mod:`!tomllib` uses :ref:`Python's limit on integer string conversion "
+"<int_max_str_digits>` (4300 digits by default)."
+msgstr ""
+
+msgid "Floats"
+msgstr ""
+
+msgid ""
+"TOML recommends supporting at least IEEE 754 binary64 values, which means "
+"that numbers with more than 15 significant decimal digits are likely to be "
+"rounded."
+msgstr ""
+
+msgid ""
+":mod:`!tomllib` uses Python :class:`float` by default; on many common "
+"platforms this is the recommended binary64. See :data:`sys.float_info` for "
+"details."
+msgstr ""
+
+msgid "Nesting limit"
+msgstr ""
+
+msgid ""
+"TOML 1.1.0 does not recommend a limit on how deeply arrays and tables may be "
+"nested inside one another. (A limit of 100 has been proposed for a future "
+"version of TOML.)"
+msgstr ""
+
+msgid ""
+"In :mod:`!tomllib`, the nesting level is mainly limited by Python's :func:"
+"`recursion limit <sys.getrecursionlimit>`. Note that code that calls :mod:`!"
+"tomllib` may contribute to the limit."
 msgstr ""

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
 # Hengky Kurniawan, 2026
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 17:31+0000\n"
+"POT-Creation-Date: 2026-09-05 16:26+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Hengky Kurniawan, 2026\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,30 @@ msgstr ""
 
 msgid "Changelog"
 msgstr "Catatan Perubahan"
+
+msgid "Python next"
+msgstr "Python next"
+
+msgid "*Release date: XXXX-XX-XX*"
+msgstr "*Tanggal rilis: XXXX-XX-XX*"
+
+msgid "Library"
+msgstr "Pustaka"
+
+msgid ""
+":gh:`156970`: Set the docstring of :attr:`unittest.mock.Mock.return_value`."
+msgstr ""
+
+msgid ""
+":gh:`127057`: Fix :class:`asyncio.ProactorEventLoop` UDP transports so that "
+"a :exc:`ConnectionResetError` raised by ``WSARecvFrom`` no longer stops the "
+"read loop."
+msgstr ""
+
+msgid ""
+":gh:`155418`: Fix :class:`asyncio.TaskGroup` hang when a task created by :"
+"func:`asyncio.eager_task_factory` cancels the group before suspending."
+msgstr ""
 
 msgid "Python 3.15.0 release candidate 2"
 msgstr ""
@@ -157,9 +181,6 @@ msgid ""
 "name of a function, a class, an imported module or a caught exception) is "
 "``\"None\"``, ``\"True\"`` or ``\"False\"``."
 msgstr ""
-
-msgid "Library"
-msgstr "Pustaka"
 
 msgid ""
 ":gh:`156523`: Fix :func:`asyncio.as_completed` not recording the awaiting "
