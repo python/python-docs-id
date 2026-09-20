@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-15 17:49+0000\n"
+"POT-Creation-Date: 2026-09-19 16:52+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -2721,6 +2721,24 @@ msgid "``abs(a)`` absolute value of a"
 msgstr ""
 
 msgid "``a.rotate(angle)`` rotation"
+msgstr ""
+
+msgid "Exceptions"
+msgstr "Pengecualian"
+
+msgid "The :mod:`!turtle` module defines the following exception:"
+msgstr ""
+
+msgid ""
+"Raised for invalid arguments or operations. For example, a malformed color "
+"string:"
+msgstr ""
+
+msgid ""
+">>> turtle.color(\"blau\")\n"
+"Traceback (most recent call last):\n"
+"    ...\n"
+"turtle.TurtleGraphicsError: bad color string: blau"
 msgstr ""
 
 msgid "Explanation"
