@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 18:58+0000\n"
+"POT-Creation-Date: 2026-09-23 18:03+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,6 +32,14 @@ msgstr "Python next"
 msgid "*Release date: XXXX-XX-XX*"
 msgstr "*Tanggal rilis: XXXX-XX-XX*"
 
+msgid "Security"
+msgstr "Keamanan"
+
+msgid ""
+":gh:`157953`: Update bundled `libexpat <https://libexpat.github.io/>`_ to "
+"version 2.8.5."
+msgstr ""
+
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
 
@@ -47,6 +55,11 @@ msgid ""
 "the thread-local allocation counter that schedules automatic garbage "
 "collection. A thread that called it while allocating could prevent cyclic "
 "garbage from ever being collected."
+msgstr ""
+
+msgid ""
+":gh:`157247`: Fix :func:`sys.activate_stack_trampoline` allowing activation "
+"from a subinterpreter while the JIT is enabled in the main interpreter."
 msgstr ""
 
 msgid ""
@@ -257,9 +270,6 @@ msgstr ""
 
 msgid "*Release date: 2026-09-01*"
 msgstr ""
-
-msgid "Security"
-msgstr "Keamanan"
 
 msgid ""
 ":gh:`156723`: Update bundled `libexpat <https://libexpat.github.io/>`_ to "
