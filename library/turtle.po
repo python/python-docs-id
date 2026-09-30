@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 18:08+0000\n"
+"POT-Creation-Date: 2026-09-29 18:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -32,6 +32,9 @@ msgid ""
 "Turtle can draw intricate shapes using programs that repeat simple moves."
 msgstr ""
 
+msgid "A yellow starburst of thin spikes with a red outline, drawn by turtle."
+msgstr ""
+
 msgid ""
 "Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an "
 "``import turtle``, give it the command ``turtle.forward(15)``, and it moves "
@@ -42,7 +45,7 @@ msgstr ""
 
 msgid ""
 "Turtle graphics is an implementation of `the drawing tools introduced in "
-"Logo <https://en.wikipedia.org/wiki/Turtle_(robot)>`_ in 1967. It was "
+"Logo <https://en.wikipedia.org/wiki/Turtle_(robot)>`__ in 1967. It was "
 "created as an educational tool, and its instant, visible feedback makes it "
 "an effective way for learners to encounter programming concepts. It is also "
 "a convenient way to produce simple graphical output without bringing in "
@@ -60,7 +63,7 @@ msgid ""
 "module defines."
 msgstr ""
 
-msgid ":ref:`turtle-howtos` details how to handle specific tasks."
+msgid ":ref:`turtle-howtos` detail how to handle specific tasks."
 msgstr ""
 
 msgid ""
@@ -134,7 +137,7 @@ msgstr ""
 
 msgid ""
 "Experiment with those commands, and also with ``backward()`` and "
-"``right()``. Many commands also have terser aliases, such as ``fd()`` for :"
+"``right()``. Many commands also have shorter aliases, such as ``fd()`` for :"
 "func:`forward`."
 msgstr ""
 
@@ -245,500 +248,10 @@ msgid ""
 "``end_fill()`` command.)"
 msgstr ""
 
-msgid "How-to guides"
-msgstr ""
-
-msgid "This section covers some typical turtle use-cases and approaches."
-msgstr ""
-
-msgid "Automatically begin and end filling"
-msgstr ""
-
-msgid ""
-"Starting with Python 3.14, you can use the :func:`fill` :term:`context "
-"manager` instead of :func:`begin_fill` and :func:`end_fill` to automatically "
-"begin and end fill. Here is an example::"
-msgstr ""
-
-msgid ""
-"with fill():\n"
-"    for i in range(4):\n"
-"        forward(100)\n"
-"        right(90)\n"
-"\n"
-"forward(200)"
-msgstr ""
-
-msgid "The code above is equivalent to::"
-msgstr ""
-
-msgid ""
-"begin_fill()\n"
-"for i in range(4):\n"
-"    forward(100)\n"
-"    right(90)\n"
-"end_fill()\n"
-"\n"
-"forward(200)"
-msgstr ""
-
-msgid "Use the ``turtle`` module namespace"
-msgstr ""
-
-msgid ""
-"Using ``from turtle import *`` is convenient - but be warned that it imports "
-"a rather large collection of objects, and if you're doing anything but "
-"turtle graphics you run the risk of a name conflict (this becomes even more "
-"an issue if you're using turtle graphics in a script where other modules "
-"might be imported)."
-msgstr ""
-
-msgid ""
-"The solution is to use ``import turtle`` - ``fd()`` becomes ``turtle.fd()``, "
-"``width()`` becomes ``turtle.width()`` and so on. (If typing \"turtle\" over "
-"and over again becomes tedious, use for example ``import turtle as t`` "
-"instead.)"
-msgstr ""
-
-msgid "Use turtle graphics in a script"
-msgstr ""
-
-msgid ""
-"It's recommended to use the ``turtle`` module namespace as described "
-"immediately above, for example::"
-msgstr ""
-
-msgid ""
-"import turtle as t\n"
-"from random import random\n"
-"\n"
-"for i in range(100):\n"
-"    steps = int(random() * 100)\n"
-"    angle = int(random() * 360)\n"
-"    t.right(angle)\n"
-"    t.fd(steps)"
-msgstr ""
-
-msgid ""
-"Another step is also required though - as soon as the script ends, Python "
-"will also close the turtle's window. Add::"
-msgstr ""
-
-msgid "t.mainloop()"
-msgstr ""
-
-msgid ""
-"to the end of the script. The script will now wait to be dismissed and will "
-"not exit until it is terminated, for example by closing the turtle graphics "
-"window."
-msgstr ""
-
-msgid "Use object-oriented turtle graphics"
-msgstr ""
-
-msgid ""
-":ref:`Explanation of the object-oriented interface <turtle-explanation>`"
-msgstr ""
-
-msgid ""
-"Other than for very basic introductory purposes, or for trying things out as "
-"quickly as possible, it's more usual and much more powerful to use the "
-"object-oriented approach to turtle graphics. For example, this allows "
-"multiple turtles on screen at once."
-msgstr ""
-
-msgid ""
-"In this approach, the various turtle commands are methods of objects (mostly "
-"of ``Turtle`` objects). You *can* use the object-oriented approach in the "
-"shell, but it would be more typical in a Python script."
-msgstr ""
-
-msgid "The example above then becomes::"
-msgstr ""
-
-msgid ""
-"from turtle import Turtle\n"
-"from random import random\n"
-"\n"
-"t = Turtle()\n"
-"for i in range(100):\n"
-"    steps = int(random() * 100)\n"
-"    angle = int(random() * 360)\n"
-"    t.right(angle)\n"
-"    t.fd(steps)\n"
-"\n"
-"t.screen.mainloop()"
-msgstr ""
-
-msgid ""
-"Note the last line. ``t.screen`` is an instance of the :class:`Screen` that "
-"a Turtle instance exists on; it's created automatically along with the "
-"turtle."
-msgstr ""
-
-msgid "The turtle's screen can be customised, for example::"
-msgstr ""
-
-msgid ""
-"t.screen.title('Object-oriented turtle demo')\n"
-"t.screen.bgcolor(\"orange\")"
-msgstr ""
-
 msgid "Reference"
 msgstr "Referensi"
 
-msgid ""
-"In the following documentation the argument list for functions is given. "
-"Methods, of course, have the additional first argument *self* which is "
-"omitted here."
-msgstr ""
-
-msgid "Turtle methods"
-msgstr ""
-
-msgid "Turtle motion"
-msgstr ""
-
-msgid "Move and draw"
-msgstr ""
-
-msgid ":func:`forward` | :func:`fd`"
-msgstr ":func:`forward` | :func:`fd`"
-
-msgid ":func:`backward` | :func:`bk` | :func:`back`"
-msgstr ":func:`backward` | :func:`bk` | :func:`back`"
-
-msgid ":func:`right` | :func:`rt`"
-msgstr ":func:`right` | :func:`rt`"
-
-msgid ":func:`left` | :func:`lt`"
-msgstr ":func:`left` | :func:`lt`"
-
-msgid ":func:`goto` | :func:`setpos` | :func:`setposition`"
-msgstr ":func:`goto` | :func:`setpos` | :func:`setposition`"
-
-msgid ":func:`teleport`"
-msgstr ""
-
-msgid ":func:`setx`"
-msgstr ":func:`setx`"
-
-msgid ":func:`sety`"
-msgstr ":func:`sety`"
-
-msgid ":func:`setheading` | :func:`seth`"
-msgstr ":func:`setheading` | :func:`seth`"
-
-msgid ":func:`home`"
-msgstr ":func:`home`"
-
-msgid ":func:`circle`"
-msgstr ":func:`circle`"
-
-msgid ":func:`dot`"
-msgstr ":func:`dot`"
-
-msgid ":func:`stamp`"
-msgstr ":func:`stamp`"
-
-msgid ":func:`clearstamp`"
-msgstr ":func:`clearstamp`"
-
-msgid ":func:`clearstamps`"
-msgstr ":func:`clearstamps`"
-
-msgid ":func:`undo`"
-msgstr ":func:`undo`"
-
-msgid ":func:`speed`"
-msgstr ":func:`speed`"
-
-msgid "Tell Turtle's state"
-msgstr ""
-
-msgid ":func:`position` | :func:`pos`"
-msgstr ":func:`position` | :func:`pos`"
-
-msgid ":func:`towards`"
-msgstr ":func:`towards`"
-
-msgid ":func:`xcor`"
-msgstr ":func:`xcor`"
-
-msgid ":func:`ycor`"
-msgstr ":func:`ycor`"
-
-msgid ":func:`heading`"
-msgstr ":func:`heading`"
-
-msgid ":func:`distance`"
-msgstr ":func:`distance`"
-
-msgid "Setting and measurement"
-msgstr ""
-
-msgid ":func:`degrees`"
-msgstr ":func:`degrees`"
-
-msgid ":func:`radians`"
-msgstr ":func:`radians`"
-
-msgid "Drawing state"
-msgstr ""
-
-msgid ":func:`pendown` | :func:`pd` | :func:`down`"
-msgstr ":func:`pendown` | :func:`pd` | :func:`down`"
-
-msgid ":func:`penup` | :func:`pu` | :func:`up`"
-msgstr ":func:`penup` | :func:`pu` | :func:`up`"
-
-msgid ":func:`pensize` | :func:`width`"
-msgstr ":func:`pensize` | :func:`width`"
-
-msgid ":func:`pen`"
-msgstr ":func:`pen`"
-
-msgid ":func:`isdown`"
-msgstr ":func:`isdown`"
-
-msgid "Color control"
-msgstr ""
-
-msgid ":func:`color`"
-msgstr ":func:`color`"
-
-msgid ":func:`pencolor`"
-msgstr ":func:`pencolor`"
-
-msgid ":func:`fillcolor`"
-msgstr ":func:`fillcolor`"
-
-msgid "Filling"
-msgstr ""
-
-msgid ":func:`filling`"
-msgstr ":func:`filling`"
-
-msgid ":func:`fill`"
-msgstr ""
-
-msgid ":func:`begin_fill`"
-msgstr ":func:`begin_fill`"
-
-msgid ":func:`end_fill`"
-msgstr ":func:`end_fill`"
-
-msgid "More drawing control"
-msgstr ""
-
-msgid ":func:`reset`"
-msgstr ":func:`reset`"
-
-msgid ":func:`clear`"
-msgstr ":func:`clear`"
-
-msgid ":func:`write`"
-msgstr ":func:`write`"
-
-msgid "Turtle state"
-msgstr ""
-
-msgid "Visibility"
-msgstr ""
-
-msgid ":func:`showturtle` | :func:`st`"
-msgstr ":func:`showturtle` | :func:`st`"
-
-msgid ":func:`hideturtle` | :func:`ht`"
-msgstr ":func:`hideturtle` | :func:`ht`"
-
-msgid ":func:`isvisible`"
-msgstr ":func:`isvisible`"
-
-msgid "Appearance"
-msgstr ""
-
-msgid ":func:`shape`"
-msgstr ":func:`shape`"
-
-msgid ":func:`resizemode`"
-msgstr ":func:`resizemode`"
-
-msgid ":func:`shapesize` | :func:`turtlesize`"
-msgstr ":func:`shapesize` | :func:`turtlesize`"
-
-msgid ":func:`shearfactor`"
-msgstr ":func:`shearfactor`"
-
-msgid ":func:`tiltangle`"
-msgstr ":func:`tiltangle`"
-
-msgid ":func:`tilt`"
-msgstr ":func:`tilt`"
-
-msgid ":func:`shapetransform`"
-msgstr ":func:`shapetransform`"
-
-msgid ":func:`get_shapepoly`"
-msgstr ":func:`get_shapepoly`"
-
-msgid "Using events"
-msgstr ""
-
-msgid ":func:`onclick`"
-msgstr ":func:`onclick`"
-
-msgid ":func:`onrelease`"
-msgstr ":func:`onrelease`"
-
-msgid ":func:`ondrag`"
-msgstr ":func:`ondrag`"
-
-msgid "Special Turtle methods"
-msgstr ""
-
-msgid ":func:`poly`"
-msgstr ""
-
-msgid ":func:`begin_poly`"
-msgstr ":func:`begin_poly`"
-
-msgid ":func:`end_poly`"
-msgstr ":func:`end_poly`"
-
-msgid ":func:`get_poly`"
-msgstr ":func:`get_poly`"
-
-msgid ":func:`clone`"
-msgstr ":func:`clone`"
-
-msgid ":func:`getturtle` | :func:`getpen`"
-msgstr ":func:`getturtle` | :func:`getpen`"
-
-msgid ":func:`getscreen`"
-msgstr ":func:`getscreen`"
-
-msgid ":func:`setundobuffer`"
-msgstr ":func:`setundobuffer`"
-
-msgid ":func:`undobufferentries`"
-msgstr ":func:`undobufferentries`"
-
-msgid "Methods of TurtleScreen/Screen"
-msgstr ""
-
-msgid "Window control"
-msgstr ""
-
-msgid ":func:`bgcolor`"
-msgstr ":func:`bgcolor`"
-
-msgid ":func:`bgpic`"
-msgstr ":func:`bgpic`"
-
-msgid ":func:`clearscreen`"
-msgstr ""
-
-msgid ":func:`resetscreen`"
-msgstr ""
-
-msgid ":func:`screensize`"
-msgstr ":func:`screensize`"
-
-msgid ":func:`setworldcoordinates`"
-msgstr ":func:`setworldcoordinates`"
-
-msgid "Animation control"
-msgstr ""
-
-msgid ":func:`no_animation`"
-msgstr ""
-
-msgid ":func:`delay`"
-msgstr ":func:`delay`"
-
-msgid ":func:`tracer`"
-msgstr ":func:`tracer`"
-
-msgid ":func:`update`"
-msgstr ":func:`update`"
-
-msgid "Using screen events"
-msgstr ""
-
-msgid ":func:`listen`"
-msgstr ":func:`listen`"
-
-msgid ":func:`onkey` | :func:`onkeyrelease`"
-msgstr ":func:`onkey` | :func:`onkeyrelease`"
-
-msgid ":func:`onkeypress`"
-msgstr ":func:`onkeypress`"
-
-msgid ":func:`onclick` | :func:`onscreenclick`"
-msgstr ":func:`onclick` | :func:`onscreenclick`"
-
-msgid ":func:`ontimer`"
-msgstr ":func:`ontimer`"
-
-msgid ":func:`mainloop` | :func:`done`"
-msgstr ":func:`mainloop` | :func:`done`"
-
-msgid "Settings and special methods"
-msgstr ""
-
-msgid ":func:`mode`"
-msgstr ":func:`mode`"
-
-msgid ":func:`colormode`"
-msgstr ":func:`colormode`"
-
-msgid ":func:`getcanvas`"
-msgstr ":func:`getcanvas`"
-
-msgid ":func:`getshapes`"
-msgstr ":func:`getshapes`"
-
-msgid ":func:`register_shape` | :func:`addshape`"
-msgstr ":func:`register_shape` | :func:`addshape`"
-
-msgid ":func:`turtles`"
-msgstr ":func:`turtles`"
-
-msgid ":func:`window_height`"
-msgstr ":func:`window_height`"
-
-msgid ":func:`window_width`"
-msgstr ":func:`window_width`"
-
-msgid "Input methods"
-msgstr ""
-
-msgid ":func:`textinput`"
-msgstr ":func:`textinput`"
-
-msgid ":func:`numinput`"
-msgstr ":func:`numinput`"
-
-msgid "Methods specific to Screen"
-msgstr ""
-
-msgid ":func:`bye`"
-msgstr ":func:`bye`"
-
-msgid ":func:`exitonclick`"
-msgstr ":func:`exitonclick`"
-
-msgid ":func:`save`"
-msgstr ""
-
-msgid ":func:`setup`"
-msgstr ":func:`setup`"
-
-msgid ":func:`title`"
-msgstr ":func:`title`"
-
-msgid "Methods of RawTurtle/Turtle and corresponding functions"
+msgid "Turtle methods and functions"
 msgstr ""
 
 msgid ""
@@ -746,10 +259,13 @@ msgid ""
 "``turtle``."
 msgstr ""
 
+msgid "Move and draw"
+msgstr ""
+
 msgid "Parameters"
 msgstr "Parameter"
 
-msgid "a number (integer or float)"
+msgid "a number"
 msgstr ""
 
 msgid ""
@@ -768,12 +284,9 @@ msgid ""
 "(-50.00,0.00)"
 msgstr ""
 
-msgid "a number"
-msgstr ""
-
 msgid ""
 "Move the turtle backward by *distance*, opposite to the direction the turtle "
-"is headed.  Do not change the turtle's heading."
+"is headed. The turtle's heading does not change."
 msgstr ""
 
 msgid ""
@@ -785,9 +298,10 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Turn turtle right by *angle* units.  (Units are by default degrees, but can "
-"be set via the :func:`degrees` and :func:`radians` functions.)  Angle "
-"orientation depends on the turtle mode, see :func:`mode`."
+"Turn the turtle right by the specified *angle*. The angle is measured in "
+"degrees by default; the unit can be changed with :func:`degrees` or :func:"
+"`radians`. How the heading is measured depends on the turtle mode, see :func:"
+"`mode`."
 msgstr ""
 
 msgid ""
@@ -799,9 +313,10 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Turn turtle left by *angle* units.  (Units are by default degrees, but can "
-"be set via the :func:`degrees` and :func:`radians` functions.)  Angle "
-"orientation depends on the turtle mode, see :func:`mode`."
+"Turn the turtle left by the specified *angle*. The angle is measured in "
+"degrees by default; the unit can be changed with :func:`degrees` or :func:"
+"`radians`. How the heading is measured depends on the turtle mode, see :func:"
+"`mode`."
 msgstr ""
 
 msgid ""
@@ -819,26 +334,23 @@ msgid "a number or ``None``"
 msgstr ""
 
 msgid ""
-"If *y* is ``None``, *x* must be a pair of coordinates or a :class:`Vec2D` (e."
-"g. as returned by :func:`pos`)."
-msgstr ""
-
-msgid ""
-"Move turtle to an absolute position.  If the pen is down, draw line.  Do not "
-"change the turtle's orientation."
+"Move the turtle to an absolute position. If *y* is ``None``, *x* must be a "
+"pair of coordinates or a :class:`Vec2D`, for example as returned by :func:"
+"`pos`. If the pen is down, a line is drawn. The turtle's heading does not "
+"change."
 msgstr ""
 
 msgid ""
 ">>> tp = turtle.pos()\n"
 ">>> tp\n"
 "(0.00,0.00)\n"
-">>> turtle.setpos(60,30)\n"
+">>> turtle.goto(60,30)\n"
 ">>> turtle.pos()\n"
 "(60.00,30.00)\n"
-">>> turtle.setpos((20,80))\n"
+">>> turtle.goto((20,80))\n"
 ">>> turtle.pos()\n"
 "(20.00,80.00)\n"
-">>> turtle.setpos(tp)\n"
+">>> turtle.goto(tp)\n"
 ">>> turtle.pos()\n"
 "(0.00,0.00)"
 msgstr ""
@@ -870,8 +382,7 @@ msgid ""
 "(20.00,30.00)"
 msgstr ""
 
-msgid ""
-"Set the turtle's first coordinate to *x*, leave second coordinate unchanged."
+msgid "Set the turtle's x coordinate to *x*. The y coordinate is unchanged."
 msgstr ""
 
 msgid ""
@@ -882,8 +393,7 @@ msgid ""
 "(10.00,240.00)"
 msgstr ""
 
-msgid ""
-"Set the turtle's second coordinate to *y*, leave first coordinate unchanged."
+msgid "Set the turtle's y coordinate to *y*. The x coordinate is unchanged."
 msgstr ""
 
 msgid ""
@@ -895,8 +405,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Set the orientation of the turtle to *to_angle*.  Here are some common "
-"directions in degrees:"
+"Set the turtle's heading to *to_angle*. Here are some common directions in "
+"degrees:"
 msgstr ""
 
 msgid "standard mode"
@@ -936,8 +446,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Move turtle to the origin -- coordinates (0,0) -- and set its heading to its "
-"start-orientation (which depends on the mode, see :func:`mode`)."
+"Move the turtle to the origin, coordinates (0,0). The turtle's heading is "
+"set to its start orientation, which depends on the turtle mode, see :func:"
+"`mode`."
 msgstr ""
 
 msgid ""
@@ -952,26 +463,22 @@ msgid ""
 "0.0"
 msgstr ""
 
-msgid "a number (or ``None``)"
-msgstr ""
-
-msgid "an integer (or ``None``)"
+msgid "an integer or ``None``"
 msgstr ""
 
 msgid ""
-"Draw a circle with given *radius*.  The center is *radius* units left of the "
-"turtle; *extent* -- an angle -- determines which part of the circle is "
-"drawn.  If *extent* is not given, draw the entire circle.  If *extent* is "
-"not a full circle, one endpoint of the arc is the current pen position.  "
-"Draw the arc in counterclockwise direction if *radius* is positive, "
-"otherwise in clockwise direction.  Finally the direction of the turtle is "
-"changed by the amount of *extent*."
+"Draw a circle with the given *radius*. The center is *radius* units left of "
+"the turtle; *extent*, an angle, determines which part of the circle is "
+"drawn. If *extent* is not given, draw the entire circle. If *extent* is not "
+"a full circle, one endpoint of the arc is the current pen position. Draw the "
+"arc in counterclockwise direction if *radius* is positive, otherwise in "
+"clockwise direction. Finally, the turtle's heading is changed by *extent*."
 msgstr ""
 
 msgid ""
 "As the circle is approximated by an inscribed regular polygon, *steps* "
-"determines the number of steps to use.  If not given, it will be calculated "
-"automatically.  May be used to draw regular polygons."
+"determines the number of steps to use. If not given, it will be calculated "
+"automatically. May be used to draw regular polygons."
 msgstr ""
 
 msgid ""
@@ -1042,6 +549,9 @@ msgid ""
 ">>> turtle.clearstamp(astamp)\n"
 ">>> turtle.position()\n"
 "(200.00,-0.00)"
+msgstr ""
+
+msgid "an integer (or ``None``)"
 msgstr ""
 
 msgid ""
@@ -1121,8 +631,10 @@ msgid ""
 "9"
 msgstr ""
 
-msgid ""
-"Return the turtle's current location (x,y) (as a :class:`Vec2D` vector)."
+msgid "Tell Turtle's state"
+msgstr ""
+
+msgid "Return the turtle's current location (x,y) as a :class:`Vec2D` vector."
 msgstr ""
 
 msgid ""
@@ -1137,10 +649,11 @@ msgid "a number if *x* is a number, else ``None``"
 msgstr ""
 
 msgid ""
-"Return the angle between the line from turtle position to position specified "
-"by (x,y), the vector or the other turtle.  This depends on the turtle's "
-"start orientation which depends on the mode - \"standard\"/\"world\" or "
-"\"logo\"."
+"Return the angle of the line from the turtle's position to (x,y). If *y* is "
+"``None``, *x* must be a pair of coordinates, a :class:`Vec2D`, for example "
+"as returned by :func:`pos`, or another turtle. The angle is measured from "
+"the turtle's start orientation, which depends on the turtle mode, see :func:"
+"`mode`."
 msgstr ""
 
 msgid ""
@@ -1176,8 +689,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Return the turtle's current heading (value depends on the turtle mode, see :"
-"func:`mode`)."
+"Return the turtle's current heading. The value depends on the turtle mode, "
+"see :func:`mode`."
 msgstr ""
 
 msgid ""
@@ -1188,8 +701,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Return the distance from the turtle to (x,y), the given vector, or the given "
-"other turtle, in turtle step units."
+"Return the distance from the turtle to (x,y) in turtle step units. If *y* is "
+"``None``, *x* must be a pair of coordinates, a :class:`Vec2D`, for example "
+"as returned by :func:`pos`, or another turtle."
 msgstr ""
 
 msgid ""
@@ -1208,8 +722,8 @@ msgid "Settings for measurement"
 msgstr ""
 
 msgid ""
-"Set angle measurement units, i.e. set number of \"degrees\" for a full "
-"circle. Default value is 360 degrees."
+"Set the angle measurement units to degrees. The number of degrees in a full "
+"circle is set to *fullcircle*, which defaults to 360."
 msgstr ""
 
 msgid ""
@@ -1229,8 +743,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Set the angle measurement units to radians.  Equivalent to ``degrees(2*math."
-"pi)``."
+"Set the angle measurement units to radians.  Equivalent to ``degrees(2 * "
+"math.pi)``."
 msgstr ""
 
 msgid ""
@@ -1241,6 +755,9 @@ msgid ""
 ">>> turtle.radians()\n"
 ">>> turtle.heading()\n"
 "1.5707963267948966"
+msgstr ""
+
+msgid "Drawing state"
 msgstr ""
 
 msgid "Pull the pen down -- drawing when moving."
@@ -1339,6 +856,9 @@ msgid ""
 ">>> turtle.pendown()\n"
 ">>> turtle.isdown()\n"
 "True"
+msgstr ""
+
+msgid "Color control"
 msgstr ""
 
 msgid "Return or set the pencolor."
@@ -1512,6 +1032,9 @@ msgstr ""
 msgid "See also: Screen method :func:`colormode`."
 msgstr ""
 
+msgid "Filling"
+msgstr ""
+
 msgid "Return fillstate (``True`` if filling, ``False`` else)."
 msgstr ""
 
@@ -1555,6 +1078,9 @@ msgid ""
 "shapes are filled depends on the operating system graphics, type of overlap, "
 "and number of overlaps.  For example, the Turtle star above may be either "
 "all yellow or have some white regions."
+msgstr ""
+
+msgid "More drawing control"
 msgstr ""
 
 msgid ""
@@ -1606,6 +1132,12 @@ msgid ""
 ">>> turtle.write((0,0), True)"
 msgstr ""
 
+msgid "Turtle state"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
 msgid ""
 "Make the turtle invisible.  It's a good idea to do this while you're in the "
 "middle of doing some complex drawing, because hiding the turtle speeds up "
@@ -1631,6 +1163,9 @@ msgid ""
 ">>> turtle.showturtle()\n"
 ">>> turtle.isvisible()\n"
 "True"
+msgstr ""
+
+msgid "Appearance"
 msgstr ""
 
 msgid "a string which is a valid shapename"
@@ -1800,6 +1335,9 @@ msgid ""
 "((50, -20), (30, 20), (-50, 20), (-30, -20))"
 msgstr ""
 
+msgid "Using events"
+msgstr ""
+
 msgid ""
 "a function with two arguments which will be called with the coordinates of "
 "the clicked point on the canvas"
@@ -1861,6 +1399,9 @@ msgstr ""
 msgid ""
 "Subsequently, clicking and dragging the Turtle will move it across the "
 "screen thereby producing handdrawings (if pen is down)."
+msgstr ""
+
+msgid "Special Turtle methods"
 msgstr ""
 
 msgid ""
@@ -1935,9 +1476,6 @@ msgid ""
 ">>> ts.bgcolor(\"pink\")"
 msgstr ""
 
-msgid "an integer or ``None``"
-msgstr ""
-
 msgid ""
 "Set or disable undobuffer.  If *size* is an integer, an empty undobuffer of "
 "given size is installed.  *size* gives the maximum number of turtle actions "
@@ -1998,12 +1536,15 @@ msgid ""
 "Shape class *only* when using compound shapes like shown above!"
 msgstr ""
 
-msgid "Methods of TurtleScreen/Screen and corresponding functions"
+msgid "Screen methods and functions"
 msgstr ""
 
 msgid ""
 "Most of the examples in this section refer to a TurtleScreen instance called "
 "``screen``."
+msgstr ""
+
+msgid "Window control"
 msgstr ""
 
 msgid "Return or set the background color of the TurtleScreen."
@@ -2154,6 +1695,9 @@ msgid ""
 "...     left(45); fd(2)   # a regular octagon"
 msgstr ""
 
+msgid "Animation control"
+msgstr ""
+
 msgid ""
 "Temporarily disable turtle animation. The code written inside the "
 "``no_animation`` block will not be animated; once the code block is exited, "
@@ -2211,6 +1755,9 @@ msgid "Perform a TurtleScreen update. To be used when tracer is turned off."
 msgstr ""
 
 msgid "See also the RawTurtle/Turtle method :func:`speed`."
+msgstr ""
+
+msgid "Using screen events"
 msgstr ""
 
 msgid ""
@@ -2308,6 +1855,9 @@ msgstr ""
 msgid ">>> screen.mainloop()"
 msgstr ""
 
+msgid "Input methods"
+msgstr ""
+
 msgid "string"
 msgstr "string"
 
@@ -2334,6 +1884,9 @@ msgstr ""
 msgid ""
 ">>> screen.numinput(\"Poker\", \"Your stakes:\", 1000, minval=10, "
 "maxval=10000)"
+msgstr ""
+
+msgid "Settings and special methods"
 msgstr ""
 
 msgid "one of the strings \"standard\", \"logo\" or \"world\""
@@ -2496,7 +2049,7 @@ msgid ""
 "640"
 msgstr ""
 
-msgid "Methods specific to Screen, not inherited from TurtleScreen"
+msgid "Screen-only methods"
 msgstr ""
 
 msgid "Shut the turtlegraphics window."
@@ -2713,49 +2266,143 @@ msgid ""
 "turtle.TurtleGraphicsError: bad color string: blau"
 msgstr ""
 
-msgid "Explanation"
+msgid "How-to guides"
+msgstr ""
+
+msgid "This section covers some typical turtle use-cases and approaches."
+msgstr ""
+
+msgid "Automatically begin and end filling"
 msgstr ""
 
 msgid ""
-"A turtle object draws on a screen object, and there a number of key classes "
-"in the turtle object-oriented interface that can be used to create them and "
-"relate them to each other."
+"Starting with Python 3.14, you can use the :func:`fill` :term:`context "
+"manager` instead of :func:`begin_fill` and :func:`end_fill` to automatically "
+"begin and end fill. Here is an example::"
 msgstr ""
 
 msgid ""
-"A :class:`Turtle` instance will automatically create a :class:`Screen` "
-"instance if one is not already present."
+"with fill():\n"
+"    for i in range(4):\n"
+"        forward(100)\n"
+"        right(90)\n"
+"\n"
+"forward(200)"
+msgstr ""
+
+msgid "The code above is equivalent to::"
 msgstr ""
 
 msgid ""
-"``Turtle`` is a subclass of :class:`RawTurtle`, which *doesn't* "
-"automatically create a drawing surface - a *canvas* will need to be provided "
-"or created for it. The *canvas* can be a :class:`!tkinter.Canvas`, :class:"
-"`ScrolledCanvas` or :class:`TurtleScreen`."
+"begin_fill()\n"
+"for i in range(4):\n"
+"    forward(100)\n"
+"    right(90)\n"
+"end_fill()\n"
+"\n"
+"forward(200)"
+msgstr ""
+
+msgid "Use the ``turtle`` module namespace"
 msgstr ""
 
 msgid ""
-":class:`TurtleScreen` is the basic drawing surface for a turtle. :class:"
-"`Screen` is a subclass of ``TurtleScreen``, and includes :ref:`some "
-"additional methods <screenspecific>` for managing its appearance (including "
-"size and title) and behaviour. ``TurtleScreen``'s constructor needs a :class:"
-"`!tkinter.Canvas` or a :class:`ScrolledCanvas` as an argument."
+"Using ``from turtle import *`` is convenient - but be warned that it imports "
+"a rather large collection of objects, and if you're doing anything but "
+"turtle graphics you run the risk of a name conflict (this becomes even more "
+"an issue if you're using turtle graphics in a script where other modules "
+"might be imported)."
 msgstr ""
 
 msgid ""
-"The functional interface for turtle graphics uses the various methods of "
-"``Turtle`` and ``TurtleScreen``/``Screen``. Behind the scenes, a screen "
-"object is automatically created whenever a function derived from a "
-"``Screen`` method is called. Similarly, a turtle object is automatically "
-"created whenever any of the functions derived from a Turtle method is called."
+"The solution is to use ``import turtle`` - ``fd()`` becomes ``turtle.fd()``, "
+"``width()`` becomes ``turtle.width()`` and so on. (If typing \"turtle\" over "
+"and over again becomes tedious, use for example ``import turtle as t`` "
+"instead.)"
+msgstr ""
+
+msgid "Use turtle graphics in a script"
 msgstr ""
 
 msgid ""
-"To use multiple turtles on a screen, the object-oriented interface must be "
-"used."
+"It's recommended to use the ``turtle`` module namespace as described "
+"immediately above, for example::"
 msgstr ""
 
-msgid "Help and configuration"
+msgid ""
+"import turtle as t\n"
+"from random import random\n"
+"\n"
+"for i in range(100):\n"
+"    steps = int(random() * 100)\n"
+"    angle = int(random() * 360)\n"
+"    t.right(angle)\n"
+"    t.fd(steps)"
+msgstr ""
+
+msgid ""
+"Another step is also required though - as soon as the script ends, Python "
+"will also close the turtle's window. Add::"
+msgstr ""
+
+msgid "t.mainloop()"
+msgstr ""
+
+msgid ""
+"to the end of the script. The script will now wait to be dismissed and will "
+"not exit until it is terminated, for example by closing the turtle graphics "
+"window."
+msgstr ""
+
+msgid "Use object-oriented turtle graphics"
+msgstr ""
+
+msgid ""
+":ref:`Explanation of the object-oriented interface <turtle-explanation>`"
+msgstr ""
+
+msgid ""
+"Other than for very basic introductory purposes, or for trying things out as "
+"quickly as possible, it's more usual and much more powerful to use the "
+"object-oriented approach to turtle graphics. For example, this allows "
+"multiple turtles on screen at once."
+msgstr ""
+
+msgid ""
+"In this approach, the various turtle commands are methods of objects (mostly "
+"of ``Turtle`` objects). You *can* use the object-oriented approach in the "
+"shell, but it would be more typical in a Python script."
+msgstr ""
+
+msgid "The example above then becomes::"
+msgstr ""
+
+msgid ""
+"from turtle import Turtle\n"
+"from random import random\n"
+"\n"
+"t = Turtle()\n"
+"for i in range(100):\n"
+"    steps = int(random() * 100)\n"
+"    angle = int(random() * 360)\n"
+"    t.right(angle)\n"
+"    t.fd(steps)\n"
+"\n"
+"t.screen.mainloop()"
+msgstr ""
+
+msgid ""
+"Note the last line. ``t.screen`` is an instance of the :class:`Screen` that "
+"a Turtle instance exists on; it's created automatically along with the "
+"turtle."
+msgstr ""
+
+msgid "The turtle's screen can be customised, for example::"
+msgstr ""
+
+msgid ""
+"t.screen.title('Object-oriented turtle demo')\n"
+"t.screen.bgcolor(\"orange\")"
 msgstr ""
 
 msgid "How to use help"
@@ -2989,6 +2636,48 @@ msgid ""
 "(preferably not from within the demo-viewer)."
 msgstr ""
 
+msgid "Explanation"
+msgstr ""
+
+msgid ""
+"A turtle object draws on a screen object, and there a number of key classes "
+"in the turtle object-oriented interface that can be used to create them and "
+"relate them to each other."
+msgstr ""
+
+msgid ""
+"A :class:`Turtle` instance will automatically create a :class:`Screen` "
+"instance if one is not already present."
+msgstr ""
+
+msgid ""
+"``Turtle`` is a subclass of :class:`RawTurtle`, which *doesn't* "
+"automatically create a drawing surface - a *canvas* will need to be provided "
+"or created for it. The *canvas* can be a :class:`!tkinter.Canvas`, :class:"
+"`ScrolledCanvas` or :class:`TurtleScreen`."
+msgstr ""
+
+msgid ""
+":class:`TurtleScreen` is the basic drawing surface for a turtle. :class:"
+"`Screen` is a subclass of ``TurtleScreen``, and includes :ref:`some "
+"additional methods <screenspecific>` for managing its appearance (including "
+"size and title) and behaviour. ``TurtleScreen``'s constructor needs a :class:"
+"`!tkinter.Canvas` or a :class:`ScrolledCanvas` as an argument."
+msgstr ""
+
+msgid ""
+"The functional interface for turtle graphics uses the various methods of "
+"``Turtle`` and ``TurtleScreen``/``Screen``. Behind the scenes, a screen "
+"object is automatically created whenever a function derived from a "
+"``Screen`` method is called. Similarly, a turtle object is automatically "
+"created whenever any of the functions derived from a Turtle method is called."
+msgstr ""
+
+msgid ""
+"To use multiple turtles on a screen, the object-oriented interface must be "
+"used."
+msgstr ""
+
 msgid ":mod:`!turtledemo` --- Demo scripts"
 msgstr ""
 
@@ -3073,6 +2762,9 @@ msgstr ""
 msgid "experiment with r, g, b"
 msgstr ""
 
+msgid ":func:`ondrag`"
+msgstr ":func:`ondrag`"
+
 msgid "``forest``"
 msgstr ""
 
@@ -3125,6 +2817,9 @@ msgstr ""
 msgid "super minimalistic drawing program"
 msgstr ""
 
+msgid ":func:`onclick`"
+msgstr ":func:`onclick`"
+
 msgid "``peace``"
 msgstr ""
 
@@ -3139,6 +2834,9 @@ msgstr ""
 
 msgid "aperiodic tiling with kites and darts"
 msgstr ""
+
+msgid ":func:`stamp`"
+msgstr ":func:`stamp`"
 
 msgid "``planet_and_moon``"
 msgstr ""
@@ -3184,6 +2882,9 @@ msgstr ""
 msgid "a (graphical) breadth first tree (using generators)"
 msgstr ""
 
+msgid ":func:`clone`"
+msgstr ":func:`clone`"
+
 msgid "``two_canvases``"
 msgstr ""
 
@@ -3198,6 +2899,9 @@ msgstr ""
 
 msgid "another elementary example"
 msgstr ""
+
+msgid ":func:`circle`"
+msgstr ":func:`circle`"
 
 msgid "Have fun!"
 msgstr ""
