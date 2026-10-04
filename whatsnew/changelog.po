@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# python-doc bot, 2025
 # Hengky Kurniawan, 2026
-# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 19:07+0000\n"
+"POT-Creation-Date: 2026-10-03 17:41+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2026\n"
+"Last-Translator: Hengky Kurniawan, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,11 @@ msgstr ""
 msgid "Changelog"
 msgstr "Catatan Perubahan"
 
-msgid "Python next"
-msgstr "Python next"
+msgid "Python 3.15.0 release candidate 3"
+msgstr ""
 
-msgid "*Release date: XXXX-XX-XX*"
-msgstr "*Tanggal rilis: XXXX-XX-XX*"
+msgid "*Release date: 2026-10-02*"
+msgstr ""
 
 msgid "Security"
 msgstr "Keamanan"
@@ -78,6 +78,15 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`157579`: Fix a race condition in the cleanup of :class:`tempfile."
+"TemporaryDirectory`. When working around file system permission errors, "
+"files are now removed relative to open directory file descriptors instead of "
+"resolving their path again, so that replacing a directory of the tree with a "
+"symbolic link can no longer make the cleanup delete files outside of the "
+"temporary directory. This addresses :cve:`2026-12345`."
+msgstr ""
+
+msgid ""
 ":gh:`156293`: Fix a crash in :mod:`ssl` when an :attr:`~ssl.SSLContext."
 "sni_callback` switches a connection to another :class:`~ssl.SSLContext` and "
 "the context that carries the callback is no longer referenced by the "
@@ -88,6 +97,12 @@ msgstr ""
 
 msgid "Core and Builtins"
 msgstr "Inti dan Bawaan"
+
+msgid ""
+":gh:`158140`: Resolve lazily imported sibling submodules independently, so "
+"accessing one does not import another merely because its declaration came "
+"last."
+msgstr ""
 
 msgid ""
 ":gh:`158364`: Fix crash when :func:`sys._current_frames` or :func:`sys."
@@ -122,6 +137,13 @@ msgid ""
 ":gh:`157757`: Fix a lazy ``import a.b as c`` reading ``b`` off ``a`` instead "
 "of importing the module ``a.b``.  It now binds the submodule, and raises :"
 "exc:`ModuleNotFoundError` when no module backs the name."
+msgstr ""
+
+msgid ""
+":gh:`155695`: Resolved names are now removed from :data:`sys.lazy_modules` "
+"more consistently: a lazy import of an already loaded module is no longer "
+"recorded, and reifying ``lazy from pkg import attr`` now discards the ``pkg."
+"attr`` entry."
 msgstr ""
 
 msgid ""
