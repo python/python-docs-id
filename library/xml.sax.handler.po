@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 17:41+0000\n"
+"POT-Creation-Date: 2026-10-11 18:31+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
@@ -97,12 +97,17 @@ msgid ""
 "optionally do not report original prefixed names (default)."
 msgstr ""
 
+msgid ""
+"The parser based on :mod:`xml.parsers.expat` does not support this feature."
+msgstr ""
+
 msgid "value: ``\"http://xml.org/sax/features/string-interning\"``"
 msgstr ""
 
 msgid ""
 "true: All element names, prefixes, attribute names, Namespace URIs, and "
-"local names are interned using the built-in intern function."
+"local names are interned in a dictionary (see :data:"
+"`property_interning_dict`)."
 msgstr ""
 
 msgid ""
@@ -118,6 +123,11 @@ msgid ""
 msgstr ""
 
 msgid "false: Do not report validation errors."
+msgstr ""
+
+msgid ""
+"The parser based on :mod:`xml.parsers.expat` does not support this feature, "
+"because Expat is a non-validating parser."
 msgstr ""
 
 msgid ""
@@ -155,7 +165,7 @@ msgstr ""
 msgid "value: ``\"http://xml.org/sax/properties/lexical-handler\"``"
 msgstr ""
 
-msgid "data type: xml.sax.handler.LexicalHandler (not supported in Python 2)"
+msgid "data type: :class:`~xml.sax.handler.LexicalHandler`"
 msgstr ""
 
 msgid ""
@@ -168,7 +178,7 @@ msgstr ""
 msgid "value: ``\"http://xml.org/sax/properties/declaration-handler\"``"
 msgstr ""
 
-msgid "data type: xml.sax.sax2lib.DeclHandler (not supported in Python 2)"
+msgid "data type: an object implementing the SAX2 ``DeclHandler`` interface"
 msgstr ""
 
 msgid ""
@@ -176,15 +186,23 @@ msgid ""
 "notations and unparsed entities."
 msgstr ""
 
+msgid ""
+"No parser in the standard library supports this property, and the standard "
+"library provides no such handler."
+msgstr ""
+
 msgid "value: ``\"http://xml.org/sax/properties/dom-node\"``"
 msgstr ""
 
-msgid "data type: org.w3c.dom.Node (not supported in Python 2)"
+msgid "data type: :class:`xml.dom.Node`"
 msgstr ""
 
 msgid ""
 "description: When parsing, the current DOM node being visited if this is a "
 "DOM iterator; when not parsing, the root DOM node for iteration."
+msgstr ""
+
+msgid "No parser in the standard library supports this property."
 msgstr ""
 
 msgid "value: ``\"http://xml.org/sax/properties/xml-string\"``"
@@ -198,7 +216,28 @@ msgid ""
 "current event."
 msgstr ""
 
-msgid "access: read-only"
+msgid "access: read-only, and only during a handler callback"
+msgstr ""
+
+msgid "value: ``\"http://www.python.org/sax/properties/encoding\"``"
+msgstr ""
+
+msgid "data type: String"
+msgstr ""
+
+msgid "description: The name of the encoding to assume for input data."
+msgstr ""
+
+msgid "value: ``\"http://www.python.org/sax/properties/interning-dict\"``"
+msgstr ""
+
+msgid "data type: Dictionary"
+msgstr ""
+
+msgid ""
+"description: The dictionary used to intern names, or ``None`` if names are "
+"not interned. Setting it enables interning, as does the :data:"
+"`feature_string_interning` feature."
 msgstr ""
 
 msgid "List of all known property names."
