@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-13 19:59+0000\n"
+"POT-Creation-Date: 2026-10-17 16:44+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -39,6 +39,13 @@ msgstr ""
 
 msgid ""
 "UTF-8 representation is created on demand and cached in the Unicode object."
+msgstr ""
+
+msgid ""
+"The internal buffer always includes an extra trailing null character for "
+"compatibility with null terminated C strings. This extra character is not "
+"counted in :c:func:`PyUnicode_GetLength` nor in the various *size* arguments "
+"of the functions below."
 msgstr ""
 
 msgid ""
@@ -152,7 +159,12 @@ msgstr ""
 
 msgid ""
 "Read a code point from a canonical representation *data* (as obtained with :"
-"c:func:`PyUnicode_DATA`).  No checks or ready calls are performed."
+"c:func:`PyUnicode_DATA`).  No checks are performed."
+msgstr ""
+
+msgid ""
+"Accept reading the trailing null character at index :c:func:"
+"`PyUnicode_GetLength`."
 msgstr ""
 
 msgid ""
@@ -371,6 +383,12 @@ msgid ""
 "canonical representation.  For example, if the *buffer* is a UCS4 string (:c:"
 "macro:`PyUnicode_4BYTE_KIND`) and it consists only of codepoints in the UCS1 "
 "range, it will be transformed into UCS1 (:c:macro:`PyUnicode_1BYTE_KIND`)."
+msgstr ""
+
+msgid ""
+"All characters must be in range [U+0000; U+10ffff]. If *kind* is :c:macro:"
+"`PyUnicode_4BYTE_KIND` and the string contains invalid characters, the "
+"behavior is undefined."
 msgstr ""
 
 msgid ""
@@ -793,6 +811,9 @@ msgstr ""
 msgid "On error, set an exception and return ``-1``."
 msgstr ""
 
+msgid "The length does not count the trailing null character."
+msgstr ""
+
 msgid ""
 "Copy characters from one Unicode object into another.  This function "
 "performs character conversion when necessary and falls back to :c:func:`!"
@@ -859,6 +880,11 @@ msgid ""
 msgstr ""
 
 msgid "Return character on success, ``-1`` on error with an exception set."
+msgstr ""
+
+msgid ""
+"Do not accept reading the trailing null character at index :c:func:"
+"`PyUnicode_GetLength`."
 msgstr ""
 
 msgid ""
@@ -1800,6 +1826,11 @@ msgid ""
 "success, or :c:func:`PyUnicodeWriter_Discard` on error."
 msgstr ""
 
+msgid ""
+"The API is **not thread safe**. To share a writer with multiple threads, a "
+"critical section or a lock is needed."
+msgstr ""
+
 msgid "Create a Unicode writer instance."
 msgstr ""
 
@@ -1864,10 +1895,15 @@ msgid ""
 "``wcslen(str)`` to get the string length."
 msgstr ""
 
-msgid "Writer the UCS4 string *str* into *writer*."
+msgid "Write the UCS4 string *str* into *writer*."
 msgstr ""
 
 msgid "*size* is a number of UCS4 characters."
+msgstr ""
+
+msgid ""
+"All characters must be in range [U+0000; U+10ffff]. If the string contains "
+"invalid characters, the behavior is undefined."
 msgstr ""
 
 msgid ""
