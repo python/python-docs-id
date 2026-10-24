@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-21 18:18+0000\n"
+"POT-Creation-Date: 2026-10-23 18:01+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -218,28 +218,13 @@ msgid ""
 msgstr ""
 
 msgid ""
-"A :class:`.datetime` object ``d`` is aware if both of the following hold:"
+"A :class:`.datetime` object ``d`` is aware if :meth:`d.utcoffset() <datetime."
+"utcoffset>` does not return ``None``. Otherwise, ``d`` is naive."
 msgstr ""
 
-msgid "``d.tzinfo`` is not ``None``"
-msgstr ""
-
-msgid "``d.tzinfo.utcoffset(d)`` does not return ``None``"
-msgstr ""
-
-msgid "Otherwise, ``d`` is naive."
-msgstr ""
-
-msgid "A :class:`.time` object ``t`` is aware if both of the following hold:"
-msgstr ""
-
-msgid "``t.tzinfo`` is not ``None``"
-msgstr ""
-
-msgid "``t.tzinfo.utcoffset(None)`` does not return ``None``."
-msgstr ""
-
-msgid "Otherwise, ``t`` is naive."
+msgid ""
+"A :class:`.time` object ``t`` is aware if :meth:`t.utcoffset() <time."
+"utcoffset>` does not return ``None``. Otherwise, ``t`` is naive."
 msgstr ""
 
 msgid ""

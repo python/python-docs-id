@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-21 18:18+0000\n"
+"POT-Creation-Date: 2026-10-23 18:01+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -611,6 +611,17 @@ msgid ""
 "checking."
 msgstr ""
 
+msgid ""
+"Return a :term:`borrowed reference` to the defining class of *func* if its :"
+"c:member:`~PyMethodDef.ml_flags` includes :c:macro:`METH_METHOD`. Otherwise, "
+"return ``NULL`` without setting an exception."
+msgstr ""
+
+msgid ""
+"*func* must be a C function object and must not be ``NULL``. This function "
+"does not perform error or type checking."
+msgstr ""
+
 msgid "Accessing attributes of extension types"
 msgstr ""
 
@@ -767,6 +778,14 @@ msgid ""
 msgstr ""
 
 msgid "Use :c:macro:`Py_AUDIT_READ` instead."
+msgstr ""
+
+msgid ""
+"A member flag that has no effect, retained solely for backwards "
+"compatibility. This is only available with ``#include \"structmember.h\"``."
+msgstr ""
+
+msgid "Omit this flag instead."
 msgstr ""
 
 msgid "Member types"
