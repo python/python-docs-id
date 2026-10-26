@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:56+0000\n"
+"POT-Creation-Date: 2026-10-25 17:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -670,6 +670,11 @@ msgid ""
 "`PYTHON_CONTEXT_AWARE_WARNINGS`"
 msgstr ""
 
+msgid ""
+":option:`-X lazy_imports <-X>` and :envvar:`PYTHON_LAZY_IMPORTS` (``1`` for "
+"``all``, ``-1`` otherwise; not changed by :func:`set_lazy_imports`)"
+msgstr ""
+
 msgid "Added ``quiet`` attribute for the new :option:`-q` flag."
 msgstr ""
 
@@ -706,6 +711,9 @@ msgid "Added the ``thread_inherit_context`` attribute."
 msgstr ""
 
 msgid "Added the ``context_aware_warnings`` attribute."
+msgstr ""
+
+msgid "Added the ``lazy_imports`` attribute."
 msgstr ""
 
 msgid ""
