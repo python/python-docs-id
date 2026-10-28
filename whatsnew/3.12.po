@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-21 18:18+0000\n"
+"POT-Creation-Date: 2026-10-27 19:03+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -3627,38 +3627,32 @@ msgid ""
 "reference counts, and related changes to the C-API:"
 msgstr ""
 
-msgid "``_Py_IMMORTAL_REFCNT``: The reference count that defines an object"
-msgstr ""
-
-msgid "as immortal."
+msgid ""
+"``_Py_IMMORTAL_REFCNT``: The reference count that defines an object as "
+"immortal."
 msgstr ""
 
 msgid ""
 "``_Py_IsImmortal`` Checks if an object has the immortal reference count."
 msgstr ""
 
-msgid "``PyObject_HEAD_INIT`` This will now initialize reference count to"
-msgstr ""
-
-msgid "``_Py_IMMORTAL_REFCNT`` when used with ``Py_BUILD_CORE``."
-msgstr ""
-
-msgid "``SSTATE_INTERNED_IMMORTAL`` An identifier for interned unicode objects"
-msgstr ""
-
-msgid "that are immortal."
-msgstr ""
-
-msgid "``SSTATE_INTERNED_IMMORTAL_STATIC`` An identifier for interned unicode"
-msgstr ""
-
-msgid "objects that are immortal and static"
-msgstr ""
-
-msgid "``sys.getunicodeinternedsize`` This returns the total number of unicode"
+msgid ""
+"``PyObject_HEAD_INIT`` This will now initialize reference count to "
+"``_Py_IMMORTAL_REFCNT`` when used with ``Py_BUILD_CORE``."
 msgstr ""
 
 msgid ""
+"``SSTATE_INTERNED_IMMORTAL`` An identifier for interned unicode objects that "
+"are immortal."
+msgstr ""
+
+msgid ""
+"``SSTATE_INTERNED_IMMORTAL_STATIC`` An identifier for interned unicode "
+"objects that are immortal and static"
+msgstr ""
+
+msgid ""
+"``sys.getunicodeinternedsize`` This returns the total number of unicode "
 "objects that have been interned. This is now needed for :file:`refleak.py` "
 "to correctly track reference counts and allocated blocks"
 msgstr ""

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# python-doc bot, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 18:01+0000\n"
+"POT-Creation-Date: 2026-10-27 19:03+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: python-doc bot, 2026\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -202,8 +202,8 @@ msgstr ""
 msgid "The following sections describe how each of these are used."
 msgstr ""
 
-msgid "prog"
-msgstr "prog"
+msgid "``prog``"
+msgstr ""
 
 msgid ""
 "By default, :class:`ArgumentParser` calculates the name of the program to "
@@ -263,8 +263,8 @@ msgid ""
 "executed, rather than always being ``os.path.basename(sys.argv[0])``."
 msgstr ""
 
-msgid "usage"
-msgstr "penggunaan"
+msgid "``usage``"
+msgstr ""
 
 msgid ""
 "By default, :class:`ArgumentParser` calculates the usage message from the "
@@ -301,8 +301,8 @@ msgid ""
 "usage information across subparsers."
 msgstr ""
 
-msgid "description"
-msgstr "deskripsi"
+msgid "``description``"
+msgstr "``description``"
 
 msgid ""
 "Most calls to the :class:`ArgumentParser` constructor will use the "
@@ -317,8 +317,8 @@ msgid ""
 "given space.  To change this behavior, see the formatter_class_ argument."
 msgstr ""
 
-msgid "epilog"
-msgstr "epilog"
+msgid "``epilog``"
+msgstr ""
 
 msgid ""
 "Some programs like to display additional description of the program after "
@@ -347,7 +347,7 @@ msgid ""
 "argument to :class:`ArgumentParser`."
 msgstr ""
 
-msgid "parents"
+msgid "``parents``"
 msgstr ""
 
 msgid ""
@@ -387,8 +387,8 @@ msgid ""
 "not be reflected in the child."
 msgstr ""
 
-msgid "formatter_class"
-msgstr "formatter_class"
+msgid "``formatter_class``"
+msgstr ""
 
 msgid ""
 ":class:`ArgumentParser` objects allow the help formatting to be customized "
@@ -511,8 +511,8 @@ msgid ""
 "  --foo int"
 msgstr ""
 
-msgid "prefix_chars"
-msgstr "prefix_chars"
+msgid "``prefix_chars``"
+msgstr ""
 
 msgid ""
 "Most command-line options will use ``-`` as the prefix, e.g. ``-f/--foo``. "
@@ -535,8 +535,8 @@ msgid ""
 "disallowed."
 msgstr ""
 
-msgid "fromfile_prefix_chars"
-msgstr "fromfile_prefix_chars"
+msgid "``fromfile_prefix_chars``"
+msgstr ""
 
 msgid ""
 "Sometimes, when dealing with a particularly long argument list, it may make "
@@ -589,8 +589,8 @@ msgid ""
 "ANSI Codepage on Windows."
 msgstr ""
 
-msgid "argument_default"
-msgstr "argument_default"
+msgid "``argument_default``"
+msgstr ""
 
 msgid ""
 "Generally, argument defaults are specified either by passing a default to :"
@@ -613,8 +613,8 @@ msgid ""
 "Namespace()"
 msgstr ""
 
-msgid "allow_abbrev"
-msgstr "allow_abbrev"
+msgid "``allow_abbrev``"
+msgstr ""
 
 msgid ""
 "Normally, when you pass an argument list to the :meth:`~ArgumentParser."
@@ -634,8 +634,8 @@ msgid ""
 "PROG: error: unrecognized arguments: --foon"
 msgstr ""
 
-msgid "conflict_handler"
-msgstr "conflict_handler"
+msgid "``conflict_handler``"
+msgstr ""
 
 msgid ""
 ":class:`ArgumentParser` objects do not allow two actions with the same "
@@ -681,8 +681,8 @@ msgid ""
 "option string was overridden."
 msgstr ""
 
-msgid "add_help"
-msgstr "add_help"
+msgid "``add_help``"
+msgstr ""
 
 msgid ""
 "By default, :class:`ArgumentParser` objects add an option which simply "
@@ -722,8 +722,8 @@ msgid ""
 "  +h, ++help  show this help message and exit"
 msgstr ""
 
-msgid "exit_on_error"
-msgstr "exit_on_error"
+msgid "``exit_on_error``"
+msgstr ""
 
 msgid ""
 "Normally, when you pass an invalid argument list to the :meth:"
@@ -750,7 +750,7 @@ msgid ""
 "Catching an argumentError"
 msgstr ""
 
-msgid "suggest_on_error"
+msgid "``suggest_on_error``"
 msgstr ""
 
 msgid ""
@@ -779,7 +779,7 @@ msgid ""
 "Changed default value of ``suggest_on_error`` from ``False`` to ``True``."
 msgstr ""
 
-msgid "color"
+msgid "``color``"
 msgstr ""
 
 msgid ""
@@ -887,7 +887,7 @@ msgstr ""
 msgid "The method returns an :class:`Action` object representing the argument."
 msgstr ""
 
-msgid "name or flags"
+msgid "``name`` or ``flags``"
 msgstr ""
 
 msgid ""
@@ -951,8 +951,8 @@ msgid ""
 " --foo-bar FOO-BAR"
 msgstr ""
 
-msgid "action"
-msgstr "aksi"
+msgid "``action``"
+msgstr ""
 
 msgid ""
 ":class:`ArgumentParser` objects associate command-line arguments with "
@@ -1133,8 +1133,8 @@ msgstr ""
 msgid "For more details, see :class:`Action`."
 msgstr "Untuk detail lebih lanjut, lihat :class:`Action`."
 
-msgid "nargs"
-msgstr "nargs"
+msgid "``nargs``"
+msgstr ""
 
 msgid ""
 ":class:`ArgumentParser` objects usually associate a single command-line "
@@ -1240,8 +1240,8 @@ msgid ""
 "``'store_const'``) set ``nargs=0``."
 msgstr ""
 
-msgid "const"
-msgstr "const"
+msgid "``const``"
+msgstr ""
 
 msgid ""
 "The ``const`` argument of :meth:`~ArgumentParser.add_argument` is used to "
@@ -1273,8 +1273,8 @@ msgid ""
 "``action='store_const'``."
 msgstr ""
 
-msgid "default"
-msgstr "bawaan"
+msgid "``default``"
+msgstr ""
 
 msgid ""
 "All optional arguments and some positional arguments may be omitted at the "
@@ -1366,8 +1366,8 @@ msgid ""
 "Namespace(foo='1')"
 msgstr ""
 
-msgid "type"
-msgstr "tipe"
+msgid "``type``"
+msgstr ""
 
 msgid ""
 "By default, the parser reads command-line arguments in as simple strings. "
@@ -1464,8 +1464,8 @@ msgid ""
 "using the choices_ keyword instead."
 msgstr ""
 
-msgid "choices"
-msgstr "pilihan"
+msgid "``choices``"
+msgstr ""
 
 msgid ""
 "Some command-line arguments should be selected from a restricted set of "
@@ -1515,7 +1515,7 @@ msgid ""
 "are many choices), just specify an explicit metavar_."
 msgstr ""
 
-msgid "required"
+msgid "``required``"
 msgstr ""
 
 msgid ""
@@ -1546,7 +1546,7 @@ msgid ""
 "*options* to be *optional*, and thus they should be avoided when possible."
 msgstr ""
 
-msgid "help"
+msgid "``help``"
 msgstr ""
 
 msgid ""
@@ -1598,7 +1598,7 @@ msgid ""
 "  -h, --help  show this help message and exit"
 msgstr ""
 
-msgid "metavar"
+msgid "``metavar``"
 msgstr ""
 
 msgid ""
@@ -1674,7 +1674,7 @@ msgid ""
 " --foo bar baz"
 msgstr ""
 
-msgid "dest"
+msgid "``dest``"
 msgstr ""
 
 msgid ""
@@ -1738,7 +1738,7 @@ msgstr ""
 msgid "Single-dash long option now takes precedence over short options."
 msgstr ""
 
-msgid "deprecated"
+msgid "``deprecated``"
 msgstr ""
 
 msgid ""
