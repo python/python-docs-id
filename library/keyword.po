@@ -29,8 +29,8 @@ msgid "**Source code:** :source:`Lib/keyword.py`"
 msgstr "**Kode sumber:** :source:`Lib/keyword.py`"
 
 msgid ""
-"This module allows a Python program to determine if a string is a :ref:"
-"`keyword <keywords>` or :ref:`soft keyword <soft-keywords>`."
+"This module allows a Python program to determine if a string is "
+"a :ref:`keyword <keywords>` or :ref:`soft keyword <soft-keywords>`."
 msgstr ""
 
 msgid "Return ``True`` if *s* is a Python :ref:`keyword <keywords>`."
@@ -38,8 +38,9 @@ msgstr "Kembalikan ``True`` jika *s* adalah :ref:`keyword <keywords>` Python."
 
 msgid ""
 "Sequence containing all the :ref:`keywords <keywords>` defined for the "
-"interpreter.  If any keywords are defined to only be active when particular :"
-"mod:`__future__` statements are in effect, these will be included as well."
+"interpreter.  If any keywords are defined to only be active when "
+"particular :mod:`__future__` statements are in effect, these will be "
+"included as well."
 msgstr ""
 
 msgid "Return ``True`` if *s* is a Python :ref:`soft keyword <soft-keywords>`."

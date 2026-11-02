@@ -25,8 +25,8 @@ msgid "The following modules have specific security considerations:"
 msgstr ""
 
 msgid ""
-":mod:`base64`: :ref:`base64 security considerations <base64-security>` in :"
-"rfc:`4648`"
+":mod:`base64`: :ref:`base64 security considerations <base64-security>` "
+"in :rfc:`4648`"
 msgstr ""
 
 msgid ""
@@ -87,9 +87,9 @@ msgstr ""
 
 msgid ""
 "The :option:`-I` command line option can be used to run Python in isolated "
-"mode. When it cannot be used, the :option:`-P` option or the :envvar:"
-"`PYTHONSAFEPATH` environment variable can be used to not prepend a "
-"potentially unsafe path to :data:`sys.path` such as the current directory, "
+"mode. When it cannot be used, the :option:`-P` option or "
+"the :envvar:`PYTHONSAFEPATH` environment variable can be used to not prepend "
+"a potentially unsafe path to :data:`sys.path` such as the current directory, "
 "the script's directory or an empty string."
 msgstr ""
 

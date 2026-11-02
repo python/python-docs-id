@@ -64,8 +64,9 @@ msgstr ""
 
 msgid ""
 "The returned pointer is valid as long as *picklebuf* is alive and has not "
-"been released. The caller must not modify or free the returned :c:type:"
-"`Py_buffer`. If the pickle buffer has been released, raise :exc:`ValueError`."
+"been released. The caller must not modify or free the "
+"returned :c:type:`Py_buffer`. If the pickle buffer has been released, "
+"raise :exc:`ValueError`."
 msgstr ""
 
 msgid ""

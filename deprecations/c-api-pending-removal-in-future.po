@@ -50,8 +50,8 @@ msgid ":c:func:`PyOS_AfterFork`: Use :c:func:`PyOS_AfterFork_Child` instead."
 msgstr ""
 
 msgid ""
-":c:func:`PySlice_GetIndicesEx`: Use :c:func:`PySlice_Unpack` and :c:func:"
-"`PySlice_AdjustIndices` instead."
+":c:func:`PySlice_GetIndicesEx`: Use :c:func:`PySlice_Unpack` "
+"and :c:func:`PySlice_AdjustIndices` instead."
 msgstr ""
 
 msgid ":c:func:`PyUnicode_READY`: Unneeded since Python 3.12"

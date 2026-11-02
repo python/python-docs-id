@@ -270,8 +270,8 @@ msgstr ""
 
 msgid ""
 "A Python complex number ``z`` is stored internally using *rectangular* or "
-"*Cartesian* coordinates.  It is completely determined by its *real part* ``z."
-"real`` and its *imaginary part* ``z.imag``."
+"*Cartesian* coordinates.  It is completely determined by its *real part* "
+"``z.real`` and its *imaginary part* ``z.imag``."
 msgstr ""
 
 msgid ""
@@ -335,8 +335,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Return the base-10 logarithm of *z*. This has the same branch cut as :func:"
-"`log`."
+"Return the base-10 logarithm of *z*. This has the same branch cut "
+"as :func:`log`."
 msgstr ""
 
 msgid ""

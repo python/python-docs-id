@@ -39,8 +39,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-":mod:`http.server` contains basic HTTP server classes based on :mod:"
-"`socketserver`"
+":mod:`http.server` contains basic HTTP server classes based "
+"on :mod:`socketserver`"
 msgstr ""
 
 msgid ""
@@ -85,8 +85,8 @@ msgstr "Kode-kode status HTTP"
 
 msgid ""
 "Supported, `IANA-registered status codes <https://www.iana.org/assignments/"
-"http-status-codes/http-status-codes.xhtml>`_ available in :class:`http."
-"HTTPStatus` are:"
+"http-status-codes/http-status-codes.xhtml>`_ available "
+"in :class:`http.HTTPStatus` are:"
 msgstr ""
 
 msgid "Code"

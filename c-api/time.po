@@ -43,8 +43,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The reference point for timestamps depends on the clock used. For example, :"
-"c:func:`PyTime_Time` returns timestamps relative to the UNIX epoch."
+"The reference point for timestamps depends on the clock used. For "
+"example, :c:func:`PyTime_Time` returns timestamps relative to the UNIX epoch."
 msgstr ""
 
 msgid ""

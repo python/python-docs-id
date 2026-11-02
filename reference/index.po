@@ -31,9 +31,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Elsewhere, the built-in object types and functions are described in :ref:"
-"`builtins-index`. Standard library modules are described in :ref:`library-"
-"index`."
+"Elsewhere, the built-in object types and functions are described "
+"in :ref:`builtins-index`. Standard library modules are described "
+"in :ref:`library-index`."
 msgstr ""
 
 msgid ""

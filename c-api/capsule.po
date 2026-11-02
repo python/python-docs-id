@@ -104,8 +104,8 @@ msgstr ""
 
 msgid ""
 "It is legal for a capsule to have a ``NULL`` destructor.  This makes a "
-"``NULL`` return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :"
-"c:func:`PyErr_Occurred` to disambiguate."
+"``NULL`` return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` "
+"or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 msgid ""
@@ -115,8 +115,8 @@ msgstr ""
 
 msgid ""
 "It is legal for a capsule to have a ``NULL`` context.  This makes a ``NULL`` "
-"return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:"
-"`PyErr_Occurred` to disambiguate."
+"return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` "
+"or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 msgid ""
@@ -126,8 +126,8 @@ msgstr ""
 
 msgid ""
 "It is legal for a capsule to have a ``NULL`` name.  This makes a ``NULL`` "
-"return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:"
-"`PyErr_Occurred` to disambiguate."
+"return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` "
+"or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 msgid ""

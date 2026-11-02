@@ -53,8 +53,8 @@ msgid "Added the POSIX permission check."
 msgstr ""
 
 msgid ""
-":func:`os.path.expanduser` is used to find the location of the :file:`."
-"netrc` file when *file* is not passed as argument."
+":func:`os.path.expanduser` is used to find the location of "
+"the :file:`.netrc` file when *file* is not passed as argument."
 msgstr ""
 
 msgid ""
