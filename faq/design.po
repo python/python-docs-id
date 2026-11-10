@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 17:19+0000\n"
+"POT-Creation-Date: 2026-11-09 23:13+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
@@ -24,9 +24,6 @@ msgstr ""
 
 msgid "Design and History FAQ"
 msgstr "Desain dan Sejarah FAQ"
-
-msgid "Contents"
-msgstr "Konten"
 
 msgid "Why does Python use indentation for grouping of statements?"
 msgstr "Mengapa Python menggunakan indentasi untuk pengelompokan pernyataan?"
