@@ -2877,7 +2877,7 @@ msgid "? (question mark)"
 msgstr ""
 
 msgid "in AST grammar"
-msgstr ""
+msgstr "dalam tata bahasa ast"
 
 msgid "* (asterisk)"
 msgstr ""
