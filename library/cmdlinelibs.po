@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,12 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Command-line interface libraries"
-msgstr ""
+msgstr "Pustaka antarmuka baris perintah"
 
 msgid ""
 "The modules described in this chapter assist with implementing command line "
 "and terminal interfaces for applications."
 msgstr ""
+"Modul-modul yang dijelaskan dalam bab ini membantu mengimplementasikan "
+"antarmuka baris perintah dan terminal untuk aplikasi."
 
 msgid "Here's an overview:"
-msgstr ""
+msgstr "Berikut ini ringkasannya:"
