@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!distutils` --- Building and installing Python modules"
-msgstr ""
+msgstr ":mod:`!distutils` --- Membangun dan memasang modul Python"
 
 msgid ""
 "This module is no longer part of the Python standard library. It "
@@ -28,8 +28,15 @@ msgid ""
 "which has `migration advice <https://peps.python.org/pep-0632/#migration-"
 "advice>`_."
 msgstr ""
+"Modul ini bukan lagi bagian dari pustaka standar Python. Modul "
+"ini :ref:`dihapus pada Python 3.12 <whatsnew312-removed-distutils>` setelah "
+"dinyatakan usang pada Python 3.10. Penghapusan ini ditetapkan "
+"dalam :pep:`632`, yang memuat `saran migrasi <https://peps.python.org/"
+"pep-0632/#migration-advice>`_."
 
 msgid ""
 "The last version of Python that provided the :mod:`!distutils` module was "
 "`Python 3.11 <https://docs.python.org/3.11/library/distutils.html>`_."
 msgstr ""
+"Versi terakhir Python yang menyediakan modul :mod:`!distutils` adalah "
+"`Python 3.11 <https://docs.python.org/3.11/library/distutils.html>`_."
