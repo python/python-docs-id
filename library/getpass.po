@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,21 +19,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!getpass` --- Portable password input"
-msgstr ""
+msgstr ":mod:`!getpass` --- Input kata sandi portabel"
 
 msgid "**Source code:** :source:`Lib/getpass.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/getpass.py`"
 
 msgid "Availability"
-msgstr ""
+msgstr "Ketersediaan"
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
 "availability` for more information."
 msgstr ""
+"Modul ini tidak berfungsi atau tidak tersedia pada WebAssembly. "
+"Lihat :ref:`wasm-availability` untuk informasi lebih lanjut."
 
 msgid "The :mod:`!getpass` module provides two functions:"
-msgstr ""
+msgstr "Modul :mod:`!getpass` menyediakan dua fungsi:"
 
 msgid ""
 "Prompt the user for a password without echoing.  The user is prompted using "
@@ -43,6 +45,12 @@ msgid ""
 "dev/tty`) or if that is unavailable to ``sys.stderr`` (this argument is "
 "ignored on Windows)."
 msgstr ""
+"Meminta kata sandi kepada pengguna tanpa echo. Pengguna diminta menggunakan "
+"string *prompt*, yang secara default adalah ``'Password: '``. Pada Unix, "
+"prompt ditulis ke objek mirip-berkas *stream* menggunakan penangan galat "
+"replace jika diperlukan. *stream* secara default adalah terminal pengendali "
+"(:file:`/dev/tty`) atau, jika terminal tersebut tidak tersedia, "
+"``sys.stderr`` (argumen ini diabaikan pada Windows)."
 
 msgid ""
 "The *echo_char* argument controls how user input is displayed while typing. "
@@ -51,17 +59,29 @@ msgid ""
 "character is replaced by it. For example, ``echo_char='*'`` will display "
 "asterisks instead of the actual input."
 msgstr ""
+"Argumen *echo_char* mengendalikan bagaimana input pengguna ditampilkan saat "
+"mengetik. Jika *echo_char* adalah ``None`` (default), input tetap "
+"tersembunyi. Jika tidak, *echo_char* harus berupa satu karakter ASCII yang "
+"dapat dicetak dan setiap karakter yang diketik digantikan olehnya. Misalnya, "
+"``echo_char='*'`` akan menampilkan asterisk sebagai pengganti input "
+"sebenarnya."
 
 msgid ""
 "If echo-free input is unavailable, :func:`~getpass.getpass` falls back to "
 "printing a warning message to *stream* and reading from :data:`sys.stdin` "
 "and issuing a :exc:`GetPassWarning`."
 msgstr ""
+"Jika input tanpa echo tidak tersedia, :func:`~getpass.getpass` akan "
+"menampilkan pesan peringatan ke *stream* dan membaca dari :data:`sys.stdin` "
+"serta memunculkan :exc:`GetPassWarning`."
 
 msgid ""
 "If you call :func:`~getpass.getpass` from within IDLE, the input may be done "
 "in the terminal you launched IDLE from rather than the idle window itself."
 msgstr ""
+"Jika Anda memanggil :func:`~getpass.getpass` dari dalam IDLE, input mungkin "
+"dilakukan di terminal tempat Anda meluncurkan IDLE, bukan di jendela idle "
+"itu sendiri."
 
 msgid ""
 "On Unix systems, when *echo_char* is set, the terminal will be configured to "
@@ -69,47 +89,58 @@ msgid ""
 "<termios(3)#Canonical_and_noncanonical_mode>`. Common terminal control "
 "characters are supported:"
 msgstr ""
+"Pada sistem Unix, ketika *echo_char* diatur, terminal akan dikonfigurasi "
+"untuk beroperasi dalam :manpage:`mode nonkanonis "
+"<termios(3)#Canonical_and_noncanonical_mode>`. Karakter kontrol terminal "
+"umum didukung:"
 
 msgid ":kbd:`Ctrl+A` - Move cursor to beginning of line"
-msgstr ""
+msgstr ":kbd:`Ctrl+A` - Memindahkan kursor ke awal baris"
 
 msgid ":kbd:`Ctrl+E` - Move cursor to end of line"
-msgstr ""
+msgstr ":kbd:`Ctrl+E` - Memindahkan kursor ke akhir baris"
 
 msgid ":kbd:`Ctrl+K` - Kill (delete) from cursor to end of line"
-msgstr ""
+msgstr ":kbd:`Ctrl+K` - Menghapus (delete) dari kursor hingga akhir baris"
 
 msgid ":kbd:`Ctrl+U` - Kill (delete) entire line"
-msgstr ""
+msgstr ":kbd:`Ctrl+U` - Menghapus (delete) seluruh baris"
 
 msgid ":kbd:`Ctrl+W` - Erase previous word"
-msgstr ""
+msgstr ":kbd:`Ctrl+W` - Menghapus kata sebelumnya"
 
 msgid ":kbd:`Ctrl+V` - Insert next character literally (quote)"
-msgstr ""
+msgstr ":kbd:`Ctrl+V` - Menyisipkan karakter berikutnya secara harfiah (quote)"
 
 msgid ":kbd:`Backspace`/:kbd:`DEL` - Delete character before cursor"
-msgstr ""
+msgstr ":kbd:`Backspace`/:kbd:`DEL` - Menghapus karakter sebelum kursor"
 
 msgid ""
 "These shortcuts work by reading the terminal's configured control character "
 "mappings from termios settings."
 msgstr ""
+"Pintasan-pintasan ini bekerja dengan membaca pemetaan karakter kontrol "
+"terminal yang telah dikonfigurasi dari pengaturan termios."
 
 msgid "Added the *echo_char* parameter for keyboard feedback."
-msgstr ""
+msgstr "Menambahkan parameter *echo_char* untuk umpan balik keyboard."
 
 msgid ""
 "When using non-empty *echo_char* on Unix, keyboard shortcuts (including "
 "cursor movement and line editing) are now properly handled using the "
 "terminal's control character configuration."
 msgstr ""
+"Ketika menggunakan *echo_char* yang tidak kosong pada Unix, pintasan "
+"keyboard (termasuk pergerakan kursor dan pengeditan baris) kini ditangani "
+"dengan benar menggunakan konfigurasi karakter kontrol terminal."
 
 msgid "A :exc:`UserWarning` subclass issued when password input may be echoed."
 msgstr ""
+"Subkelas :exc:`UserWarning` yang dimunculkan ketika input kata sandi mungkin "
+"di-echo."
 
 msgid "Return the \"login name\" of the user."
-msgstr ""
+msgstr "Mengembalikan \"nama login\" pengguna."
 
 msgid ""
 "This function checks the environment "
@@ -119,9 +150,16 @@ msgid ""
 "the password database is returned on systems which support the :mod:`pwd` "
 "module, otherwise, an :exc:`OSError` is raised."
 msgstr ""
+"Fungsi ini memeriksa variabel "
+"lingkungan :envvar:`LOGNAME`, :envvar:`USER`, :envvar:`!LNAME` "
+"dan :envvar:`USERNAME`, secara berurutan, dan mengembalikan nilai dari yang "
+"pertama yang diatur ke string yang tidak kosong. Jika tidak ada yang diatur, "
+"nama login dari basis data kata sandi dikembalikan pada sistem yang "
+"mendukung modul :mod:`pwd`, jika tidak, :exc:`OSError` akan dimunculkan."
 
 msgid "In general, this function should be preferred over :func:`os.getlogin`."
 msgstr ""
+"Secara umum, fungsi ini sebaiknya lebih dipilih daripada :func:`os.getlogin`."
 
 msgid "Previously, various exceptions beyond just :exc:`OSError` were raised."
-msgstr ""
+msgstr "Sebelumnya, berbagai eksepsi selain :exc:`OSError` dimunculkan."
