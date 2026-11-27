@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,21 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Iterator Protocol"
-msgstr ""
+msgstr "Protokol Iterator"
 
 msgid "There are two functions specifically for working with iterators."
 msgstr ""
+"Ada dua fungsi yang secara khusus digunakan untuk bekerja dengan iterator."
 
 msgid ""
 "Return non-zero if the object *o* can be safely passed "
 "to :c:func:`PyIter_NextItem` and ``0`` otherwise. This function always "
 "succeeds."
 msgstr ""
+"Kembalikan nilai bukan nol jika objek *o* dapat diteruskan dengan aman "
+"ke :c:func:`PyIter_NextItem`, dan ``0`` jika tidak. Fungsi ini selalu "
+"berhasil."
 
 msgid ""
 "Return non-zero if the object *o* provides the :class:`AsyncIterator` "
 "protocol, and ``0`` otherwise.  This function always succeeds."
 msgstr ""
+"Kembalikan nilai bukan nol jika objek *o* menyediakan "
+"protokol :class:`AsyncIterator`, dan ``0`` jika tidak. Fungsi ini selalu "
+"berhasil."
 
 msgid ""
 "Return ``1`` and set *item* to a :term:`strong reference` of the next value "
@@ -41,11 +48,18 @@ msgid ""
 "if there are no remaining values. Return ``-1``, set *item* to ``NULL`` and "
 "set an exception on error."
 msgstr ""
+"Kembalikan ``1`` dan atur *item* ke sebuah :term:`strong reference` dari "
+"nilai berikutnya dari iterator *iter* jika berhasil. Kembalikan ``0`` dan "
+"atur *item* ke ``NULL`` jika tidak ada lagi nilai yang tersisa. Kembalikan "
+"``-1``, atur *item* ke ``NULL``, dan atur sebuah eksepsi jika terjadi "
+"kesalahan."
 
 msgid ""
 "This is an older version of :c:func:`!PyIter_NextItem`, which is retained "
 "for backwards compatibility. Prefer :c:func:`PyIter_NextItem`."
 msgstr ""
+"Ini adalah versi lama dari :c:func:`!PyIter_NextItem`, yang dipertahankan "
+"demi kompatibilitas ke belakang. Utamakan :c:func:`PyIter_NextItem`."
 
 msgid ""
 "Return the next value from the iterator *o*.  The object must be an iterator "
@@ -54,23 +68,36 @@ msgid ""
 "an error occurs while retrieving the item, returns ``NULL`` and passes along "
 "the exception."
 msgstr ""
+"Kembalikan nilai berikutnya dari iterator *o*. Objek tersebut harus berupa "
+"iterator menurut :c:func:`PyIter_Check` (pemanggil yang bertanggung jawab "
+"memeriksanya). Jika tidak ada lagi nilai yang tersisa, kembalikan ``NULL`` "
+"tanpa ada eksepsi yang diatur. Jika terjadi kesalahan saat mengambil item, "
+"kembalikan ``NULL`` dan teruskan eksepsi tersebut."
 
 msgid ""
 "The enum value used to represent different results of :c:func:`PyIter_Send`."
 msgstr ""
+"Nilai enum yang digunakan untuk merepresentasikan berbagai hasil "
+"dari :c:func:`PyIter_Send`."
 
 msgid "Sends the *arg* value into the iterator *iter*. Returns:"
-msgstr ""
+msgstr "Mengirim nilai *arg* ke dalam iterator *iter*. Mengembalikan:"
 
 msgid ""
 "``PYGEN_RETURN`` if iterator returns. Return value is returned via *presult*."
 msgstr ""
+"``PYGEN_RETURN`` jika iterator mengembalikan nilai. Nilai kembaliannya "
+"dikembalikan melalui *presult*."
 
 msgid ""
 "``PYGEN_NEXT`` if iterator yields. Yielded value is returned via *presult*."
 msgstr ""
+"``PYGEN_NEXT`` jika iterator melakukan yield. Nilai yang di-yield "
+"dikembalikan melalui *presult*."
 
 msgid ""
 "``PYGEN_ERROR`` if iterator has raised an exception. *presult* is set to "
 "``NULL``."
 msgstr ""
+"``PYGEN_ERROR`` jika iterator telah memunculkan sebuah eksepsi. *presult* "
+"diatur ke ``NULL``."
