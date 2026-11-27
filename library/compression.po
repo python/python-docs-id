@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The :mod:`!compression` package"
-msgstr ""
+msgstr "Paket :mod:`!compression`"
 
 msgid ""
 "The :mod:`!compression` package contains the canonical compression modules "
@@ -29,19 +29,26 @@ msgid ""
 "reasons, and will not be removed without a deprecation cycle. The use of "
 "modules in :mod:`!compression` is encouraged where practical."
 msgstr ""
+"Paket :mod:`!compression` berisi modul-modul kompresi kanonis yang "
+"menyediakan antarmuka ke beberapa algoritma kompresi yang berbeda. Beberapa "
+"modul ini secara historis tersedia sebagai modul terpisah; modul-modul "
+"tersebut akan tetap tersedia dengan nama aslinya demi alasan kompatibilitas, "
+"dan tidak akan dihapus tanpa melalui siklus pengusangan terlebih dahulu. "
+"Penggunaan modul-modul dalam :mod:`!compression` dianjurkan jika "
+"memungkinkan."
 
 msgid ":mod:`!compression.bz2` -- Re-exports :mod:`bz2`"
-msgstr ""
+msgstr ":mod:`!compression.bz2` -- Mengekspor ulang :mod:`bz2`"
 
 msgid ":mod:`!compression.gzip` -- Re-exports :mod:`gzip`"
-msgstr ""
+msgstr ":mod:`!compression.gzip` -- Mengekspor ulang :mod:`gzip`"
 
 msgid ":mod:`!compression.lzma` -- Re-exports :mod:`lzma`"
-msgstr ""
+msgstr ":mod:`!compression.lzma` -- Mengekspor ulang :mod:`lzma`"
 
 msgid ":mod:`!compression.zlib` -- Re-exports :mod:`zlib`"
-msgstr ""
+msgstr ":mod:`!compression.zlib` -- Mengekspor ulang :mod:`zlib`"
 
 msgid ""
 ":mod:`compression.zstd` -- Wrapper for the Zstandard compression library"
-msgstr ""
+msgstr ":mod:`compression.zstd` -- Pembungkus untuk pustaka kompresi Zstandard"
