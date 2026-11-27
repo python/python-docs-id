@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,18 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Program frameworks"
-msgstr ""
+msgstr "Kerangka kerja program"
 
 msgid ""
 "This chapter is no longer maintained, and the modules it contained have been "
 "moved to their respective topical documentation."
 msgstr ""
+"Bab ini tidak lagi dipelihara, dan modul-modul yang ada di dalamnya telah "
+"dipindahkan ke dokumentasi sesuai topiknya masing-masing."
 
 msgid ":mod:`cmd` — :doc:`Command Line Interface Libraries <./cmdlinelibs>`"
-msgstr ""
+msgstr ":mod:`cmd` — :doc:`Pustaka Antarmuka Baris Perintah <./cmdlinelibs>`"
 
 msgid ":mod:`shlex` — :doc:`Unix Specific Services <./unix>`"
-msgstr ""
+msgstr ":mod:`shlex` — :doc:`Layanan Khusus Unix <./unix>`"
 
 msgid ":mod:`turtle` — :doc:`Graphical User Interfaces with Tk <./tk>`"
-msgstr ""
+msgstr ":mod:`turtle` — :doc:`Antarmuka Pengguna Grafis dengan Tk <./tk>`"
