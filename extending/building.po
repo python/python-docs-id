@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,20 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Building C and C++ Extensions"
-msgstr "Membuat Ekstensi C dan C++"
+msgstr "Membangun Ekstensi C dan C++"
 
 msgid ""
 "A C extension for CPython is a shared library (for example, a ``.so`` file "
 "on Linux, ``.pyd`` on Windows), which exports an *initialization function*."
 msgstr ""
-"Sebuah ekstensi C untuk C Python adalah perpustakaan berbagi (misalnya, sebuah ''.so''berkas"
-"Di Linux,''.pyd'' di Windows), yang mengekspor sebuah *fungsi inisialisasi*."
+"Ekstensi C untuk CPython adalah sebuah shared library (misalnya, berkas "
+"``.so`` di Linux, ``.pyd`` di Windows), yang mengekspor sebuah *fungsi "
+"inisialisasi*."
 
 msgid "See :ref:`extension-modules` for details."
-msgstr "Lihat :ref:'extension-modules' untuk detailnya"
+msgstr "Lihat :ref:`extension-modules` untuk detailnya."
 
 msgid "Building C and C++ Extensions with setuptools"
-msgstr "Membuat Ekstensi C dan C++ dengan setuptools"
+msgstr "Membangun Ekstensi C dan C++ dengan setuptools"
 
 msgid ""
 "Building, packaging and distributing extension modules is best done with "
@@ -40,14 +41,14 @@ msgid ""
 "is Setuptools, whose documentation can be found at https://"
 "setuptools.pypa.io/en/latest/setuptools.html."
 msgstr ""
-"Pembuatan, pengemasan, dan distribusi modul ekstensi sebaiknya dilakukan dengan"
-"alat pihak ketiga, dan hal ini di luar cakupan dokumen ini. Salah satu alat yang sesuai"
-"adalah Setuptools, dokumentasinya dapat ditemukan di https://setuptools.pypa."
-"io/en/latest/setuptools.html."
+"Membangun, mengemas, dan mendistribusikan modul ekstensi sebaiknya dilakukan "
+"dengan perkakas pihak ketiga, dan berada di luar cakupan dokumen ini. Salah "
+"satu perkakas yang sesuai adalah Setuptools, yang dokumentasinya dapat "
+"ditemukan di https://setuptools.pypa.io/en/latest/setuptools.html."
 
 msgid ""
 "The :mod:`distutils` module, which was included in the standard library "
 "until Python 3.12, is now maintained as part of Setuptools."
 msgstr ""
-"Modul `distutils`, yang sebelumnya termasuk dalam pustaka standar Python"
-"hingga versi 3.12, kini dikelola sebagai bagian dari Setuptools."
+"Modul :mod:`distutils`, yang disertakan dalam pustaka standar hingga Python "
+"3.12, kini dipelihara sebagai bagian dari Setuptools."
