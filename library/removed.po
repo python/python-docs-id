@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,9 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Removed Modules"
-msgstr ""
+msgstr "Modul yang Dihapus"
 
 msgid ""
 "The modules described in this chapter have been removed from the Python "
 "standard library.  They are documented here to help people find replacements."
 msgstr ""
+"Modul-modul yang dijelaskan dalam bab ini telah dihapus dari pustaka standar "
+"Python. Modul-modul tersebut didokumentasikan di sini untuk membantu "
+"pengguna menemukan penggantinya."
