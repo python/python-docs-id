@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,18 +19,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!asynchat` --- Asynchronous socket command/response handler"
-msgstr ""
+msgstr ":mod:`!asynchat` --- Penangan perintah/respons soket asinkron"
 
 msgid ""
 "This module is no longer part of the Python standard library. It "
 "was :ref:`removed in Python 3.12 <whatsnew312-removed>` after being "
 "deprecated in Python 3.6.  The removal was decided in :pep:`594`."
 msgstr ""
+"Modul ini bukan lagi bagian dari pustaka standar Python. Modul "
+"ini :ref:`dihapus pada Python 3.12 <whatsnew312-removed>` setelah dinyatakan "
+"usang pada Python 3.6. Penghapusan ini ditetapkan dalam :pep:`594`."
 
 msgid "Applications should use the :mod:`asyncio` module instead."
-msgstr ""
+msgstr "Aplikasi sebaiknya menggunakan modul :mod:`asyncio`."
 
 msgid ""
 "The last version of Python that provided the :mod:`!asynchat` module was "
 "`Python 3.11 <https://docs.python.org/3.11/library/asynchat.html>`_."
 msgstr ""
+"Versi terakhir Python yang menyediakan modul :mod:`!asynchat` adalah `Python "
+"3.11 <https://docs.python.org/3.11/library/asynchat.html>`_."
