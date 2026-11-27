@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,21 +19,26 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Improve a documentation page"
-msgstr ""
+msgstr "Memperbaiki halaman dokumentasi"
 
 msgid ""
 "We are always interested to hear ideas about improvements to the "
 "documentation."
 msgstr ""
+"Kami selalu tertarik mendengar usulan untuk membuat dokumentasi menjadi "
+"lebih baik."
 
 msgid ""
 "If the bug or suggested improvement concerns the translation of this "
 "documentation, open an issue or edit the page in `translation's repository "
 "<TRANSLATION_REPO_>`_ instead."
 msgstr ""
+"Jika bug atau usulan perbaikan berkaitan dengan terjemahan dokumentasi ini, "
+"buka issue atau sunting halaman tersebut di `repositori terjemahan "
+"<TRANSLATION_REPO_>`_ sebagai gantinya."
 
 msgid "You have a few ways to ask questions or suggest changes:"
-msgstr ""
+msgstr "Ada beberapa cara untuk bertanya atau mengusulkan perubahan:"
 
 msgid ""
 "You can start a discussion about the page on the Python discussion forum. "
@@ -41,9 +46,16 @@ msgid ""
 "Documentation topic <https://discuss.python.org/new-topic?"
 "category=documentation>`_."
 msgstr ""
+"Anda dapat memulai diskusi tentang halaman ini di forum diskusi Python. "
+"Tautan ini akan memulai topik baru dalam kategori Documentation: `Topik "
+"Dokumentasi Baru <https://discuss.python.org/new-"
+"topic?category=documentation>`_."
 
 msgid ""
 "You can open an issue on the Python GitHub issue tracker. This link will "
 "create a new issue with the \"docs\" label: `New docs issue <https://"
 "github.com/python/cpython/issues/new?template=documentation.yml>`_."
 msgstr ""
+"Anda dapat membuka issue di pelacak issue GitHub Python. Tautan ini akan "
+"membuat issue baru dengan label \"docs\": `Issue docs baru "
+"<https://github.com/python/cpython/issues/new?template=documentation.yml>`_."
