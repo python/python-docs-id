@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,15 +20,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!tkinter.dnd` --- Drag and drop support"
-msgstr ""
+msgstr ":mod:`!tkinter.dnd` --- Dukungan drag and drop"
 
 msgid "**Source code:** :source:`Lib/tkinter/dnd.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/tkinter/dnd.py`"
 
 msgid ""
 "This is experimental and due to be deprecated when it is replaced with the "
 "Tk DND."
 msgstr ""
+"Modul ini bersifat eksperimental dan akan dinyatakan sudah tidak disarankan "
+"lagi ketika digantikan dengan Tk DND."
 
 msgid ""
 "The :mod:`!tkinter.dnd` module provides drag-and-drop support for objects "
@@ -39,60 +42,82 @@ msgid ""
 "dragged, and *event* is the event that invoked the call (the argument to "
 "your callback function)."
 msgstr ""
+"Modul :mod:`!tkinter.dnd` menyediakan dukungan drag-and-drop untuk objek "
+"dalam satu aplikasi, dalam jendela yang sama atau antar jendela. Untuk "
+"memungkinkan sebuah objek diseret, Anda harus membuat event binding untuk "
+"objek tersebut yang memulai proses drag-and-drop. Biasanya, Anda mengikat "
+"event ButtonPress ke fungsi callback yang Anda tulis (lihat :ref:`Bindings-"
+"and-Events`). Fungsi tersebut harus memanggil :func:`dnd_start`, dengan "
+"*source* adalah objek yang akan diseret, dan *event* adalah event yang "
+"memicu pemanggilan tersebut (argumen untuk fungsi callback Anda)."
 
 msgid "Selection of a target object occurs as follows:"
-msgstr ""
+msgstr "Pemilihan objek target terjadi sebagai berikut:"
 
 msgid "Top-down search of the area under the mouse for a target widget:"
 msgstr ""
+"Pencarian dari atas ke bawah pada area di bawah mouse untuk widget target:"
 
 msgid "the target widget should have a callable *dnd_accept* attribute;"
 msgstr ""
+"widget target harus memiliki atribut *dnd_accept* yang dapat dipanggil;"
 
 msgid ""
 "if *dnd_accept* is not present or returns ``None``, the search moves to the "
 "parent widget;"
 msgstr ""
+"jika *dnd_accept* tidak ada atau mengembalikan ``None``, pencarian berpindah "
+"ke widget induk;"
 
 msgid "if no target widget is found, the target object is ``None``."
 msgstr ""
+"jika tidak ada widget target yang ditemukan, objek target adalah ``None``."
 
 msgid "Call to ``<old_target>.dnd_leave(source, event)``."
-msgstr ""
+msgstr "Pemanggilan ``<old_target>.dnd_leave(source, event)``."
 
 msgid "Call to ``<new_target>.dnd_enter(source, event)``."
-msgstr ""
+msgstr "Pemanggilan ``<new_target>.dnd_enter(source, event)``."
 
 msgid "Call to ``<target>.dnd_commit(source, event)`` to notify of the drop."
 msgstr ""
+"Pemanggilan ``<target>.dnd_commit(source, event)`` untuk memberitahukan "
+"terjadinya drop."
 
 msgid ""
 "Call to ``<source>.dnd_end(target, event)`` to signal the end of drag-and-"
 "drop."
 msgstr ""
+"Pemanggilan ``<source>.dnd_end(target, event)`` untuk menandakan berakhirnya "
+"drag-and-drop."
 
 msgid ""
 "The *DndHandler* class handles drag-and-drop events tracking Motion and "
 "ButtonRelease events on the root of the event widget."
 msgstr ""
+"Kelas *DndHandler* menangani event drag-and-drop dengan melacak event Motion "
+"dan ButtonRelease pada root widget event."
 
 msgid "Cancel the drag-and-drop process."
-msgstr ""
+msgstr "Membatalkan proses drag-and-drop."
 
 msgid "Execute end of drag-and-drop functions."
-msgstr ""
+msgstr "Menjalankan fungsi akhir drag-and-drop."
 
 msgid "Inspect area below mouse for target objects while a drag is performed."
-msgstr ""
+msgstr "Memeriksa area di bawah mouse untuk objek target saat drag dilakukan."
 
 msgid "Signal end of drag when the release pattern is triggered."
-msgstr ""
+msgstr "Menandakan akhir drag ketika pola pelepasan dipicu."
 
 msgid ""
 "Factory function for the drag-and-drop process. Return "
 "the :class:`DndHandler` instance managing the drag, or ``None`` if a drag "
 "could not be started."
 msgstr ""
+"Fungsi factory untuk proses drag-and-drop. Mengembalikan "
+"instance :class:`DndHandler` yang mengelola drag, atau ``None`` jika drag "
+"tidak dapat dimulai."
 
 msgid ":ref:`Bindings-and-Events`"
-msgstr ""
+msgstr ":ref:`Bindings-and-Events`"
