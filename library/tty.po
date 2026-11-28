@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,45 +20,60 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!tty` --- Terminal control functions"
-msgstr ""
+msgstr ":mod:`!tty` --- Fungsi kontrol terminal"
 
 msgid "**Source code:** :source:`Lib/tty.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/tty.py`"
 
 msgid ""
 "The :mod:`!tty` module defines functions for putting the tty into cbreak and "
 "raw modes."
 msgstr ""
+"Modul :mod:`!tty` mendefinisikan fungsi-fungsi untuk menempatkan tty ke mode "
+"cbreak dan raw."
 
 msgid "Availability"
-msgstr ""
+msgstr "Ketersediaan"
 
 msgid ""
 "Because it requires the :mod:`termios` module, it will work only on Unix."
 msgstr ""
+"Karena memerlukan modul :mod:`termios`, modul ini hanya akan berfungsi pada "
+"Unix."
 
 msgid "The :mod:`!tty` module defines the following functions:"
-msgstr ""
+msgstr "Modul :mod:`!tty` mendefinisikan fungsi-fungsi berikut:"
 
 msgid ""
 "Convert the tty attribute list *mode*, which is a list like the one returned "
 "by :func:`termios.tcgetattr`, to that of a tty in raw mode."
 msgstr ""
+"Mengubah daftar atribut tty *mode*, yang merupakan daftar seperti yang "
+"dikembalikan oleh :func:`termios.tcgetattr`, menjadi daftar atribut tty "
+"dalam mode raw."
 
 msgid ""
 "Convert the tty attribute list *mode*, which is a list like the one returned "
 "by :func:`termios.tcgetattr`, to that of a tty in cbreak mode."
 msgstr ""
+"Mengubah daftar atribut tty *mode*, yang merupakan daftar seperti yang "
+"dikembalikan oleh :func:`termios.tcgetattr`, menjadi daftar atribut tty "
+"dalam mode cbreak."
 
 msgid ""
 "This clears the ``ECHO`` and ``ICANON`` local mode flags in *mode* as well "
 "as setting the minimum input to 1 byte with no delay."
 msgstr ""
+"Fungsi ini menghapus flag mode lokal ``ECHO`` dan ``ICANON`` dalam *mode* "
+"serta mengatur input minimum menjadi 1 byte tanpa penundaan."
 
 msgid ""
 "The ``ICRNL`` flag is no longer cleared. This matches Linux and macOS ``stty "
 "cbreak`` behavior and what :func:`setcbreak` historically did."
 msgstr ""
+"Flag ``ICRNL`` tidak lagi dihapus. Hal ini sesuai dengan perilaku ``stty "
+"cbreak`` pada Linux dan macOS serta apa yang selama ini dilakukan "
+"oleh :func:`setcbreak`."
 
 msgid ""
 "Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it "
@@ -65,10 +81,15 @@ msgid ""
 "to :func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` "
 "is saved before setting *fd* to raw mode; this value is returned."
 msgstr ""
+"Mengubah mode deskriptor berkas *fd* menjadi raw. Jika *when* dihilangkan, "
+"nilai default-nya adalah :const:`termios.TCSAFLUSH`, dan nilai tersebut "
+"diteruskan ke :func:`termios.tcsetattr`. Nilai "
+"kembalian :func:`termios.tcgetattr` disimpan sebelum mengatur *fd* ke mode "
+"raw; nilai tersebut dikembalikan."
 
 msgid ""
 "The return value is now the original tty attributes, instead of ``None``."
-msgstr ""
+msgstr "Nilai kembalian kini adalah atribut tty yang asli, bukan ``None``."
 
 msgid ""
 "Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it "
@@ -76,20 +97,31 @@ msgid ""
 "to :func:`termios.tcsetattr`. The return value of :func:`termios.tcgetattr` "
 "is saved before setting *fd* to cbreak mode; this value is returned."
 msgstr ""
+"Mengubah mode deskriptor berkas *fd* menjadi cbreak. Jika *when* "
+"dihilangkan, nilai default-nya adalah :const:`termios.TCSAFLUSH`, dan nilai "
+"tersebut diteruskan ke :func:`termios.tcsetattr`. Nilai "
+"kembalian :func:`termios.tcgetattr` disimpan sebelum mengatur *fd* ke mode "
+"cbreak; nilai tersebut dikembalikan."
 
 msgid ""
 "This clears the ``ECHO`` and ``ICANON`` local mode flags as well as setting "
 "the minimum input to 1 byte with no delay."
 msgstr ""
+"Fungsi ini menghapus flag mode lokal ``ECHO`` dan ``ICANON`` serta mengatur "
+"input minimum menjadi 1 byte tanpa penundaan."
 
 msgid ""
 "The ``ICRNL`` flag is no longer cleared. This restores the behavior of "
 "Python 3.11 and earlier as well as matching what Linux, macOS, & BSDs "
 "describe in their ``stty(1)`` man pages regarding cbreak mode."
 msgstr ""
+"Flag ``ICRNL`` tidak lagi dihapus. Hal ini mengembalikan perilaku Python "
+"3.11 dan yang lebih lama serta sesuai dengan apa yang dijelaskan oleh Linux, "
+"macOS, & BSD dalam halaman manual ``stty(1)`` masing-masing mengenai mode "
+"cbreak."
 
 msgid "Module :mod:`termios`"
-msgstr ""
+msgstr "Modul :mod:`termios`"
 
 msgid "Low-level terminal control interface."
-msgstr ""
+msgstr "Antarmuka kontrol terminal tingkat rendah."
