@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "How to port Python 2 Code to Python 3"
-msgstr ""
+msgstr "Cara Melakukan Porting Kode Python 2 ke Python 3"
 
 msgid ""
 "Python 2 reached its official end-of-life at the start of 2020. This means "
@@ -27,40 +28,55 @@ msgid ""
 "no longer supported: see :pep:`373` and `status of Python versions <https://"
 "devguide.python.org/versions>`_."
 msgstr ""
+"Python 2 mencapai akhir masa dukung resminya pada awal 2020. Ini berarti "
+"tidak akan ada lagi laporan bug, perbaikan, atau perubahan baru untuk Python "
+"2 - Python 2 tidak lagi didukung: lihat :pep:`373` dan `status versi Python "
+"<https://devguide.python.org/versions>`_."
 
 msgid ""
 "If you are looking to port an extension module instead of pure Python code, "
 "please see :ref:`cporting-howto`."
 msgstr ""
+"Jika Anda ingin mem-porting sebuah modul ekstensi, bukan kode Python murni, "
+"silakan lihat :ref:`cporting-howto`."
 
 msgid ""
 "The archived python-porting_ mailing list may contain some useful guidance."
 msgstr ""
+"Milis python-porting_ yang telah diarsipkan mungkin berisi beberapa panduan "
+"yang berguna."
 
 msgid ""
 "Since Python 3.11 the original porting guide was discontinued. You can find "
 "the old guide in the `archive <https://docs.python.org/3.10/howto/"
 "pyporting.html>`_."
 msgstr ""
+"Sejak Python 3.11, panduan porting yang asli dihentikan. Anda dapat "
+"menemukan panduan lama tersebut di `arsip <https://docs.python.org/3.10/"
+"howto/pyporting.html>`_."
 
 msgid "Third-party guides"
-msgstr ""
+msgstr "Panduan pihak ketiga"
 
 msgid "There are also multiple third-party guides that might be useful:"
-msgstr ""
+msgstr "Ada juga beberapa panduan pihak ketiga yang mungkin berguna:"
 
 msgid "`Guide by Fedora <https://portingguide.readthedocs.io>`_"
-msgstr ""
+msgstr "`Panduan oleh Fedora <https://portingguide.readthedocs.io>`_"
 
 msgid "`PyCon 2020 tutorial <https://www.youtube.com/watch?v=JgIgEjASOlk>`_"
-msgstr ""
+msgstr "`Tutorial PyCon 2020 <https://www.youtube.com/watch?v=JgIgEjASOlk>`_"
 
 msgid ""
 "`Guide by DigitalOcean <https://www.digitalocean.com/community/tutorials/how-"
 "to-port-python-2-code-to-python-3>`_"
 msgstr ""
+"`Panduan oleh DigitalOcean <https://www.digitalocean.com/community/tutorials/"
+"how-to-port-python-2-code-to-python-3>`_"
 
 msgid ""
 "`Guide by ActiveState <https://www.activestate.com/blog/how-to-migrate-"
 "python-2-applications-to-python-3>`_"
 msgstr ""
+"`Panduan oleh ActiveState <https://www.activestate.com/blog/how-to-migrate-"
+"python-2-applications-to-python-3>`_"
