@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,79 +19,110 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Pending removal in future versions"
-msgstr ""
+msgstr "Penghapusan yang tertunda pada versi mendatang"
 
 msgid ""
 "The following APIs are deprecated and will be removed, although there is "
 "currently no date scheduled for their removal."
 msgstr ""
+"API berikut sudah tidak disarankan lagi dan akan dihapus, meskipun saat ini "
+"belum ada tanggal yang dijadwalkan untuk penghapusannya."
 
 msgid ":c:macro:`Py_TPFLAGS_HAVE_FINALIZE`: Unneeded since Python 3.8."
 msgstr ""
+":c:macro:`Py_TPFLAGS_HAVE_FINALIZE`: Tidak diperlukan lagi sejak Python 3.8."
 
 msgid ":c:func:`PyErr_Fetch`: Use :c:func:`PyErr_GetRaisedException` instead."
 msgstr ""
+":c:func:`PyErr_Fetch`: Gunakan :c:func:`PyErr_GetRaisedException` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PyErr_NormalizeException`: Use :c:func:`PyErr_GetRaisedException` "
 "instead."
 msgstr ""
+":c:func:`PyErr_NormalizeException`: "
+"Gunakan :c:func:`PyErr_GetRaisedException` sebagai gantinya."
 
 msgid ""
 ":c:func:`PyErr_Restore`: Use :c:func:`PyErr_SetRaisedException` instead."
 msgstr ""
+":c:func:`PyErr_Restore`: Gunakan :c:func:`PyErr_SetRaisedException` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PyModule_GetFilename`: Use :c:func:`PyModule_GetFilenameObject` "
 "instead."
 msgstr ""
+":c:func:`PyModule_GetFilename`: Gunakan :c:func:`PyModule_GetFilenameObject` "
+"sebagai gantinya."
 
 msgid ":c:func:`PyOS_AfterFork`: Use :c:func:`PyOS_AfterFork_Child` instead."
 msgstr ""
+":c:func:`PyOS_AfterFork`: Gunakan :c:func:`PyOS_AfterFork_Child` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PySlice_GetIndicesEx`: Use :c:func:`PySlice_Unpack` "
 "and :c:func:`PySlice_AdjustIndices` instead."
 msgstr ""
+":c:func:`PySlice_GetIndicesEx`: Gunakan :c:func:`PySlice_Unpack` "
+"dan :c:func:`PySlice_AdjustIndices` sebagai gantinya."
 
 msgid ":c:func:`PyUnicode_READY`: Unneeded since Python 3.12"
-msgstr ""
+msgstr ":c:func:`PyUnicode_READY`: Tidak diperlukan lagi sejak Python 3.12"
 
 msgid ":c:func:`!PyErr_Display`: Use :c:func:`PyErr_DisplayException` instead."
 msgstr ""
+":c:func:`!PyErr_Display`: Gunakan :c:func:`PyErr_DisplayException` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`!_PyErr_ChainExceptions`: Use :c:func:`!_PyErr_ChainExceptions1` "
 "instead."
 msgstr ""
+":c:func:`!_PyErr_ChainExceptions`: "
+"Gunakan :c:func:`!_PyErr_ChainExceptions1` sebagai gantinya."
 
 msgid ""
 ":c:member:`!PyBytesObject.ob_shash` member: call :c:func:`PyObject_Hash` "
 "instead."
 msgstr ""
+"Anggota :c:member:`!PyBytesObject.ob_shash`: panggil :c:func:`PyObject_Hash` "
+"sebagai gantinya."
 
 msgid "Thread Local Storage (TLS) API:"
-msgstr ""
+msgstr "API Thread Local Storage (TLS):"
 
 msgid ""
 ":c:func:`PyThread_create_key`: Use :c:func:`PyThread_tss_alloc` instead."
 msgstr ""
+":c:func:`PyThread_create_key`: Gunakan :c:func:`PyThread_tss_alloc` sebagai "
+"gantinya."
 
 msgid ":c:func:`PyThread_delete_key`: Use :c:func:`PyThread_tss_free` instead."
 msgstr ""
+":c:func:`PyThread_delete_key`: Gunakan :c:func:`PyThread_tss_free` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PyThread_set_key_value`: Use :c:func:`PyThread_tss_set` instead."
 msgstr ""
+":c:func:`PyThread_set_key_value`: Gunakan :c:func:`PyThread_tss_set` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PyThread_get_key_value`: Use :c:func:`PyThread_tss_get` instead."
 msgstr ""
+":c:func:`PyThread_get_key_value`: Gunakan :c:func:`PyThread_tss_get` sebagai "
+"gantinya."
 
 msgid ""
 ":c:func:`PyThread_delete_key_value`: Use :c:func:`PyThread_tss_delete` "
 "instead."
 msgstr ""
+":c:func:`PyThread_delete_key_value`: Gunakan :c:func:`PyThread_tss_delete` "
+"sebagai gantinya."
 
 msgid ":c:func:`PyThread_ReInitTLS`: Unneeded since Python 3.7."
-msgstr ""
+msgstr ":c:func:`PyThread_ReInitTLS`: Tidak diperlukan lagi sejak Python 3.7."
