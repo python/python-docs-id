@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -20,30 +21,40 @@ msgstr ""
 
 msgid ":mod:`!urllib.error` --- Exception classes raised by urllib.request"
 msgstr ""
+":mod:`!urllib.error` --- Kelas eksepsi yang dimunculkan oleh urllib.request"
 
 msgid "**Source code:** :source:`Lib/urllib/error.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/urllib/error.py`"
 
 msgid ""
 "The :mod:`!urllib.error` module defines the exception classes for exceptions "
 "raised by :mod:`urllib.request`.  The base exception class "
 "is :exc:`URLError`."
 msgstr ""
+"Modul :mod:`!urllib.error` mendefinisikan kelas-kelas eksepsi untuk eksepsi "
+"yang dimunculkan oleh :mod:`urllib.request`. Kelas eksepsi dasarnya "
+"adalah :exc:`URLError`."
 
 msgid ""
 "The handlers raise this exception (or derived exceptions) when they run into "
 "a problem.  It is a subclass of :exc:`OSError`."
 msgstr ""
+"Handler memunculkan eksepsi ini (atau eksepsi turunannya) ketika menemui "
+"masalah. Eksepsi ini merupakan subkelas dari :exc:`OSError`."
 
 msgid ""
 "The reason for this error.  It can be a message string or another exception "
 "instance."
 msgstr ""
+"Alasan di balik galat ini. Alasan ini dapat berupa string pesan atau "
+"instance eksepsi lain."
 
 msgid ""
 ":exc:`URLError` used to be a subtype of :exc:`IOError`, which is now an "
 "alias of :exc:`OSError`."
 msgstr ""
+":exc:`URLError` dulunya merupakan subtipe dari :exc:`IOError`, yang kini "
+"merupakan alias dari :exc:`OSError`."
 
 msgid ""
 "Though being an exception (a subclass of :exc:`URLError`), "
@@ -52,34 +63,49 @@ msgid ""
 "is useful when handling exotic HTTP errors, such as requests for "
 "authentication."
 msgstr ""
+"Meskipun merupakan sebuah eksepsi (subkelas "
+"dari :exc:`URLError`), :exc:`HTTPError` juga dapat berfungsi sebagai nilai "
+"kembalian mirip-berkas yang noneksepsional (hal yang sama dengan yang "
+"dikembalikan oleh :func:`~urllib.request.urlopen`). Hal ini berguna saat "
+"menangani galat HTTP yang tidak biasa, seperti permintaan autentikasi."
 
 msgid "Contains the request URL. An alias for *filename* attribute."
-msgstr ""
+msgstr "Berisi URL permintaan. Alias untuk atribut *filename*."
 
 msgid ""
 "An HTTP status code as defined in :rfc:`2616`.  This numeric value "
 "corresponds to a value found in the dictionary of codes as found "
 "in :attr:`http.server.BaseHTTPRequestHandler.responses`."
 msgstr ""
+"Kode status HTTP sebagaimana didefinisikan dalam :rfc:`2616`. Nilai numerik "
+"ini sesuai dengan nilai yang terdapat dalam dictionary kode sebagaimana "
+"terdapat dalam :attr:`http.server.BaseHTTPRequestHandler.responses`."
 
 msgid ""
 "This is usually a string explaining the reason for this error. An alias for "
 "*msg* attribute."
 msgstr ""
+"Biasanya berupa string yang menjelaskan alasan galat ini. Alias untuk "
+"atribut *msg*."
 
 msgid ""
 "The HTTP response headers for the HTTP request that caused "
 "the :exc:`HTTPError`. An alias for *hdrs* attribute."
 msgstr ""
+"Header respons HTTP untuk permintaan HTTP yang menyebabkan :exc:`HTTPError`. "
+"Alias untuk atribut *hdrs*."
 
 msgid "A file-like object where the HTTP error body can be read from."
-msgstr ""
+msgstr "Objek mirip-berkas tempat body galat HTTP dapat dibaca."
 
 msgid ""
 "This exception is raised when the :func:`~urllib.request.urlretrieve` "
 "function detects that the amount of the downloaded data is less than the "
 "expected amount (given by the *Content-Length* header)."
 msgstr ""
+"Eksepsi ini dimunculkan ketika fungsi :func:`~urllib.request.urlretrieve` "
+"mendeteksi bahwa jumlah data yang diunduh kurang dari jumlah yang diharapkan "
+"(yang diberikan oleh header *Content-Length*)."
 
 msgid "The downloaded (and supposedly truncated) data."
-msgstr ""
+msgstr "Data yang diunduh (dan diduga terpotong)."
