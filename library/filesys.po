@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "File and Directory Access"
-msgstr ""
+msgstr "Akses Berkas dan Direktori"
 
 msgid ""
 "The modules described in this chapter deal with disk files and directories.  "
@@ -27,25 +28,34 @@ msgid ""
 "manipulating paths in a portable way, and creating temporary files.  The "
 "full list of modules in this chapter is:"
 msgstr ""
+"Modul-modul yang dijelaskan dalam bab ini berkaitan dengan berkas dan "
+"direktori pada disk. Misalnya, ada modul untuk membaca properti berkas, "
+"memanipulasi path secara portabel, dan membuat berkas sementara. Daftar "
+"lengkap modul dalam bab ini adalah:"
 
 msgid "Module :mod:`os`"
-msgstr ""
+msgstr "Modul :mod:`os`"
 
 msgid ""
 "Operating system interfaces, including functions to work with files at a "
 "lower level than Python :term:`file objects <file object>`."
 msgstr ""
+"Antarmuka sistem operasi, termasuk fungsi untuk bekerja dengan berkas pada "
+"tingkat yang lebih rendah daripada :term:`objek berkas <file object>` Python."
 
 msgid "Module :mod:`io`"
-msgstr ""
+msgstr "Modul :mod:`io`"
 
 msgid ""
 "Python's built-in I/O library, including both abstract classes and some "
 "concrete classes such as file I/O."
 msgstr ""
+"Pustaka I/O bawaan Python, mencakup kelas-kelas abstrak maupun beberapa "
+"kelas konkret seperti I/O berkas."
 
 msgid "Built-in function :func:`open`"
-msgstr ""
+msgstr "Fungsi bawaan :func:`open`"
 
 msgid "The standard way to open files for reading and writing with Python."
 msgstr ""
+"Cara standar untuk membuka berkas untuk dibaca dan ditulis dengan Python."
