@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,15 +20,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!netrc` --- netrc file processing"
-msgstr ""
+msgstr ":mod:`!netrc` --- pemrosesan berkas netrc"
 
 msgid "**Source code:** :source:`Lib/netrc.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/netrc.py`"
 
 msgid ""
 "The :class:`~netrc.netrc` class parses and encapsulates the netrc file "
 "format used by the Unix :program:`ftp` program and other FTP clients."
 msgstr ""
+"Kelas :class:`~netrc.netrc` mengurai dan mengenkapsulasi format berkas netrc "
+"yang digunakan oleh program :program:`ftp` Unix dan klien FTP lainnya."
 
 msgid ""
 "A :class:`~netrc.netrc` instance or subclass instance encapsulates data "
@@ -38,6 +41,14 @@ msgid ""
 "Parse errors will raise :exc:`NetrcParseError` with diagnostic information "
 "including the file name, line number, and terminating token."
 msgstr ""
+"Sebuah instance :class:`~netrc.netrc` atau instance subkelas mengenkapsulasi "
+"data dari sebuah berkas netrc. Argumen inisialisasi, jika ada, menentukan "
+"berkas yang akan diurai. Jika tidak ada argumen yang diberikan, "
+"berkas :file:`.netrc` di direktori home pengguna -- sebagaimana ditentukan "
+"oleh :func:`os.path.expanduser` -- akan dibaca. Jika tidak, "
+"eksepsi :exc:`FileNotFoundError` akan dimunculkan. Galat penguraian akan "
+"memunculkan :exc:`NetrcParseError` dengan informasi diagnostik termasuk nama "
+"berkas, nomor baris, dan token pemutus."
 
 msgid ""
 "If no argument is specified on a POSIX system, the presence of passwords in "
@@ -48,14 +59,24 @@ msgid ""
 "programs that use :file:`.netrc`. Such security checks are not available on "
 "platforms that do not support :func:`os.getuid`."
 msgstr ""
+"Jika tidak ada argumen yang ditentukan pada sistem POSIX, keberadaan kata "
+"sandi dalam berkas :file:`.netrc` akan memunculkan :exc:`NetrcParseError` "
+"jika kepemilikan atau izin berkas tidak aman (dimiliki oleh pengguna lain "
+"selain pengguna yang menjalankan proses, atau dapat diakses untuk dibaca "
+"atau ditulis oleh pengguna lain). Hal ini mengimplementasikan perilaku "
+"keamanan yang setara dengan ftp dan program lain yang "
+"menggunakan :file:`.netrc`. Pemeriksaan keamanan semacam itu tidak tersedia "
+"pada platform yang tidak mendukung :func:`os.getuid`."
 
 msgid "Added the POSIX permission check."
-msgstr ""
+msgstr "Menambahkan pemeriksaan izin POSIX."
 
 msgid ""
 ":func:`os.path.expanduser` is used to find the location of "
 "the :file:`.netrc` file when *file* is not passed as argument."
 msgstr ""
+":func:`os.path.expanduser` digunakan untuk menemukan lokasi "
+"berkas :file:`.netrc` ketika *file* tidak diberikan sebagai argumen."
 
 msgid ""
 ":class:`~netrc.netrc` try UTF-8 encoding before using locale specific "
@@ -65,27 +86,36 @@ msgid ""
 "whitespace and non-ASCII characters. If the login name is anonymous, it "
 "won't trigger the security check."
 msgstr ""
+":class:`~netrc.netrc` mencoba pengodean UTF-8 sebelum menggunakan pengodean "
+"spesifik locale. Entri dalam berkas netrc tidak lagi harus berisi semua "
+"token. Nilai token yang hilang secara default berupa string kosong. Semua "
+"token beserta nilainya kini dapat berisi karakter arbitrer, seperti "
+"whitespace dan karakter non-ASCII. Jika nama login adalah anonymous, "
+"pemeriksaan keamanan tidak akan dipicu."
 
 msgid ""
 "Exception raised by the :class:`~netrc.netrc` class when syntactical errors "
 "are encountered in source text.  Instances of this exception provide three "
 "interesting attributes:"
 msgstr ""
+"Eksepsi yang dimunculkan oleh kelas :class:`~netrc.netrc` ketika galat "
+"sintaksis ditemukan dalam teks sumber. Instance eksepsi ini menyediakan tiga "
+"atribut yang menarik:"
 
 msgid "Textual explanation of the error."
-msgstr ""
+msgstr "Penjelasan tekstual tentang galat."
 
 msgid "The name of the source file."
-msgstr ""
+msgstr "Nama berkas sumber."
 
 msgid "The line number on which the error was found."
-msgstr ""
+msgstr "Nomor baris tempat galat ditemukan."
 
 msgid "netrc Objects"
-msgstr ""
+msgstr "Objek netrc"
 
 msgid "A :class:`~netrc.netrc` instance has the following methods:"
-msgstr ""
+msgstr "Sebuah instance :class:`~netrc.netrc` memiliki metode-metode berikut:"
 
 msgid ""
 "Return a 3-tuple ``(login, account, password)`` of authenticators for "
@@ -93,19 +123,28 @@ msgid ""
 "return the tuple associated with the 'default' entry.  If neither matching "
 "host nor default entry is available, return ``None``."
 msgstr ""
+"Kembalikan 3-tuple ``(login, account, password)`` berisi autentikator untuk "
+"*host*. Jika berkas netrc tidak berisi entri untuk host yang diberikan, "
+"kembalikan tuple yang terkait dengan entri 'default'. Jika tidak ada host "
+"yang cocok maupun entri default yang tersedia, kembalikan ``None``."
 
 msgid ""
 "Dump the class data as a string in the format of a netrc file. (This "
 "discards comments and may reorder the entries.)"
 msgstr ""
+"Tulis data kelas sebagai string dalam format berkas netrc. (Hal ini membuang "
+"komentar dan dapat menyusun ulang entri.)"
 
 msgid "Instances of :class:`~netrc.netrc` have public instance variables:"
-msgstr ""
+msgstr "Instance :class:`~netrc.netrc` memiliki variabel instance publik:"
 
 msgid ""
 "Dictionary mapping host names to ``(login, account, password)`` tuples.  The "
 "'default' entry, if any, is represented as a pseudo-host by that name."
 msgstr ""
+"Dictionary yang memetakan nama host ke tuple ``(login, account, password)``. "
+"Entri 'default', jika ada, direpresentasikan sebagai pseudo-host dengan nama "
+"tersebut."
 
 msgid "Dictionary mapping macro names to string lists."
-msgstr ""
+msgstr "Dictionary yang memetakan nama makro ke daftar string."
