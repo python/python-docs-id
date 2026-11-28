@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,15 +20,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!xdrlib` --- Encode and decode XDR data"
-msgstr ""
+msgstr ":mod:`!xdrlib` --- Mengodekan dan mendekodekan data XDR"
 
 msgid ""
 "This module is no longer part of the Python standard library. It "
 "was :ref:`removed in Python 3.13 <whatsnew313-pep594>` after being "
 "deprecated in Python 3.11.  The removal was decided in :pep:`594`."
 msgstr ""
+"Modul ini bukan lagi bagian dari pustaka standar Python. Modul "
+"ini :ref:`dihapus pada Python 3.13 <whatsnew313-pep594>` setelah dinyatakan "
+"usang pada Python 3.11. Penghapusan ini ditetapkan dalam :pep:`594`."
 
 msgid ""
 "The last version of Python that provided the :mod:`!xdrlib` module was "
 "`Python 3.12 <https://docs.python.org/3.12/library/xdrlib.html>`_."
 msgstr ""
+"Versi terakhir Python yang menyediakan modul :mod:`!xdrlib` adalah `Python "
+"3.12 <https://docs.python.org/3.12/library/xdrlib.html>`_."
