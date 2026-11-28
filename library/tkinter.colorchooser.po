@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,10 +20,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ":mod:`!tkinter.colorchooser` --- Color choosing dialog"
-msgstr ""
+msgstr ":mod:`!tkinter.colorchooser` --- Dialog pemilihan warna"
 
 msgid "**Source code:** :source:`Lib/tkinter/colorchooser.py`"
-msgstr ""
+msgstr "**Kode sumber:** :source:`Lib/tkinter/colorchooser.py`"
 
 msgid ""
 "The :mod:`!tkinter.colorchooser` module provides the :class:`Chooser` class "
@@ -30,12 +31,19 @@ msgid ""
 "modal color choosing dialog window. The ``Chooser`` class inherits from "
 "the :class:`~tkinter.commondialog.Dialog` class."
 msgstr ""
+"Modul :mod:`!tkinter.colorchooser` menyediakan kelas :class:`Chooser` "
+"sebagai antarmuka ke dialog pemilih warna native. ``Chooser`` "
+"mengimplementasikan jendela dialog pemilihan warna modal. Kelas ``Chooser`` "
+"mewarisi dari kelas :class:`~tkinter.commondialog.Dialog`."
 
 msgid ""
 "The class implementing the modal color-choosing dialog. Most applications "
 "use the :func:`askcolor` convenience function rather than instantiating this "
 "class directly."
 msgstr ""
+"Kelas yang mengimplementasikan dialog pemilihan warna modal. Sebagian besar "
+"aplikasi menggunakan fungsi convenience :func:`askcolor` daripada "
+"menginstansiasi kelas ini secara langsung."
 
 msgid ""
 "Show a modal color-choosing dialog and return the chosen color. *color* is "
@@ -45,14 +53,23 @@ msgid ""
 "color string, such as ``'#ff8000'``. If the user cancels the dialog, "
 "``(None, None)`` is returned."
 msgstr ""
+"Menampilkan dialog pemilihan warna modal dan mengembalikan warna yang "
+"dipilih. *color* adalah warna yang dipilih saat dialog dibuka. Nilai "
+"kembaliannya adalah sebuah tuple ``((r, g, b), hexstr)``, dengan ``r``, "
+"``g``, dan ``b`` adalah komponen merah, hijau, dan biru sebagai bilangan "
+"bulat dalam rentang 0–255 dan *hexstr* adalah string warna Tk yang setara, "
+"seperti ``'#ff8000'``. Jika pengguna membatalkan dialog, ``(None, None)`` "
+"dikembalikan."
 
 msgid ""
 "The RGB values in the returned color are now integers in the range 0–255 "
 "instead of floats."
 msgstr ""
+"Nilai RGB dalam warna yang dikembalikan kini berupa bilangan bulat dalam "
+"rentang 0–255, bukan float."
 
 msgid "Module :mod:`tkinter.commondialog`"
-msgstr ""
+msgstr "Modul :mod:`tkinter.commondialog`"
 
 msgid "Tkinter standard dialog module"
-msgstr ""
+msgstr "Modul dialog standar Tkinter"
