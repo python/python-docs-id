@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,71 +20,93 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Security Considerations"
-msgstr ""
+msgstr "Pertimbangan Keamanan"
 
 msgid "The following modules have specific security considerations:"
-msgstr ""
+msgstr "Modul-modul berikut memiliki pertimbangan keamanan tertentu:"
 
 msgid ""
 ":mod:`base64`: :ref:`base64 security considerations <base64-security>` "
 "in :rfc:`4648`"
 msgstr ""
+":mod:`base64`: :ref:`pertimbangan keamanan base64 <base64-security>` "
+"dalam :rfc:`4648`"
 
 msgid ""
 ":mod:`hashlib`: :ref:`all constructors take a \"usedforsecurity\" keyword-"
 "only argument disabling known insecure and blocked algorithms <hashlib-"
 "usedforsecurity>`"
 msgstr ""
+":mod:`hashlib`: :ref:`semua konstruktor menerima argumen keyword-only "
+"\"usedforsecurity\" yang menonaktifkan algoritma yang diketahui tidak aman "
+"dan diblokir <hashlib-usedforsecurity>`"
 
 msgid ""
 ":mod:`http.server` is not suitable for production use, only implementing "
 "basic security checks. See the :ref:`security considerations <http.server-"
 "security>`."
 msgstr ""
+":mod:`http.server` tidak cocok untuk digunakan di lingkungan produksi, dan "
+"hanya mengimplementasikan pemeriksaan keamanan dasar. "
+"Lihat :ref:`pertimbangan keamanan <http.server-security>`."
 
 msgid ""
 ":mod:`logging`: :ref:`Logging configuration uses eval() <logging-eval-"
 "security>`"
 msgstr ""
+":mod:`logging`: :ref:`Konfigurasi logging menggunakan eval() <logging-eval-"
+"security>`"
 
 msgid ""
 ":mod:`multiprocessing`: :ref:`Connection.recv() uses pickle <multiprocessing-"
 "recv-pickle-security>`"
 msgstr ""
+":mod:`multiprocessing`: :ref:`Connection.recv() menggunakan pickle "
+"<multiprocessing-recv-pickle-security>`"
 
 msgid ":mod:`pickle`: :ref:`Restricting globals in pickle <pickle-restrict>`"
-msgstr ""
+msgstr ":mod:`pickle`: :ref:`Membatasi global dalam pickle <pickle-restrict>`"
 
 msgid ""
 ":mod:`random` shouldn't be used for security purposes, use :mod:`secrets` "
 "instead"
 msgstr ""
+":mod:`random` sebaiknya tidak digunakan untuk keperluan keamanan, "
+"gunakan :mod:`secrets` sebagai gantinya"
 
 msgid ""
 ":mod:`shelve`: :ref:`shelve is based on pickle and thus unsuitable for "
 "dealing with untrusted sources <shelve-security>`"
 msgstr ""
+":mod:`shelve`: :ref:`shelve berbasis pickle sehingga tidak cocok untuk "
+"menangani sumber yang tidak tepercaya <shelve-security>`"
 
 msgid ":mod:`ssl`: :ref:`SSL/TLS security considerations <ssl-security>`"
-msgstr ""
+msgstr ":mod:`ssl`: :ref:`Pertimbangan keamanan SSL/TLS <ssl-security>`"
 
 msgid ""
 ":mod:`subprocess`: :ref:`Subprocess security considerations <subprocess-"
 "security>`"
 msgstr ""
+":mod:`subprocess`: :ref:`Pertimbangan keamanan Subprocess <subprocess-"
+"security>`"
 
 msgid ""
 ":mod:`tempfile`: :ref:`mktemp is deprecated due to vulnerability to race "
 "conditions <tempfile-mktemp-deprecated>`"
 msgstr ""
+":mod:`tempfile`: :ref:`mktemp sudah usang karena rentan terhadap kondisi "
+"balapan <tempfile-mktemp-deprecated>`"
 
 msgid ":mod:`xml`: :ref:`XML security <xml-security>`"
-msgstr ""
+msgstr ":mod:`xml`: :ref:`Keamanan XML <xml-security>`"
 
 msgid ""
 ":mod:`zipfile`: :ref:`maliciously prepared .zip files can cause disk volume "
 "exhaustion <zipfile-resources-limitations>`"
 msgstr ""
+":mod:`zipfile`: :ref:`berkas .zip yang disiapkan secara berbahaya dapat "
+"menyebabkan kehabisan volume disk <zipfile-resources-limitations>`"
 
 msgid ""
 "The :option:`-I` command line option can be used to run Python in isolated "
@@ -92,6 +115,12 @@ msgid ""
 "a potentially unsafe path to :data:`sys.path` such as the current directory, "
 "the script's directory or an empty string."
 msgstr ""
+"Opsi baris perintah :option:`-I` dapat digunakan untuk menjalankan Python "
+"dalam mode terisolasi. Jika opsi tersebut tidak dapat digunakan, "
+"opsi :option:`-P` atau variabel lingkungan :envvar:`PYTHONSAFEPATH` dapat "
+"digunakan untuk tidak menambahkan path yang berpotensi tidak aman di "
+"awal :data:`sys.path`, seperti direktori saat ini, direktori skrip, atau "
+"string kosong."
 
 msgid "security considerations"
-msgstr ""
+msgstr "pertimbangan keamanan"
