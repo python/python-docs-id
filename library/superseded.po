@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,13 +20,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Superseded modules"
-msgstr ""
+msgstr "Modul yang telah digantikan"
 
 msgid ""
 "The modules described in this chapter have been superseded by other modules "
 "for most use cases, and are retained primarily to preserve backwards "
 "compatibility."
 msgstr ""
+"Modul-modul yang dijelaskan dalam bab ini telah digantikan oleh modul lain "
+"untuk sebagian besar kasus penggunaan, dan dipertahankan terutama untuk "
+"menjaga kompatibilitas mundur."
 
 msgid ""
 "Modules may appear in this chapter because they only cover a limited subset "
@@ -35,6 +39,12 @@ msgid ""
 "rather than the broader command line option parsing and argument parsing "
 "capabilities offered by :mod:`optparse` and :mod:`argparse`)."
 msgstr ""
+"Modul dapat muncul dalam bab ini karena hanya mencakup sebagian kecil dari "
+"sebuah ruang masalah, dan tersedia solusi yang lebih umum di tempat lain "
+"dalam pustaka standar (misalnya, :mod:`getopt` mencakup tugas yang sangat "
+"spesifik yaitu \"meniru API :c:func:`!getopt` C dalam Python\", bukan "
+"kemampuan penguraian opsi baris perintah dan penguraian argumen yang lebih "
+"luas yang ditawarkan oleh :mod:`optparse` dan :mod:`argparse`)."
 
 msgid ""
 "Alternatively, modules may appear in this chapter because they are "
@@ -43,3 +53,8 @@ msgid ""
 "projects. With the removal of various obsolete modules through :pep:`594`, "
 "there are currently no modules in this latter category."
 msgstr ""
+"Sebagai alternatif, modul dapat muncul dalam bab ini karena modul tersebut "
+"memang sudah usang, dan menunggu penghapusan dalam rilis mendatang, atau "
+"modul tersebut :term:`soft deprecated` dan penggunaannya secara aktif tidak "
+"dianjurkan dalam proyek baru. Dengan penghapusan berbagai modul usang "
+"melalui :pep:`594`, saat ini tidak ada modul dalam kategori terakhir ini."
