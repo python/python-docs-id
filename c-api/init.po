@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,25 +20,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Initialization, finalization, and threads"
-msgstr ""
+msgstr "Inisialisasi, finalisasi, dan thread"
 
 msgid "This page has been split up into the following:"
-msgstr ""
+msgstr "Halaman ini telah dibagi menjadi bagian-bagian berikut:"
 
 msgid ":ref:`initialization`"
-msgstr ""
+msgstr ":ref:`initialization`"
 
 msgid ":ref:`threads`"
-msgstr ""
+msgstr ":ref:`threads`"
 
 msgid ":ref:`synchronization`"
-msgstr ""
+msgstr ":ref:`synchronization`"
 
 msgid ":ref:`thread-local-storage`"
-msgstr ""
+msgstr ":ref:`thread-local-storage`"
 
 msgid ":ref:`sub-interpreter-support`"
-msgstr ""
+msgstr ":ref:`sub-interpreter-support`"
 
 msgid ":ref:`profiling`"
-msgstr ""
+msgstr ":ref:`profiling`"
