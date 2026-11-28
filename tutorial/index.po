@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 # Translators:
 # python-doc bot, 2025
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-11 20:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"Last-Translator: Rezha Julio <contact@rezhajulio.id>\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +31,8 @@ msgid ""
 "This tutorial is designed for *programmers* that are new to the Python "
 "language, **not** *beginners* who are new to programming."
 msgstr ""
+"Tutorial ini dirancang untuk *pemrogram* yang baru mengenal bahasa Python, "
+"**bukan** *pemula* yang baru belajar pemrograman."
 
 msgid ""
 "Python is an easy to learn, powerful programming language. It has efficient "
@@ -52,6 +55,12 @@ msgid ""
 "site also contains distributions of and pointers to many free third party "
 "Python modules, programs and tools, and additional documentation."
 msgstr ""
+"Interpreter Python dan pustaka standarnya yang luas tersedia secara gratis "
+"dalam bentuk sumber atau biner untuk semua platform utama di situs web "
+"Python, https://www.python.org/, dan boleh didistribusikan dengan bebas. "
+"Situs yang sama juga memuat distribusi dan petunjuk ke banyak modul, "
+"program, dan alat Python pihak ketiga yang gratis, serta dokumentasi "
+"tambahan."
 
 msgid ""
 "The Python interpreter is easily extended with new functions and data types "
@@ -70,6 +79,12 @@ msgid ""
 "Python interpreter handy for hands-on experience, but all examples are self-"
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
+"Tutorial ini memperkenalkan konsep dasar dan fitur bahasa serta sistem "
+"Python kepada pembaca secara informal. Perlu diingat bahwa tutorial ini "
+"mengharapkan Anda memiliki pemahaman dasar tentang pemrograman secara umum. "
+"Akan membantu jika Anda menyiapkan interpreter Python untuk praktik "
+"langsung, tetapi semua contoh bersifat mandiri, sehingga tutorial ini juga "
+"dapat dibaca secara luring."
 
 msgid ""
 "For a description of standard objects and modules, see :ref:`builtins-index` "
@@ -78,6 +93,11 @@ msgid ""
 "read :ref:`extending-index` and :ref:`c-api-index`. There are also several "
 "books covering Python in depth."
 msgstr ""
+"Untuk deskripsi objek dan modul standar, lihat :ref:`builtins-index` "
+"dan :ref:`library-index`. :ref:`reference-index` memberikan definisi bahasa "
+"yang lebih formal. Untuk menulis ekstensi dalam C atau C++, "
+"baca :ref:`extending-index` dan :ref:`c-api-index`. Ada juga beberapa buku "
+"yang membahas Python secara mendalam."
 
 msgid ""
 "This tutorial does not attempt to be comprehensive and cover every single "
