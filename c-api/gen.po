@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,35 +20,46 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Generator Objects"
-msgstr ""
+msgstr "Objek Generator"
 
 msgid ""
 "Generator objects are what Python uses to implement generator iterators. "
 "They are normally created by calling a generator function, rather than "
 "explicitly calling :c:func:`PyGen_New` or :c:func:`PyGen_NewWithQualName`."
 msgstr ""
+"Objek generator adalah apa yang digunakan Python untuk mengimplementasikan "
+"iterator generator. Objek-objek tersebut biasanya dibuat dengan memanggil "
+"sebuah fungsi generator, bukan dengan secara eksplisit "
+"memanggil :c:func:`PyGen_New` atau :c:func:`PyGen_NewWithQualName`."
 
 msgid "The C structure used for generator objects."
-msgstr ""
+msgstr "Struktur C yang digunakan untuk objek generator."
 
 msgid "The type object corresponding to generator objects."
-msgstr ""
+msgstr "Objek tipe yang sesuai dengan objek generator."
 
 msgid ""
 "Return true if *ob* is a generator object; *ob* must not be ``NULL``.  This "
 "function always succeeds."
 msgstr ""
+"Mengembalikan true jika *ob* adalah objek generator; *ob* tidak boleh "
+"``NULL``. Fungsi ini selalu berhasil."
 
 msgid ""
 "Return true if *ob*'s type is :c:type:`PyGen_Type`; *ob* must not be "
 "``NULL``.  This function always succeeds."
 msgstr ""
+"Mengembalikan true jika tipe *ob* adalah :c:type:`PyGen_Type`; *ob* tidak "
+"boleh ``NULL``. Fungsi ini selalu berhasil."
 
 msgid ""
 "Create and return a new generator object based on the *frame* object. A "
 "reference to *frame* is \":term:`stolen <steal>`\" by this function (even on "
 "error). The argument must not be ``NULL``."
 msgstr ""
+"Membuat dan mengembalikan objek generator baru berdasarkan objek *frame*. "
+"Referensi ke *frame* \":term:`dicuri <steal>`\" oleh fungsi ini (bahkan saat "
+"terjadi galat). Argumen tersebut tidak boleh ``NULL``."
 
 msgid ""
 "Create and return a new generator object based on the *frame* object, with "
@@ -55,45 +67,63 @@ msgid ""
 "to *frame* is \":term:`stolen <steal>`\" by this function (even on error).  "
 "The *frame* argument must not be ``NULL``."
 msgstr ""
+"Membuat dan mengembalikan objek generator baru berdasarkan objek *frame*, "
+"dengan ``__name__`` dan ``__qualname__`` diatur ke *name* dan *qualname*. "
+"Referensi ke *frame* \":term:`dicuri <steal>`\" oleh fungsi ini (bahkan saat "
+"terjadi galat). Argumen *frame* tidak boleh ``NULL``."
 
 msgid ""
 "Return a new :term:`strong reference` to the code object wrapped by *gen*. "
 "This function always succeeds."
 msgstr ""
+"Mengembalikan :term:`strong reference` baru ke objek kode yang dibungkus "
+"oleh *gen*. Fungsi ini selalu berhasil."
 
 msgid "Asynchronous Generator Objects"
-msgstr ""
+msgstr "Objek Generator Asinkron"
 
 msgid ":pep:`525`"
-msgstr ""
+msgstr ":pep:`525`"
 
 msgid ""
 "The type object corresponding to asynchronous generator objects. This is "
 "available as :class:`types.AsyncGeneratorType` in the Python layer."
 msgstr ""
+"Objek tipe yang sesuai dengan objek generator asinkron. Objek ini tersedia "
+"sebagai :class:`types.AsyncGeneratorType` pada lapisan Python."
 
 msgid ""
 "Create a new asynchronous generator wrapping *frame*, with ``__name__`` and "
 "``__qualname__`` set to *name* and *qualname*. *frame* is \":term:`stolen "
 "<steal>`\" by this function (even on error) and must not be ``NULL``."
 msgstr ""
+"Membuat generator asinkron baru yang membungkus *frame*, dengan ``__name__`` "
+"dan ``__qualname__`` diatur ke *name* dan *qualname*. *frame* "
+"\":term:`dicuri <steal>`\" oleh fungsi ini (bahkan saat terjadi galat) dan "
+"tidak boleh ``NULL``."
 
 msgid ""
 "On success, this function returns a :term:`strong reference` to the new "
 "asynchronous generator. On failure, this function returns ``NULL`` with an "
 "exception set."
 msgstr ""
+"Jika berhasil, fungsi ini mengembalikan :term:`strong reference` ke "
+"generator asinkron yang baru. Jika gagal, fungsi ini mengembalikan ``NULL`` "
+"dengan sebuah eksepsi yang diatur."
 
 msgid ""
 "Return true if *op* is an asynchronous generator object, false otherwise. "
 "This function always succeeds."
 msgstr ""
+"Mengembalikan true jika *op* adalah objek generator asinkron, dan false jika "
+"bukan. Fungsi ini selalu berhasil."
 
 msgid "Deprecated API"
-msgstr ""
+msgstr "API Usang"
 
 msgid "This is an API that was included in Python's C API by mistake."
-msgstr ""
+msgstr "API ini disertakan dalam C API Python karena kesalahan."
 
 msgid "It is solely here for completeness; do not use this API."
 msgstr ""
+"API ini semata-mata ada di sini demi kelengkapan; jangan gunakan API ini."
