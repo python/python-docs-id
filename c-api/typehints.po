@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 #, fuzzy
 msgid ""
@@ -19,13 +20,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Objects for Type Hinting"
-msgstr ""
+msgstr "Objek untuk Petunjuk Tipe"
 
 msgid ""
 "Various built-in types for type hinting are provided.  Currently, two types "
 "exist -- :ref:`GenericAlias <types-genericalias>` and :ref:`Union <types-"
 "union>`.  Only ``GenericAlias`` is exposed to C."
 msgstr ""
+"Berbagai tipe bawaan untuk petunjuk tipe disediakan. Saat ini, ada dua tipe "
+"-- :ref:`GenericAlias <types-genericalias>` dan :ref:`Union <types-union>`. "
+"Hanya ``GenericAlias`` yang diekspos ke C."
 
 msgid ""
 "Create a :ref:`GenericAlias <types-genericalias>` object. Equivalent to "
@@ -40,9 +44,21 @@ msgid ""
 "attribute is constructed lazily from ``__args__``.  On failure, an exception "
 "is raised and ``NULL`` is returned."
 msgstr ""
+"Buat sebuah objek :ref:`GenericAlias <types-genericalias>`. Setara dengan "
+"memanggil kelas Python :class:`types.GenericAlias`. Argumen *origin* dan "
+"*args* mengatur atribut ``__origin__`` dan ``__args__`` dari "
+"``GenericAlias`` masing-masing. *origin* harus "
+"berupa :c:expr:`PyTypeObject*`, dan *args* dapat "
+"berupa :c:expr:`PyTupleObject*` atau ``PyObject*`` apa pun. Jika *args* yang "
+"diteruskan bukan sebuah tuple, sebuah 1-tuple akan dibuat secara otomatis "
+"dan ``__args__`` diatur ke ``(args,)``. Pemeriksaan yang dilakukan terhadap "
+"argumen sangat minimal, sehingga fungsi ini akan berhasil meskipun *origin* "
+"bukan sebuah tipe. Atribut ``__parameters__`` dari ``GenericAlias`` dibuat "
+"secara lazy dari ``__args__``. Jika gagal, sebuah eksepsi dimunculkan dan "
+"``NULL`` dikembalikan."
 
 msgid "Here's an example of how to make an extension type generic::"
-msgstr ""
+msgstr "Berikut contoh cara membuat sebuah tipe ekstensi menjadi generik::"
 
 msgid ""
 "...\n"
@@ -54,11 +70,21 @@ msgid ""
 "    ...\n"
 "}"
 msgstr ""
+"...\n"
+"static PyMethodDef my_obj_methods[] = {\n"
+"    // Other methods.\n"
+"    ...\n"
+"    {\"__class_getitem__\", Py_GenericAlias, METH_O|METH_CLASS, \"my_obj is "
+"generic over its contained type\"}\n"
+"    ...\n"
+"}"
 
 msgid "The data model method :meth:`~object.__class_getitem__`."
-msgstr ""
+msgstr "Metode model data :meth:`~object.__class_getitem__`."
 
 msgid ""
 "The C type of the object returned by :c:func:`Py_GenericAlias`. Equivalent "
 "to :class:`types.GenericAlias` in Python."
 msgstr ""
+"Tipe C dari objek yang dikembalikan oleh :c:func:`Py_GenericAlias`. Setara "
+"dengan :class:`types.GenericAlias` di Python."
