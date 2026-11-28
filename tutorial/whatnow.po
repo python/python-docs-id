@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Rezha Julio <contact@rezhajulio.id>, 2026.
+# Herpiko Dwi Aguno <herpiko@gmail.com>, 2026.
 #
 # Translators:
 # python-doc bot, 2025
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-11 20:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Hengky Kurniawan, 2025\n"
+"Last-Translator: Rezha Julio <contact@rezhajulio.id>\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +48,8 @@ msgid ""
 ":ref:`builtins-index`: gives details about Python's built-in types and "
 "functions."
 msgstr ""
+":ref:`builtins-index`: memberikan rincian tentang tipe dan fungsi bawaan "
+"Python."
 
 msgid ""
 ":ref:`library-index`: gives complete (though terse) reference material about "
@@ -57,6 +60,13 @@ msgid ""
 "Skimming through the Library Reference will give you an idea of what's "
 "available."
 msgstr ""
+":ref:`library-index`: memberikan referensi lengkap (meski ringkas) tentang "
+"tipe, fungsi, dan modul di pustaka standar. Distribusi Python standar "
+"menyertakan *banyak* kode tambahan. Ada modul untuk membaca kotak surel "
+"Unix, mengambil dokumen lewat HTTP, menghasilkan bilangan acak, mengurai "
+"opsi baris perintah, memampatkan data, dan banyak tugas lainnya. Membaca "
+"sekilas Referensi Pustaka akan memberi Anda gambaran tentang apa saja yang "
+"tersedia."
 
 msgid ""
 ":ref:`installing-index` explains how to install additional modules written "
@@ -81,6 +91,8 @@ msgid ""
 "https://www.python.org:  The major Python website.  It contains code, "
 "documentation, and pointers to Python-related pages around the web."
 msgstr ""
+"https://www.python.org: Situs web utama Python. Berisi kode, dokumentasi, "
+"dan petunjuk ke halaman-halaman terkait Python di seluruh web."
 
 msgid "https://docs.python.org:  Fast access to Python's  documentation."
 msgstr "https://docs.python.org: Akses cepat ke dokumentasi Python."
@@ -112,6 +124,8 @@ msgid ""
 "https://pyvideo.org collects links to Python-related videos from conferences "
 "and user-group meetings."
 msgstr ""
+"https://pyvideo.org mengumpulkan tautan ke video terkait Python dari "
+"konferensi dan pertemuan kelompok pengguna."
 
 msgid ""
 "https://scipy.org: The Scientific Python project includes modules for fast "
@@ -159,3 +173,5 @@ msgid ""
 "\"Cheese Shop\" is a Monty Python sketch: a customer enters a cheese shop, "
 "but whatever cheese he asks for, the clerk says it's missing."
 msgstr ""
+"\"Cheese Shop\" adalah sketsa Monty Python: seorang pelanggan masuk ke toko "
+"keju, tetapi keju apa pun yang dia minta, penjualnya selalu bilang kehabisan."
